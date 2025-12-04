@@ -1,5 +1,4 @@
 resource "aws_network_interface" "tf-sample-network-interface" {
-  arn                       = ""
   description               = ""
   enable_primary_ipv6       = false
   interface_type            = ""
@@ -11,10 +10,6 @@ resource "aws_network_interface" "tf-sample-network-interface" {
   ipv6_addresses            = []
   ipv6_prefix_count         = 0
   ipv6_prefixes             = []
-  mac_address               = ""
-  outpost_arn               = ""
-  owner_id                  = ""
-  private_dns_name          = ""
   private_ip                = ""
   private_ip_list           = []
   private_ip_list_enabled   = false

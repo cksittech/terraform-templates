@@ -1,12 +1,9 @@
 resource "aws_route53_resolver_rule" "tf-sample-route53-resolver-rule" {
-  arn                  = ""
   domain_name          = ""
   name                 = ""
-  owner_id             = ""
   region               = ""
   resolver_endpoint_id = ""
   rule_type            = ""
-  share_status         = ""
   
   target_ip {}
   

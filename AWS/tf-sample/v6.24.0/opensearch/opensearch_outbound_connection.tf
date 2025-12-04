@@ -2,7 +2,6 @@ resource "aws_opensearch_outbound_connection" "tf-sample-opensearch-outbound-con
   accept_connection = false
   connection_alias  = ""
   connection_mode   = ""
-  connection_status = ""
   region            = ""
   
   connection_properties {}

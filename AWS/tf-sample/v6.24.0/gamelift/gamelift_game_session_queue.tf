@@ -1,5 +1,4 @@
 resource "aws_gamelift_game_session_queue" "tf-sample-gamelift-game-session-queue" {
-  arn                 = ""
   custom_event_data   = ""
   destinations        = []
   name                = ""

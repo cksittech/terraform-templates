@@ -1,8 +1,5 @@
 resource "aws_ec2_transit_gateway_connect_peer" "tf-sample-ec2-transit-gateway-connect-peer" {
-  arn                           = ""
   bgp_asn                       = ""
-  bgp_peer_address              = ""
-  bgp_transit_gateway_addresses = []
   inside_cidr_blocks            = []
   peer_address                  = ""
   region                        = ""

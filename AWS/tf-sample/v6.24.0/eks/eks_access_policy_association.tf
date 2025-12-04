@@ -1,7 +1,5 @@
 resource "aws_eks_access_policy_association" "tf-sample-eks-access-policy-association" {
-  associated_at = ""
   cluster_name  = ""
-  modified_at   = ""
   policy_arn    = ""
   principal_arn = ""
   region        = ""

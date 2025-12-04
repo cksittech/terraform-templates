@@ -1,26 +1,15 @@
 resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   aliases                         = []
   anycast_ip_list_id              = ""
-  arn                             = ""
-  caller_reference                = ""
   comment                         = ""
   continuous_deployment_policy_id = ""
   default_root_object             = ""
-  domain_name                     = ""
   enabled                         = false
-  etag                            = ""
-  hosted_zone_id                  = ""
   http_version                    = ""
-  in_progress_validation_batches  = 0
   is_ipv6_enabled                 = false
-  last_modified_time              = ""
-  logging_v1_enabled              = false
   price_class                     = ""
   retain_on_delete                = false
   staging                         = false
-  status                          = ""
-  trusted_key_groups              = []
-  trusted_signers                 = []
   wait_for_deployment             = false
   web_acl_id                      = ""
   

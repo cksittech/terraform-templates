@@ -3,5 +3,4 @@ resource "aws_cloud9_environment_membership" "tf-sample-cloud9-environment-membe
   permissions    = ""
   region         = ""
   user_arn       = ""
-  user_id        = ""
 }

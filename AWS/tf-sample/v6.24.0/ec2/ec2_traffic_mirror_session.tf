@@ -1,8 +1,6 @@
 resource "aws_ec2_traffic_mirror_session" "tf-sample-ec2-traffic-mirror-session" {
-  arn                      = ""
   description              = ""
   network_interface_id     = ""
-  owner_id                 = ""
   packet_length            = 0
   region                   = ""
   session_number           = 0

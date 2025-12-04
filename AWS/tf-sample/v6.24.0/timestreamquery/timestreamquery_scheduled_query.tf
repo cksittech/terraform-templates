@@ -1,15 +1,9 @@
 resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-scheduled-query" {
-  arn                      = ""
-  creation_time            = ""
-  execution_role_arn       = ""
-  kms_key_id               = ""
-  name                     = ""
-  next_invocation_time     = ""
-  previous_invocation_time = ""
-  query_string             = ""
-  region                   = ""
-  state                    = ""
-  tags_all                 = {}
+  execution_role_arn = ""
+  kms_key_id         = ""
+  name               = ""
+  query_string       = ""
+  region             = ""
   
   error_report_configuration {}
   last_run_summary {}

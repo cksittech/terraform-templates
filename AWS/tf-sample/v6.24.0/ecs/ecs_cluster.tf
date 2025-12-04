@@ -1,5 +1,4 @@
 resource "aws_ecs_cluster" "tf-sample-ecs-cluster" {
-  arn    = ""
   name   = ""
   region = ""
   

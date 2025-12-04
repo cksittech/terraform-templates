@@ -2,7 +2,6 @@ resource "aws_serverlessapplicationrepository_cloudformation_stack" "tf-sample-s
   application_id   = ""
   capabilities     = []
   name             = ""
-  outputs          = {}
   parameters       = {}
   region           = ""
   semantic_version = ""

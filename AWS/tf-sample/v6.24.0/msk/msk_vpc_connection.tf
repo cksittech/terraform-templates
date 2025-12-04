@@ -1,5 +1,4 @@
 resource "aws_msk_vpc_connection" "tf-sample-msk-vpc-connection" {
-  arn                = ""
   authentication     = ""
   client_subnets     = []
   region             = ""

@@ -2,7 +2,6 @@ resource "aws_bedrockagent_agent_knowledge_base_association" "tf-sample-bedrocka
   agent_id             = ""
   agent_version        = ""
   description          = ""
-  id                   = ""
   knowledge_base_id    = ""
   knowledge_base_state = ""
   region               = ""

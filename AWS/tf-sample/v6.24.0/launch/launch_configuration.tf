@@ -1,5 +1,4 @@
 resource "aws_launch_configuration" "tf-sample-launch-configuration" {
-  arn                         = ""
   associate_public_ip_address = false
   ebs_optimized               = false
   enable_monitoring           = false

@@ -3,7 +3,6 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   alarm_actions                         = []
   alarm_description                     = ""
   alarm_name                            = ""
-  arn                                   = ""
   comparison_operator                   = ""
   datapoints_to_alarm                   = 0
   dimensions                            = {}

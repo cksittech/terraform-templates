@@ -1,11 +1,8 @@
 resource "aws_workspacesweb_network_settings" "tf-sample-workspacesweb-network-settings" {
-  associated_portal_arns = []
-  network_settings_arn   = ""
-  region                 = ""
-  security_group_ids     = []
-  subnet_ids             = []
-  tags_all               = {}
-  vpc_id                 = ""
+  region             = ""
+  security_group_ids = []
+  subnet_ids         = []
+  vpc_id             = ""
   
   tags = {}
 }

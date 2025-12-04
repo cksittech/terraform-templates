@@ -1,5 +1,4 @@
 resource "aws_glue_crawler" "tf-sample-glue-crawler" {
-  arn                    = ""
   classifiers            = []
   configuration          = ""
   database_name          = ""

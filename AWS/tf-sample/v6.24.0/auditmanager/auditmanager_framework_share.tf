@@ -3,7 +3,5 @@ resource "aws_auditmanager_framework_share" "tf-sample-auditmanager-framework-sh
   destination_account = ""
   destination_region  = ""
   framework_id        = ""
-  id                  = ""
   region              = ""
-  status              = ""
 }

@@ -1,6 +1,4 @@
 resource "aws_ses_configuration_set" "tf-sample-ses-configuration-set" {
-  arn                        = ""
-  last_fresh_start           = ""
   name                       = ""
   region                     = ""
   reputation_metrics_enabled = false

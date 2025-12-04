@@ -1,5 +1,4 @@
 resource "aws_autoscaling_schedule" "tf-sample-autoscaling-schedule" {
-  arn                    = ""
   autoscaling_group_name = ""
   desired_capacity       = 0
   end_time               = ""

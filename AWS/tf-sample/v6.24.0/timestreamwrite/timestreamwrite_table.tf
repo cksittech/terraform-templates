@@ -1,5 +1,4 @@
 resource "aws_timestreamwrite_table" "tf-sample-timestreamwrite-table" {
-  arn           = ""
   database_name = ""
   region        = ""
   table_name    = ""

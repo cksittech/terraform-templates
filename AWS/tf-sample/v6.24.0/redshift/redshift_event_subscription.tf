@@ -1,6 +1,4 @@
 resource "aws_redshift_event_subscription" "tf-sample-redshift-event-subscription" {
-  arn              = ""
-  customer_aws_id  = ""
   enabled          = false
   event_categories = []
   name             = ""
@@ -9,7 +7,6 @@ resource "aws_redshift_event_subscription" "tf-sample-redshift-event-subscriptio
   sns_topic_arn    = ""
   source_ids       = []
   source_type      = ""
-  status           = ""
   
   tags = {}
 }

@@ -1,6 +1,4 @@
 resource "aws_msk_replicator" "tf-sample-msk-replicator" {
-  arn                        = ""
-  current_version            = ""
   description                = ""
   region                     = ""
   replicator_name            = ""

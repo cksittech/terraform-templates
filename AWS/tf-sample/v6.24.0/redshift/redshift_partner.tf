@@ -4,6 +4,4 @@ resource "aws_redshift_partner" "tf-sample-redshift-partner" {
   database_name      = ""
   partner_name       = ""
   region             = ""
-  status             = ""
-  status_message     = ""
 }

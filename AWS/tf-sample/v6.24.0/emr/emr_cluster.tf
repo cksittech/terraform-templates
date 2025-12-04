@@ -1,9 +1,7 @@
 resource "aws_emr_cluster" "tf-sample-emr-cluster" {
   additional_info                   = ""
   applications                      = []
-  arn                               = ""
   autoscaling_role                  = ""
-  cluster_state                     = ""
   configurations                    = ""
   configurations_json               = ""
   custom_ami_id                     = ""
@@ -12,7 +10,6 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
   list_steps_states                 = []
   log_encryption_kms_key_id         = ""
   log_uri                           = ""
-  master_public_dns                 = ""
   name                              = ""
   os_release_label                  = ""
   placement_group_config            = []

@@ -5,5 +5,4 @@ resource "aws_codeartifact_repository_permissions_policy" "tf-sample-codeartifac
   policy_revision = ""
   region          = ""
   repository      = ""
-  resource_arn    = ""
 }

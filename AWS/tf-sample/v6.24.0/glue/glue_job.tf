@@ -1,5 +1,4 @@
 resource "aws_glue_job" "tf-sample-glue-job" {
-  arn                       = ""
   connections               = []
   default_arguments         = {}
   description               = ""

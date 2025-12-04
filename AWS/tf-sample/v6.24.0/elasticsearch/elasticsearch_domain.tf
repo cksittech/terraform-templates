@@ -1,12 +1,8 @@
 resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
   access_policies       = ""
   advanced_options      = {}
-  arn                   = ""
-  domain_id             = ""
   domain_name           = ""
   elasticsearch_version = ""
-  endpoint              = ""
-  kibana_endpoint       = ""
   region                = ""
   
   advanced_security_options {}

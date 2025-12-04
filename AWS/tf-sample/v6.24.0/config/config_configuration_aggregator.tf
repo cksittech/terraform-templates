@@ -1,5 +1,4 @@
 resource "aws_config_configuration_aggregator" "tf-sample-config-configuration-aggregator" {
-  arn    = ""
   name   = ""
   region = ""
   

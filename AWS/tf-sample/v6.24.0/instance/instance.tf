@@ -1,6 +1,5 @@
 resource "aws_instance" "tf-sample-instance" {
   ami                                  = ""
-  arn                                  = ""
   associate_public_ip_address          = false
   availability_zone                    = ""
   disable_api_stop                     = false
@@ -14,28 +13,19 @@ resource "aws_instance" "tf-sample-instance" {
   host_resource_group_arn              = ""
   iam_instance_profile                 = ""
   instance_initiated_shutdown_behavior = ""
-  instance_lifecycle                   = ""
-  instance_state                       = ""
   instance_type                        = ""
   ipv6_address_count                   = 0
   ipv6_addresses                       = []
   key_name                             = ""
   monitoring                           = false
-  outpost_arn                          = ""
-  password_data                        = ""
   placement_group                      = ""
   placement_group_id                   = ""
   placement_partition_number           = 0
-  primary_network_interface_id         = ""
-  private_dns                          = ""
   private_ip                           = ""
-  public_dns                           = ""
-  public_ip                            = ""
   region                               = ""
   secondary_private_ips                = []
   security_groups                      = []
   source_dest_check                    = false
-  spot_instance_request_id             = ""
   subnet_id                            = ""
   tenancy                              = ""
   user_data                            = ""

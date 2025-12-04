@@ -3,5 +3,4 @@ resource "aws_bedrock_guardrail_version" "tf-sample-bedrock-guardrail-version" {
   guardrail_arn = ""
   region        = ""
   skip_destroy  = false
-  version       = ""
 }

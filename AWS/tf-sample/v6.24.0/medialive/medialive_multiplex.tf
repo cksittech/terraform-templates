@@ -1,5 +1,4 @@
 resource "aws_medialive_multiplex" "tf-sample-medialive-multiplex" {
-  arn                = ""
   availability_zones = []
   name               = ""
   region             = ""

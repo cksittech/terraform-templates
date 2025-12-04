@@ -2,5 +2,4 @@ resource "aws_bedrockagentcore_workload_identity" "tf-sample-bedrockagentcore-wo
   allowed_resource_oauth2_return_urls = []
   name                                = ""
   region                              = ""
-  workload_identity_arn               = ""
 }

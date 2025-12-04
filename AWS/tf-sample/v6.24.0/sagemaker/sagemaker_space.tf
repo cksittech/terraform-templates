@@ -1,11 +1,8 @@
 resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
-  arn                      = ""
-  domain_id                = ""
-  home_efs_file_system_uid = ""
-  region                   = ""
-  space_display_name       = ""
-  space_name               = ""
-  url                      = ""
+  domain_id          = ""
+  region             = ""
+  space_display_name = ""
+  space_name         = ""
   
   ownership_settings {}
   space_settings {}

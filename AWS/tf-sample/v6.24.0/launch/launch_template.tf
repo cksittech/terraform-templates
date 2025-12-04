@@ -1,5 +1,4 @@
 resource "aws_launch_template" "tf-sample-launch-template" {
-  arn                                  = ""
   default_version                      = 0
   description                          = ""
   disable_api_stop                     = false
@@ -10,7 +9,6 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   instance_type                        = ""
   kernel_id                            = ""
   key_name                             = ""
-  latest_version                       = 0
   name                                 = ""
   name_prefix                          = ""
   ram_disk_id                          = ""

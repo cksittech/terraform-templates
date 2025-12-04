@@ -6,5 +6,4 @@ resource "aws_guardduty_member" "tf-sample-guardduty-member" {
   invitation_message         = ""
   invite                     = false
   region                     = ""
-  relationship_status        = ""
 }

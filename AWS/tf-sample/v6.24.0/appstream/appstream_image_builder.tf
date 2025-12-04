@@ -1,7 +1,5 @@
 resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
   appstream_agent_version        = ""
-  arn                            = ""
-  created_time                   = ""
   description                    = ""
   display_name                   = ""
   enable_default_internet_access = false
@@ -11,7 +9,6 @@ resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
   instance_type                  = ""
   name                           = ""
   region                         = ""
-  state                          = ""
   
   access_endpoint {}
   domain_join_info {}

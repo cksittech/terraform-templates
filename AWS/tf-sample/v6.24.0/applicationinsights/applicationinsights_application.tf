@@ -1,5 +1,4 @@
 resource "aws_applicationinsights_application" "tf-sample-applicationinsights-application" {
-  arn                    = ""
   auto_config_enabled    = false
   auto_create            = false
   cwe_monitor_enabled    = false

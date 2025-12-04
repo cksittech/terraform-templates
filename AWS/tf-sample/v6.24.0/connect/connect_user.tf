@@ -1,5 +1,4 @@
 resource "aws_connect_user" "tf-sample-connect-user" {
-  arn                  = ""
   directory_user_id    = ""
   hierarchy_group_id   = ""
   instance_id          = ""
@@ -8,7 +7,6 @@ resource "aws_connect_user" "tf-sample-connect-user" {
   region               = ""
   routing_profile_id   = ""
   security_profile_ids = []
-  user_id              = ""
   
   identity_info {}
   phone_config {}

@@ -26,12 +26,9 @@ resource "aws_dms_s3_endpoint" "tf-sample-dms-s3-endpoint" {
   enable_statistics                           = false
   encoding_type                               = ""
   encryption_mode                             = ""
-  endpoint_arn                                = ""
   endpoint_id                                 = ""
   endpoint_type                               = ""
-  engine_display_name                         = ""
   expected_bucket_owner                       = ""
-  external_id                                 = ""
   external_table_definition                   = ""
   glue_catalog_generation                     = false
   ignore_header_rows                          = 0
@@ -47,7 +44,6 @@ resource "aws_dms_s3_endpoint" "tf-sample-dms-s3-endpoint" {
   server_side_encryption_kms_key_id           = ""
   service_access_role_arn                     = ""
   ssl_mode                                    = ""
-  status                                      = ""
   timestamp_column_name                       = ""
   use_csv_no_sup_value                        = false
   use_task_start_time_for_full_load_timestamp = false

@@ -1,5 +1,4 @@
 resource "aws_appintegrations_data_integration" "tf-sample-appintegrations-data-integration" {
-  arn         = ""
   description = ""
   kms_key     = ""
   name        = ""

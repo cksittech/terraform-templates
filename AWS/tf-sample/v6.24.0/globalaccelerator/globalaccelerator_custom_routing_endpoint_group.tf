@@ -1,5 +1,4 @@
 resource "aws_globalaccelerator_custom_routing_endpoint_group" "tf-sample-globalaccelerator-custom-routing-endpoint-group" {
-  arn                   = ""
   endpoint_group_region = ""
   listener_arn          = ""
   

@@ -1,7 +1,4 @@
 resource "aws_imagebuilder_infrastructure_configuration" "tf-sample-imagebuilder-infrastructure-configuration" {
-  arn                           = ""
-  date_created                  = ""
-  date_updated                  = ""
   description                   = ""
   instance_profile_name         = ""
   instance_types                = []

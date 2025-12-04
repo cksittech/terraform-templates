@@ -1,6 +1,4 @@
 resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
-  arn                      = ""
-  arn_without_revision     = ""
   container_definitions    = ""
   cpu                      = ""
   enable_fault_injection   = false
@@ -12,7 +10,6 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
   pid_mode                 = ""
   region                   = ""
   requires_compatibilities = []
-  revision                 = 0
   skip_destroy             = false
   task_role_arn            = ""
   track_latest             = false

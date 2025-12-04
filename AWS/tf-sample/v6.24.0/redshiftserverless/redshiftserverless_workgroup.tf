@@ -1,7 +1,5 @@
 resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgroup" {
-  arn                  = ""
   base_capacity        = 0
-  endpoint             = []
   enhanced_vpc_routing = false
   max_capacity         = 0
   namespace_name       = ""
@@ -11,7 +9,6 @@ resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgr
   security_group_ids   = []
   subnet_ids           = []
   track_name           = ""
-  workgroup_id         = ""
   workgroup_name       = ""
   
   config_parameter {}

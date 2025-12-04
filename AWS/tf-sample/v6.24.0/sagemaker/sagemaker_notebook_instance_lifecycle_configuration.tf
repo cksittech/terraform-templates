@@ -1,5 +1,4 @@
 resource "aws_sagemaker_notebook_instance_lifecycle_configuration" "tf-sample-sagemaker-notebook-instance-lifecycle-configuration" {
-  arn       = ""
   name      = ""
   on_create = ""
   on_start  = ""

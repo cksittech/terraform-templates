@@ -1,5 +1,4 @@
 resource "aws_apigatewayv2_vpc_link" "tf-sample-apigatewayv2-vpc-link" {
-  arn                = ""
   name               = ""
   region             = ""
   security_group_ids = []

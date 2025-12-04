@@ -1,6 +1,5 @@
 resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   ami_type               = ""
-  arn                    = ""
   capacity_type          = ""
   cluster_name           = ""
   disk_size              = 0
@@ -12,8 +11,6 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   node_role_arn          = ""
   region                 = ""
   release_version        = ""
-  resources              = []
-  status                 = ""
   subnet_ids             = []
   version                = ""
   

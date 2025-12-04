@@ -1,5 +1,4 @@
 resource "aws_dms_replication_config" "tf-sample-dms-replication-config" {
-  arn                           = ""
   region                        = ""
   replication_config_identifier = ""
   replication_settings          = ""

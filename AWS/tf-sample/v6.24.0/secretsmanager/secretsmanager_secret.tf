@@ -1,5 +1,4 @@
 resource "aws_secretsmanager_secret" "tf-sample-secretsmanager-secret" {
-  arn                            = ""
   description                    = ""
   force_overwrite_replica_secret = false
   kms_key_id                     = ""

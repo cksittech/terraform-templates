@@ -1,15 +1,8 @@
 resource "aws_finspace_kx_environment" "tf-sample-finspace-kx-environment" {
-  arn                       = ""
-  availability_zones        = []
-  created_timestamp         = ""
-  description               = ""
-  id                        = ""
-  infrastructure_account_id = ""
-  kms_key_id                = ""
-  last_modified_timestamp   = ""
-  name                      = ""
-  region                    = ""
-  status                    = ""
+  description = ""
+  kms_key_id  = ""
+  name        = ""
+  region      = ""
   
   custom_dns_configuration {}
   transit_gateway_configuration {}

@@ -1,6 +1,4 @@
 resource "aws_macie2_custom_data_identifier" "tf-sample-macie2-custom-data-identifier" {
-  arn                    = ""
-  created_at             = ""
   description            = ""
   ignore_words           = []
   keywords               = []

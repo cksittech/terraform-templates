@@ -1,6 +1,4 @@
 resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
-  arn                        = ""
-  arn_prefix                 = ""
   container_properties       = ""
   deregister_on_new_revision = false
   ecs_properties             = ""
@@ -10,7 +8,6 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   platform_capabilities      = []
   propagate_tags             = false
   region                     = ""
-  revision                   = 0
   scheduling_priority        = 0
   type                       = ""
   

@@ -1,5 +1,4 @@
 resource "aws_ses_event_destination" "tf-sample-ses-event-destination" {
-  arn                    = ""
   configuration_set_name = ""
   enabled                = false
   matching_types         = []

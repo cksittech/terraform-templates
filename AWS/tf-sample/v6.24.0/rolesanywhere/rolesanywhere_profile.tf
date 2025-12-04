@@ -1,5 +1,4 @@
 resource "aws_rolesanywhere_profile" "tf-sample-rolesanywhere-profile" {
-  arn                         = ""
   duration_seconds            = 0
   enabled                     = false
   managed_policy_arns         = []

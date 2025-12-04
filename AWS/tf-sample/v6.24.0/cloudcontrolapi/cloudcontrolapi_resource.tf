@@ -1,6 +1,5 @@
 resource "aws_cloudcontrolapi_resource" "tf-sample-cloudcontrolapi-resource" {
   desired_state   = ""
-  properties      = ""
   region          = ""
   role_arn        = ""
   schema          = ""

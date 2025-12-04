@@ -1,12 +1,10 @@
 resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
-  arn                        = ""
   connector_configuration    = {}
   description                = ""
   kafkaconnect_version       = ""
   name                       = ""
   region                     = ""
   service_execution_role_arn = ""
-  version                    = ""
   
   capacity {}
   kafka_cluster {}

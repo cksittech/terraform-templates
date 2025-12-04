@@ -1,5 +1,4 @@
 resource "aws_devicefarm_project" "tf-sample-devicefarm-project" {
-  arn                         = ""
   default_job_timeout_minutes = 0
   name                        = ""
   region                      = ""

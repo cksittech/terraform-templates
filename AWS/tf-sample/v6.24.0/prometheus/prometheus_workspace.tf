@@ -1,9 +1,7 @@
 resource "aws_prometheus_workspace" "tf-sample-prometheus-workspace" {
-  alias               = ""
-  arn                 = ""
-  kms_key_arn         = ""
-  prometheus_endpoint = ""
-  region              = ""
+  alias       = ""
+  kms_key_arn = ""
+  region      = ""
   
   logging_configuration {}
   

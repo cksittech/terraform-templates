@@ -1,6 +1,4 @@
 resource "aws_codebuild_report_group" "tf-sample-codebuild-report-group" {
-  arn            = ""
-  created        = ""
   delete_reports = false
   name           = ""
   region         = ""

@@ -1,7 +1,5 @@
 resource "aws_sagemaker_workforce" "tf-sample-sagemaker-workforce" {
-  arn            = ""
   region         = ""
-  subdomain      = ""
   workforce_name = ""
   
   cognito_config {}

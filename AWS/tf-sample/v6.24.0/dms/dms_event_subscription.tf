@@ -1,5 +1,4 @@
 resource "aws_dms_event_subscription" "tf-sample-dms-event-subscription" {
-  arn              = ""
   enabled          = false
   event_categories = []
   name             = ""

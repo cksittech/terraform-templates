@@ -1,5 +1,4 @@
 resource "aws_sesv2_configuration_set" "tf-sample-sesv2-configuration-set" {
-  arn                    = ""
   configuration_set_name = ""
   region                 = ""
   

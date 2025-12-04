@@ -1,5 +1,4 @@
 resource "aws_api_gateway_vpc_link" "tf-sample-api-gateway-vpc-link" {
-  arn         = ""
   description = ""
   name        = ""
   region      = ""

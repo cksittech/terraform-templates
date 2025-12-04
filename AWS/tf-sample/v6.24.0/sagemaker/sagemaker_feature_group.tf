@@ -1,5 +1,4 @@
 resource "aws_sagemaker_feature_group" "tf-sample-sagemaker-feature-group" {
-  arn                            = ""
   description                    = ""
   event_time_feature_name        = ""
   feature_group_name             = ""

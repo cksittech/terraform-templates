@@ -7,7 +7,6 @@ resource "aws_security_group_rule" "tf-sample-security-group-rule" {
   protocol                 = ""
   region                   = ""
   security_group_id        = ""
-  security_group_rule_id   = ""
   self                     = false
   source_security_group_id = ""
   to_port                  = 0

@@ -1,8 +1,6 @@
 resource "aws_appsync_domain_name" "tf-sample-appsync-domain-name" {
-  appsync_domain_name = ""
-  certificate_arn     = ""
-  description         = ""
-  domain_name         = ""
-  hosted_zone_id      = ""
-  region              = ""
+  certificate_arn = ""
+  description     = ""
+  domain_name     = ""
+  region          = ""
 }

@@ -1,5 +1,4 @@
 resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
-  arn         = ""
   description = ""
   enabled     = false
   name        = ""

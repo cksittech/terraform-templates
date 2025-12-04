@@ -1,5 +1,4 @@
 resource "aws_grafana_workspace_api_key" "tf-sample-grafana-workspace-api-key" {
-  key             = ""
   key_name        = ""
   key_role        = ""
   region          = ""

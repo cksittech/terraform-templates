@@ -1,5 +1,4 @@
 resource "aws_elastictranscoder_preset" "tf-sample-elastictranscoder-preset" {
-  arn                 = ""
   container           = ""
   description         = ""
   name                = ""

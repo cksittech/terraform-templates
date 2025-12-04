@@ -1,6 +1,5 @@
 resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   agent_arns                = []
-  arn                       = ""
   authentication_type       = ""
   block_size                = 0
   kerberos_keytab           = ""
@@ -13,7 +12,6 @@ resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   replication_factor        = 0
   simple_user               = ""
   subdirectory              = ""
-  uri                       = ""
   
   name_node {}
   qop_configuration {}

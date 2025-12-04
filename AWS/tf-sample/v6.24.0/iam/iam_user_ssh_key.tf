@@ -1,8 +1,6 @@
 resource "aws_iam_user_ssh_key" "tf-sample-iam-user-ssh-key" {
-  encoding          = ""
-  fingerprint       = ""
-  public_key        = ""
-  ssh_public_key_id = ""
-  status            = ""
-  username          = ""
+  encoding   = ""
+  public_key = ""
+  status     = ""
+  username   = ""
 }

@@ -1,12 +1,9 @@
 resource "aws_bedrockagentcore_agent_runtime_endpoint" "tf-sample-bedrockagentcore-agent-runtime-endpoint" {
-  agent_runtime_arn          = ""
-  agent_runtime_endpoint_arn = ""
-  agent_runtime_id           = ""
-  agent_runtime_version      = ""
-  description                = ""
-  name                       = ""
-  region                     = ""
-  tags_all                   = {}
+  agent_runtime_id      = ""
+  agent_runtime_version = ""
+  description           = ""
+  name                  = ""
+  region                = ""
   
   tags = {}
 }

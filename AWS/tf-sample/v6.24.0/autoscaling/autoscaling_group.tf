@@ -1,5 +1,4 @@
 resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
-  arn                              = ""
   availability_zones               = []
   capacity_rebalance               = false
   context                          = ""
@@ -23,7 +22,6 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   name                             = ""
   name_prefix                      = ""
   placement_group                  = ""
-  predicted_capacity               = 0
   protect_from_scale_in            = false
   region                           = ""
   service_linked_role_arn          = ""
@@ -33,7 +31,6 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   vpc_zone_identifier              = []
   wait_for_capacity_timeout        = ""
   wait_for_elb_capacity            = 0
-  warm_pool_size                   = 0
   
   availability_zone_distribution {}
   capacity_reservation_specification {}

@@ -1,6 +1,4 @@
 resource "aws_appstream_fleet" "tf-sample-appstream-fleet" {
-  arn                                = ""
-  created_time                       = ""
   description                        = ""
   disconnect_timeout_in_seconds      = 0
   display_name                       = ""
@@ -15,7 +13,6 @@ resource "aws_appstream_fleet" "tf-sample-appstream-fleet" {
   max_user_duration_in_seconds       = 0
   name                               = ""
   region                             = ""
-  state                              = ""
   stream_view                        = ""
   
   compute_capacity {}

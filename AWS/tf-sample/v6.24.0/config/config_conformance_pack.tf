@@ -1,5 +1,4 @@
 resource "aws_config_conformance_pack" "tf-sample-config-conformance-pack" {
-  arn                    = ""
   delivery_s3_bucket     = ""
   delivery_s3_key_prefix = ""
   name                   = ""

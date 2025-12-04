@@ -1,6 +1,5 @@
 resource "aws_ce_anomaly_subscription" "tf-sample-ce-anomaly-subscription" {
   account_id       = ""
-  arn              = ""
   frequency        = ""
   monitor_arn_list = []
   name             = ""

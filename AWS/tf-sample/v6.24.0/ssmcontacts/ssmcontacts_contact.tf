@@ -1,6 +1,5 @@
 resource "aws_ssmcontacts_contact" "tf-sample-ssmcontacts-contact" {
   alias        = ""
-  arn          = ""
   display_name = ""
   region       = ""
   type         = ""

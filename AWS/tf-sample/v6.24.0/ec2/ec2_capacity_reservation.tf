@@ -1,5 +1,4 @@
 resource "aws_ec2_capacity_reservation" "tf-sample-ec2-capacity-reservation" {
-  arn                     = ""
   availability_zone       = ""
   ebs_optimized           = false
   end_date                = ""
@@ -10,7 +9,6 @@ resource "aws_ec2_capacity_reservation" "tf-sample-ec2-capacity-reservation" {
   instance_platform       = ""
   instance_type           = ""
   outpost_arn             = ""
-  owner_id                = ""
   placement_group_arn     = ""
   region                  = ""
   tenancy                 = ""

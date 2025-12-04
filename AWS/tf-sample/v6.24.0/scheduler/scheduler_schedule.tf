@@ -1,6 +1,5 @@
 resource "aws_scheduler_schedule" "tf-sample-scheduler-schedule" {
   action_after_completion      = ""
-  arn                          = ""
   description                  = ""
   end_date                     = ""
   group_name                   = ""

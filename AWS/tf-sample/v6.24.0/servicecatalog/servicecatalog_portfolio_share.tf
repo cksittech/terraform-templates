@@ -1,6 +1,5 @@
 resource "aws_servicecatalog_portfolio_share" "tf-sample-servicecatalog-portfolio-share" {
   accept_language     = ""
-  accepted            = false
   portfolio_id        = ""
   principal_id        = ""
   region              = ""

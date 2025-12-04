@@ -1,5 +1,4 @@
 resource "aws_cloudtrail_event_data_store" "tf-sample-cloudtrail-event-data-store" {
-  arn                            = ""
   billing_mode                   = ""
   kms_key_id                     = ""
   multi_region_enabled           = false

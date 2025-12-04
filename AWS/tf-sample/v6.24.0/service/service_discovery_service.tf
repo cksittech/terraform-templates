@@ -1,5 +1,4 @@
 resource "aws_service_discovery_service" "tf-sample-service-discovery-service" {
-  arn           = ""
   description   = ""
   force_destroy = false
   name          = ""

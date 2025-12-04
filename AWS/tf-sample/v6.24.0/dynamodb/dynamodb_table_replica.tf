@@ -1,5 +1,4 @@
 resource "aws_dynamodb_table_replica" "tf-sample-dynamodb-table-replica" {
-  arn                         = ""
   deletion_protection_enabled = false
   global_table_arn            = ""
   kms_key_arn                 = ""

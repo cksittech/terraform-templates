@@ -1,6 +1,5 @@
 resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
   adjustment_type           = ""
-  arn                       = ""
   autoscaling_group_name    = ""
   cooldown                  = 0
   enabled                   = false

@@ -5,15 +5,12 @@ resource "aws_cognito_managed_user_pool_client" "tf-sample-cognito-managed-user-
   allowed_oauth_scopes                          = []
   auth_session_validity                         = 0
   callback_urls                                 = []
-  client_secret                                 = ""
   default_redirect_uri                          = ""
   enable_propagate_additional_user_context_data = false
   enable_token_revocation                       = false
   explicit_auth_flows                           = []
-  id                                            = ""
   id_token_validity                             = 0
   logout_urls                                   = []
-  name                                          = ""
   name_pattern                                  = ""
   name_prefix                                   = ""
   prevent_user_existence_errors                 = ""

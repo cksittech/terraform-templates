@@ -1,5 +1,4 @@
 resource "aws_iot_authorizer" "tf-sample-iot-authorizer" {
-  arn                       = ""
   authorizer_function_arn   = ""
   enable_caching_for_http   = false
   name                      = ""

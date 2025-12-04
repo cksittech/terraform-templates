@@ -1,5 +1,4 @@
 resource "aws_db_parameter_group" "tf-sample-db-parameter-group" {
-  arn          = ""
   description  = ""
   family       = ""
   name         = ""

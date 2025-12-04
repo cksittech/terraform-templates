@@ -1,6 +1,5 @@
 resource "aws_identitystore_user" "tf-sample-identitystore-user" {
   display_name       = ""
-  external_ids       = []
   identity_store_id  = ""
   locale             = ""
   nickname           = ""
@@ -9,7 +8,6 @@ resource "aws_identitystore_user" "tf-sample-identitystore-user" {
   region             = ""
   timezone           = ""
   title              = ""
-  user_id            = ""
   user_name          = ""
   user_type          = ""
   

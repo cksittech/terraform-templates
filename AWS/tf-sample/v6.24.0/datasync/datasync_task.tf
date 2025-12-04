@@ -1,5 +1,4 @@
 resource "aws_datasync_task" "tf-sample-datasync-task" {
-  arn                      = ""
   cloudwatch_log_group_arn = ""
   destination_location_arn = ""
   name                     = ""

@@ -1,5 +1,4 @@
 resource "aws_config_organization_managed_rule" "tf-sample-config-organization-managed-rule" {
-  arn                         = ""
   description                 = ""
   excluded_accounts           = []
   input_parameters            = ""

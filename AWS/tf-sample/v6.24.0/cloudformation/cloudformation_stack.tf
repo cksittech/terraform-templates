@@ -5,7 +5,6 @@ resource "aws_cloudformation_stack" "tf-sample-cloudformation-stack" {
   name               = ""
   notification_arns  = []
   on_failure         = ""
-  outputs            = {}
   parameters         = {}
   policy_body        = ""
   policy_url         = ""

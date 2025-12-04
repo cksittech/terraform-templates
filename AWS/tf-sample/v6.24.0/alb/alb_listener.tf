@@ -1,6 +1,5 @@
 resource "aws_alb_listener" "tf-sample-alb-listener" {
   alpn_policy                                                           = ""
-  arn                                                                   = ""
   certificate_arn                                                       = ""
   load_balancer_arn                                                     = ""
   port                                                                  = 0

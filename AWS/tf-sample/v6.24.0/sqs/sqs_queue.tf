@@ -1,5 +1,4 @@
 resource "aws_sqs_queue" "tf-sample-sqs-queue" {
-  arn                               = ""
   content_based_deduplication       = false
   deduplication_scope               = ""
   delay_seconds                     = 0
@@ -17,7 +16,6 @@ resource "aws_sqs_queue" "tf-sample-sqs-queue" {
   redrive_policy                    = ""
   region                            = ""
   sqs_managed_sse_enabled           = false
-  url                               = ""
   visibility_timeout_seconds        = 0
   
   tags = {}

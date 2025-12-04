@@ -1,8 +1,6 @@
 resource "aws_backup_plan" "tf-sample-backup-plan" {
-  arn     = ""
-  name    = ""
-  region  = ""
-  version = ""
+  name   = ""
+  region = ""
   
   advanced_backup_setting {}
   rule {}

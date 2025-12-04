@@ -1,6 +1,5 @@
 resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
   action      = ""
-  arn         = ""
   description = ""
   name        = ""
   name_prefix = ""

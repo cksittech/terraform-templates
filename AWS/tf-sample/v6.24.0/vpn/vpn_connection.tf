@@ -1,27 +1,16 @@
 resource "aws_vpn_connection" "tf-sample-vpn-connection" {
-  arn                                     = ""
-  core_network_arn                        = ""
-  core_network_attachment_arn             = ""
-  customer_gateway_configuration          = ""
   customer_gateway_id                     = ""
   enable_acceleration                     = false
   local_ipv4_network_cidr                 = ""
   local_ipv6_network_cidr                 = ""
   outside_ip_address_type                 = ""
-  preshared_key_arn                       = ""
   preshared_key_storage                   = ""
   region                                  = ""
   remote_ipv4_network_cidr                = ""
   remote_ipv6_network_cidr                = ""
-  routes                                  = []
   static_routes_only                      = false
-  transit_gateway_attachment_id           = ""
   transit_gateway_id                      = ""
   transport_transit_gateway_attachment_id = ""
-  tunnel1_address                         = ""
-  tunnel1_bgp_asn                         = ""
-  tunnel1_bgp_holdtime                    = 0
-  tunnel1_cgw_inside_address              = ""
   tunnel1_dpd_timeout_action              = ""
   tunnel1_dpd_timeout_seconds             = 0
   tunnel1_enable_tunnel_lifecycle_control = false
@@ -41,11 +30,6 @@ resource "aws_vpn_connection" "tf-sample-vpn-connection" {
   tunnel1_rekey_margin_time_seconds       = 0
   tunnel1_replay_window_size              = 0
   tunnel1_startup_action                  = ""
-  tunnel1_vgw_inside_address              = ""
-  tunnel2_address                         = ""
-  tunnel2_bgp_asn                         = ""
-  tunnel2_bgp_holdtime                    = 0
-  tunnel2_cgw_inside_address              = ""
   tunnel2_dpd_timeout_action              = ""
   tunnel2_dpd_timeout_seconds             = 0
   tunnel2_enable_tunnel_lifecycle_control = false
@@ -65,11 +49,9 @@ resource "aws_vpn_connection" "tf-sample-vpn-connection" {
   tunnel2_rekey_margin_time_seconds       = 0
   tunnel2_replay_window_size              = 0
   tunnel2_startup_action                  = ""
-  tunnel2_vgw_inside_address              = ""
   tunnel_bandwidth                        = ""
   tunnel_inside_ip_version                = ""
   type                                    = ""
-  vgw_telemetry                           = []
   vpn_concentrator_id                     = ""
   vpn_gateway_id                          = ""
   

@@ -1,7 +1,5 @@
 resource "aws_codedeploy_deployment_config" "tf-sample-codedeploy-deployment-config" {
-  arn                    = ""
   compute_platform       = ""
-  deployment_config_id   = ""
   deployment_config_name = ""
   region                 = ""
   

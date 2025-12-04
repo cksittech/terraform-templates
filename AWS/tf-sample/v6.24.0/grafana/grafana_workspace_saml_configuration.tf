@@ -12,6 +12,5 @@ resource "aws_grafana_workspace_saml_configuration" "tf-sample-grafana-workspace
   org_assertion           = ""
   region                  = ""
   role_assertion          = ""
-  status                  = ""
   workspace_id            = ""
 }

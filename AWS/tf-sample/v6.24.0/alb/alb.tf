@@ -1,10 +1,7 @@
 resource "aws_alb" "tf-sample-alb" {
-  arn                                                          = ""
-  arn_suffix                                                   = ""
   client_keep_alive                                            = 0
   customer_owned_ipv4_pool                                     = ""
   desync_mitigation_mode                                       = ""
-  dns_name                                                     = ""
   dns_record_client_routing_policy                             = ""
   drop_invalid_header_fields                                   = false
   enable_cross_zone_load_balancing                             = false
@@ -26,9 +23,7 @@ resource "aws_alb" "tf-sample-alb" {
   secondary_ips_auto_assigned_per_subnet                       = 0
   security_groups                                              = []
   subnets                                                      = []
-  vpc_id                                                       = ""
   xff_header_processing_mode                                   = ""
-  zone_id                                                      = ""
   
   access_logs {}
   connection_logs {}

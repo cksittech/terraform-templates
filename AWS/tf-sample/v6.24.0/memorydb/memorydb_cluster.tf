@@ -1,12 +1,9 @@
 resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   acl_name                   = ""
-  arn                        = ""
   auto_minor_version_upgrade = false
-  cluster_endpoint           = []
   data_tiering               = false
   description                = ""
   engine                     = ""
-  engine_patch_version       = ""
   engine_version             = ""
   final_snapshot_name        = ""
   kms_key_arn                = ""
@@ -21,7 +18,6 @@ resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   port                       = 0
   region                     = ""
   security_group_ids         = []
-  shards                     = []
   snapshot_arns              = []
   snapshot_name              = ""
   snapshot_retention_limit   = 0

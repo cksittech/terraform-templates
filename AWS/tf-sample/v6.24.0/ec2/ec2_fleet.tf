@@ -1,5 +1,4 @@
 resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
-  arn                                 = ""
   context                             = ""
   excess_capacity_termination_policy  = ""
   fleet_state                         = ""

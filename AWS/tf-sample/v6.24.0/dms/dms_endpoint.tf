@@ -1,7 +1,6 @@
 resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
   certificate_arn                 = ""
   database_name                   = ""
-  endpoint_arn                    = ""
   endpoint_id                     = ""
   endpoint_type                   = ""
   engine_name                     = ""

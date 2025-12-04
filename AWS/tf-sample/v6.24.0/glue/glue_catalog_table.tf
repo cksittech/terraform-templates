@@ -1,5 +1,4 @@
 resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
-  arn                = ""
   catalog_id         = ""
   database_name      = ""
   description        = ""

@@ -1,7 +1,5 @@
 resource "aws_ssm_association" "tf-sample-ssm-association" {
   apply_only_at_cron_interval      = false
-  arn                              = ""
-  association_id                   = ""
   association_name                 = ""
   automation_target_parameter_name = ""
   compliance_severity              = ""

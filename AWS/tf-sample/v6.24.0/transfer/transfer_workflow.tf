@@ -1,5 +1,4 @@
 resource "aws_transfer_workflow" "tf-sample-transfer-workflow" {
-  arn         = ""
   description = ""
   region      = ""
   

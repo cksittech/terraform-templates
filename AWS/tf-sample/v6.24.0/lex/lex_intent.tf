@@ -1,15 +1,10 @@
 resource "aws_lex_intent" "tf-sample-lex-intent" {
-  arn                     = ""
-  checksum                = ""
   create_version          = false
-  created_date            = ""
   description             = ""
-  last_updated_date       = ""
   name                    = ""
   parent_intent_signature = ""
   region                  = ""
   sample_utterances       = []
-  version                 = ""
   
   conclusion_statement {}
   confirmation_prompt {}

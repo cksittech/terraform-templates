@@ -1,13 +1,9 @@
 resource "aws_amplify_branch" "tf-sample-amplify-branch" {
   app_id                        = ""
-  arn                           = ""
-  associated_resources          = []
   backend_environment_arn       = ""
   basic_auth_credentials        = ""
   branch_name                   = ""
-  custom_domains                = []
   description                   = ""
-  destination_branch            = ""
   display_name                  = ""
   enable_auto_build             = false
   enable_basic_auth             = false
@@ -19,7 +15,6 @@ resource "aws_amplify_branch" "tf-sample-amplify-branch" {
   framework                     = ""
   pull_request_environment_name = ""
   region                        = ""
-  source_branch                 = ""
   stage                         = ""
   ttl                           = ""
   

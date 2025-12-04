@@ -1,12 +1,9 @@
 resource "aws_kendra_query_suggestions_block_list" "tf-sample-kendra-query-suggestions-block-list" {
-  arn                             = ""
-  description                     = ""
-  index_id                        = ""
-  name                            = ""
-  query_suggestions_block_list_id = ""
-  region                          = ""
-  role_arn                        = ""
-  status                          = ""
+  description = ""
+  index_id    = ""
+  name        = ""
+  region      = ""
+  role_arn    = ""
   
   source_s3_path {}
   

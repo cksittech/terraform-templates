@@ -1,5 +1,4 @@
 resource "aws_db_option_group" "tf-sample-db-option-group" {
-  arn                      = ""
   engine_name              = ""
   major_engine_version     = ""
   name                     = ""

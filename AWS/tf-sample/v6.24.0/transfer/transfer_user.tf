@@ -1,5 +1,4 @@
 resource "aws_transfer_user" "tf-sample-transfer-user" {
-  arn                 = ""
   home_directory      = ""
   home_directory_type = ""
   policy              = ""

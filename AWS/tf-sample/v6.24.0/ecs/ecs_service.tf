@@ -1,5 +1,4 @@
 resource "aws_ecs_service" "tf-sample-ecs-service" {
-  arn                                = ""
   availability_zone_rebalancing      = ""
   cluster                            = ""
   deployment_maximum_percent         = 0

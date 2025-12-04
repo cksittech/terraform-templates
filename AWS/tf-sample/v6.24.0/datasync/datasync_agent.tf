@@ -1,6 +1,5 @@
 resource "aws_datasync_agent" "tf-sample-datasync-agent" {
   activation_key        = ""
-  arn                   = ""
   ip_address            = ""
   name                  = ""
   private_link_endpoint = ""

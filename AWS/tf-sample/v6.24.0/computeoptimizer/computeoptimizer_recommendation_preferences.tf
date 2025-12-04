@@ -1,6 +1,5 @@
 resource "aws_computeoptimizer_recommendation_preferences" "tf-sample-computeoptimizer-recommendation-preferences" {
   enhanced_infrastructure_metrics = ""
-  id                              = ""
   inferred_workload_types         = ""
   look_back_period                = ""
   region                          = ""

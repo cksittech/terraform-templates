@@ -1,7 +1,5 @@
 resource "aws_medialive_channel" "tf-sample-medialive-channel" {
-  arn           = ""
   channel_class = ""
-  channel_id    = ""
   log_level     = ""
   name          = ""
   region        = ""

@@ -1,8 +1,6 @@
 resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
   data_deletion_policy = ""
-  data_source_id       = ""
   description          = ""
-  id                   = ""
   knowledge_base_id    = ""
   name                 = ""
   region               = ""

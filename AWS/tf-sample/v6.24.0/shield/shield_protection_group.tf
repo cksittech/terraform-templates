@@ -1,10 +1,9 @@
 resource "aws_shield_protection_group" "tf-sample-shield-protection-group" {
-  aggregation          = ""
-  members              = []
-  pattern              = ""
-  protection_group_arn = ""
-  protection_group_id  = ""
-  resource_type        = ""
+  aggregation         = ""
+  members             = []
+  pattern             = ""
+  protection_group_id = ""
+  resource_type       = ""
   
   tags = {}
 }

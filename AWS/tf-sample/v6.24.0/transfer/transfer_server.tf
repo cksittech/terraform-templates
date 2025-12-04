@@ -1,14 +1,11 @@
 resource "aws_transfer_server" "tf-sample-transfer-server" {
-  arn                              = ""
   certificate                      = ""
   directory_id                     = ""
   domain                           = ""
-  endpoint                         = ""
   endpoint_type                    = ""
   force_destroy                    = false
   function                         = ""
   host_key                         = ""
-  host_key_fingerprint             = ""
   identity_provider_type           = ""
   invocation_role                  = ""
   logging_role                     = ""

@@ -1,5 +1,4 @@
 resource "aws_config_organization_custom_policy_rule" "tf-sample-config-organization-custom-policy-rule" {
-  arn                         = ""
   debug_log_delivery_accounts = []
   description                 = ""
   excluded_accounts           = []

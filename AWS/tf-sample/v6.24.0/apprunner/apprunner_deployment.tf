@@ -1,7 +1,4 @@
 resource "aws_apprunner_deployment" "tf-sample-apprunner-deployment" {
-  id           = ""
-  operation_id = ""
-  region       = ""
-  service_arn  = ""
-  status       = ""
+  region      = ""
+  service_arn = ""
 }

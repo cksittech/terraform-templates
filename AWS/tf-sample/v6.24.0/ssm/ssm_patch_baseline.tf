@@ -2,10 +2,8 @@ resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
   approved_patches                             = []
   approved_patches_compliance_level            = ""
   approved_patches_enable_non_security         = false
-  arn                                          = ""
   available_security_updates_compliance_status = ""
   description                                  = ""
-  json                                         = ""
   name                                         = ""
   operating_system                             = ""
   region                                       = ""

@@ -1,7 +1,5 @@
 resource "aws_appflow_flow" "tf-sample-appflow-flow" {
-  arn         = ""
   description = ""
-  flow_status = ""
   kms_arn     = ""
   name        = ""
   region      = ""

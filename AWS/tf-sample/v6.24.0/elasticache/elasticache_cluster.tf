@@ -1,16 +1,11 @@
 resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
   apply_immediately            = false
-  arn                          = ""
   auto_minor_version_upgrade   = ""
   availability_zone            = ""
   az_mode                      = ""
-  cache_nodes                  = []
-  cluster_address              = ""
   cluster_id                   = ""
-  configuration_endpoint       = ""
   engine                       = ""
   engine_version               = ""
-  engine_version_actual        = ""
   final_snapshot_identifier    = ""
   ip_discovery                 = ""
   maintenance_window           = ""

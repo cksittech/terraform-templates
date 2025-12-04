@@ -1,14 +1,9 @@
 resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-application" {
-  arn                   = ""
-  code                  = ""
-  create_timestamp      = ""
-  description           = ""
-  last_update_timestamp = ""
-  name                  = ""
-  region                = ""
-  start_application     = false
-  status                = ""
-  version               = 0
+  code              = ""
+  description       = ""
+  name              = ""
+  region            = ""
+  start_application = false
   
   cloudwatch_logging_options {}
   inputs {}

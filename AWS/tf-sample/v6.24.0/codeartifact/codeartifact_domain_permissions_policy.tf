@@ -4,5 +4,4 @@ resource "aws_codeartifact_domain_permissions_policy" "tf-sample-codeartifact-do
   policy_document = ""
   policy_revision = ""
   region          = ""
-  resource_arn    = ""
 }

@@ -1,5 +1,4 @@
 resource "aws_customer_gateway" "tf-sample-customer-gateway" {
-  arn              = ""
   bgp_asn          = ""
   bgp_asn_extended = ""
   certificate_arn  = ""

@@ -6,7 +6,6 @@ resource "aws_ecr_repository_creation_template" "tf-sample-ecr-repository-creati
   lifecycle_policy     = ""
   prefix               = ""
   region               = ""
-  registry_id          = ""
   repository_policy    = ""
   resource_tags        = {}
   

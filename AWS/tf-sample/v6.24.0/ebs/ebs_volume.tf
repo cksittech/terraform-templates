@@ -1,7 +1,5 @@
 resource "aws_ebs_volume" "tf-sample-ebs-volume" {
-  arn                        = ""
   availability_zone          = ""
-  create_time                = ""
   encrypted                  = false
   final_snapshot             = false
   iops                       = 0

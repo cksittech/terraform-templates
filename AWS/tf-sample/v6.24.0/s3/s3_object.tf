@@ -1,15 +1,9 @@
 resource "aws_s3_object" "tf-sample-s3-object" {
   acl                           = ""
-  arn                           = ""
   bucket                        = ""
   bucket_key_enabled            = false
   cache_control                 = ""
   checksum_algorithm            = ""
-  checksum_crc32                = ""
-  checksum_crc32c               = ""
-  checksum_crc64nvme            = ""
-  checksum_sha1                 = ""
-  checksum_sha256               = ""
   content                       = ""
   content_base64                = ""
   content_disposition           = ""
@@ -29,7 +23,6 @@ resource "aws_s3_object" "tf-sample-s3-object" {
   source                        = ""
   source_hash                   = ""
   storage_class                 = ""
-  version_id                    = ""
   website_redirect              = ""
   
   override_provider {}

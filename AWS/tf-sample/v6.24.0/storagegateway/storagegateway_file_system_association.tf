@@ -1,5 +1,4 @@
 resource "aws_storagegateway_file_system_association" "tf-sample-storagegateway-file-system-association" {
-  arn                   = ""
   audit_destination_arn = ""
   gateway_arn           = ""
   location_arn          = ""

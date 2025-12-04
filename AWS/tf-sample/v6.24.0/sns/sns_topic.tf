@@ -3,8 +3,6 @@ resource "aws_sns_topic" "tf-sample-sns-topic" {
   application_success_feedback_role_arn    = ""
   application_success_feedback_sample_rate = 0
   archive_policy                           = ""
-  arn                                      = ""
-  beginning_archive_time                   = ""
   content_based_deduplication              = false
   delivery_policy                          = ""
   display_name                             = ""
@@ -22,7 +20,6 @@ resource "aws_sns_topic" "tf-sample-sns-topic" {
   lambda_success_feedback_sample_rate      = 0
   name                                     = ""
   name_prefix                              = ""
-  owner                                    = ""
   policy                                   = ""
   region                                   = ""
   signature_version                        = 0

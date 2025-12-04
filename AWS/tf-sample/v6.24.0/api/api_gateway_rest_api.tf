@@ -1,12 +1,9 @@
 resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   api_key_source               = ""
-  arn                          = ""
   binary_media_types           = []
   body                         = ""
-  created_date                 = ""
   description                  = ""
   disable_execute_api_endpoint = false
-  execution_arn                = ""
   fail_on_warnings             = false
   minimum_compression_size     = ""
   name                         = ""
@@ -14,7 +11,6 @@ resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   policy                       = ""
   put_rest_api_mode            = ""
   region                       = ""
-  root_resource_id             = ""
   
   endpoint_configuration {}
   

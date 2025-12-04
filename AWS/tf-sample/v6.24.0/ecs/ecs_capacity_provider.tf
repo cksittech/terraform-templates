@@ -1,5 +1,4 @@
 resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
-  arn     = ""
   cluster = ""
   name    = ""
   region  = ""

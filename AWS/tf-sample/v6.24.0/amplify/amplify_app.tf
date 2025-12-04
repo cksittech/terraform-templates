@@ -1,12 +1,10 @@
 resource "aws_amplify_app" "tf-sample-amplify-app" {
   access_token                  = ""
-  arn                           = ""
   auto_branch_creation_patterns = []
   basic_auth_credentials        = ""
   build_spec                    = ""
   compute_role_arn              = ""
   custom_headers                = ""
-  default_domain                = ""
   description                   = ""
   enable_auto_branch_creation   = false
   enable_basic_auth             = false
@@ -17,7 +15,6 @@ resource "aws_amplify_app" "tf-sample-amplify-app" {
   name                          = ""
   oauth_token                   = ""
   platform                      = ""
-  production_branch             = []
   region                        = ""
   repository                    = ""
   

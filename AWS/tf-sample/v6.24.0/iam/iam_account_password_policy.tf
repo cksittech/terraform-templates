@@ -1,6 +1,5 @@
 resource "aws_iam_account_password_policy" "tf-sample-iam-account-password-policy" {
   allow_users_to_change_password = false
-  expire_passwords               = false
   hard_expiry                    = false
   max_password_age               = 0
   minimum_password_length        = 0

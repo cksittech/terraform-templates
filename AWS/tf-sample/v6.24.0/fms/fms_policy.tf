@@ -1,11 +1,9 @@
 resource "aws_fms_policy" "tf-sample-fms-policy" {
-  arn                                = ""
   delete_all_policy_resources        = false
   delete_unused_fm_managed_resources = false
   description                        = ""
   exclude_resource_tags              = false
   name                               = ""
-  policy_update_token                = ""
   region                             = ""
   remediation_enabled                = false
   resource_set_ids                   = []

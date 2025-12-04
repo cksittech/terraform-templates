@@ -1,6 +1,5 @@
 resource "aws_appsync_graphql_api" "tf-sample-appsync-graphql-api" {
   api_type                      = ""
-  arn                           = ""
   authentication_type           = ""
   introspection_config          = ""
   merged_api_execution_role_arn = ""
@@ -9,7 +8,6 @@ resource "aws_appsync_graphql_api" "tf-sample-appsync-graphql-api" {
   region                        = ""
   resolver_count_limit          = 0
   schema                        = ""
-  uris                          = {}
   visibility                    = ""
   xray_enabled                  = false
   

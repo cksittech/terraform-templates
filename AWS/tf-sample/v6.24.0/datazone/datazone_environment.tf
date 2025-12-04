@@ -1,20 +1,14 @@
 resource "aws_datazone_environment" "tf-sample-datazone-environment" {
-  account_identifier    = ""
-  account_region        = ""
-  blueprint_identifier  = ""
-  created_at            = ""
-  created_by            = ""
-  description           = ""
-  domain_identifier     = ""
-  glossary_terms        = []
-  id                    = ""
-  last_deployment       = []
-  name                  = ""
-  profile_identifier    = ""
-  project_identifier    = ""
-  provider_environment  = ""
-  provisioned_resources = []
-  region                = ""
+  account_identifier   = ""
+  account_region       = ""
+  blueprint_identifier = ""
+  description          = ""
+  domain_identifier    = ""
+  glossary_terms       = []
+  name                 = ""
+  profile_identifier   = ""
+  project_identifier   = ""
+  region               = ""
   
   user_parameters {}
 }

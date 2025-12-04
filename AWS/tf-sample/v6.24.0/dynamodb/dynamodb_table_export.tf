@@ -1,21 +1,14 @@
 resource "aws_dynamodb_table_export" "tf-sample-dynamodb-table-export" {
-  arn                   = ""
-  billed_size_in_bytes  = 0
-  end_time              = ""
-  export_format         = ""
-  export_status         = ""
-  export_time           = ""
-  export_type           = ""
-  item_count            = 0
-  manifest_files_s3_key = ""
-  region                = ""
-  s3_bucket             = ""
-  s3_bucket_owner       = ""
-  s3_prefix             = ""
-  s3_sse_algorithm      = ""
-  s3_sse_kms_key_id     = ""
-  start_time            = ""
-  table_arn             = ""
+  export_format     = ""
+  export_time       = ""
+  export_type       = ""
+  region            = ""
+  s3_bucket         = ""
+  s3_bucket_owner   = ""
+  s3_prefix         = ""
+  s3_sse_algorithm  = ""
+  s3_sse_kms_key_id = ""
+  table_arn         = ""
   
   incremental_export_specification {}
 }

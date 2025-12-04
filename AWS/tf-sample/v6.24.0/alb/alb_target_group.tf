@@ -1,11 +1,8 @@
 resource "aws_alb_target_group" "tf-sample-alb-target-group" {
-  arn                                = ""
-  arn_suffix                         = ""
   connection_termination             = false
   deregistration_delay               = ""
   ip_address_type                    = ""
   lambda_multi_value_headers_enabled = false
-  load_balancer_arns                 = []
   load_balancing_algorithm_type      = ""
   load_balancing_anomaly_mitigation  = ""
   load_balancing_cross_zone_enabled  = ""

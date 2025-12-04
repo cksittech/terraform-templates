@@ -1,5 +1,4 @@
 resource "aws_cloudwatch_event_api_destination" "tf-sample-cloudwatch-event-api-destination" {
-  arn                              = ""
   connection_arn                   = ""
   description                      = ""
   http_method                      = ""

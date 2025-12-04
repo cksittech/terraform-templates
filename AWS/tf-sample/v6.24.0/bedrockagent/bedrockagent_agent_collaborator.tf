@@ -2,9 +2,7 @@ resource "aws_bedrockagent_agent_collaborator" "tf-sample-bedrockagent-agent-col
   agent_id                   = ""
   agent_version              = ""
   collaboration_instruction  = ""
-  collaborator_id            = ""
   collaborator_name          = ""
-  id                         = ""
   prepare_agent              = false
   region                     = ""
   relay_conversation_history = ""

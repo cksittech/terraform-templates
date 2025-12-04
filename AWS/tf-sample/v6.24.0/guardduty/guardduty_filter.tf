@@ -1,6 +1,5 @@
 resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
   action      = ""
-  arn         = ""
   description = ""
   detector_id = ""
   name        = ""

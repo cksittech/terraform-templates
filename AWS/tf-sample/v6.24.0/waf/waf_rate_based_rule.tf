@@ -1,5 +1,4 @@
 resource "aws_waf_rate_based_rule" "tf-sample-waf-rate-based-rule" {
-  arn         = ""
   metric_name = ""
   name        = ""
   rate_key    = ""

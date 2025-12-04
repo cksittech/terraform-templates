@@ -1,12 +1,9 @@
 resource "aws_db_subnet_group" "tf-sample-db-subnet-group" {
-  arn                     = ""
-  description             = ""
-  name                    = ""
-  name_prefix             = ""
-  region                  = ""
-  subnet_ids              = []
-  supported_network_types = []
-  vpc_id                  = ""
+  description = ""
+  name        = ""
+  name_prefix = ""
+  region      = ""
+  subnet_ids  = []
   
   tags = {}
 }

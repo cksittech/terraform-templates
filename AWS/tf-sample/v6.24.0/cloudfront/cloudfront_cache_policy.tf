@@ -1,8 +1,6 @@
 resource "aws_cloudfront_cache_policy" "tf-sample-cloudfront-cache-policy" {
-  arn         = ""
   comment     = ""
   default_ttl = 0
-  etag        = ""
   max_ttl     = 0
   min_ttl     = 0
   name        = ""

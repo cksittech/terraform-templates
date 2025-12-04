@@ -1,6 +1,5 @@
 resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
   allocation_strategy                 = ""
-  client_token                        = ""
   context                             = ""
   excess_capacity_termination_policy  = ""
   fleet_type                          = ""
@@ -14,7 +13,6 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
   region                              = ""
   replace_unhealthy_instances         = false
   spot_price                          = ""
-  spot_request_state                  = ""
   target_capacity                     = 0
   target_capacity_unit_type           = ""
   target_group_arns                   = []

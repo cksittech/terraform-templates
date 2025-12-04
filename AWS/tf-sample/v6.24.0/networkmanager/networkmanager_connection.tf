@@ -1,5 +1,4 @@
 resource "aws_networkmanager_connection" "tf-sample-networkmanager-connection" {
-  arn                 = ""
   connected_device_id = ""
   connected_link_id   = ""
   description         = ""

@@ -1,18 +1,11 @@
 resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
-  arn                       = ""
-  creation_date             = ""
-  definition                = ""
-  description               = ""
-  name                      = ""
-  name_prefix               = ""
-  publish                   = false
-  region                    = ""
-  revision_id               = ""
-  role_arn                  = ""
-  state_machine_version_arn = ""
-  status                    = ""
-  type                      = ""
-  version_description       = ""
+  definition  = ""
+  name        = ""
+  name_prefix = ""
+  publish     = false
+  region      = ""
+  role_arn    = ""
+  type        = ""
   
   encryption_configuration {}
   logging_configuration {}

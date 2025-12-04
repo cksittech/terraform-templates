@@ -3,8 +3,6 @@ resource "aws_s3_bucket_website_configuration" "tf-sample-s3-bucket-website-conf
   expected_bucket_owner = ""
   region                = ""
   routing_rules         = ""
-  website_domain        = ""
-  website_endpoint      = ""
   
   error_document {}
   index_document {}

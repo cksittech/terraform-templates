@@ -1,5 +1,4 @@
 resource "aws_api_gateway_authorizer" "tf-sample-api-gateway-authorizer" {
-  arn                              = ""
   authorizer_credentials           = ""
   authorizer_result_ttl_in_seconds = 0
   authorizer_uri                   = ""

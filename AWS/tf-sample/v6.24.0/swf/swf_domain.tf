@@ -1,5 +1,4 @@
 resource "aws_swf_domain" "tf-sample-swf-domain" {
-  arn                                         = ""
   description                                 = ""
   name                                        = ""
   name_prefix                                 = ""

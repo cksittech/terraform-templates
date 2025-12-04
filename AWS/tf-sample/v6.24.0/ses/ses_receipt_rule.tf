@@ -1,6 +1,5 @@
 resource "aws_ses_receipt_rule" "tf-sample-ses-receipt-rule" {
   after         = ""
-  arn           = ""
   enabled       = false
   name          = ""
   recipients    = []

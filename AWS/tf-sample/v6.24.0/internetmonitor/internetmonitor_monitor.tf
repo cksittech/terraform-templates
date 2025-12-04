@@ -1,5 +1,4 @@
 resource "aws_internetmonitor_monitor" "tf-sample-internetmonitor-monitor" {
-  arn                           = ""
   max_city_networks_to_monitor  = 0
   monitor_name                  = ""
   region                        = ""

@@ -1,6 +1,5 @@
 resource "aws_cloudformation_stack_set" "tf-sample-cloudformation-stack-set" {
   administration_role_arn = ""
-  arn                     = ""
   call_as                 = ""
   capabilities            = []
   description             = ""
@@ -9,7 +8,6 @@ resource "aws_cloudformation_stack_set" "tf-sample-cloudformation-stack-set" {
   parameters              = {}
   permission_model        = ""
   region                  = ""
-  stack_set_id            = ""
   template_body           = ""
   template_url            = ""
   

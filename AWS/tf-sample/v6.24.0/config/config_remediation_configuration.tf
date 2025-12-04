@@ -1,5 +1,4 @@
 resource "aws_config_remediation_configuration" "tf-sample-config-remediation-configuration" {
-  arn                        = ""
   automatic                  = false
   config_rule_name           = ""
   maximum_automatic_attempts = 0

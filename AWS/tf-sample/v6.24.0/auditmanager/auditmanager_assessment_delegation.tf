@@ -2,10 +2,7 @@ resource "aws_auditmanager_assessment_delegation" "tf-sample-auditmanager-assess
   assessment_id  = ""
   comment        = ""
   control_set_id = ""
-  delegation_id  = ""
-  id             = ""
   region         = ""
   role_arn       = ""
   role_type      = ""
-  status         = ""
 }

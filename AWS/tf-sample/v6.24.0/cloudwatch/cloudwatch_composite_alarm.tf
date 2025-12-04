@@ -4,7 +4,6 @@ resource "aws_cloudwatch_composite_alarm" "tf-sample-cloudwatch-composite-alarm"
   alarm_description         = ""
   alarm_name                = ""
   alarm_rule                = ""
-  arn                       = ""
   insufficient_data_actions = []
   ok_actions                = []
   region                    = ""

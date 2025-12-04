@@ -1,6 +1,5 @@
 resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   acl                           = ""
-  arn                           = ""
   bucket                        = ""
   bucket_key_enabled            = false
   cache_control                 = ""
@@ -23,7 +22,6 @@ resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   source                        = ""
   source_hash                   = ""
   storage_class                 = ""
-  version_id                    = ""
   website_redirect              = ""
   
   tags = {}

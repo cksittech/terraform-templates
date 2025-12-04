@@ -1,15 +1,8 @@
 resource "aws_acmpca_certificate_authority" "tf-sample-acmpca-certificate-authority" {
-  arn                             = ""
-  certificate                     = ""
-  certificate_chain               = ""
-  certificate_signing_request     = ""
   enabled                         = false
   key_storage_security_standard   = ""
-  not_after                       = ""
-  not_before                      = ""
   permanent_deletion_time_in_days = 0
   region                          = ""
-  serial                          = ""
   type                            = ""
   usage_mode                      = ""
   

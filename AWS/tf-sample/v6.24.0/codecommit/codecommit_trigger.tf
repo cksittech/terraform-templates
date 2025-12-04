@@ -1,7 +1,6 @@
 resource "aws_codecommit_trigger" "tf-sample-codecommit-trigger" {
-  configuration_id = ""
-  region           = ""
-  repository_name  = ""
+  region          = ""
+  repository_name = ""
   
   trigger {}
 }

@@ -1,22 +1,15 @@
 resource "aws_lex_bot" "tf-sample-lex-bot" {
-  arn                             = ""
-  checksum                        = ""
   child_directed                  = false
   create_version                  = false
-  created_date                    = ""
   description                     = ""
   detect_sentiment                = false
   enable_model_improvements       = false
-  failure_reason                  = ""
   idle_session_ttl_in_seconds     = 0
-  last_updated_date               = ""
   locale                          = ""
   name                            = ""
   nlu_intent_confidence_threshold = 0
   process_behavior                = ""
   region                          = ""
-  status                          = ""
-  version                         = ""
   voice_id                        = ""
   
   abort_statement {}

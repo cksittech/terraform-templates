@@ -1,5 +1,4 @@
 resource "aws_route53_health_check" "tf-sample-route53-health-check" {
-  arn                             = ""
   child_health_threshold          = 0
   child_healthchecks              = []
   cloudwatch_alarm_name           = ""

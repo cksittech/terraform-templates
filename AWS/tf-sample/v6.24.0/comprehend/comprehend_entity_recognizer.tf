@@ -1,5 +1,4 @@
 resource "aws_comprehend_entity_recognizer" "tf-sample-comprehend-entity-recognizer" {
-  arn                  = ""
   data_access_role_arn = ""
   language_code        = ""
   model_kms_key_id     = ""

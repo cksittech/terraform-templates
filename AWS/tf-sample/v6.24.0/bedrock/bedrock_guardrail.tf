@@ -1,16 +1,10 @@
 resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   blocked_input_messaging   = ""
   blocked_outputs_messaging = ""
-  created_at                = ""
   description               = ""
-  guardrail_arn             = ""
-  guardrail_id              = ""
   kms_key_arn               = ""
   name                      = ""
   region                    = ""
-  status                    = ""
-  tags_all                  = {}
-  version                   = ""
   
   content_policy_config {}
   contextual_grounding_policy_config {}
