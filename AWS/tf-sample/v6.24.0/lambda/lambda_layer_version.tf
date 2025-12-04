@@ -1,4 +1,4 @@
-resource "aws_lambda_layer_version" "sample-lambda-layer-version" {
+resource "aws_lambda_layer_version" "tf-sample-lambda-layer-version" {
   code_sha256                 = ""
   compatible_architectures    = []
   compatible_runtimes         = []

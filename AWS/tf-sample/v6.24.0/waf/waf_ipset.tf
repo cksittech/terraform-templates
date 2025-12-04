@@ -1,4 +1,4 @@
-resource "aws_waf_ipset" "sample-waf-ipset" {
+resource "aws_waf_ipset" "tf-sample-waf-ipset" {
   id   = ""
   name = ""
   

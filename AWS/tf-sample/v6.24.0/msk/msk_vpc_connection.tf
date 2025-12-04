@@ -1,4 +1,4 @@
-resource "aws_msk_vpc_connection" "sample-msk-vpc-connection" {
+resource "aws_msk_vpc_connection" "tf-sample-msk-vpc-connection" {
   authentication     = ""
   client_subnets     = []
   id                 = ""

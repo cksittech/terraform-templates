@@ -1,4 +1,4 @@
-resource "aws_paymentcryptography_key" "sample-paymentcryptography-key" {
+resource "aws_paymentcryptography_key" "tf-sample-paymentcryptography-key" {
   deletion_window_in_days   = ""
   enabled                   = ""
   exportable                = ""

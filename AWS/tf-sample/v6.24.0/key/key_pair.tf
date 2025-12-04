@@ -1,4 +1,4 @@
-resource "aws_key_pair" "sample-key-pair" {
+resource "aws_key_pair" "tf-sample-key-pair" {
   fingerprint     = ""
   id              = ""
   key_name        = ""

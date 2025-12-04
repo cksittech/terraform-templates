@@ -1,4 +1,4 @@
-resource "aws_iam_virtual_mfa_device" "sample-iam-virtual-mfa-device" {
+resource "aws_iam_virtual_mfa_device" "tf-sample-iam-virtual-mfa-device" {
   base_32_string_seed     = ""
   enable_date             = ""
   id                      = ""

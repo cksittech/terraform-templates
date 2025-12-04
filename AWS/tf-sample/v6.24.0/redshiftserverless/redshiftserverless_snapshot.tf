@@ -1,4 +1,4 @@
-resource "aws_redshiftserverless_snapshot" "sample-redshiftserverless-snapshot" {
+resource "aws_redshiftserverless_snapshot" "tf-sample-redshiftserverless-snapshot" {
   accounts_with_provisioned_restore_access = []
   accounts_with_restore_access             = []
   admin_username                           = ""

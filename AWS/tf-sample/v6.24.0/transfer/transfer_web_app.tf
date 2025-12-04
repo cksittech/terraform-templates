@@ -1,4 +1,4 @@
-resource "aws_transfer_web_app" "sample-transfer-web-app" {
+resource "aws_transfer_web_app" "tf-sample-transfer-web-app" {
   access_endpoint         = ""
   region                  = ""
   web_app_endpoint_policy = ""

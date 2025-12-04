@@ -1,4 +1,4 @@
-resource "aws_vpc_endpoint" "sample-vpc-endpoint" {
+resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
   auto_accept                = ""
   cidr_blocks                = []
   dns_entry                  = []

@@ -1,4 +1,4 @@
-resource "aws_cognito_log_delivery_configuration" "sample-cognito-log-delivery-configuration" {
+resource "aws_cognito_log_delivery_configuration" "tf-sample-cognito-log-delivery-configuration" {
   region       = ""
   user_pool_id = ""
   

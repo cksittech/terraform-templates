@@ -1,4 +1,4 @@
-resource "aws_ec2_traffic_mirror_target" "sample-ec2-traffic-mirror-target" {
+resource "aws_ec2_traffic_mirror_target" "tf-sample-ec2-traffic-mirror-target" {
   description                       = ""
   gateway_load_balancer_endpoint_id = ""
   id                                = ""

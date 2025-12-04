@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_image_recipe" "sample-imagebuilder-image-recipe" {
+resource "aws_imagebuilder_image_recipe" "tf-sample-imagebuilder-image-recipe" {
   ami_tags          = {}
   date_created      = ""
   description       = ""

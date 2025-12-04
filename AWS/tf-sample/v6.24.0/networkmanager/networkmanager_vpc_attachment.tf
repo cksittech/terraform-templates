@@ -1,4 +1,4 @@
-resource "aws_networkmanager_vpc_attachment" "sample-networkmanager-vpc-attachment" {
+resource "aws_networkmanager_vpc_attachment" "tf-sample-networkmanager-vpc-attachment" {
   attachment_policy_rule_number = ""
   attachment_type               = ""
   core_network_arn              = ""

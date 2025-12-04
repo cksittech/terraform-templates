@@ -1,4 +1,4 @@
-resource "aws_lightsail_disk_attachment" "sample-lightsail-disk-attachment" {
+resource "aws_lightsail_disk_attachment" "tf-sample-lightsail-disk-attachment" {
   disk_name     = ""
   disk_path     = ""
   id            = ""

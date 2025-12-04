@@ -1,4 +1,4 @@
-resource "aws_networkflowmonitor_scope" "sample-networkflowmonitor-scope" {
+resource "aws_networkflowmonitor_scope" "tf-sample-networkflowmonitor-scope" {
   region    = ""
   scope_arn = ""
   scope_id  = ""

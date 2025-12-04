@@ -1,4 +1,4 @@
-resource "aws_ssoadmin_permission_set" "sample-ssoadmin-permission-set" {
+resource "aws_ssoadmin_permission_set" "tf-sample-ssoadmin-permission-set" {
   created_date     = ""
   description      = ""
   id               = ""

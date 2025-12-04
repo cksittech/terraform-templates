@@ -1,4 +1,4 @@
-resource "aws_elasticache_user_group" "sample-elasticache-user-group" {
+resource "aws_elasticache_user_group" "tf-sample-elasticache-user-group" {
   engine        = ""
   id            = ""
   region        = ""

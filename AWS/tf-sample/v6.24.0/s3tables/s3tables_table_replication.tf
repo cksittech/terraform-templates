@@ -1,4 +1,4 @@
-resource "aws_s3tables_table_replication" "sample-s3tables-table-replication" {
+resource "aws_s3tables_table_replication" "tf-sample-s3tables-table-replication" {
   region        = ""
   role          = ""
   table_arn     = ""

@@ -1,4 +1,4 @@
-resource "aws_ecr_registry_policy" "sample-ecr-registry-policy" {
+resource "aws_ecr_registry_policy" "tf-sample-ecr-registry-policy" {
   id          = ""
   policy      = ""
   region      = ""

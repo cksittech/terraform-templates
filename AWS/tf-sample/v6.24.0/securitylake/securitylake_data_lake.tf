@@ -1,4 +1,4 @@
-resource "aws_securitylake_data_lake" "sample-securitylake-data-lake" {
+resource "aws_securitylake_data_lake" "tf-sample-securitylake-data-lake" {
   id                          = ""
   meta_store_manager_role_arn = ""
   region                      = ""

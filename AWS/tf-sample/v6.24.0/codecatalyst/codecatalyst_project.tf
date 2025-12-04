@@ -1,4 +1,4 @@
-resource "aws_codecatalyst_project" "sample-codecatalyst-project" {
+resource "aws_codecatalyst_project" "tf-sample-codecatalyst-project" {
   description  = ""
   display_name = ""
   id           = ""

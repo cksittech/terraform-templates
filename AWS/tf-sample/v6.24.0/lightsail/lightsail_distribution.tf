@@ -1,4 +1,4 @@
-resource "aws_lightsail_distribution" "sample-lightsail-distribution" {
+resource "aws_lightsail_distribution" "tf-sample-lightsail-distribution" {
   alternative_domain_names = []
   bundle_id                = ""
   certificate_name         = ""

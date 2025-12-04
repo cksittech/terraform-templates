@@ -1,4 +1,4 @@
-resource "aws_apprunner_vpc_connector" "sample-apprunner-vpc-connector" {
+resource "aws_apprunner_vpc_connector" "tf-sample-apprunner-vpc-connector" {
   id                     = ""
   region                 = ""
   security_groups        = []

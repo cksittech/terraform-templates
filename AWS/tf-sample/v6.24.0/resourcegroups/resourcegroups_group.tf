@@ -1,4 +1,4 @@
-resource "aws_resourcegroups_group" "sample-resourcegroups-group" {
+resource "aws_resourcegroups_group" "tf-sample-resourcegroups-group" {
   description = ""
   id          = ""
   name        = ""

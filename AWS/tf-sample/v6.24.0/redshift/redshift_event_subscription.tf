@@ -1,4 +1,4 @@
-resource "aws_redshift_event_subscription" "sample-redshift-event-subscription" {
+resource "aws_redshift_event_subscription" "tf-sample-redshift-event-subscription" {
   customer_aws_id  = ""
   enabled          = ""
   event_categories = []

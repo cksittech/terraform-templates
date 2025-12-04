@@ -1,4 +1,4 @@
-resource "aws_media_convert_queue" "sample-media-convert-queue" {
+resource "aws_media_convert_queue" "tf-sample-media-convert-queue" {
   concurrent_jobs = ""
   description     = ""
   id              = ""

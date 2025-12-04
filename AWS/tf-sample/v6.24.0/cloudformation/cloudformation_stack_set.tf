@@ -1,4 +1,4 @@
-resource "aws_cloudformation_stack_set" "sample-cloudformation-stack-set" {
+resource "aws_cloudformation_stack_set" "tf-sample-cloudformation-stack-set" {
   administration_role_arn = ""
   call_as                 = ""
   capabilities            = []

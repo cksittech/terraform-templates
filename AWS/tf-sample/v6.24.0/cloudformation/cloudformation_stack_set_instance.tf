@@ -1,4 +1,4 @@
-resource "aws_cloudformation_stack_set_instance" "sample-cloudformation-stack-set-instance" {
+resource "aws_cloudformation_stack_set_instance" "tf-sample-cloudformation-stack-set-instance" {
   account_id                = ""
   call_as                   = ""
   id                        = ""

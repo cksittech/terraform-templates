@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table_replica" "sample-dynamodb-table-replica" {
+resource "aws_dynamodb_table_replica" "tf-sample-dynamodb-table-replica" {
   deletion_protection_enabled = ""
   global_table_arn            = ""
   id                          = ""

@@ -1,4 +1,4 @@
-resource "aws_db_event_subscription" "sample-db-event-subscription" {
+resource "aws_db_event_subscription" "tf-sample-db-event-subscription" {
   customer_aws_id  = ""
   enabled          = ""
   event_categories = []

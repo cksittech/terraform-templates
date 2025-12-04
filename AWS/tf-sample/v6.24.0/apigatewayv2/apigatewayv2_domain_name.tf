@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_domain_name" "sample-apigatewayv2-domain-name" {
+resource "aws_apigatewayv2_domain_name" "tf-sample-apigatewayv2-domain-name" {
   api_mapping_selection_expression = ""
   domain_name                      = ""
   id                               = ""

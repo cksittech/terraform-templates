@@ -1,4 +1,4 @@
-resource "aws_apprunner_vpc_ingress_connection" "sample-apprunner-vpc-ingress-connection" {
+resource "aws_apprunner_vpc_ingress_connection" "tf-sample-apprunner-vpc-ingress-connection" {
   domain_name = ""
   id          = ""
   name        = ""

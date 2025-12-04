@@ -1,4 +1,4 @@
-resource "aws_vpclattice_access_log_subscription" "sample-vpclattice-access-log-subscription" {
+resource "aws_vpclattice_access_log_subscription" "tf-sample-vpclattice-access-log-subscription" {
   destination_arn          = ""
   id                       = ""
   region                   = ""

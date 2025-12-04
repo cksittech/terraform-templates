@@ -1,4 +1,4 @@
-resource "aws_batch_compute_environment" "sample-batch-compute-environment" {
+resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
   ecs_cluster_arn = ""
   id              = ""
   name            = ""

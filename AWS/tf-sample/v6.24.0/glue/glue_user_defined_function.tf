@@ -1,4 +1,4 @@
-resource "aws_glue_user_defined_function" "sample-glue-user-defined-function" {
+resource "aws_glue_user_defined_function" "tf-sample-glue-user-defined-function" {
   catalog_id    = ""
   class_name    = ""
   create_time   = ""

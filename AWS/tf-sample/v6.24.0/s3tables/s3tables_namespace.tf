@@ -1,4 +1,4 @@
-resource "aws_s3tables_namespace" "sample-s3tables-namespace" {
+resource "aws_s3tables_namespace" "tf-sample-s3tables-namespace" {
   created_at       = ""
   created_by       = ""
   namespace        = ""

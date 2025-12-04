@@ -1,4 +1,4 @@
-resource "aws_batch_job_definition" "sample-batch-job-definition" {
+resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   arn_prefix                 = ""
   container_properties       = ""
   deregister_on_new_revision = ""

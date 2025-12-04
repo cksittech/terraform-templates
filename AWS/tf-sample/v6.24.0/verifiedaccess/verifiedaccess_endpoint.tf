@@ -1,4 +1,4 @@
-resource "aws_verifiedaccess_endpoint" "sample-verifiedaccess-endpoint" {
+resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
   application_domain          = ""
   attachment_type             = ""
   description                 = ""

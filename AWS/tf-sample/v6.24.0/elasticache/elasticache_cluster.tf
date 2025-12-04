@@ -1,4 +1,4 @@
-resource "aws_elasticache_cluster" "sample-elasticache-cluster" {
+resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
   apply_immediately            = ""
   auto_minor_version_upgrade   = ""
   availability_zone            = ""

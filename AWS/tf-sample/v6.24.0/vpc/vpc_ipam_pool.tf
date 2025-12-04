@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_pool" "sample-vpc-ipam-pool" {
+resource "aws_vpc_ipam_pool" "tf-sample-vpc-ipam-pool" {
   address_family                    = ""
   allocation_default_netmask_length = ""
   allocation_max_netmask_length     = ""

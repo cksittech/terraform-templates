@@ -1,4 +1,4 @@
-resource "aws_networkmonitor_probe" "sample-networkmonitor-probe" {
+resource "aws_networkmonitor_probe" "tf-sample-networkmonitor-probe" {
   address_family   = ""
   destination      = ""
   destination_port = ""

@@ -1,4 +1,4 @@
-resource "aws_xray_sampling_rule" "sample-xray-sampling-rule" {
+resource "aws_xray_sampling_rule" "tf-sample-xray-sampling-rule" {
   attributes     = {}
   fixed_rate     = ""
   host           = ""

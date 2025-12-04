@@ -1,4 +1,4 @@
-resource "aws_signer_signing_profile" "sample-signer-signing-profile" {
+resource "aws_signer_signing_profile" "tf-sample-signer-signing-profile" {
   id                    = ""
   name                  = ""
   name_prefix           = ""

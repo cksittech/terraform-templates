@@ -1,4 +1,4 @@
-resource "aws_glacier_vault" "sample-glacier-vault" {
+resource "aws_glacier_vault" "tf-sample-glacier-vault" {
   access_policy = ""
   id            = ""
   location      = ""

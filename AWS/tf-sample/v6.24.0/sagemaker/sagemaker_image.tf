@@ -1,4 +1,4 @@
-resource "aws_sagemaker_image" "sample-sagemaker-image" {
+resource "aws_sagemaker_image" "tf-sample-sagemaker-image" {
   description  = ""
   display_name = ""
   id           = ""

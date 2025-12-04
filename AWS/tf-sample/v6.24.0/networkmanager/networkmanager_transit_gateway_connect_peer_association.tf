@@ -1,4 +1,4 @@
-resource "aws_networkmanager_transit_gateway_connect_peer_association" "sample-networkmanager-transit-gateway-connect-peer-association" {
+resource "aws_networkmanager_transit_gateway_connect_peer_association" "tf-sample-networkmanager-transit-gateway-connect-peer-association" {
   device_id                        = ""
   global_network_id                = ""
   id                               = ""

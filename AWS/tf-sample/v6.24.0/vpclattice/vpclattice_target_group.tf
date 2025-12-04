@@ -1,4 +1,4 @@
-resource "aws_vpclattice_target_group" "sample-vpclattice-target-group" {
+resource "aws_vpclattice_target_group" "tf-sample-vpclattice-target-group" {
   id     = ""
   name   = ""
   region = ""

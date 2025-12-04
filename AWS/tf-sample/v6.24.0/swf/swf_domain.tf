@@ -1,4 +1,4 @@
-resource "aws_swf_domain" "sample-swf-domain" {
+resource "aws_swf_domain" "tf-sample-swf-domain" {
   description                                 = ""
   id                                          = ""
   name                                        = ""

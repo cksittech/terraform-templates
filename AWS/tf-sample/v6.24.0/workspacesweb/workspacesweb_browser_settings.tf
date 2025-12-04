@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_browser_settings" "sample-workspacesweb-browser-settings" {
+resource "aws_workspacesweb_browser_settings" "tf-sample-workspacesweb-browser-settings" {
   additional_encryption_context = {}
   associated_portal_arns        = []
   browser_policy                = ""

@@ -1,4 +1,4 @@
-resource "aws_cur_report_definition" "sample-cur-report-definition" {
+resource "aws_cur_report_definition" "tf-sample-cur-report-definition" {
   additional_artifacts       = []
   additional_schema_elements = []
   compression                = ""

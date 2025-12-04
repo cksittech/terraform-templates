@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_metric_stream" "sample-cloudwatch-metric-stream" {
+resource "aws_cloudwatch_metric_stream" "tf-sample-cloudwatch-metric-stream" {
   creation_date                   = ""
   firehose_arn                    = ""
   id                              = ""

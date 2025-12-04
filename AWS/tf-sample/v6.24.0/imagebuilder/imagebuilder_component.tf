@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_component" "sample-imagebuilder-component" {
+resource "aws_imagebuilder_component" "tf-sample-imagebuilder-component" {
   change_description    = ""
   data                  = ""
   date_created          = ""

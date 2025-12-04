@@ -1,4 +1,4 @@
-resource "aws_glue_workflow" "sample-glue-workflow" {
+resource "aws_glue_workflow" "tf-sample-glue-workflow" {
   default_run_properties = {}
   description            = ""
   id                     = ""

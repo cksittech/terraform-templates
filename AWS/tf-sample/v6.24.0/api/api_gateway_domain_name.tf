@@ -1,4 +1,4 @@
-resource "aws_api_gateway_domain_name" "sample-api-gateway-domain-name" {
+resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   certificate_arn                        = ""
   certificate_body                       = ""
   certificate_chain                      = ""

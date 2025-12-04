@@ -1,4 +1,4 @@
-resource "aws_opensearchserverless_collection" "sample-opensearchserverless-collection" {
+resource "aws_opensearchserverless_collection" "tf-sample-opensearchserverless-collection" {
   collection_endpoint = ""
   dashboard_endpoint  = ""
   description         = ""

@@ -1,4 +1,4 @@
-resource "aws_sagemaker_domain" "sample-sagemaker-domain" {
+resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
   app_network_access_type                        = ""
   app_security_group_management                  = ""
   auth_mode                                      = ""

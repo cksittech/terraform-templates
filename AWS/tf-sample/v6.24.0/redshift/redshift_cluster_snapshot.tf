@@ -1,4 +1,4 @@
-resource "aws_redshift_cluster_snapshot" "sample-redshift-cluster-snapshot" {
+resource "aws_redshift_cluster_snapshot" "tf-sample-redshift-cluster-snapshot" {
   cluster_identifier               = ""
   id                               = ""
   kms_key_id                       = ""

@@ -1,4 +1,4 @@
-resource "aws_glue_registry" "sample-glue-registry" {
+resource "aws_glue_registry" "tf-sample-glue-registry" {
   description   = ""
   id            = ""
   region        = ""

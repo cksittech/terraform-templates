@@ -1,4 +1,4 @@
-resource "aws_backup_report_plan" "sample-backup-report-plan" {
+resource "aws_backup_report_plan" "tf-sample-backup-report-plan" {
   creation_time     = ""
   deployment_status = ""
   description       = ""

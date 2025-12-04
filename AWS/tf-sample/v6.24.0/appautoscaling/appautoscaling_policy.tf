@@ -1,4 +1,4 @@
-resource "aws_appautoscaling_policy" "sample-appautoscaling-policy" {
+resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
   alarm_arns         = []
   id                 = ""
   name               = ""

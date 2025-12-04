@@ -1,4 +1,4 @@
-resource "aws_redshift_endpoint_authorization" "sample-redshift-endpoint-authorization" {
+resource "aws_redshift_endpoint_authorization" "tf-sample-redshift-endpoint-authorization" {
   account            = ""
   allowed_all_vpcs   = ""
   cluster_identifier = ""

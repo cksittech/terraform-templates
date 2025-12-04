@@ -1,4 +1,4 @@
-resource "aws_waf_sql_injection_match_set" "sample-waf-sql-injection-match-set" {
+resource "aws_waf_sql_injection_match_set" "tf-sample-waf-sql-injection-match-set" {
   id   = ""
   name = ""
   

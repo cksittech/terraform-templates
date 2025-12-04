@@ -1,4 +1,4 @@
-resource "aws_ec2_traffic_mirror_session" "sample-ec2-traffic-mirror-session" {
+resource "aws_ec2_traffic_mirror_session" "tf-sample-ec2-traffic-mirror-session" {
   description              = ""
   id                       = ""
   network_interface_id     = ""

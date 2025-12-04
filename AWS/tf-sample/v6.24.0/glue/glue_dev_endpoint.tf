@@ -1,4 +1,4 @@
-resource "aws_glue_dev_endpoint" "sample-glue-dev-endpoint" {
+resource "aws_glue_dev_endpoint" "tf-sample-glue-dev-endpoint" {
   arguments                              = {}
   availability_zone                      = ""
   extra_jars_s3_path                     = ""

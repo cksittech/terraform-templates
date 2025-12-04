@@ -1,4 +1,4 @@
-resource "aws_secretsmanager_secret_rotation" "sample-secretsmanager-secret-rotation" {
+resource "aws_secretsmanager_secret_rotation" "tf-sample-secretsmanager-secret-rotation" {
   id                  = ""
   region              = ""
   rotate_immediately  = ""

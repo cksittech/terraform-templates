@@ -1,4 +1,4 @@
-resource "aws_wafv2_web_acl_rule_group_association" "sample-wafv2-web-acl-rule-group-association" {
+resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rule-group-association" {
   override_action = ""
   priority        = ""
   region          = ""

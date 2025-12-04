@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_constraint" "sample-servicecatalog-constraint" {
+resource "aws_servicecatalog_constraint" "tf-sample-servicecatalog-constraint" {
   accept_language = ""
   description     = ""
   id              = ""

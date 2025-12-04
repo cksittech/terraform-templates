@@ -1,4 +1,4 @@
-resource "aws_account_primary_contact" "sample-account-primary-contact" {
+resource "aws_account_primary_contact" "tf-sample-account-primary-contact" {
   account_id         = ""
   address_line_1     = ""
   address_line_2     = ""

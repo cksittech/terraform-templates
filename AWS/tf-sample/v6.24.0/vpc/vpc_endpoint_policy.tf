@@ -1,4 +1,4 @@
-resource "aws_vpc_endpoint_policy" "sample-vpc-endpoint-policy" {
+resource "aws_vpc_endpoint_policy" "tf-sample-vpc-endpoint-policy" {
   id              = ""
   policy          = ""
   region          = ""

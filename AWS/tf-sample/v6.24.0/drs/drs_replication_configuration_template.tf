@@ -1,4 +1,4 @@
-resource "aws_drs_replication_configuration_template" "sample-drs-replication-configuration-template" {
+resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication-configuration-template" {
   associate_default_security_group        = ""
   auto_replicate_new_disks                = ""
   bandwidth_throttling                    = ""

@@ -1,4 +1,4 @@
-resource "aws_backup_selection" "sample-backup-selection" {
+resource "aws_backup_selection" "tf-sample-backup-selection" {
   iam_role_arn  = ""
   id            = ""
   name          = ""

@@ -1,4 +1,4 @@
-resource "aws_kms_key" "sample-kms-key" {
+resource "aws_kms_key" "tf-sample-kms-key" {
   bypass_policy_lockout_safety_check = ""
   custom_key_store_id                = ""
   customer_master_key_spec           = ""

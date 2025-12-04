@@ -1,4 +1,4 @@
-resource "aws_kendra_faq" "sample-kendra-faq" {
+resource "aws_kendra_faq" "tf-sample-kendra-faq" {
   created_at    = ""
   description   = ""
   error_message = ""

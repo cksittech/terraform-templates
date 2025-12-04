@@ -1,4 +1,4 @@
-resource "aws_ses_receipt_rule" "sample-ses-receipt-rule" {
+resource "aws_ses_receipt_rule" "tf-sample-ses-receipt-rule" {
   after         = ""
   enabled       = ""
   id            = ""

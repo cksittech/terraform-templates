@@ -1,4 +1,4 @@
-resource "aws_route" "sample-route" {
+resource "aws_route" "tf-sample-route" {
   carrier_gateway_id          = ""
   core_network_arn            = ""
   destination_cidr_block      = ""

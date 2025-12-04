@@ -1,4 +1,4 @@
-resource "aws_connect_contact_flow_module" "sample-connect-contact-flow-module" {
+resource "aws_connect_contact_flow_module" "tf-sample-connect-contact-flow-module" {
   contact_flow_module_id = ""
   content                = ""
   content_hash           = ""

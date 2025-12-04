@@ -1,4 +1,4 @@
-resource "aws_db_snapshot_copy" "sample-db-snapshot-copy" {
+resource "aws_db_snapshot_copy" "tf-sample-db-snapshot-copy" {
   allocated_storage               = ""
   availability_zone               = ""
   copy_tags                       = ""

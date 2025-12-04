@@ -1,4 +1,4 @@
-resource "aws_appsync_resolver" "sample-appsync-resolver" {
+resource "aws_appsync_resolver" "tf-sample-appsync-resolver" {
   api_id            = ""
   code              = ""
   data_source       = ""

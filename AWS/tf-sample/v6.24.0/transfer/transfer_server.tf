@@ -1,4 +1,4 @@
-resource "aws_transfer_server" "sample-transfer-server" {
+resource "aws_transfer_server" "tf-sample-transfer-server" {
   certificate                      = ""
   directory_id                     = ""
   domain                           = ""

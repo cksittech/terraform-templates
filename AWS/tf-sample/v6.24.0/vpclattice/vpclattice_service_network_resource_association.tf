@@ -1,4 +1,4 @@
-resource "aws_vpclattice_service_network_resource_association" "sample-vpclattice-service-network-resource-association" {
+resource "aws_vpclattice_service_network_resource_association" "tf-sample-vpclattice-service-network-resource-association" {
   dns_entry                         = []
   id                                = ""
   region                            = ""

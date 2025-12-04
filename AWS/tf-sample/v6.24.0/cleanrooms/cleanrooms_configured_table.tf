@@ -1,4 +1,4 @@
-resource "aws_cleanrooms_configured_table" "sample-cleanrooms-configured-table" {
+resource "aws_cleanrooms_configured_table" "tf-sample-cleanrooms-configured-table" {
   allowed_columns = []
   analysis_method = ""
   create_time     = ""

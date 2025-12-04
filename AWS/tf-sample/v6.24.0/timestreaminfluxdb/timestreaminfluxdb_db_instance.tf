@@ -1,4 +1,4 @@
-resource "aws_timestreaminfluxdb_db_instance" "sample-timestreaminfluxdb-db-instance" {
+resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-instance" {
   allocated_storage                 = ""
   availability_zone                 = ""
   bucket                            = ""

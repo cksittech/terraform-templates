@@ -1,4 +1,4 @@
-resource "aws_sagemaker_project" "sample-sagemaker-project" {
+resource "aws_sagemaker_project" "tf-sample-sagemaker-project" {
   id                  = ""
   project_description = ""
   project_id          = ""

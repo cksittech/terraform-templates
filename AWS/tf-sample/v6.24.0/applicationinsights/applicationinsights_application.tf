@@ -1,4 +1,4 @@
-resource "aws_applicationinsights_application" "sample-applicationinsights-application" {
+resource "aws_applicationinsights_application" "tf-sample-applicationinsights-application" {
   auto_config_enabled    = ""
   auto_create            = ""
   cwe_monitor_enabled    = ""

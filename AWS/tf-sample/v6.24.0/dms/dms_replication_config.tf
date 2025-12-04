@@ -1,4 +1,4 @@
-resource "aws_dms_replication_config" "sample-dms-replication-config" {
+resource "aws_dms_replication_config" "tf-sample-dms-replication-config" {
   id                            = ""
   region                        = ""
   replication_config_identifier = ""

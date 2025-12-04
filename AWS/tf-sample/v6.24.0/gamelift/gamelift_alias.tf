@@ -1,4 +1,4 @@
-resource "aws_gamelift_alias" "sample-gamelift-alias" {
+resource "aws_gamelift_alias" "tf-sample-gamelift-alias" {
   description = ""
   id          = ""
   name        = ""

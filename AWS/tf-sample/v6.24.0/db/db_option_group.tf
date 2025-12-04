@@ -1,4 +1,4 @@
-resource "aws_db_option_group" "sample-db-option-group" {
+resource "aws_db_option_group" "tf-sample-db-option-group" {
   engine_name              = ""
   id                       = ""
   major_engine_version     = ""

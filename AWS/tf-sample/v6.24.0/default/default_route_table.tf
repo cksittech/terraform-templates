@@ -1,4 +1,4 @@
-resource "aws_default_route_table" "sample-default-route-table" {
+resource "aws_default_route_table" "tf-sample-default-route-table" {
   default_route_table_id = ""
   id                     = ""
   owner_id               = ""

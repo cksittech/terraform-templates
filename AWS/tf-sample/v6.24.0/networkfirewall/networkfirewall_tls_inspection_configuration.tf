@@ -1,4 +1,4 @@
-resource "aws_networkfirewall_tls_inspection_configuration" "sample-networkfirewall-tls-inspection-configuration" {
+resource "aws_networkfirewall_tls_inspection_configuration" "tf-sample-networkfirewall-tls-inspection-configuration" {
   certificate_authority           = []
   certificates                    = []
   description                     = ""

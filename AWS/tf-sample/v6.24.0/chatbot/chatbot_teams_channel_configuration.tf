@@ -1,4 +1,4 @@
-resource "aws_chatbot_teams_channel_configuration" "sample-chatbot-teams-channel-configuration" {
+resource "aws_chatbot_teams_channel_configuration" "tf-sample-chatbot-teams-channel-configuration" {
   channel_id                  = ""
   channel_name                = ""
   chat_configuration_arn      = ""

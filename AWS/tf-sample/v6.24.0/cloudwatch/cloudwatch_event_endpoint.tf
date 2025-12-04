@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_endpoint" "sample-cloudwatch-event-endpoint" {
+resource "aws_cloudwatch_event_endpoint" "tf-sample-cloudwatch-event-endpoint" {
   description  = ""
   endpoint_url = ""
   id           = ""

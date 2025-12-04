@@ -1,4 +1,4 @@
-resource "aws_vpc_dhcp_options" "sample-vpc-dhcp-options" {
+resource "aws_vpc_dhcp_options" "tf-sample-vpc-dhcp-options" {
   domain_name                       = ""
   domain_name_servers               = []
   id                                = ""

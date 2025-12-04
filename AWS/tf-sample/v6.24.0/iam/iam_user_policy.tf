@@ -1,4 +1,4 @@
-resource "aws_iam_user_policy" "sample-iam-user-policy" {
+resource "aws_iam_user_policy" "tf-sample-iam-user-policy" {
   id          = ""
   name        = ""
   name_prefix = ""

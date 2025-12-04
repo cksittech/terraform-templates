@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_stage" "sample-apigatewayv2-stage" {
+resource "aws_apigatewayv2_stage" "tf-sample-apigatewayv2-stage" {
   api_id                = ""
   auto_deploy           = ""
   client_certificate_id = ""

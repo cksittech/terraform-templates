@@ -1,4 +1,4 @@
-resource "aws_rds_integration" "sample-rds-integration" {
+resource "aws_rds_integration" "tf-sample-rds-integration" {
   additional_encryption_context = {}
   data_filter                   = ""
   id                            = ""

@@ -1,4 +1,4 @@
-resource "aws_kendra_experience" "sample-kendra-experience" {
+resource "aws_kendra_experience" "tf-sample-kendra-experience" {
   description   = ""
   endpoints     = []
   experience_id = ""

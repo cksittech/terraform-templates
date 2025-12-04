@@ -1,4 +1,4 @@
-resource "aws_codedeploy_app" "sample-codedeploy-app" {
+resource "aws_codedeploy_app" "tf-sample-codedeploy-app" {
   application_id      = ""
   compute_platform    = ""
   github_account_name = ""

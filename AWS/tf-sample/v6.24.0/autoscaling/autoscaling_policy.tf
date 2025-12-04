@@ -1,4 +1,4 @@
-resource "aws_autoscaling_policy" "sample-autoscaling-policy" {
+resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
   adjustment_type           = ""
   autoscaling_group_name    = ""
   cooldown                  = ""

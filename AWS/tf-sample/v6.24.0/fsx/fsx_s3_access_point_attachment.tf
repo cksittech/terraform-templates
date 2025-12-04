@@ -1,4 +1,4 @@
-resource "aws_fsx_s3_access_point_attachment" "sample-fsx-s3-access-point-attachment" {
+resource "aws_fsx_s3_access_point_attachment" "tf-sample-fsx-s3-access-point-attachment" {
   name                  = ""
   region                = ""
   s3_access_point_alias = ""

@@ -1,4 +1,4 @@
-resource "aws_lakeformation_data_lake_settings" "sample-lakeformation-data-lake-settings" {
+resource "aws_lakeformation_data_lake_settings" "tf-sample-lakeformation-data-lake-settings" {
   admins                                = []
   allow_external_data_filtering         = ""
   allow_full_table_external_data_access = ""

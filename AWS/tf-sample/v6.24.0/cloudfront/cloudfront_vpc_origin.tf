@@ -1,4 +1,4 @@
-resource "aws_cloudfront_vpc_origin" "sample-cloudfront-vpc-origin" {
+resource "aws_cloudfront_vpc_origin" "tf-sample-cloudfront-vpc-origin" {
   etag = ""
   id   = ""
   

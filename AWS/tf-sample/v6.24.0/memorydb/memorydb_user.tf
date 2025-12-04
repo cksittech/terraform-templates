@@ -1,4 +1,4 @@
-resource "aws_memorydb_user" "sample-memorydb-user" {
+resource "aws_memorydb_user" "tf-sample-memorydb-user" {
   access_string          = ""
   id                     = ""
   minimum_engine_version = ""

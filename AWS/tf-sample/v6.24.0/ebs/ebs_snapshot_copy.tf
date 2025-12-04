@@ -1,4 +1,4 @@
-resource "aws_ebs_snapshot_copy" "sample-ebs-snapshot-copy" {
+resource "aws_ebs_snapshot_copy" "tf-sample-ebs-snapshot-copy" {
   completion_duration_minutes = ""
   data_encryption_key_id      = ""
   description                 = ""

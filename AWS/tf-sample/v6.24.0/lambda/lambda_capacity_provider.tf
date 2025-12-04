@@ -1,4 +1,4 @@
-resource "aws_lambda_capacity_provider" "sample-lambda-capacity-provider" {
+resource "aws_lambda_capacity_provider" "tf-sample-lambda-capacity-provider" {
   capacity_provider_scaling_config = []
   instance_requirements            = []
   kms_key_arn                      = ""

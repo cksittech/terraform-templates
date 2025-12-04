@@ -1,4 +1,4 @@
-resource "aws_vpn_connection_route" "sample-vpn-connection-route" {
+resource "aws_vpn_connection_route" "tf-sample-vpn-connection-route" {
   destination_cidr_block = ""
   id                     = ""
   region                 = ""

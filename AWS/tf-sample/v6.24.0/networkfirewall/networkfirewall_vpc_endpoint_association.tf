@@ -1,4 +1,4 @@
-resource "aws_networkfirewall_vpc_endpoint_association" "sample-networkfirewall-vpc-endpoint-association" {
+resource "aws_networkfirewall_vpc_endpoint_association" "tf-sample-networkfirewall-vpc-endpoint-association" {
   description                     = ""
   firewall_arn                    = ""
   region                          = ""

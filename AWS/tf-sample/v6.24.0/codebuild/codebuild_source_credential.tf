@@ -1,4 +1,4 @@
-resource "aws_codebuild_source_credential" "sample-codebuild-source-credential" {
+resource "aws_codebuild_source_credential" "tf-sample-codebuild-source-credential" {
   auth_type   = ""
   id          = ""
   region      = ""

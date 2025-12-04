@@ -1,4 +1,4 @@
-resource "aws_db_subnet_group" "sample-db-subnet-group" {
+resource "aws_db_subnet_group" "tf-sample-db-subnet-group" {
   description             = ""
   id                      = ""
   name                    = ""

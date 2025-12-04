@@ -1,4 +1,4 @@
-resource "aws_cognito_identity_pool" "sample-cognito-identity-pool" {
+resource "aws_cognito_identity_pool" "tf-sample-cognito-identity-pool" {
   allow_classic_flow               = ""
   allow_unauthenticated_identities = ""
   developer_provider_name          = ""

@@ -1,4 +1,4 @@
-resource "aws_kms_ciphertext" "sample-kms-ciphertext" {
+resource "aws_kms_ciphertext" "tf-sample-kms-ciphertext" {
   ciphertext_blob = ""
   context         = {}
   id              = ""

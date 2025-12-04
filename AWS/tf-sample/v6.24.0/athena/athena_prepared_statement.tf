@@ -1,4 +1,4 @@
-resource "aws_athena_prepared_statement" "sample-athena-prepared-statement" {
+resource "aws_athena_prepared_statement" "tf-sample-athena-prepared-statement" {
   description     = ""
   id              = ""
   name            = ""

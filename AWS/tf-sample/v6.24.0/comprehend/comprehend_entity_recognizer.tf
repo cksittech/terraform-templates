@@ -1,4 +1,4 @@
-resource "aws_comprehend_entity_recognizer" "sample-comprehend-entity-recognizer" {
+resource "aws_comprehend_entity_recognizer" "tf-sample-comprehend-entity-recognizer" {
   data_access_role_arn = ""
   id                   = ""
   language_code        = ""

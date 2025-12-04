@@ -1,4 +1,4 @@
-resource "aws_emr_studio" "sample-emr-studio" {
+resource "aws_emr_studio" "tf-sample-emr-studio" {
   auth_mode                      = ""
   default_s3_location            = ""
   description                    = ""

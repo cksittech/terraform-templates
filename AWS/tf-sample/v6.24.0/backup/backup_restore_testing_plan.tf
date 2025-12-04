@@ -1,4 +1,4 @@
-resource "aws_backup_restore_testing_plan" "sample-backup-restore-testing-plan" {
+resource "aws_backup_restore_testing_plan" "tf-sample-backup-restore-testing-plan" {
   name                         = ""
   region                       = ""
   schedule_expression          = ""

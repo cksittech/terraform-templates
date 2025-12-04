@@ -1,4 +1,4 @@
-resource "aws_ec2_managed_prefix_list" "sample-ec2-managed-prefix-list" {
+resource "aws_ec2_managed_prefix_list" "tf-sample-ec2-managed-prefix-list" {
   address_family = ""
   id             = ""
   max_entries    = ""

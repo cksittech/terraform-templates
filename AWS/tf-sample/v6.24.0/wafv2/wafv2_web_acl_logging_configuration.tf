@@ -1,4 +1,4 @@
-resource "aws_wafv2_web_acl_logging_configuration" "sample-wafv2-web-acl-logging-configuration" {
+resource "aws_wafv2_web_acl_logging_configuration" "tf-sample-wafv2-web-acl-logging-configuration" {
   id                      = ""
   log_destination_configs = []
   region                  = ""

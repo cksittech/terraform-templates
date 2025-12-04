@@ -1,4 +1,4 @@
-resource "aws_pinpoint_apns_channel" "sample-pinpoint-apns-channel" {
+resource "aws_pinpoint_apns_channel" "tf-sample-pinpoint-apns-channel" {
   application_id                = ""
   bundle_id                     = ""
   certificate                   = ""

@@ -1,4 +1,4 @@
-resource "aws_medialive_input" "sample-medialive-input" {
+resource "aws_medialive_input" "tf-sample-medialive-input" {
   attached_channels     = []
   id                    = ""
   input_class           = ""

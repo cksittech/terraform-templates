@@ -1,4 +1,4 @@
-resource "aws_iam_user_login_profile" "sample-iam-user-login-profile" {
+resource "aws_iam_user_login_profile" "tf-sample-iam-user-login-profile" {
   encrypted_password      = ""
   id                      = ""
   key_fingerprint         = ""

@@ -1,4 +1,4 @@
-resource "aws_lex_intent" "sample-lex-intent" {
+resource "aws_lex_intent" "tf-sample-lex-intent" {
   checksum                = ""
   create_version          = ""
   created_date            = ""

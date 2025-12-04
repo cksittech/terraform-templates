@@ -1,4 +1,4 @@
-resource "aws_sfn_alias" "sample-sfn-alias" {
+resource "aws_sfn_alias" "tf-sample-sfn-alias" {
   creation_date = ""
   description   = ""
   id            = ""

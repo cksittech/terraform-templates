@@ -1,4 +1,4 @@
-resource "aws_osis_pipeline" "sample-osis-pipeline" {
+resource "aws_osis_pipeline" "tf-sample-osis-pipeline" {
   id                          = ""
   ingest_endpoint_urls        = []
   max_units                   = ""

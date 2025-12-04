@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_tag_option_resource_association" "sample-servicecatalog-tag-option-resource-association" {
+resource "aws_servicecatalog_tag_option_resource_association" "tf-sample-servicecatalog-tag-option-resource-association" {
   id                    = ""
   region                = ""
   resource_arn          = ""

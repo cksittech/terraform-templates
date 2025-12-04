@@ -1,4 +1,4 @@
-resource "aws_iot_domain_configuration" "sample-iot-domain-configuration" {
+resource "aws_iot_domain_configuration" "tf-sample-iot-domain-configuration" {
   application_protocol       = ""
   authentication_type        = ""
   domain_name                = ""

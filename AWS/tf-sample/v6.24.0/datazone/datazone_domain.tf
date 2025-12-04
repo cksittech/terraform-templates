@@ -1,4 +1,4 @@
-resource "aws_datazone_domain" "sample-datazone-domain" {
+resource "aws_datazone_domain" "tf-sample-datazone-domain" {
   description           = ""
   domain_execution_role = ""
   domain_version        = ""

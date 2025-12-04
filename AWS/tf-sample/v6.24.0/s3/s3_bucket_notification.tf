@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_notification" "sample-s3-bucket-notification" {
+resource "aws_s3_bucket_notification" "tf-sample-s3-bucket-notification" {
   bucket      = ""
   eventbridge = ""
   id          = ""

@@ -1,4 +1,4 @@
-resource "aws_alb_listener" "sample-alb-listener" {
+resource "aws_alb_listener" "tf-sample-alb-listener" {
   alpn_policy                                                           = ""
   certificate_arn                                                       = ""
   id                                                                    = ""

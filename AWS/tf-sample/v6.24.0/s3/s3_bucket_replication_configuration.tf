@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_replication_configuration" "sample-s3-bucket-replication-configuration" {
+resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replication-configuration" {
   bucket = ""
   id     = ""
   region = ""

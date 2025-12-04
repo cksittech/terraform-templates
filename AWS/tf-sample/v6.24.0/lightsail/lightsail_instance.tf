@@ -1,4 +1,4 @@
-resource "aws_lightsail_instance" "sample-lightsail-instance" {
+resource "aws_lightsail_instance" "tf-sample-lightsail-instance" {
   availability_zone  = ""
   blueprint_id       = ""
   bundle_id          = ""

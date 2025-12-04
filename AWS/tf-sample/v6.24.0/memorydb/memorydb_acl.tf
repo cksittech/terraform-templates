@@ -1,4 +1,4 @@
-resource "aws_memorydb_acl" "sample-memorydb-acl" {
+resource "aws_memorydb_acl" "tf-sample-memorydb-acl" {
   id                     = ""
   minimum_engine_version = ""
   name                   = ""

@@ -1,4 +1,4 @@
-resource "aws_vpclattice_service_network_vpc_association" "sample-vpclattice-service-network-vpc-association" {
+resource "aws_vpclattice_service_network_vpc_association" "tf-sample-vpclattice-service-network-vpc-association" {
   created_by                 = ""
   id                         = ""
   region                     = ""

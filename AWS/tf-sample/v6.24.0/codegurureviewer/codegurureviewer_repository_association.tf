@@ -1,4 +1,4 @@
-resource "aws_codegurureviewer_repository_association" "sample-codegurureviewer-repository-association" {
+resource "aws_codegurureviewer_repository_association" "tf-sample-codegurureviewer-repository-association" {
   association_id        = ""
   connection_arn        = ""
   id                    = ""

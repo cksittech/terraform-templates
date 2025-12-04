@@ -1,4 +1,4 @@
-resource "aws_emr_studio_session_mapping" "sample-emr-studio-session-mapping" {
+resource "aws_emr_studio_session_mapping" "tf-sample-emr-studio-session-mapping" {
   id                 = ""
   identity_id        = ""
   identity_name      = ""

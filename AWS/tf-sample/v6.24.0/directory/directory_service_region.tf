@@ -1,4 +1,4 @@
-resource "aws_directory_service_region" "sample-directory-service-region" {
+resource "aws_directory_service_region" "tf-sample-directory-service-region" {
   desired_number_of_domain_controllers = ""
   directory_id                         = ""
   id                                   = ""

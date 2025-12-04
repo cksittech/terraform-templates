@@ -1,4 +1,4 @@
-resource "aws_route53_resolver_rule" "sample-route53-resolver-rule" {
+resource "aws_route53_resolver_rule" "tf-sample-route53-resolver-rule" {
   domain_name          = ""
   id                   = ""
   name                 = ""

@@ -1,4 +1,4 @@
-resource "aws_dx_connection" "sample-dx-connection" {
+resource "aws_dx_connection" "tf-sample-dx-connection" {
   aws_device             = ""
   bandwidth              = ""
   encryption_mode        = ""

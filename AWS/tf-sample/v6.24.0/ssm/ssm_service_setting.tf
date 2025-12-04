@@ -1,4 +1,4 @@
-resource "aws_ssm_service_setting" "sample-ssm-service-setting" {
+resource "aws_ssm_service_setting" "tf-sample-ssm-service-setting" {
   id            = ""
   region        = ""
   setting_id    = ""

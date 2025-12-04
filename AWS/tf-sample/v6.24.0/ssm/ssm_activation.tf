@@ -1,4 +1,4 @@
-resource "aws_ssm_activation" "sample-ssm-activation" {
+resource "aws_ssm_activation" "tf-sample-ssm-activation" {
   activation_code    = ""
   description        = ""
   expiration_date    = ""

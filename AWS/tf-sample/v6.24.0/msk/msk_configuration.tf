@@ -1,4 +1,4 @@
-resource "aws_msk_configuration" "sample-msk-configuration" {
+resource "aws_msk_configuration" "tf-sample-msk-configuration" {
   description       = ""
   id                = ""
   kafka_versions    = []

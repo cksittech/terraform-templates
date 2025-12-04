@@ -1,4 +1,4 @@
-resource "aws_quicksight_folder" "sample-quicksight-folder" {
+resource "aws_quicksight_folder" "tf-sample-quicksight-folder" {
   aws_account_id    = ""
   created_time      = ""
   folder_id         = ""

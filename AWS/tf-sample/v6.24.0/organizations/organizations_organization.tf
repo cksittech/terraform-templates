@@ -1,4 +1,4 @@
-resource "aws_organizations_organization" "sample-organizations-organization" {
+resource "aws_organizations_organization" "tf-sample-organizations-organization" {
   accounts                      = []
   aws_service_access_principals = []
   enabled_policy_types          = []

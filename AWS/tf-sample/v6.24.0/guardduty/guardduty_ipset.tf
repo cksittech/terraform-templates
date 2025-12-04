@@ -1,4 +1,4 @@
-resource "aws_guardduty_ipset" "sample-guardduty-ipset" {
+resource "aws_guardduty_ipset" "tf-sample-guardduty-ipset" {
   activate    = ""
   detector_id = ""
   format      = ""

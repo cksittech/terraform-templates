@@ -1,4 +1,4 @@
-resource "aws_fsx_ontap_file_system" "sample-fsx-ontap-file-system" {
+resource "aws_fsx_ontap_file_system" "tf-sample-fsx-ontap-file-system" {
   automatic_backup_retention_days   = ""
   daily_automatic_backup_start_time = ""
   deployment_type                   = ""

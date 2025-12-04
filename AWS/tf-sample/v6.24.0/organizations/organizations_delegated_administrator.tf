@@ -1,4 +1,4 @@
-resource "aws_organizations_delegated_administrator" "sample-organizations-delegated-administrator" {
+resource "aws_organizations_delegated_administrator" "tf-sample-organizations-delegated-administrator" {
   account_id              = ""
   delegation_enabled_date = ""
   email                   = ""

@@ -1,4 +1,4 @@
-resource "aws_vpc_block_public_access_options" "sample-vpc-block-public-access-options" {
+resource "aws_vpc_block_public_access_options" "tf-sample-vpc-block-public-access-options" {
   aws_account_id              = ""
   aws_region                  = ""
   id                          = ""

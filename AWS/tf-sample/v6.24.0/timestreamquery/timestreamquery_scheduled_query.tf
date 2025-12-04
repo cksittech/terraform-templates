@@ -1,4 +1,4 @@
-resource "aws_timestreamquery_scheduled_query" "sample-timestreamquery-scheduled-query" {
+resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-scheduled-query" {
   creation_time            = ""
   execution_role_arn       = ""
   kms_key_id               = ""

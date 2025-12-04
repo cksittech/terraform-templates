@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_user_settings" "sample-workspacesweb-user-settings" {
+resource "aws_workspacesweb_user_settings" "tf-sample-workspacesweb-user-settings" {
   additional_encryption_context      = {}
   associated_portal_arns             = []
   copy_allowed                       = ""

@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_workflow" "sample-imagebuilder-workflow" {
+resource "aws_imagebuilder_workflow" "tf-sample-imagebuilder-workflow" {
   change_description = ""
   data               = ""
   date_created       = ""

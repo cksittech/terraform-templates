@@ -1,4 +1,4 @@
-resource "aws_emr_cluster" "sample-emr-cluster" {
+resource "aws_emr_cluster" "tf-sample-emr-cluster" {
   additional_info                   = ""
   applications                      = []
   autoscaling_role                  = ""

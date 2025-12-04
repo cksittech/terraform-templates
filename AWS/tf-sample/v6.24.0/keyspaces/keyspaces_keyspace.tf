@@ -1,4 +1,4 @@
-resource "aws_keyspaces_keyspace" "sample-keyspaces-keyspace" {
+resource "aws_keyspaces_keyspace" "tf-sample-keyspaces-keyspace" {
   id     = ""
   name   = ""
   region = ""

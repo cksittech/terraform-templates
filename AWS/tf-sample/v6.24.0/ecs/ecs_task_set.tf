@@ -1,4 +1,4 @@
-resource "aws_ecs_task_set" "sample-ecs-task-set" {
+resource "aws_ecs_task_set" "tf-sample-ecs-task-set" {
   cluster                   = ""
   external_id               = ""
   force_delete              = ""

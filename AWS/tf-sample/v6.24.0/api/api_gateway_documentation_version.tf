@@ -1,4 +1,4 @@
-resource "aws_api_gateway_documentation_version" "sample-api-gateway-documentation-version" {
+resource "aws_api_gateway_documentation_version" "tf-sample-api-gateway-documentation-version" {
   description = ""
   id          = ""
   region      = ""

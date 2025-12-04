@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_agent_runtime_endpoint" "sample-bedrockagentcore-agent-runtime-endpoint" {
+resource "aws_bedrockagentcore_agent_runtime_endpoint" "tf-sample-bedrockagentcore-agent-runtime-endpoint" {
   agent_runtime_arn          = ""
   agent_runtime_endpoint_arn = ""
   agent_runtime_id           = ""

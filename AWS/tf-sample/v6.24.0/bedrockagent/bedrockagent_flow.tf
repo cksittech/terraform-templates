@@ -1,4 +1,4 @@
-resource "aws_bedrockagent_flow" "sample-bedrockagent-flow" {
+resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
   created_at                  = ""
   customer_encryption_key_arn = ""
   description                 = ""

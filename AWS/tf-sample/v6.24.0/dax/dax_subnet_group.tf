@@ -1,4 +1,4 @@
-resource "aws_dax_subnet_group" "sample-dax-subnet-group" {
+resource "aws_dax_subnet_group" "tf-sample-dax-subnet-group" {
   description = ""
   id          = ""
   name        = ""

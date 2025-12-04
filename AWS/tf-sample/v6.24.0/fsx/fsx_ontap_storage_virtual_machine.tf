@@ -1,4 +1,4 @@
-resource "aws_fsx_ontap_storage_virtual_machine" "sample-fsx-ontap-storage-virtual-machine" {
+resource "aws_fsx_ontap_storage_virtual_machine" "tf-sample-fsx-ontap-storage-virtual-machine" {
   endpoints                  = []
   file_system_id             = ""
   id                         = ""

@@ -1,4 +1,4 @@
-resource "aws_cloudfront_origin_access_control" "sample-cloudfront-origin-access-control" {
+resource "aws_cloudfront_origin_access_control" "tf-sample-cloudfront-origin-access-control" {
   description                       = ""
   etag                              = ""
   id                                = ""

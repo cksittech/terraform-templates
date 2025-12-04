@@ -1,4 +1,4 @@
-resource "aws_opensearchserverless_security_policy" "sample-opensearchserverless-security-policy" {
+resource "aws_opensearchserverless_security_policy" "tf-sample-opensearchserverless-security-policy" {
   description    = ""
   id             = ""
   name           = ""

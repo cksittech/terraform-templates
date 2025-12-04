@@ -1,4 +1,4 @@
-resource "aws_appsync_function" "sample-appsync-function" {
+resource "aws_appsync_function" "tf-sample-appsync-function" {
   api_id                    = ""
   code                      = ""
   data_source               = ""

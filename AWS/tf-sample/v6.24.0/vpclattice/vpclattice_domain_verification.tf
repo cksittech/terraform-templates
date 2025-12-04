@@ -1,4 +1,4 @@
-resource "aws_vpclattice_domain_verification" "sample-vpclattice-domain-verification" {
+resource "aws_vpclattice_domain_verification" "tf-sample-vpclattice-domain-verification" {
   created_at         = ""
   domain_name        = ""
   id                 = ""

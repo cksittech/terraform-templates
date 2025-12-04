@@ -1,4 +1,4 @@
-resource "aws_prometheus_resource_policy" "sample-prometheus-resource-policy" {
+resource "aws_prometheus_resource_policy" "tf-sample-prometheus-resource-policy" {
   policy_document = ""
   region          = ""
   revision_id     = ""

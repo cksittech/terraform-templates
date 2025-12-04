@@ -1,4 +1,4 @@
-resource "aws_appconfig_environment" "sample-appconfig-environment" {
+resource "aws_appconfig_environment" "tf-sample-appconfig-environment" {
   application_id = ""
   description    = ""
   environment_id = ""

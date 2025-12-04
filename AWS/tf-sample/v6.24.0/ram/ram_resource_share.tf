@@ -1,4 +1,4 @@
-resource "aws_ram_resource_share" "sample-ram-resource-share" {
+resource "aws_ram_resource_share" "tf-sample-ram-resource-share" {
   allow_external_principals = ""
   id                        = ""
   name                      = ""

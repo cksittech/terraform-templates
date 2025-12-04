@@ -1,4 +1,4 @@
-resource "aws_qldb_stream" "sample-qldb-stream" {
+resource "aws_qldb_stream" "tf-sample-qldb-stream" {
   exclusive_end_time   = ""
   id                   = ""
   inclusive_start_time = ""

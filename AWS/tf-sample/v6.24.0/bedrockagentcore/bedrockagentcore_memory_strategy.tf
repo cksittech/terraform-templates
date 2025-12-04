@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_memory_strategy" "sample-bedrockagentcore-memory-strategy" {
+resource "aws_bedrockagentcore_memory_strategy" "tf-sample-bedrockagentcore-memory-strategy" {
   description               = ""
   memory_execution_role_arn = ""
   memory_id                 = ""

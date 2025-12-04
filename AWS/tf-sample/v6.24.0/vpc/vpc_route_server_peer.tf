@@ -1,4 +1,4 @@
-resource "aws_vpc_route_server_peer" "sample-vpc-route-server-peer" {
+resource "aws_vpc_route_server_peer" "tf-sample-vpc-route-server-peer" {
   endpoint_eni_address     = ""
   endpoint_eni_id          = ""
   peer_address             = ""

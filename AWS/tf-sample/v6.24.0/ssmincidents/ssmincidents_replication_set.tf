@@ -1,4 +1,4 @@
-resource "aws_ssmincidents_replication_set" "sample-ssmincidents-replication-set" {
+resource "aws_ssmincidents_replication_set" "tf-sample-ssmincidents-replication-set" {
   created_by         = ""
   deletion_protected = ""
   id                 = ""

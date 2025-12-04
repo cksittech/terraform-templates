@@ -1,4 +1,4 @@
-resource "aws_ami" "sample-ami" {
+resource "aws_ami" "tf-sample-ami" {
   architecture         = ""
   boot_mode            = ""
   deprecation_time     = ""

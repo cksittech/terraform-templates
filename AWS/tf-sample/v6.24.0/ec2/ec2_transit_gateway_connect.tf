@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_connect" "sample-ec2-transit-gateway-connect" {
+resource "aws_ec2_transit_gateway_connect" "tf-sample-ec2-transit-gateway-connect" {
   id                                              = ""
   protocol                                        = ""
   region                                          = ""

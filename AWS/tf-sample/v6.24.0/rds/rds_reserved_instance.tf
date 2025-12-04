@@ -1,4 +1,4 @@
-resource "aws_rds_reserved_instance" "sample-rds-reserved-instance" {
+resource "aws_rds_reserved_instance" "tf-sample-rds-reserved-instance" {
   currency_code       = ""
   db_instance_class   = ""
   duration            = ""

@@ -1,4 +1,4 @@
-resource "aws_athena_capacity_reservation" "sample-athena-capacity-reservation" {
+resource "aws_athena_capacity_reservation" "tf-sample-athena-capacity-reservation" {
   allocated_dpus = ""
   name           = ""
   region         = ""

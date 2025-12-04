@@ -1,4 +1,4 @@
-resource "aws_iot_thing_group" "sample-iot-thing-group" {
+resource "aws_iot_thing_group" "tf-sample-iot-thing-group" {
   id                = ""
   metadata          = []
   name              = ""

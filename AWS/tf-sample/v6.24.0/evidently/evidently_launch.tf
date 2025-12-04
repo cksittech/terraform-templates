@@ -1,4 +1,4 @@
-resource "aws_evidently_launch" "sample-evidently-launch" {
+resource "aws_evidently_launch" "tf-sample-evidently-launch" {
   created_time       = ""
   description        = ""
   execution          = []

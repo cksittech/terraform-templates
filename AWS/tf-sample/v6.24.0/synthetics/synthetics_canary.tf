@@ -1,4 +1,4 @@
-resource "aws_synthetics_canary" "sample-synthetics-canary" {
+resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
   artifact_s3_location     = ""
   delete_lambda            = ""
   engine_arn               = ""

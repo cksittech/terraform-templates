@@ -1,4 +1,4 @@
-resource "aws_cloudfront_function" "sample-cloudfront-function" {
+resource "aws_cloudfront_function" "tf-sample-cloudfront-function" {
   code                         = ""
   comment                      = ""
   etag                         = ""

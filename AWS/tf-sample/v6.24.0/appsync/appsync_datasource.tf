@@ -1,4 +1,4 @@
-resource "aws_appsync_datasource" "sample-appsync-datasource" {
+resource "aws_appsync_datasource" "tf-sample-appsync-datasource" {
   api_id           = ""
   description      = ""
   id               = ""

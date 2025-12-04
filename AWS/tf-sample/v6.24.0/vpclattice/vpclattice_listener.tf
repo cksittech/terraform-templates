@@ -1,4 +1,4 @@
-resource "aws_vpclattice_listener" "sample-vpclattice-listener" {
+resource "aws_vpclattice_listener" "tf-sample-vpclattice-listener" {
   created_at         = ""
   id                 = ""
   last_updated_at    = ""

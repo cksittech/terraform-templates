@@ -1,4 +1,4 @@
-resource "aws_grafana_workspace_api_key" "sample-grafana-workspace-api-key" {
+resource "aws_grafana_workspace_api_key" "tf-sample-grafana-workspace-api-key" {
   id              = ""
   key             = ""
   key_name        = ""

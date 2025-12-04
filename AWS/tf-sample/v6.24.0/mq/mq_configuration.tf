@@ -1,4 +1,4 @@
-resource "aws_mq_configuration" "sample-mq-configuration" {
+resource "aws_mq_configuration" "tf-sample-mq-configuration" {
   authentication_strategy = ""
   data                    = ""
   description             = ""

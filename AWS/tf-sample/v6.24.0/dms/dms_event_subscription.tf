@@ -1,4 +1,4 @@
-resource "aws_dms_event_subscription" "sample-dms-event-subscription" {
+resource "aws_dms_event_subscription" "tf-sample-dms-event-subscription" {
   enabled          = ""
   event_categories = []
   id               = ""

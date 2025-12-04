@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table" "sample-dynamodb-table" {
+resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
   billing_mode                = ""
   deletion_protection_enabled = ""
   hash_key                    = ""

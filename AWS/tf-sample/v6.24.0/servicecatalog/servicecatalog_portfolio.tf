@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_portfolio" "sample-servicecatalog-portfolio" {
+resource "aws_servicecatalog_portfolio" "tf-sample-servicecatalog-portfolio" {
   created_time  = ""
   description   = ""
   id            = ""

@@ -1,4 +1,4 @@
-resource "aws_ssm_maintenance_window" "sample-ssm-maintenance-window" {
+resource "aws_ssm_maintenance_window" "tf-sample-ssm-maintenance-window" {
   allow_unassociated_targets = ""
   cutoff                     = ""
   description                = ""

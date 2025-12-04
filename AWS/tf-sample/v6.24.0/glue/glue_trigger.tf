@@ -1,4 +1,4 @@
-resource "aws_glue_trigger" "sample-glue-trigger" {
+resource "aws_glue_trigger" "tf-sample-glue-trigger" {
   description       = ""
   enabled           = ""
   id                = ""

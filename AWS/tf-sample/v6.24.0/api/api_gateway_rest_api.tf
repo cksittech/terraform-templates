@@ -1,4 +1,4 @@
-resource "aws_api_gateway_rest_api" "sample-api-gateway-rest-api" {
+resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   api_key_source               = ""
   binary_media_types           = []
   body                         = ""

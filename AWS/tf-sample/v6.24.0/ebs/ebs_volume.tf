@@ -1,4 +1,4 @@
-resource "aws_ebs_volume" "sample-ebs-volume" {
+resource "aws_ebs_volume" "tf-sample-ebs-volume" {
   availability_zone          = ""
   create_time                = ""
   encrypted                  = ""

@@ -1,4 +1,4 @@
-resource "aws_bedrock_guardrail" "sample-bedrock-guardrail" {
+resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   blocked_input_messaging   = ""
   blocked_outputs_messaging = ""
   created_at                = ""

@@ -1,4 +1,4 @@
-resource "aws_redshiftserverless_workgroup" "sample-redshiftserverless-workgroup" {
+resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgroup" {
   base_capacity        = ""
   endpoint             = []
   enhanced_vpc_routing = ""

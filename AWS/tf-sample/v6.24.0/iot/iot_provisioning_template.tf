@@ -1,4 +1,4 @@
-resource "aws_iot_provisioning_template" "sample-iot-provisioning-template" {
+resource "aws_iot_provisioning_template" "tf-sample-iot-provisioning-template" {
   default_version_id    = ""
   description           = ""
   enabled               = ""

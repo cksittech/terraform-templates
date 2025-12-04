@@ -1,4 +1,4 @@
-resource "aws_budgets_budget" "sample-budgets-budget" {
+resource "aws_budgets_budget" "tf-sample-budgets-budget" {
   account_id        = ""
   billing_view_arn  = ""
   budget_type       = ""

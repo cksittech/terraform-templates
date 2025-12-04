@@ -1,4 +1,4 @@
-resource "aws_storagegateway_smb_file_share" "sample-storagegateway-smb-file-share" {
+resource "aws_storagegateway_smb_file_share" "tf-sample-storagegateway-smb-file-share" {
   access_based_enumeration = ""
   admin_user_list          = []
   audit_destination_arn    = ""

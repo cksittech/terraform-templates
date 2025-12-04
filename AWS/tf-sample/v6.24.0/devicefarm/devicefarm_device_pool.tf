@@ -1,4 +1,4 @@
-resource "aws_devicefarm_device_pool" "sample-devicefarm-device-pool" {
+resource "aws_devicefarm_device_pool" "tf-sample-devicefarm-device-pool" {
   description = ""
   id          = ""
   max_devices = ""

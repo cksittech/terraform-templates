@@ -1,4 +1,4 @@
-resource "aws_appconfig_deployment_strategy" "sample-appconfig-deployment-strategy" {
+resource "aws_appconfig_deployment_strategy" "tf-sample-appconfig-deployment-strategy" {
   deployment_duration_in_minutes = ""
   description                    = ""
   final_bake_time_in_minutes     = ""

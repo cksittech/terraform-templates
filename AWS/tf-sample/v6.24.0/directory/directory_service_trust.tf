@@ -1,4 +1,4 @@
-resource "aws_directory_service_trust" "sample-directory-service-trust" {
+resource "aws_directory_service_trust" "tf-sample-directory-service-trust" {
   conditional_forwarder_ip_addrs          = []
   created_date_time                       = ""
   delete_associated_conditional_forwarder = ""

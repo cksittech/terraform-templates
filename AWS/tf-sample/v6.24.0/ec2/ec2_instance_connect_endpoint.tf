@@ -1,4 +1,4 @@
-resource "aws_ec2_instance_connect_endpoint" "sample-ec2-instance-connect-endpoint" {
+resource "aws_ec2_instance_connect_endpoint" "tf-sample-ec2-instance-connect-endpoint" {
   availability_zone     = ""
   dns_name              = ""
   fips_dns_name         = ""

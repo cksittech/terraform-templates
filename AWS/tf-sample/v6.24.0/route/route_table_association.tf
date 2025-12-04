@@ -1,4 +1,4 @@
-resource "aws_route_table_association" "sample-route-table-association" {
+resource "aws_route_table_association" "tf-sample-route-table-association" {
   gateway_id     = ""
   id             = ""
   region         = ""

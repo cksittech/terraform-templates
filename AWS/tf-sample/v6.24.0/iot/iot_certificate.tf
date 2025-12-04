@@ -1,4 +1,4 @@
-resource "aws_iot_certificate" "sample-iot-certificate" {
+resource "aws_iot_certificate" "tf-sample-iot-certificate" {
   active            = ""
   ca_certificate_id = ""
   ca_pem            = ""

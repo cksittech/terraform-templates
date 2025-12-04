@@ -1,4 +1,4 @@
-resource "aws_ssm_maintenance_window_target" "sample-ssm-maintenance-window-target" {
+resource "aws_ssm_maintenance_window_target" "tf-sample-ssm-maintenance-window-target" {
   description       = ""
   id                = ""
   name              = ""

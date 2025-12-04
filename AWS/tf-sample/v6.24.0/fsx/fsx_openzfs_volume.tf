@@ -1,4 +1,4 @@
-resource "aws_fsx_openzfs_volume" "sample-fsx-openzfs-volume" {
+resource "aws_fsx_openzfs_volume" "tf-sample-fsx-openzfs-volume" {
   copy_tags_to_snapshots           = ""
   data_compression_type            = ""
   delete_volume_options            = []

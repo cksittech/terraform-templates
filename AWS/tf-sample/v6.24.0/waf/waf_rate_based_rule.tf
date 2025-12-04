@@ -1,4 +1,4 @@
-resource "aws_waf_rate_based_rule" "sample-waf-rate-based-rule" {
+resource "aws_waf_rate_based_rule" "tf-sample-waf-rate-based-rule" {
   id          = ""
   metric_name = ""
   name        = ""

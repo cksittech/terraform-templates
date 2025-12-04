@@ -1,4 +1,4 @@
-resource "aws_s3_object" "sample-s3-object" {
+resource "aws_s3_object" "tf-sample-s3-object" {
   acl                           = ""
   bucket                        = ""
   bucket_key_enabled            = ""

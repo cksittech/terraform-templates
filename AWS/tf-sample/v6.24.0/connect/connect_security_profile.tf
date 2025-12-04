@@ -1,4 +1,4 @@
-resource "aws_connect_security_profile" "sample-connect-security-profile" {
+resource "aws_connect_security_profile" "tf-sample-connect-security-profile" {
   description              = ""
   id                       = ""
   instance_id              = ""

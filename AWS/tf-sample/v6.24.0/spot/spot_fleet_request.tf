@@ -1,4 +1,4 @@
-resource "aws_spot_fleet_request" "sample-spot-fleet-request" {
+resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
   allocation_strategy                 = ""
   client_token                        = ""
   context                             = ""

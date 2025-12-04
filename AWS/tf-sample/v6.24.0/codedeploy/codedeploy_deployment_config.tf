@@ -1,4 +1,4 @@
-resource "aws_codedeploy_deployment_config" "sample-codedeploy-deployment-config" {
+resource "aws_codedeploy_deployment_config" "tf-sample-codedeploy-deployment-config" {
   compute_platform       = ""
   deployment_config_id   = ""
   deployment_config_name = ""

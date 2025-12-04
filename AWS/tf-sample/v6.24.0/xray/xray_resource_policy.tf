@@ -1,4 +1,4 @@
-resource "aws_xray_resource_policy" "sample-xray-resource-policy" {
+resource "aws_xray_resource_policy" "tf-sample-xray-resource-policy" {
   bypass_policy_lockout_check = ""
   last_updated_time           = ""
   policy_document             = ""

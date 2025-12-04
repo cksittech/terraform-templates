@@ -1,4 +1,4 @@
-resource "aws_ec2_host" "sample-ec2-host" {
+resource "aws_ec2_host" "tf-sample-ec2-host" {
   asset_id          = ""
   auto_placement    = ""
   availability_zone = ""

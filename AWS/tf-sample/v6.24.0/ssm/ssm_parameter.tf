@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "sample-ssm-parameter" {
+resource "aws_ssm_parameter" "tf-sample-ssm-parameter" {
   allowed_pattern  = ""
   data_type        = ""
   description      = ""

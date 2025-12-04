@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_trust_store" "sample-workspacesweb-trust-store" {
+resource "aws_workspacesweb_trust_store" "tf-sample-workspacesweb-trust-store" {
   associated_portal_arns = []
   region                 = ""
   trust_store_arn        = ""

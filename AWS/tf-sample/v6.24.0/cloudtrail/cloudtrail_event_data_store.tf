@@ -1,4 +1,4 @@
-resource "aws_cloudtrail_event_data_store" "sample-cloudtrail-event-data-store" {
+resource "aws_cloudtrail_event_data_store" "tf-sample-cloudtrail-event-data-store" {
   billing_mode                   = ""
   id                             = ""
   kms_key_id                     = ""

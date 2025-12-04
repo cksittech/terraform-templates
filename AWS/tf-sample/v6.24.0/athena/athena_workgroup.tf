@@ -1,4 +1,4 @@
-resource "aws_athena_workgroup" "sample-athena-workgroup" {
+resource "aws_athena_workgroup" "tf-sample-athena-workgroup" {
   description   = ""
   force_destroy = ""
   id            = ""

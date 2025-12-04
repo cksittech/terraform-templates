@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_metric_alarm" "sample-cloudwatch-metric-alarm" {
+resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   actions_enabled                       = ""
   alarm_actions                         = []
   alarm_description                     = ""

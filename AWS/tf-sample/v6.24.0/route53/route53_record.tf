@@ -1,4 +1,4 @@
-resource "aws_route53_record" "sample-route53-record" {
+resource "aws_route53_record" "tf-sample-route53-record" {
   allow_overwrite                  = ""
   fqdn                             = ""
   health_check_id                  = ""

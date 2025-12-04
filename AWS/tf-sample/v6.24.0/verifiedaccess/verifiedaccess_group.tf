@@ -1,4 +1,4 @@
-resource "aws_verifiedaccess_group" "sample-verifiedaccess-group" {
+resource "aws_verifiedaccess_group" "tf-sample-verifiedaccess-group" {
   creation_time              = ""
   deletion_time              = ""
   description                = ""

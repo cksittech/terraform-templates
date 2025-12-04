@@ -1,4 +1,4 @@
-resource "aws_wafv2_rule_group" "sample-wafv2-rule-group" {
+resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
   capacity    = ""
   description = ""
   id          = ""

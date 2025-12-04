@@ -1,4 +1,4 @@
-resource "aws_connect_user_hierarchy_group" "sample-connect-user-hierarchy-group" {
+resource "aws_connect_user_hierarchy_group" "tf-sample-connect-user-hierarchy-group" {
   hierarchy_group_id = ""
   hierarchy_path     = []
   id                 = ""

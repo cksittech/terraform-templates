@@ -1,4 +1,4 @@
-resource "aws_iot_role_alias" "sample-iot-role-alias" {
+resource "aws_iot_role_alias" "tf-sample-iot-role-alias" {
   alias               = ""
   credential_duration = ""
   id                  = ""

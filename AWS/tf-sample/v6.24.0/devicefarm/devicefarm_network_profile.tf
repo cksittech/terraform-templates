@@ -1,4 +1,4 @@
-resource "aws_devicefarm_network_profile" "sample-devicefarm-network-profile" {
+resource "aws_devicefarm_network_profile" "tf-sample-devicefarm-network-profile" {
   description             = ""
   downlink_bandwidth_bits = ""
   downlink_delay_ms       = ""

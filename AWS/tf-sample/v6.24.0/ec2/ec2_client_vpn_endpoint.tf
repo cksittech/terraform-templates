@@ -1,4 +1,4 @@
-resource "aws_ec2_client_vpn_endpoint" "sample-ec2-client-vpn-endpoint" {
+resource "aws_ec2_client_vpn_endpoint" "tf-sample-ec2-client-vpn-endpoint" {
   client_cidr_block             = ""
   description                   = ""
   disconnect_on_session_timeout = ""

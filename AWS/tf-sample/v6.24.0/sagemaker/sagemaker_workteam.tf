@@ -1,4 +1,4 @@
-resource "aws_sagemaker_workteam" "sample-sagemaker-workteam" {
+resource "aws_sagemaker_workteam" "tf-sample-sagemaker-workteam" {
   description    = ""
   id             = ""
   region         = ""

@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_product" "sample-servicecatalog-product" {
+resource "aws_servicecatalog_product" "tf-sample-servicecatalog-product" {
   accept_language     = ""
   created_time        = ""
   description         = ""

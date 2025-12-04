@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_authorizer" "sample-apigatewayv2-authorizer" {
+resource "aws_apigatewayv2_authorizer" "tf-sample-apigatewayv2-authorizer" {
   api_id                            = ""
   authorizer_credentials_arn        = ""
   authorizer_payload_format_version = ""

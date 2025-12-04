@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_infrastructure_configuration" "sample-imagebuilder-infrastructure-configuration" {
+resource "aws_imagebuilder_infrastructure_configuration" "tf-sample-imagebuilder-infrastructure-configuration" {
   date_created                  = ""
   date_updated                  = ""
   description                   = ""

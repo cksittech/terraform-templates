@@ -1,4 +1,4 @@
-resource "aws_neptune_subnet_group" "sample-neptune-subnet-group" {
+resource "aws_neptune_subnet_group" "tf-sample-neptune-subnet-group" {
   description = ""
   id          = ""
   name        = ""

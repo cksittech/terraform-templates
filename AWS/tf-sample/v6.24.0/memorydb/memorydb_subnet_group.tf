@@ -1,4 +1,4 @@
-resource "aws_memorydb_subnet_group" "sample-memorydb-subnet-group" {
+resource "aws_memorydb_subnet_group" "tf-sample-memorydb-subnet-group" {
   description = ""
   id          = ""
   name        = ""

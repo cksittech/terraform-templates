@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_permission" "sample-cloudwatch-event-permission" {
+resource "aws_cloudwatch_event_permission" "tf-sample-cloudwatch-event-permission" {
   action         = ""
   event_bus_name = ""
   id             = ""

@@ -1,4 +1,4 @@
-resource "aws_licensemanager_license_configuration" "sample-licensemanager-license-configuration" {
+resource "aws_licensemanager_license_configuration" "tf-sample-licensemanager-license-configuration" {
   description              = ""
   id                       = ""
   license_count            = ""

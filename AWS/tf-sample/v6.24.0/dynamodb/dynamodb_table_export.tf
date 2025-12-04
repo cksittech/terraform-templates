@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table_export" "sample-dynamodb-table-export" {
+resource "aws_dynamodb_table_export" "tf-sample-dynamodb-table-export" {
   billed_size_in_bytes  = ""
   end_time              = ""
   export_format         = ""

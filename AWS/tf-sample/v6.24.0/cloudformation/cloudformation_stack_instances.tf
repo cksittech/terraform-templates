@@ -1,4 +1,4 @@
-resource "aws_cloudformation_stack_instances" "sample-cloudformation-stack-instances" {
+resource "aws_cloudformation_stack_instances" "tf-sample-cloudformation-stack-instances" {
   accounts                 = []
   call_as                  = ""
   id                       = ""

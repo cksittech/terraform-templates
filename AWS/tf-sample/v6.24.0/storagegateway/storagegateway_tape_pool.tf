@@ -1,4 +1,4 @@
-resource "aws_storagegateway_tape_pool" "sample-storagegateway-tape-pool" {
+resource "aws_storagegateway_tape_pool" "tf-sample-storagegateway-tape-pool" {
   id                          = ""
   pool_name                   = ""
   region                      = ""

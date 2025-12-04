@@ -1,4 +1,4 @@
-resource "aws_neptunegraph_graph" "sample-neptunegraph-graph" {
+resource "aws_neptunegraph_graph" "tf-sample-neptunegraph-graph" {
   deletion_protection = ""
   endpoint            = ""
   graph_name          = ""

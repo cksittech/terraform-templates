@@ -1,4 +1,4 @@
-resource "aws_docdb_event_subscription" "sample-docdb-event-subscription" {
+resource "aws_docdb_event_subscription" "tf-sample-docdb-event-subscription" {
   customer_aws_id  = ""
   enabled          = ""
   event_categories = []

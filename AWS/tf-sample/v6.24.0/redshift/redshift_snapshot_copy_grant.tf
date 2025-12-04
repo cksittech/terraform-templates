@@ -1,4 +1,4 @@
-resource "aws_redshift_snapshot_copy_grant" "sample-redshift-snapshot-copy-grant" {
+resource "aws_redshift_snapshot_copy_grant" "tf-sample-redshift-snapshot-copy-grant" {
   id                       = ""
   kms_key_id               = ""
   region                   = ""

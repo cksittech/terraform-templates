@@ -1,4 +1,4 @@
-resource "aws_acmpca_certificate" "sample-acmpca-certificate" {
+resource "aws_acmpca_certificate" "tf-sample-acmpca-certificate" {
   api_passthrough             = ""
   certificate                 = ""
   certificate_authority_arn   = ""

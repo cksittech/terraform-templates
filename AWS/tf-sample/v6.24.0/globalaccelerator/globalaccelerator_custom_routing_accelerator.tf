@@ -1,4 +1,4 @@
-resource "aws_globalaccelerator_custom_routing_accelerator" "sample-globalaccelerator-custom-routing-accelerator" {
+resource "aws_globalaccelerator_custom_routing_accelerator" "tf-sample-globalaccelerator-custom-routing-accelerator" {
   dns_name        = ""
   enabled         = ""
   hosted_zone_id  = ""

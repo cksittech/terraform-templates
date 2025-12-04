@@ -1,4 +1,4 @@
-resource "aws_datasync_location_nfs" "sample-datasync-location-nfs" {
+resource "aws_datasync_location_nfs" "tf-sample-datasync-location-nfs" {
   id              = ""
   region          = ""
   server_hostname = ""

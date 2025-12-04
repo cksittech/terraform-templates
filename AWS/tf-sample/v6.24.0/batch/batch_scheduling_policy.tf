@@ -1,4 +1,4 @@
-resource "aws_batch_scheduling_policy" "sample-batch-scheduling-policy" {
+resource "aws_batch_scheduling_policy" "tf-sample-batch-scheduling-policy" {
   id     = ""
   name   = ""
   region = ""

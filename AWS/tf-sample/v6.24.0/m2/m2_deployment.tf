@@ -1,4 +1,4 @@
-resource "aws_m2_deployment" "sample-m2-deployment" {
+resource "aws_m2_deployment" "tf-sample-m2-deployment" {
   application_id      = ""
   application_version = ""
   deployment_id       = ""

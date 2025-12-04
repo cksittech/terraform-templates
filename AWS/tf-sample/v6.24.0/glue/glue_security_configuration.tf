@@ -1,4 +1,4 @@
-resource "aws_glue_security_configuration" "sample-glue-security-configuration" {
+resource "aws_glue_security_configuration" "tf-sample-glue-security-configuration" {
   id     = ""
   name   = ""
   region = ""

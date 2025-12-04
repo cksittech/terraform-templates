@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_integration" "sample-apigatewayv2-integration" {
+resource "aws_apigatewayv2_integration" "tf-sample-apigatewayv2-integration" {
   api_id                                    = ""
   connection_id                             = ""
   connection_type                           = ""

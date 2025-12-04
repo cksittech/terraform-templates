@@ -1,4 +1,4 @@
-resource "aws_acmpca_certificate_authority" "sample-acmpca-certificate-authority" {
+resource "aws_acmpca_certificate_authority" "tf-sample-acmpca-certificate-authority" {
   certificate                     = ""
   certificate_chain               = ""
   certificate_signing_request     = ""

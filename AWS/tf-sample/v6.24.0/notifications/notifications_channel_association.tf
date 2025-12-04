@@ -1,3 +1,3 @@
-resource "aws_notifications_channel_association" "sample-notifications-channel-association" {
+resource "aws_notifications_channel_association" "tf-sample-notifications-channel-association" {
   notification_configuration_arn = ""
 }

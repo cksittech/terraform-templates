@@ -1,4 +1,4 @@
-resource "aws_lambda_layer_version_permission" "sample-lambda-layer-version-permission" {
+resource "aws_lambda_layer_version_permission" "tf-sample-lambda-layer-version-permission" {
   action          = ""
   id              = ""
   layer_name      = ""

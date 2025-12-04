@@ -1,4 +1,4 @@
-resource "aws_eks_pod_identity_association" "sample-eks-pod-identity-association" {
+resource "aws_eks_pod_identity_association" "tf-sample-eks-pod-identity-association" {
   association_arn      = ""
   association_id       = ""
   cluster_name         = ""

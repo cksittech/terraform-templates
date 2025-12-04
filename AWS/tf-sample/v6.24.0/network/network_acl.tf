@@ -1,4 +1,4 @@
-resource "aws_network_acl" "sample-network-acl" {
+resource "aws_network_acl" "tf-sample-network-acl" {
   egress     = []
   id         = ""
   ingress    = []

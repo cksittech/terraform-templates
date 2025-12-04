@@ -1,4 +1,4 @@
-resource "aws_s3vectors_index" "sample-s3vectors-index" {
+resource "aws_s3vectors_index" "tf-sample-s3vectors-index" {
   creation_time      = ""
   data_type          = ""
   dimension          = ""

@@ -1,4 +1,4 @@
-resource "aws_transfer_workflow" "sample-transfer-workflow" {
+resource "aws_transfer_workflow" "tf-sample-transfer-workflow" {
   description = ""
   id          = ""
   region      = ""

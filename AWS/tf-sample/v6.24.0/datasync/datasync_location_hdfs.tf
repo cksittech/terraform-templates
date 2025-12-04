@@ -1,4 +1,4 @@
-resource "aws_datasync_location_hdfs" "sample-datasync-location-hdfs" {
+resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   agent_arns                = []
   authentication_type       = ""
   block_size                = ""

@@ -1,4 +1,4 @@
-resource "aws_glue_data_quality_ruleset" "sample-glue-data-quality-ruleset" {
+resource "aws_glue_data_quality_ruleset" "tf-sample-glue-data-quality-ruleset" {
   created_on            = ""
   description           = ""
   id                    = ""

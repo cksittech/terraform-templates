@@ -1,4 +1,4 @@
-resource "aws_sagemaker_endpoint" "sample-sagemaker-endpoint" {
+resource "aws_sagemaker_endpoint" "tf-sample-sagemaker-endpoint" {
   endpoint_config_name = ""
   id                   = ""
   name                 = ""

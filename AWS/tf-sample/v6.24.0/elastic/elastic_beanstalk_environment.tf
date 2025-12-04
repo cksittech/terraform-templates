@@ -1,4 +1,4 @@
-resource "aws_elastic_beanstalk_environment" "sample-elastic-beanstalk-environment" {
+resource "aws_elastic_beanstalk_environment" "tf-sample-elastic-beanstalk-environment" {
   all_settings           = []
   application            = ""
   autoscaling_groups     = []

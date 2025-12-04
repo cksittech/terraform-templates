@@ -1,4 +1,4 @@
-resource "aws_cloudfront_continuous_deployment_policy" "sample-cloudfront-continuous-deployment-policy" {
+resource "aws_cloudfront_continuous_deployment_policy" "tf-sample-cloudfront-continuous-deployment-policy" {
   enabled            = ""
   etag               = ""
   id                 = ""

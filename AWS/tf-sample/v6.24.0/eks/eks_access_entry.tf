@@ -1,4 +1,4 @@
-resource "aws_eks_access_entry" "sample-eks-access-entry" {
+resource "aws_eks_access_entry" "tf-sample-eks-access-entry" {
   access_entry_arn  = ""
   cluster_name      = ""
   created_at        = ""

@@ -1,4 +1,4 @@
-resource "aws_security_group_rule" "sample-security-group-rule" {
+resource "aws_security_group_rule" "tf-sample-security-group-rule" {
   cidr_blocks              = []
   description              = ""
   from_port                = ""

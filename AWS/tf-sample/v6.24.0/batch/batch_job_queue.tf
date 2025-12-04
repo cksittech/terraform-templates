@@ -1,4 +1,4 @@
-resource "aws_batch_job_queue" "sample-batch-job-queue" {
+resource "aws_batch_job_queue" "tf-sample-batch-job-queue" {
   id                    = ""
   name                  = ""
   priority              = ""

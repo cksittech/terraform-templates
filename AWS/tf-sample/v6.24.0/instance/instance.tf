@@ -1,4 +1,4 @@
-resource "aws_instance" "sample-instance" {
+resource "aws_instance" "tf-sample-instance" {
   ami                                  = ""
   associate_public_ip_address          = ""
   availability_zone                    = ""

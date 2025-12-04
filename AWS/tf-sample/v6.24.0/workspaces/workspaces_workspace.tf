@@ -1,4 +1,4 @@
-resource "aws_workspaces_workspace" "sample-workspaces-workspace" {
+resource "aws_workspaces_workspace" "tf-sample-workspaces-workspace" {
   bundle_id                      = ""
   computer_name                  = ""
   directory_id                   = ""

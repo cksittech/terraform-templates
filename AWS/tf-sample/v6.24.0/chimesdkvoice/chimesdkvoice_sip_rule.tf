@@ -1,4 +1,4 @@
-resource "aws_chimesdkvoice_sip_rule" "sample-chimesdkvoice-sip-rule" {
+resource "aws_chimesdkvoice_sip_rule" "tf-sample-chimesdkvoice-sip-rule" {
   disabled      = ""
   id            = ""
   name          = ""

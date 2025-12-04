@@ -1,4 +1,4 @@
-resource "aws_quicksight_account_subscription" "sample-quicksight-account-subscription" {
+resource "aws_quicksight_account_subscription" "tf-sample-quicksight-account-subscription" {
   account_name                     = ""
   account_subscription_status      = ""
   active_directory_name            = ""

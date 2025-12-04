@@ -1,4 +1,4 @@
-resource "aws_chime_voice_connector_streaming" "sample-chime-voice-connector-streaming" {
+resource "aws_chime_voice_connector_streaming" "tf-sample-chime-voice-connector-streaming" {
   data_retention                 = ""
   disabled                       = ""
   id                             = ""

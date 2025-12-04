@@ -1,4 +1,4 @@
-resource "aws_wafregional_web_acl_association" "sample-wafregional-web-acl-association" {
+resource "aws_wafregional_web_acl_association" "tf-sample-wafregional-web-acl-association" {
   id           = ""
   region       = ""
   resource_arn = ""

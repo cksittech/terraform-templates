@@ -1,4 +1,4 @@
-resource "aws_prometheus_rule_group_namespace" "sample-prometheus-rule-group-namespace" {
+resource "aws_prometheus_rule_group_namespace" "tf-sample-prometheus-rule-group-namespace" {
   data         = ""
   id           = ""
   name         = ""

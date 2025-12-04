@@ -1,4 +1,4 @@
-resource "aws_servicecatalogappregistry_attribute_group" "sample-servicecatalogappregistry-attribute-group" {
+resource "aws_servicecatalogappregistry_attribute_group" "tf-sample-servicecatalogappregistry-attribute-group" {
   attributes  = ""
   description = ""
   id          = ""

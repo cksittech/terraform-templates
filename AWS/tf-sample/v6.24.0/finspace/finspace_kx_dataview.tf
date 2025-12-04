@@ -1,4 +1,4 @@
-resource "aws_finspace_kx_dataview" "sample-finspace-kx-dataview" {
+resource "aws_finspace_kx_dataview" "tf-sample-finspace-kx-dataview" {
   auto_update             = ""
   availability_zone_id    = ""
   az_mode                 = ""

@@ -1,4 +1,4 @@
-resource "aws_ce_anomaly_subscription" "sample-ce-anomaly-subscription" {
+resource "aws_ce_anomaly_subscription" "tf-sample-ce-anomaly-subscription" {
   account_id       = ""
   frequency        = ""
   id               = ""

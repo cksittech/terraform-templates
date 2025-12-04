@@ -1,4 +1,4 @@
-resource "aws_codeconnections_host" "sample-codeconnections-host" {
+resource "aws_codeconnections_host" "tf-sample-codeconnections-host" {
   id                = ""
   name              = ""
   provider_endpoint = ""

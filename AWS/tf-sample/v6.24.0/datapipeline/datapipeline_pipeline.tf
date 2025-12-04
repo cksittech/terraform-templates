@@ -1,4 +1,4 @@
-resource "aws_datapipeline_pipeline" "sample-datapipeline-pipeline" {
+resource "aws_datapipeline_pipeline" "tf-sample-datapipeline-pipeline" {
   description = ""
   id          = ""
   name        = ""

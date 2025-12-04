@@ -1,4 +1,4 @@
-resource "aws_datasync_location_fsx_lustre_file_system" "sample-datasync-location-fsx-lustre-file-system" {
+resource "aws_datasync_location_fsx_lustre_file_system" "tf-sample-datasync-location-fsx-lustre-file-system" {
   creation_time       = ""
   fsx_filesystem_arn  = ""
   id                  = ""

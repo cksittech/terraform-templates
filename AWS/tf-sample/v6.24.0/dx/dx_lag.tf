@@ -1,4 +1,4 @@
-resource "aws_dx_lag" "sample-dx-lag" {
+resource "aws_dx_lag" "tf-sample-dx-lag" {
   connection_id          = ""
   connections_bandwidth  = ""
   force_destroy          = ""

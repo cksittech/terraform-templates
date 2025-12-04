@@ -1,4 +1,4 @@
-resource "aws_neptune_global_cluster" "sample-neptune-global-cluster" {
+resource "aws_neptune_global_cluster" "tf-sample-neptune-global-cluster" {
   deletion_protection          = ""
   engine                       = ""
   engine_version               = ""

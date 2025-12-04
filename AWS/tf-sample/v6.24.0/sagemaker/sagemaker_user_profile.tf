@@ -1,4 +1,4 @@
-resource "aws_sagemaker_user_profile" "sample-sagemaker-user-profile" {
+resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
   domain_id                      = ""
   home_efs_file_system_uid       = ""
   id                             = ""

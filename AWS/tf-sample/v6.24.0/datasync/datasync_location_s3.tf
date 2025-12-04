@@ -1,4 +1,4 @@
-resource "aws_datasync_location_s3" "sample-datasync-location-s3" {
+resource "aws_datasync_location_s3" "tf-sample-datasync-location-s3" {
   agent_arns       = []
   id               = ""
   region           = ""

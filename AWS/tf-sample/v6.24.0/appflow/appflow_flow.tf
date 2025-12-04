@@ -1,4 +1,4 @@
-resource "aws_appflow_flow" "sample-appflow-flow" {
+resource "aws_appflow_flow" "tf-sample-appflow-flow" {
   description = ""
   flow_status = ""
   id          = ""

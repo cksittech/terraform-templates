@@ -1,4 +1,4 @@
-resource "aws_codecommit_trigger" "sample-codecommit-trigger" {
+resource "aws_codecommit_trigger" "tf-sample-codecommit-trigger" {
   configuration_id = ""
   id               = ""
   region           = ""

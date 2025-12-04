@@ -1,4 +1,4 @@
-resource "aws_auditmanager_control" "sample-auditmanager-control" {
+resource "aws_auditmanager_control" "tf-sample-auditmanager-control" {
   action_plan_instructions = ""
   action_plan_title        = ""
   description              = ""

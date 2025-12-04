@@ -1,4 +1,4 @@
-resource "aws_dax_cluster" "sample-dax-cluster" {
+resource "aws_dax_cluster" "tf-sample-dax-cluster" {
   availability_zones               = []
   cluster_address                  = ""
   cluster_endpoint_encryption_type = ""

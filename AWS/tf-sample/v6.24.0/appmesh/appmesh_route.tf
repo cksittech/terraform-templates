@@ -1,4 +1,4 @@
-resource "aws_appmesh_route" "sample-appmesh-route" {
+resource "aws_appmesh_route" "tf-sample-appmesh-route" {
   created_date        = ""
   id                  = ""
   last_updated_date   = ""

@@ -1,4 +1,4 @@
-resource "aws_mskconnect_connector" "sample-mskconnect-connector" {
+resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
   connector_configuration    = {}
   description                = ""
   id                         = ""

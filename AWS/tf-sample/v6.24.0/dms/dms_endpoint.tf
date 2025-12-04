@@ -1,4 +1,4 @@
-resource "aws_dms_endpoint" "sample-dms-endpoint" {
+resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
   certificate_arn                 = ""
   database_name                   = ""
   endpoint_arn                    = ""

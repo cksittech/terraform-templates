@@ -1,4 +1,4 @@
-resource "aws_connect_instance" "sample-connect-instance" {
+resource "aws_connect_instance" "tf-sample-connect-instance" {
   auto_resolve_best_voices_enabled = ""
   contact_flow_logs_enabled        = ""
   contact_lens_enabled             = ""

@@ -1,4 +1,4 @@
-resource "aws_lightsail_static_ip" "sample-lightsail-static-ip" {
+resource "aws_lightsail_static_ip" "tf-sample-lightsail-static-ip" {
   id           = ""
   ip_address   = ""
   name         = ""

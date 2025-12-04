@@ -1,4 +1,4 @@
-resource "aws_fsx_backup" "sample-fsx-backup" {
+resource "aws_fsx_backup" "tf-sample-fsx-backup" {
   file_system_id = ""
   id             = ""
   kms_key_id     = ""

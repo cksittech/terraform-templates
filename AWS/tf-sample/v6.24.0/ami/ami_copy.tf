@@ -1,4 +1,4 @@
-resource "aws_ami_copy" "sample-ami-copy" {
+resource "aws_ami_copy" "tf-sample-ami-copy" {
   architecture            = ""
   boot_mode               = ""
   deprecation_time        = ""

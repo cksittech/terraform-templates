@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_subscription_filter" "sample-cloudwatch-log-subscription-filter" {
+resource "aws_cloudwatch_log_subscription_filter" "tf-sample-cloudwatch-log-subscription-filter" {
   destination_arn = ""
   distribution    = ""
   filter_pattern  = ""

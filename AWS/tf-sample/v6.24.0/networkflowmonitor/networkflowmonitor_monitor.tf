@@ -1,4 +1,4 @@
-resource "aws_networkflowmonitor_monitor" "sample-networkflowmonitor-monitor" {
+resource "aws_networkflowmonitor_monitor" "tf-sample-networkflowmonitor-monitor" {
   monitor_arn  = ""
   monitor_name = ""
   region       = ""

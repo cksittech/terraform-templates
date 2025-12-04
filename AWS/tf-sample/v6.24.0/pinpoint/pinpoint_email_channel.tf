@@ -1,4 +1,4 @@
-resource "aws_pinpoint_email_channel" "sample-pinpoint-email-channel" {
+resource "aws_pinpoint_email_channel" "tf-sample-pinpoint-email-channel" {
   application_id                 = ""
   configuration_set              = ""
   enabled                        = ""

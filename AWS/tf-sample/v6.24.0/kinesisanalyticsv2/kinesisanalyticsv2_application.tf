@@ -1,4 +1,4 @@
-resource "aws_kinesisanalyticsv2_application" "sample-kinesisanalyticsv2-application" {
+resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-application" {
   application_mode       = ""
   create_timestamp       = ""
   description            = ""

@@ -1,4 +1,4 @@
-resource "aws_config_configuration_recorder" "sample-config-configuration-recorder" {
+resource "aws_config_configuration_recorder" "tf-sample-config-configuration-recorder" {
   id       = ""
   name     = ""
   region   = ""

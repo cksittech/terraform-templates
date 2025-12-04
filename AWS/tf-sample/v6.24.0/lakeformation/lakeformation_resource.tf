@@ -1,4 +1,4 @@
-resource "aws_lakeformation_resource" "sample-lakeformation-resource" {
+resource "aws_lakeformation_resource" "tf-sample-lakeformation-resource" {
   hybrid_access_enabled   = ""
   id                      = ""
   last_modified           = ""

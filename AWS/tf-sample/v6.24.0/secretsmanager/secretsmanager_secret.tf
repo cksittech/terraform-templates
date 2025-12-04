@@ -1,4 +1,4 @@
-resource "aws_secretsmanager_secret" "sample-secretsmanager-secret" {
+resource "aws_secretsmanager_secret" "tf-sample-secretsmanager-secret" {
   description                    = ""
   force_overwrite_replica_secret = ""
   id                             = ""

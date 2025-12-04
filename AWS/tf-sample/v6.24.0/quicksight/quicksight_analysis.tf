@@ -1,4 +1,4 @@
-resource "aws_quicksight_analysis" "sample-quicksight-analysis" {
+resource "aws_quicksight_analysis" "tf-sample-quicksight-analysis" {
   analysis_id             = ""
   aws_account_id          = ""
   created_time            = ""

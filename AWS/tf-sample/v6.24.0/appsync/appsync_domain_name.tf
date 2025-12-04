@@ -1,4 +1,4 @@
-resource "aws_appsync_domain_name" "sample-appsync-domain-name" {
+resource "aws_appsync_domain_name" "tf-sample-appsync-domain-name" {
   appsync_domain_name = ""
   certificate_arn     = ""
   description         = ""

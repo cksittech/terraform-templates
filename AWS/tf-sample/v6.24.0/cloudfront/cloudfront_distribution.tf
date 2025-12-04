@@ -1,4 +1,4 @@
-resource "aws_cloudfront_distribution" "sample-cloudfront-distribution" {
+resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   aliases                         = []
   anycast_ip_list_id              = ""
   caller_reference                = ""

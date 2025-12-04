@@ -1,4 +1,4 @@
-resource "aws_datazone_form_type" "sample-datazone-form-type" {
+resource "aws_datazone_form_type" "tf-sample-datazone-form-type" {
   created_at                = ""
   created_by                = ""
   description               = ""

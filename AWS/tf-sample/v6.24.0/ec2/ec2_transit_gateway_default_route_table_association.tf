@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_default_route_table_association" "sample-ec2-transit-gateway-default-route-table-association" {
+resource "aws_ec2_transit_gateway_default_route_table_association" "tf-sample-ec2-transit-gateway-default-route-table-association" {
   id                              = ""
   original_default_route_table_id = ""
   region                          = ""

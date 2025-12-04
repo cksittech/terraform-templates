@@ -1,4 +1,4 @@
-resource "aws_appsync_type" "sample-appsync-type" {
+resource "aws_appsync_type" "tf-sample-appsync-type" {
   api_id      = ""
   definition  = ""
   description = ""

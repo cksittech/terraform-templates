@@ -1,4 +1,4 @@
-resource "aws_securityhub_standards_control_association" "sample-securityhub-standards-control-association" {
+resource "aws_securityhub_standards_control_association" "tf-sample-securityhub-standards-control-association" {
   association_status  = ""
   id                  = ""
   region              = ""

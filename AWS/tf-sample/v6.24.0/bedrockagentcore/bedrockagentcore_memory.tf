@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_memory" "sample-bedrockagentcore-memory" {
+resource "aws_bedrockagentcore_memory" "tf-sample-bedrockagentcore-memory" {
   description               = ""
   encryption_key_arn        = ""
   event_expiry_duration     = ""

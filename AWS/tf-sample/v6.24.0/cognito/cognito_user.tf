@@ -1,4 +1,4 @@
-resource "aws_cognito_user" "sample-cognito-user" {
+resource "aws_cognito_user" "tf-sample-cognito-user" {
   attributes               = {}
   client_metadata          = {}
   creation_date            = ""

@@ -1,4 +1,4 @@
-resource "aws_lakeformation_resource_lf_tags" "sample-lakeformation-resource-lf-tags" {
+resource "aws_lakeformation_resource_lf_tags" "tf-sample-lakeformation-resource-lf-tags" {
   catalog_id = ""
   id         = ""
   region     = ""

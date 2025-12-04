@@ -1,4 +1,4 @@
-resource "aws_customerprofiles_profile" "sample-customerprofiles-profile" {
+resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   account_number         = ""
   additional_information = ""
   attributes             = {}

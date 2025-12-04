@@ -1,4 +1,4 @@
-resource "aws_lightsail_disk" "sample-lightsail-disk" {
+resource "aws_lightsail_disk" "tf-sample-lightsail-disk" {
   availability_zone = ""
   created_at        = ""
   id                = ""

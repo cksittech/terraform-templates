@@ -1,4 +1,4 @@
-resource "aws_config_remediation_configuration" "sample-config-remediation-configuration" {
+resource "aws_config_remediation_configuration" "tf-sample-config-remediation-configuration" {
   automatic                  = ""
   config_rule_name           = ""
   id                         = ""

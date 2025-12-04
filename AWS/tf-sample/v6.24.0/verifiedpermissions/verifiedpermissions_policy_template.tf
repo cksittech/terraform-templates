@@ -1,4 +1,4 @@
-resource "aws_verifiedpermissions_policy_template" "sample-verifiedpermissions-policy-template" {
+resource "aws_verifiedpermissions_policy_template" "tf-sample-verifiedpermissions-policy-template" {
   created_date       = ""
   description        = ""
   id                 = ""

@@ -1,4 +1,4 @@
-resource "aws_kendra_thesaurus" "sample-kendra-thesaurus" {
+resource "aws_kendra_thesaurus" "tf-sample-kendra-thesaurus" {
   description  = ""
   id           = ""
   index_id     = ""

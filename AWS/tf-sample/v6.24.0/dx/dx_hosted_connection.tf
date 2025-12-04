@@ -1,4 +1,4 @@
-resource "aws_dx_hosted_connection" "sample-dx-hosted-connection" {
+resource "aws_dx_hosted_connection" "tf-sample-dx-hosted-connection" {
   aws_device             = ""
   bandwidth              = ""
   connection_id          = ""

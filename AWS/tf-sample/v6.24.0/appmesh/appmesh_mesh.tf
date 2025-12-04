@@ -1,4 +1,4 @@
-resource "aws_appmesh_mesh" "sample-appmesh-mesh" {
+resource "aws_appmesh_mesh" "tf-sample-appmesh-mesh" {
   created_date      = ""
   id                = ""
   last_updated_date = ""

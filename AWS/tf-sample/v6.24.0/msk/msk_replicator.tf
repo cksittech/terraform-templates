@@ -1,4 +1,4 @@
-resource "aws_msk_replicator" "sample-msk-replicator" {
+resource "aws_msk_replicator" "tf-sample-msk-replicator" {
   current_version            = ""
   description                = ""
   id                         = ""

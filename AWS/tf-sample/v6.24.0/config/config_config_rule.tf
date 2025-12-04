@@ -1,4 +1,4 @@
-resource "aws_config_config_rule" "sample-config-config-rule" {
+resource "aws_config_config_rule" "tf-sample-config-config-rule" {
   description                 = ""
   id                          = ""
   input_parameters            = ""

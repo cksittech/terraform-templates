@@ -1,4 +1,4 @@
-resource "aws_dataexchange_event_action" "sample-dataexchange-event-action" {
+resource "aws_dataexchange_event_action" "tf-sample-dataexchange-event-action" {
   created_at = ""
   id         = ""
   region     = ""

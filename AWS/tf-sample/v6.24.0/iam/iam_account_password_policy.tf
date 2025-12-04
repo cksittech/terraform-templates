@@ -1,4 +1,4 @@
-resource "aws_iam_account_password_policy" "sample-iam-account-password-policy" {
+resource "aws_iam_account_password_policy" "tf-sample-iam-account-password-policy" {
   allow_users_to_change_password = ""
   expire_passwords               = ""
   hard_expiry                    = ""

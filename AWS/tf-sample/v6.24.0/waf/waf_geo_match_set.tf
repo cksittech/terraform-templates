@@ -1,4 +1,4 @@
-resource "aws_waf_geo_match_set" "sample-waf-geo-match-set" {
+resource "aws_waf_geo_match_set" "tf-sample-waf-geo-match-set" {
   id   = ""
   name = ""
   

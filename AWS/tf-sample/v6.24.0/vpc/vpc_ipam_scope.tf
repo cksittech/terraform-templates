@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_scope" "sample-vpc-ipam-scope" {
+resource "aws_vpc_ipam_scope" "tf-sample-vpc-ipam-scope" {
   description     = ""
   id              = ""
   ipam_arn        = ""

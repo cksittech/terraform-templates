@@ -1,4 +1,4 @@
-resource "aws_spot_instance_request" "sample-spot-instance-request" {
+resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   ami                                  = ""
   associate_public_ip_address          = ""
   availability_zone                    = ""

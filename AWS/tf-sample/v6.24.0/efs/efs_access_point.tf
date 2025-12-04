@@ -1,4 +1,4 @@
-resource "aws_efs_access_point" "sample-efs-access-point" {
+resource "aws_efs_access_point" "tf-sample-efs-access-point" {
   file_system_arn = ""
   file_system_id  = ""
   id              = ""

@@ -1,4 +1,4 @@
-resource "aws_storagegateway_cached_iscsi_volume" "sample-storagegateway-cached-iscsi-volume" {
+resource "aws_storagegateway_cached_iscsi_volume" "tf-sample-storagegateway-cached-iscsi-volume" {
   chap_enabled           = ""
   gateway_arn            = ""
   id                     = ""

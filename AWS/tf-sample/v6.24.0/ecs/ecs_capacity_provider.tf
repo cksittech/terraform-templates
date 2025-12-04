@@ -1,4 +1,4 @@
-resource "aws_ecs_capacity_provider" "sample-ecs-capacity-provider" {
+resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
   cluster = ""
   id      = ""
   name    = ""

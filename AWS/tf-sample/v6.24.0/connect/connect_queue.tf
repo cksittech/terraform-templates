@@ -1,4 +1,4 @@
-resource "aws_connect_queue" "sample-connect-queue" {
+resource "aws_connect_queue" "tf-sample-connect-queue" {
   description           = ""
   hours_of_operation_id = ""
   id                    = ""

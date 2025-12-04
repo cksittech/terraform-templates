@@ -1,4 +1,4 @@
-resource "aws_cloudformation_stack" "sample-cloudformation-stack" {
+resource "aws_cloudformation_stack" "tf-sample-cloudformation-stack" {
   capabilities       = []
   disable_rollback   = ""
   iam_role_arn       = ""

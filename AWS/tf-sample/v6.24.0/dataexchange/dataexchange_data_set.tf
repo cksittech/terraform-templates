@@ -1,4 +1,4 @@
-resource "aws_dataexchange_data_set" "sample-dataexchange-data-set" {
+resource "aws_dataexchange_data_set" "tf-sample-dataexchange-data-set" {
   asset_type  = ""
   description = ""
   id          = ""

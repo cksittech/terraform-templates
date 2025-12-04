@@ -1,4 +1,4 @@
-resource "aws_datazone_asset_type" "sample-datazone-asset-type" {
+resource "aws_datazone_asset_type" "tf-sample-datazone-asset-type" {
   created_at                = ""
   created_by                = ""
   description               = ""

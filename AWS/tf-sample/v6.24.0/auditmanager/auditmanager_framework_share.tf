@@ -1,4 +1,4 @@
-resource "aws_auditmanager_framework_share" "sample-auditmanager-framework-share" {
+resource "aws_auditmanager_framework_share" "tf-sample-auditmanager-framework-share" {
   comment             = ""
   destination_account = ""
   destination_region  = ""

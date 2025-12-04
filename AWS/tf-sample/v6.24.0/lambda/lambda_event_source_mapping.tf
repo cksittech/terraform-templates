@@ -1,4 +1,4 @@
-resource "aws_lambda_event_source_mapping" "sample-lambda-event-source-mapping" {
+resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mapping" {
   batch_size                         = ""
   bisect_batch_on_function_error     = ""
   enabled                            = ""

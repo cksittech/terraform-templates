@@ -1,4 +1,4 @@
-resource "aws_quicksight_user" "sample-quicksight-user" {
+resource "aws_quicksight_user" "tf-sample-quicksight-user" {
   aws_account_id      = ""
   email               = ""
   iam_arn             = ""

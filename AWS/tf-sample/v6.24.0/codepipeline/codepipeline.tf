@@ -1,4 +1,4 @@
-resource "aws_codepipeline" "sample-codepipeline" {
+resource "aws_codepipeline" "tf-sample-codepipeline" {
   execution_mode = ""
   id             = ""
   name           = ""

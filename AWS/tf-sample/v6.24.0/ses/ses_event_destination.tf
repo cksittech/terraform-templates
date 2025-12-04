@@ -1,4 +1,4 @@
-resource "aws_ses_event_destination" "sample-ses-event-destination" {
+resource "aws_ses_event_destination" "tf-sample-ses-event-destination" {
   configuration_set_name = ""
   enabled                = ""
   id                     = ""

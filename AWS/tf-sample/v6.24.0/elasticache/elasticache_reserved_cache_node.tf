@@ -1,4 +1,4 @@
-resource "aws_elasticache_reserved_cache_node" "sample-elasticache-reserved-cache-node" {
+resource "aws_elasticache_reserved_cache_node" "tf-sample-elasticache-reserved-cache-node" {
   cache_node_count                 = ""
   cache_node_type                  = ""
   duration                         = ""

@@ -1,4 +1,4 @@
-resource "aws_secretsmanager_secret_policy" "sample-secretsmanager-secret-policy" {
+resource "aws_secretsmanager_secret_policy" "tf-sample-secretsmanager-secret-policy" {
   block_public_policy = ""
   id                  = ""
   policy              = ""

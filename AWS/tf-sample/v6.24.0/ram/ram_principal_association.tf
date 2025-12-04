@@ -1,4 +1,4 @@
-resource "aws_ram_principal_association" "sample-ram-principal-association" {
+resource "aws_ram_principal_association" "tf-sample-ram-principal-association" {
   id                 = ""
   principal          = ""
   region             = ""

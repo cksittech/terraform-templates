@@ -1,4 +1,4 @@
-resource "aws_bedrockagent_agent_collaborator" "sample-bedrockagent-agent-collaborator" {
+resource "aws_bedrockagent_agent_collaborator" "tf-sample-bedrockagent-agent-collaborator" {
   agent_id                   = ""
   agent_version              = ""
   collaboration_instruction  = ""

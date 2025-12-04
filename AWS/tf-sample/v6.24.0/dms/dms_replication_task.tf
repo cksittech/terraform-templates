@@ -1,4 +1,4 @@
-resource "aws_dms_replication_task" "sample-dms-replication-task" {
+resource "aws_dms_replication_task" "tf-sample-dms-replication-task" {
   cdc_start_position        = ""
   cdc_start_time            = ""
   id                        = ""

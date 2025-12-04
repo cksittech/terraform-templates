@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_service_action" "sample-servicecatalog-service-action" {
+resource "aws_servicecatalog_service_action" "tf-sample-servicecatalog-service-action" {
   accept_language = ""
   description     = ""
   id              = ""

@@ -1,4 +1,4 @@
-resource "aws_route53_resolver_firewall_rule" "sample-route53-resolver-firewall-rule" {
+resource "aws_route53_resolver_firewall_rule" "tf-sample-route53-resolver-firewall-rule" {
   action                             = ""
   block_override_dns_type            = ""
   block_override_domain              = ""

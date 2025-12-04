@@ -1,4 +1,4 @@
-resource "aws_networkmanager_transit_gateway_peering" "sample-networkmanager-transit-gateway-peering" {
+resource "aws_networkmanager_transit_gateway_peering" "tf-sample-networkmanager-transit-gateway-peering" {
   core_network_arn                      = ""
   core_network_id                       = ""
   edge_location                         = ""

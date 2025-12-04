@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_peering_attachment" "sample-ec2-transit-gateway-peering-attachment" {
+resource "aws_ec2_transit_gateway_peering_attachment" "tf-sample-ec2-transit-gateway-peering-attachment" {
   id                      = ""
   peer_account_id         = ""
   peer_region             = ""

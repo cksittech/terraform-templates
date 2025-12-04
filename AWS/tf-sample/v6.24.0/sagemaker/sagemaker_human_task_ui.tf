@@ -1,4 +1,4 @@
-resource "aws_sagemaker_human_task_ui" "sample-sagemaker-human-task-ui" {
+resource "aws_sagemaker_human_task_ui" "tf-sample-sagemaker-human-task-ui" {
   human_task_ui_name = ""
   id                 = ""
   region             = ""

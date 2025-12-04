@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "sample-s3-bucket" {
+resource "aws_s3_bucket" "tf-sample-s3-bucket" {
   acceleration_status         = ""
   acl                         = ""
   bucket                      = ""

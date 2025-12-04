@@ -1,4 +1,4 @@
-resource "aws_neptune_cluster" "sample-neptune-cluster" {
+resource "aws_neptune_cluster" "tf-sample-neptune-cluster" {
   allow_major_version_upgrade           = ""
   apply_immediately                     = ""
   availability_zones                    = []

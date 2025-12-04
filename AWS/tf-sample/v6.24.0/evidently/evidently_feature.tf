@@ -1,4 +1,4 @@
-resource "aws_evidently_feature" "sample-evidently-feature" {
+resource "aws_evidently_feature" "tf-sample-evidently-feature" {
   created_time        = ""
   default_variation   = ""
   description         = ""

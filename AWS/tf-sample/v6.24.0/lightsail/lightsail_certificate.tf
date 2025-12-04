@@ -1,4 +1,4 @@
-resource "aws_lightsail_certificate" "sample-lightsail-certificate" {
+resource "aws_lightsail_certificate" "tf-sample-lightsail-certificate" {
   created_at                = ""
   domain_name               = ""
   domain_validation_options = []

@@ -1,4 +1,4 @@
-resource "aws_rolesanywhere_trust_anchor" "sample-rolesanywhere-trust-anchor" {
+resource "aws_rolesanywhere_trust_anchor" "tf-sample-rolesanywhere-trust-anchor" {
   enabled = ""
   id      = ""
   name    = ""

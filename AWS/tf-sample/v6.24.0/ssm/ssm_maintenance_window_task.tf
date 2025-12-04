@@ -1,4 +1,4 @@
-resource "aws_ssm_maintenance_window_task" "sample-ssm-maintenance-window-task" {
+resource "aws_ssm_maintenance_window_task" "tf-sample-ssm-maintenance-window-task" {
   cutoff_behavior  = ""
   description      = ""
   id               = ""

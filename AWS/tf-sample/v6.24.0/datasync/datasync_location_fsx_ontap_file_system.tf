@@ -1,4 +1,4 @@
-resource "aws_datasync_location_fsx_ontap_file_system" "sample-datasync-location-fsx-ontap-file-system" {
+resource "aws_datasync_location_fsx_ontap_file_system" "tf-sample-datasync-location-fsx-ontap-file-system" {
   creation_time               = ""
   fsx_filesystem_arn          = ""
   id                          = ""

@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_logging" "sample-s3-bucket-logging" {
+resource "aws_s3_bucket_logging" "tf-sample-s3-bucket-logging" {
   bucket                = ""
   expected_bucket_owner = ""
   id                    = ""

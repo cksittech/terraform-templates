@@ -1,4 +1,4 @@
-resource "aws_opensearchserverless_vpc_endpoint" "sample-opensearchserverless-vpc-endpoint" {
+resource "aws_opensearchserverless_vpc_endpoint" "tf-sample-opensearchserverless-vpc-endpoint" {
   id                 = ""
   name               = ""
   region             = ""

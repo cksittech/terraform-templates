@@ -1,4 +1,4 @@
-resource "aws_network_interface" "sample-network-interface" {
+resource "aws_network_interface" "tf-sample-network-interface" {
   description               = ""
   enable_primary_ipv6       = ""
   id                        = ""

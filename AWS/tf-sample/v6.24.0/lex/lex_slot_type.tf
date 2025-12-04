@@ -1,4 +1,4 @@
-resource "aws_lex_slot_type" "sample-lex-slot-type" {
+resource "aws_lex_slot_type" "tf-sample-lex-slot-type" {
   checksum                 = ""
   create_version           = ""
   created_date             = ""

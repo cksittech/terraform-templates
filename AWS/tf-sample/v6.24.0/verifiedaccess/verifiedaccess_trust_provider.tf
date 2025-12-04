@@ -1,4 +1,4 @@
-resource "aws_verifiedaccess_trust_provider" "sample-verifiedaccess-trust-provider" {
+resource "aws_verifiedaccess_trust_provider" "tf-sample-verifiedaccess-trust-provider" {
   description                = ""
   device_trust_provider_type = ""
   id                         = ""

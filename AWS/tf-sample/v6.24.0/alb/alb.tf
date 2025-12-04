@@ -1,4 +1,4 @@
-resource "aws_alb" "sample-alb" {
+resource "aws_alb" "tf-sample-alb" {
   arn_suffix                                                   = ""
   client_keep_alive                                            = ""
   customer_owned_ipv4_pool                                     = ""

@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_api" "sample-apigatewayv2-api" {
+resource "aws_apigatewayv2_api" "tf-sample-apigatewayv2-api" {
   api_endpoint                 = ""
   api_key_selection_expression = ""
   body                         = ""

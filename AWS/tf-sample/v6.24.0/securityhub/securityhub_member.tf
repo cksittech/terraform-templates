@@ -1,4 +1,4 @@
-resource "aws_securityhub_member" "sample-securityhub-member" {
+resource "aws_securityhub_member" "tf-sample-securityhub-member" {
   account_id    = ""
   email         = ""
   id            = ""

@@ -1,4 +1,4 @@
-resource "aws_dx_private_virtual_interface" "sample-dx-private-virtual-interface" {
+resource "aws_dx_private_virtual_interface" "tf-sample-dx-private-virtual-interface" {
   address_family      = ""
   amazon_address      = ""
   amazon_side_asn     = ""

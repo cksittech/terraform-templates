@@ -1,4 +1,4 @@
-resource "aws_appfabric_ingestion_destination" "sample-appfabric-ingestion-destination" {
+resource "aws_appfabric_ingestion_destination" "tf-sample-appfabric-ingestion-destination" {
   app_bundle_arn = ""
   id             = ""
   ingestion_arn  = ""

@@ -1,4 +1,4 @@
-resource "aws_sagemaker_studio_lifecycle_config" "sample-sagemaker-studio-lifecycle-config" {
+resource "aws_sagemaker_studio_lifecycle_config" "tf-sample-sagemaker-studio-lifecycle-config" {
   id                               = ""
   region                           = ""
   studio_lifecycle_config_app_type = ""

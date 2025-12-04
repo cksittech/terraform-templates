@@ -1,4 +1,4 @@
-resource "aws_iot_policy" "sample-iot-policy" {
+resource "aws_iot_policy" "tf-sample-iot-policy" {
   default_version_id = ""
   id                 = ""
   name               = ""

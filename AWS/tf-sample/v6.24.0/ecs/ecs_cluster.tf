@@ -1,4 +1,4 @@
-resource "aws_ecs_cluster" "sample-ecs-cluster" {
+resource "aws_ecs_cluster" "tf-sample-ecs-cluster" {
   id     = ""
   name   = ""
   region = ""

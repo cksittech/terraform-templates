@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway" "sample-ec2-transit-gateway" {
+resource "aws_ec2_transit_gateway" "tf-sample-ec2-transit-gateway" {
   amazon_side_asn                    = ""
   association_default_route_table_id = ""
   auto_accept_shared_attachments     = ""

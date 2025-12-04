@@ -1,4 +1,4 @@
-resource "aws_finspace_kx_scaling_group" "sample-finspace-kx-scaling-group" {
+resource "aws_finspace_kx_scaling_group" "tf-sample-finspace-kx-scaling-group" {
   availability_zone_id    = ""
   clusters                = []
   created_timestamp       = ""

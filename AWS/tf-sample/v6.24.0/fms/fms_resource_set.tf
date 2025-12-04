@@ -1,4 +1,4 @@
-resource "aws_fms_resource_set" "sample-fms-resource-set" {
+resource "aws_fms_resource_set" "tf-sample-fms-resource-set" {
   id     = ""
   region = ""
   

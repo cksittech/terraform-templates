@@ -1,4 +1,4 @@
-resource "aws_vpclattice_auth_policy" "sample-vpclattice-auth-policy" {
+resource "aws_vpclattice_auth_policy" "tf-sample-vpclattice-auth-policy" {
   id                  = ""
   policy              = ""
   region              = ""

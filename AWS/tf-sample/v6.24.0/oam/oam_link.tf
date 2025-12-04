@@ -1,4 +1,4 @@
-resource "aws_oam_link" "sample-oam-link" {
+resource "aws_oam_link" "tf-sample-oam-link" {
   id              = ""
   label           = ""
   label_template  = ""

@@ -1,4 +1,4 @@
-resource "aws_eks_node_group" "sample-eks-node-group" {
+resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   ami_type               = ""
   capacity_type          = ""
   cluster_name           = ""

@@ -1,4 +1,4 @@
-resource "aws_ivs_playback_key_pair" "sample-ivs-playback-key-pair" {
+resource "aws_ivs_playback_key_pair" "tf-sample-ivs-playback-key-pair" {
   fingerprint = ""
   id          = ""
   name        = ""

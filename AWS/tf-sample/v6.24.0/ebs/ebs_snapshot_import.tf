@@ -1,4 +1,4 @@
-resource "aws_ebs_snapshot_import" "sample-ebs-snapshot-import" {
+resource "aws_ebs_snapshot_import" "tf-sample-ebs-snapshot-import" {
   data_encryption_key_id = ""
   description            = ""
   encrypted              = ""

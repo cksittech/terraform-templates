@@ -1,4 +1,4 @@
-resource "aws_synthetics_group_association" "sample-synthetics-group-association" {
+resource "aws_synthetics_group_association" "tf-sample-synthetics-group-association" {
   canary_arn = ""
   group_arn  = ""
   group_id   = ""

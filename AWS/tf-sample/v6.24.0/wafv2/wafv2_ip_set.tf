@@ -1,4 +1,4 @@
-resource "aws_wafv2_ip_set" "sample-wafv2-ip-set" {
+resource "aws_wafv2_ip_set" "tf-sample-wafv2-ip-set" {
   addresses          = []
   description        = ""
   id                 = ""

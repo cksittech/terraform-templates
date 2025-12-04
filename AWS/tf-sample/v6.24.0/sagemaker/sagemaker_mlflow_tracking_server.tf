@@ -1,4 +1,4 @@
-resource "aws_sagemaker_mlflow_tracking_server" "sample-sagemaker-mlflow-tracking-server" {
+resource "aws_sagemaker_mlflow_tracking_server" "tf-sample-sagemaker-mlflow-tracking-server" {
   artifact_store_uri              = ""
   automatic_model_registration    = ""
   id                              = ""

@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_session_logger" "sample-workspacesweb-session-logger" {
+resource "aws_workspacesweb_session_logger" "tf-sample-workspacesweb-session-logger" {
   additional_encryption_context = {}
   associated_portal_arns        = []
   customer_managed_key          = ""

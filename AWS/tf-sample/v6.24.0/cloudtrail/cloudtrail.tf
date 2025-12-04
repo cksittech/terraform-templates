@@ -1,4 +1,4 @@
-resource "aws_cloudtrail" "sample-cloudtrail" {
+resource "aws_cloudtrail" "tf-sample-cloudtrail" {
   cloud_watch_logs_group_arn    = ""
   cloud_watch_logs_role_arn     = ""
   enable_log_file_validation    = ""

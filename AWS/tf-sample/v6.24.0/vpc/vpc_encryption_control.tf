@@ -1,4 +1,4 @@
-resource "aws_vpc_encryption_control" "sample-vpc-encryption-control" {
+resource "aws_vpc_encryption_control" "tf-sample-vpc-encryption-control" {
   egress_only_internet_gateway_exclusion = ""
   elastic_file_system_exclusion          = ""
   id                                     = ""

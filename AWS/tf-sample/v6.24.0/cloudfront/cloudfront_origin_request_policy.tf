@@ -1,4 +1,4 @@
-resource "aws_cloudfront_origin_request_policy" "sample-cloudfront-origin-request-policy" {
+resource "aws_cloudfront_origin_request_policy" "tf-sample-cloudfront-origin-request-policy" {
   comment = ""
   etag    = ""
   id      = ""

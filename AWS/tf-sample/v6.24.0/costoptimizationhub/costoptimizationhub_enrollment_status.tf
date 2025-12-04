@@ -1,4 +1,4 @@
-resource "aws_costoptimizationhub_enrollment_status" "sample-costoptimizationhub-enrollment-status" {
+resource "aws_costoptimizationhub_enrollment_status" "tf-sample-costoptimizationhub-enrollment-status" {
   id                      = ""
   include_member_accounts = ""
   status                  = ""

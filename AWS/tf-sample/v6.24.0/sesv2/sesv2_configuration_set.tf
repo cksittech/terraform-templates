@@ -1,4 +1,4 @@
-resource "aws_sesv2_configuration_set" "sample-sesv2-configuration-set" {
+resource "aws_sesv2_configuration_set" "tf-sample-sesv2-configuration-set" {
   configuration_set_name = ""
   id                     = ""
   region                 = ""

@@ -1,4 +1,4 @@
-resource "aws_glue_connection" "sample-glue-connection" {
+resource "aws_glue_connection" "tf-sample-glue-connection" {
   athena_properties     = {}
   catalog_id            = ""
   connection_properties = {}

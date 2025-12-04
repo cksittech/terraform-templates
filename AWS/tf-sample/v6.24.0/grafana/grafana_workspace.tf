@@ -1,4 +1,4 @@
-resource "aws_grafana_workspace" "sample-grafana-workspace" {
+resource "aws_grafana_workspace" "tf-sample-grafana-workspace" {
   account_access_type       = ""
   authentication_providers  = []
   configuration             = ""

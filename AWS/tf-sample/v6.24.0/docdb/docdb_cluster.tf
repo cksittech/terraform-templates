@@ -1,4 +1,4 @@
-resource "aws_docdb_cluster" "sample-docdb-cluster" {
+resource "aws_docdb_cluster" "tf-sample-docdb-cluster" {
   allow_major_version_upgrade     = ""
   apply_immediately               = ""
   availability_zones              = []

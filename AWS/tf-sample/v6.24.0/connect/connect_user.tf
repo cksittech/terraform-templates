@@ -1,4 +1,4 @@
-resource "aws_connect_user" "sample-connect-user" {
+resource "aws_connect_user" "tf-sample-connect-user" {
   directory_user_id    = ""
   hierarchy_group_id   = ""
   id                   = ""

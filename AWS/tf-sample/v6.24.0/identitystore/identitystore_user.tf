@@ -1,4 +1,4 @@
-resource "aws_identitystore_user" "sample-identitystore-user" {
+resource "aws_identitystore_user" "tf-sample-identitystore-user" {
   display_name       = ""
   external_ids       = []
   id                 = ""

@@ -1,4 +1,4 @@
-resource "aws_db_instance" "sample-db-instance" {
+resource "aws_db_instance" "tf-sample-db-instance" {
   address                               = ""
   allocated_storage                     = ""
   allow_major_version_upgrade           = ""

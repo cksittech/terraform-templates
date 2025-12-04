@@ -1,4 +1,4 @@
-resource "aws_networkmanager_connect_attachment" "sample-networkmanager-connect-attachment" {
+resource "aws_networkmanager_connect_attachment" "tf-sample-networkmanager-connect-attachment" {
   attachment_id                 = ""
   attachment_policy_rule_number = ""
   attachment_type               = ""

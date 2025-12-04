@@ -1,4 +1,4 @@
-resource "aws_vpclattice_resource_configuration" "sample-vpclattice-resource-configuration" {
+resource "aws_vpclattice_resource_configuration" "tf-sample-vpclattice-resource-configuration" {
   allow_association_to_shareable_service_network = ""
   custom_domain_name                             = ""
   domain_verification_arn                        = ""

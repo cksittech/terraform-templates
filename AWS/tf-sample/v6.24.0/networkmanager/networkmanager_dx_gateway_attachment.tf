@@ -1,4 +1,4 @@
-resource "aws_networkmanager_dx_gateway_attachment" "sample-networkmanager-dx-gateway-attachment" {
+resource "aws_networkmanager_dx_gateway_attachment" "tf-sample-networkmanager-dx-gateway-attachment" {
   attachment_policy_rule_number = ""
   attachment_type               = ""
   core_network_arn              = ""

@@ -1,4 +1,4 @@
-resource "aws_ecs_task_definition" "sample-ecs-task-definition" {
+resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
   arn_without_revision     = ""
   container_definitions    = ""
   cpu                      = ""

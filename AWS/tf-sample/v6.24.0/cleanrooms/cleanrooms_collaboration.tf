@@ -1,4 +1,4 @@
-resource "aws_cleanrooms_collaboration" "sample-cleanrooms-collaboration" {
+resource "aws_cleanrooms_collaboration" "tf-sample-cleanrooms-collaboration" {
   analytics_engine         = ""
   create_time              = ""
   creator_display_name     = ""

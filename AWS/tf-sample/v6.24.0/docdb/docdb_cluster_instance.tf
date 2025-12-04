@@ -1,4 +1,4 @@
-resource "aws_docdb_cluster_instance" "sample-docdb-cluster-instance" {
+resource "aws_docdb_cluster_instance" "tf-sample-docdb-cluster-instance" {
   apply_immediately               = ""
   auto_minor_version_upgrade      = ""
   availability_zone               = ""

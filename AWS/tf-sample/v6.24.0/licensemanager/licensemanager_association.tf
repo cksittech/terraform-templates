@@ -1,4 +1,4 @@
-resource "aws_licensemanager_association" "sample-licensemanager-association" {
+resource "aws_licensemanager_association" "tf-sample-licensemanager-association" {
   id                        = ""
   license_configuration_arn = ""
   region                    = ""

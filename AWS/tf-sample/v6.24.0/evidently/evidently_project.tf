@@ -1,4 +1,4 @@
-resource "aws_evidently_project" "sample-evidently-project" {
+resource "aws_evidently_project" "tf-sample-evidently-project" {
   active_experiment_count = ""
   active_launch_count     = ""
   created_time            = ""

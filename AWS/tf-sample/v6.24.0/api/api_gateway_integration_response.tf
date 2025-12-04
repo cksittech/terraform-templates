@@ -1,4 +1,4 @@
-resource "aws_api_gateway_integration_response" "sample-api-gateway-integration-response" {
+resource "aws_api_gateway_integration_response" "tf-sample-api-gateway-integration-response" {
   content_handling    = ""
   http_method         = ""
   id                  = ""

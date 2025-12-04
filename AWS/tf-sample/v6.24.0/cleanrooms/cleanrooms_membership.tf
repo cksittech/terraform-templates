@@ -1,4 +1,4 @@
-resource "aws_cleanrooms_membership" "sample-cleanrooms-membership" {
+resource "aws_cleanrooms_membership" "tf-sample-cleanrooms-membership" {
   collaboration_arn                  = ""
   collaboration_creator_account_id   = ""
   collaboration_creator_display_name = ""

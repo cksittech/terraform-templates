@@ -1,4 +1,4 @@
-resource "aws_default_security_group" "sample-default-security-group" {
+resource "aws_default_security_group" "tf-sample-default-security-group" {
   description            = ""
   egress                 = []
   id                     = ""

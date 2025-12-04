@@ -1,4 +1,4 @@
-resource "aws_db_cluster_snapshot" "sample-db-cluster-snapshot" {
+resource "aws_db_cluster_snapshot" "tf-sample-db-cluster-snapshot" {
   allocated_storage              = ""
   availability_zones             = []
   db_cluster_identifier          = ""

@@ -1,4 +1,4 @@
-resource "aws_notificationscontacts_email_contact" "sample-notificationscontacts-email-contact" {
+resource "aws_notificationscontacts_email_contact" "tf-sample-notificationscontacts-email-contact" {
   email_address = ""
   name          = ""
   

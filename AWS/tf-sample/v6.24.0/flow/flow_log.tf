@@ -1,4 +1,4 @@
-resource "aws_flow_log" "sample-flow-log" {
+resource "aws_flow_log" "tf-sample-flow-log" {
   deliver_cross_account_role    = ""
   eni_id                        = ""
   iam_role_arn                  = ""

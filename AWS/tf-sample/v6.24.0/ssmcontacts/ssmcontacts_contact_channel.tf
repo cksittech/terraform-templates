@@ -1,4 +1,4 @@
-resource "aws_ssmcontacts_contact_channel" "sample-ssmcontacts-contact-channel" {
+resource "aws_ssmcontacts_contact_channel" "tf-sample-ssmcontacts-contact-channel" {
   activation_status = ""
   contact_id        = ""
   id                = ""

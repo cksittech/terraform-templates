@@ -1,4 +1,4 @@
-resource "aws_iam_group" "sample-iam-group" {
+resource "aws_iam_group" "tf-sample-iam-group" {
   id        = ""
   name      = ""
   path      = ""

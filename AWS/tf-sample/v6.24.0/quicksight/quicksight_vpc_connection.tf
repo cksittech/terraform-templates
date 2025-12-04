@@ -1,4 +1,4 @@
-resource "aws_quicksight_vpc_connection" "sample-quicksight-vpc-connection" {
+resource "aws_quicksight_vpc_connection" "tf-sample-quicksight-vpc-connection" {
   availability_status = ""
   aws_account_id      = ""
   dns_resolvers       = []

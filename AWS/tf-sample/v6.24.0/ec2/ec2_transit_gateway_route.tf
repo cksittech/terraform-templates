@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_route" "sample-ec2-transit-gateway-route" {
+resource "aws_ec2_transit_gateway_route" "tf-sample-ec2-transit-gateway-route" {
   blackhole                      = ""
   destination_cidr_block         = ""
   id                             = ""

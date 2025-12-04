@@ -1,4 +1,4 @@
-resource "aws_sqs_queue" "sample-sqs-queue" {
+resource "aws_sqs_queue" "tf-sample-sqs-queue" {
   content_based_deduplication       = ""
   deduplication_scope               = ""
   delay_seconds                     = ""

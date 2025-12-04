@@ -1,4 +1,4 @@
-resource "aws_glue_catalog_table_optimizer" "sample-glue-catalog-table-optimizer" {
+resource "aws_glue_catalog_table_optimizer" "tf-sample-glue-catalog-table-optimizer" {
   catalog_id    = ""
   database_name = ""
   region        = ""

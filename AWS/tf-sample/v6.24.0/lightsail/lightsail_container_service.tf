@@ -1,4 +1,4 @@
-resource "aws_lightsail_container_service" "sample-lightsail-container-service" {
+resource "aws_lightsail_container_service" "tf-sample-lightsail-container-service" {
   availability_zone   = ""
   created_at          = ""
   id                  = ""

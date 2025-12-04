@@ -1,4 +1,4 @@
-resource "aws_redshift_cluster" "sample-redshift-cluster" {
+resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   allow_version_upgrade                = ""
   apply_immediately                    = ""
   aqua_configuration_status            = ""

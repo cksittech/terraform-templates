@@ -1,4 +1,4 @@
-resource "aws_cloudfront_field_level_encryption_config" "sample-cloudfront-field-level-encryption-config" {
+resource "aws_cloudfront_field_level_encryption_config" "tf-sample-cloudfront-field-level-encryption-config" {
   caller_reference = ""
   comment          = ""
   etag             = ""

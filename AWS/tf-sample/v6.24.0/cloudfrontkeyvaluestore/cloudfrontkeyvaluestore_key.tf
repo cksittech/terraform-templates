@@ -1,4 +1,4 @@
-resource "aws_cloudfrontkeyvaluestore_key" "sample-cloudfrontkeyvaluestore-key" {
+resource "aws_cloudfrontkeyvaluestore_key" "tf-sample-cloudfrontkeyvaluestore-key" {
   id                  = ""
   key                 = ""
   key_value_store_arn = ""

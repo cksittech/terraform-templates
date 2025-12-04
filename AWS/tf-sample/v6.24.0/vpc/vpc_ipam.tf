@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam" "sample-vpc-ipam" {
+resource "aws_vpc_ipam" "tf-sample-vpc-ipam" {
   cascade                                   = ""
   default_resource_discovery_association_id = ""
   default_resource_discovery_id             = ""

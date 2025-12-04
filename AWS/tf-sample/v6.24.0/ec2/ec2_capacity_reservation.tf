@@ -1,4 +1,4 @@
-resource "aws_ec2_capacity_reservation" "sample-ec2-capacity-reservation" {
+resource "aws_ec2_capacity_reservation" "tf-sample-ec2-capacity-reservation" {
   availability_zone       = ""
   ebs_optimized           = ""
   end_date                = ""

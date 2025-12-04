@@ -1,4 +1,4 @@
-resource "aws_launch_template" "sample-launch-template" {
+resource "aws_launch_template" "tf-sample-launch-template" {
   default_version                      = ""
   description                          = ""
   disable_api_stop                     = ""

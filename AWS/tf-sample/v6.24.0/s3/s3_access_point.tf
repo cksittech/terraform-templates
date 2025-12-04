@@ -1,4 +1,4 @@
-resource "aws_s3_access_point" "sample-s3-access-point" {
+resource "aws_s3_access_point" "tf-sample-s3-access-point" {
   account_id               = ""
   alias                    = ""
   bucket                   = ""

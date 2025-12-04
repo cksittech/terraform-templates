@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_gateway" "sample-bedrockagentcore-gateway" {
+resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
   authorizer_type           = ""
   description               = ""
   exception_level           = ""

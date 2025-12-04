@@ -1,4 +1,4 @@
-resource "aws_codepipeline_webhook" "sample-codepipeline-webhook" {
+resource "aws_codepipeline_webhook" "tf-sample-codepipeline-webhook" {
   authentication  = ""
   id              = ""
   name            = ""

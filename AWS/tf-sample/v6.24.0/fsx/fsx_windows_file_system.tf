@@ -1,4 +1,4 @@
-resource "aws_fsx_windows_file_system" "sample-fsx-windows-file-system" {
+resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   active_directory_id               = ""
   aliases                           = []
   automatic_backup_retention_days   = ""

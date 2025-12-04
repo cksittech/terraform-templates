@@ -1,4 +1,4 @@
-resource "aws_vpn_gateway" "sample-vpn-gateway" {
+resource "aws_vpn_gateway" "tf-sample-vpn-gateway" {
   amazon_side_asn   = ""
   availability_zone = ""
   id                = ""

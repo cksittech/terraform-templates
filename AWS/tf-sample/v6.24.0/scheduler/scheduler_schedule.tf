@@ -1,4 +1,4 @@
-resource "aws_scheduler_schedule" "sample-scheduler-schedule" {
+resource "aws_scheduler_schedule" "tf-sample-scheduler-schedule" {
   action_after_completion      = ""
   description                  = ""
   end_date                     = ""

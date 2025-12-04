@@ -1,4 +1,4 @@
-resource "aws_lb_listener_rule" "sample-lb-listener-rule" {
+resource "aws_lb_listener_rule" "tf-sample-lb-listener-rule" {
   id           = ""
   listener_arn = ""
   priority     = ""

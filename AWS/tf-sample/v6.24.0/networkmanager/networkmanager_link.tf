@@ -1,4 +1,4 @@
-resource "aws_networkmanager_link" "sample-networkmanager-link" {
+resource "aws_networkmanager_link" "tf-sample-networkmanager-link" {
   description       = ""
   global_network_id = ""
   id                = ""

@@ -1,4 +1,4 @@
-resource "aws_secretsmanager_secret_version" "sample-secretsmanager-secret-version" {
+resource "aws_secretsmanager_secret_version" "tf-sample-secretsmanager-secret-version" {
   has_secret_string_wo     = ""
   id                       = ""
   region                   = ""

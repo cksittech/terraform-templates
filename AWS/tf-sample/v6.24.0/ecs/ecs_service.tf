@@ -1,4 +1,4 @@
-resource "aws_ecs_service" "sample-ecs-service" {
+resource "aws_ecs_service" "tf-sample-ecs-service" {
   availability_zone_rebalancing      = ""
   cluster                            = ""
   deployment_maximum_percent         = ""

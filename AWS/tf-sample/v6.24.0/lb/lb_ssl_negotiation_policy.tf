@@ -1,4 +1,4 @@
-resource "aws_lb_ssl_negotiation_policy" "sample-lb-ssl-negotiation-policy" {
+resource "aws_lb_ssl_negotiation_policy" "tf-sample-lb-ssl-negotiation-policy" {
   id            = ""
   lb_port       = ""
   load_balancer = ""

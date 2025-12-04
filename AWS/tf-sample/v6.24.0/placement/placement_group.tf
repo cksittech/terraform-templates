@@ -1,4 +1,4 @@
-resource "aws_placement_group" "sample-placement-group" {
+resource "aws_placement_group" "tf-sample-placement-group" {
   id                 = ""
   name               = ""
   partition_count    = ""

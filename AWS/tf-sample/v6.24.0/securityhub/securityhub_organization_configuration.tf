@@ -1,4 +1,4 @@
-resource "aws_securityhub_organization_configuration" "sample-securityhub-organization-configuration" {
+resource "aws_securityhub_organization_configuration" "tf-sample-securityhub-organization-configuration" {
   auto_enable           = ""
   auto_enable_standards = ""
   id                    = ""

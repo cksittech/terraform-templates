@@ -1,4 +1,4 @@
-resource "aws_odb_cloud_exadata_infrastructure" "sample-odb-cloud-exadata-infrastructure" {
+resource "aws_odb_cloud_exadata_infrastructure" "tf-sample-odb-cloud-exadata-infrastructure" {
   activated_storage_count          = ""
   additional_storage_count         = ""
   availability_zone                = ""

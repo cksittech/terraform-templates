@@ -1,4 +1,4 @@
-resource "aws_ssmcontacts_rotation" "sample-ssmcontacts-rotation" {
+resource "aws_ssmcontacts_rotation" "tf-sample-ssmcontacts-rotation" {
   contact_ids  = []
   id           = ""
   name         = ""

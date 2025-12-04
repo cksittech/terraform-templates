@@ -1,4 +1,4 @@
-resource "aws_connect_quick_connect" "sample-connect-quick-connect" {
+resource "aws_connect_quick_connect" "tf-sample-connect-quick-connect" {
   description      = ""
   id               = ""
   instance_id      = ""

@@ -1,4 +1,4 @@
-resource "aws_quicksight_account_settings" "sample-quicksight-account-settings" {
+resource "aws_quicksight_account_settings" "tf-sample-quicksight-account-settings" {
   aws_account_id                 = ""
   default_namespace              = ""
   region                         = ""

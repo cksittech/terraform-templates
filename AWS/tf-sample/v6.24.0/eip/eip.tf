@@ -1,4 +1,4 @@
-resource "aws_eip" "sample-eip" {
+resource "aws_eip" "tf-sample-eip" {
   address                   = ""
   allocation_id             = ""
   associate_with_private_ip = ""

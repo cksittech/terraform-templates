@@ -1,4 +1,4 @@
-resource "aws_neptune_parameter_group" "sample-neptune-parameter-group" {
+resource "aws_neptune_parameter_group" "tf-sample-neptune-parameter-group" {
   description = ""
   family      = ""
   id          = ""

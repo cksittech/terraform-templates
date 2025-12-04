@@ -1,4 +1,4 @@
-resource "aws_elasticache_subnet_group" "sample-elasticache-subnet-group" {
+resource "aws_elasticache_subnet_group" "tf-sample-elasticache-subnet-group" {
   description = ""
   id          = ""
   name        = ""

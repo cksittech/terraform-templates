@@ -1,4 +1,4 @@
-resource "aws_quicksight_key_registration" "sample-quicksight-key-registration" {
+resource "aws_quicksight_key_registration" "tf-sample-quicksight-key-registration" {
   aws_account_id = ""
   region         = ""
   

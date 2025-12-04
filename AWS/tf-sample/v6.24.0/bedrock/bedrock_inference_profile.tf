@@ -1,4 +1,4 @@
-resource "aws_bedrock_inference_profile" "sample-bedrock-inference-profile" {
+resource "aws_bedrock_inference_profile" "tf-sample-bedrock-inference-profile" {
   created_at  = ""
   description = ""
   id          = ""

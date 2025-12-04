@@ -1,4 +1,4 @@
-resource "aws_waf_size_constraint_set" "sample-waf-size-constraint-set" {
+resource "aws_waf_size_constraint_set" "tf-sample-waf-size-constraint-set" {
   id   = ""
   name = ""
   

@@ -1,4 +1,4 @@
-resource "aws_backup_restore_testing_selection" "sample-backup-restore-testing-selection" {
+resource "aws_backup_restore_testing_selection" "tf-sample-backup-restore-testing-selection" {
   iam_role_arn               = ""
   name                       = ""
   protected_resource_arns    = []

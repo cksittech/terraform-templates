@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_image" "sample-imagebuilder-image" {
+resource "aws_imagebuilder_image" "tf-sample-imagebuilder-image" {
   container_recipe_arn             = ""
   date_created                     = ""
   distribution_configuration_arn   = ""

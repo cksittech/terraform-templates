@@ -1,4 +1,4 @@
-resource "aws_transcribe_vocabulary" "sample-transcribe-vocabulary" {
+resource "aws_transcribe_vocabulary" "tf-sample-transcribe-vocabulary" {
   download_uri        = ""
   id                  = ""
   language_code       = ""

@@ -1,4 +1,4 @@
-resource "aws_default_network_acl" "sample-default-network-acl" {
+resource "aws_default_network_acl" "tf-sample-default-network-acl" {
   default_network_acl_id = ""
   id                     = ""
   owner_id               = ""

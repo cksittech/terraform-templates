@@ -1,4 +1,4 @@
-resource "aws_sagemaker_monitoring_schedule" "sample-sagemaker-monitoring-schedule" {
+resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-schedule" {
   id     = ""
   name   = ""
   region = ""

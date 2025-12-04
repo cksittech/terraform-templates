@@ -1,4 +1,4 @@
-resource "aws_s3tables_table_bucket" "sample-s3tables-table-bucket" {
+resource "aws_s3tables_table_bucket" "tf-sample-s3tables-table-bucket" {
   created_at                = ""
   force_destroy             = ""
   name                      = ""

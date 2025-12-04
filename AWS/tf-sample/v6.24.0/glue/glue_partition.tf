@@ -1,4 +1,4 @@
-resource "aws_glue_partition" "sample-glue-partition" {
+resource "aws_glue_partition" "tf-sample-glue-partition" {
   catalog_id         = ""
   creation_time      = ""
   database_name      = ""

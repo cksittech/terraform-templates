@@ -1,4 +1,4 @@
-resource "aws_gamelift_fleet" "sample-gamelift-fleet" {
+resource "aws_gamelift_fleet" "tf-sample-gamelift-fleet" {
   build_arn                          = ""
   build_id                           = ""
   description                        = ""

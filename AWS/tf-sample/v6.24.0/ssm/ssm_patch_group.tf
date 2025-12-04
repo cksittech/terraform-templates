@@ -1,4 +1,4 @@
-resource "aws_ssm_patch_group" "sample-ssm-patch-group" {
+resource "aws_ssm_patch_group" "tf-sample-ssm-patch-group" {
   baseline_id = ""
   id          = ""
   patch_group = ""

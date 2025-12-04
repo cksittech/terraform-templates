@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_browser" "sample-bedrockagentcore-browser" {
+resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   browser_arn        = ""
   browser_id         = ""
   description        = ""

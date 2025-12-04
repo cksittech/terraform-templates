@@ -1,4 +1,4 @@
-resource "aws_appsync_api" "sample-appsync-api" {
+resource "aws_appsync_api" "tf-sample-appsync-api" {
   api_arn         = ""
   api_id          = ""
   dns             = {}

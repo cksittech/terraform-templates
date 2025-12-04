@@ -1,4 +1,4 @@
-resource "aws_autoscaling_attachment" "sample-autoscaling-attachment" {
+resource "aws_autoscaling_attachment" "tf-sample-autoscaling-attachment" {
   autoscaling_group_name = ""
   elb                    = ""
   id                     = ""

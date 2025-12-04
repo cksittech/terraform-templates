@@ -1,4 +1,4 @@
-resource "aws_iam_service_specific_credential" "sample-iam-service-specific-credential" {
+resource "aws_iam_service_specific_credential" "tf-sample-iam-service-specific-credential" {
   create_date                    = ""
   credential_age_days            = ""
   expiration_date                = ""

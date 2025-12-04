@@ -1,4 +1,4 @@
-resource "aws_networkmanager_device" "sample-networkmanager-device" {
+resource "aws_networkmanager_device" "tf-sample-networkmanager-device" {
   description       = ""
   global_network_id = ""
   id                = ""

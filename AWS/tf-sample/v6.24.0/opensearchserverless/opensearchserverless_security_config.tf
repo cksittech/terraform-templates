@@ -1,4 +1,4 @@
-resource "aws_opensearchserverless_security_config" "sample-opensearchserverless-security-config" {
+resource "aws_opensearchserverless_security_config" "tf-sample-opensearchserverless-security-config" {
   config_version = ""
   description    = ""
   id             = ""

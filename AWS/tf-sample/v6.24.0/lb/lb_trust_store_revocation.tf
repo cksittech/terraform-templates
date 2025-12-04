@@ -1,4 +1,4 @@
-resource "aws_lb_trust_store_revocation" "sample-lb-trust-store-revocation" {
+resource "aws_lb_trust_store_revocation" "tf-sample-lb-trust-store-revocation" {
   id                            = ""
   region                        = ""
   revocation_id                 = ""

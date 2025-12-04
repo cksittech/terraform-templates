@@ -1,4 +1,4 @@
-resource "aws_route53domains_registered_domain" "sample-route53domains-registered-domain" {
+resource "aws_route53domains_registered_domain" "tf-sample-route53domains-registered-domain" {
   abuse_contact_email = ""
   abuse_contact_phone = ""
   admin_privacy       = ""

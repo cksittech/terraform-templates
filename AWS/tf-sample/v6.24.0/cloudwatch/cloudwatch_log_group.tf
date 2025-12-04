@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_group" "sample-cloudwatch-log-group" {
+resource "aws_cloudwatch_log_group" "tf-sample-cloudwatch-log-group" {
   id                = ""
   kms_key_id        = ""
   log_group_class   = ""

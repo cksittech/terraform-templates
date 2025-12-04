@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_container_recipe" "sample-imagebuilder-container-recipe" {
+resource "aws_imagebuilder_container_recipe" "tf-sample-imagebuilder-container-recipe" {
   container_type           = ""
   date_created             = ""
   description              = ""

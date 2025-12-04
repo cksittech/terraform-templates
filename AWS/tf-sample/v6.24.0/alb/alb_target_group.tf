@@ -1,4 +1,4 @@
-resource "aws_alb_target_group" "sample-alb-target-group" {
+resource "aws_alb_target_group" "tf-sample-alb-target-group" {
   arn_suffix                         = ""
   connection_termination             = ""
   deregistration_delay               = ""

@@ -1,4 +1,4 @@
-resource "aws_athena_data_catalog" "sample-athena-data-catalog" {
+resource "aws_athena_data_catalog" "tf-sample-athena-data-catalog" {
   description = ""
   id          = ""
   name        = ""

@@ -1,4 +1,4 @@
-resource "aws_kms_grant" "sample-kms-grant" {
+resource "aws_kms_grant" "tf-sample-kms-grant" {
   grant_creation_tokens = []
   grant_id              = ""
   grant_token           = ""

@@ -1,4 +1,4 @@
-resource "aws_amplify_branch" "sample-amplify-branch" {
+resource "aws_amplify_branch" "tf-sample-amplify-branch" {
   app_id                        = ""
   associated_resources          = []
   backend_environment_arn       = ""

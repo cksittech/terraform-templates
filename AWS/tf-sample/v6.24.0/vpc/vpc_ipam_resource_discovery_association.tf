@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_resource_discovery_association" "sample-vpc-ipam-resource-discovery-association" {
+resource "aws_vpc_ipam_resource_discovery_association" "tf-sample-vpc-ipam-resource-discovery-association" {
   id                         = ""
   ipam_arn                   = ""
   ipam_id                    = ""

@@ -1,4 +1,4 @@
-resource "aws_verifiedpermissions_schema" "sample-verifiedpermissions-schema" {
+resource "aws_verifiedpermissions_schema" "tf-sample-verifiedpermissions-schema" {
   id              = ""
   namespaces      = []
   policy_store_id = ""

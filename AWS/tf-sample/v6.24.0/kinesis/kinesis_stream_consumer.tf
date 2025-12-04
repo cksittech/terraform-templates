@@ -1,4 +1,4 @@
-resource "aws_kinesis_stream_consumer" "sample-kinesis-stream-consumer" {
+resource "aws_kinesis_stream_consumer" "tf-sample-kinesis-stream-consumer" {
   creation_timestamp = ""
   id                 = ""
   name               = ""

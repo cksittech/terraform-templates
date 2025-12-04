@@ -1,4 +1,4 @@
-resource "aws_rds_cluster_instance" "sample-rds-cluster-instance" {
+resource "aws_rds_cluster_instance" "tf-sample-rds-cluster-instance" {
   apply_immediately                     = ""
   auto_minor_version_upgrade            = ""
   availability_zone                     = ""

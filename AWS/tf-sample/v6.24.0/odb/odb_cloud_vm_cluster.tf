@@ -1,4 +1,4 @@
-resource "aws_odb_cloud_vm_cluster" "sample-odb-cloud-vm-cluster" {
+resource "aws_odb_cloud_vm_cluster" "tf-sample-odb-cloud-vm-cluster" {
   cloud_exadata_infrastructure_arn = ""
   cloud_exadata_infrastructure_id  = ""
   cluster_name                     = ""

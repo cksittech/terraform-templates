@@ -1,4 +1,4 @@
-resource "aws_grafana_workspace_saml_configuration" "sample-grafana-workspace-saml-configuration" {
+resource "aws_grafana_workspace_saml_configuration" "tf-sample-grafana-workspace-saml-configuration" {
   admin_role_values       = []
   allowed_organizations   = []
   editor_role_values      = []

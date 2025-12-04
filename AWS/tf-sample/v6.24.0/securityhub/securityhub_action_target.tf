@@ -1,4 +1,4 @@
-resource "aws_securityhub_action_target" "sample-securityhub-action-target" {
+resource "aws_securityhub_action_target" "tf-sample-securityhub-action-target" {
   description = ""
   id          = ""
   identifier  = ""

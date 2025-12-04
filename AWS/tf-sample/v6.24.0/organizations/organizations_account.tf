@@ -1,4 +1,4 @@
-resource "aws_organizations_account" "sample-organizations-account" {
+resource "aws_organizations_account" "tf-sample-organizations-account" {
   close_on_deletion          = ""
   create_govcloud            = ""
   email                      = ""

@@ -1,4 +1,4 @@
-resource "aws_elasticache_user" "sample-elasticache-user" {
+resource "aws_elasticache_user" "tf-sample-elasticache-user" {
   access_string        = ""
   engine               = ""
   id                   = ""

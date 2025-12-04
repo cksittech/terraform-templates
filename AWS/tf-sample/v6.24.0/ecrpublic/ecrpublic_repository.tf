@@ -1,4 +1,4 @@
-resource "aws_ecrpublic_repository" "sample-ecrpublic-repository" {
+resource "aws_ecrpublic_repository" "tf-sample-ecrpublic-repository" {
   force_destroy   = ""
   id              = ""
   region          = ""

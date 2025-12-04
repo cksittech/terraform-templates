@@ -1,4 +1,4 @@
-resource "aws_wafregional_rate_based_rule" "sample-wafregional-rate-based-rule" {
+resource "aws_wafregional_rate_based_rule" "tf-sample-wafregional-rate-based-rule" {
   id          = ""
   metric_name = ""
   name        = ""

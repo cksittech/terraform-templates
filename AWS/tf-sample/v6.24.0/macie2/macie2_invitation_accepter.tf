@@ -1,4 +1,4 @@
-resource "aws_macie2_invitation_accepter" "sample-macie2-invitation-accepter" {
+resource "aws_macie2_invitation_accepter" "tf-sample-macie2-invitation-accepter" {
   administrator_account_id = ""
   id                       = ""
   invitation_id            = ""

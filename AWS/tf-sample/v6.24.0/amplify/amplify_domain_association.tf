@@ -1,4 +1,4 @@
-resource "aws_amplify_domain_association" "sample-amplify-domain-association" {
+resource "aws_amplify_domain_association" "tf-sample-amplify-domain-association" {
   app_id                              = ""
   certificate_verification_dns_record = ""
   domain_name                         = ""

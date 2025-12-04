@@ -1,4 +1,4 @@
-resource "aws_datasync_location_fsx_windows_file_system" "sample-datasync-location-fsx-windows-file-system" {
+resource "aws_datasync_location_fsx_windows_file_system" "tf-sample-datasync-location-fsx-windows-file-system" {
   creation_time       = ""
   domain              = ""
   fsx_filesystem_arn  = ""

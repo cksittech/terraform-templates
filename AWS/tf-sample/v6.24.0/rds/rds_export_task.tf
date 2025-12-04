@@ -1,4 +1,4 @@
-resource "aws_rds_export_task" "sample-rds-export-task" {
+resource "aws_rds_export_task" "tf-sample-rds-export-task" {
   export_only            = []
   export_task_identifier = ""
   failure_cause          = ""

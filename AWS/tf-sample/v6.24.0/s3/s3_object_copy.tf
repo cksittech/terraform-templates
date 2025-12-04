@@ -1,4 +1,4 @@
-resource "aws_s3_object_copy" "sample-s3-object-copy" {
+resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   acl                           = ""
   bucket                        = ""
   bucket_key_enabled            = ""

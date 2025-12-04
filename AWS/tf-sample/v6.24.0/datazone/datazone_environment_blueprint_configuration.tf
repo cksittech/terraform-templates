@@ -1,4 +1,4 @@
-resource "aws_datazone_environment_blueprint_configuration" "sample-datazone-environment-blueprint-configuration" {
+resource "aws_datazone_environment_blueprint_configuration" "tf-sample-datazone-environment-blueprint-configuration" {
   domain_id                = ""
   enabled_regions          = []
   environment_blueprint_id = ""

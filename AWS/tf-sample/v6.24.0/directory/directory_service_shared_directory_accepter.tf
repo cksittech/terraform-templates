@@ -1,4 +1,4 @@
-resource "aws_directory_service_shared_directory_accepter" "sample-directory-service-shared-directory-accepter" {
+resource "aws_directory_service_shared_directory_accepter" "tf-sample-directory-service-shared-directory-accepter" {
   id                  = ""
   method              = ""
   notes               = ""

@@ -1,4 +1,4 @@
-resource "aws_pinpoint_apns_voip_channel" "sample-pinpoint-apns-voip-channel" {
+resource "aws_pinpoint_apns_voip_channel" "tf-sample-pinpoint-apns-voip-channel" {
   application_id                = ""
   bundle_id                     = ""
   certificate                   = ""

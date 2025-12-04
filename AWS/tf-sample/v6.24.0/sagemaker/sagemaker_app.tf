@@ -1,4 +1,4 @@
-resource "aws_sagemaker_app" "sample-sagemaker-app" {
+resource "aws_sagemaker_app" "tf-sample-sagemaker-app" {
   app_name          = ""
   app_type          = ""
   domain_id         = ""

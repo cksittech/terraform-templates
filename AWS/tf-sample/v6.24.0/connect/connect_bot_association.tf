@@ -1,4 +1,4 @@
-resource "aws_connect_bot_association" "sample-connect-bot-association" {
+resource "aws_connect_bot_association" "tf-sample-connect-bot-association" {
   id          = ""
   instance_id = ""
   region      = ""

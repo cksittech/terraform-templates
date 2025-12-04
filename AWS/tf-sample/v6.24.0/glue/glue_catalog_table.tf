@@ -1,4 +1,4 @@
-resource "aws_glue_catalog_table" "sample-glue-catalog-table" {
+resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
   catalog_id         = ""
   database_name      = ""
   description        = ""

@@ -1,4 +1,4 @@
-resource "aws_schemas_schema" "sample-schemas-schema" {
+resource "aws_schemas_schema" "tf-sample-schemas-schema" {
   content              = ""
   description          = ""
   id                   = ""

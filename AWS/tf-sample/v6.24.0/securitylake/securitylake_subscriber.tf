@@ -1,4 +1,4 @@
-resource "aws_securitylake_subscriber" "sample-securitylake-subscriber" {
+resource "aws_securitylake_subscriber" "tf-sample-securitylake-subscriber" {
   access_type            = ""
   id                     = ""
   region                 = ""

@@ -1,4 +1,4 @@
-resource "aws_detective_member" "sample-detective-member" {
+resource "aws_detective_member" "tf-sample-detective-member" {
   account_id                 = ""
   administrator_id           = ""
   disable_email_notification = ""

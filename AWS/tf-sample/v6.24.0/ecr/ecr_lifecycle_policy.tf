@@ -1,4 +1,4 @@
-resource "aws_ecr_lifecycle_policy" "sample-ecr-lifecycle-policy" {
+resource "aws_ecr_lifecycle_policy" "tf-sample-ecr-lifecycle-policy" {
   id          = ""
   policy      = ""
   region      = ""

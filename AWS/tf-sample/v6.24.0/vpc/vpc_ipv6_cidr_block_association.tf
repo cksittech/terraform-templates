@@ -1,4 +1,4 @@
-resource "aws_vpc_ipv6_cidr_block_association" "sample-vpc-ipv6-cidr-block-association" {
+resource "aws_vpc_ipv6_cidr_block_association" "tf-sample-vpc-ipv6-cidr-block-association" {
   assign_generated_ipv6_cidr_block = ""
   id                               = ""
   ip_source                        = ""

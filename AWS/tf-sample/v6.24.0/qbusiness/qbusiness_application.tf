@@ -1,4 +1,4 @@
-resource "aws_qbusiness_application" "sample-qbusiness-application" {
+resource "aws_qbusiness_application" "tf-sample-qbusiness-application" {
   description                     = ""
   display_name                    = ""
   iam_service_role_arn            = ""

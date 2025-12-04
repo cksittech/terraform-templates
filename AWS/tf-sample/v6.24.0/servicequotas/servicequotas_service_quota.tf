@@ -1,4 +1,4 @@
-resource "aws_servicequotas_service_quota" "sample-servicequotas-service-quota" {
+resource "aws_servicequotas_service_quota" "tf-sample-servicequotas-service-quota" {
   adjustable     = ""
   default_value  = ""
   id             = ""

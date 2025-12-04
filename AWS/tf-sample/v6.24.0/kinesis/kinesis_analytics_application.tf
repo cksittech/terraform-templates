@@ -1,4 +1,4 @@
-resource "aws_kinesis_analytics_application" "sample-kinesis-analytics-application" {
+resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-application" {
   code                  = ""
   create_timestamp      = ""
   description           = ""

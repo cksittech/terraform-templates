@@ -1,4 +1,4 @@
-resource "aws_quicksight_data_source" "sample-quicksight-data-source" {
+resource "aws_quicksight_data_source" "tf-sample-quicksight-data-source" {
   aws_account_id = ""
   data_source_id = ""
   id             = ""

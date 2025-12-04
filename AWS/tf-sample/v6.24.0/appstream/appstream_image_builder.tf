@@ -1,4 +1,4 @@
-resource "aws_appstream_image_builder" "sample-appstream-image-builder" {
+resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
   appstream_agent_version        = ""
   created_time                   = ""
   description                    = ""

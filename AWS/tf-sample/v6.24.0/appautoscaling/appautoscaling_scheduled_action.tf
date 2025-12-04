@@ -1,4 +1,4 @@
-resource "aws_appautoscaling_scheduled_action" "sample-appautoscaling-scheduled-action" {
+resource "aws_appautoscaling_scheduled_action" "tf-sample-appautoscaling-scheduled-action" {
   end_time           = ""
   id                 = ""
   name               = ""

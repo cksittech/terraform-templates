@@ -1,4 +1,4 @@
-resource "aws_alb_listener_rule" "sample-alb-listener-rule" {
+resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
   id           = ""
   listener_arn = ""
   priority     = ""

@@ -1,4 +1,4 @@
-resource "aws_networkmanager_connect_peer" "sample-networkmanager-connect-peer" {
+resource "aws_networkmanager_connect_peer" "tf-sample-networkmanager-connect-peer" {
   configuration         = []
   connect_attachment_id = ""
   connect_peer_id       = ""

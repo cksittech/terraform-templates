@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_prefix_list_reference" "sample-ec2-transit-gateway-prefix-list-reference" {
+resource "aws_ec2_transit_gateway_prefix_list_reference" "tf-sample-ec2-transit-gateway-prefix-list-reference" {
   blackhole                      = ""
   id                             = ""
   prefix_list_id                 = ""

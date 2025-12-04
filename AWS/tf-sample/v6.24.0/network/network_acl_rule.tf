@@ -1,4 +1,4 @@
-resource "aws_network_acl_rule" "sample-network-acl-rule" {
+resource "aws_network_acl_rule" "tf-sample-network-acl-rule" {
   cidr_block      = ""
   egress          = ""
   from_port       = ""

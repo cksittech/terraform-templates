@@ -1,4 +1,4 @@
-resource "aws_lambda_permission" "sample-lambda-permission" {
+resource "aws_lambda_permission" "tf-sample-lambda-permission" {
   action                 = ""
   event_source_token     = ""
   function_name          = ""

@@ -1,4 +1,4 @@
-resource "aws_memorydb_snapshot" "sample-memorydb-snapshot" {
+resource "aws_memorydb_snapshot" "tf-sample-memorydb-snapshot" {
   cluster_configuration = []
   cluster_name          = ""
   id                    = ""

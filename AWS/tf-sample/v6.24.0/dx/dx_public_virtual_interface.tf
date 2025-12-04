@@ -1,4 +1,4 @@
-resource "aws_dx_public_virtual_interface" "sample-dx-public-virtual-interface" {
+resource "aws_dx_public_virtual_interface" "tf-sample-dx-public-virtual-interface" {
   address_family        = ""
   amazon_address        = ""
   amazon_side_asn       = ""

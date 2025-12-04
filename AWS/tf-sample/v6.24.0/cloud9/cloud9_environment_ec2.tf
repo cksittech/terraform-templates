@@ -1,4 +1,4 @@
-resource "aws_cloud9_environment_ec2" "sample-cloud9-environment-ec2" {
+resource "aws_cloud9_environment_ec2" "tf-sample-cloud9-environment-ec2" {
   automatic_stop_time_minutes = ""
   connection_type             = ""
   description                 = ""

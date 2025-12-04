@@ -1,4 +1,4 @@
-resource "aws_prometheus_scraper" "sample-prometheus-scraper" {
+resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
   alias                = ""
   id                   = ""
   region               = ""

@@ -1,4 +1,4 @@
-resource "aws_dx_transit_virtual_interface" "sample-dx-transit-virtual-interface" {
+resource "aws_dx_transit_virtual_interface" "tf-sample-dx-transit-virtual-interface" {
   address_family      = ""
   amazon_address      = ""
   amazon_side_asn     = ""

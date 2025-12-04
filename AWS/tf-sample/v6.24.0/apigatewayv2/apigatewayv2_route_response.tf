@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_route_response" "sample-apigatewayv2-route-response" {
+resource "aws_apigatewayv2_route_response" "tf-sample-apigatewayv2-route-response" {
   api_id                     = ""
   id                         = ""
   model_selection_expression = ""

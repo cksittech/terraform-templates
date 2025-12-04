@@ -1,4 +1,4 @@
-resource "aws_dsql_cluster" "sample-dsql-cluster" {
+resource "aws_dsql_cluster" "tf-sample-dsql-cluster" {
   deletion_protection_enabled = ""
   encryption_details          = []
   force_destroy               = ""

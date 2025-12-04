@@ -1,4 +1,4 @@
-resource "aws_cognito_user_group" "sample-cognito-user-group" {
+resource "aws_cognito_user_group" "tf-sample-cognito-user-group" {
   description  = ""
   id           = ""
   name         = ""

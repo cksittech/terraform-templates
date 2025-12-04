@@ -1,4 +1,4 @@
-resource "aws_vpc_route_server_endpoint" "sample-vpc-route-server-endpoint" {
+resource "aws_vpc_route_server_endpoint" "tf-sample-vpc-route-server-endpoint" {
   eni_address              = ""
   eni_id                   = ""
   region                   = ""

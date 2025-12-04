@@ -1,4 +1,4 @@
-resource "aws_sagemaker_app_image_config" "sample-sagemaker-app-image-config" {
+resource "aws_sagemaker_app_image_config" "tf-sample-sagemaker-app-image-config" {
   app_image_config_name = ""
   id                    = ""
   region                = ""

@@ -1,4 +1,4 @@
-resource "aws_redshiftdata_statement" "sample-redshiftdata-statement" {
+resource "aws_redshiftdata_statement" "tf-sample-redshiftdata-statement" {
   cluster_identifier = ""
   database           = ""
   db_user            = ""

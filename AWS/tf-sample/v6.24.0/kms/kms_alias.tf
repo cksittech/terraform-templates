@@ -1,4 +1,4 @@
-resource "aws_kms_alias" "sample-kms-alias" {
+resource "aws_kms_alias" "tf-sample-kms-alias" {
   id             = ""
   name           = ""
   name_prefix    = ""

@@ -1,4 +1,4 @@
-resource "aws_signer_signing_job" "sample-signer-signing-job" {
+resource "aws_signer_signing_job" "tf-sample-signer-signing-job" {
   completed_at               = ""
   created_at                 = ""
   id                         = ""

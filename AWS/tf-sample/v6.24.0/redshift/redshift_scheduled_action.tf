@@ -1,4 +1,4 @@
-resource "aws_redshift_scheduled_action" "sample-redshift-scheduled-action" {
+resource "aws_redshift_scheduled_action" "tf-sample-redshift-scheduled-action" {
   description = ""
   enable      = ""
   end_time    = ""

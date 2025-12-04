@@ -1,4 +1,4 @@
-resource "aws_volume_attachment" "sample-volume-attachment" {
+resource "aws_volume_attachment" "tf-sample-volume-attachment" {
   device_name                    = ""
   force_detach                   = ""
   id                             = ""

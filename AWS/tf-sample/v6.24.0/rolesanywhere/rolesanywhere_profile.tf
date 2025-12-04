@@ -1,4 +1,4 @@
-resource "aws_rolesanywhere_profile" "sample-rolesanywhere-profile" {
+resource "aws_rolesanywhere_profile" "tf-sample-rolesanywhere-profile" {
   duration_seconds            = ""
   enabled                     = ""
   id                          = ""

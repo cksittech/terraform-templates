@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_public_access_block" "sample-s3-bucket-public-access-block" {
+resource "aws_s3_bucket_public_access_block" "tf-sample-s3-bucket-public-access-block" {
   block_public_acls       = ""
   block_public_policy     = ""
   bucket                  = ""

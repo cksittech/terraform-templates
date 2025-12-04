@@ -1,4 +1,4 @@
-resource "aws_redshift_hsm_configuration" "sample-redshift-hsm-configuration" {
+resource "aws_redshift_hsm_configuration" "tf-sample-redshift-hsm-configuration" {
   description                   = ""
   hsm_configuration_identifier  = ""
   hsm_ip_address                = ""

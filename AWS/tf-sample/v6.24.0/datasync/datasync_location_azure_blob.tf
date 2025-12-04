@@ -1,4 +1,4 @@
-resource "aws_datasync_location_azure_blob" "sample-datasync-location-azure-blob" {
+resource "aws_datasync_location_azure_blob" "tf-sample-datasync-location-azure-blob" {
   access_tier         = ""
   agent_arns          = []
   authentication_type = ""

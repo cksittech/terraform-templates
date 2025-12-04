@@ -1,4 +1,4 @@
-resource "aws_api_gateway_base_path_mapping" "sample-api-gateway-base-path-mapping" {
+resource "aws_api_gateway_base_path_mapping" "tf-sample-api-gateway-base-path-mapping" {
   api_id         = ""
   base_path      = ""
   domain_name    = ""

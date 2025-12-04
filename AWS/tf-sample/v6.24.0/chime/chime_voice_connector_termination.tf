@@ -1,4 +1,4 @@
-resource "aws_chime_voice_connector_termination" "sample-chime-voice-connector-termination" {
+resource "aws_chime_voice_connector_termination" "tf-sample-chime-voice-connector-termination" {
   calling_regions      = []
   cidr_allow_list      = []
   cps_limit            = ""

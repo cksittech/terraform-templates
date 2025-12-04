@@ -1,4 +1,4 @@
-resource "aws_autoscaling_group" "sample-autoscaling-group" {
+resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   availability_zones               = []
   capacity_rebalance               = ""
   context                          = ""

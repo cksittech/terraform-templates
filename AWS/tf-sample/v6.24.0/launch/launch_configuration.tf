@@ -1,4 +1,4 @@
-resource "aws_launch_configuration" "sample-launch-configuration" {
+resource "aws_launch_configuration" "tf-sample-launch-configuration" {
   associate_public_ip_address = ""
   ebs_optimized               = ""
   enable_monitoring           = ""

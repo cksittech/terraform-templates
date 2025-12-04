@@ -1,4 +1,4 @@
-resource "aws_sns_topic_subscription" "sample-sns-topic-subscription" {
+resource "aws_sns_topic_subscription" "tf-sample-sns-topic-subscription" {
   confirmation_timeout_in_minutes = ""
   confirmation_was_authenticated  = ""
   delivery_policy                 = ""

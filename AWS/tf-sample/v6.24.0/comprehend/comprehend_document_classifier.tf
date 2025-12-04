@@ -1,4 +1,4 @@
-resource "aws_comprehend_document_classifier" "sample-comprehend-document-classifier" {
+resource "aws_comprehend_document_classifier" "tf-sample-comprehend-document-classifier" {
   data_access_role_arn = ""
   id                   = ""
   language_code        = ""

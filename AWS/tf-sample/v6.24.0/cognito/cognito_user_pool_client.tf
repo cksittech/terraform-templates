@@ -1,4 +1,4 @@
-resource "aws_cognito_user_pool_client" "sample-cognito-user-pool-client" {
+resource "aws_cognito_user_pool_client" "tf-sample-cognito-user-pool-client" {
   access_token_validity                         = ""
   allowed_oauth_flows                           = []
   allowed_oauth_flows_user_pool_client          = ""

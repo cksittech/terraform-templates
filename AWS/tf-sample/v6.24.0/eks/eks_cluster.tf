@@ -1,4 +1,4 @@
-resource "aws_eks_cluster" "sample-eks-cluster" {
+resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   bootstrap_self_managed_addons = ""
   certificate_authority         = []
   cluster_id                    = ""

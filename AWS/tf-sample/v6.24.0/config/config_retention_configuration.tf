@@ -1,4 +1,4 @@
-resource "aws_config_retention_configuration" "sample-config-retention-configuration" {
+resource "aws_config_retention_configuration" "tf-sample-config-retention-configuration" {
   id                       = ""
   name                     = ""
   region                   = ""

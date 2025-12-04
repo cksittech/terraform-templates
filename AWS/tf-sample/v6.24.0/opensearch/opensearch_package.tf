@@ -1,4 +1,4 @@
-resource "aws_opensearch_package" "sample-opensearch-package" {
+resource "aws_opensearch_package" "tf-sample-opensearch-package" {
   available_package_version = ""
   engine_version            = ""
   id                        = ""

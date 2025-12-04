@@ -1,4 +1,4 @@
-resource "aws_transcribe_medical_vocabulary" "sample-transcribe-medical-vocabulary" {
+resource "aws_transcribe_medical_vocabulary" "tf-sample-transcribe-medical-vocabulary" {
   download_uri        = ""
   id                  = ""
   language_code       = ""

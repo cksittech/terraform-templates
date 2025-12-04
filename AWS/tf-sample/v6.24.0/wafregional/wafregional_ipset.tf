@@ -1,4 +1,4 @@
-resource "aws_wafregional_ipset" "sample-wafregional-ipset" {
+resource "aws_wafregional_ipset" "tf-sample-wafregional-ipset" {
   id     = ""
   name   = ""
   region = ""

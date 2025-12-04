@@ -1,4 +1,4 @@
-resource "aws_appmesh_virtual_gateway" "sample-appmesh-virtual-gateway" {
+resource "aws_appmesh_virtual_gateway" "tf-sample-appmesh-virtual-gateway" {
   created_date      = ""
   id                = ""
   last_updated_date = ""

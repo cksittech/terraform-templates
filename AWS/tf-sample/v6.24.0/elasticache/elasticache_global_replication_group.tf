@@ -1,4 +1,4 @@
-resource "aws_elasticache_global_replication_group" "sample-elasticache-global-replication-group" {
+resource "aws_elasticache_global_replication_group" "tf-sample-elasticache-global-replication-group" {
   at_rest_encryption_enabled           = ""
   auth_token_enabled                   = ""
   automatic_failover_enabled           = ""

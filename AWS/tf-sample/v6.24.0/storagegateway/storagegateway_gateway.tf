@@ -1,4 +1,4 @@
-resource "aws_storagegateway_gateway" "sample-storagegateway-gateway" {
+resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
   activation_key                              = ""
   average_download_rate_limit_in_bits_per_sec = ""
   average_upload_rate_limit_in_bits_per_sec   = ""

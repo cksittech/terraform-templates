@@ -1,4 +1,4 @@
-resource "aws_glue_ml_transform" "sample-glue-ml-transform" {
+resource "aws_glue_ml_transform" "tf-sample-glue-ml-transform" {
   description       = ""
   glue_version      = ""
   id                = ""

@@ -1,4 +1,4 @@
-resource "aws_xray_group" "sample-xray-group" {
+resource "aws_xray_group" "tf-sample-xray-group" {
   filter_expression = ""
   group_name        = ""
   id                = ""

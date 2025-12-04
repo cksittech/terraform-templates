@@ -1,4 +1,4 @@
-resource "aws_glue_resource_policy" "sample-glue-resource-policy" {
+resource "aws_glue_resource_policy" "tf-sample-glue-resource-policy" {
   enable_hybrid = ""
   id            = ""
   policy        = ""

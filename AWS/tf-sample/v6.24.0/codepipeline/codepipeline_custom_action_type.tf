@@ -1,4 +1,4 @@
-resource "aws_codepipeline_custom_action_type" "sample-codepipeline-custom-action-type" {
+resource "aws_codepipeline_custom_action_type" "tf-sample-codepipeline-custom-action-type" {
   category      = ""
   id            = ""
   owner         = ""

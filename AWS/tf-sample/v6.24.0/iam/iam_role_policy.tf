@@ -1,4 +1,4 @@
-resource "aws_iam_role_policy" "sample-iam-role-policy" {
+resource "aws_iam_role_policy" "tf-sample-iam-role-policy" {
   id          = ""
   name        = ""
   name_prefix = ""

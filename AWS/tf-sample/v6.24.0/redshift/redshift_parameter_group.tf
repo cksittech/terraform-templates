@@ -1,4 +1,4 @@
-resource "aws_redshift_parameter_group" "sample-redshift-parameter-group" {
+resource "aws_redshift_parameter_group" "tf-sample-redshift-parameter-group" {
   description = ""
   family      = ""
   id          = ""

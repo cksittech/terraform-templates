@@ -1,4 +1,4 @@
-resource "aws_backup_vault" "sample-backup-vault" {
+resource "aws_backup_vault" "tf-sample-backup-vault" {
   force_destroy   = ""
   id              = ""
   kms_key_arn     = ""

@@ -1,4 +1,4 @@
-resource "aws_iam_user_ssh_key" "sample-iam-user-ssh-key" {
+resource "aws_iam_user_ssh_key" "tf-sample-iam-user-ssh-key" {
   encoding          = ""
   fingerprint       = ""
   id                = ""

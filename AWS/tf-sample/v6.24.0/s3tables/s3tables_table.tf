@@ -1,4 +1,4 @@
-resource "aws_s3tables_table" "sample-s3tables-table" {
+resource "aws_s3tables_table" "tf-sample-s3tables-table" {
   created_at                = ""
   created_by                = ""
   format                    = ""

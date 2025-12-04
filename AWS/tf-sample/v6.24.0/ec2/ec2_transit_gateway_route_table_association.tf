@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_route_table_association" "sample-ec2-transit-gateway-route-table-association" {
+resource "aws_ec2_transit_gateway_route_table_association" "tf-sample-ec2-transit-gateway-route-table-association" {
   id                             = ""
   region                         = ""
   replace_existing_association   = ""

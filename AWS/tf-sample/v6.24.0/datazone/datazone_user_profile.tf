@@ -1,4 +1,4 @@
-resource "aws_datazone_user_profile" "sample-datazone-user-profile" {
+resource "aws_datazone_user_profile" "tf-sample-datazone-user-profile" {
   details           = []
   domain_identifier = ""
   id                = ""

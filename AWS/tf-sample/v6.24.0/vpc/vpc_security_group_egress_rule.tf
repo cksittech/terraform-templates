@@ -1,4 +1,4 @@
-resource "aws_vpc_security_group_egress_rule" "sample-vpc-security-group-egress-rule" {
+resource "aws_vpc_security_group_egress_rule" "tf-sample-vpc-security-group-egress-rule" {
   cidr_ipv4                    = ""
   cidr_ipv6                    = ""
   description                  = ""

@@ -1,4 +1,4 @@
-resource "aws_bedrockagent_knowledge_base" "sample-bedrockagent-knowledge-base" {
+resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-base" {
   created_at      = ""
   description     = ""
   failure_reasons = []

@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_preview_next_cidr" "sample-vpc-ipam-preview-next-cidr" {
+resource "aws_vpc_ipam_preview_next_cidr" "tf-sample-vpc-ipam-preview-next-cidr" {
   cidr             = ""
   disallowed_cidrs = []
   id               = ""

@@ -1,4 +1,4 @@
-resource "aws_lex_bot" "sample-lex-bot" {
+resource "aws_lex_bot" "tf-sample-lex-bot" {
   checksum                        = ""
   child_directed                  = ""
   create_version                  = ""

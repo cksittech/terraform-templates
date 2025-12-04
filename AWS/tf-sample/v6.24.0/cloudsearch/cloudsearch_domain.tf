@@ -1,4 +1,4 @@
-resource "aws_cloudsearch_domain" "sample-cloudsearch-domain" {
+resource "aws_cloudsearch_domain" "tf-sample-cloudsearch-domain" {
   document_service_endpoint = ""
   domain_id                 = ""
   id                        = ""

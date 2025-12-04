@@ -1,4 +1,4 @@
-resource "aws_api_gateway_stage" "sample-api-gateway-stage" {
+resource "aws_api_gateway_stage" "tf-sample-api-gateway-stage" {
   cache_cluster_enabled = ""
   cache_cluster_size    = ""
   client_certificate_id = ""

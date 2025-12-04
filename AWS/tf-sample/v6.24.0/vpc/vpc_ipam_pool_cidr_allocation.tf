@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_pool_cidr_allocation" "sample-vpc-ipam-pool-cidr-allocation" {
+resource "aws_vpc_ipam_pool_cidr_allocation" "tf-sample-vpc-ipam-pool-cidr-allocation" {
   cidr                    = ""
   description             = ""
   disallowed_cidrs        = []

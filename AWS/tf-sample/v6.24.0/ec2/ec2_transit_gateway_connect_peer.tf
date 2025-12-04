@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_connect_peer" "sample-ec2-transit-gateway-connect-peer" {
+resource "aws_ec2_transit_gateway_connect_peer" "tf-sample-ec2-transit-gateway-connect-peer" {
   bgp_asn                       = ""
   bgp_peer_address              = ""
   bgp_transit_gateway_addresses = []

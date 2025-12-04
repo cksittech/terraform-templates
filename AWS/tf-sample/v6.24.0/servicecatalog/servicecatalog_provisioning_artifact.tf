@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_provisioning_artifact" "sample-servicecatalog-provisioning-artifact" {
+resource "aws_servicecatalog_provisioning_artifact" "tf-sample-servicecatalog-provisioning-artifact" {
   accept_language             = ""
   active                      = ""
   created_time                = ""

@@ -1,4 +1,4 @@
-resource "aws_fms_admin_account" "sample-fms-admin-account" {
+resource "aws_fms_admin_account" "tf-sample-fms-admin-account" {
   account_id = ""
   id         = ""
 }

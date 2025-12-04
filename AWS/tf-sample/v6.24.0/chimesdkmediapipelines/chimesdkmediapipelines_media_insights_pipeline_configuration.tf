@@ -1,4 +1,4 @@
-resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "sample-chimesdkmediapipelines-media-insights-pipeline-configuration" {
+resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "tf-sample-chimesdkmediapipelines-media-insights-pipeline-configuration" {
   id                       = ""
   name                     = ""
   region                   = ""

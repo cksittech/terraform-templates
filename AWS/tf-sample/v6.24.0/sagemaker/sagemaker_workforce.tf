@@ -1,4 +1,4 @@
-resource "aws_sagemaker_workforce" "sample-sagemaker-workforce" {
+resource "aws_sagemaker_workforce" "tf-sample-sagemaker-workforce" {
   id             = ""
   region         = ""
   subdomain      = ""

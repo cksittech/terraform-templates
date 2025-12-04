@@ -1,4 +1,4 @@
-resource "aws_connect_routing_profile" "sample-connect-routing-profile" {
+resource "aws_connect_routing_profile" "tf-sample-connect-routing-profile" {
   default_outbound_queue_id = ""
   description               = ""
   id                        = ""

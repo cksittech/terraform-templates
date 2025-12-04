@@ -1,4 +1,4 @@
-resource "aws_iot_topic_rule_destination" "sample-iot-topic-rule-destination" {
+resource "aws_iot_topic_rule_destination" "tf-sample-iot-topic-rule-destination" {
   enabled = ""
   id      = ""
   region  = ""

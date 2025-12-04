@@ -1,4 +1,4 @@
-resource "aws_sagemaker_flow_definition" "sample-sagemaker-flow-definition" {
+resource "aws_sagemaker_flow_definition" "tf-sample-sagemaker-flow-definition" {
   flow_definition_name = ""
   id                   = ""
   region               = ""

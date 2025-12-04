@@ -1,4 +1,4 @@
-resource "aws_datapipeline_pipeline_definition" "sample-datapipeline-pipeline-definition" {
+resource "aws_datapipeline_pipeline_definition" "tf-sample-datapipeline-pipeline-definition" {
   id          = ""
   pipeline_id = ""
   region      = ""

@@ -1,4 +1,4 @@
-resource "aws_vpc_route_server" "sample-vpc-route-server" {
+resource "aws_vpc_route_server" "tf-sample-vpc-route-server" {
   amazon_side_asn           = ""
   persist_routes            = ""
   persist_routes_duration   = ""

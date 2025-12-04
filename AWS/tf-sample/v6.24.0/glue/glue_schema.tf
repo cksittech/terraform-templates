@@ -1,4 +1,4 @@
-resource "aws_glue_schema" "sample-glue-schema" {
+resource "aws_glue_schema" "tf-sample-glue-schema" {
   compatibility         = ""
   data_format           = ""
   description           = ""

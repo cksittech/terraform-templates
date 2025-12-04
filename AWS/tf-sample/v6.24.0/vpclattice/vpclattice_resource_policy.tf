@@ -1,4 +1,4 @@
-resource "aws_vpclattice_resource_policy" "sample-vpclattice-resource-policy" {
+resource "aws_vpclattice_resource_policy" "tf-sample-vpclattice-resource-policy" {
   id           = ""
   policy       = ""
   region       = ""

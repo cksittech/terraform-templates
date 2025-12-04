@@ -1,4 +1,4 @@
-resource "aws_rds_global_cluster" "sample-rds-global-cluster" {
+resource "aws_rds_global_cluster" "tf-sample-rds-global-cluster" {
   database_name                = ""
   deletion_protection          = ""
   endpoint                     = ""

@@ -1,4 +1,4 @@
-resource "aws_appconfig_configuration_profile" "sample-appconfig-configuration-profile" {
+resource "aws_appconfig_configuration_profile" "tf-sample-appconfig-configuration-profile" {
   application_id           = ""
   configuration_profile_id = ""
   description              = ""

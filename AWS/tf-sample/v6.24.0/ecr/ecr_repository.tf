@@ -1,4 +1,4 @@
-resource "aws_ecr_repository" "sample-ecr-repository" {
+resource "aws_ecr_repository" "tf-sample-ecr-repository" {
   force_delete         = ""
   id                   = ""
   image_tag_mutability = ""

@@ -1,4 +1,4 @@
-resource "aws_docdbelastic_cluster" "sample-docdbelastic-cluster" {
+resource "aws_docdbelastic_cluster" "tf-sample-docdbelastic-cluster" {
   admin_user_name              = ""
   admin_user_password          = ""
   auth_type                    = ""

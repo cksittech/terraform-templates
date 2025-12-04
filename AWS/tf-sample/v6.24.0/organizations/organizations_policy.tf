@@ -1,4 +1,4 @@
-resource "aws_organizations_policy" "sample-organizations-policy" {
+resource "aws_organizations_policy" "tf-sample-organizations-policy" {
   content      = ""
   description  = ""
   id           = ""

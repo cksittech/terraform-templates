@@ -1,4 +1,4 @@
-resource "aws_glacier_vault_lock" "sample-glacier-vault-lock" {
+resource "aws_glacier_vault_lock" "tf-sample-glacier-vault-lock" {
   complete_lock         = ""
   id                    = ""
   ignore_deletion_error = ""

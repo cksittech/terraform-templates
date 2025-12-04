@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_provisioned_product" "sample-servicecatalog-provisioned-product" {
+resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-provisioned-product" {
   accept_language                        = ""
   cloudwatch_dashboard_names             = []
   created_time                           = ""

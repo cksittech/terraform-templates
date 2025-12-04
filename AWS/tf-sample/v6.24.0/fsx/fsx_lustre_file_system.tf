@@ -1,4 +1,4 @@
-resource "aws_fsx_lustre_file_system" "sample-fsx-lustre-file-system" {
+resource "aws_fsx_lustre_file_system" "tf-sample-fsx-lustre-file-system" {
   auto_import_policy                = ""
   automatic_backup_retention_days   = ""
   backup_id                         = ""

@@ -1,4 +1,4 @@
-resource "aws_iam_instance_profile" "sample-iam-instance-profile" {
+resource "aws_iam_instance_profile" "tf-sample-iam-instance-profile" {
   create_date = ""
   id          = ""
   name        = ""

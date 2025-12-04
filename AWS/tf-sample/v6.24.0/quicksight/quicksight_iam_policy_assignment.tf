@@ -1,4 +1,4 @@
-resource "aws_quicksight_iam_policy_assignment" "sample-quicksight-iam-policy-assignment" {
+resource "aws_quicksight_iam_policy_assignment" "tf-sample-quicksight-iam-policy-assignment" {
   assignment_id     = ""
   assignment_name   = ""
   assignment_status = ""

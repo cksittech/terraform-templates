@@ -1,4 +1,4 @@
-resource "aws_rum_metrics_destination" "sample-rum-metrics-destination" {
+resource "aws_rum_metrics_destination" "tf-sample-rum-metrics-destination" {
   app_monitor_name = ""
   destination      = ""
   destination_arn  = ""

@@ -1,4 +1,4 @@
-resource "aws_api_gateway_request_validator" "sample-api-gateway-request-validator" {
+resource "aws_api_gateway_request_validator" "tf-sample-api-gateway-request-validator" {
   id                          = ""
   name                        = ""
   region                      = ""

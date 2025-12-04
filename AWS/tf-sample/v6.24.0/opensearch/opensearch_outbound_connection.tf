@@ -1,4 +1,4 @@
-resource "aws_opensearch_outbound_connection" "sample-opensearch-outbound-connection" {
+resource "aws_opensearch_outbound_connection" "tf-sample-opensearch-outbound-connection" {
   accept_connection = ""
   connection_alias  = ""
   connection_mode   = ""

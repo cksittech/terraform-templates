@@ -1,4 +1,4 @@
-resource "aws_lexv2models_bot" "sample-lexv2models-bot" {
+resource "aws_lexv2models_bot" "tf-sample-lexv2models-bot" {
   description                 = ""
   id                          = ""
   idle_session_ttl_in_seconds = ""

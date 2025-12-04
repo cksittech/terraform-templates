@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_composite_alarm" "sample-cloudwatch-composite-alarm" {
+resource "aws_cloudwatch_composite_alarm" "tf-sample-cloudwatch-composite-alarm" {
   actions_enabled           = ""
   alarm_actions             = []
   alarm_description         = ""

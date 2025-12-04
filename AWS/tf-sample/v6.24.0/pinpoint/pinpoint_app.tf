@@ -1,4 +1,4 @@
-resource "aws_pinpoint_app" "sample-pinpoint-app" {
+resource "aws_pinpoint_app" "tf-sample-pinpoint-app" {
   application_id = ""
   id             = ""
   name           = ""

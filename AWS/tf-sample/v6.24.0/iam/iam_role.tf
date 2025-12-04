@@ -1,4 +1,4 @@
-resource "aws_iam_role" "sample-iam-role" {
+resource "aws_iam_role" "tf-sample-iam-role" {
   assume_role_policy    = ""
   create_date           = ""
   description           = ""

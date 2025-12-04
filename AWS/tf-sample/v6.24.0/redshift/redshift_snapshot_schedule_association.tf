@@ -1,4 +1,4 @@
-resource "aws_redshift_snapshot_schedule_association" "sample-redshift-snapshot-schedule-association" {
+resource "aws_redshift_snapshot_schedule_association" "tf-sample-redshift-snapshot-schedule-association" {
   cluster_identifier  = ""
   id                  = ""
   region              = ""

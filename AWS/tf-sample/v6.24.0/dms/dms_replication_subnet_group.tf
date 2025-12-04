@@ -1,4 +1,4 @@
-resource "aws_dms_replication_subnet_group" "sample-dms-replication-subnet-group" {
+resource "aws_dms_replication_subnet_group" "tf-sample-dms-replication-subnet-group" {
   id                                   = ""
   region                               = ""
   replication_subnet_group_arn         = ""

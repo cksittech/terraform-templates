@@ -1,4 +1,4 @@
-resource "aws_db_proxy" "sample-db-proxy" {
+resource "aws_db_proxy" "tf-sample-db-proxy" {
   debug_logging          = ""
   default_auth_scheme    = ""
   endpoint               = ""

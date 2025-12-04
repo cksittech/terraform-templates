@@ -1,4 +1,4 @@
-resource "aws_transfer_access" "sample-transfer-access" {
+resource "aws_transfer_access" "tf-sample-transfer-access" {
   external_id         = ""
   home_directory      = ""
   home_directory_type = ""

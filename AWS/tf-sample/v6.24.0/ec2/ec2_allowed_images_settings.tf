@@ -1,4 +1,4 @@
-resource "aws_ec2_allowed_images_settings" "sample-ec2-allowed-images-settings" {
+resource "aws_ec2_allowed_images_settings" "tf-sample-ec2-allowed-images-settings" {
   region = ""
   state  = ""
   

@@ -1,4 +1,4 @@
-resource "aws_serverlessapplicationrepository_cloudformation_stack" "sample-serverlessapplicationrepository-cloudformation-stack" {
+resource "aws_serverlessapplicationrepository_cloudformation_stack" "tf-sample-serverlessapplicationrepository-cloudformation-stack" {
   application_id   = ""
   capabilities     = []
   id               = ""

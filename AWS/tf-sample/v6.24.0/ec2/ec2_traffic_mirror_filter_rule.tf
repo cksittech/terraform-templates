@@ -1,4 +1,4 @@
-resource "aws_ec2_traffic_mirror_filter_rule" "sample-ec2-traffic-mirror-filter-rule" {
+resource "aws_ec2_traffic_mirror_filter_rule" "tf-sample-ec2-traffic-mirror-filter-rule" {
   description              = ""
   destination_cidr_block   = ""
   id                       = ""

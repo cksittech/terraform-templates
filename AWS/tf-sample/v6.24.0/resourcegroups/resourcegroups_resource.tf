@@ -1,4 +1,4 @@
-resource "aws_resourcegroups_resource" "sample-resourcegroups-resource" {
+resource "aws_resourcegroups_resource" "tf-sample-resourcegroups-resource" {
   group_arn     = ""
   id            = ""
   region        = ""

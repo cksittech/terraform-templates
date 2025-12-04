@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_connection" "sample-cloudwatch-event-connection" {
+resource "aws_cloudwatch_event_connection" "tf-sample-cloudwatch-event-connection" {
   authorization_type = ""
   description        = ""
   id                 = ""

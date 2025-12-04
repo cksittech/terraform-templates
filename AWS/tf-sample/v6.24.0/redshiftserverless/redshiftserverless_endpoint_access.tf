@@ -1,4 +1,4 @@
-resource "aws_redshiftserverless_endpoint_access" "sample-redshiftserverless-endpoint-access" {
+resource "aws_redshiftserverless_endpoint_access" "tf-sample-redshiftserverless-endpoint-access" {
   address                = ""
   endpoint_name          = ""
   id                     = ""

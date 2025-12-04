@@ -1,4 +1,4 @@
-resource "aws_sagemaker_notebook_instance" "sample-sagemaker-notebook-instance" {
+resource "aws_sagemaker_notebook_instance" "tf-sample-sagemaker-notebook-instance" {
   additional_code_repositories = []
   default_code_repository      = ""
   direct_internet_access       = ""

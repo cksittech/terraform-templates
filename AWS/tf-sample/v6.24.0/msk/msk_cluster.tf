@@ -1,4 +1,4 @@
-resource "aws_msk_cluster" "sample-msk-cluster" {
+resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   bootstrap_brokers                             = ""
   bootstrap_brokers_public_sasl_iam             = ""
   bootstrap_brokers_public_sasl_scram           = ""

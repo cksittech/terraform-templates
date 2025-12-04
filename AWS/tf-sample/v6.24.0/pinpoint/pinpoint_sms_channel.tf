@@ -1,4 +1,4 @@
-resource "aws_pinpoint_sms_channel" "sample-pinpoint-sms-channel" {
+resource "aws_pinpoint_sms_channel" "tf-sample-pinpoint-sms-channel" {
   application_id                    = ""
   enabled                           = ""
   id                                = ""

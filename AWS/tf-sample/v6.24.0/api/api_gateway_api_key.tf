@@ -1,4 +1,4 @@
-resource "aws_api_gateway_api_key" "sample-api-gateway-api-key" {
+resource "aws_api_gateway_api_key" "tf-sample-api-gateway-api-key" {
   created_date      = ""
   customer_id       = ""
   description       = ""

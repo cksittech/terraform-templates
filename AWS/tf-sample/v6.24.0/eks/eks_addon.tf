@@ -1,4 +1,4 @@
-resource "aws_eks_addon" "sample-eks-addon" {
+resource "aws_eks_addon" "tf-sample-eks-addon" {
   addon_name                  = ""
   addon_version               = ""
   cluster_name                = ""

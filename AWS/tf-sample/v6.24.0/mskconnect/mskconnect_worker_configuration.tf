@@ -1,4 +1,4 @@
-resource "aws_mskconnect_worker_configuration" "sample-mskconnect-worker-configuration" {
+resource "aws_mskconnect_worker_configuration" "tf-sample-mskconnect-worker-configuration" {
   description             = ""
   id                      = ""
   latest_revision         = ""

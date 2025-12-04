@@ -1,4 +1,4 @@
-resource "aws_pinpoint_gcm_channel" "sample-pinpoint-gcm-channel" {
+resource "aws_pinpoint_gcm_channel" "tf-sample-pinpoint-gcm-channel" {
   api_key                       = ""
   application_id                = ""
   default_authentication_method = ""

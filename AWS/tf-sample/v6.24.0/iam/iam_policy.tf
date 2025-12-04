@@ -1,4 +1,4 @@
-resource "aws_iam_policy" "sample-iam-policy" {
+resource "aws_iam_policy" "tf-sample-iam-policy" {
   attachment_count = ""
   description      = ""
   id               = ""

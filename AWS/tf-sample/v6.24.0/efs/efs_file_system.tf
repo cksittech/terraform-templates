@@ -1,4 +1,4 @@
-resource "aws_efs_file_system" "sample-efs-file-system" {
+resource "aws_efs_file_system" "tf-sample-efs-file-system" {
   availability_zone_id            = ""
   availability_zone_name          = ""
   creation_token                  = ""

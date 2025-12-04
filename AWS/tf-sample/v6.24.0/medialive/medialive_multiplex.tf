@@ -1,4 +1,4 @@
-resource "aws_medialive_multiplex" "sample-medialive-multiplex" {
+resource "aws_medialive_multiplex" "tf-sample-medialive-multiplex" {
   availability_zones = []
   id                 = ""
   name               = ""

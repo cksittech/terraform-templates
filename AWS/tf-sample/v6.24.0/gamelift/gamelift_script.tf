@@ -1,4 +1,4 @@
-resource "aws_gamelift_script" "sample-gamelift-script" {
+resource "aws_gamelift_script" "tf-sample-gamelift-script" {
   id       = ""
   name     = ""
   region   = ""

@@ -1,4 +1,4 @@
-resource "aws_quicksight_dashboard" "sample-quicksight-dashboard" {
+resource "aws_quicksight_dashboard" "tf-sample-quicksight-dashboard" {
   aws_account_id      = ""
   created_time        = ""
   dashboard_id        = ""

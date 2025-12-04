@@ -1,4 +1,4 @@
-resource "aws_grafana_license_association" "sample-grafana-license-association" {
+resource "aws_grafana_license_association" "tf-sample-grafana-license-association" {
   free_trial_expiration = ""
   grafana_token         = ""
   id                    = ""

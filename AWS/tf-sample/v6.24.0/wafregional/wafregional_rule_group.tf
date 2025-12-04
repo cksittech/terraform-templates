@@ -1,4 +1,4 @@
-resource "aws_wafregional_rule_group" "sample-wafregional-rule-group" {
+resource "aws_wafregional_rule_group" "tf-sample-wafregional-rule-group" {
   id          = ""
   metric_name = ""
   name        = ""

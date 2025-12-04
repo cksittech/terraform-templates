@@ -1,4 +1,4 @@
-resource "aws_iam_user" "sample-iam-user" {
+resource "aws_iam_user" "tf-sample-iam-user" {
   force_destroy        = ""
   id                   = ""
   name                 = ""

@@ -1,4 +1,4 @@
-resource "aws_chimesdkvoice_voice_profile_domain" "sample-chimesdkvoice-voice-profile-domain" {
+resource "aws_chimesdkvoice_voice_profile_domain" "tf-sample-chimesdkvoice-voice-profile-domain" {
   description = ""
   id          = ""
   name        = ""

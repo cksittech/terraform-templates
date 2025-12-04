@@ -1,4 +1,4 @@
-resource "aws_keyspaces_table" "sample-keyspaces-table" {
+resource "aws_keyspaces_table" "tf-sample-keyspaces-table" {
   default_time_to_live = ""
   id                   = ""
   keyspace_name        = ""

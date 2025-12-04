@@ -1,4 +1,4 @@
-resource "aws_emrserverless_application" "sample-emrserverless-application" {
+resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
   architecture  = ""
   id            = ""
   name          = ""

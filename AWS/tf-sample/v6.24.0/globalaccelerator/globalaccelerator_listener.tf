@@ -1,4 +1,4 @@
-resource "aws_globalaccelerator_listener" "sample-globalaccelerator-listener" {
+resource "aws_globalaccelerator_listener" "tf-sample-globalaccelerator-listener" {
   accelerator_arn = ""
   client_affinity = ""
   id              = ""

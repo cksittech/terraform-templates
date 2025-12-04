@@ -1,4 +1,4 @@
-resource "aws_transfer_certificate" "sample-transfer-certificate" {
+resource "aws_transfer_certificate" "tf-sample-transfer-certificate" {
   active_date       = ""
   certificate       = ""
   certificate_chain = ""

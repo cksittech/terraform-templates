@@ -1,4 +1,4 @@
-resource "aws_chatbot_slack_channel_configuration" "sample-chatbot-slack-channel-configuration" {
+resource "aws_chatbot_slack_channel_configuration" "tf-sample-chatbot-slack-channel-configuration" {
   chat_configuration_arn      = ""
   configuration_name          = ""
   guardrail_policy_arns       = []

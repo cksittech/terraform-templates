@@ -1,4 +1,4 @@
-resource "aws_chime_voice_connector" "sample-chime-voice-connector" {
+resource "aws_chime_voice_connector" "tf-sample-chime-voice-connector" {
   aws_region         = ""
   id                 = ""
   name               = ""

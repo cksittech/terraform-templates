@@ -1,4 +1,4 @@
-resource "aws_docdb_cluster_snapshot" "sample-docdb-cluster-snapshot" {
+resource "aws_docdb_cluster_snapshot" "tf-sample-docdb-cluster-snapshot" {
   availability_zones             = []
   db_cluster_identifier          = ""
   db_cluster_snapshot_arn        = ""

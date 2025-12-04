@@ -1,4 +1,4 @@
-resource "aws_grafana_role_association" "sample-grafana-role-association" {
+resource "aws_grafana_role_association" "tf-sample-grafana-role-association" {
   group_ids    = []
   id           = ""
   region       = ""

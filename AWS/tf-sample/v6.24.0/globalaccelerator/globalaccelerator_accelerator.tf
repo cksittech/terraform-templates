@@ -1,4 +1,4 @@
-resource "aws_globalaccelerator_accelerator" "sample-globalaccelerator-accelerator" {
+resource "aws_globalaccelerator_accelerator" "tf-sample-globalaccelerator-accelerator" {
   dns_name            = ""
   dual_stack_dns_name = ""
   enabled             = ""

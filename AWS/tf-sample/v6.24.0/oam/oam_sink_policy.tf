@@ -1,4 +1,4 @@
-resource "aws_oam_sink_policy" "sample-oam-sink-policy" {
+resource "aws_oam_sink_policy" "tf-sample-oam-sink-policy" {
   id              = ""
   policy          = ""
   region          = ""

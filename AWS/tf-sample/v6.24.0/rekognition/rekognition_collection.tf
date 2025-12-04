@@ -1,4 +1,4 @@
-resource "aws_rekognition_collection" "sample-rekognition-collection" {
+resource "aws_rekognition_collection" "tf-sample-rekognition-collection" {
   collection_id      = ""
   face_model_version = ""
   id                 = ""

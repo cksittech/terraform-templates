@@ -1,4 +1,4 @@
-resource "aws_chime_voice_connector_origination" "sample-chime-voice-connector-origination" {
+resource "aws_chime_voice_connector_origination" "tf-sample-chime-voice-connector-origination" {
   disabled           = ""
   id                 = ""
   region             = ""

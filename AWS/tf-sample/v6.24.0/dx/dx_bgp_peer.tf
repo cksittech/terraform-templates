@@ -1,4 +1,4 @@
-resource "aws_dx_bgp_peer" "sample-dx-bgp-peer" {
+resource "aws_dx_bgp_peer" "tf-sample-dx-bgp-peer" {
   address_family       = ""
   amazon_address       = ""
   aws_device           = ""

@@ -1,4 +1,4 @@
-resource "aws_codebuild_project" "sample-codebuild-project" {
+resource "aws_codebuild_project" "tf-sample-codebuild-project" {
   auto_retry_limit       = ""
   badge_enabled          = ""
   badge_url              = ""

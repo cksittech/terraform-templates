@@ -1,4 +1,4 @@
-resource "aws_macie2_findings_filter" "sample-macie2-findings-filter" {
+resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
   action      = ""
   description = ""
   id          = ""

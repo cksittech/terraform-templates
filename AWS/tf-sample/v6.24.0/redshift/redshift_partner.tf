@@ -1,4 +1,4 @@
-resource "aws_redshift_partner" "sample-redshift-partner" {
+resource "aws_redshift_partner" "tf-sample-redshift-partner" {
   account_id         = ""
   cluster_identifier = ""
   database_name      = ""

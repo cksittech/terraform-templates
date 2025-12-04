@@ -1,4 +1,4 @@
-resource "aws_efs_mount_target" "sample-efs-mount-target" {
+resource "aws_efs_mount_target" "tf-sample-efs-mount-target" {
   availability_zone_id   = ""
   availability_zone_name = ""
   dns_name               = ""

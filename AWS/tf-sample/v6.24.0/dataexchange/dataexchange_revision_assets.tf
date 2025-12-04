@@ -1,4 +1,4 @@
-resource "aws_dataexchange_revision_assets" "sample-dataexchange-revision-assets" {
+resource "aws_dataexchange_revision_assets" "tf-sample-dataexchange-revision-assets" {
   comment       = ""
   created_at    = ""
   data_set_id   = ""

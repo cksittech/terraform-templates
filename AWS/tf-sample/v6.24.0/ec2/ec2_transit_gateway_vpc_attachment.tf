@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_vpc_attachment" "sample-ec2-transit-gateway-vpc-attachment" {
+resource "aws_ec2_transit_gateway_vpc_attachment" "tf-sample-ec2-transit-gateway-vpc-attachment" {
   appliance_mode_support                          = ""
   dns_support                                     = ""
   id                                              = ""

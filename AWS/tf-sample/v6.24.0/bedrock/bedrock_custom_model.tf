@@ -1,4 +1,4 @@
-resource "aws_bedrock_custom_model" "sample-bedrock-custom-model" {
+resource "aws_bedrock_custom_model" "tf-sample-bedrock-custom-model" {
   base_model_identifier   = ""
   custom_model_arn        = ""
   custom_model_kms_key_id = ""

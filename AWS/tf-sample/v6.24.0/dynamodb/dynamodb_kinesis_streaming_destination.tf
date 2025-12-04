@@ -1,4 +1,4 @@
-resource "aws_dynamodb_kinesis_streaming_destination" "sample-dynamodb-kinesis-streaming-destination" {
+resource "aws_dynamodb_kinesis_streaming_destination" "tf-sample-dynamodb-kinesis-streaming-destination" {
   approximate_creation_date_time_precision = ""
   id                                       = ""
   region                                   = ""

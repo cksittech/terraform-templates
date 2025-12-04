@@ -1,4 +1,4 @@
-resource "aws_config_configuration_aggregator" "sample-config-configuration-aggregator" {
+resource "aws_config_configuration_aggregator" "tf-sample-config-configuration-aggregator" {
   id     = ""
   name   = ""
   region = ""

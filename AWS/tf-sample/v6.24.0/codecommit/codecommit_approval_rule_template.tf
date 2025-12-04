@@ -1,4 +1,4 @@
-resource "aws_codecommit_approval_rule_template" "sample-codecommit-approval-rule-template" {
+resource "aws_codecommit_approval_rule_template" "tf-sample-codecommit-approval-rule-template" {
   approval_rule_template_id = ""
   content                   = ""
   creation_date             = ""

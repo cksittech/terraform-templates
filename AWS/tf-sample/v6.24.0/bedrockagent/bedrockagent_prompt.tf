@@ -1,4 +1,4 @@
-resource "aws_bedrockagent_prompt" "sample-bedrockagent-prompt" {
+resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
   created_at                  = ""
   customer_encryption_key_arn = ""
   default_variant             = ""

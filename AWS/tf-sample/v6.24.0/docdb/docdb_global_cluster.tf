@@ -1,4 +1,4 @@
-resource "aws_docdb_global_cluster" "sample-docdb-global-cluster" {
+resource "aws_docdb_global_cluster" "tf-sample-docdb-global-cluster" {
   database_name                = ""
   deletion_protection          = ""
   engine                       = ""

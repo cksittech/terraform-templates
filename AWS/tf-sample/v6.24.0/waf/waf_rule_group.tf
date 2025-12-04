@@ -1,4 +1,4 @@
-resource "aws_waf_rule_group" "sample-waf-rule-group" {
+resource "aws_waf_rule_group" "tf-sample-waf-rule-group" {
   id          = ""
   metric_name = ""
   name        = ""

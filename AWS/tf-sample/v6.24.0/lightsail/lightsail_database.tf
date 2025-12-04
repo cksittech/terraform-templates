@@ -1,4 +1,4 @@
-resource "aws_lightsail_database" "sample-lightsail-database" {
+resource "aws_lightsail_database" "tf-sample-lightsail-database" {
   apply_immediately            = ""
   availability_zone            = ""
   backup_retention_enabled     = ""

@@ -1,4 +1,4 @@
-resource "aws_budgets_budget_action" "sample-budgets-budget-action" {
+resource "aws_budgets_budget_action" "tf-sample-budgets-budget-action" {
   account_id         = ""
   action_id          = ""
   action_type        = ""

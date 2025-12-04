@@ -1,4 +1,4 @@
-resource "aws_redshift_logging" "sample-redshift-logging" {
+resource "aws_redshift_logging" "tf-sample-redshift-logging" {
   bucket_name          = ""
   cluster_identifier   = ""
   id                   = ""

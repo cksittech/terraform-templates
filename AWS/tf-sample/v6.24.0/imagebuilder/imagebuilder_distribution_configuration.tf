@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_distribution_configuration" "sample-imagebuilder-distribution-configuration" {
+resource "aws_imagebuilder_distribution_configuration" "tf-sample-imagebuilder-distribution-configuration" {
   date_created = ""
   date_updated = ""
   description  = ""

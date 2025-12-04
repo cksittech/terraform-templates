@@ -1,4 +1,4 @@
-resource "aws_cognito_identity_provider" "sample-cognito-identity-provider" {
+resource "aws_cognito_identity_provider" "tf-sample-cognito-identity-provider" {
   attribute_mapping = {}
   id                = ""
   idp_identifiers   = []

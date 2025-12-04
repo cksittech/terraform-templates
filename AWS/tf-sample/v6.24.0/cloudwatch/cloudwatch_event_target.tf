@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_target" "sample-cloudwatch-event-target" {
+resource "aws_cloudwatch_event_target" "tf-sample-cloudwatch-event-target" {
   event_bus_name = ""
   force_destroy  = ""
   id             = ""

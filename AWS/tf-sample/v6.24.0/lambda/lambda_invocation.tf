@@ -1,4 +1,4 @@
-resource "aws_lambda_invocation" "sample-lambda-invocation" {
+resource "aws_lambda_invocation" "tf-sample-lambda-invocation" {
   function_name   = ""
   id              = ""
   input           = ""

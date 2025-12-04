@@ -1,4 +1,4 @@
-resource "aws_networkmanager_site_to_site_vpn_attachment" "sample-networkmanager-site-to-site-vpn-attachment" {
+resource "aws_networkmanager_site_to_site_vpn_attachment" "tf-sample-networkmanager-site-to-site-vpn-attachment" {
   attachment_policy_rule_number = ""
   attachment_type               = ""
   core_network_arn              = ""

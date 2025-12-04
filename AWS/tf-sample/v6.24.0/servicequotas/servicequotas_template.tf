@@ -1,4 +1,4 @@
-resource "aws_servicequotas_template" "sample-servicequotas-template" {
+resource "aws_servicequotas_template" "tf-sample-servicequotas-template" {
   aws_region   = ""
   global_quota = ""
   id           = ""

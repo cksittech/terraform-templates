@@ -1,4 +1,4 @@
-resource "aws_odb_network" "sample-odb-network" {
+resource "aws_odb_network" "tf-sample-odb-network" {
   availability_zone           = ""
   availability_zone_id        = ""
   backup_subnet_cidr          = ""

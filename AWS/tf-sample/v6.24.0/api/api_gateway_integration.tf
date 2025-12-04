@@ -1,4 +1,4 @@
-resource "aws_api_gateway_integration" "sample-api-gateway-integration" {
+resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   cache_key_parameters    = []
   cache_namespace         = ""
   connection_id           = ""

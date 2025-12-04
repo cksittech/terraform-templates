@@ -1,4 +1,4 @@
-resource "aws_oam_sink" "sample-oam-sink" {
+resource "aws_oam_sink" "tf-sample-oam-sink" {
   id      = ""
   name    = ""
   region  = ""

@@ -1,4 +1,4 @@
-resource "aws_quicksight_template_alias" "sample-quicksight-template-alias" {
+resource "aws_quicksight_template_alias" "tf-sample-quicksight-template-alias" {
   alias_name              = ""
   aws_account_id          = ""
   id                      = ""

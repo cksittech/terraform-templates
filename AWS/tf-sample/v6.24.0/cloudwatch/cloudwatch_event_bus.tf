@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_bus" "sample-cloudwatch-event-bus" {
+resource "aws_cloudwatch_event_bus" "tf-sample-cloudwatch-event-bus" {
   description        = ""
   event_source_name  = ""
   id                 = ""

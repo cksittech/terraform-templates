@@ -1,4 +1,4 @@
-resource "aws_m2_application" "sample-m2-application" {
+resource "aws_m2_application" "tf-sample-m2-application" {
   application_id  = ""
   current_version = ""
   description     = ""

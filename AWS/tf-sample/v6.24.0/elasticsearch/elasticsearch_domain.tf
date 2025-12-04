@@ -1,4 +1,4 @@
-resource "aws_elasticsearch_domain" "sample-elasticsearch-domain" {
+resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
   access_policies       = ""
   advanced_options      = {}
   domain_id             = ""

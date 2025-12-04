@@ -1,4 +1,4 @@
-resource "aws_quicksight_theme" "sample-quicksight-theme" {
+resource "aws_quicksight_theme" "tf-sample-quicksight-theme" {
   aws_account_id      = ""
   base_theme_id       = ""
   created_time        = ""

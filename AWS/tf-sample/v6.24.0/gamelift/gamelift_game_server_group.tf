@@ -1,4 +1,4 @@
-resource "aws_gamelift_game_server_group" "sample-gamelift-game-server-group" {
+resource "aws_gamelift_game_server_group" "tf-sample-gamelift-game-server-group" {
   auto_scaling_group_arn        = ""
   balancing_strategy            = ""
   game_server_group_name        = ""

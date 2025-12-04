@@ -1,4 +1,4 @@
-resource "aws_vpclattice_service" "sample-vpclattice-service" {
+resource "aws_vpclattice_service" "tf-sample-vpclattice-service" {
   auth_type          = ""
   certificate_arn    = ""
   custom_domain_name = ""

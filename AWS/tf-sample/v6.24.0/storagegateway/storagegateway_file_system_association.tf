@@ -1,4 +1,4 @@
-resource "aws_storagegateway_file_system_association" "sample-storagegateway-file-system-association" {
+resource "aws_storagegateway_file_system_association" "tf-sample-storagegateway-file-system-association" {
   audit_destination_arn = ""
   gateway_arn           = ""
   id                    = ""

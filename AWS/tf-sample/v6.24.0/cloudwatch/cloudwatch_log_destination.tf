@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_destination" "sample-cloudwatch-log-destination" {
+resource "aws_cloudwatch_log_destination" "tf-sample-cloudwatch-log-destination" {
   id         = ""
   name       = ""
   region     = ""

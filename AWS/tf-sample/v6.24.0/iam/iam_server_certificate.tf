@@ -1,4 +1,4 @@
-resource "aws_iam_server_certificate" "sample-iam-server-certificate" {
+resource "aws_iam_server_certificate" "tf-sample-iam-server-certificate" {
   certificate_body  = ""
   certificate_chain = ""
   expiration        = ""

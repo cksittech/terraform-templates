@@ -1,4 +1,4 @@
-resource "aws_acm_certificate" "sample-acm-certificate" {
+resource "aws_acm_certificate" "tf-sample-acm-certificate" {
   certificate_authority_arn = ""
   certificate_body          = ""
   certificate_chain         = ""

@@ -1,4 +1,4 @@
-resource "aws_ami_launch_permission" "sample-ami-launch-permission" {
+resource "aws_ami_launch_permission" "tf-sample-ami-launch-permission" {
   account_id              = ""
   group                   = ""
   id                      = ""

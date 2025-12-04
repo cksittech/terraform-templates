@@ -1,4 +1,4 @@
-resource "aws_auditmanager_assessment" "sample-auditmanager-assessment" {
+resource "aws_auditmanager_assessment" "tf-sample-auditmanager-assessment" {
   description  = ""
   framework_id = ""
   id           = ""

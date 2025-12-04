@@ -1,4 +1,4 @@
-resource "aws_redshift_snapshot_copy" "sample-redshift-snapshot-copy" {
+resource "aws_redshift_snapshot_copy" "tf-sample-redshift-snapshot-copy" {
   cluster_identifier               = ""
   destination_region               = ""
   id                               = ""

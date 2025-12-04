@@ -1,4 +1,4 @@
-resource "aws_transcribe_language_model" "sample-transcribe-language-model" {
+resource "aws_transcribe_language_model" "tf-sample-transcribe-language-model" {
   base_model_name = ""
   id              = ""
   language_code   = ""

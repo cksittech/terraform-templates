@@ -1,4 +1,4 @@
-resource "aws_appstream_directory_config" "sample-appstream-directory-config" {
+resource "aws_appstream_directory_config" "tf-sample-appstream-directory-config" {
   created_time                            = ""
   directory_name                          = ""
   id                                      = ""

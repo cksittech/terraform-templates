@@ -1,4 +1,4 @@
-resource "aws_datasync_agent" "sample-datasync-agent" {
+resource "aws_datasync_agent" "tf-sample-datasync-agent" {
   activation_key        = ""
   id                    = ""
   ip_address            = ""

@@ -1,4 +1,4 @@
-resource "aws_lambda_runtime_management_config" "sample-lambda-runtime-management-config" {
+resource "aws_lambda_runtime_management_config" "tf-sample-lambda-runtime-management-config" {
   function_arn        = ""
   function_name       = ""
   qualifier           = ""

@@ -1,4 +1,4 @@
-resource "aws_appconfig_application" "sample-appconfig-application" {
+resource "aws_appconfig_application" "tf-sample-appconfig-application" {
   description = ""
   id          = ""
   name        = ""

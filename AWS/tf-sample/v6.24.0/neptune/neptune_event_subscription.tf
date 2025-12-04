@@ -1,4 +1,4 @@
-resource "aws_neptune_event_subscription" "sample-neptune-event-subscription" {
+resource "aws_neptune_event_subscription" "tf-sample-neptune-event-subscription" {
   customer_aws_id  = ""
   enabled          = ""
   event_categories = []

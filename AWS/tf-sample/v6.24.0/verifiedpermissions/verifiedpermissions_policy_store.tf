@@ -1,4 +1,4 @@
-resource "aws_verifiedpermissions_policy_store" "sample-verifiedpermissions-policy-store" {
+resource "aws_verifiedpermissions_policy_store" "tf-sample-verifiedpermissions-policy-store" {
   deletion_protection = ""
   description         = ""
   id                  = ""

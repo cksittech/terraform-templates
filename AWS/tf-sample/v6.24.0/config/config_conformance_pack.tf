@@ -1,4 +1,4 @@
-resource "aws_config_conformance_pack" "sample-config-conformance-pack" {
+resource "aws_config_conformance_pack" "tf-sample-config-conformance-pack" {
   delivery_s3_bucket     = ""
   delivery_s3_key_prefix = ""
   id                     = ""

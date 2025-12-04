@@ -1,4 +1,4 @@
-resource "aws_security_group" "sample-security-group" {
+resource "aws_security_group" "tf-sample-security-group" {
   description            = ""
   egress                 = []
   id                     = ""

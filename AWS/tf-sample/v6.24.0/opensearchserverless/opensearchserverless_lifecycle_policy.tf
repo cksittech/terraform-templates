@@ -1,4 +1,4 @@
-resource "aws_opensearchserverless_lifecycle_policy" "sample-opensearchserverless-lifecycle-policy" {
+resource "aws_opensearchserverless_lifecycle_policy" "tf-sample-opensearchserverless-lifecycle-policy" {
   description    = ""
   id             = ""
   name           = ""

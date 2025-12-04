@@ -1,4 +1,4 @@
-resource "aws_spot_datafeed_subscription" "sample-spot-datafeed-subscription" {
+resource "aws_spot_datafeed_subscription" "tf-sample-spot-datafeed-subscription" {
   bucket = ""
   id     = ""
   prefix = ""

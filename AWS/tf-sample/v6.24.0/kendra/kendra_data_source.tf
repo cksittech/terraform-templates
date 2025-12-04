@@ -1,4 +1,4 @@
-resource "aws_kendra_data_source" "sample-kendra-data-source" {
+resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
   created_at     = ""
   data_source_id = ""
   description    = ""

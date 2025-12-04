@@ -1,4 +1,4 @@
-resource "aws_codestarconnections_connection" "sample-codestarconnections-connection" {
+resource "aws_codestarconnections_connection" "tf-sample-codestarconnections-connection" {
   connection_status = ""
   host_arn          = ""
   id                = ""

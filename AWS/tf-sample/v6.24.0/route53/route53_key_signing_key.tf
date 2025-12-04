@@ -1,4 +1,4 @@
-resource "aws_route53_key_signing_key" "sample-route53-key-signing-key" {
+resource "aws_route53_key_signing_key" "tf-sample-route53-key-signing-key" {
   digest_algorithm_mnemonic  = ""
   digest_algorithm_type      = ""
   digest_value               = ""

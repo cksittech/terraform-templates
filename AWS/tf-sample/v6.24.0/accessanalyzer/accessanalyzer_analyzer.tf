@@ -1,4 +1,4 @@
-resource "aws_accessanalyzer_analyzer" "sample-accessanalyzer-analyzer" {
+resource "aws_accessanalyzer_analyzer" "tf-sample-accessanalyzer-analyzer" {
   analyzer_name = ""
   id            = ""
   region        = ""

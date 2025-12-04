@@ -1,4 +1,4 @@
-resource "aws_networkfirewall_firewall" "sample-networkfirewall-firewall" {
+resource "aws_networkfirewall_firewall" "tf-sample-networkfirewall-firewall" {
   availability_zone_change_protection = ""
   delete_protection                   = ""
   description                         = ""

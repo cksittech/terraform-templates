@@ -1,4 +1,4 @@
-resource "aws_transfer_connector" "sample-transfer-connector" {
+resource "aws_transfer_connector" "tf-sample-transfer-connector" {
   access_role          = ""
   connector_id         = ""
   id                   = ""

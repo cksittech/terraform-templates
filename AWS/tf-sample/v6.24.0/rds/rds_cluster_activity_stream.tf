@@ -1,4 +1,4 @@
-resource "aws_rds_cluster_activity_stream" "sample-rds-cluster-activity-stream" {
+resource "aws_rds_cluster_activity_stream" "tf-sample-rds-cluster-activity-stream" {
   engine_native_audit_fields_included = ""
   id                                  = ""
   kinesis_stream_name                 = ""

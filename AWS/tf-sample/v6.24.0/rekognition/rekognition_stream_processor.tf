@@ -1,4 +1,4 @@
-resource "aws_rekognition_stream_processor" "sample-rekognition-stream-processor" {
+resource "aws_rekognition_stream_processor" "tf-sample-rekognition-stream-processor" {
   kms_key_id           = ""
   name                 = ""
   region               = ""

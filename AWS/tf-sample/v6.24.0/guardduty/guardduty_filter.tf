@@ -1,4 +1,4 @@
-resource "aws_guardduty_filter" "sample-guardduty-filter" {
+resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
   action      = ""
   description = ""
   detector_id = ""

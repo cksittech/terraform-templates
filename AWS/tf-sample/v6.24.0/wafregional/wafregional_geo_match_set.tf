@@ -1,4 +1,4 @@
-resource "aws_wafregional_geo_match_set" "sample-wafregional-geo-match-set" {
+resource "aws_wafregional_geo_match_set" "tf-sample-wafregional-geo-match-set" {
   id     = ""
   name   = ""
   region = ""

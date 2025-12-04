@@ -1,4 +1,4 @@
-resource "aws_apprunner_service" "sample-apprunner-service" {
+resource "aws_apprunner_service" "tf-sample-apprunner-service" {
   auto_scaling_configuration_arn = ""
   id                             = ""
   region                         = ""

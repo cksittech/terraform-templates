@@ -1,4 +1,4 @@
-resource "aws_route53recoverycontrolconfig_cluster" "sample-route53recoverycontrolconfig-cluster" {
+resource "aws_route53recoverycontrolconfig_cluster" "tf-sample-route53recoverycontrolconfig-cluster" {
   cluster_endpoints = []
   id                = ""
   name              = ""

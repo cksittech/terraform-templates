@@ -1,4 +1,4 @@
-resource "aws_lexv2models_intent" "sample-lexv2models-intent" {
+resource "aws_lexv2models_intent" "tf-sample-lexv2models-intent" {
   bot_id                  = ""
   bot_version             = ""
   creation_date_time      = ""

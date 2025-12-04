@@ -1,4 +1,4 @@
-resource "aws_ec2_tag" "sample-ec2-tag" {
+resource "aws_ec2_tag" "tf-sample-ec2-tag" {
   id          = ""
   key         = ""
   region      = ""

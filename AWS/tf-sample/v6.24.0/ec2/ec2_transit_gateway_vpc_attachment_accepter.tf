@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_vpc_attachment_accepter" "sample-ec2-transit-gateway-vpc-attachment-accepter" {
+resource "aws_ec2_transit_gateway_vpc_attachment_accepter" "tf-sample-ec2-transit-gateway-vpc-attachment-accepter" {
   appliance_mode_support                          = ""
   dns_support                                     = ""
   id                                              = ""

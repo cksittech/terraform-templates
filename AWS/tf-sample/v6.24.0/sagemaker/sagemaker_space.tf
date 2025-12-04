@@ -1,4 +1,4 @@
-resource "aws_sagemaker_space" "sample-sagemaker-space" {
+resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
   domain_id                = ""
   home_efs_file_system_uid = ""
   id                       = ""

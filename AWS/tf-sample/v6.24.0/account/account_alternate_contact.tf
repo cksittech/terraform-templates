@@ -1,4 +1,4 @@
-resource "aws_account_alternate_contact" "sample-account-alternate-contact" {
+resource "aws_account_alternate_contact" "tf-sample-account-alternate-contact" {
   account_id             = ""
   alternate_contact_type = ""
   email_address          = ""

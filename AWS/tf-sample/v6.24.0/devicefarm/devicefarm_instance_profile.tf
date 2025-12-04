@@ -1,4 +1,4 @@
-resource "aws_devicefarm_instance_profile" "sample-devicefarm-instance-profile" {
+resource "aws_devicefarm_instance_profile" "tf-sample-devicefarm-instance-profile" {
   description                       = ""
   exclude_app_packages_from_cleanup = []
   id                                = ""

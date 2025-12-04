@@ -1,4 +1,4 @@
-resource "aws_datazone_project" "sample-datazone-project" {
+resource "aws_datazone_project" "tf-sample-datazone-project" {
   created_at          = ""
   created_by          = ""
   description         = ""

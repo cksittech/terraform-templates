@@ -1,4 +1,4 @@
-resource "aws_cognito_risk_configuration" "sample-cognito-risk-configuration" {
+resource "aws_cognito_risk_configuration" "tf-sample-cognito-risk-configuration" {
   client_id    = ""
   id           = ""
   region       = ""

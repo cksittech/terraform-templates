@@ -1,4 +1,4 @@
-resource "aws_ssoadmin_application_assignment" "sample-ssoadmin-application-assignment" {
+resource "aws_ssoadmin_application_assignment" "tf-sample-ssoadmin-application-assignment" {
   application_arn = ""
   id              = ""
   principal_id    = ""

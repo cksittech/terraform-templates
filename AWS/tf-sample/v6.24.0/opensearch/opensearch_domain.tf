@@ -1,4 +1,4 @@
-resource "aws_opensearch_domain" "sample-opensearch-domain" {
+resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   access_policies                   = ""
   advanced_options                  = {}
   dashboard_endpoint                = ""

@@ -1,4 +1,4 @@
-resource "aws_lexv2models_bot_locale" "sample-lexv2models-bot-locale" {
+resource "aws_lexv2models_bot_locale" "tf-sample-lexv2models-bot-locale" {
   bot_id                           = ""
   bot_version                      = ""
   description                      = ""

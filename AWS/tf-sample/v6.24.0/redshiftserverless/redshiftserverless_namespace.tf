@@ -1,4 +1,4 @@
-resource "aws_redshiftserverless_namespace" "sample-redshiftserverless-namespace" {
+resource "aws_redshiftserverless_namespace" "tf-sample-redshiftserverless-namespace" {
   admin_password_secret_arn        = ""
   admin_password_secret_kms_key_id = ""
   admin_user_password              = ""

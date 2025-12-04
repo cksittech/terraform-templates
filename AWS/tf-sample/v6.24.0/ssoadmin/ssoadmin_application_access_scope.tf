@@ -1,4 +1,4 @@
-resource "aws_ssoadmin_application_access_scope" "sample-ssoadmin-application-access-scope" {
+resource "aws_ssoadmin_application_access_scope" "tf-sample-ssoadmin-application-access-scope" {
   application_arn    = ""
   authorized_targets = []
   id                 = ""

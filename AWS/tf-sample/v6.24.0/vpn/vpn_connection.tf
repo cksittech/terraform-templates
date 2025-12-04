@@ -1,4 +1,4 @@
-resource "aws_vpn_connection" "sample-vpn-connection" {
+resource "aws_vpn_connection" "tf-sample-vpn-connection" {
   core_network_arn                        = ""
   core_network_attachment_arn             = ""
   customer_gateway_configuration          = ""

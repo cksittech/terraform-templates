@@ -1,4 +1,4 @@
-resource "aws_workspaces_ip_group" "sample-workspaces-ip-group" {
+resource "aws_workspaces_ip_group" "tf-sample-workspaces-ip-group" {
   description = ""
   id          = ""
   name        = ""

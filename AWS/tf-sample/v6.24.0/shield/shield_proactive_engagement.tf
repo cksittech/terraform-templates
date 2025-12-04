@@ -1,4 +1,4 @@
-resource "aws_shield_proactive_engagement" "sample-shield-proactive-engagement" {
+resource "aws_shield_proactive_engagement" "tf-sample-shield-proactive-engagement" {
   enabled = ""
   id      = ""
   

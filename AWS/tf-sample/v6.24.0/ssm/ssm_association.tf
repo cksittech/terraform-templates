@@ -1,4 +1,4 @@
-resource "aws_ssm_association" "sample-ssm-association" {
+resource "aws_ssm_association" "tf-sample-ssm-association" {
   apply_only_at_cron_interval      = ""
   association_id                   = ""
   association_name                 = ""

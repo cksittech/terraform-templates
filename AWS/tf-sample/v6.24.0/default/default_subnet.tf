@@ -1,4 +1,4 @@
-resource "aws_default_subnet" "sample-default-subnet" {
+resource "aws_default_subnet" "tf-sample-default-subnet" {
   assign_ipv6_address_on_creation                = ""
   availability_zone                              = ""
   availability_zone_id                           = ""

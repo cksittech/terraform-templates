@@ -1,4 +1,4 @@
-resource "aws_iot_topic_rule" "sample-iot-topic-rule" {
+resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
   description = ""
   enabled     = ""
   id          = ""

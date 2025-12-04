@@ -1,4 +1,4 @@
-resource "aws_globalaccelerator_cross_account_attachment" "sample-globalaccelerator-cross-account-attachment" {
+resource "aws_globalaccelerator_cross_account_attachment" "tf-sample-globalaccelerator-cross-account-attachment" {
   created_time       = ""
   id                 = ""
   last_modified_time = ""

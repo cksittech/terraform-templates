@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_network_settings" "sample-workspacesweb-network-settings" {
+resource "aws_workspacesweb_network_settings" "tf-sample-workspacesweb-network-settings" {
   associated_portal_arns = []
   network_settings_arn   = ""
   region                 = ""

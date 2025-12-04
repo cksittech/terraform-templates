@@ -1,4 +1,4 @@
-resource "aws_neptune_cluster_instance" "sample-neptune-cluster-instance" {
+resource "aws_neptune_cluster_instance" "tf-sample-neptune-cluster-instance" {
   address                      = ""
   apply_immediately            = ""
   auto_minor_version_upgrade   = ""

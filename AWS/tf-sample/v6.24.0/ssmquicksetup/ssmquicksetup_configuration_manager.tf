@@ -1,4 +1,4 @@
-resource "aws_ssmquicksetup_configuration_manager" "sample-ssmquicksetup-configuration-manager" {
+resource "aws_ssmquicksetup_configuration_manager" "tf-sample-ssmquicksetup-configuration-manager" {
   description      = ""
   manager_arn      = ""
   name             = ""

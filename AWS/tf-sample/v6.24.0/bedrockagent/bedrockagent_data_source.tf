@@ -1,4 +1,4 @@
-resource "aws_bedrockagent_data_source" "sample-bedrockagent-data-source" {
+resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
   data_deletion_policy = ""
   data_source_id       = ""
   description          = ""

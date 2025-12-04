@@ -1,4 +1,4 @@
-resource "aws_elastic_beanstalk_application" "sample-elastic-beanstalk-application" {
+resource "aws_elastic_beanstalk_application" "tf-sample-elastic-beanstalk-application" {
   description = ""
   id          = ""
   name        = ""

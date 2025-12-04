@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_lifecycle_policy" "sample-imagebuilder-lifecycle-policy" {
+resource "aws_imagebuilder_lifecycle_policy" "tf-sample-imagebuilder-lifecycle-policy" {
   description    = ""
   execution_role = ""
   id             = ""

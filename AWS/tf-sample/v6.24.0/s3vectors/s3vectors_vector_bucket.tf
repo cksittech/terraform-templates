@@ -1,4 +1,4 @@
-resource "aws_s3vectors_vector_bucket" "sample-s3vectors-vector-bucket" {
+resource "aws_s3vectors_vector_bucket" "tf-sample-s3vectors-vector-bucket" {
   creation_time            = ""
   encryption_configuration = []
   force_destroy            = ""

@@ -1,4 +1,4 @@
-resource "aws_api_gateway_usage_plan" "sample-api-gateway-usage-plan" {
+resource "aws_api_gateway_usage_plan" "tf-sample-api-gateway-usage-plan" {
   description  = ""
   id           = ""
   name         = ""

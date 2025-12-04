@@ -1,4 +1,4 @@
-resource "aws_apigatewayv2_route" "sample-apigatewayv2-route" {
+resource "aws_apigatewayv2_route" "tf-sample-apigatewayv2-route" {
   api_id                              = ""
   api_key_required                    = ""
   authorization_scopes                = []

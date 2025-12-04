@@ -1,4 +1,4 @@
-resource "aws_lexv2models_slot" "sample-lexv2models-slot" {
+resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
   bot_id       = ""
   bot_version  = ""
   description  = ""

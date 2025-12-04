@@ -1,4 +1,4 @@
-resource "aws_codedeploy_deployment_group" "sample-codedeploy-deployment-group" {
+resource "aws_codedeploy_deployment_group" "tf-sample-codedeploy-deployment-group" {
   app_name                    = ""
   autoscaling_groups          = []
   compute_platform            = ""

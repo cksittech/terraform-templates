@@ -1,4 +1,4 @@
-resource "aws_networkfirewall_resource_policy" "sample-networkfirewall-resource-policy" {
+resource "aws_networkfirewall_resource_policy" "tf-sample-networkfirewall-resource-policy" {
   id           = ""
   policy       = ""
   region       = ""

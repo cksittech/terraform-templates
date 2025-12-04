@@ -1,4 +1,4 @@
-resource "aws_vpc_endpoint_service" "sample-vpc-endpoint-service" {
+resource "aws_vpc_endpoint_service" "tf-sample-vpc-endpoint-service" {
   acceptance_required            = ""
   allowed_principals             = []
   availability_zones             = []

@@ -1,4 +1,4 @@
-resource "aws_docdb_subnet_group" "sample-docdb-subnet-group" {
+resource "aws_docdb_subnet_group" "tf-sample-docdb-subnet-group" {
   description             = ""
   id                      = ""
   name                    = ""

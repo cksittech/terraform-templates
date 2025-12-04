@@ -1,4 +1,4 @@
-resource "aws_m2_environment" "sample-m2-environment" {
+resource "aws_m2_environment" "tf-sample-m2-environment" {
   apply_changes_during_maintenance_window = ""
   description                             = ""
   engine_type                             = ""

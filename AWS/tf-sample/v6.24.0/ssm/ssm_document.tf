@@ -1,4 +1,4 @@
-resource "aws_ssm_document" "sample-ssm-document" {
+resource "aws_ssm_document" "tf-sample-ssm-document" {
   content          = ""
   created_date     = ""
   default_version  = ""

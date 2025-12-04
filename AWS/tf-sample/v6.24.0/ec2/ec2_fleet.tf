@@ -1,4 +1,4 @@
-resource "aws_ec2_fleet" "sample-ec2-fleet" {
+resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
   context                             = ""
   excess_capacity_termination_policy  = ""
   fleet_state                         = ""

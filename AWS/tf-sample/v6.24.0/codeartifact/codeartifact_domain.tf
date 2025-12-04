@@ -1,4 +1,4 @@
-resource "aws_codeartifact_domain" "sample-codeartifact-domain" {
+resource "aws_codeartifact_domain" "tf-sample-codeartifact-domain" {
   asset_size_bytes = ""
   created_time     = ""
   domain           = ""

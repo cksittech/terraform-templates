@@ -1,4 +1,4 @@
-resource "aws_networkmanager_transit_gateway_route_table_attachment" "sample-networkmanager-transit-gateway-route-table-attachment" {
+resource "aws_networkmanager_transit_gateway_route_table_attachment" "tf-sample-networkmanager-transit-gateway-route-table-attachment" {
   attachment_policy_rule_number   = ""
   attachment_type                 = ""
   core_network_arn                = ""

@@ -1,4 +1,4 @@
-resource "aws_fsx_openzfs_file_system" "sample-fsx-openzfs-file-system" {
+resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
   automatic_backup_retention_days   = ""
   backup_id                         = ""
   copy_tags_to_backups              = ""

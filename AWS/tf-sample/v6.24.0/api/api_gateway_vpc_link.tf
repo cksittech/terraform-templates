@@ -1,4 +1,4 @@
-resource "aws_api_gateway_vpc_link" "sample-api-gateway-vpc-link" {
+resource "aws_api_gateway_vpc_link" "tf-sample-api-gateway-vpc-link" {
   description = ""
   id          = ""
   name        = ""

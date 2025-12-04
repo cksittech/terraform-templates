@@ -1,4 +1,4 @@
-resource "aws_route53_resolver_endpoint" "sample-route53-resolver-endpoint" {
+resource "aws_route53_resolver_endpoint" "tf-sample-route53-resolver-endpoint" {
   direction              = ""
   host_vpc_id            = ""
   id                     = ""

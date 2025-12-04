@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_resource_discovery" "sample-vpc-ipam-resource-discovery" {
+resource "aws_vpc_ipam_resource_discovery" "tf-sample-vpc-ipam-resource-discovery" {
   description                    = ""
   id                             = ""
   ipam_resource_discovery_region = ""

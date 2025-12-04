@@ -1,4 +1,4 @@
-resource "aws_inspector_assessment_target" "sample-inspector-assessment-target" {
+resource "aws_inspector_assessment_target" "tf-sample-inspector-assessment-target" {
   id                 = ""
   name               = ""
   region             = ""

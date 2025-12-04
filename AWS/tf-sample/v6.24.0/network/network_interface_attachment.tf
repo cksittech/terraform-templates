@@ -1,4 +1,4 @@
-resource "aws_network_interface_attachment" "sample-network-interface-attachment" {
+resource "aws_network_interface_attachment" "tf-sample-network-interface-attachment" {
   attachment_id        = ""
   device_index         = ""
   id                   = ""

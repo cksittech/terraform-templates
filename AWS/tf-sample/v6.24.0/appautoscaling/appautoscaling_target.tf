@@ -1,4 +1,4 @@
-resource "aws_appautoscaling_target" "sample-appautoscaling-target" {
+resource "aws_appautoscaling_target" "tf-sample-appautoscaling-target" {
   id                 = ""
   max_capacity       = ""
   min_capacity       = ""

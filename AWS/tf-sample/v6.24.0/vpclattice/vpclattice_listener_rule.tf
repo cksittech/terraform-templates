@@ -1,4 +1,4 @@
-resource "aws_vpclattice_listener_rule" "sample-vpclattice-listener-rule" {
+resource "aws_vpclattice_listener_rule" "tf-sample-vpclattice-listener-rule" {
   id                  = ""
   listener_identifier = ""
   name                = ""

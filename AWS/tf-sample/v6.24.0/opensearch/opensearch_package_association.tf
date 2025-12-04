@@ -1,4 +1,4 @@
-resource "aws_opensearch_package_association" "sample-opensearch-package-association" {
+resource "aws_opensearch_package_association" "tf-sample-opensearch-package-association" {
   domain_name    = ""
   id             = ""
   package_id     = ""

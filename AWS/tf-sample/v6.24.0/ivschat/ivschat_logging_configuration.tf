@@ -1,4 +1,4 @@
-resource "aws_ivschat_logging_configuration" "sample-ivschat-logging-configuration" {
+resource "aws_ivschat_logging_configuration" "tf-sample-ivschat-logging-configuration" {
   id     = ""
   name   = ""
   region = ""

@@ -1,4 +1,4 @@
-resource "aws_backup_vault_lock_configuration" "sample-backup-vault-lock-configuration" {
+resource "aws_backup_vault_lock_configuration" "tf-sample-backup-vault-lock-configuration" {
   backup_vault_arn    = ""
   backup_vault_name   = ""
   changeable_for_days = ""

@@ -1,4 +1,4 @@
-resource "aws_ssm_patch_baseline" "sample-ssm-patch-baseline" {
+resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
   approved_patches                             = []
   approved_patches_compliance_level            = ""
   approved_patches_enable_non_security         = ""

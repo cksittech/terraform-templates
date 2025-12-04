@@ -1,4 +1,4 @@
-resource "aws_cloudformation_type" "sample-cloudformation-type" {
+resource "aws_cloudformation_type" "tf-sample-cloudformation-type" {
   default_version_id     = ""
   deprecated_status      = ""
   description            = ""

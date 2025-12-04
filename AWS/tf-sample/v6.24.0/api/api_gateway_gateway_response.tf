@@ -1,4 +1,4 @@
-resource "aws_api_gateway_gateway_response" "sample-api-gateway-gateway-response" {
+resource "aws_api_gateway_gateway_response" "tf-sample-api-gateway-gateway-response" {
   id                  = ""
   region              = ""
   response_parameters = {}

@@ -1,4 +1,4 @@
-resource "aws_appmesh_virtual_router" "sample-appmesh-virtual-router" {
+resource "aws_appmesh_virtual_router" "tf-sample-appmesh-virtual-router" {
   created_date      = ""
   id                = ""
   last_updated_date = ""

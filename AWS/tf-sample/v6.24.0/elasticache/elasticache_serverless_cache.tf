@@ -1,4 +1,4 @@
-resource "aws_elasticache_serverless_cache" "sample-elasticache-serverless-cache" {
+resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-cache" {
   create_time              = ""
   daily_snapshot_time      = ""
   description              = ""

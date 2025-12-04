@@ -1,4 +1,4 @@
-resource "aws_securityhub_configuration_policy" "sample-securityhub-configuration-policy" {
+resource "aws_securityhub_configuration_policy" "tf-sample-securityhub-configuration-policy" {
   description = ""
   id          = ""
   name        = ""

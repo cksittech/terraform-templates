@@ -1,4 +1,4 @@
-resource "aws_s3_bucket_lifecycle_configuration" "sample-s3-bucket-lifecycle-configuration" {
+resource "aws_s3_bucket_lifecycle_configuration" "tf-sample-s3-bucket-lifecycle-configuration" {
   bucket                                 = ""
   expected_bucket_owner                  = ""
   id                                     = ""

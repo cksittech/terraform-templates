@@ -1,4 +1,4 @@
-resource "aws_dx_connection_association" "sample-dx-connection-association" {
+resource "aws_dx_connection_association" "tf-sample-dx-connection-association" {
   connection_id = ""
   id            = ""
   lag_id        = ""

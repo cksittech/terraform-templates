@@ -1,4 +1,4 @@
-resource "aws_sns_platform_application" "sample-sns-platform-application" {
+resource "aws_sns_platform_application" "tf-sample-sns-platform-application" {
   apple_platform_bundle_id         = ""
   apple_platform_team_id           = ""
   event_delivery_failure_topic_arn = ""

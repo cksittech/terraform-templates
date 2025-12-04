@@ -1,4 +1,4 @@
-resource "aws_appsync_graphql_api" "sample-appsync-graphql-api" {
+resource "aws_appsync_graphql_api" "tf-sample-appsync-graphql-api" {
   api_type                      = ""
   authentication_type           = ""
   id                            = ""

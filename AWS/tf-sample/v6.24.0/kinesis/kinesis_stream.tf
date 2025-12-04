@@ -1,4 +1,4 @@
-resource "aws_kinesis_stream" "sample-kinesis-stream" {
+resource "aws_kinesis_stream" "tf-sample-kinesis-stream" {
   encryption_type           = ""
   enforce_consumer_deletion = ""
   id                        = ""

@@ -1,4 +1,4 @@
-resource "aws_location_map" "sample-location-map" {
+resource "aws_location_map" "tf-sample-location-map" {
   create_time = ""
   description = ""
   id          = ""

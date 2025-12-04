@@ -1,4 +1,4 @@
-resource "aws_service_discovery_instance" "sample-service-discovery-instance" {
+resource "aws_service_discovery_instance" "tf-sample-service-discovery-instance" {
   attributes  = {}
   id          = ""
   instance_id = ""

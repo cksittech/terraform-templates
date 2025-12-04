@@ -1,4 +1,4 @@
-resource "aws_elb" "sample-elb" {
+resource "aws_elb" "tf-sample-elb" {
   availability_zones          = []
   connection_draining         = ""
   connection_draining_timeout = ""

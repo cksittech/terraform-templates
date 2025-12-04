@@ -1,4 +1,4 @@
-resource "aws_eks_fargate_profile" "sample-eks-fargate-profile" {
+resource "aws_eks_fargate_profile" "tf-sample-eks-fargate-profile" {
   cluster_name           = ""
   fargate_profile_name   = ""
   id                     = ""

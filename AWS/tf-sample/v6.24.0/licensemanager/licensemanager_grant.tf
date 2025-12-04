@@ -1,4 +1,4 @@
-resource "aws_licensemanager_grant" "sample-licensemanager-grant" {
+resource "aws_licensemanager_grant" "tf-sample-licensemanager-grant" {
   allowed_operations = []
   home_region        = ""
   id                 = ""

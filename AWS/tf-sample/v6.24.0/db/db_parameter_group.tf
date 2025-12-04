@@ -1,4 +1,4 @@
-resource "aws_db_parameter_group" "sample-db-parameter-group" {
+resource "aws_db_parameter_group" "tf-sample-db-parameter-group" {
   description  = ""
   family       = ""
   id           = ""

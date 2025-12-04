@@ -1,4 +1,4 @@
-resource "aws_location_geofence_collection" "sample-location-geofence-collection" {
+resource "aws_location_geofence_collection" "tf-sample-location-geofence-collection" {
   collection_arn  = ""
   collection_name = ""
   create_time     = ""

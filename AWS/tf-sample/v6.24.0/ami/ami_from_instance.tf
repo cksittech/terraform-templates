@@ -1,4 +1,4 @@
-resource "aws_ami_from_instance" "sample-ami-from-instance" {
+resource "aws_ami_from_instance" "tf-sample-ami-from-instance" {
   architecture            = ""
   boot_mode               = ""
   deprecation_time        = ""

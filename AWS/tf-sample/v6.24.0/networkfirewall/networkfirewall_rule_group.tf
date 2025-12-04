@@ -1,4 +1,4 @@
-resource "aws_networkfirewall_rule_group" "sample-networkfirewall-rule-group" {
+resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group" {
   capacity     = ""
   description  = ""
   id           = ""

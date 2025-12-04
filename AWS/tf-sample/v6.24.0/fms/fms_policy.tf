@@ -1,4 +1,4 @@
-resource "aws_fms_policy" "sample-fms-policy" {
+resource "aws_fms_policy" "tf-sample-fms-policy" {
   delete_all_policy_resources        = ""
   delete_unused_fm_managed_resources = ""
   description                        = ""

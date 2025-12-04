@@ -1,4 +1,4 @@
-resource "aws_neptune_cluster_snapshot" "sample-neptune-cluster-snapshot" {
+resource "aws_neptune_cluster_snapshot" "tf-sample-neptune-cluster-snapshot" {
   allocated_storage              = ""
   availability_zones             = []
   db_cluster_identifier          = ""

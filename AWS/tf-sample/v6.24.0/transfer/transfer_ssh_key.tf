@@ -1,4 +1,4 @@
-resource "aws_transfer_ssh_key" "sample-transfer-ssh-key" {
+resource "aws_transfer_ssh_key" "tf-sample-transfer-ssh-key" {
   body       = ""
   id         = ""
   region     = ""

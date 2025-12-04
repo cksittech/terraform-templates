@@ -1,4 +1,4 @@
-resource "aws_rum_app_monitor" "sample-rum-app-monitor" {
+resource "aws_rum_app_monitor" "tf-sample-rum-app-monitor" {
   app_monitor_id = ""
   cw_log_enabled = ""
   cw_log_group   = ""

@@ -1,4 +1,4 @@
-resource "aws_nat_gateway" "sample-nat-gateway" {
+resource "aws_nat_gateway" "tf-sample-nat-gateway" {
   allocation_id                      = ""
   association_id                     = ""
   auto_provision_zones               = ""

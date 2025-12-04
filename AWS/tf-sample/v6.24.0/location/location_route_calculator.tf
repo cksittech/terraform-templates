@@ -1,4 +1,4 @@
-resource "aws_location_route_calculator" "sample-location-route-calculator" {
+resource "aws_location_route_calculator" "tf-sample-location-route-calculator" {
   calculator_arn  = ""
   calculator_name = ""
   create_time     = ""

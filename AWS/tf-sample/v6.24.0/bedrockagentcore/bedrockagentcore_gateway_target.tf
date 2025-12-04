@@ -1,4 +1,4 @@
-resource "aws_bedrockagentcore_gateway_target" "sample-bedrockagentcore-gateway-target" {
+resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gateway-target" {
   description        = ""
   gateway_identifier = ""
   name               = ""

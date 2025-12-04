@@ -1,4 +1,4 @@
-resource "aws_ses_configuration_set" "sample-ses-configuration-set" {
+resource "aws_ses_configuration_set" "tf-sample-ses-configuration-set" {
   id                         = ""
   last_fresh_start           = ""
   name                       = ""

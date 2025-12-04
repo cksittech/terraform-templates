@@ -1,4 +1,4 @@
-resource "aws_amplify_backend_environment" "sample-amplify-backend-environment" {
+resource "aws_amplify_backend_environment" "tf-sample-amplify-backend-environment" {
   app_id               = ""
   deployment_artifacts = ""
   environment_name     = ""

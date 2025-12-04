@@ -1,4 +1,4 @@
-resource "aws_codestarconnections_host" "sample-codestarconnections-host" {
+resource "aws_codestarconnections_host" "tf-sample-codestarconnections-host" {
   id                = ""
   name              = ""
   provider_endpoint = ""

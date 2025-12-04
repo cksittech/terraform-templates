@@ -1,4 +1,4 @@
-resource "aws_connect_hours_of_operation" "sample-connect-hours-of-operation" {
+resource "aws_connect_hours_of_operation" "tf-sample-connect-hours-of-operation" {
   description           = ""
   hours_of_operation_id = ""
   id                    = ""

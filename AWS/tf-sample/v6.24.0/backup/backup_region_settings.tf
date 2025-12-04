@@ -1,4 +1,4 @@
-resource "aws_backup_region_settings" "sample-backup-region-settings" {
+resource "aws_backup_region_settings" "tf-sample-backup-region-settings" {
   id                                  = ""
   region                              = ""
   resource_type_management_preference = {}

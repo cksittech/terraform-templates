@@ -1,4 +1,4 @@
-resource "aws_backup_plan" "sample-backup-plan" {
+resource "aws_backup_plan" "tf-sample-backup-plan" {
   id      = ""
   name    = ""
   region  = ""

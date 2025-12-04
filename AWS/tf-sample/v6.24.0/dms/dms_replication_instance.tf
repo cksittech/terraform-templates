@@ -1,4 +1,4 @@
-resource "aws_dms_replication_instance" "sample-dms-replication-instance" {
+resource "aws_dms_replication_instance" "tf-sample-dms-replication-instance" {
   allocated_storage                = ""
   allow_major_version_upgrade      = ""
   apply_immediately                = ""

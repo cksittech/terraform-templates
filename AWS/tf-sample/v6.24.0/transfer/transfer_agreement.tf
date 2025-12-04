@@ -1,4 +1,4 @@
-resource "aws_transfer_agreement" "sample-transfer-agreement" {
+resource "aws_transfer_agreement" "tf-sample-transfer-agreement" {
   access_role        = ""
   agreement_id       = ""
   base_directory     = ""

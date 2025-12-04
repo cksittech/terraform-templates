@@ -1,4 +1,4 @@
-resource "aws_memorydb_parameter_group" "sample-memorydb-parameter-group" {
+resource "aws_memorydb_parameter_group" "tf-sample-memorydb-parameter-group" {
   description = ""
   family      = ""
   id          = ""

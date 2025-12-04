@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_query_definition" "sample-cloudwatch-query-definition" {
+resource "aws_cloudwatch_query_definition" "tf-sample-cloudwatch-query-definition" {
   id                  = ""
   log_group_names     = []
   name                = ""

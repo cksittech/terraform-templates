@@ -1,4 +1,4 @@
-resource "aws_signer_signing_profile_permission" "sample-signer-signing-profile-permission" {
+resource "aws_signer_signing_profile_permission" "tf-sample-signer-signing-profile-permission" {
   action              = ""
   id                  = ""
   principal           = ""

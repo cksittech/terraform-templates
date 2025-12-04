@@ -1,4 +1,4 @@
-resource "aws_ivschat_room" "sample-ivschat-room" {
+resource "aws_ivschat_room" "tf-sample-ivschat-room" {
   id                                = ""
   logging_configuration_identifiers = []
   maximum_message_length            = ""

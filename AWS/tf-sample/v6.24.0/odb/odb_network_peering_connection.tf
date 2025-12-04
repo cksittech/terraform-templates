@@ -1,4 +1,4 @@
-resource "aws_odb_network_peering_connection" "sample-odb-network-peering-connection" {
+resource "aws_odb_network_peering_connection" "tf-sample-odb-network-peering-connection" {
   created_at                  = ""
   display_name                = ""
   id                          = ""

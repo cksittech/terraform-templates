@@ -1,4 +1,4 @@
-resource "aws_ssoadmin_application" "sample-ssoadmin-application" {
+resource "aws_ssoadmin_application" "tf-sample-ssoadmin-application" {
   application_account      = ""
   application_arn          = ""
   application_provider_arn = ""

@@ -1,4 +1,4 @@
-resource "aws_ec2_capacity_block_reservation" "sample-ec2-capacity-block-reservation" {
+resource "aws_ec2_capacity_block_reservation" "tf-sample-ec2-capacity-block-reservation" {
   availability_zone          = ""
   capacity_block_offering_id = ""
   created_date               = ""

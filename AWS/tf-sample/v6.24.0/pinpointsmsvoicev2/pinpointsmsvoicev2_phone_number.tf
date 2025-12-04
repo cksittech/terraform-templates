@@ -1,4 +1,4 @@
-resource "aws_pinpointsmsvoicev2_phone_number" "sample-pinpointsmsvoicev2-phone-number" {
+resource "aws_pinpointsmsvoicev2_phone_number" "tf-sample-pinpointsmsvoicev2-phone-number" {
   deletion_protection_enabled   = ""
   id                            = ""
   iso_country_code              = ""

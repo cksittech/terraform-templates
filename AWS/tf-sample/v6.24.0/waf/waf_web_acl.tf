@@ -1,4 +1,4 @@
-resource "aws_waf_web_acl" "sample-waf-web-acl" {
+resource "aws_waf_web_acl" "tf-sample-waf-web-acl" {
   id          = ""
   metric_name = ""
   name        = ""

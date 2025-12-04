@@ -1,4 +1,4 @@
-resource "aws_auditmanager_framework" "sample-auditmanager-framework" {
+resource "aws_auditmanager_framework" "tf-sample-auditmanager-framework" {
   compliance_type = ""
   description     = ""
   framework_type  = ""

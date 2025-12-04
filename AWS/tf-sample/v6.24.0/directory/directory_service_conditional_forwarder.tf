@@ -1,4 +1,4 @@
-resource "aws_directory_service_conditional_forwarder" "sample-directory-service-conditional-forwarder" {
+resource "aws_directory_service_conditional_forwarder" "tf-sample-directory-service-conditional-forwarder" {
   directory_id       = ""
   dns_ips            = []
   id                 = ""

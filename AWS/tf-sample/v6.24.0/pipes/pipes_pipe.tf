@@ -1,4 +1,4 @@
-resource "aws_pipes_pipe" "sample-pipes-pipe" {
+resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
   description        = ""
   desired_state      = ""
   enrichment         = ""

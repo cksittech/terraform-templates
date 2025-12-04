@@ -1,4 +1,4 @@
-resource "aws_mq_broker" "sample-mq-broker" {
+resource "aws_mq_broker" "tf-sample-mq-broker" {
   apply_immediately                   = ""
   authentication_strategy             = ""
   auto_minor_version_upgrade          = ""

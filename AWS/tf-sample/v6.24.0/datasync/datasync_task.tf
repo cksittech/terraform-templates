@@ -1,4 +1,4 @@
-resource "aws_datasync_task" "sample-datasync-task" {
+resource "aws_datasync_task" "tf-sample-datasync-task" {
   cloudwatch_log_group_arn = ""
   destination_location_arn = ""
   id                       = ""

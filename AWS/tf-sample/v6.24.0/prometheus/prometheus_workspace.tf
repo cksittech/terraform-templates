@@ -1,4 +1,4 @@
-resource "aws_prometheus_workspace" "sample-prometheus-workspace" {
+resource "aws_prometheus_workspace" "tf-sample-prometheus-workspace" {
   alias               = ""
   id                  = ""
   kms_key_arn         = ""

@@ -1,4 +1,4 @@
-resource "aws_sagemaker_pipeline" "sample-sagemaker-pipeline" {
+resource "aws_sagemaker_pipeline" "tf-sample-sagemaker-pipeline" {
   id                    = ""
   pipeline_definition   = ""
   pipeline_description  = ""

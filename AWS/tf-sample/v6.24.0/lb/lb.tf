@@ -1,4 +1,4 @@
-resource "aws_lb" "sample-lb" {
+resource "aws_lb" "tf-sample-lb" {
   arn_suffix                                                   = ""
   client_keep_alive                                            = ""
   customer_owned_ipv4_pool                                     = ""

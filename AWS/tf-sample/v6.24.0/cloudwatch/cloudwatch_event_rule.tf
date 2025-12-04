@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_rule" "sample-cloudwatch-event-rule" {
+resource "aws_cloudwatch_event_rule" "tf-sample-cloudwatch-event-rule" {
   description         = ""
   event_bus_name      = ""
   event_pattern       = ""

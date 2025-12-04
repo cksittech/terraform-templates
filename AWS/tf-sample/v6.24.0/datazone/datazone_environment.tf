@@ -1,4 +1,4 @@
-resource "aws_datazone_environment" "sample-datazone-environment" {
+resource "aws_datazone_environment" "tf-sample-datazone-environment" {
   account_identifier    = ""
   account_region        = ""
   blueprint_identifier  = ""

@@ -1,4 +1,4 @@
-resource "aws_elasticache_replication_group" "sample-elasticache-replication-group" {
+resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-group" {
   apply_immediately              = ""
   at_rest_encryption_enabled     = ""
   auth_token                     = ""

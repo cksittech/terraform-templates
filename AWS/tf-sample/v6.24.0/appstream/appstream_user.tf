@@ -1,4 +1,4 @@
-resource "aws_appstream_user" "sample-appstream-user" {
+resource "aws_appstream_user" "tf-sample-appstream-user" {
   authentication_type     = ""
   created_time            = ""
   enabled                 = ""

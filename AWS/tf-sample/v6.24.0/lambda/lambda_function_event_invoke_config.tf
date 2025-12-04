@@ -1,4 +1,4 @@
-resource "aws_lambda_function_event_invoke_config" "sample-lambda-function-event-invoke-config" {
+resource "aws_lambda_function_event_invoke_config" "tf-sample-lambda-function-event-invoke-config" {
   function_name                = ""
   id                           = ""
   maximum_event_age_in_seconds = ""

@@ -1,4 +1,4 @@
-resource "aws_vpc" "sample-vpc" {
+resource "aws_vpc" "tf-sample-vpc" {
   assign_generated_ipv6_cidr_block     = ""
   cidr_block                           = ""
   default_network_acl_id               = ""

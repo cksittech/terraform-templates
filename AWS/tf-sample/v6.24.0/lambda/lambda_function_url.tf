@@ -1,4 +1,4 @@
-resource "aws_lambda_function_url" "sample-lambda-function-url" {
+resource "aws_lambda_function_url" "tf-sample-lambda-function-url" {
   authorization_type = ""
   function_arn       = ""
   function_name      = ""

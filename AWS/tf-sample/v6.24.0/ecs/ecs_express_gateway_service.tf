@@ -1,4 +1,4 @@
-resource "aws_ecs_express_gateway_service" "sample-ecs-express-gateway-service" {
+resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-service" {
   cluster                 = ""
   cpu                     = ""
   current_deployment      = ""

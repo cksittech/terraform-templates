@@ -1,4 +1,4 @@
-resource "aws_ec2_network_insights_path" "sample-ec2-network-insights-path" {
+resource "aws_ec2_network_insights_path" "tf-sample-ec2-network-insights-path" {
   destination      = ""
   destination_arn  = ""
   destination_ip   = ""

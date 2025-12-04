@@ -1,4 +1,4 @@
-resource "aws_ses_template" "sample-ses-template" {
+resource "aws_ses_template" "tf-sample-ses-template" {
   html    = ""
   id      = ""
   name    = ""

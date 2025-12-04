@@ -1,4 +1,4 @@
-resource "aws_amplify_app" "sample-amplify-app" {
+resource "aws_amplify_app" "tf-sample-amplify-app" {
   access_token                  = ""
   auto_branch_creation_patterns = []
   basic_auth_credentials        = ""

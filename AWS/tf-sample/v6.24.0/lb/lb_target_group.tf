@@ -1,4 +1,4 @@
-resource "aws_lb_target_group" "sample-lb-target-group" {
+resource "aws_lb_target_group" "tf-sample-lb-target-group" {
   arn_suffix                         = ""
   connection_termination             = ""
   deregistration_delay               = ""

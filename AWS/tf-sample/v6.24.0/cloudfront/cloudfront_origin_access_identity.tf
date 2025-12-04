@@ -1,4 +1,4 @@
-resource "aws_cloudfront_origin_access_identity" "sample-cloudfront-origin-access-identity" {
+resource "aws_cloudfront_origin_access_identity" "tf-sample-cloudfront-origin-access-identity" {
   caller_reference                = ""
   cloudfront_access_identity_path = ""
   comment                         = ""

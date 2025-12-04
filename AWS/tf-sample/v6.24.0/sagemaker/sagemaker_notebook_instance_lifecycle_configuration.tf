@@ -1,4 +1,4 @@
-resource "aws_sagemaker_notebook_instance_lifecycle_configuration" "sample-sagemaker-notebook-instance-lifecycle-configuration" {
+resource "aws_sagemaker_notebook_instance_lifecycle_configuration" "tf-sample-sagemaker-notebook-instance-lifecycle-configuration" {
   id        = ""
   name      = ""
   on_create = ""

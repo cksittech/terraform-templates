@@ -1,4 +1,4 @@
-resource "aws_networkmanager_attachment_accepter" "sample-networkmanager-attachment-accepter" {
+resource "aws_networkmanager_attachment_accepter" "tf-sample-networkmanager-attachment-accepter" {
   attachment_id                 = ""
   attachment_policy_rule_number = ""
   attachment_type               = ""

@@ -1,4 +1,4 @@
-resource "aws_directory_service_directory" "sample-directory-service-directory" {
+resource "aws_directory_service_directory" "tf-sample-directory-service-directory" {
   access_url                           = ""
   alias                                = ""
   description                          = ""

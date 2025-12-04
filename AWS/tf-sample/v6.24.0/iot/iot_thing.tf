@@ -1,4 +1,4 @@
-resource "aws_iot_thing" "sample-iot-thing" {
+resource "aws_iot_thing" "tf-sample-iot-thing" {
   attributes        = {}
   default_client_id = ""
   id                = ""

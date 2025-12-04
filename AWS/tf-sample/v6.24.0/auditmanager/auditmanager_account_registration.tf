@@ -1,4 +1,4 @@
-resource "aws_auditmanager_account_registration" "sample-auditmanager-account-registration" {
+resource "aws_auditmanager_account_registration" "tf-sample-auditmanager-account-registration" {
   delegated_admin_account = ""
   deregister_on_destroy   = ""
   id                      = ""

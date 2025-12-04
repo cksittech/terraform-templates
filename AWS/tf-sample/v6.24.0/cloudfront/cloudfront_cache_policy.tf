@@ -1,4 +1,4 @@
-resource "aws_cloudfront_cache_policy" "sample-cloudfront-cache-policy" {
+resource "aws_cloudfront_cache_policy" "tf-sample-cloudfront-cache-policy" {
   comment     = ""
   default_ttl = ""
   etag        = ""

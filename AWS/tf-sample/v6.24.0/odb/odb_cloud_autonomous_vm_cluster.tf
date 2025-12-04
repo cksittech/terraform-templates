@@ -1,4 +1,4 @@
-resource "aws_odb_cloud_autonomous_vm_cluster" "sample-odb-cloud-autonomous-vm-cluster" {
+resource "aws_odb_cloud_autonomous_vm_cluster" "tf-sample-odb-cloud-autonomous-vm-cluster" {
   autonomous_data_storage_percentage               = ""
   autonomous_data_storage_size_in_tbs              = ""
   available_autonomous_data_storage_size_in_tbs    = ""

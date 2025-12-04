@@ -1,4 +1,4 @@
-resource "aws_sfn_state_machine" "sample-sfn-state-machine" {
+resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
   creation_date             = ""
   definition                = ""
   description               = ""

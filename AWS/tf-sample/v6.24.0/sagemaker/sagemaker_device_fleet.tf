@@ -1,4 +1,4 @@
-resource "aws_sagemaker_device_fleet" "sample-sagemaker-device-fleet" {
+resource "aws_sagemaker_device_fleet" "tf-sample-sagemaker-device-fleet" {
   description           = ""
   device_fleet_name     = ""
   enable_iot_role_alias = ""

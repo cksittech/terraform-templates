@@ -1,4 +1,4 @@
-resource "aws_waf_regex_match_set" "sample-waf-regex-match-set" {
+resource "aws_waf_regex_match_set" "tf-sample-waf-regex-match-set" {
   id   = ""
   name = ""
   

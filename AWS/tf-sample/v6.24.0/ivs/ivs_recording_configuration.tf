@@ -1,4 +1,4 @@
-resource "aws_ivs_recording_configuration" "sample-ivs-recording-configuration" {
+resource "aws_ivs_recording_configuration" "tf-sample-ivs-recording-configuration" {
   id                                 = ""
   name                               = ""
   recording_reconnect_window_seconds = ""

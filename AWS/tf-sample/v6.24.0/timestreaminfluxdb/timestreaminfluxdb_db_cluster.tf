@@ -1,4 +1,4 @@
-resource "aws_timestreaminfluxdb_db_cluster" "sample-timestreaminfluxdb-db-cluster" {
+resource "aws_timestreaminfluxdb_db_cluster" "tf-sample-timestreaminfluxdb-db-cluster" {
   allocated_storage                 = ""
   bucket                            = ""
   db_instance_type                  = ""

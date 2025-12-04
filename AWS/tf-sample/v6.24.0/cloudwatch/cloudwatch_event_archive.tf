@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_event_archive" "sample-cloudwatch-event-archive" {
+resource "aws_cloudwatch_event_archive" "tf-sample-cloudwatch-event-archive" {
   description        = ""
   event_pattern      = ""
   event_source_arn   = ""

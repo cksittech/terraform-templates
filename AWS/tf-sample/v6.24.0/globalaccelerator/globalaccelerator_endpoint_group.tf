@@ -1,4 +1,4 @@
-resource "aws_globalaccelerator_endpoint_group" "sample-globalaccelerator-endpoint-group" {
+resource "aws_globalaccelerator_endpoint_group" "tf-sample-globalaccelerator-endpoint-group" {
   endpoint_group_region         = ""
   health_check_interval_seconds = ""
   health_check_path             = ""

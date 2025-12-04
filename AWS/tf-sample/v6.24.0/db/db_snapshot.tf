@@ -1,4 +1,4 @@
-resource "aws_db_snapshot" "sample-db-snapshot" {
+resource "aws_db_snapshot" "tf-sample-db-snapshot" {
   allocated_storage             = ""
   availability_zone             = ""
   db_instance_identifier        = ""

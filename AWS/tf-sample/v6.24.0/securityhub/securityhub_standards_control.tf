@@ -1,4 +1,4 @@
-resource "aws_securityhub_standards_control" "sample-securityhub-standards-control" {
+resource "aws_securityhub_standards_control" "tf-sample-securityhub-standards-control" {
   control_id                = ""
   control_status            = ""
   control_status_updated_at = ""

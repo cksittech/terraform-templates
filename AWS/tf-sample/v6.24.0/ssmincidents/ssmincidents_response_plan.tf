@@ -1,4 +1,4 @@
-resource "aws_ssmincidents_response_plan" "sample-ssmincidents-response-plan" {
+resource "aws_ssmincidents_response_plan" "tf-sample-ssmincidents-response-plan" {
   chat_channel = []
   display_name = ""
   engagements  = []

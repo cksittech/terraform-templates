@@ -1,4 +1,4 @@
-resource "aws_ec2_transit_gateway_route_table_propagation" "sample-ec2-transit-gateway-route-table-propagation" {
+resource "aws_ec2_transit_gateway_route_table_propagation" "tf-sample-ec2-transit-gateway-route-table-propagation" {
   id                             = ""
   region                         = ""
   resource_id                    = ""

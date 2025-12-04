@@ -1,4 +1,4 @@
-resource "aws_billing_view" "sample-billing-view" {
+resource "aws_billing_view" "tf-sample-billing-view" {
   billing_view_type               = ""
   created_at                      = ""
   derived_view_count              = ""

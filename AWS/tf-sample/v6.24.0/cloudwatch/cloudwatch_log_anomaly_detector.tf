@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_anomaly_detector" "sample-cloudwatch-log-anomaly-detector" {
+resource "aws_cloudwatch_log_anomaly_detector" "tf-sample-cloudwatch-log-anomaly-detector" {
   anomaly_visibility_time = ""
   detector_name           = ""
   enabled                 = ""

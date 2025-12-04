@@ -1,4 +1,4 @@
-resource "aws_directory_service_radius_settings" "sample-directory-service-radius-settings" {
+resource "aws_directory_service_radius_settings" "tf-sample-directory-service-radius-settings" {
   authentication_protocol = ""
   directory_id            = ""
   display_label           = ""

@@ -1,4 +1,4 @@
-resource "aws_vpc_peering_connection_accepter" "sample-vpc-peering-connection-accepter" {
+resource "aws_vpc_peering_connection_accepter" "tf-sample-vpc-peering-connection-accepter" {
   accept_status             = ""
   auto_accept               = ""
   id                        = ""

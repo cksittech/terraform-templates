@@ -1,4 +1,4 @@
-resource "aws_workspaces_directory" "sample-workspaces-directory" {
+resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
   alias                           = ""
   customer_user_name              = ""
   directory_id                    = ""

@@ -1,4 +1,4 @@
-resource "aws_schemas_discoverer" "sample-schemas-discoverer" {
+resource "aws_schemas_discoverer" "tf-sample-schemas-discoverer" {
   description = ""
   id          = ""
   region      = ""

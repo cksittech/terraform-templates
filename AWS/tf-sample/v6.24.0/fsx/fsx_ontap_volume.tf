@@ -1,4 +1,4 @@
-resource "aws_fsx_ontap_volume" "sample-fsx-ontap-volume" {
+resource "aws_fsx_ontap_volume" "tf-sample-fsx-ontap-volume" {
   bypass_snaplock_enterprise_retention = ""
   copy_tags_to_backups                 = ""
   file_system_id                       = ""

@@ -1,4 +1,4 @@
-resource "aws_inspector2_filter" "sample-inspector2-filter" {
+resource "aws_inspector2_filter" "tf-sample-inspector2-filter" {
   action      = ""
   description = ""
   name        = ""

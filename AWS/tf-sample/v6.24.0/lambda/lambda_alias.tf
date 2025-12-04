@@ -1,4 +1,4 @@
-resource "aws_lambda_alias" "sample-lambda-alias" {
+resource "aws_lambda_alias" "tf-sample-lambda-alias" {
   description      = ""
   function_name    = ""
   function_version = ""

@@ -1,4 +1,4 @@
-resource "aws_kendra_index" "sample-kendra-index" {
+resource "aws_kendra_index" "tf-sample-kendra-index" {
   created_at          = ""
   description         = ""
   edition             = ""

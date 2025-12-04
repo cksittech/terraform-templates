@@ -1,4 +1,4 @@
-resource "aws_controltower_baseline" "sample-controltower-baseline" {
+resource "aws_controltower_baseline" "tf-sample-controltower-baseline" {
   baseline_identifier  = ""
   baseline_version     = ""
   operation_identifier = ""

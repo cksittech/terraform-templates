@@ -1,4 +1,4 @@
-resource "aws_evidently_segment" "sample-evidently-segment" {
+resource "aws_evidently_segment" "tf-sample-evidently-segment" {
   created_time      = ""
   description       = ""
   experiment_count  = ""

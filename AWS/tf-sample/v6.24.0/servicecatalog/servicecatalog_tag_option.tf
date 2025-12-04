@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_tag_option" "sample-servicecatalog-tag-option" {
+resource "aws_servicecatalog_tag_option" "tf-sample-servicecatalog-tag-option" {
   active = ""
   id     = ""
   key    = ""

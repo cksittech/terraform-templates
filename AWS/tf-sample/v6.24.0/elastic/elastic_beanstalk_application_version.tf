@@ -1,4 +1,4 @@
-resource "aws_elastic_beanstalk_application_version" "sample-elastic-beanstalk-application-version" {
+resource "aws_elastic_beanstalk_application_version" "tf-sample-elastic-beanstalk-application-version" {
   application  = ""
   bucket       = ""
   description  = ""

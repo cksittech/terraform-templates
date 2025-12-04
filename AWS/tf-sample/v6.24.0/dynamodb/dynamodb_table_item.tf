@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table_item" "sample-dynamodb-table-item" {
+resource "aws_dynamodb_table_item" "tf-sample-dynamodb-table-item" {
   hash_key   = ""
   id         = ""
   item       = ""

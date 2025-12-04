@@ -1,4 +1,4 @@
-resource "aws_service_discovery_service" "sample-service-discovery-service" {
+resource "aws_service_discovery_service" "tf-sample-service-discovery-service" {
   description   = ""
   force_destroy = ""
   id            = ""

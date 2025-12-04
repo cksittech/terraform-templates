@@ -1,4 +1,4 @@
-resource "aws_cognito_user_pool" "sample-cognito-user-pool" {
+resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   alias_attributes           = []
   auto_verified_attributes   = []
   creation_date              = ""

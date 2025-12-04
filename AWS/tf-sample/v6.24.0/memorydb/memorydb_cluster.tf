@@ -1,4 +1,4 @@
-resource "aws_memorydb_cluster" "sample-memorydb-cluster" {
+resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   acl_name                   = ""
   auto_minor_version_upgrade = ""
   cluster_endpoint           = []

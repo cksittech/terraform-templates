@@ -1,4 +1,4 @@
-resource "aws_kms_replica_key" "sample-kms-replica-key" {
+resource "aws_kms_replica_key" "tf-sample-kms-replica-key" {
   bypass_policy_lockout_safety_check = ""
   deletion_window_in_days            = ""
   description                        = ""

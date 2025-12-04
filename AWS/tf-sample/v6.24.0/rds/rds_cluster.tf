@@ -1,4 +1,4 @@
-resource "aws_rds_cluster" "sample-rds-cluster" {
+resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   allocated_storage                     = ""
   allow_major_version_upgrade           = ""
   apply_immediately                     = ""

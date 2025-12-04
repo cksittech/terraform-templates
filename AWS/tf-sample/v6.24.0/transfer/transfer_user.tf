@@ -1,4 +1,4 @@
-resource "aws_transfer_user" "sample-transfer-user" {
+resource "aws_transfer_user" "tf-sample-transfer-user" {
   home_directory      = ""
   home_directory_type = ""
   id                  = ""

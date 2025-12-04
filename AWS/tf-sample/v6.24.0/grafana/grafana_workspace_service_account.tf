@@ -1,4 +1,4 @@
-resource "aws_grafana_workspace_service_account" "sample-grafana-workspace-service-account" {
+resource "aws_grafana_workspace_service_account" "tf-sample-grafana-workspace-service-account" {
   grafana_role       = ""
   id                 = ""
   name               = ""

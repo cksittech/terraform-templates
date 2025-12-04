@@ -1,4 +1,4 @@
-resource "aws_api_gateway_method_settings" "sample-api-gateway-method-settings" {
+resource "aws_api_gateway_method_settings" "tf-sample-api-gateway-method-settings" {
   id          = ""
   method_path = ""
   region      = ""

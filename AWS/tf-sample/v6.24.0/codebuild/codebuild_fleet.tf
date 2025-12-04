@@ -1,4 +1,4 @@
-resource "aws_codebuild_fleet" "sample-codebuild-fleet" {
+resource "aws_codebuild_fleet" "tf-sample-codebuild-fleet" {
   base_capacity      = ""
   compute_type       = ""
   created            = ""

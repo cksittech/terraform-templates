@@ -1,4 +1,4 @@
-resource "aws_servicecatalogappregistry_application" "sample-servicecatalogappregistry-application" {
+resource "aws_servicecatalogappregistry_application" "tf-sample-servicecatalogappregistry-application" {
   application_tag = {}
   description     = ""
   id              = ""

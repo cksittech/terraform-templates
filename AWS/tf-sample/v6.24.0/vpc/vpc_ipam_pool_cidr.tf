@@ -1,4 +1,4 @@
-resource "aws_vpc_ipam_pool_cidr" "sample-vpc-ipam-pool-cidr" {
+resource "aws_vpc_ipam_pool_cidr" "tf-sample-vpc-ipam-pool-cidr" {
   cidr              = ""
   id                = ""
   ipam_pool_cidr_id = ""

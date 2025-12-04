@@ -1,4 +1,4 @@
-resource "aws_redshift_endpoint_access" "sample-redshift-endpoint-access" {
+resource "aws_redshift_endpoint_access" "tf-sample-redshift-endpoint-access" {
   address                = ""
   cluster_identifier     = ""
   endpoint_name          = ""

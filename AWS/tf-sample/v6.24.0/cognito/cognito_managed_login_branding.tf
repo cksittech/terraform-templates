@@ -1,4 +1,4 @@
-resource "aws_cognito_managed_login_branding" "sample-cognito-managed-login-branding" {
+resource "aws_cognito_managed_login_branding" "tf-sample-cognito-managed-login-branding" {
   client_id                   = ""
   managed_login_branding_id   = ""
   region                      = ""

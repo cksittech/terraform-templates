@@ -1,4 +1,4 @@
-resource "aws_cloudhsm_v2_hsm" "sample-cloudhsm-v2-hsm" {
+resource "aws_cloudhsm_v2_hsm" "tf-sample-cloudhsm-v2-hsm" {
   availability_zone = ""
   cluster_id        = ""
   hsm_eni_id        = ""

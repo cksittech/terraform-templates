@@ -1,4 +1,4 @@
-resource "aws_location_tracker" "sample-location-tracker" {
+resource "aws_location_tracker" "tf-sample-location-tracker" {
   create_time        = ""
   description        = ""
   id                 = ""

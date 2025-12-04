@@ -1,4 +1,4 @@
-resource "aws_lightsail_lb" "sample-lightsail-lb" {
+resource "aws_lightsail_lb" "tf-sample-lightsail-lb" {
   created_at        = ""
   dns_name          = ""
   health_check_path = ""

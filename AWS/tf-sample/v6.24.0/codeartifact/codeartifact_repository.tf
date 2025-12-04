@@ -1,4 +1,4 @@
-resource "aws_codeartifact_repository" "sample-codeartifact-repository" {
+resource "aws_codeartifact_repository" "tf-sample-codeartifact-repository" {
   administrator_account = ""
   description           = ""
   domain                = ""

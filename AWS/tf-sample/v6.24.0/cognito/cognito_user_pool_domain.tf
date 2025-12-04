@@ -1,4 +1,4 @@
-resource "aws_cognito_user_pool_domain" "sample-cognito-user-pool-domain" {
+resource "aws_cognito_user_pool_domain" "tf-sample-cognito-user-pool-domain" {
   aws_account_id                  = ""
   certificate_arn                 = ""
   cloudfront_distribution         = ""

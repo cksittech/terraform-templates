@@ -1,4 +1,4 @@
-resource "aws_config_delivery_channel" "sample-config-delivery-channel" {
+resource "aws_config_delivery_channel" "tf-sample-config-delivery-channel" {
   id             = ""
   name           = ""
   region         = ""

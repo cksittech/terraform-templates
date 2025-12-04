@@ -1,4 +1,4 @@
-resource "aws_route53profiles_resource_association" "sample-route53profiles-resource-association" {
+resource "aws_route53profiles_resource_association" "tf-sample-route53profiles-resource-association" {
   id                  = ""
   name                = ""
   owner_id            = ""

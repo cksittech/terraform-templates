@@ -1,4 +1,4 @@
-resource "aws_rds_cluster_snapshot_copy" "sample-rds-cluster-snapshot-copy" {
+resource "aws_rds_cluster_snapshot_copy" "tf-sample-rds-cluster-snapshot-copy" {
   allocated_storage                     = ""
   copy_tags                             = ""
   db_cluster_snapshot_arn               = ""

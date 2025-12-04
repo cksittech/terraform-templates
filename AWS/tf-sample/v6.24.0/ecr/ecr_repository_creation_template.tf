@@ -1,4 +1,4 @@
-resource "aws_ecr_repository_creation_template" "sample-ecr-repository-creation-template" {
+resource "aws_ecr_repository_creation_template" "tf-sample-ecr-repository-creation-template" {
   applied_for          = []
   custom_role_arn      = ""
   description          = ""

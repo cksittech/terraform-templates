@@ -1,4 +1,4 @@
-resource "aws_appstream_stack" "sample-appstream-stack" {
+resource "aws_appstream_stack" "tf-sample-appstream-stack" {
   created_time       = ""
   description        = ""
   display_name       = ""

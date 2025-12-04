@@ -1,4 +1,4 @@
-resource "aws_memorydb_multi_region_cluster" "sample-memorydb-multi-region-cluster" {
+resource "aws_memorydb_multi_region_cluster" "tf-sample-memorydb-multi-region-cluster" {
   description                       = ""
   engine                            = ""
   engine_version                    = ""

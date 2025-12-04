@@ -1,4 +1,4 @@
-resource "aws_cloudfront_response_headers_policy" "sample-cloudfront-response-headers-policy" {
+resource "aws_cloudfront_response_headers_policy" "tf-sample-cloudfront-response-headers-policy" {
   comment = ""
   etag    = ""
   id      = ""

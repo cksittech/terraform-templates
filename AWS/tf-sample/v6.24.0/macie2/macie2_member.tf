@@ -1,4 +1,4 @@
-resource "aws_macie2_member" "sample-macie2-member" {
+resource "aws_macie2_member" "tf-sample-macie2-member" {
   account_id                            = ""
   administrator_account_id              = ""
   email                                 = ""

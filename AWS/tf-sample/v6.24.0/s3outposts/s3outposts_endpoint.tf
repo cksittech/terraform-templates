@@ -1,4 +1,4 @@
-resource "aws_s3outposts_endpoint" "sample-s3outposts-endpoint" {
+resource "aws_s3outposts_endpoint" "tf-sample-s3outposts-endpoint" {
   access_type              = ""
   cidr_block               = ""
   creation_time            = ""

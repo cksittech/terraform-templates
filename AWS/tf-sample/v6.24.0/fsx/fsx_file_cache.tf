@@ -1,4 +1,4 @@
-resource "aws_fsx_file_cache" "sample-fsx-file-cache" {
+resource "aws_fsx_file_cache" "tf-sample-fsx-file-cache" {
   copy_tags_to_data_repository_associations = ""
   data_repository_association_ids           = []
   dns_name                                  = ""

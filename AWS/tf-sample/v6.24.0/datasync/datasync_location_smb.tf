@@ -1,4 +1,4 @@
-resource "aws_datasync_location_smb" "sample-datasync-location-smb" {
+resource "aws_datasync_location_smb" "tf-sample-datasync-location-smb" {
   agent_arns      = []
   domain          = ""
   id              = ""

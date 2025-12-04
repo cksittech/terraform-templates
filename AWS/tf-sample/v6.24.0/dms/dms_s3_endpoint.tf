@@ -1,4 +1,4 @@
-resource "aws_dms_s3_endpoint" "sample-dms-s3-endpoint" {
+resource "aws_dms_s3_endpoint" "tf-sample-dms-s3-endpoint" {
   add_column_name                             = ""
   add_trailing_padding_character              = ""
   bucket_folder                               = ""

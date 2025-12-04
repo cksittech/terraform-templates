@@ -1,4 +1,4 @@
-resource "aws_ssoadmin_trusted_token_issuer" "sample-ssoadmin-trusted-token-issuer" {
+resource "aws_ssoadmin_trusted_token_issuer" "tf-sample-ssoadmin-trusted-token-issuer" {
   client_token              = ""
   id                        = ""
   instance_arn              = ""

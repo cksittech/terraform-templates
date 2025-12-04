@@ -1,4 +1,4 @@
-resource "aws_kendra_query_suggestions_block_list" "sample-kendra-query-suggestions-block-list" {
+resource "aws_kendra_query_suggestions_block_list" "tf-sample-kendra-query-suggestions-block-list" {
   description                     = ""
   id                              = ""
   index_id                        = ""

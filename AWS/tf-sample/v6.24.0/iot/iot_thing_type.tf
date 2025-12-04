@@ -1,4 +1,4 @@
-resource "aws_iot_thing_type" "sample-iot-thing-type" {
+resource "aws_iot_thing_type" "tf-sample-iot-thing-type" {
   deprecated = ""
   id         = ""
   name       = ""

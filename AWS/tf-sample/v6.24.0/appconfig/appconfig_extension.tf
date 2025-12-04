@@ -1,4 +1,4 @@
-resource "aws_appconfig_extension" "sample-appconfig-extension" {
+resource "aws_appconfig_extension" "tf-sample-appconfig-extension" {
   description = ""
   id          = ""
   name        = ""

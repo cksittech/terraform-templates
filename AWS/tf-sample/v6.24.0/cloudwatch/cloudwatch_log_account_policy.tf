@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_account_policy" "sample-cloudwatch-log-account-policy" {
+resource "aws_cloudwatch_log_account_policy" "tf-sample-cloudwatch-log-account-policy" {
   id                 = ""
   policy_document    = ""
   policy_name        = ""

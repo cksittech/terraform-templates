@@ -1,4 +1,4 @@
-resource "aws_sns_topic" "sample-sns-topic" {
+resource "aws_sns_topic" "tf-sample-sns-topic" {
   application_failure_feedback_role_arn    = ""
   application_success_feedback_role_arn    = ""
   application_success_feedback_sample_rate = ""

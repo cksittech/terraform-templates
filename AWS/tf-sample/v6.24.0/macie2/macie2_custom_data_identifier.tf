@@ -1,4 +1,4 @@
-resource "aws_macie2_custom_data_identifier" "sample-macie2-custom-data-identifier" {
+resource "aws_macie2_custom_data_identifier" "tf-sample-macie2-custom-data-identifier" {
   created_at             = ""
   description            = ""
   id                     = ""

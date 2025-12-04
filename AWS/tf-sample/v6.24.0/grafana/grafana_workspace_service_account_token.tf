@@ -1,4 +1,4 @@
-resource "aws_grafana_workspace_service_account_token" "sample-grafana-workspace-service-account-token" {
+resource "aws_grafana_workspace_service_account_token" "tf-sample-grafana-workspace-service-account-token" {
   created_at               = ""
   expires_at               = ""
   id                       = ""

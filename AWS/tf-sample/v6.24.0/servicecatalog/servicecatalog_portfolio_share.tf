@@ -1,4 +1,4 @@
-resource "aws_servicecatalog_portfolio_share" "sample-servicecatalog-portfolio-share" {
+resource "aws_servicecatalog_portfolio_share" "tf-sample-servicecatalog-portfolio-share" {
   accept_language     = ""
   accepted            = ""
   id                  = ""

@@ -1,4 +1,4 @@
-resource "aws_codebuild_webhook" "sample-codebuild-webhook" {
+resource "aws_codebuild_webhook" "tf-sample-codebuild-webhook" {
   branch_filter   = ""
   build_type      = ""
   id              = ""

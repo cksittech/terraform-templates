@@ -1,4 +1,4 @@
-resource "aws_vpclattice_resource_gateway" "sample-vpclattice-resource-gateway" {
+resource "aws_vpclattice_resource_gateway" "tf-sample-vpclattice-resource-gateway" {
   id                     = ""
   ip_address_type        = ""
   ipv4_addresses_per_eni = ""

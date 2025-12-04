@@ -1,4 +1,4 @@
-resource "aws_quicksight_template" "sample-quicksight-template" {
+resource "aws_quicksight_template" "tf-sample-quicksight-template" {
   aws_account_id      = ""
   created_time        = ""
   id                  = ""

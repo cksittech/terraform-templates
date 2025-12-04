@@ -1,4 +1,4 @@
-resource "aws_kms_external_key" "sample-kms-external-key" {
+resource "aws_kms_external_key" "tf-sample-kms-external-key" {
   bypass_policy_lockout_safety_check = ""
   deletion_window_in_days            = ""
   description                        = ""

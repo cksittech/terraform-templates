@@ -1,4 +1,4 @@
-resource "aws_finspace_kx_volume" "sample-finspace-kx-volume" {
+resource "aws_finspace_kx_volume" "tf-sample-finspace-kx-volume" {
   attached_clusters       = []
   availability_zones      = []
   az_mode                 = ""

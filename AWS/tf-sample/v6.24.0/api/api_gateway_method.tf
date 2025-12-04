@@ -1,4 +1,4 @@
-resource "aws_api_gateway_method" "sample-api-gateway-method" {
+resource "aws_api_gateway_method" "tf-sample-api-gateway-method" {
   api_key_required     = ""
   authorization        = ""
   authorization_scopes = []

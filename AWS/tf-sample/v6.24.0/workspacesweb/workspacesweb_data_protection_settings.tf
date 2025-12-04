@@ -1,4 +1,4 @@
-resource "aws_workspacesweb_data_protection_settings" "sample-workspacesweb-data-protection-settings" {
+resource "aws_workspacesweb_data_protection_settings" "tf-sample-workspacesweb-data-protection-settings" {
   additional_encryption_context = {}
   associated_portal_arns        = []
   customer_managed_key          = ""

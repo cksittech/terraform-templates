@@ -1,4 +1,4 @@
-resource "aws_lakeformation_opt_in" "sample-lakeformation-opt-in" {
+resource "aws_lakeformation_opt_in" "tf-sample-lakeformation-opt-in" {
   last_modified   = ""
   last_updated_by = ""
   region          = ""

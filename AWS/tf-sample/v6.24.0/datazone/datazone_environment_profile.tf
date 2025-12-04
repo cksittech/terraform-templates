@@ -1,4 +1,4 @@
-resource "aws_datazone_environment_profile" "sample-datazone-environment-profile" {
+resource "aws_datazone_environment_profile" "tf-sample-datazone-environment-profile" {
   aws_account_id                   = ""
   aws_account_region               = ""
   created_at                       = ""

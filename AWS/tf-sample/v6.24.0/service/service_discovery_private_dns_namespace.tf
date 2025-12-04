@@ -1,4 +1,4 @@
-resource "aws_service_discovery_private_dns_namespace" "sample-service-discovery-private-dns-namespace" {
+resource "aws_service_discovery_private_dns_namespace" "tf-sample-service-discovery-private-dns-namespace" {
   description = ""
   hosted_zone = ""
   id          = ""

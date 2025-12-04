@@ -1,4 +1,4 @@
-resource "aws_storagegateway_nfs_file_share" "sample-storagegateway-nfs-file-share" {
+resource "aws_storagegateway_nfs_file_share" "tf-sample-storagegateway-nfs-file-share" {
   audit_destination_arn   = ""
   bucket_region           = ""
   client_list             = []

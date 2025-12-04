@@ -1,4 +1,4 @@
-resource "aws_macie2_classification_job" "sample-macie2-classification-job" {
+resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
   created_at                 = ""
   custom_data_identifier_ids = []
   description                = ""

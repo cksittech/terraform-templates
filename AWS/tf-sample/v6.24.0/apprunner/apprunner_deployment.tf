@@ -1,4 +1,4 @@
-resource "aws_apprunner_deployment" "sample-apprunner-deployment" {
+resource "aws_apprunner_deployment" "tf-sample-apprunner-deployment" {
   id           = ""
   operation_id = ""
   region       = ""

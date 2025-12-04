@@ -1,4 +1,4 @@
-resource "aws_emr_instance_fleet" "sample-emr-instance-fleet" {
+resource "aws_emr_instance_fleet" "tf-sample-emr-instance-fleet" {
   cluster_id                     = ""
   id                             = ""
   name                           = ""

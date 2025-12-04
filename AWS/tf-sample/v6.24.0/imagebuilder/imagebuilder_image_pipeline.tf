@@ -1,4 +1,4 @@
-resource "aws_imagebuilder_image_pipeline" "sample-imagebuilder-image-pipeline" {
+resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipeline" {
   container_recipe_arn             = ""
   date_created                     = ""
   date_last_run                    = ""

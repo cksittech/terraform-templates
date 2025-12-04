@@ -1,4 +1,4 @@
-resource "aws_gamelift_build" "sample-gamelift-build" {
+resource "aws_gamelift_build" "tf-sample-gamelift-build" {
   id               = ""
   name             = ""
   operating_system = ""

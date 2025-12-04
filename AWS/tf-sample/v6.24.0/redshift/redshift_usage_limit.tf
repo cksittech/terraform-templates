@@ -1,4 +1,4 @@
-resource "aws_redshift_usage_limit" "sample-redshift-usage-limit" {
+resource "aws_redshift_usage_limit" "tf-sample-redshift-usage-limit" {
   amount             = ""
   breach_action      = ""
   cluster_identifier = ""

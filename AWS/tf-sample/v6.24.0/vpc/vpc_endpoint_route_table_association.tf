@@ -1,4 +1,4 @@
-resource "aws_vpc_endpoint_route_table_association" "sample-vpc-endpoint-route-table-association" {
+resource "aws_vpc_endpoint_route_table_association" "tf-sample-vpc-endpoint-route-table-association" {
   id              = ""
   region          = ""
   route_table_id  = ""

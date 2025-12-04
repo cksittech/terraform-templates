@@ -1,4 +1,4 @@
-resource "aws_appstream_fleet" "sample-appstream-fleet" {
+resource "aws_appstream_fleet" "tf-sample-appstream-fleet" {
   created_time                       = ""
   description                        = ""
   disconnect_timeout_in_seconds      = ""

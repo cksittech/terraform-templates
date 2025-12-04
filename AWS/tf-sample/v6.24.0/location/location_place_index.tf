@@ -1,4 +1,4 @@
-resource "aws_location_place_index" "sample-location-place-index" {
+resource "aws_location_place_index" "tf-sample-location-place-index" {
   create_time = ""
   data_source = ""
   description = ""

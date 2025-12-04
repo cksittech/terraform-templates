@@ -1,4 +1,4 @@
-resource "aws_athena_database" "sample-athena-database" {
+resource "aws_athena_database" "tf-sample-athena-database" {
   bucket                = ""
   comment               = ""
   expected_bucket_owner = ""

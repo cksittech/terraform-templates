@@ -1,4 +1,4 @@
-resource "aws_glue_classifier" "sample-glue-classifier" {
+resource "aws_glue_classifier" "tf-sample-glue-classifier" {
   id     = ""
   name   = ""
   region = ""

@@ -1,4 +1,4 @@
-resource "aws_redshift_integration" "sample-redshift-integration" {
+resource "aws_redshift_integration" "tf-sample-redshift-integration" {
   additional_encryption_context = {}
   description                   = ""
   integration_name              = ""

@@ -1,4 +1,4 @@
-resource "aws_finspace_kx_environment" "sample-finspace-kx-environment" {
+resource "aws_finspace_kx_environment" "tf-sample-finspace-kx-environment" {
   availability_zones        = []
   created_timestamp         = ""
   description               = ""

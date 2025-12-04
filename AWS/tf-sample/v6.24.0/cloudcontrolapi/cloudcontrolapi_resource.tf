@@ -1,4 +1,4 @@
-resource "aws_cloudcontrolapi_resource" "sample-cloudcontrolapi-resource" {
+resource "aws_cloudcontrolapi_resource" "tf-sample-cloudcontrolapi-resource" {
   desired_state   = ""
   id              = ""
   properties      = ""

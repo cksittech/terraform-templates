@@ -1,4 +1,4 @@
-resource "aws_media_store_container" "sample-media-store-container" {
+resource "aws_media_store_container" "tf-sample-media-store-container" {
   endpoint = ""
   id       = ""
   name     = ""

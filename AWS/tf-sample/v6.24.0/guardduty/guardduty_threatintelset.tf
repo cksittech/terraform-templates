@@ -1,4 +1,4 @@
-resource "aws_guardduty_threatintelset" "sample-guardduty-threatintelset" {
+resource "aws_guardduty_threatintelset" "tf-sample-guardduty-threatintelset" {
   activate    = ""
   detector_id = ""
   format      = ""

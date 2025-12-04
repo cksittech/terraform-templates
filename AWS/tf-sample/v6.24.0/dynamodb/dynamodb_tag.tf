@@ -1,4 +1,4 @@
-resource "aws_dynamodb_tag" "sample-dynamodb-tag" {
+resource "aws_dynamodb_tag" "tf-sample-dynamodb-tag" {
   id           = ""
   key          = ""
   region       = ""

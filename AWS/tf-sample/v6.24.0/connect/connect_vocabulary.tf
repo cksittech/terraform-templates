@@ -1,4 +1,4 @@
-resource "aws_connect_vocabulary" "sample-connect-vocabulary" {
+resource "aws_connect_vocabulary" "tf-sample-connect-vocabulary" {
   content            = ""
   failure_reason     = ""
   id                 = ""

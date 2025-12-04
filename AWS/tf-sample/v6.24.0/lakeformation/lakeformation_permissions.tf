@@ -1,4 +1,4 @@
-resource "aws_lakeformation_permissions" "sample-lakeformation-permissions" {
+resource "aws_lakeformation_permissions" "tf-sample-lakeformation-permissions" {
   catalog_id                    = ""
   catalog_resource              = ""
   id                            = ""

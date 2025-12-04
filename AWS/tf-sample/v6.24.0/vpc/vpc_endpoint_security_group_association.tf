@@ -1,4 +1,4 @@
-resource "aws_vpc_endpoint_security_group_association" "sample-vpc-endpoint-security-group-association" {
+resource "aws_vpc_endpoint_security_group_association" "tf-sample-vpc-endpoint-security-group-association" {
   id                          = ""
   region                      = ""
   replace_default_association = ""

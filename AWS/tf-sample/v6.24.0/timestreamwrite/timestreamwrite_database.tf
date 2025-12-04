@@ -1,4 +1,4 @@
-resource "aws_timestreamwrite_database" "sample-timestreamwrite-database" {
+resource "aws_timestreamwrite_database" "tf-sample-timestreamwrite-database" {
   database_name = ""
   id            = ""
   kms_key_id    = ""
