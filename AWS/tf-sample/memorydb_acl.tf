@@ -1,0 +1,10 @@
+resource "aws_memorydb_acl" "sample-memorydb-acl" {
+  id                     = ""
+  minimum_engine_version = ""
+  name                   = ""
+  name_prefix            = ""
+  region                 = ""
+  user_names             = []
+  
+  tags = {}
+}

@@ -1,0 +1,15 @@
+resource "aws_route53_resolver_firewall_rule" "sample-route53-resolver-firewall-rule" {
+  action                             = ""
+  block_override_dns_type            = ""
+  block_override_domain              = ""
+  block_override_ttl                 = ""
+  block_response                     = ""
+  firewall_domain_list_id            = ""
+  firewall_domain_redirection_action = ""
+  firewall_rule_group_id             = ""
+  id                                 = ""
+  name                               = ""
+  priority                           = ""
+  q_type                             = ""
+  region                             = ""
+}

@@ -1,0 +1,10 @@
+resource "aws_swf_domain" "sample-swf-domain" {
+  description                                 = ""
+  id                                          = ""
+  name                                        = ""
+  name_prefix                                 = ""
+  region                                      = ""
+  workflow_execution_retention_period_in_days = ""
+  
+  tags = {}
+}

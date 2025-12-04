@@ -1,0 +1,33 @@
+resource "aws_opensearch_domain" "sample-opensearch-domain" {
+  access_policies                   = ""
+  advanced_options                  = {}
+  dashboard_endpoint                = ""
+  dashboard_endpoint_v2             = ""
+  domain_endpoint_v2_hosted_zone_id = ""
+  domain_id                         = ""
+  domain_name                       = ""
+  endpoint                          = ""
+  endpoint_v2                       = ""
+  engine_version                    = ""
+  id                                = ""
+  ip_address_type                   = ""
+  region                            = ""
+  
+  advanced_security_options {}
+  aiml_options {}
+  auto_tune_options {}
+  cluster_config {}
+  cognito_options {}
+  domain_endpoint_options {}
+  ebs_options {}
+  encrypt_at_rest {}
+  identity_center_options {}
+  log_publishing_options {}
+  node_to_node_encryption {}
+  off_peak_window_options {}
+  snapshot_options {}
+  software_update_options {}
+  vpc_options {}
+  
+  tags = {}
+}

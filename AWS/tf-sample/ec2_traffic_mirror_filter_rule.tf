@@ -1,0 +1,15 @@
+resource "aws_ec2_traffic_mirror_filter_rule" "sample-ec2-traffic-mirror-filter-rule" {
+  description              = ""
+  destination_cidr_block   = ""
+  id                       = ""
+  protocol                 = ""
+  region                   = ""
+  rule_action              = ""
+  rule_number              = ""
+  source_cidr_block        = ""
+  traffic_direction        = ""
+  traffic_mirror_filter_id = ""
+  
+  destination_port_range {}
+  source_port_range {}
+}

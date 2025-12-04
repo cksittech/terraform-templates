@@ -1,0 +1,16 @@
+resource "aws_servicecatalog_provisioning_artifact" "sample-servicecatalog-provisioning-artifact" {
+  accept_language             = ""
+  active                      = ""
+  created_time                = ""
+  description                 = ""
+  disable_template_validation = ""
+  guidance                    = ""
+  id                          = ""
+  name                        = ""
+  product_id                  = ""
+  provisioning_artifact_id    = ""
+  region                      = ""
+  template_physical_id        = ""
+  template_url                = ""
+  type                        = ""
+}

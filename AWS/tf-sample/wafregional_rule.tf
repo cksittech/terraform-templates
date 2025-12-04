@@ -1,0 +1,10 @@
+resource "aws_wafregional_rule" "sample-wafregional-rule" {
+  id          = ""
+  metric_name = ""
+  name        = ""
+  region      = ""
+  
+  predicate {}
+  
+  tags = {}
+}
