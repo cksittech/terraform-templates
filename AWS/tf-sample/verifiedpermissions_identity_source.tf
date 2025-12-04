@@ -1,8 +1,0 @@
-resource "aws_verifiedpermissions_identity_source" "sample-verifiedpermissions-identity-source" {
-  id                    = ""
-  policy_store_id       = ""
-  principal_entity_type = ""
-  region                = ""
-  
-  configuration {}
-}
