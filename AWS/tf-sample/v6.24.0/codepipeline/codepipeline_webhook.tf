@@ -1,6 +1,6 @@
 resource "aws_codepipeline_webhook" "tf-sample-codepipeline-webhook" {
+  arn             = ""
   authentication  = ""
-  id              = ""
   name            = ""
   region          = ""
   target_action   = ""

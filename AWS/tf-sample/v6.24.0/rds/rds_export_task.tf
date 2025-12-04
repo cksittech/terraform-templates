@@ -5,7 +5,7 @@ resource "aws_rds_export_task" "tf-sample-rds-export-task" {
   iam_role_arn           = ""
   id                     = ""
   kms_key_id             = ""
-  percent_progress       = ""
+  percent_progress       = 0
   region                 = ""
   s3_bucket_name         = ""
   s3_prefix              = ""

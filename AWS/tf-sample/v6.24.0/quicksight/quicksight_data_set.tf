@@ -1,7 +1,7 @@
 resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
+  arn            = ""
   aws_account_id = ""
   data_set_id    = ""
-  id             = ""
   import_mode    = ""
   name           = ""
   output_columns = []

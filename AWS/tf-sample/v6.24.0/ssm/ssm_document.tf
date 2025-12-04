@@ -1,4 +1,5 @@
 resource "aws_ssm_document" "tf-sample-ssm-document" {
+  arn              = ""
   content          = ""
   created_date     = ""
   default_version  = ""
@@ -8,7 +9,6 @@ resource "aws_ssm_document" "tf-sample-ssm-document" {
   document_version = ""
   hash             = ""
   hash_type        = ""
-  id               = ""
   latest_version   = ""
   name             = ""
   owner            = ""

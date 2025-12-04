@@ -1,7 +1,6 @@
 resource "aws_identitystore_user" "tf-sample-identitystore-user" {
   display_name       = ""
   external_ids       = []
-  id                 = ""
   identity_store_id  = ""
   locale             = ""
   nickname           = ""

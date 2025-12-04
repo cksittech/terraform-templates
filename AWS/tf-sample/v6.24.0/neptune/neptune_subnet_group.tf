@@ -1,6 +1,6 @@
 resource "aws_neptune_subnet_group" "tf-sample-neptune-subnet-group" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   name_prefix = ""
   region      = ""

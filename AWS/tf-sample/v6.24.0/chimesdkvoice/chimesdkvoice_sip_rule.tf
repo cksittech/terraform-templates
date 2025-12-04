@@ -1,6 +1,5 @@
 resource "aws_chimesdkvoice_sip_rule" "tf-sample-chimesdkvoice-sip-rule" {
-  disabled      = ""
-  id            = ""
+  disabled      = false
   name          = ""
   region        = ""
   trigger_type  = ""

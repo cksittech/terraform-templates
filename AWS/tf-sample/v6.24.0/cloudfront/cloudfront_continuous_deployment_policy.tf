@@ -1,5 +1,6 @@
 resource "aws_cloudfront_continuous_deployment_policy" "tf-sample-cloudfront-continuous-deployment-policy" {
-  enabled            = ""
+  arn                = ""
+  enabled            = false
   etag               = ""
   id                 = ""
   last_modified_time = ""

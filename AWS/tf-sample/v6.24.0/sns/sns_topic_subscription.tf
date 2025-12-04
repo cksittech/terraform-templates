@@ -1,16 +1,16 @@
 resource "aws_sns_topic_subscription" "tf-sample-sns-topic-subscription" {
-  confirmation_timeout_in_minutes = ""
-  confirmation_was_authenticated  = ""
+  arn                             = ""
+  confirmation_timeout_in_minutes = 0
+  confirmation_was_authenticated  = false
   delivery_policy                 = ""
   endpoint                        = ""
-  endpoint_auto_confirms          = ""
+  endpoint_auto_confirms          = false
   filter_policy                   = ""
   filter_policy_scope             = ""
-  id                              = ""
   owner_id                        = ""
-  pending_confirmation            = ""
+  pending_confirmation            = false
   protocol                        = ""
-  raw_message_delivery            = ""
+  raw_message_delivery            = false
   redrive_policy                  = ""
   region                          = ""
   replay_policy                   = ""

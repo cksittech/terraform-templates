@@ -1,5 +1,5 @@
 resource "aws_sagemaker_project" "tf-sample-sagemaker-project" {
-  id                  = ""
+  arn                 = ""
   project_description = ""
   project_id          = ""
   project_name        = ""

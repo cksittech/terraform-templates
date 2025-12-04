@@ -10,5 +10,5 @@ resource "aws_datazone_project" "tf-sample-datazone-project" {
   name                = ""
   project_status      = ""
   region              = ""
-  skip_deletion_check = ""
+  skip_deletion_check = false
 }

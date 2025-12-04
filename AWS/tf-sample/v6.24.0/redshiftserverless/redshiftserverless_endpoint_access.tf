@@ -1,9 +1,9 @@
 resource "aws_redshiftserverless_endpoint_access" "tf-sample-redshiftserverless-endpoint-access" {
   address                = ""
+  arn                    = ""
   endpoint_name          = ""
-  id                     = ""
   owner_account          = ""
-  port                   = ""
+  port                   = 0
   region                 = ""
   subnet_ids             = []
   vpc_endpoint           = []

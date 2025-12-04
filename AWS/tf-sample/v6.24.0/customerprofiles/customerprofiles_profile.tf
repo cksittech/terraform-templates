@@ -11,7 +11,6 @@ resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   first_name             = ""
   gender_string          = ""
   home_phone_number      = ""
-  id                     = ""
   last_name              = ""
   middle_name            = ""
   mobile_phone_number    = ""

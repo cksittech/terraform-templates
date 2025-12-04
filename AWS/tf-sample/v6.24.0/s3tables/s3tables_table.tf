@@ -1,4 +1,5 @@
 resource "aws_s3tables_table" "tf-sample-s3tables-table" {
+  arn                       = ""
   created_at                = ""
   created_by                = ""
   format                    = ""
@@ -10,6 +11,7 @@ resource "aws_s3tables_table" "tf-sample-s3tables-table" {
   owner_account_id          = ""
   region                    = ""
   table_bucket_arn          = ""
+  tags_all                  = {}
   type                      = ""
   version_token             = ""
   warehouse_location        = ""

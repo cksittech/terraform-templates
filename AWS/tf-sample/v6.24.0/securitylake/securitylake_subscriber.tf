@@ -1,5 +1,6 @@
 resource "aws_securitylake_subscriber" "tf-sample-securitylake-subscriber" {
   access_type            = ""
+  arn                    = ""
   id                     = ""
   region                 = ""
   resource_share_arn     = ""
@@ -10,6 +11,7 @@ resource "aws_securitylake_subscriber" "tf-sample-securitylake-subscriber" {
   subscriber_endpoint    = ""
   subscriber_name        = ""
   subscriber_status      = ""
+  tags_all               = {}
   
   source {}
   subscriber_identity {}

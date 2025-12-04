@@ -1,5 +1,5 @@
 resource "aws_cloudwatch_log_destination" "tf-sample-cloudwatch-log-destination" {
-  id         = ""
+  arn        = ""
   name       = ""
   region     = ""
   role_arn   = ""

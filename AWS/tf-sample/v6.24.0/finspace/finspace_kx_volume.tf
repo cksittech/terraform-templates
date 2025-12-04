@@ -1,11 +1,11 @@
 resource "aws_finspace_kx_volume" "tf-sample-finspace-kx-volume" {
+  arn                     = ""
   attached_clusters       = []
   availability_zones      = []
   az_mode                 = ""
   created_timestamp       = ""
   description             = ""
   environment_id          = ""
-  id                      = ""
   last_modified_timestamp = ""
   name                    = ""
   region                  = ""

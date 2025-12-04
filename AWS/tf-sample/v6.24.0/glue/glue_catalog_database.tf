@@ -1,7 +1,7 @@
 resource "aws_glue_catalog_database" "tf-sample-glue-catalog-database" {
+  arn          = ""
   catalog_id   = ""
   description  = ""
-  id           = ""
   location_uri = ""
   name         = ""
   parameters   = {}

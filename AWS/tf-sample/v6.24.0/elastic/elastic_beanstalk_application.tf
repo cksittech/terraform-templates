@@ -1,6 +1,6 @@
 resource "aws_elastic_beanstalk_application" "tf-sample-elastic-beanstalk-application" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   region      = ""
   

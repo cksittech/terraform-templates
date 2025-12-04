@@ -1,8 +1,8 @@
 resource "aws_budgets_budget" "tf-sample-budgets-budget" {
   account_id        = ""
+  arn               = ""
   billing_view_arn  = ""
   budget_type       = ""
-  id                = ""
   limit_amount      = ""
   limit_unit        = ""
   name              = ""

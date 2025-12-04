@@ -9,6 +9,7 @@ resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   name                      = ""
   region                    = ""
   status                    = ""
+  tags_all                  = {}
   version                   = ""
   
   content_policy_config {}

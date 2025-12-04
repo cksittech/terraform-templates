@@ -6,6 +6,7 @@ resource "aws_workspacesweb_ip_access_settings" "tf-sample-workspacesweb-ip-acce
   display_name                  = ""
   ip_access_settings_arn        = ""
   region                        = ""
+  tags_all                      = {}
   
   ip_rule {}
   

@@ -1,6 +1,7 @@
 resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   access_policies                   = ""
   advanced_options                  = {}
+  arn                               = ""
   dashboard_endpoint                = ""
   dashboard_endpoint_v2             = ""
   domain_endpoint_v2_hosted_zone_id = ""
@@ -9,7 +10,6 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   endpoint                          = ""
   endpoint_v2                       = ""
   engine_version                    = ""
-  id                                = ""
   ip_address_type                   = ""
   region                            = ""
   

@@ -1,6 +1,6 @@
 resource "aws_ecrpublic_repository" "tf-sample-ecrpublic-repository" {
-  force_destroy   = ""
-  id              = ""
+  arn             = ""
+  force_destroy   = false
   region          = ""
   registry_id     = ""
   repository_name = ""

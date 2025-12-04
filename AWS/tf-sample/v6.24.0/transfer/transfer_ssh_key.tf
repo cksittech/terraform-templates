@@ -1,6 +1,5 @@
 resource "aws_transfer_ssh_key" "tf-sample-transfer-ssh-key" {
   body       = ""
-  id         = ""
   region     = ""
   server_id  = ""
   ssh_key_id = ""

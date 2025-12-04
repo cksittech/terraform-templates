@@ -7,7 +7,6 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
   endpoint_domain             = ""
   endpoint_domain_prefix      = ""
   endpoint_type               = ""
-  id                          = ""
   policy_document             = ""
   region                      = ""
   security_group_ids          = []

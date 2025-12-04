@@ -1,5 +1,6 @@
 resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-instance" {
-  allocated_storage                 = ""
+  allocated_storage                 = 0
+  arn                               = ""
   availability_zone                 = ""
   bucket                            = ""
   db_instance_type                  = ""
@@ -13,10 +14,11 @@ resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-i
   network_type                      = ""
   organization                      = ""
   password                          = ""
-  port                              = ""
-  publicly_accessible               = ""
+  port                              = 0
+  publicly_accessible               = false
   region                            = ""
   secondary_availability_zone       = ""
+  tags_all                          = {}
   username                          = ""
   vpc_security_group_ids            = []
   vpc_subnet_ids                    = []

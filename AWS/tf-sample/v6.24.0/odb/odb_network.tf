@@ -1,4 +1,5 @@
 resource "aws_odb_network" "tf-sample-odb-network" {
+  arn                         = ""
   availability_zone           = ""
   availability_zone_id        = ""
   backup_subnet_cidr          = ""
@@ -6,7 +7,7 @@ resource "aws_odb_network" "tf-sample-odb-network" {
   created_at                  = ""
   custom_domain_name          = ""
   default_dns_prefix          = ""
-  delete_associated_resources = ""
+  delete_associated_resources = false
   display_name                = ""
   id                          = ""
   managed_services            = []
@@ -17,12 +18,13 @@ resource "aws_odb_network" "tf-sample-odb-network" {
   oci_vcn_id                  = ""
   oci_vcn_url                 = ""
   peered_cidrs                = []
-  percent_progress            = ""
+  percent_progress            = 0
   region                      = ""
   s3_access                   = ""
   s3_policy_document          = ""
   status                      = ""
   status_reason               = ""
+  tags_all                    = {}
   zero_etl_access             = ""
   
   tags = {}

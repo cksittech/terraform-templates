@@ -4,6 +4,7 @@ resource "aws_ssmquicksetup_configuration_manager" "tf-sample-ssmquicksetup-conf
   name             = ""
   region           = ""
   status_summaries = []
+  tags_all         = {}
   
   configuration_definition {}
   

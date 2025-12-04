@@ -1,12 +1,12 @@
 resource "aws_grafana_workspace" "tf-sample-grafana-workspace" {
   account_access_type       = ""
+  arn                       = ""
   authentication_providers  = []
   configuration             = ""
   data_sources              = []
   description               = ""
   endpoint                  = ""
   grafana_version           = ""
-  id                        = ""
   name                      = ""
   notification_destinations = []
   organization_role_name    = ""

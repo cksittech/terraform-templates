@@ -1,5 +1,5 @@
 resource "aws_oam_link" "tf-sample-oam-link" {
-  id              = ""
+  arn             = ""
   label           = ""
   label_template  = ""
   link_id         = ""

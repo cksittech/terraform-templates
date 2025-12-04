@@ -1,6 +1,6 @@
 resource "aws_servicequotas_template" "tf-sample-servicequotas-template" {
   aws_region   = ""
-  global_quota = ""
+  global_quota = false
   id           = ""
   quota_code   = ""
   quota_name   = ""
@@ -8,5 +8,5 @@ resource "aws_servicequotas_template" "tf-sample-servicequotas-template" {
   service_code = ""
   service_name = ""
   unit         = ""
-  value        = ""
+  value        = 0
 }

@@ -1,6 +1,6 @@
 resource "aws_route53_resolver_rule" "tf-sample-route53-resolver-rule" {
+  arn                  = ""
   domain_name          = ""
-  id                   = ""
   name                 = ""
   owner_id             = ""
   region               = ""

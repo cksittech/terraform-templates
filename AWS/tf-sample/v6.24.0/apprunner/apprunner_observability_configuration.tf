@@ -1,8 +1,8 @@
 resource "aws_apprunner_observability_configuration" "tf-sample-apprunner-observability-configuration" {
-  id                                   = ""
-  latest                               = ""
+  arn                                  = ""
+  latest                               = false
   observability_configuration_name     = ""
-  observability_configuration_revision = ""
+  observability_configuration_revision = 0
   region                               = ""
   status                               = ""
   

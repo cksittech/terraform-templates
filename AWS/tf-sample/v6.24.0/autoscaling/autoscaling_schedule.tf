@@ -1,10 +1,10 @@
 resource "aws_autoscaling_schedule" "tf-sample-autoscaling-schedule" {
+  arn                    = ""
   autoscaling_group_name = ""
-  desired_capacity       = ""
+  desired_capacity       = 0
   end_time               = ""
-  id                     = ""
-  max_size               = ""
-  min_size               = ""
+  max_size               = 0
+  min_size               = 0
   recurrence             = ""
   region                 = ""
   scheduled_action_name  = ""

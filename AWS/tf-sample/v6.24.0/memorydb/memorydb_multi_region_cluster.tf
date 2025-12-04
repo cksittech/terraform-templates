@@ -1,4 +1,5 @@
 resource "aws_memorydb_multi_region_cluster" "tf-sample-memorydb-multi-region-cluster" {
+  arn                               = ""
   description                       = ""
   engine                            = ""
   engine_version                    = ""
@@ -6,10 +7,11 @@ resource "aws_memorydb_multi_region_cluster" "tf-sample-memorydb-multi-region-cl
   multi_region_cluster_name_suffix  = ""
   multi_region_parameter_group_name = ""
   node_type                         = ""
-  num_shards                        = ""
+  num_shards                        = 0
   region                            = ""
   status                            = ""
-  tls_enabled                       = ""
+  tags_all                          = {}
+  tls_enabled                       = false
   update_strategy                   = ""
   
   tags = {}

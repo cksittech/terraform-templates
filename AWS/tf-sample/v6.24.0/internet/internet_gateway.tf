@@ -1,5 +1,5 @@
 resource "aws_internet_gateway" "tf-sample-internet-gateway" {
-  id       = ""
+  arn      = ""
   owner_id = ""
   region   = ""
   vpc_id   = ""

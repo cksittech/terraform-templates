@@ -1,9 +1,8 @@
 resource "aws_redshift_scheduled_action" "tf-sample-redshift-scheduled-action" {
   description = ""
-  enable      = ""
+  enable      = false
   end_time    = ""
   iam_role    = ""
-  id          = ""
   name        = ""
   region      = ""
   schedule    = ""

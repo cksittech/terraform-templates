@@ -4,7 +4,6 @@ resource "aws_securityhub_standards_control" "tf-sample-securityhub-standards-co
   control_status_updated_at = ""
   description               = ""
   disabled_reason           = ""
-  id                        = ""
   region                    = ""
   related_requirements      = []
   remediation_url           = ""

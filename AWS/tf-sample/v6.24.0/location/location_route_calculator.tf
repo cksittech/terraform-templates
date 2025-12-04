@@ -4,7 +4,6 @@ resource "aws_location_route_calculator" "tf-sample-location-route-calculator" {
   create_time     = ""
   data_source     = ""
   description     = ""
-  id              = ""
   region          = ""
   update_time     = ""
   

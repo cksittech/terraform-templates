@@ -1,5 +1,5 @@
 resource "aws_wafregional_rule" "tf-sample-wafregional-rule" {
-  id          = ""
+  arn         = ""
   metric_name = ""
   name        = ""
   region      = ""

@@ -1,6 +1,5 @@
 resource "aws_ec2_transit_gateway_prefix_list_reference" "tf-sample-ec2-transit-gateway-prefix-list-reference" {
-  blackhole                      = ""
-  id                             = ""
+  blackhole                      = false
   prefix_list_id                 = ""
   prefix_list_owner_id           = ""
   region                         = ""

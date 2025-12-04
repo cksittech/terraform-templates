@@ -1,7 +1,8 @@
 resource "aws_s3_object" "tf-sample-s3-object" {
   acl                           = ""
+  arn                           = ""
   bucket                        = ""
-  bucket_key_enabled            = ""
+  bucket_key_enabled            = false
   cache_control                 = ""
   checksum_algorithm            = ""
   checksum_crc32                = ""
@@ -16,8 +17,7 @@ resource "aws_s3_object" "tf-sample-s3-object" {
   content_language              = ""
   content_type                  = ""
   etag                          = ""
-  force_destroy                 = ""
-  id                            = ""
+  force_destroy                 = false
   key                           = ""
   kms_key_id                    = ""
   metadata                      = {}

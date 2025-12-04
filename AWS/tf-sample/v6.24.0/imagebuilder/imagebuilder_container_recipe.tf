@@ -1,11 +1,11 @@
 resource "aws_imagebuilder_container_recipe" "tf-sample-imagebuilder-container-recipe" {
+  arn                      = ""
   container_type           = ""
   date_created             = ""
   description              = ""
   dockerfile_template_data = ""
   dockerfile_template_uri  = ""
-  encrypted                = ""
-  id                       = ""
+  encrypted                = false
   kms_key_id               = ""
   name                     = ""
   owner                    = ""

@@ -1,6 +1,6 @@
 resource "aws_elastictranscoder_pipeline" "tf-sample-elastictranscoder-pipeline" {
+  arn             = ""
   aws_kms_key_arn = ""
-  id              = ""
   input_bucket    = ""
   name            = ""
   output_bucket   = ""

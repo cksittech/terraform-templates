@@ -1,7 +1,7 @@
 resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group" {
-  capacity     = ""
+  arn          = ""
+  capacity     = 0
   description  = ""
-  id           = ""
   name         = ""
   region       = ""
   rules        = ""

@@ -1,4 +1,5 @@
 resource "aws_dax_cluster" "tf-sample-dax-cluster" {
+  arn                              = ""
   availability_zones               = []
   cluster_address                  = ""
   cluster_endpoint_encryption_type = ""
@@ -6,15 +7,14 @@ resource "aws_dax_cluster" "tf-sample-dax-cluster" {
   configuration_endpoint           = ""
   description                      = ""
   iam_role_arn                     = ""
-  id                               = ""
   maintenance_window               = ""
   node_type                        = ""
   nodes                            = []
   notification_topic_arn           = ""
   parameter_group_name             = ""
-  port                             = ""
+  port                             = 0
   region                           = ""
-  replication_factor               = ""
+  replication_factor               = 0
   security_group_ids               = []
   subnet_group_name                = ""
   

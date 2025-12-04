@@ -1,6 +1,6 @@
 resource "aws_docdb_subnet_group" "tf-sample-docdb-subnet-group" {
+  arn                     = ""
   description             = ""
-  id                      = ""
   name                    = ""
   name_prefix             = ""
   region                  = ""

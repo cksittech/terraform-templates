@@ -1,7 +1,7 @@
 resource "aws_codegurureviewer_repository_association" "tf-sample-codegurureviewer-repository-association" {
+  arn                   = ""
   association_id        = ""
   connection_arn        = ""
-  id                    = ""
   name                  = ""
   owner                 = ""
   provider_type         = ""

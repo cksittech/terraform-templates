@@ -5,7 +5,6 @@ resource "aws_apigatewayv2_integration" "tf-sample-apigatewayv2-integration" {
   content_handling_strategy                 = ""
   credentials_arn                           = ""
   description                               = ""
-  id                                        = ""
   integration_method                        = ""
   integration_response_selection_expression = ""
   integration_subtype                       = ""
@@ -17,7 +16,7 @@ resource "aws_apigatewayv2_integration" "tf-sample-apigatewayv2-integration" {
   request_parameters                        = {}
   request_templates                         = {}
   template_selection_expression             = ""
-  timeout_milliseconds                      = ""
+  timeout_milliseconds                      = 0
   
   response_parameters {}
   tls_config {}

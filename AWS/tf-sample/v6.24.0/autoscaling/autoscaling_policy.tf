@@ -1,16 +1,16 @@
 resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
   adjustment_type           = ""
+  arn                       = ""
   autoscaling_group_name    = ""
-  cooldown                  = ""
-  enabled                   = ""
-  estimated_instance_warmup = ""
-  id                        = ""
+  cooldown                  = 0
+  enabled                   = false
+  estimated_instance_warmup = 0
   metric_aggregation_type   = ""
-  min_adjustment_magnitude  = ""
+  min_adjustment_magnitude  = 0
   name                      = ""
   policy_type               = ""
   region                    = ""
-  scaling_adjustment        = ""
+  scaling_adjustment        = 0
   
   predictive_scaling_configuration {}
   step_adjustment {}

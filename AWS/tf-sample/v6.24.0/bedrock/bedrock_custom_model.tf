@@ -11,6 +11,7 @@ resource "aws_bedrock_custom_model" "tf-sample-bedrock-custom-model" {
   job_status              = ""
   region                  = ""
   role_arn                = ""
+  tags_all                = {}
   training_metrics        = []
   validation_metrics      = []
   

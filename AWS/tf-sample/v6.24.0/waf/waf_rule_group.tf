@@ -1,5 +1,5 @@
 resource "aws_waf_rule_group" "tf-sample-waf-rule-group" {
-  id          = ""
+  arn         = ""
   metric_name = ""
   name        = ""
   

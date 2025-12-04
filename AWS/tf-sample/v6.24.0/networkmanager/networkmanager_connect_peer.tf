@@ -1,4 +1,5 @@
 resource "aws_networkmanager_connect_peer" "tf-sample-networkmanager-connect-peer" {
+  arn                   = ""
   configuration         = []
   connect_attachment_id = ""
   connect_peer_id       = ""
@@ -6,7 +7,6 @@ resource "aws_networkmanager_connect_peer" "tf-sample-networkmanager-connect-pee
   core_network_id       = ""
   created_at            = ""
   edge_location         = ""
-  id                    = ""
   inside_cidr_blocks    = []
   peer_address          = ""
   state                 = ""

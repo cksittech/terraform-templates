@@ -1,6 +1,6 @@
 resource "aws_elasticache_subnet_group" "tf-sample-elasticache-subnet-group" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   region      = ""
   subnet_ids  = []

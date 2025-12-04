@@ -1,14 +1,14 @@
 resource "aws_elb" "tf-sample-elb" {
+  arn                         = ""
   availability_zones          = []
-  connection_draining         = ""
-  connection_draining_timeout = ""
-  cross_zone_load_balancing   = ""
+  connection_draining         = false
+  connection_draining_timeout = 0
+  cross_zone_load_balancing   = false
   desync_mitigation_mode      = ""
   dns_name                    = ""
-  id                          = ""
-  idle_timeout                = ""
+  idle_timeout                = 0
   instances                   = []
-  internal                    = ""
+  internal                    = false
   name                        = ""
   name_prefix                 = ""
   region                      = ""

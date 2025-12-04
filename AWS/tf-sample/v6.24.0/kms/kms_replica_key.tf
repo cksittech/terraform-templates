@@ -1,11 +1,11 @@
 resource "aws_kms_replica_key" "tf-sample-kms-replica-key" {
-  bypass_policy_lockout_safety_check = ""
-  deletion_window_in_days            = ""
+  arn                                = ""
+  bypass_policy_lockout_safety_check = false
+  deletion_window_in_days            = 0
   description                        = ""
-  enabled                            = ""
-  id                                 = ""
+  enabled                            = false
   key_id                             = ""
-  key_rotation_enabled               = ""
+  key_rotation_enabled               = false
   key_spec                           = ""
   key_usage                          = ""
   policy                             = ""

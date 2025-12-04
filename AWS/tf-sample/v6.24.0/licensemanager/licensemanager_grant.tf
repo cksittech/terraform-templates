@@ -1,7 +1,7 @@
 resource "aws_licensemanager_grant" "tf-sample-licensemanager-grant" {
   allowed_operations = []
+  arn                = ""
   home_region        = ""
-  id                 = ""
   license_arn        = ""
   name               = ""
   parent_arn         = ""

@@ -2,6 +2,7 @@ resource "aws_ssoadmin_application" "tf-sample-ssoadmin-application" {
   application_account      = ""
   application_arn          = ""
   application_provider_arn = ""
+  arn                      = ""
   client_token             = ""
   description              = ""
   id                       = ""
@@ -9,6 +10,7 @@ resource "aws_ssoadmin_application" "tf-sample-ssoadmin-application" {
   name                     = ""
   region                   = ""
   status                   = ""
+  tags_all                 = {}
   
   portal_options {}
   

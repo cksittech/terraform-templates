@@ -1,6 +1,6 @@
 resource "aws_db_subnet_group" "tf-sample-db-subnet-group" {
+  arn                     = ""
   description             = ""
-  id                      = ""
   name                    = ""
   name_prefix             = ""
   region                  = ""

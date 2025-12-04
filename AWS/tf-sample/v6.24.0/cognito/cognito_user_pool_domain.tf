@@ -5,8 +5,7 @@ resource "aws_cognito_user_pool_domain" "tf-sample-cognito-user-pool-domain" {
   cloudfront_distribution_arn     = ""
   cloudfront_distribution_zone_id = ""
   domain                          = ""
-  id                              = ""
-  managed_login_version           = ""
+  managed_login_version           = 0
   region                          = ""
   s3_bucket                       = ""
   user_pool_id                    = ""

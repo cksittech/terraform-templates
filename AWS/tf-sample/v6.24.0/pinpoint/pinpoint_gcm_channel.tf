@@ -2,8 +2,7 @@ resource "aws_pinpoint_gcm_channel" "tf-sample-pinpoint-gcm-channel" {
   api_key                       = ""
   application_id                = ""
   default_authentication_method = ""
-  enabled                       = ""
-  id                            = ""
+  enabled                       = false
   region                        = ""
   service_json                  = ""
 }

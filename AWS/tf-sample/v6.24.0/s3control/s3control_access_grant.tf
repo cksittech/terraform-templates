@@ -8,6 +8,7 @@ resource "aws_s3control_access_grant" "tf-sample-s3control-access-grant" {
   permission                = ""
   region                    = ""
   s3_prefix_type            = ""
+  tags_all                  = {}
   
   access_grants_location_configuration {}
   grantee {}

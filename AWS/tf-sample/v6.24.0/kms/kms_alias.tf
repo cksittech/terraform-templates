@@ -1,5 +1,5 @@
 resource "aws_kms_alias" "tf-sample-kms-alias" {
-  id             = ""
+  arn            = ""
   name           = ""
   name_prefix    = ""
   region         = ""

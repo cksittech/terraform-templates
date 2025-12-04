@@ -1,9 +1,9 @@
 resource "aws_redshift_usage_limit" "tf-sample-redshift-usage-limit" {
-  amount             = ""
+  amount             = 0
+  arn                = ""
   breach_action      = ""
   cluster_identifier = ""
   feature_type       = ""
-  id                 = ""
   limit_type         = ""
   period             = ""
   region             = ""

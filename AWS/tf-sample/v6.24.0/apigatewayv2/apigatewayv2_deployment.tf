@@ -1,8 +1,7 @@
 resource "aws_apigatewayv2_deployment" "tf-sample-apigatewayv2-deployment" {
   api_id        = ""
-  auto_deployed = ""
+  auto_deployed = false
   description   = ""
-  id            = ""
   region        = ""
   triggers      = {}
 }

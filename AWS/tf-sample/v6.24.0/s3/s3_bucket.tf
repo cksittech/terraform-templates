@@ -1,15 +1,15 @@
 resource "aws_s3_bucket" "tf-sample-s3-bucket" {
   acceleration_status         = ""
   acl                         = ""
+  arn                         = ""
   bucket                      = ""
   bucket_domain_name          = ""
   bucket_prefix               = ""
   bucket_region               = ""
   bucket_regional_domain_name = ""
-  force_destroy               = ""
+  force_destroy               = false
   hosted_zone_id              = ""
-  id                          = ""
-  object_lock_enabled         = ""
+  object_lock_enabled         = false
   policy                      = ""
   region                      = ""
   request_payer               = ""

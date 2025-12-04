@@ -2,7 +2,6 @@ resource "aws_ecr_repository_creation_template" "tf-sample-ecr-repository-creati
   applied_for          = []
   custom_role_arn      = ""
   description          = ""
-  id                   = ""
   image_tag_mutability = ""
   lifecycle_policy     = ""
   prefix               = ""

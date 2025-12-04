@@ -5,6 +5,7 @@ resource "aws_bedrockagentcore_code_interpreter" "tf-sample-bedrockagentcore-cod
   execution_role_arn   = ""
   name                 = ""
   region               = ""
+  tags_all             = {}
   
   network_configuration {}
   

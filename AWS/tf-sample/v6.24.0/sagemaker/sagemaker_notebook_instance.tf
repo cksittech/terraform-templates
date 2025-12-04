@@ -1,8 +1,8 @@
 resource "aws_sagemaker_notebook_instance" "tf-sample-sagemaker-notebook-instance" {
   additional_code_repositories = []
+  arn                          = ""
   default_code_repository      = ""
   direct_internet_access       = ""
-  id                           = ""
   instance_type                = ""
   kms_key_id                   = ""
   lifecycle_config_name        = ""
@@ -15,7 +15,7 @@ resource "aws_sagemaker_notebook_instance" "tf-sample-sagemaker-notebook-instanc
   security_groups              = []
   subnet_id                    = ""
   url                          = ""
-  volume_size                  = ""
+  volume_size                  = 0
   
   instance_metadata_service_configuration {}
   

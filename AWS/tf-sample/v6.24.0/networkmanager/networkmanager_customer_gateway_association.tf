@@ -2,6 +2,5 @@ resource "aws_networkmanager_customer_gateway_association" "tf-sample-networkman
   customer_gateway_arn = ""
   device_id            = ""
   global_network_id    = ""
-  id                   = ""
   link_id              = ""
 }

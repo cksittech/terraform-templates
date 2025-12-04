@@ -1,7 +1,7 @@
 resource "aws_codestarconnections_connection" "tf-sample-codestarconnections-connection" {
+  arn               = ""
   connection_status = ""
   host_arn          = ""
-  id                = ""
   name              = ""
   provider_type     = ""
   region            = ""

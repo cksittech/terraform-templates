@@ -1,12 +1,12 @@
 resource "aws_sns_platform_application" "tf-sample-sns-platform-application" {
   apple_platform_bundle_id         = ""
   apple_platform_team_id           = ""
+  arn                              = ""
   event_delivery_failure_topic_arn = ""
   event_endpoint_created_topic_arn = ""
   event_endpoint_deleted_topic_arn = ""
   event_endpoint_updated_topic_arn = ""
   failure_feedback_role_arn        = ""
-  id                               = ""
   name                             = ""
   platform                         = ""
   platform_credential              = ""

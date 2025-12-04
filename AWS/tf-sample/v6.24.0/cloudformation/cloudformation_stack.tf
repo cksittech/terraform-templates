@@ -1,8 +1,7 @@
 resource "aws_cloudformation_stack" "tf-sample-cloudformation-stack" {
   capabilities       = []
-  disable_rollback   = ""
+  disable_rollback   = false
   iam_role_arn       = ""
-  id                 = ""
   name               = ""
   notification_arns  = []
   on_failure         = ""
@@ -13,7 +12,7 @@ resource "aws_cloudformation_stack" "tf-sample-cloudformation-stack" {
   region             = ""
   template_body      = ""
   template_url       = ""
-  timeout_in_minutes = ""
+  timeout_in_minutes = 0
   
   tags = {}
 }

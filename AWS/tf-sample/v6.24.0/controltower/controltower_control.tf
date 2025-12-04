@@ -1,6 +1,6 @@
 resource "aws_controltower_control" "tf-sample-controltower-control" {
+  arn                = ""
   control_identifier = ""
-  id                 = ""
   region             = ""
   target_identifier  = ""
   

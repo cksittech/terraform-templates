@@ -3,7 +3,6 @@ resource "aws_lambda_function_url" "tf-sample-lambda-function-url" {
   function_arn       = ""
   function_name      = ""
   function_url       = ""
-  id                 = ""
   invoke_mode        = ""
   qualifier          = ""
   region             = ""

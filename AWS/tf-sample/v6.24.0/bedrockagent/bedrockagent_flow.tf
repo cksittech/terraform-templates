@@ -1,4 +1,5 @@
 resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
+  arn                         = ""
   created_at                  = ""
   customer_encryption_key_arn = ""
   description                 = ""
@@ -7,6 +8,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
   name                        = ""
   region                      = ""
   status                      = ""
+  tags_all                    = {}
   updated_at                  = ""
   version                     = ""
   

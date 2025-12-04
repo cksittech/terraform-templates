@@ -1,8 +1,8 @@
 resource "aws_backup_report_plan" "tf-sample-backup-report-plan" {
+  arn               = ""
   creation_time     = ""
   deployment_status = ""
   description       = ""
-  id                = ""
   name              = ""
   region            = ""
   

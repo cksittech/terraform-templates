@@ -1,10 +1,10 @@
 resource "aws_cloudfront_cache_policy" "tf-sample-cloudfront-cache-policy" {
+  arn         = ""
   comment     = ""
-  default_ttl = ""
+  default_ttl = 0
   etag        = ""
-  id          = ""
-  max_ttl     = ""
-  min_ttl     = ""
+  max_ttl     = 0
+  min_ttl     = 0
   name        = ""
   
   parameters_in_cache_key_and_forwarded_to_origin {}

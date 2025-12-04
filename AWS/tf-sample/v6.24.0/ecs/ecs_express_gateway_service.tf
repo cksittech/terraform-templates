@@ -13,8 +13,9 @@ resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-servic
   service_arn             = ""
   service_name            = ""
   service_revision_arn    = ""
+  tags_all                = {}
   task_role_arn           = ""
-  wait_for_steady_state   = ""
+  wait_for_steady_state   = false
   
   primary_container {}
   

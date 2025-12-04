@@ -1,5 +1,5 @@
 resource "aws_iam_group" "tf-sample-iam-group" {
-  id        = ""
+  arn       = ""
   name      = ""
   path      = ""
   unique_id = ""

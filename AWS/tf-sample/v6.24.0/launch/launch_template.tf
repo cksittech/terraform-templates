@@ -1,22 +1,22 @@
 resource "aws_launch_template" "tf-sample-launch-template" {
-  default_version                      = ""
+  arn                                  = ""
+  default_version                      = 0
   description                          = ""
-  disable_api_stop                     = ""
-  disable_api_termination              = ""
+  disable_api_stop                     = false
+  disable_api_termination              = false
   ebs_optimized                        = ""
-  id                                   = ""
   image_id                             = ""
   instance_initiated_shutdown_behavior = ""
   instance_type                        = ""
   kernel_id                            = ""
   key_name                             = ""
-  latest_version                       = ""
+  latest_version                       = 0
   name                                 = ""
   name_prefix                          = ""
   ram_disk_id                          = ""
   region                               = ""
   security_group_names                 = []
-  update_default_version               = ""
+  update_default_version               = false
   user_data                            = ""
   vpc_security_group_ids               = []
   

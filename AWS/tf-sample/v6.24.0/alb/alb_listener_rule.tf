@@ -1,7 +1,7 @@
 resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
-  id           = ""
+  arn          = ""
   listener_arn = ""
-  priority     = ""
+  priority     = 0
   region       = ""
   
   action {}

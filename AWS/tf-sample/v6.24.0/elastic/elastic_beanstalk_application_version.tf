@@ -1,12 +1,12 @@
 resource "aws_elastic_beanstalk_application_version" "tf-sample-elastic-beanstalk-application-version" {
   application  = ""
+  arn          = ""
   bucket       = ""
   description  = ""
-  force_delete = ""
-  id           = ""
+  force_delete = false
   key          = ""
   name         = ""
-  process      = ""
+  process      = false
   region       = ""
   
   tags = {}

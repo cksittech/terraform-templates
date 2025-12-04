@@ -1,9 +1,11 @@
 resource "aws_athena_capacity_reservation" "tf-sample-athena-capacity-reservation" {
-  allocated_dpus = ""
+  allocated_dpus = 0
+  arn            = ""
   name           = ""
   region         = ""
   status         = ""
-  target_dpus    = ""
+  tags_all       = {}
+  target_dpus    = 0
   
   tags = {}
 }

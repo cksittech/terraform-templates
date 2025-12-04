@@ -5,13 +5,12 @@ resource "aws_docdb_cluster_snapshot" "tf-sample-docdb-cluster-snapshot" {
   db_cluster_snapshot_identifier = ""
   engine                         = ""
   engine_version                 = ""
-  id                             = ""
   kms_key_id                     = ""
-  port                           = ""
+  port                           = 0
   region                         = ""
   snapshot_type                  = ""
   source_db_cluster_snapshot_arn = ""
   status                         = ""
-  storage_encrypted              = ""
+  storage_encrypted              = false
   vpc_id                         = ""
 }

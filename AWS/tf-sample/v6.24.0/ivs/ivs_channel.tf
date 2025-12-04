@@ -1,6 +1,6 @@
 resource "aws_ivs_channel" "tf-sample-ivs-channel" {
-  authorized                  = ""
-  id                          = ""
+  arn                         = ""
+  authorized                  = false
   ingest_endpoint             = ""
   latency_mode                = ""
   name                        = ""

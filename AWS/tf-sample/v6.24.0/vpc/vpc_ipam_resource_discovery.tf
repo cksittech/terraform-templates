@@ -1,8 +1,8 @@
 resource "aws_vpc_ipam_resource_discovery" "tf-sample-vpc-ipam-resource-discovery" {
+  arn                            = ""
   description                    = ""
-  id                             = ""
   ipam_resource_discovery_region = ""
-  is_default                     = ""
+  is_default                     = false
   owner_id                       = ""
   region                         = ""
   

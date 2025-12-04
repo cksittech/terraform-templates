@@ -1,4 +1,5 @@
 resource "aws_dataexchange_event_action" "tf-sample-dataexchange-event-action" {
+  arn        = ""
   created_at = ""
   id         = ""
   region     = ""

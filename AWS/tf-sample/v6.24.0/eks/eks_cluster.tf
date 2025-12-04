@@ -1,13 +1,13 @@
 resource "aws_eks_cluster" "tf-sample-eks-cluster" {
-  bootstrap_self_managed_addons = ""
+  arn                           = ""
+  bootstrap_self_managed_addons = false
   certificate_authority         = []
   cluster_id                    = ""
   created_at                    = ""
-  deletion_protection           = ""
+  deletion_protection           = false
   enabled_cluster_log_types     = []
   endpoint                      = ""
-  force_update_version          = ""
-  id                            = ""
+  force_update_version          = false
   identity                      = []
   name                          = ""
   platform_version              = ""

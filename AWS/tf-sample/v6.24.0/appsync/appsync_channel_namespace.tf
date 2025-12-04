@@ -4,6 +4,7 @@ resource "aws_appsync_channel_namespace" "tf-sample-appsync-channel-namespace" {
   code_handlers         = ""
   name                  = ""
   region                = ""
+  tags_all              = {}
   
   handler_configs {}
   publish_auth_mode {}

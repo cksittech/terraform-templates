@@ -1,8 +1,8 @@
 resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   agent_arns                = []
+  arn                       = ""
   authentication_type       = ""
-  block_size                = ""
-  id                        = ""
+  block_size                = 0
   kerberos_keytab           = ""
   kerberos_keytab_base64    = ""
   kerberos_krb5_conf        = ""
@@ -10,7 +10,7 @@ resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   kerberos_principal        = ""
   kms_key_provider_uri      = ""
   region                    = ""
-  replication_factor        = ""
+  replication_factor        = 0
   simple_user               = ""
   subdirectory              = ""
   uri                       = ""

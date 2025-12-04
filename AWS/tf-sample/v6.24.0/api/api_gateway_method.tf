@@ -1,10 +1,9 @@
 resource "aws_api_gateway_method" "tf-sample-api-gateway-method" {
-  api_key_required     = ""
+  api_key_required     = false
   authorization        = ""
   authorization_scopes = []
   authorizer_id        = ""
   http_method          = ""
-  id                   = ""
   operation_name       = ""
   region               = ""
   request_models       = {}

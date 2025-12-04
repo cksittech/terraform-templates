@@ -10,14 +10,15 @@ resource "aws_bedrockagent_agent" "tf-sample-bedrockagent-agent" {
   foundation_model              = ""
   guardrail_configuration       = []
   id                            = ""
-  idle_session_ttl_in_seconds   = ""
+  idle_session_ttl_in_seconds   = 0
   instruction                   = ""
   memory_configuration          = []
-  prepare_agent                 = ""
+  prepare_agent                 = false
   prepared_at                   = ""
   prompt_override_configuration = []
   region                        = ""
-  skip_resource_in_use_check    = ""
+  skip_resource_in_use_check    = false
+  tags_all                      = {}
   
   tags = {}
 }

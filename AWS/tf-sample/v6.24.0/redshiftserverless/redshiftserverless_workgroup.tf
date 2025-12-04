@@ -1,12 +1,12 @@
 resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgroup" {
-  base_capacity        = ""
+  arn                  = ""
+  base_capacity        = 0
   endpoint             = []
-  enhanced_vpc_routing = ""
-  id                   = ""
-  max_capacity         = ""
+  enhanced_vpc_routing = false
+  max_capacity         = 0
   namespace_name       = ""
-  port                 = ""
-  publicly_accessible  = ""
+  port                 = 0
+  publicly_accessible  = false
   region               = ""
   security_group_ids   = []
   subnet_ids           = []

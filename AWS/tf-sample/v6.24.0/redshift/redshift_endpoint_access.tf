@@ -2,8 +2,7 @@ resource "aws_redshift_endpoint_access" "tf-sample-redshift-endpoint-access" {
   address                = ""
   cluster_identifier     = ""
   endpoint_name          = ""
-  id                     = ""
-  port                   = ""
+  port                   = 0
   region                 = ""
   resource_owner         = ""
   subnet_group_name      = ""

@@ -1,11 +1,11 @@
 resource "aws_ssm_maintenance_window_task" "tf-sample-ssm-maintenance-window-task" {
+  arn              = ""
   cutoff_behavior  = ""
   description      = ""
-  id               = ""
   max_concurrency  = ""
   max_errors       = ""
   name             = ""
-  priority         = ""
+  priority         = 0
   region           = ""
   service_role_arn = ""
   task_arn         = ""

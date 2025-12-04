@@ -4,6 +4,5 @@ resource "aws_appsync_domain_name" "tf-sample-appsync-domain-name" {
   description         = ""
   domain_name         = ""
   hosted_zone_id      = ""
-  id                  = ""
   region              = ""
 }

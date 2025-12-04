@@ -1,8 +1,8 @@
 resource "aws_guardduty_ipset" "tf-sample-guardduty-ipset" {
-  activate    = ""
+  activate    = false
+  arn         = ""
   detector_id = ""
   format      = ""
-  id          = ""
   location    = ""
   name        = ""
   region      = ""

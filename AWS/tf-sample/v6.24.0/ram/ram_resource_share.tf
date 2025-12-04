@@ -1,6 +1,6 @@
 resource "aws_ram_resource_share" "tf-sample-ram-resource-share" {
-  allow_external_principals = ""
-  id                        = ""
+  allow_external_principals = false
+  arn                       = ""
   name                      = ""
   permission_arns           = []
   region                    = ""

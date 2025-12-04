@@ -6,7 +6,7 @@ resource "aws_backup_restore_testing_selection" "tf-sample-backup-restore-testin
   region                     = ""
   restore_metadata_overrides = {}
   restore_testing_plan_name  = ""
-  validation_window_hours    = ""
+  validation_window_hours    = 0
   
   protected_resource_conditions {}
 }

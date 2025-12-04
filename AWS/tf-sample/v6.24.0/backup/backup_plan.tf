@@ -1,5 +1,5 @@
 resource "aws_backup_plan" "tf-sample-backup-plan" {
-  id      = ""
+  arn     = ""
   name    = ""
   region  = ""
   version = ""

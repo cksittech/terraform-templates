@@ -1,5 +1,5 @@
 resource "aws_ivschat_logging_configuration" "tf-sample-ivschat-logging-configuration" {
-  id     = ""
+  arn    = ""
   name   = ""
   region = ""
   state  = ""

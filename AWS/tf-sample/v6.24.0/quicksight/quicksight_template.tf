@@ -1,7 +1,7 @@
 resource "aws_quicksight_template" "tf-sample-quicksight-template" {
+  arn                 = ""
   aws_account_id      = ""
   created_time        = ""
-  id                  = ""
   last_updated_time   = ""
   name                = ""
   region              = ""
@@ -9,7 +9,7 @@ resource "aws_quicksight_template" "tf-sample-quicksight-template" {
   status              = ""
   template_id         = ""
   version_description = ""
-  version_number      = ""
+  version_number      = 0
   
   definition {}
   permissions {}

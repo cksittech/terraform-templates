@@ -1,12 +1,12 @@
 resource "aws_lightsail_distribution" "tf-sample-lightsail-distribution" {
   alternative_domain_names = []
+  arn                      = ""
   bundle_id                = ""
   certificate_name         = ""
   created_at               = ""
   domain_name              = ""
-  id                       = ""
   ip_address_type          = ""
-  is_enabled               = ""
+  is_enabled               = false
   location                 = []
   name                     = ""
   origin_public_dns        = ""

@@ -1,8 +1,8 @@
 resource "aws_elasticache_user" "tf-sample-elasticache-user" {
   access_string        = ""
+  arn                  = ""
   engine               = ""
-  id                   = ""
-  no_password_required = ""
+  no_password_required = false
   passwords            = []
   region               = ""
   user_id              = ""

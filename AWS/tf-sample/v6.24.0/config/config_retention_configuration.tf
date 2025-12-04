@@ -2,5 +2,5 @@ resource "aws_config_retention_configuration" "tf-sample-config-retention-config
   id                       = ""
   name                     = ""
   region                   = ""
-  retention_period_in_days = ""
+  retention_period_in_days = 0
 }

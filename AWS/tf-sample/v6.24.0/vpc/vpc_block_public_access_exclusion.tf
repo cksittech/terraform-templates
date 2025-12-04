@@ -4,6 +4,7 @@ resource "aws_vpc_block_public_access_exclusion" "tf-sample-vpc-block-public-acc
   region                          = ""
   resource_arn                    = ""
   subnet_id                       = ""
+  tags_all                        = {}
   vpc_id                          = ""
   
   tags = {}

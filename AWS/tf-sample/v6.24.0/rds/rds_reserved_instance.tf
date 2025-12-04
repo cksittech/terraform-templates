@@ -1,12 +1,12 @@
 resource "aws_rds_reserved_instance" "tf-sample-rds-reserved-instance" {
+  arn                 = ""
   currency_code       = ""
   db_instance_class   = ""
-  duration            = ""
-  fixed_price         = ""
-  id                  = ""
-  instance_count      = ""
+  duration            = 0
+  fixed_price         = 0
+  instance_count      = 0
   lease_id            = ""
-  multi_az            = ""
+  multi_az            = false
   offering_id         = ""
   offering_type       = ""
   product_description = ""
@@ -15,7 +15,7 @@ resource "aws_rds_reserved_instance" "tf-sample-rds-reserved-instance" {
   reservation_id      = ""
   start_time          = ""
   state               = ""
-  usage_price         = ""
+  usage_price         = 0
   
   tags = {}
 }

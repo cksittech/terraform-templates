@@ -1,6 +1,6 @@
 resource "aws_memorydb_user" "tf-sample-memorydb-user" {
   access_string          = ""
-  id                     = ""
+  arn                    = ""
   minimum_engine_version = ""
   region                 = ""
   user_name              = ""

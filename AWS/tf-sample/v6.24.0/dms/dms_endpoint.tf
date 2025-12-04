@@ -6,11 +6,10 @@ resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
   endpoint_type                   = ""
   engine_name                     = ""
   extra_connection_attributes     = ""
-  id                              = ""
   kms_key_arn                     = ""
   password                        = ""
-  pause_replication_tasks         = ""
-  port                            = ""
+  pause_replication_tasks         = false
+  port                            = 0
   region                          = ""
   secrets_manager_access_role_arn = ""
   secrets_manager_arn             = ""

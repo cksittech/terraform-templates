@@ -1,4 +1,5 @@
 resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
+  arn                     = ""
   availability_zone_id    = ""
   az_mode                 = ""
   command_line_arguments  = {}
@@ -6,7 +7,6 @@ resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
   description             = ""
   environment_id          = ""
   execution_role          = ""
-  id                      = ""
   initialization_script   = ""
   last_modified_timestamp = ""
   name                    = ""

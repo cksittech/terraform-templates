@@ -5,6 +5,7 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   execution_role_arn = ""
   name               = ""
   region             = ""
+  tags_all           = {}
   
   network_configuration {}
   recording {}

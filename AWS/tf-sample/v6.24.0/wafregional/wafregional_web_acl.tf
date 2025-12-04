@@ -1,5 +1,5 @@
 resource "aws_wafregional_web_acl" "tf-sample-wafregional-web-acl" {
-  id          = ""
+  arn         = ""
   metric_name = ""
   name        = ""
   region      = ""

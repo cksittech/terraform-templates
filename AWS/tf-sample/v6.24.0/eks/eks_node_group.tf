@@ -1,10 +1,10 @@
 resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   ami_type               = ""
+  arn                    = ""
   capacity_type          = ""
   cluster_name           = ""
-  disk_size              = ""
-  force_update_version   = ""
-  id                     = ""
+  disk_size              = 0
+  force_update_version   = false
   instance_types         = []
   labels                 = {}
   node_group_name        = ""

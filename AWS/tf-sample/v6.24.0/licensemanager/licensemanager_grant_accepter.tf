@@ -2,7 +2,6 @@ resource "aws_licensemanager_grant_accepter" "tf-sample-licensemanager-grant-acc
   allowed_operations = []
   grant_arn          = ""
   home_region        = ""
-  id                 = ""
   license_arn        = ""
   name               = ""
   parent_arn         = ""

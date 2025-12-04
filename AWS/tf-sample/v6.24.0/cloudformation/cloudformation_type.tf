@@ -1,11 +1,11 @@
 resource "aws_cloudformation_type" "tf-sample-cloudformation-type" {
+  arn                    = ""
   default_version_id     = ""
   deprecated_status      = ""
   description            = ""
   documentation_url      = ""
   execution_role_arn     = ""
-  id                     = ""
-  is_default_version     = ""
+  is_default_version     = false
   provisioning_type      = ""
   region                 = ""
   schema                 = ""

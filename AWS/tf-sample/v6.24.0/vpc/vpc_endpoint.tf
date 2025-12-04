@@ -1,16 +1,16 @@
 resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
-  auto_accept                = ""
+  arn                        = ""
+  auto_accept                = false
   cidr_blocks                = []
   dns_entry                  = []
-  id                         = ""
   ip_address_type            = ""
   network_interface_ids      = []
   owner_id                   = ""
   policy                     = ""
   prefix_list_id             = ""
-  private_dns_enabled        = ""
+  private_dns_enabled        = false
   region                     = ""
-  requester_managed          = ""
+  requester_managed          = false
   resource_configuration_arn = ""
   route_table_ids            = []
   security_group_ids         = []

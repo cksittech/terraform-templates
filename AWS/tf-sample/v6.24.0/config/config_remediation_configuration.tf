@@ -1,11 +1,11 @@
 resource "aws_config_remediation_configuration" "tf-sample-config-remediation-configuration" {
-  automatic                  = ""
+  arn                        = ""
+  automatic                  = false
   config_rule_name           = ""
-  id                         = ""
-  maximum_automatic_attempts = ""
+  maximum_automatic_attempts = 0
   region                     = ""
   resource_type              = ""
-  retry_attempt_seconds      = ""
+  retry_attempt_seconds      = 0
   target_id                  = ""
   target_type                = ""
   target_version             = ""

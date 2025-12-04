@@ -1,6 +1,6 @@
 resource "aws_redshift_data_share_consumer_association" "tf-sample-redshift-data-share-consumer-association" {
-  allow_writes             = ""
-  associate_entire_account = ""
+  allow_writes             = false
+  associate_entire_account = false
   consumer_arn             = ""
   consumer_region          = ""
   data_share_arn           = ""

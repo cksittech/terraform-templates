@@ -1,10 +1,10 @@
 resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
   action      = ""
+  arn         = ""
   description = ""
   detector_id = ""
-  id          = ""
   name        = ""
-  rank        = ""
+  rank        = 0
   region      = ""
   
   finding_criteria {}

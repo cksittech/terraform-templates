@@ -1,10 +1,10 @@
 resource "aws_gamelift_fleet" "tf-sample-gamelift-fleet" {
+  arn                                = ""
   build_arn                          = ""
   build_id                           = ""
   description                        = ""
   ec2_instance_type                  = ""
   fleet_type                         = ""
-  id                                 = ""
   instance_role_arn                  = ""
   log_paths                          = []
   metric_groups                      = []

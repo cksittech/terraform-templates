@@ -1,11 +1,11 @@
 resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
+  arn                       = ""
   creation_date             = ""
   definition                = ""
   description               = ""
-  id                        = ""
   name                      = ""
   name_prefix               = ""
-  publish                   = ""
+  publish                   = false
   region                    = ""
   revision_id               = ""
   role_arn                  = ""

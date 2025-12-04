@@ -5,7 +5,7 @@ resource "aws_grafana_workspace_service_account_token" "tf-sample-grafana-worksp
   key                      = ""
   name                     = ""
   region                   = ""
-  seconds_to_live          = ""
+  seconds_to_live          = 0
   service_account_id       = ""
   service_account_token_id = ""
   workspace_id             = ""

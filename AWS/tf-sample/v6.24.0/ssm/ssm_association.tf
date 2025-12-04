@@ -1,11 +1,11 @@
 resource "aws_ssm_association" "tf-sample-ssm-association" {
-  apply_only_at_cron_interval      = ""
+  apply_only_at_cron_interval      = false
+  arn                              = ""
   association_id                   = ""
   association_name                 = ""
   automation_target_parameter_name = ""
   compliance_severity              = ""
   document_version                 = ""
-  id                               = ""
   max_concurrency                  = ""
   max_errors                       = ""
   name                             = ""
@@ -13,7 +13,7 @@ resource "aws_ssm_association" "tf-sample-ssm-association" {
   region                           = ""
   schedule_expression              = ""
   sync_compliance                  = ""
-  wait_for_success_timeout_seconds = ""
+  wait_for_success_timeout_seconds = 0
   
   output_location {}
   targets {}

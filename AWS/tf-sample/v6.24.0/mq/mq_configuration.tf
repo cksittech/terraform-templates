@@ -1,11 +1,11 @@
 resource "aws_mq_configuration" "tf-sample-mq-configuration" {
+  arn                     = ""
   authentication_strategy = ""
   data                    = ""
   description             = ""
   engine_type             = ""
   engine_version          = ""
-  id                      = ""
-  latest_revision         = ""
+  latest_revision         = 0
   name                    = ""
   region                  = ""
   

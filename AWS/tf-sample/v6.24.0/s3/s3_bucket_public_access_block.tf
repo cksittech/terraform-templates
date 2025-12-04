@@ -1,10 +1,9 @@
 resource "aws_s3_bucket_public_access_block" "tf-sample-s3-bucket-public-access-block" {
-  block_public_acls       = ""
-  block_public_policy     = ""
+  block_public_acls       = false
+  block_public_policy     = false
   bucket                  = ""
-  id                      = ""
-  ignore_public_acls      = ""
+  ignore_public_acls      = false
   region                  = ""
-  restrict_public_buckets = ""
-  skip_destroy            = ""
+  restrict_public_buckets = false
+  skip_destroy            = false
 }

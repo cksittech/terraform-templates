@@ -8,7 +8,6 @@ resource "aws_account_primary_contact" "tf-sample-account-primary-contact" {
   country_code       = ""
   district_or_county = ""
   full_name          = ""
-  id                 = ""
   phone_number       = ""
   postal_code        = ""
   state_or_region    = ""

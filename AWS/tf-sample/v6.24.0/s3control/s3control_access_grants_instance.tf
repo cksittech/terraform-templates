@@ -6,6 +6,7 @@ resource "aws_s3control_access_grants_instance" "tf-sample-s3control-access-gran
   identity_center_application_arn = ""
   identity_center_arn             = ""
   region                          = ""
+  tags_all                        = {}
   
   tags = {}
 }

@@ -1,8 +1,8 @@
 resource "aws_kendra_experience" "tf-sample-kendra-experience" {
+  arn           = ""
   description   = ""
   endpoints     = []
   experience_id = ""
-  id            = ""
   index_id      = ""
   name          = ""
   region        = ""

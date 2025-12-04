@@ -1,14 +1,14 @@
 resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   active_directory_id               = ""
   aliases                           = []
-  automatic_backup_retention_days   = ""
+  arn                               = ""
+  automatic_backup_retention_days   = 0
   backup_id                         = ""
-  copy_tags_to_backups              = ""
+  copy_tags_to_backups              = false
   daily_automatic_backup_start_time = ""
   deployment_type                   = ""
   dns_name                          = ""
   final_backup_tags                 = {}
-  id                                = ""
   kms_key_id                        = ""
   network_interface_ids             = []
   owner_id                          = ""
@@ -17,11 +17,11 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   region                            = ""
   remote_administration_endpoint    = ""
   security_group_ids                = []
-  skip_final_backup                 = ""
-  storage_capacity                  = ""
+  skip_final_backup                 = false
+  storage_capacity                  = 0
   storage_type                      = ""
   subnet_ids                        = []
-  throughput_capacity               = ""
+  throughput_capacity               = 0
   vpc_id                            = ""
   weekly_maintenance_start_time     = ""
   

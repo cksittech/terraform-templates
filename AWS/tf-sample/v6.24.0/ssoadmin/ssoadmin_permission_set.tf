@@ -1,7 +1,7 @@
 resource "aws_ssoadmin_permission_set" "tf-sample-ssoadmin-permission-set" {
+  arn              = ""
   created_date     = ""
   description      = ""
-  id               = ""
   instance_arn     = ""
   name             = ""
   region           = ""

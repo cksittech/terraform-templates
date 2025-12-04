@@ -1,6 +1,6 @@
 resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
+  arn             = ""
   ecs_cluster_arn = ""
-  id              = ""
   name            = ""
   name_prefix     = ""
   region          = ""

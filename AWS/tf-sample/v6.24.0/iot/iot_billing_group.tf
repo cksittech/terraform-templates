@@ -1,9 +1,11 @@
 resource "aws_iot_billing_group" "tf-sample-iot-billing-group" {
+  arn      = ""
   id       = ""
   metadata = []
   name     = ""
   region   = ""
-  version  = ""
+  tags_all = {}
+  version  = 0
   
   properties {}
   

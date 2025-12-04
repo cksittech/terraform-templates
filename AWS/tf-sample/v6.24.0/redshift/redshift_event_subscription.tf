@@ -1,8 +1,8 @@
 resource "aws_redshift_event_subscription" "tf-sample-redshift-event-subscription" {
+  arn              = ""
   customer_aws_id  = ""
-  enabled          = ""
+  enabled          = false
   event_categories = []
-  id               = ""
   name             = ""
   region           = ""
   severity         = ""

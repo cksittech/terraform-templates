@@ -1,10 +1,10 @@
 resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
   action      = ""
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   name_prefix = ""
-  position    = ""
+  position    = 0
   region      = ""
   
   finding_criteria {}

@@ -1,13 +1,13 @@
 resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
+  arn                = ""
   catalog_id         = ""
   database_name      = ""
   description        = ""
-  id                 = ""
   name               = ""
   owner              = ""
   parameters         = {}
   region             = ""
-  retention          = ""
+  retention          = 0
   table_type         = ""
   view_expanded_text = ""
   view_original_text = ""

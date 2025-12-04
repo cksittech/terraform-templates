@@ -2,7 +2,6 @@ resource "aws_verifiedaccess_group" "tf-sample-verifiedaccess-group" {
   creation_time              = ""
   deletion_time              = ""
   description                = ""
-  id                         = ""
   last_updated_time          = ""
   owner                      = ""
   policy_document            = ""

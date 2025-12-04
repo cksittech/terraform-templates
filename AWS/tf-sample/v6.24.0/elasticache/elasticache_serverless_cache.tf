@@ -1,4 +1,5 @@
 resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-cache" {
+  arn                      = ""
   create_time              = ""
   daily_snapshot_time      = ""
   description              = ""
@@ -13,9 +14,10 @@ resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-ca
   region                   = ""
   security_group_ids       = []
   snapshot_arns_to_restore = []
-  snapshot_retention_limit = ""
+  snapshot_retention_limit = 0
   status                   = ""
   subnet_ids               = []
+  tags_all                 = {}
   user_group_id            = ""
   
   cache_usage_limits {}

@@ -1,5 +1,4 @@
 resource "aws_config_delivery_channel" "tf-sample-config-delivery-channel" {
-  id             = ""
   name           = ""
   region         = ""
   s3_bucket_name = ""

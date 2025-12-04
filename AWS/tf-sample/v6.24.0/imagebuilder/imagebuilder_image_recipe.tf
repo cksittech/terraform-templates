@@ -1,8 +1,8 @@
 resource "aws_imagebuilder_image_recipe" "tf-sample-imagebuilder-image-recipe" {
   ami_tags          = {}
+  arn               = ""
   date_created      = ""
   description       = ""
-  id                = ""
   name              = ""
   owner             = ""
   parent_image      = ""

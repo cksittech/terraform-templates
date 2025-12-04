@@ -1,7 +1,7 @@
 resource "aws_connect_user" "tf-sample-connect-user" {
+  arn                  = ""
   directory_user_id    = ""
   hierarchy_group_id   = ""
-  id                   = ""
   instance_id          = ""
   name                 = ""
   password             = ""

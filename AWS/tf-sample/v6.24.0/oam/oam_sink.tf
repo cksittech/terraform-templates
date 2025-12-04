@@ -1,5 +1,5 @@
 resource "aws_oam_sink" "tf-sample-oam-sink" {
-  id      = ""
+  arn     = ""
   name    = ""
   region  = ""
   sink_id = ""

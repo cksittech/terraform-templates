@@ -4,8 +4,7 @@ resource "aws_dx_hosted_connection" "tf-sample-dx-hosted-connection" {
   connection_id          = ""
   connection_region      = ""
   has_logical_redundancy = ""
-  id                     = ""
-  jumbo_frame_capable    = ""
+  jumbo_frame_capable    = false
   lag_id                 = ""
   loa_issue_time         = ""
   location               = ""
@@ -15,5 +14,5 @@ resource "aws_dx_hosted_connection" "tf-sample-dx-hosted-connection" {
   provider_name          = ""
   region                 = ""
   state                  = ""
-  vlan                   = ""
+  vlan                   = 0
 }

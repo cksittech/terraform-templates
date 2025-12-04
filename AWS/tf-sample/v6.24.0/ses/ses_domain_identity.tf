@@ -1,6 +1,6 @@
 resource "aws_ses_domain_identity" "tf-sample-ses-domain-identity" {
+  arn                = ""
   domain             = ""
-  id                 = ""
   region             = ""
   verification_token = ""
 }

@@ -1,5 +1,5 @@
 resource "aws_wafregional_ipset" "tf-sample-wafregional-ipset" {
-  id     = ""
+  arn    = ""
   name   = ""
   region = ""
   

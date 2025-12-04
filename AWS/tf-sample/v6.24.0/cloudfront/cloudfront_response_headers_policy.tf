@@ -1,7 +1,7 @@
 resource "aws_cloudfront_response_headers_policy" "tf-sample-cloudfront-response-headers-policy" {
+  arn     = ""
   comment = ""
   etag    = ""
-  id      = ""
   name    = ""
   
   cors_config {}

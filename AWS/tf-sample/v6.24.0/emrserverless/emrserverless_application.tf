@@ -1,6 +1,6 @@
 resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
   architecture  = ""
-  id            = ""
+  arn           = ""
   name          = ""
   region        = ""
   release_label = ""

@@ -1,4 +1,5 @@
 resource "aws_bedrock_inference_profile" "tf-sample-bedrock-inference-profile" {
+  arn         = ""
   created_at  = ""
   description = ""
   id          = ""
@@ -6,6 +7,7 @@ resource "aws_bedrock_inference_profile" "tf-sample-bedrock-inference-profile" {
   name        = ""
   region      = ""
   status      = ""
+  tags_all    = {}
   type        = ""
   updated_at  = ""
   

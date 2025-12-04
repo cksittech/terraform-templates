@@ -1,8 +1,8 @@
 resource "aws_lightsail_container_service" "tf-sample-lightsail-container-service" {
+  arn                 = ""
   availability_zone   = ""
   created_at          = ""
-  id                  = ""
-  is_disabled         = ""
+  is_disabled         = false
   name                = ""
   power               = ""
   power_id            = ""
@@ -10,7 +10,7 @@ resource "aws_lightsail_container_service" "tf-sample-lightsail-container-servic
   private_domain_name = ""
   region              = ""
   resource_type       = ""
-  scale               = ""
+  scale               = 0
   state               = ""
   url                 = ""
   

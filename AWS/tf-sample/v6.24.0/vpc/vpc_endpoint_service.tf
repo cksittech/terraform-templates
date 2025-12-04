@@ -1,11 +1,11 @@
 resource "aws_vpc_endpoint_service" "tf-sample-vpc-endpoint-service" {
-  acceptance_required            = ""
+  acceptance_required            = false
   allowed_principals             = []
+  arn                            = ""
   availability_zones             = []
   base_endpoint_dns_names        = []
   gateway_load_balancer_arns     = []
-  id                             = ""
-  manages_vpc_endpoints          = ""
+  manages_vpc_endpoints          = false
   network_load_balancer_arns     = []
   private_dns_name               = ""
   private_dns_name_configuration = []

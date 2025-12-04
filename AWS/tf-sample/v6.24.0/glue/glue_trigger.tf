@@ -1,11 +1,11 @@
 resource "aws_glue_trigger" "tf-sample-glue-trigger" {
+  arn               = ""
   description       = ""
-  enabled           = ""
-  id                = ""
+  enabled           = false
   name              = ""
   region            = ""
   schedule          = ""
-  start_on_creation = ""
+  start_on_creation = false
   state             = ""
   type              = ""
   workflow_name     = ""

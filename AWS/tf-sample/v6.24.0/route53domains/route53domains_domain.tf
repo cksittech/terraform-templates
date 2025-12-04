@@ -1,22 +1,23 @@
 resource "aws_route53domains_domain" "tf-sample-route53domains-domain" {
   abuse_contact_email = ""
   abuse_contact_phone = ""
-  admin_privacy       = ""
-  auto_renew          = ""
+  admin_privacy       = false
+  auto_renew          = false
   billing_contact     = []
-  billing_privacy     = ""
+  billing_privacy     = false
   creation_date       = ""
   domain_name         = ""
-  duration_in_years   = ""
+  duration_in_years   = 0
   expiration_date     = ""
   hosted_zone_id      = ""
   name_server         = []
-  registrant_privacy  = ""
+  registrant_privacy  = false
   registrar_name      = ""
   registrar_url       = ""
   status_list         = []
-  tech_privacy        = ""
-  transfer_lock       = ""
+  tags_all            = {}
+  tech_privacy        = false
+  transfer_lock       = false
   updated_date        = ""
   whois_server        = ""
   

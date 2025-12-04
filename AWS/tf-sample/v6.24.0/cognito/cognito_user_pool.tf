@@ -1,5 +1,6 @@
 resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   alias_attributes           = []
+  arn                        = ""
   auto_verified_attributes   = []
   creation_date              = ""
   custom_domain              = ""
@@ -8,8 +9,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   email_verification_message = ""
   email_verification_subject = ""
   endpoint                   = ""
-  estimated_number_of_users  = ""
-  id                         = ""
+  estimated_number_of_users  = 0
   last_modified_date         = ""
   mfa_configuration          = ""
   name                       = ""

@@ -1,18 +1,17 @@
 resource "aws_db_snapshot_copy" "tf-sample-db-snapshot-copy" {
-  allocated_storage               = ""
+  allocated_storage               = 0
   availability_zone               = ""
-  copy_tags                       = ""
+  copy_tags                       = false
   db_snapshot_arn                 = ""
   destination_region              = ""
-  encrypted                       = ""
+  encrypted                       = false
   engine                          = ""
   engine_version                  = ""
-  id                              = ""
-  iops                            = ""
+  iops                            = 0
   kms_key_id                      = ""
   license_model                   = ""
   option_group_name               = ""
-  port                            = ""
+  port                            = 0
   presigned_url                   = ""
   region                          = ""
   shared_accounts                 = []

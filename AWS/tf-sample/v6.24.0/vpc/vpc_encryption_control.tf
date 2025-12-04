@@ -9,6 +9,7 @@ resource "aws_vpc_encryption_control" "tf-sample-vpc-encryption-control" {
   region                                 = ""
   state                                  = ""
   state_message                          = ""
+  tags_all                               = {}
   virtual_private_gateway_exclusion      = ""
   vpc_id                                 = ""
   vpc_lattice_exclusion                  = ""

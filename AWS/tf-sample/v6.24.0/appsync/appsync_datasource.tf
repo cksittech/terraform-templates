@@ -1,7 +1,7 @@
 resource "aws_appsync_datasource" "tf-sample-appsync-datasource" {
   api_id           = ""
+  arn              = ""
   description      = ""
-  id               = ""
   name             = ""
   region           = ""
   service_role_arn = ""

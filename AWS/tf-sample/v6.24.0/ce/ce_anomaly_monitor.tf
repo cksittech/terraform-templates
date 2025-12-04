@@ -1,5 +1,5 @@
 resource "aws_ce_anomaly_monitor" "tf-sample-ce-anomaly-monitor" {
-  id                    = ""
+  arn                   = ""
   monitor_dimension     = ""
   monitor_specification = ""
   monitor_type          = ""

@@ -1,6 +1,6 @@
 resource "aws_iam_instance_profile" "tf-sample-iam-instance-profile" {
+  arn         = ""
   create_date = ""
-  id          = ""
   name        = ""
   name_prefix = ""
   path        = ""

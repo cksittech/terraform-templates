@@ -1,8 +1,7 @@
 resource "aws_codebuild_webhook" "tf-sample-codebuild-webhook" {
   branch_filter   = ""
   build_type      = ""
-  id              = ""
-  manual_creation = ""
+  manual_creation = false
   payload_url     = ""
   project_name    = ""
   region          = ""

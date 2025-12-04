@@ -1,8 +1,8 @@
 resource "aws_iot_provisioning_template" "tf-sample-iot-provisioning-template" {
-  default_version_id    = ""
+  arn                   = ""
+  default_version_id    = 0
   description           = ""
-  enabled               = ""
-  id                    = ""
+  enabled               = false
   name                  = ""
   provisioning_role_arn = ""
   region                = ""

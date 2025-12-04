@@ -1,7 +1,8 @@
 resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   acl                           = ""
+  arn                           = ""
   bucket                        = ""
-  bucket_key_enabled            = ""
+  bucket_key_enabled            = false
   cache_control                 = ""
   checksum_algorithm            = ""
   checksum_crc32                = ""
@@ -25,8 +26,7 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   expected_source_bucket_owner  = ""
   expiration                    = ""
   expires                       = ""
-  force_destroy                 = ""
-  id                            = ""
+  force_destroy                 = false
   key                           = ""
   kms_encryption_context        = ""
   kms_key_id                    = ""
@@ -37,7 +37,7 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   object_lock_mode              = ""
   object_lock_retain_until_date = ""
   region                        = ""
-  request_charged               = ""
+  request_charged               = false
   request_payer                 = ""
   server_side_encryption        = ""
   source                        = ""

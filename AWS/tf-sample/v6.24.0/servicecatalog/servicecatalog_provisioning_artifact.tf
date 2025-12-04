@@ -1,11 +1,10 @@
 resource "aws_servicecatalog_provisioning_artifact" "tf-sample-servicecatalog-provisioning-artifact" {
   accept_language             = ""
-  active                      = ""
+  active                      = false
   created_time                = ""
   description                 = ""
-  disable_template_validation = ""
+  disable_template_validation = false
   guidance                    = ""
-  id                          = ""
   name                        = ""
   product_id                  = ""
   provisioning_artifact_id    = ""

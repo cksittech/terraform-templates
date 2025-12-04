@@ -2,6 +2,5 @@ resource "aws_acmpca_certificate_authority_certificate" "tf-sample-acmpca-certif
   certificate               = ""
   certificate_authority_arn = ""
   certificate_chain         = ""
-  id                        = ""
   region                    = ""
 }

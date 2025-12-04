@@ -1,6 +1,6 @@
 resource "aws_keyspaces_table" "tf-sample-keyspaces-table" {
-  default_time_to_live = ""
-  id                   = ""
+  arn                  = ""
+  default_time_to_live = 0
   keyspace_name        = ""
   region               = ""
   table_name           = ""

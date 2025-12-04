@@ -1,5 +1,5 @@
 resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-schedule" {
-  id     = ""
+  arn    = ""
   name   = ""
   region = ""
   

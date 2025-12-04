@@ -1,7 +1,6 @@
 resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-delivery-stream" {
   destination    = ""
   destination_id = ""
-  id             = ""
   name           = ""
   region         = ""
   version_id     = ""

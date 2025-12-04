@@ -1,12 +1,12 @@
 resource "aws_ses_receipt_rule" "tf-sample-ses-receipt-rule" {
   after         = ""
-  enabled       = ""
-  id            = ""
+  arn           = ""
+  enabled       = false
   name          = ""
   recipients    = []
   region        = ""
   rule_set_name = ""
-  scan_enabled  = ""
+  scan_enabled  = false
   tls_policy    = ""
   
   add_header_action {}

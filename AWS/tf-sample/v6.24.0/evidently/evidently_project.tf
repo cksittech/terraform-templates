@@ -1,13 +1,13 @@
 resource "aws_evidently_project" "tf-sample-evidently-project" {
-  active_experiment_count = ""
-  active_launch_count     = ""
+  active_experiment_count = 0
+  active_launch_count     = 0
+  arn                     = ""
   created_time            = ""
   description             = ""
-  experiment_count        = ""
-  feature_count           = ""
-  id                      = ""
+  experiment_count        = 0
+  feature_count           = 0
   last_updated_time       = ""
-  launch_count            = ""
+  launch_count            = 0
   name                    = ""
   region                  = ""
   status                  = ""

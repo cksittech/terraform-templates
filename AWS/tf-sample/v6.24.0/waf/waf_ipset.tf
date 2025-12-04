@@ -1,5 +1,5 @@
 resource "aws_waf_ipset" "tf-sample-waf-ipset" {
-  id   = ""
+  arn  = ""
   name = ""
   
   ip_set_descriptors {}

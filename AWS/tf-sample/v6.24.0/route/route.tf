@@ -6,7 +6,6 @@ resource "aws_route" "tf-sample-route" {
   destination_prefix_list_id  = ""
   egress_only_gateway_id      = ""
   gateway_id                  = ""
-  id                          = ""
   instance_id                 = ""
   instance_owner_id           = ""
   local_gateway_id            = ""

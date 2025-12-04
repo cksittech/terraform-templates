@@ -1,5 +1,5 @@
 resource "aws_datasync_location_nfs" "tf-sample-datasync-location-nfs" {
-  id              = ""
+  arn             = ""
   region          = ""
   server_hostname = ""
   subdirectory    = ""

@@ -1,6 +1,6 @@
 resource "aws_transfer_workflow" "tf-sample-transfer-workflow" {
+  arn         = ""
   description = ""
-  id          = ""
   region      = ""
   
   on_exception_steps {}

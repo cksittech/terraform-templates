@@ -7,9 +7,9 @@ resource "aws_bedrockagent_agent_action_group" "tf-sample-bedrockagent-agent-act
   description                   = ""
   id                            = ""
   parent_action_group_signature = ""
-  prepare_agent                 = ""
+  prepare_agent                 = false
   region                        = ""
-  skip_resource_in_use_check    = ""
+  skip_resource_in_use_check    = false
   
   action_group_executor {}
   api_schema {}

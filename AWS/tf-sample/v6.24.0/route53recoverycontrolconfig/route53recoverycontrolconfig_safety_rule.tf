@@ -1,12 +1,12 @@
 resource "aws_route53recoverycontrolconfig_safety_rule" "tf-sample-route53recoverycontrolconfig-safety-rule" {
+  arn               = ""
   asserted_controls = []
   control_panel_arn = ""
   gating_controls   = []
-  id                = ""
   name              = ""
   status            = ""
   target_controls   = []
-  wait_period_ms    = ""
+  wait_period_ms    = 0
   
   rule_config {}
   

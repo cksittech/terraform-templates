@@ -1,6 +1,6 @@
 resource "aws_glue_registry" "tf-sample-glue-registry" {
+  arn           = ""
   description   = ""
-  id            = ""
   region        = ""
   registry_name = ""
   

@@ -1,6 +1,6 @@
 resource "aws_sfn_activity" "tf-sample-sfn-activity" {
+  arn           = ""
   creation_date = ""
-  id            = ""
   name          = ""
   region        = ""
   

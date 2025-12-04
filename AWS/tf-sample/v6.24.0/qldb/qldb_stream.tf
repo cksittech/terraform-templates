@@ -1,6 +1,6 @@
 resource "aws_qldb_stream" "tf-sample-qldb-stream" {
+  arn                  = ""
   exclusive_end_time   = ""
-  id                   = ""
   inclusive_start_time = ""
   ledger_name          = ""
   region               = ""

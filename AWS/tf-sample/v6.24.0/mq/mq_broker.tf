@@ -1,7 +1,8 @@
 resource "aws_mq_broker" "tf-sample-mq-broker" {
-  apply_immediately                   = ""
+  apply_immediately                   = false
+  arn                                 = ""
   authentication_strategy             = ""
-  auto_minor_version_upgrade          = ""
+  auto_minor_version_upgrade          = false
   broker_name                         = ""
   data_replication_mode               = ""
   data_replication_primary_broker_arn = ""
@@ -9,10 +10,9 @@ resource "aws_mq_broker" "tf-sample-mq-broker" {
   engine_type                         = ""
   engine_version                      = ""
   host_instance_type                  = ""
-  id                                  = ""
   instances                           = []
   pending_data_replication_mode       = ""
-  publicly_accessible                 = ""
+  publicly_accessible                 = false
   region                              = ""
   security_groups                     = []
   storage_type                        = ""

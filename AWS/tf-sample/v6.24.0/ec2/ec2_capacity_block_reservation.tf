@@ -1,12 +1,13 @@
 resource "aws_ec2_capacity_block_reservation" "tf-sample-ec2-capacity-block-reservation" {
+  arn                        = ""
   availability_zone          = ""
   capacity_block_offering_id = ""
   created_date               = ""
-  ebs_optimized              = ""
+  ebs_optimized              = false
   end_date                   = ""
   end_date_type              = ""
   id                         = ""
-  instance_count             = ""
+  instance_count             = 0
   instance_platform          = ""
   instance_type              = ""
   outpost_arn                = ""
@@ -14,6 +15,7 @@ resource "aws_ec2_capacity_block_reservation" "tf-sample-ec2-capacity-block-rese
   region                     = ""
   reservation_type           = ""
   start_date                 = ""
+  tags_all                   = {}
   tenancy                    = ""
   
   tags = {}

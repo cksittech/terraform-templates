@@ -1,6 +1,6 @@
 resource "aws_qldb_ledger" "tf-sample-qldb-ledger" {
-  deletion_protection = ""
-  id                  = ""
+  arn                 = ""
+  deletion_protection = false
   kms_key             = ""
   name                = ""
   permissions_mode    = ""

@@ -1,9 +1,9 @@
 resource "aws_backup_vault" "tf-sample-backup-vault" {
-  force_destroy   = ""
-  id              = ""
+  arn             = ""
+  force_destroy   = false
   kms_key_arn     = ""
   name            = ""
-  recovery_points = ""
+  recovery_points = 0
   region          = ""
   
   tags = {}

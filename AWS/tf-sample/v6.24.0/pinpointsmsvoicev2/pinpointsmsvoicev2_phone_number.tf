@@ -1,5 +1,6 @@
 resource "aws_pinpointsmsvoicev2_phone_number" "tf-sample-pinpointsmsvoicev2-phone-number" {
-  deletion_protection_enabled   = ""
+  arn                           = ""
+  deletion_protection_enabled   = false
   id                            = ""
   iso_country_code              = ""
   message_type                  = ""
@@ -10,9 +11,10 @@ resource "aws_pinpointsmsvoicev2_phone_number" "tf-sample-pinpointsmsvoicev2-pho
   phone_number                  = ""
   region                        = ""
   registration_id               = ""
-  self_managed_opt_outs_enabled = ""
+  self_managed_opt_outs_enabled = false
+  tags_all                      = {}
   two_way_channel_arn           = ""
-  two_way_channel_enabled       = ""
+  two_way_channel_enabled       = false
   two_way_channel_role          = ""
   
   tags = {}

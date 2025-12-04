@@ -1,5 +1,4 @@
 resource "aws_ssoadmin_account_assignment" "tf-sample-ssoadmin-account-assignment" {
-  id                 = ""
   instance_arn       = ""
   permission_set_arn = ""
   principal_id       = ""

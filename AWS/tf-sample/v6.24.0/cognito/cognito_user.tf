@@ -3,9 +3,8 @@ resource "aws_cognito_user" "tf-sample-cognito-user" {
   client_metadata          = {}
   creation_date            = ""
   desired_delivery_mediums = []
-  enabled                  = ""
-  force_alias_creation     = ""
-  id                       = ""
+  enabled                  = false
+  force_alias_creation     = false
   last_modified_date       = ""
   message_action           = ""
   mfa_setting_list         = []

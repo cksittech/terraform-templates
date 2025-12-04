@@ -1,8 +1,9 @@
 resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication-configuration-template" {
-  associate_default_security_group        = ""
-  auto_replicate_new_disks                = ""
-  bandwidth_throttling                    = ""
-  create_public_ip                        = ""
+  arn                                     = ""
+  associate_default_security_group        = false
+  auto_replicate_new_disks                = false
+  bandwidth_throttling                    = 0
+  create_public_ip                        = false
   data_plane_routing                      = ""
   default_large_staging_disk_type         = ""
   ebs_encryption                          = ""
@@ -13,7 +14,8 @@ resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication
   replication_servers_security_groups_ids = []
   staging_area_subnet_id                  = ""
   staging_area_tags                       = {}
-  use_dedicated_replication_server        = ""
+  tags_all                                = {}
+  use_dedicated_replication_server        = false
   
   pit_policy {}
   

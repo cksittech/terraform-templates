@@ -1,8 +1,8 @@
 resource "aws_evidently_launch" "tf-sample-evidently-launch" {
+  arn                = ""
   created_time       = ""
   description        = ""
   execution          = []
-  id                 = ""
   last_updated_time  = ""
   name               = ""
   project            = ""

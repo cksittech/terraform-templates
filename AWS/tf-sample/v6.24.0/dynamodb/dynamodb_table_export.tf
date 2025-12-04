@@ -1,12 +1,12 @@
 resource "aws_dynamodb_table_export" "tf-sample-dynamodb-table-export" {
-  billed_size_in_bytes  = ""
+  arn                   = ""
+  billed_size_in_bytes  = 0
   end_time              = ""
   export_format         = ""
   export_status         = ""
   export_time           = ""
   export_type           = ""
-  id                    = ""
-  item_count            = ""
+  item_count            = 0
   manifest_files_s3_key = ""
   region                = ""
   s3_bucket             = ""

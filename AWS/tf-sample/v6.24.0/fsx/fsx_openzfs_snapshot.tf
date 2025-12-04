@@ -1,6 +1,6 @@
 resource "aws_fsx_openzfs_snapshot" "tf-sample-fsx-openzfs-snapshot" {
+  arn           = ""
   creation_time = ""
-  id            = ""
   name          = ""
   region        = ""
   volume_id     = ""

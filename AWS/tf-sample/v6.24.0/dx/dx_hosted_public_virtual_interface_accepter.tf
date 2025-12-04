@@ -1,5 +1,5 @@
 resource "aws_dx_hosted_public_virtual_interface_accepter" "tf-sample-dx-hosted-public-virtual-interface-accepter" {
-  id                   = ""
+  arn                  = ""
   region               = ""
   virtual_interface_id = ""
   

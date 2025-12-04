@@ -1,12 +1,12 @@
 resource "aws_flow_log" "tf-sample-flow-log" {
+  arn                           = ""
   deliver_cross_account_role    = ""
   eni_id                        = ""
   iam_role_arn                  = ""
-  id                            = ""
   log_destination               = ""
   log_destination_type          = ""
   log_format                    = ""
-  max_aggregation_interval      = ""
+  max_aggregation_interval      = 0
   region                        = ""
   subnet_id                     = ""
   traffic_type                  = ""

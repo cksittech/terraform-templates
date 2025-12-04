@@ -3,9 +3,9 @@ resource "aws_budgets_budget_action" "tf-sample-budgets-budget-action" {
   action_id          = ""
   action_type        = ""
   approval_model     = ""
+  arn                = ""
   budget_name        = ""
   execution_role_arn = ""
-  id                 = ""
   notification_type  = ""
   status             = ""
   

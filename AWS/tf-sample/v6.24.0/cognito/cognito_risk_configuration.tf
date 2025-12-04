@@ -1,6 +1,5 @@
 resource "aws_cognito_risk_configuration" "tf-sample-cognito-risk-configuration" {
   client_id    = ""
-  id           = ""
   region       = ""
   user_pool_id = ""
   

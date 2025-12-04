@@ -6,7 +6,6 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
   directory_type                  = ""
   dns_ip_addresses                = []
   iam_role_id                     = ""
-  id                              = ""
   ip_group_ids                    = []
   region                          = ""
   registration_code               = ""

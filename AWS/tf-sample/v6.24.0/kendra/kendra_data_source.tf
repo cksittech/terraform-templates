@@ -1,9 +1,9 @@
 resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
+  arn            = ""
   created_at     = ""
   data_source_id = ""
   description    = ""
   error_message  = ""
-  id             = ""
   index_id       = ""
   language_code  = ""
   name           = ""

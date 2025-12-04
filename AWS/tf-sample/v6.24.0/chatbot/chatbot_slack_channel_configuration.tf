@@ -10,7 +10,8 @@ resource "aws_chatbot_slack_channel_configuration" "tf-sample-chatbot-slack-chan
   slack_team_id               = ""
   slack_team_name             = ""
   sns_topic_arns              = []
-  user_authorization_required = ""
+  tags_all                    = {}
+  user_authorization_required = false
   
   tags = {}
 }

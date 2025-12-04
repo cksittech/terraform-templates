@@ -4,12 +4,13 @@ resource "aws_workspacesweb_user_settings" "tf-sample-workspacesweb-user-setting
   copy_allowed                       = ""
   customer_managed_key               = ""
   deep_link_allowed                  = ""
-  disconnect_timeout_in_minutes      = ""
+  disconnect_timeout_in_minutes      = 0
   download_allowed                   = ""
-  idle_disconnect_timeout_in_minutes = ""
+  idle_disconnect_timeout_in_minutes = 0
   paste_allowed                      = ""
   print_allowed                      = ""
   region                             = ""
+  tags_all                           = {}
   upload_allowed                     = ""
   user_settings_arn                  = ""
   

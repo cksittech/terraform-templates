@@ -1,5 +1,5 @@
 resource "aws_route_table" "tf-sample-route-table" {
-  id               = ""
+  arn              = ""
   owner_id         = ""
   propagating_vgws = []
   region           = ""

@@ -1,7 +1,7 @@
 resource "aws_media_convert_queue" "tf-sample-media-convert-queue" {
-  concurrent_jobs = ""
+  arn             = ""
+  concurrent_jobs = 0
   description     = ""
-  id              = ""
   name            = ""
   pricing_plan    = ""
   region          = ""

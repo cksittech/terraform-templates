@@ -1,5 +1,5 @@
 resource "aws_dynamodb_global_table" "tf-sample-dynamodb-global-table" {
-  id     = ""
+  arn    = ""
   name   = ""
   region = ""
   

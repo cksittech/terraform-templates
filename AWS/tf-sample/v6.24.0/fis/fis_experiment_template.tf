@@ -1,6 +1,5 @@
 resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
   description = ""
-  id          = ""
   region      = ""
   role_arn    = ""
   

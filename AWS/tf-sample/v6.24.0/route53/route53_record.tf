@@ -1,13 +1,12 @@
 resource "aws_route53_record" "tf-sample-route53-record" {
-  allow_overwrite                  = ""
+  allow_overwrite                  = false
   fqdn                             = ""
   health_check_id                  = ""
-  id                               = ""
-  multivalue_answer_routing_policy = ""
+  multivalue_answer_routing_policy = false
   name                             = ""
   records                          = []
   set_identifier                   = ""
-  ttl                              = ""
+  ttl                              = 0
   type                             = ""
   zone_id                          = ""
   

@@ -1,14 +1,14 @@
 resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
+  arn                                 = ""
   context                             = ""
   excess_capacity_termination_policy  = ""
   fleet_state                         = ""
-  fulfilled_capacity                  = ""
-  fulfilled_on_demand_capacity        = ""
-  id                                  = ""
+  fulfilled_capacity                  = 0
+  fulfilled_on_demand_capacity        = 0
   region                              = ""
-  replace_unhealthy_instances         = ""
-  terminate_instances                 = ""
-  terminate_instances_with_expiration = ""
+  replace_unhealthy_instances         = false
+  terminate_instances                 = false
+  terminate_instances_with_expiration = false
   type                                = ""
   valid_from                          = ""
   valid_until                         = ""

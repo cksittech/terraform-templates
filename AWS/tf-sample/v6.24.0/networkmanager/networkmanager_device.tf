@@ -1,7 +1,7 @@
 resource "aws_networkmanager_device" "tf-sample-networkmanager-device" {
+  arn               = ""
   description       = ""
   global_network_id = ""
-  id                = ""
   model             = ""
   serial_number     = ""
   site_id           = ""

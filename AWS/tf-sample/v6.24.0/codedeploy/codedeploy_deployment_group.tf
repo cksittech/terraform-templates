@@ -1,15 +1,15 @@
 resource "aws_codedeploy_deployment_group" "tf-sample-codedeploy-deployment-group" {
   app_name                    = ""
+  arn                         = ""
   autoscaling_groups          = []
   compute_platform            = ""
   deployment_config_name      = ""
   deployment_group_id         = ""
   deployment_group_name       = ""
-  id                          = ""
   outdated_instances_strategy = ""
   region                      = ""
   service_role_arn            = ""
-  termination_hook_enabled    = ""
+  termination_hook_enabled    = false
   
   alarm_configuration {}
   auto_rollback_configuration {}

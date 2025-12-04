@@ -1,17 +1,16 @@
 resource "aws_dms_replication_instance" "tf-sample-dms-replication-instance" {
-  allocated_storage                = ""
-  allow_major_version_upgrade      = ""
-  apply_immediately                = ""
-  auto_minor_version_upgrade       = ""
+  allocated_storage                = 0
+  allow_major_version_upgrade      = false
+  apply_immediately                = false
+  auto_minor_version_upgrade       = false
   availability_zone                = ""
   dns_name_servers                 = ""
   engine_version                   = ""
-  id                               = ""
   kms_key_arn                      = ""
-  multi_az                         = ""
+  multi_az                         = false
   network_type                     = ""
   preferred_maintenance_window     = ""
-  publicly_accessible              = ""
+  publicly_accessible              = false
   region                           = ""
   replication_instance_arn         = ""
   replication_instance_class       = ""

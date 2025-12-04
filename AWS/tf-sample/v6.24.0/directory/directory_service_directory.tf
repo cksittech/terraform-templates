@@ -2,11 +2,10 @@ resource "aws_directory_service_directory" "tf-sample-directory-service-director
   access_url                           = ""
   alias                                = ""
   description                          = ""
-  desired_number_of_domain_controllers = ""
+  desired_number_of_domain_controllers = 0
   dns_ip_addresses                     = []
   edition                              = ""
-  enable_sso                           = ""
-  id                                   = ""
+  enable_sso                           = false
   name                                 = ""
   password                             = ""
   region                               = ""

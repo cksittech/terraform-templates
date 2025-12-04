@@ -1,8 +1,8 @@
 resource "aws_db_event_subscription" "tf-sample-db-event-subscription" {
+  arn              = ""
   customer_aws_id  = ""
-  enabled          = ""
+  enabled          = false
   event_categories = []
-  id               = ""
   name             = ""
   name_prefix      = ""
   region           = ""

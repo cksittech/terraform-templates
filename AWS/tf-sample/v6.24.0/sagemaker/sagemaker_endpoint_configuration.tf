@@ -1,6 +1,6 @@
 resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-configuration" {
+  arn                = ""
   execution_role_arn = ""
-  id                 = ""
   kms_key_arn        = ""
   name               = ""
   name_prefix        = ""

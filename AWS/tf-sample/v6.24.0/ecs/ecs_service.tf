@@ -1,26 +1,26 @@
 resource "aws_ecs_service" "tf-sample-ecs-service" {
+  arn                                = ""
   availability_zone_rebalancing      = ""
   cluster                            = ""
-  deployment_maximum_percent         = ""
-  deployment_minimum_healthy_percent = ""
-  desired_count                      = ""
-  enable_ecs_managed_tags            = ""
-  enable_execute_command             = ""
-  force_delete                       = ""
-  force_new_deployment               = ""
-  health_check_grace_period_seconds  = ""
+  deployment_maximum_percent         = 0
+  deployment_minimum_healthy_percent = 0
+  desired_count                      = 0
+  enable_ecs_managed_tags            = false
+  enable_execute_command             = false
+  force_delete                       = false
+  force_new_deployment               = false
+  health_check_grace_period_seconds  = 0
   iam_role                           = ""
-  id                                 = ""
   launch_type                        = ""
   name                               = ""
   platform_version                   = ""
   propagate_tags                     = ""
   region                             = ""
   scheduling_strategy                = ""
-  sigint_rollback                    = ""
+  sigint_rollback                    = false
   task_definition                    = ""
   triggers                           = {}
-  wait_for_steady_state              = ""
+  wait_for_steady_state              = false
   
   alarms {}
   capacity_provider_strategy {}

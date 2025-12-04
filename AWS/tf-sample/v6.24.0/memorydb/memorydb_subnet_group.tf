@@ -1,6 +1,6 @@
 resource "aws_memorydb_subnet_group" "tf-sample-memorydb-subnet-group" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   name_prefix = ""
   region      = ""

@@ -1,7 +1,6 @@
 resource "aws_iot_logging_options" "tf-sample-iot-logging-options" {
   default_log_level = ""
-  disable_all_logs  = ""
-  id                = ""
+  disable_all_logs  = false
   region            = ""
   role_arn          = ""
 }

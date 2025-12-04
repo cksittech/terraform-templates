@@ -1,11 +1,11 @@
 resource "aws_apigatewayv2_stage" "tf-sample-apigatewayv2-stage" {
   api_id                = ""
-  auto_deploy           = ""
+  arn                   = ""
+  auto_deploy           = false
   client_certificate_id = ""
   deployment_id         = ""
   description           = ""
   execution_arn         = ""
-  id                    = ""
   invoke_url            = ""
   name                  = ""
   region                = ""

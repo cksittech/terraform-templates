@@ -1,4 +1,5 @@
 resource "aws_msk_cluster" "tf-sample-msk-cluster" {
+  arn                                           = ""
   bootstrap_brokers                             = ""
   bootstrap_brokers_public_sasl_iam             = ""
   bootstrap_brokers_public_sasl_scram           = ""
@@ -13,9 +14,8 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   cluster_uuid                                  = ""
   current_version                               = ""
   enhanced_monitoring                           = ""
-  id                                            = ""
   kafka_version                                 = ""
-  number_of_broker_nodes                        = ""
+  number_of_broker_nodes                        = 0
   region                                        = ""
   storage_mode                                  = ""
   zookeeper_connect_string                      = ""

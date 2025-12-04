@@ -1,23 +1,23 @@
 resource "aws_ami" "tf-sample-ami" {
   architecture         = ""
+  arn                  = ""
   boot_mode            = ""
   deprecation_time     = ""
   description          = ""
-  ena_support          = ""
+  ena_support          = false
   hypervisor           = ""
-  id                   = ""
   image_location       = ""
   image_owner_alias    = ""
   image_type           = ""
   imds_support         = ""
   kernel_id            = ""
   last_launched_time   = ""
-  manage_ebs_snapshots = ""
+  manage_ebs_snapshots = false
   name                 = ""
   owner_id             = ""
   platform             = ""
   platform_details     = ""
-  public               = ""
+  public               = false
   ramdisk_id           = ""
   region               = ""
   root_device_name     = ""

@@ -1,7 +1,6 @@
 resource "aws_appstream_directory_config" "tf-sample-appstream-directory-config" {
   created_time                            = ""
   directory_name                          = ""
-  id                                      = ""
   organizational_unit_distinguished_names = []
   region                                  = ""
   

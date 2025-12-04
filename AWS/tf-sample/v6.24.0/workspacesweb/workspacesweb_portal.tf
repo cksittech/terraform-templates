@@ -9,7 +9,7 @@ resource "aws_workspacesweb_portal" "tf-sample-workspacesweb-portal" {
   display_name                     = ""
   instance_type                    = ""
   ip_access_settings_arn           = ""
-  max_concurrent_sessions          = ""
+  max_concurrent_sessions          = 0
   network_settings_arn             = ""
   portal_arn                       = ""
   portal_endpoint                  = ""
@@ -18,6 +18,7 @@ resource "aws_workspacesweb_portal" "tf-sample-workspacesweb-portal" {
   renderer_type                    = ""
   session_logger_arn               = ""
   status_reason                    = ""
+  tags_all                         = {}
   trust_store_arn                  = ""
   user_access_logging_settings_arn = ""
   user_settings_arn                = ""

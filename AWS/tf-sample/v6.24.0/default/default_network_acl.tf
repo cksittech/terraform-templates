@@ -1,6 +1,6 @@
 resource "aws_default_network_acl" "tf-sample-default-network-acl" {
+  arn                    = ""
   default_network_acl_id = ""
-  id                     = ""
   owner_id               = ""
   region                 = ""
   subnet_ids             = []

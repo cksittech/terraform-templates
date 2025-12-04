@@ -1,4 +1,5 @@
 resource "aws_opensearchserverless_collection" "tf-sample-opensearchserverless-collection" {
+  arn                 = ""
   collection_endpoint = ""
   dashboard_endpoint  = ""
   description         = ""
@@ -7,6 +8,7 @@ resource "aws_opensearchserverless_collection" "tf-sample-opensearchserverless-c
   name                = ""
   region              = ""
   standby_replicas    = ""
+  tags_all            = {}
   type                = ""
   
   tags = {}

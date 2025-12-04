@@ -1,30 +1,30 @@
 resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
+  arn                              = ""
   availability_zones               = []
-  capacity_rebalance               = ""
+  capacity_rebalance               = false
   context                          = ""
-  default_cooldown                 = ""
-  default_instance_warmup          = ""
-  desired_capacity                 = ""
+  default_cooldown                 = 0
+  default_instance_warmup          = 0
+  desired_capacity                 = 0
   desired_capacity_type            = ""
   enabled_metrics                  = []
-  force_delete                     = ""
-  force_delete_warm_pool           = ""
-  health_check_grace_period        = ""
+  force_delete                     = false
+  force_delete_warm_pool           = false
+  health_check_grace_period        = 0
   health_check_type                = ""
-  id                               = ""
-  ignore_failed_scaling_activities = ""
+  ignore_failed_scaling_activities = false
   launch_configuration             = ""
   load_balancers                   = []
-  max_instance_lifetime            = ""
-  max_size                         = ""
+  max_instance_lifetime            = 0
+  max_size                         = 0
   metrics_granularity              = ""
-  min_elb_capacity                 = ""
-  min_size                         = ""
+  min_elb_capacity                 = 0
+  min_size                         = 0
   name                             = ""
   name_prefix                      = ""
   placement_group                  = ""
-  predicted_capacity               = ""
-  protect_from_scale_in            = ""
+  predicted_capacity               = 0
+  protect_from_scale_in            = false
   region                           = ""
   service_linked_role_arn          = ""
   suspended_processes              = []
@@ -32,8 +32,8 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   termination_policies             = []
   vpc_zone_identifier              = []
   wait_for_capacity_timeout        = ""
-  wait_for_elb_capacity            = ""
-  warm_pool_size                   = ""
+  wait_for_elb_capacity            = 0
+  warm_pool_size                   = 0
   
   availability_zone_distribution {}
   capacity_reservation_specification {}

@@ -1,4 +1,5 @@
 resource "aws_appsync_source_api_association" "tf-sample-appsync-source-api-association" {
+  arn                           = ""
   association_id                = ""
   description                   = ""
   id                            = ""

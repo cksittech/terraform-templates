@@ -1,9 +1,9 @@
 resource "aws_timestreamwrite_database" "tf-sample-timestreamwrite-database" {
+  arn           = ""
   database_name = ""
-  id            = ""
   kms_key_id    = ""
   region        = ""
-  table_count   = ""
+  table_count   = 0
   
   tags = {}
 }

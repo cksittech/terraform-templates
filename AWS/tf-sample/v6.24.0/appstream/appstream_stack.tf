@@ -1,10 +1,10 @@
 resource "aws_appstream_stack" "tf-sample-appstream-stack" {
+  arn                = ""
   created_time       = ""
   description        = ""
   display_name       = ""
   embed_host_domains = []
   feedback_url       = ""
-  id                 = ""
   name               = ""
   redirect_url       = ""
   region             = ""

@@ -2,7 +2,6 @@ resource "aws_kms_custom_key_store" "tf-sample-kms-custom-key-store" {
   cloud_hsm_cluster_id                = ""
   custom_key_store_name               = ""
   custom_key_store_type               = ""
-  id                                  = ""
   key_store_password                  = ""
   region                              = ""
   trust_anchor_certificate            = ""

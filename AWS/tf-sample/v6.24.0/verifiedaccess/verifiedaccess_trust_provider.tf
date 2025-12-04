@@ -1,7 +1,6 @@
 resource "aws_verifiedaccess_trust_provider" "tf-sample-verifiedaccess-trust-provider" {
   description                = ""
   device_trust_provider_type = ""
-  id                         = ""
   policy_reference_name      = ""
   region                     = ""
   trust_provider_type        = ""

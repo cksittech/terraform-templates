@@ -1,4 +1,5 @@
 resource "aws_codeconnections_connection" "tf-sample-codeconnections-connection" {
+  arn               = ""
   connection_status = ""
   host_arn          = ""
   id                = ""
@@ -6,6 +7,7 @@ resource "aws_codeconnections_connection" "tf-sample-codeconnections-connection"
   owner_account_id  = ""
   provider_type     = ""
   region            = ""
+  tags_all          = {}
   
   tags = {}
 }

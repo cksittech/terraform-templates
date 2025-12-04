@@ -1,5 +1,5 @@
 resource "aws_codestarconnections_host" "tf-sample-codestarconnections-host" {
-  id                = ""
+  arn               = ""
   name              = ""
   provider_endpoint = ""
   provider_type     = ""

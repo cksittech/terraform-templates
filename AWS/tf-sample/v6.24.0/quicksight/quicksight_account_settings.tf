@@ -2,5 +2,5 @@ resource "aws_quicksight_account_settings" "tf-sample-quicksight-account-setting
   aws_account_id                 = ""
   default_namespace              = ""
   region                         = ""
-  termination_protection_enabled = ""
+  termination_protection_enabled = false
 }

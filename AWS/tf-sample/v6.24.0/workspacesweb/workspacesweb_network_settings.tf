@@ -4,6 +4,7 @@ resource "aws_workspacesweb_network_settings" "tf-sample-workspacesweb-network-s
   region                 = ""
   security_group_ids     = []
   subnet_ids             = []
+  tags_all               = {}
   vpc_id                 = ""
   
   tags = {}

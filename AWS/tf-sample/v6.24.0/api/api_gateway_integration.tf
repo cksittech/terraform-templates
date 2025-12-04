@@ -6,7 +6,6 @@ resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   content_handling        = ""
   credentials             = ""
   http_method             = ""
-  id                      = ""
   integration_http_method = ""
   passthrough_behavior    = ""
   region                  = ""
@@ -14,7 +13,7 @@ resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   request_templates       = {}
   resource_id             = ""
   rest_api_id             = ""
-  timeout_milliseconds    = ""
+  timeout_milliseconds    = 0
   type                    = ""
   uri                     = ""
   

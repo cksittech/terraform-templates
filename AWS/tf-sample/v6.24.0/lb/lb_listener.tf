@@ -1,9 +1,9 @@
 resource "aws_lb_listener" "tf-sample-lb-listener" {
   alpn_policy                                                           = ""
+  arn                                                                   = ""
   certificate_arn                                                       = ""
-  id                                                                    = ""
   load_balancer_arn                                                     = ""
-  port                                                                  = ""
+  port                                                                  = 0
   protocol                                                              = ""
   region                                                                = ""
   routing_http_request_x_amzn_mtls_clientcert_header_name               = ""
@@ -21,12 +21,12 @@ resource "aws_lb_listener" "tf-sample-lb-listener" {
   routing_http_response_access_control_expose_headers_header_value      = ""
   routing_http_response_access_control_max_age_header_value             = ""
   routing_http_response_content_security_policy_header_value            = ""
-  routing_http_response_server_enabled                                  = ""
+  routing_http_response_server_enabled                                  = false
   routing_http_response_strict_transport_security_header_value          = ""
   routing_http_response_x_content_type_options_header_value             = ""
   routing_http_response_x_frame_options_header_value                    = ""
   ssl_policy                                                            = ""
-  tcp_idle_timeout_seconds                                              = ""
+  tcp_idle_timeout_seconds                                              = 0
   
   default_action {}
   mutual_authentication {}

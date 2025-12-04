@@ -1,8 +1,8 @@
 resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
+  arn                = ""
   description        = ""
   desired_state      = ""
   enrichment         = ""
-  id                 = ""
   kms_key_identifier = ""
   name               = ""
   name_prefix        = ""

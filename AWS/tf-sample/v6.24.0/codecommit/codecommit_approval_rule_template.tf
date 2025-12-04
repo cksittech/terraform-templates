@@ -3,7 +3,6 @@ resource "aws_codecommit_approval_rule_template" "tf-sample-codecommit-approval-
   content                   = ""
   creation_date             = ""
   description               = ""
-  id                        = ""
   last_modified_date        = ""
   last_modified_user        = ""
   name                      = ""

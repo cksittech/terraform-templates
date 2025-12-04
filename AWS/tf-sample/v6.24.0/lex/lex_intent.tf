@@ -1,9 +1,9 @@
 resource "aws_lex_intent" "tf-sample-lex-intent" {
+  arn                     = ""
   checksum                = ""
-  create_version          = ""
+  create_version          = false
   created_date            = ""
   description             = ""
-  id                      = ""
   last_updated_date       = ""
   name                    = ""
   parent_intent_signature = ""

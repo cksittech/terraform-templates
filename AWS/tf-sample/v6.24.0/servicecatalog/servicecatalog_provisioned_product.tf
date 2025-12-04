@@ -1,9 +1,9 @@
 resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-provisioned-product" {
   accept_language                        = ""
+  arn                                    = ""
   cloudwatch_dashboard_names             = []
   created_time                           = ""
-  id                                     = ""
-  ignore_errors                          = ""
+  ignore_errors                          = false
   last_provisioning_record_id            = ""
   last_record_id                         = ""
   last_successful_provisioning_record_id = ""
@@ -18,7 +18,7 @@ resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-prov
   provisioning_artifact_id               = ""
   provisioning_artifact_name             = ""
   region                                 = ""
-  retain_physical_resources              = ""
+  retain_physical_resources              = false
   status                                 = ""
   status_message                         = ""
   type                                   = ""

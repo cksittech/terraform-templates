@@ -1,7 +1,6 @@
 resource "aws_location_tracker" "tf-sample-location-tracker" {
   create_time        = ""
   description        = ""
-  id                 = ""
   kms_key_id         = ""
   position_filtering = ""
   region             = ""

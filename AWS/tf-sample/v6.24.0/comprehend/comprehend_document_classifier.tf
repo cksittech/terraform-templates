@@ -1,6 +1,6 @@
 resource "aws_comprehend_document_classifier" "tf-sample-comprehend-document-classifier" {
+  arn                  = ""
   data_access_role_arn = ""
-  id                   = ""
   language_code        = ""
   mode                 = ""
   model_kms_key_id     = ""

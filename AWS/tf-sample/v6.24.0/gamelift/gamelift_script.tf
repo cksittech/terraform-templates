@@ -1,5 +1,5 @@
 resource "aws_gamelift_script" "tf-sample-gamelift-script" {
-  id       = ""
+  arn      = ""
   name     = ""
   region   = ""
   version  = ""

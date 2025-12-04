@@ -3,8 +3,7 @@ resource "aws_pinpoint_apns_sandbox_channel" "tf-sample-pinpoint-apns-sandbox-ch
   bundle_id                     = ""
   certificate                   = ""
   default_authentication_method = ""
-  enabled                       = ""
-  id                            = ""
+  enabled                       = false
   private_key                   = ""
   region                        = ""
   team_id                       = ""

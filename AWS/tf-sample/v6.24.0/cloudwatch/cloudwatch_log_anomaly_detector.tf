@@ -1,12 +1,14 @@
 resource "aws_cloudwatch_log_anomaly_detector" "tf-sample-cloudwatch-log-anomaly-detector" {
-  anomaly_visibility_time = ""
+  anomaly_visibility_time = 0
+  arn                     = ""
   detector_name           = ""
-  enabled                 = ""
+  enabled                 = false
   evaluation_frequency    = ""
   filter_pattern          = ""
   kms_key_id              = ""
   log_group_arn_list      = []
   region                  = ""
+  tags_all                = {}
   
   tags = {}
 }

@@ -1,10 +1,10 @@
 resource "aws_lightsail_disk" "tf-sample-lightsail-disk" {
+  arn               = ""
   availability_zone = ""
   created_at        = ""
-  id                = ""
   name              = ""
   region            = ""
-  size_in_gb        = ""
+  size_in_gb        = 0
   support_code      = ""
   
   tags = {}

@@ -1,11 +1,11 @@
 resource "aws_iot_ca_certificate" "tf-sample-iot-ca-certificate" {
-  active                       = ""
-  allow_auto_registration      = ""
+  active                       = false
+  allow_auto_registration      = false
+  arn                          = ""
   ca_certificate_pem           = ""
   certificate_mode             = ""
-  customer_version             = ""
+  customer_version             = 0
   generation_id                = ""
-  id                           = ""
   region                       = ""
   validity                     = []
   verification_certificate_pem = ""

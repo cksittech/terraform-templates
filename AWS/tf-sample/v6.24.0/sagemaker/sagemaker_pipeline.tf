@@ -1,5 +1,5 @@
 resource "aws_sagemaker_pipeline" "tf-sample-sagemaker-pipeline" {
-  id                    = ""
+  arn                   = ""
   pipeline_definition   = ""
   pipeline_description  = ""
   pipeline_display_name = ""

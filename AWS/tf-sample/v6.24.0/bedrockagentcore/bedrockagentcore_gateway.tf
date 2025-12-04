@@ -10,6 +10,7 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
   protocol_type             = ""
   region                    = ""
   role_arn                  = ""
+  tags_all                  = {}
   workload_identity_details = []
   
   authorizer_configuration {}

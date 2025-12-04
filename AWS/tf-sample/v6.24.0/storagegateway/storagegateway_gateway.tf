@@ -1,7 +1,8 @@
 resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
   activation_key                              = ""
-  average_download_rate_limit_in_bits_per_sec = ""
-  average_upload_rate_limit_in_bits_per_sec   = ""
+  arn                                         = ""
+  average_download_rate_limit_in_bits_per_sec = 0
+  average_upload_rate_limit_in_bits_per_sec   = 0
   cloudwatch_log_group_arn                    = ""
   ec2_instance_id                             = ""
   endpoint_type                               = ""
@@ -13,10 +14,9 @@ resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
   gateway_type                                = ""
   gateway_vpc_endpoint                        = ""
   host_environment                            = ""
-  id                                          = ""
   medium_changer_type                         = ""
   region                                      = ""
-  smb_file_share_visibility                   = ""
+  smb_file_share_visibility                   = false
   smb_guest_password                          = ""
   smb_security_strategy                       = ""
   tape_drive_type                             = ""

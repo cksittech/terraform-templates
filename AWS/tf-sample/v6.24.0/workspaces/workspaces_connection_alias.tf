@@ -4,6 +4,7 @@ resource "aws_workspaces_connection_alias" "tf-sample-workspaces-connection-alia
   owner_account_id  = ""
   region            = ""
   state             = ""
+  tags_all          = {}
   
   tags = {}
 }

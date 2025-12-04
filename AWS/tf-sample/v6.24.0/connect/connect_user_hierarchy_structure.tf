@@ -1,5 +1,4 @@
 resource "aws_connect_user_hierarchy_structure" "tf-sample-connect-user-hierarchy-structure" {
-  id          = ""
   instance_id = ""
   region      = ""
   

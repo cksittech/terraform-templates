@@ -2,6 +2,7 @@ resource "aws_workspacesweb_user_access_logging_settings" "tf-sample-workspacesw
   associated_portal_arns           = []
   kinesis_stream_arn               = ""
   region                           = ""
+  tags_all                         = {}
   user_access_logging_settings_arn = ""
   
   tags = {}

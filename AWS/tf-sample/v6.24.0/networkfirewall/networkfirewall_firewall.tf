@@ -1,15 +1,15 @@
 resource "aws_networkfirewall_firewall" "tf-sample-networkfirewall-firewall" {
-  availability_zone_change_protection = ""
-  delete_protection                   = ""
+  arn                                 = ""
+  availability_zone_change_protection = false
+  delete_protection                   = false
   description                         = ""
   enabled_analysis_types              = []
   firewall_policy_arn                 = ""
-  firewall_policy_change_protection   = ""
+  firewall_policy_change_protection   = false
   firewall_status                     = []
-  id                                  = ""
   name                                = ""
   region                              = ""
-  subnet_change_protection            = ""
+  subnet_change_protection            = false
   transit_gateway_id                  = ""
   transit_gateway_owner_account_id    = ""
   update_token                        = ""

@@ -14,7 +14,6 @@ resource "aws_quicksight_account_subscription" "tf-sample-quicksight-account-sub
   email_address                    = ""
   first_name                       = ""
   iam_identity_center_instance_arn = ""
-  id                               = ""
   last_name                        = ""
   notification_email               = ""
   reader_group                     = []

@@ -2,6 +2,7 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
   region    = ""
   rule_arn  = ""
   rule_name = ""
+  tags_all  = {}
   
   rule {}
   

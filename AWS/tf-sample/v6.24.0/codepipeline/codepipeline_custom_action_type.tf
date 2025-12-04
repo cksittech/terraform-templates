@@ -1,6 +1,6 @@
 resource "aws_codepipeline_custom_action_type" "tf-sample-codepipeline-custom-action-type" {
+  arn           = ""
   category      = ""
-  id            = ""
   owner         = ""
   provider_name = ""
   region        = ""

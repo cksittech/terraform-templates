@@ -6,6 +6,7 @@ resource "aws_workspacesweb_data_protection_settings" "tf-sample-workspacesweb-d
   description                   = ""
   display_name                  = ""
   region                        = ""
+  tags_all                      = {}
   
   inline_redaction_configuration {}
   

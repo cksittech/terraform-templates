@@ -1,7 +1,7 @@
 resource "aws_cloudfront_origin_request_policy" "tf-sample-cloudfront-origin-request-policy" {
+  arn     = ""
   comment = ""
   etag    = ""
-  id      = ""
   name    = ""
   
   cookies_config {}

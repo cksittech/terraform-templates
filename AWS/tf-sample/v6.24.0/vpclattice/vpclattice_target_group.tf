@@ -1,5 +1,5 @@
 resource "aws_vpclattice_target_group" "tf-sample-vpclattice-target-group" {
-  id     = ""
+  arn    = ""
   name   = ""
   region = ""
   status = ""

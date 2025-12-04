@@ -1,5 +1,5 @@
 resource "aws_lightsail_static_ip" "tf-sample-lightsail-static-ip" {
-  id           = ""
+  arn          = ""
   ip_address   = ""
   name         = ""
   region       = ""

@@ -1,11 +1,11 @@
 resource "aws_db_parameter_group" "tf-sample-db-parameter-group" {
+  arn          = ""
   description  = ""
   family       = ""
-  id           = ""
   name         = ""
   name_prefix  = ""
   region       = ""
-  skip_destroy = ""
+  skip_destroy = false
   
   parameter {}
   

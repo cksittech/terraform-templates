@@ -1,6 +1,6 @@
 resource "aws_sagemaker_flow_definition" "tf-sample-sagemaker-flow-definition" {
+  arn                  = ""
   flow_definition_name = ""
-  id                   = ""
   region               = ""
   role_arn             = ""
   

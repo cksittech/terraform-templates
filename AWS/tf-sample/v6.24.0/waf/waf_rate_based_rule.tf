@@ -1,9 +1,9 @@
 resource "aws_waf_rate_based_rule" "tf-sample-waf-rate-based-rule" {
-  id          = ""
+  arn         = ""
   metric_name = ""
   name        = ""
   rate_key    = ""
-  rate_limit  = ""
+  rate_limit  = 0
   
   predicates {}
   

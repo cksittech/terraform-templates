@@ -3,7 +3,6 @@ resource "aws_location_geofence_collection" "tf-sample-location-geofence-collect
   collection_name = ""
   create_time     = ""
   description     = ""
-  id              = ""
   kms_key_id      = ""
   region          = ""
   update_time     = ""

@@ -1,4 +1,5 @@
 resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
+  arn                                    = ""
   certificate_arn                        = ""
   certificate_body                       = ""
   certificate_chain                      = ""
@@ -9,7 +10,6 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   cloudfront_zone_id                     = ""
   domain_name                            = ""
   domain_name_id                         = ""
-  id                                     = ""
   ownership_verification_certificate_arn = ""
   policy                                 = ""
   region                                 = ""

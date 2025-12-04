@@ -1,10 +1,10 @@
 resource "aws_cur_report_definition" "tf-sample-cur-report-definition" {
   additional_artifacts       = []
   additional_schema_elements = []
+  arn                        = ""
   compression                = ""
   format                     = ""
-  id                         = ""
-  refresh_closed_reports     = ""
+  refresh_closed_reports     = false
   report_name                = ""
   report_versioning          = ""
   s3_bucket                  = ""

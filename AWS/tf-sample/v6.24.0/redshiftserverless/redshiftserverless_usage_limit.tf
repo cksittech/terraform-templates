@@ -1,7 +1,7 @@
 resource "aws_redshiftserverless_usage_limit" "tf-sample-redshiftserverless-usage-limit" {
-  amount        = ""
+  amount        = 0
+  arn           = ""
   breach_action = ""
-  id            = ""
   period        = ""
   region        = ""
   resource_arn  = ""

@@ -1,7 +1,7 @@
 resource "aws_cloudwatch_event_endpoint" "tf-sample-cloudwatch-event-endpoint" {
+  arn          = ""
   description  = ""
   endpoint_url = ""
-  id           = ""
   name         = ""
   region       = ""
   role_arn     = ""

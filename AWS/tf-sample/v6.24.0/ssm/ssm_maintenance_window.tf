@@ -1,15 +1,14 @@
 resource "aws_ssm_maintenance_window" "tf-sample-ssm-maintenance-window" {
-  allow_unassociated_targets = ""
-  cutoff                     = ""
+  allow_unassociated_targets = false
+  cutoff                     = 0
   description                = ""
-  duration                   = ""
-  enabled                    = ""
+  duration                   = 0
+  enabled                    = false
   end_date                   = ""
-  id                         = ""
   name                       = ""
   region                     = ""
   schedule                   = ""
-  schedule_offset            = ""
+  schedule_offset            = 0
   schedule_timezone          = ""
   start_date                 = ""
   

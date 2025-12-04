@@ -3,7 +3,6 @@ resource "aws_cloudfront_public_key" "tf-sample-cloudfront-public-key" {
   comment          = ""
   encoded_key      = ""
   etag             = ""
-  id               = ""
   name             = ""
   name_prefix      = ""
 }

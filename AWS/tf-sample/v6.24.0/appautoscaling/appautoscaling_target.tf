@@ -1,7 +1,7 @@
 resource "aws_appautoscaling_target" "tf-sample-appautoscaling-target" {
-  id                 = ""
-  max_capacity       = ""
-  min_capacity       = ""
+  arn                = ""
+  max_capacity       = 0
+  min_capacity       = 0
   region             = ""
   resource_id        = ""
   role_arn           = ""

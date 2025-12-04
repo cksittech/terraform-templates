@@ -1,6 +1,5 @@
 resource "aws_signer_signing_profile_permission" "tf-sample-signer-signing-profile-permission" {
   action              = ""
-  id                  = ""
   principal           = ""
   profile_name        = ""
   profile_version     = ""

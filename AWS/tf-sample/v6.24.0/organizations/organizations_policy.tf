@@ -1,9 +1,9 @@
 resource "aws_organizations_policy" "tf-sample-organizations-policy" {
+  arn          = ""
   content      = ""
   description  = ""
-  id           = ""
   name         = ""
-  skip_destroy = ""
+  skip_destroy = false
   type         = ""
   
   tags = {}

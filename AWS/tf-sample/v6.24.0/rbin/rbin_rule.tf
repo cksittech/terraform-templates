@@ -1,4 +1,5 @@
 resource "aws_rbin_rule" "tf-sample-rbin-rule" {
+  arn           = ""
   description   = ""
   id            = ""
   lock_end_time = ""

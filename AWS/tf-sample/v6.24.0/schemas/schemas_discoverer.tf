@@ -1,6 +1,6 @@
 resource "aws_schemas_discoverer" "tf-sample-schemas-discoverer" {
+  arn         = ""
   description = ""
-  id          = ""
   region      = ""
   source_arn  = ""
   

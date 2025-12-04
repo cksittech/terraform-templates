@@ -1,6 +1,6 @@
 resource "aws_appautoscaling_scheduled_action" "tf-sample-appautoscaling-scheduled-action" {
+  arn                = ""
   end_time           = ""
-  id                 = ""
   name               = ""
   region             = ""
   resource_id        = ""

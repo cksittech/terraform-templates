@@ -1,7 +1,7 @@
 resource "aws_devicefarm_upload" "tf-sample-devicefarm-upload" {
+  arn          = ""
   category     = ""
   content_type = ""
-  id           = ""
   metadata     = ""
   name         = ""
   project_arn  = ""

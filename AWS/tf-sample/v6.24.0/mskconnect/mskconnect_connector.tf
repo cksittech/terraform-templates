@@ -1,7 +1,7 @@
 resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
+  arn                        = ""
   connector_configuration    = {}
   description                = ""
-  id                         = ""
   kafkaconnect_version       = ""
   name                       = ""
   region                     = ""

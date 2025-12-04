@@ -1,7 +1,7 @@
 resource "aws_schemas_schema" "tf-sample-schemas-schema" {
+  arn                  = ""
   content              = ""
   description          = ""
-  id                   = ""
   last_modified        = ""
   name                 = ""
   region               = ""

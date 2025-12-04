@@ -3,13 +3,12 @@ resource "aws_emr_instance_group" "tf-sample-emr-instance-group" {
   bid_price              = ""
   cluster_id             = ""
   configurations_json    = ""
-  ebs_optimized          = ""
-  id                     = ""
-  instance_count         = ""
+  ebs_optimized          = false
+  instance_count         = 0
   instance_type          = ""
   name                   = ""
   region                 = ""
-  running_instance_count = ""
+  running_instance_count = 0
   status                 = ""
   
   ebs_config {}

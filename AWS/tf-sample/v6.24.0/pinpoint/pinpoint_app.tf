@@ -1,6 +1,6 @@
 resource "aws_pinpoint_app" "tf-sample-pinpoint-app" {
   application_id = ""
-  id             = ""
+  arn            = ""
   name           = ""
   name_prefix    = ""
   region         = ""

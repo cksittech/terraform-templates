@@ -1,8 +1,8 @@
 resource "aws_msk_configuration" "tf-sample-msk-configuration" {
+  arn               = ""
   description       = ""
-  id                = ""
   kafka_versions    = []
-  latest_revision   = ""
+  latest_revision   = 0
   name              = ""
   region            = ""
   server_properties = ""

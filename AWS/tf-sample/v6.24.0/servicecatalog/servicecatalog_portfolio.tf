@@ -1,7 +1,7 @@
 resource "aws_servicecatalog_portfolio" "tf-sample-servicecatalog-portfolio" {
+  arn           = ""
   created_time  = ""
   description   = ""
-  id            = ""
   name          = ""
   provider_name = ""
   region        = ""

@@ -1,12 +1,11 @@
 resource "aws_redshift_endpoint_authorization" "tf-sample-redshift-endpoint-authorization" {
   account            = ""
-  allowed_all_vpcs   = ""
+  allowed_all_vpcs   = false
   cluster_identifier = ""
-  endpoint_count     = ""
-  force_delete       = ""
+  endpoint_count     = 0
+  force_delete       = false
   grantee            = ""
   grantor            = ""
-  id                 = ""
   region             = ""
   vpc_ids            = []
 }

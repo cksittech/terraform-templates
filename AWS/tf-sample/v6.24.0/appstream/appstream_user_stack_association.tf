@@ -1,8 +1,7 @@
 resource "aws_appstream_user_stack_association" "tf-sample-appstream-user-stack-association" {
   authentication_type     = ""
-  id                      = ""
   region                  = ""
-  send_email_notification = ""
+  send_email_notification = false
   stack_name              = ""
   user_name               = ""
 }

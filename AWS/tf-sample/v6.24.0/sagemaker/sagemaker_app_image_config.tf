@@ -1,6 +1,6 @@
 resource "aws_sagemaker_app_image_config" "tf-sample-sagemaker-app-image-config" {
   app_image_config_name = ""
-  id                    = ""
+  arn                   = ""
   region                = ""
   
   code_editor_app_image_config {}

@@ -1,6 +1,7 @@
 resource "aws_m2_application" "tf-sample-m2-application" {
   application_id  = ""
-  current_version = ""
+  arn             = ""
+  current_version = 0
   description     = ""
   engine_type     = ""
   id              = ""
@@ -8,6 +9,7 @@ resource "aws_m2_application" "tf-sample-m2-application" {
   name            = ""
   region          = ""
   role_arn        = ""
+  tags_all        = {}
   
   definition {}
   

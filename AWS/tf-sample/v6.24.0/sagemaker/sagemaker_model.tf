@@ -1,7 +1,7 @@
 resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
-  enable_network_isolation = ""
+  arn                      = ""
+  enable_network_isolation = false
   execution_role_arn       = ""
-  id                       = ""
   name                     = ""
   region                   = ""
   

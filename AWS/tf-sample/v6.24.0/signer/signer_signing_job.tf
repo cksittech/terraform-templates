@@ -1,8 +1,7 @@
 resource "aws_signer_signing_job" "tf-sample-signer-signing-job" {
   completed_at               = ""
   created_at                 = ""
-  id                         = ""
-  ignore_signing_job_failure = ""
+  ignore_signing_job_failure = false
   job_id                     = ""
   job_invoker                = ""
   job_owner                  = ""

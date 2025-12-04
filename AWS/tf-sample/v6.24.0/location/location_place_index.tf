@@ -2,7 +2,6 @@ resource "aws_location_place_index" "tf-sample-location-place-index" {
   create_time = ""
   data_source = ""
   description = ""
-  id          = ""
   index_arn   = ""
   index_name  = ""
   region      = ""

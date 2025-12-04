@@ -1,8 +1,8 @@
 resource "aws_iam_server_certificate" "tf-sample-iam-server-certificate" {
+  arn               = ""
   certificate_body  = ""
   certificate_chain = ""
   expiration        = ""
-  id                = ""
   name              = ""
   name_prefix       = ""
   path              = ""

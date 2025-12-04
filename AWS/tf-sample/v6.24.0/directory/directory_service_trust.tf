@@ -1,7 +1,7 @@
 resource "aws_directory_service_trust" "tf-sample-directory-service-trust" {
   conditional_forwarder_ip_addrs          = []
   created_date_time                       = ""
-  delete_associated_conditional_forwarder = ""
+  delete_associated_conditional_forwarder = false
   directory_id                            = ""
   id                                      = ""
   last_updated_date_time                  = ""

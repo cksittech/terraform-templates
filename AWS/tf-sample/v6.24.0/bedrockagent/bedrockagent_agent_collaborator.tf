@@ -5,7 +5,7 @@ resource "aws_bedrockagent_agent_collaborator" "tf-sample-bedrockagent-agent-col
   collaborator_id            = ""
   collaborator_name          = ""
   id                         = ""
-  prepare_agent              = ""
+  prepare_agent              = false
   region                     = ""
   relay_conversation_history = ""
   

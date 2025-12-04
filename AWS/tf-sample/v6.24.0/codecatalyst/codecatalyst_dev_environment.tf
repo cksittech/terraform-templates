@@ -1,7 +1,6 @@
 resource "aws_codecatalyst_dev_environment" "tf-sample-codecatalyst-dev-environment" {
   alias                      = ""
-  id                         = ""
-  inactivity_timeout_minutes = ""
+  inactivity_timeout_minutes = 0
   instance_type              = ""
   project_name               = ""
   region                     = ""

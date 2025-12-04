@@ -1,6 +1,6 @@
 resource "aws_connect_security_profile" "tf-sample-connect-security-profile" {
+  arn                      = ""
   description              = ""
-  id                       = ""
   instance_id              = ""
   name                     = ""
   organization_resource_id = ""

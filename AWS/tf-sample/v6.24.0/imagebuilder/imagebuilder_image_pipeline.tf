@@ -1,4 +1,5 @@
 resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipeline" {
+  arn                              = ""
   container_recipe_arn             = ""
   date_created                     = ""
   date_last_run                    = ""
@@ -6,9 +7,8 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
   date_updated                     = ""
   description                      = ""
   distribution_configuration_arn   = ""
-  enhanced_image_metadata_enabled  = ""
+  enhanced_image_metadata_enabled  = false
   execution_role                   = ""
-  id                               = ""
   image_recipe_arn                 = ""
   infrastructure_configuration_arn = ""
   name                             = ""

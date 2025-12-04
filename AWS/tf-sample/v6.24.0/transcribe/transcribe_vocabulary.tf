@@ -1,6 +1,6 @@
 resource "aws_transcribe_vocabulary" "tf-sample-transcribe-vocabulary" {
+  arn                 = ""
   download_uri        = ""
-  id                  = ""
   language_code       = ""
   phrases             = []
   region              = ""

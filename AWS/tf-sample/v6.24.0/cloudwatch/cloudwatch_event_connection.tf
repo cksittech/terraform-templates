@@ -1,7 +1,7 @@
 resource "aws_cloudwatch_event_connection" "tf-sample-cloudwatch-event-connection" {
+  arn                = ""
   authorization_type = ""
   description        = ""
-  id                 = ""
   kms_key_identifier = ""
   name               = ""
   region             = ""

@@ -1,11 +1,11 @@
 resource "aws_lambda_layer_version" "tf-sample-lambda-layer-version" {
+  arn                         = ""
   code_sha256                 = ""
   compatible_architectures    = []
   compatible_runtimes         = []
   created_date                = ""
   description                 = ""
   filename                    = ""
-  id                          = ""
   layer_arn                   = ""
   layer_name                  = ""
   license_info                = ""
@@ -15,8 +15,8 @@ resource "aws_lambda_layer_version" "tf-sample-lambda-layer-version" {
   s3_object_version           = ""
   signing_job_arn             = ""
   signing_profile_version_arn = ""
-  skip_destroy                = ""
+  skip_destroy                = false
   source_code_hash            = ""
-  source_code_size            = ""
+  source_code_size            = 0
   version                     = ""
 }

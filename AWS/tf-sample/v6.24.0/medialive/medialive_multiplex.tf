@@ -1,9 +1,9 @@
 resource "aws_medialive_multiplex" "tf-sample-medialive-multiplex" {
+  arn                = ""
   availability_zones = []
-  id                 = ""
   name               = ""
   region             = ""
-  start_multiplex    = ""
+  start_multiplex    = false
   
   multiplex_settings {}
   

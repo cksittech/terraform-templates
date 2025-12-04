@@ -1,5 +1,6 @@
 resource "aws_networkmanager_dx_gateway_attachment" "tf-sample-networkmanager-dx-gateway-attachment" {
-  attachment_policy_rule_number = ""
+  arn                           = ""
+  attachment_policy_rule_number = 0
   attachment_type               = ""
   core_network_arn              = ""
   core_network_id               = ""
@@ -9,6 +10,7 @@ resource "aws_networkmanager_dx_gateway_attachment" "tf-sample-networkmanager-dx
   owner_account_id              = ""
   segment_name                  = ""
   state                         = ""
+  tags_all                      = {}
   
   tags = {}
 }

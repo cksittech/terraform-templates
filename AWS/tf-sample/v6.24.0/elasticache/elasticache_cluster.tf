@@ -1,5 +1,6 @@
 resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
-  apply_immediately            = ""
+  apply_immediately            = false
+  arn                          = ""
   auto_minor_version_upgrade   = ""
   availability_zone            = ""
   az_mode                      = ""
@@ -11,16 +12,15 @@ resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
   engine_version               = ""
   engine_version_actual        = ""
   final_snapshot_identifier    = ""
-  id                           = ""
   ip_discovery                 = ""
   maintenance_window           = ""
   network_type                 = ""
   node_type                    = ""
   notification_topic_arn       = ""
-  num_cache_nodes              = ""
+  num_cache_nodes              = 0
   outpost_mode                 = ""
   parameter_group_name         = ""
-  port                         = ""
+  port                         = 0
   preferred_availability_zones = []
   preferred_outpost_arn        = ""
   region                       = ""
@@ -28,10 +28,10 @@ resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
   security_group_ids           = []
   snapshot_arns                = []
   snapshot_name                = ""
-  snapshot_retention_limit     = ""
+  snapshot_retention_limit     = 0
   snapshot_window              = ""
   subnet_group_name            = ""
-  transit_encryption_enabled   = ""
+  transit_encryption_enabled   = false
   
   log_delivery_configuration {}
   

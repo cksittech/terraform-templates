@@ -1,7 +1,7 @@
 resource "aws_iam_policy" "tf-sample-iam-policy" {
-  attachment_count = ""
+  arn              = ""
+  attachment_count = 0
   description      = ""
-  id               = ""
   name             = ""
   name_prefix      = ""
   path             = ""

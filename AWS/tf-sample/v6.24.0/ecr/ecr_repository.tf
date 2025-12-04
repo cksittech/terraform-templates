@@ -1,6 +1,6 @@
 resource "aws_ecr_repository" "tf-sample-ecr-repository" {
-  force_delete         = ""
-  id                   = ""
+  arn                  = ""
+  force_delete         = false
   image_tag_mutability = ""
   name                 = ""
   region               = ""

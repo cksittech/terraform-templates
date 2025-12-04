@@ -1,7 +1,9 @@
 resource "aws_resourceexplorer2_index" "tf-sample-resourceexplorer2-index" {
-  id     = ""
-  region = ""
-  type   = ""
+  arn      = ""
+  id       = ""
+  region   = ""
+  tags_all = {}
+  type     = ""
   
   tags = {}
 }

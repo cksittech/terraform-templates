@@ -5,6 +5,7 @@ resource "aws_workspacesweb_session_logger" "tf-sample-workspacesweb-session-log
   display_name                  = ""
   region                        = ""
   session_logger_arn            = ""
+  tags_all                      = {}
   
   event_filter {}
   log_configuration {}

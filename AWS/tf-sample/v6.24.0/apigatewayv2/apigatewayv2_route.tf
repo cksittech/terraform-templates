@@ -1,10 +1,9 @@
 resource "aws_apigatewayv2_route" "tf-sample-apigatewayv2-route" {
   api_id                              = ""
-  api_key_required                    = ""
+  api_key_required                    = false
   authorization_scopes                = []
   authorization_type                  = ""
   authorizer_id                       = ""
-  id                                  = ""
   model_selection_expression          = ""
   operation_name                      = ""
   region                              = ""

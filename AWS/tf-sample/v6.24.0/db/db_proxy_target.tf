@@ -3,8 +3,7 @@ resource "aws_db_proxy_target" "tf-sample-db-proxy-target" {
   db_instance_identifier = ""
   db_proxy_name          = ""
   endpoint               = ""
-  id                     = ""
-  port                   = ""
+  port                   = 0
   rds_resource_id        = ""
   region                 = ""
   target_arn             = ""

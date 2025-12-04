@@ -1,7 +1,7 @@
 resource "aws_connect_routing_profile" "tf-sample-connect-routing-profile" {
+  arn                       = ""
   default_outbound_queue_id = ""
   description               = ""
-  id                        = ""
   instance_id               = ""
   name                      = ""
   region                    = ""

@@ -1,9 +1,9 @@
 resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
+  arn             = ""
   connection_mode = ""
   connector_label = ""
   connector_type  = ""
   credentials_arn = ""
-  id              = ""
   kms_arn         = ""
   name            = ""
   region          = ""

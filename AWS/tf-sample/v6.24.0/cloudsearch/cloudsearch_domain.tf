@@ -1,8 +1,8 @@
 resource "aws_cloudsearch_domain" "tf-sample-cloudsearch-domain" {
+  arn                       = ""
   document_service_endpoint = ""
   domain_id                 = ""
-  id                        = ""
-  multi_az                  = ""
+  multi_az                  = false
   name                      = ""
   region                    = ""
   search_service_endpoint   = ""

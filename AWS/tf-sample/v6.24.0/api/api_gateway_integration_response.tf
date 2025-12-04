@@ -1,7 +1,6 @@
 resource "aws_api_gateway_integration_response" "tf-sample-api-gateway-integration-response" {
   content_handling    = ""
   http_method         = ""
-  id                  = ""
   region              = ""
   resource_id         = ""
   response_parameters = {}

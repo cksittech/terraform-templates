@@ -1,7 +1,6 @@
 resource "aws_grafana_license_association" "tf-sample-grafana-license-association" {
   free_trial_expiration = ""
   grafana_token         = ""
-  id                    = ""
   license_expiration    = ""
   license_type          = ""
   region                = ""

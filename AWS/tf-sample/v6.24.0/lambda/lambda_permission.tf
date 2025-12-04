@@ -3,7 +3,6 @@ resource "aws_lambda_permission" "tf-sample-lambda-permission" {
   event_source_token     = ""
   function_name          = ""
   function_url_auth_type = ""
-  id                     = ""
   principal              = ""
   principal_org_id       = ""
   qualifier              = ""

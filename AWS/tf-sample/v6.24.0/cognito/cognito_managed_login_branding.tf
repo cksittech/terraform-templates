@@ -4,7 +4,7 @@ resource "aws_cognito_managed_login_branding" "tf-sample-cognito-managed-login-b
   region                      = ""
   settings                    = ""
   settings_all                = ""
-  use_cognito_provided_values = ""
+  use_cognito_provided_values = false
   user_pool_id                = ""
   
   asset {}

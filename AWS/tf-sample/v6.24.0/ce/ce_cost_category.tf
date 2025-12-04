@@ -1,8 +1,8 @@
 resource "aws_ce_cost_category" "tf-sample-ce-cost-category" {
+  arn             = ""
   default_value   = ""
   effective_end   = ""
   effective_start = ""
-  id              = ""
   name            = ""
   rule_version    = ""
   

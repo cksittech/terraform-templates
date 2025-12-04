@@ -8,6 +8,7 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
   lifecycle_configuration   = []
   region                    = ""
   role_arn                  = ""
+  tags_all                  = {}
   workload_identity_details = []
   
   agent_runtime_artifact {}

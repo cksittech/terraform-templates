@@ -1,6 +1,6 @@
 resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
+  arn                  = ""
   created_date         = ""
-  id                   = ""
   last_updated_date    = ""
   mesh_name            = ""
   mesh_owner           = ""

@@ -1,6 +1,6 @@
 resource "aws_synthetics_group" "tf-sample-synthetics-group" {
+  arn      = ""
   group_id = ""
-  id       = ""
   name     = ""
   region   = ""
   

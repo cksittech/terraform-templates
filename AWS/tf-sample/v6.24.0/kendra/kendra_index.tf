@@ -1,9 +1,9 @@
 resource "aws_kendra_index" "tf-sample-kendra-index" {
+  arn                 = ""
   created_at          = ""
   description         = ""
   edition             = ""
   error_message       = ""
-  id                  = ""
   index_statistics    = []
   name                = ""
   region              = ""

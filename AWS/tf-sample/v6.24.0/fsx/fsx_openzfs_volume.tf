@@ -1,15 +1,15 @@
 resource "aws_fsx_openzfs_volume" "tf-sample-fsx-openzfs-volume" {
-  copy_tags_to_snapshots           = ""
+  arn                              = ""
+  copy_tags_to_snapshots           = false
   data_compression_type            = ""
   delete_volume_options            = []
-  id                               = ""
   name                             = ""
   parent_volume_id                 = ""
-  read_only                        = ""
-  record_size_kib                  = ""
+  read_only                        = false
+  record_size_kib                  = 0
   region                           = ""
-  storage_capacity_quota_gib       = ""
-  storage_capacity_reservation_gib = ""
+  storage_capacity_quota_gib       = 0
+  storage_capacity_reservation_gib = 0
   volume_type                      = ""
   
   nfs_exports {}

@@ -1,15 +1,15 @@
 resource "aws_acm_certificate" "tf-sample-acm-certificate" {
+  arn                       = ""
   certificate_authority_arn = ""
   certificate_body          = ""
   certificate_chain         = ""
   domain_name               = ""
   domain_validation_options = []
   early_renewal_duration    = ""
-  id                        = ""
   key_algorithm             = ""
   not_after                 = ""
   not_before                = ""
-  pending_renewal           = ""
+  pending_renewal           = false
   private_key               = ""
   region                    = ""
   renewal_eligibility       = ""

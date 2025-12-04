@@ -1,6 +1,6 @@
 resource "aws_resourcegroups_group" "tf-sample-resourcegroups-group" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   region      = ""
   

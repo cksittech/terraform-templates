@@ -1,6 +1,6 @@
 resource "aws_sagemaker_workteam" "tf-sample-sagemaker-workteam" {
+  arn            = ""
   description    = ""
-  id             = ""
   region         = ""
   subdomain      = ""
   workforce_name = ""

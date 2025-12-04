@@ -8,10 +8,11 @@ resource "aws_chatbot_teams_channel_configuration" "tf-sample-chatbot-teams-chan
   logging_level               = ""
   region                      = ""
   sns_topic_arns              = []
+  tags_all                    = {}
   team_id                     = ""
   team_name                   = ""
   tenant_id                   = ""
-  user_authorization_required = ""
+  user_authorization_required = false
   
   tags = {}
 }

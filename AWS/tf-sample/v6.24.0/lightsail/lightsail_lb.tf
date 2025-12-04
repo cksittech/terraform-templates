@@ -1,9 +1,9 @@
 resource "aws_lightsail_lb" "tf-sample-lightsail-lb" {
+  arn               = ""
   created_at        = ""
   dns_name          = ""
   health_check_path = ""
-  id                = ""
-  instance_port     = ""
+  instance_port     = 0
   ip_address_type   = ""
   name              = ""
   protocol          = ""

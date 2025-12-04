@@ -1,6 +1,6 @@
 resource "aws_network_acl" "tf-sample-network-acl" {
+  arn        = ""
   egress     = []
-  id         = ""
   ingress    = []
   owner_id   = ""
   region     = ""

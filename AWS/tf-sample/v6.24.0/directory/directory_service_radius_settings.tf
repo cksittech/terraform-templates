@@ -2,12 +2,11 @@ resource "aws_directory_service_radius_settings" "tf-sample-directory-service-ra
   authentication_protocol = ""
   directory_id            = ""
   display_label           = ""
-  id                      = ""
-  radius_port             = ""
-  radius_retries          = ""
+  radius_port             = 0
+  radius_retries          = 0
   radius_servers          = []
-  radius_timeout          = ""
+  radius_timeout          = 0
   region                  = ""
   shared_secret           = ""
-  use_same_username       = ""
+  use_same_username       = false
 }

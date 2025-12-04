@@ -1,6 +1,6 @@
 resource "aws_kendra_thesaurus" "tf-sample-kendra-thesaurus" {
+  arn          = ""
   description  = ""
-  id           = ""
   index_id     = ""
   name         = ""
   region       = ""

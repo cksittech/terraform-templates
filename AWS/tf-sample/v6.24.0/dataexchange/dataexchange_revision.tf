@@ -1,7 +1,7 @@
 resource "aws_dataexchange_revision" "tf-sample-dataexchange-revision" {
+  arn         = ""
   comment     = ""
   data_set_id = ""
-  id          = ""
   region      = ""
   revision_id = ""
   

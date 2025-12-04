@@ -1,9 +1,9 @@
 resource "aws_appconfig_extension" "tf-sample-appconfig-extension" {
+  arn         = ""
   description = ""
-  id          = ""
   name        = ""
   region      = ""
-  version     = ""
+  version     = 0
   
   action_point {}
   parameter {}

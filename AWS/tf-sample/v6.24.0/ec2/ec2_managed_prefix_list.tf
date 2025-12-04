@@ -1,11 +1,11 @@
 resource "aws_ec2_managed_prefix_list" "tf-sample-ec2-managed-prefix-list" {
   address_family = ""
-  id             = ""
-  max_entries    = ""
+  arn            = ""
+  max_entries    = 0
   name           = ""
   owner_id       = ""
   region         = ""
-  version        = ""
+  version        = 0
   
   entry {}
   

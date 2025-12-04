@@ -2,6 +2,5 @@ resource "aws_storagegateway_upload_buffer" "tf-sample-storagegateway-upload-buf
   disk_id     = ""
   disk_path   = ""
   gateway_arn = ""
-  id          = ""
   region      = ""
 }

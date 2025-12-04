@@ -1,8 +1,8 @@
 resource "aws_neptune_event_subscription" "tf-sample-neptune-event-subscription" {
+  arn              = ""
   customer_aws_id  = ""
-  enabled          = ""
+  enabled          = false
   event_categories = []
-  id               = ""
   name             = ""
   name_prefix      = ""
   region           = ""

@@ -1,21 +1,21 @@
 resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
+  arn                      = ""
   arn_without_revision     = ""
   container_definitions    = ""
   cpu                      = ""
-  enable_fault_injection   = ""
+  enable_fault_injection   = false
   execution_role_arn       = ""
   family                   = ""
-  id                       = ""
   ipc_mode                 = ""
   memory                   = ""
   network_mode             = ""
   pid_mode                 = ""
   region                   = ""
   requires_compatibilities = []
-  revision                 = ""
-  skip_destroy             = ""
+  revision                 = 0
+  skip_destroy             = false
   task_role_arn            = ""
-  track_latest             = ""
+  track_latest             = false
   
   ephemeral_storage {}
   placement_constraints {}

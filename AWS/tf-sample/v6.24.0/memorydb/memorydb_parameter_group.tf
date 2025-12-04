@@ -1,7 +1,7 @@
 resource "aws_memorydb_parameter_group" "tf-sample-memorydb-parameter-group" {
+  arn         = ""
   description = ""
   family      = ""
-  id          = ""
   name        = ""
   name_prefix = ""
   region      = ""

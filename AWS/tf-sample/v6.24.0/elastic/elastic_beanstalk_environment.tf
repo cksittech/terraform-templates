@@ -1,12 +1,12 @@
 resource "aws_elastic_beanstalk_environment" "tf-sample-elastic-beanstalk-environment" {
   all_settings           = []
   application            = ""
+  arn                    = ""
   autoscaling_groups     = []
   cname                  = ""
   cname_prefix           = ""
   description            = ""
   endpoint_url           = ""
-  id                     = ""
   instances              = []
   launch_configurations  = []
   load_balancers         = []

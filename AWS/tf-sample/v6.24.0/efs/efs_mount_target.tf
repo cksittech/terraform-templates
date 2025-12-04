@@ -4,7 +4,6 @@ resource "aws_efs_mount_target" "tf-sample-efs-mount-target" {
   dns_name               = ""
   file_system_arn        = ""
   file_system_id         = ""
-  id                     = ""
   ip_address             = ""
   ip_address_type        = ""
   ipv6_address           = ""

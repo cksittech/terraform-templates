@@ -1,5 +1,4 @@
 resource "aws_api_gateway_resource" "tf-sample-api-gateway-resource" {
-  id          = ""
   parent_id   = ""
   path        = ""
   path_part   = ""

@@ -2,16 +2,16 @@ resource "aws_dx_public_virtual_interface" "tf-sample-dx-public-virtual-interfac
   address_family        = ""
   amazon_address        = ""
   amazon_side_asn       = ""
+  arn                   = ""
   aws_device            = ""
-  bgp_asn               = ""
+  bgp_asn               = 0
   bgp_auth_key          = ""
   connection_id         = ""
   customer_address      = ""
-  id                    = ""
   name                  = ""
   region                = ""
   route_filter_prefixes = []
-  vlan                  = ""
+  vlan                  = 0
   
   tags = {}
 }

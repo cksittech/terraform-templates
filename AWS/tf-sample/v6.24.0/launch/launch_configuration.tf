@@ -1,9 +1,9 @@
 resource "aws_launch_configuration" "tf-sample-launch-configuration" {
-  associate_public_ip_address = ""
-  ebs_optimized               = ""
-  enable_monitoring           = ""
+  arn                         = ""
+  associate_public_ip_address = false
+  ebs_optimized               = false
+  enable_monitoring           = false
   iam_instance_profile        = ""
-  id                          = ""
   image_id                    = ""
   instance_type               = ""
   key_name                    = ""

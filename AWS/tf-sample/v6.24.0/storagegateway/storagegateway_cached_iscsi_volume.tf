@@ -1,12 +1,12 @@
 resource "aws_storagegateway_cached_iscsi_volume" "tf-sample-storagegateway-cached-iscsi-volume" {
-  chap_enabled           = ""
+  arn                    = ""
+  chap_enabled           = false
   gateway_arn            = ""
-  id                     = ""
-  kms_encrypted          = ""
+  kms_encrypted          = false
   kms_key                = ""
-  lun_number             = ""
+  lun_number             = 0
   network_interface_id   = ""
-  network_interface_port = ""
+  network_interface_port = 0
   region                 = ""
   snapshot_id            = ""
   source_volume_arn      = ""
@@ -14,7 +14,7 @@ resource "aws_storagegateway_cached_iscsi_volume" "tf-sample-storagegateway-cach
   target_name            = ""
   volume_arn             = ""
   volume_id              = ""
-  volume_size_in_bytes   = ""
+  volume_size_in_bytes   = 0
   
   tags = {}
 }

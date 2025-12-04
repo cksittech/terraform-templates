@@ -1,6 +1,6 @@
 resource "aws_codepipeline" "tf-sample-codepipeline" {
+  arn            = ""
   execution_mode = ""
-  id             = ""
   name           = ""
   pipeline_type  = ""
   region         = ""

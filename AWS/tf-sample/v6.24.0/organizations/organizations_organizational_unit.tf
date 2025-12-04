@@ -1,6 +1,6 @@
 resource "aws_organizations_organizational_unit" "tf-sample-organizations-organizational-unit" {
   accounts  = []
-  id        = ""
+  arn       = ""
   name      = ""
   parent_id = ""
   
