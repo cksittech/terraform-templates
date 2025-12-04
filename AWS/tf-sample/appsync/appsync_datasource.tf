@@ -1,0 +1,17 @@
+resource "aws_appsync_datasource" "sample-appsync-datasource" {
+  api_id           = ""
+  description      = ""
+  id               = ""
+  name             = ""
+  region           = ""
+  service_role_arn = ""
+  type             = ""
+  
+  dynamodb_config {}
+  elasticsearch_config {}
+  event_bridge_config {}
+  http_config {}
+  lambda_config {}
+  opensearchservice_config {}
+  relational_database_config {}
+}

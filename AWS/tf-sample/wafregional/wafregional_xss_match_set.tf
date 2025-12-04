@@ -1,0 +1,7 @@
+resource "aws_wafregional_xss_match_set" "sample-wafregional-xss-match-set" {
+  id     = ""
+  name   = ""
+  region = ""
+  
+  xss_match_tuple {}
+}

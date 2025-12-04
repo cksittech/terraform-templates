@@ -1,0 +1,13 @@
+resource "aws_eks_fargate_profile" "sample-eks-fargate-profile" {
+  cluster_name           = ""
+  fargate_profile_name   = ""
+  id                     = ""
+  pod_execution_role_arn = ""
+  region                 = ""
+  status                 = ""
+  subnet_ids             = []
+  
+  selector {}
+  
+  tags = {}
+}

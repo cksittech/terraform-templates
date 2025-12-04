@@ -1,0 +1,10 @@
+resource "aws_directory_service_shared_directory" "sample-directory-service-shared-directory" {
+  directory_id        = ""
+  id                  = ""
+  method              = ""
+  notes               = ""
+  region              = ""
+  shared_directory_id = ""
+  
+  target {}
+}

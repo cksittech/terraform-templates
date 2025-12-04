@@ -1,0 +1,17 @@
+resource "aws_dx_hosted_transit_virtual_interface" "sample-dx-hosted-transit-virtual-interface" {
+  address_family      = ""
+  amazon_address      = ""
+  amazon_side_asn     = ""
+  aws_device          = ""
+  bgp_asn             = ""
+  bgp_auth_key        = ""
+  connection_id       = ""
+  customer_address    = ""
+  id                  = ""
+  jumbo_frame_capable = ""
+  mtu                 = ""
+  name                = ""
+  owner_account_id    = ""
+  region              = ""
+  vlan                = ""
+}

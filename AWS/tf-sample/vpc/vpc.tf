@@ -1,0 +1,25 @@
+resource "aws_vpc" "sample-vpc" {
+  assign_generated_ipv6_cidr_block     = ""
+  cidr_block                           = ""
+  default_network_acl_id               = ""
+  default_route_table_id               = ""
+  default_security_group_id            = ""
+  dhcp_options_id                      = ""
+  enable_dns_hostnames                 = ""
+  enable_dns_support                   = ""
+  enable_network_address_usage_metrics = ""
+  id                                   = ""
+  instance_tenancy                     = ""
+  ipv4_ipam_pool_id                    = ""
+  ipv4_netmask_length                  = ""
+  ipv6_association_id                  = ""
+  ipv6_cidr_block                      = ""
+  ipv6_cidr_block_network_border_group = ""
+  ipv6_ipam_pool_id                    = ""
+  ipv6_netmask_length                  = ""
+  main_route_table_id                  = ""
+  owner_id                             = ""
+  region                               = ""
+  
+  tags = {}
+}

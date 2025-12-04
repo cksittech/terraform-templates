@@ -1,0 +1,9 @@
+resource "aws_sagemaker_code_repository" "sample-sagemaker-code-repository" {
+  code_repository_name = ""
+  id                   = ""
+  region               = ""
+  
+  git_config {}
+  
+  tags = {}
+}

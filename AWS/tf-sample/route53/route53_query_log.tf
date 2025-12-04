@@ -1,0 +1,5 @@
+resource "aws_route53_query_log" "sample-route53-query-log" {
+  cloudwatch_log_group_arn = ""
+  id                       = ""
+  zone_id                  = ""
+}

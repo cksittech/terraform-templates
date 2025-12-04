@@ -1,0 +1,33 @@
+resource "aws_spot_fleet_request" "sample-spot-fleet-request" {
+  allocation_strategy                 = ""
+  client_token                        = ""
+  context                             = ""
+  excess_capacity_termination_policy  = ""
+  fleet_type                          = ""
+  iam_fleet_role                      = ""
+  id                                  = ""
+  instance_interruption_behaviour     = ""
+  instance_pools_to_use_count         = ""
+  load_balancers                      = []
+  on_demand_allocation_strategy       = ""
+  on_demand_max_total_price           = ""
+  on_demand_target_capacity           = ""
+  region                              = ""
+  replace_unhealthy_instances         = ""
+  spot_price                          = ""
+  spot_request_state                  = ""
+  target_capacity                     = ""
+  target_capacity_unit_type           = ""
+  target_group_arns                   = []
+  terminate_instances_on_delete       = ""
+  terminate_instances_with_expiration = ""
+  valid_from                          = ""
+  valid_until                         = ""
+  wait_for_fulfillment                = ""
+  
+  launch_specification {}
+  launch_template_config {}
+  spot_maintenance_strategies {}
+  
+  tags = {}
+}

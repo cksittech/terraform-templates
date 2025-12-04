@@ -1,0 +1,9 @@
+resource "aws_grafana_license_association" "sample-grafana-license-association" {
+  free_trial_expiration = ""
+  grafana_token         = ""
+  id                    = ""
+  license_expiration    = ""
+  license_type          = ""
+  region                = ""
+  workspace_id          = ""
+}

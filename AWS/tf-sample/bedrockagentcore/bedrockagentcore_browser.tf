@@ -1,0 +1,13 @@
+resource "aws_bedrockagentcore_browser" "sample-bedrockagentcore-browser" {
+  browser_arn        = ""
+  browser_id         = ""
+  description        = ""
+  execution_role_arn = ""
+  name               = ""
+  region             = ""
+  
+  network_configuration {}
+  recording {}
+  
+  tags = {}
+}

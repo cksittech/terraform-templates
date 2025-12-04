@@ -1,0 +1,9 @@
+resource "aws_cloudfront_field_level_encryption_profile" "sample-cloudfront-field-level-encryption-profile" {
+  caller_reference = ""
+  comment          = ""
+  etag             = ""
+  id               = ""
+  name             = ""
+  
+  encryption_entities {}
+}

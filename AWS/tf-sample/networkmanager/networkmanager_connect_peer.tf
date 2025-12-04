@@ -1,0 +1,18 @@
+resource "aws_networkmanager_connect_peer" "sample-networkmanager-connect-peer" {
+  configuration         = []
+  connect_attachment_id = ""
+  connect_peer_id       = ""
+  core_network_address  = ""
+  core_network_id       = ""
+  created_at            = ""
+  edge_location         = ""
+  id                    = ""
+  inside_cidr_blocks    = []
+  peer_address          = ""
+  state                 = ""
+  subnet_arn            = ""
+  
+  bgp_options {}
+  
+  tags = {}
+}

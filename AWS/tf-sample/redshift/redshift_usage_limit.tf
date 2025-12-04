@@ -1,0 +1,12 @@
+resource "aws_redshift_usage_limit" "sample-redshift-usage-limit" {
+  amount             = ""
+  breach_action      = ""
+  cluster_identifier = ""
+  feature_type       = ""
+  id                 = ""
+  limit_type         = ""
+  period             = ""
+  region             = ""
+  
+  tags = {}
+}

@@ -1,0 +1,10 @@
+resource "aws_route_table" "sample-route-table" {
+  id               = ""
+  owner_id         = ""
+  propagating_vgws = []
+  region           = ""
+  route            = []
+  vpc_id           = ""
+  
+  tags = {}
+}

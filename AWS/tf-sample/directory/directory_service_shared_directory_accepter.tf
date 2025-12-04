@@ -1,0 +1,9 @@
+resource "aws_directory_service_shared_directory_accepter" "sample-directory-service-shared-directory-accepter" {
+  id                  = ""
+  method              = ""
+  notes               = ""
+  owner_account_id    = ""
+  owner_directory_id  = ""
+  region              = ""
+  shared_directory_id = ""
+}

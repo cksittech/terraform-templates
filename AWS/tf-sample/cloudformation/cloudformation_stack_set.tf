@@ -1,0 +1,21 @@
+resource "aws_cloudformation_stack_set" "sample-cloudformation-stack-set" {
+  administration_role_arn = ""
+  call_as                 = ""
+  capabilities            = []
+  description             = ""
+  execution_role_name     = ""
+  id                      = ""
+  name                    = ""
+  parameters              = {}
+  permission_model        = ""
+  region                  = ""
+  stack_set_id            = ""
+  template_body           = ""
+  template_url            = ""
+  
+  auto_deployment {}
+  managed_execution {}
+  operation_preferences {}
+  
+  tags = {}
+}

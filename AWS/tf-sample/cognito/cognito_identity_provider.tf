@@ -1,0 +1,10 @@
+resource "aws_cognito_identity_provider" "sample-cognito-identity-provider" {
+  attribute_mapping = {}
+  id                = ""
+  idp_identifiers   = []
+  provider_details  = {}
+  provider_name     = ""
+  provider_type     = ""
+  region            = ""
+  user_pool_id      = ""
+}
