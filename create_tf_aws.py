@@ -1,7 +1,7 @@
 import json
 import os
 
-path = ".\\schema.json"
+path = "./schema.json"
 with open(path, "r", encoding="utf-16") as f:
     data = json.load(f)
 type_list = []
@@ -10,9 +10,9 @@ resource_schemas = data["provider_schemas"]["registry.terraform.io/hashicorp/aws
 for resource in resource_schemas.keys():
     # if resource !=  "aws_ssm_parameter":
     #     continue
-    path = f".\\output\\{resource.split('_')[1]}"
+    path = f"./output/{resource.split('_')[1]}"
     os.makedirs(path, exist_ok=True)
-    with open(f".\\{path}\\{resource[4:]}.tf", "w", encoding="utf-8") as f:
+    with open(f"./{path}/{resource[4:]}.tf", "w", encoding="utf-8") as f:
         f.write(f"resource \"{resource}\" \"tf-sample-{resource[4:].replace('_','-')}\" {{\n")
         tags_exist = True if "tags" in list(resource_schemas[resource]["block"]["attributes"].keys()) else False
         attributes = [attribute for attribute in list(resource_schemas[resource]["block"]["attributes"].keys()) 
