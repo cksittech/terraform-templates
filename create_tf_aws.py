@@ -31,17 +31,17 @@ for resource in resource_schemas.keys():
                     if resource_schemas[resource]["block"]["attributes"][attribute]["type"][0] == "object":
                         block_types.append(attribute)
                     elif resource_schemas[resource]["block"]["attributes"][attribute]["type"][0] == "set":
-                        f.write(f"  {attribute.ljust(fill_nun, " ")} = []\n")
+                        f.write(f"  {attribute.ljust(fill_nun, ' ')} = []\n")
                     elif resource_schemas[resource]["block"]["attributes"][attribute]["type"][0] == "list":
-                        f.write(f"  {attribute.ljust(fill_nun, " ")} = []\n")
+                        f.write(f"  {attribute.ljust(fill_nun, ' ')} = []\n")
                     elif resource_schemas[resource]["block"]["attributes"][attribute]["type"][0] == "map":
-                        f.write(f"  {attribute.ljust(fill_nun, " ")} = {{}}\n")
+                        f.write(f"  {attribute.ljust(fill_nun, ' ')} = {{}}\n")
                 elif resource_schemas[resource]["block"]["attributes"][attribute]["type"] == "number":
-                    f.write(f"  {attribute.ljust(fill_nun, " ")} = 0\n")
+                    f.write(f"  {attribute.ljust(fill_nun, ' ')} = 0\n")
                 elif resource_schemas[resource]["block"]["attributes"][attribute]["type"] == "string":
-                    f.write(f"  {attribute.ljust(fill_nun, " ")} = \"\"\n")
+                    f.write(f"  {attribute.ljust(fill_nun, ' ')} = \"\"\n")
                 elif resource_schemas[resource]["block"]["attributes"][attribute]["type"] == "bool":
-                    f.write(f"  {attribute.ljust(fill_nun, " ")} = false\n")
+                    f.write(f"  {attribute.ljust(fill_nun, ' ')} = false\n")
         
         block_types.sort()
         if len(block_types):
