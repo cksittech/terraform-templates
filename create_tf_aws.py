@@ -13,7 +13,7 @@ for resource in resource_schemas.keys():
     path = f".\\output\\{resource.split('_')[1]}"
     os.makedirs(path, exist_ok=True)
     with open(f".\\{path}\\{resource[4:]}.tf", "w", encoding="utf-8") as f:
-        f.write(f"resource \"{resource}\" \"tf-sample-{resource[4:].replace("_","-")}\" {{\n")
+        f.write(f"resource \"{resource}\" \"tf-sample-{resource[4:].replace('_','-')}\" {{\n")
         tags_exist = True if "tags" in list(resource_schemas[resource]["block"]["attributes"].keys()) else False
         attributes = [attribute for attribute in list(resource_schemas[resource]["block"]["attributes"].keys()) 
                       if not(attribute in ["arn", "tags_all", "tags", "id"]) 
