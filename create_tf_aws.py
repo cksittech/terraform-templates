@@ -2,7 +2,7 @@ import json
 import os
 
 path = "./schema.json"
-with open(path, "r", encoding="utf-16") as f:
+with open(path, "r", encoding="utf-8") as f:
     data = json.load(f)
 type_list = []
 resource_schemas = data["provider_schemas"]["registry.terraform.io/hashicorp/aws"]["resource_schemas"]
