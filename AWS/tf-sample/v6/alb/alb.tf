@@ -27,6 +27,7 @@ resource "aws_alb" "tf-sample-alb" {
   
   access_logs {}
   connection_logs {}
+  health_check_logs {}
   ipam_pools {}
   minimum_load_balancer_capacity {}
   subnet_mapping {}

@@ -28,6 +28,7 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   
   capacity_provider_config {}
   dead_letter_config {}
+  durable_config {}
   environment {}
   ephemeral_storage {}
   file_system_config {}

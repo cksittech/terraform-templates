@@ -6,6 +6,7 @@ resource "aws_transfer_connector" "tf-sample-transfer-connector" {
   url                  = ""
   
   as2_config {}
+  egress_config {}
   sftp_config {}
   
   tags = {}

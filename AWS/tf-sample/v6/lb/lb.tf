@@ -27,6 +27,7 @@ resource "aws_lb" "tf-sample-lb" {
   
   access_logs {}
   connection_logs {}
+  health_check_logs {}
   ipam_pools {}
   minimum_load_balancer_capacity {}
   subnet_mapping {}

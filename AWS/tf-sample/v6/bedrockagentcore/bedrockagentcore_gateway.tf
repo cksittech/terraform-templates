@@ -9,6 +9,7 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
   role_arn        = ""
   
   authorizer_configuration {}
+  interceptor_configuration {}
   protocol_configuration {}
   
   tags = {}

@@ -3,6 +3,7 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
   ip_group_ids                    = []
   region                          = ""
   subnet_ids                      = []
+  tenancy                         = ""
   user_identity_type              = ""
   workspace_directory_description = ""
   workspace_directory_name        = ""

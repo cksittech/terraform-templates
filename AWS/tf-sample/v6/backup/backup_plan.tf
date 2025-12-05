@@ -4,6 +4,7 @@ resource "aws_backup_plan" "tf-sample-backup-plan" {
   
   advanced_backup_setting {}
   rule {}
+  scan_setting {}
   
   tags = {}
 }
