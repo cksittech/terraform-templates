@@ -8,8 +8,6 @@ type_list = []
 resource_schemas = data["provider_schemas"]["registry.terraform.io/hashicorp/aws"]["resource_schemas"]
 
 for resource in resource_schemas.keys():
-    # if resource !=  "aws_ssm_parameter":
-    #     continue
     path = f"./output/{resource.split('_')[1]}"
     os.makedirs(path, exist_ok=True)
     with open(f"./{path}/{resource[4:]}.tf", "w", encoding="utf-8") as f:
