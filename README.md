@@ -19,7 +19,7 @@
 </details>
 <details><summary>What is included</summary>
 
-- A dedicated VPC with public/private subnets, routing, an Internet Gateway, and a NAT Gateway  
+- A VPC with public/private subnets, routing, an Internet Gateway, and a NAT Gateway  
 - Security groups for both the load balancer and ECS tasks  
 - An Application Load Balancer with a listener and a target group for port 8080  
 - An ECS cluster and Fargate service running the official Keycloak image (`quay.io/keycloak/keycloak:26.0.2`)  
