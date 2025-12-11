@@ -16,7 +16,7 @@ resource "aws_ecs_service" "tf-keycloak-ecs-service" {
   propagate_tags                     = "TASK_DEFINITION"
   scheduling_strategy                = "REPLICA"
   sigint_rollback                    = false
-  task_definition                    = "tf-keycloak-ecs-task-definition"
+  task_definition                    = aws_ecs_task_definition.tf-keycloak-ecs-task-definition.arn
   wait_for_steady_state              = false
 
   # alarms {}

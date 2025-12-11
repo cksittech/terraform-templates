@@ -151,7 +151,7 @@ resource "aws_ecs_task_definition" "tf-keycloak-ecs-task-definition" {
     # }
   }])
   cpu                      = "2048"
-  execution_role_arn       = aws_iam_role.tf-keycloak-iam-role-ecs-task-definition.arn
+  execution_role_arn       = aws_iam_role.tf-keycloak-iam-role-ecs-task-execution.arn
   family                   = "tf-keycloak-ecs-task-definition"
   memory                   = "4096"
   network_mode             = "awsvpc"

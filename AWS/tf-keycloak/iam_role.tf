@@ -1,4 +1,4 @@
-resource "aws_iam_role" "tf-keycloak-iam-role-ecs-task-definition" {
+resource "aws_iam_role" "tf-keycloak-iam-role-ecs-task-execution" {
   assume_role_policy    = jsonencode({
     "Version": "2012-10-17",
     "Statement": [
@@ -15,7 +15,7 @@ resource "aws_iam_role" "tf-keycloak-iam-role-ecs-task-definition" {
   force_detach_policies = true
   # managed_policy_arns   = []
   # max_session_duration  = 3600
-  name                  = "${var.terraform}-iam-role-ecs-task-definition"
+  name                  = "${var.terraform}-iam-role-ecs-task-execution"
   # name_prefix           = ""
   # path                  = ""
   # permissions_boundary  = ""
@@ -23,7 +23,7 @@ resource "aws_iam_role" "tf-keycloak-iam-role-ecs-task-definition" {
   # inline_policy {}
   
   tags = {
-    Name = "${var.terraform}-iam-role-ecs-task-definition"
+    Name = "${var.terraform}-iam-role-ecs-task-execution"
     Terraform = var.terraform
   }
 }
