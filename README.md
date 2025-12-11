@@ -5,6 +5,7 @@
 |-|-|-|
 | tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Terraform samples built with AWS provider v6.25.0.<br>This cannot be deployed. |
 | tf-keycloak | [Sources](./AWS/tf-keycloak/)<br>[Details](#tf-keycloak) | You can run Keycloak from the official image without a database and over HTTP. |
+| tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | You can run Backstage from the community image over HTTP. |
 ### Details
 #### [tf-keycloak](./AWS/tf-keycloak/)
 <details><summary>Overview</summary>
@@ -31,6 +32,33 @@
 - To deploy this module, Terraform must authenticate with your AWS account.
 - Set the following environment variables before running the module: `TF_VAR_AWS_REGION`, `TF_VAR_AWS_ACCOUNT_ID`, `TF_VAR_AWS_ACCESS_KEY_ID`, `TF_VAR_AWS_SECRET_ACCESS_KEY`
 </details>
+
+#### [tf-backstage](./AWS/tf-backstage/)
+<details><summary>Overview</summary>
+
+- The architecture diagram is not yet available.
+</details>
+<details><summary>What this module enables</summary>
+
+- This module allows you to deploy Backstage on AWS using the community image without requiring additional components.
+- Backstage runs on AWS Fargate as a single container, making it possible to launch a minimal but functional Backstage environment managed entirely by AWS.
+- The module provisions all necessary AWS resources so that Backstage can run as a containerized service with publicly accessible load balancing.
+</details>
+<details><summary>What is included</summary>
+
+- A VPC with public/private subnets, routing, an Internet Gateway, and a NAT Gateway
+- Security groups for both the load balancer and ECS tasks
+- An Application Load Balancer with a listener and a target group for port 7000
+- An ECS cluster and Fargate service running the Backstage container image (`roadiehq/community-backstage-image:latest`)
+- A task definition with CPU/memory settings, port mappings, environment variables, and an execution role
+- IAM roles required for ECS task execution
+</details>
+<details><summary>Requirements</summary>
+
+- To deploy this module, Terraform must authenticate with your AWS account.
+- Set the following environment variables before running the module: `TF_VAR_AWS_REGION`, `TF_VAR_AWS_ACCOUNT_ID`, `TF_VAR_AWS_ACCESS_KEY_ID`, `TF_VAR_AWS_SECRET_ACCESS_KEY`, `TF_VAR_GITHUB_TOKEN`
+</details>
+
 
 ## Azure
 ## GCP
