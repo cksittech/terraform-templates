@@ -10,7 +10,7 @@
 #### [tf-keycloak](./AWS/tf-keycloak/)
 <details><summary>Overview</summary>
 
-- The architecture diagram is not yet available.
+![tf-keycloak architecture](./AWS/tf-keycloak/tf-keycloak.drawio.png)
 </details>
 <details><summary>Requirements</summary>
 
