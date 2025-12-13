@@ -10,7 +10,7 @@
 #### [tf-keycloak](./AWS/tf-keycloak/)
 <details><summary>Overview</summary>
 
-![tf-keycloak architecture](./AWS/tf-keycloak/tf-keycloak.drawio.png)
+![tf-keycloak architecture](./AWS/tf-keycloak/tf-keycloak.drawio.svg)
 </details>
 <details><summary>Requirements</summary>
 
