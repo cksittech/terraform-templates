@@ -148,7 +148,7 @@ resource "aws_ecs_task_definition" "tf-keycloak-ecs-task-definition" {
     # "logConfiguration": {
     #   "logDriver": "awslogs",
     #   "options": {
-    #     "awslogs-group": "/aws/ecs/keycloak",
+    #     "awslogs-group": "/aws/ecs/${var.terraform}-cloudwatch-log-group",
     #     "awslogs-region": "ap-northeast-1",
     #     "awslogs-stream-prefix": "ecs"
     #   },
