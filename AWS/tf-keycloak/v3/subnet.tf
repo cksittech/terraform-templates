@@ -72,7 +72,7 @@ resource "aws_subnet" "tf-keycloak-subnet-ecs" {
 
 resource "aws_subnet" "tf-keycloak-subnet-vpce" {
   assign_ipv6_address_on_creation                = false
-  availability_zone                              = var.availability_zone.ap_northeast_1.ap_northeast_1a
+  availability_zone                              = var.availability_zone.ap_northeast_1.ap_northeast_1c
   # availability_zone_id                           =
   cidr_block                                     = "10.0.3.0/24"
   # customer_owned_ipv4_pool                       =
