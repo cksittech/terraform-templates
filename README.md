@@ -50,9 +50,9 @@
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Ejemplos de Terraform construidos con AWS provider v6.27.0.<br>No es posible desplegarlos. |
-| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Sources(v3)](./AWS/tf-keycloak/v3/)<br>[Details](#tf-keycloak) | En v0, Keycloak se ejecuta usando la imagen oficial sin base de datos y sobre HTTP.<br>v1 se basa en v0 y cambia el protocolo a HTTPS.<br>v2 se basa en v0 y añade soporte de base de datos.<br>v3 se basa en v0 y habilita red privada sin NAT. |
-| tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | Permite ejecutar Backstage utilizando la imagen de la comunidad sobre HTTP. |
+| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Ejemplos de Terraform construidos con el provider de AWS v6.27.0.<br>Este proyecto no es desplegable. |
+| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Sources(v3)](./AWS/tf-keycloak/v3/)<br>[Details](#tf-keycloak) | En la v0, es posible ejecutar Keycloak a partir de la imagen oficial, sin base de datos y utilizando HTTP.<br>La v1 se basa en la v0 y cambia el protocolo a HTTPS.<br>La v2 se basa en la v0 y añade soporte para base de datos.<br>La v3 se basa en la v0 y habilita redes privadas sin NAT. |
+| tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | Permite ejecutar Backstage a partir de la imagen de la comunidad utilizando HTTP. |
 
 ## Details
 ### [tf-keycloak](./AWS/tf-keycloak/)
@@ -64,12 +64,12 @@
 <details><summary>Requirements</summary>
 
 - Para desplegar este módulo, Terraform debe autenticarse con su cuenta de AWS.
-- Antes de ejecutar el módulo, configure las siguientes variables de entorno:
+- Configure las siguientes variables de entorno antes de ejecutar el módulo:
     - `TF_VAR_AWS_REGION`
     - `TF_VAR_AWS_ACCOUNT_ID`
     - `TF_VAR_AWS_ACCESS_KEY_ID`
     - `TF_VAR_AWS_SECRET_ACCESS_KEY`
-- Al utilizar v1, también es obligatorio definir `TF_VAR_AWS_DOMAIN`.
+- Al utilizar la v1, también se requiere la variable `TF_VAR_AWS_DOMAIN`.
 </details>
 
 ### [tf-backstage](./AWS/tf-backstage/)
@@ -81,7 +81,7 @@
 <details><summary>Requirements</summary>
 
 - Para desplegar este módulo, Terraform debe autenticarse con su cuenta de AWS.
-- Antes de ejecutar el módulo, configure las siguientes variables de entorno:
+- Configure las siguientes variables de entorno antes de ejecutar el módulo:
     - `TF_VAR_AWS_REGION`
     - `TF_VAR_AWS_ACCOUNT_ID`
     - `TF_VAR_AWS_ACCESS_KEY_ID`
