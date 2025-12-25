@@ -16,13 +16,13 @@ resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-i
 }
 
 resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-ingress-rule-ecs-service" {
-  cidr_ipv4                    = "10.0.0.0/23"
+  # cidr_ipv4                    = ""
   # cidr_ipv6                    = ""
   description                  = "${var.terraform}-vpc-security-group-ingress-rule-ecs-service"
   from_port                    = 8080
   ip_protocol                  = "tcp"
   # prefix_list_id               = ""
-  # referenced_security_group_id = ""
+  referenced_security_group_id = aws_security_group.tf-keycloak-security-group-alb.id
   security_group_id            = aws_security_group.tf-keycloak-security-group-ecs.id
   to_port                      = 8080
 
@@ -33,13 +33,13 @@ resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-i
 }
 
 resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-ingress-rule-ecs-health" {
-  cidr_ipv4                    = "10.0.0.0/23"
+  # cidr_ipv4                    = ""
   # cidr_ipv6                    = ""
   description                  = "${var.terraform}-vpc-security-group-ingress-rule-ecs-health"
   from_port                    = 9000
   ip_protocol                  = "tcp"
   # prefix_list_id               = ""
-  # referenced_security_group_id = ""
+  referenced_security_group_id = aws_security_group.tf-keycloak-security-group-alb.id
   security_group_id            = aws_security_group.tf-keycloak-security-group-ecs.id
   to_port                      = 9000
 
@@ -50,13 +50,13 @@ resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-i
 }
 
 resource "aws_vpc_security_group_ingress_rule" "tf-keycloak-vpc-security-group-ingress-rule-rds" {
-  cidr_ipv4                    = "10.0.2.0/24"
+  # cidr_ipv4                    = ""
   # cidr_ipv6                    = ""
   description                  = "${var.terraform}-vpc-security-group-ingress-rule-rds"
   from_port                    = 5432
   ip_protocol                  = "tcp"
   # prefix_list_id               = ""
-  # referenced_security_group_id = ""
+  referenced_security_group_id = aws_security_group.tf-keycloak-security-group-ecs.id
   security_group_id            = aws_security_group.tf-keycloak-security-group-rds.id
   to_port                      = 5432
 
