@@ -44,7 +44,7 @@
 # Azure
 # GCP
 </details>
-<details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español</summary>
+<details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática)</summary>
 
 # AWS
 ## Summary
@@ -92,7 +92,7 @@
 # Azure
 # GCP
 </details>
-<details><summary><img src="https://flagcdn.com/w20/br.png" alt="Português"> Português</summary>
+<details><summary><img src="https://flagcdn.com/w20/br.png" alt="Português"> Português (tradução automática)</summary>
 
 # AWS
 ## Summary
