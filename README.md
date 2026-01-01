@@ -6,7 +6,7 @@
 | Project | Link | Description |
 |-|-|-|
 | tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Terraform samples built with AWS provider v6.27.0.<br>This cannot be deployed. |
-| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Sources(v3)](./AWS/tf-keycloak/v3/)<br>[Details](#tf-keycloak) | In v0, you can run Keycloak from the official image without a database and over HTTP.<br>v1 is based on v0 and changes the protocol to HTTPS.<br>v2 is based on v0 and adds database support.<br>v3 is based on v0 and enables private networking without NAT. |
+| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Details](#tf-keycloak) | In v0, you can run Keycloak from the official image without a database and over HTTP.<br>v1 is based on v0 and changes the protocol to HTTPS.<br>v2 is based on v0 and adds database support. |
 | tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | You can run Backstage from the community image over HTTP. |
 ## Details
 ### [tf-keycloak](./AWS/tf-keycloak/)
@@ -47,96 +47,12 @@
 <details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática)</summary>
 
 # AWS
-## Summary
-| Project | Link | Description |
-|-|-|-|
-| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Ejemplos de Terraform construidos con el provider de AWS v6.27.0.<br>Este proyecto no es desplegable. |
-| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Sources(v3)](./AWS/tf-keycloak/v3/)<br>[Details](#tf-keycloak) | En la v0, es posible ejecutar Keycloak a partir de la imagen oficial, sin base de datos y utilizando HTTP.<br>La v1 se basa en la v0 y cambia el protocolo a HTTPS.<br>La v2 se basa en la v0 y añade soporte para base de datos.<br>La v3 se basa en la v0 y habilita redes privadas sin NAT. |
-| tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | Permite ejecutar Backstage a partir de la imagen de la comunidad utilizando HTTP. |
-
-## Details
-### [tf-keycloak](./AWS/tf-keycloak/)
-<details><summary>Overview</summary>
-
-![tf-keycloak architecture](./AWS/tf-keycloak/tf-keycloak.drawio.svg)
-</details>
-
-<details><summary>Requirements</summary>
-
-- Para desplegar este módulo, Terraform debe autenticarse con su cuenta de AWS.
-- Configure las siguientes variables de entorno antes de ejecutar el módulo:
-    - `TF_VAR_AWS_REGION`
-    - `TF_VAR_AWS_ACCOUNT_ID`
-    - `TF_VAR_AWS_ACCESS_KEY_ID`
-    - `TF_VAR_AWS_SECRET_ACCESS_KEY`
-- Al utilizar la v1, también se requiere la variable `TF_VAR_AWS_DOMAIN`.
-</details>
-
-### [tf-backstage](./AWS/tf-backstage/)
-<details><summary>Overview</summary>
-
-- El diagrama de arquitectura aún no está disponible.
-</details>
-
-<details><summary>Requirements</summary>
-
-- Para desplegar este módulo, Terraform debe autenticarse con su cuenta de AWS.
-- Configure las siguientes variables de entorno antes de ejecutar el módulo:
-    - `TF_VAR_AWS_REGION`
-    - `TF_VAR_AWS_ACCOUNT_ID`
-    - `TF_VAR_AWS_ACCESS_KEY_ID`
-    - `TF_VAR_AWS_SECRET_ACCESS_KEY`
-    - `TF_VAR_GITHUB_TOKEN`
-</details>
-
 # Azure
 # GCP
 </details>
 <details><summary><img src="https://flagcdn.com/w20/br.png" alt="Português"> Português (tradução automática)</summary>
 
 # AWS
-## Summary
-| Project | Link | Description |
-|-|-|-|
-| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Exemplos de Terraform construídos com o provider AWS v6.27.0.<br>Este projeto não pode ser implantado. |
-| tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Sources(v3)](./AWS/tf-keycloak/v3/)<br>[Details](#tf-keycloak) | Na v0, é possível executar o Keycloak a partir da imagem oficial, sem banco de dados e utilizando HTTP.<br>A v1 é baseada na v0 e altera o protocolo para HTTPS.<br>A v2 é baseada na v0 e adiciona suporte a banco de dados.<br>A v3 é baseada na v0 e habilita rede privada sem uso de NAT. |
-| tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | Permite executar o Backstage a partir da imagem da comunidade utilizando HTTP. |
-
-## Details
-### [tf-keycloak](./AWS/tf-keycloak/)
-<details><summary>Overview</summary>
-
-![tf-keycloak architecture](./AWS/tf-keycloak/tf-keycloak.drawio.svg)
-</details>
-
-<details><summary>Requirements</summary>
-
-- Para implantar este módulo, o Terraform deve estar autenticado na sua conta AWS.
-- Defina as seguintes variáveis de ambiente antes de executar o módulo:
-    - `TF_VAR_AWS_REGION`
-    - `TF_VAR_AWS_ACCOUNT_ID`
-    - `TF_VAR_AWS_ACCESS_KEY_ID`
-    - `TF_VAR_AWS_SECRET_ACCESS_KEY`
-- Ao utilizar a v1, a variável `TF_VAR_AWS_DOMAIN` também é obrigatória.
-</details>
-
-### [tf-backstage](./AWS/tf-backstage/)
-<details><summary>Overview</summary>
-
-- O diagrama de arquitetura ainda não está disponível.
-</details>
-
-<details><summary>Requirements</summary>
-
-- Para implantar este módulo, o Terraform deve estar autenticado na sua conta AWS.
-- Defina as seguintes variáveis de ambiente antes de executar o módulo:
-    - `TF_VAR_AWS_REGION`
-    - `TF_VAR_AWS_ACCOUNT_ID`
-    - `TF_VAR_AWS_ACCESS_KEY_ID`
-    - `TF_VAR_AWS_SECRET_ACCESS_KEY`
-    - `TF_VAR_GITHUB_TOKEN`
-</details>
-
 # Azure
 # GCP
 </details>
