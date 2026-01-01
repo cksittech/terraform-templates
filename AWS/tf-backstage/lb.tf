@@ -1,4 +1,4 @@
-resource "aws_alb" "tf-backstage-alb" {
+resource "aws_lb" "tf-backstage-lb" {
   client_keep_alive                                            = 3600
   # customer_owned_ipv4_pool                                     = ""
   desync_mitigation_mode                                       = "defensive"
@@ -17,14 +17,14 @@ resource "aws_alb" "tf-backstage-alb" {
   ip_address_type                                              = "ipv4"
   load_balancer_type                                           = "application"
   # minimum_load_balancer_capacity                               = 0
-  name                                                         = "${var.terraform}-alb"
+  name                                                         = "${var.terraform}-lb"
   # name_prefix                                                  = ""
-  security_groups                                              = [aws_security_group.tf-backstage-security-group-alb.id]
+  security_groups                                              = [aws_security_group.tf-backstage-security-group-lb.id]
   preserve_host_header                                         = true
   # secondary_ips_auto_assigned_per_subnet                       = 0
   subnets                                                      = [
-    aws_subnet.tf-backstage-subnet-alb-a.id,
-    aws_subnet.tf-backstage-subnet-alb-c.id
+    aws_subnet.tf-backstage-subnet-lb-a.id,
+    aws_subnet.tf-backstage-subnet-lb-c.id
   ]
   xff_header_processing_mode                                   = "append"
 
@@ -34,7 +34,7 @@ resource "aws_alb" "tf-backstage-alb" {
   # subnet_mapping {}
 
   tags = {
-    Name = "${var.terraform}-alb"
+    Name = "${var.terraform}-lb"
     Terraform = var.terraform
   }
 }

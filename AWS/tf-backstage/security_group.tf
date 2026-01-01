@@ -1,9 +1,9 @@
-resource "aws_security_group" "tf-backstage-security-group-alb" {
-  name   = "${var.terraform}-security-group-alb"
+resource "aws_security_group" "tf-backstage-security-group-lb" {
+  name   = "${var.terraform}-security-group-lb"
   vpc_id = aws_vpc.tf-backstage-vpc.id
 
   tags = {
-    Name = "${var.terraform}-security-group-alb"
+    Name = "${var.terraform}-security-group-lb"
     Terraform = var.terraform
   }
 }

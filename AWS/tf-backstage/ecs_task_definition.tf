@@ -20,11 +20,11 @@ resource "aws_ecs_task_definition" "tf-backstage-ecs-task-definition" {
     "environment": [
       {
         "name": "APP_CONFIG_app_baseUrl",
-        "value": "http://${aws_alb.tf-backstage-alb.dns_name}"
+        "value": "http://${aws_lb.tf-backstage-lb.dns_name}"
       },
       {
         "name": "APP_CONFIG_backend_baseUrl",
-        "value": "http://${aws_alb.tf-backstage-alb.dns_name}"
+        "value": "http://${aws_lb.tf-backstage-lb.dns_name}"
       },
       {
         "name": "GITHUB_TOKEN",
