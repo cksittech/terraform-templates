@@ -8,6 +8,8 @@
 | tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Terraform samples built with AWS provider v6.27.0.<br>This cannot be deployed. |
 | tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Details](#tf-keycloak) | In v0, you can run Keycloak from the official image without a database and over HTTP.<br>v1 is based on v0 and changes the protocol to HTTPS.<br>v2 is based on v0 and adds database support. |
 | tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | You can run Backstage from the community image over HTTP. |
+| tf-ses | [Sources](./AWS/tf-ses/)<br>[Details](#tf-ses) |  |
+| tf-pullthroughcache | [Sources](./AWS/tf-pullthroughcache/)<br>[Details](#tf-pullthroughcache) |  |
 ## Details
 ### [tf-keycloak](./AWS/tf-keycloak/)
 <details><summary>Overview</summary>
@@ -40,6 +42,20 @@
     - `TF_VAR_AWS_SECRET_ACCESS_KEY`
     - `TF_VAR_GITHUB_TOKEN`
 </details>
+
+### [tf-ses](./AWS/tf-ses/)
+<details><summary>Overview</summary>
+
+- The architecture diagram is not yet available.
+</details>
+<details><summary>Requirements</summary></details>
+
+### [tf-pullthroughcache](./AWS/tf-pullthroughcache/)
+<details><summary>Overview</summary>
+
+- The architecture diagram is not yet available.
+</details>
+<details><summary>Requirements</summary></details>
 
 # Azure
 # GCP
