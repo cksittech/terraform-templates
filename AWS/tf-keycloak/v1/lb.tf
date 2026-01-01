@@ -1,4 +1,4 @@
-resource "aws_alb" "tf-keycloak-alb" {
+resource "aws_lb" "tf-keycloak-lb" {
   client_keep_alive                                            = 3600
   # customer_owned_ipv4_pool                                     = ""
   desync_mitigation_mode                                       = "defensive"
@@ -17,14 +17,14 @@ resource "aws_alb" "tf-keycloak-alb" {
   ip_address_type                                              = "ipv4"
   load_balancer_type                                           = "application"
   # minimum_load_balancer_capacity                               = 0
-  name                                                         = "${var.terraform}-alb"
+  name                                                         = "${var.terraform}-lb"
   # name_prefix                                                  = ""
-  security_groups                                              = [aws_security_group.tf-keycloak-security-group-alb.id]
+  security_groups                                              = [aws_security_group.tf-keycloak-security-group-lb.id]
   preserve_host_header                                         = true
   # secondary_ips_auto_assigned_per_subnet                       = 0
   subnets                                                      = [
-    aws_subnet.tf-keycloak-subnet-alb-a.id,
-    aws_subnet.tf-keycloak-subnet-alb-c.id
+    aws_subnet.tf-keycloak-subnet-lb-a.id,
+    aws_subnet.tf-keycloak-subnet-lb-c.id
   ]
   xff_header_processing_mode                                   = "append"
 
@@ -34,7 +34,7 @@ resource "aws_alb" "tf-keycloak-alb" {
   # subnet_mapping {}
 
   tags = {
-    Name = "${var.terraform}-alb"
+    Name = "${var.terraform}-lb"
     Terraform = var.terraform
   }
 }

@@ -1,7 +1,7 @@
-resource "aws_alb_listener" "tf-keycloak-alb-listener-redirect" {
+resource "aws_lb_listener" "tf-keycloak-lb-listener-redirect" {
   # alpn_policy              = "None"
   # certificate_arn          = ""
-  load_balancer_arn        = aws_alb.tf-keycloak-alb.arn
+  load_balancer_arn        = aws_lb.tf-keycloak-lb.arn
   port                     = 80
   protocol                 = "HTTP"
   # ssl_policy               = ""
@@ -26,15 +26,15 @@ resource "aws_alb_listener" "tf-keycloak-alb-listener-redirect" {
   # mutual_authentication {}
 
   tags = {
-    Name = "${var.terraform}-alb-listener-redirect"
+    Name = "${var.terraform}-lb-listener-redirect"
     Terraform = var.terraform
   }
 }
 
-resource "aws_alb_listener" "tf-keycloak-alb-listener-https" {
+resource "aws_lb_listener" "tf-keycloak-lb-listener-https" {
   # alpn_policy              = "None"
   certificate_arn          = aws_acm_certificate.tf-keycloak-acm-certificate.arn
-  load_balancer_arn        = aws_alb.tf-keycloak-alb.arn
+  load_balancer_arn        = aws_lb.tf-keycloak-lb.arn
   port                     = 443
   protocol                 = "HTTPS"
   ssl_policy               = "ELBSecurityPolicy-TLS13-1-2-2021-06"
@@ -55,7 +55,7 @@ resource "aws_alb_listener" "tf-keycloak-alb-listener-https" {
   # mutual_authentication {}
 
   tags = {
-    Name = "${var.terraform}-alb-listener-https"
+    Name = "${var.terraform}-lb-listener-https"
     Terraform = var.terraform
   }
 

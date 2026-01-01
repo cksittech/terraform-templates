@@ -9,13 +9,13 @@ resource "aws_route_table" "tf-keycloak-route-table-main" {
   }
 }
 
-resource "aws_route_table" "tf-keycloak-route-table-alb" {
+resource "aws_route_table" "tf-keycloak-route-table-lb" {
   vpc_id           = aws_vpc.tf-keycloak-vpc.id
   # route            =
   # propagating_vgws =
 
   tags = {
-    Name = "${var.terraform}-route-table-alb"
+    Name = "${var.terraform}-route-table-lb"
     Terraform = var.terraform
   }
 }

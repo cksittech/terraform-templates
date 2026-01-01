@@ -1,4 +1,4 @@
-resource "aws_subnet" "tf-keycloak-subnet-alb-a" {
+resource "aws_subnet" "tf-keycloak-subnet-lb-a" {
   assign_ipv6_address_on_creation                = false
   availability_zone                              = var.availability_zone.ap_northeast_1.ap_northeast_1a
   # availability_zone_id                           =
@@ -17,12 +17,12 @@ resource "aws_subnet" "tf-keycloak-subnet-alb-a" {
   vpc_id                                         = aws_vpc.tf-keycloak-vpc.id
 
   tags = {
-    Name = "${var.terraform}-subnet-alb-a"
+    Name = "${var.terraform}-subnet-lb-a"
     Terraform = var.terraform
   }
 }
 
-resource "aws_subnet" "tf-keycloak-subnet-alb-c" {
+resource "aws_subnet" "tf-keycloak-subnet-lb-c" {
   assign_ipv6_address_on_creation                = false
   availability_zone                              = var.availability_zone.ap_northeast_1.ap_northeast_1c
   # availability_zone_id                           =
@@ -41,7 +41,7 @@ resource "aws_subnet" "tf-keycloak-subnet-alb-c" {
   vpc_id                                         = aws_vpc.tf-keycloak-vpc.id
 
   tags = {
-    Name = "${var.terraform}-subnet-alb-c"
+    Name = "${var.terraform}-subnet-lb-c"
     Terraform = var.terraform
   }
 }

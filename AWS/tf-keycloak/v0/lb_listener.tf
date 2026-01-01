@@ -1,7 +1,7 @@
-resource "aws_alb_listener" "tf-keycloak-alb-listener" {
+resource "aws_lb_listener" "tf-keycloak-lb-listener" {
   # alpn_policy              = "None"
   # certificate_arn          = ""
-  load_balancer_arn        = aws_alb.tf-keycloak-alb.arn
+  load_balancer_arn        = aws_lb.tf-keycloak-lb.arn
   port                     = 80
   protocol                 = "HTTP"
   # ssl_policy               = ""
@@ -22,7 +22,7 @@ resource "aws_alb_listener" "tf-keycloak-alb-listener" {
   # mutual_authentication {}
 
   tags = {
-    Name = "${var.terraform}-alb-listener"
+    Name = "${var.terraform}-lb-listener"
     Terraform = var.terraform
   }
 }

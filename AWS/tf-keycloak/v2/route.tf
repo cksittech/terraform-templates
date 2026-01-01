@@ -1,4 +1,4 @@
-resource "aws_route" "tf-keycloak-route-alb" {
+resource "aws_route" "tf-keycloak-route-lb" {
   # carrier_gateway_id          = ""
   # core_network_arn            = ""
   destination_cidr_block      = "0.0.0.0/0"
@@ -9,7 +9,7 @@ resource "aws_route" "tf-keycloak-route-alb" {
   # local_gateway_id            = ""
   # nat_gateway_id              = ""
   # network_interface_id        = ""
-  route_table_id              = aws_route_table.tf-keycloak-route-table-alb.id
+  route_table_id              = aws_route_table.tf-keycloak-route-table-lb.id
   # transit_gateway_id          = ""
   # vpc_endpoint_id             = ""
   # vpc_peering_connection_id   = ""

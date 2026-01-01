@@ -56,6 +56,6 @@ resource "aws_ecs_service" "tf-keycloak-ecs-service" {
     Terraform = var.terraform
   }
 
-  depends_on = [aws_alb_listener.tf-keycloak-alb-listener-https]
+  depends_on = [aws_lb_listener.tf-keycloak-lb-listener-https]
 }
 

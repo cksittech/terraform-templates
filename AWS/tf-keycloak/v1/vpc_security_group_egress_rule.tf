@@ -1,16 +1,16 @@
-resource "aws_vpc_security_group_egress_rule" "tf-keycloak-vpc-security-group-egress-rule-alb" {
+resource "aws_vpc_security_group_egress_rule" "tf-keycloak-vpc-security-group-egress-rule-lb" {
   cidr_ipv4                    = "0.0.0.0/0"
   # cidr_ipv6                    = ""
-  description                  = "${var.terraform}-vpc-security-group-egress-rule-alb"
+  description                  = "${var.terraform}-vpc-security-group-egress-rule-lb"
   from_port                    = -1
   ip_protocol                  = "-1"
   # prefix_list_id               = ""
   # referenced_security_group_id = ""
-  security_group_id            = aws_security_group.tf-keycloak-security-group-alb.id
+  security_group_id            = aws_security_group.tf-keycloak-security-group-lb.id
   to_port                      = -1
 
   tags = {
-    Name = "${var.terraform}-vpc-security-group-egress-rule-alb"
+    Name = "${var.terraform}-vpc-security-group-egress-rule-lb"
     Terraform = var.terraform
   }
 }

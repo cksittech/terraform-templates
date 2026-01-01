@@ -10,8 +10,8 @@ resource "aws_route53_record" "tf-keycloak-route53-record-a" {
   zone_id                          = data.aws_route53_zone.tf-keycloak-route53-zone.zone_id
   
   alias {
-    name                   = aws_alb.tf-keycloak-alb.dns_name
-    zone_id                = aws_alb.tf-keycloak-alb.zone_id
+    name                   = aws_lb.tf-keycloak-lb.dns_name
+    zone_id                = aws_lb.tf-keycloak-lb.zone_id
     evaluate_target_health = true
   }
   # cidr_routing_policy {}
