@@ -12,6 +12,7 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
   
   image_scanning_configuration {}
   image_tests_configuration {}
+  logging_configuration {}
   schedule {}
   workflow {}
   

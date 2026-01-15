@@ -13,6 +13,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   wait_for_deployment             = false
   web_acl_id                      = ""
   
+  connection_function_association {}
   custom_error_response {}
   default_cache_behavior {}
   logging_config {}
@@ -21,6 +22,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   origin_group {}
   restrictions {}
   viewer_certificate {}
+  viewer_mtls_config {}
   
   tags = {}
 }
