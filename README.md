@@ -1,5 +1,5 @@
 # terraform-templates
-<details open><summary><img src="https://flagcdn.com/w20/gb.png" alt="English"> English</summary>
+<details><summary><img src="https://flagcdn.com/w20/gb.png" alt="English"> English</summary>
 
 # AWS
 ## Summary
