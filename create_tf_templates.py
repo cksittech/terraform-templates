@@ -12,7 +12,7 @@ TYPE_DEFAULTS = {
 REGISTRIES = {
     "aws": "hashicorp/aws",
     "azure": "hashicorp/azurerm",
-    "gcp": "hashicorp/gcp",
+    "gcp": "hashicorp/google",
     "oci": "hashicorp/oci",
     "ibm": "ibm-cloud/ibm",
     "alicloud": "hashicorp/alicloud",
