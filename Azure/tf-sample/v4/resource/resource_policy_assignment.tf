@@ -1,0 +1,17 @@
+resource "azurerm_resource_policy_assignment" "tf-sample-resource-policy-assignment" {
+  description          = ""
+  display_name         = ""
+  enforce              = false
+  location             = ""
+  metadata             = ""
+  name                 = ""
+  not_scopes           = []
+  parameters           = ""
+  policy_definition_id = ""
+  resource_id          = ""
+  
+  identity {}
+  non_compliance_message {}
+  overrides {}
+  resource_selectors {}
+}

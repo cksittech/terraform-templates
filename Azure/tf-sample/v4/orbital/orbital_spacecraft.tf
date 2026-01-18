@@ -1,0 +1,12 @@
+resource "azurerm_orbital_spacecraft" "tf-sample-orbital-spacecraft" {
+  location            = ""
+  name                = ""
+  norad_id            = ""
+  resource_group_name = ""
+  title_line          = ""
+  two_line_elements   = []
+  
+  links {}
+  
+  tags = {}
+}
