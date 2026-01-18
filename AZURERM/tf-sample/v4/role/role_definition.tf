@@ -1,0 +1,9 @@
+resource "azurerm_role_definition" "tf-sample-role-definition" {
+  assignable_scopes  = []
+  description        = ""
+  name               = ""
+  role_definition_id = ""
+  scope              = ""
+  
+  permissions {}
+}
