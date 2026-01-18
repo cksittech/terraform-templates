@@ -5,7 +5,7 @@
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Terraform samples built with AWS provider v6.27.0.<br>This cannot be deployed. |
+| tf-sample/v6 | [Sources](./AWS/tf-sample/v6/) | Terraform samples built with AWS provider v6.28.0.<br>This cannot be deployed. |
 | tf-keycloak | [Sources(v0)](./AWS/tf-keycloak/v0/)<br>[Sources(v1)](./AWS/tf-keycloak/v1/)<br>[Sources(v2)](./AWS/tf-keycloak/v2/)<br>[Details](#tf-keycloak) | In v0, you can run Keycloak from the official image without a database and over HTTP.<br>v1 is based on v0 and changes the protocol to HTTPS.<br>v2 is based on v0 and adds database support. |
 | tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | You can run Backstage from the community image over HTTP. |
 | tf-ses | [Sources](./AWS/tf-ses/)<br>[Details](#tf-ses) | You can send emails using a public domain with SES. |
@@ -79,7 +79,17 @@
 </details>
 
 # Azure
+## Summary
+| Project | Link | Description |
+|-|-|-|
+| tf-sample/v6 | [Sources](./Azure/tf-sample/v4/) | Terraform samples built with Azure provider v4.57.0.<br>This cannot be deployed. |
+
 # GCP
+## Summary
+| Project | Link | Description |
+|-|-|-|
+| tf-sample/v6 | [Sources](./GCP/tf-sample/v7/) | Terraform samples built with GCP provider v7.16.0.<br>This cannot be deployed. |
+
 </details>
 <details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática)</summary>
 
