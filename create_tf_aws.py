@@ -22,8 +22,8 @@ try:
     for resource in RESOURCE_SCHEMAS.keys():
         OUTPUT_PATH = f"./output/{resource.split('_')[1]}"
         os.makedirs(OUTPUT_PATH, exist_ok=True)
-        with open(f"./{OUTPUT_PATH}/{"_".join(resource.split('_')[1:])}.tf", "w", encoding="utf-8") as f:
-            f.write(f"resource \"{resource}\" \"tf-sample-{"-".join(resource.split('_')[1:])}\" {{\n")
+        with open(f"./{OUTPUT_PATH}/{'_'.join(resource.split('_')[1:])}.tf", "w", encoding="utf-8") as f:
+            f.write(f"resource \"{resource}\" \"tf-sample-{'-'.join(resource.split('_')[1:])}\" {{\n")
             tags_exist = True if "tags" in list(RESOURCE_SCHEMAS[resource]["block"]["attributes"].keys()) else False
             attributes = [attribute for attribute in list(RESOURCE_SCHEMAS[resource]["block"]["attributes"].keys()) 
                         if not(attribute in ["arn", "tags_all", "tags", "id"]) 
