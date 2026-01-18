@@ -14,7 +14,7 @@ CLOUD_PROVIDER_NAME = "aws"
 
 SCHEMA_PATH = f".\\schema.json"
 
-with open(SCHEMA_PATH, "r", encoding="utf-16") as f:
+with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
     RESOURCE_SCHEMAS = json.loads(f.read().replace('窶・,"description_kind"', '窶・","description_kind"'))["provider_schemas"][f"registry.terraform.io/hashicorp/{CLOUD_PROVIDER_NAME}"]["resource_schemas"]
 type_list = []
 
