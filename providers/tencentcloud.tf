@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    ibm = {
+    tencentcloud = {
       source = "tencentcloudstack/tencentcloud"
     }
   }
