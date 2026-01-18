@@ -12,16 +12,16 @@ TYPE_DEFAULTS = {
 
 CLOUD_PROVIDER_NAME = "aws"
 
-SCHEMA_PATH = f".\\schema.json"
+SCHEMA_PATH = f"./schema.json"
 
 with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
     RESOURCE_SCHEMAS = json.loads(f.read().replace('窶・,"description_kind"', '窶・","description_kind"'))["provider_schemas"][f"registry.terraform.io/hashicorp/{CLOUD_PROVIDER_NAME}"]["resource_schemas"]
 type_list = []
 
 for resource in RESOURCE_SCHEMAS.keys():
-    OUTPUT_PATH = f".\\output\\{resource.split('_')[1]}"
+    OUTPUT_PATH = f"./output/{resource.split('_')[1]}"
     os.makedirs(OUTPUT_PATH, exist_ok=True)
-    with open(f".\\{OUTPUT_PATH}\\{"_".join(resource.split('_')[1:])}.tf", "w", encoding="utf-8") as f:
+    with open(f"./{OUTPUT_PATH}/{"_".join(resource.split('_')[1:])}.tf", "w", encoding="utf-8") as f:
         f.write(f"resource \"{resource}\" \"tf-sample-{"-".join(resource.split('_')[1:])}\" {{\n")
         tags_exist = True if "tags" in list(RESOURCE_SCHEMAS[resource]["block"]["attributes"].keys()) else False
         attributes = [attribute for attribute in list(RESOURCE_SCHEMAS[resource]["block"]["attributes"].keys()) 
