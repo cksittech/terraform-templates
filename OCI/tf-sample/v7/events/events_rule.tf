@@ -1,0 +1,11 @@
+resource "oci_events_rule" "tf-sample-events-rule" {
+  compartment_id = ""
+  condition      = ""
+  defined_tags   = {}
+  description    = ""
+  display_name   = ""
+  freeform_tags  = {}
+  is_enabled     = false
+  
+  actions {}
+}
