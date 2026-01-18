@@ -1,5 +1,5 @@
 # terraform-templates
-<details><summary><img src="https://flagcdn.com/w20/gb.png" alt="English"> English</summary>
+<details open><summary><img src="https://flagcdn.com/w20/gb.png" alt="English"> English</summary>
 
 # AWS
 ## Summary
@@ -82,24 +82,14 @@
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v6 | [Sources](./Azure/tf-sample/v4/) | Terraform samples built with Azure provider v4.57.0.<br>This cannot be deployed. |
+| tf-sample/v4 | [Sources](./Azure/tf-sample/v4/) | Terraform samples built with Azure provider v4.57.0.<br>This cannot be deployed. |
 
 # GCP
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v6 | [Sources](./GCP/tf-sample/v7/) | Terraform samples built with GCP provider v7.16.0.<br>This cannot be deployed. |
+| tf-sample/v7 | [Sources](./GCP/tf-sample/v7/) | Terraform samples built with GCP provider v7.16.0.<br>This cannot be deployed. |
 
 </details>
-<details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática)</summary>
-
-# AWS
-# Azure
-# GCP
-</details>
-<details><summary><img src="https://flagcdn.com/w20/br.png" alt="Português"> Português (tradução automática)</summary>
-
-# AWS
-# Azure
-# GCP
-</details>
+<details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática, en preparación)</summary></details>
+<details><summary><img src="https://flagcdn.com/w20/br.png" alt="Português"> Português (tradução automática, em preparação)</summary></details>
