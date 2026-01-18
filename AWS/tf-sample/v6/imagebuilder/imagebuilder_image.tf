@@ -9,6 +9,7 @@ resource "aws_imagebuilder_image" "tf-sample-imagebuilder-image" {
   
   image_scanning_configuration {}
   image_tests_configuration {}
+  logging_configuration {}
   workflow {}
   
   tags = {}
