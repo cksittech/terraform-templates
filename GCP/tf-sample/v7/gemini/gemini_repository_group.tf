@@ -1,0 +1,9 @@
+resource "google_gemini_repository_group" "tf-sample-gemini-repository-group" {
+  code_repository_index = ""
+  labels                = {}
+  location              = ""
+  project               = ""
+  repository_group_id   = ""
+  
+  repositories {}
+}
