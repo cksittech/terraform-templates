@@ -1,0 +1,9 @@
+resource "alicloud_sls_machine_group" "tf-sample-sls-machine-group" {
+  group_name            = ""
+  group_type            = ""
+  machine_identify_type = ""
+  machine_list          = []
+  project_name          = ""
+  
+  group_attribute {}
+}

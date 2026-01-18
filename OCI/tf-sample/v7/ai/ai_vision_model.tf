@@ -1,0 +1,16 @@
+resource "oci_ai_vision_model" "tf-sample-ai-vision-model" {
+  compartment_id                 = ""
+  defined_tags                   = {}
+  description                    = ""
+  display_name                   = ""
+  freeform_tags                  = {}
+  is_quick_mode                  = false
+  max_training_duration_in_hours = 0
+  model_type                     = ""
+  model_version                  = ""
+  project_id                     = ""
+  
+  testing_dataset {}
+  training_dataset {}
+  validation_dataset {}
+}
