@@ -14,7 +14,7 @@ SCHEMA_PATH = f"./schema.json"
 
 try:
     with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
-        RESOURCE_SCHEMAS = json.loads(f.read().replace('窶・,"description_kind"', '窶・","description_kind"'))["provider_schemas"][f"registry.terraform.io/hashicorp/{os.environ.get('PROVIDER_NAME')}"]["resource_schemas"]
+        RESOURCE_SCHEMAS = json.loads(f.read().replace('窶・,"description_kind"', '窶・","description_kind"'))["provider_schemas"][f"registry.terraform.io/hashicorp/{os.environ.get('TERRAFORM_PROVIDER_NAME')}"]["resource_schemas"]
     type_list = []
 
     for resource in RESOURCE_SCHEMAS.keys():
