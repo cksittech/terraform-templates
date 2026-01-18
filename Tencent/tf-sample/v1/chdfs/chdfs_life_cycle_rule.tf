@@ -1,0 +1,5 @@
+resource "tencentcloud_chdfs_life_cycle_rule" "tf-sample-chdfs-life-cycle-rule" {
+  file_system_id = ""
+  
+  life_cycle_rule {}
+}
