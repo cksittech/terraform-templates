@@ -1,0 +1,15 @@
+resource "google_eventarc_pipeline" "tf-sample-eventarc-pipeline" {
+  annotations     = {}
+  crypto_key_name = ""
+  display_name    = ""
+  labels          = {}
+  location        = ""
+  pipeline_id     = ""
+  project         = ""
+  
+  destinations {}
+  input_payload_format {}
+  logging_config {}
+  mediations {}
+  retry_policy {}
+}

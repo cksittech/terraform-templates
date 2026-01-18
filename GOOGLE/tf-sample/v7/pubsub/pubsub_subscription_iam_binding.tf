@@ -1,0 +1,8 @@
+resource "google_pubsub_subscription_iam_binding" "tf-sample-pubsub-subscription-iam-binding" {
+  members      = []
+  project      = ""
+  role         = ""
+  subscription = ""
+  
+  condition {}
+}
