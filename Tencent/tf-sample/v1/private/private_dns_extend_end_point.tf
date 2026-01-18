@@ -1,0 +1,6 @@
+resource "tencentcloud_private_dns_extend_end_point" "tf-sample-private-dns-extend-end-point" {
+  end_point_name   = ""
+  end_point_region = ""
+  
+  forward_ip {}
+}

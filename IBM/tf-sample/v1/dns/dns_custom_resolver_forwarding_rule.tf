@@ -1,0 +1,10 @@
+resource "ibm_dns_custom_resolver_forwarding_rule" "tf-sample-dns-custom-resolver-forwarding-rule" {
+  description = ""
+  forward_to  = []
+  instance_id = ""
+  match       = ""
+  resolver_id = ""
+  type        = ""
+  
+  views {}
+}
