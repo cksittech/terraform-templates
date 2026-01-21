@@ -25,7 +25,7 @@ SCHEMA_PATH = f"./schema.json"
 INDENT_LEVEL = 2
 
 def make_block(f: TextIO, base_block_type: str, indent_level: int, schema: dict) -> None:
-    f.write(f"{" "*indent_level}{base_block_type} {{\n")
+    f.write(f"{' '*indent_level}{base_block_type} {{\n")
     
     if "attributes" in list(schema.keys()):
         attributes = [
@@ -59,27 +59,27 @@ def make_block(f: TextIO, base_block_type: str, indent_level: int, schema: dict)
                 base_type = attr_type
             default = TYPE_DEFAULTS.get(base_type)
             if default is not None:
-                f.write(f"{" "*(indent_level+INDENT_LEVEL)}{attribute.ljust(fill_num)} = {default}\n")
+                f.write(f"{' '*(indent_level+INDENT_LEVEL)}{attribute.ljust(fill_num)} = {default}\n")
     
     block_types.sort()
     if len(block_types):
         if attributes:
-            f.write(f"{" "*(indent_level+INDENT_LEVEL)}\n")
+            f.write(f"{' '*(indent_level+INDENT_LEVEL)}\n")
         for block_type in block_types:
             make_block(f, block_type, (indent_level+INDENT_LEVEL), schema["block_types"][block_type]["block"])
     
-    f.write(f"{" "*indent_level}}}\n")
+    f.write(f"{' '*indent_level}}}\n")
 
 def make_object(f: TextIO, base_attribute_object: str, indent_level: int, schema: dict, fill_num: int) -> None:
-    f.write(f"{" "*indent_level}{base_attribute_object.ljust(fill_num)} = {{\n")
+    f.write(f"{' '*indent_level}{base_attribute_object.ljust(fill_num)} = {{\n")
     for attribute_object in schema.keys():
         sub_fill_num = max(len(s) for s in schema.keys())
         attr_type = schema[attribute_object]
         if isinstance(schema[attribute_object], list):
             make_object(f, attribute_object, indent_level + INDENT_LEVEL, schema[attribute_object][1], sub_fill_num)
         else:
-            f.write(f"{" "*(indent_level+INDENT_LEVEL)}{attribute_object.ljust(sub_fill_num)} = {TYPE_DEFAULTS.get(attr_type)}\n")
-    f.write(f"{" "*indent_level}}}\n")
+            f.write(f"{' '*(indent_level+INDENT_LEVEL)}{attribute_object.ljust(sub_fill_num)} = {TYPE_DEFAULTS.get(attr_type)}\n")
+    f.write(f"{' '*indent_level}}}\n")
 
 try:
     with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
@@ -116,11 +116,11 @@ try:
                             attribute_objects.append(attribute)
                             continue
                     else:
-                        f.write(f"{" "*INDENT_LEVEL}{attribute.ljust(fill_num)} = {TYPE_DEFAULTS.get(attr_type)}\n")
+                        f.write(f"{' '*INDENT_LEVEL}{attribute.ljust(fill_num)} = {TYPE_DEFAULTS.get(attr_type)}\n")
             
             attribute_objects.sort()
             if attribute_objects:
-                f.write(f"{" "*INDENT_LEVEL}\n")
+                f.write(f"{' '*INDENT_LEVEL}\n")
                 fill_num = max(len(s) for s in attribute_objects)
                 attribute_objects.sort()
                 for attribute_object in attribute_objects:
@@ -128,13 +128,13 @@ try:
             
             block_types.sort()
             if block_types:
-                f.write(f"{" "*INDENT_LEVEL}\n")
+                f.write(f"{' '*INDENT_LEVEL}\n")
                 for block_type in block_types:
                     make_block(f, block_type, INDENT_LEVEL, RESOURCE_SCHEMAS[resource]["block"]["block_types"][block_type]["block"])
             
             if tags_exist:
-                f.write(f"{" "*INDENT_LEVEL}\n")
-                f.write(f"{" "*INDENT_LEVEL}tags = {{}}\n")
+                f.write(f"{' '*INDENT_LEVEL}\n")
+                f.write(f"{' '*INDENT_LEVEL}tags = {{}}\n")
             
             f.write("}")
 except Exception as e:
