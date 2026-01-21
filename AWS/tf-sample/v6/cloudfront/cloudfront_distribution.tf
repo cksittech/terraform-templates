@@ -1,4 +1,5 @@
 resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
+  aliases                         = []
   anycast_ip_list_id              = ""
   comment                         = ""
   continuous_deployment_policy_id = ""

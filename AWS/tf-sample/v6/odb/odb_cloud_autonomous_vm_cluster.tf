@@ -2,6 +2,7 @@ resource "aws_odb_cloud_autonomous_vm_cluster" "tf-sample-odb-cloud-autonomous-v
   autonomous_data_storage_size_in_tbs   = 0
   cloud_exadata_infrastructure_id       = ""
   cpu_core_count_per_node               = 0
+  db_servers                            = []
   description                           = ""
   display_name                          = ""
   is_mtls_enabled_vm_cluster            = false

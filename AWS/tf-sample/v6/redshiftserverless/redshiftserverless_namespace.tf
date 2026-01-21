@@ -6,7 +6,9 @@ resource "aws_redshiftserverless_namespace" "tf-sample-redshiftserverless-namesp
   admin_username                   = ""
   db_name                          = ""
   default_iam_role_arn             = ""
+  iam_roles                        = []
   kms_key_id                       = ""
+  log_exports                      = []
   manage_admin_password            = false
   namespace_name                   = ""
   region                           = ""

@@ -20,9 +20,11 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   deletion_protection                   = false
   domain                                = ""
   domain_auth_secret_arn                = ""
+  domain_dns_ips                        = []
   domain_fqdn                           = ""
   domain_iam_role_name                  = ""
   domain_ou                             = ""
+  enabled_cloudwatch_logs_exports       = []
   engine                                = ""
   engine_lifecycle_support              = ""
   engine_version                        = ""
@@ -64,6 +66,7 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   timezone                              = ""
   upgrade_storage_config                = false
   username                              = ""
+  vpc_security_group_ids                = []
   
   blue_green_update {
     enabled = false

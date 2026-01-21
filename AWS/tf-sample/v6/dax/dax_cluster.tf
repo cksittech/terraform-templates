@@ -1,4 +1,5 @@
 resource "aws_dax_cluster" "tf-sample-dax-cluster" {
+  availability_zones               = []
   cluster_endpoint_encryption_type = ""
   cluster_name                     = ""
   description                      = ""
@@ -9,6 +10,7 @@ resource "aws_dax_cluster" "tf-sample-dax-cluster" {
   parameter_group_name             = ""
   region                           = ""
   replication_factor               = 0
+  security_group_ids               = []
   subnet_group_name                = ""
   
   server_side_encryption {

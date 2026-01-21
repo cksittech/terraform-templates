@@ -1,12 +1,15 @@
 resource "aws_docdb_cluster" "tf-sample-docdb-cluster" {
   allow_major_version_upgrade     = false
   apply_immediately               = false
+  availability_zones              = []
   backup_retention_period         = 0
   cluster_identifier              = ""
   cluster_identifier_prefix       = ""
+  cluster_members                 = []
   db_cluster_parameter_group_name = ""
   db_subnet_group_name            = ""
   deletion_protection             = false
+  enabled_cloudwatch_logs_exports = []
   engine                          = ""
   engine_version                  = ""
   final_snapshot_identifier       = ""
@@ -26,6 +29,7 @@ resource "aws_docdb_cluster" "tf-sample-docdb-cluster" {
   snapshot_identifier             = ""
   storage_encrypted               = false
   storage_type                    = ""
+  vpc_security_group_ids          = []
   
   restore_to_point_in_time {
     restore_to_time            = ""

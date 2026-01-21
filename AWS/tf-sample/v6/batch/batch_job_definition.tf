@@ -4,6 +4,8 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   ecs_properties             = ""
   name                       = ""
   node_properties            = ""
+  parameters                 = {}
+  platform_capabilities      = []
   propagate_tags             = false
   region                     = ""
   scheduling_priority        = 0

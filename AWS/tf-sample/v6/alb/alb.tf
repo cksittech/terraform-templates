@@ -21,6 +21,8 @@ resource "aws_alb" "tf-sample-alb" {
   preserve_host_header                                         = false
   region                                                       = ""
   secondary_ips_auto_assigned_per_subnet                       = 0
+  security_groups                                              = []
+  subnets                                                      = []
   xff_header_processing_mode                                   = ""
   
   access_logs {

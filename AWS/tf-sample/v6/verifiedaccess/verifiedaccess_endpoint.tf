@@ -7,6 +7,7 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
   endpoint_type            = ""
   policy_document          = ""
   region                   = ""
+  security_group_ids       = []
   verified_access_group_id = ""
   
   cidr_options {

@@ -5,6 +5,7 @@ resource "aws_odb_cloud_vm_cluster" "tf-sample-odb-cloud-vm-cluster" {
   cpu_core_count                   = 0
   data_storage_size_in_tbs         = 0
   db_node_storage_size_in_gbs      = 0
+  db_servers                       = []
   display_name                     = ""
   gi_version                       = ""
   hostname_prefix                  = ""
@@ -16,6 +17,7 @@ resource "aws_odb_cloud_vm_cluster" "tf-sample-odb-cloud-vm-cluster" {
   odb_network_id                   = ""
   region                           = ""
   scan_listener_port_tcp           = 0
+  ssh_public_keys                  = []
   timezone                         = ""
   
   data_collection_options {

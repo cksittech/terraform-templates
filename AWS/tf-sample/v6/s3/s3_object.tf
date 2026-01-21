@@ -14,6 +14,7 @@ resource "aws_s3_object" "tf-sample-s3-object" {
   force_destroy                 = false
   key                           = ""
   kms_key_id                    = ""
+  metadata                      = {}
   object_lock_legal_hold_status = ""
   object_lock_mode              = ""
   object_lock_retain_until_date = ""

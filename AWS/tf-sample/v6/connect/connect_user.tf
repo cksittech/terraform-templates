@@ -6,6 +6,7 @@ resource "aws_connect_user" "tf-sample-connect-user" {
   password             = ""
   region               = ""
   routing_profile_id   = ""
+  security_profile_ids = []
   
   identity_info {
     email           = ""

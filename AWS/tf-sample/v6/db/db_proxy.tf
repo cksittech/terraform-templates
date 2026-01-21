@@ -9,6 +9,8 @@ resource "aws_db_proxy" "tf-sample-db-proxy" {
   require_tls                    = false
   role_arn                       = ""
   target_connection_network_type = ""
+  vpc_security_group_ids         = []
+  vpc_subnet_ids                 = []
   
   auth {
     auth_scheme               = ""

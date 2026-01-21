@@ -15,6 +15,7 @@ resource "aws_instance" "tf-sample-instance" {
   instance_initiated_shutdown_behavior = ""
   instance_type                        = ""
   ipv6_address_count                   = 0
+  ipv6_addresses                       = []
   key_name                             = ""
   monitoring                           = false
   placement_group                      = ""
@@ -22,12 +23,16 @@ resource "aws_instance" "tf-sample-instance" {
   placement_partition_number           = 0
   private_ip                           = ""
   region                               = ""
+  secondary_private_ips                = []
+  security_groups                      = []
   source_dest_check                    = false
   subnet_id                            = ""
   tenancy                              = ""
   user_data                            = ""
   user_data_base64                     = ""
   user_data_replace_on_change          = false
+  volume_tags                          = {}
+  vpc_security_group_ids               = []
   
   capacity_reservation_specification {
     capacity_reservation_preference = ""

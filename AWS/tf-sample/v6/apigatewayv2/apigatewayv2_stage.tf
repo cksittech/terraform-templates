@@ -6,6 +6,7 @@ resource "aws_apigatewayv2_stage" "tf-sample-apigatewayv2-stage" {
   description           = ""
   name                  = ""
   region                = ""
+  stage_variables       = {}
   
   access_log_settings {
     destination_arn = ""

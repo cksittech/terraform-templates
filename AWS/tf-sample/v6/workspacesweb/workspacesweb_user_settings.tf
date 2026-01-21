@@ -1,4 +1,5 @@
 resource "aws_workspacesweb_user_settings" "tf-sample-workspacesweb-user-settings" {
+  additional_encryption_context      = {}
   copy_allowed                       = ""
   customer_managed_key               = ""
   deep_link_allowed                  = ""

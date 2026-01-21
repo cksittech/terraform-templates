@@ -9,6 +9,7 @@ resource "aws_ec2_transit_gateway" "tf-sample-ec2-transit-gateway" {
   multicast_support                  = ""
   region                             = ""
   security_group_referencing_support = ""
+  transit_gateway_cidr_blocks        = []
   vpn_ecmp_support                   = ""
   
   tags = {}

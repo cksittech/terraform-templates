@@ -1,6 +1,7 @@
 resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   bootstrap_self_managed_addons = false
   deletion_protection           = false
+  enabled_cluster_log_types     = []
   force_update_version          = false
   name                          = ""
   region                        = ""

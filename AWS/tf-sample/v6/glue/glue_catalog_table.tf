@@ -4,6 +4,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
   description        = ""
   name               = ""
   owner              = ""
+  parameters         = {}
   region             = ""
   retention          = 0
   table_type         = ""

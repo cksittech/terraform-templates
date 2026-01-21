@@ -4,6 +4,7 @@ resource "aws_connect_queue" "tf-sample-connect-queue" {
   instance_id           = ""
   max_contacts          = 0
   name                  = ""
+  quick_connect_ids     = []
   region                = ""
   status                = ""
   

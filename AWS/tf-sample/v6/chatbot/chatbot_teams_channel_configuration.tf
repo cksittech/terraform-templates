@@ -2,9 +2,11 @@ resource "aws_chatbot_teams_channel_configuration" "tf-sample-chatbot-teams-chan
   channel_id                  = ""
   channel_name                = ""
   configuration_name          = ""
+  guardrail_policy_arns       = []
   iam_role_arn                = ""
   logging_level               = ""
   region                      = ""
+  sns_topic_arns              = []
   team_id                     = ""
   team_name                   = ""
   tenant_id                   = ""

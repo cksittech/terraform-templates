@@ -16,6 +16,7 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   instance_interruption_behavior       = ""
   instance_type                        = ""
   ipv6_address_count                   = 0
+  ipv6_addresses                       = []
   key_name                             = ""
   launch_group                         = ""
   monitoring                           = false
@@ -24,6 +25,8 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   placement_partition_number           = 0
   private_ip                           = ""
   region                               = ""
+  secondary_private_ips                = []
+  security_groups                      = []
   source_dest_check                    = false
   spot_price                           = ""
   spot_type                            = ""
@@ -34,6 +37,8 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   user_data_replace_on_change          = false
   valid_from                           = ""
   valid_until                          = ""
+  volume_tags                          = {}
+  vpc_security_group_ids               = []
   wait_for_fulfillment                 = false
   
   capacity_reservation_specification {

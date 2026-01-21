@@ -4,6 +4,7 @@ resource "aws_athena_database" "tf-sample-athena-database" {
   expected_bucket_owner = ""
   force_destroy         = false
   name                  = ""
+  properties            = {}
   region                = ""
   workgroup             = ""
   

@@ -4,6 +4,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
   name                    = ""
   parent_intent_signature = ""
   region                  = ""
+  sample_utterances       = []
   
   conclusion_statement {
     response_card = ""

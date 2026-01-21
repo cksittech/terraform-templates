@@ -1,5 +1,6 @@
 resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   access_policies  = ""
+  advanced_options = {}
   domain_name      = ""
   engine_version   = ""
   ip_address_type  = ""

@@ -4,6 +4,7 @@ resource "aws_directory_service_radius_settings" "tf-sample-directory-service-ra
   display_label           = ""
   radius_port             = 0
   radius_retries          = 0
+  radius_servers          = []
   radius_timeout          = 0
   region                  = ""
   shared_secret           = ""

@@ -2,6 +2,7 @@ resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-prov
   accept_language            = ""
   ignore_errors              = false
   name                       = ""
+  notification_arns          = []
   path_id                    = ""
   path_name                  = ""
   product_id                 = ""

@@ -1,6 +1,7 @@
 resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
   availability_zone_id   = ""
   az_mode                = ""
+  command_line_arguments = {}
   description            = ""
   environment_id         = ""
   execution_role         = ""

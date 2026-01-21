@@ -4,7 +4,9 @@ resource "aws_fsx_file_cache" "tf-sample-fsx-file-cache" {
   file_cache_type_version                   = ""
   kms_key_id                                = ""
   region                                    = ""
+  security_group_ids                        = []
   storage_capacity                          = 0
+  subnet_ids                                = []
   
   data_repository_association {
     data_repository_path           = ""

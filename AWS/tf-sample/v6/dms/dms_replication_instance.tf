@@ -15,6 +15,7 @@ resource "aws_dms_replication_instance" "tf-sample-dms-replication-instance" {
   replication_instance_class   = ""
   replication_instance_id      = ""
   replication_subnet_group_id  = ""
+  vpc_security_group_ids       = []
   
   kerberos_authentication_settings {
     key_cache_secret_iam_arn = ""

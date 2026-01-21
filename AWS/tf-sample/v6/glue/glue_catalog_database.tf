@@ -3,6 +3,7 @@ resource "aws_glue_catalog_database" "tf-sample-glue-catalog-database" {
   description  = ""
   location_uri = ""
   name         = ""
+  parameters   = {}
   region       = ""
   
   create_table_default_permission {

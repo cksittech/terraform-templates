@@ -5,6 +5,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
   domain_name                   = ""
   kms_key_id                    = ""
   region                        = ""
+  subnet_ids                    = []
   tag_propagation               = ""
   vpc_id                        = ""
   

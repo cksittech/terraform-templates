@@ -1,4 +1,5 @@
 resource "aws_ivschat_room" "tf-sample-ivschat-room" {
+  logging_configuration_identifiers = []
   maximum_message_length            = 0
   maximum_message_rate_per_second   = 0
   name                              = ""

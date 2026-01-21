@@ -15,6 +15,7 @@ resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   encrypted                            = ""
   enhanced_vpc_routing                 = false
   final_snapshot_identifier            = ""
+  iam_roles                            = []
   kms_key_id                           = ""
   maintenance_track_name               = ""
   manage_master_password               = false
@@ -36,6 +37,7 @@ resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   snapshot_arn                         = ""
   snapshot_cluster_identifier          = ""
   snapshot_identifier                  = ""
+  vpc_security_group_ids               = []
   
   tags = {}
 }

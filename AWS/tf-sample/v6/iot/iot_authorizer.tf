@@ -6,6 +6,7 @@ resource "aws_iot_authorizer" "tf-sample-iot-authorizer" {
   signing_disabled          = false
   status                    = ""
   token_key_name            = ""
+  token_signing_public_keys = {}
   
   tags = {}
 }

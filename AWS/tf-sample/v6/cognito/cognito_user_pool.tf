@@ -1,4 +1,6 @@
 resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
+  alias_attributes           = []
+  auto_verified_attributes   = []
   deletion_protection        = ""
   email_verification_message = ""
   email_verification_subject = ""
@@ -8,6 +10,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   sms_authentication_message = ""
   sms_verification_message   = ""
   user_pool_tier             = ""
+  username_attributes        = []
   
   account_recovery_setting {
     recovery_mechanism {

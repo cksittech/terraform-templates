@@ -1,4 +1,6 @@
 resource "aws_lambda_layer_version" "tf-sample-lambda-layer-version" {
+  compatible_architectures = []
+  compatible_runtimes      = []
   description              = ""
   filename                 = ""
   layer_name               = ""

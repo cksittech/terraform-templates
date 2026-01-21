@@ -11,6 +11,7 @@ resource "aws_amplify_branch" "tf-sample-amplify-branch" {
   enable_performance_mode       = false
   enable_pull_request_preview   = false
   enable_skew_protection        = false
+  environment_variables         = {}
   framework                     = ""
   pull_request_environment_name = ""
   region                        = ""

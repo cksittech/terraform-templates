@@ -1,4 +1,5 @@
 resource "aws_workspacesweb_portal" "tf-sample-workspacesweb-portal" {
+  additional_encryption_context = {}
   authentication_type           = ""
   browser_settings_arn          = ""
   customer_managed_key          = ""

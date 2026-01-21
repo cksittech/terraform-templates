@@ -4,14 +4,17 @@ resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mappin
   enabled                            = false
   event_source_arn                   = ""
   function_name                      = ""
+  function_response_types            = []
   kms_key_arn                        = ""
   maximum_batching_window_in_seconds = 0
   maximum_record_age_in_seconds      = 0
   maximum_retry_attempts             = 0
   parallelization_factor             = 0
+  queues                             = []
   region                             = ""
   starting_position                  = ""
   starting_position_timestamp        = ""
+  topics                             = []
   tumbling_window_in_seconds         = 0
   
   amazon_managed_kafka_event_source_config {

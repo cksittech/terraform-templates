@@ -5,9 +5,12 @@ resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
   private_dns_enabled        = false
   region                     = ""
   resource_configuration_arn = ""
+  route_table_ids            = []
+  security_group_ids         = []
   service_name               = ""
   service_network_arn        = ""
   service_region             = ""
+  subnet_ids                 = []
   vpc_endpoint_type          = ""
   vpc_id                     = ""
   

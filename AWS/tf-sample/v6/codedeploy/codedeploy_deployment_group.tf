@@ -1,5 +1,6 @@
 resource "aws_codedeploy_deployment_group" "tf-sample-codedeploy-deployment-group" {
   app_name                    = ""
+  autoscaling_groups          = []
   deployment_config_name      = ""
   deployment_group_name       = ""
   outdated_instances_strategy = ""

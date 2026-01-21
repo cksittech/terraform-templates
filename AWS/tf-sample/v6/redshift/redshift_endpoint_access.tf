@@ -4,4 +4,5 @@ resource "aws_redshift_endpoint_access" "tf-sample-redshift-endpoint-access" {
   region                 = ""
   resource_owner         = ""
   subnet_group_name      = ""
+  vpc_security_group_ids = []
 }
