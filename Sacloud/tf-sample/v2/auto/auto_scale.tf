@@ -6,11 +6,23 @@ resource "sakuracloud_auto_scale" "tf-sample-auto-scale" {
   icon_id      = ""
   name         = ""
   trigger_type = ""
-  zones        = []
   
-  cpu_threshold_scaling {}
-  router_threshold_scaling {}
-  schedule_scaling {}
+  cpu_threshold_scaling {
+    down          = 0
+    server_prefix = ""
+    up            = 0
+  }
+  router_threshold_scaling {
+    direction     = ""
+    mbps          = 0
+    router_prefix = ""
+  }
+  schedule_scaling {
+    action       = ""
+    days_of_week = []
+    hour         = 0
+    minute       = 0
+  }
   
   tags = {}
 }

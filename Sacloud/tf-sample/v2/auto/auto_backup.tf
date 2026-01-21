@@ -4,7 +4,6 @@ resource "sakuracloud_auto_backup" "tf-sample-auto-backup" {
   icon_id        = ""
   max_backup_num = 0
   name           = ""
-  weekdays       = []
   zone           = ""
   
   tags = {}

@@ -4,7 +4,6 @@ resource "sakuracloud_server" "tf-sample-server" {
   core             = 0
   cpu_model        = ""
   description      = ""
-  disks            = []
   force_shutdown   = false
   gpu              = 0
   gpu_model        = ""
@@ -16,8 +15,28 @@ resource "sakuracloud_server" "tf-sample-server" {
   user_data        = ""
   zone             = ""
   
-  disk_edit_parameter {}
-  network_interface {}
+  disk_edit_parameter {
+    change_partition_uuid = false
+    disable_pw_auth       = false
+    enable_dhcp           = false
+    gateway               = ""
+    hostname              = ""
+    ip_address            = ""
+    netmask               = 0
+    password              = ""
+    ssh_key_ids           = []
+    ssh_keys              = []
+    
+    note {
+      api_key_id = ""
+      variables  = {}
+    }
+  }
+  network_interface {
+    packet_filter_id = ""
+    upstream         = ""
+    user_ip_address  = ""
+  }
   
   tags = {}
 }

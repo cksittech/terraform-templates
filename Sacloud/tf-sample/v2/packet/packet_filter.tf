@@ -3,5 +3,12 @@ resource "sakuracloud_packet_filter" "tf-sample-packet-filter" {
   name        = ""
   zone        = ""
   
-  expression {}
+  expression {
+    allow            = false
+    description      = ""
+    destination_port = ""
+    protocol         = ""
+    source_network   = ""
+    source_port      = ""
+  }
 }

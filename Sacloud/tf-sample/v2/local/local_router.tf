@@ -3,10 +3,27 @@ resource "sakuracloud_local_router" "tf-sample-local-router" {
   icon_id     = ""
   name        = ""
   
-  network_interface {}
-  peer {}
-  static_route {}
-  switch {}
+  network_interface {
+    ip_addresses = []
+    netmask      = 0
+    vip          = ""
+    vrid         = 0
+  }
+  peer {
+    description = ""
+    enabled     = false
+    peer_id     = ""
+    secret_key  = ""
+  }
+  static_route {
+    next_hop = ""
+    prefix   = ""
+  }
+  switch {
+    category = ""
+    code     = ""
+    zone_id  = ""
+  }
   
   tags = {}
 }

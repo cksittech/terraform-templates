@@ -4,7 +4,6 @@ resource "sakuracloud_database" "tf-sample-database" {
   description      = ""
   icon_id          = ""
   name             = ""
-  parameters       = {}
   password         = ""
   plan             = ""
   replica_password = ""
@@ -12,11 +11,30 @@ resource "sakuracloud_database" "tf-sample-database" {
   username         = ""
   zone             = ""
   
-  backup {}
-  continuous_backup {}
-  disk {}
-  monitoring_suite {}
-  network_interface {}
+  backup {
+    time     = ""
+    weekdays = []
+  }
+  continuous_backup {
+    connect      = ""
+    days_of_week = []
+    time         = ""
+  }
+  disk {
+    encryption_algorithm = ""
+    kms_key_id           = ""
+  }
+  monitoring_suite {
+    enabled = false
+  }
+  network_interface {
+    gateway       = ""
+    ip_address    = ""
+    netmask       = 0
+    port          = 0
+    source_ranges = []
+    switch_id     = ""
+  }
   
   tags = {}
 }

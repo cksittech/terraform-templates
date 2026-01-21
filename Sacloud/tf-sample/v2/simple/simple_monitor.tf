@@ -13,8 +13,29 @@ resource "sakuracloud_simple_monitor" "tf-sample-simple-monitor" {
   target               = ""
   timeout              = 0
   
-  health_check {}
-  monitoring_suite {}
+  health_check {
+    community       = ""
+    contains_string = ""
+    excepcted_data  = ""
+    ftps            = ""
+    host_header     = ""
+    http2           = false
+    oid             = ""
+    password        = ""
+    path            = ""
+    port            = 0
+    protocol        = ""
+    qname           = ""
+    remaining_days  = 0
+    sni             = false
+    snmp_version    = ""
+    status          = 0
+    username        = ""
+    verify_sni      = false
+  }
+  monitoring_suite {
+    enabled = false
+  }
   
   tags = {}
 }

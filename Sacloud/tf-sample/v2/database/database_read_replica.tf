@@ -5,8 +5,17 @@ resource "sakuracloud_database_read_replica" "tf-sample-database-read-replica" {
   name        = ""
   zone        = ""
   
-  disk {}
-  network_interface {}
+  disk {
+    encryption_algorithm = ""
+    kms_key_id           = ""
+  }
+  network_interface {
+    gateway       = ""
+    ip_address    = ""
+    netmask       = 0
+    source_ranges = []
+    switch_id     = ""
+  }
   
   tags = {}
 }

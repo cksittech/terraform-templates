@@ -6,7 +6,12 @@ resource "sakuracloud_nfs" "tf-sample-nfs" {
   size        = 0
   zone        = ""
   
-  network_interface {}
+  network_interface {
+    gateway    = ""
+    ip_address = ""
+    netmask    = 0
+    switch_id  = ""
+  }
   
   tags = {}
 }
