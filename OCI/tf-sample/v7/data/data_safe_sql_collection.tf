@@ -1,10 +1,8 @@
 resource "oci_data_safe_sql_collection" "tf-sample-data-safe-sql-collection" {
   compartment_id                       = ""
   db_user_name                         = ""
-  defined_tags                         = {}
   description                          = ""
   display_name                         = ""
-  freeform_tags                        = {}
   generate_sql_firewall_policy_trigger = false
   purge_logs_trigger                   = false
   refresh_log_insights_trigger         = false

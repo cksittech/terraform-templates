@@ -3,9 +3,7 @@ resource "oci_queue_queue" "tf-sample-queue-queue" {
   compartment_id                   = ""
   custom_encryption_key_id         = ""
   dead_letter_queue_delivery_count = 0
-  defined_tags                     = {}
   display_name                     = ""
-  freeform_tags                    = {}
   purge_trigger                    = 0
   purge_type                       = ""
   retention_in_seconds             = 0

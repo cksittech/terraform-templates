@@ -8,5 +8,8 @@ resource "oci_database_pluggable_database_pluggabledatabasemanagements_managemen
   service_name                       = ""
   ssl_secret_id                      = ""
   
-  credential_details {}
+  credential_details {
+    password_secret_id = ""
+    user_name          = ""
+  }
 }

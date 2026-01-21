@@ -7,5 +7,9 @@ resource "oci_dataintegration_workspace_import_request" "tf-sample-dataintegrati
   object_storage_tenancy_id          = ""
   workspace_id                       = ""
   
-  import_conflict_resolution {}
+  import_conflict_resolution {
+    duplicate_prefix                = ""
+    duplicate_suffix                = ""
+    import_conflict_resolution_type = ""
+  }
 }

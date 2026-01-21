@@ -1,7 +1,5 @@
 resource "oci_apm_traces_scheduled_query" "tf-sample-apm-traces-scheduled-query" {
   apm_domain_id                              = ""
-  defined_tags                               = {}
-  freeform_tags                              = {}
   opc_dry_run                                = ""
   scheduled_query_description                = ""
   scheduled_query_maximum_runtime_in_seconds = ""
@@ -13,5 +11,24 @@ resource "oci_apm_traces_scheduled_query" "tf-sample-apm-traces-scheduled-query"
   scheduled_query_schedule                   = ""
   scheduled_query_text                       = ""
   
-  scheduled_query_processing_configuration {}
+  scheduled_query_processing_configuration {
+    custom_metric {
+      compartment                  = ""
+      description                  = ""
+      is_anomaly_detection_enabled = false
+      is_metric_published          = false
+      name                         = ""
+      namespace                    = ""
+      resource_group               = ""
+      unit                         = ""
+    }
+    object_storage {
+      bucket             = ""
+      name_space         = ""
+      object_name_prefix = ""
+    }
+    streaming {
+      stream_id = ""
+    }
+  }
 }

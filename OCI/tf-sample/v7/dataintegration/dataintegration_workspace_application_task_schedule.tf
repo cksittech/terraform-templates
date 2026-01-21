@@ -22,7 +22,75 @@ resource "oci_dataintegration_workspace_application_task_schedule" "tf-sample-da
   start_time_millis        = ""
   workspace_id             = ""
   
-  parent_ref {}
-  registry_metadata {}
-  schedule_ref {}
+  parent_ref {
+    parent      = ""
+    root_doc_id = ""
+  }
+  registry_metadata {
+    aggregator_key   = ""
+    is_favorite      = false
+    key              = ""
+    labels           = []
+    registry_version = 0
+  }
+  schedule_ref {
+    description                    = ""
+    identifier                     = ""
+    is_daylight_adjustment_enabled = false
+    key                            = ""
+    model_type                     = ""
+    model_version                  = ""
+    name                           = ""
+    object_status                  = 0
+    object_version                 = 0
+    timezone                       = ""
+    
+    frequency_details {
+      custom_expression = ""
+      day_of_week       = ""
+      days              = []
+      frequency         = ""
+      interval          = 0
+      model_type        = ""
+      week_of_month     = ""
+      
+      time {
+        hour   = 0
+        minute = 0
+        second = 0
+      }
+    }
+    metadata {
+      aggregator_key   = ""
+      created_by       = ""
+      created_by_name  = ""
+      identifier_path  = ""
+      info_fields      = {}
+      is_favorite      = false
+      labels           = []
+      registry_version = 0
+      time_created     = ""
+      time_updated     = ""
+      updated_by       = ""
+      updated_by_name  = ""
+      
+      aggregator {
+        description = ""
+        identifier  = ""
+        key         = ""
+        name        = ""
+        type        = ""
+      }
+      count_statistics {
+        object_type_count_list {
+          object_count = ""
+          object_type  = ""
+        }
+      }
+    }
+    parent_ref {
+      parent      = ""
+      root_doc_id = ""
+    }
+  }
 }

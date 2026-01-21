@@ -22,14 +22,12 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   database_id                                 = ""
   database_name                               = ""
   db_system_id                                = ""
-  defined_tags                                = {}
   deployment_id                               = ""
   description                                 = ""
   display_name                                = ""
   does_use_secret_ids                         = false
   endpoint                                    = ""
   fingerprint                                 = ""
-  freeform_tags                               = {}
   host                                        = ""
   is_lock_override                            = false
   jndi_connection_factory                     = ""
@@ -43,7 +41,6 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   key_store_password                          = ""
   key_store_password_secret_id                = ""
   key_store_secret_id                         = ""
-  nsg_ids                                     = []
   password                                    = ""
   password_secret_id                          = ""
   port                                        = 0
@@ -61,7 +58,6 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   sas_token_secret_id                         = ""
   secret_access_key                           = ""
   secret_access_key_secret_id                 = ""
-  security_attributes                         = {}
   security_protocol                           = ""
   servers                                     = ""
   service_account_key_file                    = ""
@@ -107,9 +103,42 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   wallet                                      = ""
   wallet_secret_id                            = ""
   
-  additional_attributes {}
-  bootstrap_servers {}
-  catalog {}
-  locks {}
-  storage {}
+  additional_attributes {
+    name  = ""
+    value = ""
+  }
+  bootstrap_servers {
+    host       = ""
+    port       = 0
+    private_ip = ""
+  }
+  catalog {
+    branch                  = ""
+    catalog_type            = ""
+    client_id               = ""
+    client_secret_secret_id = ""
+    glue_id                 = ""
+    name                    = ""
+    principal_role          = ""
+    properties_secret_id    = ""
+    uri                     = ""
+  }
+  locks {
+    message = ""
+    type    = ""
+  }
+  storage {
+    access_key_id                      = ""
+    account_key_secret_id              = ""
+    account_name                       = ""
+    bucket                             = ""
+    container                          = ""
+    endpoint                           = ""
+    project_id                         = ""
+    region                             = ""
+    scheme_type                        = ""
+    secret_access_key_secret_id        = ""
+    service_account_key_file_secret_id = ""
+    storage_type                       = ""
+  }
 }

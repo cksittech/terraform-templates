@@ -3,5 +3,9 @@ resource "oci_oda_oda_private_endpoint_scan_proxy" "tf-sample-oda-oda-private-en
   protocol                = ""
   scan_listener_type      = ""
   
-  scan_listener_infos {}
+  scan_listener_infos {
+    scan_listener_fqdn = ""
+    scan_listener_ip   = ""
+    scan_listener_port = 0
+  }
 }

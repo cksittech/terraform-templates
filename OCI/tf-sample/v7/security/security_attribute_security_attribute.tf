@@ -4,5 +4,8 @@ resource "oci_security_attribute_security_attribute" "tf-sample-security-attribu
   name                            = ""
   security_attribute_namespace_id = ""
   
-  validator {}
+  validator {
+    validator_type = ""
+    values         = []
+  }
 }

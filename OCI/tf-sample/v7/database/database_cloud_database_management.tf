@@ -9,5 +9,8 @@ resource "oci_database_cloud_database_management" "tf-sample-database-cloud-data
   service_name         = ""
   ssl_secret_id        = ""
   
-  credentialdetails {}
+  credentialdetails {
+    password_secret_id = ""
+    user_name          = ""
+  }
 }

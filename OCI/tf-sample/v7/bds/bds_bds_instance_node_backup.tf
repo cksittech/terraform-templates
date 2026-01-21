@@ -5,5 +5,9 @@ resource "oci_bds_bds_instance_node_backup" "tf-sample-bds-bds-instance-node-bac
   display_name     = ""
   node_instance_id = ""
   
-  level_type_details {}
+  level_type_details {
+    level_type     = ""
+    node_host_name = ""
+    node_type      = ""
+  }
 }

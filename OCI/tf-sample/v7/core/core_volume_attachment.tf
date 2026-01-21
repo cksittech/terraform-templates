@@ -1,6 +1,5 @@
 resource "oci_core_volume_attachment" "tf-sample-core-volume-attachment" {
   attachment_type                     = ""
-  compartment_id                      = ""
   device                              = ""
   display_name                        = ""
   encryption_in_transit_type          = ""

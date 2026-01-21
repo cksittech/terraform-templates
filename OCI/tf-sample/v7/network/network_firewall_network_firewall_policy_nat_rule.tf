@@ -5,6 +5,13 @@ resource "oci_network_firewall_network_firewall_policy_nat_rule" "tf-sample-netw
   network_firewall_policy_id = ""
   type                       = ""
   
-  condition {}
-  position {}
+  condition {
+    destination_address = []
+    service             = ""
+    source_address      = []
+  }
+  position {
+    after_rule  = ""
+    before_rule = ""
+  }
 }

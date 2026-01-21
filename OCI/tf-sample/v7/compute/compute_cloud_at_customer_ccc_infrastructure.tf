@@ -3,9 +3,7 @@ resource "oci_compute_cloud_at_customer_ccc_infrastructure" "tf-sample-compute-c
   compartment_id          = ""
   connection_details      = ""
   connection_state        = ""
-  defined_tags            = {}
   description             = ""
   display_name            = ""
-  freeform_tags           = {}
   subnet_id               = ""
 }

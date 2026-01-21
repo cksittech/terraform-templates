@@ -1,5 +1,4 @@
 resource "oci_identity_domains_grant" "tf-sample-identity-domains-grant" {
-  attribute_sets                = []
   attributes                    = ""
   authorization                 = ""
   grant_mechanism               = ""
@@ -7,11 +6,23 @@ resource "oci_identity_domains_grant" "tf-sample-identity-domains-grant" {
   idcs_endpoint                 = ""
   ocid                          = ""
   resource_type_schema_version  = ""
-  schemas                       = []
   
-  app {}
-  app_entitlement_collection {}
-  entitlement {}
-  grantee {}
-  tags {}
+  app {
+    value = ""
+  }
+  app_entitlement_collection {
+    value = ""
+  }
+  entitlement {
+    attribute_name  = ""
+    attribute_value = ""
+  }
+  grantee {
+    type  = ""
+    value = ""
+  }
+  tags {
+    key   = ""
+    value = ""
+  }
 }

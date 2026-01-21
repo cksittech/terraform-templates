@@ -9,7 +9,16 @@ resource "oci_jms_fleet_agent_configuration" "tf-sample-jms-fleet-agent-configur
   jre_scan_frequency_in_minutes                      = 0
   work_request_validity_period_in_days               = 0
   
-  linux_configuration {}
-  mac_os_configuration {}
-  windows_configuration {}
+  linux_configuration {
+    exclude_paths = []
+    include_paths = []
+  }
+  mac_os_configuration {
+    exclude_paths = []
+    include_paths = []
+  }
+  windows_configuration {
+    exclude_paths = []
+    include_paths = []
+  }
 }

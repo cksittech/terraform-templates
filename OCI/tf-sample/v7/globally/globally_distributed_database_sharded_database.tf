@@ -6,15 +6,12 @@ resource "oci_globally_distributed_database_sharded_database" "tf-sample-globall
   compartment_id                                        = ""
   configure_gsms_trigger                                = 0
   configure_gsms_trigger_is_latest_gsm_image            = false
-  configure_gsms_trigger_old_gsm_names                  = []
   configure_sharding_trigger                            = 0
   db_deployment_type                                    = ""
   db_version                                            = ""
   db_workload                                           = ""
-  defined_tags                                          = {}
   display_name                                          = ""
   download_gsm_certificate_signing_request_trigger      = 0
-  freeform_tags                                         = {}
   generate_gsm_certificate_signing_request_trigger      = 0
   generate_wallet_password                              = ""
   generate_wallet_trigger                               = 0
@@ -34,7 +31,38 @@ resource "oci_globally_distributed_database_sharded_database" "tf-sample-globall
   upload_signed_certificate_and_generate_wallet_trigger = 0
   validate_network_trigger                              = 0
   
-  catalog_details {}
-  patch_operations {}
-  shard_details {}
+  catalog_details {
+    admin_password                      = ""
+    cloud_autonomous_vm_cluster_id      = ""
+    compute_count                       = 0
+    data_storage_size_in_gbs            = 0
+    is_auto_scaling_enabled             = false
+    peer_cloud_autonomous_vm_cluster_id = ""
+    
+    encryption_key_details {
+      kms_key_id         = ""
+      kms_key_version_id = ""
+      vault_id           = ""
+    }
+  }
+  patch_operations {
+    operation = ""
+    selection = ""
+    value     = ""
+  }
+  shard_details {
+    admin_password                      = ""
+    cloud_autonomous_vm_cluster_id      = ""
+    compute_count                       = 0
+    data_storage_size_in_gbs            = 0
+    is_auto_scaling_enabled             = false
+    peer_cloud_autonomous_vm_cluster_id = ""
+    shard_space                         = ""
+    
+    encryption_key_details {
+      kms_key_id         = ""
+      kms_key_version_id = ""
+      vault_id           = ""
+    }
+  }
 }

@@ -5,5 +5,8 @@ resource "oci_containerengine_addon" "tf-sample-containerengine-addon" {
   remove_addon_resources_on_delete = false
   version                          = ""
   
-  configurations {}
+  configurations {
+    key   = ""
+    value = ""
+  }
 }

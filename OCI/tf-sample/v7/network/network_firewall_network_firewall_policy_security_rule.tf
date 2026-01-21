@@ -5,6 +5,15 @@ resource "oci_network_firewall_network_firewall_policy_security_rule" "tf-sample
   network_firewall_policy_id = ""
   priority_order             = ""
   
-  condition {}
-  position {}
+  condition {
+    application         = []
+    destination_address = []
+    service             = []
+    source_address      = []
+    url                 = []
+  }
+  position {
+    after_rule  = ""
+    before_rule = ""
+  }
 }

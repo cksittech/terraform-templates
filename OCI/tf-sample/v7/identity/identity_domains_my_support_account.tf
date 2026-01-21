@@ -3,9 +3,14 @@ resource "oci_identity_domains_my_support_account" "tf-sample-identity-domains-m
   idcs_endpoint                = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   token                        = ""
   
-  tags {}
-  user {}
+  tags {
+    key   = ""
+    value = ""
+  }
+  user {
+    ocid  = ""
+    value = ""
+  }
 }

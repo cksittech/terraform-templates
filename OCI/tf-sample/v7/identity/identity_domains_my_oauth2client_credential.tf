@@ -7,10 +7,18 @@ resource "oci_identity_domains_my_oauth2client_credential" "tf-sample-identity-d
   name                         = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   status                       = ""
   
-  scopes {}
-  tags {}
-  user {}
+  scopes {
+    audience = ""
+    scope    = ""
+  }
+  tags {
+    key   = ""
+    value = ""
+  }
+  user {
+    ocid  = ""
+    value = ""
+  }
 }

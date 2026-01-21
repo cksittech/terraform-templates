@@ -3,5 +3,8 @@ resource "oci_log_analytics_log_analytics_entity_type" "tf-sample-log-analytics-
   name      = ""
   namespace = ""
   
-  properties {}
+  properties {
+    description = ""
+    name        = ""
+  }
 }

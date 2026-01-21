@@ -4,7 +4,15 @@ resource "oci_network_firewall_network_firewall_policy_tunnel_inspection_rule" "
   network_firewall_policy_id = ""
   protocol                   = ""
   
-  condition {}
-  position {}
-  profile {}
+  condition {
+    destination_address = []
+    source_address      = []
+  }
+  position {
+    after_rule  = ""
+    before_rule = ""
+  }
+  profile {
+    must_return_traffic_to_source = false
+  }
 }

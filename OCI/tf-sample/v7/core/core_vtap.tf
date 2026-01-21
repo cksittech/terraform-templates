@@ -1,10 +1,8 @@
 resource "oci_core_vtap" "tf-sample-core-vtap" {
   capture_filter_id                 = ""
   compartment_id                    = ""
-  defined_tags                      = {}
   display_name                      = ""
   encapsulation_protocol            = ""
-  freeform_tags                     = {}
   is_vtap_enabled                   = false
   max_packet_size                   = 0
   source_id                         = ""

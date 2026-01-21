@@ -5,8 +5,13 @@ resource "oci_identity_domains_my_api_key" "tf-sample-identity-domains-my-api-ke
   key                          = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   
-  tags {}
-  user {}
+  tags {
+    key   = ""
+    value = ""
+  }
+  user {
+    ocid  = ""
+    value = ""
+  }
 }

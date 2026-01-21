@@ -1,6 +1,5 @@
 resource "oci_identity_domains_rule" "tf-sample-identity-domains-rule" {
   active                       = false
-  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   condition                    = ""
@@ -12,10 +11,21 @@ resource "oci_identity_domains_rule" "tf-sample-identity-domains-rule" {
   ocid                         = ""
   resource_type_schema_version = ""
   rule_groovy                  = ""
-  schemas                      = []
   
-  condition_group {}
-  policy_type {}
-  return {}
-  tags {}
+  condition_group {
+    type  = ""
+    value = ""
+  }
+  policy_type {
+    value = ""
+  }
+  return {
+    name          = ""
+    return_groovy = ""
+    value         = ""
+  }
+  tags {
+    key   = ""
+    value = ""
+  }
 }

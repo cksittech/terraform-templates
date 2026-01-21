@@ -2,10 +2,8 @@ resource "oci_fleet_apps_management_catalog_item" "tf-sample-fleet-apps-manageme
   clone_catalog_item_trigger = 0
   compartment_id             = ""
   config_source_type         = ""
-  defined_tags               = {}
   description                = ""
   display_name               = ""
-  freeform_tags              = {}
   listing_id                 = ""
   listing_version            = ""
   package_type               = ""
@@ -13,5 +11,22 @@ resource "oci_fleet_apps_management_catalog_item" "tf-sample-fleet-apps-manageme
   time_released              = ""
   version_description        = ""
   
-  catalog_source_payload {}
+  catalog_source_payload {
+    access_uri                       = ""
+    branch_name                      = ""
+    bucket                           = ""
+    config_source_type               = ""
+    configuration_source_provider_id = ""
+    description                      = ""
+    listing_id                       = ""
+    long_description                 = ""
+    namespace                        = ""
+    object                           = ""
+    repository_url                   = ""
+    template_display_name            = ""
+    time_expires                     = ""
+    version                          = ""
+    working_directory                = ""
+    zip_file_base64encoded           = ""
+  }
 }

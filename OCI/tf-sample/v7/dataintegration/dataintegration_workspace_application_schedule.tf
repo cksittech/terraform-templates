@@ -11,6 +11,26 @@ resource "oci_dataintegration_workspace_application_schedule" "tf-sample-dataint
   timezone                       = ""
   workspace_id                   = ""
   
-  frequency_details {}
-  registry_metadata {}
+  frequency_details {
+    custom_expression = ""
+    day_of_week       = ""
+    days              = []
+    frequency         = ""
+    interval          = 0
+    model_type        = ""
+    week_of_month     = ""
+    
+    time {
+      hour   = 0
+      minute = 0
+      second = 0
+    }
+  }
+  registry_metadata {
+    aggregator_key   = ""
+    is_favorite      = false
+    key              = ""
+    labels           = []
+    registry_version = 0
+  }
 }

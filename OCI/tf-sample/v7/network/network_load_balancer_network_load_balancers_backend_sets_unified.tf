@@ -9,6 +9,34 @@ resource "oci_network_load_balancer_network_load_balancers_backend_sets_unified"
   network_load_balancer_id                    = ""
   policy                                      = ""
   
-  backends {}
-  health_checker {}
+  backends {
+    ip_address = ""
+    is_backup  = false
+    is_drain   = false
+    is_offline = false
+    name       = ""
+    port       = 0
+    target_id  = ""
+    weight     = 0
+  }
+  health_checker {
+    interval_in_millis  = 0
+    port                = 0
+    protocol            = ""
+    request_data        = ""
+    response_body_regex = ""
+    response_data       = ""
+    retries             = 0
+    return_code         = 0
+    timeout_in_millis   = 0
+    url_path            = ""
+    
+    dns {
+      domain_name        = ""
+      query_class        = ""
+      query_type         = ""
+      rcodes             = []
+      transport_protocol = ""
+    }
+  }
 }

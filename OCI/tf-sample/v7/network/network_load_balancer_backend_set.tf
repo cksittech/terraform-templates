@@ -9,5 +9,24 @@ resource "oci_network_load_balancer_backend_set" "tf-sample-network-load-balance
   network_load_balancer_id                    = ""
   policy                                      = ""
   
-  health_checker {}
+  health_checker {
+    interval_in_millis  = 0
+    port                = 0
+    protocol            = ""
+    request_data        = ""
+    response_body_regex = ""
+    response_data       = ""
+    retries             = 0
+    return_code         = 0
+    timeout_in_millis   = 0
+    url_path            = ""
+    
+    dns {
+      domain_name        = ""
+      query_class        = ""
+      query_type         = ""
+      rcodes             = []
+      transport_protocol = ""
+    }
+  }
 }

@@ -3,11 +3,8 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   compartment_id                        = ""
   compute_model                         = ""
   cpu_core_count_per_node               = 0
-  db_servers                            = []
-  defined_tags                          = {}
   display_name                          = ""
   exadata_infrastructure_id             = ""
-  freeform_tags                         = {}
   is_local_backup_enabled               = false
   is_mtls_enabled                       = false
   license_model                         = ""
@@ -18,5 +15,22 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   total_container_databases             = 0
   vm_cluster_network_id                 = ""
   
-  maintenance_window_details {}
+  maintenance_window_details {
+    custom_action_timeout_in_mins    = 0
+    hours_of_day                     = []
+    is_custom_action_timeout_enabled = false
+    is_monthly_patching_enabled      = false
+    lead_time_in_weeks               = 0
+    patching_mode                    = ""
+    preference                       = ""
+    skip_ru                          = []
+    weeks_of_month                   = []
+    
+    days_of_week {
+      name = ""
+    }
+    months {
+      name = ""
+    }
+  }
 }

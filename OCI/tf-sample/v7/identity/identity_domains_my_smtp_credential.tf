@@ -5,9 +5,14 @@ resource "oci_identity_domains_my_smtp_credential" "tf-sample-identity-domains-m
   idcs_endpoint                = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   status                       = ""
   
-  tags {}
-  user {}
+  tags {
+    key   = ""
+    value = ""
+  }
+  user {
+    ocid  = ""
+    value = ""
+  }
 }

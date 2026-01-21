@@ -3,11 +3,9 @@ resource "oci_golden_gate_database_registration" "tf-sample-golden-gate-database
   compartment_id        = ""
   connection_string     = ""
   database_id           = ""
-  defined_tags          = {}
   description           = ""
   display_name          = ""
   fqdn                  = ""
-  freeform_tags         = {}
   ip_address            = ""
   key_id                = ""
   password              = ""

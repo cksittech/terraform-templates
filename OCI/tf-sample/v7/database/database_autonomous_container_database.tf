@@ -9,12 +9,10 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   db_split_threshold                                = 0
   db_unique_name                                    = ""
   db_version                                        = ""
-  defined_tags                                      = {}
   display_name                                      = ""
   distribution_affinity                             = ""
   failover_trigger                                  = 0
   fast_start_fail_over_lag_limit_in_seconds         = 0
-  freeform_tags                                     = {}
   is_automatic_failover_enabled                     = false
   is_dst_file_update_enabled                        = false
   key_store_id                                      = ""
@@ -40,8 +38,53 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   version_preference                                = ""
   vm_failover_reservation                           = 0
   
-  backup_config {}
-  customer_contacts {}
-  maintenance_window_details {}
-  peer_autonomous_container_database_backup_config {}
+  backup_config {
+    recovery_window_in_days = 0
+    
+    backup_destination_details {
+      backup_retention_policy_on_terminate = ""
+      internet_proxy                       = ""
+      is_remote                            = false
+      is_retention_lock_enabled            = false
+      remote_region                        = ""
+      type                                 = ""
+      vpc_password                         = ""
+      vpc_user                             = ""
+    }
+  }
+  customer_contacts {
+    email = ""
+  }
+  maintenance_window_details {
+    custom_action_timeout_in_mins    = 0
+    hours_of_day                     = []
+    is_custom_action_timeout_enabled = false
+    is_monthly_patching_enabled      = false
+    lead_time_in_weeks               = 0
+    patching_mode                    = ""
+    preference                       = ""
+    skip_ru                          = []
+    weeks_of_month                   = []
+    
+    days_of_week {
+      name = ""
+    }
+    months {
+      name = ""
+    }
+  }
+  peer_autonomous_container_database_backup_config {
+    recovery_window_in_days = 0
+    
+    backup_destination_details {
+      backup_retention_policy_on_terminate = ""
+      internet_proxy                       = ""
+      is_remote                            = false
+      is_retention_lock_enabled            = false
+      remote_region                        = ""
+      type                                 = ""
+      vpc_password                         = ""
+      vpc_user                             = ""
+    }
+  }
 }

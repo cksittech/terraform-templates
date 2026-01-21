@@ -1,6 +1,5 @@
 resource "oci_identity_domains_cloud_gate" "tf-sample-identity-domains-cloud-gate" {
   active                       = false
-  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   description                  = ""
@@ -9,8 +8,10 @@ resource "oci_identity_domains_cloud_gate" "tf-sample-identity-domains-cloud-gat
   last_modified_time           = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   type                         = ""
   
-  tags {}
+  tags {
+    key   = ""
+    value = ""
+  }
 }

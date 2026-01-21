@@ -2,10 +2,8 @@ resource "oci_os_management_hub_software_source" "tf-sample-os-management-hub-so
   advanced_repo_options        = ""
   arch_type                    = ""
   compartment_id               = ""
-  defined_tags                 = {}
   description                  = ""
   display_name                 = ""
-  freeform_tags                = {}
   gpg_key_url                  = ""
   is_auto_resolve_dependencies = false
   is_automatically_updated     = false
@@ -16,12 +14,30 @@ resource "oci_os_management_hub_software_source" "tf-sample-os-management-hub-so
   is_ssl_verify_enabled        = false
   origin_software_source_id    = ""
   os_family                    = ""
-  packages                     = []
   software_source_sub_type     = ""
   software_source_type         = ""
   software_source_version      = ""
   url                          = ""
   
-  custom_software_source_filter {}
-  vendor_software_sources {}
+  custom_software_source_filter {
+    module_stream_profile_filters {
+      filter_type  = ""
+      module_name  = ""
+      profile_name = ""
+      stream_name  = ""
+    }
+    package_filters {
+      filter_type          = ""
+      package_name         = ""
+      package_name_pattern = ""
+      package_version      = ""
+    }
+    package_group_filters {
+      filter_type    = ""
+      package_groups = []
+    }
+  }
+  vendor_software_sources {
+    display_name = ""
+  }
 }

@@ -13,5 +13,8 @@ resource "oci_management_agent_management_agent_data_source" "tf-sample-manageme
   type                         = ""
   url                          = ""
   
-  metric_dimensions {}
+  metric_dimensions {
+    name  = ""
+    value = ""
+  }
 }

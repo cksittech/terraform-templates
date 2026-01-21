@@ -2,7 +2,23 @@ resource "oci_database_management_managed_databases_change_database_parameter" "
   managed_database_id = ""
   scope               = ""
   
-  credentials {}
-  database_credential {}
-  parameters {}
+  credentials {
+    password  = ""
+    role      = ""
+    secret_id = ""
+    user_name = ""
+  }
+  database_credential {
+    credential_type     = ""
+    named_credential_id = ""
+    password            = ""
+    password_secret_id  = ""
+    role                = ""
+    username            = ""
+  }
+  parameters {
+    name           = ""
+    update_comment = ""
+    value          = ""
+  }
 }

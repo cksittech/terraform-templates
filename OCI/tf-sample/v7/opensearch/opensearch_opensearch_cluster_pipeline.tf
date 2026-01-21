@@ -1,9 +1,7 @@
 resource "oci_opensearch_opensearch_cluster_pipeline" "tf-sample-opensearch-opensearch-cluster-pipeline" {
   compartment_id                  = ""
   data_prepper_configuration_body = ""
-  defined_tags                    = {}
   display_name                    = ""
-  freeform_tags                   = {}
   memory_gb                       = 0
   node_count                      = 0
   node_shape                      = ""
@@ -16,5 +14,8 @@ resource "oci_opensearch_opensearch_cluster_pipeline" "tf-sample-opensearch-open
   vcn_compartment_id              = ""
   vcn_id                          = ""
   
-  reverse_connection_endpoints {}
+  reverse_connection_endpoints {
+    customer_fqdn = ""
+    customer_ip   = ""
+  }
 }

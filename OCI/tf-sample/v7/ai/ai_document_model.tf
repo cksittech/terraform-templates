@@ -1,9 +1,7 @@
 resource "oci_ai_document_model" "tf-sample-ai-document-model" {
   compartment_id             = ""
-  defined_tags               = {}
   description                = ""
   display_name               = ""
-  freeform_tags              = {}
   inference_units            = 0
   is_quick_mode              = false
   language                   = ""
@@ -13,10 +11,39 @@ resource "oci_ai_document_model" "tf-sample-ai-document-model" {
   model_version              = ""
   project_id                 = ""
   
-  component_models {}
-  locks {}
-  model_sub_type {}
-  testing_dataset {}
-  training_dataset {}
-  validation_dataset {}
+  component_models {
+    model_id = ""
+  }
+  locks {
+    compartment_id      = ""
+    message             = ""
+    related_resource_id = ""
+    time_created        = ""
+    type                = ""
+  }
+  model_sub_type {
+    model_sub_type = ""
+    model_type     = ""
+  }
+  testing_dataset {
+    bucket       = ""
+    dataset_id   = ""
+    dataset_type = ""
+    namespace    = ""
+    object       = ""
+  }
+  training_dataset {
+    bucket       = ""
+    dataset_id   = ""
+    dataset_type = ""
+    namespace    = ""
+    object       = ""
+  }
+  validation_dataset {
+    bucket       = ""
+    dataset_id   = ""
+    dataset_type = ""
+    namespace    = ""
+    object       = ""
+  }
 }

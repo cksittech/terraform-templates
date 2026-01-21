@@ -1,9 +1,7 @@
 resource "oci_media_services_media_asset" "tf-sample-media-services-media-asset" {
   bucket                        = ""
   compartment_id                = ""
-  defined_tags                  = {}
   display_name                  = ""
-  freeform_tags                 = {}
   is_lock_override              = false
   master_media_asset_id         = ""
   media_workflow_job_id         = ""
@@ -17,7 +15,18 @@ resource "oci_media_services_media_asset" "tf-sample-media-services-media-asset"
   source_media_workflow_version = ""
   type                          = ""
   
-  locks {}
-  media_asset_tags {}
-  metadata {}
+  locks {
+    compartment_id      = ""
+    message             = ""
+    related_resource_id = ""
+    time_created        = ""
+    type                = ""
+  }
+  media_asset_tags {
+    type  = ""
+    value = ""
+  }
+  metadata {
+    metadata = ""
+  }
 }

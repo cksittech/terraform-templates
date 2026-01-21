@@ -2,7 +2,6 @@ resource "oci_cloud_migrations_migration_asset" "tf-sample-cloud-migrations-migr
   availability_domain        = ""
   display_name               = ""
   inventory_asset_id         = ""
-  migration_asset_depends_on = []
   migration_id               = ""
   replication_compartment_id = ""
   replication_schedule_id    = ""

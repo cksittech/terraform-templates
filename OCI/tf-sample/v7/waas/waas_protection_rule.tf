@@ -3,5 +3,8 @@ resource "oci_waas_protection_rule" "tf-sample-waas-protection-rule" {
   key            = ""
   waas_policy_id = ""
   
-  exclusions {}
+  exclusions {
+    exclusions = []
+    target     = ""
+  }
 }

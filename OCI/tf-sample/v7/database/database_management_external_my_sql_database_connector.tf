@@ -3,5 +3,14 @@ resource "oci_database_management_external_my_sql_database_connector" "tf-sample
   compartment_id                  = ""
   is_test_connection_param        = false
   
-  connector_details {}
+  connector_details {
+    credential_type      = ""
+    display_name         = ""
+    external_database_id = ""
+    host_name            = ""
+    macs_agent_id        = ""
+    network_protocol     = ""
+    port                 = 0
+    ssl_secret_id        = ""
+  }
 }

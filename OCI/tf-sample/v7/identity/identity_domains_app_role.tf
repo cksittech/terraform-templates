@@ -1,6 +1,5 @@
 resource "oci_identity_domains_app_role" "tf-sample-identity-domains-app-role" {
   admin_role                   = false
-  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   available_to_clients         = false
@@ -13,8 +12,12 @@ resource "oci_identity_domains_app_role" "tf-sample-identity-domains-app-role" {
   ocid                         = ""
   public                       = false
   resource_type_schema_version = ""
-  schemas                      = []
   
-  app {}
-  tags {}
+  app {
+    value = ""
+  }
+  tags {
+    key   = ""
+    value = ""
+  }
 }

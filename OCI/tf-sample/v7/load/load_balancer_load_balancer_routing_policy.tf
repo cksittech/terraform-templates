@@ -3,5 +3,13 @@ resource "oci_load_balancer_load_balancer_routing_policy" "tf-sample-load-balanc
   load_balancer_id           = ""
   name                       = ""
   
-  rules {}
+  rules {
+    condition = ""
+    name      = ""
+    
+    actions {
+      backend_set_name = ""
+      name             = ""
+    }
+  }
 }

@@ -6,19 +6,33 @@ resource "oci_database_exadata_infrastructure_storage" "tf-sample-database-exada
   compartment_id              = ""
   compute_count               = 0
   corporate_proxy             = ""
-  defined_tags                = {}
   display_name                = ""
-  dns_server                  = []
   exadata_infrastructure_id   = ""
-  freeform_tags               = {}
   gateway                     = ""
   infini_band_network_cidr    = ""
   netmask                     = ""
-  ntp_server                  = []
   shape                       = ""
   storage_count               = 0
   time_zone                   = ""
   
-  contacts {}
-  maintenance_window {}
+  contacts {
+    email                    = ""
+    is_contact_mos_validated = false
+    is_primary               = false
+    name                     = ""
+    phone_number             = ""
+  }
+  maintenance_window {
+    hours_of_day       = []
+    lead_time_in_weeks = 0
+    preference         = ""
+    weeks_of_month     = []
+    
+    days_of_week {
+      name = ""
+    }
+    months {
+      name = ""
+    }
+  }
 }

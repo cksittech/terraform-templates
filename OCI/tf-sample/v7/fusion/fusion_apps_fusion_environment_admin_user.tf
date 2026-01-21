@@ -3,6 +3,5 @@ resource "oci_fusion_apps_fusion_environment_admin_user" "tf-sample-fusion-apps-
   first_name            = ""
   fusion_environment_id = ""
   last_name             = ""
-  password              = ""
   username              = ""
 }

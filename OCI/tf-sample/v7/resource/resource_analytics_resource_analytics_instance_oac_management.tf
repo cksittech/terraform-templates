@@ -3,5 +3,15 @@ resource "oci_resource_analytics_resource_analytics_instance_oac_management" "tf
   enable_oac                     = false
   resource_analytics_instance_id = ""
   
-  attachment_details {}
+  attachment_details {
+    idcs_domain_id = ""
+    license_model  = ""
+    nsg_ids        = []
+    subnet_id      = ""
+    
+    network_details {
+      nsg_ids   = []
+      subnet_id = ""
+    }
+  }
 }

@@ -1,10 +1,8 @@
 resource "oci_lustre_file_storage_object_storage_link" "tf-sample-lustre-file-storage-object-storage-link" {
   availability_domain              = ""
   compartment_id                   = ""
-  defined_tags                     = {}
   display_name                     = ""
   file_system_path                 = ""
-  freeform_tags                    = {}
   is_overwrite                     = false
   lustre_file_system_id            = ""
   object_storage_prefix            = ""

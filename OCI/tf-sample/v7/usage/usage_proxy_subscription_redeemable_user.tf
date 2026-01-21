@@ -3,5 +3,9 @@ resource "oci_usage_proxy_subscription_redeemable_user" "tf-sample-usage-proxy-s
   tenancy_id      = ""
   user_id         = ""
   
-  items {}
+  items {
+    email_id   = ""
+    first_name = ""
+    last_name  = ""
+  }
 }

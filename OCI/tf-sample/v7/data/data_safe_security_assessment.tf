@@ -3,10 +3,8 @@ resource "oci_data_safe_security_assessment" "tf-sample-data-safe-security-asses
   base_security_assessment_id          = ""
   compare_to_template_baseline_trigger = 0
   compartment_id                       = ""
-  defined_tags                         = {}
   description                          = ""
   display_name                         = ""
-  freeform_tags                        = {}
   is_assessment_scheduled              = false
   remove_template_trigger              = 0
   schedule                             = ""

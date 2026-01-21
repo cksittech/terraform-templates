@@ -6,5 +6,12 @@ resource "oci_log_analytics_namespace_association" "tf-sample-log-analytics-name
   namespace         = ""
   source_name       = ""
   
-  association_properties {}
+  association_properties {
+    name  = ""
+    value = ""
+    
+    patterns {
+      value = ""
+    }
+  }
 }

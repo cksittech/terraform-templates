@@ -6,5 +6,10 @@ resource "oci_dns_rrset" "tf-sample-dns-rrset" {
   view_id         = ""
   zone_name_or_id = ""
   
-  items {}
+  items {
+    domain = ""
+    rdata  = ""
+    rtype  = ""
+    ttl    = 0
+  }
 }

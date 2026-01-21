@@ -3,26 +3,51 @@ resource "oci_apm_config_config" "tf-sample-apm-config-config" {
   apm_domain_id                     = ""
   attach_install_dir                = ""
   config_type                       = ""
-  defined_tags                      = {}
   description                       = ""
   display_name                      = ""
   filter_id                         = ""
   filter_text                       = ""
-  freeform_tags                     = {}
   group                             = ""
   management_agent_id               = ""
   match_agents_with_attribute_value = ""
   namespace                         = ""
   opc_dry_run                       = ""
   options                           = ""
-  process_filter                    = []
   run_as_user                       = ""
   service_name                      = ""
   
-  config {}
-  dimensions {}
-  in_use_by {}
-  metrics {}
-  overrides {}
-  rules {}
+  config {
+    config_map {
+      body         = ""
+      content_type = ""
+      file_name    = ""
+    }
+  }
+  dimensions {
+    name         = ""
+    value_source = ""
+  }
+  in_use_by {
+  }
+  metrics {
+    description  = ""
+    name         = ""
+    unit         = ""
+    value_source = ""
+  }
+  overrides {
+    override_list {
+      agent_filter = ""
+      override_map = {}
+    }
+  }
+  rules {
+    display_name             = ""
+    filter_text              = ""
+    is_apply_to_error_spans  = false
+    is_enabled               = false
+    priority                 = 0
+    satisfied_response_time  = 0
+    tolerating_response_time = 0
+  }
 }

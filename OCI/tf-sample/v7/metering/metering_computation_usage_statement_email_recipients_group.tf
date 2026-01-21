@@ -3,5 +3,10 @@ resource "oci_metering_computation_usage_statement_email_recipients_group" "tf-s
   email_recipients_group_id = ""
   subscription_id           = ""
   
-  recipients_list {}
+  recipients_list {
+    email_id   = ""
+    first_name = ""
+    last_name  = ""
+    state      = ""
+  }
 }

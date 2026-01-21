@@ -4,5 +4,9 @@ resource "oci_nosql_index" "tf-sample-nosql-index" {
   name             = ""
   table_name_or_id = ""
   
-  keys {}
+  keys {
+    column_name     = ""
+    json_field_type = ""
+    json_path       = ""
+  }
 }

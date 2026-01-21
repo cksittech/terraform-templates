@@ -1,8 +1,6 @@
 resource "oci_operator_access_control_operator_control_assignment" "tf-sample-operator-access-control-operator-control-assignment" {
   comment                            = ""
   compartment_id                     = ""
-  defined_tags                       = {}
-  freeform_tags                      = {}
   is_auto_approve_during_maintenance = false
   is_enforced_always                 = false
   is_hypervisor_log_forwarded        = false

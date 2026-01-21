@@ -1,5 +1,4 @@
 resource "oci_identity_domains_user_db_credential" "tf-sample-identity-domains-user-db-credential" {
-  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   db_password                  = ""
@@ -8,10 +7,17 @@ resource "oci_identity_domains_user_db_credential" "tf-sample-identity-domains-u
   idcs_endpoint                = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   status                       = ""
   
-  tags {}
-  urnietfparamsscimschemasoracleidcsextensionself_change_user {}
-  user {}
+  tags {
+    key   = ""
+    value = ""
+  }
+  urnietfparamsscimschemasoracleidcsextensionself_change_user {
+    allow_self_change = false
+  }
+  user {
+    ocid  = ""
+    value = ""
+  }
 }

@@ -1,10 +1,8 @@
 resource "oci_data_safe_masking_policy" "tf-sample-data-safe-masking-policy" {
   add_masking_columns_from_sdm_trigger = 0
   compartment_id                       = ""
-  defined_tags                         = {}
   description                          = ""
   display_name                         = ""
-  freeform_tags                        = {}
   generate_health_report_trigger       = 0
   is_drop_temp_tables_enabled          = false
   is_redo_logging_enabled              = false
@@ -14,5 +12,9 @@ resource "oci_data_safe_masking_policy" "tf-sample-data-safe-masking-policy" {
   pre_masking_script                   = ""
   recompile                            = ""
   
-  column_source {}
+  column_source {
+    column_source           = ""
+    sensitive_data_model_id = ""
+    target_id               = ""
+  }
 }

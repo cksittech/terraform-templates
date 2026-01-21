@@ -2,5 +2,8 @@ resource "oci_network_firewall_network_firewall_policy_url_list" "tf-sample-netw
   name                       = ""
   network_firewall_policy_id = ""
   
-  urls {}
+  urls {
+    pattern = ""
+    type    = ""
+  }
 }

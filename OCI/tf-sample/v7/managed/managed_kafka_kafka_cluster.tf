@@ -5,11 +5,15 @@ resource "oci_managed_kafka_kafka_cluster" "tf-sample-managed-kafka-kafka-cluste
   cluster_type              = ""
   compartment_id            = ""
   coordination_type         = ""
-  defined_tags              = {}
   display_name              = ""
-  freeform_tags             = {}
   kafka_version             = ""
   
-  access_subnets {}
-  broker_shape {}
+  access_subnets {
+    subnets = []
+  }
+  broker_shape {
+    node_count          = 0
+    ocpu_count          = 0
+    storage_size_in_gbs = 0
+  }
 }

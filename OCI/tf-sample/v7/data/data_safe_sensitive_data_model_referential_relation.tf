@@ -3,6 +3,20 @@ resource "oci_data_safe_sensitive_data_model_referential_relation" "tf-sample-da
   relation_type           = ""
   sensitive_data_model_id = ""
   
-  child {}
-  parent {}
+  child {
+    app_name           = ""
+    column_group       = []
+    object             = ""
+    object_type        = ""
+    schema_name        = ""
+    sensitive_type_ids = []
+  }
+  parent {
+    app_name           = ""
+    column_group       = []
+    object             = ""
+    object_type        = ""
+    schema_name        = ""
+    sensitive_type_ids = []
+  }
 }

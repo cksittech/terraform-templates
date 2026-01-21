@@ -3,13 +3,19 @@ resource "oci_file_storage_outbound_connector" "tf-sample-file-storage-outbound-
   bind_distinguished_name = ""
   compartment_id          = ""
   connector_type          = ""
-  defined_tags            = {}
   display_name            = ""
-  freeform_tags           = {}
   is_lock_override        = false
   password_secret_id      = ""
   password_secret_version = 0
   
-  endpoints {}
-  locks {}
+  endpoints {
+    hostname = ""
+    port     = ""
+  }
+  locks {
+    message             = ""
+    related_resource_id = ""
+    time_created        = ""
+    type                = ""
+  }
 }

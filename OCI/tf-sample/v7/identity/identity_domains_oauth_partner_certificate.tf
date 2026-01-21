@@ -9,8 +9,10 @@ resource "oci_identity_domains_oauth_partner_certificate" "tf-sample-identity-do
   map                          = ""
   ocid                         = ""
   resource_type_schema_version = ""
-  schemas                      = []
   x509base64certificate        = ""
   
-  tags {}
+  tags {
+    key   = ""
+    value = ""
+  }
 }
