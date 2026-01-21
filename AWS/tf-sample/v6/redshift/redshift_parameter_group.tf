@@ -4,7 +4,10 @@ resource "aws_redshift_parameter_group" "tf-sample-redshift-parameter-group" {
   name        = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

@@ -9,7 +9,6 @@ resource "aws_emr_studio" "tf-sample-emr-studio" {
   name                           = ""
   region                         = ""
   service_role                   = ""
-  subnet_ids                     = []
   user_role                      = ""
   vpc_id                         = ""
   workspace_security_group_id    = ""

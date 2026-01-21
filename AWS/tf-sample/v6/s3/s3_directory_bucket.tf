@@ -5,7 +5,10 @@ resource "aws_s3_directory_bucket" "tf-sample-s3-directory-bucket" {
   region          = ""
   type            = ""
   
-  location {}
+  location {
+    name = ""
+    type = ""
+  }
   
   tags = {}
 }

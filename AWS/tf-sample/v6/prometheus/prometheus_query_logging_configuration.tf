@@ -2,5 +2,12 @@ resource "aws_prometheus_query_logging_configuration" "tf-sample-prometheus-quer
   region       = ""
   workspace_id = ""
   
-  destination {}
+  destination {
+    cloudwatch_logs {
+      log_group_arn = ""
+    }
+    filters {
+      qsp_threshold = 0
+    }
+  }
 }

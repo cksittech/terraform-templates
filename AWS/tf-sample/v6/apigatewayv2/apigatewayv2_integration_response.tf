@@ -4,6 +4,5 @@ resource "aws_apigatewayv2_integration_response" "tf-sample-apigatewayv2-integra
   integration_id                = ""
   integration_response_key      = ""
   region                        = ""
-  response_templates            = {}
   template_selection_expression = ""
 }

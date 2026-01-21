@@ -3,5 +3,8 @@ resource "aws_globalaccelerator_listener" "tf-sample-globalaccelerator-listener"
   client_affinity = ""
   protocol        = ""
   
-  port_range {}
+  port_range {
+    from_port = 0
+    to_port   = 0
+  }
 }

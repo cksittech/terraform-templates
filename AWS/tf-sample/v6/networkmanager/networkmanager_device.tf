@@ -7,8 +7,15 @@ resource "aws_networkmanager_device" "tf-sample-networkmanager-device" {
   type              = ""
   vendor            = ""
   
-  aws_location {}
-  location {}
+  aws_location {
+    subnet_arn = ""
+    zone       = ""
+  }
+  location {
+    address   = ""
+    latitude  = ""
+    longitude = ""
+  }
   
   tags = {}
 }

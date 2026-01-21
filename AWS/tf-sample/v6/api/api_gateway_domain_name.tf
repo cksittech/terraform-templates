@@ -13,8 +13,14 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   regional_certificate_name              = ""
   security_policy                        = ""
   
-  endpoint_configuration {}
-  mutual_tls_authentication {}
+  endpoint_configuration {
+    ip_address_type = ""
+    types           = []
+  }
+  mutual_tls_authentication {
+    truststore_uri     = ""
+    truststore_version = ""
+  }
   
   tags = {}
 }

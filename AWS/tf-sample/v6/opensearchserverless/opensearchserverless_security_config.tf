@@ -4,5 +4,10 @@ resource "aws_opensearchserverless_security_config" "tf-sample-opensearchserverl
   region      = ""
   type        = ""
   
-  saml_options {}
+  saml_options {
+    group_attribute = ""
+    metadata        = ""
+    session_timeout = 0
+    user_attribute  = ""
+  }
 }

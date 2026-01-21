@@ -3,7 +3,12 @@ resource "aws_sesv2_contact_list" "tf-sample-sesv2-contact-list" {
   description       = ""
   region            = ""
   
-  topic {}
+  topic {
+    default_subscription_status = ""
+    description                 = ""
+    display_name                = ""
+    topic_name                  = ""
+  }
   
   tags = {}
 }

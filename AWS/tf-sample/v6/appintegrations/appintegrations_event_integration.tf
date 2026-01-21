@@ -4,7 +4,9 @@ resource "aws_appintegrations_event_integration" "tf-sample-appintegrations-even
   name            = ""
   region          = ""
   
-  event_filter {}
+  event_filter {
+    source = ""
+  }
   
   tags = {}
 }

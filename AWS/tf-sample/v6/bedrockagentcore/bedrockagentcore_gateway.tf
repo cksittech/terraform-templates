@@ -8,9 +8,31 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
   region          = ""
   role_arn        = ""
   
-  authorizer_configuration {}
-  interceptor_configuration {}
-  protocol_configuration {}
+  authorizer_configuration {
+    custom_jwt_authorizer {
+      allowed_audience = []
+      allowed_clients  = []
+      discovery_url    = ""
+    }
+  }
+  interceptor_configuration {
+    interception_points = []
+    
+    input_configuration {
+      pass_request_headers = false
+    }
+    interceptor {
+      lambda {
+      }
+    }
+  }
+  protocol_configuration {
+    mcp {
+      instructions       = ""
+      search_type        = ""
+      supported_versions = []
+    }
+  }
   
   tags = {}
 }

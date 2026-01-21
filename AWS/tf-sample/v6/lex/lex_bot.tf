@@ -12,7 +12,27 @@ resource "aws_lex_bot" "tf-sample-lex-bot" {
   region                          = ""
   voice_id                        = ""
   
-  abort_statement {}
-  clarification_prompt {}
-  intent {}
+  abort_statement {
+    response_card = ""
+    
+    message {
+      content      = ""
+      content_type = ""
+      group_number = 0
+    }
+  }
+  clarification_prompt {
+    max_attempts  = 0
+    response_card = ""
+    
+    message {
+      content      = ""
+      content_type = ""
+      group_number = 0
+    }
+  }
+  intent {
+    intent_name    = ""
+    intent_version = ""
+  }
 }

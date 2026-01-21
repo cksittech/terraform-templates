@@ -4,12 +4,27 @@ resource "aws_fsx_file_cache" "tf-sample-fsx-file-cache" {
   file_cache_type_version                   = ""
   kms_key_id                                = ""
   region                                    = ""
-  security_group_ids                        = []
   storage_capacity                          = 0
-  subnet_ids                                = []
   
-  data_repository_association {}
-  lustre_configuration {}
+  data_repository_association {
+    data_repository_path           = ""
+    data_repository_subdirectories = []
+    file_cache_path                = ""
+    
+    nfs {
+      dns_ips = []
+      version = ""
+    }
+  }
+  lustre_configuration {
+    deployment_type               = ""
+    per_unit_storage_throughput   = 0
+    weekly_maintenance_start_time = ""
+    
+    metadata_configuration {
+      storage_capacity = 0
+    }
+  }
   
   tags = {}
 }

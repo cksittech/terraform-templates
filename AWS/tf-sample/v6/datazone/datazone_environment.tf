@@ -4,11 +4,13 @@ resource "aws_datazone_environment" "tf-sample-datazone-environment" {
   blueprint_identifier = ""
   description          = ""
   domain_identifier    = ""
-  glossary_terms       = []
   name                 = ""
   profile_identifier   = ""
   project_identifier   = ""
   region               = ""
   
-  user_parameters {}
+  user_parameters {
+    name  = ""
+    value = ""
+  }
 }

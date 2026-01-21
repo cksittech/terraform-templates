@@ -5,7 +5,10 @@ resource "aws_route53_zone" "tf-sample-route53-zone" {
   force_destroy               = false
   name                        = ""
   
-  vpc {}
+  vpc {
+    vpc_id     = ""
+    vpc_region = ""
+  }
   
   tags = {}
 }

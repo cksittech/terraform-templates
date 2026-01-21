@@ -2,7 +2,9 @@ resource "aws_vpc_ipam_resource_discovery" "tf-sample-vpc-ipam-resource-discover
   description = ""
   region      = ""
   
-  operating_regions {}
+  operating_regions {
+    region_name = ""
+  }
   
   tags = {}
 }

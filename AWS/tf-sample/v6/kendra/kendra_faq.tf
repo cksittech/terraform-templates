@@ -7,7 +7,10 @@ resource "aws_kendra_faq" "tf-sample-kendra-faq" {
   region        = ""
   role_arn      = ""
   
-  s3_path {}
+  s3_path {
+    bucket = ""
+    key    = ""
+  }
   
   tags = {}
 }

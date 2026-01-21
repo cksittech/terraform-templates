@@ -2,7 +2,11 @@ resource "aws_sagemaker_code_repository" "tf-sample-sagemaker-code-repository" {
   code_repository_name = ""
   region               = ""
   
-  git_config {}
+  git_config {
+    branch         = ""
+    repository_url = ""
+    secret_arn     = ""
+  }
   
   tags = {}
 }

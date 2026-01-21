@@ -3,17 +3,42 @@ resource "aws_route53_record" "tf-sample-route53-record" {
   health_check_id                  = ""
   multivalue_answer_routing_policy = false
   name                             = ""
-  records                          = []
   set_identifier                   = ""
   ttl                              = 0
   type                             = ""
   zone_id                          = ""
   
-  alias {}
-  cidr_routing_policy {}
-  failover_routing_policy {}
-  geolocation_routing_policy {}
-  geoproximity_routing_policy {}
-  latency_routing_policy {}
-  weighted_routing_policy {}
+  alias {
+    evaluate_target_health = false
+    name                   = ""
+    zone_id                = ""
+  }
+  cidr_routing_policy {
+    collection_id = ""
+    location_name = ""
+  }
+  failover_routing_policy {
+    type = ""
+  }
+  geolocation_routing_policy {
+    continent   = ""
+    country     = ""
+    subdivision = ""
+  }
+  geoproximity_routing_policy {
+    aws_region       = ""
+    bias             = 0
+    local_zone_group = ""
+    
+    coordinates {
+      latitude  = ""
+      longitude = ""
+    }
+  }
+  latency_routing_policy {
+    region = ""
+  }
+  weighted_routing_policy {
+    weight = 0
+  }
 }

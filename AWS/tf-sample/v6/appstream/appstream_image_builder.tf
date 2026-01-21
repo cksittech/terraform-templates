@@ -10,9 +10,18 @@ resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
   name                           = ""
   region                         = ""
   
-  access_endpoint {}
-  domain_join_info {}
-  vpc_config {}
+  access_endpoint {
+    endpoint_type = ""
+    vpce_id       = ""
+  }
+  domain_join_info {
+    directory_name                         = ""
+    organizational_unit_distinguished_name = ""
+  }
+  vpc_config {
+    security_group_ids = []
+    subnet_ids         = []
+  }
   
   tags = {}
 }

@@ -9,6 +9,16 @@ resource "aws_config_remediation_configuration" "tf-sample-config-remediation-co
   target_type                = ""
   target_version             = ""
   
-  execution_controls {}
-  parameter {}
+  execution_controls {
+    ssm_controls {
+      concurrent_execution_rate_percentage = 0
+      error_percentage                     = 0
+    }
+  }
+  parameter {
+    name           = ""
+    resource_value = ""
+    static_value   = ""
+    static_values  = []
+  }
 }

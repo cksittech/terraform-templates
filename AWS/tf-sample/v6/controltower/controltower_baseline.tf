@@ -4,7 +4,10 @@ resource "aws_controltower_baseline" "tf-sample-controltower-baseline" {
   region              = ""
   target_identifier   = ""
   
-  parameters {}
+  parameters {
+    key   = ""
+    value = ""
+  }
   
   tags = {}
 }

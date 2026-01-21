@@ -4,13 +4,17 @@ resource "aws_iot_domain_configuration" "tf-sample-iot-domain-configuration" {
   domain_name                = ""
   name                       = ""
   region                     = ""
-  server_certificate_arns    = []
   service_type               = ""
   status                     = ""
   validation_certificate_arn = ""
   
-  authorizer_config {}
-  tls_config {}
+  authorizer_config {
+    allow_authorizer_override = false
+    default_authorizer_name   = ""
+  }
+  tls_config {
+    security_policy = ""
+  }
   
   tags = {}
 }

@@ -1,7 +1,5 @@
 resource "aws_security_group" "tf-sample-security-group" {
   description            = ""
-  egress                 = []
-  ingress                = []
   name                   = ""
   name_prefix            = ""
   region                 = ""

@@ -6,7 +6,9 @@ resource "aws_vpc_ipam" "tf-sample-vpc-ipam" {
   region             = ""
   tier               = ""
   
-  operating_regions {}
+  operating_regions {
+    region_name = ""
+  }
   
   tags = {}
 }

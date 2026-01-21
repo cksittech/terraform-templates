@@ -4,6 +4,11 @@ resource "aws_s3_bucket_intelligent_tiering_configuration" "tf-sample-s3-bucket-
   region = ""
   status = ""
   
-  filter {}
-  tiering {}
+  filter {
+    prefix = ""
+  }
+  tiering {
+    access_tier = ""
+    days        = 0
+  }
 }

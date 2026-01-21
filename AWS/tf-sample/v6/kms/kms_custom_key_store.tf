@@ -10,5 +10,8 @@ resource "aws_kms_custom_key_store" "tf-sample-kms-custom-key-store" {
   xks_proxy_uri_path                  = ""
   xks_proxy_vpc_endpoint_service_name = ""
   
-  xks_proxy_authentication_credential {}
+  xks_proxy_authentication_credential {
+    access_key_id         = ""
+    raw_secret_access_key = ""
+  }
 }

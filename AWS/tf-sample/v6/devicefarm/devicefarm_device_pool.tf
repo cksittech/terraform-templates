@@ -5,7 +5,11 @@ resource "aws_devicefarm_device_pool" "tf-sample-devicefarm-device-pool" {
   project_arn = ""
   region      = ""
   
-  rule {}
+  rule {
+    attribute = ""
+    operator  = ""
+    value     = ""
+  }
   
   tags = {}
 }

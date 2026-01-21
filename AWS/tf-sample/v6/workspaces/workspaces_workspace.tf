@@ -7,7 +7,13 @@ resource "aws_workspaces_workspace" "tf-sample-workspaces-workspace" {
   user_volume_encryption_enabled = false
   volume_encryption_key          = ""
   
-  workspace_properties {}
+  workspace_properties {
+    compute_type_name                         = ""
+    root_volume_size_gib                      = 0
+    running_mode                              = ""
+    running_mode_auto_stop_timeout_in_minutes = 0
+    user_volume_size_gib                      = 0
+  }
   
   tags = {}
 }

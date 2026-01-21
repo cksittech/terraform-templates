@@ -6,7 +6,19 @@ resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
   rank        = 0
   region      = ""
   
-  finding_criteria {}
+  finding_criteria {
+    criterion {
+      equals                = []
+      field                 = ""
+      greater_than          = ""
+      greater_than_or_equal = ""
+      less_than             = ""
+      less_than_or_equal    = ""
+      matches               = []
+      not_equals            = []
+      not_matches           = []
+    }
+  }
   
   tags = {}
 }

@@ -4,7 +4,10 @@ resource "aws_directory_service_region" "tf-sample-directory-service-region" {
   region                               = ""
   region_name                          = ""
   
-  vpc_settings {}
+  vpc_settings {
+    subnet_ids = []
+    vpc_id     = ""
+  }
   
   tags = {}
 }

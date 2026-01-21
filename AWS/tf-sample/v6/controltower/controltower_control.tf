@@ -3,5 +3,8 @@ resource "aws_controltower_control" "tf-sample-controltower-control" {
   region             = ""
   target_identifier  = ""
   
-  parameters {}
+  parameters {
+    key   = ""
+    value = ""
+  }
 }

@@ -2,5 +2,7 @@ resource "aws_s3_bucket_ownership_controls" "tf-sample-s3-bucket-ownership-contr
   bucket = ""
   region = ""
   
-  rule {}
+  rule {
+    object_ownership = ""
+  }
 }

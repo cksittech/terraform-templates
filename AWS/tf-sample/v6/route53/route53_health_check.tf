@@ -1,6 +1,5 @@
 resource "aws_route53_health_check" "tf-sample-route53-health-check" {
   child_health_threshold          = 0
-  child_healthchecks              = []
   cloudwatch_alarm_name           = ""
   cloudwatch_alarm_region         = ""
   disabled                        = false
@@ -13,12 +12,10 @@ resource "aws_route53_health_check" "tf-sample-route53-health-check" {
   measure_latency                 = false
   port                            = 0
   reference_name                  = ""
-  regions                         = []
   request_interval                = 0
   resource_path                   = ""
   routing_control_arn             = ""
   search_string                   = ""
-  triggers                        = {}
   type                            = ""
   
   tags = {}

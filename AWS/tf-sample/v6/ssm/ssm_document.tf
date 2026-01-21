@@ -3,12 +3,15 @@ resource "aws_ssm_document" "tf-sample-ssm-document" {
   document_format = ""
   document_type   = ""
   name            = ""
-  permissions     = {}
   region          = ""
   target_type     = ""
   version_name    = ""
   
-  attachments_source {}
+  attachments_source {
+    key    = ""
+    name   = ""
+    values = []
+  }
   
   tags = {}
 }

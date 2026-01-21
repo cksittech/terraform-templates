@@ -14,10 +14,32 @@ resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
   success_retention_period = 0
   zip_file                 = ""
   
-  artifact_config {}
-  run_config {}
-  schedule {}
-  vpc_config {}
+  artifact_config {
+    s3_encryption {
+      encryption_mode = ""
+      kms_key_arn     = ""
+    }
+  }
+  run_config {
+    active_tracing        = false
+    environment_variables = {}
+    ephemeral_storage     = 0
+    memory_in_mb          = 0
+    timeout_in_seconds    = 0
+  }
+  schedule {
+    duration_in_seconds = 0
+    expression          = ""
+    
+    retry_config {
+      max_retries = 0
+    }
+  }
+  vpc_config {
+    ipv6_allowed_for_dual_stack = false
+    security_group_ids          = []
+    subnet_ids                  = []
+  }
   
   tags = {}
 }

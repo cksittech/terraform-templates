@@ -5,8 +5,12 @@ resource "aws_qbusiness_application" "tf-sample-qbusiness-application" {
   identity_center_instance_arn = ""
   region                       = ""
   
-  attachments_configuration {}
-  encryption_configuration {}
+  attachments_configuration {
+    attachments_control_mode = ""
+  }
+  encryption_configuration {
+    kms_key_id = ""
+  }
   
   tags = {}
 }

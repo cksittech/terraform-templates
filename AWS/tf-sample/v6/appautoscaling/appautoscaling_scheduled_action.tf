@@ -9,5 +9,8 @@ resource "aws_appautoscaling_scheduled_action" "tf-sample-appautoscaling-schedul
   start_time         = ""
   timezone           = ""
   
-  scalable_target_action {}
+  scalable_target_action {
+    max_capacity = ""
+    min_capacity = ""
+  }
 }

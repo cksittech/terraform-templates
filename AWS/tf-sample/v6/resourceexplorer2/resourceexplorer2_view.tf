@@ -4,8 +4,12 @@ resource "aws_resourceexplorer2_view" "tf-sample-resourceexplorer2-view" {
   region       = ""
   scope        = ""
   
-  filters {}
-  included_property {}
+  filters {
+    filter_string = ""
+  }
+  included_property {
+    name = ""
+  }
   
   tags = {}
 }

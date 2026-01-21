@@ -5,5 +5,12 @@ resource "aws_cloudwatch_log_metric_filter" "tf-sample-cloudwatch-log-metric-fil
   pattern                   = ""
   region                    = ""
   
-  metric_transformation {}
+  metric_transformation {
+    default_value = ""
+    dimensions    = {}
+    name          = ""
+    namespace     = ""
+    unit          = ""
+    value         = ""
+  }
 }

@@ -6,7 +6,9 @@ resource "aws_storagegateway_file_system_association" "tf-sample-storagegateway-
   region                = ""
   username              = ""
   
-  cache_attributes {}
+  cache_attributes {
+    cache_stale_timeout_in_seconds = 0
+  }
   
   tags = {}
 }

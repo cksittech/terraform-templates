@@ -3,5 +3,11 @@ resource "aws_accessanalyzer_archive_rule" "tf-sample-accessanalyzer-archive-rul
   region        = ""
   rule_name     = ""
   
-  filter {}
+  filter {
+    contains = []
+    criteria = ""
+    eq       = []
+    exists   = ""
+    neq      = []
+  }
 }

@@ -4,5 +4,7 @@ resource "aws_ssmcontacts_contact_channel" "tf-sample-ssmcontacts-contact-channe
   region     = ""
   type       = ""
   
-  delivery_address {}
+  delivery_address {
+    simple_address = ""
+  }
 }

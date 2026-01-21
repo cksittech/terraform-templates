@@ -3,7 +3,5 @@ resource "aws_guardduty_detector" "tf-sample-guardduty-detector" {
   finding_publishing_frequency = ""
   region                       = ""
   
-  datasources {}
-  
   tags = {}
 }

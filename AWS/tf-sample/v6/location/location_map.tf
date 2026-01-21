@@ -3,7 +3,9 @@ resource "aws_location_map" "tf-sample-location-map" {
   map_name    = ""
   region      = ""
   
-  configuration {}
+  configuration {
+    style = ""
+  }
   
   tags = {}
 }

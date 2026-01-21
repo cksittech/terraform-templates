@@ -6,7 +6,18 @@ resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
   position    = 0
   region      = ""
   
-  finding_criteria {}
+  finding_criteria {
+    criterion {
+      eq             = []
+      eq_exact_match = []
+      field          = ""
+      gt             = ""
+      gte            = ""
+      lt             = ""
+      lte            = ""
+      neq            = []
+    }
+  }
   
   tags = {}
 }

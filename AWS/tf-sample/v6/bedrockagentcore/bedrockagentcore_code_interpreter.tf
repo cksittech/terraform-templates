@@ -4,7 +4,14 @@ resource "aws_bedrockagentcore_code_interpreter" "tf-sample-bedrockagentcore-cod
   name               = ""
   region             = ""
   
-  network_configuration {}
+  network_configuration {
+    network_mode = ""
+    
+    vpc_config {
+      security_groups = []
+      subnets         = []
+    }
+  }
   
   tags = {}
 }

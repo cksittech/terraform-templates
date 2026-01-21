@@ -6,12 +6,76 @@ resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   name                      = ""
   region                    = ""
   
-  content_policy_config {}
-  contextual_grounding_policy_config {}
-  cross_region_config {}
-  sensitive_information_policy_config {}
-  topic_policy_config {}
-  word_policy_config {}
+  content_policy_config {
+    tier_config = []
+    
+    filters_config {
+      input_action      = ""
+      input_enabled     = false
+      input_modalities  = []
+      input_strength    = ""
+      output_action     = ""
+      output_enabled    = false
+      output_modalities = []
+      output_strength   = ""
+      type              = ""
+    }
+  }
+  contextual_grounding_policy_config {
+    filters_config {
+      threshold = 0
+      type      = ""
+    }
+  }
+  cross_region_config {
+    guardrail_profile_identifier = ""
+  }
+  sensitive_information_policy_config {
+    pii_entities_config {
+      action         = ""
+      input_action   = ""
+      input_enabled  = false
+      output_action  = ""
+      output_enabled = false
+      type           = ""
+    }
+    regexes_config {
+      action         = ""
+      description    = ""
+      input_action   = ""
+      input_enabled  = false
+      name           = ""
+      output_action  = ""
+      output_enabled = false
+      pattern        = ""
+    }
+  }
+  topic_policy_config {
+    tier_config = []
+    
+    topics_config {
+      definition = ""
+      examples   = []
+      name       = ""
+      type       = ""
+    }
+  }
+  word_policy_config {
+    managed_word_lists_config {
+      input_action   = ""
+      input_enabled  = false
+      output_action  = ""
+      output_enabled = false
+      type           = ""
+    }
+    words_config {
+      input_action   = ""
+      input_enabled  = false
+      output_action  = ""
+      output_enabled = false
+      text           = ""
+    }
+  }
   
   tags = {}
 }

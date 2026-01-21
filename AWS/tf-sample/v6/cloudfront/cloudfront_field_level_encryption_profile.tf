@@ -2,5 +2,14 @@ resource "aws_cloudfront_field_level_encryption_profile" "tf-sample-cloudfront-f
   comment = ""
   name    = ""
   
-  encryption_entities {}
+  encryption_entities {
+    items {
+      provider_id   = ""
+      public_key_id = ""
+      
+      field_patterns {
+        items = []
+      }
+    }
+  }
 }

@@ -1,6 +1,4 @@
 resource "aws_glue_job" "tf-sample-glue-job" {
-  connections               = []
-  default_arguments         = {}
   description               = ""
   execution_class           = ""
   glue_version              = ""
@@ -10,7 +8,6 @@ resource "aws_glue_job" "tf-sample-glue-job" {
   max_capacity              = 0
   max_retries               = 0
   name                      = ""
-  non_overridable_arguments = {}
   number_of_workers         = 0
   region                    = ""
   role_arn                  = ""
@@ -18,10 +15,28 @@ resource "aws_glue_job" "tf-sample-glue-job" {
   timeout                   = 0
   worker_type               = ""
   
-  command {}
-  execution_property {}
-  notification_property {}
-  source_control_details {}
+  command {
+    name            = ""
+    python_version  = ""
+    runtime         = ""
+    script_location = ""
+  }
+  execution_property {
+    max_concurrent_runs = 0
+  }
+  notification_property {
+    notify_delay_after = 0
+  }
+  source_control_details {
+    auth_strategy  = ""
+    auth_token     = ""
+    branch         = ""
+    folder         = ""
+    last_commit_id = ""
+    owner          = ""
+    provider       = ""
+    repository     = ""
+  }
   
   tags = {}
 }

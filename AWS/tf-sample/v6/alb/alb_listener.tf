@@ -27,8 +27,73 @@ resource "aws_alb_listener" "tf-sample-alb-listener" {
   ssl_policy                                                            = ""
   tcp_idle_timeout_seconds                                              = 0
   
-  default_action {}
-  mutual_authentication {}
+  default_action {
+    order            = 0
+    target_group_arn = ""
+    type             = ""
+    
+    authenticate_cognito {
+      authentication_request_extra_params = {}
+      on_unauthenticated_request          = ""
+      scope                               = ""
+      session_cookie_name                 = ""
+      session_timeout                     = 0
+      user_pool_arn                       = ""
+      user_pool_client_id                 = ""
+      user_pool_domain                    = ""
+    }
+    authenticate_oidc {
+      authentication_request_extra_params = {}
+      authorization_endpoint              = ""
+      client_id                           = ""
+      client_secret                       = ""
+      issuer                              = ""
+      on_unauthenticated_request          = ""
+      scope                               = ""
+      session_cookie_name                 = ""
+      session_timeout                     = 0
+      token_endpoint                      = ""
+      user_info_endpoint                  = ""
+    }
+    fixed_response {
+      content_type = ""
+      message_body = ""
+      status_code  = ""
+    }
+    forward {
+      stickiness {
+        duration = 0
+        enabled  = false
+      }
+      target_group {
+        weight = 0
+      }
+    }
+    jwt_validation {
+      issuer        = ""
+      jwks_endpoint = ""
+      
+      additional_claim {
+        format = ""
+        name   = ""
+        values = []
+      }
+    }
+    redirect {
+      host        = ""
+      path        = ""
+      port        = ""
+      protocol    = ""
+      query       = ""
+      status_code = ""
+    }
+  }
+  mutual_authentication {
+    advertise_trust_store_ca_names   = ""
+    ignore_client_certificate_expiry = false
+    mode                             = ""
+    trust_store_arn                  = ""
+  }
   
   tags = {}
 }

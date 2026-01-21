@@ -10,8 +10,23 @@ resource "aws_appsync_resolver" "tf-sample-appsync-resolver" {
   response_template = ""
   type              = ""
   
-  caching_config {}
-  pipeline_config {}
-  runtime {}
-  sync_config {}
+  caching_config {
+    caching_keys = []
+    ttl          = 0
+  }
+  pipeline_config {
+    functions = []
+  }
+  runtime {
+    name            = ""
+    runtime_version = ""
+  }
+  sync_config {
+    conflict_detection = ""
+    conflict_handler   = ""
+    
+    lambda_conflict_handler_config {
+      lambda_conflict_handler_arn = ""
+    }
+  }
 }

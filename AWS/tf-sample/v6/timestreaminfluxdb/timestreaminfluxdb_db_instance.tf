@@ -13,10 +13,13 @@ resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-i
   publicly_accessible           = false
   region                        = ""
   username                      = ""
-  vpc_security_group_ids        = []
-  vpc_subnet_ids                = []
   
-  log_delivery_configuration {}
+  log_delivery_configuration {
+    s3_configuration {
+      bucket_name = ""
+      enabled     = false
+    }
+  }
   
   tags = {}
 }

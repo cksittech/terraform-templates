@@ -10,11 +10,37 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
   region                           = ""
   status                           = ""
   
-  image_scanning_configuration {}
-  image_tests_configuration {}
-  logging_configuration {}
-  schedule {}
-  workflow {}
+  image_scanning_configuration {
+    image_scanning_enabled = false
+    
+    ecr_configuration {
+      container_tags  = []
+      repository_name = ""
+    }
+  }
+  image_tests_configuration {
+    image_tests_enabled = false
+    timeout_minutes     = 0
+  }
+  logging_configuration {
+    image_log_group_name    = ""
+    pipeline_log_group_name = ""
+  }
+  schedule {
+    pipeline_execution_start_condition = ""
+    schedule_expression                = ""
+    timezone                           = ""
+  }
+  workflow {
+    on_failure     = ""
+    parallel_group = ""
+    workflow_arn   = ""
+    
+    parameter {
+      name  = ""
+      value = ""
+    }
+  }
   
   tags = {}
 }

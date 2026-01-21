@@ -5,5 +5,8 @@ resource "aws_cloudformation_type" "tf-sample-cloudformation-type" {
   type                   = ""
   type_name              = ""
   
-  logging_config {}
+  logging_config {
+    log_group_name = ""
+    log_role_arn   = ""
+  }
 }

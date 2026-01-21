@@ -4,7 +4,16 @@ resource "aws_appmesh_virtual_service" "tf-sample-appmesh-virtual-service" {
   name       = ""
   region     = ""
   
-  spec {}
+  spec {
+    provider {
+      virtual_node {
+        virtual_node_name = ""
+      }
+      virtual_router {
+        virtual_router_name = ""
+      }
+    }
+  }
   
   tags = {}
 }

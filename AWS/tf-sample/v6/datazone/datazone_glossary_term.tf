@@ -7,5 +7,8 @@ resource "aws_datazone_glossary_term" "tf-sample-datazone-glossary-term" {
   short_description   = ""
   status              = ""
   
-  term_relations {}
+  term_relations {
+    classifies = []
+    is_a       = []
+  }
 }

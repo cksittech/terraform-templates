@@ -3,6 +3,17 @@ resource "aws_signer_signing_job" "tf-sample-signer-signing-job" {
   profile_name               = ""
   region                     = ""
   
-  destination {}
-  source {}
+  destination {
+    s3 {
+      bucket = ""
+      prefix = ""
+    }
+  }
+  source {
+    s3 {
+      bucket  = ""
+      key     = ""
+      version = ""
+    }
+  }
 }

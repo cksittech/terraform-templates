@@ -3,5 +3,8 @@ resource "aws_s3_bucket_metric" "tf-sample-s3-bucket-metric" {
   name   = ""
   region = ""
   
-  filter {}
+  filter {
+    access_point = ""
+    prefix       = ""
+  }
 }

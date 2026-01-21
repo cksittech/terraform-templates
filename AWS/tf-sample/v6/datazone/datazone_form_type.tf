@@ -6,5 +6,7 @@ resource "aws_datazone_form_type" "tf-sample-datazone-form-type" {
   region                    = ""
   status                    = ""
   
-  model {}
+  model {
+    smithy = ""
+  }
 }

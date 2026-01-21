@@ -6,7 +6,11 @@ resource "aws_iot_ca_certificate" "tf-sample-iot-ca-certificate" {
   region                       = ""
   verification_certificate_pem = ""
   
-  registration_config {}
+  registration_config {
+    role_arn      = ""
+    template_body = ""
+    template_name = ""
+  }
   
   tags = {}
 }

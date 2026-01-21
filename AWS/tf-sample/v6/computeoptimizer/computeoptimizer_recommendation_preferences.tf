@@ -6,8 +6,24 @@ resource "aws_computeoptimizer_recommendation_preferences" "tf-sample-computeopt
   resource_type                   = ""
   savings_estimation_mode         = ""
   
-  external_metrics_preference {}
-  preferred_resource {}
-  scope {}
-  utilization_preference {}
+  external_metrics_preference {
+    source = ""
+  }
+  preferred_resource {
+    exclude_list = []
+    include_list = []
+    name         = ""
+  }
+  scope {
+    name  = ""
+    value = ""
+  }
+  utilization_preference {
+    metric_name = ""
+    
+    metric_parameters {
+      headroom  = ""
+      threshold = ""
+    }
+  }
 }

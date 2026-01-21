@@ -3,5 +3,11 @@ resource "aws_prometheus_workspace_configuration" "tf-sample-prometheus-workspac
   retention_period_in_days = 0
   workspace_id             = ""
   
-  limits_per_label_set {}
+  limits_per_label_set {
+    label_set = {}
+    
+    limits {
+      max_series = 0
+    }
+  }
 }

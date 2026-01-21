@@ -4,5 +4,8 @@ resource "aws_guardduty_organization_configuration_feature" "tf-sample-guardduty
   name        = ""
   region      = ""
   
-  additional_configuration {}
+  additional_configuration {
+    auto_enable = ""
+    name        = ""
+  }
 }

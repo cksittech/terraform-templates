@@ -4,7 +4,10 @@ resource "aws_elasticache_parameter_group" "tf-sample-elasticache-parameter-grou
   name        = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

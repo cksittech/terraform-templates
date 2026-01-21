@@ -3,7 +3,10 @@ resource "aws_glacier_vault" "tf-sample-glacier-vault" {
   name          = ""
   region        = ""
   
-  notification {}
+  notification {
+    events    = []
+    sns_topic = ""
+  }
   
   tags = {}
 }

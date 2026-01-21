@@ -3,5 +3,9 @@ resource "aws_s3tables_table_bucket_replication" "tf-sample-s3tables-table-bucke
   role             = ""
   table_bucket_arn = ""
   
-  rule {}
+  rule {
+    destination {
+      destination_table_bucket_arn = ""
+    }
+  }
 }

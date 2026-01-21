@@ -4,9 +4,17 @@ resource "aws_ecr_repository" "tf-sample-ecr-repository" {
   name                 = ""
   region               = ""
   
-  encryption_configuration {}
-  image_scanning_configuration {}
-  image_tag_mutability_exclusion_filter {}
+  encryption_configuration {
+    encryption_type = ""
+    kms_key         = ""
+  }
+  image_scanning_configuration {
+    scan_on_push = false
+  }
+  image_tag_mutability_exclusion_filter {
+    filter      = ""
+    filter_type = ""
+  }
   
   tags = {}
 }

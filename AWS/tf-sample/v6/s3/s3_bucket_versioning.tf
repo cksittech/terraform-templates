@@ -4,5 +4,8 @@ resource "aws_s3_bucket_versioning" "tf-sample-s3-bucket-versioning" {
   mfa                   = ""
   region                = ""
   
-  versioning_configuration {}
+  versioning_configuration {
+    mfa_delete = ""
+    status     = ""
+  }
 }

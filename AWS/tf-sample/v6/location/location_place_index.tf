@@ -4,7 +4,9 @@ resource "aws_location_place_index" "tf-sample-location-place-index" {
   index_name  = ""
   region      = ""
   
-  data_source_configuration {}
+  data_source_configuration {
+    intended_use = ""
+  }
   
   tags = {}
 }

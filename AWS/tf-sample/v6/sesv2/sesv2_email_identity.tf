@@ -3,7 +3,11 @@ resource "aws_sesv2_email_identity" "tf-sample-sesv2-email-identity" {
   email_identity         = ""
   region                 = ""
   
-  dkim_signing_attributes {}
+  dkim_signing_attributes {
+    domain_signing_private_key = ""
+    domain_signing_selector    = ""
+    next_signing_key_length    = ""
+  }
   
   tags = {}
 }

@@ -5,6 +5,12 @@ resource "aws_amplify_domain_association" "tf-sample-amplify-domain-association"
   region                 = ""
   wait_for_verification  = false
   
-  certificate_settings {}
-  sub_domain {}
+  certificate_settings {
+    custom_certificate_arn = ""
+    type                   = ""
+  }
+  sub_domain {
+    branch_name = ""
+    prefix      = ""
+  }
 }

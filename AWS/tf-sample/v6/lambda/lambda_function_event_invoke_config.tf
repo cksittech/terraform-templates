@@ -5,5 +5,12 @@ resource "aws_lambda_function_event_invoke_config" "tf-sample-lambda-function-ev
   qualifier                    = ""
   region                       = ""
   
-  destination_config {}
+  destination_config {
+    on_failure {
+      destination = ""
+    }
+    on_success {
+      destination = ""
+    }
+  }
 }

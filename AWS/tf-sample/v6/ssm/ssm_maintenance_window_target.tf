@@ -6,5 +6,8 @@ resource "aws_ssm_maintenance_window_target" "tf-sample-ssm-maintenance-window-t
   resource_type     = ""
   window_id         = ""
   
-  targets {}
+  targets {
+    key    = ""
+    values = []
+  }
 }

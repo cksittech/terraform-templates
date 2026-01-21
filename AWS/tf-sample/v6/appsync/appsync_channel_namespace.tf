@@ -4,9 +4,36 @@ resource "aws_appsync_channel_namespace" "tf-sample-appsync-channel-namespace" {
   name          = ""
   region        = ""
   
-  handler_configs {}
-  publish_auth_mode {}
-  subscribe_auth_mode {}
+  handler_configs {
+    on_publish {
+      behavior = ""
+      
+      integration {
+        data_source_name = ""
+        
+        lambda_config {
+          invoke_type = ""
+        }
+      }
+    }
+    on_subscribe {
+      behavior = ""
+      
+      integration {
+        data_source_name = ""
+        
+        lambda_config {
+          invoke_type = ""
+        }
+      }
+    }
+  }
+  publish_auth_mode {
+    auth_type = ""
+  }
+  subscribe_auth_mode {
+    auth_type = ""
+  }
   
   tags = {}
 }

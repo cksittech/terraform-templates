@@ -9,6 +9,12 @@ resource "aws_ec2_traffic_mirror_filter_rule" "tf-sample-ec2-traffic-mirror-filt
   traffic_direction        = ""
   traffic_mirror_filter_id = ""
   
-  destination_port_range {}
-  source_port_range {}
+  destination_port_range {
+    from_port = 0
+    to_port   = 0
+  }
+  source_port_range {
+    from_port = 0
+    to_port   = 0
+  }
 }

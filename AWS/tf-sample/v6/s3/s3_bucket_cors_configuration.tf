@@ -3,5 +3,11 @@ resource "aws_s3_bucket_cors_configuration" "tf-sample-s3-bucket-cors-configurat
   expected_bucket_owner = ""
   region                = ""
   
-  cors_rule {}
+  cors_rule {
+    allowed_headers = []
+    allowed_methods = []
+    allowed_origins = []
+    expose_headers  = []
+    max_age_seconds = 0
+  }
 }

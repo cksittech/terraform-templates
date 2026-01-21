@@ -16,8 +16,21 @@ resource "aws_ami" "tf-sample-ami" {
   uefi_data           = ""
   virtualization_type = ""
   
-  ebs_block_device {}
-  ephemeral_block_device {}
+  ebs_block_device {
+    delete_on_termination = false
+    device_name           = ""
+    encrypted             = false
+    iops                  = 0
+    outpost_arn           = ""
+    snapshot_id           = ""
+    throughput            = 0
+    volume_size           = 0
+    volume_type           = ""
+  }
+  ephemeral_block_device {
+    device_name  = ""
+    virtual_name = ""
+  }
   
   tags = {}
 }

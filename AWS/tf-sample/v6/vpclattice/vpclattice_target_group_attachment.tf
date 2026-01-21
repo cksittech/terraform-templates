@@ -2,5 +2,7 @@ resource "aws_vpclattice_target_group_attachment" "tf-sample-vpclattice-target-g
   region                  = ""
   target_group_identifier = ""
   
-  target {}
+  target {
+    port = 0
+  }
 }

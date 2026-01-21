@@ -4,7 +4,10 @@ resource "aws_appconfig_environment" "tf-sample-appconfig-environment" {
   name           = ""
   region         = ""
   
-  monitor {}
+  monitor {
+    alarm_arn      = ""
+    alarm_role_arn = ""
+  }
   
   tags = {}
 }

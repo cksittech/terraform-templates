@@ -2,5 +2,8 @@ resource "aws_quicksight_key_registration" "tf-sample-quicksight-key-registratio
   aws_account_id = ""
   region         = ""
   
-  key_registration {}
+  key_registration {
+    default_key = false
+    key_arn     = ""
+  }
 }

@@ -1,7 +1,6 @@
 resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   allow_version_upgrade                = false
   apply_immediately                    = false
-  aqua_configuration_status            = ""
   automated_snapshot_retention_period  = 0
   availability_zone                    = ""
   availability_zone_relocation_enabled = false
@@ -16,7 +15,6 @@ resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   encrypted                            = ""
   enhanced_vpc_routing                 = false
   final_snapshot_identifier            = ""
-  iam_roles                            = []
   kms_key_id                           = ""
   maintenance_track_name               = ""
   manage_master_password               = false
@@ -38,7 +36,6 @@ resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   snapshot_arn                         = ""
   snapshot_cluster_identifier          = ""
   snapshot_identifier                  = ""
-  vpc_security_group_ids               = []
   
   tags = {}
 }

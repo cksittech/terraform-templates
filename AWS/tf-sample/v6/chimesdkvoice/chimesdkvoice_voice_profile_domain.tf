@@ -3,7 +3,9 @@ resource "aws_chimesdkvoice_voice_profile_domain" "tf-sample-chimesdkvoice-voice
   name        = ""
   region      = ""
   
-  server_side_encryption_configuration {}
+  server_side_encryption_configuration {
+    kms_key_arn = ""
+  }
   
   tags = {}
 }

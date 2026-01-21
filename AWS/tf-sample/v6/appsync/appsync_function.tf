@@ -10,6 +10,16 @@ resource "aws_appsync_function" "tf-sample-appsync-function" {
   request_mapping_template  = ""
   response_mapping_template = ""
   
-  runtime {}
-  sync_config {}
+  runtime {
+    name            = ""
+    runtime_version = ""
+  }
+  sync_config {
+    conflict_detection = ""
+    conflict_handler   = ""
+    
+    lambda_conflict_handler_config {
+      lambda_conflict_handler_arn = ""
+    }
+  }
 }

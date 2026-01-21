@@ -6,8 +6,15 @@ resource "aws_s3_access_point" "tf-sample-s3-access-point" {
   policy            = ""
   region            = ""
   
-  public_access_block_configuration {}
-  vpc_configuration {}
+  public_access_block_configuration {
+    block_public_acls       = false
+    block_public_policy     = false
+    ignore_public_acls      = false
+    restrict_public_buckets = false
+  }
+  vpc_configuration {
+    vpc_id = ""
+  }
   
   tags = {}
 }

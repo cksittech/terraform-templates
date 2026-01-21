@@ -3,7 +3,10 @@ resource "aws_memorydb_user" "tf-sample-memorydb-user" {
   region        = ""
   user_name     = ""
   
-  authentication_mode {}
+  authentication_mode {
+    passwords = []
+    type      = ""
+  }
   
   tags = {}
 }

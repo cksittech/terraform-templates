@@ -4,7 +4,10 @@ resource "aws_networkfirewall_vpc_endpoint_association" "tf-sample-networkfirewa
   region       = ""
   vpc_id       = ""
   
-  subnet_mapping {}
+  subnet_mapping {
+    ip_address_type = ""
+    subnet_id       = ""
+  }
   
   tags = {}
 }

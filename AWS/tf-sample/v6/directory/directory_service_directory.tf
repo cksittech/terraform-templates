@@ -11,8 +11,16 @@ resource "aws_directory_service_directory" "tf-sample-directory-service-director
   size                                 = ""
   type                                 = ""
   
-  connect_settings {}
-  vpc_settings {}
+  connect_settings {
+    customer_dns_ips  = []
+    customer_username = ""
+    subnet_ids        = []
+    vpc_id            = ""
+  }
+  vpc_settings {
+    subnet_ids = []
+    vpc_id     = ""
+  }
   
   tags = {}
 }

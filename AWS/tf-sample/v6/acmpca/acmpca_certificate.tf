@@ -6,5 +6,8 @@ resource "aws_acmpca_certificate" "tf-sample-acmpca-certificate" {
   signing_algorithm           = ""
   template_arn                = ""
   
-  validity {}
+  validity {
+    type  = ""
+    value = ""
+  }
 }

@@ -2,5 +2,8 @@ resource "aws_emr_block_public_access_configuration" "tf-sample-emr-block-public
   block_public_security_group_rules = false
   region                            = ""
   
-  permitted_public_security_group_rule_range {}
+  permitted_public_security_group_rule_range {
+    max_range = 0
+    min_range = 0
+  }
 }

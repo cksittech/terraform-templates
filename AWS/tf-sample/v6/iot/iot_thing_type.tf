@@ -3,7 +3,10 @@ resource "aws_iot_thing_type" "tf-sample-iot-thing-type" {
   name       = ""
   region     = ""
   
-  properties {}
+  properties {
+    description           = ""
+    searchable_attributes = []
+  }
   
   tags = {}
 }

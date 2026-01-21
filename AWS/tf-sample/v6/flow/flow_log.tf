@@ -14,7 +14,11 @@ resource "aws_flow_log" "tf-sample-flow-log" {
   transit_gateway_id            = ""
   vpc_id                        = ""
   
-  destination_options {}
+  destination_options {
+    file_format                = ""
+    hive_compatible_partitions = false
+    per_hour_partition         = false
+  }
   
   tags = {}
 }

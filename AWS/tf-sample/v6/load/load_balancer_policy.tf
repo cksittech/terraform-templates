@@ -4,5 +4,8 @@ resource "aws_load_balancer_policy" "tf-sample-load-balancer-policy" {
   policy_type_name   = ""
   region             = ""
   
-  policy_attribute {}
+  policy_attribute {
+    name  = ""
+    value = ""
+  }
 }

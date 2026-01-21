@@ -6,7 +6,11 @@ resource "aws_db_parameter_group" "tf-sample-db-parameter-group" {
   region       = ""
   skip_destroy = false
   
-  parameter {}
+  parameter {
+    apply_method = ""
+    name         = ""
+    value        = ""
+  }
   
   tags = {}
 }

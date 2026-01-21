@@ -5,7 +5,11 @@ resource "aws_rds_cluster_parameter_group" "tf-sample-rds-cluster-parameter-grou
   name_prefix = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    apply_method = ""
+    name         = ""
+    value        = ""
+  }
   
   tags = {}
 }

@@ -2,7 +2,9 @@ resource "aws_sagemaker_human_task_ui" "tf-sample-sagemaker-human-task-ui" {
   human_task_ui_name = ""
   region             = ""
   
-  ui_template {}
+  ui_template {
+    content = ""
+  }
   
   tags = {}
 }

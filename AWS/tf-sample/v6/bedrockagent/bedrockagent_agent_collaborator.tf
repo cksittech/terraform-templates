@@ -7,5 +7,7 @@ resource "aws_bedrockagent_agent_collaborator" "tf-sample-bedrockagent-agent-col
   region                     = ""
   relay_conversation_history = ""
   
-  agent_descriptor {}
+  agent_descriptor {
+    alias_arn = ""
+  }
 }

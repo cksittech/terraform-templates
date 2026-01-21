@@ -2,5 +2,8 @@ resource "aws_autoscaling_traffic_source_attachment" "tf-sample-autoscaling-traf
   autoscaling_group_name = ""
   region                 = ""
   
-  traffic_source {}
+  traffic_source {
+    identifier = ""
+    type       = ""
+  }
 }

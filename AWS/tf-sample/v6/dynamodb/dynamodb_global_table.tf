@@ -2,5 +2,7 @@ resource "aws_dynamodb_global_table" "tf-sample-dynamodb-global-table" {
   name   = ""
   region = ""
   
-  replica {}
+  replica {
+    region_name = ""
+  }
 }

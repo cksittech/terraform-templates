@@ -6,7 +6,10 @@ resource "aws_qldb_stream" "tf-sample-qldb-stream" {
   role_arn             = ""
   stream_name          = ""
   
-  kinesis_configuration {}
+  kinesis_configuration {
+    aggregation_enabled = false
+    stream_arn          = ""
+  }
   
   tags = {}
 }

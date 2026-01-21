@@ -3,8 +3,18 @@ resource "aws_resourcegroups_group" "tf-sample-resourcegroups-group" {
   name        = ""
   region      = ""
   
-  configuration {}
-  resource_query {}
+  configuration {
+    type = ""
+    
+    parameters {
+      name   = ""
+      values = []
+    }
+  }
+  resource_query {
+    query = ""
+    type  = ""
+  }
   
   tags = {}
 }

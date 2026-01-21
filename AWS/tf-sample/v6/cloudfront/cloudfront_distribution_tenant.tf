@@ -5,10 +5,29 @@ resource "aws_cloudfront_distribution_tenant" "tf-sample-cloudfront-distribution
   name                = ""
   wait_for_deployment = false
   
-  customizations {}
-  domain {}
-  managed_certificate_request {}
-  parameter {}
+  customizations {
+    certificate {
+    }
+    geo_restriction {
+      locations        = []
+      restriction_type = ""
+    }
+    web_acl {
+      action = ""
+    }
+  }
+  domain {
+    domain = ""
+  }
+  managed_certificate_request {
+    certificate_transparency_logging_preference = ""
+    primary_domain_name                         = ""
+    validation_token_host                       = ""
+  }
+  parameter {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

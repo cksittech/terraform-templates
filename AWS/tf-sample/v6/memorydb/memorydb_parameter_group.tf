@@ -5,7 +5,10 @@ resource "aws_memorydb_parameter_group" "tf-sample-memorydb-parameter-group" {
   name_prefix = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

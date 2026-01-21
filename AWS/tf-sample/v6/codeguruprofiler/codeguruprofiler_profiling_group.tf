@@ -3,7 +3,9 @@ resource "aws_codeguruprofiler_profiling_group" "tf-sample-codeguruprofiler-prof
   name             = ""
   region           = ""
   
-  agent_orchestration_config {}
+  agent_orchestration_config {
+    profiling_enabled = false
+  }
   
   tags = {}
 }

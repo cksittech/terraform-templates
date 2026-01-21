@@ -3,7 +3,9 @@ resource "aws_bedrock_inference_profile" "tf-sample-bedrock-inference-profile" {
   name        = ""
   region      = ""
   
-  model_source {}
+  model_source {
+    copy_from = ""
+  }
   
   tags = {}
 }

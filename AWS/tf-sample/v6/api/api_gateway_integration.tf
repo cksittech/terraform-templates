@@ -1,5 +1,4 @@
 resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
-  cache_key_parameters    = []
   cache_namespace         = ""
   connection_id           = ""
   connection_type         = ""
@@ -10,8 +9,6 @@ resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   integration_target      = ""
   passthrough_behavior    = ""
   region                  = ""
-  request_parameters      = {}
-  request_templates       = {}
   resource_id             = ""
   response_transfer_mode  = ""
   rest_api_id             = ""
@@ -19,5 +16,7 @@ resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   type                    = ""
   uri                     = ""
   
-  tls_config {}
+  tls_config {
+    insecure_skip_verification = false
+  }
 }

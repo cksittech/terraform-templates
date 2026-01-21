@@ -2,7 +2,15 @@ resource "aws_emrcontainers_virtual_cluster" "tf-sample-emrcontainers-virtual-cl
   name   = ""
   region = ""
   
-  container_provider {}
+  container_provider {
+    type = ""
+    
+    info {
+      eks_info {
+        namespace = ""
+      }
+    }
+  }
   
   tags = {}
 }

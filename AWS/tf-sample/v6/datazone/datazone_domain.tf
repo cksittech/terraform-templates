@@ -8,7 +8,10 @@ resource "aws_datazone_domain" "tf-sample-datazone-domain" {
   service_role          = ""
   skip_deletion_check   = false
   
-  single_sign_on {}
+  single_sign_on {
+    type            = ""
+    user_assignment = ""
+  }
   
   tags = {}
 }

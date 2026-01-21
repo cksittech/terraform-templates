@@ -3,5 +3,4 @@ resource "aws_lightsail_lb_certificate" "tf-sample-lightsail-lb-certificate" {
   lb_name                   = ""
   name                      = ""
   region                    = ""
-  subject_alternative_names = []
 }

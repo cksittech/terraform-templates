@@ -10,11 +10,20 @@ resource "aws_m2_environment" "tf-sample-m2-environment" {
   preferred_maintenance_window            = ""
   publicly_accessible                     = false
   region                                  = ""
-  security_group_ids                      = []
-  subnet_ids                              = []
   
-  high_availability_config {}
-  storage_configuration {}
+  high_availability_config {
+    desired_capacity = 0
+  }
+  storage_configuration {
+    efs {
+      file_system_id = ""
+      mount_point    = ""
+    }
+    fsx {
+      file_system_id = ""
+      mount_point    = ""
+    }
+  }
   
   tags = {}
 }

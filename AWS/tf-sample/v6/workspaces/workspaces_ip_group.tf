@@ -3,7 +3,10 @@ resource "aws_workspaces_ip_group" "tf-sample-workspaces-ip-group" {
   name        = ""
   region      = ""
   
-  rules {}
+  rules {
+    description = ""
+    source      = ""
+  }
   
   tags = {}
 }

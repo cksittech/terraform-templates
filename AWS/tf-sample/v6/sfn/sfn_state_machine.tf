@@ -7,9 +7,19 @@ resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
   role_arn    = ""
   type        = ""
   
-  encryption_configuration {}
-  logging_configuration {}
-  tracing_configuration {}
+  encryption_configuration {
+    kms_data_key_reuse_period_seconds = 0
+    kms_key_id                        = ""
+    type                              = ""
+  }
+  logging_configuration {
+    include_execution_data = false
+    level                  = ""
+    log_destination        = ""
+  }
+  tracing_configuration {
+    enabled = false
+  }
   
   tags = {}
 }

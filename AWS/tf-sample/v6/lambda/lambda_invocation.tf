@@ -6,5 +6,4 @@ resource "aws_lambda_invocation" "tf-sample-lambda-invocation" {
   region          = ""
   tenant_id       = ""
   terraform_key   = ""
-  triggers        = {}
 }

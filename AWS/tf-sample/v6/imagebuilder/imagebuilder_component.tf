@@ -7,7 +7,6 @@ resource "aws_imagebuilder_component" "tf-sample-imagebuilder-component" {
   platform              = ""
   region                = ""
   skip_destroy          = false
-  supported_os_versions = []
   uri                   = ""
   version               = ""
   

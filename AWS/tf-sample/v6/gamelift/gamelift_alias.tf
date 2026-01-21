@@ -3,7 +3,11 @@ resource "aws_gamelift_alias" "tf-sample-gamelift-alias" {
   name        = ""
   region      = ""
   
-  routing_strategy {}
+  routing_strategy {
+    fleet_id = ""
+    message  = ""
+    type     = ""
+  }
   
   tags = {}
 }

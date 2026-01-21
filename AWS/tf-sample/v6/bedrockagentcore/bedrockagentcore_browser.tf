@@ -4,8 +4,22 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   name               = ""
   region             = ""
   
-  network_configuration {}
-  recording {}
+  network_configuration {
+    network_mode = ""
+    
+    vpc_config {
+      security_groups = []
+      subnets         = []
+    }
+  }
+  recording {
+    enabled = false
+    
+    s3_location {
+      bucket = ""
+      prefix = ""
+    }
+  }
   
   tags = {}
 }

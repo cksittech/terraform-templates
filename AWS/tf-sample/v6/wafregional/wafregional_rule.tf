@@ -3,7 +3,11 @@ resource "aws_wafregional_rule" "tf-sample-wafregional-rule" {
   name        = ""
   region      = ""
   
-  predicate {}
+  predicate {
+    data_id = ""
+    negated = false
+    type    = ""
+  }
   
   tags = {}
 }

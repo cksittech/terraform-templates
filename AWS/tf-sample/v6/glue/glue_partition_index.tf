@@ -4,5 +4,8 @@ resource "aws_glue_partition_index" "tf-sample-glue-partition-index" {
   region        = ""
   table_name    = ""
   
-  partition_index {}
+  partition_index {
+    index_name = ""
+    keys       = []
+  }
 }

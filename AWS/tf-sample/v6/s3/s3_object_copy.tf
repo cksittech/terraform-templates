@@ -22,7 +22,6 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   key                           = ""
   kms_encryption_context        = ""
   kms_key_id                    = ""
-  metadata                      = {}
   metadata_directive            = ""
   object_lock_legal_hold_status = ""
   object_lock_mode              = ""
@@ -38,8 +37,16 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   tagging_directive             = ""
   website_redirect              = ""
   
-  grant {}
-  override_provider {}
+  grant {
+    email       = ""
+    permissions = []
+    type        = ""
+    uri         = ""
+  }
+  override_provider {
+    default_tags {
+    }
+  }
   
   tags = {}
 }

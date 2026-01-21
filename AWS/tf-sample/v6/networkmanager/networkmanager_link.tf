@@ -5,7 +5,10 @@ resource "aws_networkmanager_link" "tf-sample-networkmanager-link" {
   site_id           = ""
   type              = ""
   
-  bandwidth {}
+  bandwidth {
+    download_speed = 0
+    upload_speed   = 0
+  }
   
   tags = {}
 }

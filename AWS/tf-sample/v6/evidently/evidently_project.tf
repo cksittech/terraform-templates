@@ -3,7 +3,15 @@ resource "aws_evidently_project" "tf-sample-evidently-project" {
   name        = ""
   region      = ""
   
-  data_delivery {}
+  data_delivery {
+    cloudwatch_logs {
+      log_group = ""
+    }
+    s3_destination {
+      bucket = ""
+      prefix = ""
+    }
+  }
   
   tags = {}
 }

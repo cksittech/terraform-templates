@@ -3,5 +3,8 @@ resource "aws_appfabric_app_authorization_connection" "tf-sample-appfabric-app-a
   app_bundle_arn        = ""
   region                = ""
   
-  auth_request {}
+  auth_request {
+    code         = ""
+    redirect_uri = ""
+  }
 }

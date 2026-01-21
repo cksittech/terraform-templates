@@ -5,5 +5,8 @@ resource "aws_guardduty_member_detector_feature" "tf-sample-guardduty-member-det
   region      = ""
   status      = ""
   
-  additional_configuration {}
+  additional_configuration {
+    name   = ""
+    status = ""
+  }
 }

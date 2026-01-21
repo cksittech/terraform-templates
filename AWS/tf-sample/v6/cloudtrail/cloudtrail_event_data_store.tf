@@ -9,7 +9,19 @@ resource "aws_cloudtrail_event_data_store" "tf-sample-cloudtrail-event-data-stor
   suspend                        = ""
   termination_protection_enabled = false
   
-  advanced_event_selector {}
+  advanced_event_selector {
+    name = ""
+    
+    field_selector {
+      ends_with       = []
+      equals          = []
+      field           = ""
+      not_ends_with   = []
+      not_equals      = []
+      not_starts_with = []
+      starts_with     = []
+    }
+  }
   
   tags = {}
 }

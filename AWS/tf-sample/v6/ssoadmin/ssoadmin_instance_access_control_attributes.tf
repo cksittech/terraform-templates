@@ -2,5 +2,11 @@ resource "aws_ssoadmin_instance_access_control_attributes" "tf-sample-ssoadmin-i
   instance_arn = ""
   region       = ""
   
-  attribute {}
+  attribute {
+    key = ""
+    
+    value {
+      source = []
+    }
+  }
 }

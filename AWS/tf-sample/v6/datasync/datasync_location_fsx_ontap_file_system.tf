@@ -1,10 +1,24 @@
 resource "aws_datasync_location_fsx_ontap_file_system" "tf-sample-datasync-location-fsx-ontap-file-system" {
   region                      = ""
-  security_group_arns         = []
   storage_virtual_machine_arn = ""
   subdirectory                = ""
   
-  protocol {}
+  protocol {
+    nfs {
+      mount_options {
+        version = ""
+      }
+    }
+    smb {
+      domain   = ""
+      password = ""
+      user     = ""
+      
+      mount_options {
+        version = ""
+      }
+    }
+  }
   
   tags = {}
 }

@@ -8,8 +8,14 @@ resource "aws_efs_file_system" "tf-sample-efs-file-system" {
   region                          = ""
   throughput_mode                 = ""
   
-  lifecycle_policy {}
-  protection {}
+  lifecycle_policy {
+    transition_to_archive               = ""
+    transition_to_ia                    = ""
+    transition_to_primary_storage_class = ""
+  }
+  protection {
+    replication_overwrite = ""
+  }
   
   tags = {}
 }

@@ -3,5 +3,11 @@ resource "aws_chime_voice_connector_origination" "tf-sample-chime-voice-connecto
   region             = ""
   voice_connector_id = ""
   
-  route {}
+  route {
+    host     = ""
+    port     = 0
+    priority = 0
+    protocol = ""
+    weight   = 0
+  }
 }

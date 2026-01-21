@@ -4,11 +4,17 @@ resource "aws_lexv2models_bot" "tf-sample-lexv2models-bot" {
   name                        = ""
   region                      = ""
   role_arn                    = ""
-  test_bot_alias_tags         = {}
   type                        = ""
   
-  data_privacy {}
-  members {}
+  data_privacy {
+    child_directed = false
+  }
+  members {
+    alias_id   = ""
+    alias_name = ""
+    name       = ""
+    version    = ""
+  }
   
   tags = {}
 }

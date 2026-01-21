@@ -2,6 +2,10 @@ resource "aws_sesv2_account_vdm_attributes" "tf-sample-sesv2-account-vdm-attribu
   region      = ""
   vdm_enabled = ""
   
-  dashboard_attributes {}
-  guardian_attributes {}
+  dashboard_attributes {
+    engagement_metrics = ""
+  }
+  guardian_attributes {
+    optimized_shared_delivery = ""
+  }
 }

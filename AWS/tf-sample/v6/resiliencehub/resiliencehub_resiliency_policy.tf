@@ -5,7 +5,24 @@ resource "aws_resiliencehub_resiliency_policy" "tf-sample-resiliencehub-resilien
   region                   = ""
   tier                     = ""
   
-  policy {}
+  policy {
+    az {
+      rpo = ""
+      rto = ""
+    }
+    hardware {
+      rpo = ""
+      rto = ""
+    }
+    region {
+      rpo = ""
+      rto = ""
+    }
+    software {
+      rpo = ""
+      rto = ""
+    }
+  }
   
   tags = {}
 }

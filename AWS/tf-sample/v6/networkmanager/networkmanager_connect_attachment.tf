@@ -4,7 +4,9 @@ resource "aws_networkmanager_connect_attachment" "tf-sample-networkmanager-conne
   routing_policy_label    = ""
   transport_attachment_id = ""
   
-  options {}
+  options {
+    protocol = ""
+  }
   
   tags = {}
 }

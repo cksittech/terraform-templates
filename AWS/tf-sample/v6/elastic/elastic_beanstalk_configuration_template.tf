@@ -6,5 +6,10 @@ resource "aws_elastic_beanstalk_configuration_template" "tf-sample-elastic-beans
   region              = ""
   solution_stack_name = ""
   
-  setting {}
+  setting {
+    name      = ""
+    namespace = ""
+    resource  = ""
+    value     = ""
+  }
 }

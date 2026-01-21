@@ -5,7 +5,6 @@ resource "aws_api_gateway_authorizer" "tf-sample-api-gateway-authorizer" {
   identity_source                  = ""
   identity_validation_expression   = ""
   name                             = ""
-  provider_arns                    = []
   region                           = ""
   rest_api_id                      = ""
   type                             = ""

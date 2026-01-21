@@ -2,7 +2,6 @@ resource "aws_ec2_instance_connect_endpoint" "tf-sample-ec2-instance-connect-end
   ip_address_type    = ""
   preserve_client_ip = false
   region             = ""
-  security_group_ids = []
   subnet_id          = ""
   
   tags = {}

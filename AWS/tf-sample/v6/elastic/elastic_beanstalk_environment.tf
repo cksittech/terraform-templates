@@ -12,7 +12,12 @@ resource "aws_elastic_beanstalk_environment" "tf-sample-elastic-beanstalk-enviro
   version_label          = ""
   wait_for_ready_timeout = ""
   
-  setting {}
+  setting {
+    name      = ""
+    namespace = ""
+    resource  = ""
+    value     = ""
+  }
   
   tags = {}
 }

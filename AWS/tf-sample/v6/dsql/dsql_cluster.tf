@@ -4,7 +4,10 @@ resource "aws_dsql_cluster" "tf-sample-dsql-cluster" {
   kms_encryption_key          = ""
   region                      = ""
   
-  multi_region_properties {}
+  multi_region_properties {
+    clusters       = []
+    witness_region = ""
+  }
   
   tags = {}
 }

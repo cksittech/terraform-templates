@@ -2,5 +2,8 @@ resource "aws_chime_voice_connector_termination_credentials" "tf-sample-chime-vo
   region             = ""
   voice_connector_id = ""
   
-  credentials {}
+  credentials {
+    password = ""
+    username = ""
+  }
 }

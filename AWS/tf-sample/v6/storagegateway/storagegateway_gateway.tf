@@ -15,8 +15,20 @@ resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
   smb_security_strategy                       = ""
   tape_drive_type                             = ""
   
-  maintenance_start_time {}
-  smb_active_directory_settings {}
+  maintenance_start_time {
+    day_of_month   = ""
+    day_of_week    = ""
+    hour_of_day    = 0
+    minute_of_hour = 0
+  }
+  smb_active_directory_settings {
+    domain_controllers  = []
+    domain_name         = ""
+    organizational_unit = ""
+    password            = ""
+    timeout_in_seconds  = 0
+    username            = ""
+  }
   
   tags = {}
 }

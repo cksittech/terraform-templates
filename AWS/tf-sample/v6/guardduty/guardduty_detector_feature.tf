@@ -4,5 +4,8 @@ resource "aws_guardduty_detector_feature" "tf-sample-guardduty-detector-feature"
   region      = ""
   status      = ""
   
-  additional_configuration {}
+  additional_configuration {
+    name   = ""
+    status = ""
+  }
 }

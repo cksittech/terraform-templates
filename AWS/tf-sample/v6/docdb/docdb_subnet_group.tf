@@ -3,7 +3,6 @@ resource "aws_docdb_subnet_group" "tf-sample-docdb-subnet-group" {
   name        = ""
   name_prefix = ""
   region      = ""
-  subnet_ids  = []
   
   tags = {}
 }

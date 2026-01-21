@@ -3,7 +3,9 @@ resource "aws_prometheus_workspace" "tf-sample-prometheus-workspace" {
   kms_key_arn = ""
   region      = ""
   
-  logging_configuration {}
+  logging_configuration {
+    log_group_arn = ""
+  }
   
   tags = {}
 }

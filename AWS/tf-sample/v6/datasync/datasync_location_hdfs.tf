@@ -1,5 +1,4 @@
 resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
-  agent_arns                = []
   authentication_type       = ""
   block_size                = 0
   kerberos_keytab           = ""
@@ -13,8 +12,14 @@ resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   simple_user               = ""
   subdirectory              = ""
   
-  name_node {}
-  qop_configuration {}
+  name_node {
+    hostname = ""
+    port     = 0
+  }
+  qop_configuration {
+    data_transfer_protection = ""
+    rpc_protection           = ""
+  }
   
   tags = {}
 }

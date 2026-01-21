@@ -21,16 +21,35 @@ resource "aws_lb" "tf-sample-lb" {
   preserve_host_header                                         = false
   region                                                       = ""
   secondary_ips_auto_assigned_per_subnet                       = 0
-  security_groups                                              = []
-  subnets                                                      = []
   xff_header_processing_mode                                   = ""
   
-  access_logs {}
-  connection_logs {}
-  health_check_logs {}
-  ipam_pools {}
-  minimum_load_balancer_capacity {}
-  subnet_mapping {}
+  access_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
+  connection_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
+  health_check_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
+  ipam_pools {
+    ipv4_ipam_pool_id = ""
+  }
+  minimum_load_balancer_capacity {
+    capacity_units = 0
+  }
+  subnet_mapping {
+    allocation_id        = ""
+    ipv6_address         = ""
+    private_ipv4_address = ""
+    subnet_id            = ""
+  }
   
   tags = {}
 }

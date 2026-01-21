@@ -4,7 +4,14 @@ resource "aws_appmesh_virtual_router" "tf-sample-appmesh-virtual-router" {
   name       = ""
   region     = ""
   
-  spec {}
+  spec {
+    listener {
+      port_mapping {
+        port     = 0
+        protocol = ""
+      }
+    }
+  }
   
   tags = {}
 }

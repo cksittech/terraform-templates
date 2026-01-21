@@ -7,9 +7,10 @@ resource "aws_kinesis_stream" "tf-sample-kinesis-stream" {
   region                    = ""
   retention_period          = 0
   shard_count               = 0
-  shard_level_metrics       = []
   
-  stream_mode_details {}
+  stream_mode_details {
+    stream_mode = ""
+  }
   
   tags = {}
 }

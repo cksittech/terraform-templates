@@ -16,7 +16,6 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   instance_interruption_behavior       = ""
   instance_type                        = ""
   ipv6_address_count                   = 0
-  ipv6_addresses                       = []
   key_name                             = ""
   launch_group                         = ""
   monitoring                           = false
@@ -25,8 +24,6 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   placement_partition_number           = 0
   private_ip                           = ""
   region                               = ""
-  secondary_private_ips                = []
-  security_groups                      = []
   source_dest_check                    = false
   spot_price                           = ""
   spot_type                            = ""
@@ -37,22 +34,71 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   user_data_replace_on_change          = false
   valid_from                           = ""
   valid_until                          = ""
-  volume_tags                          = {}
-  vpc_security_group_ids               = []
   wait_for_fulfillment                 = false
   
-  capacity_reservation_specification {}
-  cpu_options {}
-  credit_specification {}
-  ebs_block_device {}
-  enclave_options {}
-  ephemeral_block_device {}
-  launch_template {}
-  maintenance_options {}
-  metadata_options {}
-  network_interface {}
-  private_dns_name_options {}
-  root_block_device {}
+  capacity_reservation_specification {
+    capacity_reservation_preference = ""
+    
+    capacity_reservation_target {
+      capacity_reservation_id                 = ""
+      capacity_reservation_resource_group_arn = ""
+    }
+  }
+  cpu_options {
+    amd_sev_snp      = ""
+    core_count       = 0
+    threads_per_core = 0
+  }
+  credit_specification {
+    cpu_credits = ""
+  }
+  ebs_block_device {
+    delete_on_termination = false
+    device_name           = ""
+    encrypted             = false
+    iops                  = 0
+    kms_key_id            = ""
+    snapshot_id           = ""
+    throughput            = 0
+    volume_size           = 0
+    volume_type           = ""
+  }
+  enclave_options {
+    enabled = false
+  }
+  ephemeral_block_device {
+    device_name  = ""
+    no_device    = false
+    virtual_name = ""
+  }
+  launch_template {
+    name    = ""
+    version = ""
+  }
+  maintenance_options {
+    auto_recovery = ""
+  }
+  metadata_options {
+    http_endpoint               = ""
+    http_protocol_ipv6          = ""
+    http_put_response_hop_limit = 0
+    http_tokens                 = ""
+    instance_metadata_tags      = ""
+  }
+  private_dns_name_options {
+    enable_resource_name_dns_a_record    = false
+    enable_resource_name_dns_aaaa_record = false
+    hostname_type                        = ""
+  }
+  root_block_device {
+    delete_on_termination = false
+    encrypted             = false
+    iops                  = 0
+    kms_key_id            = ""
+    throughput            = 0
+    volume_size           = 0
+    volume_type           = ""
+  }
   
   tags = {}
 }

@@ -4,5 +4,11 @@ resource "aws_servicecatalog_service_action" "tf-sample-servicecatalog-service-a
   name            = ""
   region          = ""
   
-  definition {}
+  definition {
+    assume_role = ""
+    name        = ""
+    parameters  = ""
+    type        = ""
+    version     = ""
+  }
 }

@@ -2,7 +2,6 @@ resource "aws_pinpointsmsvoicev2_phone_number" "tf-sample-pinpointsmsvoicev2-pho
   deletion_protection_enabled   = false
   iso_country_code              = ""
   message_type                  = ""
-  number_capabilities           = []
   number_type                   = ""
   opt_out_list_name             = ""
   region                        = ""

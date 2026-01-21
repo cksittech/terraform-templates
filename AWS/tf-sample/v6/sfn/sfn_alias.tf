@@ -3,5 +3,8 @@ resource "aws_sfn_alias" "tf-sample-sfn-alias" {
   name        = ""
   region      = ""
   
-  routing_configuration {}
+  routing_configuration {
+    state_machine_version_arn = ""
+    weight                    = 0
+  }
 }

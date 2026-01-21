@@ -3,8 +3,14 @@ resource "aws_networkflowmonitor_monitor" "tf-sample-networkflowmonitor-monitor"
   region       = ""
   scope_arn    = ""
   
-  local_resource {}
-  remote_resource {}
+  local_resource {
+    identifier = ""
+    type       = ""
+  }
+  remote_resource {
+    identifier = ""
+    type       = ""
+  }
   
   tags = {}
 }

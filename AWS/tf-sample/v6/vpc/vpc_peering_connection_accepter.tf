@@ -3,8 +3,12 @@ resource "aws_vpc_peering_connection_accepter" "tf-sample-vpc-peering-connection
   region                    = ""
   vpc_peering_connection_id = ""
   
-  accepter {}
-  requester {}
+  accepter {
+    allow_remote_vpc_dns_resolution = false
+  }
+  requester {
+    allow_remote_vpc_dns_resolution = false
+  }
   
   tags = {}
 }

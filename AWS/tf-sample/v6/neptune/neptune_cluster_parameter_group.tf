@@ -5,7 +5,11 @@ resource "aws_neptune_cluster_parameter_group" "tf-sample-neptune-cluster-parame
   name_prefix = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    apply_method = ""
+    name         = ""
+    value        = ""
+  }
   
   tags = {}
 }

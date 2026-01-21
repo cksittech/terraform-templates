@@ -1,5 +1,4 @@
 resource "aws_mwaa_environment" "tf-sample-mwaa-environment" {
-  airflow_configuration_options    = {}
   airflow_version                  = ""
   dag_s3_path                      = ""
   endpoint_management              = ""
@@ -24,8 +23,32 @@ resource "aws_mwaa_environment" "tf-sample-mwaa-environment" {
   weekly_maintenance_window_start  = ""
   worker_replacement_strategy      = ""
   
-  logging_configuration {}
-  network_configuration {}
+  logging_configuration {
+    dag_processing_logs {
+      enabled   = false
+      log_level = ""
+    }
+    scheduler_logs {
+      enabled   = false
+      log_level = ""
+    }
+    task_logs {
+      enabled   = false
+      log_level = ""
+    }
+    webserver_logs {
+      enabled   = false
+      log_level = ""
+    }
+    worker_logs {
+      enabled   = false
+      log_level = ""
+    }
+  }
+  network_configuration {
+    security_group_ids = []
+    subnet_ids         = []
+  }
   
   tags = {}
 }

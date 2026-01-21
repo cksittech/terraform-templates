@@ -7,5 +7,8 @@ resource "aws_lexv2models_bot_locale" "tf-sample-lexv2models-bot-locale" {
   name                             = ""
   region                           = ""
   
-  voice_settings {}
+  voice_settings {
+    engine   = ""
+    voice_id = ""
+  }
 }

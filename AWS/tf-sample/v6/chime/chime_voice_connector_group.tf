@@ -2,5 +2,8 @@ resource "aws_chime_voice_connector_group" "tf-sample-chime-voice-connector-grou
   name   = ""
   region = ""
   
-  connector {}
+  connector {
+    priority           = 0
+    voice_connector_id = ""
+  }
 }

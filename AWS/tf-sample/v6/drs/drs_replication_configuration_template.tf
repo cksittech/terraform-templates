@@ -9,12 +9,16 @@ resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication
   ebs_encryption_key_arn                  = ""
   region                                  = ""
   replication_server_instance_type        = ""
-  replication_servers_security_groups_ids = []
   staging_area_subnet_id                  = ""
-  staging_area_tags                       = {}
   use_dedicated_replication_server        = false
   
-  pit_policy {}
+  pit_policy {
+    enabled            = false
+    interval           = 0
+    retention_duration = 0
+    rule_id            = 0
+    units              = ""
+  }
   
   tags = {}
 }

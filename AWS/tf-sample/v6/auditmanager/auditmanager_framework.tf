@@ -4,7 +4,12 @@ resource "aws_auditmanager_framework" "tf-sample-auditmanager-framework" {
   name            = ""
   region          = ""
   
-  control_sets {}
+  control_sets {
+    name = ""
+    
+    controls {
+    }
+  }
   
   tags = {}
 }

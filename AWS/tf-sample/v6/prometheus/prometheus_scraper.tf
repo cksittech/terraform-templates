@@ -3,9 +3,22 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
   region               = ""
   scrape_configuration = ""
   
-  destination {}
-  role_configuration {}
-  source {}
+  destination {
+    amp {
+      workspace_arn = ""
+    }
+  }
+  role_configuration {
+    source_role_arn = ""
+    target_role_arn = ""
+  }
+  source {
+    eks {
+      cluster_arn        = ""
+      security_group_ids = []
+      subnet_ids         = []
+    }
+  }
   
   tags = {}
 }

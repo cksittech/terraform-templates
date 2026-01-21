@@ -1,7 +1,9 @@
 resource "aws_ssmincidents_replication_set" "tf-sample-ssmincidents-replication-set" {
   
-  region {}
-  regions {}
+  regions {
+    kms_key_arn = ""
+    name        = ""
+  }
   
   tags = {}
 }

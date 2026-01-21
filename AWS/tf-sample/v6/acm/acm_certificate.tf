@@ -7,11 +7,16 @@ resource "aws_acm_certificate" "tf-sample-acm-certificate" {
   key_algorithm             = ""
   private_key               = ""
   region                    = ""
-  subject_alternative_names = []
   validation_method         = ""
   
-  options {}
-  validation_option {}
+  options {
+    certificate_transparency_logging_preference = ""
+    export                                      = ""
+  }
+  validation_option {
+    domain_name       = ""
+    validation_domain = ""
+  }
   
   tags = {}
 }

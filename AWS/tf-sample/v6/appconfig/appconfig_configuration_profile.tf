@@ -8,7 +8,10 @@ resource "aws_appconfig_configuration_profile" "tf-sample-appconfig-configuratio
   retrieval_role_arn = ""
   type               = ""
   
-  validator {}
+  validator {
+    content = ""
+    type    = ""
+  }
   
   tags = {}
 }

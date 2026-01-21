@@ -5,5 +5,8 @@ resource "aws_lex_slot_type" "tf-sample-lex-slot-type" {
   region                   = ""
   value_selection_strategy = ""
   
-  enumeration_value {}
+  enumeration_value {
+    synonyms = []
+    value    = ""
+  }
 }

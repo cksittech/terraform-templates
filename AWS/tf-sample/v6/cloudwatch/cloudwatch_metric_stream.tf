@@ -7,9 +7,22 @@ resource "aws_cloudwatch_metric_stream" "tf-sample-cloudwatch-metric-stream" {
   region                          = ""
   role_arn                        = ""
   
-  exclude_filter {}
-  include_filter {}
-  statistics_configuration {}
+  exclude_filter {
+    metric_names = []
+    namespace    = ""
+  }
+  include_filter {
+    metric_names = []
+    namespace    = ""
+  }
+  statistics_configuration {
+    additional_statistics = []
+    
+    include_metric {
+      metric_name = ""
+      namespace   = ""
+    }
+  }
   
   tags = {}
 }

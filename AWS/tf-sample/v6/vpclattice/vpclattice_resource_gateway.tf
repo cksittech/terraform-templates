@@ -3,8 +3,6 @@ resource "aws_vpclattice_resource_gateway" "tf-sample-vpclattice-resource-gatewa
   ipv4_addresses_per_eni = 0
   name                   = ""
   region                 = ""
-  security_group_ids     = []
-  subnet_ids             = []
   vpc_id                 = ""
   
   tags = {}

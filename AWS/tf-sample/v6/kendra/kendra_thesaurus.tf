@@ -5,7 +5,10 @@ resource "aws_kendra_thesaurus" "tf-sample-kendra-thesaurus" {
   region      = ""
   role_arn    = ""
   
-  source_s3_path {}
+  source_s3_path {
+    bucket = ""
+    key    = ""
+  }
   
   tags = {}
 }

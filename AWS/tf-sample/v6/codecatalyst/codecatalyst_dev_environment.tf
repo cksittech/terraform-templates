@@ -6,7 +6,15 @@ resource "aws_codecatalyst_dev_environment" "tf-sample-codecatalyst-dev-environm
   region                     = ""
   space_name                 = ""
   
-  ides {}
-  persistent_storage {}
-  repositories {}
+  ides {
+    name    = ""
+    runtime = ""
+  }
+  persistent_storage {
+    size = 0
+  }
+  repositories {
+    branch_name     = ""
+    repository_name = ""
+  }
 }

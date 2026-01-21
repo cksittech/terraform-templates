@@ -3,7 +3,13 @@ resource "aws_iot_thing_group" "tf-sample-iot-thing-group" {
   parent_group_name = ""
   region            = ""
   
-  properties {}
+  properties {
+    description = ""
+    
+    attribute_payload {
+      attributes = {}
+    }
+  }
   
   tags = {}
 }

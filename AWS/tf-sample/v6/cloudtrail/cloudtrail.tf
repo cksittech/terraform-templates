@@ -13,9 +13,32 @@ resource "aws_cloudtrail" "tf-sample-cloudtrail" {
   s3_key_prefix                 = ""
   sns_topic_name                = ""
   
-  advanced_event_selector {}
-  event_selector {}
-  insight_selector {}
+  advanced_event_selector {
+    name = ""
+    
+    field_selector {
+      ends_with       = []
+      equals          = []
+      field           = ""
+      not_ends_with   = []
+      not_equals      = []
+      not_starts_with = []
+      starts_with     = []
+    }
+  }
+  event_selector {
+    exclude_management_event_sources = []
+    include_management_events        = false
+    read_write_type                  = ""
+    
+    data_resource {
+      type   = ""
+      values = []
+    }
+  }
+  insight_selector {
+    insight_type = ""
+  }
   
   tags = {}
 }

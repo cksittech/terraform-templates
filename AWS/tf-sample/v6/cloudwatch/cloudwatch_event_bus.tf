@@ -5,8 +5,12 @@ resource "aws_cloudwatch_event_bus" "tf-sample-cloudwatch-event-bus" {
   name               = ""
   region             = ""
   
-  dead_letter_config {}
-  log_config {}
+  dead_letter_config {
+  }
+  log_config {
+    include_detail = ""
+    level          = ""
+  }
   
   tags = {}
 }

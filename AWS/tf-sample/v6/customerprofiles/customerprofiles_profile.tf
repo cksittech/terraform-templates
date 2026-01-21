@@ -1,7 +1,6 @@
 resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   account_number         = ""
   additional_information = ""
-  attributes             = {}
   birth_date             = ""
   business_email_address = ""
   business_name          = ""
@@ -19,8 +18,52 @@ resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   phone_number           = ""
   region                 = ""
   
-  address {}
-  billing_address {}
-  mailing_address {}
-  shipping_address {}
+  address {
+    address_1   = ""
+    address_2   = ""
+    address_3   = ""
+    address_4   = ""
+    city        = ""
+    country     = ""
+    county      = ""
+    postal_code = ""
+    province    = ""
+    state       = ""
+  }
+  billing_address {
+    address_1   = ""
+    address_2   = ""
+    address_3   = ""
+    address_4   = ""
+    city        = ""
+    country     = ""
+    county      = ""
+    postal_code = ""
+    province    = ""
+    state       = ""
+  }
+  mailing_address {
+    address_1   = ""
+    address_2   = ""
+    address_3   = ""
+    address_4   = ""
+    city        = ""
+    country     = ""
+    county      = ""
+    postal_code = ""
+    province    = ""
+    state       = ""
+  }
+  shipping_address {
+    address_1   = ""
+    address_2   = ""
+    address_3   = ""
+    address_4   = ""
+    city        = ""
+    country     = ""
+    county      = ""
+    postal_code = ""
+    province    = ""
+    state       = ""
+  }
 }

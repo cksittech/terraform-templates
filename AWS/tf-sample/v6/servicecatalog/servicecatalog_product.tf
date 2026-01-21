@@ -10,7 +10,14 @@ resource "aws_servicecatalog_product" "tf-sample-servicecatalog-product" {
   support_url         = ""
   type                = ""
   
-  provisioning_artifact_parameters {}
+  provisioning_artifact_parameters {
+    description                 = ""
+    disable_template_validation = false
+    name                        = ""
+    template_physical_id        = ""
+    template_url                = ""
+    type                        = ""
+  }
   
   tags = {}
 }

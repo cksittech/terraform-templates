@@ -14,7 +14,14 @@ resource "aws_apigatewayv2_api" "tf-sample-apigatewayv2-api" {
   target                       = ""
   version                      = ""
   
-  cors_configuration {}
+  cors_configuration {
+    allow_credentials = false
+    allow_headers     = []
+    allow_methods     = []
+    allow_origins     = []
+    expose_headers    = []
+    max_age           = 0
+  }
   
   tags = {}
 }

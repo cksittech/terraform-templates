@@ -3,7 +3,9 @@ resource "aws_verifiedpermissions_policy_store" "tf-sample-verifiedpermissions-p
   description         = ""
   region              = ""
   
-  validation_settings {}
+  validation_settings {
+    mode = ""
+  }
   
   tags = {}
 }

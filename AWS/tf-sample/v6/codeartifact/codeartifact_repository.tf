@@ -5,8 +5,12 @@ resource "aws_codeartifact_repository" "tf-sample-codeartifact-repository" {
   region       = ""
   repository   = ""
   
-  external_connections {}
-  upstream {}
+  external_connections {
+    external_connection_name = ""
+  }
+  upstream {
+    repository_name = ""
+  }
   
   tags = {}
 }

@@ -3,5 +3,8 @@ resource "aws_dax_parameter_group" "tf-sample-dax-parameter-group" {
   name        = ""
   region      = ""
   
-  parameters {}
+  parameters {
+    name  = ""
+    value = ""
+  }
 }

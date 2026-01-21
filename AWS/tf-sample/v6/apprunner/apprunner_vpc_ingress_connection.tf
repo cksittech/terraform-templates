@@ -3,7 +3,10 @@ resource "aws_apprunner_vpc_ingress_connection" "tf-sample-apprunner-vpc-ingress
   region      = ""
   service_arn = ""
   
-  ingress_vpc_configuration {}
+  ingress_vpc_configuration {
+    vpc_endpoint_id = ""
+    vpc_id          = ""
+  }
   
   tags = {}
 }

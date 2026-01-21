@@ -6,9 +6,28 @@ resource "aws_elastictranscoder_pipeline" "tf-sample-elastictranscoder-pipeline"
   region          = ""
   role            = ""
   
-  content_config {}
-  content_config_permissions {}
-  notifications {}
-  thumbnail_config {}
-  thumbnail_config_permissions {}
+  content_config {
+    bucket        = ""
+    storage_class = ""
+  }
+  content_config_permissions {
+    access       = []
+    grantee      = ""
+    grantee_type = ""
+  }
+  notifications {
+    completed   = ""
+    error       = ""
+    progressing = ""
+    warning     = ""
+  }
+  thumbnail_config {
+    bucket        = ""
+    storage_class = ""
+  }
+  thumbnail_config_permissions {
+    access       = []
+    grantee      = ""
+    grantee_type = ""
+  }
 }

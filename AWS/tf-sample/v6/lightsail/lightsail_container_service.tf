@@ -5,8 +5,17 @@ resource "aws_lightsail_container_service" "tf-sample-lightsail-container-servic
   region      = ""
   scale       = 0
   
-  private_registry_access {}
-  public_domain_names {}
+  private_registry_access {
+    ecr_image_puller_role {
+      is_active = false
+    }
+  }
+  public_domain_names {
+    certificate {
+      certificate_name = ""
+      domain_names     = []
+    }
+  }
   
   tags = {}
 }

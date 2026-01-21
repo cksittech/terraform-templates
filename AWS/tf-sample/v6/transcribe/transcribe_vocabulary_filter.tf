@@ -3,7 +3,6 @@ resource "aws_transcribe_vocabulary_filter" "tf-sample-transcribe-vocabulary-fil
   region                     = ""
   vocabulary_filter_file_uri = ""
   vocabulary_filter_name     = ""
-  words                      = []
   
   tags = {}
 }

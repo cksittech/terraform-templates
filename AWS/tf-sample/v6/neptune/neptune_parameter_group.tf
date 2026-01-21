@@ -5,7 +5,11 @@ resource "aws_neptune_parameter_group" "tf-sample-neptune-parameter-group" {
   name_prefix = ""
   region      = ""
   
-  parameter {}
+  parameter {
+    apply_method = ""
+    name         = ""
+    value        = ""
+  }
   
   tags = {}
 }

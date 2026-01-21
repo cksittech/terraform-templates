@@ -1,6 +1,5 @@
 resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   acl                           = ""
-  bucket                        = ""
   bucket_key_enabled            = false
   cache_control                 = ""
   content                       = ""
@@ -11,9 +10,7 @@ resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   content_type                  = ""
   etag                          = ""
   force_destroy                 = false
-  key                           = ""
   kms_key_id                    = ""
-  metadata                      = {}
   object_lock_legal_hold_status = ""
   object_lock_mode              = ""
   object_lock_retain_until_date = ""

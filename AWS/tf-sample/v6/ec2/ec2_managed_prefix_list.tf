@@ -4,7 +4,10 @@ resource "aws_ec2_managed_prefix_list" "tf-sample-ec2-managed-prefix-list" {
   name           = ""
   region         = ""
   
-  entry {}
+  entry {
+    cidr        = ""
+    description = ""
+  }
   
   tags = {}
 }

@@ -2,5 +2,12 @@ resource "aws_ecr_registry_scanning_configuration" "tf-sample-ecr-registry-scann
   region    = ""
   scan_type = ""
   
-  rule {}
+  rule {
+    scan_frequency = ""
+    
+    repository_filter {
+      filter      = ""
+      filter_type = ""
+    }
+  }
 }

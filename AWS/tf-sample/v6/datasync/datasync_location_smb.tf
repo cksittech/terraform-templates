@@ -1,5 +1,4 @@
 resource "aws_datasync_location_smb" "tf-sample-datasync-location-smb" {
-  agent_arns      = []
   domain          = ""
   password        = ""
   region          = ""
@@ -7,7 +6,9 @@ resource "aws_datasync_location_smb" "tf-sample-datasync-location-smb" {
   subdirectory    = ""
   user            = ""
   
-  mount_options {}
+  mount_options {
+    version = ""
+  }
   
   tags = {}
 }

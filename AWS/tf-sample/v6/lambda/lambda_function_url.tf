@@ -5,5 +5,12 @@ resource "aws_lambda_function_url" "tf-sample-lambda-function-url" {
   qualifier          = ""
   region             = ""
   
-  cors {}
+  cors {
+    allow_credentials = false
+    allow_headers     = []
+    allow_methods     = []
+    allow_origins     = []
+    expose_headers    = []
+    max_age           = 0
+  }
 }

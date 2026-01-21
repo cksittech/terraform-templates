@@ -4,5 +4,7 @@ resource "aws_directory_service_shared_directory" "tf-sample-directory-service-s
   notes        = ""
   region       = ""
   
-  target {}
+  target {
+    type = ""
+  }
 }
