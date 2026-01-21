@@ -6,8 +6,11 @@ resource "aws_fms_policy" "tf-sample-fms-policy" {
   name                               = ""
   region                             = ""
   remediation_enabled                = false
+  resource_set_ids                   = []
   resource_tag_logical_operator      = ""
+  resource_tags                      = {}
   resource_type                      = ""
+  resource_type_list                 = []
   
   exclude_map {
     account = []

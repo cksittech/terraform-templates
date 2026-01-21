@@ -8,6 +8,7 @@ resource "aws_api_gateway_stage" "tf-sample-api-gateway-stage" {
   region                = ""
   rest_api_id           = ""
   stage_name            = ""
+  variables             = {}
   xray_tracing_enabled  = false
   
   access_log_settings {

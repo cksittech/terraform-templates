@@ -11,6 +11,7 @@ resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   etag                          = ""
   force_destroy                 = false
   kms_key_id                    = ""
+  metadata                      = {}
   object_lock_legal_hold_status = ""
   object_lock_mode              = ""
   object_lock_retain_until_date = ""

@@ -18,6 +18,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
   scheduling_strategy                = ""
   sigint_rollback                    = false
   task_definition                    = ""
+  triggers                           = {}
   wait_for_steady_state              = false
   
   alarms {

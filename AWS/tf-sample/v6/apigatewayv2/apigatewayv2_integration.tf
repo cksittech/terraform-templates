@@ -12,6 +12,8 @@ resource "aws_apigatewayv2_integration" "tf-sample-apigatewayv2-integration" {
   passthrough_behavior          = ""
   payload_format_version        = ""
   region                        = ""
+  request_parameters            = {}
+  request_templates             = {}
   template_selection_expression = ""
   timeout_milliseconds          = 0
   

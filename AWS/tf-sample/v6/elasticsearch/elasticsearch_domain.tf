@@ -1,5 +1,6 @@
 resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
   access_policies       = ""
+  advanced_options      = {}
   domain_name           = ""
   elasticsearch_version = ""
   region                = ""

@@ -1,5 +1,6 @@
 resource "aws_appstream_directory_config" "tf-sample-appstream-directory-config" {
   directory_name                          = ""
+  organizational_unit_distinguished_names = []
   region                                  = ""
   
   certificate_based_auth_properties {

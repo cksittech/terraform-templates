@@ -6,7 +6,10 @@ resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-ca
   major_engine_version     = ""
   name                     = ""
   region                   = ""
+  security_group_ids       = []
+  snapshot_arns_to_restore = []
   snapshot_retention_limit = 0
+  subnet_ids               = []
   user_group_id            = ""
   
   cache_usage_limits {

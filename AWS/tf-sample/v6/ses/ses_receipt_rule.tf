@@ -2,6 +2,7 @@ resource "aws_ses_receipt_rule" "tf-sample-ses-receipt-rule" {
   after         = ""
   enabled       = false
   name          = ""
+  recipients    = []
   region        = ""
   rule_set_name = ""
   scan_enabled  = false

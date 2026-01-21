@@ -3,6 +3,7 @@ resource "aws_db_subnet_group" "tf-sample-db-subnet-group" {
   name        = ""
   name_prefix = ""
   region      = ""
+  subnet_ids  = []
   
   tags = {}
 }

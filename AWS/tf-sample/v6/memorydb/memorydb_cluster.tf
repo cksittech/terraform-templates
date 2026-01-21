@@ -17,6 +17,8 @@ resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   parameter_group_name       = ""
   port                       = 0
   region                     = ""
+  security_group_ids         = []
+  snapshot_arns              = []
   snapshot_name              = ""
   snapshot_retention_limit   = 0
   snapshot_window            = ""

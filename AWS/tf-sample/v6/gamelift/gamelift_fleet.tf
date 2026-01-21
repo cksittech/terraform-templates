@@ -4,6 +4,7 @@ resource "aws_gamelift_fleet" "tf-sample-gamelift-fleet" {
   ec2_instance_type                  = ""
   fleet_type                         = ""
   instance_role_arn                  = ""
+  metric_groups                      = []
   name                               = ""
   new_game_session_protection_policy = ""
   region                             = ""

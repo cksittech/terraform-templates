@@ -1,6 +1,7 @@
 resource "aws_fsx_ontap_volume" "tf-sample-fsx-ontap-volume" {
   bypass_snaplock_enterprise_retention = false
   copy_tags_to_backups                 = false
+  final_backup_tags                    = {}
   junction_path                        = ""
   name                                 = ""
   ontap_volume_type                    = ""

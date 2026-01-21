@@ -23,15 +23,20 @@ resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-
   num_node_groups             = 0
   parameter_group_name        = ""
   port                        = 0
+  preferred_cache_cluster_azs = []
   region                      = ""
   replicas_per_node_group     = 0
   replication_group_id        = ""
+  security_group_ids          = []
+  security_group_names        = []
+  snapshot_arns               = []
   snapshot_name               = ""
   snapshot_retention_limit    = 0
   snapshot_window             = ""
   subnet_group_name           = ""
   transit_encryption_enabled  = false
   transit_encryption_mode     = ""
+  user_group_ids              = []
   
   log_delivery_configuration {
     destination      = ""

@@ -9,6 +9,7 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
   network_mode             = ""
   pid_mode                 = ""
   region                   = ""
+  requires_compatibilities = []
   skip_destroy             = false
   task_role_arn            = ""
   track_latest             = false

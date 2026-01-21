@@ -4,6 +4,7 @@ resource "aws_iot_domain_configuration" "tf-sample-iot-domain-configuration" {
   domain_name                = ""
   name                       = ""
   region                     = ""
+  server_certificate_arns    = []
   service_type               = ""
   status                     = ""
   validation_certificate_arn = ""

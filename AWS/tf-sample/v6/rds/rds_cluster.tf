@@ -2,11 +2,13 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   allocated_storage                     = 0
   allow_major_version_upgrade           = false
   apply_immediately                     = false
+  availability_zones                    = []
   backtrack_window                      = 0
   backup_retention_period               = 0
   ca_certificate_identifier             = ""
   cluster_identifier                    = ""
   cluster_identifier_prefix             = ""
+  cluster_members                       = []
   cluster_scalability_type              = ""
   copy_tags_to_snapshot                 = false
   database_insights_mode                = ""
@@ -23,6 +25,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   enable_global_write_forwarding        = false
   enable_http_endpoint                  = false
   enable_local_write_forwarding         = false
+  enabled_cloudwatch_logs_exports       = []
   engine                                = ""
   engine_lifecycle_support              = ""
   engine_mode                           = ""
@@ -30,6 +33,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   final_snapshot_identifier             = ""
   global_cluster_identifier             = ""
   iam_database_authentication_enabled   = false
+  iam_roles                             = []
   iops                                  = 0
   kms_key_id                            = ""
   manage_master_user_password           = false
@@ -54,6 +58,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   source_region                         = ""
   storage_encrypted                     = false
   storage_type                          = ""
+  vpc_security_group_ids                = []
   
   restore_to_point_in_time {
     restore_to_time            = ""

@@ -6,6 +6,7 @@ resource "aws_gamelift_game_server_group" "tf-sample-gamelift-game-server-group"
   min_size                      = 0
   region                        = ""
   role_arn                      = ""
+  vpc_subnets                   = []
   
   auto_scaling_policy {
     estimated_instance_warmup = 0

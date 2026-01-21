@@ -3,6 +3,7 @@ resource "aws_vpc_ipam_pool" "tf-sample-vpc-ipam-pool" {
   allocation_default_netmask_length = 0
   allocation_max_netmask_length     = 0
   allocation_min_netmask_length     = 0
+  allocation_resource_tags          = {}
   auto_import                       = false
   aws_service                       = ""
   cascade                           = false

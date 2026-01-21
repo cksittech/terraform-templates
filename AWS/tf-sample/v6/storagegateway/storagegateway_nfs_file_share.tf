@@ -1,6 +1,7 @@
 resource "aws_storagegateway_nfs_file_share" "tf-sample-storagegateway-nfs-file-share" {
   audit_destination_arn   = ""
   bucket_region           = ""
+  client_list             = []
   default_storage_class   = ""
   file_share_name         = ""
   gateway_arn             = ""

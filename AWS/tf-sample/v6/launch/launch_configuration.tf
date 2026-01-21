@@ -10,6 +10,7 @@ resource "aws_launch_configuration" "tf-sample-launch-configuration" {
   name_prefix                 = ""
   placement_tenancy           = ""
   region                      = ""
+  security_groups             = []
   spot_price                  = ""
   user_data                   = ""
   user_data_base64            = ""

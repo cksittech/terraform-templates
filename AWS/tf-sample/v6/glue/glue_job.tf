@@ -1,4 +1,6 @@
 resource "aws_glue_job" "tf-sample-glue-job" {
+  connections               = []
+  default_arguments         = {}
   description               = ""
   execution_class           = ""
   glue_version              = ""
@@ -8,6 +10,7 @@ resource "aws_glue_job" "tf-sample-glue-job" {
   max_capacity              = 0
   max_retries               = 0
   name                      = ""
+  non_overridable_arguments = {}
   number_of_workers         = 0
   region                    = ""
   role_arn                  = ""

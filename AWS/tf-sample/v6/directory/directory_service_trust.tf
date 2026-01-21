@@ -1,4 +1,5 @@
 resource "aws_directory_service_trust" "tf-sample-directory-service-trust" {
+  conditional_forwarder_ip_addrs          = []
   delete_associated_conditional_forwarder = false
   directory_id                            = ""
   region                                  = ""

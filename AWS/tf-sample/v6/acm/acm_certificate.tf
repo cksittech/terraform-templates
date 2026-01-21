@@ -7,6 +7,7 @@ resource "aws_acm_certificate" "tf-sample-acm-certificate" {
   key_algorithm             = ""
   private_key               = ""
   region                    = ""
+  subject_alternative_names = []
   validation_method         = ""
   
   options {

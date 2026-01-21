@@ -1,4 +1,5 @@
 resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
+  approved_patches                             = []
   approved_patches_compliance_level            = ""
   approved_patches_enable_non_security         = false
   available_security_updates_compliance_status = ""
@@ -6,6 +7,7 @@ resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
   name                                         = ""
   operating_system                             = ""
   region                                       = ""
+  rejected_patches                             = []
   rejected_patches_action                      = ""
   
   approval_rule {

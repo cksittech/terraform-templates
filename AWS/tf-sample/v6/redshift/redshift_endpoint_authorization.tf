@@ -3,4 +3,5 @@ resource "aws_redshift_endpoint_authorization" "tf-sample-redshift-endpoint-auth
   cluster_identifier = ""
   force_delete       = false
   region             = ""
+  vpc_ids            = []
 }

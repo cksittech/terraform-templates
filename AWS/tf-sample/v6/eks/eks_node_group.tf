@@ -4,11 +4,14 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   cluster_name           = ""
   disk_size              = 0
   force_update_version   = false
+  instance_types         = []
+  labels                 = {}
   node_group_name        = ""
   node_group_name_prefix = ""
   node_role_arn          = ""
   region                 = ""
   release_version        = ""
+  subnet_ids             = []
   version                = ""
   
   launch_template {

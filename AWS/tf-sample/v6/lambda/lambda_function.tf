@@ -1,4 +1,5 @@
 resource "aws_lambda_function" "tf-sample-lambda-function" {
+  architectures                      = []
   code_sha256                        = ""
   code_signing_config_arn            = ""
   description                        = ""
@@ -7,12 +8,14 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   handler                            = ""
   image_uri                          = ""
   kms_key_arn                        = ""
+  layers                             = []
   memory_size                        = 0
   package_type                       = ""
   publish                            = false
   publish_to                         = ""
   region                             = ""
   replace_security_groups_on_destroy = false
+  replacement_security_group_ids     = []
   reserved_concurrent_executions     = 0
   role                               = ""
   runtime                            = ""

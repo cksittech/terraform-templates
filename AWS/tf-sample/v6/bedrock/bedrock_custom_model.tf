@@ -3,6 +3,7 @@ resource "aws_bedrock_custom_model" "tf-sample-bedrock-custom-model" {
   custom_model_kms_key_id = ""
   custom_model_name       = ""
   customization_type      = ""
+  hyperparameters         = {}
   job_name                = ""
   region                  = ""
   role_arn                = ""

@@ -11,9 +11,11 @@ resource "aws_transfer_server" "tf-sample-transfer-server" {
   logging_role                     = ""
   post_authentication_login_banner = ""
   pre_authentication_login_banner  = ""
+  protocols                        = []
   region                           = ""
   security_policy_name             = ""
   sftp_authentication_methods      = ""
+  structured_log_destinations      = []
   url                              = ""
   
   endpoint_details {

@@ -1,6 +1,8 @@
 resource "aws_lakeformation_permissions" "tf-sample-lakeformation-permissions" {
   catalog_id                    = ""
   catalog_resource              = false
+  permissions                   = []
+  permissions_with_grant_option = []
   principal                     = ""
   region                        = ""
   

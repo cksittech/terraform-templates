@@ -1,7 +1,10 @@
 resource "aws_glue_connection" "tf-sample-glue-connection" {
+  athena_properties     = {}
   catalog_id            = ""
+  connection_properties = {}
   connection_type       = ""
   description           = ""
+  match_criteria        = []
   name                  = ""
   region                = ""
   

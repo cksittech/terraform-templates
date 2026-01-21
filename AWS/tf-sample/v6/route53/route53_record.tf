@@ -3,6 +3,7 @@ resource "aws_route53_record" "tf-sample-route53-record" {
   health_check_id                  = ""
   multivalue_answer_routing_policy = false
   name                             = ""
+  records                          = []
   set_identifier                   = ""
   ttl                              = 0
   type                             = ""

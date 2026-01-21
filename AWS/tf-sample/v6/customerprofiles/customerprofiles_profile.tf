@@ -1,6 +1,7 @@
 resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   account_number         = ""
   additional_information = ""
+  attributes             = {}
   birth_date             = ""
   business_email_address = ""
   business_name          = ""

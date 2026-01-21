@@ -5,6 +5,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
   region        = ""
   rule_json     = ""
   scope         = ""
+  token_domains = []
   
   association_config {
     request_body {

@@ -1,4 +1,5 @@
 resource "aws_mwaa_environment" "tf-sample-mwaa-environment" {
+  airflow_configuration_options    = {}
   airflow_version                  = ""
   dag_s3_path                      = ""
   endpoint_management              = ""

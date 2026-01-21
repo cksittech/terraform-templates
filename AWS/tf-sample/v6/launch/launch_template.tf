@@ -13,8 +13,10 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   name_prefix                          = ""
   ram_disk_id                          = ""
   region                               = ""
+  security_group_names                 = []
   update_default_version               = false
   user_data                            = ""
+  vpc_security_group_ids               = []
   
   block_device_mappings {
     device_name  = ""

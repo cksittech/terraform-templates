@@ -5,6 +5,7 @@ resource "aws_db_snapshot_copy" "tf-sample-db-snapshot-copy" {
   option_group_name               = ""
   presigned_url                   = ""
   region                          = ""
+  shared_accounts                 = []
   source_db_snapshot_identifier   = ""
   target_custom_availability_zone = ""
   target_db_snapshot_identifier   = ""

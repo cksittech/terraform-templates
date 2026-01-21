@@ -3,6 +3,8 @@ resource "aws_api_gateway_integration_response" "tf-sample-api-gateway-integrati
   http_method         = ""
   region              = ""
   resource_id         = ""
+  response_parameters = {}
+  response_templates  = {}
   rest_api_id         = ""
   selection_pattern   = ""
   status_code         = ""

@@ -5,7 +5,9 @@ resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-servic
   health_check_path       = ""
   infrastructure_role_arn = ""
   memory                  = ""
+  network_configuration   = []
   region                  = ""
+  scaling_target          = []
   service_name            = ""
   task_role_arn           = ""
   wait_for_steady_state   = false

@@ -14,6 +14,8 @@ resource "aws_timestreaminfluxdb_db_cluster" "tf-sample-timestreaminfluxdb-db-cl
   publicly_accessible           = false
   region                        = ""
   username                      = ""
+  vpc_security_group_ids        = []
+  vpc_subnet_ids                = []
   
   log_delivery_configuration {
     s3_configuration {

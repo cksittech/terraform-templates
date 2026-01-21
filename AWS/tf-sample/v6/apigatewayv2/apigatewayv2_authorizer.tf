@@ -6,6 +6,7 @@ resource "aws_apigatewayv2_authorizer" "tf-sample-apigatewayv2-authorizer" {
   authorizer_type                   = ""
   authorizer_uri                    = ""
   enable_simple_responses           = false
+  identity_sources                  = []
   name                              = ""
   region                            = ""
   
