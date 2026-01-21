@@ -7,7 +7,6 @@ resource "tencentcloud_as_scaling_policy" "tf-sample-as-scaling-policy" {
   disable_scale_in            = false
   estimated_instance_warmup   = 0
   metric_name                 = ""
-  notification_user_group_ids = []
   period                      = 0
   policy_name                 = ""
   policy_type                 = ""

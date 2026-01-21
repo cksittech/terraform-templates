@@ -1,5 +1,4 @@
 resource "tencentcloud_apm_instance" "tf-sample-apm-instance" {
-  custom_show_tags                      = []
   dashboard_topic_id                    = ""
   description                           = ""
   err_rate_threshold                    = 0

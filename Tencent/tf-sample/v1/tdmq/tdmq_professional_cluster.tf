@@ -5,9 +5,11 @@ resource "tencentcloud_tdmq_professional_cluster" "tf-sample-tdmq-professional-c
   product_name    = ""
   storage_size    = 0
   time_span       = 0
-  zone_ids        = []
   
-  vpc {}
+  vpc {
+    subnet_id = ""
+    vpc_id    = ""
+  }
   
   tags = {}
 }

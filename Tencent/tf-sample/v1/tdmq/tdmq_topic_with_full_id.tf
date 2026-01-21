@@ -5,5 +5,4 @@ resource "tencentcloud_tdmq_topic_with_full_id" "tf-sample-tdmq-topic-with-full-
   pulsar_topic_type = 0
   remark            = ""
   topic_name        = ""
-  topic_type        = 0
 }

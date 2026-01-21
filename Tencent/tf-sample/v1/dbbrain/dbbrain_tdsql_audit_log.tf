@@ -5,5 +5,12 @@ resource "tencentcloud_dbbrain_tdsql_audit_log" "tf-sample-dbbrain-tdsql-audit-l
   product           = ""
   start_time        = ""
   
-  filter {}
+  filter {
+    affect_rows = 0
+    db_name     = []
+    exec_time   = 0
+    host        = []
+    sent_rows   = 0
+    user        = []
+  }
 }

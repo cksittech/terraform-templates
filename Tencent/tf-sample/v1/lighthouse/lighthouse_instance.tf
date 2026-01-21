@@ -8,10 +8,31 @@ resource "tencentcloud_lighthouse_instance" "tf-sample-lighthouse-instance" {
   is_update_bundle_id_auto_voucher = false
   isolate_data_disk                = false
   period                           = 0
-  permit_default_key_pair_login    = ""
   renew_flag                       = ""
   zone                             = ""
   
-  containers {}
-  login_configuration {}
+  containers {
+    command         = ""
+    container_image = ""
+    container_name  = ""
+    
+    envs {
+      key   = ""
+      value = ""
+    }
+    publish_ports {
+      container_port = 0
+      host_port      = 0
+      ip             = ""
+      protocol       = ""
+    }
+    volumes {
+      container_path = ""
+      host_path      = ""
+    }
+  }
+  login_configuration {
+    auto_generate_password = ""
+    password               = ""
+  }
 }

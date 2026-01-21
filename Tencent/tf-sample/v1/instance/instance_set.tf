@@ -5,7 +5,6 @@ resource "tencentcloud_instance_set" "tf-sample-instance-set" {
   cam_role_name              = ""
   disable_monitor_service    = false
   disable_security_service   = false
-  exclude_instance_ids       = []
   hostname                   = ""
   image_id                   = ""
   instance_charge_type       = ""
@@ -20,7 +19,6 @@ resource "tencentcloud_instance_set" "tf-sample-instance-set" {
   placement_group_id         = ""
   private_ip                 = ""
   project_id                 = 0
-  security_groups            = []
   subnet_id                  = ""
   system_disk_id             = ""
   system_disk_size           = 0

@@ -12,5 +12,10 @@ resource "tencentcloud_cls_scheduled_sql" "tf-sample-cls-scheduled-sql" {
   src_topic_region      = ""
   syntax_rule           = 0
   
-  dst_resource {}
+  dst_resource {
+    biz_type    = 0
+    metric_name = ""
+    region      = ""
+    topic_id    = ""
+  }
 }

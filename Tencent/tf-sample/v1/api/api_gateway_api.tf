@@ -52,15 +52,75 @@ resource "tencentcloud_api_gateway_api" "tf-sample-api-gateway-api" {
   token_timeout                                         = 0
   user_type                                             = ""
   
-  constant_parameters {}
-  micro_services {}
-  oauth_config {}
-  request_parameters {}
-  response_error_codes {}
-  service_config_cos_config {}
-  service_parameters {}
-  service_tsf_health_check_conf {}
-  service_tsf_load_balance_conf {}
-  target_services {}
-  target_services_health_check_conf {}
+  constant_parameters {
+    default_value = ""
+    desc          = ""
+    name          = ""
+    position      = ""
+  }
+  micro_services {
+    cluster_id         = ""
+    micro_service_name = ""
+    namespace_id       = ""
+  }
+  oauth_config {
+    login_redirect_url = ""
+    public_key         = ""
+    token_location     = ""
+  }
+  request_parameters {
+    default_value = ""
+    desc          = ""
+    name          = ""
+    position      = ""
+    required      = false
+    type          = ""
+  }
+  response_error_codes {
+    code           = 0
+    converted_code = 0
+    desc           = ""
+    msg            = ""
+    need_convert   = false
+  }
+  service_config_cos_config {
+    action          = ""
+    authorization   = false
+    bucket_name     = ""
+    path_match_mode = ""
+  }
+  service_parameters {
+    default_value                       = ""
+    name                                = ""
+    position                            = ""
+    relevant_request_parameter_desc     = ""
+    relevant_request_parameter_name     = ""
+    relevant_request_parameter_position = ""
+    relevant_request_parameter_type     = ""
+  }
+  service_tsf_health_check_conf {
+    error_threshold_percentage   = 0
+    is_health_check              = false
+    request_volume_threshold     = 0
+    sleep_window_in_milliseconds = 0
+  }
+  service_tsf_load_balance_conf {
+    is_load_balance        = false
+    method                 = ""
+    session_stick_required = false
+    session_stick_timeout  = 0
+  }
+  target_services {
+    docker_ip = ""
+    host_ip   = ""
+    vm_ip     = ""
+    vm_port   = 0
+    vpc_id    = ""
+  }
+  target_services_health_check_conf {
+    error_threshold_percentage   = 0
+    is_health_check              = false
+    request_volume_threshold     = 0
+    sleep_window_in_milliseconds = 0
+  }
 }

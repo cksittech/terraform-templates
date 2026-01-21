@@ -2,5 +2,11 @@ resource "tencentcloud_ci_media_smart_cover_template" "tf-sample-ci-media-smart-
   bucket = ""
   name   = ""
   
-  smart_cover {}
+  smart_cover {
+    count             = ""
+    delete_duplicates = ""
+    format            = ""
+    height            = ""
+    width             = ""
+  }
 }

@@ -8,13 +8,19 @@ resource "tencentcloud_postgresql_clone_db_instance" "tf-sample-postgresql-clone
   period               = 0
   project_id           = 0
   recovery_target_time = ""
-  security_group_ids   = []
   spec_code            = ""
   storage              = 0
   subnet_id            = ""
   sync_mode            = ""
   vpc_id               = ""
   
-  db_node_set {}
-  tag_list {}
+  db_node_set {
+    dedicated_cluster_id = ""
+    role                 = ""
+    zone                 = ""
+  }
+  tag_list {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

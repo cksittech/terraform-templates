@@ -30,9 +30,21 @@ resource "tencentcloud_vpn_connection" "tf-sample-vpn-connection" {
   vpc_id                     = ""
   vpn_gateway_id             = ""
   
-  bgp_config {}
-  health_check_config {}
-  security_group_policy {}
+  bgp_config {
+    local_bgp_ip  = ""
+    remote_bgp_ip = ""
+    tunnel_cidr   = ""
+  }
+  health_check_config {
+    probe_interval  = 0
+    probe_threshold = 0
+    probe_timeout   = 0
+    probe_type      = ""
+  }
+  security_group_policy {
+    local_cidr_block  = ""
+    remote_cidr_block = []
+  }
   
   tags = {}
 }

@@ -7,6 +7,28 @@ resource "tencentcloud_wedata_data_source" "tf-sample-wedata-data-source" {
   project_id          = ""
   type                = ""
   
-  dev_file_upload {}
-  prod_file_upload {}
+  dev_file_upload {
+    core_site   = ""
+    hbase_site  = ""
+    hdfs_site   = ""
+    hive_site   = ""
+    key_store   = ""
+    key_tab     = ""
+    krb5_conf   = ""
+    private_key = ""
+    public_key  = ""
+    trust_store = ""
+  }
+  prod_file_upload {
+    core_site   = ""
+    hbase_site  = ""
+    hdfs_site   = ""
+    hive_site   = ""
+    key_store   = ""
+    key_tab     = ""
+    krb5_conf   = ""
+    private_key = ""
+    public_key  = ""
+    trust_store = ""
+  }
 }

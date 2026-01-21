@@ -13,12 +13,20 @@ resource "tencentcloud_elasticsearch_logstash" "tf-sample-elasticsearch-logstash
   renew_flag       = ""
   subnet_id        = ""
   time_unit        = ""
-  voucher_ids      = []
   vpc_id           = ""
   zone             = ""
   
-  multi_zone_infos {}
-  operation_duration {}
+  multi_zone_infos {
+    availability_zone = ""
+    hidden            = false
+    subnet_id         = ""
+  }
+  operation_duration {
+    periods    = []
+    time_end   = ""
+    time_start = ""
+    time_zone  = ""
+  }
   
   tags = {}
 }

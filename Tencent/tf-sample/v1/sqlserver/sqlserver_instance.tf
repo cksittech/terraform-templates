@@ -4,22 +4,17 @@ resource "tencentcloud_sqlserver_instance" "tf-sample-sqlserver-instance" {
   availability_zone      = ""
   charge_type            = ""
   engine_version         = ""
-  ha_type                = ""
   maintenance_start_time = ""
   maintenance_time_span  = 0
-  maintenance_week_set   = []
   memory                 = 0
   multi_zones            = false
   name                   = ""
   period                 = 0
   project_id             = 0
-  security_groups        = []
   storage                = 0
   subnet_id              = ""
   time_zone              = ""
-  voucher_ids            = []
   vpc_id                 = ""
-  wait_switch            = 0
   
   tags = {}
 }

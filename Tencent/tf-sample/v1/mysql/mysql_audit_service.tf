@@ -3,5 +3,4 @@ resource "tencentcloud_mysql_audit_service" "tf-sample-mysql-audit-service" {
   high_log_expire_day = 0
   instance_id         = ""
   log_expire_day      = 0
-  rule_template_ids   = []
 }

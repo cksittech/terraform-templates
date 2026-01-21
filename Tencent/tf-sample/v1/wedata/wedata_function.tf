@@ -13,5 +13,10 @@ resource "tencentcloud_wedata_function" "tf-sample-wedata-function" {
   type               = ""
   usage              = ""
   
-  resource_list {}
+  resource_list {
+    md5  = ""
+    name = ""
+    path = ""
+    type = ""
+  }
 }

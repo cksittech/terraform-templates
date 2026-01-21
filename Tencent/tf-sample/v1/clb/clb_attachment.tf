@@ -5,5 +5,10 @@ resource "tencentcloud_clb_attachment" "tf-sample-clb-attachment" {
   rule_id     = ""
   url         = ""
   
-  targets {}
+  targets {
+    eni_ip      = ""
+    instance_id = ""
+    port        = 0
+    weight      = 0
+  }
 }

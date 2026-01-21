@@ -3,6 +3,5 @@ resource "tencentcloud_cdn_url_push" "tf-sample-cdn-url-push" {
   layer      = ""
   parse_m3u8 = false
   redo       = 0
-  urls       = []
   user_agent = ""
 }

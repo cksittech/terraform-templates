@@ -11,5 +11,9 @@ resource "tencentcloud_waf_log_post_ckafka_flow" "tf-sample-waf-log-post-ckafka-
   topic         = ""
   vip_type      = 0
   
-  write_config {}
+  write_config {
+    enable_body    = 0
+    enable_bot     = 0
+    enable_headers = 0
+  }
 }

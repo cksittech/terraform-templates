@@ -11,11 +11,8 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   master_region      = ""
   mem_size           = 0
   param_template_id  = 0
-  pay_type           = 0
-  period             = 0
   prepaid_period     = 0
   ro_group_id        = ""
-  security_groups    = []
   slave_deploy_mode  = 0
   subnet_id          = ""
   volume_size        = 0
@@ -23,7 +20,17 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   wait_switch        = 0
   zone               = ""
   
-  cluster_topology {}
+  cluster_topology {
+    read_only_nodes {
+      is_random_zone = false
+      node_id        = ""
+      zone           = ""
+    }
+    read_write_node {
+      node_id = ""
+      zone    = ""
+    }
+  }
   
   tags = {}
 }

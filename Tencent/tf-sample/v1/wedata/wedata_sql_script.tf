@@ -5,5 +5,12 @@ resource "tencentcloud_wedata_sql_script" "tf-sample-wedata-sql-script" {
   script_content     = ""
   script_name        = ""
   
-  script_config {}
+  script_config {
+    advance_config    = ""
+    compute_resource  = ""
+    datasource_env    = ""
+    datasource_id     = ""
+    executor_group_id = ""
+    params            = ""
+  }
 }

@@ -27,18 +27,14 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   ipv6_address_count                      = 0
   ipv6_address_type                       = ""
   keep_image_login                        = false
-  key_ids                                 = []
-  key_name                                = ""
   launch_template_id                      = ""
   launch_template_version                 = 0
-  orderly_security_groups                 = []
   password                                = ""
   placement_group_id                      = ""
   private_ip                              = ""
   project_id                              = 0
   release_address                         = false
   running_flag                            = false
-  security_groups                         = []
   spot_instance_type                      = ""
   spot_max_price                          = ""
   stop_type                               = ""
@@ -54,7 +50,18 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   user_data_replace_on_change             = false
   vpc_id                                  = ""
   
-  data_disks {}
+  data_disks {
+    data_disk_id                 = ""
+    data_disk_name               = ""
+    data_disk_size               = 0
+    data_disk_snapshot_id        = ""
+    data_disk_type               = ""
+    delete_with_instance         = false
+    delete_with_instance_prepaid = false
+    encrypt                      = false
+    kms_key_id                   = ""
+    throughput_performance       = 0
+  }
   
   tags = {}
 }

@@ -3,5 +3,10 @@ resource "tencentcloud_igtm_address_pool" "tf-sample-igtm-address-pool" {
   pool_name        = ""
   traffic_strategy = ""
   
-  address_set {}
+  address_set {
+    addr      = ""
+    is_enable = ""
+    location  = ""
+    weight    = 0
+  }
 }

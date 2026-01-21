@@ -29,7 +29,24 @@ resource "tencentcloud_dlc_data_engine" "tf-sample-dlc-data-engine" {
   time_unit              = ""
   tolerable_queue_time   = 0
   
-  crontab_resume_suspend_strategy {}
-  data_engine_config_pairs {}
-  session_resource_template {}
+  crontab_resume_suspend_strategy {
+    resume_time      = ""
+    suspend_strategy = 0
+    suspend_time     = ""
+  }
+  data_engine_config_pairs {
+    config_item  = ""
+    config_value = ""
+  }
+  session_resource_template {
+    driver_size          = ""
+    executor_max_numbers = 0
+    executor_nums        = 0
+    executor_size        = ""
+    
+    running_time_parameters {
+      config_item  = ""
+      config_value = ""
+    }
+  }
 }

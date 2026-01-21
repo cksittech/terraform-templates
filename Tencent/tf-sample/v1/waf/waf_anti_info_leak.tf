@@ -5,5 +5,8 @@ resource "tencentcloud_waf_anti_info_leak" "tf-sample-waf-anti-info-leak" {
   status      = 0
   uri         = ""
   
-  strategies {}
+  strategies {
+    content = ""
+    field   = ""
+  }
 }

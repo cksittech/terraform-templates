@@ -10,7 +10,10 @@ resource "tencentcloud_mqtt_instance" "tf-sample-mqtt-instance" {
   sku_code             = ""
   time_span            = 0
   
-  vpc_list {}
+  vpc_list {
+    subnet_id = ""
+    vpc_id    = ""
+  }
   
   tags = {}
 }

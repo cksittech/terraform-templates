@@ -4,5 +4,12 @@ resource "tencentcloud_cynosdb_backup_config" "tf-sample-cynosdb-backup-config" 
   cluster_id       = ""
   reserve_duration = 0
   
-  logic_backup_config {}
+  logic_backup_config {
+    logic_backup_enable        = ""
+    logic_backup_time_beg      = 0
+    logic_backup_time_end      = 0
+    logic_cross_regions        = []
+    logic_cross_regions_enable = ""
+    logic_reserve_duration     = 0
+  }
 }

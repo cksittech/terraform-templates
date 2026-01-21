@@ -17,8 +17,51 @@ resource "tencentcloud_oceanus_job_config" "tf-sample-oceanus-job-config" {
   task_manager_spec   = 0
   work_space_id       = ""
   
-  clazz_levels {}
-  expert_mode_configuration {}
-  properties {}
-  resource_refs {}
+  clazz_levels {
+    clazz = ""
+    level = ""
+  }
+  expert_mode_configuration {
+    job_graph {
+      edges {
+        source = 0
+        target = 0
+      }
+      nodes {
+        description = ""
+        name        = ""
+        parallelism = 0
+      }
+    }
+    node_config {
+      parallelism        = 0
+      slot_sharing_group = ""
+      state_ttl          = ""
+      
+      configuration {
+        key   = ""
+        value = ""
+      }
+    }
+    slot_sharing_groups {
+      description = ""
+      name        = ""
+      
+      spec {
+        cpu             = 0
+        heap_memory     = ""
+        managed_memory  = ""
+        off_heap_memory = ""
+      }
+    }
+  }
+  properties {
+    key   = ""
+    value = ""
+  }
+  resource_refs {
+    resource_id = ""
+    type        = 0
+    version     = 0
+  }
 }

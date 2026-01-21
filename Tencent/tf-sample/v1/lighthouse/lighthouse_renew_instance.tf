@@ -3,5 +3,8 @@ resource "tencentcloud_lighthouse_renew_instance" "tf-sample-lighthouse-renew-in
   instance_id     = ""
   renew_data_disk = false
   
-  instance_charge_prepaid {}
+  instance_charge_prepaid {
+    period     = 0
+    renew_flag = ""
+  }
 }

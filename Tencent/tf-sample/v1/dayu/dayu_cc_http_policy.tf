@@ -8,5 +8,9 @@ resource "tencentcloud_dayu_cc_http_policy" "tf-sample-dayu-cc-http-policy" {
   smode         = ""
   switch        = false
   
-  rule_list {}
+  rule_list {
+    operator = ""
+    skey     = ""
+    value    = ""
+  }
 }

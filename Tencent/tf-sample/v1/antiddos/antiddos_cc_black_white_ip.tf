@@ -5,5 +5,8 @@ resource "tencentcloud_antiddos_cc_black_white_ip" "tf-sample-antiddos-cc-black-
   protocol    = ""
   type        = ""
   
-  black_white_ip {}
+  black_white_ip {
+    ip   = ""
+    mask = 0
+  }
 }

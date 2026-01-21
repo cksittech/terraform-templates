@@ -7,5 +7,18 @@ resource "tencentcloud_teo_acceleration_domain" "tf-sample-teo-acceleration-doma
   status            = ""
   zone_id           = ""
   
-  origin_info {}
+  origin_info {
+    backup_origin    = ""
+    host_header      = ""
+    origin           = ""
+    origin_type      = ""
+    private_access   = ""
+    vod_bucket_id    = ""
+    vod_origin_scope = ""
+    
+    private_parameters {
+      name  = ""
+      value = ""
+    }
+  }
 }

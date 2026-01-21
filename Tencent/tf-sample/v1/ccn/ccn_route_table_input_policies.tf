@@ -2,5 +2,14 @@ resource "tencentcloud_ccn_route_table_input_policies" "tf-sample-ccn-route-tabl
   ccn_id         = ""
   route_table_id = ""
   
-  policies {}
+  policies {
+    action      = ""
+    description = ""
+    
+    route_conditions {
+      match_pattern = 0
+      name          = ""
+      values        = []
+    }
+  }
 }

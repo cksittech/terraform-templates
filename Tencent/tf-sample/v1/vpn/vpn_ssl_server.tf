@@ -2,7 +2,6 @@ resource "tencentcloud_vpn_ssl_server" "tf-sample-vpn-ssl-server" {
   compress            = false
   encrypt_algorithm   = ""
   integrity_algorithm = ""
-  local_address       = []
   remote_address      = ""
   ssl_vpn_port        = 0
   ssl_vpn_protocol    = ""

@@ -7,7 +7,10 @@ resource "tencentcloud_tcr_service_account" "tf-sample-tcr-service-account" {
   password    = ""
   registry_id = ""
   
-  permissions {}
+  permissions {
+    actions  = []
+    resource = ""
+  }
   
   tags = {}
 }

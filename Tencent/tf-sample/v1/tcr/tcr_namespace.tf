@@ -6,5 +6,7 @@ resource "tencentcloud_tcr_namespace" "tf-sample-tcr-namespace" {
   name           = ""
   severity       = ""
   
-  cve_whitelist_items {}
+  cve_whitelist_items {
+    cve_id = ""
+  }
 }

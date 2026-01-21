@@ -5,5 +5,8 @@ resource "tencentcloud_mongodb_instance_account" "tf-sample-mongodb-instance-acc
   user_desc           = ""
   user_name           = ""
   
-  auth_role {}
+  auth_role {
+    mask      = 0
+    namespace = ""
+  }
 }

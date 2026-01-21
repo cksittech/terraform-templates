@@ -4,5 +4,12 @@ resource "tencentcloud_wedata_code_file" "tf-sample-wedata-code-file" {
   parent_folder_path = ""
   project_id         = ""
   
-  code_file_config {}
+  code_file_config {
+    params = ""
+    
+    notebook_session_info {
+      notebook_session_id   = ""
+      notebook_session_name = ""
+    }
+  }
 }

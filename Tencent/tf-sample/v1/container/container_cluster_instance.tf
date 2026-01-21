@@ -2,14 +2,12 @@ resource "tencentcloud_container_cluster_instance" "tf-sample-container-cluster-
   bandwidth         = 0
   bandwidth_type    = ""
   cluster_id        = ""
-  cpu               = 0
   cvm_type          = ""
   docker_graph_path = ""
   instance_name     = ""
   instance_type     = ""
   is_vpc_gateway    = 0
   key_id            = ""
-  mem               = 0
   mount_target      = ""
   password          = ""
   period            = 0

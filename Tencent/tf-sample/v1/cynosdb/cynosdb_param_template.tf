@@ -5,5 +5,8 @@ resource "tencentcloud_cynosdb_param_template" "tf-sample-cynosdb-param-template
   template_id          = 0
   template_name        = ""
   
-  param_list {}
+  param_list {
+    current_value = ""
+    param_name    = ""
+  }
 }

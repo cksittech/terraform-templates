@@ -3,8 +3,37 @@ resource "tencentcloud_ci_media_video_montage_template" "tf-sample-ci-media-vide
   duration = ""
   name     = ""
   
-  audio {}
-  audio_mix {}
-  container {}
-  video {}
+  audio {
+    bitrate    = ""
+    channels   = ""
+    codec      = ""
+    remove     = ""
+    samplerate = ""
+  }
+  audio_mix {
+    audio_source = ""
+    mix_mode     = ""
+    replace      = ""
+    
+    effect_config {
+      bgm_fade_time       = ""
+      enable_bgm_fade     = ""
+      enable_end_fadeout  = ""
+      enable_start_fadein = ""
+      end_fadeout_time    = ""
+      start_fadein_time   = ""
+    }
+  }
+  container {
+    format = ""
+  }
+  video {
+    bitrate = ""
+    codec   = ""
+    crf     = ""
+    fps     = ""
+    height  = ""
+    remove  = ""
+    width   = ""
+  }
 }

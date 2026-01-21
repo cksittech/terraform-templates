@@ -9,7 +9,6 @@ resource "tencentcloud_dcx" "tf-sample-dcx" {
   name                  = ""
   network_region        = ""
   network_type          = ""
-  route_filter_prefixes = []
   route_type            = ""
   tencent_address       = ""
   vlan                  = 0

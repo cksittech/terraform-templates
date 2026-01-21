@@ -11,7 +11,17 @@ resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
   storage_type         = ""
   topic_name           = ""
   
-  extends {}
+  extends {
+    anonymous_access {
+      operations = []
+      
+      conditions {
+        attributes      = ""
+        condition_value = ""
+        rule            = 0
+      }
+    }
+  }
   
   tags = {}
 }

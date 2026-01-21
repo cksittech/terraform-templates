@@ -8,6 +8,11 @@ resource "tencentcloud_vod_super_player_config" "tf-sample-vod-super-player-conf
   scheme                                = ""
   sub_app_id                            = 0
   
-  drm_streaming_info {}
-  resolution_names {}
+  drm_streaming_info {
+    simple_aes_definition = ""
+  }
+  resolution_names {
+    min_edge_length = 0
+    name            = ""
+  }
 }

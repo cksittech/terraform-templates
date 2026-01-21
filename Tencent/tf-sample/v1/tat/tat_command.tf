@@ -11,5 +11,8 @@ resource "tencentcloud_tat_command" "tf-sample-tat-command" {
   username              = ""
   working_directory     = ""
   
-  tags {}
+  tags {
+    key   = ""
+    value = ""
+  }
 }

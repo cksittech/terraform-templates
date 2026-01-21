@@ -4,6 +4,4 @@ resource "tencentcloud_chdfs_file_system" "tf-sample-chdfs-file-system" {
   enable_ranger            = false
   file_system_name         = ""
   posix_acl                = false
-  ranger_service_addresses = []
-  super_users              = []
 }

@@ -5,5 +5,10 @@ resource "tencentcloud_antiddos_cc_precision_policy" "tf-sample-antiddos-cc-prec
   policy_action = ""
   protocol      = ""
   
-  policy_list {}
+  policy_list {
+    field_name     = ""
+    field_type     = ""
+    value          = ""
+    value_operator = ""
+  }
 }

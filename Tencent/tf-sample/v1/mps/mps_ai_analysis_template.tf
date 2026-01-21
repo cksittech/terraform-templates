@@ -2,8 +2,16 @@ resource "tencentcloud_mps_ai_analysis_template" "tf-sample-mps-ai-analysis-temp
   comment = ""
   name    = ""
   
-  classification_configure {}
-  cover_configure {}
-  frame_tag_configure {}
-  tag_configure {}
+  classification_configure {
+    switch = ""
+  }
+  cover_configure {
+    switch = ""
+  }
+  frame_tag_configure {
+    switch = ""
+  }
+  tag_configure {
+    switch = ""
+  }
 }

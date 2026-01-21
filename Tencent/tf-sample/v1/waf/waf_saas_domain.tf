@@ -5,13 +5,11 @@ resource "tencentcloud_waf_saas_domain" "tf-sample-waf-saas-domain" {
   cert                = ""
   cert_type           = 0
   cipher_template     = 0
-  ciphers             = []
   cls_status          = 0
   domain              = ""
   https_rewrite       = 0
   https_upstream_port = ""
   instance_id         = ""
-  ip_headers          = []
   is_cdn              = 0
   is_http2            = 0
   is_keep_alive       = ""
@@ -22,15 +20,18 @@ resource "tencentcloud_waf_saas_domain" "tf-sample-waf-saas-domain" {
   proxy_send_timeout  = 0
   sni_host            = ""
   sni_type            = 0
-  src_list            = []
   ssl_id              = ""
   status              = 0
   tls_version         = 0
   upstream_domain     = ""
   upstream_scheme     = ""
   upstream_type       = 0
-  weights             = []
   xff_reset           = 0
   
-  ports {}
+  ports {
+    port              = ""
+    protocol          = ""
+    upstream_port     = ""
+    upstream_protocol = ""
+  }
 }

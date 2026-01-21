@@ -6,5 +6,8 @@ resource "tencentcloud_dts_migrate_service" "tf-sample-dts-migrate-service" {
   src_database_type = ""
   src_region        = ""
   
-  tags {}
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

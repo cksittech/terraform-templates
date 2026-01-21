@@ -1,10 +1,28 @@
 resource "tencentcloud_dcdb_account_privileges" "tf-sample-dcdb-account-privileges" {
-  global_privileges = []
   instance_id       = ""
   
-  account {}
-  column_privileges {}
-  database_privileges {}
-  table_privileges {}
-  view_privileges {}
+  account {
+    host = ""
+    user = ""
+  }
+  column_privileges {
+    column     = ""
+    database   = ""
+    privileges = []
+    table      = ""
+  }
+  database_privileges {
+    database   = ""
+    privileges = []
+  }
+  table_privileges {
+    database   = ""
+    privileges = []
+    table      = ""
+  }
+  view_privileges {
+    database   = ""
+    privileges = []
+    view       = ""
+  }
 }

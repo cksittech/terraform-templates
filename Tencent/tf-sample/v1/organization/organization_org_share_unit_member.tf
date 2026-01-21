@@ -2,5 +2,7 @@ resource "tencentcloud_organization_org_share_unit_member" "tf-sample-organizati
   area    = ""
   unit_id = ""
   
-  members {}
+  members {
+    share_member_uin = 0
+  }
 }

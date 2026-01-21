@@ -14,5 +14,8 @@ resource "tencentcloud_dayu_l4_rule" "tf-sample-dayu-l4-rule" {
   session_time              = 0
   source_type               = 0
   
-  source_list {}
+  source_list {
+    source = ""
+    weight = 0
+  }
 }

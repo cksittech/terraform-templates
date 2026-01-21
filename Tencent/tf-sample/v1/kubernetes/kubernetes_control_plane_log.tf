@@ -3,5 +3,10 @@ resource "tencentcloud_kubernetes_control_plane_log" "tf-sample-kubernetes-contr
   cluster_type             = ""
   delete_log_set_and_topic = false
   
-  components {}
+  components {
+    log_set_id   = ""
+    name         = ""
+    topic_id     = ""
+    topic_region = ""
+  }
 }

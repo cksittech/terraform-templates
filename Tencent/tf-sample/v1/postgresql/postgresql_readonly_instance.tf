@@ -12,10 +12,8 @@ resource "tencentcloud_postgresql_readonly_instance" "tf-sample-postgresql-reado
   period                = 0
   project_id            = 0
   read_only_group_id    = ""
-  security_groups_ids   = []
   storage               = 0
   subnet_id             = ""
-  voucher_ids           = []
   vpc_id                = ""
   wait_switch           = 0
   zone                  = ""

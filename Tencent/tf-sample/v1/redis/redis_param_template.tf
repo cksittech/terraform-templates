@@ -4,5 +4,8 @@ resource "tencentcloud_redis_param_template" "tf-sample-redis-param-template" {
   product_type = 0
   template_id  = ""
   
-  params_override {}
+  params_override {
+    key   = ""
+    value = ""
+  }
 }

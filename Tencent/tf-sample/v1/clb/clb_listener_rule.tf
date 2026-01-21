@@ -4,7 +4,6 @@ resource "tencentcloud_clb_listener_rule" "tf-sample-clb-listener-rule" {
   certificate_ssl_mode       = ""
   clb_id                     = ""
   domain                     = ""
-  domains                    = []
   forward_type               = ""
   health_check_health_num    = 0
   health_check_http_code     = 0
@@ -26,6 +25,12 @@ resource "tencentcloud_clb_listener_rule" "tf-sample-clb-listener-rule" {
   target_type                = ""
   url                        = ""
   
-  multi_cert_info {}
-  oauth {}
+  multi_cert_info {
+    cert_id_list = []
+    ssl_mode     = ""
+  }
+  oauth {
+    oauth_enable         = false
+    oauth_failure_status = ""
+  }
 }

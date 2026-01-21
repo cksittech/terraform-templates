@@ -5,5 +5,9 @@ resource "tencentcloud_cynosdb_cluster_databases" "tf-sample-cynosdb-cluster-dat
   db_name       = ""
   description   = ""
   
-  user_host_privileges {}
+  user_host_privileges {
+    db_host      = ""
+    db_privilege = ""
+    db_user_name = ""
+  }
 }

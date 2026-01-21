@@ -8,5 +8,7 @@ resource "tencentcloud_teo_application_proxy" "tf-sample-teo-application-proxy" 
   status               = ""
   zone_id              = ""
   
-  ipv6 {}
+  ipv6 {
+    switch = ""
+  }
 }

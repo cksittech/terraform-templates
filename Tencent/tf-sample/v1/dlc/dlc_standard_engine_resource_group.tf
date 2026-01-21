@@ -13,7 +13,6 @@ resource "tencentcloud_dlc_standard_engine_resource_group" "tf-sample-dlc-standa
   max_concurrency            = 0
   max_executor_nums          = 0
   min_executor_nums          = 0
-  network_config_names       = []
   public_domain              = ""
   python_cu_spec             = ""
   region_name                = ""
@@ -24,6 +23,12 @@ resource "tencentcloud_dlc_standard_engine_resource_group" "tf-sample-dlc-standa
   spark_size                 = 0
   spark_spec_mode            = ""
   
-  dynamic_config_pairs {}
-  static_config_pairs {}
+  dynamic_config_pairs {
+    config_item  = ""
+    config_value = ""
+  }
+  static_config_pairs {
+    config_item  = ""
+    config_value = ""
+  }
 }

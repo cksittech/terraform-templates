@@ -8,6 +8,12 @@ resource "tencentcloud_mqtt_http_authenticator" "tf-sample-mqtt-http-authenticat
   remark          = ""
   status          = ""
   
-  body {}
-  header {}
+  body {
+    key   = ""
+    value = ""
+  }
+  header {
+    key   = ""
+    value = ""
+  }
 }

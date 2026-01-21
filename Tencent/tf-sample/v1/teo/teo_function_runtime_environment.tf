@@ -2,5 +2,9 @@ resource "tencentcloud_teo_function_runtime_environment" "tf-sample-teo-function
   function_id = ""
   zone_id     = ""
   
-  environment_variables {}
+  environment_variables {
+    key   = ""
+    type  = ""
+    value = ""
+  }
 }

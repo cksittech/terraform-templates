@@ -2,5 +2,8 @@ resource "tencentcloud_sqlserver_restore_instance" "tf-sample-sqlserver-restore-
   backup_id   = 0
   instance_id = ""
   
-  rename_restore {}
+  rename_restore {
+    new_name = ""
+    old_name = ""
+  }
 }

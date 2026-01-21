@@ -7,8 +7,15 @@ resource "tencentcloud_tcr_instance" "tf-sample-tcr-instance" {
   open_public_operation                   = false
   registry_charge_type                    = 0
   
-  replications {}
-  security_policy {}
+  replications {
+    region_id   = 0
+    region_name = ""
+    syn_tag     = false
+  }
+  security_policy {
+    cidr_block  = ""
+    description = ""
+  }
   
   tags = {}
 }

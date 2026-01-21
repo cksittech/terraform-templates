@@ -28,12 +28,85 @@ resource "tencentcloud_tsf_deploy_container_group" "tf-sample-tsf-deploy-contain
   update_type            = 0
   volume_clean           = false
   
-  agent_profile_list {}
-  envs {}
-  health_check_settings {}
-  scheduling_strategy {}
-  service_setting {}
-  volume_info_list {}
-  volume_mount_info_list {}
-  warmup_setting {}
+  agent_profile_list {
+    agent_type    = ""
+    agent_version = ""
+  }
+  envs {
+    name  = ""
+    value = ""
+    
+    value_from {
+      field_ref {
+        field_path = ""
+      }
+      resource_field_ref {
+        resource = ""
+      }
+    }
+  }
+  health_check_settings {
+    liveness_probe {
+      action_type           = ""
+      command               = []
+      failure_threshold     = 0
+      initial_delay_seconds = 0
+      path                  = ""
+      period_seconds        = 0
+      port                  = 0
+      scheme                = ""
+      success_threshold     = 0
+      timeout_seconds       = 0
+      type                  = ""
+    }
+    readiness_probe {
+      action_type           = ""
+      command               = []
+      failure_threshold     = 0
+      initial_delay_seconds = 0
+      path                  = ""
+      period_seconds        = 0
+      port                  = 0
+      scheme                = ""
+      success_threshold     = 0
+      timeout_seconds       = 0
+      type                  = ""
+    }
+  }
+  scheduling_strategy {
+    type = ""
+  }
+  service_setting {
+    access_type                      = 0
+    allow_delete_service             = false
+    disable_service                  = false
+    headless_service                 = false
+    open_session_affinity            = false
+    session_affinity_timeout_seconds = 0
+    subnet_id                        = ""
+    
+    protocol_ports {
+      node_port   = 0
+      port        = 0
+      protocol    = ""
+      target_port = 0
+    }
+  }
+  volume_info_list {
+    volume_config = ""
+    volume_name   = ""
+    volume_type   = ""
+  }
+  volume_mount_info_list {
+    read_or_write         = ""
+    volume_mount_name     = ""
+    volume_mount_path     = ""
+    volume_mount_sub_path = ""
+  }
+  warmup_setting {
+    curvature          = 0
+    enabled            = false
+    enabled_protection = false
+    warmup_time        = 0
+  }
 }

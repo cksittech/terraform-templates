@@ -6,5 +6,4 @@ resource "tencentcloud_cam_oidc_sso" "tf-sample-cam-oidc-sso" {
   mapping_filed          = ""
   response_mode          = ""
   response_type          = ""
-  scope                  = []
 }

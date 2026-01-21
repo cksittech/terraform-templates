@@ -9,7 +9,11 @@ resource "tencentcloud_trocket_rocketmq_instance" "tf-sample-trocket-rocketmq-in
   subnet_id         = ""
   vpc_id            = ""
   
-  ip_rules {}
+  ip_rules {
+    allow  = false
+    ip     = ""
+    remark = ""
+  }
   
   tags = {}
 }

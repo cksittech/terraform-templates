@@ -2,5 +2,9 @@ resource "tencentcloud_kubernetes_health_check_policy" "tf-sample-kubernetes-hea
   cluster_id = ""
   name       = ""
   
-  rules {}
+  rules {
+    auto_repair_enabled = false
+    enabled             = false
+    name                = ""
+  }
 }

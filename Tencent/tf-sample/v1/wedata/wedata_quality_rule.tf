@@ -17,7 +17,6 @@ resource "tencentcloud_wedata_quality_rule" "tf-sample-wedata-quality-rule" {
   rule_group_id                = 0
   rule_template_id             = 0
   schema_name                  = ""
-  source_engine_types          = []
   source_object_data_type_name = ""
   source_object_value          = ""
   table_id                     = ""
@@ -33,6 +32,51 @@ resource "tencentcloud_wedata_quality_rule" "tf-sample-wedata-quality-rule" {
   task_id                      = ""
   type                         = 0
   
-  compare_rule {}
-  field_config {}
+  compare_rule {
+    compute_expression = ""
+    cycle_step         = 0
+    
+    items {
+      compare_type       = 0
+      operator           = ""
+      value_compute_type = 0
+      
+      value_list {
+        value      = ""
+        value_type = 0
+      }
+    }
+  }
+  field_config {
+    table_config {
+      database_id   = ""
+      database_name = ""
+      table_id      = ""
+      table_key     = ""
+      table_name    = ""
+      
+      field_config {
+        field_data_type = ""
+        field_key       = ""
+        field_value     = ""
+        
+        value_config {
+          field_data_type = ""
+          field_key       = ""
+          field_value     = ""
+        }
+      }
+    }
+    where_config {
+      field_data_type = ""
+      field_key       = ""
+      field_value     = ""
+      
+      value_config {
+        field_data_type = ""
+        field_key       = ""
+        field_value     = ""
+      }
+    }
+  }
 }

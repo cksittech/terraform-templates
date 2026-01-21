@@ -10,5 +10,8 @@ resource "tencentcloud_dts_sync_job" "tf-sample-dts-sync-job" {
   src_database_type = ""
   src_region        = ""
   
-  tags {}
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

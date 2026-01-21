@@ -14,9 +14,20 @@ resource "tencentcloud_clickhouse_instance" "tf-sample-clickhouse-instance" {
   vpc_id              = ""
   zone                = ""
   
-  common_spec {}
-  data_spec {}
-  secondary_zone_info {}
+  common_spec {
+    count     = 0
+    disk_size = 0
+    spec_name = ""
+  }
+  data_spec {
+    count     = 0
+    disk_size = 0
+    spec_name = ""
+  }
+  secondary_zone_info {
+    secondary_subnet = ""
+    secondary_zone   = ""
+  }
   
   tags = {}
 }

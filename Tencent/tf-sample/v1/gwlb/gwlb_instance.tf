@@ -4,5 +4,8 @@ resource "tencentcloud_gwlb_instance" "tf-sample-gwlb-instance" {
   subnet_id          = ""
   vpc_id             = ""
   
-  tags {}
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

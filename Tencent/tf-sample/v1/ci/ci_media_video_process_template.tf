@@ -2,6 +2,14 @@ resource "tencentcloud_ci_media_video_process_template" "tf-sample-ci-media-vide
   bucket = ""
   name   = ""
   
-  color_enhance {}
-  ms_sharpen {}
+  color_enhance {
+    contrast   = ""
+    correction = ""
+    enable     = ""
+    saturation = ""
+  }
+  ms_sharpen {
+    enable        = ""
+    sharpen_level = ""
+  }
 }

@@ -10,5 +10,12 @@ resource "tencentcloud_cvm_import_image" "tf-sample-cvm-import-image" {
   os_type           = ""
   os_version        = ""
   
-  tag_specification {}
+  tag_specification {
+    resource_type = ""
+    
+    tags {
+      key   = ""
+      value = ""
+    }
+  }
 }

@@ -15,7 +15,6 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   master_zone_id               = ""
   network_type                 = ""
   project_id                   = 0
-  security_groups              = []
   sla_type                     = ""
   slave_zone_id                = ""
   snat_pro                     = false
@@ -27,7 +26,10 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   vpc_id                       = ""
   zone_id                      = ""
   
-  snat_ips {}
+  snat_ips {
+    ip        = ""
+    subnet_id = ""
+  }
   
   tags = {}
 }

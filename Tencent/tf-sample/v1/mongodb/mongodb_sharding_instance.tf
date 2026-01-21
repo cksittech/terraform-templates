@@ -1,6 +1,5 @@
 resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instance" {
   auto_renew_flag        = 0
-  availability_zone_list = []
   available_zone         = ""
   charge_type            = ""
   engine_version         = ""
@@ -16,7 +15,6 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
   password               = ""
   prepaid_period         = 0
   project_id             = 0
-  security_groups        = []
   shard_quantity         = 0
   subnet_id              = ""
   volume                 = 0

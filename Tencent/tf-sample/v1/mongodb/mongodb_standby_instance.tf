@@ -9,7 +9,6 @@ resource "tencentcloud_mongodb_standby_instance" "tf-sample-mongodb-standby-inst
   memory                 = 0
   prepaid_period         = 0
   project_id             = 0
-  security_groups        = []
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""

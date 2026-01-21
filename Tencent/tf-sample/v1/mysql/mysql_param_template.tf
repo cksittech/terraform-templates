@@ -6,5 +6,8 @@ resource "tencentcloud_mysql_param_template" "tf-sample-mysql-param-template" {
   template_id    = 0
   template_type  = ""
   
-  param_list {}
+  param_list {
+    current_value = ""
+    name          = ""
+  }
 }

@@ -5,5 +5,13 @@ resource "tencentcloud_vpc_private_nat_gateway_translation_acl_rule" "tf-sample-
   translation_ip        = ""
   translation_type      = ""
   
-  translation_acl_rules {}
+  translation_acl_rules {
+    action           = 0
+    description      = ""
+    destination_cidr = ""
+    destination_port = ""
+    protocol         = ""
+    source_cidr      = ""
+    source_port      = ""
+  }
 }

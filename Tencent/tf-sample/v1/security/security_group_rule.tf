@@ -9,6 +9,12 @@ resource "tencentcloud_security_group_rule" "tf-sample-security-group-rule" {
   source_sgid       = ""
   type              = ""
   
-  address_template {}
-  protocol_template {}
+  address_template {
+    group_id    = ""
+    template_id = ""
+  }
+  protocol_template {
+    group_id    = ""
+    template_id = ""
+  }
 }

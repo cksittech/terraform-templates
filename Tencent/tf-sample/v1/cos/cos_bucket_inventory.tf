@@ -4,8 +4,28 @@ resource "tencentcloud_cos_bucket_inventory" "tf-sample-cos-bucket-inventory" {
   is_enabled               = ""
   name                     = ""
   
-  destination {}
-  filter {}
-  optional_fields {}
-  schedule {}
+  destination {
+    account_id = ""
+    bucket     = ""
+    format     = ""
+    prefix     = ""
+    
+    encryption {
+      sse_cos = ""
+    }
+  }
+  filter {
+    prefix = ""
+    
+    period {
+      end_time   = ""
+      start_time = ""
+    }
+  }
+  optional_fields {
+    fields = []
+  }
+  schedule {
+    frequency = ""
+  }
 }

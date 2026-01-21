@@ -7,7 +7,6 @@ resource "tencentcloud_postgresql_instance" "tf-sample-postgresql-instance" {
   cpu                         = 0
   db_kernel_version           = ""
   db_major_version            = ""
-  db_major_vesion             = ""
   delete_protection           = false
   engine_version              = ""
   kms_cluster_id              = ""
@@ -23,15 +22,24 @@ resource "tencentcloud_postgresql_instance" "tf-sample-postgresql-instance" {
   public_access_switch        = false
   root_password               = ""
   root_user                   = ""
-  security_groups             = []
   storage                     = 0
   subnet_id                   = ""
-  voucher_ids                 = []
   vpc_id                      = ""
   wait_switch                 = 0
   
-  backup_plan {}
-  db_node_set {}
+  backup_plan {
+    backup_period                   = []
+    base_backup_retention_period    = 0
+    max_backup_start_time           = ""
+    min_backup_start_time           = ""
+    monthly_backup_period           = []
+    monthly_backup_retention_period = 0
+  }
+  db_node_set {
+    dedicated_cluster_id = ""
+    role                 = ""
+    zone                 = ""
+  }
   
   tags = {}
 }

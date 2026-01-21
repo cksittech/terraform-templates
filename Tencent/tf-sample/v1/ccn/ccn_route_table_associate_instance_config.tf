@@ -2,5 +2,8 @@ resource "tencentcloud_ccn_route_table_associate_instance_config" "tf-sample-ccn
   ccn_id         = ""
   route_table_id = ""
   
-  instances {}
+  instances {
+    instance_id   = ""
+    instance_type = ""
+  }
 }

@@ -6,5 +6,13 @@ resource "tencentcloud_oceanus_resource" "tf-sample-oceanus-resource" {
   resource_type          = 0
   work_space_id          = ""
   
-  resource_loc {}
+  resource_loc {
+    storage_type = 0
+    
+    param {
+      bucket = ""
+      path   = ""
+      region = ""
+    }
+  }
 }

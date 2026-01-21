@@ -2,7 +2,6 @@ resource "tencentcloud_css_pull_stream_task" "tf-sample-css-pull-stream-task" {
   app_name           = ""
   backup_source_type = ""
   backup_source_url  = ""
-  callback_events    = []
   callback_url       = ""
   comment            = ""
   domain_name        = ""
@@ -13,7 +12,6 @@ resource "tencentcloud_css_pull_stream_task" "tf-sample-css-pull-stream-task" {
   operator           = ""
   push_args          = ""
   source_type        = ""
-  source_urls        = []
   start_time         = ""
   status             = ""
   stream_name        = ""
@@ -21,5 +19,12 @@ resource "tencentcloud_css_pull_stream_task" "tf-sample-css-pull-stream-task" {
   vod_loop_times     = 0
   vod_refresh_type   = ""
   
-  watermark_list {}
+  watermark_list {
+    height      = 0
+    location    = 0
+    picture_url = ""
+    width       = 0
+    x_position  = 0
+    y_position  = 0
+  }
 }

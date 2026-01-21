@@ -2,5 +2,8 @@ resource "tencentcloud_identity_center_role_configuration_permission_custom_poli
   role_configuration_id = ""
   zone_id               = ""
   
-  policies {}
+  policies {
+    role_policy_document = ""
+    role_policy_name     = ""
+  }
 }

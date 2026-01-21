@@ -1,6 +1,7 @@
 resource "tencentcloud_ckafka_instance" "tf-sample-ckafka-instance" {
   band_width               = 0
   charge_type              = ""
+  custom_ssl_cert_id       = ""
   disk_size                = 0
   disk_type                = ""
   elastic_bandwidth_switch = 0
@@ -13,17 +14,22 @@ resource "tencentcloud_ckafka_instance" "tf-sample-ckafka-instance" {
   partition                = 0
   period                   = 0
   public_network           = 0
-  rebalance_time           = 0
   renew_flag               = 0
   specifications_type      = ""
   subnet_id                = ""
-  tag_set                  = {}
   upgrade_strategy         = 0
   vpc_id                   = ""
   zone_id                  = 0
-  zone_ids                 = []
   
-  config {}
-  dynamic_retention_config {}
-  tags {}
+  config {
+    auto_create_topic_enable   = false
+    default_num_partitions     = 0
+    default_replication_factor = 0
+  }
+  dynamic_retention_config {
+    bottom_retention        = 0
+    disk_quota_percentage   = 0
+    enable                  = 0
+    step_forward_percentage = 0
+  }
 }

@@ -6,5 +6,8 @@ resource "tencentcloud_cls_data_transform" "tf-sample-cls-data-transform" {
   src_topic_id = ""
   task_type    = 0
   
-  dst_resources {}
+  dst_resources {
+    alias    = ""
+    topic_id = ""
+  }
 }

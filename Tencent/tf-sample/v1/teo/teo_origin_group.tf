@@ -4,5 +4,16 @@ resource "tencentcloud_teo_origin_group" "tf-sample-teo-origin-group" {
   type        = ""
   zone_id     = ""
   
-  records {}
+  records {
+    private   = false
+    record    = ""
+    record_id = ""
+    type      = ""
+    weight    = 0
+    
+    private_parameters {
+      name  = ""
+      value = ""
+    }
+  }
 }

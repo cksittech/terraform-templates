@@ -12,8 +12,6 @@ resource "tencentcloud_sqlserver_general_cloud_ro_instance" "tf-sample-sqlserver
   read_only_group_min_in_group     = 0
   read_only_group_name             = ""
   read_only_group_type             = 0
-  resource_tags                    = {}
-  security_group_list              = []
   storage                          = 0
   subnet_id                        = ""
   time_zone                        = ""

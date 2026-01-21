@@ -3,5 +3,10 @@ resource "tencentcloud_ci_media_voice_separate_template" "tf-sample-ci-media-voi
   bucket     = ""
   name       = ""
   
-  audio_config {}
+  audio_config {
+    bitrate    = ""
+    channels   = ""
+    codec      = ""
+    samplerate = ""
+  }
 }

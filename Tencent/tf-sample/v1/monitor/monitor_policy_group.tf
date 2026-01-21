@@ -5,6 +5,18 @@ resource "tencentcloud_monitor_policy_group" "tf-sample-monitor-policy-group" {
   project_id       = 0
   remark           = ""
   
-  conditions {}
-  event_conditions {}
+  conditions {
+    alarm_notify_period = 0
+    alarm_notify_type   = 0
+    calc_period         = 0
+    calc_type           = 0
+    calc_value          = 0
+    continue_period     = 0
+    metric_id           = 0
+  }
+  event_conditions {
+    alarm_notify_period = 0
+    alarm_notify_type   = 0
+    event_id            = 0
+  }
 }

@@ -3,6 +3,12 @@ resource "tencentcloud_tcm_tracing_config" "tf-sample-tcm-tracing-config" {
   mesh_id  = ""
   sampling = 0
   
-  apm {}
-  zipkin {}
+  apm {
+    enable      = false
+    instance_id = ""
+    region      = ""
+  }
+  zipkin {
+    address = ""
+  }
 }

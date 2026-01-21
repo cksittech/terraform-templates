@@ -4,7 +4,6 @@ resource "tencentcloud_organization_org_member" "tf-sample-organization-org-memb
   name                 = ""
   node_id              = 0
   pay_uin              = ""
-  permission_ids       = []
   policy_type          = ""
   record_id            = 0
   remark               = ""

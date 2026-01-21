@@ -4,11 +4,16 @@ resource "tencentcloud_invite_organization_member_operation" "tf-sample-invite-o
   name               = ""
   node_id            = 0
   pay_uin            = ""
-  permission_ids     = []
   policy_type        = ""
   relation_auth_name = ""
   remark             = ""
   
-  auth_file {}
-  tags {}
+  auth_file {
+    name = ""
+    url  = ""
+  }
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

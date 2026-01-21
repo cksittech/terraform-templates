@@ -4,5 +4,8 @@ resource "tencentcloud_tdmq_namespace" "tf-sample-tdmq-namespace" {
   msg_ttl      = 0
   remark       = ""
   
-  retention_policy {}
+  retention_policy {
+    size_in_mb      = 0
+    time_in_minutes = 0
+  }
 }

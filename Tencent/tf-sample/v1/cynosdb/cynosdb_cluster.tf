@@ -14,7 +14,6 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
   instance_cpu_core            = 0
   instance_maintain_duration   = 0
   instance_maintain_start_time = 0
-  instance_maintain_weekdays   = []
   instance_memory_size         = 0
   max_cpu                      = 0
   min_cpu                      = 0
@@ -22,11 +21,8 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
   param_template_id            = 0
   password                     = ""
   port                         = 0
-  prarm_template_id            = 0
   prepaid_period               = 0
   project_id                   = 0
-  ro_group_sg                  = []
-  rw_group_sg                  = []
   serverless_status_flag       = ""
   slave_zone                   = ""
   storage_limit                = 0
@@ -34,8 +30,22 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
   subnet_id                    = ""
   vpc_id                       = ""
   
-  instance_init_infos {}
-  param_items {}
+  instance_init_infos {
+    cpu            = 0
+    device_type    = ""
+    instance_count = 0
+    instance_type  = ""
+    max_ro_count   = 0
+    max_ro_cpu     = 0
+    memory         = 0
+    min_ro_count   = 0
+    min_ro_cpu     = 0
+  }
+  param_items {
+    current_value = ""
+    name          = ""
+    old_value     = ""
+  }
   
   tags = {}
 }

@@ -2,5 +2,8 @@ resource "tencentcloud_ci_media_pic_process_template" "tf-sample-ci-media-pic-pr
   bucket = ""
   name   = ""
   
-  pic_process {}
+  pic_process {
+    is_pic_info  = ""
+    process_rule = ""
+  }
 }

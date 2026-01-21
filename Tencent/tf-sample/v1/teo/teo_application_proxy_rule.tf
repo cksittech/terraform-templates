@@ -2,8 +2,6 @@ resource "tencentcloud_teo_application_proxy_rule" "tf-sample-teo-application-pr
   forward_client_ip = ""
   origin_port       = ""
   origin_type       = ""
-  origin_value      = []
-  port              = []
   proto             = ""
   proxy_id          = ""
   session_persist   = false

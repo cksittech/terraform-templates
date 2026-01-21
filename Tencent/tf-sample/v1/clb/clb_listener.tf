@@ -39,5 +39,8 @@ resource "tencentcloud_clb_listener" "tf-sample-clb-listener" {
   sni_switch                    = false
   target_type                   = ""
   
-  multi_cert_info {}
+  multi_cert_info {
+    cert_id_list = []
+    ssl_mode     = ""
+  }
 }

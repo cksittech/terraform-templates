@@ -9,7 +9,6 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
   dns_cache         = false
   enable_eip_config = false
   enable_public_net = false
-  environment       = {}
   func_type         = ""
   handler           = ""
   l5_enable         = false
@@ -23,11 +22,37 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
   vpc_id            = ""
   zip_file          = ""
   
-  cfs_config {}
-  image_config {}
-  intranet_config {}
-  layers {}
-  triggers {}
+  cfs_config {
+    cfs_id           = ""
+    local_mount_dir  = ""
+    mount_ins_id     = ""
+    remote_mount_dir = ""
+    user_group_id    = ""
+    user_id          = ""
+  }
+  image_config {
+    args                       = ""
+    command                    = ""
+    container_image_accelerate = false
+    entry_point                = ""
+    image_port                 = 0
+    image_type                 = ""
+    image_uri                  = ""
+    registry_id                = ""
+  }
+  intranet_config {
+    ip_fixed = ""
+  }
+  layers {
+    layer_name    = ""
+    layer_version = 0
+  }
+  triggers {
+    cos_region   = ""
+    name         = ""
+    trigger_desc = ""
+    type         = ""
+  }
   
   tags = {}
 }

@@ -5,7 +5,6 @@ resource "tencentcloud_container_cluster" "tf-sample-container-cluster" {
   cluster_desc      = ""
   cluster_name      = ""
   cluster_version   = ""
-  cpu               = 0
   cvm_type          = ""
   docker_graph_path = ""
   goods_num         = 0
@@ -13,7 +12,6 @@ resource "tencentcloud_container_cluster" "tf-sample-container-cluster" {
   instance_type     = ""
   is_vpc_gateway    = 0
   key_id            = ""
-  mem               = 0
   mount_target      = ""
   os_name           = ""
   password          = ""

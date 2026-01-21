@@ -1,6 +1,4 @@
 resource "tencentcloud_dasb_acl" "tf-sample-dasb-acl" {
-  ac_template_id_set      = []
-  account_set             = []
   allow_access_credential = false
   allow_any_account       = false
   allow_clip_file_down    = false
@@ -15,15 +13,10 @@ resource "tencentcloud_dasb_acl" "tf-sample-dasb-acl" {
   allow_file_up           = false
   allow_shell_file_down   = false
   allow_shell_file_up     = false
-  cmd_template_id_set     = []
   department_id           = ""
-  device_group_id_set     = []
-  device_id_set           = []
   max_file_down_size      = 0
   max_file_up_size        = 0
   name                    = ""
-  user_group_id_set       = []
-  user_id_set             = []
   validate_from           = ""
   validate_to             = ""
 }

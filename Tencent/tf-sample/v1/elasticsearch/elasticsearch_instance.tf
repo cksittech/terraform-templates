@@ -16,12 +16,33 @@ resource "tencentcloud_elasticsearch_instance" "tf-sample-elasticsearch-instance
   version               = ""
   vpc_id                = ""
   
-  cos_backup {}
-  es_acl {}
-  es_public_acl {}
-  multi_zone_infos {}
-  node_info_list {}
-  web_node_type_info {}
+  cos_backup {
+    backup_time    = ""
+    is_auto_backup = false
+  }
+  es_acl {
+    black_list = []
+    white_list = []
+  }
+  es_public_acl {
+    white_ip_list = []
+  }
+  multi_zone_infos {
+    availability_zone = ""
+    subnet_id         = ""
+  }
+  node_info_list {
+    disk_size = 0
+    disk_type = ""
+    encrypt   = false
+    node_num  = 0
+    node_type = ""
+    type      = ""
+  }
+  web_node_type_info {
+    node_num  = 0
+    node_type = ""
+  }
   
   tags = {}
 }

@@ -7,6 +7,14 @@ resource "tencentcloud_lighthouse_disk" "tf-sample-lighthouse-disk" {
   disk_type         = ""
   zone              = ""
   
-  auto_mount_configuration {}
-  disk_charge_prepaid {}
+  auto_mount_configuration {
+    file_system_type = ""
+    instance_id      = ""
+    mount_point      = ""
+  }
+  disk_charge_prepaid {
+    period     = 0
+    renew_flag = ""
+    time_unit  = ""
+  }
 }

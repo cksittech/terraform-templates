@@ -11,5 +11,8 @@ resource "tencentcloud_tcss_image_registry" "tf-sample-tcss-image-registry" {
   url              = ""
   username         = ""
   
-  conn_detect_config {}
+  conn_detect_config {
+    quuid = ""
+    uuid  = ""
+  }
 }

@@ -2,6 +2,5 @@ resource "tencentcloud_elasticsearch_restart_nodes_operation" "tf-sample-elastic
   force_restart = false
   instance_id   = ""
   is_offline    = false
-  node_names    = []
   restart_mode  = ""
 }

@@ -3,5 +3,8 @@ resource "tencentcloud_cynosdb_instance_param" "tf-sample-cynosdb-instance-param
   instance_id           = ""
   is_in_maintain_period = ""
   
-  instance_param_list {}
+  instance_param_list {
+    current_value = ""
+    param_name    = ""
+  }
 }
