@@ -9,8 +9,31 @@ resource "azurerm_cosmosdb_gremlin_graph" "tf-sample-cosmosdb-gremlin-graph" {
   resource_group_name    = ""
   throughput             = 0
   
-  autoscale_settings {}
-  conflict_resolution_policy {}
-  index_policy {}
-  unique_key {}
+  autoscale_settings {
+    max_throughput = 0
+  }
+  conflict_resolution_policy {
+    conflict_resolution_path      = ""
+    conflict_resolution_procedure = ""
+    mode                          = ""
+  }
+  index_policy {
+    automatic      = false
+    excluded_paths = []
+    included_paths = []
+    indexing_mode  = ""
+    
+    composite_index {
+      index {
+        order = ""
+        path  = ""
+      }
+    }
+    spatial_index {
+      path = ""
+    }
+  }
+  unique_key {
+    paths = []
+  }
 }

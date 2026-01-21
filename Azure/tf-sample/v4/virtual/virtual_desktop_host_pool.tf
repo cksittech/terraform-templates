@@ -15,7 +15,16 @@ resource "azurerm_virtual_desktop_host_pool" "tf-sample-virtual-desktop-host-poo
   validate_environment             = false
   vm_template                      = ""
   
-  scheduled_agent_updates {}
+  scheduled_agent_updates {
+    enabled                   = false
+    timezone                  = ""
+    use_session_host_timezone = false
+    
+    schedule {
+      day_of_week = ""
+      hour_of_day = 0
+    }
+  }
   
   tags = {}
 }

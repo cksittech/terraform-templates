@@ -8,10 +8,32 @@ resource "azurerm_data_factory" "tf-sample-data-factory" {
   purview_id                       = ""
   resource_group_name              = ""
   
-  github_configuration {}
-  global_parameter {}
-  identity {}
-  vsts_configuration {}
+  github_configuration {
+    account_name       = ""
+    branch_name        = ""
+    git_url            = ""
+    publishing_enabled = false
+    repository_name    = ""
+    root_folder        = ""
+  }
+  global_parameter {
+    name  = ""
+    type  = ""
+    value = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  vsts_configuration {
+    account_name       = ""
+    branch_name        = ""
+    project_name       = ""
+    publishing_enabled = false
+    repository_name    = ""
+    root_folder        = ""
+    tenant_id          = ""
+  }
   
   tags = {}
 }

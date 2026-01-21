@@ -5,6 +5,20 @@ resource "azurerm_cosmosdb_cassandra_table" "tf-sample-cosmosdb-cassandra-table"
   name                   = ""
   throughput             = 0
   
-  autoscale_settings {}
-  schema {}
+  autoscale_settings {
+    max_throughput = 0
+  }
+  schema {
+    cluster_key {
+      name     = ""
+      order_by = ""
+    }
+    column {
+      name = ""
+      type = ""
+    }
+    partition_key {
+      name = ""
+    }
+  }
 }

@@ -12,7 +12,16 @@ resource "azurerm_snapshot" "tf-sample-snapshot" {
   source_uri                    = ""
   storage_account_id            = ""
   
-  encryption_settings {}
+  encryption_settings {
+    disk_encryption_key {
+      secret_url      = ""
+      source_vault_id = ""
+    }
+    key_encryption_key {
+      key_url         = ""
+      source_vault_id = ""
+    }
+  }
   
   tags = {}
 }

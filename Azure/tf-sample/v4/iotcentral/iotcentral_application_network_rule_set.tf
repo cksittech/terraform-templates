@@ -3,5 +3,8 @@ resource "azurerm_iotcentral_application_network_rule_set" "tf-sample-iotcentral
   default_action            = ""
   iotcentral_application_id = ""
   
-  ip_rule {}
+  ip_rule {
+    ip_mask = ""
+    name    = ""
+  }
 }

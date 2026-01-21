@@ -5,7 +5,27 @@ resource "azurerm_consumption_budget_management_group" "tf-sample-consumption-bu
   name                = ""
   time_grain          = ""
   
-  filter {}
-  notification {}
-  time_period {}
+  filter {
+    dimension {
+      name     = ""
+      operator = ""
+      values   = []
+    }
+    tag {
+      name     = ""
+      operator = ""
+      values   = []
+    }
+  }
+  notification {
+    contact_emails = []
+    enabled        = false
+    operator       = ""
+    threshold      = 0
+    threshold_type = ""
+  }
+  time_period {
+    end_date   = ""
+    start_date = ""
+  }
 }

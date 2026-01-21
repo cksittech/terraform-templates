@@ -3,5 +3,10 @@ resource "azurerm_api_management_gateway" "tf-sample-api-management-gateway" {
   description       = ""
   name              = ""
   
-  location_data {}
+  location_data {
+    city     = ""
+    district = ""
+    name     = ""
+    region   = ""
+  }
 }

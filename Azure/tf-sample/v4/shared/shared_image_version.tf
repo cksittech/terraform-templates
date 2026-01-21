@@ -13,7 +13,13 @@ resource "azurerm_shared_image_version" "tf-sample-shared-image-version" {
   resource_group_name                      = ""
   storage_account_id                       = ""
   
-  target_region {}
+  target_region {
+    disk_encryption_set_id      = ""
+    exclude_from_latest_enabled = false
+    name                        = ""
+    regional_replica_count      = 0
+    storage_account_type        = ""
+  }
   
   tags = {}
 }

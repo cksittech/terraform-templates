@@ -7,6 +7,12 @@ resource "azurerm_subscription_cost_management_export" "tf-sample-subscription-c
   recurrence_type              = ""
   subscription_id              = ""
   
-  export_data_options {}
-  export_data_storage_location {}
+  export_data_options {
+    time_frame = ""
+    type       = ""
+  }
+  export_data_storage_location {
+    container_id     = ""
+    root_folder_path = ""
+  }
 }

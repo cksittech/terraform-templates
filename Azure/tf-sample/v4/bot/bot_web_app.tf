@@ -5,7 +5,6 @@ resource "azurerm_bot_web_app" "tf-sample-bot-web-app" {
   display_name                          = ""
   endpoint                              = ""
   location                              = ""
-  luis_app_ids                          = []
   luis_key                              = ""
   microsoft_app_id                      = ""
   name                                  = ""

@@ -8,7 +8,11 @@ resource "azurerm_monitor_diagnostic_setting" "tf-sample-monitor-diagnostic-sett
   storage_account_id             = ""
   target_resource_id             = ""
   
-  enabled_log {}
-  enabled_metric {}
-  metric {}
+  enabled_log {
+    category       = ""
+    category_group = ""
+  }
+  enabled_metric {
+    category = ""
+  }
 }

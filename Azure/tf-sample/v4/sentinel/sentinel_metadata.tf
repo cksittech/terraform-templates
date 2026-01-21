@@ -9,16 +9,26 @@ resource "azurerm_sentinel_metadata" "tf-sample-sentinel-metadata" {
   last_publish_date          = ""
   name                       = ""
   parent_id                  = ""
-  preview_images             = []
-  preview_images_dark        = []
-  providers                  = []
-  threat_analysis_tactics    = []
-  threat_analysis_techniques = []
   version                    = ""
   workspace_id               = ""
   
-  author {}
-  category {}
-  source {}
-  support {}
+  author {
+    email = ""
+    link  = ""
+    name  = ""
+  }
+  category {
+    domains   = []
+    verticals = []
+  }
+  source {
+    kind = ""
+    name = ""
+  }
+  support {
+    email = ""
+    link  = ""
+    name  = ""
+    tier  = ""
+  }
 }

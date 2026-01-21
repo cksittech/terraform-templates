@@ -3,6 +3,5 @@ resource "azurerm_log_analytics_data_export_rule" "tf-sample-log-analytics-data-
   enabled                 = false
   name                    = ""
   resource_group_name     = ""
-  table_names             = []
   workspace_resource_id   = ""
 }

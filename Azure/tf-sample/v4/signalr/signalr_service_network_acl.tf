@@ -2,6 +2,12 @@ resource "azurerm_signalr_service_network_acl" "tf-sample-signalr-service-networ
   default_action     = ""
   signalr_service_id = ""
   
-  private_endpoint {}
-  public_network {}
+  private_endpoint {
+    allowed_request_types = []
+    denied_request_types  = []
+  }
+  public_network {
+    allowed_request_types = []
+    denied_request_types  = []
+  }
 }

@@ -6,5 +6,9 @@ resource "azurerm_logic_app_trigger_recurrence" "tf-sample-logic-app-trigger-rec
   start_time   = ""
   time_zone    = ""
   
-  schedule {}
+  schedule {
+    at_these_hours   = []
+    at_these_minutes = []
+    on_these_days    = []
+  }
 }

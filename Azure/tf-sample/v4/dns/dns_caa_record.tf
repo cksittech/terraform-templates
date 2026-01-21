@@ -4,7 +4,11 @@ resource "azurerm_dns_caa_record" "tf-sample-dns-caa-record" {
   ttl                 = 0
   zone_name           = ""
   
-  record {}
+  record {
+    flags = 0
+    tag   = ""
+    value = ""
+  }
   
   tags = {}
 }

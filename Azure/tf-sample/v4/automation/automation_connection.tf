@@ -4,5 +4,4 @@ resource "azurerm_automation_connection" "tf-sample-automation-connection" {
   name                    = ""
   resource_group_name     = ""
   type                    = ""
-  values                  = {}
 }

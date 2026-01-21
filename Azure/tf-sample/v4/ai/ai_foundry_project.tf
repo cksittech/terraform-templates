@@ -7,7 +7,10 @@ resource "azurerm_ai_foundry_project" "tf-sample-ai-foundry-project" {
   name                           = ""
   primary_user_assigned_identity = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

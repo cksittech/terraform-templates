@@ -8,7 +8,10 @@ resource "azurerm_app_service_environment_v3" "tf-sample-app-service-environment
   subnet_id                              = ""
   zone_redundant                         = false
   
-  cluster_setting {}
+  cluster_setting {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

@@ -14,8 +14,16 @@ resource "azurerm_dev_test_linux_virtual_machine" "tf-sample-dev-test-linux-virt
   storage_type               = ""
   username                   = ""
   
-  gallery_image_reference {}
-  inbound_nat_rule {}
+  gallery_image_reference {
+    offer     = ""
+    publisher = ""
+    sku       = ""
+    version   = ""
+  }
+  inbound_nat_rule {
+    backend_port = 0
+    protocol     = ""
+  }
   
   tags = {}
 }

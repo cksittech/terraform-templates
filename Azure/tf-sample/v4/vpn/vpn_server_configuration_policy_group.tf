@@ -4,5 +4,9 @@ resource "azurerm_vpn_server_configuration_policy_group" "tf-sample-vpn-server-c
   priority                    = 0
   vpn_server_configuration_id = ""
   
-  policy {}
+  policy {
+    name  = ""
+    type  = ""
+    value = ""
+  }
 }

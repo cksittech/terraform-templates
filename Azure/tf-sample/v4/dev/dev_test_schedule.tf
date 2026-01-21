@@ -7,10 +7,21 @@ resource "azurerm_dev_test_schedule" "tf-sample-dev-test-schedule" {
   task_type           = ""
   time_zone_id        = ""
   
-  daily_recurrence {}
-  hourly_recurrence {}
-  notification_settings {}
-  weekly_recurrence {}
+  daily_recurrence {
+    time = ""
+  }
+  hourly_recurrence {
+    minute = 0
+  }
+  notification_settings {
+    status          = ""
+    time_in_minutes = 0
+    webhook_url     = ""
+  }
+  weekly_recurrence {
+    time      = ""
+    week_days = []
+  }
   
   tags = {}
 }

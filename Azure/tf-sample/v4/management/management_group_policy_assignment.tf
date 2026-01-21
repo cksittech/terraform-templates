@@ -6,12 +6,33 @@ resource "azurerm_management_group_policy_assignment" "tf-sample-management-grou
   management_group_id  = ""
   metadata             = ""
   name                 = ""
-  not_scopes           = []
   parameters           = ""
   policy_definition_id = ""
   
-  identity {}
-  non_compliance_message {}
-  overrides {}
-  resource_selectors {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  non_compliance_message {
+    content                        = ""
+    policy_definition_reference_id = ""
+  }
+  overrides {
+    value = ""
+    
+    selectors {
+      in     = []
+      kind   = ""
+      not_in = []
+    }
+  }
+  resource_selectors {
+    name = ""
+    
+    selectors {
+      in     = []
+      kind   = ""
+      not_in = []
+    }
+  }
 }

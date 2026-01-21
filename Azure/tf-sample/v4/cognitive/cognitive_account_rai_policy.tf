@@ -4,7 +4,13 @@ resource "azurerm_cognitive_account_rai_policy" "tf-sample-cognitive-account-rai
   mode                 = ""
   name                 = ""
   
-  content_filter {}
+  content_filter {
+    block_enabled      = false
+    filter_enabled     = false
+    name               = ""
+    severity_threshold = ""
+    source             = ""
+  }
   
   tags = {}
 }

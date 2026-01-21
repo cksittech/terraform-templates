@@ -2,5 +2,11 @@ resource "azurerm_storage_table" "tf-sample-storage-table" {
   name                 = ""
   storage_account_name = ""
   
-  acl {}
+  acl {
+    access_policy {
+      expiry      = ""
+      permissions = ""
+      start       = ""
+    }
+  }
 }

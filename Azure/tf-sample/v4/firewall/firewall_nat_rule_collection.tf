@@ -5,5 +5,15 @@ resource "azurerm_firewall_nat_rule_collection" "tf-sample-firewall-nat-rule-col
   priority            = 0
   resource_group_name = ""
   
-  rule {}
+  rule {
+    description           = ""
+    destination_addresses = []
+    destination_ports     = []
+    name                  = ""
+    protocols             = []
+    source_addresses      = []
+    source_ip_groups      = []
+    translated_address    = ""
+    translated_port       = ""
+  }
 }

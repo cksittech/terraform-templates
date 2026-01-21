@@ -5,7 +5,10 @@ resource "azurerm_cognitive_account_project" "tf-sample-cognitive-account-projec
   location             = ""
   name                 = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

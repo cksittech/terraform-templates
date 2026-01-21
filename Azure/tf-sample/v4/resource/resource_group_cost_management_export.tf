@@ -7,6 +7,12 @@ resource "azurerm_resource_group_cost_management_export" "tf-sample-resource-gro
   recurrence_type              = ""
   resource_group_id            = ""
   
-  export_data_options {}
-  export_data_storage_location {}
+  export_data_options {
+    time_frame = ""
+    type       = ""
+  }
+  export_data_storage_location {
+    container_id     = ""
+    root_folder_path = ""
+  }
 }

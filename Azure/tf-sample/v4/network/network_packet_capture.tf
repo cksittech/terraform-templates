@@ -7,6 +7,15 @@ resource "azurerm_network_packet_capture" "tf-sample-network-packet-capture" {
   resource_group_name       = ""
   target_resource_id        = ""
   
-  filter {}
-  storage_location {}
+  filter {
+    local_ip_address  = ""
+    local_port        = ""
+    protocol          = ""
+    remote_ip_address = ""
+    remote_port       = ""
+  }
+  storage_location {
+    file_path          = ""
+    storage_account_id = ""
+  }
 }

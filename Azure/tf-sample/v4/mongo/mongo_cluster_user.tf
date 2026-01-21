@@ -4,5 +4,8 @@ resource "azurerm_mongo_cluster_user" "tf-sample-mongo-cluster-user" {
   object_id              = ""
   principal_type         = ""
   
-  role {}
+  role {
+    database = ""
+    name     = ""
+  }
 }

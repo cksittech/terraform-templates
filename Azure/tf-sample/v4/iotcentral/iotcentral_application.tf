@@ -8,7 +8,9 @@ resource "azurerm_iotcentral_application" "tf-sample-iotcentral-application" {
   sub_domain                    = ""
   template                      = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

@@ -10,8 +10,64 @@ resource "azurerm_api_management_diagnostic" "tf-sample-api-management-diagnosti
   sampling_percentage       = 0
   verbosity                 = ""
   
-  backend_request {}
-  backend_response {}
-  frontend_request {}
-  frontend_response {}
+  backend_request {
+    body_bytes     = 0
+    headers_to_log = []
+    
+    data_masking {
+      headers {
+        mode  = ""
+        value = ""
+      }
+      query_params {
+        mode  = ""
+        value = ""
+      }
+    }
+  }
+  backend_response {
+    body_bytes     = 0
+    headers_to_log = []
+    
+    data_masking {
+      headers {
+        mode  = ""
+        value = ""
+      }
+      query_params {
+        mode  = ""
+        value = ""
+      }
+    }
+  }
+  frontend_request {
+    body_bytes     = 0
+    headers_to_log = []
+    
+    data_masking {
+      headers {
+        mode  = ""
+        value = ""
+      }
+      query_params {
+        mode  = ""
+        value = ""
+      }
+    }
+  }
+  frontend_response {
+    body_bytes     = 0
+    headers_to_log = []
+    
+    data_masking {
+      headers {
+        mode  = ""
+        value = ""
+      }
+      query_params {
+        mode  = ""
+        value = ""
+      }
+    }
+  }
 }

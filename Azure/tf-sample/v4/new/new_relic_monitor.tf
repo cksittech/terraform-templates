@@ -9,7 +9,19 @@ resource "azurerm_new_relic_monitor" "tf-sample-new-relic-monitor" {
   resource_group_name     = ""
   user_id                 = ""
   
-  identity {}
-  plan {}
-  user {}
+  identity {
+    type = ""
+  }
+  plan {
+    billing_cycle  = ""
+    effective_date = ""
+    plan_id        = ""
+    usage_type     = ""
+  }
+  user {
+    email        = ""
+    first_name   = ""
+    last_name    = ""
+    phone_number = ""
+  }
 }

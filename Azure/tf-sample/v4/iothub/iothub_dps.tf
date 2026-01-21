@@ -6,9 +6,22 @@ resource "azurerm_iothub_dps" "tf-sample-iothub-dps" {
   public_network_access_enabled = false
   resource_group_name           = ""
   
-  ip_filter_rule {}
-  linked_hub {}
-  sku {}
+  ip_filter_rule {
+    action  = ""
+    ip_mask = ""
+    name    = ""
+    target  = ""
+  }
+  linked_hub {
+    allocation_weight       = 0
+    apply_allocation_policy = false
+    connection_string       = ""
+    location                = ""
+  }
+  sku {
+    capacity = 0
+    name     = ""
+  }
   
   tags = {}
 }

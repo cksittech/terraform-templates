@@ -1,6 +1,5 @@
 resource "azurerm_oracle_exadata_infrastructure" "tf-sample-oracle-exadata-infrastructure" {
   compute_count        = 0
-  customer_contacts    = []
   database_server_type = ""
   display_name         = ""
   location             = ""
@@ -9,9 +8,16 @@ resource "azurerm_oracle_exadata_infrastructure" "tf-sample-oracle-exadata-infra
   shape                = ""
   storage_count        = 0
   storage_server_type  = ""
-  zones                = []
   
-  maintenance_window {}
+  maintenance_window {
+    days_of_week       = []
+    hours_of_day       = []
+    lead_time_in_weeks = 0
+    months             = []
+    patching_mode      = ""
+    preference         = ""
+    weeks_of_month     = []
+  }
   
   tags = {}
 }

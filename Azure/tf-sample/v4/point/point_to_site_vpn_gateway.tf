@@ -1,5 +1,4 @@
 resource "azurerm_point_to_site_vpn_gateway" "tf-sample-point-to-site-vpn-gateway" {
-  dns_servers                         = []
   location                            = ""
   name                                = ""
   resource_group_name                 = ""
@@ -8,7 +7,24 @@ resource "azurerm_point_to_site_vpn_gateway" "tf-sample-point-to-site-vpn-gatewa
   virtual_hub_id                      = ""
   vpn_server_configuration_id         = ""
   
-  connection_configuration {}
+  connection_configuration {
+    internet_security_enabled = false
+    name                      = ""
+    
+    route {
+      associated_route_table_id = ""
+      inbound_route_map_id      = ""
+      outbound_route_map_id     = ""
+      
+      propagated_route_table {
+        ids    = []
+        labels = []
+      }
+    }
+    vpn_client_address_pool {
+      address_prefixes = []
+    }
+  }
   
   tags = {}
 }

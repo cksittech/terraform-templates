@@ -9,7 +9,10 @@ resource "azurerm_data_protection_backup_vault" "tf-sample-data-protection-backu
   retention_duration_in_days   = 0
   soft_delete                  = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

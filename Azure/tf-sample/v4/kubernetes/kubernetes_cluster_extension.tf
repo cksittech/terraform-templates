@@ -1,7 +1,5 @@
 resource "azurerm_kubernetes_cluster_extension" "tf-sample-kubernetes-cluster-extension" {
   cluster_id                       = ""
-  configuration_protected_settings = {}
-  configuration_settings           = {}
   extension_type                   = ""
   name                             = ""
   release_namespace                = ""
@@ -9,5 +7,11 @@ resource "azurerm_kubernetes_cluster_extension" "tf-sample-kubernetes-cluster-ex
   target_namespace                 = ""
   version                          = ""
   
-  plan {}
+  plan {
+    name           = ""
+    product        = ""
+    promotion_code = ""
+    publisher      = ""
+    version        = ""
+  }
 }

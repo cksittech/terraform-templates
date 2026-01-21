@@ -6,8 +6,17 @@ resource "azurerm_machine_learning_inference_cluster" "tf-sample-machine-learnin
   machine_learning_workspace_id = ""
   name                          = ""
   
-  identity {}
-  ssl {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  ssl {
+    cert                      = ""
+    cname                     = ""
+    key                       = ""
+    leaf_domain_label         = ""
+    overwrite_existing_domain = false
+  }
   
   tags = {}
 }

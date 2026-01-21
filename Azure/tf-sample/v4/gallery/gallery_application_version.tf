@@ -8,9 +8,21 @@ resource "azurerm_gallery_application_version" "tf-sample-gallery-application-ve
   name                   = ""
   package_file           = ""
   
-  manage_action {}
-  source {}
-  target_region {}
+  manage_action {
+    install = ""
+    remove  = ""
+    update  = ""
+  }
+  source {
+    default_configuration_link = ""
+    media_link                 = ""
+  }
+  target_region {
+    exclude_from_latest    = false
+    name                   = ""
+    regional_replica_count = 0
+    storage_account_type   = ""
+  }
   
   tags = {}
 }

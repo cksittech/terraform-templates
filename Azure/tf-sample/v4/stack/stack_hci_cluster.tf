@@ -6,7 +6,9 @@ resource "azurerm_stack_hci_cluster" "tf-sample-stack-hci-cluster" {
   resource_group_name         = ""
   tenant_id                   = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

@@ -1,7 +1,5 @@
 resource "azurerm_blueprint_assignment" "tf-sample-blueprint-assignment" {
   location                = ""
-  lock_exclude_actions    = []
-  lock_exclude_principals = []
   lock_mode               = ""
   name                    = ""
   parameter_values        = ""
@@ -9,5 +7,8 @@ resource "azurerm_blueprint_assignment" "tf-sample-blueprint-assignment" {
   target_subscription_id  = ""
   version_id              = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
 }

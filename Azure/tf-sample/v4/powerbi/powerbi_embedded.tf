@@ -1,5 +1,4 @@
 resource "azurerm_powerbi_embedded" "tf-sample-powerbi-embedded" {
-  administrators      = []
   location            = ""
   mode                = ""
   name                = ""

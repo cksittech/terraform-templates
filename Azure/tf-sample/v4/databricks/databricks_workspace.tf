@@ -17,8 +17,26 @@ resource "azurerm_databricks_workspace" "tf-sample-databricks-workspace" {
   resource_group_name                                 = ""
   sku                                                 = ""
   
-  custom_parameters {}
-  enhanced_security_compliance {}
+  custom_parameters {
+    machine_learning_workspace_id                        = ""
+    nat_gateway_name                                     = ""
+    no_public_ip                                         = false
+    private_subnet_name                                  = ""
+    private_subnet_network_security_group_association_id = ""
+    public_ip_name                                       = ""
+    public_subnet_name                                   = ""
+    public_subnet_network_security_group_association_id  = ""
+    storage_account_name                                 = ""
+    storage_account_sku_name                             = ""
+    virtual_network_id                                   = ""
+    vnet_address_prefix                                  = ""
+  }
+  enhanced_security_compliance {
+    automatic_cluster_update_enabled      = false
+    compliance_security_profile_enabled   = false
+    compliance_security_profile_standards = []
+    enhanced_security_monitoring_enabled  = false
+  }
   
   tags = {}
 }

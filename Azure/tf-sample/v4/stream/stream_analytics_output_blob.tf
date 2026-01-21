@@ -13,5 +13,10 @@ resource "azurerm_stream_analytics_output_blob" "tf-sample-stream-analytics-outp
   stream_analytics_job_name = ""
   time_format               = ""
   
-  serialization {}
+  serialization {
+    encoding        = ""
+    field_delimiter = ""
+    format          = ""
+    type            = ""
+  }
 }

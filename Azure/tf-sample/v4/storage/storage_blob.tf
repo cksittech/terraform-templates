@@ -4,7 +4,6 @@ resource "azurerm_storage_blob" "tf-sample-storage-blob" {
   content_md5            = ""
   content_type           = ""
   encryption_scope       = ""
-  metadata               = {}
   name                   = ""
   parallelism            = 0
   size                   = 0

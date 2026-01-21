@@ -5,7 +5,12 @@ resource "azurerm_dev_test_global_vm_shutdown_schedule" "tf-sample-dev-test-glob
   timezone              = ""
   virtual_machine_id    = ""
   
-  notification_settings {}
+  notification_settings {
+    email           = ""
+    enabled         = false
+    time_in_minutes = 0
+    webhook_url     = ""
+  }
   
   tags = {}
 }

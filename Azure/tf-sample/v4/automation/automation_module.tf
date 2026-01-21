@@ -3,5 +3,12 @@ resource "azurerm_automation_module" "tf-sample-automation-module" {
   name                    = ""
   resource_group_name     = ""
   
-  module_link {}
+  module_link {
+    uri = ""
+    
+    hash {
+      algorithm = ""
+      value     = ""
+    }
+  }
 }

@@ -1,6 +1,4 @@
 resource "azurerm_batch_account" "tf-sample-batch-account" {
-  allowed_authentication_modes        = []
-  encryption                          = []
   location                            = ""
   name                                = ""
   pool_allocation_mode                = ""
@@ -10,9 +8,31 @@ resource "azurerm_batch_account" "tf-sample-batch-account" {
   storage_account_id                  = ""
   storage_account_node_identity       = ""
   
-  identity {}
-  key_vault_reference {}
-  network_profile {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  key_vault_reference {
+    url = ""
+  }
+  network_profile {
+    account_access {
+      default_action = ""
+      
+      ip_rule {
+        action   = ""
+        ip_range = ""
+      }
+    }
+    node_management_access {
+      default_action = ""
+      
+      ip_rule {
+        action   = ""
+        ip_range = ""
+      }
+    }
+  }
   
   tags = {}
 }

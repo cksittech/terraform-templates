@@ -5,6 +5,20 @@ resource "azurerm_storage_account_local_user" "tf-sample-storage-account-local-u
   ssh_password_enabled = false
   storage_account_id   = ""
   
-  permission_scope {}
-  ssh_authorized_key {}
+  permission_scope {
+    resource_name = ""
+    service       = ""
+    
+    permissions {
+      create = false
+      delete = false
+      list   = false
+      read   = false
+      write  = false
+    }
+  }
+  ssh_authorized_key {
+    description = ""
+    key         = ""
+  }
 }

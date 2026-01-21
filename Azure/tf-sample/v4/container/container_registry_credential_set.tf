@@ -3,6 +3,11 @@ resource "azurerm_container_registry_credential_set" "tf-sample-container-regist
   login_server          = ""
   name                  = ""
   
-  authentication_credentials {}
-  identity {}
+  authentication_credentials {
+    password_secret_id = ""
+    username_secret_id = ""
+  }
+  identity {
+    type = ""
+  }
 }

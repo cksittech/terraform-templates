@@ -4,7 +4,9 @@ resource "azurerm_private_dns_txt_record" "tf-sample-private-dns-txt-record" {
   ttl                 = 0
   zone_name           = ""
   
-  record {}
+  record {
+    value = ""
+  }
   
   tags = {}
 }

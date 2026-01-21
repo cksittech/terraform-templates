@@ -6,9 +6,29 @@ resource "azurerm_eventgrid_namespace" "tf-sample-eventgrid-namespace" {
   resource_group_name   = ""
   sku                   = ""
   
-  identity {}
-  inbound_ip_rule {}
-  topic_spaces_configuration {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  inbound_ip_rule {
+    action  = ""
+    ip_mask = ""
+  }
+  topic_spaces_configuration {
+    alternative_authentication_name_source          = []
+    maximum_client_sessions_per_authentication_name = 0
+    maximum_session_expiry_in_hours                 = 0
+    route_topic_id                                  = ""
+    
+    dynamic_routing_enrichment {
+      key   = ""
+      value = ""
+    }
+    static_routing_enrichment {
+      key   = ""
+      value = ""
+    }
+  }
   
   tags = {}
 }

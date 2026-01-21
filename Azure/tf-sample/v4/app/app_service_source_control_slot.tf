@@ -7,5 +7,18 @@ resource "azurerm_app_service_source_control_slot" "tf-sample-app-service-source
   use_manual_integration = false
   use_mercurial          = false
   
-  github_action_configuration {}
+  github_action_configuration {
+    generate_workflow_file = false
+    
+    code_configuration {
+      runtime_stack   = ""
+      runtime_version = ""
+    }
+    container_configuration {
+      image_name        = ""
+      registry_password = ""
+      registry_url      = ""
+      registry_username = ""
+    }
+  }
 }

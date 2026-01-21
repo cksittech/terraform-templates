@@ -11,7 +11,10 @@ resource "azurerm_express_route_circuit" "tf-sample-express-route-circuit" {
   resource_group_name      = ""
   service_provider_name    = ""
   
-  sku {}
+  sku {
+    family = ""
+    tier   = ""
+  }
   
   tags = {}
 }

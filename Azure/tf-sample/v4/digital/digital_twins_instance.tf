@@ -3,7 +3,10 @@ resource "azurerm_digital_twins_instance" "tf-sample-digital-twins-instance" {
   name                = ""
   resource_group_name = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

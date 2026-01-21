@@ -8,6 +8,11 @@ resource "azurerm_cosmosdb_mongo_collection" "tf-sample-cosmosdb-mongo-collectio
   shard_key              = ""
   throughput             = 0
   
-  autoscale_settings {}
-  index {}
+  autoscale_settings {
+    max_throughput = 0
+  }
+  index {
+    keys   = []
+    unique = false
+  }
 }

@@ -1,8 +1,6 @@
 resource "azurerm_site_recovery_replicated_vm" "tf-sample-site-recovery-replicated-vm" {
-  managed_disk                              = []
   multi_vm_group_name                       = ""
   name                                      = ""
-  network_interface                         = []
   recovery_replication_policy_id            = ""
   recovery_vault_name                       = ""
   resource_group_name                       = ""
@@ -22,5 +20,4 @@ resource "azurerm_site_recovery_replicated_vm" "tf-sample-site-recovery-replicat
   target_virtual_machine_size               = ""
   target_zone                               = ""
   test_network_id                           = ""
-  unmanaged_disk                            = []
 }

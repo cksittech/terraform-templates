@@ -3,5 +3,8 @@ resource "azurerm_bot_channel_line" "tf-sample-bot-channel-line" {
   location            = ""
   resource_group_name = ""
   
-  line_channel {}
+  line_channel {
+    access_token = ""
+    secret       = ""
+  }
 }

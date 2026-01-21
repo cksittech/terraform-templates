@@ -4,7 +4,10 @@ resource "azurerm_private_dns_mx_record" "tf-sample-private-dns-mx-record" {
   ttl                 = 0
   zone_name           = ""
   
-  record {}
+  record {
+    exchange   = ""
+    preference = 0
+  }
   
   tags = {}
 }

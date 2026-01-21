@@ -9,8 +9,16 @@ resource "azurerm_web_pubsub" "tf-sample-web-pubsub" {
   sku                           = ""
   tls_client_cert_enabled       = false
   
-  identity {}
-  live_trace {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  live_trace {
+    connectivity_logs_enabled = false
+    enabled                   = false
+    http_request_logs_enabled = false
+    messaging_logs_enabled    = false
+  }
   
   tags = {}
 }

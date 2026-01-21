@@ -7,7 +7,27 @@ resource "azurerm_subscription_cost_management_view" "tf-sample-subscription-cos
   subscription_id = ""
   timeframe       = ""
   
-  dataset {}
-  kpi {}
-  pivot {}
+  dataset {
+    granularity = ""
+    
+    aggregation {
+      column_name = ""
+      name        = ""
+    }
+    grouping {
+      name = ""
+      type = ""
+    }
+    sorting {
+      direction = ""
+      name      = ""
+    }
+  }
+  kpi {
+    type = ""
+  }
+  pivot {
+    name = ""
+    type = ""
+  }
 }

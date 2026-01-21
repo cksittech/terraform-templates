@@ -19,7 +19,6 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
   location                                               = ""
   max_bid_price                                          = 0
   name                                                   = ""
-  network_interface_ids                                  = []
   os_managed_disk_id                                     = ""
   patch_assessment_mode                                  = ""
   patch_mode                                             = ""
@@ -34,21 +33,72 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
   source_image_id                                        = ""
   user_data                                              = ""
   virtual_machine_scale_set_id                           = ""
-  vm_agent_platform_updates_enabled                      = false
   vtpm_enabled                                           = false
   zone                                                   = ""
   
-  additional_capabilities {}
-  admin_ssh_key {}
-  boot_diagnostics {}
-  gallery_application {}
-  identity {}
-  os_disk {}
-  os_image_notification {}
-  plan {}
-  secret {}
-  source_image_reference {}
-  termination_notification {}
+  additional_capabilities {
+    hibernation_enabled = false
+    ultra_ssd_enabled   = false
+  }
+  admin_ssh_key {
+    public_key = ""
+    username   = ""
+  }
+  boot_diagnostics {
+    storage_account_uri = ""
+  }
+  gallery_application {
+    automatic_upgrade_enabled                   = false
+    configuration_blob_uri                      = ""
+    order                                       = 0
+    tag                                         = ""
+    treat_failure_as_deployment_failure_enabled = false
+    version_id                                  = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  os_disk {
+    caching                          = ""
+    disk_encryption_set_id           = ""
+    disk_size_gb                     = 0
+    name                             = ""
+    secure_vm_disk_encryption_set_id = ""
+    security_encryption_type         = ""
+    storage_account_type             = ""
+    write_accelerator_enabled        = false
+    
+    diff_disk_settings {
+      option    = ""
+      placement = ""
+    }
+  }
+  os_image_notification {
+    timeout = ""
+  }
+  plan {
+    name      = ""
+    product   = ""
+    publisher = ""
+  }
+  secret {
+    key_vault_id = ""
+    
+    certificate {
+      url = ""
+    }
+  }
+  source_image_reference {
+    offer     = ""
+    publisher = ""
+    sku       = ""
+    version   = ""
+  }
+  termination_notification {
+    enabled = false
+    timeout = ""
+  }
   
   tags = {}
 }

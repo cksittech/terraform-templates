@@ -14,10 +14,21 @@ resource "azurerm_synapse_spark_pool" "tf-sample-synapse-spark-pool" {
   spark_version                       = ""
   synapse_workspace_id                = ""
   
-  auto_pause {}
-  auto_scale {}
-  library_requirement {}
-  spark_config {}
+  auto_pause {
+    delay_in_minutes = 0
+  }
+  auto_scale {
+    max_node_count = 0
+    min_node_count = 0
+  }
+  library_requirement {
+    content  = ""
+    filename = ""
+  }
+  spark_config {
+    content  = ""
+    filename = ""
+  }
   
   tags = {}
 }

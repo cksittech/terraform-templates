@@ -5,7 +5,6 @@ resource "azurerm_kusto_eventhub_data_connection" "tf-sample-kusto-eventhub-data
   data_format             = ""
   database_name           = ""
   database_routing_type   = ""
-  event_system_properties = []
   eventhub_id             = ""
   identity_id             = ""
   location                = ""

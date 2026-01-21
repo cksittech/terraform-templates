@@ -1,7 +1,5 @@
 resource "azurerm_data_factory_trigger_tumbling_window" "tf-sample-data-factory-trigger-tumbling-window" {
   activated             = false
-  additional_properties = {}
-  annotations           = []
   data_factory_id       = ""
   delay                 = ""
   description           = ""
@@ -12,7 +10,17 @@ resource "azurerm_data_factory_trigger_tumbling_window" "tf-sample-data-factory-
   name                  = ""
   start_time            = ""
   
-  pipeline {}
-  retry {}
-  trigger_dependency {}
+  pipeline {
+    name       = ""
+    parameters = {}
+  }
+  retry {
+    count    = 0
+    interval = 0
+  }
+  trigger_dependency {
+    offset       = ""
+    size         = ""
+    trigger_name = ""
+  }
 }

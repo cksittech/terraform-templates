@@ -5,9 +5,22 @@ resource "azurerm_datadog_monitor" "tf-sample-datadog-monitor" {
   resource_group_name = ""
   sku_name            = ""
   
-  datadog_organization {}
-  identity {}
-  user {}
+  datadog_organization {
+    api_key           = ""
+    application_key   = ""
+    enterprise_app_id = ""
+    linking_auth_code = ""
+    linking_client_id = ""
+    redirect_uri      = ""
+  }
+  identity {
+    type = ""
+  }
+  user {
+    email        = ""
+    name         = ""
+    phone_number = ""
+  }
   
   tags = {}
 }

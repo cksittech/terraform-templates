@@ -5,8 +5,14 @@ resource "azurerm_arc_kubernetes_provisioned_cluster" "tf-sample-arc-kubernetes-
   name                           = ""
   resource_group_name            = ""
   
-  azure_active_directory {}
-  identity {}
+  azure_active_directory {
+    admin_group_object_ids = []
+    azure_rbac_enabled     = false
+    tenant_id              = ""
+  }
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

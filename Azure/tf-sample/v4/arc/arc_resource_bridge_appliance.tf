@@ -6,7 +6,9 @@ resource "azurerm_arc_resource_bridge_appliance" "tf-sample-arc-resource-bridge-
   public_key_base64       = ""
   resource_group_name     = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

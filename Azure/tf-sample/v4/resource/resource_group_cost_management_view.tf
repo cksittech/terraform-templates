@@ -7,7 +7,27 @@ resource "azurerm_resource_group_cost_management_view" "tf-sample-resource-group
   resource_group_id = ""
   timeframe         = ""
   
-  dataset {}
-  kpi {}
-  pivot {}
+  dataset {
+    granularity = ""
+    
+    aggregation {
+      column_name = ""
+      name        = ""
+    }
+    grouping {
+      name = ""
+      type = ""
+    }
+    sorting {
+      direction = ""
+      name      = ""
+    }
+  }
+  kpi {
+    type = ""
+  }
+  pivot {
+    name = ""
+    type = ""
+  }
 }

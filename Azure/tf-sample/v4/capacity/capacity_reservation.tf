@@ -3,7 +3,10 @@ resource "azurerm_capacity_reservation" "tf-sample-capacity-reservation" {
   name                          = ""
   zone                          = ""
   
-  sku {}
+  sku {
+    capacity = 0
+    name     = ""
+  }
   
   tags = {}
 }

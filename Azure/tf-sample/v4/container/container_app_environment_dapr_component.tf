@@ -4,9 +4,17 @@ resource "azurerm_container_app_environment_dapr_component" "tf-sample-container
   ignore_errors                = false
   init_timeout                 = ""
   name                         = ""
-  scopes                       = []
   version                      = ""
   
-  metadata {}
-  secret {}
+  metadata {
+    name        = ""
+    secret_name = ""
+    value       = ""
+  }
+  secret {
+    identity            = ""
+    key_vault_secret_id = ""
+    name                = ""
+    value               = ""
+  }
 }

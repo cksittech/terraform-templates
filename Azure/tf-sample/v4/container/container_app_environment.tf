@@ -12,8 +12,16 @@ resource "azurerm_container_app_environment" "tf-sample-container-app-environmen
   resource_group_name                         = ""
   zone_redundancy_enabled                     = false
   
-  identity {}
-  workload_profile {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  workload_profile {
+    maximum_count         = 0
+    minimum_count         = 0
+    name                  = ""
+    workload_profile_type = ""
+  }
   
   tags = {}
 }

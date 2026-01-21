@@ -6,7 +6,10 @@ resource "azurerm_dev_center_project" "tf-sample-dev-center-project" {
   name                       = ""
   resource_group_name        = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

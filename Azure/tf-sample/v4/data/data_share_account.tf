@@ -3,7 +3,9 @@ resource "azurerm_data_share_account" "tf-sample-data-share-account" {
   name                = ""
   resource_group_name = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

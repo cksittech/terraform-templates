@@ -1,6 +1,5 @@
 resource "azurerm_container_connected_registry" "tf-sample-container-connected-registry" {
   audit_log_enabled     = false
-  client_token_ids      = []
   container_registry_id = ""
   log_level             = ""
   mode                  = ""
@@ -11,5 +10,10 @@ resource "azurerm_container_connected_registry" "tf-sample-container-connected-r
   sync_token_id         = ""
   sync_window           = ""
   
-  notification {}
+  notification {
+    action = ""
+    digest = ""
+    name   = ""
+    tag    = ""
+  }
 }

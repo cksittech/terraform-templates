@@ -6,6 +6,15 @@ resource "azurerm_virtual_machine_packet_capture" "tf-sample-virtual-machine-pac
   network_watcher_id                  = ""
   virtual_machine_id                  = ""
   
-  filter {}
-  storage_location {}
+  filter {
+    local_ip_address  = ""
+    local_port        = ""
+    protocol          = ""
+    remote_ip_address = ""
+    remote_port       = ""
+  }
+  storage_location {
+    file_path          = ""
+    storage_account_id = ""
+  }
 }

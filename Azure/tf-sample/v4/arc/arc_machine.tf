@@ -4,7 +4,9 @@ resource "azurerm_arc_machine" "tf-sample-arc-machine" {
   name                = ""
   resource_group_name = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

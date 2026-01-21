@@ -9,7 +9,10 @@ resource "azurerm_synapse_sql_pool" "tf-sample-synapse-sql-pool" {
   storage_account_type      = ""
   synapse_workspace_id      = ""
   
-  restore {}
+  restore {
+    point_in_time      = ""
+    source_database_id = ""
+  }
   
   tags = {}
 }

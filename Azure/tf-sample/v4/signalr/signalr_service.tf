@@ -2,7 +2,6 @@ resource "azurerm_signalr_service" "tf-sample-signalr-service" {
   aad_auth_enabled                         = false
   connectivity_logs_enabled                = false
   http_request_logs_enabled                = false
-  live_trace_enabled                       = false
   local_auth_enabled                       = false
   location                                 = ""
   messaging_logs_enabled                   = false
@@ -13,11 +12,30 @@ resource "azurerm_signalr_service" "tf-sample-signalr-service" {
   service_mode                             = ""
   tls_client_cert_enabled                  = false
   
-  cors {}
-  identity {}
-  live_trace {}
-  sku {}
-  upstream_endpoint {}
+  cors {
+    allowed_origins = []
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  live_trace {
+    connectivity_logs_enabled = false
+    enabled                   = false
+    http_request_logs_enabled = false
+    messaging_logs_enabled    = false
+  }
+  sku {
+    capacity = 0
+    name     = ""
+  }
+  upstream_endpoint {
+    category_pattern          = []
+    event_pattern             = []
+    hub_pattern               = []
+    url_template              = ""
+    user_assigned_identity_id = ""
+  }
   
   tags = {}
 }

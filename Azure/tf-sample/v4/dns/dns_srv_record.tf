@@ -4,7 +4,12 @@ resource "azurerm_dns_srv_record" "tf-sample-dns-srv-record" {
   ttl                 = 0
   zone_name           = ""
   
-  record {}
+  record {
+    port     = 0
+    priority = 0
+    target   = ""
+    weight   = 0
+  }
   
   tags = {}
 }

@@ -10,9 +10,20 @@ resource "azurerm_machine_learning_compute_cluster" "tf-sample-machine-learning-
   vm_priority                   = ""
   vm_size                       = ""
   
-  identity {}
-  scale_settings {}
-  ssh {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  scale_settings {
+    max_node_count                       = 0
+    min_node_count                       = 0
+    scale_down_nodes_after_idle_duration = ""
+  }
+  ssh {
+    admin_password = ""
+    admin_username = ""
+    key_value      = ""
+  }
   
   tags = {}
 }

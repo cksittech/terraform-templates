@@ -10,7 +10,11 @@ resource "azurerm_app_service_plan" "tf-sample-app-service-plan" {
   resource_group_name          = ""
   zone_redundant               = false
   
-  sku {}
+  sku {
+    capacity = 0
+    size     = ""
+    tier     = ""
+  }
   
   tags = {}
 }

@@ -6,6 +6,5 @@ resource "azurerm_resource_group_policy_exemption" "tf-sample-resource-group-pol
   metadata                        = ""
   name                            = ""
   policy_assignment_id            = ""
-  policy_definition_reference_ids = []
   resource_group_id               = ""
 }

@@ -4,5 +4,10 @@ resource "azurerm_automation_connection_type" "tf-sample-automation-connection-t
   name                    = ""
   resource_group_name     = ""
   
-  field {}
+  field {
+    is_encrypted = false
+    is_optional  = false
+    name         = ""
+    type         = ""
+  }
 }

@@ -1,15 +1,15 @@
 resource "azurerm_data_factory_trigger_blob_event" "tf-sample-data-factory-trigger-blob-event" {
   activated             = false
-  additional_properties = {}
-  annotations           = []
   blob_path_begins_with = ""
   blob_path_ends_with   = ""
   data_factory_id       = ""
   description           = ""
-  events                = []
   ignore_empty_blobs    = false
   name                  = ""
   storage_account_id    = ""
   
-  pipeline {}
+  pipeline {
+    name       = ""
+    parameters = {}
+  }
 }

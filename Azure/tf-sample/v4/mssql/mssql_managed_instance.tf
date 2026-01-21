@@ -22,8 +22,17 @@ resource "azurerm_mssql_managed_instance" "tf-sample-mssql-managed-instance" {
   vcores                         = 0
   zone_redundant_enabled         = false
   
-  azure_active_directory_administrator {}
-  identity {}
+  azure_active_directory_administrator {
+    azuread_authentication_only_enabled = false
+    login_username                      = ""
+    object_id                           = ""
+    principal_type                      = ""
+    tenant_id                           = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

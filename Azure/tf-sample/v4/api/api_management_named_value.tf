@@ -6,7 +6,10 @@ resource "azurerm_api_management_named_value" "tf-sample-api-management-named-va
   secret              = false
   value               = ""
   
-  value_from_key_vault {}
+  value_from_key_vault {
+    identity_client_id = ""
+    secret_id          = ""
+  }
   
   tags = {}
 }

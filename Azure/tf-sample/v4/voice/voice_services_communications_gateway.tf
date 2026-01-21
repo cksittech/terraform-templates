@@ -4,15 +4,19 @@ resource "azurerm_voice_services_communications_gateway" "tf-sample-voice-servic
   codecs                                 = ""
   connectivity                           = ""
   e911_type                              = ""
-  emergency_dial_strings                 = []
   location                               = ""
   microsoft_teams_voicemail_pilot_number = ""
   name                                   = ""
   on_prem_mcp_enabled                    = false
-  platforms                              = []
   resource_group_name                    = ""
   
-  service_location {}
+  service_location {
+    allowed_media_source_address_prefixes     = []
+    allowed_signaling_source_address_prefixes = []
+    esrp_addresses                            = []
+    location                                  = ""
+    operator_addresses                        = []
+  }
   
   tags = {}
 }

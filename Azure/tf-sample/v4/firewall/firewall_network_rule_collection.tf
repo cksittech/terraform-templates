@@ -5,5 +5,15 @@ resource "azurerm_firewall_network_rule_collection" "tf-sample-firewall-network-
   priority            = 0
   resource_group_name = ""
   
-  rule {}
+  rule {
+    description           = ""
+    destination_addresses = []
+    destination_fqdns     = []
+    destination_ip_groups = []
+    destination_ports     = []
+    name                  = ""
+    protocols             = []
+    source_addresses      = []
+    source_ip_groups      = []
+  }
 }

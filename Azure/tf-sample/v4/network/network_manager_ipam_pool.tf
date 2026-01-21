@@ -1,5 +1,4 @@
 resource "azurerm_network_manager_ipam_pool" "tf-sample-network-manager-ipam-pool" {
-  address_prefixes   = []
   description        = ""
   display_name       = ""
   location           = ""

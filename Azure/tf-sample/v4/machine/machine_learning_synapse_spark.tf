@@ -6,7 +6,10 @@ resource "azurerm_machine_learning_synapse_spark" "tf-sample-machine-learning-sy
   name                          = ""
   synapse_spark_pool_id         = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

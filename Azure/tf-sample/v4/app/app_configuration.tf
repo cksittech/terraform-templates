@@ -10,9 +10,18 @@ resource "azurerm_app_configuration" "tf-sample-app-configuration" {
   sku                                              = ""
   soft_delete_retention_days                       = 0
   
-  encryption {}
-  identity {}
-  replica {}
+  encryption {
+    identity_client_id       = ""
+    key_vault_key_identifier = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  replica {
+    location = ""
+    name     = ""
+  }
   
   tags = {}
 }

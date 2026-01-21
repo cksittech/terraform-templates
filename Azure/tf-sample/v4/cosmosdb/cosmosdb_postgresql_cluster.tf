@@ -21,7 +21,11 @@ resource "azurerm_cosmosdb_postgresql_cluster" "tf-sample-cosmosdb-postgresql-cl
   source_resource_id                   = ""
   sql_version                          = ""
   
-  maintenance_window {}
+  maintenance_window {
+    day_of_week  = 0
+    start_hour   = 0
+    start_minute = 0
+  }
   
   tags = {}
 }

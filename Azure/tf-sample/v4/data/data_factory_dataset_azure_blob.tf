@@ -1,6 +1,4 @@
 resource "azurerm_data_factory_dataset_azure_blob" "tf-sample-data-factory-dataset-azure-blob" {
-  additional_properties    = {}
-  annotations              = []
   data_factory_id          = ""
   description              = ""
   dynamic_filename_enabled = false
@@ -9,8 +7,11 @@ resource "azurerm_data_factory_dataset_azure_blob" "tf-sample-data-factory-datas
   folder                   = ""
   linked_service_name      = ""
   name                     = ""
-  parameters               = {}
   path                     = ""
   
-  schema_column {}
+  schema_column {
+    description = ""
+    name        = ""
+    type        = ""
+  }
 }

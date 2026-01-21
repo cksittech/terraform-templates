@@ -8,14 +8,25 @@ resource "azurerm_resource_deployment_script_azure_cli" "tf-sample-resource-depl
   resource_group_name    = ""
   retention_interval     = ""
   script_content         = ""
-  supporting_script_uris = []
   timeout                = ""
   version                = ""
   
-  container {}
-  environment_variable {}
-  identity {}
-  storage_account {}
+  container {
+    container_group_name = ""
+  }
+  environment_variable {
+    name         = ""
+    secure_value = ""
+    value        = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  storage_account {
+    key  = ""
+    name = ""
+  }
   
   tags = {}
 }

@@ -3,6 +3,11 @@ resource "azurerm_stream_analytics_function_javascript_uda" "tf-sample-stream-an
   script                  = ""
   stream_analytics_job_id = ""
   
-  input {}
-  output {}
+  input {
+    configuration_parameter = false
+    type                    = ""
+  }
+  output {
+    type = ""
+  }
 }

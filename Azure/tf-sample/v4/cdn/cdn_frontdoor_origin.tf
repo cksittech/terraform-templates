@@ -10,5 +10,10 @@ resource "azurerm_cdn_frontdoor_origin" "tf-sample-cdn-frontdoor-origin" {
   priority                       = 0
   weight                         = 0
   
-  private_link {}
+  private_link {
+    location               = ""
+    private_link_target_id = ""
+    request_message        = ""
+    target_type            = ""
+  }
 }

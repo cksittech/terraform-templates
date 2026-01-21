@@ -5,7 +5,10 @@ resource "azurerm_iothub_device_update_account" "tf-sample-iothub-device-update-
   resource_group_name           = ""
   sku                           = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

@@ -9,8 +9,19 @@ resource "azurerm_app_configuration_feature" "tf-sample-app-configuration-featur
   name                    = ""
   percentage_filter_value = 0
   
-  targeting_filter {}
-  timewindow_filter {}
+  targeting_filter {
+    default_rollout_percentage = 0
+    users                      = []
+    
+    groups {
+      name               = ""
+      rollout_percentage = 0
+    }
+  }
+  timewindow_filter {
+    end   = ""
+    start = ""
+  }
   
   tags = {}
 }

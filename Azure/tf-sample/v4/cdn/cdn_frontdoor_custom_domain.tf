@@ -4,5 +4,8 @@ resource "azurerm_cdn_frontdoor_custom_domain" "tf-sample-cdn-frontdoor-custom-d
   host_name                = ""
   name                     = ""
   
-  tls {}
+  tls {
+    cdn_frontdoor_secret_id = ""
+    certificate_type        = ""
+  }
 }

@@ -9,7 +9,10 @@ resource "azurerm_application_insights_workbook" "tf-sample-application-insights
   source_id            = ""
   storage_container_id = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

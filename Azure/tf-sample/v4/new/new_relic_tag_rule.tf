@@ -5,6 +5,14 @@ resource "azurerm_new_relic_tag_rule" "tf-sample-new-relic-tag-rule" {
   monitor_id                         = ""
   subscription_log_enabled           = false
   
-  log_tag_filter {}
-  metric_tag_filter {}
+  log_tag_filter {
+    action = ""
+    name   = ""
+    value  = ""
+  }
+  metric_tag_filter {
+    action = ""
+    name   = ""
+    value  = ""
+  }
 }

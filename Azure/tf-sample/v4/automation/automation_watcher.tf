@@ -6,7 +6,6 @@ resource "azurerm_automation_watcher" "tf-sample-automation-watcher" {
   location                       = ""
   name                           = ""
   script_name                    = ""
-  script_parameters              = {}
   script_run_on                  = ""
   
   tags = {}

@@ -6,5 +6,10 @@ resource "azurerm_key_vault_certificate_issuer" "tf-sample-key-vault-certificate
   password      = ""
   provider_name = ""
   
-  admin {}
+  admin {
+    email_address = ""
+    first_name    = ""
+    last_name     = ""
+    phone         = ""
+  }
 }

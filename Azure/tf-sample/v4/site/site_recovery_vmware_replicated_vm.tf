@@ -20,6 +20,17 @@ resource "azurerm_site_recovery_vmware_replicated_vm" "tf-sample-site-recovery-v
   target_zone                                = ""
   test_network_id                            = ""
   
-  managed_disk {}
-  network_interface {}
+  managed_disk {
+    disk_id                       = ""
+    log_storage_account_id        = ""
+    target_disk_encryption_set_id = ""
+    target_disk_type              = ""
+  }
+  network_interface {
+    is_primary         = false
+    source_mac_address = ""
+    target_static_ip   = ""
+    target_subnet_name = ""
+    test_subnet_name   = ""
+  }
 }

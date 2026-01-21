@@ -9,5 +9,9 @@ resource "azurerm_automation_source_control" "tf-sample-automation-source-contro
   repository_url          = ""
   source_control_type     = ""
   
-  security {}
+  security {
+    refresh_token = ""
+    token         = ""
+    token_type    = ""
+  }
 }

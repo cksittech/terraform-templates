@@ -5,6 +5,16 @@ resource "azurerm_app_service_connection" "tf-sample-app-service-connection" {
   target_resource_id = ""
   vnet_solution      = ""
   
-  authentication {}
-  secret_store {}
+  authentication {
+    certificate     = ""
+    client_id       = ""
+    name            = ""
+    principal_id    = ""
+    secret          = ""
+    subscription_id = ""
+    type            = ""
+  }
+  secret_store {
+    key_vault_id = ""
+  }
 }

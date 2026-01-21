@@ -2,7 +2,14 @@ resource "azurerm_automation_powershell72_module" "tf-sample-automation-powershe
   automation_account_id = ""
   name                  = ""
   
-  module_link {}
+  module_link {
+    uri = ""
+    
+    hash {
+      algorithm = ""
+      value     = ""
+    }
+  }
   
   tags = {}
 }

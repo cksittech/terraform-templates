@@ -7,7 +7,6 @@ resource "azurerm_spring_cloud_new_relic_application_performance_monitoring" "tf
   auto_transaction_naming_enabled = false
   custom_tracing_enabled          = false
   globally_enabled                = false
-  labels                          = {}
   license_key                     = ""
   name                            = ""
   spring_cloud_service_id         = ""

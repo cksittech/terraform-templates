@@ -3,7 +3,6 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
   custom_question_answering_search_service_key = ""
   custom_subdomain_name                        = ""
   dynamic_throttling_enabled                   = false
-  fqdns                                        = []
   kind                                         = ""
   local_auth_enabled                           = false
   location                                     = ""
@@ -19,11 +18,32 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
   resource_group_name                          = ""
   sku_name                                     = ""
   
-  customer_managed_key {}
-  identity {}
-  network_acls {}
-  network_injection {}
-  storage {}
+  customer_managed_key {
+    identity_client_id = ""
+    key_vault_key_id   = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  network_acls {
+    bypass         = ""
+    default_action = ""
+    ip_rules       = []
+    
+    virtual_network_rules {
+      ignore_missing_vnet_service_endpoint = false
+      subnet_id                            = ""
+    }
+  }
+  network_injection {
+    scenario  = ""
+    subnet_id = ""
+  }
+  storage {
+    identity_client_id = ""
+    storage_account_id = ""
+  }
   
   tags = {}
 }

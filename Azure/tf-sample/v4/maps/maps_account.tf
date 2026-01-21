@@ -5,9 +5,17 @@ resource "azurerm_maps_account" "tf-sample-maps-account" {
   resource_group_name          = ""
   sku_name                     = ""
   
-  cors {}
-  data_store {}
-  identity {}
+  cors {
+    allowed_origins = []
+  }
+  data_store {
+    storage_account_id = ""
+    unique_name        = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

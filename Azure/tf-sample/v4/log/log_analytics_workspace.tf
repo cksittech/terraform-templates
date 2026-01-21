@@ -6,7 +6,6 @@ resource "azurerm_log_analytics_workspace" "tf-sample-log-analytics-workspace" {
   immediate_data_purge_on_30_days_enabled = false
   internet_ingestion_enabled              = false
   internet_query_enabled                  = false
-  local_authentication_disabled           = false
   local_authentication_enabled            = false
   location                                = ""
   name                                    = ""
@@ -15,7 +14,10 @@ resource "azurerm_log_analytics_workspace" "tf-sample-log-analytics-workspace" {
   retention_in_days                       = 0
   sku                                     = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

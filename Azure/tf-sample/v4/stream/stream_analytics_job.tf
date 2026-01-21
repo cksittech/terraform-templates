@@ -15,8 +15,15 @@ resource "azurerm_stream_analytics_job" "tf-sample-stream-analytics-job" {
   transformation_query                     = ""
   type                                     = ""
   
-  identity {}
-  job_storage_account {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  job_storage_account {
+    account_key         = ""
+    account_name        = ""
+    authentication_mode = ""
+  }
   
   tags = {}
 }

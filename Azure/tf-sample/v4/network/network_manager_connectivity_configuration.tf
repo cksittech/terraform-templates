@@ -6,6 +6,14 @@ resource "azurerm_network_manager_connectivity_configuration" "tf-sample-network
   name                            = ""
   network_manager_id              = ""
   
-  applies_to_group {}
-  hub {}
+  applies_to_group {
+    global_mesh_enabled = false
+    group_connectivity  = ""
+    network_group_id    = ""
+    use_hub_gateway     = false
+  }
+  hub {
+    resource_id   = ""
+    resource_type = ""
+  }
 }

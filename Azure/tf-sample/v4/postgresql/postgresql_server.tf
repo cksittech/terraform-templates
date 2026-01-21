@@ -20,8 +20,18 @@ resource "azurerm_postgresql_server" "tf-sample-postgresql-server" {
   storage_mb                              = 0
   version                                 = ""
   
-  identity {}
-  threat_detection_policy {}
+  identity {
+    type = ""
+  }
+  threat_detection_policy {
+    disabled_alerts            = []
+    email_account_admins       = false
+    email_addresses            = []
+    enabled                    = false
+    retention_days             = 0
+    storage_account_access_key = ""
+    storage_endpoint           = ""
+  }
   
   tags = {}
 }

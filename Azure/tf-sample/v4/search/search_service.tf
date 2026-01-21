@@ -1,5 +1,4 @@
 resource "azurerm_search_service" "tf-sample-search-service" {
-  allowed_ips                              = []
   authentication_failure_mode              = ""
   customer_managed_key_enforcement_enabled = false
   hosting_mode                             = ""
@@ -14,7 +13,10 @@ resource "azurerm_search_service" "tf-sample-search-service" {
   semantic_search_sku                      = ""
   sku                                      = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

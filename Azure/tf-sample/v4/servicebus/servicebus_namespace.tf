@@ -9,9 +9,26 @@ resource "azurerm_servicebus_namespace" "tf-sample-servicebus-namespace" {
   resource_group_name           = ""
   sku                           = ""
   
-  customer_managed_key {}
-  identity {}
-  network_rule_set {}
+  customer_managed_key {
+    identity_id                       = ""
+    infrastructure_encryption_enabled = false
+    key_vault_key_id                  = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  network_rule_set {
+    default_action                = ""
+    ip_rules                      = []
+    public_network_access_enabled = false
+    trusted_services_allowed      = false
+    
+    network_rules {
+      ignore_missing_vnet_service_endpoint = false
+      subnet_id                            = ""
+    }
+  }
   
   tags = {}
 }

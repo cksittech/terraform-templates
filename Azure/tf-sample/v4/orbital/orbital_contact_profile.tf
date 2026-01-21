@@ -8,7 +8,26 @@ resource "azurerm_orbital_contact_profile" "tf-sample-orbital-contact-profile" {
   network_configuration_subnet_id   = ""
   resource_group_name               = ""
   
-  links {}
+  links {
+    direction    = ""
+    name         = ""
+    polarization = ""
+    
+    channels {
+      bandwidth_mhz              = 0
+      center_frequency_mhz       = 0
+      demodulation_configuration = ""
+      modulation_configuration   = ""
+      name                       = ""
+      
+      end_point {
+        end_point_name = ""
+        ip_address     = ""
+        port           = ""
+        protocol       = ""
+      }
+    }
+  }
   
   tags = {}
 }

@@ -5,5 +5,9 @@ resource "azurerm_data_share_dataset_blob_storage" "tf-sample-data-share-dataset
   folder_path    = ""
   name           = ""
   
-  storage_account {}
+  storage_account {
+    name                = ""
+    resource_group_name = ""
+    subscription_id     = ""
+  }
 }

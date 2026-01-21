@@ -8,7 +8,9 @@ resource "azurerm_vmware_private_cloud" "tf-sample-vmware-private-cloud" {
   sku_name                    = ""
   vcenter_password            = ""
   
-  management_cluster {}
+  management_cluster {
+    size = 0
+  }
   
   tags = {}
 }

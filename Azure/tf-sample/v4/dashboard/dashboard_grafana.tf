@@ -10,9 +10,23 @@ resource "azurerm_dashboard_grafana" "tf-sample-dashboard-grafana" {
   sku                                    = ""
   zone_redundancy_enabled                = false
   
-  azure_monitor_workspace_integrations {}
-  identity {}
-  smtp {}
+  azure_monitor_workspace_integrations {
+    resource_id = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  smtp {
+    enabled                   = false
+    from_address              = ""
+    from_name                 = ""
+    host                      = ""
+    password                  = ""
+    start_tls_policy          = ""
+    user                      = ""
+    verification_skip_enabled = false
+  }
   
   tags = {}
 }

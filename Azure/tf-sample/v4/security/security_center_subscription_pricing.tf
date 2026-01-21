@@ -3,5 +3,8 @@ resource "azurerm_security_center_subscription_pricing" "tf-sample-security-cent
   subplan       = ""
   tier          = ""
   
-  extension {}
+  extension {
+    additional_extension_properties = {}
+    name                            = ""
+  }
 }

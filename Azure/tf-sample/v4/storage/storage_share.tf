@@ -1,11 +1,15 @@
 resource "azurerm_storage_share" "tf-sample-storage-share" {
-  access_tier          = ""
-  enabled_protocol     = ""
-  metadata             = {}
-  name                 = ""
-  quota                = 0
-  storage_account_id   = ""
-  storage_account_name = ""
+  access_tier        = ""
+  enabled_protocol   = ""
+  name               = ""
+  quota              = 0
+  storage_account_id = ""
   
-  acl {}
+  acl {
+    access_policy {
+      expiry      = ""
+      permissions = ""
+      start       = ""
+    }
+  }
 }

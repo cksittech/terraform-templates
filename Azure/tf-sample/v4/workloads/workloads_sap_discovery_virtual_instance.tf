@@ -9,7 +9,10 @@ resource "azurerm_workloads_sap_discovery_virtual_instance" "tf-sample-workloads
   resource_group_name                   = ""
   sap_product                           = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

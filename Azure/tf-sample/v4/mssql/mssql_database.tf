@@ -29,11 +29,39 @@ resource "azurerm_mssql_database" "tf-sample-mssql-database" {
   transparent_data_encryption_key_vault_key_id               = ""
   zone_redundant                                             = false
   
-  identity {}
-  import {}
-  long_term_retention_policy {}
-  short_term_retention_policy {}
-  threat_detection_policy {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  import {
+    administrator_login          = ""
+    administrator_login_password = ""
+    authentication_type          = ""
+    storage_account_id           = ""
+    storage_key                  = ""
+    storage_key_type             = ""
+    storage_uri                  = ""
+  }
+  long_term_retention_policy {
+    immutable_backups_enabled = false
+    monthly_retention         = ""
+    week_of_year              = 0
+    weekly_retention          = ""
+    yearly_retention          = ""
+  }
+  short_term_retention_policy {
+    backup_interval_in_hours = 0
+    retention_days           = 0
+  }
+  threat_detection_policy {
+    disabled_alerts            = []
+    email_account_admins       = ""
+    email_addresses            = []
+    retention_days             = 0
+    state                      = ""
+    storage_account_access_key = ""
+    storage_endpoint           = ""
+  }
   
   tags = {}
 }

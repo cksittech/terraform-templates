@@ -6,7 +6,10 @@ resource "azurerm_purview_account" "tf-sample-purview-account" {
   public_network_enabled      = false
   resource_group_name         = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

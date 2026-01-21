@@ -7,6 +7,12 @@ resource "azurerm_billing_account_cost_management_export" "tf-sample-billing-acc
   recurrence_period_start_date = ""
   recurrence_type              = ""
   
-  export_data_options {}
-  export_data_storage_location {}
+  export_data_options {
+    time_frame = ""
+    type       = ""
+  }
+  export_data_storage_location {
+    container_id     = ""
+    root_folder_path = ""
+  }
 }

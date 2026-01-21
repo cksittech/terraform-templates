@@ -3,6 +3,12 @@ resource "azurerm_nginx_configuration" "tf-sample-nginx-configuration" {
   package_data        = ""
   root_file           = ""
   
-  config_file {}
-  protected_file {}
+  config_file {
+    content      = ""
+    virtual_path = ""
+  }
+  protected_file {
+    content      = ""
+    virtual_path = ""
+  }
 }

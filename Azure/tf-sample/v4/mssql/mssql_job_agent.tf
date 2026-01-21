@@ -4,7 +4,10 @@ resource "azurerm_mssql_job_agent" "tf-sample-mssql-job-agent" {
   name        = ""
   sku         = ""
   
-  identity {}
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

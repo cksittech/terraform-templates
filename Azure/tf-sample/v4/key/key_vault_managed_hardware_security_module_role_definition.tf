@@ -4,5 +4,10 @@ resource "azurerm_key_vault_managed_hardware_security_module_role_definition" "t
   name           = ""
   role_name      = ""
   
-  permission {}
+  permission {
+    actions          = []
+    data_actions     = []
+    not_actions      = []
+    not_data_actions = []
+  }
 }

@@ -1,6 +1,4 @@
 resource "azurerm_key_vault" "tf-sample-key-vault" {
-  access_policy                   = []
-  enable_rbac_authorization       = false
   enabled_for_deployment          = false
   enabled_for_disk_encryption     = false
   enabled_for_template_deployment = false
@@ -14,8 +12,12 @@ resource "azurerm_key_vault" "tf-sample-key-vault" {
   soft_delete_retention_days      = 0
   tenant_id                       = ""
   
-  contact {}
-  network_acls {}
+  network_acls {
+    bypass                     = ""
+    default_action             = ""
+    ip_rules                   = []
+    virtual_network_subnet_ids = []
+  }
   
   tags = {}
 }

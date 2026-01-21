@@ -3,5 +3,10 @@ resource "azurerm_mssql_managed_instance_start_stop_schedule" "tf-sample-mssql-m
   managed_instance_id = ""
   timezone_id         = ""
   
-  schedule {}
+  schedule {
+    start_day  = ""
+    start_time = ""
+    stop_day   = ""
+    stop_time  = ""
+  }
 }

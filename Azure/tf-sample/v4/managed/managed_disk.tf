@@ -33,7 +33,16 @@ resource "azurerm_managed_disk" "tf-sample-managed-disk" {
   upload_size_bytes                 = 0
   zone                              = ""
   
-  encryption_settings {}
+  encryption_settings {
+    disk_encryption_key {
+      secret_url      = ""
+      source_vault_id = ""
+    }
+    key_encryption_key {
+      key_url         = ""
+      source_vault_id = ""
+    }
+  }
   
   tags = {}
 }

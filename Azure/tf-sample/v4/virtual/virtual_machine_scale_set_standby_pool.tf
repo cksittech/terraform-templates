@@ -5,7 +5,10 @@ resource "azurerm_virtual_machine_scale_set_standby_pool" "tf-sample-virtual-mac
   resource_group_name                   = ""
   virtual_machine_state                 = ""
   
-  elasticity_profile {}
+  elasticity_profile {
+    max_ready_capacity = 0
+    min_ready_capacity = 0
+  }
   
   tags = {}
 }

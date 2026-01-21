@@ -4,7 +4,9 @@ resource "azurerm_arc_kubernetes_cluster" "tf-sample-arc-kubernetes-cluster" {
   name                         = ""
   resource_group_name          = ""
   
-  identity {}
+  identity {
+    type = ""
+  }
   
   tags = {}
 }

@@ -7,5 +7,4 @@ resource "azurerm_management_group_policy_exemption" "tf-sample-management-group
   metadata                        = ""
   name                            = ""
   policy_assignment_id            = ""
-  policy_definition_reference_ids = []
 }

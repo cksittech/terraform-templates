@@ -4,5 +4,8 @@ resource "azurerm_logic_app_integration_account_partner" "tf-sample-logic-app-in
   name                     = ""
   resource_group_name      = ""
   
-  business_identity {}
+  business_identity {
+    qualifier = ""
+    value     = ""
+  }
 }

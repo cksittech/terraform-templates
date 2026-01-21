@@ -4,7 +4,6 @@ resource "azurerm_bot_connection" "tf-sample-bot-connection" {
   client_secret         = ""
   location              = ""
   name                  = ""
-  parameters            = {}
   resource_group_name   = ""
   scopes                = ""
   service_provider_name = ""

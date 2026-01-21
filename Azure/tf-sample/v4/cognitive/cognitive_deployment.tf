@@ -5,6 +5,16 @@ resource "azurerm_cognitive_deployment" "tf-sample-cognitive-deployment" {
   rai_policy_name            = ""
   version_upgrade_option     = ""
   
-  model {}
-  sku {}
+  model {
+    format  = ""
+    name    = ""
+    version = ""
+  }
+  sku {
+    capacity = 0
+    family   = ""
+    name     = ""
+    size     = ""
+    tier     = ""
+  }
 }

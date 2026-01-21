@@ -6,6 +6,5 @@ resource "azurerm_resource_policy_exemption" "tf-sample-resource-policy-exemptio
   metadata                        = ""
   name                            = ""
   policy_assignment_id            = ""
-  policy_definition_reference_ids = []
   resource_id                     = ""
 }

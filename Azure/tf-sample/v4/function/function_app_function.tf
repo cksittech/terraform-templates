@@ -6,5 +6,8 @@ resource "azurerm_function_app_function" "tf-sample-function-app-function" {
   name            = ""
   test_data       = ""
   
-  file {}
+  file {
+    content = ""
+    name    = ""
+  }
 }

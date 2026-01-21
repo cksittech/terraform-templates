@@ -1,5 +1,4 @@
 resource "azurerm_static_web_app" "tf-sample-static-web-app" {
-  app_settings                       = {}
   configuration_file_changes_enabled = false
   location                           = ""
   name                               = ""
@@ -12,8 +11,14 @@ resource "azurerm_static_web_app" "tf-sample-static-web-app" {
   sku_size                           = ""
   sku_tier                           = ""
   
-  basic_auth {}
-  identity {}
+  basic_auth {
+    environments = ""
+    password     = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   
   tags = {}
 }

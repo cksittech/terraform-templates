@@ -19,11 +19,33 @@ resource "azurerm_mysql_flexible_server" "tf-sample-mysql-flexible-server" {
   version                           = ""
   zone                              = ""
   
-  customer_managed_key {}
-  high_availability {}
-  identity {}
-  maintenance_window {}
-  storage {}
+  customer_managed_key {
+    geo_backup_key_vault_key_id          = ""
+    geo_backup_user_assigned_identity_id = ""
+    key_vault_key_id                     = ""
+    managed_hsm_key_id                   = ""
+    primary_user_assigned_identity_id    = ""
+  }
+  high_availability {
+    mode                      = ""
+    standby_availability_zone = ""
+  }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
+  maintenance_window {
+    day_of_week  = 0
+    start_hour   = 0
+    start_minute = 0
+  }
+  storage {
+    auto_grow_enabled   = false
+    io_scaling_enabled  = false
+    iops                = 0
+    log_on_disk_enabled = false
+    size_gb             = 0
+  }
   
   tags = {}
 }

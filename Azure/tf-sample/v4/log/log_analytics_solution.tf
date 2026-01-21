@@ -5,7 +5,11 @@ resource "azurerm_log_analytics_solution" "tf-sample-log-analytics-solution" {
   workspace_name        = ""
   workspace_resource_id = ""
   
-  plan {}
+  plan {
+    product        = ""
+    promotion_code = ""
+    publisher      = ""
+  }
   
   tags = {}
 }

@@ -14,5 +14,8 @@ resource "azurerm_servicebus_subscription" "tf-sample-servicebus-subscription" {
   status                                    = ""
   topic_id                                  = ""
   
-  client_scoped_subscription {}
+  client_scoped_subscription {
+    client_id                               = ""
+    is_client_scoped_subscription_shareable = false
+  }
 }
