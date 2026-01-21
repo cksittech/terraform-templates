@@ -6,5 +6,10 @@ resource "google_secure_source_manager_repository" "tf-sample-secure-source-mana
   project         = ""
   repository_id   = ""
   
-  initial_config {}
+  initial_config {
+    default_branch = ""
+    gitignores     = []
+    license        = ""
+    readme         = ""
+  }
 }

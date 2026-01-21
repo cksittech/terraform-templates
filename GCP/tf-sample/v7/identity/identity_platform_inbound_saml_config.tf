@@ -4,6 +4,17 @@ resource "google_identity_platform_inbound_saml_config" "tf-sample-identity-plat
   name         = ""
   project      = ""
   
-  idp_config {}
-  sp_config {}
+  idp_config {
+    idp_entity_id = ""
+    sign_request  = false
+    sso_url       = ""
+    
+    idp_certificates {
+      x509_certificate = ""
+    }
+  }
+  sp_config {
+    callback_uri = ""
+    sp_entity_id = ""
+  }
 }

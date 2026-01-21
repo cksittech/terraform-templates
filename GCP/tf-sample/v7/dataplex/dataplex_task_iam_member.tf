@@ -6,5 +6,9 @@ resource "google_dataplex_task_iam_member" "tf-sample-dataplex-task-iam-member" 
   role     = ""
   task_id  = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

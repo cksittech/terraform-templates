@@ -5,5 +5,9 @@ resource "google_dataplex_entry_type_iam_member" "tf-sample-dataplex-entry-type-
   project       = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

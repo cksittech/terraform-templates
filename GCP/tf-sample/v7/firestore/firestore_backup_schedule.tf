@@ -3,6 +3,9 @@ resource "google_firestore_backup_schedule" "tf-sample-firestore-backup-schedule
   project   = ""
   retention = ""
   
-  daily_recurrence {}
-  weekly_recurrence {}
+  daily_recurrence {
+  }
+  weekly_recurrence {
+    day = ""
+  }
 }

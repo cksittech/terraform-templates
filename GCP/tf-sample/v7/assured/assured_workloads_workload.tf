@@ -3,7 +3,6 @@ resource "google_assured_workloads_workload" "tf-sample-assured-workloads-worklo
   compliance_regime                = ""
   display_name                     = ""
   enable_sovereign_controls        = false
-  labels                           = {}
   location                         = ""
   organization                     = ""
   partner                          = ""
@@ -11,8 +10,21 @@ resource "google_assured_workloads_workload" "tf-sample-assured-workloads-worklo
   provisioned_resources_parent     = ""
   violation_notifications_enabled  = false
   
-  kms_settings {}
-  partner_permissions {}
-  resource_settings {}
-  workload_options {}
+  kms_settings {
+    next_rotation_time = ""
+    rotation_period    = ""
+  }
+  partner_permissions {
+    assured_workloads_monitoring = false
+    data_logs_viewer             = false
+    service_access_approver      = false
+  }
+  resource_settings {
+    display_name  = ""
+    resource_id   = ""
+    resource_type = ""
+  }
+  workload_options {
+    kaj_enrollment_type = ""
+  }
 }

@@ -5,5 +5,9 @@ resource "google_secure_source_manager_instance_iam_member" "tf-sample-secure-so
   project     = ""
   role        = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

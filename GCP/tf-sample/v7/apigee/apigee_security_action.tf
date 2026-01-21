@@ -1,5 +1,4 @@
 resource "google_apigee_security_action" "tf-sample-apigee-security-action" {
-  api_proxies        = []
   description        = ""
   env_id             = ""
   expire_time        = ""
@@ -8,8 +7,28 @@ resource "google_apigee_security_action" "tf-sample-apigee-security-action" {
   state              = ""
   ttl                = ""
   
-  allow {}
-  condition_config {}
-  deny {}
-  flag {}
+  allow {
+  }
+  condition_config {
+    access_tokens     = []
+    api_keys          = []
+    api_products      = []
+    asns              = []
+    bot_reasons       = []
+    developer_apps    = []
+    developers        = []
+    http_methods      = []
+    ip_address_ranges = []
+    region_codes      = []
+    user_agents       = []
+  }
+  deny {
+    response_code = 0
+  }
+  flag {
+    headers {
+      name  = ""
+      value = ""
+    }
+  }
 }

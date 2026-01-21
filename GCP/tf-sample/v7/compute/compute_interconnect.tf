@@ -3,7 +3,6 @@ resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
   customer_name        = ""
   description          = ""
   interconnect_type    = ""
-  labels               = {}
   link_type            = ""
   location             = ""
   macsec_enabled       = false
@@ -11,9 +10,17 @@ resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
   noc_contact_email    = ""
   project              = ""
   remote_location      = ""
-  requested_features   = []
   requested_link_count = 0
   
-  macsec {}
-  params {}
+  macsec {
+    fail_open = false
+    
+    pre_shared_keys {
+      name       = ""
+      start_time = ""
+    }
+  }
+  params {
+    resource_manager_tags = {}
+  }
 }

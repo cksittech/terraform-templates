@@ -5,6 +5,18 @@ resource "google_compute_wire_group" "tf-sample-compute-wire-group" {
   name               = ""
   project            = ""
   
-  endpoints {}
-  wire_properties {}
+  endpoints {
+    endpoint = ""
+    
+    interconnects {
+      interconnect      = ""
+      interconnect_name = ""
+      vlan_tags         = []
+    }
+  }
+  wire_properties {
+    bandwidth_allocation = ""
+    bandwidth_unmetered  = 0
+    fault_response       = ""
+  }
 }

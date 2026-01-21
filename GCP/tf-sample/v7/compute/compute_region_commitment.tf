@@ -9,6 +9,14 @@ resource "google_compute_region_commitment" "tf-sample-compute-region-commitment
   region                = ""
   type                  = ""
   
-  license_resource {}
-  resources {}
+  license_resource {
+    amount            = ""
+    cores_per_license = ""
+    license           = ""
+  }
+  resources {
+    accelerator_type = ""
+    amount           = ""
+    type             = ""
+  }
 }

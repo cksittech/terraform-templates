@@ -5,5 +5,9 @@ resource "google_bigquery_table_iam_member" "tf-sample-bigquery-table-iam-member
   role       = ""
   table_id   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

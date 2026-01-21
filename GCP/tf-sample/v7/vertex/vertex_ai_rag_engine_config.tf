@@ -2,5 +2,12 @@ resource "google_vertex_ai_rag_engine_config" "tf-sample-vertex-ai-rag-engine-co
   project = ""
   region  = ""
   
-  rag_managed_db_config {}
+  rag_managed_db_config {
+    basic {
+    }
+    scaled {
+    }
+    unprovisioned {
+    }
+  }
 }

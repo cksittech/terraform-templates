@@ -2,5 +2,7 @@ resource "google_dialogflow_encryption_spec" "tf-sample-dialogflow-encryption-sp
   location = ""
   project  = ""
   
-  encryption_spec {}
+  encryption_spec {
+    kms_key = ""
+  }
 }

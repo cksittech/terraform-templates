@@ -8,6 +8,13 @@ resource "google_logging_organization_sink" "tf-sample-logging-organization-sink
   name               = ""
   org_id             = ""
   
-  bigquery_options {}
-  exclusions {}
+  bigquery_options {
+    use_partitioned_tables = false
+  }
+  exclusions {
+    description = ""
+    disabled    = false
+    filter      = ""
+    name        = ""
+  }
 }

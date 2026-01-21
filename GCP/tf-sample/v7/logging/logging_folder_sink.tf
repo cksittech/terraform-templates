@@ -8,6 +8,13 @@ resource "google_logging_folder_sink" "tf-sample-logging-folder-sink" {
   intercept_children = false
   name               = ""
   
-  bigquery_options {}
-  exclusions {}
+  bigquery_options {
+    use_partitioned_tables = false
+  }
+  exclusions {
+    description = ""
+    disabled    = false
+    filter      = ""
+    name        = ""
+  }
 }

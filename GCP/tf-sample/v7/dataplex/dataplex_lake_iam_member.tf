@@ -5,5 +5,9 @@ resource "google_dataplex_lake_iam_member" "tf-sample-dataplex-lake-iam-member" 
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

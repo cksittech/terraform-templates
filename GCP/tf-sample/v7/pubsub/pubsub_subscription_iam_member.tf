@@ -4,5 +4,9 @@ resource "google_pubsub_subscription_iam_member" "tf-sample-pubsub-subscription-
   role         = ""
   subscription = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

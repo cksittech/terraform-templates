@@ -5,5 +5,9 @@ resource "google_privateca_ca_pool_iam_member" "tf-sample-privateca-ca-pool-iam-
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

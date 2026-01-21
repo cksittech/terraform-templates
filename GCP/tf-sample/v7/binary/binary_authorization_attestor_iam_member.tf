@@ -4,5 +4,9 @@ resource "google_binary_authorization_attestor_iam_member" "tf-sample-binary-aut
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

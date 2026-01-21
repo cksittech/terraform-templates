@@ -5,5 +5,9 @@ resource "google_cloudbuildv2_connection_iam_member" "tf-sample-cloudbuildv2-con
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -5,5 +5,20 @@ resource "google_compute_router_route_policy" "tf-sample-compute-router-route-po
   router  = ""
   type    = ""
   
-  terms {}
+  terms {
+    priority = 0
+    
+    actions {
+      description = ""
+      expression  = ""
+      location    = ""
+      title       = ""
+    }
+    match {
+      description = ""
+      expression  = ""
+      location    = ""
+      title       = ""
+    }
+  }
 }

@@ -6,5 +6,8 @@ resource "google_apigee_security_feedback" "tf-sample-apigee-security-feedback" 
   org_id        = ""
   reason        = ""
   
-  feedback_contexts {}
+  feedback_contexts {
+    attribute = ""
+    values    = []
+  }
 }

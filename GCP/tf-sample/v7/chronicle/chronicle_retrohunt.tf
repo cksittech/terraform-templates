@@ -5,5 +5,8 @@ resource "google_chronicle_retrohunt" "tf-sample-chronicle-retrohunt" {
   retrohunt = ""
   rule      = ""
   
-  process_interval {}
+  process_interval {
+    end_time   = ""
+    start_time = ""
+  }
 }

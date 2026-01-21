@@ -1,6 +1,5 @@
 resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-hub-listing" {
   allow_only_metadata_sharing         = false
-  categories                          = []
   data_exchange_id                    = ""
   delete_commercial                   = false
   description                         = ""
@@ -15,9 +14,27 @@ resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-h
   project                             = ""
   request_access                      = ""
   
-  bigquery_dataset {}
-  data_provider {}
-  publisher {}
-  pubsub_topic {}
-  restricted_export_config {}
+  bigquery_dataset {
+    dataset = ""
+    
+    selected_resources {
+      table = ""
+    }
+  }
+  data_provider {
+    name            = ""
+    primary_contact = ""
+  }
+  publisher {
+    name            = ""
+    primary_contact = ""
+  }
+  pubsub_topic {
+    data_affinity_regions = []
+    topic                 = ""
+  }
+  restricted_export_config {
+    enabled               = false
+    restrict_query_result = false
+  }
 }

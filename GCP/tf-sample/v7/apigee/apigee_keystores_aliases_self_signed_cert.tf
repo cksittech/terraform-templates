@@ -7,6 +7,16 @@ resource "google_apigee_keystores_aliases_self_signed_cert" "tf-sample-apigee-ke
   org_id                = ""
   sig_alg               = ""
   
-  subject {}
-  subject_alternative_dns_names {}
+  subject {
+    common_name  = ""
+    country_code = ""
+    email        = ""
+    locality     = ""
+    org          = ""
+    org_unit     = ""
+    state        = ""
+  }
+  subject_alternative_dns_names {
+    subject_alternative_name = ""
+  }
 }

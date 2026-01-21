@@ -2,5 +2,7 @@ resource "google_app_engine_service_network_settings" "tf-sample-app-engine-serv
   project = ""
   service = ""
   
-  network_settings {}
+  network_settings {
+    ingress_traffic_allowed = ""
+  }
 }

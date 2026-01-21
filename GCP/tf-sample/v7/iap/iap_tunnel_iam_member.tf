@@ -3,5 +3,9 @@ resource "google_iap_tunnel_iam_member" "tf-sample-iap-tunnel-iam-member" {
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

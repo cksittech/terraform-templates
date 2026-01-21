@@ -4,5 +4,9 @@ resource "google_compute_snapshot_iam_member" "tf-sample-compute-snapshot-iam-me
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

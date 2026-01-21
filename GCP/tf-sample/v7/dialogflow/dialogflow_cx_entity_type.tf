@@ -7,6 +7,11 @@ resource "google_dialogflow_cx_entity_type" "tf-sample-dialogflow-cx-entity-type
   parent                  = ""
   redact                  = false
   
-  entities {}
-  excluded_phrases {}
+  entities {
+    synonyms = []
+    value    = ""
+  }
+  excluded_phrases {
+    value = ""
+  }
 }

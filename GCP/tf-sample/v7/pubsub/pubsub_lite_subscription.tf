@@ -5,5 +5,7 @@ resource "google_pubsub_lite_subscription" "tf-sample-pubsub-lite-subscription" 
   topic   = ""
   zone    = ""
   
-  delivery_config {}
+  delivery_config {
+    delivery_requirement = ""
+  }
 }

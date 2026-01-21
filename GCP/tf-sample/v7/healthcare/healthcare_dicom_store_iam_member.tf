@@ -3,5 +3,9 @@ resource "google_healthcare_dicom_store_iam_member" "tf-sample-healthcare-dicom-
   member         = ""
   role           = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

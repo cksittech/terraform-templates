@@ -6,5 +6,9 @@ resource "google_iap_app_engine_version_iam_member" "tf-sample-iap-app-engine-ve
   service    = ""
   version_id = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

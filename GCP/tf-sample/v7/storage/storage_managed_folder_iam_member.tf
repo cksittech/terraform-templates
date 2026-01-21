@@ -4,5 +4,9 @@ resource "google_storage_managed_folder_iam_member" "tf-sample-storage-managed-f
   member         = ""
   role           = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

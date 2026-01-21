@@ -3,6 +3,11 @@ resource "google_compute_interconnect_group" "tf-sample-compute-interconnect-gro
   name        = ""
   project     = ""
   
-  intent {}
-  interconnects {}
+  intent {
+    topology_capability = ""
+  }
+  interconnects {
+    interconnect = ""
+    name         = ""
+  }
 }

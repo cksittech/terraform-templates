@@ -3,5 +3,9 @@ resource "google_folder_iam_member" "tf-sample-folder-iam-member" {
   member = ""
   role   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

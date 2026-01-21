@@ -10,11 +10,31 @@ resource "google_storage_insights_dataset_config" "tf-sample-storage-insights-da
   project                             = ""
   retention_period_days               = 0
   
-  exclude_cloud_storage_buckets {}
-  exclude_cloud_storage_locations {}
-  identity {}
-  include_cloud_storage_buckets {}
-  include_cloud_storage_locations {}
-  source_folders {}
-  source_projects {}
+  exclude_cloud_storage_buckets {
+    cloud_storage_buckets {
+      bucket_name         = ""
+      bucket_prefix_regex = ""
+    }
+  }
+  exclude_cloud_storage_locations {
+    locations = []
+  }
+  identity {
+    type = ""
+  }
+  include_cloud_storage_buckets {
+    cloud_storage_buckets {
+      bucket_name         = ""
+      bucket_prefix_regex = ""
+    }
+  }
+  include_cloud_storage_locations {
+    locations = []
+  }
+  source_folders {
+    folder_numbers = []
+  }
+  source_projects {
+    project_numbers = []
+  }
 }

@@ -5,13 +5,10 @@ resource "google_compute_interconnect_attachment" "tf-sample-compute-interconnec
   candidate_cloud_router_ipv6_address    = ""
   candidate_customer_router_ip_address   = ""
   candidate_customer_router_ipv6_address = ""
-  candidate_subnets                      = []
   description                            = ""
   edge_availability_domain               = ""
   encryption                             = ""
   interconnect                           = ""
-  ipsec_internal_addresses               = []
-  labels                                 = {}
   mtu                                    = ""
   name                                   = ""
   project                                = ""

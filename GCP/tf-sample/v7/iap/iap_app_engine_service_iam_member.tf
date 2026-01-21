@@ -5,5 +5,9 @@ resource "google_iap_app_engine_service_iam_member" "tf-sample-iap-app-engine-se
   role    = ""
   service = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

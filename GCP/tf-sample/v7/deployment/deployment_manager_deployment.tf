@@ -6,6 +6,17 @@ resource "google_deployment_manager_deployment" "tf-sample-deployment-manager-de
   preview       = false
   project       = ""
   
-  labels {}
-  target {}
+  labels {
+    key   = ""
+    value = ""
+  }
+  target {
+    config {
+      content = ""
+    }
+    imports {
+      content = ""
+      name    = ""
+    }
+  }
 }

@@ -7,6 +7,11 @@ resource "google_chronicle_watchlist" "tf-sample-chronicle-watchlist" {
   project            = ""
   watchlist_id       = ""
   
-  entity_population_mechanism {}
-  watchlist_user_preferences {}
+  entity_population_mechanism {
+    manual {
+    }
+  }
+  watchlist_user_preferences {
+    pinned = false
+  }
 }

@@ -4,5 +4,9 @@ resource "google_bigquery_dataset_iam_member" "tf-sample-bigquery-dataset-iam-me
   project    = ""
   role       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

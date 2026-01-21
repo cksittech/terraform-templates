@@ -15,5 +15,7 @@ resource "google_compute_network" "tf-sample-compute-network" {
   project                                   = ""
   routing_mode                              = ""
   
-  params {}
+  params {
+    resource_manager_tags = {}
+  }
 }

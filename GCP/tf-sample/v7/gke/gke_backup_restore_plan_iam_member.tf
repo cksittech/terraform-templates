@@ -5,5 +5,9 @@ resource "google_gke_backup_restore_plan_iam_member" "tf-sample-gke-backup-resto
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

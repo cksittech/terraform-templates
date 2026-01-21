@@ -10,5 +10,10 @@ resource "google_bigquery_analytics_hub_data_exchange" "tf-sample-bigquery-analy
   primary_contact                     = ""
   project                             = ""
   
-  sharing_environment_config {}
+  sharing_environment_config {
+    dcr_exchange_config {
+    }
+    default_exchange_config {
+    }
+  }
 }

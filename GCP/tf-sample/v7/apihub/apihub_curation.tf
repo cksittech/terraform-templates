@@ -5,5 +5,10 @@ resource "google_apihub_curation" "tf-sample-apihub-curation" {
   location     = ""
   project      = ""
   
-  endpoint {}
+  endpoint {
+    application_integration_endpoint_details {
+      trigger_id = ""
+      uri        = ""
+    }
+  }
 }

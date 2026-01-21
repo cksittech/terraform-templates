@@ -6,5 +6,9 @@ resource "google_dataproc_metastore_database_iam_member" "tf-sample-dataproc-met
   role       = ""
   service_id = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -6,5 +6,9 @@ resource "google_bigquery_analytics_hub_listing_iam_member" "tf-sample-bigquery-
   project          = ""
   role             = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

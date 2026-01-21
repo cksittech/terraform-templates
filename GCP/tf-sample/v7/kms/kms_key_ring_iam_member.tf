@@ -3,5 +3,9 @@ resource "google_kms_key_ring_iam_member" "tf-sample-kms-key-ring-iam-member" {
   member      = ""
   role        = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -3,5 +3,8 @@ resource "google_app_engine_domain_mapping" "tf-sample-app-engine-domain-mapping
   override_strategy = ""
   project           = ""
   
-  ssl_settings {}
+  ssl_settings {
+    certificate_id      = ""
+    ssl_management_type = ""
+  }
 }

@@ -6,7 +6,23 @@ resource "google_compute_router" "tf-sample-compute-router" {
   project                       = ""
   region                        = ""
   
-  bgp {}
-  md5_authentication_keys {}
-  params {}
+  bgp {
+    advertise_mode     = ""
+    advertised_groups  = []
+    asn                = 0
+    identifier_range   = ""
+    keepalive_interval = 0
+    
+    advertised_ip_ranges {
+      description = ""
+      range       = ""
+    }
+  }
+  md5_authentication_keys {
+    key  = ""
+    name = ""
+  }
+  params {
+    resource_manager_tags = {}
+  }
 }

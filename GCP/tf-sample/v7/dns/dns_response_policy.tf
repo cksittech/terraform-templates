@@ -3,6 +3,10 @@ resource "google_dns_response_policy" "tf-sample-dns-response-policy" {
   project              = ""
   response_policy_name = ""
   
-  gke_clusters {}
-  networks {}
+  gke_clusters {
+    gke_cluster_name = ""
+  }
+  networks {
+    network_url = ""
+  }
 }

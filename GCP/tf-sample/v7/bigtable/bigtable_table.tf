@@ -5,8 +5,13 @@ resource "google_bigtable_table" "tf-sample-bigtable-table" {
   name                    = ""
   project                 = ""
   row_key_schema          = ""
-  split_keys              = []
   
-  automated_backup_policy {}
-  column_family {}
+  automated_backup_policy {
+    frequency        = ""
+    retention_period = ""
+  }
+  column_family {
+    family = ""
+    type   = ""
+  }
 }

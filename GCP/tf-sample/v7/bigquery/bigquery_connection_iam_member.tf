@@ -5,5 +5,9 @@ resource "google_bigquery_connection_iam_member" "tf-sample-bigquery-connection-
   project       = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -5,5 +5,9 @@ resource "google_secure_source_manager_repository_iam_member" "tf-sample-secure-
   repository_id = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

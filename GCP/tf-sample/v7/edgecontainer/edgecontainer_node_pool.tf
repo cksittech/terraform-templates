@@ -1,6 +1,5 @@
 resource "google_edgecontainer_node_pool" "tf-sample-edgecontainer-node-pool" {
   cluster        = ""
-  labels         = {}
   location       = ""
   machine_filter = ""
   name           = ""
@@ -8,6 +7,10 @@ resource "google_edgecontainer_node_pool" "tf-sample-edgecontainer-node-pool" {
   node_location  = ""
   project        = ""
   
-  local_disk_encryption {}
-  node_config {}
+  local_disk_encryption {
+    kms_key = ""
+  }
+  node_config {
+    labels = {}
+  }
 }

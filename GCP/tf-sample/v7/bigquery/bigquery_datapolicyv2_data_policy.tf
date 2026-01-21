@@ -2,9 +2,11 @@ resource "google_bigquery_datapolicyv2_data_policy" "tf-sample-bigquery-datapoli
   data_policy_id   = ""
   data_policy_type = ""
   etag             = ""
-  grantees         = []
   location         = ""
   project          = ""
   
-  data_masking_policy {}
+  data_masking_policy {
+    predefined_expression = ""
+    routine               = ""
+  }
 }

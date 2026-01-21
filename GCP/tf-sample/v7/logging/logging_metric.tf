@@ -3,11 +3,35 @@ resource "google_logging_metric" "tf-sample-logging-metric" {
   description      = ""
   disabled         = false
   filter           = ""
-  label_extractors = {}
   name             = ""
   project          = ""
   value_extractor  = ""
   
-  bucket_options {}
-  metric_descriptor {}
+  bucket_options {
+    explicit_buckets {
+      bounds = []
+    }
+    exponential_buckets {
+      growth_factor      = 0
+      num_finite_buckets = 0
+      scale              = 0
+    }
+    linear_buckets {
+      num_finite_buckets = 0
+      offset             = 0
+      width              = 0
+    }
+  }
+  metric_descriptor {
+    display_name = ""
+    metric_kind  = ""
+    unit         = ""
+    value_type   = ""
+    
+    labels {
+      description = ""
+      key         = ""
+      value_type  = ""
+    }
+  }
 }

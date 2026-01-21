@@ -5,5 +5,9 @@ resource "google_dataproc_job_iam_member" "tf-sample-dataproc-job-iam-member" {
   region  = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

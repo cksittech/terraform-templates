@@ -3,5 +3,8 @@ resource "google_app_engine_service_split_traffic" "tf-sample-app-engine-service
   project         = ""
   service         = ""
   
-  split {}
+  split {
+    allocations = {}
+    shard_by    = ""
+  }
 }

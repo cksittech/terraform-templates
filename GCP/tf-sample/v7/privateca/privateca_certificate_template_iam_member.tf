@@ -5,5 +5,9 @@ resource "google_privateca_certificate_template_iam_member" "tf-sample-privateca
   project              = ""
   role                 = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

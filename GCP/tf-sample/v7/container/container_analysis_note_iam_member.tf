@@ -4,5 +4,9 @@ resource "google_container_analysis_note_iam_member" "tf-sample-container-analys
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

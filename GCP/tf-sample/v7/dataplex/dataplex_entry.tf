@@ -7,6 +7,26 @@ resource "google_dataplex_entry" "tf-sample-dataplex-entry" {
   parent_entry         = ""
   project              = ""
   
-  aspects {}
-  entry_source {}
+  aspects {
+    aspect_key = ""
+    
+    aspect {
+      data = ""
+    }
+  }
+  entry_source {
+    create_time  = ""
+    description  = ""
+    display_name = ""
+    labels       = {}
+    platform     = ""
+    resource     = ""
+    system       = ""
+    update_time  = ""
+    
+    ancestors {
+      name = ""
+      type = ""
+    }
+  }
 }

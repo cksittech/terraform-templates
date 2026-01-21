@@ -4,6 +4,11 @@ resource "google_compute_interconnect_attachment_group" "tf-sample-compute-inter
   name               = ""
   project            = ""
   
-  attachments {}
-  intent {}
+  attachments {
+    attachment = ""
+    name       = ""
+  }
+  intent {
+    availability_sla = ""
+  }
 }

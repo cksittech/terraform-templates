@@ -8,6 +8,10 @@ resource "google_bigtable_gc_policy" "tf-sample-bigtable-gc-policy" {
   project         = ""
   table           = ""
   
-  max_age {}
-  max_version {}
+  max_age {
+    duration = ""
+  }
+  max_version {
+    number = 0
+  }
 }

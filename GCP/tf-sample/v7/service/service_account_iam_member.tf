@@ -3,5 +3,9 @@ resource "google_service_account_iam_member" "tf-sample-service-account-iam-memb
   role               = ""
   service_account_id = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

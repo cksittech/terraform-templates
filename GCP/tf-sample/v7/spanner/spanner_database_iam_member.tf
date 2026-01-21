@@ -5,5 +5,9 @@ resource "google_spanner_database_iam_member" "tf-sample-spanner-database-iam-me
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

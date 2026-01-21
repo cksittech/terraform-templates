@@ -4,5 +4,9 @@ resource "google_iap_web_backend_service_iam_member" "tf-sample-iap-web-backend-
   role                = ""
   web_backend_service = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

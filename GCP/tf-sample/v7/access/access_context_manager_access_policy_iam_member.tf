@@ -3,5 +3,9 @@ resource "google_access_context_manager_access_policy_iam_member" "tf-sample-acc
   name   = ""
   role   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

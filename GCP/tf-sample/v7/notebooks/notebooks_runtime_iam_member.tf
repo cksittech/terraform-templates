@@ -5,5 +5,9 @@ resource "google_notebooks_runtime_iam_member" "tf-sample-notebooks-runtime-iam-
   role         = ""
   runtime_name = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

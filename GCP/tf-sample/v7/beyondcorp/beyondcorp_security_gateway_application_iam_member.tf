@@ -5,5 +5,9 @@ resource "google_beyondcorp_security_gateway_application_iam_member" "tf-sample-
   role                = ""
   security_gateway_id = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -5,5 +5,9 @@ resource "google_cloudfunctions_function_iam_member" "tf-sample-cloudfunctions-f
   region         = ""
   role           = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

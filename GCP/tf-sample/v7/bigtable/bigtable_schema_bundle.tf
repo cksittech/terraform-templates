@@ -5,5 +5,7 @@ resource "google_bigtable_schema_bundle" "tf-sample-bigtable-schema-bundle" {
   schema_bundle_id = ""
   table            = ""
   
-  proto_schema {}
+  proto_schema {
+    proto_descriptors = ""
+  }
 }

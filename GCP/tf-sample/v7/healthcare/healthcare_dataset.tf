@@ -4,5 +4,7 @@ resource "google_healthcare_dataset" "tf-sample-healthcare-dataset" {
   project   = ""
   time_zone = ""
   
-  encryption_spec {}
+  encryption_spec {
+    kms_key_name = ""
+  }
 }

@@ -2,9 +2,12 @@ resource "google_bigquery_analytics_hub_listing_iam_binding" "tf-sample-bigquery
   data_exchange_id = ""
   listing_id       = ""
   location         = ""
-  members          = []
   project          = ""
   role             = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

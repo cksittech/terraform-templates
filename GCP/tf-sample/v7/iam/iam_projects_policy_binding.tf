@@ -1,5 +1,4 @@
 resource "google_iam_projects_policy_binding" "tf-sample-iam-projects-policy-binding" {
-  annotations       = {}
   display_name      = ""
   location          = ""
   policy            = ""
@@ -7,6 +6,13 @@ resource "google_iam_projects_policy_binding" "tf-sample-iam-projects-policy-bin
   policy_kind       = ""
   project           = ""
   
-  condition {}
-  target {}
+  condition {
+    description = ""
+    expression  = ""
+    location    = ""
+    title       = ""
+  }
+  target {
+    principal_set = ""
+  }
 }

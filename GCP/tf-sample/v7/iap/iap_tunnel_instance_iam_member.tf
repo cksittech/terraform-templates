@@ -5,5 +5,9 @@ resource "google_iap_tunnel_instance_iam_member" "tf-sample-iap-tunnel-instance-
   role     = ""
   zone     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

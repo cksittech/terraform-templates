@@ -3,6 +3,14 @@ resource "google_firebase_app_hosting_traffic" "tf-sample-firebase-app-hosting-t
   location = ""
   project  = ""
   
-  rollout_policy {}
-  target {}
+  rollout_policy {
+    codebase_branch = ""
+    disabled        = false
+  }
+  target {
+    splits {
+      build   = ""
+      percent = 0
+    }
+  }
 }

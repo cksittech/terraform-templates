@@ -1,6 +1,5 @@
 resource "google_cloud_quotas_quota_preference" "tf-sample-cloud-quotas-quota-preference" {
   contact_email        = ""
-  dimensions           = {}
   ignore_safety_checks = ""
   justification        = ""
   name                 = ""
@@ -8,5 +7,8 @@ resource "google_cloud_quotas_quota_preference" "tf-sample-cloud-quotas-quota-pr
   quota_id             = ""
   service              = ""
   
-  quota_config {}
+  quota_config {
+    annotations     = {}
+    preferred_value = ""
+  }
 }

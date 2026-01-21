@@ -5,5 +5,9 @@ resource "google_notebooks_instance_iam_member" "tf-sample-notebooks-instance-ia
   project       = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -3,5 +3,16 @@ resource "google_redis_cluster_user_created_connections" "tf-sample-redis-cluste
   project = ""
   region  = ""
   
-  cluster_endpoints {}
+  cluster_endpoints {
+    connections {
+      psc_connection {
+        address            = ""
+        forwarding_rule    = ""
+        network            = ""
+        project_id         = ""
+        psc_connection_id  = ""
+        service_attachment = ""
+      }
+    }
+  }
 }

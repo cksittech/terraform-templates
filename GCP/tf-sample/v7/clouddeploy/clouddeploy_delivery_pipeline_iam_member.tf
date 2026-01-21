@@ -5,5 +5,9 @@ resource "google_clouddeploy_delivery_pipeline_iam_member" "tf-sample-clouddeplo
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

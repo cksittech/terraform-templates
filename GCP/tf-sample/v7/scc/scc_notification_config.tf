@@ -4,5 +4,7 @@ resource "google_scc_notification_config" "tf-sample-scc-notification-config" {
   organization = ""
   pubsub_topic = ""
   
-  streaming_config {}
+  streaming_config {
+    filter = ""
+  }
 }

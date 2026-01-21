@@ -3,7 +3,23 @@ resource "google_folder_organization_policy" "tf-sample-folder-organization-poli
   folder     = ""
   version    = 0
   
-  boolean_policy {}
-  list_policy {}
-  restore_policy {}
+  boolean_policy {
+    enforced = false
+  }
+  list_policy {
+    inherit_from_parent = false
+    suggested_value     = ""
+    
+    allow {
+      all    = false
+      values = []
+    }
+    deny {
+      all    = false
+      values = []
+    }
+  }
+  restore_policy {
+    default = false
+  }
 }

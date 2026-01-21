@@ -5,5 +5,9 @@ resource "google_gke_hub_membership_iam_member" "tf-sample-gke-hub-membership-ia
   project       = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -3,5 +3,9 @@ resource "google_healthcare_fhir_store_iam_member" "tf-sample-healthcare-fhir-st
   member        = ""
   role          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

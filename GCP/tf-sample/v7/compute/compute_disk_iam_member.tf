@@ -5,5 +5,9 @@ resource "google_compute_disk_iam_member" "tf-sample-compute-disk-iam-member" {
   role    = ""
   zone    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

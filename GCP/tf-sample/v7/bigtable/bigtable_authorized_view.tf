@@ -5,5 +5,13 @@ resource "google_bigtable_authorized_view" "tf-sample-bigtable-authorized-view" 
   project             = ""
   table_name          = ""
   
-  subset_view {}
+  subset_view {
+    row_prefixes = []
+    
+    family_subsets {
+      family_name        = ""
+      qualifier_prefixes = []
+      qualifiers         = []
+    }
+  }
 }

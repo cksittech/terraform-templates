@@ -6,9 +6,23 @@ resource "google_vertex_ai_index_endpoint_deployed_index" "tf-sample-vertex-ai-i
   index                 = ""
   index_endpoint        = ""
   region                = ""
-  reserved_ip_ranges    = []
   
-  automatic_resources {}
-  dedicated_resources {}
-  deployed_index_auth_config {}
+  automatic_resources {
+    max_replica_count = 0
+    min_replica_count = 0
+  }
+  dedicated_resources {
+    max_replica_count = 0
+    min_replica_count = 0
+    
+    machine_spec {
+      machine_type = ""
+    }
+  }
+  deployed_index_auth_config {
+    auth_provider {
+      allowed_issuers = []
+      audiences       = []
+    }
+  }
 }

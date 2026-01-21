@@ -1,6 +1,5 @@
 resource "google_filestore_backup" "tf-sample-filestore-backup" {
   description       = ""
-  labels            = {}
   location          = ""
   name              = ""
   project           = ""

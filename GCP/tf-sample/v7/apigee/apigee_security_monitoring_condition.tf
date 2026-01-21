@@ -4,5 +4,6 @@ resource "google_apigee_security_monitoring_condition" "tf-sample-apigee-securit
   profile      = ""
   scope        = ""
   
-  include_all_resources {}
+  include_all_resources {
+  }
 }

@@ -3,5 +3,9 @@ resource "google_billing_account_iam_member" "tf-sample-billing-account-iam-memb
   member             = ""
   role               = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

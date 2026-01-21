@@ -3,5 +3,9 @@ resource "google_iap_web_iam_member" "tf-sample-iap-web-iam-member" {
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

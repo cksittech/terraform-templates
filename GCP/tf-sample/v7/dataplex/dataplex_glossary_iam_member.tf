@@ -5,5 +5,9 @@ resource "google_dataplex_glossary_iam_member" "tf-sample-dataplex-glossary-iam-
   project     = ""
   role        = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

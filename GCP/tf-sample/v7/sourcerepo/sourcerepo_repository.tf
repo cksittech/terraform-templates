@@ -3,5 +3,9 @@ resource "google_sourcerepo_repository" "tf-sample-sourcerepo-repository" {
   name                         = ""
   project                      = ""
   
-  pubsub_configs {}
+  pubsub_configs {
+    message_format        = ""
+    service_account_email = ""
+    topic                 = ""
+  }
 }

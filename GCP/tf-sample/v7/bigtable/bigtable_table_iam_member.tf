@@ -5,5 +5,9 @@ resource "google_bigtable_table_iam_member" "tf-sample-bigtable-table-iam-member
   role          = ""
   table         = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

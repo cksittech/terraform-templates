@@ -5,5 +5,9 @@ resource "google_data_catalog_tag_template_iam_member" "tf-sample-data-catalog-t
   role         = ""
   tag_template = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

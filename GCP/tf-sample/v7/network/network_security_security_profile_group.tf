@@ -2,7 +2,6 @@ resource "google_network_security_security_profile_group" "tf-sample-network-sec
   custom_intercept_profile  = ""
   custom_mirroring_profile  = ""
   description               = ""
-  labels                    = {}
   location                  = ""
   name                      = ""
   parent                    = ""

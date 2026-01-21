@@ -3,5 +3,9 @@ resource "google_healthcare_dataset_iam_member" "tf-sample-healthcare-dataset-ia
   member     = ""
   role       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

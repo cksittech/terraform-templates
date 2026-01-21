@@ -7,6 +7,11 @@ resource "google_logging_project_bucket_config" "tf-sample-logging-project-bucke
   project          = ""
   retention_days   = 0
   
-  cmek_settings {}
-  index_configs {}
+  cmek_settings {
+    kms_key_name = ""
+  }
+  index_configs {
+    field_path = ""
+    type       = ""
+  }
 }

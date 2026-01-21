@@ -5,5 +5,9 @@ resource "google_compute_instance_iam_member" "tf-sample-compute-instance-iam-me
   role          = ""
   zone          = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -4,5 +4,10 @@ resource "google_managed_kafka_acl" "tf-sample-managed-kafka-acl" {
   location = ""
   project  = ""
   
-  acl_entries {}
+  acl_entries {
+    host            = ""
+    operation       = ""
+    permission_type = ""
+    principal       = ""
+  }
 }

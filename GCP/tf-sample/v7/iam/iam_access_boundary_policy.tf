@@ -3,5 +3,19 @@ resource "google_iam_access_boundary_policy" "tf-sample-iam-access-boundary-poli
   name         = ""
   parent       = ""
   
-  rules {}
+  rules {
+    description = ""
+    
+    access_boundary_rule {
+      available_permissions = []
+      available_resource    = ""
+      
+      availability_condition {
+        description = ""
+        expression  = ""
+        location    = ""
+        title       = ""
+      }
+    }
+  }
 }

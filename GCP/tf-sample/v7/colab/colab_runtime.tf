@@ -8,5 +8,7 @@ resource "google_colab_runtime" "tf-sample-colab-runtime" {
   project       = ""
   runtime_user  = ""
   
-  notebook_runtime_template_ref {}
+  notebook_runtime_template_ref {
+    notebook_runtime_template = ""
+  }
 }

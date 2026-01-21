@@ -7,5 +7,9 @@ resource "google_dataproc_metastore_table_iam_member" "tf-sample-dataproc-metast
   service_id  = ""
   table       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

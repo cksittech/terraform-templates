@@ -8,6 +8,13 @@ resource "google_monitoring_metric_descriptor" "tf-sample-monitoring-metric-desc
   unit         = ""
   value_type   = ""
   
-  labels {}
-  metadata {}
+  labels {
+    description = ""
+    key         = ""
+    value_type  = ""
+  }
+  metadata {
+    ingest_delay  = ""
+    sample_period = ""
+  }
 }

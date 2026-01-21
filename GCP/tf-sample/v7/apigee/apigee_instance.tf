@@ -1,5 +1,4 @@
 resource "google_apigee_instance" "tf-sample-apigee-instance" {
-  consumer_accept_list     = []
   description              = ""
   disk_encryption_key_name = ""
   display_name             = ""
@@ -9,5 +8,8 @@ resource "google_apigee_instance" "tf-sample-apigee-instance" {
   org_id                   = ""
   peering_cidr_range       = ""
   
-  access_logging_config {}
+  access_logging_config {
+    enabled = false
+    filter  = ""
+  }
 }

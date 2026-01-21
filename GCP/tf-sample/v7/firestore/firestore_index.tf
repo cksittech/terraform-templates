@@ -8,5 +8,16 @@ resource "google_firestore_index" "tf-sample-firestore-index" {
   query_scope = ""
   unique      = false
   
-  fields {}
+  fields {
+    array_config = ""
+    field_path   = ""
+    order        = ""
+    
+    vector_config {
+      dimension = 0
+      
+      flat {
+      }
+    }
+  }
 }

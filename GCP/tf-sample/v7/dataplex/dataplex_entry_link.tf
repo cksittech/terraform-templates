@@ -5,5 +5,9 @@ resource "google_dataplex_entry_link" "tf-sample-dataplex-entry-link" {
   location        = ""
   project         = ""
   
-  entry_references {}
+  entry_references {
+    name = ""
+    path = ""
+    type = ""
+  }
 }

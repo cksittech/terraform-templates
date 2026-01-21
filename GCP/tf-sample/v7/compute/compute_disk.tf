@@ -6,8 +6,6 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
   description                           = ""
   enable_confidential_compute           = false
   image                                 = ""
-  labels                                = {}
-  licenses                              = []
   name                                  = ""
   physical_block_size_bytes             = 0
   project                               = ""
@@ -22,10 +20,29 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
   type                                  = ""
   zone                                  = ""
   
-  async_primary_disk {}
-  disk_encryption_key {}
-  guest_os_features {}
-  params {}
-  source_image_encryption_key {}
-  source_snapshot_encryption_key {}
+  async_primary_disk {
+    disk = ""
+  }
+  disk_encryption_key {
+    kms_key_self_link       = ""
+    kms_key_service_account = ""
+    raw_key                 = ""
+    rsa_encrypted_key       = ""
+  }
+  guest_os_features {
+    type = ""
+  }
+  params {
+    resource_manager_tags = {}
+  }
+  source_image_encryption_key {
+    kms_key_self_link       = ""
+    kms_key_service_account = ""
+    raw_key                 = ""
+  }
+  source_snapshot_encryption_key {
+    kms_key_self_link       = ""
+    kms_key_service_account = ""
+    raw_key                 = ""
+  }
 }

@@ -12,7 +12,9 @@ resource "google_compute_route" "tf-sample-compute-route" {
   priority               = 0
   project                = ""
   
-  params {}
+  params {
+    resource_manager_tags = {}
+  }
   
   tags = {}
 }

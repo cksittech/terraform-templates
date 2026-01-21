@@ -8,6 +8,14 @@ resource "google_discovery_engine_license_config" "tf-sample-discovery-engine-li
   subscription_term = ""
   subscription_tier = ""
   
-  end_date {}
-  start_date {}
+  end_date {
+    day   = 0
+    month = 0
+    year  = 0
+  }
+  start_date {
+    day   = 0
+    month = 0
+    year  = 0
+  }
 }

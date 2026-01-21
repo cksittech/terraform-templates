@@ -7,5 +7,38 @@ resource "google_ces_example" "tf-sample-ces-example" {
   location     = ""
   project      = ""
   
-  messages {}
+  messages {
+    role = ""
+    
+    chunks {
+      text              = ""
+      updated_variables = ""
+      
+      agent_transfer {
+        target_agent = ""
+      }
+      image {
+        data      = ""
+        mime_type = ""
+      }
+      tool_call {
+        args = ""
+        tool = ""
+        
+        toolset_tool {
+          tool_id = ""
+          toolset = ""
+        }
+      }
+      tool_response {
+        response = ""
+        tool     = ""
+        
+        toolset_tool {
+          tool_id = ""
+          toolset = ""
+        }
+      }
+    }
+  }
 }

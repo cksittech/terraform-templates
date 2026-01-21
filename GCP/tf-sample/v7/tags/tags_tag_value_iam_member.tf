@@ -3,5 +3,9 @@ resource "google_tags_tag_value_iam_member" "tf-sample-tags-tag-value-iam-member
   role      = ""
   tag_value = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

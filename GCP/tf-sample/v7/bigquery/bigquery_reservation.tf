@@ -8,5 +8,7 @@ resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   secondary_location = ""
   slot_capacity      = 0
   
-  autoscale {}
+  autoscale {
+    max_slots = 0
+  }
 }

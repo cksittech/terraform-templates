@@ -4,5 +4,9 @@ resource "google_scc_v2_organization_source_iam_member" "tf-sample-scc-v2-organi
   role         = ""
   source       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

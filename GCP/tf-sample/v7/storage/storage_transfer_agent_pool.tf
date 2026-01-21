@@ -3,5 +3,7 @@ resource "google_storage_transfer_agent_pool" "tf-sample-storage-transfer-agent-
   name         = ""
   project      = ""
   
-  bandwidth_limit {}
+  bandwidth_limit {
+    limit_mbps = ""
+  }
 }

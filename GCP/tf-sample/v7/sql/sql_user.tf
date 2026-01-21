@@ -9,5 +9,10 @@ resource "google_sql_user" "tf-sample-sql-user" {
   project             = ""
   type                = ""
   
-  password_policy {}
+  password_policy {
+    allowed_failed_attempts      = 0
+    enable_failed_attempts_check = false
+    enable_password_verification = false
+    password_expiration_duration = ""
+  }
 }

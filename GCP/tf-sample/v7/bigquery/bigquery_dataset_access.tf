@@ -8,8 +8,28 @@ resource "google_bigquery_dataset_access" "tf-sample-bigquery-dataset-access" {
   special_group  = ""
   user_by_email  = ""
   
-  condition {}
-  dataset {}
-  routine {}
-  view {}
+  condition {
+    description = ""
+    expression  = ""
+    location    = ""
+    title       = ""
+  }
+  dataset {
+    target_types = []
+    
+    dataset {
+      dataset_id = ""
+      project_id = ""
+    }
+  }
+  routine {
+    dataset_id = ""
+    project_id = ""
+    routine_id = ""
+  }
+  view {
+    dataset_id = ""
+    project_id = ""
+    table_id   = ""
+  }
 }

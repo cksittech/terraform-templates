@@ -5,5 +5,9 @@ resource "google_gke_hub_feature_iam_member" "tf-sample-gke-hub-feature-iam-memb
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

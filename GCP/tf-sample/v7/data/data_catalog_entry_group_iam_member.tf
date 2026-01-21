@@ -5,5 +5,9 @@ resource "google_data_catalog_entry_group_iam_member" "tf-sample-data-catalog-en
   region      = ""
   role        = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

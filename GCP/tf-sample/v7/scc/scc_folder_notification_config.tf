@@ -4,5 +4,7 @@ resource "google_scc_folder_notification_config" "tf-sample-scc-folder-notificat
   folder       = ""
   pubsub_topic = ""
   
-  streaming_config {}
+  streaming_config {
+    filter = ""
+  }
 }

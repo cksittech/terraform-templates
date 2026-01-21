@@ -3,5 +3,9 @@ resource "google_data_catalog_policy_tag_iam_member" "tf-sample-data-catalog-pol
   policy_tag = ""
   role       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

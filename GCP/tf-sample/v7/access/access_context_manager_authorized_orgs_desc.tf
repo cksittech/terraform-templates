@@ -3,6 +3,5 @@ resource "google_access_context_manager_authorized_orgs_desc" "tf-sample-access-
   authorization_direction = ""
   authorization_type      = ""
   name                    = ""
-  orgs                    = []
   parent                  = ""
 }

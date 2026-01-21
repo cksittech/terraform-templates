@@ -9,5 +9,7 @@ resource "google_data_catalog_entry" "tf-sample-data-catalog-entry" {
   user_specified_system = ""
   user_specified_type   = ""
   
-  gcs_fileset_spec {}
+  gcs_fileset_spec {
+    file_patterns = []
+  }
 }

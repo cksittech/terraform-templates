@@ -5,5 +5,9 @@ resource "google_compute_storage_pool_iam_member" "tf-sample-compute-storage-poo
   role    = ""
   zone    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

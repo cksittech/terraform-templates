@@ -3,5 +3,8 @@ resource "google_biglake_database" "tf-sample-biglake-database" {
   name    = ""
   type    = ""
   
-  hive_options {}
+  hive_options {
+    location_uri = ""
+    parameters   = {}
+  }
 }

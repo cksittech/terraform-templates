@@ -2,5 +2,18 @@ resource "google_storage_control_project_intelligence_config" "tf-sample-storage
   edition_config = ""
   name           = ""
   
-  filter {}
+  filter {
+    excluded_cloud_storage_buckets {
+      bucket_id_regexes = []
+    }
+    excluded_cloud_storage_locations {
+      locations = []
+    }
+    included_cloud_storage_buckets {
+      bucket_id_regexes = []
+    }
+    included_cloud_storage_locations {
+      locations = []
+    }
+  }
 }

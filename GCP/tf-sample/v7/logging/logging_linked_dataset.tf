@@ -5,5 +5,6 @@ resource "google_logging_linked_dataset" "tf-sample-logging-linked-dataset" {
   location    = ""
   parent      = ""
   
-  bigquery_dataset {}
+  bigquery_dataset {
+  }
 }

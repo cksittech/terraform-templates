@@ -1,8 +1,11 @@
 resource "google_pubsub_topic_iam_binding" "tf-sample-pubsub-topic-iam-binding" {
-  members = []
   project = ""
   role    = ""
   topic   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

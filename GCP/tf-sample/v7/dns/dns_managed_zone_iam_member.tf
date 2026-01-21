@@ -4,5 +4,9 @@ resource "google_dns_managed_zone_iam_member" "tf-sample-dns-managed-zone-iam-me
   project      = ""
   role         = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

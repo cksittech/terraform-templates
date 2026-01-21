@@ -5,5 +5,9 @@ resource "google_iap_tunnel_dest_group_iam_member" "tf-sample-iap-tunnel-dest-gr
   region     = ""
   role       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

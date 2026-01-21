@@ -13,5 +13,10 @@ resource "google_apigee_organization" "tf-sample-apigee-organization" {
   runtime_database_encryption_key_name  = ""
   runtime_type                          = ""
   
-  properties {}
+  properties {
+    property {
+      name  = ""
+      value = ""
+    }
+  }
 }

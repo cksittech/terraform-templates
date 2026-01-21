@@ -4,5 +4,9 @@ resource "google_endpoints_service_consumers_iam_member" "tf-sample-endpoints-se
   role             = ""
   service_name     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

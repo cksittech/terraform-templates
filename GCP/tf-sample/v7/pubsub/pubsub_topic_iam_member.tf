@@ -4,5 +4,9 @@ resource "google_pubsub_topic_iam_member" "tf-sample-pubsub-topic-iam-member" {
   role    = ""
   topic   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

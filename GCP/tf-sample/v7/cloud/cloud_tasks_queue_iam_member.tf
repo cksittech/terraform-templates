@@ -5,5 +5,9 @@ resource "google_cloud_tasks_queue_iam_member" "tf-sample-cloud-tasks-queue-iam-
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

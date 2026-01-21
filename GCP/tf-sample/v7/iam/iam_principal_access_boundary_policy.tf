@@ -1,9 +1,16 @@
 resource "google_iam_principal_access_boundary_policy" "tf-sample-iam-principal-access-boundary-policy" {
-  annotations                         = {}
   display_name                        = ""
   location                            = ""
   organization                        = ""
   principal_access_boundary_policy_id = ""
   
-  details {}
+  details {
+    enforcement_version = ""
+    
+    rules {
+      description = ""
+      effect      = ""
+      resources   = []
+    }
+  }
 }

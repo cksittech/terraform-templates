@@ -7,7 +7,19 @@ resource "google_compute_node_group" "tf-sample-compute-node-group" {
   project            = ""
   zone               = ""
   
-  autoscaling_policy {}
-  maintenance_window {}
-  share_settings {}
+  autoscaling_policy {
+    max_nodes = 0
+    min_nodes = 0
+    mode      = ""
+  }
+  maintenance_window {
+    start_time = ""
+  }
+  share_settings {
+    share_type = ""
+    
+    project_map {
+      project_id = ""
+    }
+  }
 }

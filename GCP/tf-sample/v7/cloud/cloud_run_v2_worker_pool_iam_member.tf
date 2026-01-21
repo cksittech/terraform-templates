@@ -5,5 +5,9 @@ resource "google_cloud_run_v2_worker_pool_iam_member" "tf-sample-cloud-run-v2-wo
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -6,6 +6,12 @@ resource "google_chronicle_reference_list" "tf-sample-chronicle-reference-list" 
   reference_list_id = ""
   syntax_type       = ""
   
-  entries {}
-  scope_info {}
+  entries {
+    value = ""
+  }
+  scope_info {
+    reference_list_scope {
+      scope_names = []
+    }
+  }
 }

@@ -6,5 +6,8 @@ resource "google_apigee_app_group" "tf-sample-apigee-app-group" {
   org_id       = ""
   status       = ""
   
-  attributes {}
+  attributes {
+    name  = ""
+    value = ""
+  }
 }

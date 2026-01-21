@@ -4,5 +4,9 @@ resource "google_sourcerepo_repository_iam_member" "tf-sample-sourcerepo-reposit
   repository = ""
   role       = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

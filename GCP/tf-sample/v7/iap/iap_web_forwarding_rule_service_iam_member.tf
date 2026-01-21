@@ -4,5 +4,9 @@ resource "google_iap_web_forwarding_rule_service_iam_member" "tf-sample-iap-web-
   project                      = ""
   role                         = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -4,5 +4,15 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
   location         = ""
   project          = ""
   
-  destination_dataset {}
+  destination_dataset {
+    description   = ""
+    friendly_name = ""
+    labels        = {}
+    location      = ""
+    
+    dataset_reference {
+      dataset_id = ""
+      project_id = ""
+    }
+  }
 }

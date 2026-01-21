@@ -5,5 +5,9 @@ resource "google_data_fusion_instance_iam_member" "tf-sample-data-fusion-instanc
   region  = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

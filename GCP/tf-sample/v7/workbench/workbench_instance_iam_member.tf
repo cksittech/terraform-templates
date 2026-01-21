@@ -5,5 +5,9 @@ resource "google_workbench_instance_iam_member" "tf-sample-workbench-instance-ia
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

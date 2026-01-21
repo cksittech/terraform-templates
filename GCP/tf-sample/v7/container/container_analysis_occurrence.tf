@@ -4,5 +4,12 @@ resource "google_container_analysis_occurrence" "tf-sample-container-analysis-oc
   remediation  = ""
   resource_uri = ""
   
-  attestation {}
+  attestation {
+    serialized_payload = ""
+    
+    signatures {
+      public_key_id = ""
+      signature     = ""
+    }
+  }
 }

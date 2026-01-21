@@ -3,5 +3,9 @@ resource "google_project_iam_member" "tf-sample-project-iam-member" {
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

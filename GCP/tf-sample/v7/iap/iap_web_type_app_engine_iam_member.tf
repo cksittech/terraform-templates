@@ -4,5 +4,9 @@ resource "google_iap_web_type_app_engine_iam_member" "tf-sample-iap-web-type-app
   project = ""
   role    = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

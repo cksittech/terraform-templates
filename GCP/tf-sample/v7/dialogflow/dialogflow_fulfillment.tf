@@ -3,6 +3,13 @@ resource "google_dialogflow_fulfillment" "tf-sample-dialogflow-fulfillment" {
   enabled      = false
   project      = ""
   
-  features {}
-  generic_web_service {}
+  features {
+    type = ""
+  }
+  generic_web_service {
+    password        = ""
+    request_headers = {}
+    uri             = ""
+    username        = ""
+  }
 }

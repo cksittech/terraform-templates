@@ -6,5 +6,9 @@ resource "google_gemini_repository_group_iam_member" "tf-sample-gemini-repositor
   repository_group_id   = ""
   role                  = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

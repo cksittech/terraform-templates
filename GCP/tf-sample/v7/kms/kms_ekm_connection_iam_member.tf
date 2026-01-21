@@ -5,5 +5,9 @@ resource "google_kms_ekm_connection_iam_member" "tf-sample-kms-ekm-connection-ia
   project  = ""
   role     = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

@@ -5,7 +5,18 @@ resource "google_dns_policy" "tf-sample-dns-policy" {
   name                      = ""
   project                   = ""
   
-  alternative_name_server_config {}
-  dns64_config {}
-  networks {}
+  alternative_name_server_config {
+    target_name_servers {
+      forwarding_path = ""
+      ipv4_address    = ""
+    }
+  }
+  dns64_config {
+    scope {
+      all_queries = false
+    }
+  }
+  networks {
+    network_url = ""
+  }
 }

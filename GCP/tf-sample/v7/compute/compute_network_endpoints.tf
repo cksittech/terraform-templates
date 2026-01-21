@@ -3,5 +3,9 @@ resource "google_compute_network_endpoints" "tf-sample-compute-network-endpoints
   project                = ""
   zone                   = ""
   
-  network_endpoints {}
+  network_endpoints {
+    instance   = ""
+    ip_address = ""
+    port       = 0
+  }
 }

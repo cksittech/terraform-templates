@@ -3,5 +3,9 @@ resource "google_storage_bucket_iam_member" "tf-sample-storage-bucket-iam-member
   member = ""
   role   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

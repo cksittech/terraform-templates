@@ -3,5 +3,9 @@ resource "google_organization_iam_member" "tf-sample-organization-iam-member" {
   org_id = ""
   role   = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

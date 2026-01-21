@@ -10,7 +10,9 @@ resource "google_firestore_database" "tf-sample-firestore-database" {
   project                           = ""
   type                              = ""
   
-  cmek_config {}
+  cmek_config {
+    kms_key_name = ""
+  }
   
   tags = {}
 }

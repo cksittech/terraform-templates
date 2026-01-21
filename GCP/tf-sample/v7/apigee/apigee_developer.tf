@@ -5,5 +5,8 @@ resource "google_apigee_developer" "tf-sample-apigee-developer" {
   org_id     = ""
   user_name  = ""
   
-  attributes {}
+  attributes {
+    name  = ""
+    value = ""
+  }
 }

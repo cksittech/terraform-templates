@@ -4,5 +4,9 @@ resource "google_iam_workforce_pool_iam_member" "tf-sample-iam-workforce-pool-ia
   role              = ""
   workforce_pool_id = ""
   
-  condition {}
+  condition {
+    description = ""
+    expression  = ""
+    title       = ""
+  }
 }

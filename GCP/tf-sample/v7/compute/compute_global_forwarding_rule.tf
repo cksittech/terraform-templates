@@ -5,7 +5,6 @@ resource "google_compute_global_forwarding_rule" "tf-sample-compute-global-forwa
   ip_address                                                   = ""
   ip_protocol                                                  = ""
   ip_version                                                   = ""
-  labels                                                       = {}
   load_balancing_scheme                                        = ""
   name                                                         = ""
   network                                                      = ""
@@ -13,10 +12,19 @@ resource "google_compute_global_forwarding_rule" "tf-sample-compute-global-forwa
   no_automate_dns_zone                                         = false
   port_range                                                   = ""
   project                                                      = ""
-  source_ip_ranges                                             = []
   subnetwork                                                   = ""
   target                                                       = ""
   
-  metadata_filters {}
-  service_directory_registrations {}
+  metadata_filters {
+    filter_match_criteria = ""
+    
+    filter_labels {
+      name  = ""
+      value = ""
+    }
+  }
+  service_directory_registrations {
+    namespace                = ""
+    service_directory_region = ""
+  }
 }
