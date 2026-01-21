@@ -111,10 +111,11 @@ try:
                 for attribute in attributes:
                     attr_type = RESOURCE_SCHEMAS[resource]["block"]["attributes"][attribute]["type"]
                     if isinstance(attr_type, list):
-                        base_type = attr_type[0]
-                        if base_type == "object":
+                        print(attribute, attr_type[0])
+                        if attr_type[0] == "object":
                             attribute_objects.append(attribute)
                             continue
+                        f.write(f"{' '*INDENT_LEVEL}{attribute.ljust(fill_num)} = {TYPE_DEFAULTS.get(attr_type[0])}\n")
                     else:
                         f.write(f"{' '*INDENT_LEVEL}{attribute.ljust(fill_num)} = {TYPE_DEFAULTS.get(attr_type)}\n")
             
