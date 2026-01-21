@@ -2,5 +2,12 @@ resource "alicloud_max_compute_quota_schedule" "tf-sample-max-compute-quota-sche
   nickname = ""
   timezone = ""
   
-  schedule_list {}
+  schedule_list {
+    plan = ""
+    type = ""
+    
+    condition {
+      at = ""
+    }
+  }
 }

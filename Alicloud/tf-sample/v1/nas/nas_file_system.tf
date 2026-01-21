@@ -8,7 +8,6 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
   kms_key_id             = ""
   protocol_type          = ""
   redundancy_type        = ""
-  redundancy_vswitch_ids = []
   resource_group_id      = ""
   snapshot_id            = ""
   storage_type           = ""
@@ -16,10 +15,24 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
   vswitch_id             = ""
   zone_id                = ""
   
-  nfs_acl {}
-  options {}
-  recycle_bin {}
-  smb_acl {}
+  nfs_acl {
+    enabled = false
+  }
+  options {
+    enable_oplock = false
+  }
+  recycle_bin {
+    reserved_days = 0
+    status        = ""
+  }
+  smb_acl {
+    enable_anonymous_access   = false
+    enabled                   = false
+    encrypt_data              = false
+    home_dir_path             = ""
+    reject_unencrypted_access = false
+    super_admin_sid           = ""
+  }
   
   tags = {}
 }

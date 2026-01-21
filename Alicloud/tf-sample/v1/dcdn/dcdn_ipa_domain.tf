@@ -4,5 +4,11 @@ resource "alicloud_dcdn_ipa_domain" "tf-sample-dcdn-ipa-domain" {
   scope             = ""
   status            = ""
   
-  sources {}
+  sources {
+    content  = ""
+    port     = 0
+    priority = ""
+    type     = ""
+    weight   = 0
+  }
 }

@@ -9,7 +9,6 @@ resource "alicloud_ecs_capacity_reservation" "tf-sample-ecs-capacity-reservation
   match_criteria            = ""
   platform                  = ""
   resource_group_id         = ""
-  zone_ids                  = []
   
   tags = {}
 }

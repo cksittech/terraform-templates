@@ -6,5 +6,8 @@ resource "alicloud_selectdb_db_cluster" "tf-sample-selectdb-db-cluster" {
   desired_status         = ""
   payment_type           = ""
   
-  desired_params {}
+  desired_params {
+    name  = ""
+    value = ""
+  }
 }

@@ -3,7 +3,5 @@ resource "alicloud_slb_acl" "tf-sample-slb-acl" {
   name              = ""
   resource_group_id = ""
   
-  entry_list {}
-  
   tags = {}
 }

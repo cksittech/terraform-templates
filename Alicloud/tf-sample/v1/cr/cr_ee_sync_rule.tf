@@ -1,6 +1,5 @@
 resource "alicloud_cr_ee_sync_rule" "tf-sample-cr-ee-sync-rule" {
   instance_id           = ""
-  name                  = ""
   namespace_name        = ""
   repo_name             = ""
   sync_rule_name        = ""

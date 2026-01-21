@@ -16,7 +16,13 @@ resource "alicloud_dcdn_domain" "tf-sample-dcdn-domain" {
   status            = ""
   top_level_domain  = ""
   
-  sources {}
+  sources {
+    content  = ""
+    port     = 0
+    priority = ""
+    type     = ""
+    weight   = ""
+  }
   
   tags = {}
 }

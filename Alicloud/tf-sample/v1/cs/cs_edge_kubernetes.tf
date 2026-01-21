@@ -1,15 +1,11 @@
 resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   availability_zone              = ""
-  client_cert                    = ""
-  client_key                     = ""
-  cluster_ca_cert                = ""
   cluster_spec                   = ""
   deletion_protection            = false
   force_update                   = false
   install_cloud_monitor          = false
   is_enterprise_security_group   = false
   key_name                       = ""
-  kube_config                    = ""
   load_balancer_spec             = ""
   name                           = ""
   name_prefix                    = ""
@@ -18,10 +14,7 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   password                       = ""
   pod_cidr                       = ""
   proxy_mode                     = ""
-  rds_instances                  = []
   resource_group_id              = ""
-  retain_resources               = []
-  runtime                        = {}
   security_group_id              = ""
   service_cidr                   = ""
   skip_set_certificate_authority = false
@@ -33,13 +26,25 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   worker_disk_size               = 0
   worker_disk_snapshot_policy_id = ""
   worker_instance_charge_type    = ""
-  worker_instance_types          = []
   worker_number                  = 0
-  worker_vswitch_ids             = []
   
-  addons {}
-  log_config {}
-  worker_data_disks {}
+  addons {
+    config   = ""
+    disabled = false
+    name     = ""
+    version  = ""
+  }
+  worker_data_disks {
+    auto_snapshot_policy_id = ""
+    category                = ""
+    device                  = ""
+    encrypted               = ""
+    kms_key_id              = ""
+    name                    = ""
+    performance_level       = ""
+    size                    = ""
+    snapshot_id             = ""
+  }
   
   tags = {}
 }

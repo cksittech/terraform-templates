@@ -8,7 +8,11 @@ resource "alicloud_eci_virtual_node" "tf-sample-eci-virtual-node" {
   vswitch_id            = ""
   zone_id               = ""
   
-  taints {}
+  taints {
+    effect = ""
+    key    = ""
+    value  = ""
+  }
   
   tags = {}
 }

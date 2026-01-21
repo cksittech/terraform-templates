@@ -13,6 +13,12 @@ resource "alicloud_rds_ai_instance" "tf-sample-rds-ai-instance" {
   ssl_enabled                   = 0
   status                        = ""
   
-  auth_config_list {}
-  storage_config_list {}
+  auth_config_list {
+    name  = ""
+    value = ""
+  }
+  storage_config_list {
+    name  = ""
+    value = ""
+  }
 }

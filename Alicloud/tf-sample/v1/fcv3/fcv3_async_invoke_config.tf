@@ -5,5 +5,12 @@ resource "alicloud_fcv3_async_invoke_config" "tf-sample-fcv3-async-invoke-config
   max_async_retry_attempts       = 0
   qualifier                      = ""
   
-  destination_config {}
+  destination_config {
+    on_failure {
+      destination = ""
+    }
+    on_success {
+      destination = ""
+    }
+  }
 }

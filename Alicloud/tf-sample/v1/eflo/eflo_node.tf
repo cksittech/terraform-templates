@@ -2,7 +2,6 @@ resource "alicloud_eflo_node" "tf-sample-eflo-node" {
   billing_cycle     = ""
   classify          = ""
   cluster_id        = ""
-  computing_server  = ""
   discount_level    = ""
   hostname          = ""
   hpn_zone          = ""
@@ -26,8 +25,38 @@ resource "alicloud_eflo_node" "tf-sample-eflo-node" {
   vswitch_id        = ""
   zone              = ""
   
-  data_disk {}
-  ip_allocation_policy {}
+  data_disk {
+    category          = ""
+    performance_level = ""
+    size              = 0
+  }
+  ip_allocation_policy {
+    bond_policy {
+      bond_default_subnet = ""
+      
+      bonds {
+        name   = ""
+        subnet = ""
+      }
+    }
+    machine_type_policy {
+      machine_type = ""
+      
+      bonds {
+        name   = ""
+        subnet = ""
+      }
+    }
+    node_policy {
+      hostname = ""
+      node_id  = ""
+      
+      bonds {
+        name   = ""
+        subnet = ""
+      }
+    }
+  }
   
   tags = {}
 }

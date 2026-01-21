@@ -5,7 +5,6 @@ resource "alicloud_copy_image" "tf-sample-copy-image" {
   force                = false
   image_name           = ""
   kms_key_id           = ""
-  name                 = ""
   source_image_id      = ""
   source_region_id     = ""
   

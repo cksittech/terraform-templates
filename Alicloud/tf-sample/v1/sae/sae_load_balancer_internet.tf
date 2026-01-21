@@ -2,5 +2,10 @@ resource "alicloud_sae_load_balancer_internet" "tf-sample-sae-load-balancer-inte
   app_id          = ""
   internet_slb_id = ""
   
-  internet {}
+  internet {
+    https_cert_id = ""
+    port          = 0
+    protocol      = ""
+    target_port   = 0
+  }
 }

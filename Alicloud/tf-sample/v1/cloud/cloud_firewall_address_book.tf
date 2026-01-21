@@ -1,5 +1,4 @@
 resource "alicloud_cloud_firewall_address_book" "tf-sample-cloud-firewall-address-book" {
-  address_list     = []
   auto_add_tag_ecs = 0
   description      = ""
   group_name       = ""
@@ -7,5 +6,8 @@ resource "alicloud_cloud_firewall_address_book" "tf-sample-cloud-firewall-addres
   lang             = ""
   tag_relation     = ""
   
-  ecs_tags {}
+  ecs_tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

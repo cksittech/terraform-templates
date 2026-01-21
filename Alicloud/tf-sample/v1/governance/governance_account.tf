@@ -7,5 +7,8 @@ resource "alicloud_governance_account" "tf-sample-governance-account" {
   folder_id           = ""
   payer_account_id    = 0
   
-  account_tags {}
+  account_tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

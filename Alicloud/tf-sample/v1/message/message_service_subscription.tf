@@ -8,5 +8,8 @@ resource "alicloud_message_service_subscription" "tf-sample-message-service-subs
   subscription_name     = ""
   topic_name            = ""
   
-  dlq_policy {}
+  dlq_policy {
+    dead_letter_target_queue = ""
+    enabled                  = false
+  }
 }

@@ -19,5 +19,11 @@ resource "alicloud_auto_provisioning_group" "tf-sample-auto-provisioning-group" 
   valid_from                          = ""
   valid_until                         = ""
   
-  launch_template_config {}
+  launch_template_config {
+    instance_type     = ""
+    max_price         = ""
+    priority          = ""
+    vswitch_id        = ""
+    weighted_capacity = ""
+  }
 }

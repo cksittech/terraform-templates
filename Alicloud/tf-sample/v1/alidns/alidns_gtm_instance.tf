@@ -1,5 +1,4 @@
 resource "alicloud_alidns_gtm_instance" "tf-sample-alidns-gtm-instance" {
-  alert_group             = []
   cname_type              = ""
   force_update            = false
   health_check_task_count = 0
@@ -19,5 +18,10 @@ resource "alicloud_alidns_gtm_instance" "tf-sample-alidns-gtm-instance" {
   strategy_mode           = ""
   ttl                     = 0
   
-  alert_config {}
+  alert_config {
+    dingtalk_notice = false
+    email_notice    = false
+    notice_type     = ""
+    sms_notice      = false
+  }
 }

@@ -3,7 +3,6 @@ resource "alicloud_reserved_instance" "tf-sample-reserved-instance" {
   description            = ""
   instance_amount        = 0
   instance_type          = ""
-  name                   = ""
   offering_type          = ""
   period                 = 0
   period_unit            = ""

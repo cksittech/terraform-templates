@@ -1,5 +1,4 @@
 resource "alicloud_express_connect_router_vpc_association" "tf-sample-express-connect-router-vpc-association" {
-  allowed_prefixes      = []
   association_region_id = ""
   ecr_id                = ""
   vpc_id                = ""

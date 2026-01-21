@@ -1,5 +1,4 @@
 resource "alicloud_ons_group" "tf-sample-ons-group" {
-  group_id    = ""
   group_name  = ""
   group_type  = ""
   instance_id = ""

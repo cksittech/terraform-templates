@@ -5,12 +5,27 @@ resource "alicloud_apig_gateway" "tf-sample-apig-gateway" {
   resource_group_id = ""
   spec              = ""
   
-  log_config {}
-  network_access_config {}
-  vpc {}
-  vswitch {}
-  zone_config {}
-  zones {}
+  log_config {
+    sls {
+      enable = false
+    }
+  }
+  network_access_config {
+    type = ""
+  }
+  vpc {
+    vpc_id = ""
+  }
+  vswitch {
+    vswitch_id = ""
+  }
+  zone_config {
+    select_option = ""
+  }
+  zones {
+    vswitch_id = ""
+    zone_id    = ""
+  }
   
   tags = {}
 }

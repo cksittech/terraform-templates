@@ -4,5 +4,11 @@ resource "alicloud_alidns_address_pool" "tf-sample-alidns-address-pool" {
   lba_strategy      = ""
   type              = ""
   
-  address {}
+  address {
+    address        = ""
+    attribute_info = ""
+    lba_weight     = 0
+    mode           = ""
+    remark         = ""
+  }
 }

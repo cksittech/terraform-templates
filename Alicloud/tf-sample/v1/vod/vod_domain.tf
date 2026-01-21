@@ -4,7 +4,12 @@ resource "alicloud_vod_domain" "tf-sample-vod-domain" {
   scope            = ""
   top_level_domain = ""
   
-  sources {}
+  sources {
+    source_content  = ""
+    source_port     = ""
+    source_priority = ""
+    source_type     = ""
+  }
   
   tags = {}
 }

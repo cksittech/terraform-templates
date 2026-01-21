@@ -5,6 +5,34 @@ resource "alicloud_cms_hybrid_monitor_sls_task" "tf-sample-cms-hybrid-monitor-sl
   namespace           = ""
   task_name           = ""
   
-  attach_labels {}
-  sls_process_config {}
+  attach_labels {
+    name  = ""
+    value = ""
+  }
+  sls_process_config {
+    express {
+      alias   = ""
+      express = ""
+    }
+    filter {
+      relation = ""
+      
+      filters {
+        operator     = ""
+        sls_key_name = ""
+        value        = ""
+      }
+    }
+    group_by {
+      alias        = ""
+      sls_key_name = ""
+    }
+    statistics {
+      alias         = ""
+      function      = ""
+      parameter_one = ""
+      parameter_two = ""
+      sls_key_name  = ""
+    }
+  }
 }

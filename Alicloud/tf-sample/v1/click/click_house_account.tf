@@ -7,7 +7,5 @@ resource "alicloud_click_house_account" "tf-sample-click-house-account" {
   db_cluster_id       = ""
   ddl_authority       = false
   dml_authority       = ""
-  total_databases     = ""
-  total_dictionaries  = ""
   type                = ""
 }

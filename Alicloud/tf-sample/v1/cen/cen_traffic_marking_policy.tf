@@ -7,5 +7,15 @@ resource "alicloud_cen_traffic_marking_policy" "tf-sample-cen-traffic-marking-po
   traffic_marking_policy_name = ""
   transit_router_id           = ""
   
-  traffic_match_rules {}
+  traffic_match_rules {
+    address_family                 = ""
+    dst_cidr                       = ""
+    dst_port_range                 = []
+    match_dscp                     = 0
+    protocol                       = ""
+    src_cidr                       = ""
+    src_port_range                 = []
+    traffic_match_rule_description = ""
+    traffic_match_rule_name        = ""
+  }
 }

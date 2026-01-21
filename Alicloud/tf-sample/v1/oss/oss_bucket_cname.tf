@@ -5,5 +5,9 @@ resource "alicloud_oss_bucket_cname" "tf-sample-oss-bucket-cname" {
   force              = false
   previous_cert_id   = ""
   
-  certificate {}
+  certificate {
+    cert_id     = ""
+    certificate = ""
+    private_key = ""
+  }
 }

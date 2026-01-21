@@ -2,5 +2,4 @@ resource "alicloud_wafv3_defense_resource_group" "tf-sample-wafv3-defense-resour
   description   = ""
   group_name    = ""
   instance_id   = ""
-  resource_list = []
 }

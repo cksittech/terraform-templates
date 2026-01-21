@@ -4,7 +4,6 @@ resource "alicloud_log_oss_export" "tf-sample-log-oss-export" {
   buffer_size          = 0
   compress_type        = ""
   content_type         = ""
-  csv_config_columns   = []
   csv_config_delimiter = ""
   csv_config_escape    = ""
   csv_config_header    = false
@@ -24,5 +23,8 @@ resource "alicloud_log_oss_export" "tf-sample-log-oss-export" {
   suffix               = ""
   time_zone            = ""
   
-  config_columns {}
+  config_columns {
+    name = ""
+    type = ""
+  }
 }

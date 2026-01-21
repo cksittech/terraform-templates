@@ -1,5 +1,4 @@
 resource "alicloud_quotas_template_applications" "tf-sample-quotas-template-applications" {
-  aliyun_uids       = []
   desire_value      = 0
   effective_time    = ""
   env_language      = ""
@@ -10,5 +9,8 @@ resource "alicloud_quotas_template_applications" "tf-sample-quotas-template-appl
   quota_category    = ""
   reason            = ""
   
-  dimensions {}
+  dimensions {
+    key   = ""
+    value = ""
+  }
 }

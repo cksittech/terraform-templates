@@ -14,10 +14,14 @@ resource "alicloud_api_gateway_instance" "tf-sample-api-gateway-instance" {
   payment_type            = ""
   pricing_cycle           = ""
   skip_wait_switch        = false
-  to_connect_vpc_ip_block = {}
   user_vpc_id             = ""
   vpc_slb_intranet_enable = false
   zone_id                 = ""
   
-  zone_vswitch_security_group {}
+  zone_vswitch_security_group {
+    cidr_block     = ""
+    security_group = ""
+    vswitch_id     = ""
+    zone_id        = ""
+  }
 }

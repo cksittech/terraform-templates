@@ -5,5 +5,8 @@ resource "alicloud_click_house_enterprise_db_cluster" "tf-sample-click-house-ent
   vswitch_id = ""
   zone_id    = ""
   
-  multi_zones {}
+  multi_zones {
+    vswitch_ids = []
+    zone_id     = ""
+  }
 }

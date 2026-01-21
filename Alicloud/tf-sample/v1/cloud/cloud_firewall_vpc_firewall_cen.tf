@@ -6,5 +6,7 @@ resource "alicloud_cloud_firewall_vpc_firewall_cen" "tf-sample-cloud-firewall-vp
   vpc_firewall_name = ""
   vpc_region        = ""
   
-  local_vpc {}
+  local_vpc {
+    network_instance_id = ""
+  }
 }

@@ -1,6 +1,5 @@
 resource "alicloud_threat_detection_instance" "tf-sample-threat-detection-instance" {
   buy_number                  = ""
-  container_image_scan        = ""
   container_image_scan_new    = ""
   honeypot                    = ""
   honeypot_switch             = ""

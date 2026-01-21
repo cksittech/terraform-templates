@@ -5,7 +5,17 @@ resource "alicloud_realtime_compute_job" "tf-sample-realtime-compute-job" {
   resource_queue_name = ""
   stop_strategy       = ""
   
-  local_variables {}
-  restore_strategy {}
-  status {}
+  local_variables {
+    name  = ""
+    value = ""
+  }
+  restore_strategy {
+    allow_non_restored_state = false
+    job_start_time_in_ms     = 0
+    kind                     = ""
+    savepoint_id             = ""
+  }
+  status {
+    current_job_status = ""
+  }
 }

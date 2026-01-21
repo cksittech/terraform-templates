@@ -13,12 +13,25 @@ resource "alicloud_nlb_load_balancer" "tf-sample-nlb-load-balancer" {
   modification_protection_status = ""
   payment_type                   = ""
   resource_group_id              = ""
-  security_group_ids             = []
   vpc_id                         = ""
   
-  deletion_protection_config {}
-  modification_protection_config {}
-  zone_mappings {}
+  deletion_protection_config {
+    enabled = false
+    reason  = ""
+  }
+  modification_protection_config {
+    reason = ""
+    status = ""
+  }
+  zone_mappings {
+    allocation_id        = ""
+    ipv4_local_addresses = []
+    ipv6_address         = ""
+    ipv6_local_addresses = []
+    private_ipv4_address = ""
+    vswitch_id           = ""
+    zone_id              = ""
+  }
   
   tags = {}
 }

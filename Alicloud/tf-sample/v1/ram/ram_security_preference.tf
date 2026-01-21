@@ -10,5 +10,4 @@ resource "alicloud_ram_security_preference" "tf-sample-ram-security-preference" 
   login_session_duration                  = 0
   mfa_operation_for_login                 = ""
   operation_for_risk_login                = ""
-  verification_types                      = []
 }

@@ -3,14 +3,8 @@ resource "alicloud_edas_k8s_application" "tf-sample-edas-k8s-application" {
   application_name        = ""
   cluster_id              = ""
   command                 = ""
-  command_args            = []
   edas_container_version  = ""
-  envs                    = {}
   image_url               = ""
-  internet_slb_id         = ""
-  internet_slb_port       = 0
-  internet_slb_protocol   = ""
-  internet_target_port    = 0
   jdk                     = ""
   limit_m_cpu             = 0
   limit_mem               = 0

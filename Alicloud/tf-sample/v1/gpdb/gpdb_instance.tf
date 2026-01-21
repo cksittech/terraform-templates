@@ -1,5 +1,4 @@
 resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
-  availability_zone           = ""
   create_sample_data          = false
   data_share_status           = ""
   db_instance_category        = ""
@@ -10,21 +9,17 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   encryption_type             = ""
   engine                      = ""
   engine_version              = ""
-  instance_charge_type        = ""
   instance_group_count        = 0
   instance_network_type       = ""
   instance_spec               = ""
   maintain_end_time           = ""
   maintain_start_time         = ""
   master_cu                   = 0
-  master_node_num             = 0
   payment_type                = ""
   period                      = ""
-  private_ip_address          = ""
   prod_type                   = ""
   resource_group_id           = ""
   resource_management_mode    = ""
-  security_ip_list            = []
   seg_disk_performance_level  = ""
   seg_node_num                = 0
   seg_storage_type            = ""
@@ -37,8 +32,15 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   vswitch_id                  = ""
   zone_id                     = ""
   
-  ip_whitelist {}
-  parameters {}
+  ip_whitelist {
+    ip_group_attribute = ""
+    ip_group_name      = ""
+    security_ip_list   = ""
+  }
+  parameters {
+    name  = ""
+    value = ""
+  }
   
   tags = {}
 }

@@ -4,10 +4,25 @@ resource "alicloud_oss_bucket_replication" "tf-sample-oss-bucket-replication" {
   historical_object_replication = ""
   sync_role                     = ""
   
-  destination {}
-  encryption_configuration {}
-  prefix_set {}
-  progress {}
-  rtc {}
-  source_selection_criteria {}
+  destination {
+    bucket        = ""
+    location      = ""
+    transfer_type = ""
+  }
+  encryption_configuration {
+    replica_kms_key_id = ""
+  }
+  prefix_set {
+    prefixes = []
+  }
+  progress {
+  }
+  rtc {
+    enabled = false
+  }
+  source_selection_criteria {
+    sse_kms_encrypted_objects {
+      status = ""
+    }
+  }
 }

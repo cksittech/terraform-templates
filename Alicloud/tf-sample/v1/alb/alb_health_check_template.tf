@@ -1,6 +1,5 @@
 resource "alicloud_alb_health_check_template" "tf-sample-alb-health-check-template" {
   dry_run                    = false
-  health_check_codes         = []
   health_check_connect_port  = 0
   health_check_host          = ""
   health_check_http_version  = ""

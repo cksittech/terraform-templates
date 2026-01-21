@@ -6,7 +6,6 @@ resource "alicloud_ecd_ad_connector_office_site" "tf-sample-ecd-ad-connector-off
   cen_owner_id                  = ""
   cidr_block                    = ""
   desktop_access_type           = ""
-  dns_address                   = []
   domain_name                   = ""
   domain_password               = ""
   domain_user_name              = ""
@@ -15,7 +14,6 @@ resource "alicloud_ecd_ad_connector_office_site" "tf-sample-ecd-ad-connector-off
   mfa_enabled                   = false
   protocol_type                 = ""
   specification                 = 0
-  sub_domain_dns_address        = []
   sub_domain_name               = ""
   verify_code                   = ""
 }

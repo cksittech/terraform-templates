@@ -3,5 +3,4 @@ resource "alicloud_db_database" "tf-sample-db-database" {
   data_base_name = ""
   description    = ""
   instance_id    = ""
-  name           = ""
 }

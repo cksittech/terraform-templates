@@ -5,5 +5,13 @@ resource "alicloud_esa_transport_layer_application" "tf-sample-esa-transport-lay
   record_name               = ""
   site_id                   = ""
   
-  rules {}
+  rules {
+    client_ip_pass_through_mode = ""
+    comment                     = ""
+    edge_port                   = ""
+    protocol                    = ""
+    source                      = ""
+    source_port                 = ""
+    source_type                 = ""
+  }
 }

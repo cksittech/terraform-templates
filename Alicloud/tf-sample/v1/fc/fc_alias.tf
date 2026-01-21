@@ -4,5 +4,7 @@ resource "alicloud_fc_alias" "tf-sample-fc-alias" {
   service_name    = ""
   service_version = ""
   
-  routing_config {}
+  routing_config {
+    additional_version_weights = {}
+  }
 }

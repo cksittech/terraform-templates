@@ -6,5 +6,10 @@ resource "alicloud_esa_http_incoming_response_header_modification_rule" "tf-samp
   site_id      = ""
   site_version = 0
   
-  response_header_modification {}
+  response_header_modification {
+    name      = ""
+    operation = ""
+    type      = ""
+    value     = ""
+  }
 }

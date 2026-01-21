@@ -11,6 +11,5 @@ resource "alicloud_container_cluster" "tf-sample-container-cluster" {
   node_number   = 0
   password      = ""
   release_eip   = false
-  size          = 0
   vswitch_id    = ""
 }

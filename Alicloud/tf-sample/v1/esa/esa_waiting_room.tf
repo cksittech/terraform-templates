@@ -16,5 +16,9 @@ resource "alicloud_esa_waiting_room" "tf-sample-esa-waiting-room" {
   waiting_room_name              = ""
   waiting_room_type              = ""
   
-  host_name_and_path {}
+  host_name_and_path {
+    domain    = ""
+    path      = ""
+    subdomain = ""
+  }
 }

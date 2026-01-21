@@ -31,7 +31,6 @@ resource "alicloud_ehpc_cluster" "tf-sample-ehpc-cluster" {
   period                   = 0
   period_unit              = ""
   plugin                   = ""
-  ram_node_types           = []
   ram_role_name            = ""
   release_instance         = false
   remote_directory         = ""
@@ -55,7 +54,26 @@ resource "alicloud_ehpc_cluster" "tf-sample-ehpc-cluster" {
   without_elastic_ip       = false
   zone_id                  = ""
   
-  additional_volumes {}
-  application {}
-  post_install_script {}
+  additional_volumes {
+    job_queue           = ""
+    local_directory     = ""
+    location            = ""
+    remote_directory    = ""
+    volume_id           = ""
+    volume_mount_option = ""
+    volume_mountpoint   = ""
+    volume_protocol     = ""
+    volume_type         = ""
+    
+    roles {
+      name = ""
+    }
+  }
+  application {
+    tag = ""
+  }
+  post_install_script {
+    args = ""
+    url  = ""
+  }
 }

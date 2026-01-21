@@ -2,7 +2,6 @@ resource "alicloud_adb_db_cluster" "tf-sample-adb-db-cluster" {
   auto_renew_period        = 0
   compute_resource         = ""
   db_cluster_category      = ""
-  db_cluster_class         = ""
   db_cluster_version       = ""
   db_node_class            = ""
   db_node_count            = 0
@@ -18,12 +17,10 @@ resource "alicloud_adb_db_cluster" "tf-sample-adb-db-cluster" {
   maintain_time            = ""
   mode                     = ""
   modify_type              = ""
-  pay_type                 = ""
   payment_type             = ""
   period                   = 0
   renewal_status           = ""
   resource_group_id        = ""
-  security_ips             = []
   switch_mode              = 0
   vpc_id                   = ""
   vswitch_id               = ""

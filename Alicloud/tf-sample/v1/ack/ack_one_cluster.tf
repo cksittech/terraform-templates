@@ -3,5 +3,8 @@ resource "alicloud_ack_one_cluster" "tf-sample-ack-one-cluster" {
   cluster_name   = ""
   profile        = ""
   
-  network {}
+  network {
+    vpc_id    = ""
+    vswitches = []
+  }
 }

@@ -12,5 +12,11 @@ resource "alicloud_hbr_policy_binding" "tf-sample-hbr-policy-binding" {
   source_type                = ""
   speed_limit                = ""
   
-  advanced_options {}
+  advanced_options {
+    udm_detail {
+      destination_kms_key_id = ""
+      disk_id_list           = []
+      exclude_disk_id_list   = []
+    }
+  }
 }

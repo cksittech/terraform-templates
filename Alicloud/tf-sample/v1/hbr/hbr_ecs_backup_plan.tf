@@ -10,10 +10,8 @@ resource "alicloud_hbr_ecs_backup_plan" "tf-sample-hbr-ecs-backup-plan" {
   include                 = ""
   instance_id             = ""
   options                 = ""
-  path                    = []
   retention               = ""
   schedule                = ""
   speed_limit             = ""
-  update_paths            = false
   vault_id                = ""
 }

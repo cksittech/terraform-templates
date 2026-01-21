@@ -4,5 +4,10 @@ resource "alicloud_pvtz_endpoint" "tf-sample-pvtz-endpoint" {
   vpc_id            = ""
   vpc_region_id     = ""
   
-  ip_configs {}
+  ip_configs {
+    cidr_block = ""
+    ip         = ""
+    vswitch_id = ""
+    zone_id    = ""
+  }
 }

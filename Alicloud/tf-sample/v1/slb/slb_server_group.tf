@@ -3,7 +3,5 @@ resource "alicloud_slb_server_group" "tf-sample-slb-server-group" {
   load_balancer_id             = ""
   name                         = ""
   
-  servers {}
-  
   tags = {}
 }

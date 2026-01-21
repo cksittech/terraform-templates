@@ -15,8 +15,20 @@ resource "alicloud_ga_endpoint_group" "tf-sample-ga-endpoint-group" {
   threshold_count               = 0
   traffic_percentage            = 0
   
-  endpoint_configurations {}
-  port_overrides {}
+  endpoint_configurations {
+    enable_clientip_preservation = false
+    enable_proxy_protocol        = false
+    endpoint                     = ""
+    sub_address                  = ""
+    type                         = ""
+    vpc_id                       = ""
+    vswitch_ids                  = []
+    weight                       = 0
+  }
+  port_overrides {
+    endpoint_port = 0
+    listener_port = 0
+  }
   
   tags = {}
 }

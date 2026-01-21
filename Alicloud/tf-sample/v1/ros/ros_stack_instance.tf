@@ -7,5 +7,8 @@ resource "alicloud_ros_stack_instance" "tf-sample-ros-stack-instance" {
   stack_instance_region_id  = ""
   timeout_in_minutes        = ""
   
-  parameter_overrides {}
+  parameter_overrides {
+    parameter_key   = ""
+    parameter_value = ""
+  }
 }

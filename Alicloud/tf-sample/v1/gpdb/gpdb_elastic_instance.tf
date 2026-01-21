@@ -10,7 +10,6 @@ resource "alicloud_gpdb_elastic_instance" "tf-sample-gpdb-elastic-instance" {
   payment_duration        = 0
   payment_duration_unit   = ""
   payment_type            = ""
-  security_ip_list        = []
   seg_node_num            = 0
   seg_storage_type        = ""
   storage_size            = 0

@@ -1,7 +1,6 @@
 resource "alicloud_pai_workspace_model" "tf-sample-pai-workspace-model" {
   accessibility     = ""
   domain            = ""
-  extra_info        = {}
   model_description = ""
   model_doc         = ""
   model_name        = ""
@@ -11,5 +10,8 @@ resource "alicloud_pai_workspace_model" "tf-sample-pai-workspace-model" {
   task              = ""
   workspace_id      = ""
   
-  labels {}
+  labels {
+    key   = ""
+    value = ""
+  }
 }

@@ -4,5 +4,9 @@ resource "alicloud_config_aggregator" "tf-sample-config-aggregator" {
   description     = ""
   folder_id       = ""
   
-  aggregator_accounts {}
+  aggregator_accounts {
+    account_id   = ""
+    account_name = ""
+    account_type = ""
+  }
 }

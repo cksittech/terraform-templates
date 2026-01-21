@@ -3,7 +3,6 @@ resource "alicloud_express_connect_ec_failover_test_job" "tf-sample-express-conn
   ec_failover_test_job_name = ""
   job_duration              = 0
   job_type                  = ""
-  resource_id               = []
   resource_type             = ""
   status                    = ""
 }

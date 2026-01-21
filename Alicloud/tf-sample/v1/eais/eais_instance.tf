@@ -1,6 +1,5 @@
 resource "alicloud_eais_instance" "tf-sample-eais-instance" {
   category          = ""
-  force             = false
   image             = ""
   instance_name     = ""
   instance_type     = ""
@@ -9,7 +8,10 @@ resource "alicloud_eais_instance" "tf-sample-eais-instance" {
   status            = ""
   vswitch_id        = ""
   
-  environment_var {}
+  environment_var {
+    key   = ""
+    value = ""
+  }
   
   tags = {}
 }

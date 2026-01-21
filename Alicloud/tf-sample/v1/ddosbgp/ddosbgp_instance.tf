@@ -4,7 +4,6 @@ resource "alicloud_ddosbgp_instance" "tf-sample-ddosbgp-instance" {
   instance_name     = ""
   ip_count          = 0
   ip_type           = ""
-  name              = ""
   normal_bandwidth  = 0
   period            = 0
   resource_group_id = ""

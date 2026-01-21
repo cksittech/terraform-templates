@@ -34,7 +34,6 @@ resource "alicloud_rds_upgrade_db_instance" "tf-sample-rds-upgrade-db-instance" 
   replication_acl             = ""
   resource_group_id           = ""
   role_arn                    = ""
-  security_ips                = []
   server_cert                 = ""
   server_key                  = ""
   source_biz                  = ""
@@ -52,6 +51,18 @@ resource "alicloud_rds_upgrade_db_instance" "tf-sample-rds-upgrade-db-instance" 
   zone_id                     = ""
   zone_id_slave_1             = ""
   
-  parameters {}
-  pg_hba_conf {}
+  parameters {
+    name  = ""
+    value = ""
+  }
+  pg_hba_conf {
+    address     = ""
+    database    = ""
+    mask        = ""
+    method      = ""
+    option      = ""
+    priority_id = 0
+    type        = ""
+    user        = ""
+  }
 }

@@ -11,14 +11,10 @@ resource "alicloud_vpc" "tf-sample-vpc" {
   ipv6_cidr_block                             = ""
   ipv6_isp                                    = ""
   is_default                                  = false
-  name                                        = ""
   resource_group_id                           = ""
-  secondary_cidr_blocks                       = []
-  secondary_cidr_mask                         = 0
   system_route_table_description              = ""
   system_route_table_name                     = ""
   system_route_table_route_propagation_enable = false
-  user_cidrs                                  = []
   vpc_name                                    = ""
   
   tags = {}

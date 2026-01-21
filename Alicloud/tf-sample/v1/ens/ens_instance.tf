@@ -36,8 +36,16 @@ resource "alicloud_ens_instance" "tf-sample-ens-instance" {
   user_data                  = ""
   vswitch_id                 = ""
   
-  data_disk {}
-  system_disk {}
+  data_disk {
+    category       = ""
+    encrypt_key_id = ""
+    encrypted      = false
+    size           = 0
+  }
+  system_disk {
+    category = ""
+    size     = 0
+  }
   
   tags = {}
 }

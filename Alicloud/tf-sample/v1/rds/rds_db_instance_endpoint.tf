@@ -6,5 +6,8 @@ resource "alicloud_rds_db_instance_endpoint" "tf-sample-rds-db-instance-endpoint
   vpc_id                           = ""
   vswitch_id                       = ""
   
-  node_items {}
+  node_items {
+    node_id = ""
+    weight  = 0
+  }
 }

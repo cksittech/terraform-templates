@@ -6,7 +6,10 @@ resource "alicloud_service_catalog_provisioned_product" "tf-sample-service-catal
   provisioned_product_name = ""
   stack_region_id          = ""
   
-  parameters {}
+  parameters {
+    parameter_key   = ""
+    parameter_value = ""
+  }
   
   tags = {}
 }

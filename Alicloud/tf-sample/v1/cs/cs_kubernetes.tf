@@ -1,9 +1,5 @@
 resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
-  api_audiences                  = []
   availability_zone              = ""
-  client_cert                    = ""
-  client_key                     = ""
-  cluster_ca_cert                = ""
   cluster_domain                 = ""
   cluster_network_type           = ""
   cpu_policy                     = ""
@@ -17,9 +13,7 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
   is_enterprise_security_group   = false
   key_name                       = ""
   kms_encrypted_password         = ""
-  kms_encryption_context         = {}
   kube_config                    = ""
-  load_balancer_spec             = ""
   master_auto_renew              = false
   master_auto_renew_period       = 0
   master_disk_category           = ""
@@ -28,27 +22,19 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
   master_disk_snapshot_policy_id = ""
   master_instance_charge_type    = ""
   master_instance_type           = ""
-  master_instance_types          = []
   master_period                  = 0
   master_period_unit             = ""
-  master_vswitch_ids             = []
   name                           = ""
-  name_prefix                    = ""
   new_nat_gateway                = false
   node_cidr_mask                 = 0
   node_name_mode                 = ""
   node_port_range                = ""
-  nodes                          = []
   os_type                        = ""
   password                       = ""
   platform                       = ""
   pod_cidr                       = ""
-  pod_vswitch_ids                = []
   proxy_mode                     = ""
-  rds_instances                  = []
   resource_group_id              = ""
-  retain_resources               = []
-  runtime                        = {}
   security_group_id              = ""
   service_account_issuer         = ""
   service_cidr                   = ""
@@ -59,7 +45,6 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
   user_data                      = ""
   version                        = ""
   vswitch_id                     = ""
-  vswitch_ids                    = []
   worker_auto_renew              = false
   worker_auto_renew_period       = 0
   worker_data_disk_category      = ""
@@ -70,19 +55,42 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
   worker_disk_snapshot_policy_id = ""
   worker_instance_charge_type    = ""
   worker_instance_type           = ""
-  worker_instance_types          = []
   worker_number                  = 0
-  worker_numbers                 = []
   worker_period                  = 0
   worker_period_unit             = ""
-  worker_vswitch_ids             = []
   
-  addons {}
-  delete_options {}
-  log_config {}
-  taints {}
-  worker_data_disks {}
-  worker_nodes {}
+  addons {
+    config   = ""
+    disabled = false
+    name     = ""
+    version  = ""
+  }
+  delete_options {
+    delete_mode   = ""
+    resource_type = ""
+  }
+  log_config {
+    project = ""
+    type    = ""
+  }
+  taints {
+    effect = ""
+    key    = ""
+    value  = ""
+  }
+  worker_data_disks {
+    auto_snapshot_policy_id = ""
+    category                = ""
+    device                  = ""
+    encrypted               = ""
+    kms_key_id              = ""
+    name                    = ""
+    performance_level       = ""
+    size                    = ""
+    snapshot_id             = ""
+  }
+  worker_nodes {
+  }
   
   tags = {}
 }

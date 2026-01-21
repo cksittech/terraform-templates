@@ -8,5 +8,34 @@ resource "alicloud_gpdb_db_instance_plan" "tf-sample-gpdb-db-instance-plan" {
   plan_type             = ""
   status                = ""
   
-  plan_config {}
+  plan_config {
+    pause {
+      execute_time   = ""
+      plan_cron_time = ""
+    }
+    resume {
+      execute_time   = ""
+      plan_cron_time = ""
+    }
+    scale_down {
+      execute_time   = ""
+      instance_spec  = ""
+      plan_cron_time = ""
+    }
+    scale_in {
+      execute_time     = ""
+      plan_cron_time   = ""
+      segment_node_num = ""
+    }
+    scale_out {
+      execute_time     = ""
+      plan_cron_time   = ""
+      segment_node_num = ""
+    }
+    scale_up {
+      execute_time   = ""
+      instance_spec  = ""
+      plan_cron_time = ""
+    }
+  }
 }

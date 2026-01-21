@@ -5,5 +5,12 @@ resource "alicloud_api_gateway_group" "tf-sample-api-gateway-group" {
   name                = ""
   vpc_intranet_enable = false
   
-  user_log_config {}
+  user_log_config {
+    jwt_claims       = ""
+    query_string     = ""
+    request_body     = false
+    request_headers  = ""
+    response_body    = false
+    response_headers = ""
+  }
 }

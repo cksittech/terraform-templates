@@ -8,5 +8,10 @@ resource "alicloud_eflo_node_group_attachment" "tf-sample-eflo-node-group-attach
   vpc_id         = ""
   vswitch_id     = ""
   
-  data_disk {}
+  data_disk {
+    category          = ""
+    delete_with_node  = false
+    performance_level = ""
+    size              = 0
+  }
 }

@@ -5,7 +5,10 @@ resource "alicloud_gwlb_load_balancer" "tf-sample-gwlb-load-balancer" {
   resource_group_id  = ""
   vpc_id             = ""
   
-  zone_mappings {}
+  zone_mappings {
+    vswitch_id = ""
+    zone_id    = ""
+  }
   
   tags = {}
 }

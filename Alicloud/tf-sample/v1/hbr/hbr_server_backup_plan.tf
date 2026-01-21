@@ -8,5 +8,16 @@ resource "alicloud_hbr_server_backup_plan" "tf-sample-hbr-server-backup-plan" {
   retention                   = 0
   schedule                    = ""
   
-  detail {}
+  detail {
+    app_consistent        = false
+    destination_region_id = ""
+    destination_retention = 0
+    disk_id_list          = []
+    do_copy               = false
+    enable_fs_freeze      = false
+    post_script_path      = ""
+    pre_script_path       = ""
+    snapshot_group        = false
+    timeout_in_seconds    = 0
+  }
 }

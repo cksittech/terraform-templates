@@ -20,7 +20,23 @@ resource "alicloud_ess_scaling_rule" "tf-sample-ess-scaling-rule" {
   scaling_rule_type           = ""
   target_value                = 0
   
-  alarm_dimension {}
-  hybrid_metrics {}
-  step_adjustment {}
+  alarm_dimension {
+    dimension_key   = ""
+    dimension_value = ""
+  }
+  hybrid_metrics {
+    expression  = ""
+    metric_name = ""
+    statistic   = ""
+    
+    dimensions {
+      dimension_key   = ""
+      dimension_value = ""
+    }
+  }
+  step_adjustment {
+    metric_interval_lower_bound = ""
+    metric_interval_upper_bound = ""
+    scaling_adjustment          = 0
+  }
 }

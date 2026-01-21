@@ -20,7 +20,34 @@ resource "alicloud_schedulerx_job" "tf-sample-schedulerx-job" {
   timezone              = ""
   x_attrs               = ""
   
-  job_monitor_info {}
-  map_task_xattrs {}
-  time_config {}
+  job_monitor_info {
+    contact_info {
+      ding       = ""
+      user_mail  = ""
+      user_name  = ""
+      user_phone = ""
+    }
+    monitor_config {
+      fail_enable         = false
+      miss_worker_enable  = false
+      send_channel        = ""
+      timeout             = 0
+      timeout_enable      = false
+      timeout_kill_enable = false
+    }
+  }
+  map_task_xattrs {
+    consumer_size         = 0
+    dispatcher_size       = 0
+    page_size             = 0
+    queue_size            = 0
+    task_attempt_interval = 0
+    task_max_attempt      = 0
+  }
+  time_config {
+    calendar        = ""
+    data_offset     = 0
+    time_expression = ""
+    time_type       = 0
+  }
 }

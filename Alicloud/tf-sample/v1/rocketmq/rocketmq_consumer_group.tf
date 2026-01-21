@@ -5,5 +5,9 @@ resource "alicloud_rocketmq_consumer_group" "tf-sample-rocketmq-consumer-group" 
   max_receive_tps     = 0
   remark              = ""
   
-  consume_retry_policy {}
+  consume_retry_policy {
+    dead_letter_target_topic = ""
+    max_retry_times          = 0
+    retry_policy             = ""
+  }
 }

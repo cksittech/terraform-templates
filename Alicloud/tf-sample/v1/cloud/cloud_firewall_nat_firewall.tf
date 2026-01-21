@@ -11,5 +11,10 @@ resource "alicloud_cloud_firewall_nat_firewall" "tf-sample-cloud-firewall-nat-fi
   vswitch_cidr    = ""
   vswitch_id      = ""
   
-  nat_route_entry_list {}
+  nat_route_entry_list {
+    destination_cidr = ""
+    nexthop_id       = ""
+    nexthop_type     = ""
+    route_table_id   = ""
+  }
 }

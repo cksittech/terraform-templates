@@ -21,7 +21,6 @@ resource "alicloud_launch_template" "tf-sample-launch-template" {
   io_optimized                  = ""
   key_pair_name                 = ""
   launch_template_name          = ""
-  name                          = ""
   network_type                  = ""
   password_inherit              = false
   period                        = 0
@@ -31,28 +30,51 @@ resource "alicloud_launch_template" "tf-sample-launch-template" {
   resource_group_id             = ""
   security_enhancement_strategy = ""
   security_group_id             = ""
-  security_group_ids            = []
   spot_duration                 = ""
   spot_price_limit              = 0
   spot_strategy                 = ""
-  system_disk_category          = ""
-  system_disk_description       = ""
-  system_disk_name              = ""
-  system_disk_size              = 0
   template_resource_group_id    = ""
-  template_tags                 = {}
   update_default_version_number = false
   user_data                     = ""
-  userdata                      = ""
   version_description           = ""
   vpc_id                        = ""
   vswitch_id                    = ""
   zone_id                       = ""
   
-  data_disks {}
-  image_options {}
-  network_interfaces {}
-  system_disk {}
+  data_disks {
+    category             = ""
+    delete_with_instance = false
+    description          = ""
+    device               = ""
+    encrypted            = false
+    kms_key_id           = ""
+    name                 = ""
+    performance_level    = ""
+    size                 = 0
+    snapshot_id          = ""
+  }
+  image_options {
+    login_as_non_root = false
+  }
+  network_interfaces {
+    delete_on_release = false
+    description       = ""
+    name              = ""
+    primary_ip        = ""
+    security_group_id = ""
+    vswitch_id        = ""
+  }
+  system_disk {
+    category             = ""
+    delete_with_instance = false
+    description          = ""
+    encrypted            = false
+    iops                 = ""
+    kms_key_id           = ""
+    name                 = ""
+    performance_level    = ""
+    size                 = 0
+  }
   
   tags = {}
 }

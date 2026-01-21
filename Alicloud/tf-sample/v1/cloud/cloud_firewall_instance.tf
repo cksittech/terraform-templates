@@ -12,7 +12,6 @@ resource "alicloud_cloud_firewall_instance" "tf-sample-cloud-firewall-instance" 
   modify_type           = ""
   payment_type          = ""
   period                = 0
-  renew_period          = 0
   renewal_duration      = 0
   renewal_duration_unit = ""
   renewal_status        = ""

@@ -1,6 +1,5 @@
 resource "alicloud_cloud_firewall_nat_firewall_control_policy" "tf-sample-cloud-firewall-nat-firewall-control-policy" {
   acl_action            = ""
-  application_name_list = []
   description           = ""
   dest_port             = ""
   dest_port_group       = ""
@@ -15,7 +14,6 @@ resource "alicloud_cloud_firewall_nat_firewall_control_policy" "tf-sample-cloud-
   new_order             = ""
   proto                 = ""
   release               = ""
-  repeat_days           = []
   repeat_end_time       = ""
   repeat_start_time     = ""
   repeat_type           = ""

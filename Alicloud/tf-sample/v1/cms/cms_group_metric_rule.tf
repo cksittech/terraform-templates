@@ -15,6 +15,28 @@ resource "alicloud_cms_group_metric_rule" "tf-sample-cms-group-metric-rule" {
   silence_time           = 0
   webhook                = ""
   
-  escalations {}
-  targets {}
+  escalations {
+    critical {
+      comparison_operator = ""
+      statistics          = ""
+      threshold           = ""
+      times               = 0
+    }
+    info {
+      comparison_operator = ""
+      statistics          = ""
+      threshold           = ""
+      times               = 0
+    }
+    warn {
+      comparison_operator = ""
+      statistics          = ""
+      threshold           = ""
+      times               = 0
+    }
+  }
+  targets {
+    json_params = ""
+    level       = ""
+  }
 }

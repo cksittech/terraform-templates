@@ -10,7 +10,6 @@ resource "alicloud_dms_enterprise_instance" "tf-sample-dms-enterprise-instance" 
   env_type          = ""
   export_timeout    = 0
   host              = ""
-  instance_alias    = ""
   instance_id       = ""
   instance_name     = ""
   instance_source   = ""

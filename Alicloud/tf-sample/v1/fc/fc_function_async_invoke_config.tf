@@ -6,5 +6,12 @@ resource "alicloud_fc_function_async_invoke_config" "tf-sample-fc-function-async
   service_name                 = ""
   stateful_invocation          = false
   
-  destination_config {}
+  destination_config {
+    on_failure {
+      destination = ""
+    }
+    on_success {
+      destination = ""
+    }
+  }
 }

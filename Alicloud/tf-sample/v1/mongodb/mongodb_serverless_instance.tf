@@ -16,7 +16,11 @@ resource "alicloud_mongodb_serverless_instance" "tf-sample-mongodb-serverless-in
   vswitch_id              = ""
   zone_id                 = ""
   
-  security_ip_groups {}
+  security_ip_groups {
+    security_ip_group_attribute = ""
+    security_ip_group_name      = ""
+    security_ip_list            = ""
+  }
   
   tags = {}
 }

@@ -4,5 +4,8 @@ resource "alicloud_ecs_prefix_list" "tf-sample-ecs-prefix-list" {
   max_entries      = 0
   prefix_list_name = ""
   
-  entry {}
+  entry {
+    cidr        = ""
+    description = ""
+  }
 }

@@ -15,8 +15,17 @@ resource "alicloud_milvus_instance" "tf-sample-milvus-instance" {
   vpc_id                = ""
   zone_id               = ""
   
-  components {}
-  vswitch_ids {}
+  components {
+    cu_num         = 0
+    cu_type        = ""
+    disk_size_type = ""
+    replica        = 0
+    type           = ""
+  }
+  vswitch_ids {
+    vsw_id  = ""
+    zone_id = ""
+  }
   
   tags = {}
 }

@@ -19,6 +19,19 @@ resource "alicloud_lindorm_instance_v2" "tf-sample-lindorm-instance-v2" {
   vswitch_id          = ""
   zone_id             = ""
   
-  engine_list {}
-  white_ip_list {}
+  engine_list {
+    engine_type = ""
+    
+    node_group {
+      node_count          = 0
+      node_disk_size      = 0
+      node_disk_type      = ""
+      node_spec           = ""
+      resource_group_name = ""
+    }
+  }
+  white_ip_list {
+    group_name = ""
+    ip_list    = ""
+  }
 }

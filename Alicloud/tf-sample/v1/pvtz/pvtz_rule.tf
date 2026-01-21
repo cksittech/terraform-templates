@@ -4,5 +4,8 @@ resource "alicloud_pvtz_rule" "tf-sample-pvtz-rule" {
   type        = ""
   zone_name   = ""
   
-  forward_ips {}
+  forward_ips {
+    ip   = ""
+    port = 0
+  }
 }

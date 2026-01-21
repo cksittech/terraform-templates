@@ -8,12 +8,18 @@ resource "alicloud_log_store" "tf-sample-log-store" {
   max_split_shard_count = 0
   metering_mode         = ""
   mode                  = ""
-  name                  = ""
-  project               = ""
   project_name          = ""
   retention_period      = 0
   shard_count           = 0
   telemetry_type        = ""
   
-  encrypt_conf {}
+  encrypt_conf {
+    enable       = false
+    encrypt_type = ""
+    
+    user_cmk_info {
+      cmk_key_id = ""
+      region_id  = ""
+    }
+  }
 }

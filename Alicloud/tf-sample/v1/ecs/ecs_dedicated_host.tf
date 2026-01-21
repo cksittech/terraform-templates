@@ -18,7 +18,10 @@ resource "alicloud_ecs_dedicated_host" "tf-sample-ecs-dedicated-host" {
   sale_cycle                = ""
   zone_id                   = ""
   
-  network_attributes {}
+  network_attributes {
+    slb_udp_timeout = 0
+    udp_timeout     = 0
+  }
   
   tags = {}
 }

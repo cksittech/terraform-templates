@@ -4,7 +4,10 @@ resource "alicloud_express_connect_router_express_connect_router" "tf-sample-exp
   ecr_name          = ""
   resource_group_id = ""
   
-  regions {}
+  regions {
+    region_id    = ""
+    transit_mode = ""
+  }
   
   tags = {}
 }

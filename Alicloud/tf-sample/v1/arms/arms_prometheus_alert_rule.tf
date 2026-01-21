@@ -8,6 +8,12 @@ resource "alicloud_arms_prometheus_alert_rule" "tf-sample-arms-prometheus-alert-
   prometheus_alert_rule_name = ""
   type                       = ""
   
-  annotations {}
-  labels {}
+  annotations {
+    name  = ""
+    value = ""
+  }
+  labels {
+    name  = ""
+    value = ""
+  }
 }

@@ -22,6 +22,13 @@ resource "alicloud_click_house_db_cluster" "tf-sample-click-house-db-cluster" {
   vswitch_id                 = ""
   zone_id                    = ""
   
-  db_cluster_access_white_list {}
-  multi_zone_vswitch_list {}
+  db_cluster_access_white_list {
+    db_cluster_ip_array_attribute = ""
+    db_cluster_ip_array_name      = ""
+    security_ip_list              = ""
+  }
+  multi_zone_vswitch_list {
+    vswitch_id = ""
+    zone_id    = ""
+  }
 }

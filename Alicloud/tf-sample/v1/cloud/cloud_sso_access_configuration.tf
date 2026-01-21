@@ -6,5 +6,9 @@ resource "alicloud_cloud_sso_access_configuration" "tf-sample-cloud-sso-access-c
   relay_state                      = ""
   session_duration                 = 0
   
-  permission_policies {}
+  permission_policies {
+    permission_policy_document = ""
+    permission_policy_name     = ""
+    permission_policy_type     = ""
+  }
 }

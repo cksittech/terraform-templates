@@ -23,15 +23,21 @@ resource "alicloud_rds_custom" "tf-sample-rds-custom" {
   period_unit                   = ""
   resource_group_id             = ""
   security_enhancement_strategy = ""
-  security_group_ids            = []
   spot_strategy                 = ""
   status                        = ""
   support_case                  = ""
   vswitch_id                    = ""
   zone_id                       = ""
   
-  data_disk {}
-  system_disk {}
+  data_disk {
+    category          = ""
+    performance_level = ""
+    size              = 0
+  }
+  system_disk {
+    category = ""
+    size     = ""
+  }
   
   tags = {}
 }

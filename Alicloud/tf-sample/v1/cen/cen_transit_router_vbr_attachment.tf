@@ -3,8 +3,6 @@ resource "alicloud_cen_transit_router_vbr_attachment" "tf-sample-cen-transit-rou
   cen_id                                = ""
   dry_run                               = false
   resource_type                         = ""
-  route_table_association_enabled       = false
-  route_table_propagation_enabled       = false
   transit_router_attachment_description = ""
   transit_router_attachment_name        = ""
   transit_router_id                     = ""

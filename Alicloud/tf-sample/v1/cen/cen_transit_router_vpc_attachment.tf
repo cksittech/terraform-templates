@@ -5,17 +5,16 @@ resource "alicloud_cen_transit_router_vpc_attachment" "tf-sample-cen-transit-rou
   force_delete                          = false
   payment_type                          = ""
   resource_type                         = ""
-  route_table_association_enabled       = false
-  route_table_propagation_enabled       = false
   transit_router_attachment_description = ""
-  transit_router_attachment_name        = ""
   transit_router_id                     = ""
   transit_router_vpc_attachment_name    = ""
-  transit_router_vpc_attachment_options = {}
   vpc_id                                = ""
   vpc_owner_id                          = ""
   
-  zone_mappings {}
+  zone_mappings {
+    vswitch_id = ""
+    zone_id    = ""
+  }
   
   tags = {}
 }

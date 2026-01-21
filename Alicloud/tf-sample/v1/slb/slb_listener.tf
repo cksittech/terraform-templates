@@ -1,6 +1,4 @@
 resource "alicloud_slb_listener" "tf-sample-slb-listener" {
-  acl_id                       = ""
-  acl_ids                      = []
   acl_status                   = ""
   acl_type                     = ""
   backend_port                 = 0
@@ -39,11 +37,14 @@ resource "alicloud_slb_listener" "tf-sample-slb-listener" {
   scheduler                    = ""
   server_certificate_id        = ""
   server_group_id              = ""
-  ssl_certificate_id           = ""
   sticky_session               = ""
   sticky_session_type          = ""
   tls_cipher_policy            = ""
   unhealthy_threshold          = 0
   
-  x_forwarded_for {}
+  x_forwarded_for {
+    retrive_slb_id    = false
+    retrive_slb_ip    = false
+    retrive_slb_proto = false
+  }
 }

@@ -18,5 +18,8 @@ resource "alicloud_rds_db_proxy" "tf-sample-rds-db-proxy" {
   vpc_id                               = ""
   vswitch_id                           = ""
   
-  read_only_instance_weight {}
+  read_only_instance_weight {
+    instance_id = ""
+    weight      = ""
+  }
 }

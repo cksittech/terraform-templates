@@ -2,5 +2,7 @@ resource "alicloud_data_works_project_member" "tf-sample-data-works-project-memb
   project_id = 0
   user_id    = ""
   
-  roles {}
+  roles {
+    code = ""
+  }
 }

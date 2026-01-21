@@ -8,5 +8,4 @@ resource "alicloud_nas_protocol_mount_target" "tf-sample-nas-protocol-mount-targ
   protocol_service_id = ""
   vpc_id              = ""
   vswitch_id          = ""
-  vswitch_ids         = []
 }

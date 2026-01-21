@@ -37,10 +37,8 @@ resource "alicloud_rds_ddr_instance" "tf-sample-rds-ddr-instance" {
   resource_group_id                  = ""
   restore_time                       = ""
   restore_type                       = ""
-  security_group_ids                 = []
   security_ip_mode                   = ""
   security_ip_type                   = ""
-  security_ips                       = []
   server_cert                        = ""
   server_key                         = ""
   source_db_instance_name            = ""
@@ -62,8 +60,20 @@ resource "alicloud_rds_ddr_instance" "tf-sample-rds-ddr-instance" {
   whitelist_network_type             = ""
   zone_id                            = ""
   
-  parameters {}
-  pg_hba_conf {}
+  parameters {
+    name  = ""
+    value = ""
+  }
+  pg_hba_conf {
+    address     = ""
+    database    = ""
+    mask        = ""
+    method      = ""
+    option      = ""
+    priority_id = 0
+    type        = ""
+    user        = ""
+  }
   
   tags = {}
 }

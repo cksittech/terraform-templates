@@ -1,5 +1,4 @@
 resource "alicloud_mse_cluster" "tf-sample-mse-cluster" {
-  acl_entry_list            = []
   cluster_alias_name        = ""
   cluster_specification     = ""
   cluster_type              = ""

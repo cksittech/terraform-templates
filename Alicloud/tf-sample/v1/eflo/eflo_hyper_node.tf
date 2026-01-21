@@ -17,7 +17,14 @@ resource "alicloud_eflo_hyper_node" "tf-sample-eflo-hyper-node" {
   vswitch_id        = ""
   zone_id           = ""
   
-  data_disk {}
+  data_disk {
+    bursting_enabled  = false
+    category          = ""
+    delete_with_node  = false
+    performance_level = ""
+    provisioned_iops  = 0
+    size              = 0
+  }
   
   tags = {}
 }

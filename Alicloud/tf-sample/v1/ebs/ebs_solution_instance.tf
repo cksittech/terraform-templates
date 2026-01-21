@@ -4,5 +4,8 @@ resource "alicloud_ebs_solution_instance" "tf-sample-ebs-solution-instance" {
   solution_id            = ""
   solution_instance_name = ""
   
-  parameters {}
+  parameters {
+    parameter_key   = ""
+    parameter_value = ""
+  }
 }

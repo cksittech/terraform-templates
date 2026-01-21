@@ -15,7 +15,15 @@ resource "alicloud_alidns_access_strategy" "tf-sample-alidns-access-strategy" {
   strategy_mode                   = ""
   strategy_name                   = ""
   
-  default_addr_pools {}
-  failover_addr_pools {}
-  lines {}
+  default_addr_pools {
+    addr_pool_id = ""
+    lba_weight   = 0
+  }
+  failover_addr_pools {
+    addr_pool_id = ""
+    lba_weight   = 0
+  }
+  lines {
+    line_code = ""
+  }
 }

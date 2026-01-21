@@ -7,5 +7,8 @@ resource "alicloud_quotas_quota_alarm" "tf-sample-quotas-quota-alarm" {
   threshold_type    = ""
   web_hook          = ""
   
-  quota_dimensions {}
+  quota_dimensions {
+    key   = ""
+    value = ""
+  }
 }

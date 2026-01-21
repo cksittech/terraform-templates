@@ -9,7 +9,24 @@ resource "alicloud_ehpc_queue" "tf-sample-ehpc-queue" {
   max_count        = 0
   min_count        = 0
   queue_name       = ""
-  vswitch_ids      = []
   
-  compute_nodes {}
+  compute_nodes {
+    auto_renew           = false
+    auto_renew_period    = 0
+    duration             = 0
+    enable_ht            = false
+    image_id             = ""
+    instance_charge_type = ""
+    instance_type        = ""
+    period               = 0
+    period_unit          = ""
+    spot_price_limit     = 0
+    spot_strategy        = ""
+    
+    system_disk {
+      category = ""
+      level    = ""
+      size     = 0
+    }
+  }
 }

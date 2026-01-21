@@ -18,7 +18,6 @@ resource "alicloud_hbase_instance" "tf-sample-hbase-instance" {
   name                   = ""
   password               = ""
   pay_type               = ""
-  security_groups        = []
   vpc_id                 = ""
   vswitch_id             = ""
   zone_id                = ""

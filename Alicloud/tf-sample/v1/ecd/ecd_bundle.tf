@@ -7,5 +7,4 @@ resource "alicloud_ecd_bundle" "tf-sample-ecd-bundle" {
   root_disk_performance_level = ""
   root_disk_size_gib          = 0
   user_disk_performance_level = ""
-  user_disk_size_gib          = []
 }

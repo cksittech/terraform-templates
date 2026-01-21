@@ -1,5 +1,4 @@
 resource "alicloud_instance" "tf-sample-instance" {
-  allocate_public_ip                  = false
   auto_release_time                   = ""
   auto_renew_period                   = 0
   availability_zone                   = ""
@@ -22,15 +21,11 @@ resource "alicloud_instance" "tf-sample-instance" {
   instance_name                       = ""
   instance_type                       = ""
   internet_charge_type                = ""
-  internet_max_bandwidth_in           = 0
   internet_max_bandwidth_out          = 0
-  io_optimized                        = ""
   ipv6_address_count                  = 0
-  ipv6_addresses                      = []
   is_outdated                         = false
   key_name                            = ""
   kms_encrypted_password              = ""
-  kms_encryption_context              = {}
   launch_template_id                  = ""
   launch_template_name                = ""
   launch_template_version             = ""
@@ -51,9 +46,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   resource_group_id                   = ""
   role_name                           = ""
   secondary_private_ip_address_count  = 0
-  secondary_private_ips               = []
   security_enhancement_strategy       = ""
-  security_groups                     = []
   spot_duration                       = 0
   spot_price_limit                    = 0
   spot_strategy                       = ""
@@ -73,15 +66,44 @@ resource "alicloud_instance" "tf-sample-instance" {
   system_disk_size                    = 0
   system_disk_storage_cluster_id      = ""
   user_data                           = ""
-  volume_tags                         = {}
   vpc_id                              = ""
   vswitch_id                          = ""
   
-  cpu_options {}
-  data_disks {}
-  image_options {}
-  maintenance_time {}
-  network_interfaces {}
+  cpu_options {
+    core_count       = 0
+    threads_per_core = 0
+    topology_type    = ""
+  }
+  data_disks {
+    auto_snapshot_policy_id = ""
+    bursting_enabled        = false
+    category                = ""
+    delete_with_instance    = false
+    description             = ""
+    device                  = ""
+    encrypted               = false
+    kms_key_id              = ""
+    name                    = ""
+    performance_level       = ""
+    provisioned_iops        = 0
+    size                    = 0
+    snapshot_id             = ""
+  }
+  image_options {
+    login_as_non_root = false
+  }
+  maintenance_time {
+    end_time   = ""
+    start_time = ""
+  }
+  network_interfaces {
+    network_card_index             = 0
+    network_interface_id           = ""
+    network_interface_traffic_mode = ""
+    queue_pair_number              = 0
+    security_group_ids             = []
+    vswitch_id                     = ""
+  }
   
   tags = {}
 }

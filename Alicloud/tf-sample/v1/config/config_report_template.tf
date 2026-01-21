@@ -6,5 +6,9 @@ resource "alicloud_config_report_template" "tf-sample-config-report-template" {
   report_template_name        = ""
   subscription_frequency      = ""
   
-  report_scope {}
+  report_scope {
+    key        = ""
+    match_type = ""
+    value      = ""
+  }
 }

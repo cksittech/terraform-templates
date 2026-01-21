@@ -2,7 +2,6 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
   account_password                            = ""
   auto_renew                                  = false
   backup_interval                             = ""
-  backup_period                               = []
   backup_retention_period                     = 0
   backup_retention_policy_on_cluster_deletion = 0
   backup_time                                 = ""
@@ -13,11 +12,9 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
   encryption_key                              = ""
   encryptor_name                              = ""
   engine_version                              = ""
-  global_security_group_list                  = []
   hidden_zone_id                              = ""
   instance_charge_type                        = ""
   kms_encrypted_password                      = ""
-  kms_encryption_context                      = {}
   log_backup_retention_period                 = 0
   maintain_end_time                           = ""
   maintain_start_time                         = ""
@@ -31,7 +28,6 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
   role_arn                                    = ""
   secondary_zone_id                           = ""
   security_group_id                           = ""
-  security_ip_list                            = []
   snapshot_backup_type                        = ""
   ssl_action                                  = ""
   storage_engine                              = ""
@@ -41,10 +37,22 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
   vswitch_id                                  = ""
   zone_id                                     = ""
   
-  config_server_list {}
-  mongo_list {}
-  parameters {}
-  shard_list {}
+  config_server_list {
+    node_class   = ""
+    node_storage = 0
+  }
+  mongo_list {
+    node_class = ""
+  }
+  parameters {
+    name  = ""
+    value = ""
+  }
+  shard_list {
+    node_class        = ""
+    node_storage      = 0
+    readonly_replicas = 0
+  }
   
   tags = {}
 }

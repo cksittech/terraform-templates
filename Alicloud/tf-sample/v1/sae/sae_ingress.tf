@@ -8,6 +8,18 @@ resource "alicloud_sae_ingress" "tf-sample-sae-ingress" {
   namespace_id      = ""
   slb_id            = ""
   
-  default_rule {}
-  rules {}
+  default_rule {
+    app_id         = ""
+    app_name       = ""
+    container_port = 0
+  }
+  rules {
+    app_id           = ""
+    app_name         = ""
+    backend_protocol = ""
+    container_port   = 0
+    domain           = ""
+    path             = ""
+    rewrite_path     = ""
+  }
 }

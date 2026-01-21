@@ -1,6 +1,5 @@
 resource "alicloud_disk" "tf-sample-disk" {
   advanced_features                  = ""
-  availability_zone                  = ""
   bursting_enabled                   = false
   category                           = ""
   dedicated_block_storage_cluster_id = ""
@@ -15,7 +14,6 @@ resource "alicloud_disk" "tf-sample-disk" {
   instance_id                        = ""
   kms_key_id                         = ""
   multi_attach                       = ""
-  name                               = ""
   payment_type                       = ""
   performance_level                  = ""
   provisioned_iops                   = 0

@@ -4,5 +4,8 @@ resource "alicloud_rds_parameter_group" "tf-sample-rds-parameter-group" {
   parameter_group_desc = ""
   parameter_group_name = ""
   
-  param_detail {}
+  param_detail {
+    param_name  = ""
+    param_value = ""
+  }
 }

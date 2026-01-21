@@ -10,6 +10,12 @@ resource "alicloud_ots_table" "tf-sample-ots-table" {
   table_name                    = ""
   time_to_live                  = 0
   
-  defined_column {}
-  primary_key {}
+  defined_column {
+    name = ""
+    type = ""
+  }
+  primary_key {
+    name = ""
+    type = ""
+  }
 }

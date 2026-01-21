@@ -12,12 +12,10 @@ resource "alicloud_slb_load_balancer" "tf-sample-slb-load-balancer" {
   master_zone_id                 = ""
   modification_protection_reason = ""
   modification_protection_status = ""
-  name                           = ""
   payment_type                   = ""
   period                         = 0
   resource_group_id              = ""
   slave_zone_id                  = ""
-  specification                  = ""
   status                         = ""
   vswitch_id                     = ""
   

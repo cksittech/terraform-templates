@@ -5,9 +5,7 @@ resource "alicloud_nat_gateway" "tf-sample-nat-gateway" {
   eip_bind_mode        = ""
   force                = false
   icmp_reply_enabled   = false
-  instance_charge_type = ""
   internet_charge_type = ""
-  name                 = ""
   nat_gateway_name     = ""
   nat_type             = ""
   network_type         = ""
@@ -19,8 +17,15 @@ resource "alicloud_nat_gateway" "tf-sample-nat-gateway" {
   vpc_id               = ""
   vswitch_id           = ""
   
-  access_mode {}
-  bandwidth_packages {}
+  access_mode {
+    mode_value  = ""
+    tunnel_type = ""
+  }
+  bandwidth_packages {
+    bandwidth = 0
+    ip_count  = 0
+    zone      = ""
+  }
   
   tags = {}
 }

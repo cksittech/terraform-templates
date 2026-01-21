@@ -8,7 +8,5 @@ resource "alicloud_vpc_dhcp_options_set" "tf-sample-vpc-dhcp-options-set" {
   lease_time                   = ""
   resource_group_id            = ""
   
-  associate_vpcs {}
-  
   tags = {}
 }

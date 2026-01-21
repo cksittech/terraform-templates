@@ -5,7 +5,6 @@ resource "alicloud_dbfs_instance" "tf-sample-dbfs-instance" {
   enable_raid             = false
   encryption              = false
   fs_name                 = ""
-  instance_name           = ""
   instance_type           = ""
   kms_key_id              = ""
   performance_level       = ""
@@ -14,8 +13,6 @@ resource "alicloud_dbfs_instance" "tf-sample-dbfs-instance" {
   snapshot_id             = ""
   used_scene              = ""
   zone_id                 = ""
-  
-  ecs_list {}
   
   tags = {}
 }

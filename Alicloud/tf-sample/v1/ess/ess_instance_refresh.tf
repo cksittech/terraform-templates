@@ -9,7 +9,22 @@ resource "alicloud_ess_instance_refresh" "tf-sample-ess-instance-refresh" {
   skip_matching                                 = false
   status                                        = ""
   
-  checkpoints {}
-  desired_configuration_containers {}
-  desired_configuration_launch_template_overrides {}
+  checkpoints {
+    percentage = 0
+  }
+  desired_configuration_containers {
+    args     = []
+    commands = []
+    image    = ""
+    name     = ""
+    
+    environment_vars {
+      field_ref_field_path = ""
+      key                  = ""
+      value                = ""
+    }
+  }
+  desired_configuration_launch_template_overrides {
+    instance_type = ""
+  }
 }

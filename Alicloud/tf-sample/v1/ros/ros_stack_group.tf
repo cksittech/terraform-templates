@@ -1,7 +1,6 @@
 resource "alicloud_ros_stack_group" "tf-sample-ros-stack-group" {
   account_ids              = ""
   administration_role_name = ""
-  capabilities             = []
   description              = ""
   execution_role_name      = ""
   operation_description    = ""
@@ -15,8 +14,14 @@ resource "alicloud_ros_stack_group" "tf-sample-ros-stack-group" {
   template_url             = ""
   template_version         = ""
   
-  auto_deployment {}
-  parameters {}
+  auto_deployment {
+    enabled                          = false
+    retain_stacks_on_account_removal = false
+  }
+  parameters {
+    parameter_key   = ""
+    parameter_value = ""
+  }
   
   tags = {}
 }

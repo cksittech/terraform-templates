@@ -3,5 +3,8 @@ resource "alicloud_event_bridge_api_destination" "tf-sample-event-bridge-api-des
   connection_name      = ""
   description          = ""
   
-  http_api_parameters {}
+  http_api_parameters {
+    endpoint = ""
+    method   = ""
+  }
 }

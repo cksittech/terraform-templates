@@ -9,5 +9,32 @@ resource "alicloud_cms_metric_rule_template" "tf-sample-cms-metric-rule-template
   silence_time              = 0
   webhook                   = ""
   
-  alert_templates {}
+  alert_templates {
+    category    = ""
+    metric_name = ""
+    namespace   = ""
+    rule_name   = ""
+    webhook     = ""
+    
+    escalations {
+      critical {
+        comparison_operator = ""
+        statistics          = ""
+        threshold           = ""
+        times               = ""
+      }
+      info {
+        comparison_operator = ""
+        statistics          = ""
+        threshold           = ""
+        times               = ""
+      }
+      warn {
+        comparison_operator = ""
+        statistics          = ""
+        threshold           = ""
+        times               = ""
+      }
+    }
+  }
 }

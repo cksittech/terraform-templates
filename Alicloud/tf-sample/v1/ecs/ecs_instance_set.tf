@@ -27,7 +27,6 @@ resource "alicloud_ecs_instance_set" "tf-sample-ecs-instance-set" {
   ram_role_name                       = ""
   resource_group_id                   = ""
   security_enhancement_strategy       = ""
-  security_group_ids                  = []
   spot_price_limit                    = 0
   spot_strategy                       = ""
   system_disk_auto_snapshot_policy_id = ""
@@ -40,9 +39,28 @@ resource "alicloud_ecs_instance_set" "tf-sample-ecs-instance-set" {
   vswitch_id                          = ""
   zone_id                             = ""
   
-  data_disks {}
-  exclude_instance_filter {}
-  network_interfaces {}
+  data_disks {
+    auto_snapshot_policy_id = ""
+    disk_category           = ""
+    disk_description        = ""
+    disk_name               = ""
+    disk_size               = 0
+    encrypted               = false
+    kms_key_id              = ""
+    performance_level       = ""
+    snapshot_id             = ""
+  }
+  exclude_instance_filter {
+    key   = ""
+    value = []
+  }
+  network_interfaces {
+    description            = ""
+    network_interface_name = ""
+    primary_ip_address     = ""
+    security_group_id      = ""
+    vswitch_id             = ""
+  }
   
   tags = {}
 }

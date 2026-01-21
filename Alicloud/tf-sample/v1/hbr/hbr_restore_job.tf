@@ -24,5 +24,7 @@ resource "alicloud_hbr_restore_job" "tf-sample-hbr-restore-job" {
   udm_detail              = ""
   vault_id                = ""
   
-  ots_detail {}
+  ots_detail {
+    overwrite_existing = false
+  }
 }

@@ -7,7 +7,11 @@ resource "alicloud_message_service_queue" "tf-sample-message-service-queue" {
   queue_name               = ""
   visibility_timeout       = 0
   
-  dlq_policy {}
+  dlq_policy {
+    dead_letter_target_queue = ""
+    enabled                  = false
+    max_receive_count        = 0
+  }
   
   tags = {}
 }

@@ -11,6 +11,5 @@ resource "alicloud_cs_swarm" "tf-sample-cs-swarm" {
   node_number   = 0
   password      = ""
   release_eip   = false
-  size          = 0
   vswitch_id    = ""
 }

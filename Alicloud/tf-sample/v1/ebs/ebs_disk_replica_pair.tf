@@ -7,7 +7,6 @@ resource "alicloud_ebs_disk_replica_pair" "tf-sample-ebs-disk-replica-pair" {
   disk_id                = ""
   disk_replica_pair_name = ""
   one_shot               = false
-  pair_name              = ""
   payment_type           = ""
   period                 = 0
   period_unit            = ""

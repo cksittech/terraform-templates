@@ -40,7 +40,6 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
   restore_table               = ""
   restore_time                = ""
   role_arn                    = ""
-  security_ips                = []
   server_cert                 = ""
   server_key                  = ""
   source_biz                  = ""
@@ -58,7 +57,24 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
   zone_id_slave_a             = ""
   zone_id_slave_b             = ""
   
-  parameters {}
-  pg_hba_conf {}
-  serverless_config {}
+  parameters {
+    name  = ""
+    value = ""
+  }
+  pg_hba_conf {
+    address     = ""
+    database    = ""
+    mask        = ""
+    method      = ""
+    option      = ""
+    priority_id = 0
+    type        = ""
+    user        = ""
+  }
+  serverless_config {
+    auto_pause   = false
+    max_capacity = 0
+    min_capacity = 0
+    switch_force = false
+  }
 }
