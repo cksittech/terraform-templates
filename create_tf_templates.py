@@ -111,7 +111,6 @@ try:
                 for attribute in attributes:
                     attr_type = RESOURCE_SCHEMAS[resource]["block"]["attributes"][attribute]["type"]
                     if isinstance(attr_type, list):
-                        print(attribute, attr_type[0])
                         if attr_type[0] == "object":
                             attribute_objects.append(attribute)
                             continue
