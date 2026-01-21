@@ -1,6 +1,5 @@
 resource "ibm_appid_idp_cloud_directory" "tf-sample-appid-idp-cloud-directory" {
   identity_confirm_access_mode        = ""
-  identity_confirm_methods            = []
   identity_field                      = ""
   is_active                           = false
   reset_password_enabled              = false

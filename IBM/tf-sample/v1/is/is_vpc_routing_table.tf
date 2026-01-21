@@ -1,7 +1,4 @@
 resource "ibm_is_vpc_routing_table" "tf-sample-is-vpc-routing-table" {
-  accept_routes_from_resource_type = []
-  access_tags                      = []
-  advertise_routes_to              = []
   name                             = ""
   route_direct_link_ingress        = false
   route_internet_ingress           = false

@@ -4,6 +4,11 @@ resource "ibm_kms_key_policies" "tf-sample-kms-key-policies" {
   instance_id   = ""
   key_id        = ""
   
-  dual_auth_delete {}
-  rotation {}
+  dual_auth_delete {
+    enabled = false
+  }
+  rotation {
+    enabled        = false
+    interval_month = 0
+  }
 }

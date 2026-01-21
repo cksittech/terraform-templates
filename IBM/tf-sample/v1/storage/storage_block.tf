@@ -1,7 +1,4 @@
 resource "ibm_storage_block" "tf-sample-storage-block" {
-  allowed_hardware_ids      = []
-  allowed_ip_addresses      = []
-  allowed_virtual_guest_ids = []
   capacity                  = 0
   datacenter                = ""
   hourly_billing            = false

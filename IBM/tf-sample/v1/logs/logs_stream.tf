@@ -7,5 +7,8 @@ resource "ibm_logs_stream" "tf-sample-logs-stream" {
   name             = ""
   region           = ""
   
-  ibm_event_streams {}
+  ibm_event_streams {
+    brokers = ""
+    topic   = ""
+  }
 }

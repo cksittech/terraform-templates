@@ -8,8 +8,18 @@ resource "ibm_app_config_property" "tf-sample-app-config-property" {
   type           = ""
   value          = ""
   
-  collections {}
-  segment_rules {}
+  collections {
+    collection_id = ""
+    deleted       = false
+  }
+  segment_rules {
+    order = 0
+    value = ""
+    
+    rules {
+      segments = []
+    }
+  }
   
   tags = {}
 }

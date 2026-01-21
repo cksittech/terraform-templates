@@ -2,5 +2,8 @@ resource "ibm_is_vpc_dns_resolution_binding" "tf-sample-is-vpc-dns-resolution-bi
   name   = ""
   vpc_id = ""
   
-  vpc {}
+  vpc {
+    crn  = ""
+    href = ""
+  }
 }

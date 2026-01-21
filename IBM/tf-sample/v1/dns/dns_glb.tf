@@ -1,5 +1,4 @@
 resource "ibm_dns_glb" "tf-sample-dns-glb" {
-  default_pools = []
   description   = ""
   enabled       = false
   fallback_pool = ""
@@ -8,5 +7,8 @@ resource "ibm_dns_glb" "tf-sample-dns-glb" {
   ttl           = 0
   zone_id       = ""
   
-  az_pools {}
+  az_pools {
+    availability_zone = ""
+    pools             = []
+  }
 }

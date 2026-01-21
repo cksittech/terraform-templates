@@ -11,7 +11,11 @@ resource "ibm_hpcs" "tf-sample-hpcs" {
   signature_threshold  = 0
   units                = 0
   
-  admins {}
+  admins {
+    key   = ""
+    name  = ""
+    token = ""
+  }
   
   tags = {}
 }

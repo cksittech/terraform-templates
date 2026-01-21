@@ -4,5 +4,9 @@ resource "ibm_iam_role_template_version" "tf-sample-iam-role-template-version" {
   name             = ""
   role_template_id = ""
   
-  role {}
+  role {
+    actions      = []
+    description  = ""
+    display_name = ""
+  }
 }

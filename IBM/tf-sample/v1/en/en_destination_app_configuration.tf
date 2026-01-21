@@ -5,5 +5,12 @@ resource "ibm_en_destination_app_configuration" "tf-sample-en-destination-app-co
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      crn            = ""
+      environment_id = ""
+      feature_id     = ""
+      type           = ""
+    }
+  }
 }

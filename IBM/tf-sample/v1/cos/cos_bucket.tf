@@ -1,5 +1,4 @@
 resource "ibm_cos_bucket" "tf-sample-cos-bucket" {
-  allowed_ip            = []
   bucket_name           = ""
   cross_region_location = ""
   endpoint_type         = ""
@@ -14,12 +13,30 @@ resource "ibm_cos_bucket" "tf-sample-cos-bucket" {
   single_site_location  = ""
   storage_class         = ""
   
-  abort_incomplete_multipart_upload_days {}
-  activity_tracking {}
-  archive_rule {}
-  expire_rule {}
-  metrics_monitoring {}
-  noncurrent_version_expiration {}
-  object_versioning {}
-  retention_rule {}
+  activity_tracking {
+    activity_tracker_crn = ""
+    management_events    = false
+    read_data_events     = false
+    write_data_events    = false
+  }
+  metrics_monitoring {
+    metrics_monitoring_crn  = ""
+    request_metrics_enabled = false
+    usage_metrics_enabled   = false
+  }
+  noncurrent_version_expiration {
+    enable          = false
+    noncurrent_days = 0
+    prefix          = ""
+    rule_id         = ""
+  }
+  object_versioning {
+    enable = false
+  }
+  retention_rule {
+    default   = 0
+    maximum   = 0
+    minimum   = 0
+    permanent = false
+  }
 }

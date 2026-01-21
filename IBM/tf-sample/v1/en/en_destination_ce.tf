@@ -5,5 +5,15 @@ resource "ibm_en_destination_ce" "tf-sample-en-destination-ce" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      custom_headers    = {}
+      job_name          = ""
+      project_crn       = ""
+      sensitive_headers = []
+      type              = ""
+      url               = ""
+      verb              = ""
+    }
+  }
 }

@@ -5,5 +5,11 @@ resource "ibm_en_destination_cos" "tf-sample-en-destination-cos" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      bucket_name = ""
+      endpoint    = ""
+      instance_id = ""
+    }
+  }
 }

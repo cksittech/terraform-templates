@@ -3,5 +3,16 @@ resource "ibm_cbr_zone_addresses" "tf-sample-cbr-zone-addresses" {
   x_correlation_id = ""
   zone_id          = ""
   
-  addresses {}
+  addresses {
+    type  = ""
+    value = ""
+    
+    ref {
+      account_id       = ""
+      location         = ""
+      service_instance = ""
+      service_name     = ""
+      service_type     = ""
+    }
+  }
 }

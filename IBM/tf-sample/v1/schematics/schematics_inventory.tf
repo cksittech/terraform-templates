@@ -4,5 +4,4 @@ resource "ibm_schematics_inventory" "tf-sample-schematics-inventory" {
   location         = ""
   name             = ""
   resource_group   = ""
-  resource_queries = []
 }

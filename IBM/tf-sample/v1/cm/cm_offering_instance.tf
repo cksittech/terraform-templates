@@ -3,7 +3,6 @@ resource "ibm_cm_offering_instance" "tf-sample-cm-offering-instance" {
   channel                = ""
   cluster_all_namespaces = false
   cluster_id             = ""
-  cluster_namespaces     = []
   cluster_region         = ""
   install_plan           = ""
   kind_format            = ""

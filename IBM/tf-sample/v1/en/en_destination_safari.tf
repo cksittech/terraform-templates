@@ -18,5 +18,15 @@ resource "ibm_en_destination_safari" "tf-sample-en-destination-safari" {
   name                         = ""
   type                         = ""
   
-  config {}
+  config {
+    params {
+      cert_type         = ""
+      password          = ""
+      pre_prod          = false
+      url_format_string = ""
+      website_name      = ""
+      website_push_id   = ""
+      website_url       = ""
+    }
+  }
 }

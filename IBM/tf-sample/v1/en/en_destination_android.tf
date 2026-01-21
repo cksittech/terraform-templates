@@ -5,5 +5,12 @@ resource "ibm_en_destination_android" "tf-sample-en-destination-android" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      client_email = ""
+      pre_prod     = false
+      private_key  = ""
+      project_id   = ""
+    }
+  }
 }

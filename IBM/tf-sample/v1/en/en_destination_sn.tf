@@ -5,5 +5,13 @@ resource "ibm_en_destination_sn" "tf-sample-en-destination-sn" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      client_id     = ""
+      client_secret = ""
+      instance_name = ""
+      password      = ""
+      username      = ""
+    }
+  }
 }

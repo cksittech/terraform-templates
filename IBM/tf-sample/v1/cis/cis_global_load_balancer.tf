@@ -1,6 +1,5 @@
 resource "ibm_cis_global_load_balancer" "tf-sample-cis-global-load-balancer" {
   cis_id           = ""
-  default_pool_ids = []
   description      = ""
   domain_id        = ""
   enabled          = false
@@ -11,6 +10,12 @@ resource "ibm_cis_global_load_balancer" "tf-sample-cis-global-load-balancer" {
   steering_policy  = ""
   ttl              = 0
   
-  pop_pools {}
-  region_pools {}
+  pop_pools {
+    pool_ids = []
+    pop      = ""
+  }
+  region_pools {
+    pool_ids = []
+    region   = ""
+  }
 }

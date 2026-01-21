@@ -8,7 +8,23 @@ resource "ibm_backup_recovery_manager_create_cluster_upgrades" "tf-sample-backup
   time_stamp_to_upgrade_at_msecs        = 0
   type                                  = ""
   
-  auth_headers {}
-  clusters {}
-  patch_upgrade_params {}
+  auth_headers {
+    key   = ""
+    value = ""
+  }
+  clusters {
+    cluster_id             = 0
+    cluster_incarnation_id = 0
+    current_version        = ""
+  }
+  patch_upgrade_params {
+    ignore_pre_checks_failure = false
+    package_url               = ""
+    target_version            = ""
+    
+    auth_headers {
+      key   = ""
+      value = ""
+    }
+  }
 }

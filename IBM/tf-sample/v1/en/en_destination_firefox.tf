@@ -5,5 +5,10 @@ resource "ibm_en_destination_firefox" "tf-sample-en-destination-firefox" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      pre_prod    = false
+      website_url = ""
+    }
+  }
 }

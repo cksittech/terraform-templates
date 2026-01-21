@@ -5,5 +5,9 @@ resource "ibm_en_destination_msteams" "tf-sample-en-destination-msteams" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      url = ""
+    }
+  }
 }

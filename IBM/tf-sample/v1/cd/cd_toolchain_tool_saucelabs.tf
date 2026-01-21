@@ -2,5 +2,8 @@ resource "ibm_cd_toolchain_tool_saucelabs" "tf-sample-cd-toolchain-tool-saucelab
   name         = ""
   toolchain_id = ""
   
-  parameters {}
+  parameters {
+    access_key = ""
+    username   = ""
+  }
 }

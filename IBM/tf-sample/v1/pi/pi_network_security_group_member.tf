@@ -5,5 +5,6 @@ resource "ibm_pi_network_security_group_member" "tf-sample-pi-network-security-g
   pi_target                           = ""
   pi_type                             = ""
   
-  rules {}
+  rules {
+  }
 }

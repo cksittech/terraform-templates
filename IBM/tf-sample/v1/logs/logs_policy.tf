@@ -7,9 +7,19 @@ resource "ibm_logs_policy" "tf-sample-logs-policy" {
   priority      = ""
   region        = ""
   
-  application_rule {}
-  archive_retention {}
-  before {}
-  log_rules {}
-  subsystem_rule {}
+  application_rule {
+    name         = ""
+    rule_type_id = ""
+  }
+  archive_retention {
+  }
+  before {
+  }
+  log_rules {
+    severities = []
+  }
+  subsystem_rule {
+    name         = ""
+    rule_type_id = ""
+  }
 }

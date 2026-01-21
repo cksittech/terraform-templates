@@ -4,7 +4,6 @@ resource "ibm_cis_domain_settings" "tf-sample-cis-domain-settings" {
   brotli                         = ""
   browser_check                  = ""
   challenge_ttl                  = 0
-  cipher                         = []
   cis_id                         = ""
   cname_flattening               = ""
   dnssec                         = ""
@@ -35,7 +34,21 @@ resource "ibm_cis_domain_settings" "tf-sample-cis-domain-settings" {
   waf                            = ""
   websockets                     = ""
   
-  minify {}
-  mobile_redirect {}
-  security_header {}
+  minify {
+    css  = ""
+    html = ""
+    js   = ""
+  }
+  mobile_redirect {
+    mobile_subdomain = ""
+    status           = ""
+    strip_uri        = false
+  }
+  security_header {
+    enabled            = false
+    include_subdomains = false
+    max_age            = 0
+    nosniff            = false
+    preload            = false
+  }
 }

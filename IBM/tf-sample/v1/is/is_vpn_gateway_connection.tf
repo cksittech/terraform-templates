@@ -6,16 +6,33 @@ resource "ibm_is_vpn_gateway_connection" "tf-sample-is-vpn-gateway-connection" {
   ike_policy         = ""
   interval           = 0
   ipsec_policy       = ""
-  local_cidrs        = []
   name               = ""
-  peer_address       = ""
-  peer_cidrs         = []
   preshared_key      = ""
   routing_protocol   = ""
   timeout            = 0
   vpn_gateway        = ""
   
-  local {}
-  peer {}
-  tunnel {}
+  local {
+    cidrs = []
+    
+    ike_identities {
+      type  = ""
+      value = ""
+    }
+  }
+  peer {
+    address = ""
+    asn     = 0
+    cidrs   = []
+    fqdn    = ""
+    
+    ike_identity {
+      type  = ""
+      value = ""
+    }
+  }
+  tunnel {
+    neighbor_ip         = ""
+    tunnel_interface_ip = ""
+  }
 }

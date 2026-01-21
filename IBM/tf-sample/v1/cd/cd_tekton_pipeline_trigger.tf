@@ -4,7 +4,6 @@ resource "ibm_cd_tekton_pipeline_trigger" "tf-sample-cd-tekton-pipeline-trigger"
   enable_events_from_forks = false
   enabled                  = false
   event_listener           = ""
-  events                   = []
   favorite                 = false
   filter                   = ""
   limit_waiting_runs       = false
@@ -14,9 +13,24 @@ resource "ibm_cd_tekton_pipeline_trigger" "tf-sample-cd-tekton-pipeline-trigger"
   timezone                 = ""
   type                     = ""
   
-  secret {}
-  source {}
-  worker {}
+  secret {
+    algorithm = ""
+    key_name  = ""
+    source    = ""
+    type      = ""
+    value     = ""
+  }
+  source {
+    type = ""
+    
+    properties {
+      branch  = ""
+      pattern = ""
+      url     = ""
+    }
+  }
+  worker {
+  }
   
   tags = {}
 }

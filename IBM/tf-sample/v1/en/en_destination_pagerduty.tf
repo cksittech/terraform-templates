@@ -5,5 +5,9 @@ resource "ibm_en_destination_pagerduty" "tf-sample-en-destination-pagerduty" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      routing_key = ""
+    }
+  }
 }

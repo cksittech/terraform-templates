@@ -5,6 +5,12 @@ resource "ibm_cloud_shell_account_settings" "tf-sample-cloud-shell-account-setti
   enabled                     = false
   rev                         = ""
   
-  features {}
-  regions {}
+  features {
+    enabled = false
+    key     = ""
+  }
+  regions {
+    enabled = false
+    key     = ""
+  }
 }

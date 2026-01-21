@@ -5,9 +5,7 @@ resource "ibm_code_engine_app" "tf-sample-code-engine-app" {
   managed_domain_mappings       = ""
   name                          = ""
   project_id                    = ""
-  run_arguments                 = []
   run_as_user                   = 0
-  run_commands                  = []
   run_service_account           = ""
   scale_concurrency             = 0
   scale_concurrency_target      = 0
@@ -20,8 +18,36 @@ resource "ibm_code_engine_app" "tf-sample-code-engine-app" {
   scale_min_instances           = 0
   scale_request_timeout         = 0
   
-  probe_liveness {}
-  probe_readiness {}
-  run_env_variables {}
-  run_volume_mounts {}
+  probe_liveness {
+    failure_threshold = 0
+    initial_delay     = 0
+    interval          = 0
+    path              = ""
+    port              = 0
+    timeout           = 0
+    type              = ""
+  }
+  probe_readiness {
+    failure_threshold = 0
+    initial_delay     = 0
+    interval          = 0
+    path              = ""
+    port              = 0
+    timeout           = 0
+    type              = ""
+  }
+  run_env_variables {
+    key       = ""
+    name      = ""
+    prefix    = ""
+    reference = ""
+    type      = ""
+    value     = ""
+  }
+  run_volume_mounts {
+    mount_path = ""
+    name       = ""
+    reference  = ""
+    type       = ""
+  }
 }

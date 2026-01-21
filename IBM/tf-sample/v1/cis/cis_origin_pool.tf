@@ -1,5 +1,4 @@
 resource "ibm_cis_origin_pool" "tf-sample-cis-origin-pool" {
-  check_regions      = []
   cis_id             = ""
   description        = ""
   enabled            = false
@@ -8,5 +7,10 @@ resource "ibm_cis_origin_pool" "tf-sample-cis-origin-pool" {
   name               = ""
   notification_email = ""
   
-  origins {}
+  origins {
+    address = ""
+    enabled = false
+    name    = ""
+    weight  = 0
+  }
 }

@@ -5,5 +5,12 @@ resource "ibm_en_subscription_slack" "tf-sample-en-subscription-slack" {
   name           = ""
   topic_id       = ""
   
-  attributes {}
+  attributes {
+    attachment_color         = ""
+    template_id_notification = ""
+    
+    channels {
+      operation = ""
+    }
+  }
 }

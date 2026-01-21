@@ -2,10 +2,7 @@ resource "ibm_satellite_storage_configuration" "tf-sample-satellite-storage-conf
   config_name              = ""
   delete_assignments       = false
   location                 = ""
-  storage_class_parameters = []
   storage_template_name    = ""
   storage_template_version = ""
   update_assignments       = false
-  user_config_parameters   = {}
-  user_secret_parameters   = {}
 }

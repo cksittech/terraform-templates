@@ -6,6 +6,14 @@ resource "ibm_appid_token_config" "tf-sample-appid-token-config" {
   refresh_token_expires_in   = 0
   tenant_id                  = ""
   
-  access_token_claim {}
-  id_token_claim {}
+  access_token_claim {
+    destination_claim = ""
+    source            = ""
+    source_claim      = ""
+  }
+  id_token_claim {
+    destination_claim = ""
+    source            = ""
+    source_claim      = ""
+  }
 }

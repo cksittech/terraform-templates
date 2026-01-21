@@ -4,7 +4,11 @@ resource "ibm_app_config_segment" "tf-sample-app-config-segment" {
   name        = ""
   segment_id  = ""
   
-  rules {}
+  rules {
+    attribute_name = ""
+    operator       = ""
+    values         = []
+  }
   
   tags = {}
 }

@@ -5,7 +5,18 @@ resource "ibm_compute_autoscale_policy" "tf-sample-compute-autoscale-policy" {
   scale_group_id = 0
   scale_type     = ""
   
-  triggers {}
+  triggers {
+    date     = ""
+    schedule = ""
+    type     = ""
+    
+    watches {
+      metric   = ""
+      operator = ""
+      period   = 0
+      value    = ""
+    }
+  }
   
   tags = {}
 }

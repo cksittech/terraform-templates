@@ -4,5 +4,7 @@ resource "ibm_en_code_engine_template" "tf-sample-en-code-engine-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

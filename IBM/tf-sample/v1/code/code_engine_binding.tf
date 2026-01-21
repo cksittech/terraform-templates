@@ -3,5 +3,8 @@ resource "ibm_code_engine_binding" "tf-sample-code-engine-binding" {
   project_id  = ""
   secret_name = ""
   
-  component {}
+  component {
+    name          = ""
+    resource_type = ""
+  }
 }

@@ -24,9 +24,25 @@ resource "ibm_dl_gateway_action" "tf-sample-dl-gateway-action" {
   speed_mbps                  = 0
   type                        = ""
   
-  as_prepends {}
-  export_route_filters {}
-  import_route_filters {}
+  as_prepends {
+    length            = 0
+    policy            = ""
+    specific_prefixes = []
+  }
+  export_route_filters {
+    action = ""
+    before = ""
+    ge     = 0
+    le     = 0
+    prefix = ""
+  }
+  import_route_filters {
+    action = ""
+    before = ""
+    ge     = 0
+    le     = 0
+    prefix = ""
+  }
   
   tags = {}
 }

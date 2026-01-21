@@ -4,5 +4,8 @@ resource "ibm_onboarding_registration" "tf-sample-onboarding-registration" {
   default_private_catalog_id = ""
   provider_access_group      = ""
   
-  primary_contact {}
+  primary_contact {
+    email = ""
+    name  = ""
+  }
 }

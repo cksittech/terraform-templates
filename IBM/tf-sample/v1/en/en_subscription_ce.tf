@@ -5,5 +5,7 @@ resource "ibm_en_subscription_ce" "tf-sample-en-subscription-ce" {
   name           = ""
   topic_id       = ""
   
-  attributes {}
+  attributes {
+    template_id_notification = ""
+  }
 }

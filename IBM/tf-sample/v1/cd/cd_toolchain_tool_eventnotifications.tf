@@ -2,5 +2,8 @@ resource "ibm_cd_toolchain_tool_eventnotifications" "tf-sample-cd-toolchain-tool
   name         = ""
   toolchain_id = ""
   
-  parameters {}
+  parameters {
+    instance_crn = ""
+    name         = ""
+  }
 }

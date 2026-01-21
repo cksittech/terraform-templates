@@ -4,13 +4,10 @@ resource "ibm_is_security_group_rule" "tf-sample-is-security-group-rule" {
   group      = ""
   ip_version = ""
   local      = ""
+  name       = ""
   port_max   = 0
   port_min   = 0
   protocol   = ""
   remote     = ""
   type       = 0
-  
-  icmp {}
-  tcp {}
-  udp {}
 }

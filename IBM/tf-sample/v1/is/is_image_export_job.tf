@@ -3,5 +3,8 @@ resource "ibm_is_image_export_job" "tf-sample-is-image-export-job" {
   image  = ""
   name   = ""
   
-  storage_bucket {}
+  storage_bucket {
+    crn  = ""
+    name = ""
+  }
 }

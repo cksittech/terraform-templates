@@ -6,13 +6,15 @@ resource "ibm_cloudant" "tf-sample-cloudant" {
   legacy_credentials  = false
   location            = ""
   name                = ""
-  parameters          = {}
   parameters_json     = ""
   plan                = ""
   resource_group_id   = ""
   service_endpoints   = ""
   
-  cors_config {}
+  cors_config {
+    allow_credentials = false
+    origins           = []
+  }
   
   tags = {}
 }

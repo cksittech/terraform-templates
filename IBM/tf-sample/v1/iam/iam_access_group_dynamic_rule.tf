@@ -4,5 +4,9 @@ resource "ibm_iam_access_group_dynamic_rule" "tf-sample-iam-access-group-dynamic
   identity_provider = ""
   name              = ""
   
-  conditions {}
+  conditions {
+    claim    = ""
+    operator = ""
+    value    = ""
+  }
 }

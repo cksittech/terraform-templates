@@ -3,5 +3,14 @@ resource "ibm_schematics_resource_query" "tf-sample-schematics-resource-query" {
   name     = ""
   type     = ""
   
-  queries {}
+  queries {
+    query_select = []
+    query_type   = ""
+    
+    query_condition {
+      description = ""
+      name        = ""
+      value       = ""
+    }
+  }
 }

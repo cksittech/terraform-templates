@@ -13,7 +13,11 @@ resource "ibm_is_instance_volume_attachment" "tf-sample-is-instance-volume-attac
   volume                             = ""
   volume_name                        = ""
   
-  allowed_use {}
+  allowed_use {
+    api_version       = ""
+    bare_metal_server = ""
+    instance          = ""
+  }
   
   tags = {}
 }

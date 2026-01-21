@@ -5,5 +5,8 @@ resource "ibm_container_ingress_secret_opaque" "tf-sample-container-ingress-secr
   secret_namespace = ""
   update_secret    = 0
   
-  fields {}
+  fields {
+    crn        = ""
+    field_name = ""
+  }
 }

@@ -4,5 +4,7 @@ resource "ibm_en_webhook_template" "tf-sample-en-webhook-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

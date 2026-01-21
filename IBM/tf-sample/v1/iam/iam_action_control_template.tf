@@ -3,5 +3,9 @@ resource "ibm_iam_action_control_template" "tf-sample-iam-action-control-templat
   description = ""
   name        = ""
   
-  action_control {}
+  action_control {
+    actions      = []
+    description  = ""
+    service_name = ""
+  }
 }

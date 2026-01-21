@@ -5,5 +5,11 @@ resource "ibm_en_destination_chrome" "tf-sample-en-destination-chrome" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      api_key     = ""
+      pre_prod    = false
+      website_url = ""
+    }
+  }
 }

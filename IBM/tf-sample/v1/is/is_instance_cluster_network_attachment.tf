@@ -2,6 +2,17 @@ resource "ibm_is_instance_cluster_network_attachment" "tf-sample-is-instance-clu
   instance_id = ""
   name        = ""
   
-  before {}
-  cluster_network_interface {}
+  before {
+  }
+  cluster_network_interface {
+    name = ""
+    
+    primary_ip {
+      address = ""
+      href    = ""
+      name    = ""
+    }
+    subnet {
+    }
+  }
 }

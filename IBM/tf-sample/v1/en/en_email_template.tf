@@ -4,5 +4,8 @@ resource "ibm_en_email_template" "tf-sample-en-email-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body    = ""
+    subject = ""
+  }
 }

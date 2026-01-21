@@ -5,5 +5,9 @@ resource "ibm_en_subscription_custom_sms" "tf-sample-en-subscription-custom-sms"
   name           = ""
   topic_id       = ""
   
-  attributes {}
+  attributes {
+    add     = []
+    invited = []
+    remove  = []
+  }
 }

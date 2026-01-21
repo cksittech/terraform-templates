@@ -7,6 +7,10 @@ resource "ibm_hpcs_managed_key" "tf-sample-hpcs-managed-key" {
   template_name = ""
   uko_vault     = ""
   
-  tags {}
-  vault {}
+  tags {
+    name  = ""
+    value = ""
+  }
+  vault {
+  }
 }

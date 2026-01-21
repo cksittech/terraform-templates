@@ -8,5 +8,4 @@ resource "ibm_pi_route" "tf-sample-pi-route" {
   pi_name              = ""
   pi_next_hop          = ""
   pi_next_hop_type     = ""
-  pi_user_tags         = []
 }

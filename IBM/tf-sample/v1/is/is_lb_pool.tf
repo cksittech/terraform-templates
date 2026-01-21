@@ -13,5 +13,11 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
   session_persistence_app_cookie_name = ""
   session_persistence_type            = ""
   
-  failsafe_policy {}
+  failsafe_policy {
+    action = ""
+    
+    target {
+      href = ""
+    }
+  }
 }

@@ -4,6 +4,20 @@ resource "ibm_cis_page_rule" "tf-sample-cis-page-rule" {
   priority  = 0
   status    = ""
   
-  actions {}
-  targets {}
+  actions {
+    css         = ""
+    html        = ""
+    js          = ""
+    status_code = 0
+    url         = ""
+    value       = ""
+  }
+  targets {
+    target = ""
+    
+    constraint {
+      operator = ""
+      value    = ""
+    }
+  }
 }

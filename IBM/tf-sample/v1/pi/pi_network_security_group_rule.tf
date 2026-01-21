@@ -4,10 +4,23 @@ resource "ibm_pi_network_security_group_rule" "tf-sample-pi-network-security-gro
   pi_network_security_group_id      = ""
   pi_network_security_group_rule_id = ""
   
-  pi_destination_port {}
-  pi_destination_ports {}
-  pi_protocol {}
-  pi_remote {}
-  pi_source_port {}
-  pi_source_ports {}
+  pi_destination_port {
+    maximum = 0
+    minimum = 0
+  }
+  pi_protocol {
+    icmp_type = ""
+    type      = ""
+    
+    tcp_flags {
+      flag = ""
+    }
+  }
+  pi_remote {
+    type = ""
+  }
+  pi_source_port {
+    maximum = 0
+    minimum = 0
+  }
 }

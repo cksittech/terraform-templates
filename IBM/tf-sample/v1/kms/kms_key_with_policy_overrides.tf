@@ -11,6 +11,11 @@ resource "ibm_kms_key_with_policy_overrides" "tf-sample-kms-key-with-policy-over
   payload         = ""
   standard_key    = false
   
-  dual_auth_delete {}
-  rotation {}
+  dual_auth_delete {
+    enabled = false
+  }
+  rotation {
+    enabled        = false
+    interval_month = 0
+  }
 }

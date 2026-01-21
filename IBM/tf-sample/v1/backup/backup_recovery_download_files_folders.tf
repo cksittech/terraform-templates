@@ -7,7 +7,19 @@ resource "ibm_backup_recovery_download_files_folders" "tf-sample-backup-recovery
   region                 = ""
   x_ibm_tenant_id        = ""
   
-  documents {}
-  files_and_folders {}
-  object {}
+  documents {
+    is_directory = false
+    item_id      = ""
+  }
+  files_and_folders {
+    absolute_path = ""
+    is_directory  = false
+  }
+  object {
+    point_in_time_usecs   = 0
+    protection_group_id   = ""
+    protection_group_name = ""
+    recover_from_standby  = false
+    snapshot_id           = ""
+  }
 }

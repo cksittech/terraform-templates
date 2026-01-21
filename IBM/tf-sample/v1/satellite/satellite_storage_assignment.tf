@@ -3,6 +3,5 @@ resource "ibm_satellite_storage_assignment" "tf-sample-satellite-storage-assignm
   cluster                = ""
   config                 = ""
   controller             = ""
-  groups                 = []
   update_config_revision = false
 }

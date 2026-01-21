@@ -20,11 +20,61 @@ resource "ibm_database" "tf-sample-database" {
   version                              = ""
   version_upgrade_skip_backup          = false
   
-  allowlist {}
-  auto_scaling {}
-  group {}
-  logical_replication_slot {}
-  users {}
+  allowlist {
+    address     = ""
+    description = ""
+  }
+  auto_scaling {
+    disk {
+      capacity_enabled             = false
+      free_space_less_than_percent = 0
+      io_above_percent             = 0
+      io_enabled                   = false
+      io_over_period               = ""
+      rate_increase_percent        = 0
+      rate_limit_mb_per_member     = 0
+      rate_period_seconds          = 0
+      rate_units                   = ""
+    }
+    memory {
+      io_above_percent         = 0
+      io_enabled               = false
+      io_over_period           = ""
+      rate_increase_percent    = 0
+      rate_limit_mb_per_member = 0
+      rate_period_seconds      = 0
+      rate_units               = ""
+    }
+  }
+  group {
+    group_id = ""
+    
+    cpu {
+      allocation_count = 0
+    }
+    disk {
+      allocation_mb = 0
+    }
+    host_flavor {
+    }
+    members {
+      allocation_count = 0
+    }
+    memory {
+      allocation_mb = 0
+    }
+  }
+  logical_replication_slot {
+    database_name = ""
+    name          = ""
+    plugin_type   = ""
+  }
+  users {
+    name     = ""
+    password = ""
+    role     = ""
+    type     = ""
+  }
   
   tags = {}
 }

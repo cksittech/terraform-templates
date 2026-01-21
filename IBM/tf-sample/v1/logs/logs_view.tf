@@ -5,7 +5,23 @@ resource "ibm_logs_view" "tf-sample-logs-view" {
   name          = ""
   region        = ""
   
-  filters {}
-  search_query {}
-  time_selection {}
+  filters {
+    filters {
+      name            = ""
+      selected_values = {}
+    }
+  }
+  search_query {
+    query = ""
+  }
+  time_selection {
+    custom_selection {
+      from_time = ""
+      to_time   = ""
+    }
+    quick_selection {
+      caption = ""
+      seconds = 0
+    }
+  }
 }

@@ -4,5 +4,6 @@ resource "ibm_cd_tekton_pipeline" "tf-sample-cd-tekton-pipeline" {
   next_build_number      = 0
   pipeline_id            = ""
   
-  worker {}
+  worker {
+  }
 }

@@ -3,9 +3,7 @@ resource "ibm_code_engine_job" "tf-sample-code-engine-job" {
   image_secret                  = ""
   name                          = ""
   project_id                    = ""
-  run_arguments                 = []
   run_as_user                   = 0
-  run_commands                  = []
   run_mode                      = ""
   run_service_account           = ""
   scale_array_spec              = ""
@@ -15,6 +13,18 @@ resource "ibm_code_engine_job" "tf-sample-code-engine-job" {
   scale_memory_limit            = ""
   scale_retry_limit             = 0
   
-  run_env_variables {}
-  run_volume_mounts {}
+  run_env_variables {
+    key       = ""
+    name      = ""
+    prefix    = ""
+    reference = ""
+    type      = ""
+    value     = ""
+  }
+  run_volume_mounts {
+    mount_path = ""
+    name       = ""
+    reference  = ""
+    type       = ""
+  }
 }

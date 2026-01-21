@@ -5,9 +5,6 @@ resource "ibm_cis_cache_settings" "tf-sample-cis-cache-settings" {
   development_mode    = ""
   domain_id           = ""
   purge_all           = false
-  purge_by_hosts      = []
-  purge_by_tags       = []
-  purge_by_urls       = []
   query_string_sort   = ""
   serve_stale_content = ""
 }

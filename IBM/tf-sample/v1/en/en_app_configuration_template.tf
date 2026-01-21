@@ -4,5 +4,7 @@ resource "ibm_en_app_configuration_template" "tf-sample-en-app-configuration-tem
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

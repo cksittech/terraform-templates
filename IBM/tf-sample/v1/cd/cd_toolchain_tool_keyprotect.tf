@@ -2,5 +2,10 @@ resource "ibm_cd_toolchain_tool_keyprotect" "tf-sample-cd-toolchain-tool-keyprot
   name         = ""
   toolchain_id = ""
   
-  parameters {}
+  parameters {
+    instance_name       = ""
+    location            = ""
+    name                = ""
+    resource_group_name = ""
+  }
 }

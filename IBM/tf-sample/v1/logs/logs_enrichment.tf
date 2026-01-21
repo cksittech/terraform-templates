@@ -4,5 +4,12 @@ resource "ibm_logs_enrichment" "tf-sample-logs-enrichment" {
   instance_id   = ""
   region        = ""
   
-  enrichment_type {}
+  enrichment_type {
+    custom_enrichment {
+    }
+    geo_ip {
+    }
+    suspicious_ip {
+    }
+  }
 }

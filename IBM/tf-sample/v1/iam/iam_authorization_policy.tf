@@ -1,6 +1,5 @@
 resource "ibm_iam_authorization_policy" "tf-sample-iam-authorization-policy" {
   description                 = ""
-  roles                       = []
   source_resource_group_id    = ""
   source_resource_instance_id = ""
   source_resource_type        = ""
@@ -12,6 +11,14 @@ resource "ibm_iam_authorization_policy" "tf-sample-iam-authorization-policy" {
   target_service_name         = ""
   transaction_id              = ""
   
-  resource_attributes {}
-  subject_attributes {}
+  resource_attributes {
+    name     = ""
+    operator = ""
+    value    = ""
+  }
+  subject_attributes {
+    name     = ""
+    operator = ""
+    value    = ""
+  }
 }

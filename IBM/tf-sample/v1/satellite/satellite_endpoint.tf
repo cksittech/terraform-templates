@@ -13,5 +13,28 @@ resource "ibm_satellite_endpoint" "tf-sample-satellite-endpoint" {
   sni                = ""
   timeout            = 0
   
-  certs {}
+  certs {
+    client {
+      cert {
+        file_contents = ""
+        filename      = ""
+      }
+    }
+    connector {
+      cert {
+        file_contents = ""
+        filename      = ""
+      }
+      key {
+        file_contents = ""
+        filename      = ""
+      }
+    }
+    server {
+      cert {
+        file_contents = ""
+        filename      = ""
+      }
+    }
+  }
 }

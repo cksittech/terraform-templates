@@ -5,6 +5,20 @@ resource "ibm_cbr_zone" "tf-sample-cbr-zone" {
   transaction_id   = ""
   x_correlation_id = ""
   
-  addresses {}
-  excluded {}
+  addresses {
+    type  = ""
+    value = ""
+    
+    ref {
+      account_id       = ""
+      location         = ""
+      service_instance = ""
+      service_name     = ""
+      service_type     = ""
+    }
+  }
+  excluded {
+    type  = ""
+    value = ""
+  }
 }

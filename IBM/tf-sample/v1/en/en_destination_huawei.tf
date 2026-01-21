@@ -5,5 +5,11 @@ resource "ibm_en_destination_huawei" "tf-sample-en-destination-huawei" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      client_id     = ""
+      client_secret = ""
+      pre_prod      = false
+    }
+  }
 }

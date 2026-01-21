@@ -1,8 +1,4 @@
 resource "ibm_storage_file" "tf-sample-storage-file" {
-  allowed_hardware_ids      = []
-  allowed_ip_addresses      = []
-  allowed_subnets           = []
-  allowed_virtual_guest_ids = []
   capacity                  = 0
   datacenter                = ""
   hourly_billing            = false
@@ -11,7 +7,14 @@ resource "ibm_storage_file" "tf-sample-storage-file" {
   snapshot_capacity         = 0
   type                      = ""
   
-  snapshot_schedule {}
+  snapshot_schedule {
+    day_of_week     = ""
+    enable          = false
+    hour            = 0
+    minute          = 0
+    retention_count = 0
+    schedule_type   = ""
+  }
   
   tags = {}
 }

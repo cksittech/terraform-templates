@@ -19,18 +19,29 @@ resource "ibm_container_vpc_cluster" "tf-sample-container-vpc-cluster" {
   resource_group_id                   = ""
   retry_patch_version                 = 0
   secondary_storage                   = ""
-  security_groups                     = []
   service_subnet                      = ""
   update_all_workers                  = false
   vpc_id                              = ""
   wait_for_worker_update              = false
   wait_till                           = ""
   worker_count                        = 0
-  worker_labels                       = {}
   
-  kms_config {}
-  taints {}
-  zones {}
+  kms_config {
+    account_id       = ""
+    crk_id           = ""
+    instance_id      = ""
+    private_endpoint = false
+    wait_for_apply   = false
+  }
+  taints {
+    effect = ""
+    key    = ""
+    value  = ""
+  }
+  zones {
+    name      = ""
+    subnet_id = ""
+  }
   
   tags = {}
 }

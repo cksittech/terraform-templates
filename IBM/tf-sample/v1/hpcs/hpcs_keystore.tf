@@ -17,7 +17,6 @@ resource "ibm_hpcs_keystore" "tf-sample-hpcs-keystore" {
   google_location                   = ""
   google_private_key_id             = ""
   google_project_id                 = ""
-  groups                            = []
   ibm_api_endpoint                  = ""
   ibm_api_key                       = ""
   ibm_iam_endpoint                  = ""
@@ -30,5 +29,6 @@ resource "ibm_hpcs_keystore" "tf-sample-hpcs-keystore" {
   type                              = ""
   uko_vault                         = ""
   
-  vault {}
+  vault {
+  }
 }

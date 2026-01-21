@@ -1,5 +1,4 @@
 resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
-  applied_shareddata_ids              = []
   description                         = ""
   frozen                              = false
   frozen_at                           = ""
@@ -10,7 +9,6 @@ resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
   locked_time                         = ""
   name                                = ""
   resource_group                      = ""
-  template_env_settings               = []
   template_git_branch                 = ""
   template_git_folder                 = ""
   template_git_has_uploadedgitrepotar = false
@@ -25,10 +23,39 @@ resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
   template_values                     = ""
   x_github_token                      = ""
   
-  catalog_ref {}
-  shared_data {}
-  template_inputs {}
-  template_values_metadata {}
+  catalog_ref {
+    dry_run          = false
+    item_icon_url    = ""
+    item_id          = ""
+    item_name        = ""
+    item_readme_url  = ""
+    item_url         = ""
+    launch_url       = ""
+    offering_version = ""
+    owning_account   = ""
+  }
+  shared_data {
+    cluster_created_on  = ""
+    cluster_id          = ""
+    cluster_name        = ""
+    cluster_type        = ""
+    entitlement_keys    = []
+    namespace           = ""
+    region              = ""
+    resource_group_id   = ""
+    worker_count        = 0
+    worker_machine_type = ""
+  }
+  template_inputs {
+    description = ""
+    name        = ""
+    secure      = false
+    type        = ""
+    use_default = false
+    value       = ""
+  }
+  template_values_metadata {
+  }
   
   tags = {}
 }

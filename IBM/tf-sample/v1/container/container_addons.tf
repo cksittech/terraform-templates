@@ -3,5 +3,9 @@ resource "ibm_container_addons" "tf-sample-container-addons" {
   manage_all_addons = false
   resource_group_id = ""
   
-  addons {}
+  addons {
+    name            = ""
+    parameters_json = ""
+    version         = ""
+  }
 }

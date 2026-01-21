@@ -1,5 +1,4 @@
 resource "ibm_is_volume" "tf-sample-is-volume" {
-  access_tags          = []
   bandwidth            = 0
   capacity             = 0
   delete_all_snapshots = false
@@ -12,7 +11,11 @@ resource "ibm_is_volume" "tf-sample-is-volume" {
   source_snapshot_crn  = ""
   zone                 = ""
   
-  allowed_use {}
+  allowed_use {
+    api_version       = ""
+    bare_metal_server = ""
+    instance          = ""
+  }
   
   tags = {}
 }

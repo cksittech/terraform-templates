@@ -2,6 +2,31 @@ resource "ibm_cd_toolchain_tool_hostedgit" "tf-sample-cd-toolchain-tool-hostedgi
   name         = ""
   toolchain_id = ""
   
-  initialization {}
-  parameters {}
+  initialization {
+    git_id          = ""
+    owner_id        = ""
+    private_repo    = false
+    repo_name       = ""
+    repo_url        = ""
+    source_repo_url = ""
+    type            = ""
+  }
+  parameters {
+    api_root_url             = ""
+    api_token                = ""
+    auth_type                = ""
+    default_branch           = ""
+    enable_traceability      = false
+    git_id                   = ""
+    integration_owner        = ""
+    owner_id                 = ""
+    private_repo             = false
+    repo_id                  = ""
+    repo_name                = ""
+    repo_url                 = ""
+    source_repo_url          = ""
+    token_url                = ""
+    toolchain_issues_enabled = false
+    type                     = ""
+  }
 }

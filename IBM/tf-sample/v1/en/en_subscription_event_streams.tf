@@ -5,5 +5,7 @@ resource "ibm_en_subscription_event_streams" "tf-sample-en-subscription-event-st
   name           = ""
   topic_id       = ""
   
-  attributes {}
+  attributes {
+    template_id_notification = ""
+  }
 }

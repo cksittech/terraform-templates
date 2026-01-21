@@ -4,5 +4,7 @@ resource "ibm_en_pagerduty_template" "tf-sample-en-pagerduty-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

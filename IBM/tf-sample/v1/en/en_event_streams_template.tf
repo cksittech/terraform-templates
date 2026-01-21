@@ -4,5 +4,7 @@ resource "ibm_en_event_streams_template" "tf-sample-en-event-streams-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

@@ -7,5 +7,8 @@ resource "ibm_cis_alert" "tf-sample-cis-alert" {
   filters     = ""
   name        = ""
   
-  mechanisms {}
+  mechanisms {
+    email    = []
+    webhooks = []
+  }
 }

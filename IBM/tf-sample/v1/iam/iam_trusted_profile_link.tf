@@ -3,5 +3,11 @@ resource "ibm_iam_trusted_profile_link" "tf-sample-iam-trusted-profile-link" {
   name       = ""
   profile_id = ""
   
-  link {}
+  link {
+    component_name = ""
+    component_type = ""
+    crn            = ""
+    name           = ""
+    namespace      = ""
+  }
 }

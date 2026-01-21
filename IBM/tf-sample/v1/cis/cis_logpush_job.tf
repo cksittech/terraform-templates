@@ -11,5 +11,9 @@ resource "ibm_cis_logpush_job" "tf-sample-cis-logpush-job" {
   name                = ""
   ownership_challenge = ""
   
-  ibmcl {}
+  ibmcl {
+    api_key     = ""
+    instance_id = ""
+    region      = ""
+  }
 }

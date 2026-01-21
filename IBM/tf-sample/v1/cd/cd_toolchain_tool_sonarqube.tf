@@ -2,5 +2,11 @@ resource "ibm_cd_toolchain_tool_sonarqube" "tf-sample-cd-toolchain-tool-sonarqub
   name         = ""
   toolchain_id = ""
   
-  parameters {}
+  parameters {
+    blind_connection = false
+    name             = ""
+    server_url       = ""
+    user_login       = ""
+    user_password    = ""
+  }
 }

@@ -5,6 +5,18 @@ resource "ibm_function_action" "tf-sample-function-action" {
   user_defined_annotations = ""
   user_defined_parameters  = ""
   
-  exec {}
-  limits {}
+  exec {
+    code       = ""
+    code_path  = ""
+    components = []
+    image      = ""
+    init       = ""
+    kind       = ""
+    main       = ""
+  }
+  limits {
+    log_size = 0
+    memory   = 0
+    timeout  = 0
+  }
 }

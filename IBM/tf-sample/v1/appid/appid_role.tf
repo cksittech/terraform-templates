@@ -3,5 +3,8 @@ resource "ibm_appid_role" "tf-sample-appid-role" {
   name        = ""
   tenant_id   = ""
   
-  access {}
+  access {
+    application_id = ""
+    scopes         = []
+  }
 }

@@ -3,5 +3,9 @@ resource "ibm_en_integration" "tf-sample-en-integration" {
   integration_id = ""
   type           = ""
   
-  metadata {}
+  metadata {
+    crn         = ""
+    endpoint    = ""
+    root_key_id = ""
+  }
 }

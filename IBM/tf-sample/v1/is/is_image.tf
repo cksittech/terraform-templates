@@ -1,5 +1,4 @@
 resource "ibm_is_image" "tf-sample-is-image" {
-  access_tags        = []
   deprecate          = false
   deprecation_at     = ""
   encrypted_data_key = ""
@@ -12,7 +11,11 @@ resource "ibm_is_image" "tf-sample-is-image" {
   resource_group     = ""
   source_volume      = ""
   
-  allowed_use {}
+  allowed_use {
+    api_version       = ""
+    bare_metal_server = ""
+    instance          = ""
+  }
   
   tags = {}
 }

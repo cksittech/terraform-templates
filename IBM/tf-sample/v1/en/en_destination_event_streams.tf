@@ -5,5 +5,11 @@ resource "ibm_en_destination_event_streams" "tf-sample-en-destination-event-stre
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      crn      = ""
+      endpoint = ""
+      topic    = ""
+    }
+  }
 }

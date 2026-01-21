@@ -4,5 +4,7 @@ resource "ibm_en_slack_template" "tf-sample-en-slack-template" {
   name          = ""
   type          = ""
   
-  params {}
+  params {
+    body = ""
+  }
 }

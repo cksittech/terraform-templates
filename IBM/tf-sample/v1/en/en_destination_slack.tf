@@ -5,5 +5,11 @@ resource "ibm_en_destination_slack" "tf-sample-en-destination-slack" {
   name                  = ""
   type                  = ""
   
-  config {}
+  config {
+    params {
+      token = ""
+      type  = ""
+      url   = ""
+    }
+  }
 }

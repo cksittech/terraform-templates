@@ -7,8 +7,6 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
   default_trusted_profile_target    = ""
   enable_secure_boot                = false
   image                             = ""
-  keys                              = []
-  metadata_service_enabled          = false
   name                              = ""
   placement_group                   = ""
   profile                           = ""
@@ -19,15 +17,157 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
   vpc                               = ""
   zone                              = ""
   
-  boot_volume {}
-  catalog_offering {}
-  cluster_network_attachments {}
-  metadata_service {}
-  network_attachments {}
-  network_interfaces {}
-  primary_network_attachment {}
-  primary_network_interface {}
-  reservation_affinity {}
-  vcpu {}
-  volume_attachments {}
+  boot_volume {
+    bandwidth                        = 0
+    delete_volume_on_instance_delete = false
+    encryption                       = ""
+    name                             = ""
+    profile                          = ""
+    size                             = 0
+    source_snapshot                  = ""
+    
+    allowed_use {
+      api_version       = ""
+      bare_metal_server = ""
+      instance          = ""
+    }
+  }
+  catalog_offering {
+    offering_crn = ""
+    plan_crn     = ""
+    version_crn  = ""
+  }
+  cluster_network_attachments {
+    name = ""
+    
+    cluster_network_interface {
+      auto_delete = false
+      href        = ""
+      name        = ""
+      
+      primary_ip {
+        address     = ""
+        auto_delete = false
+        href        = ""
+        name        = ""
+      }
+      subnet {
+        href = ""
+      }
+    }
+  }
+  metadata_service {
+    enabled            = false
+    protocol           = ""
+    response_hop_limit = 0
+  }
+  network_attachments {
+    name = ""
+    
+    virtual_network_interface {
+      allow_ip_spoofing             = false
+      auto_delete                   = false
+      enable_infrastructure_nat     = false
+      name                          = ""
+      protocol_state_filtering_mode = ""
+      resource_group                = ""
+      security_groups               = []
+      subnet                        = ""
+      
+      ips {
+        address     = ""
+        auto_delete = false
+        name        = ""
+        reserved_ip = ""
+      }
+      primary_ip {
+        address     = ""
+        auto_delete = false
+        name        = ""
+        reserved_ip = ""
+      }
+    }
+  }
+  network_interfaces {
+    allow_ip_spoofing = false
+    name              = ""
+    security_groups   = []
+    subnet            = ""
+    
+    primary_ip {
+      address     = ""
+      auto_delete = false
+      name        = ""
+      reserved_ip = ""
+    }
+  }
+  primary_network_attachment {
+    name = ""
+    
+    virtual_network_interface {
+      allow_ip_spoofing             = false
+      auto_delete                   = false
+      enable_infrastructure_nat     = false
+      name                          = ""
+      protocol_state_filtering_mode = ""
+      resource_group                = ""
+      security_groups               = []
+      subnet                        = ""
+      
+      ips {
+        address     = ""
+        auto_delete = false
+        name        = ""
+        reserved_ip = ""
+      }
+      primary_ip {
+        address     = ""
+        auto_delete = false
+        name        = ""
+        reserved_ip = ""
+      }
+    }
+  }
+  primary_network_interface {
+    allow_ip_spoofing = false
+    name              = ""
+    security_groups   = []
+    subnet            = ""
+    
+    primary_ip {
+      address     = ""
+      auto_delete = false
+      name        = ""
+      reserved_ip = ""
+    }
+  }
+  reservation_affinity {
+    policy = ""
+    
+    pool {
+    }
+  }
+  vcpu {
+    percentage = 0
+  }
+  volume_attachments {
+    delete_volume_on_instance_delete = false
+    name                             = ""
+    volume                           = ""
+    
+    volume_prototype {
+      bandwidth       = 0
+      capacity        = 0
+      encryption_key  = ""
+      iops            = 0
+      profile         = ""
+      source_snapshot = ""
+      
+      allowed_use {
+        api_version       = ""
+        bare_metal_server = ""
+        instance          = ""
+      }
+    }
+  }
 }

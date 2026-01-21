@@ -26,10 +26,31 @@ resource "ibm_dl_gateway" "tf-sample-dl-gateway" {
   type                        = ""
   vlan                        = 0
   
-  as_prepends {}
-  export_route_filters {}
-  import_route_filters {}
-  macsec_config {}
+  as_prepends {
+    length            = 0
+    policy            = ""
+    specific_prefixes = []
+  }
+  export_route_filters {
+    action = ""
+    before = ""
+    ge     = 0
+    le     = 0
+    prefix = ""
+  }
+  import_route_filters {
+    action = ""
+    before = ""
+    ge     = 0
+    le     = 0
+    prefix = ""
+  }
+  macsec_config {
+    active       = false
+    fallback_cak = ""
+    primary_cak  = ""
+    window_size  = 0
+  }
   
   tags = {}
 }

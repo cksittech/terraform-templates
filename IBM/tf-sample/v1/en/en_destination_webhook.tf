@@ -6,5 +6,12 @@ resource "ibm_en_destination_webhook" "tf-sample-en-destination-webhook" {
   test_destination      = false
   type                  = ""
   
-  config {}
+  config {
+    params {
+      custom_headers    = {}
+      sensitive_headers = []
+      url               = ""
+      verb              = ""
+    }
+  }
 }
