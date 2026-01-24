@@ -30,7 +30,7 @@ def make_block(f: TextIO, base_block_type: str, indent_level: int, schema: dict)
     if "attributes" in list(schema.keys()):
         attributes = [
             attribute for attribute in list(schema["attributes"].keys()) 
-                if not(attribute in ["arn", "tags_all", "tags", "id"]) 
+                if not(attribute in ["arn", "tags_all", "tags"]) 
                 and ("optional" in schema["attributes"][attribute].keys() 
                     or "required" in schema["attributes"][attribute].keys())
                 and not("deprecated" in schema["attributes"][attribute].keys())]
