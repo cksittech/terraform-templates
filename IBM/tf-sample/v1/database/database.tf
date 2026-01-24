@@ -56,6 +56,7 @@ resource "ibm_database" "tf-sample-database" {
       allocation_mb = 0
     }
     host_flavor {
+      id = ""
     }
     members {
       allocation_count = 0

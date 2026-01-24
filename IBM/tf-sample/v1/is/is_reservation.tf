@@ -15,5 +15,6 @@ resource "ibm_is_reservation" "tf-sample-is-reservation" {
     resource_type = ""
   }
   resource_group {
+    id = ""
   }
 }

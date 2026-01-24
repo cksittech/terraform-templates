@@ -85,6 +85,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       backup_only_pvc             = false
       excluded_resources          = []
       fail_backup_on_hook_failure = false
+      id                          = 0
       included_resources          = []
       
       exclude_params {
@@ -132,6 +133,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         }
       }
       include_pvcs {
+        id   = 0
         name = ""
       }
       quiesce_groups {
@@ -193,6 +195,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         is_regular_expression = false
       }
       objects {
+        id = 0
       }
       pre_post_script {
         post_script {
@@ -234,6 +237,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         is_regular_expression = false
       }
       objects {
+        id = 0
       }
       pre_post_script {
         post_script {
@@ -285,6 +289,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         include_paths   = []
       }
       objects {
+        id = 0
       }
       pre_post_script {
         post_script {
@@ -327,6 +332,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       objects {
         excluded_vss_writers                       = []
         follow_nas_symlink_target                  = false
+        id                                         = 0
         metadata_file_path                         = ""
         nested_volume_types_to_skip                = []
         uses_path_level_skip_nested_volume_setting = false
@@ -374,6 +380,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       objects {
         enable_system_backup = false
         excluded_vss_writers = []
+        id                   = 0
         name                 = ""
         volume_guids         = []
       }

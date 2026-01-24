@@ -1,4 +1,5 @@
 resource "ibm_backup_recovery_agent_upgrade_task" "tf-sample-backup-recovery-agent-upgrade-task" {
+  agent_ids               = []
   description             = ""
   endpoint_type           = ""
   instance_id             = ""

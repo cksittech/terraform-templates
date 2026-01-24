@@ -1,4 +1,5 @@
 resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
+  applied_shareddata_ids              = []
   description                         = ""
   frozen                              = false
   frozen_at                           = ""
@@ -9,6 +10,7 @@ resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
   locked_time                         = ""
   name                                = ""
   resource_group                      = ""
+  template_env_settings               = []
   template_git_branch                 = ""
   template_git_folder                 = ""
   template_git_has_uploadedgitrepotar = false

@@ -1,4 +1,5 @@
 resource "ibm_cos_bucket" "tf-sample-cos-bucket" {
+  allowed_ip            = []
   bucket_name           = ""
   cross_region_location = ""
   endpoint_type         = ""

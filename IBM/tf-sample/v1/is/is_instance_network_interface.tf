@@ -3,6 +3,7 @@ resource "ibm_is_instance_network_interface" "tf-sample-is-instance-network-inte
   floating_ip       = ""
   instance          = ""
   name              = ""
+  security_groups   = []
   subnet            = ""
   
   primary_ip {

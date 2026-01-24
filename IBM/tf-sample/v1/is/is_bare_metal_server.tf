@@ -1,9 +1,11 @@
 resource "ibm_is_bare_metal_server" "tf-sample-is-bare-metal-server" {
+  access_tags        = []
   action             = ""
   bandwidth          = 0
   delete_type        = ""
   enable_secure_boot = false
   image              = ""
+  keys               = []
   name               = ""
   profile            = ""
   resource_group     = ""
@@ -16,6 +18,7 @@ resource "ibm_is_bare_metal_server" "tf-sample-is-bare-metal-server" {
     
     target {
       crn = ""
+      id  = ""
     }
   }
   metadata_service {
@@ -33,6 +36,7 @@ resource "ibm_is_bare_metal_server" "tf-sample-is-bare-metal-server" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -78,6 +82,7 @@ resource "ibm_is_bare_metal_server" "tf-sample-is-bare-metal-server" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -114,6 +119,7 @@ resource "ibm_is_bare_metal_server" "tf-sample-is-bare-metal-server" {
     policy = ""
     
     pool {
+      id = ""
     }
   }
   trusted_platform_module {

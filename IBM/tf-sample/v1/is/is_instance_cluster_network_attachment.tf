@@ -3,6 +3,7 @@ resource "ibm_is_instance_cluster_network_attachment" "tf-sample-is-instance-clu
   name        = ""
   
   before {
+    id = ""
   }
   cluster_network_interface {
     name = ""
@@ -10,9 +11,11 @@ resource "ibm_is_instance_cluster_network_attachment" "tf-sample-is-instance-clu
     primary_ip {
       address = ""
       href    = ""
+      id      = ""
       name    = ""
     }
     subnet {
+      id = ""
     }
   }
 }

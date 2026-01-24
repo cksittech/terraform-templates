@@ -18,12 +18,14 @@ resource "ibm_cis_ruleset_entrypoint_version" "tf-sample-cis-ruleset-entrypoint-
       description     = ""
       enabled         = false
       expression      = ""
+      id              = ""
       last_updated_at = ""
       logging         = {}
       ref             = ""
       version         = ""
       
       action_parameters {
+        id       = ""
         phases   = []
         products = []
         ruleset  = ""

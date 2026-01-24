@@ -1,6 +1,7 @@
 resource "ibm_scc_rule" "tf-sample-scc-rule" {
   description = ""
   instance_id = ""
+  labels      = []
   version     = ""
   
   import {

@@ -17,6 +17,7 @@ resource "ibm_pi_network_security_group_rule" "tf-sample-pi-network-security-gro
     }
   }
   pi_remote {
+    id   = ""
     type = ""
   }
   pi_source_port {

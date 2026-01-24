@@ -1,4 +1,5 @@
 resource "ibm_is_subnet" "tf-sample-is-subnet" {
+  access_tags              = []
   ip_version               = ""
   ipv4_cidr_block          = ""
   name                     = ""

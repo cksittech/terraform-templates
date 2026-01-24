@@ -27,6 +27,7 @@ resource "ibm_dl_gateway" "tf-sample-dl-gateway" {
   vlan                        = 0
   
   as_prepends {
+    id                = ""
     length            = 0
     policy            = ""
     specific_prefixes = []

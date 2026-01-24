@@ -26,6 +26,7 @@ resource "ibm_project_config" "tf-sample-project-config" {
     }
     compliance_profile {
       attachment_id        = ""
+      id                   = ""
       instance_id          = ""
       instance_location    = ""
       profile_name         = ""

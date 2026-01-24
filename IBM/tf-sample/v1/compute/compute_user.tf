@@ -10,6 +10,7 @@ resource "ibm_compute_user" "tf-sample-compute-user" {
   has_api_key  = false
   last_name    = ""
   password     = ""
+  permissions  = []
   state        = ""
   timezone     = ""
   user_status  = ""

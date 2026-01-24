@@ -1,4 +1,5 @@
 resource "ibm_is_volume" "tf-sample-is-volume" {
+  access_tags          = []
   bandwidth            = 0
   capacity             = 0
   delete_all_snapshots = false

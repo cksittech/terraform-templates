@@ -7,6 +7,7 @@ resource "ibm_db2" "tf-sample-db2" {
   location                     = ""
   name                         = ""
   oracle_compatibility         = ""
+  parameters                   = {}
   parameters_json              = ""
   plan                         = ""
   resource_group_id            = ""
@@ -201,6 +202,7 @@ resource "ibm_db2" "tf-sample-db2" {
     email    = ""
     iam      = false
     ibmid    = ""
+    id       = ""
     locked   = ""
     name     = ""
     password = ""

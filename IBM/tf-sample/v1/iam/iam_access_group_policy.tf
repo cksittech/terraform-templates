@@ -3,6 +3,7 @@ resource "ibm_iam_access_group_policy" "tf-sample-iam-access-group-policy" {
   account_management = false
   description        = ""
   pattern            = ""
+  roles              = []
   rule_operator      = ""
   transaction_id     = ""
   

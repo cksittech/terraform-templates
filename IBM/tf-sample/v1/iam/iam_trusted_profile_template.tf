@@ -6,6 +6,7 @@ resource "ibm_iam_trusted_profile_template" "tf-sample-iam-trusted-profile-templ
   template_id = ""
   
   policy_template_references {
+    id      = ""
     version = ""
   }
   profile {

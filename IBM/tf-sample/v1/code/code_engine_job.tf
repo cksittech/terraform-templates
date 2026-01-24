@@ -3,7 +3,9 @@ resource "ibm_code_engine_job" "tf-sample-code-engine-job" {
   image_secret                  = ""
   name                          = ""
   project_id                    = ""
+  run_arguments                 = []
   run_as_user                   = 0
+  run_commands                  = []
   run_mode                      = ""
   run_service_account           = ""
   scale_array_spec              = ""

@@ -6,9 +6,11 @@ resource "ibm_is_cluster_network_interface" "tf-sample-is-cluster-network-interf
     address     = ""
     auto_delete = false
     href        = ""
+    id          = ""
     name        = ""
   }
   subnet {
     href = ""
+    id   = ""
   }
 }

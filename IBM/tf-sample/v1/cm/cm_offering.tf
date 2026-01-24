@@ -3,8 +3,12 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
   deprecate              = false
   disclaimer             = ""
   hidden                 = false
+  keywords               = []
   label                  = ""
+  label_i18n             = {}
   long_description       = ""
+  long_description_i18n  = {}
+  metadata               = {}
   name                   = ""
   offering_docs_url      = ""
   offering_icon_url      = ""
@@ -15,9 +19,11 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
   public_original_crn    = ""
   publish_public_crn     = ""
   share_enabled          = false
+  share_with_access_list = []
   share_with_all         = false
   share_with_ibm         = false
   short_description      = ""
+  short_description_i18n = {}
   
   features {
     description      = ""
@@ -44,6 +50,7 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
     }
   }
   provider_info {
+    id   = ""
     name = ""
   }
   

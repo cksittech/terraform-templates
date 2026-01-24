@@ -1,5 +1,6 @@
 resource "ibm_is_bare_metal_server_network_attachment" "tf-sample-is-bare-metal-server-network-attachment" {
   allow_to_float    = false
+  allowed_vlans     = []
   bare_metal_server = ""
   hard_stop         = false
   interface_type    = ""
@@ -10,6 +11,7 @@ resource "ibm_is_bare_metal_server_network_attachment" "tf-sample-is-bare-metal-
     allow_ip_spoofing             = false
     auto_delete                   = false
     enable_infrastructure_nat     = false
+    id                            = ""
     name                          = ""
     protocol_state_filtering_mode = ""
     resource_group                = ""

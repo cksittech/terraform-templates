@@ -29,6 +29,7 @@ resource "ibm_project" "tf-sample-project" {
       url              = ""
     }
     terraform_engine {
+      id   = ""
       type = ""
     }
   }

@@ -3,6 +3,7 @@ resource "ibm_iam_service_policy" "tf-sample-iam-service-policy" {
   description        = ""
   iam_id             = ""
   pattern            = ""
+  roles              = []
   rule_operator      = ""
   transaction_id     = ""
   

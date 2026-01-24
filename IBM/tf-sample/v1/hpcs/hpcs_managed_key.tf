@@ -12,5 +12,6 @@ resource "ibm_hpcs_managed_key" "tf-sample-hpcs-managed-key" {
     value = ""
   }
   vault {
+    id = ""
   }
 }

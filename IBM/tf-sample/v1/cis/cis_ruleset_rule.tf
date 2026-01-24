@@ -9,12 +9,14 @@ resource "ibm_cis_ruleset_rule" "tf-sample-cis-ruleset-rule" {
     description     = ""
     enabled         = false
     expression      = ""
+    id              = ""
     last_updated_at = ""
     logging         = {}
     ref             = ""
     version         = ""
     
     action_parameters {
+      id       = ""
       phases   = []
       products = []
       ruleset  = ""

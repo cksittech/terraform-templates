@@ -13,6 +13,7 @@ resource "ibm_project_environment" "tf-sample-project-environment" {
     }
     compliance_profile {
       attachment_id        = ""
+      id                   = ""
       instance_id          = ""
       instance_location    = ""
       profile_name         = ""

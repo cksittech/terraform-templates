@@ -2,6 +2,8 @@ resource "ibm_pi_image" "tf-sample-pi-image" {
   pi_affinity_instance       = ""
   pi_affinity_policy         = ""
   pi_affinity_volume         = ""
+  pi_anti_affinity_instances = []
+  pi_anti_affinity_volumes   = []
   pi_cloud_instance_id       = ""
   pi_image_access_key        = ""
   pi_image_bucket_access     = ""
@@ -13,6 +15,7 @@ resource "ibm_pi_image" "tf-sample-pi-image" {
   pi_image_secret_key        = ""
   pi_image_storage_pool      = ""
   pi_image_storage_type      = ""
+  pi_user_tags               = []
   
   pi_image_import_details {
     license_type = ""

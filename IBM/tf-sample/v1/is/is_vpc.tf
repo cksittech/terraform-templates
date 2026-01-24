@@ -1,4 +1,5 @@
 resource "ibm_is_vpc" "tf-sample-is-vpc" {
+  access_tags                 = []
   address_prefix_management   = ""
   default_network_acl_name    = ""
   default_routing_table_name  = ""

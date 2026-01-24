@@ -15,6 +15,7 @@ resource "ibm_is_lb_listener" "tf-sample-is-lb-listener" {
     uri              = ""
     
     listener {
+      id = ""
     }
   }
 }

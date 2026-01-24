@@ -8,6 +8,7 @@ resource "ibm_container_cluster" "tf-sample-container-cluster" {
   hardware                   = ""
   image_security_enforcement = false
   kube_version               = ""
+  labels                     = {}
   machine_type               = ""
   name                       = ""
   no_subnet                  = false
@@ -21,6 +22,7 @@ resource "ibm_container_cluster" "tf-sample-container-cluster" {
   resource_group_id          = ""
   retry_patch_version        = 0
   service_subnet             = ""
+  subnet_id                  = []
   update_all_workers         = false
   wait_for_worker_update     = false
   wait_till                  = ""
@@ -42,6 +44,7 @@ resource "ibm_container_cluster" "tf-sample-container-cluster" {
     url   = ""
   }
   workers_info {
+    id      = ""
     version = ""
   }
   

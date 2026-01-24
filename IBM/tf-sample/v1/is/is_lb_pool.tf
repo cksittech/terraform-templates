@@ -18,6 +18,7 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
     
     target {
       href = ""
+      id   = ""
     }
   }
 }

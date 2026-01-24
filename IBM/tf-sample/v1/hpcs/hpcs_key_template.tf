@@ -20,5 +20,6 @@ resource "ibm_hpcs_key_template" "tf-sample-hpcs-key-template" {
     type                        = ""
   }
   vault {
+    id = ""
   }
 }

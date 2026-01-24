@@ -4,4 +4,5 @@ resource "ibm_kms_kmip_adapter" "tf-sample-kms-kmip-adapter" {
   instance_id   = ""
   name          = ""
   profile       = ""
+  profile_data  = {}
 }

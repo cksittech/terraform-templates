@@ -5,7 +5,9 @@ resource "ibm_code_engine_app" "tf-sample-code-engine-app" {
   managed_domain_mappings       = ""
   name                          = ""
   project_id                    = ""
+  run_arguments                 = []
   run_as_user                   = 0
+  run_commands                  = []
   run_service_account           = ""
   scale_concurrency             = 0
   scale_concurrency_target      = 0

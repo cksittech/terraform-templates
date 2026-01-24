@@ -3,5 +3,6 @@ resource "ibm_sds_volume_mapping" "tf-sample-sds-volume-mapping" {
   sds_endpoint = ""
   
   volume {
+    id = ""
   }
 }

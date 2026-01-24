@@ -1,5 +1,6 @@
 resource "ibm_iam_authorization_policy" "tf-sample-iam-authorization-policy" {
   description                 = ""
+  roles                       = []
   source_resource_group_id    = ""
   source_resource_instance_id = ""
   source_resource_type        = ""

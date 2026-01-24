@@ -4,6 +4,8 @@ resource "ibm_en_topic" "tf-sample-en-topic" {
   name          = ""
   
   sources {
+    id = ""
+    
     rules {
       enabled             = false
       event_type_filter   = ""

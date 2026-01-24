@@ -1,5 +1,6 @@
 resource "ibm_cis_global_load_balancer" "tf-sample-cis-global-load-balancer" {
   cis_id           = ""
+  default_pool_ids = []
   description      = ""
   domain_id        = ""
   enabled          = false

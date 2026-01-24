@@ -4,6 +4,7 @@ resource "ibm_container_worker_pool" "tf-sample-container-worker-pool" {
   entitlement       = ""
   hardware          = ""
   import_on_create  = false
+  labels            = {}
   machine_type      = ""
   operating_system  = ""
   orphan_on_delete  = false

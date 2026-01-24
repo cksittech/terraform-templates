@@ -8,6 +8,7 @@ resource "ibm_backup_recovery_protection_group_run_request" "tf-sample-backup-re
   
   objects {
     app_ids = []
+    id      = 0
     
     physical_params {
       metadata_file_path = ""
@@ -19,6 +20,7 @@ resource "ibm_backup_recovery_protection_group_run_request" "tf-sample-backup-re
     archivals {
       archival_target_type       = ""
       copy_only_fully_successful = false
+      id                         = 0
       
       retention {
         duration = 0
@@ -56,6 +58,8 @@ resource "ibm_backup_recovery_protection_group_run_request" "tf-sample-backup-re
       }
     }
     replications {
+      id = 0
+      
       retention {
         duration = 0
         unit     = ""

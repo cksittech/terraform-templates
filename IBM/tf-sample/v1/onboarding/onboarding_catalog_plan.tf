@@ -6,6 +6,7 @@ resource "ibm_onboarding_catalog_plan" "tf-sample-onboarding-catalog-plan" {
   kind               = ""
   name               = ""
   object_id          = ""
+  pricing_tags       = []
   product_id         = ""
   
   metadata {
@@ -50,6 +51,7 @@ resource "ibm_onboarding_catalog_plan" "tf-sample-onboarding-catalog-plan" {
             url       = ""
           }
           navigation_items {
+            id    = ""
             label = ""
             url   = ""
           }

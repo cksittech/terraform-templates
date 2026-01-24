@@ -1,5 +1,6 @@
 resource "ibm_cm_version" "tf-sample-cm-version" {
   catalog_id        = ""
+  configuration     = []
   content           = ""
   deprecate         = false
   format_kind       = ""
@@ -13,6 +14,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
   offering_id       = ""
   product_kind      = ""
   repotype          = ""
+  target_kinds      = []
   target_version    = ""
   terraform_version = ""
   usage             = ""
@@ -43,6 +45,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
       size = 0
     }
     images {
+      id     = ""
       name   = ""
       region = ""
     }
@@ -67,6 +70,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
   }
   licenses {
     description = ""
+    id          = ""
     name        = ""
     type        = ""
     url         = ""
@@ -105,6 +109,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
     dependencies {
       catalog_id = ""
       flavors    = []
+      id         = ""
       name       = ""
       version    = ""
     }

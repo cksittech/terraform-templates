@@ -11,6 +11,7 @@ resource "ibm_metrics_router_route" "tf-sample-metrics-router-route" {
       values   = []
     }
     targets {
+      id = ""
     }
   }
 }

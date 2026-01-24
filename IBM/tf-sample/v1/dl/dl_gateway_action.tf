@@ -25,6 +25,7 @@ resource "ibm_dl_gateway_action" "tf-sample-dl-gateway-action" {
   type                        = ""
   
   as_prepends {
+    id                = ""
     length            = 0
     policy            = ""
     specific_prefixes = []

@@ -1,4 +1,5 @@
 resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-connector-update-user" {
+  additional_group_names           = []
   allow_dso_modify                 = false
   authentication_type              = ""
   created_time_msecs               = 0
@@ -10,18 +11,22 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
   endpoint_type                    = ""
   expired_time_msecs               = 0
   force_password_change            = false
+  group_roles                      = []
   instance_id                      = ""
   intercom_messenger_token         = ""
   is_account_locked                = false
   is_active                        = false
   last_successful_login_time_msecs = 0
   last_updated_time_msecs          = 0
+  mfa_methods                      = []
   object_class                     = ""
   password                         = ""
   previous_login_time_msecs        = 0
   primary_group_name               = ""
+  privilege_ids                    = []
   region                           = ""
   restricted                       = false
+  roles                            = []
   s3_access_key_id                 = ""
   s3_account_id                    = ""
   s3_secret_key                    = ""

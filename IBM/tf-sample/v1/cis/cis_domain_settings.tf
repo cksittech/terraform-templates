@@ -4,6 +4,7 @@ resource "ibm_cis_domain_settings" "tf-sample-cis-domain-settings" {
   brotli                         = ""
   browser_check                  = ""
   challenge_ttl                  = 0
+  cipher                         = []
   cis_id                         = ""
   cname_flattening               = ""
   dnssec                         = ""

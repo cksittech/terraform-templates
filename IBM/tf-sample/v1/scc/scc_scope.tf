@@ -3,6 +3,7 @@ resource "ibm_scc_scope" "tf-sample-scc-scope" {
   environment = ""
   instance_id = ""
   name        = ""
+  properties  = {}
   
   exclusions {
     scope_id   = ""

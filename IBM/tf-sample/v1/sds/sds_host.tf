@@ -5,16 +5,19 @@ resource "ibm_sds_host" "tf-sample-sds-host" {
   
   volume_mappings {
     href          = ""
+    id            = ""
     status        = ""
     subsystem_nqn = ""
     
     gateways {
     }
     host {
+      id   = ""
       name = ""
       nqn  = ""
     }
     namespace {
+      id   = 0
       uuid = ""
     }
     storage_identifier {
@@ -26,6 +29,7 @@ resource "ibm_sds_host" "tf-sample-sds-host" {
       }
     }
     volume {
+      id = ""
     }
   }
 }

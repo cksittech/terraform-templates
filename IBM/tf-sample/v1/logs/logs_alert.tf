@@ -4,6 +4,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
   instance_id                  = ""
   is_active                    = false
   name                         = ""
+  notification_payload_filters = []
   region                       = ""
   severity                     = ""
   
@@ -66,6 +67,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
             op = ""
             
             values {
+              id  = ""
               not = false
             }
           }

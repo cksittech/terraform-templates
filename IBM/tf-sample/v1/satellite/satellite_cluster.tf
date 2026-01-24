@@ -1,8 +1,11 @@
 resource "ibm_satellite_cluster" "tf-sample-satellite-cluster" {
+  calico_ip_autodetection         = {}
   crn_token                       = ""
+  default_worker_pool_labels      = {}
   disable_public_service_endpoint = false
   enable_config_admin             = false
   entitlement                     = ""
+  host_labels                     = []
   infrastructure_topology         = ""
   kube_version                    = ""
   location                        = ""
@@ -18,6 +21,7 @@ resource "ibm_satellite_cluster" "tf-sample-satellite-cluster" {
   worker_count                    = 0
   
   zones {
+    id = ""
   }
   
   tags = {}

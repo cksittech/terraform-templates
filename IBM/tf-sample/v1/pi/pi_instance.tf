@@ -2,6 +2,8 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_affinity_instance                      = ""
   pi_affinity_policy                        = ""
   pi_affinity_volume                        = ""
+  pi_anti_affinity_instances                = []
+  pi_anti_affinity_volumes                  = []
   pi_boot_volume_replication_enabled        = false
   pi_cloud_instance_id                      = ""
   pi_deployment_type                        = ""
@@ -22,6 +24,7 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_replicants                             = 0
   pi_replication_policy                     = ""
   pi_replication_scheme                     = ""
+  pi_replication_sites                      = []
   pi_retain_virtual_serial_number           = false
   pi_sap_deployment_type                    = ""
   pi_sap_profile_id                         = ""
@@ -32,10 +35,13 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_storage_type                           = ""
   pi_sys_type                               = ""
   pi_user_data                              = ""
+  pi_user_tags                              = []
   pi_virtual_cores_assigned                 = 0
   pi_virtual_optical_device                 = ""
+  pi_volume_ids                             = []
   
   pi_deployment_target {
+    id   = ""
     type = ""
   }
   pi_network {

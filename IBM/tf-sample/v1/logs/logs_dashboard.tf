@@ -14,6 +14,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
   annotations {
     enabled = false
     href    = ""
+    id      = ""
     name    = ""
     
     source {
@@ -448,6 +449,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                   }
                   grouping {
                     aggregations {
+                      id         = ""
                       is_visible = false
                       name       = ""
                       
@@ -908,6 +910,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               query_definitions {
                 color_scheme         = ""
                 data_mode_type       = ""
+                id                   = ""
                 is_visible           = false
                 name                 = ""
                 scale_type           = ""

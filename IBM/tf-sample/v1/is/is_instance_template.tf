@@ -7,6 +7,7 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
   default_trusted_profile_target    = ""
   enable_secure_boot                = false
   image                             = ""
+  keys                              = []
   name                              = ""
   placement_group                   = ""
   profile                           = ""
@@ -43,16 +44,19 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
     cluster_network_interface {
       auto_delete = false
       href        = ""
+      id          = ""
       name        = ""
       
       primary_ip {
         address     = ""
         auto_delete = false
         href        = ""
+        id          = ""
         name        = ""
       }
       subnet {
         href = ""
+        id   = ""
       }
     }
   }
@@ -68,6 +72,7 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -108,6 +113,7 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -145,6 +151,7 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
     policy = ""
     
     pool {
+      id = ""
     }
   }
   vcpu {

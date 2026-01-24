@@ -7,6 +7,7 @@ resource "ibm_cis_page_rule" "tf-sample-cis-page-rule" {
   actions {
     css         = ""
     html        = ""
+    id          = ""
     js          = ""
     status_code = 0
     url         = ""

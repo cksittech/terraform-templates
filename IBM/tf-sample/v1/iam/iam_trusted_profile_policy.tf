@@ -3,6 +3,7 @@ resource "ibm_iam_trusted_profile_policy" "tf-sample-iam-trusted-profile-policy"
   description        = ""
   iam_id             = ""
   pattern            = ""
+  roles              = []
   rule_operator      = ""
   transaction_id     = ""
   

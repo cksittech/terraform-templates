@@ -6,6 +6,7 @@ resource "ibm_logs_enrichment" "tf-sample-logs-enrichment" {
   
   enrichment_type {
     custom_enrichment {
+      id = 0
     }
     geo_ip {
     }

@@ -3,6 +3,7 @@ resource "ibm_is_bare_metal_server_network_interface_allow_float" "tf-sample-is-
   bare_metal_server         = ""
   enable_infrastructure_nat = false
   name                      = ""
+  security_groups           = []
   subnet                    = ""
   vlan                      = 0
   

@@ -387,6 +387,8 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
           unit      = ""
         }
         target {
+          id = 0
+          
           aws_params {
             region    = 0
             subnet_id = 0
@@ -427,6 +429,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
           }
         }
         params {
+          id = 0
         }
         retention {
           duration = 0
@@ -678,6 +681,8 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         unit      = ""
       }
       target {
+        id = 0
+        
         aws_params {
           region    = 0
           subnet_id = 0
@@ -718,6 +723,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         }
       }
       params {
+        id = 0
       }
       retention {
         duration = 0

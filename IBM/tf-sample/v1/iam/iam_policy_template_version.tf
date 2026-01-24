@@ -24,6 +24,7 @@ resource "ibm_iam_policy_template_version" "tf-sample-iam-policy-template-versio
       }
     }
     role_template_references {
+      id      = ""
       version = ""
     }
     rule_conditions {

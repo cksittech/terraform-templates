@@ -1,7 +1,10 @@
 resource "ibm_compute_bare_metal" "tf-sample-compute-bare-metal" {
+  block_storage_ids         = []
   datacenter                = ""
+  disk_key_names            = []
   domain                    = ""
   extended_hardware_testing = false
+  file_storage_ids          = []
   fixed_config_preset       = ""
   gpu_key_name              = ""
   gpu_secondary_key_name    = ""
@@ -30,6 +33,7 @@ resource "ibm_compute_bare_metal" "tf-sample-compute-bare-metal" {
   restricted_network        = false
   secondary_ip_count        = 0
   software_guard_extensions = false
+  ssh_key_ids               = []
   tcp_monitoring            = false
   unbonded_network          = false
   user_metadata             = ""

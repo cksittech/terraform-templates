@@ -1,4 +1,5 @@
 resource "ibm_is_instance" "tf-sample-is-instance" {
+  access_tags                       = []
   action                            = ""
   auto_delete_volume                = false
   availability_policy_host_failure  = ""
@@ -12,6 +13,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   force_recovery_time               = 0
   image                             = ""
   instance_template                 = ""
+  keys                              = []
   name                              = ""
   placement_group                   = ""
   profile                           = ""
@@ -19,6 +21,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   total_volume_bandwidth            = 0
   user_data                         = ""
   volume_bandwidth_qos_mode         = ""
+  volumes                           = []
   vpc                               = ""
   wait_before_delete                = false
   zone                              = ""
@@ -51,15 +54,18 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     
     cluster_network_interface {
       auto_delete = false
+      id          = ""
       name        = ""
       
       primary_ip {
         address     = ""
         auto_delete = false
+        id          = ""
         name        = ""
       }
       subnet {
         href = ""
+        id   = ""
       }
     }
   }
@@ -75,6 +81,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -112,6 +119,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
       allow_ip_spoofing             = false
       auto_delete                   = false
       enable_infrastructure_nat     = false
+      id                            = ""
       name                          = ""
       protocol_state_filtering_mode = ""
       resource_group                = ""
@@ -146,6 +154,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     policy = ""
     
     pool {
+      id = ""
     }
   }
   vcpu {

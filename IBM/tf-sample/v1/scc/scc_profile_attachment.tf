@@ -24,6 +24,7 @@ resource "ibm_scc_profile_attachment" "tf-sample-scc-profile-attachment" {
   }
   scope {
     environment = ""
+    id          = ""
     
     properties {
       name  = ""

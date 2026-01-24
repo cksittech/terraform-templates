@@ -44,6 +44,7 @@ resource "ibm_iam_access_group_template" "tf-sample-iam-access-group-template" {
     }
   }
   policy_template_references {
+    id      = ""
     version = ""
   }
 }

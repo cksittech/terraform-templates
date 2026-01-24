@@ -1,4 +1,5 @@
 resource "ibm_cis_origin_pool" "tf-sample-cis-origin-pool" {
+  check_regions      = []
   cis_id             = ""
   description        = ""
   enabled            = false

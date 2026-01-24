@@ -2,6 +2,7 @@ resource "ibm_is_instance_disk_management" "tf-sample-is-instance-disk-managemen
   instance = ""
   
   disks {
+    id   = ""
     name = ""
   }
 }

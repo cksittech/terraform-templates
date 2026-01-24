@@ -5,5 +5,6 @@ resource "ibm_cd_tekton_pipeline" "tf-sample-cd-tekton-pipeline" {
   pipeline_id            = ""
   
   worker {
+    id = ""
   }
 }

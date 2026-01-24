@@ -45,10 +45,13 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           absolute_path = ""
           
           target_namespace {
+            id = 0
           }
           target_pvc {
+            id = 0
           }
           target_source {
+            id = 0
           }
         }
         original_target_config {
@@ -57,6 +60,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
         }
         vlan_config {
           disable_vlan = false
+          id           = 0
         }
       }
     }
@@ -183,6 +187,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           
           new_source_config {
             source {
+              id = 0
             }
           }
         }
@@ -205,6 +210,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
       }
       vlan_config {
         disable_vlan = false
+        id           = 0
       }
     }
   }
@@ -226,6 +232,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
       }
       host_info {
         environment = ""
+        id          = ""
         name        = ""
       }
       sql_target_params {
@@ -245,6 +252,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           with_no_recovery                = false
           
           host {
+            id = 0
           }
           multi_stage_restore_options {
             enable_auto_sync           = false
@@ -281,6 +289,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
     }
     vlan_config {
       disable_vlan = false
+      id           = 0
     }
   }
   physical_params {
@@ -306,6 +315,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
         
         new_target_config {
           mount_target {
+            id = 0
           }
           server_credentials {
             password = ""
@@ -320,6 +330,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
         }
         vlan_config {
           disable_vlan = false
+          id           = 0
         }
       }
     }
@@ -350,9 +361,11 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
         save_success_files          = false
         
         recover_target {
+          id = 0
         }
         vlan_config {
           disable_vlan = false
+          id           = 0
         }
       }
     }
@@ -363,9 +376,11 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
         force_unmount_volume = false
         
         mount_target {
+          id = 0
         }
         vlan_config {
           disable_vlan = false
+          id           = 0
         }
         volume_mapping {
           destination_volume_guid = ""

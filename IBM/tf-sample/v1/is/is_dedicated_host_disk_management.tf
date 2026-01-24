@@ -2,6 +2,7 @@ resource "ibm_is_dedicated_host_disk_management" "tf-sample-is-dedicated-host-di
   dedicated_host = ""
   
   disks {
+    id   = ""
     name = ""
   }
 }

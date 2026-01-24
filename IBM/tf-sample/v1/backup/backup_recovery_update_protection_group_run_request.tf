@@ -12,6 +12,7 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
       new_snapshot_config {
         archival_target_type       = ""
         copy_only_fully_successful = false
+        id                         = 0
         
         retention {
           duration = 0
@@ -31,6 +32,7 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
         days_to_keep         = 0
         delete_snapshot      = false
         enable_legal_hold    = false
+        id                   = 0
         name                 = ""
         resync               = false
       }
@@ -43,6 +45,8 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
     }
     replication_snapshot_config {
       new_snapshot_config {
+        id = 0
+        
         retention {
           duration = 0
           unit     = ""
@@ -60,6 +64,7 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
         days_to_keep      = 0
         delete_snapshot   = false
         enable_legal_hold = false
+        id                = 0
         name              = ""
         resync            = false
       }

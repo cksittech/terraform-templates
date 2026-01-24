@@ -7,6 +7,7 @@ resource "ibm_is_share_mount_target" "tf-sample-is-share-mount-target" {
   
   virtual_network_interface {
     auto_delete                   = false
+    id                            = ""
     name                          = ""
     protocol_state_filtering_mode = ""
     resource_group                = ""

@@ -20,11 +20,13 @@ resource "ibm_logs_rule_group" "tf-sample-logs-rule-group" {
   }
   rule_subgroups {
     enabled = false
+    id      = ""
     order   = 0
     
     rules {
       description  = ""
       enabled      = false
+      id           = ""
       name         = ""
       order        = 0
       source_field = ""

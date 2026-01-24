@@ -12,8 +12,10 @@ resource "ibm_logs_policy" "tf-sample-logs-policy" {
     rule_type_id = ""
   }
   archive_retention {
+    id = ""
   }
   before {
+    id = ""
   }
   log_rules {
     severities = []

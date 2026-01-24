@@ -217,6 +217,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
             url       = ""
           }
           navigation_items {
+            id    = ""
             label = ""
             url   = ""
           }

@@ -18,6 +18,7 @@ resource "ibm_schematics_policy" "tf-sample-schematics-policy" {
     }
   }
   scoped_resources {
+    id   = ""
     kind = ""
   }
   state {

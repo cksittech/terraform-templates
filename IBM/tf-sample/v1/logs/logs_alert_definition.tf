@@ -3,6 +3,8 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   description   = ""
   enabled       = false
   endpoint_type = ""
+  entity_labels = {}
+  group_by_keys = []
   instance_id   = ""
   name          = ""
   phantom_mode  = false
@@ -35,6 +37,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
           next_op   = ""
           
           alert_defs {
+            id  = ""
             not = false
           }
         }

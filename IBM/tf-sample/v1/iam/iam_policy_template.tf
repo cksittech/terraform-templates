@@ -23,6 +23,7 @@ resource "ibm_iam_policy_template" "tf-sample-iam-policy-template" {
       }
     }
     role_template_references {
+      id      = ""
       version = ""
     }
     rule_conditions {

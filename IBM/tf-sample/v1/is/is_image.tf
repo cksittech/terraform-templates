@@ -1,4 +1,5 @@
 resource "ibm_is_image" "tf-sample-is-image" {
+  access_tags        = []
   deprecate          = false
   deprecation_at     = ""
   encrypted_data_key = ""

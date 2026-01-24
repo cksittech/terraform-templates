@@ -10,6 +10,7 @@ resource "ibm_en_subscription_slack" "tf-sample-en-subscription-slack" {
     template_id_notification = ""
     
     channels {
+      id        = ""
       operation = ""
     }
   }

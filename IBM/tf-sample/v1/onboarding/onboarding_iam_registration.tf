@@ -1,12 +1,16 @@
 resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registration" {
+  additional_policy_scopes = []
   enabled                  = false
   env                      = ""
   name                     = ""
+  parent_ids               = []
   product_id               = ""
   service_type             = ""
+  supported_action_control = []
   
   actions {
     api_types = []
+    id        = ""
     roles     = []
     
     description {
@@ -206,6 +210,8 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
     }
   }
   supported_roles {
+    id = ""
+    
     description {
       de      = ""
       default = ""

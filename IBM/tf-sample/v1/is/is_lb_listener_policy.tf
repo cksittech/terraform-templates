@@ -13,10 +13,12 @@ resource "ibm_is_lb_listener_policy" "tf-sample-is-lb-listener-policy" {
   }
   target {
     http_status_code = 0
+    id               = ""
     uri              = ""
     url              = ""
     
     listener {
+      id = ""
     }
   }
 }
