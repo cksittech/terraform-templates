@@ -67,6 +67,7 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
   }
   launch_template_config {
     launch_template_specification {
+      id      = ""
       name    = ""
       version = ""
     }

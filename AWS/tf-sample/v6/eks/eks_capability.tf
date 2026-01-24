@@ -21,6 +21,7 @@ resource "aws_eks_capability" "tf-sample-eks-capability" {
         role = ""
         
         identity {
+          id   = ""
           type = ""
         }
       }

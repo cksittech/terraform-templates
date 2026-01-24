@@ -10,11 +10,13 @@ resource "aws_s3_bucket_acl" "tf-sample-s3-bucket-acl" {
       
       grantee {
         email_address = ""
+        id            = ""
         type          = ""
         uri           = ""
       }
     }
     owner {
+      id = ""
     }
   }
 }

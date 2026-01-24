@@ -23,6 +23,7 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
       customized_capacity_metric_specification {
         metric_data_queries {
           expression  = ""
+          id          = ""
           label       = ""
           return_data = false
           
@@ -45,6 +46,7 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
       customized_load_metric_specification {
         metric_data_queries {
           expression  = ""
+          id          = ""
           label       = ""
           return_data = false
           
@@ -67,6 +69,7 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
       customized_scaling_metric_specification {
         metric_data_queries {
           expression  = ""
+          id          = ""
           label       = ""
           return_data = false
           
@@ -122,6 +125,7 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
       }
       metrics {
         expression  = ""
+        id          = ""
         label       = ""
         return_data = false
         

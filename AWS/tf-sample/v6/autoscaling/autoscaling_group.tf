@@ -77,6 +77,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
     }
   }
   launch_template {
+    id      = ""
     name    = ""
     version = ""
   }

@@ -41,6 +41,7 @@ resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
       }
     }
     user_and_group_quotas {
+      id                         = 0
       storage_capacity_quota_gib = 0
       type                       = ""
     }

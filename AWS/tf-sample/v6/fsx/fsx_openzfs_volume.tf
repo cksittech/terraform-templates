@@ -22,6 +22,7 @@ resource "aws_fsx_openzfs_volume" "tf-sample-fsx-openzfs-volume" {
     snapshot_arn  = ""
   }
   user_and_group_quotas {
+    id                         = 0
     storage_capacity_quota_gib = 0
     type                       = ""
   }

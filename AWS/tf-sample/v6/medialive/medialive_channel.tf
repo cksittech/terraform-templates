@@ -10,6 +10,8 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
     resolution = ""
   }
   destinations {
+    id = ""
+    
     media_package_settings {
       channel_id = ""
     }

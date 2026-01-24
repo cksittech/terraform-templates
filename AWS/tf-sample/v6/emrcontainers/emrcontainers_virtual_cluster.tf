@@ -3,6 +3,7 @@ resource "aws_emrcontainers_virtual_cluster" "tf-sample-emrcontainers-virtual-cl
   region = ""
   
   container_provider {
+    id   = ""
     type = ""
     
     info {

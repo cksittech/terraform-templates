@@ -76,6 +76,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     connection_attempts         = 0
     connection_timeout          = 0
     domain_name                 = ""
+    id                          = ""
     origin_access_control_id    = ""
     origin_path                 = ""
     response_completion_timeout = 0

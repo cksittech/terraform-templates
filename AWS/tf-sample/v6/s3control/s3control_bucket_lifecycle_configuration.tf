@@ -3,6 +3,7 @@ resource "aws_s3control_bucket_lifecycle_configuration" "tf-sample-s3control-buc
   region = ""
   
   rule {
+    id     = ""
     status = ""
     
     abort_incomplete_multipart_upload {

@@ -40,6 +40,7 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   
   grant {
     email       = ""
+    id          = ""
     permissions = []
     type        = ""
     uri         = ""

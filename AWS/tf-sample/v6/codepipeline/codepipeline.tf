@@ -11,6 +11,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     type     = ""
     
     encryption_key {
+      id   = ""
       type = ""
     }
   }

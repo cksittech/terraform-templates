@@ -8,6 +8,7 @@ resource "aws_lakeformation_opt_in" "tf-sample-lakeformation-opt-in" {
   }
   resource_data {
     catalog {
+      id = ""
     }
     data_cells_filter {
       database_name    = ""

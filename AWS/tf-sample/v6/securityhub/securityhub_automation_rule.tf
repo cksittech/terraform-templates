@@ -21,6 +21,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
         updated_by = ""
       }
       related_findings {
+        id          = ""
         product_arn = ""
       }
       severity {

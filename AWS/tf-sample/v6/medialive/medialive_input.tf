@@ -9,6 +9,7 @@ resource "aws_medialive_input" "tf-sample-medialive-input" {
     stream_name = ""
   }
   input_devices {
+    id = ""
   }
   media_connect_flows {
     flow_arn = ""

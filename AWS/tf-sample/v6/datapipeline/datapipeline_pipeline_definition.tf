@@ -3,15 +3,19 @@ resource "aws_datapipeline_pipeline_definition" "tf-sample-datapipeline-pipeline
   region      = ""
   
   parameter_object {
+    id = ""
+    
     attribute {
       key          = ""
       string_value = ""
     }
   }
   parameter_value {
+    id           = ""
     string_value = ""
   }
   pipeline_object {
+    id   = ""
     name = ""
     
     field {

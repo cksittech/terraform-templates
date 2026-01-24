@@ -46,6 +46,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
   }
   elasticsearch {
     endpoint = ""
+    id       = ""
     index    = ""
     role_arn = ""
     type     = ""
@@ -91,6 +92,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
     }
     elasticsearch {
       endpoint = ""
+      id       = ""
       index    = ""
       role_arn = ""
       type     = ""

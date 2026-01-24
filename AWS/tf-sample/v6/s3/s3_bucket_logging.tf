@@ -10,6 +10,7 @@ resource "aws_s3_bucket_logging" "tf-sample-s3-bucket-logging" {
     
     grantee {
       email_address = ""
+      id            = ""
       type          = ""
       uri           = ""
     }

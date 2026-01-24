@@ -47,6 +47,7 @@ resource "aws_elastictranscoder_preset" "tf-sample-elastictranscoder-preset" {
   video_watermarks {
     horizontal_align  = ""
     horizontal_offset = ""
+    id                = ""
     max_height        = ""
     max_width         = ""
     opacity           = ""

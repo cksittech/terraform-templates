@@ -16,6 +16,7 @@ resource "aws_mq_broker" "tf-sample-mq-broker" {
   subnet_ids                          = []
   
   configuration {
+    id       = ""
     revision = 0
   }
   encryption_options {

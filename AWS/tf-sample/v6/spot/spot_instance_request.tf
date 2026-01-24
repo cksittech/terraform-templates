@@ -77,6 +77,7 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
     virtual_name = ""
   }
   launch_template {
+    id      = ""
     name    = ""
     version = ""
   }

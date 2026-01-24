@@ -15,6 +15,7 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   version                = ""
   
   launch_template {
+    id      = ""
     name    = ""
     version = ""
   }

@@ -80,6 +80,7 @@ resource "aws_instance" "tf-sample-instance" {
     }
   }
   launch_template {
+    id      = ""
     name    = ""
     version = ""
   }

@@ -14,6 +14,7 @@ resource "aws_auditmanager_assessment" "tf-sample-auditmanager-assessment" {
   }
   scope {
     aws_accounts {
+      id = ""
     }
     aws_services {
       service_name = ""

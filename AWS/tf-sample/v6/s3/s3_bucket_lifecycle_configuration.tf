@@ -5,6 +5,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "tf-sample-s3-bucket-lifecycle-
   transition_default_minimum_object_size = ""
   
   rule {
+    id     = ""
     status = ""
     
     abort_incomplete_multipart_upload {

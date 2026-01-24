@@ -24,6 +24,7 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   metric_query {
     account_id  = ""
     expression  = ""
+    id          = ""
     label       = ""
     period      = 0
     return_data = false

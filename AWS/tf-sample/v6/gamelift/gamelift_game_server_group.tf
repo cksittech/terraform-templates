@@ -20,6 +20,7 @@ resource "aws_gamelift_game_server_group" "tf-sample-gamelift-game-server-group"
     weighted_capacity = ""
   }
   launch_template {
+    id      = ""
     name    = ""
     version = ""
   }

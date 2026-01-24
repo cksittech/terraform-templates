@@ -14,6 +14,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   web_acl_id                      = ""
   
   connection_function_association {
+    id = ""
   }
   custom_error_response {
     error_caching_min_ttl = 0

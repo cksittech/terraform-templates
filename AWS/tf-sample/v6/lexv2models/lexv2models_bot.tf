@@ -13,6 +13,7 @@ resource "aws_lexv2models_bot" "tf-sample-lexv2models-bot" {
   members {
     alias_id   = ""
     alias_name = ""
+    id         = ""
     name       = ""
     version    = ""
   }

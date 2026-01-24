@@ -5,6 +5,7 @@ resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replicat
   token  = ""
   
   rule {
+    id       = ""
     priority = 0
     status   = ""
     
