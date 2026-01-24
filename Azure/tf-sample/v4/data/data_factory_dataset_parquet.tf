@@ -1,4 +1,6 @@
 resource "azurerm_data_factory_dataset_parquet" "tf-sample-data-factory-dataset-parquet" {
+  additional_properties = {}
+  annotations           = []
   compression_codec     = ""
   compression_level     = ""
   data_factory_id       = ""
@@ -6,6 +8,7 @@ resource "azurerm_data_factory_dataset_parquet" "tf-sample-data-factory-dataset-
   folder                = ""
   linked_service_name   = ""
   name                  = ""
+  parameters            = {}
   
   azure_blob_fs_location {
     dynamic_file_system_enabled = false

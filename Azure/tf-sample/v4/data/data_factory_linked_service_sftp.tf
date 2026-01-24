@@ -1,4 +1,6 @@
 resource "azurerm_data_factory_linked_service_sftp" "tf-sample-data-factory-linked-service-sftp" {
+  additional_properties      = {}
+  annotations                = []
   authentication_type        = ""
   data_factory_id            = ""
   description                = ""
@@ -6,6 +8,7 @@ resource "azurerm_data_factory_linked_service_sftp" "tf-sample-data-factory-link
   host_key_fingerprint       = ""
   integration_runtime_name   = ""
   name                       = ""
+  parameters                 = {}
   password                   = ""
   port                       = 0
   private_key_content_base64 = ""

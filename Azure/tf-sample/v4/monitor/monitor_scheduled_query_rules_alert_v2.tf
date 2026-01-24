@@ -9,8 +9,10 @@ resource "azurerm_monitor_scheduled_query_rules_alert_v2" "tf-sample-monitor-sch
   name                              = ""
   query_time_range_override         = ""
   resource_group_name               = ""
+  scopes                            = []
   severity                          = 0
   skip_query_validation             = false
+  target_resource_types             = []
   window_duration                   = ""
   workspace_alerts_storage_enabled  = false
   

@@ -1,6 +1,7 @@
 resource "azurerm_app_service_slot" "tf-sample-app-service-slot" {
   app_service_name                = ""
   app_service_plan_id             = ""
+  app_settings                    = {}
   client_affinity_enabled         = false
   enabled                         = false
   https_only                      = false

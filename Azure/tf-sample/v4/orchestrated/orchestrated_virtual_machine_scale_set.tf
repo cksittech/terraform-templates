@@ -20,6 +20,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
   upgrade_mode                  = ""
   user_data_base64              = ""
   zone_balance                  = false
+  zones                         = []
   
   additional_capabilities {
     ultra_ssd_enabled = false

@@ -3,9 +3,11 @@ resource "azurerm_virtual_network_gateway_connection" "tf-sample-virtual-network
   connection_mode                    = ""
   connection_protocol                = ""
   dpd_timeout_seconds                = 0
+  egress_nat_rule_ids                = []
   enable_bgp                         = false
   express_route_circuit_id           = ""
   express_route_gateway_bypass       = false
+  ingress_nat_rule_ids               = []
   local_azure_ip_address_enabled     = false
   local_network_gateway_id           = ""
   location                           = ""

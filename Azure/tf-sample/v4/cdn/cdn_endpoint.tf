@@ -1,4 +1,5 @@
 resource "azurerm_cdn_endpoint" "tf-sample-cdn-endpoint" {
+  content_types_to_compress     = []
   is_compression_enabled        = false
   is_http_allowed               = false
   is_https_allowed              = false

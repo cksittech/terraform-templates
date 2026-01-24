@@ -6,6 +6,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
   resource_group_name           = ""
   tier                          = ""
   tls_min_version               = ""
+  zones                         = []
   
   component_version {
     spark = ""

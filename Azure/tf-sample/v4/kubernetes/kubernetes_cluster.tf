@@ -3,6 +3,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   automatic_upgrade_channel           = ""
   azure_policy_enabled                = false
   cost_analysis_enabled               = false
+  custom_ca_trust_certificates_base64 = []
   disk_encryption_set_id              = ""
   dns_prefix                          = ""
   dns_prefix_private_cluster          = ""

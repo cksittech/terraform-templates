@@ -2,6 +2,7 @@ resource "azurerm_capacity_reservation_group" "tf-sample-capacity-reservation-gr
   location            = ""
   name                = ""
   resource_group_name = ""
+  zones               = []
   
   tags = {}
 }

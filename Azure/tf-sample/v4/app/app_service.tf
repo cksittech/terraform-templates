@@ -1,5 +1,6 @@
 resource "azurerm_app_service" "tf-sample-app-service" {
   app_service_plan_id             = ""
+  app_settings                    = {}
   client_affinity_enabled         = false
   client_cert_enabled             = false
   client_cert_mode                = ""

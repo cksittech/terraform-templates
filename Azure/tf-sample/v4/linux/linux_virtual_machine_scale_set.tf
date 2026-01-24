@@ -33,6 +33,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
   user_data                                         = ""
   vtpm_enabled                                      = false
   zone_balance                                      = false
+  zones                                             = []
   
   additional_capabilities {
     ultra_ssd_enabled = false

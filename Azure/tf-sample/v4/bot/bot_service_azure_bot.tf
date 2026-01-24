@@ -8,6 +8,7 @@ resource "azurerm_bot_service_azure_bot" "tf-sample-bot-service-azure-bot" {
   icon_url                              = ""
   local_authentication_enabled          = false
   location                              = ""
+  luis_app_ids                          = []
   luis_key                              = ""
   microsoft_app_id                      = ""
   microsoft_app_msi_id                  = ""

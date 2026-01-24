@@ -4,6 +4,7 @@ resource "azurerm_redis_enterprise_cluster" "tf-sample-redis-enterprise-cluster"
   name                = ""
   resource_group_name = ""
   sku_name            = ""
+  zones               = []
   
   tags = {}
 }

@@ -8,6 +8,7 @@ resource "azurerm_resource_deployment_script_azure_power_shell" "tf-sample-resou
   resource_group_name    = ""
   retention_interval     = ""
   script_content         = ""
+  supporting_script_uris = []
   timeout                = ""
   version                = ""
   

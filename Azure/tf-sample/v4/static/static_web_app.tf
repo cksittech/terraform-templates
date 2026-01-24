@@ -1,4 +1,5 @@
 resource "azurerm_static_web_app" "tf-sample-static-web-app" {
+  app_settings                       = {}
   configuration_file_changes_enabled = false
   location                           = ""
   name                               = ""

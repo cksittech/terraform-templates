@@ -2,6 +2,8 @@ resource "azurerm_automation_software_update_configuration" "tf-sample-automatio
   automation_account_id    = ""
   duration                 = ""
   name                     = ""
+  non_azure_computer_names = []
+  virtual_machine_ids      = []
   
   linux {
     classifications_included = []

@@ -4,6 +4,7 @@ resource "azurerm_elastic_san" "tf-sample-elastic-san" {
   location             = ""
   name                 = ""
   resource_group_name  = ""
+  zones                = []
   
   sku {
     name = ""

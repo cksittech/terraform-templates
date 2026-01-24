@@ -6,6 +6,7 @@ resource "azurerm_monitor_alert_prometheus_rule_group" "tf-sample-monitor-alert-
   name                = ""
   resource_group_name = ""
   rule_group_enabled  = false
+  scopes              = []
   
   rule {
     alert       = ""

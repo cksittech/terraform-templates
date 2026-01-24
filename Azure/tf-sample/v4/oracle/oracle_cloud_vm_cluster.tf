@@ -6,6 +6,7 @@ resource "azurerm_oracle_cloud_vm_cluster" "tf-sample-oracle-cloud-vm-cluster" {
   data_storage_percentage         = 0
   data_storage_size_in_tbs        = 0
   db_node_storage_size_in_gbs     = 0
+  db_servers                      = []
   display_name                    = ""
   domain                          = ""
   gi_version                      = ""
@@ -19,6 +20,7 @@ resource "azurerm_oracle_cloud_vm_cluster" "tf-sample-oracle-cloud-vm-cluster" {
   scan_listener_port_tcp          = 0
   scan_listener_port_tcp_ssl      = 0
   sparse_diskgroup_enabled        = false
+  ssh_public_keys                 = []
   subnet_id                       = ""
   system_version                  = ""
   time_zone                       = ""

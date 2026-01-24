@@ -6,6 +6,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   location                          = ""
   name                              = ""
   resource_group_name               = ""
+  zones                             = []
   
   authentication_certificate {
     data = ""

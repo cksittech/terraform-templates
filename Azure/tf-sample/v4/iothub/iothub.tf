@@ -1,4 +1,6 @@
 resource "azurerm_iothub" "tf-sample-iothub" {
+  endpoint                      = []
+  enrichment                    = []
   event_hub_partition_count     = 0
   event_hub_retention_in_days   = 0
   local_authentication_enabled  = false
@@ -7,6 +9,7 @@ resource "azurerm_iothub" "tf-sample-iothub" {
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""
+  route                         = []
   
   cloud_to_device {
     default_ttl        = ""

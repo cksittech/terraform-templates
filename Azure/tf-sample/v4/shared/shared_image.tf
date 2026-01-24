@@ -5,6 +5,7 @@ resource "azurerm_shared_image" "tf-sample-shared-image" {
   confidential_vm_supported           = false
   description                         = ""
   disk_controller_type_nvme_enabled   = false
+  disk_types_not_allowed              = []
   end_of_life_date                    = ""
   eula                                = ""
   gallery_name                        = ""

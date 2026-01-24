@@ -1,4 +1,6 @@
 resource "azurerm_batch_account" "tf-sample-batch-account" {
+  allowed_authentication_modes        = []
+  encryption                          = []
   location                            = ""
   name                                = ""
   pool_allocation_mode                = ""

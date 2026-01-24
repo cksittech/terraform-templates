@@ -1,4 +1,5 @@
 resource "azurerm_key_vault" "tf-sample-key-vault" {
+  access_policy                   = []
   enabled_for_deployment          = false
   enabled_for_disk_encryption     = false
   enabled_for_template_deployment = false

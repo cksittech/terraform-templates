@@ -1,4 +1,5 @@
 resource "azurerm_eventgrid_topic" "tf-sample-eventgrid-topic" {
+  inbound_ip_rule               = []
   input_schema                  = ""
   local_auth_enabled            = false
   location                      = ""

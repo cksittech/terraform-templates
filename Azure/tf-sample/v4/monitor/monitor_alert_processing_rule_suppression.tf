@@ -3,6 +3,7 @@ resource "azurerm_monitor_alert_processing_rule_suppression" "tf-sample-monitor-
   enabled             = false
   name                = ""
   resource_group_name = ""
+  scopes              = []
   
   condition {
     alert_context {

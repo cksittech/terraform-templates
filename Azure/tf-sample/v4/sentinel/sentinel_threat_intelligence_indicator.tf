@@ -5,11 +5,13 @@ resource "azurerm_sentinel_threat_intelligence_indicator" "tf-sample-sentinel-th
   display_name        = ""
   extension           = ""
   language            = ""
+  object_marking_refs = []
   pattern             = ""
   pattern_type        = ""
   pattern_version     = ""
   revoked             = false
   source              = ""
+  threat_types        = []
   validate_from_utc   = ""
   validate_until_utc  = ""
   workspace_id        = ""

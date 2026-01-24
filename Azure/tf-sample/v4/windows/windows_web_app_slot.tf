@@ -1,5 +1,6 @@
 resource "azurerm_windows_web_app_slot" "tf-sample-windows-web-app-slot" {
   app_service_id                                 = ""
+  app_settings                                   = {}
   client_affinity_enabled                        = false
   client_certificate_enabled                     = false
   client_certificate_exclusion_paths             = ""

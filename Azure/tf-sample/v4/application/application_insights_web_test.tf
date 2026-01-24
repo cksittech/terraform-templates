@@ -4,6 +4,7 @@ resource "azurerm_application_insights_web_test" "tf-sample-application-insights
   description             = ""
   enabled                 = false
   frequency               = 0
+  geo_locations           = []
   kind                    = ""
   location                = ""
   name                    = ""

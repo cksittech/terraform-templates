@@ -5,10 +5,12 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
   license_type                     = ""
   location                         = ""
   name                             = ""
+  network_interface_ids            = []
   primary_network_interface_id     = ""
   proximity_placement_group_id     = ""
   resource_group_name              = ""
   vm_size                          = ""
+  zones                            = []
   
   additional_capabilities {
     ultra_ssd_enabled = false

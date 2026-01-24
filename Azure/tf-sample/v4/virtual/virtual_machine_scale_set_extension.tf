@@ -5,6 +5,7 @@ resource "azurerm_virtual_machine_scale_set_extension" "tf-sample-virtual-machin
   force_update_tag             = ""
   name                         = ""
   protected_settings           = ""
+  provision_after_extensions   = []
   publisher                    = ""
   settings                     = ""
   type                         = ""

@@ -2,6 +2,7 @@ resource "azurerm_synapse_workspace" "tf-sample-synapse-workspace" {
   azuread_authentication_only          = false
   compute_subnet_id                    = ""
   data_exfiltration_protection_enabled = false
+  linking_allowed_for_aad_tenant_ids   = []
   location                             = ""
   managed_resource_group_name          = ""
   managed_virtual_network_enabled      = false

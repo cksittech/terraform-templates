@@ -1,6 +1,7 @@
 resource "azurerm_traffic_manager_azure_endpoint" "tf-sample-traffic-manager-azure-endpoint" {
   always_serve_enabled = false
   enabled              = false
+  geo_mappings         = []
   name                 = ""
   priority             = 0
   profile_id           = ""

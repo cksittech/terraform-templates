@@ -1,4 +1,5 @@
 resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
+  add_on_features                   = []
   cluster_code_version              = ""
   location                          = ""
   management_endpoint               = ""

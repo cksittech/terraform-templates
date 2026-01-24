@@ -6,6 +6,7 @@ resource "azurerm_public_ip" "tf-sample-public-ip" {
   domain_name_label_scope = ""
   edge_zone               = ""
   idle_timeout_in_minutes = 0
+  ip_tags                 = {}
   ip_version              = ""
   location                = ""
   name                    = ""
@@ -14,6 +15,7 @@ resource "azurerm_public_ip" "tf-sample-public-ip" {
   reverse_fqdn            = ""
   sku                     = ""
   sku_tier                = ""
+  zones                   = []
   
   tags = {}
 }

@@ -5,6 +5,7 @@ resource "azurerm_resource_policy_assignment" "tf-sample-resource-policy-assignm
   location             = ""
   metadata             = ""
   name                 = ""
+  not_scopes           = []
   parameters           = ""
   policy_definition_id = ""
   resource_id          = ""

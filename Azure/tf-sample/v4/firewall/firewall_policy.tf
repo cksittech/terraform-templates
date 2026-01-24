@@ -3,6 +3,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
   base_policy_id                    = ""
   location                          = ""
   name                              = ""
+  private_ip_ranges                 = []
   resource_group_name               = ""
   sku                               = ""
   sql_redirect_allowed              = false

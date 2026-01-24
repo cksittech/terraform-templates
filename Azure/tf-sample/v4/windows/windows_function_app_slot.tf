@@ -1,4 +1,5 @@
 resource "azurerm_windows_function_app_slot" "tf-sample-windows-function-app-slot" {
+  app_settings                                   = {}
   builtin_logging_enabled                        = false
   client_certificate_enabled                     = false
   client_certificate_exclusion_paths             = ""

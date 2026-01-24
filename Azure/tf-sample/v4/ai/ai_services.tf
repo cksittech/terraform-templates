@@ -1,5 +1,6 @@
 resource "azurerm_ai_services" "tf-sample-ai-services" {
   custom_subdomain_name              = ""
+  fqdns                              = []
   local_authentication_enabled       = false
   location                           = ""
   name                               = ""

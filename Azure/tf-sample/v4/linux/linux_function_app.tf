@@ -1,4 +1,5 @@
 resource "azurerm_linux_function_app" "tf-sample-linux-function-app" {
+  app_settings                                   = {}
   builtin_logging_enabled                        = false
   client_certificate_enabled                     = false
   client_certificate_exclusion_paths             = ""

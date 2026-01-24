@@ -4,6 +4,8 @@ resource "azurerm_eventgrid_event_subscription" "tf-sample-eventgrid-event-subsc
   eventhub_endpoint_id                 = ""
   expiration_time_utc                  = ""
   hybrid_connection_endpoint_id        = ""
+  included_event_types                 = []
+  labels                               = []
   name                                 = ""
   scope                                = ""
   service_bus_queue_endpoint_id        = ""

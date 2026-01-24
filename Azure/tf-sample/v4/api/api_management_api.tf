@@ -5,6 +5,7 @@ resource "azurerm_api_management_api" "tf-sample-api-management-api" {
   display_name          = ""
   name                  = ""
   path                  = ""
+  protocols             = []
   resource_group_name   = ""
   revision              = ""
   revision_description  = ""

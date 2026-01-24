@@ -1,4 +1,6 @@
 resource "azurerm_data_factory_dataset_delimited_text" "tf-sample-data-factory-dataset-delimited-text" {
+  additional_properties = {}
+  annotations           = []
   column_delimiter      = ""
   compression_codec     = ""
   compression_level     = ""
@@ -11,6 +13,7 @@ resource "azurerm_data_factory_dataset_delimited_text" "tf-sample-data-factory-d
   linked_service_name   = ""
   name                  = ""
   null_value            = ""
+  parameters            = {}
   quote_character       = ""
   row_delimiter         = ""
   

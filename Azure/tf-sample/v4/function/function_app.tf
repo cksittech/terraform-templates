@@ -1,5 +1,6 @@
 resource "azurerm_function_app" "tf-sample-function-app" {
   app_service_plan_id             = ""
+  app_settings                    = {}
   client_cert_mode                = ""
   daily_memory_time_quota         = 0
   enable_builtin_logging          = false

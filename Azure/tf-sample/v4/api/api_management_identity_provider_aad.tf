@@ -1,4 +1,5 @@
 resource "azurerm_api_management_identity_provider_aad" "tf-sample-api-management-identity-provider-aad" {
+  allowed_tenants     = []
   api_management_name = ""
   client_id           = ""
   client_library      = ""

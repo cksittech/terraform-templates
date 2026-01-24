@@ -1,4 +1,5 @@
 resource "azurerm_analysis_services_server" "tf-sample-analysis-services-server" {
+  admin_users               = []
   backup_blob_container_uri = ""
   location                  = ""
   name                      = ""

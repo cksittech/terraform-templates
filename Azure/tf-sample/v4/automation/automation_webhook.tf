@@ -3,6 +3,7 @@ resource "azurerm_automation_webhook" "tf-sample-automation-webhook" {
   enabled                 = false
   expiry_time             = ""
   name                    = ""
+  parameters              = {}
   resource_group_name     = ""
   run_on_worker_group     = ""
   runbook_name            = ""

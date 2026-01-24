@@ -70,7 +70,6 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
   }
   customer_managed_key {
     key_vault_key_id          = ""
-    managed_hsm_key_id        = ""
     user_assigned_identity_id = ""
   }
   identity {

@@ -7,6 +7,7 @@ resource "azurerm_public_ip_prefix" "tf-sample-public-ip-prefix" {
   resource_group_name = ""
   sku                 = ""
   sku_tier            = ""
+  zones               = []
   
   tags = {}
 }

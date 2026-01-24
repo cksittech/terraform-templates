@@ -3,6 +3,7 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
   custom_question_answering_search_service_key = ""
   custom_subdomain_name                        = ""
   dynamic_throttling_enabled                   = false
+  fqdns                                        = []
   kind                                         = ""
   local_auth_enabled                           = false
   location                                     = ""

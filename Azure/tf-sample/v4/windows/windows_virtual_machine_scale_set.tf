@@ -35,6 +35,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
   user_data                                         = ""
   vtpm_enabled                                      = false
   zone_balance                                      = false
+  zones                                             = []
   
   additional_capabilities {
     ultra_ssd_enabled = false

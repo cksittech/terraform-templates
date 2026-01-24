@@ -6,6 +6,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
   create_mode                           = ""
   default_identity_type                 = ""
   free_tier_enabled                     = false
+  ip_range_filter                       = []
   is_virtual_network_filter_enabled     = false
   key_vault_key_id                      = ""
   kind                                  = ""
@@ -17,6 +18,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
   multiple_write_locations_enabled      = false
   name                                  = ""
   network_acl_bypass_for_azure_services = false
+  network_acl_bypass_ids                = []
   offer_type                            = ""
   partition_merge_enabled               = false
   public_network_access_enabled         = false

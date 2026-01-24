@@ -1,4 +1,5 @@
 resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-consumption" {
+  app_settings                                   = {}
   client_certificate_enabled                     = false
   client_certificate_exclusion_paths             = ""
   client_certificate_mode                        = ""

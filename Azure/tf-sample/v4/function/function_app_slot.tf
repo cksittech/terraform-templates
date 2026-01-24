@@ -1,5 +1,6 @@
 resource "azurerm_function_app_slot" "tf-sample-function-app-slot" {
   app_service_plan_id        = ""
+  app_settings               = {}
   daily_memory_time_quota    = 0
   enable_builtin_logging     = false
   enabled                    = false

@@ -1,5 +1,7 @@
 resource "azurerm_spring_cloud_gateway_route_config" "tf-sample-spring-cloud-gateway-route-config" {
+  filters                 = []
   name                    = ""
+  predicates              = []
   protocol                = ""
   spring_cloud_app_id     = ""
   spring_cloud_gateway_id = ""

@@ -1,4 +1,5 @@
 resource "azurerm_mssql_server_extended_auditing_policy" "tf-sample-mssql-server-extended-auditing-policy" {
+  audit_actions_and_groups                = []
   enabled                                 = false
   log_monitoring_enabled                  = false
   predicate_expression                    = ""

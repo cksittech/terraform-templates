@@ -4,6 +4,7 @@ resource "azurerm_logic_app_integration_account_agreement" "tf-sample-logic-app-
   guest_partner_name       = ""
   host_partner_name        = ""
   integration_account_name = ""
+  metadata                 = {}
   name                     = ""
   resource_group_name      = ""
   

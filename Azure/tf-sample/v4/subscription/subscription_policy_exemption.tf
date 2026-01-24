@@ -6,5 +6,6 @@ resource "azurerm_subscription_policy_exemption" "tf-sample-subscription-policy-
   metadata                        = ""
   name                            = ""
   policy_assignment_id            = ""
+  policy_definition_reference_ids = []
   subscription_id                 = ""
 }

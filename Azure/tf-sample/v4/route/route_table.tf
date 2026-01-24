@@ -3,6 +3,7 @@ resource "azurerm_route_table" "tf-sample-route-table" {
   location                      = ""
   name                          = ""
   resource_group_name           = ""
+  route                         = []
   
   tags = {}
 }

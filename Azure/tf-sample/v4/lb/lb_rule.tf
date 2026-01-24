@@ -1,4 +1,5 @@
 resource "azurerm_lb_rule" "tf-sample-lb-rule" {
+  backend_address_pool_ids       = []
   backend_port                   = 0
   disable_outbound_snat          = false
   floating_ip_enabled            = false

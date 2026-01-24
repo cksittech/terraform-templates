@@ -5,6 +5,7 @@ resource "azurerm_monitor_smart_detector_alert_rule" "tf-sample-monitor-smart-de
   frequency           = ""
   name                = ""
   resource_group_name = ""
+  scope_resource_ids  = []
   severity            = ""
   throttling_duration = ""
   

@@ -11,6 +11,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
   resource_group_name          = ""
   single_placement_group       = false
   upgrade_policy_mode          = ""
+  zones                        = []
   
   boot_diagnostics {
     enabled     = false

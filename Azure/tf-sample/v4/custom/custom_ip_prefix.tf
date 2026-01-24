@@ -8,6 +8,7 @@ resource "azurerm_custom_ip_prefix" "tf-sample-custom-ip-prefix" {
   resource_group_name           = ""
   roa_validity_end_date         = ""
   wan_validation_signed_message = ""
+  zones                         = []
   
   tags = {}
 }

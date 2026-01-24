@@ -3,6 +3,7 @@ resource "azurerm_network_manager" "tf-sample-network-manager" {
   location            = ""
   name                = ""
   resource_group_name = ""
+  scope_accesses      = []
   
   scope {
     management_group_ids = []

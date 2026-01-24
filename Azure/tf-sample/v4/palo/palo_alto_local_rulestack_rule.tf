@@ -1,5 +1,6 @@
 resource "azurerm_palo_alto_local_rulestack_rule" "tf-sample-palo-alto-local-rulestack-rule" {
   action                    = ""
+  applications              = []
   audit_comment             = ""
   decryption_rule_type      = ""
   description               = ""
@@ -11,6 +12,7 @@ resource "azurerm_palo_alto_local_rulestack_rule" "tf-sample-palo-alto-local-rul
   negate_source             = false
   priority                  = 0
   protocol                  = ""
+  protocol_ports            = []
   rulestack_id              = ""
   
   category {

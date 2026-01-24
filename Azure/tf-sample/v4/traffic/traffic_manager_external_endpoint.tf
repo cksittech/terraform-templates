@@ -2,6 +2,7 @@ resource "azurerm_traffic_manager_external_endpoint" "tf-sample-traffic-manager-
   always_serve_enabled = false
   enabled              = false
   endpoint_location    = ""
+  geo_mappings         = []
   name                 = ""
   priority             = 0
   profile_id           = ""

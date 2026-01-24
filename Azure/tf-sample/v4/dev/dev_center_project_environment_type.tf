@@ -1,4 +1,5 @@
 resource "azurerm_dev_center_project_environment_type" "tf-sample-dev-center-project-environment-type" {
+  creator_role_assignment_roles = []
   deployment_target_id          = ""
   dev_center_project_id         = ""
   location                      = ""

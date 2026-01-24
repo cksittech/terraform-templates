@@ -1,6 +1,7 @@
 resource "azurerm_traffic_manager_nested_endpoint" "tf-sample-traffic-manager-nested-endpoint" {
   enabled                               = false
   endpoint_location                     = ""
+  geo_mappings                          = []
   minimum_child_endpoints               = 0
   minimum_required_child_endpoints_ipv4 = 0
   minimum_required_child_endpoints_ipv6 = 0

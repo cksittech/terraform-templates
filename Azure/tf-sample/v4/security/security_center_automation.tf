@@ -4,6 +4,7 @@ resource "azurerm_security_center_automation" "tf-sample-security-center-automat
   location            = ""
   name                = ""
   resource_group_name = ""
+  scopes              = []
   
   action {
     connection_string = ""

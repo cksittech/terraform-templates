@@ -1,4 +1,5 @@
 resource "azurerm_search_service" "tf-sample-search-service" {
+  allowed_ips                              = []
   authentication_failure_mode              = ""
   customer_managed_key_enforcement_enabled = false
   hosting_mode                             = ""

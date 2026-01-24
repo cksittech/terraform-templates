@@ -1,5 +1,6 @@
 resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
   app_service_plan_id                      = ""
+  app_settings                             = {}
   bundle_version                           = ""
   client_affinity_enabled                  = false
   client_certificate_mode                  = ""

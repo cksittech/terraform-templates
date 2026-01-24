@@ -12,6 +12,7 @@ resource "azurerm_bastion_host" "tf-sample-bastion-host" {
   sku                       = ""
   tunneling_enabled         = false
   virtual_network_id        = ""
+  zones                     = []
   
   ip_configuration {
     name                 = ""

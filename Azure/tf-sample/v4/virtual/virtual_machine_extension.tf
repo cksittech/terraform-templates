@@ -4,6 +4,7 @@ resource "azurerm_virtual_machine_extension" "tf-sample-virtual-machine-extensio
   failure_suppression_enabled = false
   name                        = ""
   protected_settings          = ""
+  provision_after_extensions  = []
   publisher                   = ""
   settings                    = ""
   type                        = ""

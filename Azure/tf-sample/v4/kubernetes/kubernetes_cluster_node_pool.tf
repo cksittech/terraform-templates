@@ -15,8 +15,10 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   mode                          = ""
   name                          = ""
   node_count                    = 0
+  node_labels                   = {}
   node_public_ip_enabled        = false
   node_public_ip_prefix_id      = ""
+  node_taints                   = []
   orchestrator_version          = ""
   os_disk_size_gb               = 0
   os_disk_type                  = ""
@@ -33,6 +35,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   vm_size                       = ""
   vnet_subnet_id                = ""
   workload_runtime              = ""
+  zones                         = []
   
   kubelet_config {
     allowed_unsafe_sysctls    = []

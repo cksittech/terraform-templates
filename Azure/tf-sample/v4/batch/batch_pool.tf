@@ -4,6 +4,7 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
   inter_node_communication       = ""
   license_type                   = ""
   max_tasks_per_node             = 0
+  metadata                       = {}
   name                           = ""
   node_agent_sku_id              = ""
   os_disk_placement              = ""
@@ -15,11 +16,6 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
   auto_scale {
     evaluation_interval = ""
     formula             = ""
-  }
-  certificate {
-    store_location = ""
-    store_name     = ""
-    visibility     = []
   }
   container_configuration {
     container_image_names = []

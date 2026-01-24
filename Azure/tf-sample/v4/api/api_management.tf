@@ -12,6 +12,7 @@ resource "azurerm_api_management" "tf-sample-api-management" {
   resource_group_name           = ""
   sku_name                      = ""
   virtual_network_type          = ""
+  zones                         = []
   
   additional_location {
     capacity             = 0

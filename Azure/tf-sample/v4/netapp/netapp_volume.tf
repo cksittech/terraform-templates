@@ -11,6 +11,7 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
   name                                                 = ""
   network_features                                     = ""
   pool_name                                            = ""
+  protocols                                            = []
   resource_group_name                                  = ""
   security_style                                       = ""
   service_level                                        = ""

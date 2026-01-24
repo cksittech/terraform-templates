@@ -15,6 +15,8 @@ resource "azurerm_redis_cache" "tf-sample-redis-cache" {
   shard_count                        = 0
   sku_name                           = ""
   subnet_id                          = ""
+  tenant_settings                    = {}
+  zones                              = []
   
   identity {
     identity_ids = []

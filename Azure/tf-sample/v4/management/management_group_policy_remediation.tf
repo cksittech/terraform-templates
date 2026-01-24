@@ -1,5 +1,6 @@
 resource "azurerm_management_group_policy_remediation" "tf-sample-management-group-policy-remediation" {
   failure_percentage             = 0
+  location_filters               = []
   management_group_id            = ""
   name                           = ""
   parallel_deployments           = 0

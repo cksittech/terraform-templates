@@ -5,6 +5,7 @@ resource "azurerm_subscription_policy_assignment" "tf-sample-subscription-policy
   location             = ""
   metadata             = ""
   name                 = ""
+  not_scopes           = []
   parameters           = ""
   policy_definition_id = ""
   subscription_id      = ""

@@ -1,4 +1,5 @@
 resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
+  app_settings                                   = {}
   client_affinity_enabled                        = false
   client_certificate_enabled                     = false
   client_certificate_exclusion_paths             = ""

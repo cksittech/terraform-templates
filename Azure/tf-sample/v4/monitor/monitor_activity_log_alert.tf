@@ -4,6 +4,7 @@ resource "azurerm_monitor_activity_log_alert" "tf-sample-monitor-activity-log-al
   location            = ""
   name                = ""
   resource_group_name = ""
+  scopes              = []
   
   action {
     action_group_id    = ""

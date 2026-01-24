@@ -1,4 +1,5 @@
 resource "azurerm_mssql_failover_group" "tf-sample-mssql-failover-group" {
+  databases                                 = []
   name                                      = ""
   readonly_endpoint_failover_policy_enabled = false
   server_id                                 = ""

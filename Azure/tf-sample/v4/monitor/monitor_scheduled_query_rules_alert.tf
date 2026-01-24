@@ -1,4 +1,5 @@
 resource "azurerm_monitor_scheduled_query_rules_alert" "tf-sample-monitor-scheduled-query-rules-alert" {
+  authorized_resource_ids = []
   auto_mitigation_enabled = false
   data_source_id          = ""
   description             = ""

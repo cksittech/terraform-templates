@@ -1,6 +1,7 @@
 resource "azurerm_eventgrid_domain" "tf-sample-eventgrid-domain" {
   auto_create_topic_with_first_subscription = false
   auto_delete_topic_with_last_subscription  = false
+  inbound_ip_rule                           = []
   input_schema                              = ""
   local_auth_enabled                        = false
   location                                  = ""

@@ -6,6 +6,7 @@ resource "azurerm_management_group_policy_assignment" "tf-sample-management-grou
   management_group_id  = ""
   metadata             = ""
   name                 = ""
+  not_scopes           = []
   parameters           = ""
   policy_definition_id = ""
   

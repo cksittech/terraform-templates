@@ -20,6 +20,7 @@ resource "azurerm_windows_virtual_machine" "tf-sample-windows-virtual-machine" {
   location                                               = ""
   max_bid_price                                          = 0
   name                                                   = ""
+  network_interface_ids                                  = []
   os_managed_disk_id                                     = ""
   patch_assessment_mode                                  = ""
   patch_mode                                             = ""

@@ -1,6 +1,7 @@
 resource "azurerm_sentinel_alert_rule_scheduled" "tf-sample-sentinel-alert-rule-scheduled" {
   alert_rule_template_guid    = ""
   alert_rule_template_version = ""
+  custom_details              = {}
   description                 = ""
   display_name                = ""
   enabled                     = false
@@ -12,6 +13,8 @@ resource "azurerm_sentinel_alert_rule_scheduled" "tf-sample-sentinel-alert-rule-
   severity                    = ""
   suppression_duration        = ""
   suppression_enabled         = false
+  tactics                     = []
+  techniques                  = []
   trigger_operator            = ""
   trigger_threshold           = 0
   
