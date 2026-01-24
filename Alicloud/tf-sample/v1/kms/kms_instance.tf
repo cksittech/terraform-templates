@@ -14,6 +14,8 @@ resource "alicloud_kms_instance" "tf-sample-kms-instance" {
   spec                        = 0
   vpc_id                      = ""
   vpc_num                     = 0
+  vswitch_ids                 = []
+  zone_ids                    = []
   
   bind_vpcs {
     region_id    = ""

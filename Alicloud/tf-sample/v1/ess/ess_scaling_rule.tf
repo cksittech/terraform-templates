@@ -26,6 +26,7 @@ resource "alicloud_ess_scaling_rule" "tf-sample-ess-scaling-rule" {
   }
   hybrid_metrics {
     expression  = ""
+    id          = ""
     metric_name = ""
     statistic   = ""
     

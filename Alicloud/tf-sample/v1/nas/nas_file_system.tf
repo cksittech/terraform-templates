@@ -8,6 +8,7 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
   kms_key_id             = ""
   protocol_type          = ""
   redundancy_type        = ""
+  redundancy_vswitch_ids = []
   resource_group_id      = ""
   snapshot_id            = ""
   storage_type           = ""

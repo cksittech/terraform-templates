@@ -30,10 +30,12 @@ resource "alicloud_ecs_launch_template" "tf-sample-ecs-launch-template" {
   resource_group_id             = ""
   security_enhancement_strategy = ""
   security_group_id             = ""
+  security_group_ids            = []
   spot_duration                 = ""
   spot_price_limit              = 0
   spot_strategy                 = ""
   template_resource_group_id    = ""
+  template_tags                 = {}
   update_default_version_number = false
   user_data                     = ""
   version_description           = ""

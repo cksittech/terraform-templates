@@ -3,6 +3,7 @@ resource "alicloud_datahub_topic" "tf-sample-datahub-topic" {
   life_cycle    = 0
   name          = ""
   project_name  = ""
+  record_schema = {}
   record_type   = ""
   shard_count   = 0
 }

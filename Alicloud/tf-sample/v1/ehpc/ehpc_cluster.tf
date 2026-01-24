@@ -31,6 +31,7 @@ resource "alicloud_ehpc_cluster" "tf-sample-ehpc-cluster" {
   period                   = 0
   period_unit              = ""
   plugin                   = ""
+  ram_node_types           = []
   ram_role_name            = ""
   release_instance         = false
   remote_directory         = ""

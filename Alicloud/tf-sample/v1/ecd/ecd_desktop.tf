@@ -5,6 +5,7 @@ resource "alicloud_ecd_desktop" "tf-sample-ecd-desktop" {
   bundle_id          = ""
   desktop_name       = ""
   desktop_type       = ""
+  end_user_ids       = []
   host_name          = ""
   office_site_id     = ""
   payment_type       = ""

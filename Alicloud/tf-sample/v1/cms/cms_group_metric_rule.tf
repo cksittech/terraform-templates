@@ -36,6 +36,7 @@ resource "alicloud_cms_group_metric_rule" "tf-sample-cms-group-metric-rule" {
     }
   }
   targets {
+    id          = ""
     json_params = ""
     level       = ""
   }

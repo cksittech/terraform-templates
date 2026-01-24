@@ -13,6 +13,7 @@ resource "alicloud_nlb_load_balancer" "tf-sample-nlb-load-balancer" {
   modification_protection_status = ""
   payment_type                   = ""
   resource_group_id              = ""
+  security_group_ids             = []
   vpc_id                         = ""
   
   deletion_protection_config {

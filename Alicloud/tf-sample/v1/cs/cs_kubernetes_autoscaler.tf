@@ -6,6 +6,7 @@ resource "alicloud_cs_kubernetes_autoscaler" "tf-sample-cs-kubernetes-autoscaler
   utilization             = ""
   
   nodepools {
+    id     = ""
     labels = ""
     taints = ""
   }

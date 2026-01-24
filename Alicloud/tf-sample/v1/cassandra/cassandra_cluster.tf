@@ -16,6 +16,7 @@ resource "alicloud_cassandra_cluster" "tf-sample-cassandra-cluster" {
   pay_type            = ""
   period              = 0
   period_unit         = ""
+  security_groups     = []
   vswitch_id          = ""
   zone_id             = ""
   

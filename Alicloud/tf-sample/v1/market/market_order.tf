@@ -1,4 +1,5 @@
 resource "alicloud_market_order" "tf-sample-market-order" {
+  components      = {}
   coupon_id       = ""
   duration        = 0
   package_version = ""

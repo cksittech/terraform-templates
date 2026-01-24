@@ -4,4 +4,5 @@ resource "alicloud_db_read_write_splitting_connection" "tf-sample-db-read-write-
   instance_id       = ""
   max_delay_time    = 0
   port              = 0
+  weight            = {}
 }

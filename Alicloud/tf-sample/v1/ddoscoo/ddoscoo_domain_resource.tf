@@ -6,8 +6,10 @@ resource "alicloud_ddoscoo_domain_resource" "tf-sample-ddoscoo-domain-resource" 
   custom_headers  = ""
   domain          = ""
   https_ext       = ""
+  instance_ids    = []
   key             = ""
   ocsp_enabled    = false
+  real_servers    = []
   rs_type         = 0
   
   proxy_types {

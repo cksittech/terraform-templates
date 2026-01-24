@@ -1,5 +1,7 @@
 resource "alicloud_cloud_firewall_private_dns" "tf-sample-cloud-firewall-private-dns" {
   access_instance_name = ""
+  domain_name_list     = []
+  firewall_type        = []
   ip_protocol          = ""
   member_uid           = 0
   port                 = 0

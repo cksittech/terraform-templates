@@ -17,10 +17,12 @@ resource "alicloud_alikafka_instance" "tf-sample-alikafka-instance" {
   password                    = ""
   resource_group_id           = ""
   security_group              = ""
+  selected_zones              = []
   service_version             = ""
   spec_type                   = ""
   vpc_id                      = ""
   vswitch_id                  = ""
+  vswitch_ids                 = []
   zone_id                     = ""
   
   confluent_config {

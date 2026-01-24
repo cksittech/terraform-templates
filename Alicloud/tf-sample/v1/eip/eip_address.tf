@@ -19,6 +19,7 @@ resource "alicloud_eip_address" "tf-sample-eip-address" {
   pricing_cycle                      = ""
   public_ip_address_pool_id          = ""
   resource_group_id                  = ""
+  security_protection_types          = []
   zone                               = ""
   
   tags = {}

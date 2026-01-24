@@ -21,6 +21,7 @@ resource "alicloud_adb_db_cluster" "tf-sample-adb-db-cluster" {
   period                   = 0
   renewal_status           = ""
   resource_group_id        = ""
+  security_ips             = []
   switch_mode              = 0
   vpc_id                   = ""
   vswitch_id               = ""

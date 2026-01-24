@@ -1,4 +1,5 @@
 resource "alicloud_alidns_gtm_instance" "tf-sample-alidns-gtm-instance" {
+  alert_group             = []
   cname_type              = ""
   force_update            = false
   health_check_task_count = 0

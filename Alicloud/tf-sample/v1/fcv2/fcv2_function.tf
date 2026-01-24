@@ -4,6 +4,7 @@ resource "alicloud_fcv2_function" "tf-sample-fcv2-function" {
   cpu                    = 0
   description            = ""
   disk_size              = 0
+  environment_variables  = {}
   function_name          = ""
   gpu_memory_size        = 0
   handler                = ""
@@ -11,6 +12,7 @@ resource "alicloud_fcv2_function" "tf-sample-fcv2-function" {
   initializer            = ""
   instance_concurrency   = 0
   instance_type          = ""
+  layers                 = []
   memory_size            = 0
   runtime                = ""
   service_name           = ""

@@ -13,12 +13,14 @@ resource "alicloud_ess_scaling_configuration" "tf-sample-ess-scaling-configurati
   instance_description                = ""
   instance_name                       = ""
   instance_type                       = ""
+  instance_types                      = []
   internet_charge_type                = ""
   internet_max_bandwidth_in           = 0
   internet_max_bandwidth_out          = 0
   is_outdated                         = false
   key_name                            = ""
   kms_encrypted_password              = ""
+  kms_encryption_context              = {}
   override                            = false
   password                            = ""
   password_inherit                    = false
@@ -28,6 +30,7 @@ resource "alicloud_ess_scaling_configuration" "tf-sample-ess-scaling-configurati
   scaling_group_id                    = ""
   security_enhancement_strategy       = ""
   security_group_id                   = ""
+  security_group_ids                  = []
   spot_duration                       = 0
   spot_strategy                       = ""
   substitute                          = ""

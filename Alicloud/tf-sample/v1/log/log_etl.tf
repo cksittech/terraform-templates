@@ -9,9 +9,12 @@ resource "alicloud_log_etl" "tf-sample-log-etl" {
   from_time                                = 0
   kms_encrypted_access_key_id              = ""
   kms_encrypted_access_key_secret          = ""
+  kms_encryption_access_key_id_context     = {}
+  kms_encryption_access_key_secret_context = {}
   lang                                     = ""
   last_modified_time                       = 0
   logstore                                 = ""
+  parameters                               = {}
   project                                  = ""
   role_arn                                 = ""
   schedule                                 = ""

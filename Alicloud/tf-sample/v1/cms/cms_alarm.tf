@@ -1,4 +1,5 @@
 resource "alicloud_cms_alarm" "tf-sample-cms-alarm" {
+  contact_groups     = []
   effective_interval = ""
   enabled            = false
   metric             = ""

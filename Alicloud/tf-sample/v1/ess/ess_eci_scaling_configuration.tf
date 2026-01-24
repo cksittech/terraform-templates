@@ -19,6 +19,7 @@ resource "alicloud_ess_eci_scaling_configuration" "tf-sample-ess-eci-scaling-con
   image_snapshot_id                = ""
   ingress_bandwidth                = 0
   instance_family_level            = ""
+  instance_types                   = []
   ipv6_address_count               = 0
   load_balancer_weight             = 0
   memory                           = 0

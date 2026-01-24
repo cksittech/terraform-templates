@@ -16,6 +16,7 @@ resource "alicloud_aligreen_oss_stock_task" "tf-sample-aligreen-oss-stock-task" 
   image_opened                       = false
   image_porn_freeze_config           = ""
   image_scan_limit                   = 0
+  image_scenes                       = []
   image_terrorism_freeze_config      = ""
   scan_image_no_file_type            = false
   start_date                         = ""

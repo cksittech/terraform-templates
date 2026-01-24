@@ -3,6 +3,7 @@ resource "alicloud_gpdb_streaming_job" "tf-sample-gpdb-streaming-job" {
   consistency       = ""
   data_source_id    = ""
   db_instance_id    = ""
+  dest_columns      = []
   dest_database     = ""
   dest_schema       = ""
   dest_table        = ""
@@ -12,8 +13,11 @@ resource "alicloud_gpdb_streaming_job" "tf-sample-gpdb-streaming-job" {
   job_config        = ""
   job_description   = ""
   job_name          = ""
+  match_columns     = []
   mode              = ""
   password          = ""
+  src_columns       = []
   try_run           = false
+  update_columns    = []
   write_mode        = ""
 }

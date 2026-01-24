@@ -5,7 +5,11 @@ resource "alicloud_dcdn_waf_rule" "tf-sample-dcdn-waf-rule" {
   effect            = ""
   other_region_list = ""
   policy_id         = ""
+  regular_rules     = []
+  regular_types     = []
+  remote_addr       = []
   rule_name         = ""
+  scenes            = []
   status            = ""
   waf_group_ids     = ""
   

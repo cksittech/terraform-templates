@@ -7,6 +7,8 @@ resource "alicloud_eflo_invocation" "tf-sample-eflo-invocation" {
   frequency        = ""
   launcher         = ""
   name             = ""
+  node_id_list     = []
+  parameters       = {}
   repeat_mode      = ""
   termination_mode = ""
   timeout          = 0

@@ -5,6 +5,7 @@ resource "alicloud_cr_ee_instance" "tf-sample-cr-ee-instance" {
   instance_name          = ""
   instance_type          = ""
   kms_encrypted_password = ""
+  kms_encryption_context = {}
   namespace_quota        = 0
   password               = ""
   payment_type           = ""

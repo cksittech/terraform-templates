@@ -17,6 +17,7 @@ resource "alicloud_db_backup_policy" "tf-sample-db-backup-policy" {
   log_backup_frequency              = ""
   log_backup_local_retention_number = 0
   log_backup_retention_period       = 0
+  preferred_backup_period           = []
   preferred_backup_time             = ""
   released_keep_policy              = ""
 }

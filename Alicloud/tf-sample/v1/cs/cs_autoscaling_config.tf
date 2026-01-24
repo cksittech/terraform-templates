@@ -6,6 +6,7 @@ resource "alicloud_cs_autoscaling_config" "tf-sample-cs-autoscaling-config" {
   gpu_utilization_threshold     = ""
   max_graceful_termination_sec  = 0
   min_replica_count             = 0
+  priorities                    = {}
   recycle_node_deletion_enabled = false
   scale_down_enabled            = false
   scale_up_from_zero            = false

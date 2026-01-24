@@ -34,6 +34,7 @@ resource "alicloud_rds_upgrade_db_instance" "tf-sample-rds-upgrade-db-instance" 
   replication_acl             = ""
   resource_group_id           = ""
   role_arn                    = ""
+  security_ips                = []
   server_cert                 = ""
   server_key                  = ""
   source_biz                  = ""

@@ -12,11 +12,14 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   image_type                               = ""
   install_cloud_monitor                    = false
   instance_charge_type                     = ""
+  instance_types                           = []
+  instances                                = []
   internet_charge_type                     = ""
   internet_max_bandwidth_out               = 0
   keep_instance_name                       = false
   key_name                                 = ""
   kms_encrypted_password                   = ""
+  kms_encryption_context                   = {}
   login_as_non_root                        = false
   multi_az_policy                          = ""
   node_name_mode                           = ""
@@ -28,16 +31,19 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   period_unit                              = ""
   pre_user_data                            = ""
   ram_role_name                            = ""
+  rds_instances                            = []
   resource_group_id                        = ""
   runtime_name                             = ""
   runtime_version                          = ""
   scaling_policy                           = ""
+  security_group_ids                       = []
   security_hardening_os                    = false
   soc_enabled                              = false
   spot_instance_pools                      = 0
   spot_instance_remedy                     = false
   spot_strategy                            = ""
   system_disk_bursting_enabled             = false
+  system_disk_categories                   = []
   system_disk_category                     = ""
   system_disk_encrypt_algorithm            = ""
   system_disk_encrypted                    = false
@@ -50,6 +56,7 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   unschedulable                            = false
   update_nodes                             = false
   user_data                                = ""
+  vswitch_ids                              = []
   
   auto_mode {
     enabled = false

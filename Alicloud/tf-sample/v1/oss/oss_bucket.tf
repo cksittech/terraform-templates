@@ -19,6 +19,7 @@ resource "alicloud_oss_bucket" "tf-sample-oss-bucket" {
   }
   lifecycle_rule {
     enabled = false
+    id      = ""
     prefix  = ""
     
     abort_multipart_upload {

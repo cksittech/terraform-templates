@@ -10,12 +10,15 @@ resource "alicloud_cs_serverless_kubernetes" "tf-sample-cs-serverless-kubernetes
   name_prefix                    = ""
   new_nat_gateway                = false
   resource_group_id              = ""
+  retain_resources               = []
   security_group_id              = ""
   service_cidr                   = ""
+  service_discovery_types        = []
   time_zone                      = ""
   version                        = ""
   vpc_id                         = ""
   vswitch_id                     = ""
+  vswitch_ids                    = []
   zone_id                        = ""
   
   addons {

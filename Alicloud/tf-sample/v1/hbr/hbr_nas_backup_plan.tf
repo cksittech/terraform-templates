@@ -7,6 +7,7 @@ resource "alicloud_hbr_nas_backup_plan" "tf-sample-hbr-nas-backup-plan" {
   file_system_id          = ""
   nas_backup_plan_name    = ""
   options                 = ""
+  path                    = []
   retention               = ""
   schedule                = ""
   vault_id                = ""

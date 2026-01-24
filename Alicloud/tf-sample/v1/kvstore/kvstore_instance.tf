@@ -3,10 +3,12 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   auto_renew_period           = 0
   auto_use_coupon             = false
   backup_id                   = ""
+  backup_period               = []
   backup_time                 = ""
   bandwidth                   = 0
   business_info               = ""
   capacity                    = 0
+  config                      = {}
   coupon_no                   = ""
   db_instance_name            = ""
   dedicated_host_group_id     = ""
@@ -24,6 +26,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   instance_type               = ""
   is_auto_upgrade_open        = ""
   kms_encrypted_password      = ""
+  kms_encryption_context      = {}
   maintain_end_time           = ""
   maintain_start_time         = ""
   modify_mode                 = 0
@@ -43,6 +46,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   security_group_id           = ""
   security_ip_group_attribute = ""
   security_ip_group_name      = ""
+  security_ips                = []
   shard_count                 = 0
   slave_read_only_count       = 0
   srcdb_instance_id           = ""

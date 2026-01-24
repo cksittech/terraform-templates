@@ -6,6 +6,7 @@ resource "alicloud_threat_detection_honeypot_probe" "tf-sample-threat-detection-
   probe_type      = ""
   probe_version   = ""
   proxy_ip        = ""
+  service_ip_list = []
   uuid            = ""
   vpc_id          = ""
   

@@ -10,20 +10,25 @@ resource "alicloud_ess_scaling_group" "tf-sample-ess-scaling-group" {
   capacity_options_spot_auto_replace_on_demand              = false
   compensate_with_on_demand                                 = false
   container_group_id                                        = ""
+  db_instance_ids                                           = []
   default_cooldown                                          = 0
   desired_capacity                                          = 0
   group_deletion_protection                                 = false
   group_type                                                = ""
   health_check_type                                         = ""
+  health_check_types                                        = []
   instance_id                                               = ""
   launch_template_id                                        = ""
   launch_template_version                                   = ""
+  loadbalancer_ids                                          = []
   max_instance_lifetime                                     = 0
   max_size                                                  = 0
   min_size                                                  = 0
   multi_az_policy                                           = ""
   on_demand_base_capacity                                   = 0
   on_demand_percentage_above_base_capacity                  = 0
+  protected_instances                                       = []
+  removal_policies                                          = []
   resource_group_id                                         = ""
   scaling_group_name                                        = ""
   scaling_policy                                            = ""
@@ -31,6 +36,7 @@ resource "alicloud_ess_scaling_group" "tf-sample-ess-scaling-group" {
   spot_instance_pools                                       = 0
   spot_instance_remedy                                      = false
   stop_instance_timeout                                     = 0
+  vswitch_ids                                               = []
   
   alb_server_group {
     alb_server_group_id = ""

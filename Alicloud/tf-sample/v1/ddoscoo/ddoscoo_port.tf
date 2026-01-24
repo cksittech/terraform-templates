@@ -3,6 +3,7 @@ resource "alicloud_ddoscoo_port" "tf-sample-ddoscoo-port" {
   frontend_port     = ""
   frontend_protocol = ""
   instance_id       = ""
+  real_servers      = []
   
   config {
     persistence_timeout = 0

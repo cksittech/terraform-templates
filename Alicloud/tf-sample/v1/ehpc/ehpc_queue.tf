@@ -9,6 +9,7 @@ resource "alicloud_ehpc_queue" "tf-sample-ehpc-queue" {
   max_count        = 0
   min_count        = 0
   queue_name       = ""
+  vswitch_ids      = []
   
   compute_nodes {
     auto_renew           = false

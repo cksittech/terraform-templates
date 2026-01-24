@@ -1,4 +1,5 @@
 resource "alicloud_resource_manager_account" "tf-sample-resource-manager-account" {
+  abandonable_check_id = []
   account_name_prefix  = ""
   display_name         = ""
   folder_id            = ""

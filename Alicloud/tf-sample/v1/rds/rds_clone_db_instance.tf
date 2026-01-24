@@ -40,6 +40,7 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
   restore_table               = ""
   restore_time                = ""
   role_arn                    = ""
+  security_ips                = []
   server_cert                 = ""
   server_key                  = ""
   source_biz                  = ""

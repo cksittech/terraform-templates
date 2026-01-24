@@ -63,6 +63,7 @@ resource "alicloud_log_alert" "tf-sample-log-alert" {
   }
   template_configuration {
     annotations = {}
+    id          = ""
     lang        = ""
     tokens      = {}
     type        = ""

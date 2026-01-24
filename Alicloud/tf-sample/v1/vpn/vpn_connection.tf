@@ -5,7 +5,9 @@ resource "alicloud_vpn_connection" "tf-sample-vpn-connection" {
   enable_dpd           = false
   enable_nat_traversal = false
   enable_tunnels_bgp   = false
+  local_subnet         = []
   network_type         = ""
+  remote_subnet        = []
   vpn_connection_name  = ""
   vpn_gateway_id       = ""
   

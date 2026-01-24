@@ -17,4 +17,5 @@ resource "alicloud_ocean_base_instance" "tf-sample-ocean-base-instance" {
   resource_group_id   = ""
   series              = ""
   upgrade_spec_native = false
+  zones               = []
 }

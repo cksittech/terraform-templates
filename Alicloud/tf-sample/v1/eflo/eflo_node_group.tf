@@ -9,6 +9,7 @@ resource "alicloud_eflo_node_group" "tf-sample-eflo-node-group" {
   node_group_description   = ""
   node_group_name          = ""
   user_data                = ""
+  vpd_subnets              = []
   vswitch_zone_id          = ""
   zone_id                  = ""
   

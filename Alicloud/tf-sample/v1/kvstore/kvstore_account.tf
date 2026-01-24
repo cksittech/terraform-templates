@@ -6,4 +6,5 @@ resource "alicloud_kvstore_account" "tf-sample-kvstore-account" {
   description            = ""
   instance_id            = ""
   kms_encrypted_password = ""
+  kms_encryption_context = {}
 }

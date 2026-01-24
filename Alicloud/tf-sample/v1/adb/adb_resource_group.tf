@@ -3,6 +3,7 @@ resource "alicloud_adb_resource_group" "tf-sample-adb-resource-group" {
   cluster_size_resource = ""
   db_cluster_id         = ""
   engine                = ""
+  engine_params         = {}
   group_name            = ""
   group_type            = ""
   max_cluster_count     = 0
@@ -10,4 +11,5 @@ resource "alicloud_adb_resource_group" "tf-sample-adb-resource-group" {
   min_cluster_count     = 0
   min_compute_resource  = ""
   node_num              = 0
+  users                 = []
 }

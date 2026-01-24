@@ -14,7 +14,10 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   password                       = ""
   pod_cidr                       = ""
   proxy_mode                     = ""
+  rds_instances                  = []
   resource_group_id              = ""
+  retain_resources               = []
+  runtime                        = {}
   security_group_id              = ""
   service_cidr                   = ""
   skip_set_certificate_authority = false
@@ -26,7 +29,9 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   worker_disk_size               = 0
   worker_disk_snapshot_policy_id = ""
   worker_instance_charge_type    = ""
+  worker_instance_types          = []
   worker_number                  = 0
+  worker_vswitch_ids             = []
   
   addons {
     config   = ""

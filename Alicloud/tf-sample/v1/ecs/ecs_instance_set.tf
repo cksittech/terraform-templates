@@ -27,6 +27,7 @@ resource "alicloud_ecs_instance_set" "tf-sample-ecs-instance-set" {
   ram_role_name                       = ""
   resource_group_id                   = ""
   security_enhancement_strategy       = ""
+  security_group_ids                  = []
   spot_price_limit                    = 0
   spot_strategy                       = ""
   system_disk_auto_snapshot_policy_id = ""

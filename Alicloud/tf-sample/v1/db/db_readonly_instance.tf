@@ -25,6 +25,7 @@ resource "alicloud_db_readonly_instance" "tf-sample-db-readonly-instance" {
   replication_acl                    = ""
   resource_group_id                  = ""
   security_ip_type                   = ""
+  security_ips                       = []
   server_cert                        = ""
   server_key                         = ""
   ssl_enabled                        = 0

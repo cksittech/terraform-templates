@@ -5,6 +5,7 @@ resource "alicloud_api_gateway_api" "tf-sample-api-gateway-api" {
   group_id          = ""
   name              = ""
   service_type      = ""
+  stage_names       = []
   
   constant_parameters {
     description = ""

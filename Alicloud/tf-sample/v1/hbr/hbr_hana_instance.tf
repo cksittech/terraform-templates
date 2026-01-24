@@ -1,5 +1,6 @@
 resource "alicloud_hbr_hana_instance" "tf-sample-hbr-hana-instance" {
   alert_setting        = ""
+  ecs_instance_ids     = []
   hana_name            = ""
   host                 = ""
   instance_number      = 0

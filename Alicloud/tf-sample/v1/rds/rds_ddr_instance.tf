@@ -37,8 +37,10 @@ resource "alicloud_rds_ddr_instance" "tf-sample-rds-ddr-instance" {
   resource_group_id                  = ""
   restore_time                       = ""
   restore_type                       = ""
+  security_group_ids                 = []
   security_ip_mode                   = ""
   security_ip_type                   = ""
+  security_ips                       = []
   server_cert                        = ""
   server_key                         = ""
   source_db_instance_name            = ""

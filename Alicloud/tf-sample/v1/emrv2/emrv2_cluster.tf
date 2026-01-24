@@ -1,4 +1,5 @@
 resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
+  applications         = []
   cluster_name         = ""
   cluster_type         = ""
   deletion_protection  = false

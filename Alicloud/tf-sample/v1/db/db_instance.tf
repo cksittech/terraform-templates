@@ -48,8 +48,10 @@ resource "alicloud_db_instance" "tf-sample-db-instance" {
   replication_acl                = ""
   resource_group_id              = ""
   role_arn                       = ""
+  security_group_ids             = []
   security_ip_mode               = ""
   security_ip_type               = ""
+  security_ips                   = []
   server_cert                    = ""
   server_key                     = ""
   sql_collector_config_value     = 0
@@ -64,6 +66,7 @@ resource "alicloud_db_instance" "tf-sample-db-instance" {
   tcp_connection_type            = ""
   tde_encryption_key             = ""
   tde_status                     = ""
+  template_id_list               = []
   upgrade_time                   = ""
   vpc_id                         = ""
   vswitch_id                     = ""

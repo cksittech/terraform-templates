@@ -1,7 +1,9 @@
 resource "alicloud_ess_alarm" "tf-sample-ess-alarm" {
+  alarm_actions              = []
   cloud_monitor_group_id     = 0
   comparison_operator        = ""
   description                = ""
+  dimensions                 = {}
   effective                  = ""
   enable                     = false
   evaluation_count           = 0

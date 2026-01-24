@@ -16,6 +16,7 @@ resource "alicloud_lindorm_instance" "tf-sample-lindorm-instance" {
   group_name                       = ""
   instance_name                    = ""
   instance_storage                 = ""
+  ip_white_list                    = []
   log_disk_category                = ""
   log_num                          = 0
   log_single_storage               = 0

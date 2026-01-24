@@ -10,6 +10,7 @@ resource "alicloud_emr_cluster" "tf-sample-emr-cluster" {
   master_pwd                = ""
   meta_store_type           = ""
   name                      = ""
+  option_software_list      = []
   period                    = 0
   related_cluster_id        = ""
   resource_group_id         = ""

@@ -1,6 +1,7 @@
 resource "alicloud_ros_stack_group" "tf-sample-ros-stack-group" {
   account_ids              = ""
   administration_role_name = ""
+  capabilities             = []
   description              = ""
   execution_role_name      = ""
   operation_description    = ""

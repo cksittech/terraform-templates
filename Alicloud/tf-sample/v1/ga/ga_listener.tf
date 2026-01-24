@@ -12,6 +12,7 @@ resource "alicloud_ga_listener" "tf-sample-ga-listener" {
   security_policy_id = ""
   
   certificates {
+    id = ""
   }
   forwarded_for_config {
     forwarded_for_ga_ap_enabled = false

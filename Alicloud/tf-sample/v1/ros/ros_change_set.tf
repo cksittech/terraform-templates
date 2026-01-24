@@ -3,6 +3,7 @@ resource "alicloud_ros_change_set" "tf-sample-ros-change-set" {
   change_set_type                 = ""
   description                     = ""
   disable_rollback                = false
+  notification_urls               = []
   ram_role_name                   = ""
   replacement_option              = ""
   stack_id                        = ""

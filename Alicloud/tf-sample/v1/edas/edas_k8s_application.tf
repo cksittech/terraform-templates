@@ -3,7 +3,9 @@ resource "alicloud_edas_k8s_application" "tf-sample-edas-k8s-application" {
   application_name        = ""
   cluster_id              = ""
   command                 = ""
+  command_args            = []
   edas_container_version  = ""
+  envs                    = {}
   image_url               = ""
   jdk                     = ""
   limit_m_cpu             = 0

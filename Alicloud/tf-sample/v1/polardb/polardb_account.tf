@@ -7,4 +7,5 @@ resource "alicloud_polardb_account" "tf-sample-polardb-account" {
   account_type                = ""
   db_cluster_id               = ""
   kms_encrypted_password      = ""
+  kms_encryption_context      = {}
 }

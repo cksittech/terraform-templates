@@ -15,6 +15,7 @@ resource "alicloud_vpc" "tf-sample-vpc" {
   system_route_table_description              = ""
   system_route_table_name                     = ""
   system_route_table_route_propagation_enable = false
+  user_cidrs                                  = []
   vpc_name                                    = ""
   
   tags = {}

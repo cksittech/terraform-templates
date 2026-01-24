@@ -1,4 +1,5 @@
 resource "alicloud_slb_listener" "tf-sample-slb-listener" {
+  acl_ids                      = []
   acl_status                   = ""
   acl_type                     = ""
   backend_port                 = 0

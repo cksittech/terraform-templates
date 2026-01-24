@@ -48,6 +48,8 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   scale_ro_num_max                            = 0
   scale_ro_num_min                            = 0
   seconds_until_auto_pause                    = 0
+  security_group_ids                          = []
+  security_ips                                = []
   serverless_rule_cpu_enlarge_threshold       = 0
   serverless_rule_cpu_shrink_threshold        = 0
   serverless_rule_mode                        = ""

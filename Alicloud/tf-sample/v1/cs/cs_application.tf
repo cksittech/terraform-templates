@@ -3,6 +3,7 @@ resource "alicloud_cs_application" "tf-sample-cs-application" {
   blue_green_confirm = false
   cluster_name       = ""
   description        = ""
+  environment        = {}
   latest_image       = false
   name               = ""
   template           = ""

@@ -8,6 +8,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
   batch_wait_time                      = 0
   change_order_desc                    = ""
   command                              = ""
+  command_args_v2                      = []
   cpu                                  = 0
   deploy                               = false
   edas_container_version               = ""

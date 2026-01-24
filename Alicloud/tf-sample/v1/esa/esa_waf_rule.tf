@@ -24,6 +24,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
       }
       response {
         code = 0
+        id   = 0
       }
     }
     app_package {
@@ -48,6 +49,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
       
       managed_rules {
         action = ""
+        id     = 0
         status = ""
       }
     }
@@ -118,6 +120,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     actions {
       response {
         code = 0
+        id   = 0
       }
     }
     match {

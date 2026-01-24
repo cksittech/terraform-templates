@@ -6,6 +6,7 @@ resource "alicloud_privatelink_vpc_endpoint" "tf-sample-privatelink-vpc-endpoint
   policy_document               = ""
   protected_enabled             = false
   resource_group_id             = ""
+  security_group_ids            = []
   service_id                    = ""
   service_name                  = ""
   vpc_endpoint_name             = ""

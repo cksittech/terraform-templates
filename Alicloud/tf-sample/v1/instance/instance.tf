@@ -23,9 +23,11 @@ resource "alicloud_instance" "tf-sample-instance" {
   internet_charge_type                = ""
   internet_max_bandwidth_out          = 0
   ipv6_address_count                  = 0
+  ipv6_addresses                      = []
   is_outdated                         = false
   key_name                            = ""
   kms_encrypted_password              = ""
+  kms_encryption_context              = {}
   launch_template_id                  = ""
   launch_template_name                = ""
   launch_template_version             = ""
@@ -46,7 +48,9 @@ resource "alicloud_instance" "tf-sample-instance" {
   resource_group_id                   = ""
   role_name                           = ""
   secondary_private_ip_address_count  = 0
+  secondary_private_ips               = []
   security_enhancement_strategy       = ""
+  security_groups                     = []
   spot_duration                       = 0
   spot_price_limit                    = 0
   spot_strategy                       = ""
@@ -66,6 +70,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   system_disk_size                    = 0
   system_disk_storage_cluster_id      = ""
   user_data                           = ""
+  volume_tags                         = {}
   vpc_id                              = ""
   vswitch_id                          = ""
   

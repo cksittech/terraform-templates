@@ -1,7 +1,9 @@
 resource "alicloud_nlb_listener" "tf-sample-nlb-listener" {
   alpn_enabled           = false
   alpn_policy            = ""
+  ca_certificate_ids     = []
   ca_enabled             = false
+  certificate_ids        = []
   cps                    = 0
   end_port               = 0
   idle_timeout           = 0

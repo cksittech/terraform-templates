@@ -1,4 +1,5 @@
 resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-mesh" {
+  cluster_ids           = []
   cluster_spec          = ""
   customized_prometheus = false
   edition               = ""
