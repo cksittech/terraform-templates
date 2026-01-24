@@ -1,5 +1,6 @@
 resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-provider" {
   attribute_condition = ""
+  attribute_mapping   = {}
   description         = ""
   disabled            = false
   display_name        = ""

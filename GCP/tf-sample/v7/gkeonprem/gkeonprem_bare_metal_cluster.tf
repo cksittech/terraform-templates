@@ -1,5 +1,6 @@
 resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-cluster" {
   admin_cluster_membership = ""
+  annotations              = {}
   bare_metal_version       = ""
   description              = ""
   location                 = ""

@@ -3,6 +3,7 @@ resource "google_dataplex_glossary_category" "tf-sample-dataplex-glossary-catego
   description  = ""
   display_name = ""
   glossary_id  = ""
+  labels       = {}
   location     = ""
   parent       = ""
   project      = ""

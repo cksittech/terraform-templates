@@ -4,7 +4,9 @@ resource "google_monitoring_uptime_check_config" "tf-sample-monitoring-uptime-ch
   log_check_failures = false
   period             = ""
   project            = ""
+  selected_regions   = []
   timeout            = ""
+  user_labels        = {}
   
   content_matchers {
     content = ""

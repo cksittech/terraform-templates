@@ -4,6 +4,7 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
   list_managed_instances_results = ""
   name                           = ""
   project                        = ""
+  target_pools                   = []
   target_size                    = 0
   target_stopped_size            = 0
   target_suspended_size          = 0

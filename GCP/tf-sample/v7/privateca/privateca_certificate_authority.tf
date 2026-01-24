@@ -4,6 +4,7 @@ resource "google_privateca_certificate_authority" "tf-sample-privateca-certifica
   desired_state                          = ""
   gcs_bucket                             = ""
   ignore_active_certificates_on_deletion = false
+  labels                                 = {}
   lifetime                               = ""
   location                               = ""
   pem_ca_certificate                     = ""

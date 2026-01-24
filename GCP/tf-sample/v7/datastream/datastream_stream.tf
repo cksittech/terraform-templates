@@ -3,6 +3,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
   customer_managed_encryption_key = ""
   desired_state                   = ""
   display_name                    = ""
+  labels                          = {}
   location                        = ""
   project                         = ""
   stream_id                       = ""

@@ -1,4 +1,5 @@
 resource "google_gkeonprem_vmware_admin_cluster" "tf-sample-gkeonprem-vmware-admin-cluster" {
+  annotations                  = {}
   bootstrap_cluster_membership = ""
   description                  = ""
   enable_advanced_cluster      = false

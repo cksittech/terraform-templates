@@ -1,4 +1,5 @@
 resource "google_iam_projects_policy_binding" "tf-sample-iam-projects-policy-binding" {
+  annotations       = {}
   display_name      = ""
   location          = ""
   policy            = ""

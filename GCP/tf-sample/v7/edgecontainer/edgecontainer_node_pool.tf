@@ -1,5 +1,6 @@
 resource "google_edgecontainer_node_pool" "tf-sample-edgecontainer-node-pool" {
   cluster        = ""
+  labels         = {}
   location       = ""
   machine_filter = ""
   name           = ""

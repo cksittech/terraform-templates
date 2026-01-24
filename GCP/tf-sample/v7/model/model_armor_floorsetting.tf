@@ -1,5 +1,6 @@
 resource "google_model_armor_floorsetting" "tf-sample-model-armor-floorsetting" {
   enable_floor_setting_enforcement = false
+  integrated_services              = []
   location                         = ""
   parent                           = ""
   

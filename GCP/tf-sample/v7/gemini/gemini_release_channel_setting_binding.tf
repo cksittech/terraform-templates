@@ -1,4 +1,5 @@
 resource "google_gemini_release_channel_setting_binding" "tf-sample-gemini-release-channel-setting-binding" {
+  labels                     = {}
   location                   = ""
   product                    = ""
   project                    = ""

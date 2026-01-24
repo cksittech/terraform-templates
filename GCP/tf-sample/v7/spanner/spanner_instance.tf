@@ -5,6 +5,7 @@ resource "google_spanner_instance" "tf-sample-spanner-instance" {
   edition                      = ""
   force_destroy                = false
   instance_type                = ""
+  labels                       = {}
   name                         = ""
   num_nodes                    = 0
   processing_units             = 0

@@ -3,6 +3,7 @@ resource "google_bigtable_app_profile" "tf-sample-bigtable-app-profile" {
   description                       = ""
   ignore_warnings                   = false
   instance                          = ""
+  multi_cluster_routing_cluster_ids = []
   multi_cluster_routing_use_any     = false
   project                           = ""
   row_affinity                      = false

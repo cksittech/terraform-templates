@@ -1,5 +1,7 @@
 resource "google_beyondcorp_app_connection" "tf-sample-beyondcorp-app-connection" {
+  connectors   = []
   display_name = ""
+  labels       = {}
   name         = ""
   project      = ""
   region       = ""

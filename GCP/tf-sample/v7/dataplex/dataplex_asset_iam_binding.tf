@@ -3,6 +3,7 @@ resource "google_dataplex_asset_iam_binding" "tf-sample-dataplex-asset-iam-bindi
   dataplex_zone = ""
   lake          = ""
   location      = ""
+  members       = []
   project       = ""
   role          = ""
   

@@ -1,5 +1,7 @@
 resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
   default_max_pods_per_node                 = 0
+  external_load_balancer_ipv4_address_pools = []
+  labels                                    = {}
   location                                  = ""
   name                                      = ""
   project                                   = ""
@@ -30,6 +32,8 @@ resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
   }
   maintenance_policy {
     maintenance_exclusions {
+      id = ""
+      
       window {
         end_time   = ""
         start_time = ""

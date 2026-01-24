@@ -1,6 +1,9 @@
 resource "google_app_engine_flexible_app_version" "tf-sample-app-engine-flexible-app-version" {
+  beta_settings                = {}
   default_expiration           = ""
   delete_service_on_destroy    = false
+  env_variables                = {}
+  inbound_services             = []
   instance_class               = ""
   nobuild_files_regex          = ""
   noop_on_destroy              = false

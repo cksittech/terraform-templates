@@ -1,9 +1,11 @@
 resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   authorization_mode          = ""
   deletion_protection_enabled = false
+  engine_configs              = {}
   engine_version              = ""
   instance_id                 = ""
   kms_key                     = ""
+  labels                      = {}
   location                    = ""
   maintenance_version         = ""
   mode                        = ""

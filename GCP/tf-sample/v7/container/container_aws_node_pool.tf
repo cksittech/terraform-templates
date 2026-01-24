@@ -1,4 +1,5 @@
 resource "google_container_aws_node_pool" "tf-sample-container-aws-node-pool" {
+  annotations = {}
   cluster     = ""
   location    = ""
   name        = ""

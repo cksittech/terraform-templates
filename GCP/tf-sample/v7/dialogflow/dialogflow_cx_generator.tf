@@ -14,6 +14,7 @@ resource "google_dialogflow_cx_generator" "tf-sample-dialogflow-cx-generator" {
     top_p            = 0
   }
   placeholders {
+    id   = ""
     name = ""
   }
   prompt_text {

@@ -23,6 +23,7 @@ resource "google_ces_example" "tf-sample-ces-example" {
       }
       tool_call {
         args = ""
+        id   = ""
         tool = ""
         
         toolset_tool {
@@ -31,6 +32,7 @@ resource "google_ces_example" "tf-sample-ces-example" {
         }
       }
       tool_response {
+        id       = ""
         response = ""
         tool     = ""
         

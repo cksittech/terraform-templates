@@ -3,6 +3,7 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
   display_name     = ""
   dump_path        = ""
   dump_type        = ""
+  labels           = {}
   location         = ""
   migration_job_id = ""
   project          = ""

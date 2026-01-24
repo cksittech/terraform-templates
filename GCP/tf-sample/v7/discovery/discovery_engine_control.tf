@@ -6,6 +6,7 @@ resource "google_discovery_engine_control" "tf-sample-discovery-engine-control" 
   location      = ""
   project       = ""
   solution_type = ""
+  use_cases     = []
   
   boost_action {
     data_store  = ""

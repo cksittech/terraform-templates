@@ -2,6 +2,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
   connector_version        = ""
   description              = ""
   eventing_enablement_type = ""
+  labels                   = {}
   location                 = ""
   name                     = ""
   project                  = ""

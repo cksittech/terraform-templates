@@ -2,6 +2,7 @@ resource "google_dns_managed_zone" "tf-sample-dns-managed-zone" {
   description   = ""
   dns_name      = ""
   force_destroy = false
+  labels        = {}
   name          = ""
   project       = ""
   visibility    = ""

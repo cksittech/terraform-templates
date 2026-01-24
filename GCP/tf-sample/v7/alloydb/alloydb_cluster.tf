@@ -1,4 +1,5 @@
 resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
+  annotations                      = {}
   cluster_id                       = ""
   cluster_type                     = ""
   database_version                 = ""
@@ -6,6 +7,7 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
   deletion_protection              = false
   display_name                     = ""
   etag                             = ""
+  labels                           = {}
   location                         = ""
   project                          = ""
   skip_await_major_version_upgrade = false

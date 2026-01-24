@@ -6,6 +6,8 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
   description                           = ""
   enable_confidential_compute           = false
   image                                 = ""
+  labels                                = {}
+  licenses                              = []
   name                                  = ""
   physical_block_size_bytes             = 0
   project                               = ""

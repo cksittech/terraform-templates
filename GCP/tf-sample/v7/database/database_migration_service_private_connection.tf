@@ -1,6 +1,7 @@
 resource "google_database_migration_service_private_connection" "tf-sample-database-migration-service-private-connection" {
   create_without_validation = false
   display_name              = ""
+  labels                    = {}
   location                  = ""
   private_connection_id     = ""
   project                   = ""

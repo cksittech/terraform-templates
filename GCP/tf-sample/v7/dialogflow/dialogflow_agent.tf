@@ -8,6 +8,7 @@ resource "google_dialogflow_agent" "tf-sample-dialogflow-agent" {
   enable_logging           = false
   match_mode               = ""
   project                  = ""
+  supported_language_codes = []
   tier                     = ""
   time_zone                = ""
 }

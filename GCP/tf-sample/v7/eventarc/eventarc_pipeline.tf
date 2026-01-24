@@ -1,6 +1,8 @@
 resource "google_eventarc_pipeline" "tf-sample-eventarc-pipeline" {
+  annotations     = {}
   crypto_key_name = ""
   display_name    = ""
+  labels          = {}
   location        = ""
   pipeline_id     = ""
   project         = ""

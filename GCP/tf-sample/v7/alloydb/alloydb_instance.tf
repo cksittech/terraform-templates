@@ -1,11 +1,14 @@
 resource "google_alloydb_instance" "tf-sample-alloydb-instance" {
   activation_policy = ""
+  annotations       = {}
   availability_type = ""
   cluster           = ""
+  database_flags    = {}
   display_name      = ""
   gce_zone          = ""
   instance_id       = ""
   instance_type     = ""
+  labels            = {}
   
   client_connection_config {
     require_connectors = false

@@ -2,10 +2,12 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
   base_instance_name               = ""
   description                      = ""
   distribution_policy_target_shape = ""
+  distribution_policy_zones        = []
   list_managed_instances_results   = ""
   name                             = ""
   project                          = ""
   region                           = ""
+  target_pools                     = []
   target_size                      = 0
   target_stopped_size              = 0
   target_suspended_size            = 0

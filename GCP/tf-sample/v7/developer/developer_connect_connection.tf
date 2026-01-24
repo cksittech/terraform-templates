@@ -1,7 +1,9 @@
 resource "google_developer_connect_connection" "tf-sample-developer-connect-connection" {
+  annotations   = {}
   connection_id = ""
   disabled      = false
   etag          = ""
+  labels        = {}
   location      = ""
   project       = ""
   

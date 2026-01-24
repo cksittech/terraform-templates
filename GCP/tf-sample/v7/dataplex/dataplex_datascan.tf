@@ -2,6 +2,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   data_scan_id = ""
   description  = ""
   display_name = ""
+  labels       = {}
   location     = ""
   project      = ""
   

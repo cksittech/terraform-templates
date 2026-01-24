@@ -3,6 +3,7 @@ resource "google_assured_workloads_workload" "tf-sample-assured-workloads-worklo
   compliance_regime                = ""
   display_name                     = ""
   enable_sovereign_controls        = false
+  labels                           = {}
   location                         = ""
   organization                     = ""
   partner                          = ""

@@ -3,7 +3,9 @@ resource "google_ces_app" "tf-sample-ces-app" {
   description        = ""
   display_name       = ""
   global_instruction = ""
+  guardrails         = []
   location           = ""
+  metadata           = {}
   pinned             = false
   project            = ""
   root_agent         = ""

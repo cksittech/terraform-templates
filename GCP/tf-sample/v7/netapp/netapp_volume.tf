@@ -3,13 +3,17 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
   deletion_policy    = ""
   description        = ""
   kerberos_enabled   = false
+  labels             = {}
   large_capacity     = false
   location           = ""
   multiple_endpoints = false
   name               = ""
   project            = ""
+  protocols          = []
+  restricted_actions = []
   security_style     = ""
   share_name         = ""
+  smb_settings       = []
   snapshot_directory = false
   storage_pool       = ""
   throughput_mibps   = 0

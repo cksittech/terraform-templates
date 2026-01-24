@@ -22,6 +22,7 @@ resource "google_os_config_os_policy_assignment" "tf-sample-os-config-os-policy-
   os_policies {
     allow_no_resource_group_match = false
     description                   = ""
+    id                            = ""
     mode                          = ""
     
     resource_groups {
@@ -30,6 +31,8 @@ resource "google_os_config_os_policy_assignment" "tf-sample-os-config-os-policy-
         os_version    = ""
       }
       resources {
+        id = ""
+        
         exec {
           enforce {
             args             = []
@@ -180,11 +183,13 @@ resource "google_os_config_os_policy_assignment" "tf-sample-os-config-os-policy-
             base_url     = ""
             display_name = ""
             gpg_keys     = []
+            id           = ""
           }
           zypper {
             base_url     = ""
             display_name = ""
             gpg_keys     = []
+            id           = ""
           }
         }
       }

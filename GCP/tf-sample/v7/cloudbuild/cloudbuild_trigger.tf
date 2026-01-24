@@ -3,11 +3,14 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
   disabled           = false
   filename           = ""
   filter             = ""
+  ignored_files      = []
   include_build_logs = ""
+  included_files     = []
   location           = ""
   name               = ""
   project            = ""
   service_account    = ""
+  substitutions      = {}
   
   approval_config {
     approval_required = false
@@ -110,6 +113,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
       dir              = ""
       entrypoint       = ""
       env              = []
+      id               = ""
       name             = ""
       script           = ""
       secret_env       = []

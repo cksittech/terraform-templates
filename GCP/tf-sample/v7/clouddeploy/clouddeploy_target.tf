@@ -1,5 +1,8 @@
 resource "google_clouddeploy_target" "tf-sample-clouddeploy-target" {
+  annotations       = {}
+  deploy_parameters = {}
   description       = ""
+  labels            = {}
   location          = ""
   name              = ""
   project           = ""

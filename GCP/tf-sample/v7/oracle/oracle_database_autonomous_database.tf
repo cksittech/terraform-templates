@@ -5,6 +5,7 @@ resource "google_oracle_database_autonomous_database" "tf-sample-oracle-database
   database               = ""
   deletion_protection    = false
   display_name           = ""
+  labels                 = {}
   location               = ""
   network                = ""
   odb_network            = ""

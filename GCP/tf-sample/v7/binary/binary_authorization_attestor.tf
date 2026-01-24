@@ -9,6 +9,7 @@ resource "google_binary_authorization_attestor" "tf-sample-binary-authorization-
     public_keys {
       ascii_armored_pgp_public_key = ""
       comment                      = ""
+      id                           = ""
       
       pkix_public_key {
         public_key_pem      = ""

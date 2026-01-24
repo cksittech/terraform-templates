@@ -3,6 +3,7 @@ resource "google_kms_crypto_key" "tf-sample-kms-crypto-key" {
   destroy_scheduled_duration    = ""
   import_only                   = false
   key_ring                      = ""
+  labels                        = {}
   name                          = ""
   purpose                       = ""
   rotation_period               = ""

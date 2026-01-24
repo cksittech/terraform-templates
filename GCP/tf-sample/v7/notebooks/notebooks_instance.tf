@@ -8,9 +8,12 @@ resource "google_notebooks_instance" "tf-sample-notebooks-instance" {
   desired_state          = ""
   disk_encryption        = ""
   install_gpu_driver     = false
+  instance_owners        = []
   kms_key                = ""
+  labels                 = {}
   location               = ""
   machine_type           = ""
+  metadata               = {}
   name                   = ""
   network                = ""
   nic_type               = ""
@@ -20,6 +23,7 @@ resource "google_notebooks_instance" "tf-sample-notebooks-instance" {
   post_startup_script    = ""
   project                = ""
   service_account        = ""
+  service_account_scopes = []
   subnet                 = ""
   update_time            = ""
   

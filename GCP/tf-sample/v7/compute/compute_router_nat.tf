@@ -1,12 +1,16 @@
 resource "google_compute_router_nat" "tf-sample-compute-router-nat" {
   auto_network_tier                    = ""
+  drain_nat_ips                        = []
   enable_dynamic_port_allocation       = false
   enable_endpoint_independent_mapping  = false
+  endpoint_types                       = []
   icmp_idle_timeout_sec                = 0
+  initial_nat_ips                      = []
   max_ports_per_vm                     = 0
   min_ports_per_vm                     = 0
   name                                 = ""
   nat_ip_allocate_option               = ""
+  nat_ips                              = []
   project                              = ""
   region                               = ""
   router                               = ""

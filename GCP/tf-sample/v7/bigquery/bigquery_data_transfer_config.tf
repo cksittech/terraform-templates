@@ -6,6 +6,7 @@ resource "google_bigquery_data_transfer_config" "tf-sample-bigquery-data-transfe
   display_name              = ""
   location                  = ""
   notification_pubsub_topic = ""
+  params                    = {}
   project                   = ""
   schedule                  = ""
   service_account_name      = ""

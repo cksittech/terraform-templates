@@ -1,4 +1,5 @@
 resource "google_gkeonprem_vmware_node_pool" "tf-sample-gkeonprem-vmware-node-pool" {
+  annotations     = {}
   display_name    = ""
   location        = ""
   name            = ""

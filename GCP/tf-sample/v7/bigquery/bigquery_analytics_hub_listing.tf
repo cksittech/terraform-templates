@@ -1,5 +1,6 @@
 resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-hub-listing" {
   allow_only_metadata_sharing         = false
+  categories                          = []
   data_exchange_id                    = ""
   delete_commercial                   = false
   description                         = ""

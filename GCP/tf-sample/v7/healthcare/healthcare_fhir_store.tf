@@ -6,6 +6,7 @@ resource "google_healthcare_fhir_store" "tf-sample-healthcare-fhir-store" {
   disable_resource_versioning         = false
   enable_history_import               = false
   enable_update_create                = false
+  labels                              = {}
   name                                = ""
   version                             = ""
   

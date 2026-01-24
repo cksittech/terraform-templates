@@ -3,6 +3,7 @@ resource "google_oracle_database_exascale_db_storage_vault" "tf-sample-oracle-da
   display_name                 = ""
   exascale_db_storage_vault_id = ""
   gcp_oracle_zone              = ""
+  labels                       = {}
   location                     = ""
   project                      = ""
   
@@ -13,6 +14,7 @@ resource "google_oracle_database_exascale_db_storage_vault" "tf-sample-oracle-da
       total_size_gbs = 0
     }
     time_zone {
+      id      = ""
       version = ""
     }
   }

@@ -3,6 +3,7 @@ resource "google_oracle_database_cloud_exadata_infrastructure" "tf-sample-oracle
   deletion_protection             = false
   display_name                    = ""
   gcp_oracle_zone                 = ""
+  labels                          = {}
   location                        = ""
   project                         = ""
   

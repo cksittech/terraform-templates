@@ -17,6 +17,7 @@ resource "google_compute_reservation" "tf-sample-compute-reservation" {
     share_type = ""
     
     project_map {
+      id         = ""
       project_id = ""
     }
   }

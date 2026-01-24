@@ -2,11 +2,14 @@ resource "google_compute_image" "tf-sample-compute-image" {
   description       = ""
   disk_size_gb      = 0
   family            = ""
+  labels            = {}
+  licenses          = []
   name              = ""
   project           = ""
   source_disk       = ""
   source_image      = ""
   source_snapshot   = ""
+  storage_locations = []
   
   guest_os_features {
     type = ""

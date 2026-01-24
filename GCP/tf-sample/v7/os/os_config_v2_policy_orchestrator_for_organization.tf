@@ -1,11 +1,14 @@
 resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-os-config-v2-policy-orchestrator-for-organization" {
   action                 = ""
   description            = ""
+  labels                 = {}
   organization_id        = ""
   policy_orchestrator_id = ""
   state                  = ""
   
   orchestrated_resource {
+    id = ""
+    
     os_policy_assignment_v1_payload {
       description = ""
       etag        = ""
@@ -28,6 +31,7 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
       os_policies {
         allow_no_resource_group_match = false
         description                   = ""
+        id                            = ""
         mode                          = ""
         
         resource_groups {
@@ -36,6 +40,8 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
             os_version    = ""
           }
           resources {
+            id = ""
+            
             exec {
               enforce {
                 args             = []
@@ -187,11 +193,13 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
                 base_url     = ""
                 display_name = ""
                 gpg_keys     = []
+                id           = ""
               }
               zypper {
                 base_url     = ""
                 display_name = ""
                 gpg_keys     = []
+                id           = ""
               }
             }
           }

@@ -6,6 +6,7 @@ resource "google_vertex_ai_index_endpoint_deployed_index" "tf-sample-vertex-ai-i
   index                 = ""
   index_endpoint        = ""
   region                = ""
+  reserved_ip_ranges    = []
   
   automatic_resources {
     max_replica_count = 0

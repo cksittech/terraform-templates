@@ -3,6 +3,7 @@ resource "google_dialogflow_cx_playbook" "tf-sample-dialogflow-cx-playbook" {
   goal             = ""
   parent           = ""
   playbook_type    = ""
+  referenced_tools = []
   
   instruction {
     guidelines = ""

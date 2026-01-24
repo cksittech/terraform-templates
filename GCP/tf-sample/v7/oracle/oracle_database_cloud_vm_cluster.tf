@@ -6,6 +6,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
   deletion_protection    = false
   display_name           = ""
   exadata_infrastructure = ""
+  labels                 = {}
   location               = ""
   network                = ""
   odb_network            = ""
@@ -35,6 +36,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
       incident_logs_enabled      = false
     }
     time_zone {
+      id      = ""
       version = ""
     }
   }

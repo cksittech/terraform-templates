@@ -5,5 +5,6 @@ resource "google_compute_target_ssl_proxy" "tf-sample-compute-target-ssl-proxy" 
   name             = ""
   project          = ""
   proxy_header     = ""
+  ssl_certificates = []
   ssl_policy       = ""
 }

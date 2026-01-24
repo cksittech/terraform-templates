@@ -3,6 +3,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   connection_draining_timeout_sec = 0
   description                     = ""
   enable_cdn                      = false
+  health_checks                   = []
   ip_address_selection_policy     = ""
   load_balancing_scheme           = ""
   locality_lb_policy              = ""

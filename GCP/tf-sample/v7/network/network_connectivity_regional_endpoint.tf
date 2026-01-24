@@ -2,6 +2,7 @@ resource "google_network_connectivity_regional_endpoint" "tf-sample-network-conn
   access_type       = ""
   address           = ""
   description       = ""
+  labels            = {}
   location          = ""
   name              = ""
   network           = ""

@@ -8,6 +8,7 @@ resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-s
   location                     = ""
   project                      = ""
   skip_default_schema_creation = false
+  solution_types               = []
   
   advanced_site_search_config {
     disable_automatic_refresh = false

@@ -3,6 +3,7 @@ resource "google_cloud_identity_group_membership" "tf-sample-cloud-identity-grou
   group                        = ""
   
   preferred_member_key {
+    id        = ""
     namespace = ""
   }
   roles {

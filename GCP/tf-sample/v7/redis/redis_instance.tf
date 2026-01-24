@@ -6,12 +6,14 @@ resource "google_redis_instance" "tf-sample-redis-instance" {
   customer_managed_key    = ""
   deletion_protection     = false
   display_name            = ""
+  labels                  = {}
   location_id             = ""
   maintenance_version     = ""
   memory_size_gb          = 0
   name                    = ""
   project                 = ""
   read_replicas_mode      = ""
+  redis_configs           = {}
   redis_version           = ""
   region                  = ""
   replica_count           = 0

@@ -11,6 +11,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   node_count               = 0
   project                  = ""
   region                   = ""
+  replica_names            = []
   root_password            = ""
   root_password_wo         = ""
   root_password_wo_version = ""

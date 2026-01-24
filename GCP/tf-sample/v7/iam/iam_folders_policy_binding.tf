@@ -1,4 +1,5 @@
 resource "google_iam_folders_policy_binding" "tf-sample-iam-folders-policy-binding" {
+  annotations       = {}
   display_name      = ""
   folder            = ""
   location          = ""

@@ -4,6 +4,7 @@ resource "google_compute_address" "tf-sample-compute-address" {
   description        = ""
   ip_version         = ""
   ipv6_endpoint_type = ""
+  labels             = {}
   name               = ""
   network            = ""
   network_tier       = ""

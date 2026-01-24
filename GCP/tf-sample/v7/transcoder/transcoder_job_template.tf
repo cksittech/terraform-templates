@@ -1,5 +1,6 @@
 resource "google_transcoder_job_template" "tf-sample-transcoder-job-template" {
   job_template_id = ""
+  labels          = {}
   location        = ""
   project         = ""
   
@@ -46,6 +47,8 @@ resource "google_transcoder_job_template" "tf-sample-transcoder-job-template" {
       }
     }
     encryptions {
+      id = ""
+      
       aes128 {
       }
       drm_systems {

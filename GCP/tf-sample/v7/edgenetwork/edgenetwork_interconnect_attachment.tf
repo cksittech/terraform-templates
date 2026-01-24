@@ -2,6 +2,7 @@ resource "google_edgenetwork_interconnect_attachment" "tf-sample-edgenetwork-int
   description                = ""
   interconnect               = ""
   interconnect_attachment_id = ""
+  labels                     = {}
   location                   = ""
   mtu                        = 0
   network                    = ""

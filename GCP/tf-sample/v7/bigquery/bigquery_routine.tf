@@ -4,6 +4,7 @@ resource "google_bigquery_routine" "tf-sample-bigquery-routine" {
   definition_body      = ""
   description          = ""
   determinism_level    = ""
+  imported_libraries   = []
   language             = ""
   project              = ""
   return_table_type    = ""

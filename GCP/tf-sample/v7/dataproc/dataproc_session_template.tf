@@ -1,4 +1,5 @@
 resource "google_dataproc_session_template" "tf-sample-dataproc-session-template" {
+  labels   = {}
   location = ""
   name     = ""
   project  = ""

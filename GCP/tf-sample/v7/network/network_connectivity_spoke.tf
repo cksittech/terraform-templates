@@ -2,6 +2,7 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
   description = ""
   group       = ""
   hub         = ""
+  labels      = {}
   location    = ""
   name        = ""
   project     = ""

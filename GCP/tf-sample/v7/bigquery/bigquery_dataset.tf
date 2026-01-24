@@ -7,9 +7,11 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
   description                     = ""
   friendly_name                   = ""
   is_case_insensitive             = false
+  labels                          = {}
   location                        = ""
   max_time_travel_hours           = ""
   project                         = ""
+  resource_tags                   = {}
   storage_billing_model           = ""
   
   access {

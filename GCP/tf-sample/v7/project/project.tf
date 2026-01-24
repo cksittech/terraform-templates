@@ -3,6 +3,7 @@ resource "google_project" "tf-sample-project" {
   billing_account     = ""
   deletion_policy     = ""
   folder_id           = ""
+  labels              = {}
   name                = ""
   org_id              = ""
   project_id          = ""

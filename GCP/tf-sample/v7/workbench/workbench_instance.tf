@@ -4,6 +4,8 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
   enable_managed_euc          = false
   enable_third_party_identity = false
   instance_id                 = ""
+  instance_owners             = []
+  labels                      = {}
   location                    = ""
   name                        = ""
   project                     = ""

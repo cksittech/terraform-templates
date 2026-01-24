@@ -1,5 +1,6 @@
 resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" {
   admin_cluster_membership = ""
+  annotations              = {}
   description              = ""
   disable_bundled_ingress  = false
   enable_advanced_cluster  = false

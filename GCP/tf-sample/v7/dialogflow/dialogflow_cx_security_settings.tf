@@ -4,6 +4,7 @@ resource "google_dialogflow_cx_security_settings" "tf-sample-dialogflow-cx-secur
   inspect_template      = ""
   location              = ""
   project               = ""
+  purge_data_types      = []
   redaction_scope       = ""
   redaction_strategy    = ""
   retention_strategy    = ""

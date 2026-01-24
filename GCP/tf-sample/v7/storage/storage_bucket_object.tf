@@ -11,6 +11,7 @@ resource "google_storage_bucket_object" "tf-sample-storage-bucket-object" {
   event_based_hold         = false
   force_empty_content_type = false
   kms_key_name             = ""
+  metadata                 = {}
   name                     = ""
   source                   = ""
   source_md5hash           = ""

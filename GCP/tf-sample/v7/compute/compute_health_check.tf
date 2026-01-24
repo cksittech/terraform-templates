@@ -4,6 +4,7 @@ resource "google_compute_health_check" "tf-sample-compute-health-check" {
   healthy_threshold   = 0
   name                = ""
   project             = ""
+  source_regions      = []
   timeout_sec         = 0
   unhealthy_threshold = 0
   

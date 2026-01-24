@@ -117,6 +117,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
       seconds = 0
     }
     time_zone {
+      id      = ""
       version = ""
     }
     weekly {

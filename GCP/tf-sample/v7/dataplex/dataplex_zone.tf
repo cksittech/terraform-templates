@@ -1,6 +1,7 @@
 resource "google_dataplex_zone" "tf-sample-dataplex-zone" {
   description  = ""
   display_name = ""
+  labels       = {}
   lake         = ""
   location     = ""
   name         = ""

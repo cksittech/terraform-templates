@@ -1,5 +1,6 @@
 resource "google_dataproc_job" "tf-sample-dataproc-job" {
   force_delete = false
+  labels       = {}
   project      = ""
   region       = ""
   

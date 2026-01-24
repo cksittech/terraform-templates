@@ -1,6 +1,8 @@
 resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
+  annotations       = {}
   delivery_pipeline = ""
   description       = ""
+  labels            = {}
   location          = ""
   name              = ""
   project           = ""
@@ -9,15 +11,18 @@ resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
   
   rules {
     advance_rollout_rule {
+      id            = ""
       source_phases = []
       wait          = ""
     }
     promote_release_rule {
       destination_phase     = ""
       destination_target_id = ""
+      id                    = ""
       wait                  = ""
     }
     repair_rollout_rule {
+      id     = ""
       jobs   = []
       phases = []
       
@@ -36,12 +41,14 @@ resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
     timed_promote_release_rule {
       destination_phase     = ""
       destination_target_id = ""
+      id                    = ""
       schedule              = ""
       time_zone             = ""
     }
   }
   selector {
     targets {
+      id     = ""
       labels = {}
     }
   }

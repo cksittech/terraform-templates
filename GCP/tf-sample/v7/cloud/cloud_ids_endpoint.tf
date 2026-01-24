@@ -5,4 +5,5 @@ resource "google_cloud_ids_endpoint" "tf-sample-cloud-ids-endpoint" {
   network           = ""
   project           = ""
   severity          = ""
+  threat_exceptions = []
 }

@@ -2,10 +2,12 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   authorization_mode          = ""
   deletion_protection_enabled = false
   kms_key                     = ""
+  labels                      = {}
   maintenance_version         = ""
   name                        = ""
   node_type                   = ""
   project                     = ""
+  redis_configs               = {}
   region                      = ""
   replica_count               = 0
   shard_count                 = 0

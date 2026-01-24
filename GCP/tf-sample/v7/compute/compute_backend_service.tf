@@ -2,11 +2,14 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   affinity_cookie_ttl_sec                       = 0
   compression_mode                              = ""
   connection_draining_timeout_sec               = 0
+  custom_request_headers                        = []
+  custom_response_headers                       = []
   description                                   = ""
   edge_security_policy                          = ""
   enable_cdn                                    = false
   external_managed_migration_state              = ""
   external_managed_migration_testing_percentage = 0
+  health_checks                                 = []
   ip_address_selection_policy                   = ""
   load_balancing_scheme                         = ""
   locality_lb_policy                            = ""

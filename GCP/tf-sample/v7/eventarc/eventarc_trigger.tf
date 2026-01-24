@@ -1,6 +1,7 @@
 resource "google_eventarc_trigger" "tf-sample-eventarc-trigger" {
   channel                 = ""
   event_data_content_type = ""
+  labels                  = {}
   location                = ""
   name                    = ""
   project                 = ""

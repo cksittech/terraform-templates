@@ -1,4 +1,5 @@
 resource "google_container_attached_cluster" "tf-sample-container-attached-cluster" {
+  annotations      = {}
   deletion_policy  = ""
   description      = ""
   distribution     = ""

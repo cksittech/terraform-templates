@@ -1,15 +1,18 @@
 resource "google_cloudfunctions_function" "tf-sample-cloudfunctions-function" {
   available_memory_mb           = 0
+  build_environment_variables   = {}
   build_service_account         = ""
   build_worker_pool             = ""
   description                   = ""
   docker_registry               = ""
   docker_repository             = ""
   entry_point                   = ""
+  environment_variables         = {}
   https_trigger_security_level  = ""
   https_trigger_url             = ""
   ingress_settings              = ""
   kms_key_name                  = ""
+  labels                        = {}
   max_instances                 = 0
   min_instances                 = 0
   name                          = ""

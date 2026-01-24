@@ -1,4 +1,5 @@
 resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
+  labels   = {}
   location = ""
   name     = ""
   project  = ""

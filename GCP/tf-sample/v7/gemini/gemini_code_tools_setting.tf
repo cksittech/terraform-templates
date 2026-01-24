@@ -1,5 +1,6 @@
 resource "google_gemini_code_tools_setting" "tf-sample-gemini-code-tools-setting" {
   code_tools_setting_id = ""
+  labels                = {}
   location              = ""
   project               = ""
   

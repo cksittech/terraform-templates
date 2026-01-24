@@ -6,6 +6,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
   name               = ""
   name_prefix        = ""
   node_count         = 0
+  node_locations     = []
   project            = ""
   version            = ""
   

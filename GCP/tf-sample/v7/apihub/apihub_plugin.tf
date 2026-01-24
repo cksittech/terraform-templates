@@ -9,11 +9,13 @@ resource "google_apihub_plugin" "tf-sample-apihub-plugin" {
   actions_config {
     description  = ""
     display_name = ""
+    id           = ""
     trigger_mode = ""
   }
   config_template {
     additional_config_template {
       description      = ""
+      id               = ""
       required         = false
       validation_regex = ""
       value_type       = ""
@@ -21,10 +23,12 @@ resource "google_apihub_plugin" "tf-sample-apihub-plugin" {
       enum_options {
         description  = ""
         display_name = ""
+        id           = ""
       }
       multi_select_options {
         description  = ""
         display_name = ""
+        id           = ""
       }
     }
     auth_config_template {

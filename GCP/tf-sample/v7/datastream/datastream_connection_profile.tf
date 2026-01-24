@@ -2,6 +2,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
   connection_profile_id     = ""
   create_without_validation = false
   display_name              = ""
+  labels                    = {}
   location                  = ""
   project                   = ""
   

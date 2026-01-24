@@ -1,5 +1,7 @@
 resource "google_clouddeploy_deploy_policy" "tf-sample-clouddeploy-deploy-policy" {
+  annotations = {}
   description = ""
+  labels      = {}
   location    = ""
   name        = ""
   project     = ""
@@ -8,6 +10,7 @@ resource "google_clouddeploy_deploy_policy" "tf-sample-clouddeploy-deploy-policy
   rules {
     rollout_restriction {
       actions  = []
+      id       = ""
       invokers = []
       
       time_windows {
@@ -58,9 +61,11 @@ resource "google_clouddeploy_deploy_policy" "tf-sample-clouddeploy-deploy-policy
   }
   selectors {
     delivery_pipeline {
+      id     = ""
       labels = {}
     }
     target {
+      id     = ""
       labels = {}
     }
   }

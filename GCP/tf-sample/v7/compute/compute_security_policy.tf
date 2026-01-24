@@ -1,5 +1,6 @@
 resource "google_compute_security_policy" "tf-sample-compute-security-policy" {
   description = ""
+  labels      = {}
   name        = ""
   project     = ""
   type        = ""

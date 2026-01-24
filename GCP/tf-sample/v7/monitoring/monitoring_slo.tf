@@ -6,6 +6,7 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
   rolling_period_days = 0
   service             = ""
   slo_id              = ""
+  user_labels         = {}
   
   basic_sli {
     location = []

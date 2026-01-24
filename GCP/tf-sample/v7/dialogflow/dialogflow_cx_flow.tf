@@ -4,6 +4,7 @@ resource "google_dialogflow_cx_flow" "tf-sample-dialogflow-cx-flow" {
   is_default_start_flow   = false
   language_code           = ""
   parent                  = ""
+  transition_route_groups = []
   
   advanced_settings {
     audio_export_gcs_destination {

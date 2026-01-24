@@ -2,10 +2,13 @@ resource "google_os_config_v2_policy_orchestrator_for_folder" "tf-sample-os-conf
   action                 = ""
   description            = ""
   folder_id              = ""
+  labels                 = {}
   policy_orchestrator_id = ""
   state                  = ""
   
   orchestrated_resource {
+    id = ""
+    
     os_policy_assignment_v1_payload {
       description = ""
       name        = ""
@@ -27,6 +30,7 @@ resource "google_os_config_v2_policy_orchestrator_for_folder" "tf-sample-os-conf
       os_policies {
         allow_no_resource_group_match = false
         description                   = ""
+        id                            = ""
         mode                          = ""
         
         resource_groups {
@@ -35,6 +39,8 @@ resource "google_os_config_v2_policy_orchestrator_for_folder" "tf-sample-os-conf
             os_version    = ""
           }
           resources {
+            id = ""
+            
             exec {
               enforce {
                 args             = []
@@ -186,11 +192,13 @@ resource "google_os_config_v2_policy_orchestrator_for_folder" "tf-sample-os-conf
                 base_url     = ""
                 display_name = ""
                 gpg_keys     = []
+                id           = ""
               }
               zypper {
                 base_url     = ""
                 display_name = ""
                 gpg_keys     = []
+                id           = ""
               }
             }
           }

@@ -1,10 +1,13 @@
 resource "google_compute_router_peer" "tf-sample-compute-router-peer" {
   advertise_mode                     = ""
+  advertised_groups                  = []
   advertised_route_priority          = 0
   custom_learned_route_priority      = 0
   enable                             = false
   enable_ipv4                        = false
   enable_ipv6                        = false
+  export_policies                    = []
+  import_policies                    = []
   interface                          = ""
   ip_address                         = ""
   ipv4_nexthop_address               = ""

@@ -7,11 +7,14 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
   enable_display             = false
   hostname                   = ""
   key_revocation_action_type = ""
+  labels                     = {}
   machine_type               = ""
+  metadata                   = {}
   metadata_startup_script    = ""
   min_cpu_platform           = ""
   name                       = ""
   project                    = ""
+  resource_policies          = []
   source_instance_template   = ""
   zone                       = ""
   

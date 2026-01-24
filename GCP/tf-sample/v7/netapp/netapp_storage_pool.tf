@@ -7,6 +7,7 @@ resource "google_netapp_storage_pool" "tf-sample-netapp-storage-pool" {
   enable_hot_tier_auto_resize = false
   hot_tier_size_gib           = ""
   kms_config                  = ""
+  labels                      = {}
   ldap_enabled                = false
   location                    = ""
   name                        = ""

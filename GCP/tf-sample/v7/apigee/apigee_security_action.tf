@@ -1,4 +1,5 @@
 resource "google_apigee_security_action" "tf-sample-apigee-security-action" {
+  api_proxies        = []
   description        = ""
   env_id             = ""
   expire_time        = ""

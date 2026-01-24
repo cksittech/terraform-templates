@@ -1,5 +1,6 @@
 resource "google_dataproc_batch" "tf-sample-dataproc-batch" {
   batch_id = ""
+  labels   = {}
   location = ""
   project  = ""
   

@@ -1,6 +1,7 @@
 resource "google_dataplex_task" "tf-sample-dataplex-task" {
   description  = ""
   display_name = ""
+  labels       = {}
   lake         = ""
   location     = ""
   project      = ""

@@ -3,6 +3,7 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   description            = ""
   format                 = ""
   kms_key_name           = ""
+  labels                 = {}
   location               = ""
   mode                   = ""
   project                = ""
@@ -10,6 +11,7 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   
   cleanup_policies {
     action = ""
+    id     = ""
     
     condition {
       newer_than            = ""
@@ -87,6 +89,7 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   }
   virtual_repository_config {
     upstream_policies {
+      id         = ""
       priority   = 0
       repository = ""
     }

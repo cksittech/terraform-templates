@@ -1,4 +1,5 @@
 resource "google_notebooks_runtime" "tf-sample-notebooks-runtime" {
+  labels   = {}
   location = ""
   name     = ""
   project  = ""

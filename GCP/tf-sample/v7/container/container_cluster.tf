@@ -25,10 +25,12 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   name                                     = ""
   network                                  = ""
   networking_mode                          = ""
+  node_locations                           = []
   node_version                             = ""
   private_ipv6_google_access               = ""
   project                                  = ""
   remove_default_node_pool                 = false
+  resource_labels                          = {}
   subnetwork                               = ""
   
   addons_config {

@@ -2,6 +2,7 @@ resource "google_secure_source_manager_instance" "tf-sample-secure-source-manage
   deletion_policy = ""
   instance_id     = ""
   kms_key         = ""
+  labels          = {}
   location        = ""
   project         = ""
   

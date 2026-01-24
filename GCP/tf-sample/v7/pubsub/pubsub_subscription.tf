@@ -3,6 +3,7 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   enable_exactly_once_delivery = false
   enable_message_ordering      = false
   filter                       = ""
+  labels                       = {}
   message_retention_duration   = ""
   name                         = ""
   project                      = ""

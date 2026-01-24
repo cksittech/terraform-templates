@@ -1,4 +1,5 @@
 resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
+  annotations = {}
   disabled    = false
   location    = ""
   name        = ""

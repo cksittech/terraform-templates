@@ -1,4 +1,5 @@
 resource "google_apigee_instance" "tf-sample-apigee-instance" {
+  consumer_accept_list     = []
   description              = ""
   disk_encryption_key_name = ""
   display_name             = ""

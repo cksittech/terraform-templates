@@ -5,6 +5,7 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
   gke_support_enabled         = false
   instance_id                 = ""
   kms_key                     = ""
+  labels                      = {}
   location                    = ""
   network                     = ""
   per_unit_storage_throughput = ""

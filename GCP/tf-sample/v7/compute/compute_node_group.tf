@@ -19,6 +19,7 @@ resource "google_compute_node_group" "tf-sample-compute-node-group" {
     share_type = ""
     
     project_map {
+      id         = ""
       project_id = ""
     }
   }

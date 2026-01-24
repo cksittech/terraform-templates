@@ -3,13 +3,17 @@ resource "google_compute_instance_template" "tf-sample-compute-instance-template
   description                = ""
   instance_description       = ""
   key_revocation_action_type = ""
+  labels                     = {}
   machine_type               = ""
+  metadata                   = {}
   metadata_startup_script    = ""
   min_cpu_platform           = ""
   name                       = ""
   name_prefix                = ""
   project                    = ""
   region                     = ""
+  resource_manager_tags      = {}
+  resource_policies          = []
   
   advanced_machine_features {
     enable_nested_virtualization = false

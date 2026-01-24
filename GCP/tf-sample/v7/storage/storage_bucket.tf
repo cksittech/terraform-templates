@@ -2,6 +2,7 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
   default_event_based_hold    = false
   enable_object_retention     = false
   force_destroy               = false
+  labels                      = {}
   location                    = ""
   name                        = ""
   project                     = ""
