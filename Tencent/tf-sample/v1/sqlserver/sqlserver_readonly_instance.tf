@@ -13,9 +13,11 @@ resource "tencentcloud_sqlserver_readonly_instance" "tf-sample-sqlserver-readonl
   readonly_groups_is_offline_delay = 0
   readonly_groups_max_delay_time   = 0
   readonly_groups_min_in_group     = 0
+  security_groups                  = []
   storage                          = 0
   subnet_id                        = ""
   time_zone                        = ""
+  voucher_ids                      = []
   vpc_id                           = ""
   
   tags = {}

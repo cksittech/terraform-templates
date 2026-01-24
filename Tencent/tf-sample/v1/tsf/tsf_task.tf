@@ -1,6 +1,7 @@
 resource "tencentcloud_tsf_task" "tf-sample-tsf-task" {
   execute_type     = ""
   group_id         = ""
+  program_id_list  = []
   retry_count      = 0
   retry_interval   = 0
   shard_count      = 0

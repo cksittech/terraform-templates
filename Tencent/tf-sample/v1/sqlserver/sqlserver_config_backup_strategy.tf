@@ -1,4 +1,5 @@
 resource "tencentcloud_sqlserver_config_backup_strategy" "tf-sample-sqlserver-config-backup-strategy" {
+  backup_cycle              = []
   backup_day                = 0
   backup_model              = ""
   backup_save_days          = 0

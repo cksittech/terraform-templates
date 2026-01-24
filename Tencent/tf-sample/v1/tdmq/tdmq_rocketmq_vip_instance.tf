@@ -4,6 +4,7 @@ resource "tencentcloud_tdmq_rocketmq_vip_instance" "tf-sample-tdmq-rocketmq-vip-
   spec         = ""
   storage_size = 0
   time_span    = 0
+  zone_ids     = []
   
   ip_rules {
     allow   = false

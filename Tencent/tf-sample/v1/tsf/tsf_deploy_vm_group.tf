@@ -1,4 +1,5 @@
 resource "tencentcloud_tsf_deploy_vm_group" "tf-sample-tsf-deploy-vm-group" {
+  deploy_batch           = []
   deploy_beta_enable     = false
   deploy_desc            = ""
   deploy_exe_mode        = ""

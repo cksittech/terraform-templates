@@ -8,6 +8,7 @@ resource "tencentcloud_dlc_attach_work_group_policy_operation" "tf-sample-dlc-at
     data_engine = ""
     database    = ""
     function    = ""
+    id          = 0
     mode        = ""
     operation   = ""
     operator    = ""

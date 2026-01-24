@@ -10,6 +10,7 @@ resource "tencentcloud_waf_bot_scene_ucb_rule" "tf-sample-waf-bot-scene-ucb-rule
     desc          = ""
     domain        = ""
     expire_time   = 0
+    id            = ""
     job_type      = ""
     label         = ""
     name          = ""

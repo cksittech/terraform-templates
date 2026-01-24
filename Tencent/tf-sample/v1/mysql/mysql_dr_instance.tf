@@ -14,6 +14,7 @@ resource "tencentcloud_mysql_dr_instance" "tf-sample-mysql-dr-instance" {
   prepaid_period     = 0
   project_id         = 0
   second_slave_zone  = ""
+  security_groups    = []
   slave_deploy_mode  = 0
   slave_sync_mode    = 0
   subnet_id          = ""

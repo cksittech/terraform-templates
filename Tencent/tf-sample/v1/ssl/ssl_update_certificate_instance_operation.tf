@@ -7,6 +7,7 @@ resource "tencentcloud_ssl_update_certificate_instance_operation" "tf-sample-ssl
   old_certificate_id           = ""
   project_id                   = 0
   repeatable                   = false
+  resource_types               = []
   
   resource_types_regions {
     regions       = []

@@ -3,6 +3,7 @@ resource "tencentcloud_monitor_tmp_tke_alert_policy" "tf-sample-monitor-tmp-tke-
   
   alert_rule {
     cluster_id  = ""
+    id          = ""
     name        = ""
     template_id = ""
     updated_at  = ""

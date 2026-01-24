@@ -3,4 +3,5 @@ resource "tencentcloud_mysql_remote_backup_config" "tf-sample-mysql-remote-backu
   instance_id        = ""
   remote_backup_save = ""
   remote_binlog_save = ""
+  remote_region      = []
 }

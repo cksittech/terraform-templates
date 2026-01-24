@@ -1,4 +1,5 @@
 resource "tencentcloud_dayu_ddos_policy_case" "tf-sample-dayu-ddos-policy-case" {
+  app_protocols       = []
   app_type            = ""
   has_abroad          = ""
   has_initiate_tcp    = ""
@@ -11,6 +12,7 @@ resource "tencentcloud_dayu_ddos_policy_case" "tf-sample-dayu-ddos-policy-case" 
   name                = ""
   peer_tcp_port       = ""
   peer_udp_port       = ""
+  platform_types      = []
   resource_type       = ""
   tcp_end_port        = ""
   tcp_footprint       = ""
@@ -18,4 +20,5 @@ resource "tencentcloud_dayu_ddos_policy_case" "tf-sample-dayu-ddos-policy-case" 
   udp_end_port        = ""
   udp_footprint       = ""
   udp_start_port      = ""
+  web_api_urls        = []
 }

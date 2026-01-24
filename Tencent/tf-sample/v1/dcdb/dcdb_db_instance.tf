@@ -9,6 +9,7 @@ resource "tencentcloud_dcdb_db_instance" "tf-sample-dcdb-db-instance" {
   ipv6_flag          = 0
   period             = 0
   project_id         = 0
+  security_group_ids = []
   shard_count        = 0
   shard_memory       = 0
   shard_node_count   = 0
@@ -16,7 +17,9 @@ resource "tencentcloud_dcdb_db_instance" "tf-sample-dcdb-db-instance" {
   subnet_id          = ""
   vip                = ""
   vipv6              = ""
+  voucher_ids        = []
   vpc_id             = ""
+  zones              = []
   
   init_params {
     param = ""

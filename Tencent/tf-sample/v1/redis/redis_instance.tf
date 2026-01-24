@@ -18,7 +18,9 @@ resource "tencentcloud_redis_instance" "tf-sample-redis-instance" {
   redis_cluster_id   = ""
   redis_replicas_num = 0
   redis_shard_num    = 0
+  replica_zone_ids   = []
   replicas_read_only = false
+  security_groups    = []
   subnet_id          = ""
   type_id            = 0
   vpc_id             = ""

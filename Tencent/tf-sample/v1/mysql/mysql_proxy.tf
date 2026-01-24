@@ -3,6 +3,7 @@ resource "tencentcloud_mysql_proxy" "tf-sample-mysql-proxy" {
   desc                  = ""
   instance_id           = ""
   proxy_version         = ""
+  security_group        = []
   uniq_subnet_id        = ""
   uniq_vpc_id           = ""
   upgrade_time          = ""

@@ -7,6 +7,7 @@ resource "tencentcloud_cynosdb_proxy" "tf-sample-cynosdb-proxy" {
   mem                      = 0
   open_connection_pool     = ""
   proxy_count              = 0
+  security_group_ids       = []
   unique_subnet_id         = ""
   unique_vpc_id            = ""
   

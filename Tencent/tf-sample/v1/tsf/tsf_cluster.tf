@@ -11,6 +11,7 @@ resource "tencentcloud_tsf_cluster" "tf-sample-tsf-cluster" {
   max_cluster_service_num = 0
   max_node_pod_num        = 0
   program_id              = ""
+  program_id_list         = []
   subnet_id               = ""
   tsf_region_id           = ""
   tsf_zone_id             = ""

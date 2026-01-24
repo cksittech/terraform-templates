@@ -17,9 +17,11 @@ resource "tencentcloud_ckafka_instance" "tf-sample-ckafka-instance" {
   renew_flag               = 0
   specifications_type      = ""
   subnet_id                = ""
+  tag_set                  = {}
   upgrade_strategy         = 0
   vpc_id                   = ""
   zone_id                  = 0
+  zone_ids                 = []
   
   config {
     auto_create_topic_enable   = false

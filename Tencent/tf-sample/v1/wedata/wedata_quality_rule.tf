@@ -17,6 +17,7 @@ resource "tencentcloud_wedata_quality_rule" "tf-sample-wedata-quality-rule" {
   rule_group_id                = 0
   rule_template_id             = 0
   schema_name                  = ""
+  source_engine_types          = []
   source_object_data_type_name = ""
   source_object_value          = ""
   table_id                     = ""

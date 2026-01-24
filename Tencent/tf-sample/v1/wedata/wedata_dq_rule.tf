@@ -10,6 +10,7 @@ resource "tencentcloud_wedata_dq_rule" "tf-sample-wedata-dq-rule" {
   rel_condition_expr           = ""
   rule_group_id                = 0
   rule_template_id             = 0
+  source_engine_types          = []
   source_object_data_type_name = ""
   source_object_value          = ""
   table_id                     = ""

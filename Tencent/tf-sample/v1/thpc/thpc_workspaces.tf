@@ -5,6 +5,7 @@ resource "tencentcloud_thpc_workspaces" "tf-sample-thpc-workspaces" {
   host_name                 = ""
   hpc_cluster_id            = ""
   image_id                  = ""
+  security_group_ids        = []
   space_charge_type         = ""
   space_name                = ""
   space_type                = ""

@@ -52,6 +52,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   }
   lifecycle_rules {
     filter_prefix = ""
+    id            = ""
     
     abort_incomplete_multipart_upload {
       days_after_initiation = 0
@@ -102,6 +103,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
     destination_bucket                = ""
     destination_encryption_kms_key_id = ""
     destination_storage_class         = ""
+    id                                = ""
     prefix                            = ""
     priority                          = 0
     status                            = ""

@@ -2,6 +2,7 @@ resource "tencentcloud_cvm_launch_template_version" "tf-sample-cvm-launch-templa
   cam_role_name                       = ""
   client_token                        = ""
   disable_api_termination             = false
+  disaster_recover_group_ids          = []
   dry_run                             = false
   host_name                           = ""
   hpc_cluster_id                      = ""
@@ -13,6 +14,7 @@ resource "tencentcloud_cvm_launch_template_version" "tf-sample-cvm-launch-templa
   launch_template_id                  = ""
   launch_template_version             = 0
   launch_template_version_description = ""
+  security_group_ids                  = []
   user_data                           = ""
   
   action_timer {

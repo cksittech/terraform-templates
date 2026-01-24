@@ -10,10 +10,13 @@ resource "tencentcloud_mariadb_instance" "tf-sample-mariadb-instance" {
   node_count         = 0
   period             = 0
   project_id         = 0
+  security_group_ids = []
   storage            = 0
   subnet_id          = ""
   vip                = ""
+  voucher_ids        = []
   vpc_id             = ""
+  zones              = []
   
   init_params {
     param = ""

@@ -74,6 +74,7 @@ resource "tencentcloud_wedata_integration_offline_task" "tf-sample-wedata-integr
       source_schema {
         alias   = ""
         comment = ""
+        id      = ""
         name    = ""
         type    = ""
         value   = ""

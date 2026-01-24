@@ -13,6 +13,7 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   param_template_id  = 0
   prepaid_period     = 0
   ro_group_id        = ""
+  security_groups    = []
   slave_deploy_mode  = 0
   subnet_id          = ""
   volume_size        = 0

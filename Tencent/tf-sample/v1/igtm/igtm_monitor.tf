@@ -2,6 +2,7 @@ resource "tencentcloud_igtm_monitor" "tf-sample-igtm-monitor" {
   check_interval        = 0
   check_protocol        = ""
   continue_period       = 0
+  detector_group_ids    = []
   detector_style        = ""
   enable_redirect       = ""
   enable_sni            = ""

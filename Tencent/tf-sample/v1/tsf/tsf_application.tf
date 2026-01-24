@@ -8,6 +8,7 @@ resource "tencentcloud_tsf_application" "tf-sample-tsf-application" {
   ignore_create_image_repository = false
   microservice_type              = ""
   program_id                     = ""
+  program_id_list                = []
   
   service_config_list {
     name = ""

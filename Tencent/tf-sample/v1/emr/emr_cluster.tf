@@ -2,15 +2,18 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
   auto_renew      = 0
   extend_fs_field = ""
   instance_name   = ""
+  login_settings  = {}
   multi_zone      = false
   need_master_wan = ""
   pay_mode        = 0
   product_id      = 0
   scene_name      = ""
   sg_id           = ""
+  softwares       = []
   support_ha      = 0
   time_span       = 0
   time_unit       = ""
+  vpc_settings    = {}
   
   multi_zone_setting {
     vpc_settings = {}

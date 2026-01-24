@@ -7,6 +7,7 @@ resource "tencentcloud_postgresql_readonly_group" "tf-sample-postgresql-readonly
   project_id                  = 0
   replay_lag_eliminate        = 0
   replay_latency_eliminate    = 0
+  security_groups_ids         = []
   subnet_id                   = ""
   vpc_id                      = ""
 }

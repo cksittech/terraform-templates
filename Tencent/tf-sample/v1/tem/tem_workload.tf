@@ -11,6 +11,7 @@ resource "tencentcloud_tem_workload" "tf-sample-tem-workload" {
   pre_stop           = ""
   repo_server        = ""
   repo_type          = 0
+  security_group_ids = []
   tcr_instance_id    = ""
   
   deploy_strategy_conf {

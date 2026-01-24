@@ -8,6 +8,7 @@ resource "tencentcloud_mariadb_hour_db_instance" "tf-sample-mariadb-hour-db-inst
   subnet_id     = ""
   vip           = ""
   vpc_id        = ""
+  zones         = []
   
   tags = {}
 }

@@ -10,6 +10,7 @@ resource "tencentcloud_cynosdb_proxy_end_point" "tf-sample-cynosdb-proxy-end-poi
   fail_over                = ""
   open_connection_pool     = ""
   rw_type                  = ""
+  security_group_ids       = []
   trans_split              = false
   unique_subnet_id         = ""
   unique_vpc_id            = ""

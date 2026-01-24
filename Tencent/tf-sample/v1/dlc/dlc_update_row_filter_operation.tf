@@ -8,6 +8,7 @@ resource "tencentcloud_dlc_update_row_filter_operation" "tf-sample-dlc-update-ro
     data_engine = ""
     database    = ""
     function    = ""
+    id          = 0
     mode        = ""
     operation   = ""
     operator    = ""

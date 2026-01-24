@@ -6,6 +6,7 @@ resource "tencentcloud_cdwdoris_instance" "tf-sample-cdwdoris-instance" {
   ha_type               = 0
   instance_name         = ""
   product_version       = ""
+  security_group_ids    = []
   user_subnet_id        = ""
   user_vpc_id           = ""
   workload_group_status = ""

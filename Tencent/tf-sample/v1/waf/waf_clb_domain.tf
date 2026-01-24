@@ -7,6 +7,7 @@ resource "tencentcloud_waf_clb_domain" "tf-sample-waf-clb-domain" {
   engine          = 0
   flow_mode       = 0
   instance_id     = ""
+  ip_headers      = []
   is_cdn          = 0
   region          = ""
   status          = 0

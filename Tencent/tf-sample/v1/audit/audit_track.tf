@@ -1,5 +1,6 @@
 resource "tencentcloud_audit_track" "tf-sample-audit-track" {
   action_type           = ""
+  event_names           = []
   name                  = ""
   resource_type         = ""
   status                = 0

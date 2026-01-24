@@ -6,6 +6,7 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
   deletion_protection       = false
   desired_capacity          = 0
   enable_auto_scale         = false
+  labels                    = {}
   max_size                  = 0
   min_size                  = 0
   multi_zone_subnet_policy  = ""
@@ -17,9 +18,12 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
   scaling_group_name        = ""
   scaling_group_project_id  = 0
   scaling_mode              = ""
+  subnet_ids                = []
+  termination_policies      = []
   unschedulable             = 0
   vpc_id                    = ""
   wait_node_ready           = false
+  zones                     = []
   
   annotations {
     name  = ""

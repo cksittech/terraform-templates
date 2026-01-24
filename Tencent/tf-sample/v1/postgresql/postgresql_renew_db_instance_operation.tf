@@ -2,4 +2,5 @@ resource "tencentcloud_postgresql_renew_db_instance_operation" "tf-sample-postgr
   auto_voucher   = 0
   db_instance_id = ""
   period         = 0
+  voucher_ids    = []
 }

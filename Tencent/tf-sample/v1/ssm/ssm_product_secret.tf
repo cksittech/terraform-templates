@@ -1,5 +1,6 @@
 resource "tencentcloud_ssm_product_secret" "tf-sample-ssm-product-secret" {
   description         = ""
+  domains             = []
   enable_rotation     = false
   instance_id         = ""
   kms_key_id          = ""

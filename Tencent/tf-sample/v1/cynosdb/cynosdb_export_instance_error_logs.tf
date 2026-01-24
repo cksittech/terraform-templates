@@ -2,6 +2,8 @@ resource "tencentcloud_cynosdb_export_instance_error_logs" "tf-sample-cynosdb-ex
   end_time      = ""
   file_type     = ""
   instance_id   = ""
+  key_words     = []
+  log_levels    = []
   order_by      = ""
   order_by_type = ""
   start_time    = ""

@@ -3,6 +3,8 @@ resource "tencentcloud_kubernetes_scale_worker" "tf-sample-kubernetes-scale-work
   create_result_output_file = ""
   desired_pod_num           = 0
   docker_graph_path         = ""
+  extra_args                = []
+  labels                    = {}
   mount_target              = ""
   pre_start_user_script     = ""
   unschedulable             = 0

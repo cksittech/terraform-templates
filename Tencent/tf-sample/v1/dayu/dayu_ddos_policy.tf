@@ -1,6 +1,8 @@
 resource "tencentcloud_dayu_ddos_policy" "tf-sample-dayu-ddos-policy" {
+  black_ips     = []
   name          = ""
   resource_type = ""
+  white_ips     = []
   
   drop_options {
     bad_conn_threshold = 0

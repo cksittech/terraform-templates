@@ -25,8 +25,11 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   container_runtime                = ""
   data_plane_v2                    = false
   deletion_protection              = false
+  disable_addons                   = []
   docker_graph_path                = ""
   enable_customized_pod_cidr       = false
+  eni_subnet_ids                   = []
+  extra_args                       = []
   globe_desired_pod_num            = 0
   ignore_cluster_cidr_conflict     = false
   ignore_service_cidr_conflict     = false
@@ -34,6 +37,7 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   is_dual_stack                    = false
   is_non_static_ip_mode            = false
   kube_proxy_mode                  = ""
+  labels                           = {}
   mount_target                     = ""
   network_type                     = ""
   node_name_type                   = ""

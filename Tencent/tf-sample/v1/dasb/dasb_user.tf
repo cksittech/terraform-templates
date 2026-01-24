@@ -2,6 +2,7 @@ resource "tencentcloud_dasb_user" "tf-sample-dasb-user" {
   auth_type     = 0
   department_id = ""
   email         = ""
+  group_id_set  = []
   phone         = ""
   real_name     = ""
   user_name     = ""

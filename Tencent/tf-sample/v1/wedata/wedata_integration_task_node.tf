@@ -39,6 +39,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
       source_schema {
         alias   = ""
         comment = ""
+        id      = ""
         name    = ""
         type    = ""
         value   = ""
@@ -52,6 +53,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
     schema {
       alias   = ""
       comment = ""
+      id      = ""
       name    = ""
       type    = ""
       value   = ""

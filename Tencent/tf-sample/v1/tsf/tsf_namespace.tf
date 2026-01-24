@@ -7,4 +7,5 @@ resource "tencentcloud_tsf_namespace" "tf-sample-tsf-namespace" {
   namespace_resource_type = ""
   namespace_type          = ""
   program_id              = ""
+  program_id_list         = []
 }

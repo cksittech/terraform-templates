@@ -15,10 +15,12 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
   max_deay_time      = 0
   mem_size           = 0
   param_template_id  = 0
+  parameters         = {}
   prepaid_period     = 0
   project_id         = 0
   root_password      = ""
   second_slave_zone  = ""
+  security_groups    = []
   slave_deploy_mode  = 0
   slave_sync_mode    = 0
   subnet_id          = ""

@@ -1,6 +1,7 @@
 resource "tencentcloud_cls_config_extra" "tf-sample-cls-config-extra" {
   config_flag      = ""
   group_id         = ""
+  group_ids        = []
   log_format       = ""
   log_type         = ""
   logset_id        = ""

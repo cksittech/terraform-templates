@@ -27,8 +27,10 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   ipv6_address_count                      = 0
   ipv6_address_type                       = ""
   keep_image_login                        = false
+  key_ids                                 = []
   launch_template_id                      = ""
   launch_template_version                 = 0
+  orderly_security_groups                 = []
   password                                = ""
   placement_group_id                      = ""
   private_ip                              = ""

@@ -13,6 +13,7 @@ resource "tencentcloud_waf_cc" "tf-sample-waf-cc" {
   name            = ""
   options_arr     = ""
   priority        = 0
+  session_applied = []
   status          = 0
   type            = 0
   url             = ""

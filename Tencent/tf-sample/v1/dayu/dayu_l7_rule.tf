@@ -11,6 +11,7 @@ resource "tencentcloud_dayu_l7_rule" "tf-sample-dayu-l7-rule" {
   protocol                  = ""
   resource_id               = ""
   resource_type             = ""
+  source_list               = []
   source_type               = 0
   ssl_id                    = ""
   switch                    = false

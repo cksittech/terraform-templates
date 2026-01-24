@@ -2,6 +2,7 @@ resource "tencentcloud_ckafka_topic" "tf-sample-ckafka-topic" {
   clean_up_policy                = ""
   enable_white_list              = false
   instance_id                    = ""
+  ip_white_list                  = []
   max_message_bytes              = 0
   note                           = ""
   partition_num                  = 0

@@ -3,7 +3,10 @@ resource "tencentcloud_kubernetes_cluster_attachment" "tf-sample-kubernetes-clus
   hostname        = ""
   image_id        = ""
   instance_id     = ""
+  key_ids         = []
+  labels          = {}
   password        = ""
+  security_groups = []
   unschedulable   = 0
   
   worker_config {

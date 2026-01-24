@@ -29,11 +29,13 @@ resource "tencentcloud_oceanus_job_config" "tf-sample-oceanus-job-config" {
       }
       nodes {
         description = ""
+        id          = 0
         name        = ""
         parallelism = 0
       }
     }
     node_config {
+      id                 = 0
       parallelism        = 0
       slot_sharing_group = ""
       state_ttl          = ""

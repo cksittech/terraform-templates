@@ -9,6 +9,7 @@ resource "tencentcloud_wedata_data_backfill_plan" "tf-sample-wedata-data-backfil
   redefine_self_workflow_dependency = ""
   scheduler_resource_group_id       = ""
   skip_event_listening              = false
+  task_ids                          = []
   time_zone                         = ""
   
   data_backfill_range_list {

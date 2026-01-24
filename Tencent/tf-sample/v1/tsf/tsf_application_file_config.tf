@@ -9,4 +9,5 @@ resource "tencentcloud_tsf_application_file_config" "tf-sample-tsf-application-f
   config_version      = ""
   config_version_desc = ""
   encode_with_base64  = false
+  program_id_list     = []
 }

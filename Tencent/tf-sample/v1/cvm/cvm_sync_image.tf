@@ -1,4 +1,5 @@
 resource "tencentcloud_cvm_sync_image" "tf-sample-cvm-sync-image" {
+  destination_regions = []
   dry_run             = false
   encrypt             = false
   image_id            = ""

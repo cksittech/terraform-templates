@@ -1,6 +1,7 @@
 resource "tencentcloud_pts_scenario" "tf-sample-pts-scenario" {
   cron_id     = ""
   description = ""
+  extensions  = []
   name        = ""
   project_id  = ""
   type        = ""

@@ -15,6 +15,7 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   master_zone_id               = ""
   network_type                 = ""
   project_id                   = 0
+  security_groups              = []
   sla_type                     = ""
   slave_zone_id                = ""
   snat_pro                     = false

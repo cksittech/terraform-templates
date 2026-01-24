@@ -9,6 +9,7 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
   dns_cache         = false
   enable_eip_config = false
   enable_public_net = false
+  environment       = {}
   func_type         = ""
   handler           = ""
   l5_enable         = false

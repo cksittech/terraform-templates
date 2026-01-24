@@ -13,6 +13,7 @@ resource "tencentcloud_dlc_standard_engine_resource_group" "tf-sample-dlc-standa
   max_concurrency            = 0
   max_executor_nums          = 0
   min_executor_nums          = 0
+  network_config_names       = []
   public_domain              = ""
   python_cu_spec             = ""
   region_name                = ""

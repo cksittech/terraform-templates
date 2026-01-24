@@ -68,6 +68,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
       source_schema {
         alias   = ""
         comment = ""
+        id      = ""
         name    = ""
         type    = ""
         value   = ""
@@ -85,6 +86,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
       data_source_type = ""
       datasource_id    = ""
       description      = ""
+      id               = ""
       name             = ""
       node_type        = ""
       operator_uin     = ""
@@ -116,6 +118,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
         source_schema {
           alias   = ""
           comment = ""
+          id      = ""
           name    = ""
           type    = ""
           value   = ""
@@ -129,6 +132,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
       schema {
         alias   = ""
         comment = ""
+        id      = ""
         name    = ""
         type    = ""
         value   = ""

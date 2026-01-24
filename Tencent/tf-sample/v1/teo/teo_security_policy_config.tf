@@ -53,6 +53,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
       rules {
         condition                          = ""
         enabled                            = ""
+        id                                 = ""
         managed_rule_groups_for_exception  = []
         managed_rules_for_exception        = []
         name                               = ""
@@ -256,6 +257,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
         count_by              = []
         counting_period       = ""
         enabled               = ""
+        id                    = ""
         max_request_threshold = 0
         name                  = ""
         priority              = 0

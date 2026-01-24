@@ -17,6 +17,7 @@ resource "tencentcloud_mongodb_readonly_instance" "tf-sample-mongodb-readonly-in
   nodes_per_shard        = 0
   prepaid_period         = 0
   project_id             = 0
+  security_groups        = []
   shard_quantity         = 0
   subnet_id              = ""
   volume                 = 0

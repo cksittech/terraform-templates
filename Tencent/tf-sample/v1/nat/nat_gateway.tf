@@ -1,4 +1,5 @@
 resource "tencentcloud_nat_gateway" "tf-sample-nat-gateway" {
+  assigned_eip_set                        = []
   bandwidth                               = 0
   max_concurrent                          = 0
   name                                    = ""

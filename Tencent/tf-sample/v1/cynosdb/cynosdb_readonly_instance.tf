@@ -4,6 +4,7 @@ resource "tencentcloud_cynosdb_readonly_instance" "tf-sample-cynosdb-readonly-in
   instance_cpu_core            = 0
   instance_maintain_duration   = 0
   instance_maintain_start_time = 0
+  instance_maintain_weekdays   = []
   instance_memory_size         = 0
   instance_name                = ""
   subnet_id                    = ""

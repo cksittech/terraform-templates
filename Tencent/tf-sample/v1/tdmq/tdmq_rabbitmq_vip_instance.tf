@@ -10,4 +10,5 @@ resource "tencentcloud_tdmq_rabbitmq_vip_instance" "tf-sample-tdmq-rabbitmq-vip-
   subnet_id                             = ""
   time_span                             = 0
   vpc_id                                = ""
+  zone_ids                              = []
 }
