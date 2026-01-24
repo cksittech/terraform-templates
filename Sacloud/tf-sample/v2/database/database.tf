@@ -4,6 +4,7 @@ resource "sakuracloud_database" "tf-sample-database" {
   description      = ""
   icon_id          = ""
   name             = ""
+  parameters       = {}
   password         = ""
   plan             = ""
   replica_password = ""

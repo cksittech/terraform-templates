@@ -1,5 +1,6 @@
 resource "sakuracloud_mobile_gateway" "tf-sample-mobile-gateway" {
   description                = ""
+  dns_servers                = []
   icon_id                    = ""
   inter_device_communication = false
   internet_connection        = false

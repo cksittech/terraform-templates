@@ -4,6 +4,7 @@ resource "sakuracloud_server" "tf-sample-server" {
   core             = 0
   cpu_model        = ""
   description      = ""
+  disks            = []
   force_shutdown   = false
   gpu              = 0
   gpu_model        = ""
@@ -29,6 +30,7 @@ resource "sakuracloud_server" "tf-sample-server" {
     
     note {
       api_key_id = ""
+      id         = ""
       variables  = {}
     }
   }

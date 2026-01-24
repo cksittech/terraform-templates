@@ -1,6 +1,7 @@
 resource "sakuracloud_disk" "tf-sample-disk" {
   connector            = ""
   description          = ""
+  distant_from         = []
   encryption_algorithm = ""
   icon_id              = ""
   kms_key_id           = ""

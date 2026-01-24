@@ -6,6 +6,7 @@ resource "sakuracloud_auto_scale" "tf-sample-auto-scale" {
   icon_id      = ""
   name         = ""
   trigger_type = ""
+  zones        = []
   
   cpu_threshold_scaling {
     down          = 0

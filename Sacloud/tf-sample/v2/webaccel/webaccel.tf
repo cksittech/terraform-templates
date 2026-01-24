@@ -4,6 +4,7 @@ resource "sakuracloud_webaccel" "tf-sample-webaccel" {
   domain_type         = ""
   name                = ""
   normalize_ae        = ""
+  onetime_url_secrets = []
   request_protocol    = ""
   vary_support        = false
   
