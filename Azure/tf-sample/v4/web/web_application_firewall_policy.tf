@@ -51,6 +51,7 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
         rule {
           action  = ""
           enabled = false
+          id      = ""
         }
       }
     }

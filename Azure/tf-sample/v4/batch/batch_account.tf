@@ -15,6 +15,7 @@ resource "azurerm_batch_account" "tf-sample-batch-account" {
     type         = ""
   }
   key_vault_reference {
+    id  = ""
     url = ""
   }
   network_profile {

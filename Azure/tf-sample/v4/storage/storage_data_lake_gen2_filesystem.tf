@@ -7,6 +7,7 @@ resource "azurerm_storage_data_lake_gen2_filesystem" "tf-sample-storage-data-lak
   storage_account_id       = ""
   
   ace {
+    id          = ""
     permissions = ""
     scope       = ""
     type        = ""

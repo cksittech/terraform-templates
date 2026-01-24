@@ -22,6 +22,7 @@ resource "azurerm_eventgrid_domain" "tf-sample-eventgrid-domain" {
     data_version = ""
     event_time   = ""
     event_type   = ""
+    id           = ""
     subject      = ""
     topic        = ""
   }

@@ -78,6 +78,7 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
     write_accelerator_enabled = false
   }
   storage_image_reference {
+    id        = ""
     offer     = ""
     publisher = ""
     sku       = ""

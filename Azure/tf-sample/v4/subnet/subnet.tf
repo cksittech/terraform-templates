@@ -19,6 +19,7 @@ resource "azurerm_subnet" "tf-sample-subnet" {
     }
   }
   ip_address_pool {
+    id                     = ""
     number_of_ip_addresses = ""
   }
 }

@@ -7,5 +7,6 @@ resource "azurerm_bot_channel_facebook" "tf-sample-bot-channel-facebook" {
   
   page {
     access_token = ""
+    id           = ""
   }
 }

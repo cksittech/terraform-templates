@@ -5,6 +5,7 @@ resource "azurerm_mssql_failover_group" "tf-sample-mssql-failover-group" {
   server_id                                 = ""
   
   partner_server {
+    id = ""
   }
   read_write_endpoint_failover_policy {
     grace_minutes = 0

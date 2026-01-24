@@ -7,6 +7,7 @@ resource "azurerm_spring_cloud_builder" "tf-sample-spring-cloud-builder" {
     name           = ""
   }
   stack {
+    id      = ""
     version = ""
   }
 }

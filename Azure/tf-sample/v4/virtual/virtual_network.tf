@@ -12,11 +12,13 @@ resource "azurerm_virtual_network" "tf-sample-virtual-network" {
   
   ddos_protection_plan {
     enable = false
+    id     = ""
   }
   encryption {
     enforcement = ""
   }
   ip_address_pool {
+    id                     = ""
     number_of_ip_addresses = ""
   }
   

@@ -27,6 +27,7 @@ resource "azurerm_sentinel_metadata" "tf-sample-sentinel-metadata" {
     verticals = []
   }
   source {
+    id   = ""
     kind = ""
     name = ""
   }

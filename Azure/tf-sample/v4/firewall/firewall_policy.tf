@@ -32,6 +32,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
     
     log_analytics_workspace {
       firewall_location = ""
+      id                = ""
     }
   }
   intrusion_detection {
@@ -39,6 +40,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
     private_ranges = []
     
     signature_overrides {
+      id    = ""
       state = ""
     }
     traffic_bypass {

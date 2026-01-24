@@ -76,6 +76,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
     }
   }
   virtual_network_rule {
+    id                                   = ""
     ignore_missing_vnet_service_endpoint = false
   }
   

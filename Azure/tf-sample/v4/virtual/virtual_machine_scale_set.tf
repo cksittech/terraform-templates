@@ -118,6 +118,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
     managed_disk_type = ""
   }
   storage_profile_image_reference {
+    id        = ""
     offer     = ""
     publisher = ""
     sku       = ""

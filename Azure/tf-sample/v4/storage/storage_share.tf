@@ -7,6 +7,8 @@ resource "azurerm_storage_share" "tf-sample-storage-share" {
   storage_account_id = ""
   
   acl {
+    id = ""
+    
     access_policy {
       expiry      = ""
       permissions = ""

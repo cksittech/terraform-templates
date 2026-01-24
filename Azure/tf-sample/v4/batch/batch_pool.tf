@@ -149,6 +149,7 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     }
   }
   storage_image_reference {
+    id        = ""
     offer     = ""
     publisher = ""
     sku       = ""
