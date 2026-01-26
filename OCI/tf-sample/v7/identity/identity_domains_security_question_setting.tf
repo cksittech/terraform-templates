@@ -1,4 +1,5 @@
 resource "oci_identity_domains_security_question_setting" "tf-sample-identity-domains-security-question-setting" {
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   external_id                  = ""
@@ -9,6 +10,7 @@ resource "oci_identity_domains_security_question_setting" "tf-sample-identity-do
   num_questions_to_setup       = 0
   ocid                         = ""
   resource_type_schema_version = ""
+  schemas                      = []
   security_question_setting_id = ""
   
   tags {

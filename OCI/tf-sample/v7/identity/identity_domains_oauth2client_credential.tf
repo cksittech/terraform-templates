@@ -1,4 +1,5 @@
 resource "oci_identity_domains_oauth2client_credential" "tf-sample-identity-domains-oauth2client-credential" {
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   description                  = ""
@@ -8,6 +9,7 @@ resource "oci_identity_domains_oauth2client_credential" "tf-sample-identity-doma
   name                         = ""
   ocid                         = ""
   resource_type_schema_version = ""
+  schemas                      = []
   status                       = ""
   
   scopes {

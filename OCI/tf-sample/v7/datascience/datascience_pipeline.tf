@@ -1,8 +1,11 @@
 resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
   compartment_id               = ""
+  defined_tags                 = {}
   delete_related_pipeline_runs = false
   description                  = ""
   display_name                 = ""
+  freeform_tags                = {}
+  parameters                   = {}
   project_id                   = ""
   
   configuration_details {

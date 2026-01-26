@@ -3,8 +3,10 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   compartment_id              = ""
   config_id                   = ""
   db_version                  = ""
+  defined_tags                = {}
   description                 = ""
   display_name                = ""
+  freeform_tags               = {}
   instance_count              = 0
   instance_memory_size_in_gbs = 0
   instance_ocpu_count         = 0

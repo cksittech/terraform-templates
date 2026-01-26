@@ -1,12 +1,17 @@
 resource "oci_stack_monitoring_monitored_resources_search" "tf-sample-stack-monitoring-monitored-resources-search" {
   compartment_id                        = ""
+  compartment_ids                       = []
+  exclude_fields                        = []
   external_id                           = ""
+  fields                                = []
   host_name                             = ""
   host_name_contains                    = ""
   license                               = ""
+  lifecycle_states                      = []
   management_agent_id                   = ""
   name                                  = ""
   name_contains                         = ""
+  property_equals                       = {}
   resource_category                     = ""
   resource_time_zone                    = ""
   source_type                           = ""

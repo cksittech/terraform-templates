@@ -5,6 +5,7 @@ resource "oci_dns_resolver_endpoint" "tf-sample-dns-resolver-endpoint" {
   is_listening       = false
   listening_address  = ""
   name               = ""
+  nsg_ids            = []
   resolver_id        = ""
   scope              = ""
   subnet_id          = ""

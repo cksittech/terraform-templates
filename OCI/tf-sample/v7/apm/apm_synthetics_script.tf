@@ -3,7 +3,9 @@ resource "oci_apm_synthetics_script" "tf-sample-apm-synthetics-script" {
   content           = ""
   content_file_name = ""
   content_type      = ""
+  defined_tags      = {}
   display_name      = ""
+  freeform_tags     = {}
   
   parameters {
     is_secret   = false

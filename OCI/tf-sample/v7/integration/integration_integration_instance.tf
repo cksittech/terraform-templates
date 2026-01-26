@@ -3,12 +3,14 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
   consumption_model                  = ""
   convert_instance_trigger           = 0
   data_retention_period              = ""
+  defined_tags                       = {}
   disable_process_automation_trigger = 0
   display_name                       = ""
   domain_id                          = ""
   enable_process_automation_trigger  = 0
   extend_data_retention_trigger      = 0
   failover_trigger                   = 0
+  freeform_tags                      = {}
   idcs_at                            = ""
   integration_instance_type          = ""
   is_byol                            = false
@@ -17,6 +19,7 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
   is_visual_builder_enabled          = false
   log_group_id                       = ""
   message_packs                      = 0
+  security_attributes                = {}
   shape                              = ""
   state                              = ""
   
@@ -37,12 +40,14 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
     
     allowlisted_http_vcns {
       allowlisted_ips = []
+      id              = ""
     }
     design_time {
       allowlisted_http_ips = []
       
       allowlisted_http_vcns {
         allowlisted_ips = []
+        id              = ""
       }
     }
     runtime {
@@ -50,6 +55,7 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
       
       allowlisted_http_vcns {
         allowlisted_ips = []
+        id              = ""
       }
     }
   }

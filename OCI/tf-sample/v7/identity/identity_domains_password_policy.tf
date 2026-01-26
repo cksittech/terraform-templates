@@ -1,5 +1,6 @@
 resource "oci_identity_domains_password_policy" "tf-sample-identity-domains-password-policy" {
   allowed_chars                    = ""
+  attribute_sets                   = []
   attributes                       = ""
   authorization                    = ""
   description                      = ""
@@ -7,6 +8,8 @@ resource "oci_identity_domains_password_policy" "tf-sample-identity-domains-pass
   dictionary_location              = ""
   dictionary_word_disallowed       = false
   disallowed_chars                 = ""
+  disallowed_substrings            = []
+  disallowed_user_attribute_values = []
   distinct_characters              = 0
   external_id                      = ""
   first_name_disallowed            = false
@@ -36,6 +39,7 @@ resource "oci_identity_domains_password_policy" "tf-sample-identity-domains-pass
   priority                         = 0
   required_chars                   = ""
   resource_type_schema_version     = ""
+  schemas                          = []
   starts_with_alphabet             = false
   user_name_disallowed             = false
   

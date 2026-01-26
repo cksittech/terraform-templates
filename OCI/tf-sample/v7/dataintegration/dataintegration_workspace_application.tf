@@ -1,6 +1,8 @@
 resource "oci_dataintegration_workspace_application" "tf-sample-dataintegration-workspace-application" {
+  defined_tags  = {}
   description   = ""
   display_name  = ""
+  freeform_tags = {}
   identifier    = ""
   key           = ""
   model_type    = ""

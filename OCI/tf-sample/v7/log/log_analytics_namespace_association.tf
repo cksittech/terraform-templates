@@ -11,6 +11,7 @@ resource "oci_log_analytics_namespace_association" "tf-sample-log-analytics-name
     value = ""
     
     patterns {
+      id    = ""
       value = ""
     }
   }

@@ -1,7 +1,9 @@
 resource "oci_opensearch_opensearch_cluster_pipeline" "tf-sample-opensearch-opensearch-cluster-pipeline" {
   compartment_id                  = ""
   data_prepper_configuration_body = ""
+  defined_tags                    = {}
   display_name                    = ""
+  freeform_tags                   = {}
   memory_gb                       = 0
   node_count                      = 0
   node_shape                      = ""

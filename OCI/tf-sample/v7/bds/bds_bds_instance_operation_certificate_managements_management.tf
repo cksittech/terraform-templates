@@ -5,6 +5,7 @@ resource "oci_bds_bds_instance_operation_certificate_managements_management" "tf
   renew_operation_certificate_management  = false
   root_certificate                        = ""
   server_key_password                     = ""
+  services                                = []
   
   host_cert_details {
     certificate = ""

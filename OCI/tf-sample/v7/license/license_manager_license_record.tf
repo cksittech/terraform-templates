@@ -1,6 +1,8 @@
 resource "oci_license_manager_license_record" "tf-sample-license-manager-license-record" {
+  defined_tags       = {}
   display_name       = ""
   expiration_date    = ""
+  freeform_tags      = {}
   is_perpetual       = false
   is_unlimited       = false
   license_count      = 0

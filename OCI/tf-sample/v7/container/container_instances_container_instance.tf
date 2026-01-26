@@ -2,8 +2,10 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
   availability_domain                  = ""
   compartment_id                       = ""
   container_restart_policy             = ""
+  defined_tags                         = {}
   display_name                         = ""
   fault_domain                         = ""
+  freeform_tags                        = {}
   graceful_shutdown_timeout_in_seconds = ""
   shape                                = ""
   state                                = ""

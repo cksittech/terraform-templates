@@ -1,4 +1,5 @@
 resource "oci_identity_domains_authentication_factor_setting" "tf-sample-identity-domains-authentication-factor-setting" {
+  attribute_sets                    = []
   attributes                        = ""
   authentication_factor_setting_id  = ""
   authorization                     = ""
@@ -13,9 +14,11 @@ resource "oci_identity_domains_authentication_factor_setting" "tf-sample-identit
   phone_call_enabled                = false
   push_enabled                      = false
   resource_type_schema_version      = ""
+  schemas                           = []
   security_questions_enabled        = false
   sms_enabled                       = false
   totp_enabled                      = false
+  user_enrollment_disabled_factors  = []
   yubico_otp_enabled                = false
   
   bypass_code_settings {

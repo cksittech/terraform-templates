@@ -8,6 +8,7 @@ resource "oci_objectstorage_object" "tf-sample-objectstorage-object" {
   content_md5                = ""
   content_type               = ""
   delete_all_object_versions = false
+  metadata                   = {}
   namespace                  = ""
   object                     = ""
   opc_sse_kms_key_id         = ""

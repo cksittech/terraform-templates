@@ -1,4 +1,5 @@
 resource "oci_devops_repository_protected_branch_management" "tf-sample-devops-repository-protected-branch-management" {
   branch_name       = ""
+  protection_levels = []
   repository_id     = ""
 }

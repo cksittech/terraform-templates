@@ -4,9 +4,11 @@ resource "oci_database_exascale_db_storage_vault" "tf-sample-database-exascale-d
   availability_domain               = ""
   cluster_placement_group_id        = ""
   compartment_id                    = ""
+  defined_tags                      = {}
   description                       = ""
   display_name                      = ""
   exadata_infrastructure_id         = ""
+  freeform_tags                     = {}
   is_autoscale_enabled              = false
   subscription_id                   = ""
   time_zone                         = ""

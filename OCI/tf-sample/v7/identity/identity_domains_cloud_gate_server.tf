@@ -1,4 +1,5 @@
 resource "oci_identity_domains_cloud_gate_server" "tf-sample-identity-domains-cloud-gate-server" {
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   description                  = ""
@@ -9,6 +10,7 @@ resource "oci_identity_domains_cloud_gate_server" "tf-sample-identity-domains-cl
   ocid                         = ""
   port                         = 0
   resource_type_schema_version = ""
+  schemas                      = []
   ssl                          = false
   
   cloud_gate {

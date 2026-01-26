@@ -1,7 +1,9 @@
 resource "oci_media_services_media_asset" "tf-sample-media-services-media-asset" {
   bucket                        = ""
   compartment_id                = ""
+  defined_tags                  = {}
   display_name                  = ""
+  freeform_tags                 = {}
   is_lock_override              = false
   master_media_asset_id         = ""
   media_workflow_job_id         = ""

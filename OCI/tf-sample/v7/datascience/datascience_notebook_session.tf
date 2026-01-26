@@ -1,6 +1,8 @@
 resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-session" {
   compartment_id = ""
+  defined_tags   = {}
   display_name   = ""
+  freeform_tags  = {}
   project_id     = ""
   state          = ""
   

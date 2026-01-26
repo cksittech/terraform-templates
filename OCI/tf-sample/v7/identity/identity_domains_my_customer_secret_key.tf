@@ -6,6 +6,7 @@ resource "oci_identity_domains_my_customer_secret_key" "tf-sample-identity-domai
   idcs_endpoint                = ""
   ocid                         = ""
   resource_type_schema_version = ""
+  schemas                      = []
   status                       = ""
   
   tags {

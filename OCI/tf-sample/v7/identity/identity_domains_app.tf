@@ -4,8 +4,11 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   all_url_schemes_allowed           = false
   allow_access_control              = false
   allow_offline                     = false
+  allowed_grants                    = []
+  allowed_operations                = []
   app_icon                          = ""
   app_thumbnail                     = ""
+  attribute_sets                    = []
   attributes                        = ""
   audience                          = ""
   authorization                     = ""
@@ -13,6 +16,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   client_ip_checking                = ""
   client_type                       = ""
   contact_email_address             = ""
+  delegated_service_names           = []
   description                       = ""
   disable_kmsi_token_authentication = false
   display_name                      = ""
@@ -44,11 +48,15 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   logout_uri                        = ""
   name                              = ""
   ocid                              = ""
+  post_logout_redirect_uris         = []
   privacy_policy_url                = ""
   product_logo_url                  = ""
   product_name                      = ""
+  redirect_uris                     = []
   refresh_token_expiry              = 0
   resource_type_schema_version      = ""
+  schemas                           = []
+  secondary_audiences               = []
   service_type_urn                  = ""
   service_type_version              = ""
   show_in_my_apps                   = false

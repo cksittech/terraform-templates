@@ -1,6 +1,9 @@
 resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-policy" {
   compartment_id = ""
+  defined_tags   = {}
   display_name   = ""
+  freeform_tags  = {}
+  system_tags    = {}
   
   actions {
     code = 0

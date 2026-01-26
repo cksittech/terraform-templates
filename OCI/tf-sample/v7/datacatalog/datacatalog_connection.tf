@@ -3,6 +3,8 @@ resource "oci_datacatalog_connection" "tf-sample-datacatalog-connection" {
   data_asset_key = ""
   description    = ""
   display_name   = ""
+  enc_properties = {}
   is_default     = false
+  properties     = {}
   type_key       = ""
 }

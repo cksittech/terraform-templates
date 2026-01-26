@@ -1,13 +1,17 @@
 resource "oci_dataflow_application" "tf-sample-dataflow-application" {
   archive_uri                = ""
+  arguments                  = []
   class_name                 = ""
   compartment_id             = ""
+  configuration              = {}
+  defined_tags               = {}
   description                = ""
   display_name               = ""
   driver_shape               = ""
   execute                    = ""
   executor_shape             = ""
   file_uri                   = ""
+  freeform_tags              = {}
   idle_timeout_in_minutes    = ""
   language                   = ""
   logs_bucket_uri            = ""

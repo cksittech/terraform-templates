@@ -9,6 +9,7 @@ resource "oci_osp_gateway_subscription" "tf-sample-osp-gateway-subscription" {
     bill_to_cust_account_id         = ""
     currency_code                   = ""
     gsi_org_code                    = ""
+    id                              = ""
     is_corporate_conversion_allowed = false
     is_intent_to_pay                = false
     language_code                   = ""

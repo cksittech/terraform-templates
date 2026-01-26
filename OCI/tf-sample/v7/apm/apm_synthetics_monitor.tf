@@ -1,7 +1,9 @@
 resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
   apm_domain_id              = ""
   batch_interval_in_seconds  = 0
+  defined_tags               = {}
   display_name               = ""
+  freeform_tags              = {}
   is_ipv6                    = false
   is_run_now                 = false
   is_run_once                = false

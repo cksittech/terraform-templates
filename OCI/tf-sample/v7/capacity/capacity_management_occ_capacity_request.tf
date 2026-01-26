@@ -2,8 +2,10 @@ resource "oci_capacity_management_occ_capacity_request" "tf-sample-capacity-mana
   availability_domain             = ""
   compartment_id                  = ""
   date_expected_capacity_handover = ""
+  defined_tags                    = {}
   description                     = ""
   display_name                    = ""
+  freeform_tags                   = {}
   lifecycle_details               = ""
   namespace                       = ""
   occ_availability_catalog_id     = ""

@@ -2,9 +2,11 @@ resource "oci_devops_build_pipeline_stage" "tf-sample-devops-build-pipeline-stag
   build_pipeline_id                  = ""
   build_pipeline_stage_type          = ""
   build_spec_file                    = ""
+  defined_tags                       = {}
   deploy_pipeline_id                 = ""
   description                        = ""
   display_name                       = ""
+  freeform_tags                      = {}
   image                              = ""
   is_pass_all_parameters_enabled     = false
   primary_build_source               = ""
@@ -12,6 +14,7 @@ resource "oci_devops_build_pipeline_stage" "tf-sample-devops-build-pipeline-stag
   
   build_pipeline_stage_predecessor_collection {
     items {
+      id = ""
     }
   }
   build_runner_shape_config {

@@ -9,10 +9,12 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   db_split_threshold                                = 0
   db_unique_name                                    = ""
   db_version                                        = ""
+  defined_tags                                      = {}
   display_name                                      = ""
   distribution_affinity                             = ""
   failover_trigger                                  = 0
   fast_start_fail_over_lag_limit_in_seconds         = 0
+  freeform_tags                                     = {}
   is_automatic_failover_enabled                     = false
   is_dst_file_update_enabled                        = false
   key_store_id                                      = ""
@@ -43,6 +45,7 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
     
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
+      id                                   = ""
       internet_proxy                       = ""
       is_remote                            = false
       is_retention_lock_enabled            = false
@@ -78,6 +81,7 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
     
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
+      id                                   = ""
       internet_proxy                       = ""
       is_remote                            = false
       is_retention_lock_enabled            = false

@@ -6,12 +6,15 @@ resource "oci_globally_distributed_database_sharded_database" "tf-sample-globall
   compartment_id                                        = ""
   configure_gsms_trigger                                = 0
   configure_gsms_trigger_is_latest_gsm_image            = false
+  configure_gsms_trigger_old_gsm_names                  = []
   configure_sharding_trigger                            = 0
   db_deployment_type                                    = ""
   db_version                                            = ""
   db_workload                                           = ""
+  defined_tags                                          = {}
   display_name                                          = ""
   download_gsm_certificate_signing_request_trigger      = 0
+  freeform_tags                                         = {}
   generate_gsm_certificate_signing_request_trigger      = 0
   generate_wallet_password                              = ""
   generate_wallet_trigger                               = 0

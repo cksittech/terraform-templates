@@ -3,6 +3,7 @@ resource "oci_metering_computation_usage_carbon_emission" "tf-sample-metering-co
   emission_calculation_method  = ""
   emission_type                = ""
   granularity                  = ""
+  group_by                     = []
   is_aggregate_by_time         = false
   tenant_id                    = ""
   time_usage_ended             = ""

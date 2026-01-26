@@ -1,7 +1,9 @@
 resource "oci_ai_document_model" "tf-sample-ai-document-model" {
   compartment_id             = ""
+  defined_tags               = {}
   description                = ""
   display_name               = ""
+  freeform_tags              = {}
   inference_units            = 0
   is_quick_mode              = false
   language                   = ""

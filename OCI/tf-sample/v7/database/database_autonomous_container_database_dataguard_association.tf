@@ -18,6 +18,7 @@ resource "oci_database_autonomous_container_database_dataguard_association" "tf-
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
       dbrs_policy_id                       = ""
+      id                                   = ""
       internet_proxy                       = ""
       is_remote                            = false
       is_retention_lock_enabled            = false

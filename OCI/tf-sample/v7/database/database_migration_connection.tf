@@ -5,10 +5,13 @@ resource "oci_database_migration_connection" "tf-sample-database-migration-conne
   database_id          = ""
   database_name        = ""
   db_system_id         = ""
+  defined_tags         = {}
   description          = ""
   display_name         = ""
+  freeform_tags        = {}
   host                 = ""
   key_id               = ""
+  nsg_ids              = []
   password             = ""
   port                 = 0
   replication_password = ""

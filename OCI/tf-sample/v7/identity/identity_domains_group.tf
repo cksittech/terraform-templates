@@ -1,4 +1,5 @@
 resource "oci_identity_domains_group" "tf-sample-identity-domains-group" {
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   display_name                 = ""
@@ -8,6 +9,7 @@ resource "oci_identity_domains_group" "tf-sample-identity-domains-group" {
   non_unique_display_name      = ""
   ocid                         = ""
   resource_type_schema_version = ""
+  schemas                      = []
   
   members {
     ocid  = ""

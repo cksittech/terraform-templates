@@ -3,8 +3,10 @@ resource "oci_devops_connection" "tf-sample-devops-connection" {
   app_password    = ""
   base_url        = ""
   connection_type = ""
+  defined_tags    = {}
   description     = ""
   display_name    = ""
+  freeform_tags   = {}
   project_id      = ""
   username        = ""
   

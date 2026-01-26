@@ -1,4 +1,5 @@
 resource "oci_identity_domains_dynamic_resource_group" "tf-sample-identity-domains-dynamic-resource-group" {
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   description                  = ""
@@ -7,6 +8,7 @@ resource "oci_identity_domains_dynamic_resource_group" "tf-sample-identity-domai
   matching_rule                = ""
   ocid                         = ""
   resource_type_schema_version = ""
+  schemas                      = []
   
   tags {
     key   = ""

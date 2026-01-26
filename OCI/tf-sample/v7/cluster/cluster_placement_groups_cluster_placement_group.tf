@@ -2,7 +2,9 @@ resource "oci_cluster_placement_groups_cluster_placement_group" "tf-sample-clust
   availability_domain          = ""
   cluster_placement_group_type = ""
   compartment_id               = ""
+  defined_tags                 = {}
   description                  = ""
+  freeform_tags                = {}
   name                         = ""
   opc_dry_run                  = false
   state                        = ""

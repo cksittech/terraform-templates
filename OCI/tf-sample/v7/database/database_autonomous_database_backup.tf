@@ -6,6 +6,7 @@ resource "oci_database_autonomous_database_backup" "tf-sample-database-autonomou
   
   backup_destination_details {
     backup_retention_policy_on_terminate = ""
+    id                                   = ""
     internet_proxy                       = ""
     is_remote                            = false
     is_retention_lock_enabled            = false

@@ -1,5 +1,6 @@
 resource "oci_identity_domains_identity_provider" "tf-sample-identity-domains-identity-provider" {
   assertion_attribute                             = ""
+  attribute_sets                                  = []
   attributes                                      = ""
   authn_request_binding                           = ""
   authorization                                   = ""
@@ -29,10 +30,12 @@ resource "oci_identity_domains_identity_provider" "tf-sample-identity-domains-id
   ocid                                            = ""
   partner_name                                    = ""
   partner_provider_id                             = ""
+  requested_authentication_context                = []
   require_force_authn                             = false
   requires_encrypted_assertion                    = false
   resource_type_schema_version                    = ""
   saml_ho_krequired                               = false
+  schemas                                         = []
   service_instance_identifier                     = ""
   shown_on_login_page                             = false
   signature_hash_algorithm                        = ""

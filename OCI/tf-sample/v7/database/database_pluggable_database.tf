@@ -2,6 +2,8 @@ resource "oci_database_pluggable_database" "tf-sample-database-pluggable-databas
   container_database_admin_password  = ""
   container_database_id              = ""
   convert_to_regular_trigger         = 0
+  defined_tags                       = {}
+  freeform_tags                      = {}
   kms_key_version_id                 = ""
   pdb_admin_password                 = ""
   pdb_name                           = ""

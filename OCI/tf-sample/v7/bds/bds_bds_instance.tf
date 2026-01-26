@@ -5,7 +5,10 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
   cluster_public_key          = ""
   cluster_version             = ""
   compartment_id              = ""
+  defined_tags                = {}
   display_name                = ""
+  freeform_tags               = {}
+  ignore_existing_nodes_shape = []
   is_cloud_sql_configured     = false
   is_force_remove_enabled     = false
   is_force_stop_jobs          = false

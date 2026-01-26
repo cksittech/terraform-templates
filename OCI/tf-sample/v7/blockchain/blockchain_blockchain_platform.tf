@@ -2,9 +2,11 @@ resource "oci_blockchain_blockchain_platform" "tf-sample-blockchain-blockchain-p
   ca_cert_archive_text = ""
   compartment_id       = ""
   compute_shape        = ""
+  defined_tags         = {}
   description          = ""
   display_name         = ""
   federated_user_id    = ""
+  freeform_tags        = {}
   idcs_access_token    = ""
   is_byol              = false
   load_balancer_shape  = ""

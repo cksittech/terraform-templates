@@ -10,6 +10,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   backup_retention_period_in_days                = 0
   byol_compute_count_limit                       = 0
   character_set                                  = ""
+  clone_table_space_list                         = []
   clone_type                                     = ""
   compartment_id                                 = ""
   compute_count                                  = 0
@@ -23,9 +24,11 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   db_name                                        = ""
   db_version                                     = ""
   db_workload                                    = ""
+  defined_tags                                   = {}
   disaster_recovery_type                         = ""
   display_name                                   = ""
   enable_delete_scheduled_operations             = false
+  freeform_tags                                  = {}
   in_memory_percentage                           = 0
   is_access_control_enabled                      = false
   is_auto_scaling_enabled                        = false
@@ -50,6 +53,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   local_adg_resource_pool_leader_id              = ""
   max_cpu_core_count                             = 0
   ncharacter_set                                 = ""
+  nsg_ids                                        = []
   ocpu_count                                     = 0
   open_mode                                      = ""
   operations_insights_status                     = ""
@@ -63,9 +67,11 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   rotate_key_trigger                             = false
   secret_id                                      = ""
   secret_version_number                          = 0
+  security_attributes                            = {}
   shrink_adb_trigger                             = 0
   source                                         = ""
   source_id                                      = ""
+  standby_whitelisted_ips                        = []
   state                                          = ""
   subnet_id                                      = ""
   subscription_id                                = ""
@@ -77,6 +83,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   timestamp                                      = ""
   use_latest_available_backup_time_stamp         = false
   vault_id                                       = ""
+  whitelisted_ips                                = []
   
   autonomous_database_maintenance_window {
     maintenance_end_time   = ""
@@ -134,6 +141,9 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
     day_of_week {
       name = ""
     }
+  }
+  transportable_tablespace {
+    tts_bundle_url = ""
   }
   vanity_url_details {
     api_gateway_id       = ""

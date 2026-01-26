@@ -1,7 +1,9 @@
 resource "oci_kms_key" "tf-sample-kms-key" {
   compartment_id           = ""
+  defined_tags             = {}
   desired_state            = ""
   display_name             = ""
+  freeform_tags            = {}
   is_auto_rotation_enabled = false
   management_endpoint      = ""
   protection_mode          = ""

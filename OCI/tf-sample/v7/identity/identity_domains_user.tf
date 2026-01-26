@@ -1,5 +1,6 @@
 resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   active                       = false
+  attribute_sets               = []
   attributes                   = ""
   authorization                = ""
   description                  = ""
@@ -14,6 +15,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   preferred_language           = ""
   profile_url                  = ""
   resource_type_schema_version = ""
+  schemas                      = []
   timezone                     = ""
   title                        = ""
   user_name                    = ""

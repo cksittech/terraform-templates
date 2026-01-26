@@ -1,7 +1,9 @@
 resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recovery-dr-protection-group" {
   compartment_id       = ""
+  defined_tags         = {}
   disassociate_trigger = 0
   display_name         = ""
+  freeform_tags        = {}
   
   association {
     peer_id     = ""
@@ -110,6 +112,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
       source_load_balancer_id      = ""
     }
     managed_node_pool_configs {
+      id      = ""
       maximum = 0
       minimum = 0
     }
@@ -134,6 +137,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
       source_vault_id      = ""
     }
     virtual_node_pool_configs {
+      id      = ""
       maximum = 0
       minimum = 0
     }

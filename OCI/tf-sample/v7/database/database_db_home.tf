@@ -2,8 +2,10 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
   database_software_image_id  = ""
   db_system_id                = ""
   db_version                  = ""
+  defined_tags                = {}
   display_name                = ""
   enable_database_delete      = false
+  freeform_tags               = {}
   is_desupported_version      = false
   is_unified_auditing_enabled = false
   kms_key_id                  = ""
@@ -45,6 +47,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
       backup_destination_details {
         backup_retention_policy_on_terminate = ""
         dbrs_policy_id                       = ""
+        id                                   = ""
         is_remote                            = false
         is_retention_lock_enabled            = false
         remote_region                        = ""

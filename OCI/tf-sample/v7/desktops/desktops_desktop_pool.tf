@@ -4,10 +4,13 @@ resource "oci_desktops_desktop_pool" "tf-sample-desktops-desktop-pool" {
   availability_domain      = ""
   compartment_id           = ""
   contact_details          = ""
+  defined_tags             = {}
   description              = ""
   display_name             = ""
+  freeform_tags            = {}
   is_storage_enabled       = false
   maximum_size             = 0
+  nsg_ids                  = []
   shape_name               = ""
   standby_size             = 0
   storage_backup_policy_id = ""

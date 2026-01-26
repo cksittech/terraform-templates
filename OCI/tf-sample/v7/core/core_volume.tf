@@ -3,7 +3,9 @@ resource "oci_core_volume" "tf-sample-core-volume" {
   block_volume_replicas_deletion = false
   cluster_placement_group_id     = ""
   compartment_id                 = ""
+  defined_tags                   = {}
   display_name                   = ""
+  freeform_tags                  = {}
   is_auto_tune_enabled           = false
   is_reservations_enabled        = false
   kms_key_id                     = ""
@@ -24,6 +26,7 @@ resource "oci_core_volume" "tf-sample-core-volume" {
   source_details {
     change_block_size_in_bytes = ""
     first_backup_id            = ""
+    id                         = ""
     second_backup_id           = ""
     type                       = ""
   }

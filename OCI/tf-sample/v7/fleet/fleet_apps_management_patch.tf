@@ -1,6 +1,8 @@
 resource "oci_fleet_apps_management_patch" "tf-sample-fleet-apps-management-patch" {
   compartment_id = ""
+  defined_tags   = {}
   description    = ""
+  freeform_tags  = {}
   name           = ""
   severity       = ""
   time_released  = ""
@@ -31,6 +33,7 @@ resource "oci_fleet_apps_management_patch" "tf-sample-fleet-apps-management-patc
     }
   }
   dependent_patches {
+    id = ""
   }
   patch_type {
     platform_configuration_id = ""

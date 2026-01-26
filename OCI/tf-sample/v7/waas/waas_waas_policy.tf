@@ -1,7 +1,10 @@
 resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
+  additional_domains = []
   compartment_id     = ""
+  defined_tags       = {}
   display_name       = ""
   domain             = ""
+  freeform_tags      = {}
   
   origin_groups {
     label = ""
@@ -117,6 +120,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
     }
     custom_protection_rules {
       action = ""
+      id     = ""
       
       exclusions {
         exclusions = []

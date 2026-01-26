@@ -1,11 +1,14 @@
 resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
   compartment_id                        = ""
+  defined_tags                          = {}
   display_name                          = ""
   esxi_software_version                 = ""
+  freeform_tags                         = {}
   hcx_action                            = ""
   is_hcx_enabled                        = false
   is_single_host_sddc                   = false
   refresh_hcx_license_status            = false
+  reserving_hcx_on_premise_license_keys = []
   ssh_authorized_keys                   = ""
   vmware_software_version               = ""
   

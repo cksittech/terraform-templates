@@ -2,9 +2,11 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
   artifact_content_disposition = ""
   artifact_content_length      = ""
   compartment_id               = ""
+  defined_tags                 = {}
   delete_related_job_runs      = false
   description                  = ""
   display_name                 = ""
+  freeform_tags                = {}
   job_artifact                 = ""
   project_id                   = ""
   

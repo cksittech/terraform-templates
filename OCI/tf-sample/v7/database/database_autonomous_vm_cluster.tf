@@ -3,8 +3,11 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   compartment_id                        = ""
   compute_model                         = ""
   cpu_core_count_per_node               = 0
+  db_servers                            = []
+  defined_tags                          = {}
   display_name                          = ""
   exadata_infrastructure_id             = ""
+  freeform_tags                         = {}
   is_local_backup_enabled               = false
   is_mtls_enabled                       = false
   license_model                         = ""

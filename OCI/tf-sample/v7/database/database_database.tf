@@ -52,6 +52,7 @@ resource "oci_database_database" "tf-sample-database-database" {
       backup_destination_details {
         backup_retention_policy_on_terminate = ""
         dbrs_policy_id                       = ""
+        id                                   = ""
         is_remote                            = false
         is_retention_lock_enabled            = false
         remote_region                        = ""
@@ -66,6 +67,10 @@ resource "oci_database_database" "tf-sample-database-database" {
       google_cloud_provider_encryption_key_id = ""
       hsm_password                            = ""
       provider_type                           = ""
+    }
+    patch_options {
+      should_skip_closed_pdbs = false
+      should_skip_data_patch  = false
     }
     source_encryption_key_location_details {
       hsm_password  = ""
