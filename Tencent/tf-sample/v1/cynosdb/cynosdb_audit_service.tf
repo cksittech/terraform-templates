@@ -1,7 +1,0 @@
-resource "tencentcloud_cynosdb_audit_service" "tf-sample-cynosdb-audit-service" {
-  audit_all           = false
-  high_log_expire_day = 0
-  instance_id         = ""
-  log_expire_day      = 0
-  rule_template_ids   = []
-}
