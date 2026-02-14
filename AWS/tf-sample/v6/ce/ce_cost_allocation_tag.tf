@@ -1,0 +1,4 @@
+resource "aws_ce_cost_allocation_tag" "tf-sample-ce-cost-allocation-tag" {
+  status  = ""
+  tag_key = ""
+}
