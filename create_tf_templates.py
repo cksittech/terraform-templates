@@ -16,7 +16,7 @@ REGISTRIES = {
     "gcp": "hashicorp/google",
     "oci": "hashicorp/oci",
     "ibm": "ibm-cloud/ibm",
-    "alicloud": "hashicorp/alicloud",
+    "alicloud": "aliyun/alicloud",
     "tencentcloud": "tencentcloudstack/tencentcloud",
     "sacloud": "sacloud/sakuracloud",
 }
