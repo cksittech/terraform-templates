@@ -1,0 +1,80 @@
+resource "aws_vpn_connection" "tf-sample-vpn-connection" {
+  customer_gateway_id                     = ""
+  enable_acceleration                     = false
+  local_ipv4_network_cidr                 = ""
+  local_ipv6_network_cidr                 = ""
+  outside_ip_address_type                 = ""
+  preshared_key_storage                   = ""
+  region                                  = ""
+  remote_ipv4_network_cidr                = ""
+  remote_ipv6_network_cidr                = ""
+  static_routes_only                      = false
+  transit_gateway_id                      = ""
+  transport_transit_gateway_attachment_id = ""
+  tunnel1_dpd_timeout_action              = ""
+  tunnel1_dpd_timeout_seconds             = 0
+  tunnel1_enable_tunnel_lifecycle_control = false
+  tunnel1_ike_versions                    = []
+  tunnel1_inside_cidr                     = ""
+  tunnel1_inside_ipv6_cidr                = ""
+  tunnel1_phase1_dh_group_numbers         = []
+  tunnel1_phase1_encryption_algorithms    = []
+  tunnel1_phase1_integrity_algorithms     = []
+  tunnel1_phase1_lifetime_seconds         = 0
+  tunnel1_phase2_dh_group_numbers         = []
+  tunnel1_phase2_encryption_algorithms    = []
+  tunnel1_phase2_integrity_algorithms     = []
+  tunnel1_phase2_lifetime_seconds         = 0
+  tunnel1_preshared_key                   = ""
+  tunnel1_rekey_fuzz_percentage           = 0
+  tunnel1_rekey_margin_time_seconds       = 0
+  tunnel1_replay_window_size              = 0
+  tunnel1_startup_action                  = ""
+  tunnel2_dpd_timeout_action              = ""
+  tunnel2_dpd_timeout_seconds             = 0
+  tunnel2_enable_tunnel_lifecycle_control = false
+  tunnel2_ike_versions                    = []
+  tunnel2_inside_cidr                     = ""
+  tunnel2_inside_ipv6_cidr                = ""
+  tunnel2_phase1_dh_group_numbers         = []
+  tunnel2_phase1_encryption_algorithms    = []
+  tunnel2_phase1_integrity_algorithms     = []
+  tunnel2_phase1_lifetime_seconds         = 0
+  tunnel2_phase2_dh_group_numbers         = []
+  tunnel2_phase2_encryption_algorithms    = []
+  tunnel2_phase2_integrity_algorithms     = []
+  tunnel2_phase2_lifetime_seconds         = 0
+  tunnel2_preshared_key                   = ""
+  tunnel2_rekey_fuzz_percentage           = 0
+  tunnel2_rekey_margin_time_seconds       = 0
+  tunnel2_replay_window_size              = 0
+  tunnel2_startup_action                  = ""
+  tunnel_bandwidth                        = ""
+  tunnel_inside_ip_version                = ""
+  type                                    = ""
+  vpn_concentrator_id                     = ""
+  vpn_gateway_id                          = ""
+  
+  tunnel1_log_options {
+    cloudwatch_log_options {
+      bgp_log_enabled       = false
+      bgp_log_group_arn     = ""
+      bgp_log_output_format = ""
+      log_enabled           = false
+      log_group_arn         = ""
+      log_output_format     = ""
+    }
+  }
+  tunnel2_log_options {
+    cloudwatch_log_options {
+      bgp_log_enabled       = false
+      bgp_log_group_arn     = ""
+      bgp_log_output_format = ""
+      log_enabled           = false
+      log_group_arn         = ""
+      log_output_format     = ""
+    }
+  }
+  
+  tags = {}
+}

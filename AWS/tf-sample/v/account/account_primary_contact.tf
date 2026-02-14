@@ -1,0 +1,15 @@
+resource "aws_account_primary_contact" "tf-sample-account-primary-contact" {
+  account_id         = ""
+  address_line_1     = ""
+  address_line_2     = ""
+  address_line_3     = ""
+  city               = ""
+  company_name       = ""
+  country_code       = ""
+  district_or_county = ""
+  full_name          = ""
+  phone_number       = ""
+  postal_code        = ""
+  state_or_region    = ""
+  website_url        = ""
+}
