@@ -1,0 +1,5 @@
+resource "aws_config_configuration_recorder_status" "tf-sample-config-configuration-recorder-status" {
+  is_enabled = false
+  name       = ""
+  region     = ""
+}
