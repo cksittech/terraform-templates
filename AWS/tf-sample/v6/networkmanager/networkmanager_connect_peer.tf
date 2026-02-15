@@ -6,7 +6,7 @@ resource "aws_networkmanager_connect_peer" "tf-sample-networkmanager-connect-pee
   subnet_arn            = ""
   
   bgp_options {
-    peer_asn = 0
+    peer_asn = ""
   }
   
   tags = {}

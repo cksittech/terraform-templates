@@ -1,5 +1,6 @@
 resource "aws_lambda_function" "tf-sample-lambda-function" {
   architectures                      = []
+  code_sha256                        = ""
   code_signing_config_arn            = ""
   description                        = ""
   filename                           = ""
