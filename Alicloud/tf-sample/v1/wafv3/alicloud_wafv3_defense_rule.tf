@@ -10,12 +10,14 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
   
   config {
     abroad_regions       = ""
+    auto_update          = false
     bypass_regular_rules = []
     bypass_regular_types = []
     bypass_tags          = []
     cc_effect            = ""
     cc_status            = 0
     cn_regions           = ""
+    codec_list           = []
     gray_status          = 0
     mode                 = 0
     protocol             = ""
@@ -72,6 +74,16 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
           end   = 0
           start = 0
         }
+      }
+    }
+    waf_base_config {
+      rule_batch_operation_config = ""
+      rule_type                   = ""
+      
+      rule_detail {
+        rule_action = ""
+        rule_id     = ""
+        rule_status = 0
       }
     }
   }

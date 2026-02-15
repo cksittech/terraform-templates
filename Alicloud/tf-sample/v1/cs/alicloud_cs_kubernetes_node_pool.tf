@@ -165,7 +165,10 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     private_pool_options_match_criteria = ""
   }
   rolling_policy {
+    batch_interval  = ""
     max_parallelism = 0
+    node_names      = []
+    pause_policy    = ""
   }
   rollout_policy {
     max_unavailable = 0
@@ -190,6 +193,13 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   }
   tee_config {
     tee_enable = false
+  }
+  upgrade_policy {
+    image_id           = ""
+    kubernetes_version = ""
+    runtime            = ""
+    runtime_version    = ""
+    use_replace        = false
   }
   
   tags = {}

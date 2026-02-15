@@ -24,20 +24,23 @@ resource "alicloud_wafv3_domain" "tf-sample-wafv3-domain" {
     xff_headers         = []
   }
   redirect {
-    backends           = []
-    backup_backends    = []
-    connect_timeout    = 0
-    focus_http_backend = false
-    keepalive          = false
-    keepalive_requests = 0
-    keepalive_timeout  = 0
-    loadbalance        = ""
-    read_timeout       = 0
-    retry              = false
-    sni_enabled        = false
-    sni_host           = ""
-    write_timeout      = 0
-    xff_proto          = false
+    backends                     = []
+    backup_backends              = []
+    connect_timeout              = 0
+    focus_http_backend           = false
+    http2_origin                 = false
+    http2_origin_max_concurrency = 0
+    keepalive                    = false
+    keepalive_requests           = 0
+    keepalive_timeout            = 0
+    loadbalance                  = ""
+    max_body_size                = 0
+    read_timeout                 = 0
+    retry                        = false
+    sni_enabled                  = false
+    sni_host                     = ""
+    write_timeout                = 0
+    xff_proto                    = false
     
     request_headers {
       key   = ""

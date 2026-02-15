@@ -105,6 +105,9 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
     key    = ""
     value  = ""
   }
+  upgrade_policy {
+    control_plane_only = false
+  }
   worker_data_disks {
     auto_snapshot_policy_id = ""
     category                = ""
