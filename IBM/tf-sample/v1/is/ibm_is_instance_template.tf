@@ -18,6 +18,12 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
   vpc                               = ""
   zone                              = ""
   
+  availability {
+    class = ""
+  }
+  availability_policy {
+    preemption = ""
+  }
   boot_volume {
     bandwidth                        = 0
     delete_volume_on_instance_delete = false

@@ -2,7 +2,6 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   access_tags                       = []
   action                            = ""
   auto_delete_volume                = false
-  availability_policy_host_failure  = ""
   confidential_compute_mode         = ""
   dedicated_host                    = ""
   dedicated_host_group              = ""
@@ -26,6 +25,13 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   wait_before_delete                = false
   zone                              = ""
   
+  availability {
+    class = ""
+  }
+  availability_policy {
+    host_failure = ""
+    preemption   = ""
+  }
   boot_volume {
     auto_delete_volume = false
     bandwidth          = 0
