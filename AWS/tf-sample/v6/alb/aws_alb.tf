@@ -1,0 +1,52 @@
+resource "aws_alb" "tf-sample-alb" {
+  client_keep_alive                                            = 0
+  customer_owned_ipv4_pool                                     = ""
+  desync_mitigation_mode                                       = ""
+  dns_record_client_routing_policy                             = ""
+  drop_invalid_header_fields                                   = false
+  enable_cross_zone_load_balancing                             = false
+  enable_deletion_protection                                   = false
+  enable_http2                                                 = false
+  enable_tls_version_and_cipher_suite_headers                  = false
+  enable_waf_fail_open                                         = false
+  enable_xff_client_port                                       = false
+  enable_zonal_shift                                           = false
+  enforce_security_group_inbound_rules_on_private_link_traffic = ""
+  idle_timeout                                                 = 0
+  internal                                                     = false
+  ip_address_type                                              = ""
+  load_balancer_type                                           = ""
+  name                                                         = ""
+  name_prefix                                                  = ""
+  preserve_host_header                                         = false
+  region                                                       = ""
+  secondary_ips_auto_assigned_per_subnet                       = 0
+  security_groups                                              = []
+  subnets                                                      = []
+  xff_header_processing_mode                                   = ""
+  
+  access_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
+  connection_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
+  ipam_pools {
+    ipv4_ipam_pool_id = ""
+  }
+  minimum_load_balancer_capacity {
+    capacity_units = 0
+  }
+  subnet_mapping {
+    allocation_id        = ""
+    ipv6_address         = ""
+    private_ipv4_address = ""
+    subnet_id            = ""
+  }
+  
+  tags = {}
+}
