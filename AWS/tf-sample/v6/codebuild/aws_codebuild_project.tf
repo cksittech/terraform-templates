@@ -36,9 +36,10 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     }
   }
   cache {
-    location = ""
-    modes    = []
-    type     = ""
+    cache_namespace = ""
+    location        = ""
+    modes           = []
+    type            = ""
   }
   environment {
     certificate                 = ""
