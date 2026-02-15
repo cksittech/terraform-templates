@@ -5,6 +5,7 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   certificate_name                       = ""
   certificate_private_key                = ""
   domain_name                            = ""
+  endpoint_access_mode                   = ""
   ownership_verification_certificate_arn = ""
   policy                                 = ""
   region                                 = ""

@@ -3,6 +3,7 @@ resource "aws_osis_pipeline" "tf-sample-osis-pipeline" {
   min_units                   = 0
   pipeline_configuration_body = ""
   pipeline_name               = ""
+  pipeline_role_arn           = ""
   region                      = ""
   
   buffer_options {

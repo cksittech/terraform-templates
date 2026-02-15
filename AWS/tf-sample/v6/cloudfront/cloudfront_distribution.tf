@@ -13,6 +13,9 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   wait_for_deployment             = false
   web_acl_id                      = ""
   
+  connection_function_association {
+    id = ""
+  }
   custom_error_response {
     error_caching_min_ttl = 0
     error_code            = 0
@@ -139,6 +142,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
     vpc_origin_config {
       origin_keepalive_timeout = 0
       origin_read_timeout      = 0
+      owner_account_id         = ""
       vpc_origin_id            = ""
     }
   }
@@ -164,6 +168,15 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
     iam_certificate_id             = ""
     minimum_protocol_version       = ""
     ssl_support_method             = ""
+  }
+  viewer_mtls_config {
+    mode = ""
+    
+    trust_store_config {
+      advertise_trust_store_ca_names = false
+      ignore_certificate_expiry      = false
+      trust_store_id                 = ""
+    }
   }
   
   tags = {}

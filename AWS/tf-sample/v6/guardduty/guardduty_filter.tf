@@ -14,7 +14,9 @@ resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
       greater_than_or_equal = ""
       less_than             = ""
       less_than_or_equal    = ""
+      matches               = []
       not_equals            = []
+      not_matches           = []
     }
   }
   

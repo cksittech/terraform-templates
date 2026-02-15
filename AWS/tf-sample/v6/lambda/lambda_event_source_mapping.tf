@@ -52,8 +52,9 @@ resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mappin
     metrics = []
   }
   provisioned_poller_config {
-    maximum_pollers = 0
-    minimum_pollers = 0
+    maximum_pollers   = 0
+    minimum_pollers   = 0
+    poller_group_name = ""
   }
   scaling_config {
     maximum_concurrency = 0

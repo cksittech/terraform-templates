@@ -19,6 +19,9 @@ resource "aws_imagebuilder_image" "tf-sample-imagebuilder-image" {
     image_tests_enabled = false
     timeout_minutes     = 0
   }
+  logging_configuration {
+    log_group_name = ""
+  }
   workflow {
     on_failure     = ""
     parallel_group = ""
