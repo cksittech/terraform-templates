@@ -25,10 +25,6 @@ resource "tencentcloud_mps_transcode_template" "tf-sample-mps-transcode-template
         switch = ""
         type   = ""
       }
-      face_enhance {
-        intensity = 0
-        switch    = ""
-      }
       frame_rate {
         fps    = 0
         switch = ""
@@ -46,10 +42,6 @@ resource "tencentcloud_mps_transcode_template" "tf-sample-mps-transcode-template
         type   = ""
       }
       scratch_repair {
-        intensity = 0
-        switch    = ""
-      }
-      sharp_enhance {
         intensity = 0
         switch    = ""
       }

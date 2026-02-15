@@ -4,6 +4,8 @@ resource "tencentcloud_mps_adaptive_dynamic_streaming_template" "tf-sample-mps-a
   disable_higher_video_resolution = 0
   format                          = ""
   name                            = ""
+  pure_audio                      = 0
+  segment_type                    = ""
   
   stream_infos {
     remove_audio = 0
