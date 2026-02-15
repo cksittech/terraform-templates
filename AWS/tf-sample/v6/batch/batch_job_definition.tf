@@ -34,6 +34,7 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
           requests = {}
         }
         security_context {
+          allow_privilege_escalation = false
           privileged                 = false
           read_only_root_file_system = false
           run_as_group               = 0
@@ -65,6 +66,7 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
           requests = {}
         }
         security_context {
+          allow_privilege_escalation = false
           privileged                 = false
           read_only_root_file_system = false
           run_as_group               = 0

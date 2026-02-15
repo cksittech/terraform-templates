@@ -1,6 +1,7 @@
 resource "aws_apigatewayv2_domain_name" "tf-sample-apigatewayv2-domain-name" {
-  domain_name = ""
-  region      = ""
+  domain_name  = ""
+  region       = ""
+  routing_mode = ""
   
   domain_name_configuration {
     certificate_arn                        = ""

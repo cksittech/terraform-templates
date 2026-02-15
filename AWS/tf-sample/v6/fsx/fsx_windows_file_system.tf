@@ -29,6 +29,7 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   }
   self_managed_active_directory {
     dns_ips                                = []
+    domain_join_service_account_secret     = ""
     domain_name                            = ""
     file_system_administrators_group       = ""
     organizational_unit_distinguished_name = ""

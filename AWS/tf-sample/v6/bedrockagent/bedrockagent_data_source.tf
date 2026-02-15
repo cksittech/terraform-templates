@@ -141,8 +141,12 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
     parsing_configuration {
       parsing_strategy = ""
       
+      bedrock_data_automation_configuration {
+        parsing_modality = ""
+      }
       bedrock_foundation_model_configuration {
-        model_arn = ""
+        model_arn        = ""
+        parsing_modality = ""
         
         parsing_prompt {
           parsing_prompt_string = ""

@@ -105,7 +105,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     }
   }
   origin_group {
-    origin_id = ""
+    id = ""
     
     failover_criteria {
       status_codes = []

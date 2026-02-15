@@ -176,6 +176,9 @@ resource "aws_launch_template" "tf-sample-launch-template" {
       }
     }
   }
+  network_performance_options {
+    bandwidth_weighting = ""
+  }
   placement {
     affinity                = ""
     availability_zone       = ""

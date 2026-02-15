@@ -20,14 +20,16 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
     type = ""
   }
   global_secondary_index {
-    hash_key           = ""
     name               = ""
     non_key_attributes = []
     projection_type    = ""
-    range_key          = ""
     read_capacity      = 0
     write_capacity     = 0
     
+    key_schema {
+      attribute_name = ""
+      key_type       = ""
+    }
     on_demand_throughput {
       max_read_request_units  = 0
       max_write_request_units = 0
