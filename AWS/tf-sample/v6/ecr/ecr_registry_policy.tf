@@ -1,4 +1,0 @@
-resource "aws_ecr_registry_policy" "tf-sample-ecr-registry-policy" {
-  policy = ""
-  region = ""
-}
