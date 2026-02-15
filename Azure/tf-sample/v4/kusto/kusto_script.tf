@@ -3,7 +3,9 @@ resource "azurerm_kusto_script" "tf-sample-kusto-script" {
   database_id                        = ""
   force_an_update_when_value_changed = ""
   name                               = ""
+  principal_permissions_action       = ""
   sas_token                          = ""
   script_content                     = ""
+  script_level                       = ""
   url                                = ""
 }

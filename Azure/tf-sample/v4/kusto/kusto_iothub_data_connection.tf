@@ -10,6 +10,7 @@ resource "azurerm_kusto_iothub_data_connection" "tf-sample-kusto-iothub-data-con
   mapping_rule_name         = ""
   name                      = ""
   resource_group_name       = ""
+  retrieval_start_date      = ""
   shared_access_policy_name = ""
   table_name                = ""
 }

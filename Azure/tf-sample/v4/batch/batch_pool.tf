@@ -17,12 +17,6 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     evaluation_interval = ""
     formula             = ""
   }
-  certificate {
-    id             = ""
-    store_location = ""
-    store_name     = ""
-    visibility     = []
-  }
   container_configuration {
     container_image_names = []
     container_registries  = []
