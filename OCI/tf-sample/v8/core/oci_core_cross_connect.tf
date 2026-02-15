@@ -6,9 +6,11 @@ resource "oci_core_cross_connect" "tf-sample-core-cross-connect" {
   display_name                                 = ""
   far_cross_connect_or_cross_connect_group_id  = ""
   freeform_tags                                = {}
+  interface_name                               = ""
   is_active                                    = false
   location_name                                = ""
   near_cross_connect_or_cross_connect_group_id = ""
+  oci_physical_device_name                     = ""
   port_speed_shape_name                        = ""
   
   macsec_properties {

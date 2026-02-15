@@ -1,4 +1,5 @@
 resource "oci_database_migration_migration" "tf-sample-database-migration-migration" {
+  assessment_id                           = ""
   bulk_include_exclude_data               = ""
   compartment_id                          = ""
   database_combination                    = ""

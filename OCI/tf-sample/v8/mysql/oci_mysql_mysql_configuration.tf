@@ -10,6 +10,10 @@ resource "oci_mysql_mysql_configuration" "tf-sample-mysql-mysql-configuration" {
   init_variables {
     lower_case_table_names = ""
   }
+  options {
+    name  = ""
+    value = ""
+  }
   variables {
     auto_increment_increment                    = 0
     auto_increment_offset                       = 0
@@ -97,7 +101,7 @@ resource "oci_mysql_mysql_configuration" "tf-sample-mysql-mysql-configuration" {
     net_write_timeout                           = 0
     optimizer_switch                            = ""
     parser_max_mem_size                         = ""
-    query_prealloc_size                         = ""
+    range_optimizer_max_mem_size                = ""
     regexp_time_limit                           = 0
     relay_log_space_limit                       = ""
     replica_net_timeout                         = 0

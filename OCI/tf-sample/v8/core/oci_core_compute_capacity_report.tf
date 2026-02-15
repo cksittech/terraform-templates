@@ -7,9 +7,10 @@ resource "oci_core_compute_capacity_report" "tf-sample-core-compute-capacity-rep
     instance_shape = ""
     
     instance_shape_config {
-      memory_in_gbs = 0
-      nvmes         = 0
-      ocpus         = 0
+      baseline_ocpu_utilization = ""
+      memory_in_gbs             = 0
+      nvmes                     = 0
+      ocpus                     = 0
     }
   }
 }
