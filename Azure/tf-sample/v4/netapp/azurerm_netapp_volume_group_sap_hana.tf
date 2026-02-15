@@ -7,18 +7,22 @@ resource "azurerm_netapp_volume_group_sap_hana" "tf-sample-netapp-volume-group-s
   resource_group_name    = ""
   
   volume {
-    capacity_pool_id             = ""
-    name                         = ""
-    protocols                    = []
-    proximity_placement_group_id = ""
-    security_style               = ""
-    service_level                = ""
-    snapshot_directory_visible   = false
-    storage_quota_in_gb          = 0
-    subnet_id                    = ""
-    throughput_in_mibps          = 0
-    volume_path                  = ""
-    volume_spec_name             = ""
+    capacity_pool_id              = ""
+    encryption_key_source         = ""
+    key_vault_private_endpoint_id = ""
+    name                          = ""
+    network_features              = ""
+    protocols                     = []
+    proximity_placement_group_id  = ""
+    security_style                = ""
+    service_level                 = ""
+    snapshot_directory_visible    = false
+    storage_quota_in_gb           = 0
+    subnet_id                     = ""
+    throughput_in_mibps           = 0
+    volume_path                   = ""
+    volume_spec_name              = ""
+    zone                          = ""
     
     data_protection_replication {
       endpoint_type             = ""

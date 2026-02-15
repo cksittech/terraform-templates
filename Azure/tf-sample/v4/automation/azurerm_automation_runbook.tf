@@ -10,6 +10,7 @@ resource "azurerm_automation_runbook" "tf-sample-automation-runbook" {
   name                     = ""
   resource_group_name      = ""
   runbook_type             = ""
+  runtime_environment_name = ""
   
   draft {
     edit_mode_enabled = false
