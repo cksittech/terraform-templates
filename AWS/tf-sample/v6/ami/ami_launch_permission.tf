@@ -1,8 +1,0 @@
-resource "aws_ami_launch_permission" "tf-sample-ami-launch-permission" {
-  account_id              = ""
-  group                   = ""
-  image_id                = ""
-  organization_arn        = ""
-  organizational_unit_arn = ""
-  region                  = ""
-}
