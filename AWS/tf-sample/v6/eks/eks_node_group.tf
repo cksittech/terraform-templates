@@ -50,6 +50,7 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   update_config {
     max_unavailable            = 0
     max_unavailable_percentage = 0
+    update_strategy            = ""
   }
   
   tags = {}

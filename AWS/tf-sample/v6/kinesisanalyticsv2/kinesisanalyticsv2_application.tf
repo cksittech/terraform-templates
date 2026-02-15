@@ -22,6 +22,10 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
         }
       }
     }
+    application_encryption_configuration {
+      key_id   = ""
+      key_type = ""
+    }
     application_snapshot_configuration {
       snapshots_enabled = false
     }
