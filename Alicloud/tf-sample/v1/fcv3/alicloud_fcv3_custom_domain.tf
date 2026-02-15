@@ -11,6 +11,14 @@ resource "alicloud_fcv3_custom_domain" "tf-sample-fcv3-custom-domain" {
     certificate = ""
     private_key = ""
   }
+  cors_config {
+    allow_credentials = false
+    allow_headers     = []
+    allow_methods     = []
+    allow_origins     = []
+    expose_headers    = []
+    max_age           = 0
+  }
   route_config {
     routes {
       function_name = ""

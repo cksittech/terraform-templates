@@ -16,7 +16,8 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
     version        = ""
   }
   cluster_credentials {
-    password = ""
+    key_pair_name = ""
+    password      = ""
   }
   manager {
     directory_service {
