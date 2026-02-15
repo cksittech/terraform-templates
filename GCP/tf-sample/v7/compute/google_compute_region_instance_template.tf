@@ -74,12 +74,14 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""
     network                     = ""
+    network_attachment          = ""
     network_ip                  = ""
     nic_type                    = ""
     queue_count                 = 0
     stack_type                  = ""
     subnetwork                  = ""
     subnetwork_project          = ""
+    vlan                        = 0
     
     access_config {
       nat_ip       = ""

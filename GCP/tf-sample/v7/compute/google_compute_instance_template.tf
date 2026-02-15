@@ -74,12 +74,14 @@ resource "google_compute_instance_template" "tf-sample-compute-instance-template
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""
     network                     = ""
+    network_attachment          = ""
     network_ip                  = ""
     nic_type                    = ""
     queue_count                 = 0
     stack_type                  = ""
     subnetwork                  = ""
     subnetwork_project          = ""
+    vlan                        = 0
     
     access_config {
       nat_ip       = ""

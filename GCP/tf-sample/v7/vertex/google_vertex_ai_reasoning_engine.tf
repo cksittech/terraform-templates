@@ -47,6 +47,13 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       requirements_gcs_uri     = ""
     }
     source_code_spec {
+      developer_connect_source {
+        config {
+          dir                 = ""
+          git_repository_link = ""
+          revision            = ""
+        }
+      }
       inline_source {
         source_archive = ""
       }

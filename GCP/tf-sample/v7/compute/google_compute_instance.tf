@@ -100,6 +100,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     stack_type                  = ""
     subnetwork                  = ""
     subnetwork_project          = ""
+    vlan                        = 0
     
     access_config {
       nat_ip                 = ""

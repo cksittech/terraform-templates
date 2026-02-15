@@ -101,6 +101,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     stack_type                  = ""
     subnetwork                  = ""
     subnetwork_project          = ""
+    vlan                        = 0
     
     access_config {
       nat_ip                 = ""

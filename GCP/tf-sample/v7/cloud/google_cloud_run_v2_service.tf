@@ -98,6 +98,21 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         container_port = 0
         name           = ""
       }
+      readiness_probe {
+        failure_threshold = 0
+        period_seconds    = 0
+        success_threshold = 0
+        timeout_seconds   = 0
+        
+        grpc {
+          port    = 0
+          service = ""
+        }
+        http_get {
+          path = ""
+          port = 0
+        }
+      }
       resources {
         cpu_idle          = false
         limits            = {}

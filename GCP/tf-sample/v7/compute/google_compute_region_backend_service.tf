@@ -110,6 +110,12 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     optional_mode   = ""
     sample_rate     = 0
   }
+  network_pass_through_lb_traffic_policy {
+    zonal_affinity {
+      spillover       = ""
+      spillover_ratio = 0
+    }
+  }
   outlier_detection {
     consecutive_errors                    = 0
     consecutive_gateway_failure           = 0
