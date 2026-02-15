@@ -22,6 +22,15 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
         name  = ""
         value = ""
       }
+      psc_interface_config {
+        network_attachment = ""
+        
+        dns_peering_configs {
+          domain         = ""
+          target_network = ""
+          target_project = ""
+        }
+      }
       secret_env {
         name = ""
         

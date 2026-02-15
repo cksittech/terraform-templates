@@ -38,4 +38,8 @@ resource "google_oracle_database_autonomous_database" "tf-sample-oracle-database
       email = ""
     }
   }
+  source_config {
+    automatic_backups_replication_enabled = false
+    autonomous_database                   = ""
+  }
 }

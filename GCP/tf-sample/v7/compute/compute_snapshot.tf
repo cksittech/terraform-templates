@@ -1,13 +1,14 @@
 resource "google_compute_snapshot" "tf-sample-compute-snapshot" {
-  chain_name        = ""
-  description       = ""
-  labels            = {}
-  name              = ""
-  project           = ""
-  snapshot_type     = ""
-  source_disk       = ""
-  storage_locations = []
-  zone              = ""
+  chain_name              = ""
+  description             = ""
+  labels                  = {}
+  name                    = ""
+  project                 = ""
+  snapshot_type           = ""
+  source_disk             = ""
+  source_instant_snapshot = ""
+  storage_locations       = []
+  zone                    = ""
   
   snapshot_encryption_key {
     kms_key_self_link       = ""

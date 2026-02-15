@@ -253,6 +253,9 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       mode = ""
     }
   }
+  node_drain_config {
+    respect_pdb_during_node_pool_deletion = false
+  }
   placement_policy {
     policy_name  = ""
     tpu_topology = ""

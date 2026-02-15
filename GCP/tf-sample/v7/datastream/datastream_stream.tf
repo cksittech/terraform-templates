@@ -80,6 +80,19 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
         }
       }
     }
+    spanner_excluded_objects {
+      schemas {
+        schema = ""
+        
+        tables {
+          table = ""
+          
+          columns {
+            column = ""
+          }
+        }
+      }
+    }
     sql_server_excluded_objects {
       schemas {
         schema = ""
@@ -183,6 +196,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
         }
         salesforce_identifier {
           object_name = ""
+        }
+        spanner_identifier {
+          schema = ""
+          table  = ""
         }
         sql_server_identifier {
           schema = ""
@@ -364,6 +381,41 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
           
           fields {
             name = ""
+          }
+        }
+      }
+    }
+    spanner_source_config {
+      backfill_data_boost_enabled   = false
+      change_stream_name            = ""
+      fgac_role                     = ""
+      max_concurrent_backfill_tasks = 0
+      max_concurrent_cdc_tasks      = 0
+      spanner_rpc_priority          = ""
+      
+      exclude_objects {
+        schemas {
+          schema = ""
+          
+          tables {
+            table = ""
+            
+            columns {
+              column = ""
+            }
+          }
+        }
+      }
+      include_objects {
+        schemas {
+          schema = ""
+          
+          tables {
+            table = ""
+            
+            columns {
+              column = ""
+            }
           }
         }
       }

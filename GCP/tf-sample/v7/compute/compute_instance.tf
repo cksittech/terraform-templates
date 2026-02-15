@@ -89,6 +89,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     kms_key_service_account = ""
   }
   network_interface {
+    igmp_query                  = ""
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""
     network                     = ""
