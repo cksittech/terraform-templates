@@ -12,5 +12,6 @@ resource "azurerm_kusto_eventhub_data_connection" "tf-sample-kusto-eventhub-data
   mapping_rule_name       = ""
   name                    = ""
   resource_group_name     = ""
+  retrieval_start_date    = ""
   table_name              = ""
 }

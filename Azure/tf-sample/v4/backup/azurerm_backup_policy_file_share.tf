@@ -1,8 +1,10 @@
 resource "azurerm_backup_policy_file_share" "tf-sample-backup-policy-file-share" {
-  name                = ""
-  recovery_vault_name = ""
-  resource_group_name = ""
-  timezone            = ""
+  backup_tier                = ""
+  name                       = ""
+  recovery_vault_name        = ""
+  resource_group_name        = ""
+  snapshot_retention_in_days = 0
+  timezone                   = ""
   
   backup {
     frequency = ""
