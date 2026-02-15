@@ -324,6 +324,32 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
           }
         }
       }
+      registry_hosts {
+        server = ""
+        
+        hosts {
+          capabilities  = []
+          dial_timeout  = ""
+          host          = ""
+          override_path = false
+          
+          ca {
+            gcp_secret_manager_secret_uri = ""
+          }
+          client {
+            cert {
+              gcp_secret_manager_secret_uri = ""
+            }
+            key {
+              gcp_secret_manager_secret_uri = ""
+            }
+          }
+          header {
+            key   = ""
+            value = []
+          }
+        }
+      }
       writable_cgroups {
         enabled = false
       }
@@ -550,6 +576,32 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
             }
           }
         }
+        registry_hosts {
+          server = ""
+          
+          hosts {
+            capabilities  = []
+            dial_timeout  = ""
+            host          = ""
+            override_path = false
+            
+            ca {
+              gcp_secret_manager_secret_uri = ""
+            }
+            client {
+              cert {
+                gcp_secret_manager_secret_uri = ""
+              }
+              key {
+                gcp_secret_manager_secret_uri = ""
+              }
+            }
+            header {
+              key   = ""
+              value = []
+            }
+          }
+        }
         writable_cgroups {
           enabled = false
         }
@@ -737,6 +789,32 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
             
             gcp_secret_manager_certificate_config {
               secret_uri = ""
+            }
+          }
+        }
+        registry_hosts {
+          server = ""
+          
+          hosts {
+            capabilities  = []
+            dial_timeout  = ""
+            host          = ""
+            override_path = false
+            
+            ca {
+              gcp_secret_manager_secret_uri = ""
+            }
+            client {
+              cert {
+                gcp_secret_manager_secret_uri = ""
+              }
+              key {
+                gcp_secret_manager_secret_uri = ""
+              }
+            }
+            header {
+              key   = ""
+              value = []
             }
           }
         }

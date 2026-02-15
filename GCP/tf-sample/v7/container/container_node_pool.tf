@@ -94,6 +94,32 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
           }
         }
       }
+      registry_hosts {
+        server = ""
+        
+        hosts {
+          capabilities  = []
+          dial_timeout  = ""
+          host          = ""
+          override_path = false
+          
+          ca {
+            gcp_secret_manager_secret_uri = ""
+          }
+          client {
+            cert {
+              gcp_secret_manager_secret_uri = ""
+            }
+            key {
+              gcp_secret_manager_secret_uri = ""
+            }
+          }
+          header {
+            key   = ""
+            value = []
+          }
+        }
+      }
       writable_cgroups {
         enabled = false
       }

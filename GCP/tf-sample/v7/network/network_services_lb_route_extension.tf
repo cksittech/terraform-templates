@@ -11,12 +11,16 @@ resource "google_network_services_lb_route_extension" "tf-sample-network-service
     name = ""
     
     extensions {
-      authority       = ""
-      fail_open       = false
-      forward_headers = []
-      name            = ""
-      service         = ""
-      timeout         = ""
+      authority              = ""
+      fail_open              = false
+      forward_headers        = []
+      metadata               = {}
+      name                   = ""
+      observability_mode     = false
+      request_body_send_mode = ""
+      service                = ""
+      supported_events       = []
+      timeout                = ""
     }
     match_condition {
       cel_expression = ""

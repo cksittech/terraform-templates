@@ -1,13 +1,14 @@
 resource "google_storage_insights_dataset_config" "tf-sample-storage-insights-dataset-config" {
-  dataset_config_id             = ""
-  description                   = ""
-  include_newly_created_buckets = false
-  link_dataset                  = false
-  location                      = ""
-  organization_number           = ""
-  organization_scope            = false
-  project                       = ""
-  retention_period_days         = 0
+  activity_data_retention_period_days = 0
+  dataset_config_id                   = ""
+  description                         = ""
+  include_newly_created_buckets       = false
+  link_dataset                        = false
+  location                            = ""
+  organization_number                 = ""
+  organization_scope                  = false
+  project                             = ""
+  retention_period_days               = 0
   
   exclude_cloud_storage_buckets {
     cloud_storage_buckets {

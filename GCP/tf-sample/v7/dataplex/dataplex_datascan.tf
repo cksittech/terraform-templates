@@ -124,6 +124,9 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
     trigger {
       on_demand {
       }
+      one_time {
+        ttl_after_scan_completion = ""
+      }
       schedule {
         cron = ""
       }

@@ -70,6 +70,17 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
     port                           = 0
     secret_manager_stored_password = ""
     username                       = ""
+    
+    ssl_config {
+      server_and_client_verification {
+        ca_certificate     = ""
+        client_certificate = ""
+        client_key         = ""
+      }
+      server_verification {
+        ca_certificate = ""
+      }
+    }
   }
   private_connectivity {
     private_connection = ""
