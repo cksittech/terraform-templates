@@ -1,5 +1,6 @@
 resource "ibm_database" "tf-sample-database" {
   adminpassword                        = ""
+  async_restore                        = false
   backup_encryption_key_crn            = ""
   backup_id                            = ""
   configuration                        = ""
