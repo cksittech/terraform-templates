@@ -1,17 +1,23 @@
 resource "oci_certificates_management_certificate_authority" "tf-sample-certificates-management-certificate-authority" {
-  compartment_id = ""
-  defined_tags   = {}
-  description    = ""
-  freeform_tags  = {}
-  kms_key_id     = ""
-  name           = ""
+  compartment_id           = ""
+  defined_tags             = {}
+  description              = ""
+  external_key_description = ""
+  freeform_tags            = {}
+  kms_key_id               = ""
+  name                     = ""
   
   certificate_authority_config {
+    certificate_pem                 = ""
     config_type                     = ""
     issuer_certificate_authority_id = ""
     signing_algorithm               = ""
     version_name                    = ""
     
+    action_details {
+      action_type     = ""
+      certificate_pem = ""
+    }
     subject {
       common_name                  = ""
       country                      = ""
@@ -39,7 +45,19 @@ resource "oci_certificates_management_certificate_authority" "tf-sample-certific
   certificate_authority_rules {
     certificate_authority_max_validity_duration = ""
     leaf_certificate_max_validity_duration      = ""
+    path_length_constraint                      = 0
     rule_type                                   = ""
+    
+    name_constraint {
+      excluded_subtree {
+        type  = ""
+        value = ""
+      }
+      permitted_subtree {
+        type  = ""
+        value = ""
+      }
+    }
   }
   certificate_revocation_list_details {
     custom_formatted_urls = []

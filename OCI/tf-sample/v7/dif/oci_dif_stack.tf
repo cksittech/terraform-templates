@@ -29,6 +29,10 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
       user_type = ""
     }
   }
+  aidataplatform {
+    default_workspace_name = ""
+    instance_id            = ""
+  }
   dataflow {
     archive_uri                  = ""
     driver_shape                 = ""
@@ -119,5 +123,46 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     instance_id       = ""
     object_versioning = ""
     storage_tier      = ""
+  }
+  oke {
+    cluster_id                   = ""
+    instance_id                  = ""
+    manifest_object_storage_path = ""
+    namespace_name               = ""
+    
+    component_value_overrides {
+      component_name  = ""
+      value_overrides = {}
+    }
+    secrets {
+      secret_name                  = ""
+      template_object_storage_path = ""
+      
+      secret_data {
+        key       = ""
+        secret_id = ""
+      }
+    }
+  }
+  omk {
+    cluster_id                   = ""
+    cluster_namespace_id         = ""
+    instance_id                  = ""
+    manifest_object_storage_path = ""
+    namespace_name               = ""
+    
+    component_value_overrides {
+      component_name  = ""
+      value_overrides = {}
+    }
+    secrets {
+      secret_name                  = ""
+      template_object_storage_path = ""
+      
+      secret_data {
+        key       = ""
+        secret_id = ""
+      }
+    }
   }
 }

@@ -30,6 +30,7 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
   }
   placement_configurations {
     availability_domain = ""
+    compute_cluster_id  = ""
     fault_domains       = []
     primary_subnet_id   = ""
     

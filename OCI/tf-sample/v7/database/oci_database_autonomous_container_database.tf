@@ -58,6 +58,12 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   customer_contacts {
     email = ""
   }
+  encryption_key_location_details {
+    aws_encryption_key_id   = ""
+    azure_encryption_key_id = ""
+    hsm_password            = ""
+    provider_type           = ""
+  }
   maintenance_window_details {
     custom_action_timeout_in_mins    = 0
     hours_of_day                     = []

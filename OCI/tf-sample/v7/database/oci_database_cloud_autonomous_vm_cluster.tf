@@ -15,13 +15,16 @@ resource "oci_database_cloud_autonomous_vm_cluster" "tf-sample-database-cloud-au
   memory_per_oracle_compute_unit_in_gbs = 0
   nsg_ids                               = []
   opc_dry_run                           = false
+  register_pkcs_trigger                 = 0
   scan_listener_port_non_tls            = 0
   scan_listener_port_tls                = 0
   security_attributes                   = {}
   subnet_id                             = ""
   subscription_id                       = ""
+  tde_key_store_type                    = ""
   time_updated                          = ""
   total_container_databases             = 0
+  unregister_pkcs_trigger               = 0
   
   maintenance_window_details {
     custom_action_timeout_in_mins    = 0

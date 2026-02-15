@@ -11,4 +11,12 @@ resource "oci_queue_queue" "tf-sample-queue-queue" {
   retention_in_seconds             = 0
   timeout_in_seconds               = 0
   visibility_in_seconds            = 0
+  
+  capabilities {
+    is_primary_consumer_group_enabled                       = false
+    primary_consumer_group_dead_letter_queue_delivery_count = 0
+    primary_consumer_group_display_name                     = ""
+    primary_consumer_group_filter                           = ""
+    type                                                    = ""
+  }
 }

@@ -48,6 +48,11 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
     open_search_api_certificate_id       = ""
     open_search_dashboard_certificate_id = ""
   }
+  load_balancer_config {
+    load_balancer_max_bandwidth_in_mbps = 0
+    load_balancer_min_bandwidth_in_mbps = 0
+    load_balancer_service_type          = ""
+  }
   maintenance_details {
     notification_email_ids = []
   }

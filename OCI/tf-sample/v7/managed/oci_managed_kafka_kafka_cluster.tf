@@ -15,6 +15,7 @@ resource "oci_managed_kafka_kafka_cluster" "tf-sample-managed-kafka-kafka-cluste
   }
   broker_shape {
     node_count          = 0
+    node_shape          = ""
     ocpu_count          = 0
     storage_size_in_gbs = 0
   }
