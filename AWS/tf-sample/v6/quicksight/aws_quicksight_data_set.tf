@@ -4,6 +4,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
   import_mode    = ""
   name           = ""
   region         = ""
+  use_as         = ""
   
   column_groups {
     geo_spatial_column_group {

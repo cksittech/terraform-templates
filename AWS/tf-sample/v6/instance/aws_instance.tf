@@ -111,6 +111,14 @@ resource "aws_instance" "tf-sample-instance" {
     volume_size           = 0
     volume_type           = ""
   }
+  secondary_network_interface {
+    delete_on_termination    = false
+    device_index             = 0
+    interface_type           = ""
+    network_card_index       = 0
+    private_ip_address_count = 0
+    secondary_subnet_id      = ""
+  }
   
   tags = {}
 }
