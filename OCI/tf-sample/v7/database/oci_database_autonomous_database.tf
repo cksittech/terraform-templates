@@ -142,6 +142,9 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
       name = ""
     }
   }
+  transportable_tablespace {
+    tts_bundle_url = ""
+  }
   vanity_url_details {
     api_gateway_id       = ""
     is_disabled          = false

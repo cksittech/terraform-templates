@@ -68,6 +68,10 @@ resource "oci_database_database" "tf-sample-database-database" {
       hsm_password                            = ""
       provider_type                           = ""
     }
+    patch_options {
+      should_skip_closed_pdbs = false
+      should_skip_data_patch  = false
+    }
     source_encryption_key_location_details {
       hsm_password  = ""
       provider_type = ""

@@ -4,4 +4,5 @@ resource "oci_iot_iot_domain_group" "tf-sample-iot-iot-domain-group" {
   description    = ""
   display_name   = ""
   freeform_tags  = {}
+  type           = ""
 }
