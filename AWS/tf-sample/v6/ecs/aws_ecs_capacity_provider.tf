@@ -24,6 +24,7 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
       scale_in_after = 0
     }
     instance_launch_template {
+      capacity_option_type     = ""
       ec2_instance_profile_arn = ""
       monitoring               = ""
       

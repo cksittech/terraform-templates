@@ -22,6 +22,10 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
     image_tests_enabled = false
     timeout_minutes     = 0
   }
+  logging_configuration {
+    image_log_group_name    = ""
+    pipeline_log_group_name = ""
+  }
   schedule {
     pipeline_execution_start_condition = ""
     schedule_expression                = ""

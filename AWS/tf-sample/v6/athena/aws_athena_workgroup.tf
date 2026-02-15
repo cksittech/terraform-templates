@@ -6,12 +6,16 @@ resource "aws_athena_workgroup" "tf-sample-athena-workgroup" {
   state         = ""
   
   configuration {
-    bytes_scanned_cutoff_per_query     = 0
-    enforce_workgroup_configuration    = false
-    execution_role                     = ""
-    publish_cloudwatch_metrics_enabled = false
-    requester_pays_enabled             = false
+    bytes_scanned_cutoff_per_query          = 0
+    enable_minimum_encryption_configuration = false
+    enforce_workgroup_configuration         = false
+    execution_role                          = ""
+    publish_cloudwatch_metrics_enabled      = false
+    requester_pays_enabled                  = false
     
+    customer_content_encryption_configuration {
+      kms_key = ""
+    }
     engine_version {
       selected_engine_version = ""
     }
@@ -24,6 +28,27 @@ resource "aws_athena_workgroup" "tf-sample-athena-workgroup" {
       
       encryption_configuration {
         kms_key = ""
+      }
+    }
+    monitoring_configuration {
+      cloud_watch_logging_configuration {
+        enabled                = false
+        log_group              = ""
+        log_stream_name_prefix = ""
+        
+        log_type {
+          key    = ""
+          values = []
+        }
+      }
+      managed_logging_configuration {
+        enabled = false
+        kms_key = ""
+      }
+      s3_logging_configuration {
+        enabled      = false
+        kms_key      = ""
+        log_location = ""
       }
     }
     result_configuration {

@@ -17,6 +17,8 @@ resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
   dns_options {
     dns_record_ip_type                             = ""
     private_dns_only_for_inbound_resolver_endpoint = false
+    private_dns_preference                         = ""
+    private_dns_specified_domains                  = []
   }
   subnet_configuration {
     ipv4      = ""
