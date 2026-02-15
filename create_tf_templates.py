@@ -14,7 +14,7 @@ REGISTRIES = {
     "aws": "hashicorp/aws",
     "azure": "hashicorp/azurerm",
     "gcp": "hashicorp/google",
-    "oci": "hashicorp/oci",
+    "oci": "oracle/oci",
     "ibm": "ibm-cloud/ibm",
     "alicloud": "aliyun/alicloud",
     "tencentcloud": "tencentcloudstack/tencentcloud",
