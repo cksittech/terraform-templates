@@ -11,6 +11,7 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   region                                 = ""
   regional_certificate_arn               = ""
   regional_certificate_name              = ""
+  routing_mode                           = ""
   security_policy                        = ""
   
   endpoint_configuration {
