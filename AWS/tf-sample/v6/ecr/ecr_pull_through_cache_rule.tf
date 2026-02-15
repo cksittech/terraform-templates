@@ -1,0 +1,8 @@
+resource "aws_ecr_pull_through_cache_rule" "tf-sample-ecr-pull-through-cache-rule" {
+  credential_arn             = ""
+  custom_role_arn            = ""
+  ecr_repository_prefix      = ""
+  region                     = ""
+  upstream_registry_url      = ""
+  upstream_repository_prefix = ""
+}

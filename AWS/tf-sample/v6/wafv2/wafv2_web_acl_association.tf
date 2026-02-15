@@ -1,0 +1,5 @@
+resource "aws_wafv2_web_acl_association" "tf-sample-wafv2-web-acl-association" {
+  region       = ""
+  resource_arn = ""
+  web_acl_arn  = ""
+}
