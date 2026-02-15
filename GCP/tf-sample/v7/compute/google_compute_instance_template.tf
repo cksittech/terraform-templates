@@ -70,6 +70,7 @@ resource "google_compute_instance_template" "tf-sample-compute-instance-template
     type  = ""
   }
   network_interface {
+    igmp_query                  = ""
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""
     network                     = ""

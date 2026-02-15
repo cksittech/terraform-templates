@@ -735,6 +735,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         mode = ""
       }
     }
+    node_drain_config {
+      respect_pdb_during_node_pool_deletion = false
+    }
     placement_policy {
       policy_name  = ""
       tpu_topology = ""

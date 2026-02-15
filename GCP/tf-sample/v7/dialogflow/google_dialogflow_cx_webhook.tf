@@ -29,6 +29,9 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
       key            = ""
       secret_version = ""
     }
+    service_account_auth_config {
+      service_account = ""
+    }
   }
   service_directory {
     service = ""
@@ -54,6 +57,9 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
       secret_versions_for_request_headers {
         key            = ""
         secret_version = ""
+      }
+      service_account_auth_config {
+        service_account = ""
       }
     }
   }

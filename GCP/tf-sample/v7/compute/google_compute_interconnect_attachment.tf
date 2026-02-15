@@ -21,4 +21,24 @@ resource "google_compute_interconnect_attachment" "tf-sample-compute-interconnec
   subnet_length                          = 0
   type                                   = ""
   vlan_tag8021q                          = 0
+  
+  l2_forwarding {
+    default_appliance_ip_address = ""
+    network                      = ""
+    tunnel_endpoint_ip_address   = ""
+    
+    appliance_mappings {
+      appliance_ip_address = ""
+      name                 = ""
+      vlan_id              = ""
+      
+      inner_vlan_to_appliance_mappings {
+        inner_appliance_ip_address = ""
+        inner_vlan_tags            = []
+      }
+    }
+    geneve_header {
+      vni = 0
+    }
+  }
 }

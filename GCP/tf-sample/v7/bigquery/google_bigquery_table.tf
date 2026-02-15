@@ -88,6 +88,7 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
       field_delimiter       = ""
       quote                 = ""
       skip_leading_rows     = 0
+      source_column_match   = ""
     }
     google_sheets_options {
       range             = ""
