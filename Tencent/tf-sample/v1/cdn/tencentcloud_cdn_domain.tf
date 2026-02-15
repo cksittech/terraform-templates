@@ -133,6 +133,9 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
       status_code   = 0
     }
   }
+  https_billing {
+    switch = ""
+  }
   https_config {
     http2_switch         = ""
     https_switch         = ""
