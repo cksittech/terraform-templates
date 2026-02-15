@@ -27,6 +27,10 @@ resource "azurerm_postgresql_flexible_server" "tf-sample-postgresql-flexible-ser
     password_auth_enabled         = false
     tenant_id                     = ""
   }
+  cluster {
+    default_database_name = ""
+    size                  = 0
+  }
   customer_managed_key {
     geo_backup_key_vault_key_id          = ""
     geo_backup_user_assigned_identity_id = ""
