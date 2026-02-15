@@ -1,0 +1,11 @@
+resource "alicloud_vpc_traffic_mirror_filter_egress_rule" "tf-sample-vpc-traffic-mirror-filter-egress-rule" {
+  action                   = ""
+  destination_cidr_block   = ""
+  destination_port_range   = ""
+  dry_run                  = false
+  priority                 = 0
+  protocol                 = ""
+  source_cidr_block        = ""
+  source_port_range        = ""
+  traffic_mirror_filter_id = ""
+}
