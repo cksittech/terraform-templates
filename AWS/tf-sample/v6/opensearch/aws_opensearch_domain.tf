@@ -24,6 +24,9 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     s3_vectors_engine {
       enabled = false
     }
+    serverless_vector_acceleration {
+      enabled = false
+    }
   }
   auto_tune_options {
     desired_state       = ""

@@ -5,7 +5,6 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
   primary_region                  = ""
   recovery_approach               = ""
   recovery_time_objective_minutes = 0
-  region                          = ""
   regions                         = []
   
   associated_alarms {
