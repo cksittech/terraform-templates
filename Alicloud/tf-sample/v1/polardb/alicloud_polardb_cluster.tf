@@ -21,6 +21,7 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   encryption_key                              = ""
   from_time_service                           = ""
   gdn_id                                      = ""
+  global_security_group_list                  = []
   hot_replica_mode                            = ""
   hot_standby_cluster                         = ""
   imci_switch                                 = ""

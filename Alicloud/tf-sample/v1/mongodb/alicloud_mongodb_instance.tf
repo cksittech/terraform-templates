@@ -1,6 +1,7 @@
 resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
   account_password                            = ""
   auto_renew                                  = false
+  auto_renew_duration                         = 0
   backup_interval                             = ""
   backup_period                               = []
   backup_retention_period                     = 0
@@ -16,6 +17,7 @@ resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
   encryption_key                              = ""
   encryptor_name                              = ""
   engine_version                              = ""
+  force_encryption                            = ""
   global_security_group_list                  = []
   hidden_zone_id                              = ""
   instance_charge_type                        = ""
@@ -32,11 +34,13 @@ resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
   readonly_replicas                           = 0
   replication_factor                          = 0
   resource_group_id                           = ""
+  restore_time                                = ""
   role_arn                                    = ""
   secondary_zone_id                           = ""
   security_group_id                           = ""
   security_ip_list                            = []
   snapshot_backup_type                        = ""
+  src_db_instance_id                          = ""
   ssl_action                                  = ""
   storage_engine                              = ""
   storage_type                                = ""
