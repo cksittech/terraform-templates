@@ -15,6 +15,17 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
       discovery_url    = ""
     }
   }
+  interceptor_configuration {
+    interception_points = []
+    
+    input_configuration {
+      pass_request_headers = false
+    }
+    interceptor {
+      lambda {
+      }
+    }
+  }
   protocol_configuration {
     mcp {
       instructions       = ""

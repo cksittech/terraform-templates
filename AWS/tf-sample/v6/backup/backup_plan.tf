@@ -31,6 +31,15 @@ resource "aws_backup_plan" "tf-sample-backup-plan" {
       delete_after                              = 0
       opt_in_to_archive_for_supported_resources = false
     }
+    scan_action {
+      malware_scanner = ""
+      scan_mode       = ""
+    }
+  }
+  scan_setting {
+    malware_scanner  = ""
+    resource_types   = []
+    scanner_role_arn = ""
   }
   
   tags = {}

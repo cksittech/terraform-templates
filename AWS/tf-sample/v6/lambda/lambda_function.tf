@@ -36,6 +36,10 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   dead_letter_config {
     target_arn = ""
   }
+  durable_config {
+    execution_timeout = 0
+    retention_period  = 0
+  }
   environment {
     variables = {}
   }

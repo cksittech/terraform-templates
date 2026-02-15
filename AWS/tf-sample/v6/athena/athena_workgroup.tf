@@ -19,6 +19,13 @@ resource "aws_athena_workgroup" "tf-sample-athena-workgroup" {
       enable_identity_center       = false
       identity_center_instance_arn = ""
     }
+    managed_query_results_configuration {
+      enabled = false
+      
+      encryption_configuration {
+        kms_key = ""
+      }
+    }
     result_configuration {
       expected_bucket_owner = ""
       output_location       = ""
