@@ -11,6 +11,7 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   disable_automation_service              = false
   disable_monitor_service                 = false
   disable_security_service                = false
+  disaster_recover_group_ids              = []
   force_delete                            = false
   force_replace_placement_group_id        = false
   hostname                                = ""
