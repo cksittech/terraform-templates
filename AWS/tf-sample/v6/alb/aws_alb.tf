@@ -35,6 +35,11 @@ resource "aws_alb" "tf-sample-alb" {
     enabled = false
     prefix  = ""
   }
+  health_check_logs {
+    bucket  = ""
+    enabled = false
+    prefix  = ""
+  }
   ipam_pools {
     ipv4_ipam_pool_id = ""
   }

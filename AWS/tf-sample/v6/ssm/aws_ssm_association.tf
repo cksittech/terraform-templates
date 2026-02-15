@@ -2,6 +2,7 @@ resource "aws_ssm_association" "tf-sample-ssm-association" {
   apply_only_at_cron_interval      = false
   association_name                 = ""
   automation_target_parameter_name = ""
+  calendar_names                   = []
   compliance_severity              = ""
   document_version                 = ""
   max_concurrency                  = ""

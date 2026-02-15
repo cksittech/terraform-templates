@@ -15,6 +15,7 @@ resource "aws_alb_target_group" "tf-sample-alb-target-group" {
   proxy_protocol_v2                  = false
   region                             = ""
   slow_start                         = 0
+  target_control_port                = 0
   target_type                        = ""
   vpc_id                             = ""
   

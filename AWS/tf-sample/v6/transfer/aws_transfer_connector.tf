@@ -15,6 +15,12 @@ resource "aws_transfer_connector" "tf-sample-transfer-connector" {
     partner_profile_id    = ""
     signing_algorithm     = ""
   }
+  egress_config {
+    vpc_lattice {
+      port_number                = 0
+      resource_configuration_arn = ""
+    }
+  }
   sftp_config {
     trusted_host_keys = []
     user_secret_id    = ""

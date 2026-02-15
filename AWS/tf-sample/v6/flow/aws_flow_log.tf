@@ -7,6 +7,7 @@ resource "aws_flow_log" "tf-sample-flow-log" {
   log_format                    = ""
   max_aggregation_interval      = 0
   region                        = ""
+  regional_nat_gateway_id       = ""
   subnet_id                     = ""
   traffic_type                  = ""
   transit_gateway_attachment_id = ""
