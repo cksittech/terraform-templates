@@ -38,7 +38,6 @@ resource "sakuracloud_proxylb" "tf-sample-proxylb" {
     delay_loop  = 0
     host_header = ""
     path        = ""
-    port        = 0
     protocol    = ""
   }
   monitoring_suite {
