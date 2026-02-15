@@ -1,6 +1,7 @@
 resource "ibm_iam_service_api_key" "tf-sample-iam-service-api-key" {
   apikey         = ""
   description    = ""
+  expires_at     = ""
   file           = ""
   iam_service_id = ""
   locked         = false
