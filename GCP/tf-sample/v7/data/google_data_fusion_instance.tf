@@ -8,6 +8,7 @@ resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
   labels                        = {}
   name                          = ""
   options                       = {}
+  patch_revision                = ""
   private_instance              = false
   project                       = ""
   region                        = ""

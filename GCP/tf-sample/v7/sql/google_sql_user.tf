@@ -1,4 +1,5 @@
 resource "google_sql_user" "tf-sample-sql-user" {
+  database_roles      = []
   deletion_policy     = ""
   host                = ""
   instance            = ""

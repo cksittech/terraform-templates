@@ -9,6 +9,7 @@ resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" 
   name                     = ""
   on_prem_version          = ""
   project                  = ""
+  skip_validations         = []
   vm_tracking_enabled      = false
   
   anti_affinity_groups {

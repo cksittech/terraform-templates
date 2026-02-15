@@ -6,6 +6,7 @@ resource "google_firestore_index" "tf-sample-firestore-index" {
   multikey    = false
   project     = ""
   query_scope = ""
+  skip_wait   = false
   unique      = false
   
   fields {

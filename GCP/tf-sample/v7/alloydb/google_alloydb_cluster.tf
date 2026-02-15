@@ -76,6 +76,13 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
   restore_backup_source {
     backup_name = ""
   }
+  restore_backupdr_backup_source {
+    backup = ""
+  }
+  restore_backupdr_pitr_source {
+    data_source   = ""
+    point_in_time = ""
+  }
   restore_continuous_backup_source {
     cluster       = ""
     point_in_time = ""
