@@ -11,6 +11,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     agent_endpoint_id             = ""
     dialect                       = ""
     model_size                    = ""
+    runtime_version               = ""
     should_enable_self_correction = false
     should_enable_sql_execution   = false
     subnet_id                     = ""
@@ -34,13 +35,30 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
       namespace           = ""
       prefix              = ""
     }
+    embedding_llm_customization {
+      instruction          = ""
+      llm_hyper_parameters = {}
+      
+      llm_selection {
+        endpoint_id        = ""
+        llm_selection_type = ""
+        model_id           = ""
+      }
+    }
     function {
       description = ""
       name        = ""
       parameters  = {}
     }
     generation_llm_customization {
-      instruction = ""
+      instruction          = ""
+      llm_hyper_parameters = {}
+      
+      llm_selection {
+        endpoint_id        = ""
+        llm_selection_type = ""
+        model_id           = ""
+      }
     }
     http_endpoint_auth_config {
       http_endpoint_auth_sources {
@@ -66,6 +84,26 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     }
     knowledge_base_configs {
       knowledge_base_id = ""
+    }
+    reasoning_llm_customization {
+      instruction          = ""
+      llm_hyper_parameters = {}
+      
+      llm_selection {
+        endpoint_id        = ""
+        llm_selection_type = ""
+        model_id           = ""
+      }
+    }
+    reranking_llm_customization {
+      instruction          = ""
+      llm_hyper_parameters = {}
+      
+      llm_selection {
+        endpoint_id        = ""
+        llm_selection_type = ""
+        model_id           = ""
+      }
     }
     table_and_column_description {
       bucket              = ""

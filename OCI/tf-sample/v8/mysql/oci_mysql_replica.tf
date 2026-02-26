@@ -12,5 +12,17 @@ resource "oci_mysql_replica" "tf-sample-mysql-replica" {
     nsg_ids             = []
     security_attributes = {}
     shape_name          = ""
+    
+    telemetry_configuration {
+      logs {
+        destination = ""
+        log_types   = []
+        
+        destination_configurations {
+          key   = ""
+          value = ""
+        }
+      }
+    }
   }
 }

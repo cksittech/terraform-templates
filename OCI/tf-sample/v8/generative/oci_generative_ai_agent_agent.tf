@@ -8,8 +8,17 @@ resource "oci_generative_ai_agent_agent" "tf-sample-generative-ai-agent-agent" {
   welcome_message    = ""
   
   llm_config {
+    runtime_version = ""
+    
     routing_llm_customization {
-      instruction = ""
+      instruction          = ""
+      llm_hyper_parameters = {}
+      
+      llm_selection {
+        endpoint_id        = ""
+        llm_selection_type = ""
+        model_id           = ""
+      }
     }
   }
 }

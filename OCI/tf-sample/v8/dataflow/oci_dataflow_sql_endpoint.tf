@@ -6,6 +6,10 @@ resource "oci_dataflow_sql_endpoint" "tf-sample-dataflow-sql-endpoint" {
   driver_shape                  = ""
   executor_shape                = ""
   freeform_tags                 = {}
+  log_compartment_id            = ""
+  log_display_name              = ""
+  log_group_id                  = ""
+  log_retention_duration        = 0
   max_executor_count            = 0
   metastore_id                  = ""
   min_executor_count            = 0

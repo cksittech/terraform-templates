@@ -41,6 +41,18 @@ resource "oci_generative_ai_agent_agent_endpoint" "tf-sample-generative-ai-agent
       prefix               = ""
     }
   }
+  provisioned_capacity_config {
+    provisioned_capacity_id = ""
+    
+    platform_runtime_config {
+      platform_runtime_config_type = ""
+      version                      = ""
+    }
+    tool_runtime_configs {
+      tool_runtime_config_type = ""
+      version                  = ""
+    }
+  }
   session_config {
     idle_timeout_in_seconds = 0
   }

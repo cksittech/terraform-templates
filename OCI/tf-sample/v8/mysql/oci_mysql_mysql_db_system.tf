@@ -95,4 +95,15 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     source_type    = ""
     source_url     = ""
   }
+  telemetry_configuration {
+    logs {
+      destination = ""
+      log_types   = []
+      
+      destination_configurations {
+        key   = ""
+        value = ""
+      }
+    }
+  }
 }
