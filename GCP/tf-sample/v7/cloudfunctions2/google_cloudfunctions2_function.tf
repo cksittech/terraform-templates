@@ -53,6 +53,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
     available_cpu                    = ""
     available_memory                 = ""
     binary_authorization_policy      = ""
+    direct_vpc_egress                = ""
     environment_variables            = {}
     ingress_settings                 = ""
     max_instance_count               = 0
@@ -63,6 +64,10 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
     vpc_connector                    = ""
     vpc_connector_egress_settings    = ""
     
+    direct_vpc_network_interface {
+      network    = ""
+      subnetwork = ""
+    }
     secret_environment_variables {
       key        = ""
       project_id = ""

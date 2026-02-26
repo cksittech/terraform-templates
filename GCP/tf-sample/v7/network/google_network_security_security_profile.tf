@@ -10,7 +10,8 @@ resource "google_network_security_security_profile" "tf-sample-network-security-
     intercept_endpoint_group = ""
   }
   custom_mirroring_profile {
-    mirroring_endpoint_group = ""
+    mirroring_deployment_groups = []
+    mirroring_endpoint_group    = ""
   }
   threat_prevention_profile {
     antivirus_overrides {

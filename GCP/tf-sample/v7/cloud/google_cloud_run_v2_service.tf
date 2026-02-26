@@ -6,6 +6,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
   default_uri_disabled = false
   deletion_protection  = false
   description          = ""
+  iap_enabled          = false
   ingress              = ""
   invoker_iam_disabled = false
   labels               = {}

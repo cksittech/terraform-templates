@@ -16,6 +16,8 @@ resource "google_iap_settings" "tf-sample-iap-settings" {
       tenant_ids     = []
     }
     oauth_settings {
+      client_id            = ""
+      client_secret        = ""
       login_hint           = ""
       programmatic_clients = []
     }

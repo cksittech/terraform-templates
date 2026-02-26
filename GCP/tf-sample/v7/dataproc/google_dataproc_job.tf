@@ -1,8 +1,9 @@
 resource "google_dataproc_job" "tf-sample-dataproc-job" {
-  force_delete = false
-  labels       = {}
-  project      = ""
-  region       = ""
+  force_delete        = false
+  labels              = {}
+  project             = ""
+  region              = ""
+  wait_for_completion = false
   
   hadoop_config {
     archive_uris      = []

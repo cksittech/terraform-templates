@@ -171,6 +171,12 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
               }
             }
           }
+          include_tags {
+            tag_filters {
+              namespaced_tag_key   = ""
+              namespaced_tag_value = ""
+            }
+          }
         }
         others {
         }

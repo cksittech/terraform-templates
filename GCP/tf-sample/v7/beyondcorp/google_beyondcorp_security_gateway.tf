@@ -9,6 +9,8 @@ resource "google_beyondcorp_security_gateway" "tf-sample-beyondcorp-security-gat
     internet_gateway {
     }
   }
+  logging {
+  }
   proxy_protocol_config {
     allowed_client_headers = []
     client_ip              = false

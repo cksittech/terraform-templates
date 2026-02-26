@@ -2,6 +2,7 @@ resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-sea
   app_type          = ""
   collection_id     = ""
   data_store_ids    = []
+  disable_analytics = false
   display_name      = ""
   engine_id         = ""
   features          = {}
