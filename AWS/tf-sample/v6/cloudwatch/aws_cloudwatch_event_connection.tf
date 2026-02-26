@@ -14,6 +14,11 @@ resource "aws_cloudwatch_event_connection" "tf-sample-cloudwatch-event-connectio
       password = ""
       username = ""
     }
+    connectivity_parameters {
+      resource_parameters {
+        resource_configuration_arn = ""
+      }
+    }
     invocation_http_parameters {
       body {
         is_value_secret = false

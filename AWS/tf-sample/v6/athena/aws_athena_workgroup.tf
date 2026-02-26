@@ -51,6 +51,11 @@ resource "aws_athena_workgroup" "tf-sample-athena-workgroup" {
         log_location = ""
       }
     }
+    query_results_s3_access_grants_configuration {
+      authentication_type      = ""
+      create_user_level_prefix = false
+      enable_s3_access_grants  = false
+    }
     result_configuration {
       expected_bucket_owner = ""
       output_location       = ""

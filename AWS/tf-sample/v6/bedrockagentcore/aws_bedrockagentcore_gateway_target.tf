@@ -14,10 +14,17 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
     gateway_iam_role {
     }
     oauth {
-      custom_parameters = {}
-      provider_arn      = ""
-      scopes            = []
+      custom_parameters  = {}
+      default_return_url = ""
+      grant_type         = ""
+      provider_arn       = ""
+      scopes             = []
     }
+  }
+  metadata_configuration {
+    allowed_query_parameters = []
+    allowed_request_headers  = []
+    allowed_response_headers = []
   }
   target_configuration {
     mcp {

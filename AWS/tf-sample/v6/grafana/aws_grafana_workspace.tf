@@ -5,6 +5,7 @@ resource "aws_grafana_workspace" "tf-sample-grafana-workspace" {
   data_sources              = []
   description               = ""
   grafana_version           = ""
+  kms_key_id                = ""
   name                      = ""
   notification_destinations = []
   organization_role_name    = ""

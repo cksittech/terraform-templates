@@ -58,4 +58,6 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret_wo              = ""
     }
   }
+  
+  tags = {}
 }

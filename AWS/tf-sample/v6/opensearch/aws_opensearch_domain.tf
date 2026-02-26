@@ -11,6 +11,12 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     enabled                        = false
     internal_user_database_enabled = false
     
+    jwt_options {
+      enabled     = false
+      public_key  = ""
+      roles_key   = ""
+      subject_key = ""
+    }
     master_user_options {
       master_user_arn      = ""
       master_user_name     = ""

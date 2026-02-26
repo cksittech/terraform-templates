@@ -87,6 +87,10 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
     enabled   = false
     namespace = ""
     
+    access_log_configuration {
+      format                   = ""
+      include_query_parameters = ""
+    }
     log_configuration {
       log_driver = ""
       options    = {}

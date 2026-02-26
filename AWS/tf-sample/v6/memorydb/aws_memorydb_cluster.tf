@@ -6,11 +6,13 @@ resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   engine                     = ""
   engine_version             = ""
   final_snapshot_name        = ""
+  ip_discovery               = ""
   kms_key_arn                = ""
   maintenance_window         = ""
   multi_region_cluster_name  = ""
   name                       = ""
   name_prefix                = ""
+  network_type               = ""
   node_type                  = ""
   num_replicas_per_shard     = 0
   num_shards                 = 0
