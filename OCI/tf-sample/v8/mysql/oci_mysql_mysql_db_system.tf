@@ -68,6 +68,11 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     version_preference        = ""
     version_track_preference  = ""
     window_start_time         = ""
+    
+    maintenance_disabled_windows {
+      time_end   = ""
+      time_start = ""
+    }
   }
   read_endpoint {
     exclude_ips                  = []
