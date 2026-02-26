@@ -293,6 +293,9 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
         sagemaker_image_version_arn   = ""
       }
     }
+    trusted_identity_propagation_settings {
+      status = ""
+    }
   }
   retention_policy {
     home_efs_file_system = ""

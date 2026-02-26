@@ -34,6 +34,227 @@ resource "aws_budgets_budget" "tf-sample-budgets-budget" {
     use_amortized              = false
     use_blended                = false
   }
+  filter_expression {
+    and {
+      and {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      cost_categories {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      dimensions {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      not {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      or {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      tags {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+    }
+    cost_categories {
+      key           = ""
+      match_options = []
+      values        = []
+    }
+    dimensions {
+      key           = ""
+      match_options = []
+      values        = []
+    }
+    not {
+      and {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      cost_categories {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      dimensions {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      not {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      or {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      tags {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+    }
+    or {
+      and {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      cost_categories {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      dimensions {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+      not {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      or {
+        cost_categories {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        dimensions {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+        tags {
+          key           = ""
+          match_options = []
+          values        = []
+        }
+      }
+      tags {
+        key           = ""
+        match_options = []
+        values        = []
+      }
+    }
+    tags {
+      key           = ""
+      match_options = []
+      values        = []
+    }
+  }
   notification {
     comparison_operator        = ""
     notification_type          = ""

@@ -3319,6 +3319,45 @@ resource "aws_lexv2models_intent" "tf-sample-lexv2models-intent" {
     time_to_live_in_seconds = 0
     turns_to_live           = 0
   }
+  qna_intent_configuration {
+    bedrock_model_configuration {
+      custom_prompt = ""
+      model_arn     = ""
+      trace_status  = ""
+      
+      guardrail {
+        identifier = ""
+        version    = ""
+      }
+    }
+    data_source_configuration {
+      bedrock_knowledge_store_configuration {
+        bedrock_knowledge_base_arn = ""
+        exact_response             = false
+        
+        exact_response_fields {
+          answer_field = ""
+        }
+      }
+      kendra_configuration {
+        exact_response              = false
+        kendra_index                = ""
+        query_filter_string         = ""
+        query_filter_string_enabled = false
+      }
+      opensearch_configuration {
+        domain_endpoint = ""
+        exact_response  = false
+        include_fields  = []
+        index_name      = ""
+        
+        exact_response_fields {
+          answer_field   = ""
+          question_field = ""
+        }
+      }
+    }
+  }
   sample_utterance {
     utterance = ""
   }

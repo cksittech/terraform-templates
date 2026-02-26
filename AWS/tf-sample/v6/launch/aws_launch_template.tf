@@ -44,9 +44,10 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     }
   }
   cpu_options {
-    amd_sev_snp      = ""
-    core_count       = 0
-    threads_per_core = 0
+    amd_sev_snp           = ""
+    core_count            = 0
+    nested_virtualization = ""
+    threads_per_core      = 0
   }
   credit_specification {
     cpu_credits = ""
@@ -194,6 +195,15 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     enable_resource_name_dns_a_record    = false
     enable_resource_name_dns_aaaa_record = false
     hostname_type                        = ""
+  }
+  secondary_interfaces {
+    delete_on_termination    = false
+    device_index             = 0
+    interface_type           = ""
+    network_card_index       = 0
+    private_ip_address_count = 0
+    private_ip_addresses     = []
+    secondary_subnet_id      = ""
   }
   tag_specifications {
     resource_type = ""

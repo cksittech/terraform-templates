@@ -50,9 +50,10 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
     }
   }
   cpu_options {
-    amd_sev_snp      = ""
-    core_count       = 0
-    threads_per_core = 0
+    amd_sev_snp           = ""
+    core_count            = 0
+    nested_virtualization = ""
+    threads_per_core      = 0
   }
   credit_specification {
     cpu_credits = ""

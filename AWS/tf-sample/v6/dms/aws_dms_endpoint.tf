@@ -64,6 +64,7 @@ resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
     docs_to_investigate = ""
     extract_doc_id      = ""
     nesting_level       = ""
+    use_update_lookup   = false
   }
   mysql_settings {
     after_connect_script              = ""
@@ -78,7 +79,43 @@ resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
     target_db_type                    = ""
   }
   oracle_settings {
-    authentication_method = ""
+    access_alternate_directly                     = false
+    add_supplemental_logging                      = false
+    additional_archived_log_dest_id               = 0
+    allow_selected_nested_tables                  = false
+    archived_log_dest_id                          = 0
+    archived_logs_only                            = false
+    asm_password                                  = ""
+    asm_server                                    = ""
+    asm_user                                      = ""
+    authentication_method                         = ""
+    char_length_semantics                         = ""
+    convert_timestamp_with_zone_to_utc            = false
+    direct_path_no_log                            = false
+    direct_path_parallel_load                     = false
+    enable_homogenous_tablespace                  = false
+    extra_archived_log_dest_ids                   = []
+    fail_task_on_lob_truncation                   = false
+    number_datatype_scale                         = 0
+    open_transaction_window                       = 0
+    oracle_path_prefix                            = ""
+    parallel_asm_read_threads                     = 0
+    read_ahead_blocks                             = 0
+    read_table_space_name                         = false
+    replace_path_prefix                           = false
+    retry_interval                                = 0
+    secrets_manager_oracle_asm_access_role_arn    = ""
+    secrets_manager_oracle_asm_secret_id          = ""
+    security_db_encryption                        = ""
+    security_db_encryption_name                   = ""
+    spatial_data_option_to_geo_json_function_name = ""
+    standby_delay_time                            = 0
+    trim_space_in_char                            = false
+    use_alternate_folder_for_online               = false
+    use_bfile                                     = false
+    use_direct_path_full_load                     = false
+    use_logminer_reader                           = false
+    use_path_prefix                               = ""
   }
   postgres_settings {
     after_connect_script         = ""

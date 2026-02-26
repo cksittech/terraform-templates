@@ -29,6 +29,7 @@ resource "aws_acmpca_certificate_authority" "tf-sample-acmpca-certificate-author
   revocation_configuration {
     crl_configuration {
       custom_cname       = ""
+      custom_path        = ""
       enabled            = false
       expiration_in_days = 0
       s3_bucket_name     = ""
