@@ -16,7 +16,7 @@ resource "azurerm_data_factory_linked_service_azure_blob_storage" "tf-sample-dat
   tenant_id                  = ""
   use_managed_identity       = false
   
-  key_vault_sas_token {
+  sas_token_linked_key_vault_key {
     linked_service_name = ""
     secret_name         = ""
   }
