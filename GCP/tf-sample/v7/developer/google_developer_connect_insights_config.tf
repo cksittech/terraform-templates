@@ -17,4 +17,7 @@ resource "google_developer_connect_insights_config" "tf-sample-developer-connect
       project_id                = ""
     }
   }
+  target_projects {
+    project_ids = []
+  }
 }

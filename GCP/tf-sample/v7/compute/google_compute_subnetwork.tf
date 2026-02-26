@@ -1,4 +1,5 @@
 resource "google_compute_subnetwork" "tf-sample-compute-subnetwork" {
+  allow_subnet_cidr_routes_overlap = false
   description                      = ""
   external_ipv6_prefix             = ""
   internal_ipv6_prefix             = ""

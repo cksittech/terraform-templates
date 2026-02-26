@@ -102,6 +102,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         local_ssd_interface = ""
         num_local_ssds      = 0
       }
+      instance_flexibility_policy {
+        instance_selection_list {
+          machine_types = []
+          rank          = 0
+        }
+      }
     }
     metastore_config {
       dataproc_metastore_service = ""
@@ -170,6 +176,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type      = ""
         local_ssd_interface = ""
         num_local_ssds      = 0
+      }
+      instance_flexibility_policy {
+        instance_selection_list {
+          machine_types = []
+          rank          = 0
+        }
       }
     }
   }

@@ -82,6 +82,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         enabled = false
       }
     }
+    slice_controller_config {
+      enabled = false
+    }
     stateful_ha_config {
       enabled = false
     }
@@ -196,6 +199,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     
     additional_ip_ranges_config {
       pod_ipv4_range_names = []
+      status               = ""
       subnetwork           = ""
     }
     additional_pod_ranges_config {

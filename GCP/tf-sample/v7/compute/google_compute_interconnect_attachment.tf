@@ -41,4 +41,7 @@ resource "google_compute_interconnect_attachment" "tf-sample-compute-interconnec
       vni = 0
     }
   }
+  params {
+    resource_manager_tags = {}
+  }
 }

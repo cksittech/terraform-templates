@@ -26,6 +26,18 @@ resource "google_vmwareengine_cluster" "tf-sample-vmwareengine-cluster" {
       }
     }
   }
+  datastore_mount_config {
+    access_mode       = ""
+    datastore         = ""
+    ignore_colocation = false
+    nfs_version       = ""
+    
+    datastore_network {
+      connection_count = 0
+      mtu              = 0
+      subnet           = ""
+    }
+  }
   node_type_configs {
     custom_core_count = 0
     node_count        = 0

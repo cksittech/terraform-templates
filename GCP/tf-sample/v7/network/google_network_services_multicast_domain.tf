@@ -11,4 +11,7 @@ resource "google_network_services_multicast_domain" "tf-sample-network-services-
     connection_type = ""
     ncc_hub         = ""
   }
+  ull_multicast_domain {
+    preconfigured_ull_domain = ""
+  }
 }

@@ -51,8 +51,10 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
     kms_key_name = ""
   }
   initial_user {
-    password = ""
-    user     = ""
+    password            = ""
+    password_wo         = ""
+    password_wo_version = ""
+    user                = ""
   }
   maintenance_update_policy {
     maintenance_windows {

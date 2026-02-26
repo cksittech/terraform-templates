@@ -2,6 +2,7 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
   deletion_protection_enabled = false
   deletion_protection_reason  = ""
   description                 = ""
+  desired_replica_state       = ""
   kms_key_name                = ""
   labels                      = {}
   location                    = ""
