@@ -1,8 +1,8 @@
 resource "azurerm_application_gateway" "tf-sample-application-gateway" {
-  enable_http2                      = false
   fips_enabled                      = false
   firewall_policy_id                = ""
   force_firewall_policy_association = false
+  http2_enabled                     = false
   location                          = ""
   name                              = ""
   resource_group_name               = ""
@@ -185,7 +185,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   ssl_profile {
     name                                 = ""
     trusted_client_certificate_names     = []
-    verify_client_cert_issuer_dn         = false
+    verify_client_certificate_issuer_dn  = false
     verify_client_certificate_revocation = ""
     
     ssl_policy {

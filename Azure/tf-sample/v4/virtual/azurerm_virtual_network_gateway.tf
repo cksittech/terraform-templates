@@ -1,10 +1,10 @@
 resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
   active_active                         = false
+  bgp_enabled                           = false
   bgp_route_translation_for_nat_enabled = false
   default_local_network_gateway_id      = ""
   dns_forwarding_enabled                = false
   edge_zone                             = ""
-  enable_bgp                            = false
   generation                            = ""
   ip_sec_replay_protection_enabled      = false
   location                              = ""
