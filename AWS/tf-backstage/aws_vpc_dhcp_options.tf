@@ -7,7 +7,7 @@ resource "aws_vpc_dhcp_options" "tf-backstage-dhcp-options" {
   # netbios_node_type                 =
 
   tags = {
-    Name = "${var.terraform}-dhcp"
+    Name = "${var.terraform}-dhcp-options"
     Terraform = var.terraform
   }
 }
