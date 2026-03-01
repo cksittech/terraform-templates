@@ -58,4 +58,3 @@ resource "aws_ecs_service" "tf-keycloak-ecs-service" {
 
   depends_on = [aws_lb_listener.tf-keycloak-lb-listener-https]
 }
-

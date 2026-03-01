@@ -38,4 +38,3 @@ resource "aws_lb" "tf-keycloak-lb" {
     Terraform = var.terraform
   }
 }
-

@@ -27,4 +27,3 @@ resource "aws_iam_role" "tf-keycloak-iam-role-ecs-task-execution" {
     Terraform = var.terraform
   }
 }
-

@@ -1,4 +1,4 @@
-resource "aws_vpc_dhcp_options" "tf-keycloak-dhcp" {
+resource "aws_vpc_dhcp_options" "tf-keycloak-dhcp-options" {
   domain_name                       = "keycloak.tf"
   domain_name_servers               = ["AmazonProvidedDNS"]
   # ipv6_address_preferred_lease_time =
