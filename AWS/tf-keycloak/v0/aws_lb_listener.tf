@@ -26,4 +26,3 @@ resource "aws_lb_listener" "tf-keycloak-lb-listener" {
     Terraform = var.terraform
   }
 }
-

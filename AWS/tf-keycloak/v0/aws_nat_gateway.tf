@@ -17,4 +17,3 @@ resource "aws_nat_gateway" "tf-keycloak-nat-gateway" {
     Terraform = var.terraform
   }
 }
-

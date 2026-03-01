@@ -172,4 +172,3 @@ resource "aws_ecs_task_definition" "tf-keycloak-ecs-task-definition" {
     Terraform = var.terraform
   }
 }
-
