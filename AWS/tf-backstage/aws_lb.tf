@@ -38,4 +38,3 @@ resource "aws_lb" "tf-backstage-lb" {
     Terraform = var.terraform
   }
 }
-

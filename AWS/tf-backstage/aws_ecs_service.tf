@@ -56,4 +56,3 @@ resource "aws_ecs_service" "tf-backstage-ecs-service" {
     Terraform = var.terraform
   }
 }
-

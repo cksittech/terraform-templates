@@ -1,4 +1,4 @@
-resource "aws_vpc_dhcp_options" "tf-backstage-dhcp" {
+resource "aws_vpc_dhcp_options" "tf-backstage-dhcp-options" {
   domain_name                       = "backstage.tf"
   domain_name_servers               = ["AmazonProvidedDNS"]
   # ipv6_address_preferred_lease_time =

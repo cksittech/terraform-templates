@@ -38,4 +38,3 @@ resource "aws_lb_target_group" "tf-backstage-lb-target-group" {
     Terraform = var.terraform
   }
 }
-

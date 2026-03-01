@@ -26,4 +26,3 @@ resource "aws_lb_listener" "tf-backstage-lb-listener" {
     Terraform = var.terraform
   }
 }
-

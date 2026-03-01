@@ -168,4 +168,3 @@ resource "aws_ecs_task_definition" "tf-backstage-ecs-task-definition" {
     Terraform = var.terraform
   }
 }
-

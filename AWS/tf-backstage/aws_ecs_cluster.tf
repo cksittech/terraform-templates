@@ -19,4 +19,3 @@ resource "aws_ecs_cluster" "tf-backstage-ecs-cluster" {
     Terraform = var.terraform
   }
 }
-

@@ -17,4 +17,3 @@ resource "aws_nat_gateway" "tf-backstage-nat-gateway" {
     Terraform = var.terraform
   }
 }
-

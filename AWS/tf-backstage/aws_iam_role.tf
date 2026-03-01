@@ -27,4 +27,3 @@ resource "aws_iam_role" "tf-backstage-iam-role-ecs-task-execution" {
     Terraform = var.terraform
   }
 }
-
