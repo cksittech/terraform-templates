@@ -1,7 +1,7 @@
 resource "aws_rds_cluster_instance" "tf-keycloak-rds-cluster-instance" {
   apply_immediately                     = false
   auto_minor_version_upgrade            = false
-  availability_zone                     = var.availability_zone.ap_northeast_1.ap_northeast_1a
+  availability_zone                     = "ap-northeast-1a"
   # ca_cert_identifier                    = ""
   cluster_identifier                    = aws_rds_cluster.tf-keycloak-rds-cluster.id
   copy_tags_to_snapshot                 = false

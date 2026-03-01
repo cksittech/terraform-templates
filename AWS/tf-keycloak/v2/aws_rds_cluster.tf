@@ -3,8 +3,8 @@ resource "aws_rds_cluster" "tf-keycloak-rds-cluster" {
   allow_major_version_upgrade           = false
   apply_immediately                     = false
   availability_zones                    = [
-    var.availability_zone.ap_northeast_1.ap_northeast_1a,
-    var.availability_zone.ap_northeast_1.ap_northeast_1c
+    "ap-northeast-1a",
+    "ap-northeast-1c"
   ]
   backtrack_window                      = 0
   backup_retention_period               = 1

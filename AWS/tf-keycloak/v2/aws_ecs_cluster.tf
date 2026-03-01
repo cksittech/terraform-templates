@@ -19,4 +19,3 @@ resource "aws_ecs_cluster" "tf-keycloak-ecs-cluster" {
     Terraform = var.terraform
   }
 }
-
