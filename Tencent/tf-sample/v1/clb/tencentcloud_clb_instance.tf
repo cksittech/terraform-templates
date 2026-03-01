@@ -27,6 +27,23 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   vpc_id                       = ""
   zone_id                      = ""
   
+  exclusive_cluster {
+    classical_cluster {
+      cluster_id   = ""
+      cluster_name = ""
+      zone         = ""
+    }
+    l4_clusters {
+      cluster_id   = ""
+      cluster_name = ""
+      zone         = ""
+    }
+    l7_clusters {
+      cluster_id   = ""
+      cluster_name = ""
+      zone         = ""
+    }
+  }
   snat_ips {
     ip        = ""
     subnet_id = ""

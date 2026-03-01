@@ -28,6 +28,13 @@ resource "tencentcloud_cls_cos_shipper" "tf-sample-cls-cos-shipper" {
       enable_tag  = false
       meta_fields = []
     }
+    parquet {
+      parquet_key_info {
+        key_name               = ""
+        key_non_existing_field = ""
+        key_type               = ""
+      }
+    }
   }
   filter_rules {
     key   = ""

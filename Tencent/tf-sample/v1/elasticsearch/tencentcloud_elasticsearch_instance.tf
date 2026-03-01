@@ -12,6 +12,7 @@ resource "tencentcloud_elasticsearch_instance" "tf-sample-elasticsearch-instance
   protocol              = ""
   public_access         = ""
   renew_flag            = ""
+  scene_type            = 0
   subnet_id             = ""
   version               = ""
   vpc_id                = ""
