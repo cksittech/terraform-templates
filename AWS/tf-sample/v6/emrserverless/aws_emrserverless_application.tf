@@ -32,6 +32,9 @@ resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
     livy_endpoint_enabled = false
     studio_enabled        = false
   }
+  job_level_cost_allocation_configuration {
+    enabled = false
+  }
   maximum_capacity {
     cpu    = ""
     disk   = ""

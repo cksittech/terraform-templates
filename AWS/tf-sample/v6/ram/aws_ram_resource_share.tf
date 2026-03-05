@@ -4,5 +4,9 @@ resource "aws_ram_resource_share" "tf-sample-ram-resource-share" {
   permission_arns           = []
   region                    = ""
   
+  resource_share_configuration {
+    retain_sharing_on_account_leave_organization = false
+  }
+  
   tags = {}
 }
