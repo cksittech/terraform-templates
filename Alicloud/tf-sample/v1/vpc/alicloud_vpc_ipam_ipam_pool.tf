@@ -8,6 +8,7 @@ resource "alicloud_vpc_ipam_ipam_pool" "tf-sample-vpc-ipam-ipam-pool" {
   ipam_pool_description              = ""
   ipam_pool_name                     = ""
   ipam_scope_id                      = ""
+  ipv6_isp                           = ""
   pool_region_id                     = ""
   resource_group_id                  = ""
   source_ipam_pool_id                = ""

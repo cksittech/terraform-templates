@@ -19,6 +19,7 @@ resource "alicloud_dms_enterprise_instance" "tf-sample-dms-enterprise-instance" 
   query_timeout     = 0
   safe_rule         = ""
   safe_rule_id      = ""
+  sell_trust        = false
   sid               = ""
   skip_test         = false
   tid               = 0
