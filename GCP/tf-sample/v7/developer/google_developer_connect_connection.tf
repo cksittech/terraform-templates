@@ -81,4 +81,19 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
       service = ""
     }
   }
+  http_config {
+    host_uri           = ""
+    ssl_ca_certificate = ""
+    
+    basic_authentication {
+      password_secret_version = ""
+      username                = ""
+    }
+    bearer_token_authentication {
+      token_secret_version = ""
+    }
+    service_directory_config {
+      service = ""
+    }
+  }
 }

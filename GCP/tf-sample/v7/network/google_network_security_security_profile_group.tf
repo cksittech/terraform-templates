@@ -7,4 +7,5 @@ resource "google_network_security_security_profile_group" "tf-sample-network-sec
   name                      = ""
   parent                    = ""
   threat_prevention_profile = ""
+  url_filtering_profile     = ""
 }

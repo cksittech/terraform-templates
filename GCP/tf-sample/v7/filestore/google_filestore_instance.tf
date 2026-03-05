@@ -20,9 +20,10 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
     }
   }
   file_shares {
-    capacity_gb   = 0
-    name          = ""
-    source_backup = ""
+    capacity_gb            = 0
+    name                   = ""
+    source_backup          = ""
+    source_backupdr_backup = ""
     
     nfs_export_options {
       access_mode = ""

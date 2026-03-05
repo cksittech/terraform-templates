@@ -56,9 +56,11 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   }
   settings {
     activation_policy            = ""
+    auto_upgrade_enabled         = false
     availability_type            = ""
     collation                    = ""
     connector_enforcement        = ""
+    data_api_access              = ""
     deletion_protection_enabled  = false
     disk_autoresize              = false
     disk_autoresize_limit        = 0
@@ -117,11 +119,12 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       retention_days = 0
     }
     insights_config {
-      query_insights_enabled  = false
-      query_plans_per_minute  = 0
-      query_string_length     = 0
-      record_application_tags = false
-      record_client_address   = false
+      enhanced_query_insights_enabled = false
+      query_insights_enabled          = false
+      query_plans_per_minute          = 0
+      query_string_length             = 0
+      record_application_tags         = false
+      record_client_address           = false
     }
     ip_configuration {
       allocated_ip_range                            = ""

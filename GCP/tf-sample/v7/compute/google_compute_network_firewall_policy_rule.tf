@@ -16,11 +16,14 @@ resource "google_compute_network_firewall_policy_rule" "tf-sample-compute-networ
     dest_address_groups       = []
     dest_fqdns                = []
     dest_ip_ranges            = []
+    dest_network_context      = ""
     dest_region_codes         = []
     dest_threat_intelligences = []
     src_address_groups        = []
     src_fqdns                 = []
     src_ip_ranges             = []
+    src_network_context       = ""
+    src_networks              = []
     src_region_codes          = []
     src_threat_intelligences  = []
     

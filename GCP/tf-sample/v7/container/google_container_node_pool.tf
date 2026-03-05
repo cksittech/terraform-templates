@@ -224,6 +224,9 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       key                      = ""
       values                   = []
     }
+    sandbox_config {
+      type = ""
+    }
     secondary_boot_disks {
       disk_image = ""
       mode       = ""

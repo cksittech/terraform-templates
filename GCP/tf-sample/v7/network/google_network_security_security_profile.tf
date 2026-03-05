@@ -27,4 +27,11 @@ resource "google_network_security_security_profile" "tf-sample-network-security-
       threat_id = ""
     }
   }
+  url_filtering_profile {
+    url_filters {
+      filtering_action = ""
+      priority         = 0
+      urls             = []
+    }
+  }
 }

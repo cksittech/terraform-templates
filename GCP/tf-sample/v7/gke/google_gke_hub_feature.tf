@@ -119,5 +119,8 @@ resource "google_gke_hub_feature" "tf-sample-gke-hub-feature" {
     rbacrolebindingactuation {
       allowed_custom_roles = []
     }
+    workloadidentity {
+      scope_tenancy_pool = ""
+    }
   }
 }

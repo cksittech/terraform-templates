@@ -458,6 +458,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       key                      = ""
       values                   = []
     }
+    sandbox_config {
+      type = ""
+    }
     secondary_boot_disks {
       disk_image = ""
       mode       = ""
@@ -709,6 +712,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         consume_reservation_type = ""
         key                      = ""
         values                   = []
+      }
+      sandbox_config {
+        type = ""
       }
       secondary_boot_disks {
         disk_image = ""
