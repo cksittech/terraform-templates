@@ -23,6 +23,10 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
   license_model                   = ""
   node_count                      = 0
   nsg_ids                         = []
+  os_patch_action                 = ""
+  os_patch_db_node_id             = ""
+  os_patch_trigger                = 0
+  primary_db_system_id            = ""
   private_ip                      = ""
   private_ip_v6                   = ""
   reco_storage_size_in_gb         = 0
@@ -56,6 +60,8 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
       backup_id                             = ""
       backup_tde_password                   = ""
       character_set                         = ""
+      database_defined_tags                 = {}
+      database_freeform_tags                = {}
       database_id                           = ""
       database_software_image_id            = ""
       db_domain                             = ""
@@ -64,13 +70,18 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
       db_workload                           = ""
       defined_tags                          = {}
       freeform_tags                         = {}
+      is_active_data_guard_enabled          = false
+      key_store_id                          = ""
       kms_key_id                            = ""
       kms_key_version_id                    = ""
       ncharacter_set                        = ""
       pdb_name                              = ""
       pluggable_databases                   = []
+      protection_mode                       = ""
+      sid_prefix                            = ""
       tde_wallet_password                   = ""
       time_stamp_for_point_in_time_recovery = ""
+      transport_type                        = ""
       vault_id                              = ""
       
       db_backup_config {
