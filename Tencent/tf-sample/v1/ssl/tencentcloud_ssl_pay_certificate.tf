@@ -6,8 +6,6 @@ resource "tencentcloud_ssl_pay_certificate" "tf-sample-ssl-pay-certificate" {
   project_id     = 0
   time_span      = 0
   
-  dv_auths {
-  }
   information {
     admin_email           = ""
     admin_first_name      = ""
