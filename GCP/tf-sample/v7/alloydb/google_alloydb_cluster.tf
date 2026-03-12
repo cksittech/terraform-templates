@@ -47,6 +47,9 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
       kms_key_name = ""
     }
   }
+  dataplex_config {
+    enabled = false
+  }
   encryption_config {
     kms_key_name = ""
   }

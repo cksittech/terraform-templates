@@ -32,4 +32,7 @@ resource "google_compute_vpn_tunnel" "tf-sample-compute-vpn-tunnel" {
       pfs        = []
     }
   }
+  params {
+    resource_manager_tags = {}
+  }
 }

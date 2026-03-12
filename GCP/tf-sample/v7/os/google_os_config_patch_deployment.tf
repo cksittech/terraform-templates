@@ -20,6 +20,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
   patch_config {
     mig_instances_allowed = false
     reboot_config         = ""
+    skip_unpatchable_vms  = false
     
     apt {
       excludes           = []

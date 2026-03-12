@@ -7,6 +7,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
   
   cluster_config {
     cluster_tier   = ""
+    cluster_type   = ""
     staging_bucket = ""
     temp_bucket    = ""
     

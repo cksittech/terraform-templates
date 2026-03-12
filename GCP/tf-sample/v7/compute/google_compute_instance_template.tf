@@ -46,6 +46,7 @@ resource "google_compute_instance_template" "tf-sample-compute-instance-template
     source                 = ""
     source_image           = ""
     source_snapshot        = ""
+    storage_pool           = ""
     type                   = ""
     
     disk_encryption_key {

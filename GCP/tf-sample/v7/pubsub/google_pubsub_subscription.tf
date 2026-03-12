@@ -32,6 +32,8 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
       use_topic_schema = false
       write_metadata   = false
     }
+    text_config {
+    }
   }
   dead_letter_policy {
     dead_letter_topic     = ""

@@ -10,4 +10,7 @@ resource "google_compute_external_vpn_gateway" "tf-sample-compute-external-vpn-g
     ip_address   = ""
     ipv6_address = ""
   }
+  params {
+    resource_manager_tags = {}
+  }
 }

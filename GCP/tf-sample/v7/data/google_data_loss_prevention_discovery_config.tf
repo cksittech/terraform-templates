@@ -12,6 +12,11 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
         project_id = ""
         table_id   = ""
       }
+      sample_findings_table {
+        dataset_id = ""
+        project_id = ""
+        table_id   = ""
+      }
     }
     pub_sub_notification {
       detail_of_message = ""
@@ -29,7 +34,11 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
         }
       }
     }
+    publish_to_chronicle {
+    }
     publish_to_dataplex_catalog {
+    }
+    publish_to_scc {
     }
     tag_resources {
       lower_data_risk_to_low     = false
@@ -93,6 +102,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
         }
         table_reference {
           dataset_id = ""
+          project_id = ""
           table_id   = ""
         }
         tables {
