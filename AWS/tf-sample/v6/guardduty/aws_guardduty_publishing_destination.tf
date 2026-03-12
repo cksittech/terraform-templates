@@ -4,4 +4,6 @@ resource "aws_guardduty_publishing_destination" "tf-sample-guardduty-publishing-
   detector_id      = ""
   kms_key_arn      = ""
   region           = ""
+  
+  tags = {}
 }

@@ -12,6 +12,9 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
           kms_key_arn = ""
           region      = ""
         }
+        log_group_name_configuration {
+          log_group_name_pattern = ""
+        }
         logs_encryption_configuration {
           encryption_conflict_resolution_strategy = ""
           encryption_strategy                     = ""

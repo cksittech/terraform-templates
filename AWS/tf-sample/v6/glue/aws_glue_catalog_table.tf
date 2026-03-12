@@ -15,6 +15,47 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
     iceberg_input {
       metadata_operation = ""
       version            = ""
+      
+      iceberg_table_input {
+        location   = ""
+        properties = {}
+        
+        partition_spec {
+          spec_id = 0
+          
+          fields {
+            field_id  = 0
+            name      = ""
+            source_id = 0
+            transform = ""
+          }
+        }
+        schema {
+          identifier_field_ids = []
+          schema_id            = 0
+          type                 = ""
+          
+          fields {
+            doc             = ""
+            id              = 0
+            initial_default = ""
+            name            = ""
+            required        = false
+            type            = ""
+            write_default   = ""
+          }
+        }
+        sort_order {
+          order_id = 0
+          
+          fields {
+            direction  = ""
+            null_order = ""
+            source_id  = 0
+            transform  = ""
+          }
+        }
+      }
     }
   }
   partition_index {
@@ -74,5 +115,23 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
     database_name = ""
     name          = ""
     region        = ""
+  }
+  view_definition {
+    definer                = ""
+    is_protected           = false
+    last_refresh_type      = ""
+    refresh_seconds        = 0
+    sub_object_version_ids = []
+    sub_objects            = []
+    view_version_id        = 0
+    view_version_token     = ""
+    
+    representations {
+      dialect               = ""
+      dialect_version       = ""
+      validation_connection = ""
+      view_expanded_text    = ""
+      view_original_text    = ""
+    }
   }
 }

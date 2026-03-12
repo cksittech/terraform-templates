@@ -27,6 +27,7 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
     custom_jwt_authorizer {
       allowed_audience = []
       allowed_clients  = []
+      allowed_scopes   = []
       discovery_url    = ""
     }
   }
