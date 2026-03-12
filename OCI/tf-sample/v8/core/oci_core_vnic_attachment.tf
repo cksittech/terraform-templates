@@ -13,6 +13,7 @@ resource "oci_core_vnic_attachment" "tf-sample-core-vnic-attachment" {
     hostname_label            = ""
     nsg_ids                   = []
     private_ip                = ""
+    private_ip_id             = ""
     route_table_id            = ""
     security_attributes       = {}
     skip_source_dest_check    = false
@@ -21,8 +22,9 @@ resource "oci_core_vnic_attachment" "tf-sample-core-vnic-attachment" {
     vlan_id                   = ""
     
     ipv6address_ipv6subnet_cidr_pair_details {
-      ipv6_address     = ""
-      ipv6_subnet_cidr = ""
+      ipv6address     = ""
+      ipv6id          = ""
+      ipv6subnet_cidr = ""
     }
   }
 }

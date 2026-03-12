@@ -47,6 +47,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     hostname_label            = ""
     nsg_ids                   = []
     private_ip                = ""
+    private_ip_id             = ""
     security_attributes       = {}
     skip_source_dest_check    = false
     subnet_cidr               = ""
@@ -55,6 +56,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     
     ipv6address_ipv6subnet_cidr_pair_details {
       ipv6address     = ""
+      ipv6id          = ""
       ipv6subnet_cidr = ""
     }
   }
