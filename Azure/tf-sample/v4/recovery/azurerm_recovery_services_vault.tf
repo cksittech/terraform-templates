@@ -7,7 +7,6 @@ resource "azurerm_recovery_services_vault" "tf-sample-recovery-services-vault" {
   public_network_access_enabled      = false
   resource_group_name                = ""
   sku                                = ""
-  soft_delete_enabled                = false
   storage_mode_type                  = ""
   
   encryption {
