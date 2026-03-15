@@ -9,4 +9,6 @@ resource "tencentcloud_tcr_namespace" "tf-sample-tcr-namespace" {
   cve_whitelist_items {
     cve_id = ""
   }
+  
+  tags = {}
 }
