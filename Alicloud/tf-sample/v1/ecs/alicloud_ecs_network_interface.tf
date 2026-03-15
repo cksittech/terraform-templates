@@ -1,4 +1,5 @@
 resource "alicloud_ecs_network_interface" "tf-sample-ecs-network-interface" {
+  delete_on_release                  = false
   description                        = ""
   instance_type                      = ""
   ipv4_prefix_count                  = 0

@@ -13,6 +13,11 @@ resource "alicloud_hbr_policy_binding" "tf-sample-hbr-policy-binding" {
   speed_limit                = ""
   
   advanced_options {
+    oss_detail {
+      ignore_archive_object    = false
+      inventory_cleanup_policy = ""
+      inventory_id             = ""
+    }
     udm_detail {
       destination_kms_key_id = ""
       disk_id_list           = []

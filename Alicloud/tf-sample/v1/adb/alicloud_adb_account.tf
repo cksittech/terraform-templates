@@ -6,4 +6,6 @@ resource "alicloud_adb_account" "tf-sample-adb-account" {
   db_cluster_id          = ""
   kms_encrypted_password = ""
   kms_encryption_context = {}
+  
+  tags = {}
 }

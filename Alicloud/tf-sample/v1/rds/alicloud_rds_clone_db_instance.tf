@@ -78,4 +78,6 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
     min_capacity = 0
     switch_force = false
   }
+  
+  tags = {}
 }

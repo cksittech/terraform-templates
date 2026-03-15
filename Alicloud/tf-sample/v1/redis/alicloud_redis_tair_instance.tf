@@ -5,6 +5,8 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   cluster_backup_id                              = ""
   connection_string_prefix                       = ""
   effective_time                                 = ""
+  encryption_key                                 = ""
+  encryption_name                                = ""
   engine_version                                 = ""
   force_upgrade                                  = false
   global_instance_id                             = ""
@@ -26,6 +28,7 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   read_only_count                                = 0
   recover_config_mode                            = ""
   resource_group_id                              = ""
+  role_arn                                       = ""
   secondary_zone_id                              = ""
   security_group_id                              = ""
   security_ip_group_name                         = ""
@@ -37,6 +40,7 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   storage_performance_level                      = ""
   storage_size_gb                                = 0
   tair_instance_name                             = ""
+  tde_status                                     = ""
   vpc_auth_mode                                  = ""
   vpc_id                                         = ""
   vswitch_id                                     = ""
