@@ -33,6 +33,7 @@ resource "aws_datasync_task" "tf-sample-datasync-task" {
   }
   schedule {
     schedule_expression = ""
+    status              = ""
   }
   task_report_config {
     output_type          = ""

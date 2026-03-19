@@ -27,7 +27,7 @@ resource "aws_lakeformation_opt_in" "tf-sample-lakeformation-opt-in" {
     lf_tag {
       catalog_id = ""
       key        = ""
-      value      = ""
+      values     = []
     }
     lf_tag_expression {
       catalog_id = ""

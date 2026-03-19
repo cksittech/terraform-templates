@@ -10,6 +10,7 @@ resource "aws_docdbelastic_cluster" "tf-sample-docdbelastic-cluster" {
   region                       = ""
   shard_capacity               = 0
   shard_count                  = 0
+  shard_instance_count         = 0
   subnet_ids                   = []
   vpc_security_group_ids       = []
   
