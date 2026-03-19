@@ -5,6 +5,7 @@ resource "tencentcloud_sqlserver_basic_instance" "tf-sample-sqlserver-basic-inst
   charge_type            = ""
   collation              = ""
   cpu                    = 0
+  disk_encrypt_flag      = 0
   engine_version         = ""
   machine_type           = ""
   maintenance_start_time = ""
@@ -17,6 +18,7 @@ resource "tencentcloud_sqlserver_basic_instance" "tf-sample-sqlserver-basic-inst
   security_groups        = []
   storage                = 0
   subnet_id              = ""
+  time_zone              = ""
   voucher_ids            = []
   vpc_id                 = ""
   

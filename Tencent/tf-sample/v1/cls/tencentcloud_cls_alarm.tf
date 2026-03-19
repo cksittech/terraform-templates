@@ -2,6 +2,7 @@ resource "tencentcloud_cls_alarm" "tf-sample-cls-alarm" {
   alarm_level      = 0
   alarm_notice_ids = []
   alarm_period     = 0
+  classifications  = {}
   condition        = ""
   message_template = ""
   name             = ""

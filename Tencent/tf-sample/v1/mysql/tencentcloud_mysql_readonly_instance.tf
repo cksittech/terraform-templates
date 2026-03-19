@@ -3,6 +3,7 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   charge_type        = ""
   cpu                = 0
   device_type        = ""
+  disk_type          = ""
   fast_upgrade       = 0
   force_delete       = false
   instance_name      = ""

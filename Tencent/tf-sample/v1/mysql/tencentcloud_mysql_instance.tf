@@ -4,6 +4,7 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
   charge_type        = ""
   cpu                = 0
   device_type        = ""
+  disk_type          = ""
   engine_type        = ""
   engine_version     = ""
   fast_upgrade       = 0

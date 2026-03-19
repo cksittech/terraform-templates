@@ -4,6 +4,7 @@ resource "tencentcloud_mysql_dr_instance" "tf-sample-mysql-dr-instance" {
   charge_type        = ""
   cpu                = 0
   device_type        = ""
+  disk_type          = ""
   first_slave_zone   = ""
   force_delete       = false
   instance_name      = ""
