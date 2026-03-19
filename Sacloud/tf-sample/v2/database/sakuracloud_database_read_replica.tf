@@ -1,9 +1,10 @@
 resource "sakuracloud_database_read_replica" "tf-sample-database-read-replica" {
-  description = ""
-  icon_id     = ""
-  master_id   = ""
-  name        = ""
-  zone        = ""
+  description      = ""
+  icon_id          = ""
+  master_id        = ""
+  name             = ""
+  replica_password = ""
+  zone             = ""
   
   disk {
     encryption_algorithm = ""
