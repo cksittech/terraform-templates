@@ -27,6 +27,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
         token_endpoint        = ""
       }
       service_account_auth_config {
+        scopes          = []
         service_account = ""
       }
       service_agent_id_token_auth_config {
@@ -63,6 +64,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
         token_endpoint        = ""
       }
       service_account_auth_config {
+        scopes          = []
         service_account = ""
       }
       service_agent_id_token_auth_config {

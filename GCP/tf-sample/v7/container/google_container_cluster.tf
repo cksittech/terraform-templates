@@ -222,6 +222,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     daily_maintenance_window {
       start_time = ""
     }
+    disruption_budget {
+      minor_version_disruption_interval = ""
+      patch_version_disruption_interval = ""
+    }
     maintenance_exclusion {
       end_time       = ""
       exclusion_name = ""
@@ -515,6 +519,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       enable_private_nodes = false
       pod_ipv4_cidr_block  = ""
       pod_range            = ""
+      subnetwork           = ""
       
       additional_node_network_configs {
         network    = ""

@@ -10,6 +10,8 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   redis_configs               = {}
   region                      = ""
   replica_count               = 0
+  server_ca_mode              = ""
+  server_ca_pool              = ""
   shard_count                 = 0
   transit_encryption_mode     = ""
   

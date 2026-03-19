@@ -26,6 +26,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     enable_private_nodes = false
     pod_ipv4_cidr_block  = ""
     pod_range            = ""
+    subnetwork           = ""
     
     additional_node_network_configs {
       network    = ""

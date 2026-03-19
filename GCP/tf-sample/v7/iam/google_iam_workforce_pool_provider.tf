@@ -9,20 +9,6 @@ resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-prov
   scim_usage          = ""
   workforce_pool_id   = ""
   
-  extended_attributes_oauth2_client {
-    attributes_type = ""
-    client_id       = ""
-    issuer_uri      = ""
-    
-    client_secret {
-      value {
-        plain_text = ""
-      }
-    }
-    query_parameters {
-      filter = ""
-    }
-  }
   extra_attributes_oauth2_client {
     attributes_type = ""
     client_id       = ""

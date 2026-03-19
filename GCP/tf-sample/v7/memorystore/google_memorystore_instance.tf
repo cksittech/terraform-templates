@@ -12,6 +12,8 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   node_type                   = ""
   project                     = ""
   replica_count               = 0
+  server_ca_mode              = ""
+  server_ca_pool              = ""
   shard_count                 = 0
   transit_encryption_mode     = ""
   

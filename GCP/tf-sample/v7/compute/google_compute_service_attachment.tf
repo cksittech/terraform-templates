@@ -16,6 +16,7 @@ resource "google_compute_service_attachment" "tf-sample-compute-service-attachme
   
   consumer_accept_lists {
     connection_limit  = 0
+    endpoint_url      = ""
     network_url       = ""
     project_id_or_num = ""
   }

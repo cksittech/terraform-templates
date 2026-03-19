@@ -27,7 +27,8 @@ resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-sea
     }
   }
   search_engine_config {
-    search_add_ons = []
-    search_tier    = ""
+    required_subscription_tier = ""
+    search_add_ons             = []
+    search_tier                = ""
   }
 }
