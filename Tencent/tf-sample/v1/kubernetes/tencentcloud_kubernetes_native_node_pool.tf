@@ -64,8 +64,10 @@ resource "tencentcloud_kubernetes_native_node_pool" "tf-sample-kubernetes-native
       min_replicas  = 0
     }
     system_disk {
-      disk_size = 0
-      disk_type = ""
+      disk_size  = 0
+      disk_type  = ""
+      encrypt    = ""
+      kms_key_id = ""
     }
   }
   tags {

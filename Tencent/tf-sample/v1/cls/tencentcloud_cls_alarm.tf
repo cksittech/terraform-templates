@@ -32,6 +32,13 @@ resource "tencentcloud_cls_alarm" "tf-sample-cls-alarm" {
     body    = ""
     headers = []
   }
+  monitor_notice {
+    notices {
+      alarm_levels    = []
+      content_tmpl_id = ""
+      notice_id       = ""
+    }
+  }
   monitor_time {
     time = 0
     type = ""
