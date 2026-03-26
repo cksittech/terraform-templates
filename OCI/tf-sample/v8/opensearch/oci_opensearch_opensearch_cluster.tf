@@ -18,6 +18,12 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
   master_node_host_ocpu_count              = 0
   master_node_host_shape                   = ""
   master_node_host_type                    = ""
+  ml_node_count                            = 0
+  ml_node_host_memory_gb                   = 0
+  ml_node_host_ocpu_count                  = 0
+  ml_node_host_shape                       = ""
+  ml_node_host_type                        = ""
+  ml_node_storage_gb                       = 0
   nsg_id                                   = ""
   opendashboard_node_count                 = 0
   opendashboard_node_host_memory_gb        = 0

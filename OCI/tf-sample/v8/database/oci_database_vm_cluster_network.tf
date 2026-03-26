@@ -10,9 +10,10 @@ resource "oci_database_vm_cluster_network" "tf-sample-database-vm-cluster-networ
   validate_vm_cluster_network = false
   
   dr_scans {
-    hostname               = ""
-    ips                    = []
-    scan_listener_port_tcp = 0
+    hostname                   = ""
+    ips                        = []
+    scan_listener_port_tcp     = 0
+    scan_listener_port_tcp_ssl = 0
   }
   scans {
     hostname                   = ""
