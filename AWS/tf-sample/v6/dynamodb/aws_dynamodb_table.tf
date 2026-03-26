@@ -6,6 +6,7 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
   range_key                   = ""
   read_capacity               = 0
   region                      = ""
+  restore_backup_arn          = ""
   restore_date_time           = ""
   restore_source_name         = ""
   restore_source_table_arn    = ""

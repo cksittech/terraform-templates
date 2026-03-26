@@ -288,10 +288,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -1472,10 +1509,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -1919,10 +1993,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -2619,10 +2730,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -3803,10 +3951,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -4252,10 +4437,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -5436,10 +5658,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -6369,10 +6628,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -6816,10 +7112,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -7518,10 +7851,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -8702,10 +9072,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -9149,10 +9556,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -9849,10 +10293,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -11033,10 +11514,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -11482,10 +12000,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -12666,10 +13221,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -13599,10 +14191,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -14050,10 +14679,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -15234,10 +15900,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -15681,10 +16384,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -16381,10 +17121,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -17565,10 +18342,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -18014,10 +18828,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -19198,10 +20049,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -20131,10 +21019,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -21064,10 +21989,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -21511,10 +22473,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         
         action_to_use {
           allow {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
           block {
+            custom_response {
+              custom_response_body_key = ""
+              response_code            = 0
+              
+              response_header {
+                name  = ""
+                value = ""
+              }
+            }
+          }
+          captcha {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
+          }
+          challenge {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
           count {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
         }
       }
@@ -22215,10 +23214,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -23399,10 +24435,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -23846,10 +24919,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -24546,10 +25656,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -25730,10 +26877,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -26179,10 +27363,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -27363,10 +28584,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -28296,10 +29554,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -28743,10 +30038,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -29445,10 +30777,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -30629,10 +31998,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -31076,10 +32482,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -31776,10 +33219,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -32960,10 +34440,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -33409,10 +34926,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -34593,10 +36147,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -35526,10 +37117,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -35977,10 +37605,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -37161,10 +38826,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -37608,10 +39310,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -38308,10 +40047,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -39492,10 +41268,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -39941,10 +41754,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -41125,10 +42975,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -42058,10 +43945,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -42991,10 +44915,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -43444,10 +45405,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -44628,10 +46626,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -45075,10 +47110,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -45775,10 +47847,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -46959,10 +49068,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -47408,10 +49554,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -48592,10 +50775,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -49525,10 +51745,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -49972,10 +52229,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -50674,10 +52968,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -51858,10 +54189,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -52305,10 +54673,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -53005,10 +55410,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -54189,10 +56631,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -54638,10 +57117,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -55822,10 +58338,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -56755,10 +59308,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -57206,10 +59796,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -58390,10 +61017,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -58837,10 +61501,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -59537,10 +62238,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -60721,10 +63459,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -61170,10 +63945,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -62354,10 +65166,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                     
                     action_to_use {
                       allow {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       block {
+                        custom_response {
+                          custom_response_body_key = ""
+                          response_code            = 0
+                          
+                          response_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      captcha {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
+                      }
+                      challenge {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                       count {
+                        custom_request_handling {
+                          insert_header {
+                            name  = ""
+                            value = ""
+                          }
+                        }
                       }
                     }
                   }
@@ -63287,10 +66136,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
                 
                 action_to_use {
                   allow {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   block {
+                    custom_response {
+                      custom_response_body_key = ""
+                      response_code            = 0
+                      
+                      response_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  captcha {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
+                  }
+                  challenge {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                   count {
+                    custom_request_handling {
+                      insert_header {
+                        name  = ""
+                        value = ""
+                      }
+                    }
                   }
                 }
               }
@@ -64220,10 +67106,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
             
             action_to_use {
               allow {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               block {
+                custom_response {
+                  custom_response_body_key = ""
+                  response_code            = 0
+                  
+                  response_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              captcha {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
+              }
+              challenge {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
               count {
+                custom_request_handling {
+                  insert_header {
+                    name  = ""
+                    value = ""
+                  }
+                }
               }
             }
           }
@@ -65153,10 +68076,47 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         
         action_to_use {
           allow {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
           block {
+            custom_response {
+              custom_response_body_key = ""
+              response_code            = 0
+              
+              response_header {
+                name  = ""
+                value = ""
+              }
+            }
+          }
+          captcha {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
+          }
+          challenge {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
           count {
+            custom_request_handling {
+              insert_header {
+                name  = ""
+                value = ""
+              }
+            }
           }
         }
       }

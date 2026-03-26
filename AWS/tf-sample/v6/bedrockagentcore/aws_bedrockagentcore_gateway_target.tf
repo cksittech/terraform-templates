@@ -28,6 +28,23 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
   }
   target_configuration {
     mcp {
+      api_gateway {
+        rest_api_id = ""
+        stage       = ""
+        
+        api_gateway_tool_configuration {
+          tool_filter {
+            filter_path = ""
+            methods     = []
+          }
+          tool_override {
+            description = ""
+            method      = ""
+            name        = ""
+            path        = ""
+          }
+        }
+      }
       lambda {
         lambda_arn = ""
         

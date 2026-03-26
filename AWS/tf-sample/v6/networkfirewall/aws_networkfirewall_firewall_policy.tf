@@ -8,6 +8,7 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
     type   = ""
   }
   firewall_policy {
+    enable_tls_session_holding         = false
     stateful_default_actions           = []
     stateless_default_actions          = []
     stateless_fragment_default_actions = []

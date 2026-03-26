@@ -8,7 +8,27 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
       comparison = ""
       value      = ""
     }
+    aws_account_name {
+      comparison = ""
+      value      = ""
+    }
     company_name {
+      comparison = ""
+      value      = ""
+    }
+    compliance_associated_standards_id {
+      comparison = ""
+      value      = ""
+    }
+    compliance_security_control_id {
+      comparison = ""
+      value      = ""
+    }
+    compliance_security_control_parameters_name {
+      comparison = ""
+      value      = ""
+    }
+    compliance_security_control_parameters_value {
       comparison = ""
       value      = ""
     }
