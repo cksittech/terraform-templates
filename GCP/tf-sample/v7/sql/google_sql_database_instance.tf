@@ -29,6 +29,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     datasource         = ""
     point_in_time      = ""
     preferred_zone     = ""
+    region             = ""
     target_instance    = ""
   }
   replica_configuration {

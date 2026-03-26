@@ -8,6 +8,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
   toolset_id     = ""
   
   mcp_toolset {
+    custom_headers = {}
     server_address = ""
     
     api_authentication {

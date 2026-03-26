@@ -30,4 +30,7 @@ resource "google_backup_dr_backup_plan" "tf-sample-backup-dr-backup-plan" {
       }
     }
   }
+  disk_backup_plan_properties {
+    guest_flush = false
+  }
 }

@@ -23,4 +23,34 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
       squash_mode       = ""
     }
   }
+  maintenance_policy {
+    maintenance_exclusion_window {
+      end_date {
+        day   = 0
+        month = 0
+        year  = 0
+      }
+      start_date {
+        day   = 0
+        month = 0
+        year  = 0
+      }
+      time {
+        hours   = 0
+        minutes = 0
+        nanos   = 0
+        seconds = 0
+      }
+    }
+    weekly_maintenance_windows {
+      day_of_week = ""
+      
+      start_time {
+        hours   = 0
+        minutes = 0
+        nanos   = 0
+        seconds = 0
+      }
+    }
+  }
 }

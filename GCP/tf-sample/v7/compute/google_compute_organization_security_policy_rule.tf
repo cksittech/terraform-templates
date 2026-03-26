@@ -12,5 +12,8 @@ resource "google_compute_organization_security_policy_rule" "tf-sample-compute-o
     config {
       src_ip_ranges = []
     }
+    expr {
+      expression = ""
+    }
   }
 }

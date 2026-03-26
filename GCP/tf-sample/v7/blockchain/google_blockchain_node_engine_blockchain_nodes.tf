@@ -17,7 +17,8 @@ resource "google_blockchain_node_engine_blockchain_nodes" "tf-sample-blockchain-
       garbage_collection_mode = ""
     }
     validator_config {
-      mev_relay_urls = []
+      beacon_fee_recipient = ""
+      mev_relay_urls       = []
     }
   }
 }

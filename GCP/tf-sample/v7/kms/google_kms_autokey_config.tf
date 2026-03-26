@@ -1,4 +1,5 @@
 resource "google_kms_autokey_config" "tf-sample-kms-autokey-config" {
-  folder      = ""
-  key_project = ""
+  folder                      = ""
+  key_project                 = ""
+  key_project_resolution_mode = ""
 }

@@ -1,13 +1,14 @@
 resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-provider" {
-  attribute_condition = ""
-  attribute_mapping   = {}
-  description         = ""
-  disabled            = false
-  display_name        = ""
-  location            = ""
-  provider_id         = ""
-  scim_usage          = ""
-  workforce_pool_id   = ""
+  attribute_condition    = ""
+  attribute_mapping      = {}
+  description            = ""
+  detailed_audit_logging = false
+  disabled               = false
+  display_name           = ""
+  location               = ""
+  provider_id            = ""
+  scim_usage             = ""
+  workforce_pool_id      = ""
   
   extra_attributes_oauth2_client {
     attributes_type = ""
