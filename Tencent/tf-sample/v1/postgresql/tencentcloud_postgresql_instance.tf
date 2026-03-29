@@ -24,6 +24,7 @@ resource "tencentcloud_postgresql_instance" "tf-sample-postgresql-instance" {
   root_user                   = ""
   security_groups             = []
   storage                     = 0
+  storage_type                = ""
   subnet_id                   = ""
   voucher_ids                 = []
   vpc_id                      = ""
