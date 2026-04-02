@@ -16,6 +16,9 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
       advanced_data_protection_metrics {
         enabled = false
       }
+      advanced_performance_metrics {
+        enabled = false
+      }
       bucket_level {
         activity_metrics {
           enabled = false
@@ -24,6 +27,9 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
           enabled = false
         }
         advanced_data_protection_metrics {
+          enabled = false
+        }
+        advanced_performance_metrics {
           enabled = false
         }
         detailed_status_code_metrics {

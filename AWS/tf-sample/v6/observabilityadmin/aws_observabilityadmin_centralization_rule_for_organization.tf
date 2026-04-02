@@ -27,8 +27,9 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
       scope   = ""
       
       source_logs_configuration {
-        encrypted_log_group_strategy = ""
-        log_group_selection_criteria = ""
+        data_source_selection_criteria = ""
+        encrypted_log_group_strategy   = ""
+        log_group_selection_criteria   = ""
       }
     }
   }

@@ -18,6 +18,10 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
       security_group_ids = []
       subnet_ids         = []
     }
+    vpc {
+      security_group_ids = []
+      subnet_ids         = []
+    }
   }
   
   tags = {}
