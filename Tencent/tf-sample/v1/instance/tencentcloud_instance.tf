@@ -7,6 +7,8 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   cdh_host_id                             = ""
   cdh_instance_type                       = ""
   dedicated_cluster_id                    = ""
+  dedicated_resource_pack_ids             = []
+  dedicated_resource_pack_tenancy         = ""
   disable_api_termination                 = false
   disable_automation_service              = false
   disable_monitor_service                 = false
