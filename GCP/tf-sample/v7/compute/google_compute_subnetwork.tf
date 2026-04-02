@@ -14,6 +14,7 @@ resource "google_compute_subnetwork" "tf-sample-compute-subnetwork" {
   purpose                          = ""
   region                           = ""
   reserved_internal_range          = ""
+  resolve_subnet_mask              = ""
   role                             = ""
   send_secondary_ip_range_if_empty = false
   stack_type                       = ""

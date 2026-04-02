@@ -27,6 +27,16 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
   }
   encryption {
     default_kms_key_name = ""
+    
+    customer_managed_encryption_enforcement_config {
+      restriction_mode = ""
+    }
+    customer_supplied_encryption_enforcement_config {
+      restriction_mode = ""
+    }
+    google_managed_encryption_enforcement_config {
+      restriction_mode = ""
+    }
   }
   hierarchical_namespace {
     enabled = false

@@ -14,9 +14,16 @@ resource "google_spanner_instance" "tf-sample-spanner-instance" {
   autoscaling_config {
     asymmetric_autoscaling_options {
       overrides {
+        autoscaling_target_high_priority_cpu_utilization_percent = 0
+        autoscaling_target_total_cpu_utilization_percent         = 0
+        disable_high_priority_cpu_autoscaling                    = false
+        disable_total_cpu_autoscaling                            = false
+        
         autoscaling_limits {
-          max_nodes = 0
-          min_nodes = 0
+          max_nodes            = 0
+          max_processing_units = 0
+          min_nodes            = 0
+          min_processing_units = 0
         }
       }
       replica_selection {

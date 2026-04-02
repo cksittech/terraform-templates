@@ -5,6 +5,7 @@ resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   location           = ""
   name               = ""
   project            = ""
+  reservation_group  = ""
   secondary_location = ""
   slot_capacity      = 0
   

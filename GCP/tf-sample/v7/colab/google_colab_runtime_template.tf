@@ -34,6 +34,9 @@ resource "google_colab_runtime_template" "tf-sample-colab-runtime-template" {
     enable_secure_boot = false
   }
   software_config {
+    colab_image {
+      release_name = ""
+    }
     env {
       name  = ""
       value = ""

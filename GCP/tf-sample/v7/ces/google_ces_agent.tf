@@ -47,11 +47,12 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
     temperature = 0
   }
   remote_dialogflow_agent {
-    agent                   = ""
-    environment_id          = ""
-    flow_id                 = ""
-    input_variable_mapping  = {}
-    output_variable_mapping = {}
+    agent                                  = ""
+    environment_id                         = ""
+    flow_id                                = ""
+    input_variable_mapping                 = {}
+    output_variable_mapping                = {}
+    respect_response_interruption_settings = false
   }
   toolsets {
     tool_ids = []

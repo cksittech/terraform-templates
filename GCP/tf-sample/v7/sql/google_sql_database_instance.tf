@@ -135,6 +135,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       private_network                               = ""
       server_ca_mode                                = ""
       server_ca_pool                                = ""
+      server_certificate_rotation_mode              = ""
       ssl_mode                                      = ""
       
       authorized_networks {
