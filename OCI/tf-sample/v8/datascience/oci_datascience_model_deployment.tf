@@ -30,6 +30,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       health_check_port              = 0
       image                          = ""
       image_digest                   = ""
+      image_signature_id             = ""
       server_port                    = 0
     }
     infrastructure_configuration_details {
@@ -39,6 +40,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       
       instance_configuration {
         instance_shape_name = ""
+        network_access_type = ""
         private_endpoint_id = ""
         subnet_id           = ""
         
@@ -89,6 +91,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       
       instance_configuration {
         instance_shape_name = ""
+        network_access_type = ""
         private_endpoint_id = ""
         subnet_id           = ""
         

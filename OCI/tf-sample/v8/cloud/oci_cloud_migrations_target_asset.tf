@@ -6,6 +6,10 @@ resource "oci_cloud_migrations_target_asset" "tf-sample-cloud-migrations-target-
   preferred_shape_type       = ""
   type                       = ""
   
+  recommended_spec {
+  }
+  test_spec {
+  }
   user_spec {
     availability_domain                 = ""
     capacity_reservation_id             = ""

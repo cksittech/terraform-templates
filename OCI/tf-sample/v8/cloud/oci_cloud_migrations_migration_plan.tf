@@ -16,13 +16,16 @@ resource "oci_cloud_migrations_migration_plan" "tf-sample-cloud-migrations-migra
   }
   target_environments {
     availability_domain     = ""
+    cluster_asset_id        = ""
     dedicated_vm_host       = ""
     fault_domain            = ""
     ms_license              = ""
+    olvm_templates          = {}
     preferred_shape_type    = ""
     subnet                  = ""
     target_compartment_id   = ""
     target_environment_type = ""
     vcn                     = ""
+    vnic_profile_asset_id   = ""
   }
 }

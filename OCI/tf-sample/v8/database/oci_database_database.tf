@@ -55,6 +55,7 @@ resource "oci_database_database" "tf-sample-database-database" {
         id                                   = ""
         is_remote                            = false
         is_retention_lock_enabled            = false
+        is_zero_data_loss_enabled            = false
         remote_region                        = ""
         type                                 = ""
         vpc_password                         = ""
