@@ -1,7 +1,6 @@
 resource "azurerm_nginx_deployment" "tf-sample-nginx-deployment" {
   automatic_upgrade_channel = ""
   capacity                  = 0
-  diagnose_support_enabled  = false
   email                     = ""
   location                  = ""
   name                      = ""

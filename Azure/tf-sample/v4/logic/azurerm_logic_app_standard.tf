@@ -30,23 +30,25 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
     type         = ""
   }
   site_config {
-    always_on                        = false
-    app_scale_limit                  = 0
-    dotnet_framework_version         = ""
-    elastic_instance_minimum         = 0
-    ftps_state                       = ""
-    health_check_path                = ""
-    http2_enabled                    = false
-    linux_fx_version                 = ""
-    min_tls_version                  = ""
-    pre_warmed_instance_count        = 0
-    runtime_scale_monitoring_enabled = false
-    scm_min_tls_version              = ""
-    scm_type                         = ""
-    scm_use_main_ip_restriction      = false
-    use_32_bit_worker_process        = false
-    vnet_route_all_enabled           = false
-    websockets_enabled               = false
+    always_on                         = false
+    app_scale_limit                   = 0
+    dotnet_framework_version          = ""
+    elastic_instance_minimum          = 0
+    ftps_state                        = ""
+    health_check_path                 = ""
+    http2_enabled                     = false
+    ip_restriction_default_action     = ""
+    linux_fx_version                  = ""
+    min_tls_version                   = ""
+    pre_warmed_instance_count         = 0
+    runtime_scale_monitoring_enabled  = false
+    scm_ip_restriction_default_action = ""
+    scm_min_tls_version               = ""
+    scm_type                          = ""
+    scm_use_main_ip_restriction       = false
+    use_32_bit_worker_process         = false
+    vnet_route_all_enabled            = false
+    websockets_enabled                = false
     
     cors {
       allowed_origins     = []

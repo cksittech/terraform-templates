@@ -12,7 +12,6 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
   kind                                  = ""
   local_authentication_disabled         = false
   location                              = ""
-  managed_hsm_key_id                    = ""
   minimal_tls_version                   = ""
   mongo_server_version                  = ""
   multiple_write_locations_enabled      = false

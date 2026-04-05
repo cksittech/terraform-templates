@@ -16,6 +16,16 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     max_capacity = 0
     min_capacity = 0
   }
+  backend {
+    client_ip_preservation_enabled = false
+    host_name                      = ""
+    name                           = ""
+    port                           = 0
+    probe_name                     = ""
+    protocol                       = ""
+    timeout_in_seconds             = 0
+    trusted_root_certificate_names = []
+  }
   backend_address_pool {
     fqdns        = []
     ip_addresses = []
@@ -88,6 +98,15 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     identity_ids = []
     type         = ""
   }
+  listener {
+    frontend_ip_configuration_name = ""
+    frontend_port_name             = ""
+    host_names                     = []
+    name                           = ""
+    protocol                       = ""
+    ssl_certificate_name           = ""
+    ssl_profile_name               = ""
+  }
   private_link_configuration {
     name = ""
     
@@ -108,6 +127,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     pick_host_name_from_backend_http_settings = false
     port                                      = 0
     protocol                                  = ""
+    proxy_protocol_header_enabled             = false
     timeout                                   = 0
     unhealthy_threshold                       = 0
     
@@ -163,6 +183,13 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
         reroute      = false
       }
     }
+  }
+  routing_rule {
+    backend_address_pool_name = ""
+    backend_name              = ""
+    listener_name             = ""
+    name                      = ""
+    priority                  = 0
   }
   sku {
     capacity = 0
