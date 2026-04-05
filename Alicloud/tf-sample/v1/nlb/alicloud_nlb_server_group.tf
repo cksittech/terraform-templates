@@ -18,6 +18,7 @@ resource "alicloud_nlb_server_group" "tf-sample-nlb-server-group" {
     health_check_enabled         = false
     health_check_exp             = ""
     health_check_http_code       = []
+    health_check_http_version    = ""
     health_check_interval        = 0
     health_check_req             = ""
     health_check_type            = ""

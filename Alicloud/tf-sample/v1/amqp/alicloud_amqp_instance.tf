@@ -3,6 +3,7 @@ resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
   edition                = ""
   instance_name          = ""
   instance_type          = ""
+  listener_mode          = ""
   max_connections        = 0
   max_eip_tps            = ""
   max_tps                = ""
@@ -15,9 +16,12 @@ resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
   renewal_duration       = 0
   renewal_duration_unit  = ""
   renewal_status         = ""
+  security_group_id      = ""
   serverless_charge_type = ""
   storage_size           = ""
   support_eip            = false
   support_tracing        = false
   tracing_storage_time   = 0
+  vpc_id                 = ""
+  vswitch_ids            = []
 }
