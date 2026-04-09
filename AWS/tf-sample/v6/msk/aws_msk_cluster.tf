@@ -13,6 +13,8 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
     security_groups = []
     
     connectivity_info {
+      network_type = ""
+      
       public_access {
         type = ""
       }

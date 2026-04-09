@@ -71,6 +71,17 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
           }
         }
       }
+      storage_lens_table_destination {
+        enabled = false
+        
+        encryption {
+          sse_kms {
+            key_id = ""
+          }
+          sse_s3 {
+          }
+        }
+      }
     }
     exclude {
       buckets = []

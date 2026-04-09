@@ -1,9 +1,11 @@
 resource "aws_opensearchserverless_collection" "tf-sample-opensearchserverless-collection" {
-  description      = ""
-  name             = ""
-  region           = ""
-  standby_replicas = ""
-  type             = ""
+  collection_group_name = ""
+  description           = ""
+  encryption_config     = []
+  name                  = ""
+  region                = ""
+  standby_replicas      = ""
+  type                  = ""
   
   tags = {}
 }
