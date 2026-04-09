@@ -1,4 +1,5 @@
 resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
+  access_port                  = []
   area                         = ""
   domain                       = ""
   explicit_using_dry_run       = false
@@ -49,6 +50,15 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
       secret_key        = ""
       time_format       = ""
       time_param        = ""
+    }
+  }
+  auto_guard {
+    switch = ""
+    
+    filter_rules {
+      filter_type = ""
+      rule_paths  = []
+      rule_type   = ""
     }
   }
   aws_private_access {
@@ -133,6 +143,16 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
       status_code   = 0
     }
   }
+  geo_blocker {
+    switch = ""
+    
+    block_rules {
+      block_type = ""
+      districts  = []
+      rule_paths = []
+      rule_type  = ""
+    }
+  }
   https_billing {
     switch = ""
   }
@@ -152,6 +172,11 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
       redirect_status_code = 0
       redirect_type        = ""
       switch               = ""
+    }
+    hsts {
+      include_sub_domains = ""
+      max_age             = 0
+      switch              = ""
     }
     server_certificate_config {
       certificate_content = ""
@@ -204,6 +229,9 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     origin_type          = ""
     server_name          = ""
   }
+  origin_combine {
+    switch = ""
+  }
   origin_pull_optimization {
     optimization_type = ""
     switch            = ""
@@ -234,6 +262,15 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     access_key = ""
     secret_key = ""
     switch     = ""
+  }
+  range_origin_pull {
+    switch = ""
+    
+    range_rules {
+      rule_paths = []
+      rule_type  = ""
+      switch     = ""
+    }
   }
   referer {
     switch = ""
@@ -288,6 +325,27 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     cache_rules {
       cache_time  = 0
       status_code = ""
+    }
+  }
+  url_redirect {
+    switch = ""
+    
+    path_rules {
+      full_match           = false
+      pattern              = ""
+      redirect_host        = ""
+      redirect_status_code = 0
+      redirect_url         = ""
+    }
+  }
+  user_agent_filter {
+    switch = ""
+    
+    filter_rules {
+      filter_type = ""
+      rule_paths  = []
+      rule_type   = ""
+      user_agents = []
     }
   }
   
