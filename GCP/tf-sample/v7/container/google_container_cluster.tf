@@ -1,5 +1,6 @@
 resource "google_container_cluster" "tf-sample-container-cluster" {
   allow_net_admin                          = false
+  autopilot_privileged_admission           = []
   cluster_ipv4_cidr                        = ""
   datapath_provider                        = ""
   default_max_pods_per_node                = 0

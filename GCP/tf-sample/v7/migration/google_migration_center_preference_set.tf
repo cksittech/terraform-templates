@@ -11,7 +11,8 @@ resource "google_migration_center_preference_set" "tf-sample-migration-center-pr
     target_product               = ""
     
     compute_engine_preferences {
-      license_type = ""
+      license_type         = ""
+      persistent_disk_type = ""
       
       machine_preferences {
         allowed_machine_series {

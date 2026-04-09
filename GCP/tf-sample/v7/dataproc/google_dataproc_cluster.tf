@@ -30,10 +30,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             accelerator_type  = ""
           }
           disk_config {
-            boot_disk_size_gb   = 0
-            boot_disk_type      = ""
-            local_ssd_interface = ""
-            num_local_ssds      = 0
+            boot_disk_provisioned_iops       = 0
+            boot_disk_provisioned_throughput = 0
+            boot_disk_size_gb                = 0
+            boot_disk_type                   = ""
+            local_ssd_interface              = ""
+            num_local_ssds                   = 0
           }
         }
       }
@@ -98,10 +100,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         accelerator_type  = ""
       }
       disk_config {
-        boot_disk_size_gb   = 0
-        boot_disk_type      = ""
-        local_ssd_interface = ""
-        num_local_ssds      = 0
+        boot_disk_provisioned_iops       = 0
+        boot_disk_provisioned_throughput = 0
+        boot_disk_size_gb                = 0
+        boot_disk_type                   = ""
+        local_ssd_interface              = ""
+        num_local_ssds                   = 0
       }
       instance_flexibility_policy {
         instance_selection_list {
@@ -118,10 +122,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
       preemptibility = ""
       
       disk_config {
-        boot_disk_size_gb   = 0
-        boot_disk_type      = ""
-        local_ssd_interface = ""
-        num_local_ssds      = 0
+        boot_disk_provisioned_iops       = 0
+        boot_disk_provisioned_throughput = 0
+        boot_disk_size_gb                = 0
+        boot_disk_type                   = ""
+        local_ssd_interface              = ""
+        num_local_ssds                   = 0
       }
       instance_flexibility_policy {
         instance_selection_list {
@@ -173,10 +179,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         accelerator_type  = ""
       }
       disk_config {
-        boot_disk_size_gb   = 0
-        boot_disk_type      = ""
-        local_ssd_interface = ""
-        num_local_ssds      = 0
+        boot_disk_provisioned_iops       = 0
+        boot_disk_provisioned_throughput = 0
+        boot_disk_size_gb                = 0
+        boot_disk_type                   = ""
+        local_ssd_interface              = ""
+        num_local_ssds                   = 0
       }
       instance_flexibility_policy {
         instance_selection_list {

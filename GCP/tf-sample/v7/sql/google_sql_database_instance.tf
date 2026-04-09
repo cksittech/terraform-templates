@@ -23,6 +23,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     preferred_zone                = ""
     source_instance_deletion_time = ""
     source_instance_name          = ""
+    source_project                = ""
   }
   point_in_time_restore_context {
     allocated_ip_range = ""

@@ -6,6 +6,9 @@ resource "google_iam_workload_identity_pool" "tf-sample-iam-workload-identity-po
   project                   = ""
   workload_identity_pool_id = ""
   
+  attestation_rules {
+    google_cloud_resource = ""
+  }
   inline_certificate_issuance_config {
     ca_pools                   = {}
     key_algorithm              = ""

@@ -23,6 +23,9 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
       squash_mode       = ""
     }
   }
+  dynamic_tier_options {
+    mode = ""
+  }
   maintenance_policy {
     maintenance_exclusion_window {
       end_date {

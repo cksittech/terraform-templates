@@ -45,6 +45,14 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   message_transforms {
     disabled = false
     
+    ai_inference {
+      endpoint              = ""
+      service_account_email = ""
+      
+      unstructured_inference {
+        parameters = {}
+      }
+    }
     javascript_udf {
       code          = ""
       function_name = ""

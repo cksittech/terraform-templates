@@ -8,6 +8,9 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
   project     = ""
   
   linked_interconnect_attachments {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
     include_import_ranges      = []
     site_to_site_data_transfer = false
     uris                       = []
@@ -19,6 +22,9 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
     peering               = ""
   }
   linked_router_appliance_instances {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
     include_import_ranges      = []
     site_to_site_data_transfer = false
     
@@ -33,6 +39,9 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
     uri                   = ""
   }
   linked_vpn_tunnels {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
     include_import_ranges      = []
     site_to_site_data_transfer = false
     uris                       = []

@@ -5,6 +5,13 @@ resource "google_dataplex_entry_link" "tf-sample-dataplex-entry-link" {
   location        = ""
   project         = ""
   
+  aspects {
+    aspect_key = ""
+    
+    aspect {
+      data = ""
+    }
+  }
   entry_references {
     name = ""
     path = ""

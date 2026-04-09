@@ -58,6 +58,14 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
   message_transforms {
     disabled = false
     
+    ai_inference {
+      endpoint              = ""
+      service_account_email = ""
+      
+      unstructured_inference {
+        parameters = {}
+      }
+    }
     javascript_udf {
       code          = ""
       function_name = ""
