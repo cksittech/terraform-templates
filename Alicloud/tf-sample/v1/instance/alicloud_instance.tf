@@ -22,6 +22,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   instance_type                       = ""
   internet_charge_type                = ""
   internet_max_bandwidth_out          = 0
+  io_optimized                        = ""
   ipv6_address_count                  = 0
   ipv6_addresses                      = []
   is_outdated                         = false
@@ -46,12 +47,12 @@ resource "alicloud_instance" "tf-sample-instance" {
   queue_pair_number                   = 0
   renewal_status                      = ""
   resource_group_id                   = ""
-  role_name                           = ""
   secondary_private_ip_address_count  = 0
   secondary_private_ips               = []
   security_enhancement_strategy       = ""
   security_groups                     = []
   spot_duration                       = 0
+  spot_interruption_behavior          = ""
   spot_price_limit                    = 0
   spot_strategy                       = ""
   status                              = ""

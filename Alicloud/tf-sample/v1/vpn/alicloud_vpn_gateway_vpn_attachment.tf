@@ -45,6 +45,7 @@ resource "alicloud_vpn_gateway_vpn_attachment" "tf-sample-vpn-gateway-vpn-attach
     customer_gateway_id  = ""
     enable_dpd           = false
     enable_nat_traversal = false
+    role                 = ""
     tunnel_index         = 0
     
     tunnel_bgp_config {
