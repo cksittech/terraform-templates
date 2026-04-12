@@ -9,6 +9,10 @@ resource "azurerm_app_configuration_feature" "tf-sample-app-configuration-featur
   name                    = ""
   percentage_filter_value = 0
   
+  custom_filter {
+    name       = ""
+    parameters = {}
+  }
   targeting_filter {
     default_rollout_percentage = 0
     users                      = []

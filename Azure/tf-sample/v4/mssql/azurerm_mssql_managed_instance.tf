@@ -4,6 +4,7 @@ resource "azurerm_mssql_managed_instance" "tf-sample-mssql-managed-instance" {
   collation                      = ""
   database_format                = ""
   dns_zone_partner_id            = ""
+  general_purpose_v2_enabled     = false
   hybrid_secondary_usage         = ""
   license_type                   = ""
   location                       = ""

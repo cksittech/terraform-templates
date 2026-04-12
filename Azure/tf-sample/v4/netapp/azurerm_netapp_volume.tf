@@ -31,6 +31,9 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
     retrieval_policy        = ""
     tiering_policy          = ""
   }
+  data_protection_advanced_ransomware {
+    protection_enabled = false
+  }
   data_protection_backup_policy {
     backup_policy_id = ""
     backup_vault_id  = ""
