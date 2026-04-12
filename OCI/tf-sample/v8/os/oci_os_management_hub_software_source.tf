@@ -14,6 +14,7 @@ resource "oci_os_management_hub_software_source" "tf-sample-os-management-hub-so
   is_latest_content_only       = false
   is_mirror_sync_allowed       = false
   is_ssl_verify_enabled        = false
+  origin_display_name          = ""
   origin_software_source_id    = ""
   os_family                    = ""
   packages                     = []

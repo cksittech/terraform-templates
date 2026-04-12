@@ -1,4 +1,5 @@
 resource "oci_os_management_hub_management_station" "tf-sample-os-management-hub-management-station" {
+  arch_type              = ""
   compartment_id         = ""
   defined_tags           = {}
   description            = ""
@@ -6,6 +7,7 @@ resource "oci_os_management_hub_management_station" "tf-sample-os-management-hub
   freeform_tags          = {}
   hostname               = ""
   is_auto_config_enabled = false
+  os_family              = ""
   refresh_trigger        = 0
   
   mirror {

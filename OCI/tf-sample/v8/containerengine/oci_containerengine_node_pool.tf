@@ -5,6 +5,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
   freeform_tags       = {}
   kubernetes_version  = ""
   name                = ""
+  network_launch_type = ""
   node_metadata       = {}
   node_shape          = ""
   quantity_per_subnet = 0
@@ -62,5 +63,27 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
     boot_volume_size_in_gbs = ""
     image_id                = ""
     source_type             = ""
+  }
+  secondary_vnics {
+    display_name = ""
+    nic_index    = 0
+    
+    create_vnic_details {
+      application_resources  = []
+      assign_ipv6ip          = false
+      assign_public_ip       = false
+      defined_tags           = {}
+      display_name           = ""
+      freeform_tags          = {}
+      ip_count               = 0
+      nsg_ids                = []
+      skip_source_dest_check = false
+      subnet_id              = ""
+      
+      ipv6address_ipv6subnet_cidr_pair_details {
+        ipv6address     = ""
+        ipv6subnet_cidr = ""
+      }
+    }
   }
 }

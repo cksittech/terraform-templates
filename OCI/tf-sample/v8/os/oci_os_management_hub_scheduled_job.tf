@@ -3,6 +3,7 @@ resource "oci_os_management_hub_scheduled_job" "tf-sample-os-management-hub-sche
   defined_tags                   = {}
   description                    = ""
   display_name                   = ""
+  dynamic_set_ids                = []
   freeform_tags                  = {}
   is_managed_by_autonomous_linux = false
   is_subcompartment_included     = false
@@ -24,6 +25,13 @@ resource "oci_os_management_hub_scheduled_job" "tf-sample-os-management-hub-sche
     software_source_ids    = []
     windows_update_names   = []
     
+    install_snap_details {
+      channel   = ""
+      is_signed = false
+      mode      = ""
+      name      = ""
+      revision  = ""
+    }
     manage_module_streams_details {
       disable {
         module_name        = ""
@@ -48,10 +56,18 @@ resource "oci_os_management_hub_scheduled_job" "tf-sample-os-management-hub-sche
         stream_name        = ""
       }
     }
+    remove_snap_details {
+      name     = ""
+      revision = ""
+    }
     switch_module_streams_details {
       module_name        = ""
       software_source_id = ""
       stream_name        = ""
+    }
+    switch_snap_channel_details {
+      channel = ""
+      name    = ""
     }
   }
 }

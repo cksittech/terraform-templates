@@ -1,6 +1,7 @@
 resource "oci_objectstorage_bucket" "tf-sample-objectstorage-bucket" {
   access_type           = ""
   auto_tiering          = ""
+  bucket_scope          = ""
   compartment_id        = ""
   defined_tags          = {}
   freeform_tags         = {}

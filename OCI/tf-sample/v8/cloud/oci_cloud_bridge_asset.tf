@@ -1,14 +1,147 @@
 resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
-  asset_source_ids   = []
-  asset_type         = ""
-  compartment_id     = ""
-  defined_tags       = {}
-  display_name       = ""
-  external_asset_key = ""
-  freeform_tags      = {}
-  inventory_id       = ""
-  source_key         = ""
+  asset_class_name    = ""
+  asset_class_version = ""
+  asset_details       = ""
+  asset_source_ids    = []
+  asset_type          = ""
+  compartment_id      = ""
+  defined_tags        = {}
+  display_name        = ""
+  external_asset_key  = ""
+  freeform_tags       = {}
+  inventory_id        = ""
+  source_key          = ""
   
+  attached_ebs_volumes_cost {
+    amount        = 0
+    currency_code = ""
+  }
+  aws_ebs {
+    availability_zone       = ""
+    iops                    = 0
+    is_encrypted            = false
+    is_multi_attach_enabled = false
+    size_in_gi_bs           = 0
+    status                  = ""
+    throughput              = 0
+    volume_key              = ""
+    volume_type             = ""
+    
+    attachments {
+      device                   = ""
+      instance_key             = ""
+      is_delete_on_termination = false
+      status                   = ""
+      volume_key               = ""
+    }
+    tags {
+      key   = ""
+      value = ""
+    }
+  }
+  aws_ec2 {
+    architecture                               = ""
+    are_elastic_inference_accelerators_present = false
+    boot_mode                                  = ""
+    capacity_reservation_key                   = ""
+    image_key                                  = ""
+    instance_key                               = ""
+    instance_lifecycle                         = ""
+    instance_type                              = ""
+    ip_address                                 = ""
+    ipv6address                                = ""
+    is_enclave_options                         = false
+    is_hibernation_options                     = false
+    is_source_dest_check                       = false
+    is_spot_instance                           = false
+    kernel_key                                 = ""
+    licenses                                   = []
+    maintenance_options                        = ""
+    monitoring                                 = ""
+    private_dns_name                           = ""
+    private_ip_address                         = ""
+    root_device_name                           = ""
+    root_device_type                           = ""
+    sriov_net_support                          = ""
+    subnet_key                                 = ""
+    time_launch                                = ""
+    tpm_support                                = ""
+    virtualization_type                        = ""
+    vpc_key                                    = ""
+    
+    network_interfaces {
+      description           = ""
+      interface_type        = ""
+      ipv4prefixes          = []
+      ipv6addresses         = []
+      ipv6prefixes          = []
+      is_source_dest_check  = false
+      mac_address           = ""
+      network_interface_key = ""
+      owner_key             = ""
+      status                = ""
+      subnet_key            = ""
+      
+      association {
+        carrier_ip        = ""
+        customer_owned_ip = ""
+        ip_owner_key      = ""
+        public_dns_name   = ""
+        public_ip         = ""
+      }
+      attachment {
+        attachment_key           = ""
+        device_index             = 0
+        is_delete_on_termination = false
+        network_card_index       = 0
+        status                   = ""
+        time_attach              = ""
+      }
+      private_ip_addresses {
+        is_primary         = false
+        private_dns_name   = ""
+        private_ip_address = ""
+        
+        association {
+          carrier_ip        = ""
+          customer_owned_ip = ""
+          ip_owner_key      = ""
+          public_dns_name   = ""
+          public_ip         = ""
+        }
+      }
+      security_groups {
+        group_key  = ""
+        group_name = ""
+      }
+    }
+    placement {
+      affinity                = ""
+      availability_zone       = ""
+      group_name              = ""
+      host_key                = ""
+      host_resource_group_arn = ""
+      partition_number        = 0
+      spread_domain           = ""
+      tenancy                 = ""
+    }
+    security_groups {
+      group_key  = ""
+      group_name = ""
+    }
+    state {
+      code = 0
+      name = ""
+    }
+    tags {
+      key   = ""
+      value = ""
+    }
+  }
+  aws_ec2cost {
+    amount        = 0
+    currency_code = ""
+  }
   compute {
     connected_networks         = 0
     cores_count                = 0
@@ -36,6 +169,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
     
     disks {
       boot_order      = 0
+      is_cbt_enabled  = false
       location        = ""
       name            = ""
       persistent_mode = ""
