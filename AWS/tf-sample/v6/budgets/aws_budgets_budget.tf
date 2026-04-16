@@ -4,6 +4,7 @@ resource "aws_budgets_budget" "tf-sample-budgets-budget" {
   budget_type       = ""
   limit_amount      = ""
   limit_unit        = ""
+  metrics           = []
   name              = ""
   name_prefix       = ""
   time_period_end   = ""

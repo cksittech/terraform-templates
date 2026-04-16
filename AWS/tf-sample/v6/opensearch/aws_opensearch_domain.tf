@@ -83,6 +83,9 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     role_arn         = ""
     user_pool_id     = ""
   }
+  deployment_strategy_options {
+    deployment_strategy = ""
+  }
   domain_endpoint_options {
     custom_endpoint                 = ""
     custom_endpoint_certificate_arn = ""

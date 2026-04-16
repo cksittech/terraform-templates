@@ -3,6 +3,7 @@ resource "aws_directory_service_directory" "tf-sample-directory-service-director
   description                          = ""
   desired_number_of_domain_controllers = 0
   edition                              = ""
+  enable_directory_data_access         = false
   enable_sso                           = false
   name                                 = ""
   password                             = ""

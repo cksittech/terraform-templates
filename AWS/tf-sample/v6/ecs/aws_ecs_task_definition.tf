@@ -62,6 +62,12 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
         domain                = ""
       }
     }
+    s3files_volume_configuration {
+      access_point_arn        = ""
+      file_system_arn         = ""
+      root_directory          = ""
+      transit_encryption_port = 0
+    }
   }
   
   tags = {}
