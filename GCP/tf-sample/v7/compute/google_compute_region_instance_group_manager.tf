@@ -53,6 +53,9 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
     delete_rule    = ""
     interface_name = ""
   }
+  target_size_policy {
+    mode = ""
+  }
   update_policy {
     instance_redistribution_type   = ""
     max_surge_fixed                = 0

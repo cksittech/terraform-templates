@@ -10,11 +10,13 @@ resource "google_netapp_storage_pool" "tf-sample-netapp-storage-pool" {
   labels                      = {}
   ldap_enabled                = false
   location                    = ""
+  mode                        = ""
   name                        = ""
   network                     = ""
   project                     = ""
   qos_type                    = ""
   replica_zone                = ""
+  scale_type                  = ""
   service_level               = ""
   total_iops                  = ""
   total_throughput_mibps      = ""

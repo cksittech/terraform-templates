@@ -2,6 +2,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
   deletion_policy = ""
   description     = ""
   display_name    = ""
+  labels          = {}
   project         = ""
   region          = ""
   
@@ -11,8 +12,12 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
   spec {
     agent_framework = ""
     class_methods   = ""
+    identity_type   = ""
     service_account = ""
     
+    container_spec {
+      image_uri = ""
+    }
     deployment_spec {
       container_concurrency = 0
       max_instances         = 0
@@ -54,6 +59,9 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
           git_repository_link = ""
           revision            = ""
         }
+      }
+      image_spec {
+        build_args = {}
       }
       inline_source {
         source_archive = ""

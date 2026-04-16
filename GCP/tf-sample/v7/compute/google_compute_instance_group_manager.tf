@@ -47,6 +47,9 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
     delete_rule    = ""
     interface_name = ""
   }
+  target_size_policy {
+    mode = ""
+  }
   update_policy {
     max_surge_fixed                = 0
     max_surge_percent              = 0

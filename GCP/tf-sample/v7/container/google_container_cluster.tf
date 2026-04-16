@@ -64,6 +64,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       disabled = false
     }
     lustre_csi_driver_config {
+      disable_multi_nic         = false
       enable_legacy_lustre_port = false
       enabled                   = false
     }
@@ -95,6 +96,12 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   authenticator_groups_config {
     security_group = ""
+  }
+  autopilot_cluster_policy_config {
+    no_standard_node_pools  = false
+    no_system_impersonation = false
+    no_system_mutation      = false
+    no_unsafe_webhooks      = false
   }
   binary_authorization {
     evaluation_mode = ""

@@ -16,10 +16,12 @@ resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-h
   request_access                      = ""
   
   bigquery_dataset {
-    dataset = ""
+    dataset           = ""
+    replica_locations = []
     
     selected_resources {
-      table = ""
+      routine = ""
+      table   = ""
     }
   }
   data_provider {

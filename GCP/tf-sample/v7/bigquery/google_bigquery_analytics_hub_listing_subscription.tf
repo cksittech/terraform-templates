@@ -5,10 +5,11 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
   project          = ""
   
   destination_dataset {
-    description   = ""
-    friendly_name = ""
-    labels        = {}
-    location      = ""
+    description       = ""
+    friendly_name     = ""
+    labels            = {}
+    location          = ""
+    replica_locations = []
     
     dataset_reference {
       dataset_id = ""
