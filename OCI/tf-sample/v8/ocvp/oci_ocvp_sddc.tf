@@ -14,19 +14,24 @@ resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
   
   initial_configuration {
     initial_cluster_configurations {
-      capacity_reservation_id      = ""
-      compute_availability_domain  = ""
-      datastore_cluster_ids        = []
-      display_name                 = ""
-      esxi_hosts_count             = 0
-      initial_commitment           = ""
-      initial_host_ocpu_count      = 0
-      initial_host_shape_name      = ""
-      instance_display_name_prefix = ""
-      is_shielded_instance_enabled = false
-      vsphere_type                 = ""
-      workload_network_cidr        = ""
+      capacity_reservation_id        = ""
+      compute_availability_domain    = ""
+      datastore_cluster_ids          = []
+      display_name                   = ""
+      esxi_hosts_count               = 0
+      initial_commitment             = ""
+      initial_host_ocpu_count        = 0
+      initial_host_shape_name        = ""
+      initial_vcf_byol_allocation_id = ""
+      instance_display_name_prefix   = ""
+      is_shielded_instance_enabled   = false
+      vsphere_type                   = ""
+      workload_network_cidr          = ""
       
+      cluster_byol_allocation_details {
+        firewall_byol_allocation_id = ""
+        vsan_byol_allocation_id     = ""
+      }
       datastores {
         block_volume_ids = []
         datastore_type   = ""
@@ -45,5 +50,9 @@ resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
         vsphere_vlan_id         = ""
       }
     }
+  }
+  sddc_byol_allocation_details {
+    load_balancer_byol_allocation_id = ""
+    load_balancer_instance_count     = 0
   }
 }

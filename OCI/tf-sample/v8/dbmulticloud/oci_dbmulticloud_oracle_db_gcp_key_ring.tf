@@ -1,4 +1,5 @@
 resource "oci_dbmulticloud_oracle_db_gcp_key_ring" "tf-sample-dbmulticloud-oracle-db-gcp-key-ring" {
+  action                 = ""
   compartment_id         = ""
   defined_tags           = {}
   display_name           = ""
@@ -7,5 +8,6 @@ resource "oci_dbmulticloud_oracle_db_gcp_key_ring" "tf-sample-dbmulticloud-oracl
   location               = ""
   oracle_db_connector_id = ""
   properties             = {}
+  target_region          = ""
   type                   = ""
 }

@@ -15,14 +15,17 @@ resource "oci_distributed_database_distributed_database" "tf-sample-distributed-
   gsm_ssh_public_key                       = ""
   listener_port                            = 0
   listener_port_tls                        = 0
+  move_replication_unit_trigger            = 0
   ncharacter_set                           = ""
   ons_port_local                           = 0
   ons_port_remote                          = 0
   prefix                                   = ""
   private_endpoint_ids                     = []
+  recreate_failed_resource_trigger         = 0
   replication_factor                       = 0
   replication_method                       = ""
   replication_unit                         = 0
+  scan_listener_port                       = 0
   sharding_method                          = ""
   start_database_trigger                   = 0
   state                                    = ""
@@ -31,6 +34,7 @@ resource "oci_distributed_database_distributed_database" "tf-sample-distributed-
   
   catalog_details {
     admin_password      = ""
+    availability_domain = ""
     kms_key_id          = ""
     kms_key_version_id  = ""
     peer_vm_cluster_ids = []
@@ -39,10 +43,52 @@ resource "oci_distributed_database_distributed_database" "tf-sample-distributed-
     vault_id            = ""
     vm_cluster_id       = ""
     
+    db_storage_vault_details {
+      additional_flash_cache_in_percent = 0
+      high_capacity_database_storage    = 0
+    }
     peer_details {
-      protection_mode = ""
-      transport_type  = ""
-      vm_cluster_id   = ""
+      availability_domain = ""
+      protection_mode     = ""
+      transport_type      = ""
+      vm_cluster_id       = ""
+      
+      db_storage_vault_details {
+        additional_flash_cache_in_percent = 0
+        high_capacity_database_storage    = 0
+      }
+      vm_cluster_details {
+        backup_network_nsg_ids        = []
+        backup_subnet_id              = ""
+        domain                        = ""
+        enabled_ecpu_count            = 0
+        is_diagnostics_events_enabled = false
+        is_health_monitoring_enabled  = false
+        is_incident_logs_enabled      = false
+        license_model                 = ""
+        nsg_ids                       = []
+        private_zone_id               = ""
+        ssh_public_keys               = []
+        subnet_id                     = ""
+        total_ecpu_count              = 0
+        vm_file_system_storage_size   = 0
+      }
+    }
+    vm_cluster_details {
+      backup_network_nsg_ids        = []
+      backup_subnet_id              = ""
+      domain                        = ""
+      enabled_ecpu_count            = 0
+      is_diagnostics_events_enabled = false
+      is_health_monitoring_enabled  = false
+      is_incident_logs_enabled      = false
+      license_model                 = ""
+      nsg_ids                       = []
+      private_zone_id               = ""
+      ssh_public_keys               = []
+      subnet_id                     = ""
+      total_ecpu_count              = 0
+      vm_file_system_storage_size   = 0
     }
   }
   db_backup_config {
@@ -75,6 +121,7 @@ resource "oci_distributed_database_distributed_database" "tf-sample-distributed-
   }
   shard_details {
     admin_password      = ""
+    availability_domain = ""
     kms_key_id          = ""
     kms_key_version_id  = ""
     peer_vm_cluster_ids = []
@@ -83,10 +130,52 @@ resource "oci_distributed_database_distributed_database" "tf-sample-distributed-
     vault_id            = ""
     vm_cluster_id       = ""
     
+    db_storage_vault_details {
+      additional_flash_cache_in_percent = 0
+      high_capacity_database_storage    = 0
+    }
     peer_details {
-      protection_mode = ""
-      transport_type  = ""
-      vm_cluster_id   = ""
+      availability_domain = ""
+      protection_mode     = ""
+      transport_type      = ""
+      vm_cluster_id       = ""
+      
+      db_storage_vault_details {
+        additional_flash_cache_in_percent = 0
+        high_capacity_database_storage    = 0
+      }
+      vm_cluster_details {
+        backup_network_nsg_ids        = []
+        backup_subnet_id              = ""
+        domain                        = ""
+        enabled_ecpu_count            = 0
+        is_diagnostics_events_enabled = false
+        is_health_monitoring_enabled  = false
+        is_incident_logs_enabled      = false
+        license_model                 = ""
+        nsg_ids                       = []
+        private_zone_id               = ""
+        ssh_public_keys               = []
+        subnet_id                     = ""
+        total_ecpu_count              = 0
+        vm_file_system_storage_size   = 0
+      }
+    }
+    vm_cluster_details {
+      backup_network_nsg_ids        = []
+      backup_subnet_id              = ""
+      domain                        = ""
+      enabled_ecpu_count            = 0
+      is_diagnostics_events_enabled = false
+      is_health_monitoring_enabled  = false
+      is_incident_logs_enabled      = false
+      license_model                 = ""
+      nsg_ids                       = []
+      private_zone_id               = ""
+      ssh_public_keys               = []
+      subnet_id                     = ""
+      total_ecpu_count              = 0
+      vm_file_system_storage_size   = 0
     }
   }
   validate_network_details {

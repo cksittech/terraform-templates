@@ -24,5 +24,11 @@ resource "oci_file_storage_filesystem_snapshot_policy" "tf-sample-file-storage-f
     schedule_prefix               = ""
     time_schedule_start           = ""
     time_zone                     = ""
+    
+    lock_duration_details {
+      cool_off_duration = 0
+      lock_duration     = 0
+      lock_mode         = ""
+    }
   }
 }

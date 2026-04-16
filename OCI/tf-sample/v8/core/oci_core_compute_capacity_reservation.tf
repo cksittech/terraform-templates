@@ -17,8 +17,9 @@ resource "oci_core_compute_capacity_reservation" "tf-sample-core-compute-capacit
       network_block_ids = []
     }
     instance_shape_config {
-      memory_in_gbs = 0
-      ocpus         = 0
+      memory_in_gbs       = 0
+      ocpus               = 0
+      resource_management = ""
     }
   }
 }

@@ -1,4 +1,5 @@
 resource "oci_dbmulticloud_oracle_db_azure_vault" "tf-sample-dbmulticloud-oracle-db-azure-vault" {
+  action                         = ""
   azure_vault_id                 = ""
   compartment_id                 = ""
   defined_tags                   = {}
@@ -8,5 +9,6 @@ resource "oci_dbmulticloud_oracle_db_azure_vault" "tf-sample-dbmulticloud-oracle
   oracle_db_azure_resource_group = ""
   oracle_db_connector_id         = ""
   properties                     = {}
+  target_region                  = ""
   type                           = ""
 }

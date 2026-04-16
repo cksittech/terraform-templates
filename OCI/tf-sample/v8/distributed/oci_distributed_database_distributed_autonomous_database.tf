@@ -1,8 +1,11 @@
 resource "oci_distributed_database_distributed_autonomous_database" "tf-sample-distributed-database-distributed-autonomous-database" {
+  ca_bundle_id                                                  = ""
+  certificate_id                                                = ""
   change_db_backup_config_trigger                               = 0
   character_set                                                 = ""
   chunks                                                        = 0
   compartment_id                                                = ""
+  configure_gsm_wallet_trigger                                  = 0
   configure_sharding_is_rebalance_required                      = false
   configure_sharding_trigger                                    = 0
   database_version                                              = ""
@@ -18,11 +21,13 @@ resource "oci_distributed_database_distributed_autonomous_database" "tf-sample-d
   generate_wallet_trigger                                       = 0
   listener_port                                                 = 0
   listener_port_tls                                             = 0
+  move_replication_unit_trigger                                 = 0
   ncharacter_set                                                = ""
   ons_port_local                                                = 0
   ons_port_remote                                               = 0
   prefix                                                        = ""
   private_endpoint_ids                                          = []
+  recreate_failed_resource_trigger                              = 0
   replication_factor                                            = 0
   replication_method                                            = ""
   replication_unit                                              = 0
@@ -32,6 +37,7 @@ resource "oci_distributed_database_distributed_autonomous_database" "tf-sample-d
   stop_database_trigger                                         = 0
   upload_ca_signed_certificate                                  = ""
   upload_signed_certificate_and_generate_wallet_trigger         = 0
+  validate_ca_bundle_trigger                                    = 0
   validate_network_trigger                                      = 0
   
   catalog_details {
@@ -42,6 +48,8 @@ resource "oci_distributed_database_distributed_autonomous_database" "tf-sample-d
     is_auto_scaling_enabled              = false
     kms_key_id                           = ""
     kms_key_version_id                   = ""
+    okv_end_point_group                  = ""
+    okv_key_store_id                     = ""
     peer_cloud_autonomous_vm_cluster_ids = []
     source                               = ""
     vault_id                             = ""
@@ -81,6 +89,8 @@ resource "oci_distributed_database_distributed_autonomous_database" "tf-sample-d
     is_auto_scaling_enabled              = false
     kms_key_id                           = ""
     kms_key_version_id                   = ""
+    okv_end_point_group                  = ""
+    okv_key_store_id                     = ""
     peer_cloud_autonomous_vm_cluster_ids = []
     shard_space                          = ""
     source                               = ""

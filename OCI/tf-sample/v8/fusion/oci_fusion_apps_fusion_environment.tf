@@ -10,6 +10,12 @@ resource "oci_fusion_apps_fusion_environment" "tf-sample-fusion-apps-fusion-envi
   is_ipv6dual_stack_enabled    = false
   kms_key_id                   = ""
   
+  additional_egress_rules {
+    description          = ""
+    destination_cidr     = ""
+    max_destination_port = 0
+    min_destination_port = 0
+  }
   create_fusion_environment_admin_user_details {
     email_address = ""
     first_name    = ""

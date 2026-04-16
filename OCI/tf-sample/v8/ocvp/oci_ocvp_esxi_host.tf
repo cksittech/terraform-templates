@@ -10,5 +10,7 @@ resource "oci_ocvp_esxi_host" "tf-sample-ocvp-esxi-host" {
   freeform_tags                = {}
   host_ocpu_count              = 0
   host_shape_name              = ""
+  is_vsan_byol_enabled         = false
   system_tags                  = {}
+  vcf_byol_allocation_id       = ""
 }
