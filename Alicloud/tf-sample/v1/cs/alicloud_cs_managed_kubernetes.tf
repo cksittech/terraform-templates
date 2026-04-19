@@ -10,6 +10,7 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
   cpu_policy                     = ""
   custom_san                     = ""
   deletion_protection            = false
+  disable_encryption             = false
   enable_rrsa                    = false
   enable_ssh                     = false
   encryption_provider_key        = ""

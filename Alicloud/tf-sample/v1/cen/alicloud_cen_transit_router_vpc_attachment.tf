@@ -3,6 +3,7 @@ resource "alicloud_cen_transit_router_vpc_attachment" "tf-sample-cen-transit-rou
   cen_id                                = ""
   dry_run                               = false
   force_delete                          = false
+  order_type                            = ""
   payment_type                          = ""
   resource_type                         = ""
   transit_router_attachment_description = ""
