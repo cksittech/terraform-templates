@@ -4,6 +4,7 @@ resource "tencentcloud_vpc_bandwidth_package" "tf-sample-vpc-bandwidth-package" 
   egress                 = ""
   internet_max_bandwidth = 0
   network_type           = ""
+  tag                    = {}
   time_span              = 0
   
   tags = {}
