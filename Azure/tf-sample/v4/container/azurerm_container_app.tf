@@ -141,6 +141,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     }
     custom_scale_rule {
       custom_rule_type = ""
+      identity_id      = ""
       metadata         = {}
       name             = ""
       

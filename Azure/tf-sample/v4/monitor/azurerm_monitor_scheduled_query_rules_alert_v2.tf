@@ -19,6 +19,7 @@ resource "azurerm_monitor_scheduled_query_rules_alert_v2" "tf-sample-monitor-sch
   action {
     action_groups     = []
     custom_properties = {}
+    email_subject     = ""
   }
   criteria {
     metric_measure_column   = ""

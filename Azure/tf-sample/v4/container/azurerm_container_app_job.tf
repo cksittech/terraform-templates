@@ -18,6 +18,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
       
       rules {
         custom_rule_type = ""
+        identity_id      = ""
         metadata         = {}
         name             = ""
         
