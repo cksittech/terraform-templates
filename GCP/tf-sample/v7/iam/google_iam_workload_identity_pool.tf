@@ -18,7 +18,8 @@ resource "google_iam_workload_identity_pool" "tf-sample-iam-workload-identity-po
   }
   inline_trust_config {
     additional_trust_bundles {
-      trust_domain = ""
+      trust_default_shared_ca = false
+      trust_domain            = ""
       
       trust_anchors {
         pem_certificate = ""

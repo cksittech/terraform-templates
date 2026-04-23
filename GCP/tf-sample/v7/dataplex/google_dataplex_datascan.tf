@@ -118,6 +118,15 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       }
     }
   }
+  execution_identity {
+    dataplex_service_agent {
+    }
+    service_account {
+      email = ""
+    }
+    user_credential {
+    }
+  }
   execution_spec {
     field = ""
     

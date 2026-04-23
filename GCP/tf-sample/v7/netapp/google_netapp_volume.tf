@@ -71,6 +71,9 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
     replication                    = ""
     replication_schedule           = ""
   }
+  large_capacity_config {
+    constituent_count = 0
+  }
   restore_parameters {
     source_backup   = ""
     source_snapshot = ""

@@ -29,4 +29,22 @@ resource "google_clouddeploy_custom_target_type" "tf-sample-clouddeploy-custom-t
       }
     }
   }
+  tasks {
+    deploy {
+      container {
+        args    = []
+        command = []
+        env     = {}
+        image   = ""
+      }
+    }
+    render {
+      container {
+        args    = []
+        command = []
+        env     = {}
+        image   = ""
+      }
+    }
+  }
 }

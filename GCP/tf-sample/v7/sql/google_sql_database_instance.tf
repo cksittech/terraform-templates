@@ -116,6 +116,10 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       start_date = ""
       time       = ""
     }
+    entraid_config {
+      application_id = ""
+      tenant_id      = ""
+    }
     final_backup_config {
       enabled        = false
       retention_days = 0

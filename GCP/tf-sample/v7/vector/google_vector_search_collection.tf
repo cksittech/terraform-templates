@@ -7,6 +7,9 @@ resource "google_vector_search_collection" "tf-sample-vector-search-collection" 
   location      = ""
   project       = ""
   
+  encryption_spec {
+    crypto_key_name = ""
+  }
   vector_schema {
     field_name = ""
     
