@@ -25,6 +25,13 @@ resource "aws_network_interface" "tf-sample-network-interface" {
     instance           = ""
     network_card_index = 0
   }
+  ena_srd_specification {
+    ena_srd_enabled = false
+    
+    ena_srd_udp_specification {
+      ena_srd_udp_enabled = false
+    }
+  }
   
   tags = {}
 }

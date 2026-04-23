@@ -7,6 +7,7 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   datapoints_to_alarm                   = 0
   dimensions                            = {}
   evaluate_low_sample_count_percentiles = ""
+  evaluation_interval                   = 0
   evaluation_periods                    = 0
   extended_statistic                    = ""
   insufficient_data_actions             = []
@@ -21,6 +22,13 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   treat_missing_data                    = ""
   unit                                  = ""
   
+  evaluation_criteria {
+    promql_criteria {
+      pending_period  = 0
+      query           = ""
+      recovery_period = 0
+    }
+  }
   metric_query {
     account_id  = ""
     expression  = ""

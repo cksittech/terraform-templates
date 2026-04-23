@@ -6,6 +6,7 @@ resource "aws_mq_configuration" "tf-sample-mq-configuration" {
   engine_version          = ""
   name                    = ""
   region                  = ""
+  skip_destroy            = false
   
   tags = {}
 }

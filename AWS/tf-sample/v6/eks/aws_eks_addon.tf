@@ -9,6 +9,9 @@ resource "aws_eks_addon" "tf-sample-eks-addon" {
   resolve_conflicts_on_update = ""
   service_account_role_arn    = ""
   
+  namespace_config {
+    namespace = ""
+  }
   pod_identity_association {
     role_arn        = ""
     service_account = ""

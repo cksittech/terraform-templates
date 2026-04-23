@@ -4,7 +4,8 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
   region     = ""
   
   storage_lens_configuration {
-    enabled = false
+    enabled          = false
+    prefix_delimiter = ""
     
     account_level {
       activity_metrics {
@@ -86,6 +87,33 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
     exclude {
       buckets = []
       regions = []
+    }
+    expanded_prefixes_data_export {
+      s3_bucket_destination {
+        account_id            = ""
+        format                = ""
+        output_schema_version = ""
+        prefix                = ""
+        
+        encryption {
+          sse_kms {
+            key_id = ""
+          }
+          sse_s3 {
+          }
+        }
+      }
+      storage_lens_table_destination {
+        enabled = false
+        
+        encryption {
+          sse_kms {
+            key_id = ""
+          }
+          sse_s3 {
+          }
+        }
+      }
     }
     include {
       buckets = []
