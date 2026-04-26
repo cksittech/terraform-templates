@@ -1,4 +1,5 @@
 resource "azurerm_backup_policy_vm" "tf-sample-backup-policy-vm" {
+  consistency_type               = ""
   instant_restore_retention_days = 0
   name                           = ""
   policy_type                    = ""

@@ -8,6 +8,7 @@ resource "azurerm_dashboard_grafana" "tf-sample-dashboard-grafana" {
   public_network_access_enabled          = false
   resource_group_name                    = ""
   sku                                    = ""
+  sku_size                               = ""
   zone_redundancy_enabled                = false
   
   azure_monitor_workspace_integrations {
