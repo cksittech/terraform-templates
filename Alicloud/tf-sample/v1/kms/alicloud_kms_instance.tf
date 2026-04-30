@@ -1,4 +1,5 @@
 resource "alicloud_kms_instance" "tf-sample-kms-instance" {
+  deletion_protection         = false
   force_delete_without_backup = ""
   instance_name               = ""
   key_num                     = 0
