@@ -14,6 +14,46 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
     }
   }
   default_route_action {
+    cache_policy {
+      cache_bypass_request_header_names = []
+      cache_mode                        = ""
+      negative_caching                  = false
+      request_coalescing                = false
+      
+      cache_key_policy {
+        excluded_query_parameters = []
+        include_host              = false
+        include_protocol          = false
+        include_query_string      = false
+        included_cookie_names     = []
+        included_header_names     = []
+        included_query_parameters = []
+      }
+      client_ttl {
+        nanos   = 0
+        seconds = ""
+      }
+      default_ttl {
+        nanos   = 0
+        seconds = ""
+      }
+      max_ttl {
+        nanos   = 0
+        seconds = ""
+      }
+      negative_caching_policy {
+        code = 0
+        
+        ttl {
+          nanos   = 0
+          seconds = ""
+        }
+      }
+      serve_while_stale {
+        nanos   = 0
+        seconds = ""
+      }
+    }
     cors_policy {
       allow_credentials    = false
       allow_headers        = []
@@ -126,6 +166,46 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
       }
     }
     default_route_action {
+      cache_policy {
+        cache_bypass_request_header_names = []
+        cache_mode                        = ""
+        negative_caching                  = false
+        request_coalescing                = false
+        
+        cache_key_policy {
+          excluded_query_parameters = []
+          include_host              = false
+          include_protocol          = false
+          include_query_string      = false
+          included_cookie_names     = []
+          included_header_names     = []
+          included_query_parameters = []
+        }
+        client_ttl {
+          nanos   = 0
+          seconds = ""
+        }
+        default_ttl {
+          nanos   = 0
+          seconds = ""
+        }
+        max_ttl {
+          nanos   = 0
+          seconds = ""
+        }
+        negative_caching_policy {
+          code = 0
+          
+          ttl {
+            nanos   = 0
+            seconds = ""
+          }
+        }
+        serve_while_stale {
+          nanos   = 0
+          seconds = ""
+        }
+      }
       cors_policy {
         allow_credentials    = false
         allow_headers        = []
@@ -232,6 +312,46 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
         }
       }
       route_action {
+        cache_policy {
+          cache_bypass_request_header_names = []
+          cache_mode                        = ""
+          negative_caching                  = false
+          request_coalescing                = false
+          
+          cache_key_policy {
+            excluded_query_parameters = []
+            include_host              = false
+            include_protocol          = false
+            include_query_string      = false
+            included_cookie_names     = []
+            included_header_names     = []
+            included_query_parameters = []
+          }
+          client_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          default_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          max_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          negative_caching_policy {
+            code = 0
+            
+            ttl {
+              nanos   = 0
+              seconds = ""
+            }
+          }
+          serve_while_stale {
+            nanos   = 0
+            seconds = ""
+          }
+        }
         cors_policy {
           allow_credentials    = false
           allow_headers        = []
@@ -375,6 +495,46 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
         }
       }
       route_action {
+        cache_policy {
+          cache_bypass_request_header_names = []
+          cache_mode                        = ""
+          negative_caching                  = false
+          request_coalescing                = false
+          
+          cache_key_policy {
+            excluded_query_parameters = []
+            include_host              = false
+            include_protocol          = false
+            include_query_string      = false
+            included_cookie_names     = []
+            included_header_names     = []
+            included_query_parameters = []
+          }
+          client_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          default_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          max_ttl {
+            nanos   = 0
+            seconds = ""
+          }
+          negative_caching_policy {
+            code = 0
+            
+            ttl {
+              nanos   = 0
+              seconds = ""
+            }
+          }
+          serve_while_stale {
+            nanos   = 0
+            seconds = ""
+          }
+        }
         cors_policy {
           allow_credentials    = false
           allow_headers        = []

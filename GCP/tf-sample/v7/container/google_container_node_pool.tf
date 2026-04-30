@@ -209,12 +209,33 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       transparent_hugepage_defrag  = ""
       transparent_hugepage_enabled = ""
       
+      accurate_time_config {
+        enable_ptp_kvm_time_sync = false
+      }
       hugepages_config {
         hugepage_size_1g = 0
         hugepage_size_2m = 0
       }
       node_kernel_module_loading {
         policy = ""
+      }
+      swap_config {
+        enabled = false
+        
+        boot_disk_profile {
+          swap_size_gib     = 0
+          swap_size_percent = 0
+        }
+        dedicated_local_ssd_profile {
+          disk_count = 0
+        }
+        encryption_config {
+          disabled = false
+        }
+        ephemeral_local_ssd_profile {
+          swap_size_gib     = 0
+          swap_size_percent = 0
+        }
       }
     }
     local_nvme_ssd_block_config {

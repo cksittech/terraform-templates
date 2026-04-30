@@ -54,7 +54,6 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   }
   data_store_tool {
     description = ""
-    max_results = 0
     name        = ""
     
     boost_specs {

@@ -11,4 +11,8 @@ resource "google_compute_storage_pool" "tf-sample-compute-storage-pool" {
   project                       = ""
   storage_pool_type             = ""
   zone                          = ""
+  
+  params {
+    resource_manager_tags = {}
+  }
 }

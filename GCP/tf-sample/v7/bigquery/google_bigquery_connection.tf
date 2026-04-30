@@ -34,6 +34,31 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
       username = ""
     }
   }
+  configuration {
+    connector_id = ""
+    
+    asset {
+      database              = ""
+      google_cloud_resource = ""
+    }
+    authentication {
+      username_password {
+        username = ""
+        
+        password {
+          plaintext = ""
+        }
+      }
+    }
+    endpoint {
+      host_port = ""
+    }
+    network {
+      private_service_connect {
+        network_attachment = ""
+      }
+    }
+  }
   spark {
     metastore_service_config {
       metastore_service = ""

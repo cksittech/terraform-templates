@@ -1,5 +1,6 @@
 resource "google_datastream_private_connection" "tf-sample-datastream-private-connection" {
   create_without_validation = false
+  deletion_policy           = ""
   display_name              = ""
   labels                    = {}
   location                  = ""

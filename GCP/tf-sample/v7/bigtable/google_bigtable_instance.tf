@@ -21,4 +21,6 @@ resource "google_bigtable_instance" "tf-sample-bigtable-instance" {
       storage_target = 0
     }
   }
+  
+  tags = {}
 }

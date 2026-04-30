@@ -25,10 +25,12 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
     supported_connector_modes = []
   }
   destination_configs {
-    key = ""
+    key    = ""
+    params = ""
     
     destinations {
       host = ""
+      port = 0
     }
   }
   entities {
