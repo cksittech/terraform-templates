@@ -50,7 +50,6 @@ resource "oci_golden_gate_deployment" "tf-sample-golden-gate-deployment" {
     start_hour = 0
   }
   ogg_data {
-    admin_password     = ""
     admin_username     = ""
     certificate        = ""
     credential_store   = ""

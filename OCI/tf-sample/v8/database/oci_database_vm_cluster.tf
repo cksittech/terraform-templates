@@ -1,6 +1,7 @@
 resource "oci_database_vm_cluster" "tf-sample-database-vm-cluster" {
   compartment_id               = ""
   cpu_core_count               = 0
+  data_storage_percentage      = 0
   data_storage_size_in_gb      = 0
   data_storage_size_in_tbs     = 0
   db_node_storage_size_in_gbs  = 0
@@ -16,6 +17,8 @@ resource "oci_database_vm_cluster" "tf-sample-database-vm-cluster" {
   license_model                = ""
   memory_size_in_gbs           = 0
   ocpu_count                   = 0
+  reco_storage_percentage      = 0
+  sparse_storage_percentage    = 0
   ssh_public_keys              = []
   system_version               = ""
   time_zone                    = ""

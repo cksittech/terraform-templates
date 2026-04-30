@@ -17,6 +17,9 @@ resource "oci_functions_application" "tf-sample-functions-application" {
       kms_key_id = ""
     }
   }
+  logging {
+    line_format = ""
+  }
   trace_config {
     domain_id  = ""
     is_enabled = false

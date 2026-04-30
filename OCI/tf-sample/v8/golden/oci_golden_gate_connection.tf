@@ -1,6 +1,5 @@
 resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   access_key_id                               = ""
-  account_key                                 = ""
   account_key_secret_id                       = ""
   account_name                                = ""
   authentication_mode                         = ""
@@ -8,7 +7,6 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   azure_authority_host                        = ""
   azure_tenant_id                             = ""
   client_id                                   = ""
-  client_secret                               = ""
   client_secret_secret_id                     = ""
   cluster_id                                  = ""
   cluster_placement_group_id                  = ""
@@ -35,36 +33,26 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   jndi_connection_factory                     = ""
   jndi_initial_context_factory                = ""
   jndi_provider_url                           = ""
-  jndi_security_credentials                   = ""
   jndi_security_credentials_secret_id         = ""
   jndi_security_principal                     = ""
   key_id                                      = ""
-  key_store                                   = ""
-  key_store_password                          = ""
   key_store_password_secret_id                = ""
   key_store_secret_id                         = ""
   nsg_ids                                     = []
-  password                                    = ""
   password_secret_id                          = ""
   port                                        = 0
-  private_ip                                  = ""
-  private_key_file                            = ""
   private_key_file_secret_id                  = ""
-  private_key_passphrase                      = ""
   private_key_passphrase_secret_id            = ""
   producer_properties                         = ""
   public_key_fingerprint                      = ""
   redis_cluster_id                            = ""
   region                                      = ""
   routing_method                              = ""
-  sas_token                                   = ""
   sas_token_secret_id                         = ""
-  secret_access_key                           = ""
   secret_access_key_secret_id                 = ""
   security_attributes                         = {}
   security_protocol                           = ""
   servers                                     = ""
-  service_account_key_file                    = ""
   service_account_key_file_secret_id          = ""
   session_mode                                = ""
   should_use_jndi                             = false
@@ -72,13 +60,9 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   should_validate_server_certificate          = false
   ssl_ca                                      = ""
   ssl_cert                                    = ""
-  ssl_client_keystash                         = ""
   ssl_client_keystash_secret_id               = ""
-  ssl_client_keystoredb                       = ""
   ssl_client_keystoredb_secret_id             = ""
   ssl_crl                                     = ""
-  ssl_key                                     = ""
-  ssl_key_password                            = ""
   ssl_key_password_secret_id                  = ""
   ssl_key_secret_id                           = ""
   ssl_mode                                    = ""
@@ -91,20 +75,15 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   tenancy_id                                  = ""
   tenant_id                                   = ""
   tls_ca_file                                 = ""
-  tls_certificate_key_file                    = ""
-  tls_certificate_key_file_password           = ""
   tls_certificate_key_file_password_secret_id = ""
   tls_certificate_key_file_secret_id          = ""
   trigger_refresh                             = false
-  trust_store                                 = ""
-  trust_store_password                        = ""
   trust_store_password_secret_id              = ""
   trust_store_secret_id                       = ""
   url                                         = ""
   user_id                                     = ""
   username                                    = ""
   vault_id                                    = ""
-  wallet                                      = ""
   wallet_secret_id                            = ""
   
   additional_attributes {
@@ -112,9 +91,8 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
     value = ""
   }
   bootstrap_servers {
-    host       = ""
-    port       = 0
-    private_ip = ""
+    host = ""
+    port = 0
   }
   catalog {
     branch                  = ""

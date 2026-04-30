@@ -24,9 +24,11 @@ resource "oci_database_cloud_vm_cluster" "tf-sample-database-cloud-vm-cluster" {
   nsg_ids                         = []
   ocpu_count                      = 0
   private_zone_id                 = ""
+  reco_storage_percentage         = 0
   scan_listener_port_tcp          = 0
   scan_listener_port_tcp_ssl      = 0
   security_attributes             = {}
+  sparse_storage_percentage       = 0
   ssh_public_keys                 = []
   subnet_id                       = ""
   subscription_id                 = ""

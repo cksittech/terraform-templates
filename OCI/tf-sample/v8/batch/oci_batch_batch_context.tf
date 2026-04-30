@@ -13,9 +13,11 @@ resource "oci_batch_batch_context" "tf-sample-batch-batch-context" {
     type                 = ""
     
     shape {
-      memory_in_gbs = 0
-      ocpus         = 0
-      shape_name    = ""
+      disk_size_in_gbs = 0
+      memory_in_gbs    = 0
+      ocpus            = 0
+      shape_name       = ""
+      type             = ""
     }
   }
   job_priority_configurations {
@@ -25,9 +27,10 @@ resource "oci_batch_batch_context" "tf-sample-batch-batch-context" {
     weight        = 0
   }
   logging_configuration {
-    log_group_id = ""
-    log_id       = ""
-    type         = ""
+    is_job_task_events_propagation_enabled = false
+    log_group_id                           = ""
+    log_id                                 = ""
+    type                                   = ""
   }
   network {
     nsg_ids   = []

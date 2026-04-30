@@ -1,4 +1,5 @@
 resource "oci_redis_redis_cluster" "tf-sample-redis-redis-cluster" {
+  backup_id               = ""
   cluster_mode            = ""
   compartment_id          = ""
   defined_tags            = {}
@@ -12,4 +13,13 @@ resource "oci_redis_redis_cluster" "tf-sample-redis-redis-cluster" {
   shard_count             = 0
   software_version        = ""
   subnet_id               = ""
+  
+  import_from_object_storage_details {
+    bucket    = ""
+    namespace = ""
+    
+    objects {
+      object = ""
+    }
+  }
 }

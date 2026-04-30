@@ -7,6 +7,7 @@ resource "oci_core_compute_gpu_memory_cluster" "tf-sample-core-compute-gpu-memor
   freeform_tags             = {}
   gpu_memory_fabric_id      = ""
   instance_configuration_id = ""
+  private_ip_ids            = []
   size                      = ""
   
   gpu_memory_cluster_scale_config {
