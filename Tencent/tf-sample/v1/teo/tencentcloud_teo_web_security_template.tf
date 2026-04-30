@@ -886,6 +886,24 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         }
       }
     }
+    default_deny_security_action_parameters {
+      managed_rules {
+        block_ip           = ""
+        block_ip_duration  = ""
+        error_page_id      = ""
+        response_code      = ""
+        return_custom_page = ""
+        stall              = ""
+      }
+      other_modules {
+        block_ip           = ""
+        block_ip_duration  = ""
+        error_page_id      = ""
+        response_code      = ""
+        return_custom_page = ""
+        stall              = ""
+      }
+    }
     exception_rules {
       rules {
         condition                          = ""

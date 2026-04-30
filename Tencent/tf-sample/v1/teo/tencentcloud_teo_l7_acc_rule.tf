@@ -161,6 +161,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
         offline_cache_parameters {
           switch = ""
         }
+        origin_authentication_parameters {
+          request_properties {
+            name  = ""
+            type  = ""
+            value = ""
+          }
+        }
         origin_pull_protocol_parameters {
           protocol = ""
         }
@@ -219,6 +226,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
           regex  = ""
           type   = ""
           value  = ""
+        }
+        vary_parameters {
+          switch = ""
         }
         web_socket_parameters {
           switch  = ""
@@ -384,6 +394,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
             offline_cache_parameters {
               switch = ""
             }
+            origin_authentication_parameters {
+              request_properties {
+                name  = ""
+                type  = ""
+                value = ""
+              }
+            }
             origin_pull_protocol_parameters {
               protocol = ""
             }
@@ -442,6 +459,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
               regex  = ""
               type   = ""
               value  = ""
+            }
+            vary_parameters {
+              switch = ""
             }
             web_socket_parameters {
               switch  = ""
@@ -607,6 +627,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                 offline_cache_parameters {
                   switch = ""
                 }
+                origin_authentication_parameters {
+                  request_properties {
+                    name  = ""
+                    type  = ""
+                    value = ""
+                  }
+                }
                 origin_pull_protocol_parameters {
                   protocol = ""
                 }
@@ -665,6 +692,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                   regex  = ""
                   type   = ""
                   value  = ""
+                }
+                vary_parameters {
+                  switch = ""
                 }
                 web_socket_parameters {
                   switch  = ""
@@ -830,6 +860,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                     offline_cache_parameters {
                       switch = ""
                     }
+                    origin_authentication_parameters {
+                      request_properties {
+                        name  = ""
+                        type  = ""
+                        value = ""
+                      }
+                    }
                     origin_pull_protocol_parameters {
                       protocol = ""
                     }
@@ -888,6 +925,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                       regex  = ""
                       type   = ""
                       value  = ""
+                    }
+                    vary_parameters {
+                      switch = ""
                     }
                     web_socket_parameters {
                       switch  = ""
@@ -1053,6 +1093,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                         offline_cache_parameters {
                           switch = ""
                         }
+                        origin_authentication_parameters {
+                          request_properties {
+                            name  = ""
+                            type  = ""
+                            value = ""
+                          }
+                        }
                         origin_pull_protocol_parameters {
                           protocol = ""
                         }
@@ -1111,6 +1158,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                           regex  = ""
                           type   = ""
                           value  = ""
+                        }
+                        vary_parameters {
+                          switch = ""
                         }
                         web_socket_parameters {
                           switch  = ""
@@ -1276,6 +1326,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                             offline_cache_parameters {
                               switch = ""
                             }
+                            origin_authentication_parameters {
+                              request_properties {
+                                name  = ""
+                                type  = ""
+                                value = ""
+                              }
+                            }
                             origin_pull_protocol_parameters {
                               protocol = ""
                             }
@@ -1334,6 +1391,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                               regex  = ""
                               type   = ""
                               value  = ""
+                            }
+                            vary_parameters {
+                              switch = ""
                             }
                             web_socket_parameters {
                               switch  = ""
@@ -1499,6 +1559,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                 offline_cache_parameters {
                                   switch = ""
                                 }
+                                origin_authentication_parameters {
+                                  request_properties {
+                                    name  = ""
+                                    type  = ""
+                                    value = ""
+                                  }
+                                }
                                 origin_pull_protocol_parameters {
                                   protocol = ""
                                 }
@@ -1557,6 +1624,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                   regex  = ""
                                   type   = ""
                                   value  = ""
+                                }
+                                vary_parameters {
+                                  switch = ""
                                 }
                                 web_socket_parameters {
                                   switch  = ""
@@ -1722,6 +1792,13 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                     offline_cache_parameters {
                                       switch = ""
                                     }
+                                    origin_authentication_parameters {
+                                      request_properties {
+                                        name  = ""
+                                        type  = ""
+                                        value = ""
+                                      }
+                                    }
                                     origin_pull_protocol_parameters {
                                       protocol = ""
                                     }
@@ -1780,6 +1857,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                       regex  = ""
                                       type   = ""
                                       value  = ""
+                                    }
+                                    vary_parameters {
+                                      switch = ""
                                     }
                                     web_socket_parameters {
                                       switch  = ""

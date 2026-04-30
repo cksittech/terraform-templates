@@ -13,6 +13,7 @@ resource "tencentcloud_cls_ckafka_consumer" "tf-sample-cls-ckafka-consumer" {
   }
   content {
     enable_tag         = false
+    json_type          = 0
     meta_fields        = []
     tag_json_not_tiled = false
     timestamp_accuracy = 0
