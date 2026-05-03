@@ -13,10 +13,12 @@ resource "azurerm_eventhub" "tf-sample-eventhub" {
     skip_empty_archives = false
     
     destination {
-      archive_name_format = ""
-      blob_container_name = ""
-      name                = ""
-      storage_account_id  = ""
+      archive_name_format         = ""
+      blob_container_name         = ""
+      name                        = ""
+      storage_account_id          = ""
+      storage_authentication_id   = ""
+      storage_authentication_type = ""
     }
   }
   retention_description {

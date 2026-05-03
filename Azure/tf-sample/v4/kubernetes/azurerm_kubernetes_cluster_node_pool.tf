@@ -39,7 +39,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   
   kubelet_config {
     allowed_unsafe_sysctls    = []
-    container_log_max_line    = 0
+    container_log_max_files   = 0
     container_log_max_size_mb = 0
     cpu_cfs_quota_enabled     = false
     cpu_cfs_quota_period      = ""

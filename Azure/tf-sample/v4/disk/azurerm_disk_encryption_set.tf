@@ -4,7 +4,6 @@ resource "azurerm_disk_encryption_set" "tf-sample-disk-encryption-set" {
   federated_client_id       = ""
   key_vault_key_id          = ""
   location                  = ""
-  managed_hsm_key_id        = ""
   name                      = ""
   resource_group_name       = ""
   
