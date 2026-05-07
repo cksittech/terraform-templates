@@ -544,11 +544,12 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       auto_upgrade = false
     }
     network_config {
-      create_pod_range     = false
-      enable_private_nodes = false
-      pod_ipv4_cidr_block  = ""
-      pod_range            = ""
-      subnetwork           = ""
+      accelerator_network_profile = ""
+      create_pod_range            = false
+      enable_private_nodes        = false
+      pod_ipv4_cidr_block         = ""
+      pod_range                   = ""
+      subnetwork                  = ""
       
       additional_node_network_configs {
         network    = ""

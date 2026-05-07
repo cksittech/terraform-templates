@@ -37,6 +37,9 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
     name = ""
     port = 0
   }
+  resource_policies {
+    workload_policy = ""
+  }
   standby_policy {
     initial_delay_sec = 0
     mode              = ""

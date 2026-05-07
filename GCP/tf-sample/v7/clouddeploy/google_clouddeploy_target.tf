@@ -33,6 +33,16 @@ resource "google_clouddeploy_target" "tf-sample-clouddeploy-target" {
     usages            = []
     verbose           = false
     worker_pool       = ""
+    
+    default_pool {
+      artifact_storage = ""
+      service_account  = ""
+    }
+    private_pool {
+      artifact_storage = ""
+      service_account  = ""
+      worker_pool      = ""
+    }
   }
   gke {
     cluster      = ""

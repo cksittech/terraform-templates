@@ -16,6 +16,20 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
       value = ""
     }
   }
+  objects_config {
+    source_objects_config {
+      objects_selection_type = ""
+      
+      object_configs {
+        object_identifier {
+          database = ""
+          schema   = ""
+          table    = ""
+          type     = ""
+        }
+      }
+    }
+  }
   performance_config {
     dump_parallel_level = ""
   }

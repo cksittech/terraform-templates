@@ -55,6 +55,8 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   }
   data_quality_spec {
     catalog_publishing_enabled = false
+    enable_catalog_based_rules = false
+    filter                     = ""
     row_filter                 = ""
     sampling_percent           = 0
     
@@ -76,6 +78,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       }
     }
     rules {
+      attributes  = {}
       column      = ""
       description = ""
       dimension   = ""
@@ -113,6 +116,14 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       }
       table_condition_expectation {
         sql_expression = ""
+      }
+      template_reference {
+        name = ""
+        
+        values {
+          name  = ""
+          value = ""
+        }
       }
       uniqueness_expectation {
       }

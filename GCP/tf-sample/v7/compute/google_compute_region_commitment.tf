@@ -14,6 +14,9 @@ resource "google_compute_region_commitment" "tf-sample-compute-region-commitment
     cores_per_license = ""
     license           = ""
   }
+  params {
+    resource_manager_tags = {}
+  }
   resources {
     accelerator_type = ""
     amount           = ""

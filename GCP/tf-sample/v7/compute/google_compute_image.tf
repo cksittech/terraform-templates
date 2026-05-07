@@ -20,6 +20,9 @@ resource "google_compute_image" "tf-sample-compute-image" {
     raw_key                 = ""
     rsa_encrypted_key       = ""
   }
+  params {
+    resource_manager_tags = {}
+  }
   raw_disk {
     container_type = ""
     sha1           = ""

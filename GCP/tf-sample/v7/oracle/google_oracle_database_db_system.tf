@@ -35,15 +35,17 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
       is_unified_auditing_enabled = false
       
       database {
-        admin_password      = ""
-        character_set       = ""
-        database_id         = ""
-        db_home_name        = ""
-        db_name             = ""
-        db_unique_name      = ""
-        gcp_oracle_zone     = ""
-        ncharacter_set      = ""
-        tde_wallet_password = ""
+        admin_password          = ""
+        character_set           = ""
+        database_id             = ""
+        db_home_name            = ""
+        db_name                 = ""
+        db_unique_name          = ""
+        gcp_oracle_zone         = ""
+        ncharacter_set          = ""
+        pluggable_database_id   = ""
+        pluggable_database_name = ""
+        tde_wallet_password     = ""
         
         properties {
           db_version = ""
