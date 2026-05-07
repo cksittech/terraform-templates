@@ -99,6 +99,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
           id                                   = ""
           is_remote                            = false
           is_retention_lock_enabled            = false
+          is_zero_data_loss_enabled            = false
           remote_region                        = ""
           type                                 = ""
         }
