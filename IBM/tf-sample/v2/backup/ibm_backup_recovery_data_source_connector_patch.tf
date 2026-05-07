@@ -4,5 +4,6 @@ resource "ibm_backup_recovery_data_source_connector_patch" "tf-sample-backup-rec
   endpoint_type   = ""
   instance_id     = ""
   region          = ""
+  service_name    = ""
   x_ibm_tenant_id = ""
 }

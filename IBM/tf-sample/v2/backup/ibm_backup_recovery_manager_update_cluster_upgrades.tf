@@ -4,6 +4,7 @@ resource "ibm_backup_recovery_manager_update_cluster_upgrades" "tf-sample-backup
   interval_for_rolling_upgrade_in_hours = 0
   package_url                           = ""
   region                                = ""
+  service_name                          = ""
   target_version                        = ""
   time_stamp_to_upgrade_at_msecs        = 0
   type                                  = ""

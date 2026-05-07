@@ -4,5 +4,6 @@ resource "ibm_backup_recovery_connector_access_token" "tf-sample-backup-recovery
   instance_id   = ""
   password      = ""
   region        = ""
+  service_name  = ""
   username      = ""
 }

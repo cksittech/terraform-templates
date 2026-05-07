@@ -5,4 +5,5 @@ resource "ibm_backup_recovery_connector_registration" "tf-sample-backup-recovery
   instance_id        = ""
   region             = ""
   registration_token = ""
+  service_name       = ""
 }

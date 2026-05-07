@@ -5,6 +5,7 @@ resource "ibm_backup_recovery_download_files_folders" "tf-sample-backup-recovery
   name                   = ""
   parent_recovery_id     = ""
   region                 = ""
+  service_name           = ""
   x_ibm_tenant_id        = ""
   
   documents {

@@ -4,6 +4,7 @@ resource "ibm_backup_recovery_protection_group_run_request" "tf-sample-backup-re
   instance_id     = ""
   region          = ""
   run_type        = ""
+  service_name    = ""
   x_ibm_tenant_id = ""
   
   objects {

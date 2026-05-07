@@ -3,6 +3,7 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
   group_id        = ""
   instance_id     = ""
   region          = ""
+  service_name    = ""
   x_ibm_tenant_id = ""
   
   update_protection_group_run_params {

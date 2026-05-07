@@ -9,6 +9,7 @@ resource "ibm_backup_recovery_source_registration" "tf-sample-backup-recovery-so
   is_internal_encrypted     = false
   name                      = ""
   region                    = ""
+  service_name              = ""
   x_ibm_tenant_id           = ""
   
   advanced_configs {

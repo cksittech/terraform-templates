@@ -3,4 +3,5 @@ resource "ibm_backup_recovery_manager_cancel_cluster_upgrades" "tf-sample-backup
   endpoint_type       = ""
   instance_id         = ""
   region              = ""
+  service_name        = ""
 }

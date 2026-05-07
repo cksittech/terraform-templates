@@ -3,5 +3,6 @@ resource "ibm_backup_recovery_connection_registration_token" "tf-sample-backup-r
   endpoint_type   = ""
   instance_id     = ""
   region          = ""
+  service_name    = ""
   x_ibm_tenant_id = ""
 }

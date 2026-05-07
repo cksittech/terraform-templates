@@ -1,5 +1,6 @@
 resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-protection-group" {
   abort_in_blackouts = false
+  delete_snapshots   = false
   description        = ""
   end_time_usecs     = 0
   endpoint_type      = ""
@@ -12,6 +13,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
   priority           = ""
   qos_policy         = ""
   region             = ""
+  service_name       = ""
   x_ibm_tenant_id    = ""
   
   advanced_configs {

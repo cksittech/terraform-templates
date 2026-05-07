@@ -6,6 +6,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
   is_cbs_enabled  = false
   name            = ""
   region          = ""
+  service_name    = ""
   template_id     = ""
   version         = 0
   x_ibm_tenant_id = ""

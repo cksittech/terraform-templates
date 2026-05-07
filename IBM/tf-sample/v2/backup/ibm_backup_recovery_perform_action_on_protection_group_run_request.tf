@@ -4,6 +4,7 @@ resource "ibm_backup_recovery_perform_action_on_protection_group_run_request" "t
   group_id        = ""
   instance_id     = ""
   region          = ""
+  service_name    = ""
   x_ibm_tenant_id = ""
   
   cancel_params {

@@ -4,5 +4,6 @@ resource "ibm_backup_recovery_data_source_connection" "tf-sample-backup-recovery
   endpoint_type       = ""
   instance_id         = ""
   region              = ""
+  service_name        = ""
   x_ibm_tenant_id     = ""
 }

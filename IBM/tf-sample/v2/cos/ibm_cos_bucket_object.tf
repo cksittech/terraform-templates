@@ -1,6 +1,7 @@
 resource "ibm_cos_bucket_object" "tf-sample-cos-bucket-object" {
   bucket_crn                    = ""
   bucket_location               = ""
+  bypass_governance_retention   = false
   content                       = ""
   content_base64                = ""
   content_file                  = ""

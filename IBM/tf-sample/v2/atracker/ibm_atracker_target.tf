@@ -4,6 +4,9 @@ resource "ibm_atracker_target" "tf-sample-atracker-target" {
   region      = ""
   target_type = ""
   
+  appconfig_endpoint {
+    target_crn = ""
+  }
   cloudlogs_endpoint {
     target_crn = ""
   }

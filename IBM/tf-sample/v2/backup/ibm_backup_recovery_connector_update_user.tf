@@ -30,6 +30,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
   s3_access_key_id                 = ""
   s3_account_id                    = ""
   s3_secret_key                    = ""
+  service_name                     = ""
   session_name_cookie              = ""
   sid                              = ""
   tenant_id                        = ""

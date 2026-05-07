@@ -9,9 +9,11 @@ resource "ibm_pdr_managedr" "tf-sample-pdr-managedr" {
   instance_id                       = ""
   location_id                       = ""
   machine_type                      = ""
+  managed_apikey                    = ""
   orchestrator_ha                   = false
   orchestrator_location_type        = ""
   orchestrator_name                 = ""
+  orchestrator_network_ids          = []
   orchestrator_password             = ""
   orchestrator_workspace_id         = ""
   proxy_ip                          = ""
@@ -23,7 +25,9 @@ resource "ibm_pdr_managedr" "tf-sample-pdr-managedr" {
   stand_by_redeploy                 = ""
   standby_machine_type              = ""
   standby_orchestrator_name         = ""
+  standby_orchestrator_network_ids  = []
   standby_orchestrator_workspace_id = ""
+  standby_ssh_key_name              = ""
   standby_tier                      = ""
   tenant_name                       = ""
   tier                              = ""

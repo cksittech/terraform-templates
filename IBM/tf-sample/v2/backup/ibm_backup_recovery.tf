@@ -4,6 +4,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
   name                   = ""
   region                 = ""
   request_initiator_type = ""
+  service_name           = ""
   snapshot_environment   = ""
   x_ibm_tenant_id        = ""
   
