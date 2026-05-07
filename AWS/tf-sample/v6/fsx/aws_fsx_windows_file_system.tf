@@ -34,6 +34,8 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
     file_system_administrators_group       = ""
     organizational_unit_distinguished_name = ""
     password                               = ""
+    password_wo                            = ""
+    password_wo_version                    = 0
     username                               = ""
   }
   

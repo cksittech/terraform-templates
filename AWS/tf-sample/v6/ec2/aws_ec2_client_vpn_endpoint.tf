@@ -38,6 +38,11 @@ resource "aws_ec2_client_vpn_endpoint" "tf-sample-ec2-client-vpn-endpoint" {
     cloudwatch_log_stream = ""
     enabled               = false
   }
+  transit_gateway_configuration {
+    availability_zone_ids = []
+    availability_zones    = []
+    transit_gateway_id    = ""
+  }
   
   tags = {}
 }

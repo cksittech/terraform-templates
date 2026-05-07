@@ -23,6 +23,10 @@ resource "aws_timestreaminfluxdb_db_cluster" "tf-sample-timestreaminfluxdb-db-cl
       enabled     = false
     }
   }
+  maintenance_schedule {
+    preferred_maintenance_window = ""
+    timezone                     = ""
+  }
   
   tags = {}
 }
