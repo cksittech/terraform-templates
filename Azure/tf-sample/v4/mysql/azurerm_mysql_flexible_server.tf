@@ -23,7 +23,6 @@ resource "azurerm_mysql_flexible_server" "tf-sample-mysql-flexible-server" {
     geo_backup_key_vault_key_id          = ""
     geo_backup_user_assigned_identity_id = ""
     key_vault_key_id                     = ""
-    managed_hsm_key_id                   = ""
     primary_user_assigned_identity_id    = ""
   }
   high_availability {

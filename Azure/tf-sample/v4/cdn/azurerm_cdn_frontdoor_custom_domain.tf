@@ -7,5 +7,15 @@ resource "azurerm_cdn_frontdoor_custom_domain" "tf-sample-cdn-frontdoor-custom-d
   tls {
     cdn_frontdoor_secret_id = ""
     certificate_type        = ""
+    minimum_version         = ""
+    
+    cipher_suite {
+      type = ""
+      
+      custom_ciphers {
+        tls12 = []
+        tls13 = []
+      }
+    }
   }
 }

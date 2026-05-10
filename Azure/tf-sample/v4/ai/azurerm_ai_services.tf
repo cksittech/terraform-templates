@@ -12,7 +12,6 @@ resource "azurerm_ai_services" "tf-sample-ai-services" {
   customer_managed_key {
     identity_client_id = ""
     key_vault_key_id   = ""
-    managed_hsm_key_id = ""
   }
   identity {
     identity_ids = []
