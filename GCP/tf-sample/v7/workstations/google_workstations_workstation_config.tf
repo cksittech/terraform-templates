@@ -80,6 +80,12 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
   persistent_directories {
     mount_path = ""
     
+    gce_hd {
+      archive_timeout = ""
+      reclaim_policy  = ""
+      size_gb         = 0
+      source_snapshot = ""
+    }
     gce_pd {
       disk_type       = ""
       fs_type         = ""

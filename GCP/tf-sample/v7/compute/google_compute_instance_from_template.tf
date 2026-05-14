@@ -56,6 +56,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
       labels                      = {}
       provisioned_iops            = 0
       provisioned_throughput      = 0
+      replica_zones               = []
       resource_manager_tags       = {}
       resource_policies           = []
       size                        = 0

@@ -25,5 +25,15 @@ resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" 
     allowed_domains               = []
     challenge_security_preference = ""
     integration_type              = ""
+    
+    challenge_settings {
+      action_settings {
+        action          = ""
+        score_threshold = 0
+      }
+      default_settings {
+        score_threshold = 0
+      }
+    }
   }
 }

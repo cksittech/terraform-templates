@@ -65,6 +65,12 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     max_requests_per_connection = 0
     max_retries                 = 0
   }
+  connection_tracking_policy {
+    connection_persistence_on_unhealthy_backends = ""
+    enable_strong_affinity                       = false
+    idle_timeout_sec                             = 0
+    tracking_mode                                = ""
+  }
   consistent_hash {
     http_header_name  = ""
     minimum_ring_size = 0

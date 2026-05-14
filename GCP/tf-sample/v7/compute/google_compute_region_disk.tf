@@ -3,6 +3,7 @@ resource "google_compute_region_disk" "tf-sample-compute-region-disk" {
   create_snapshot_before_destroy        = false
   create_snapshot_before_destroy_prefix = ""
   description                           = ""
+  image                                 = ""
   labels                                = {}
   licenses                              = []
   name                                  = ""
@@ -27,6 +28,12 @@ resource "google_compute_region_disk" "tf-sample-compute-region-disk" {
   }
   guest_os_features {
     type = ""
+  }
+  source_image_encryption_key {
+    kms_key_name            = ""
+    kms_key_service_account = ""
+    raw_key                 = ""
+    rsa_encrypted_key       = ""
   }
   source_snapshot_encryption_key {
     raw_key = ""
