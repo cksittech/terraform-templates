@@ -11,6 +11,8 @@ resource "oci_iot_digital_twin_adapter" "tf-sample-iot-digital-twin-adapter" {
     reference_endpoint = ""
     
     envelope_mapping {
+      content_root  = ""
+      target        = ""
       time_observed = ""
     }
     reference_payload {
