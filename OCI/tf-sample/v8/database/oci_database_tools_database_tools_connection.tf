@@ -1,5 +1,6 @@
 resource "oci_database_tools_database_tools_connection" "tf-sample-database-tools-database-tools-connection" {
   advanced_properties = {}
+  authentication_type = ""
   compartment_id      = ""
   connection_string   = ""
   defined_tags        = {}

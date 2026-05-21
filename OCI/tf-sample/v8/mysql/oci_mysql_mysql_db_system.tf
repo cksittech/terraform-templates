@@ -92,8 +92,21 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     backup_id      = ""
     db_system_id   = ""
     recovery_point = ""
+    region         = ""
     source_type    = ""
     source_url     = ""
+    
+    channel {
+      applier_username = ""
+      source_password  = ""
+      source_username  = ""
+      ssl_mode         = ""
+      
+      ssl_ca_certificate {
+        certificate_type = ""
+        contents         = ""
+      }
+    }
   }
   telemetry_configuration {
     logs {

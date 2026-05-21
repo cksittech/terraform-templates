@@ -1,17 +1,23 @@
 resource "oci_certificates_management_certificate" "tf-sample-certificates-management-certificate" {
-  compartment_id = ""
-  defined_tags   = {}
-  description    = ""
-  freeform_tags  = {}
-  name           = ""
+  compartment_id         = ""
+  current_version_number = ""
+  defined_tags           = {}
+  description            = ""
+  freeform_tags          = {}
+  name                   = ""
   
   certificate_config {
+    cert_chain_pem                  = ""
+    certificate_pem                 = ""
     certificate_profile_type        = ""
     config_type                     = ""
     csr_pem                         = ""
     issuer_certificate_authority_id = ""
     key_algorithm                   = ""
+    private_key_pem                 = ""
+    private_key_pem_passphrase      = ""
     signature_algorithm             = ""
+    stage                           = ""
     version_name                    = ""
     
     subject {

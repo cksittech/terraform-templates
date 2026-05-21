@@ -14,11 +14,14 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
   is_force_stop_jobs          = false
   is_high_availability        = false
   is_kafka_configured         = false
+  is_secret_reused            = false
   is_secure                   = false
   kerberos_realm_name         = ""
   kms_key_id                  = ""
   os_patch_version            = ""
   remove_node                 = ""
+  remove_nodes                = []
+  secret_id                   = ""
   state                       = ""
   
   bds_cluster_version_summary {

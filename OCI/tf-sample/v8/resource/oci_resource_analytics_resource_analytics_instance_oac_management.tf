@@ -4,6 +4,8 @@ resource "oci_resource_analytics_resource_analytics_instance_oac_management" "tf
   resource_analytics_instance_id = ""
   
   attachment_details {
+    capacity_type  = ""
+    capacity_value = 0
     idcs_domain_id = ""
     license_model  = ""
     nsg_ids        = []

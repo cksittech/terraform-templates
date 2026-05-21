@@ -1,5 +1,6 @@
 resource "oci_resource_analytics_resource_analytics_instance" "tf-sample-resource-analytics-resource-analytics-instance" {
   compartment_id         = ""
+  compute_count          = 0
   defined_tags           = {}
   description            = ""
   display_name           = ""

@@ -4,6 +4,7 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
   display_name           = ""
   is_enabled             = false
   node_type              = ""
+  secret_id              = ""
   
   policy {
     policy_type = ""
