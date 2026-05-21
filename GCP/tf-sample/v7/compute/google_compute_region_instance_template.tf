@@ -1,5 +1,6 @@
 resource "google_compute_region_instance_template" "tf-sample-compute-region-instance-template" {
   can_ip_forward             = false
+  deletion_policy            = ""
   description                = ""
   instance_description       = ""
   key_revocation_action_type = ""

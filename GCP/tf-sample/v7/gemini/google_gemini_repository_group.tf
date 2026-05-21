@@ -1,5 +1,6 @@
 resource "google_gemini_repository_group" "tf-sample-gemini-repository-group" {
   code_repository_index = ""
+  deletion_policy       = ""
   labels                = {}
   location              = ""
   project               = ""

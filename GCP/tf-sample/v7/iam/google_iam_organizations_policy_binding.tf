@@ -1,5 +1,6 @@
 resource "google_iam_organizations_policy_binding" "tf-sample-iam-organizations-policy-binding" {
   annotations       = {}
+  deletion_policy   = ""
   display_name      = ""
   location          = ""
   organization      = ""

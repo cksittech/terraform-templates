@@ -1,7 +1,8 @@
 resource "google_biglake_table" "tf-sample-biglake-table" {
-  database = ""
-  name     = ""
-  type     = ""
+  database        = ""
+  deletion_policy = ""
+  name            = ""
+  type            = ""
   
   hive_options {
     parameters = {}

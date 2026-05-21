@@ -1,5 +1,6 @@
 resource "google_billing_budget" "tf-sample-billing-budget" {
   billing_account = ""
+  deletion_policy = ""
   display_name    = ""
   ownership_scope = ""
   

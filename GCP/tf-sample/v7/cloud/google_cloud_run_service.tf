@@ -1,5 +1,6 @@
 resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
   autogenerate_revision_name = false
+  deletion_policy            = ""
   location                   = ""
   name                       = ""
   project                    = ""

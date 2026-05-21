@@ -1,6 +1,7 @@
 resource "google_network_security_tls_inspection_policy" "tf-sample-network-security-tls-inspection-policy" {
   ca_pool               = ""
   custom_tls_features   = []
+  deletion_policy       = ""
   description           = ""
   exclude_public_ca_set = false
   location              = ""

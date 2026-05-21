@@ -1,5 +1,6 @@
 resource "google_iam_folders_policy_binding" "tf-sample-iam-folders-policy-binding" {
   annotations       = {}
+  deletion_policy   = ""
   display_name      = ""
   folder            = ""
   location          = ""

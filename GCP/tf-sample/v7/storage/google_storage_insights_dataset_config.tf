@@ -1,6 +1,7 @@
 resource "google_storage_insights_dataset_config" "tf-sample-storage-insights-dataset-config" {
   activity_data_retention_period_days = 0
   dataset_config_id                   = ""
+  deletion_policy                     = ""
   description                         = ""
   include_newly_created_buckets       = false
   link_dataset                        = false

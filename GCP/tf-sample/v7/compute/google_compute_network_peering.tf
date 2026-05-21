@@ -1,4 +1,5 @@
 resource "google_compute_network_peering" "tf-sample-compute-network-peering" {
+  deletion_policy                     = ""
   export_custom_routes                = false
   export_subnet_routes_with_public_ip = false
   import_custom_routes                = false

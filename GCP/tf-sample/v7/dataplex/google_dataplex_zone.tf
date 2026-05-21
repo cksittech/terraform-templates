@@ -1,12 +1,13 @@
 resource "google_dataplex_zone" "tf-sample-dataplex-zone" {
-  description  = ""
-  display_name = ""
-  labels       = {}
-  lake         = ""
-  location     = ""
-  name         = ""
-  project      = ""
-  type         = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  labels          = {}
+  lake            = ""
+  location        = ""
+  name            = ""
+  project         = ""
+  type            = ""
   
   discovery_spec {
     enabled          = false

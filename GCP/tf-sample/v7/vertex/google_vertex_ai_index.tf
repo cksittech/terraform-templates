@@ -1,4 +1,5 @@
 resource "google_vertex_ai_index" "tf-sample-vertex-ai-index" {
+  deletion_policy     = ""
   description         = ""
   display_name        = ""
   index_update_method = ""

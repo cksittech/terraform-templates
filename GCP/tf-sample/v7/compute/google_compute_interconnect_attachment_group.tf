@@ -1,4 +1,5 @@
 resource "google_compute_interconnect_attachment_group" "tf-sample-compute-interconnect-attachment-group" {
+  deletion_policy    = ""
   description        = ""
   interconnect_group = ""
   name               = ""

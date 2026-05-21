@@ -3,6 +3,7 @@ resource "google_netapp_storage_pool" "tf-sample-netapp-storage-pool" {
   allow_auto_tiering          = false
   capacity_gib                = ""
   custom_performance_enabled  = false
+  deletion_policy             = ""
   description                 = ""
   enable_hot_tier_auto_resize = false
   hot_tier_size_gib           = ""

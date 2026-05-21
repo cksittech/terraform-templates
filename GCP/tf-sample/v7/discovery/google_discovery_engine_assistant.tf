@@ -1,6 +1,7 @@
 resource "google_discovery_engine_assistant" "tf-sample-discovery-engine-assistant" {
   assistant_id       = ""
   collection_id      = ""
+  deletion_policy    = ""
   description        = ""
   display_name       = ""
   engine_id          = ""

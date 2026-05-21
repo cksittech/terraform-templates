@@ -1,4 +1,5 @@
 resource "google_service_account_key" "tf-sample-service-account-key" {
+  deletion_policy    = ""
   keepers            = {}
   key_algorithm      = ""
   private_key_type   = ""

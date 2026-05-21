@@ -1,4 +1,5 @@
 resource "google_vertex_ai_index_endpoint_deployed_index" "tf-sample-vertex-ai-index-endpoint-deployed-index" {
+  deletion_policy       = ""
   deployed_index_id     = ""
   deployment_group      = ""
   display_name          = ""

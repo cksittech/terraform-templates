@@ -1,5 +1,6 @@
 resource "google_vmwareengine_external_access_rule" "tf-sample-vmwareengine-external-access-rule" {
   action            = ""
+  deletion_policy   = ""
   description       = ""
   destination_ports = []
   ip_protocol       = ""

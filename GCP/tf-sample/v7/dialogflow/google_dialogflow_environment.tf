@@ -1,9 +1,10 @@
 resource "google_dialogflow_environment" "tf-sample-dialogflow-environment" {
-  agent_version = ""
-  description   = ""
-  environmentid = ""
-  location      = ""
-  project       = ""
+  agent_version   = ""
+  deletion_policy = ""
+  description     = ""
+  environmentid   = ""
+  location        = ""
+  project         = ""
   
   fulfillment {
     display_name = ""

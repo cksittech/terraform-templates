@@ -1,10 +1,11 @@
 resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
-  data_scan_id = ""
-  description  = ""
-  display_name = ""
-  labels       = {}
-  location     = ""
-  project      = ""
+  data_scan_id    = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  labels          = {}
+  location        = ""
+  project         = ""
   
   data {
     entity   = ""

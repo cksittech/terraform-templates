@@ -1,4 +1,5 @@
 resource "google_access_context_manager_service_perimeter" "tf-sample-access-context-manager-service-perimeter" {
+  deletion_policy           = ""
   description               = ""
   name                      = ""
   parent                    = ""

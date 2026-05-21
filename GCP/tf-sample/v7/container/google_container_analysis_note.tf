@@ -1,4 +1,5 @@
 resource "google_container_analysis_note" "tf-sample-container-analysis-note" {
+  deletion_policy    = ""
   expiration_time    = ""
   long_description   = ""
   name               = ""

@@ -1,4 +1,5 @@
 resource "google_network_services_wasm_plugin" "tf-sample-network-services-wasm-plugin" {
+  deletion_policy = ""
   description     = ""
   labels          = {}
   location        = ""

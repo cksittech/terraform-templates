@@ -1,6 +1,7 @@
 resource "google_dialogflow_intent" "tf-sample-dialogflow-intent" {
   action                      = ""
   default_response_platforms  = []
+  deletion_policy             = ""
   display_name                = ""
   events                      = []
   input_context_names         = []

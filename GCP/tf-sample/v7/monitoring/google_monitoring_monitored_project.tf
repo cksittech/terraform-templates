@@ -1,4 +1,5 @@
 resource "google_monitoring_monitored_project" "tf-sample-monitoring-monitored-project" {
-  metrics_scope = ""
-  name          = ""
+  deletion_policy = ""
+  metrics_scope   = ""
+  name            = ""
 }

@@ -1,8 +1,9 @@
 resource "google_cloud_tasks_queue" "tf-sample-cloud-tasks-queue" {
-  desired_state = ""
-  location      = ""
-  name          = ""
-  project       = ""
+  deletion_policy = ""
+  desired_state   = ""
+  location        = ""
+  name            = ""
+  project         = ""
   
   app_engine_routing_override {
     instance = ""

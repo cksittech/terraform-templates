@@ -1,5 +1,6 @@
 resource "google_compute_http_health_check" "tf-sample-compute-http-health-check" {
   check_interval_sec  = 0
+  deletion_policy     = ""
   description         = ""
   healthy_threshold   = 0
   host                = ""

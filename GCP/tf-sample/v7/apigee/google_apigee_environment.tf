@@ -1,5 +1,6 @@
 resource "google_apigee_environment" "tf-sample-apigee-environment" {
   api_proxy_type    = ""
+  deletion_policy   = ""
   deployment_type   = ""
   description       = ""
   display_name      = ""

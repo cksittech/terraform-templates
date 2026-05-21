@@ -1,9 +1,10 @@
 resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
-  annotations = {}
-  disabled    = false
-  location    = ""
-  name        = ""
-  project     = ""
+  annotations     = {}
+  deletion_policy = ""
+  disabled        = false
+  location        = ""
+  name            = ""
+  project         = ""
   
   bitbucket_cloud_config {
     webhook_secret_secret_version = ""

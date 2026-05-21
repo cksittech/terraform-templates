@@ -1,5 +1,6 @@
 resource "google_compute_network_firewall_policy_rule" "tf-sample-compute-network-firewall-policy-rule" {
   action                  = ""
+  deletion_policy         = ""
   description             = ""
   direction               = ""
   disabled                = false

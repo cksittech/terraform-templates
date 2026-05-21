@@ -3,6 +3,7 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
   architecture                          = ""
   create_snapshot_before_destroy        = false
   create_snapshot_before_destroy_prefix = ""
+  deletion_policy                       = ""
   description                           = ""
   enable_confidential_compute           = false
   image                                 = ""

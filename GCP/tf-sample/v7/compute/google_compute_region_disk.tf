@@ -2,6 +2,7 @@ resource "google_compute_region_disk" "tf-sample-compute-region-disk" {
   access_mode                           = ""
   create_snapshot_before_destroy        = false
   create_snapshot_before_destroy_prefix = ""
+  deletion_policy                       = ""
   description                           = ""
   image                                 = ""
   labels                                = {}

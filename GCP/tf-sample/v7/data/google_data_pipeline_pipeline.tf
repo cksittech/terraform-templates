@@ -1,4 +1,5 @@
 resource "google_data_pipeline_pipeline" "tf-sample-data-pipeline-pipeline" {
+  deletion_policy                 = ""
   display_name                    = ""
   name                            = ""
   pipeline_sources                = {}

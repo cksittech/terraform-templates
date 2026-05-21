@@ -1,5 +1,6 @@
 resource "google_secret_manager_secret" "tf-sample-secret-manager-secret" {
   annotations         = {}
+  deletion_policy     = ""
   deletion_protection = false
   expire_time         = ""
   labels              = {}

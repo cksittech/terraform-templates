@@ -1,5 +1,6 @@
 resource "google_compute_storage_pool" "tf-sample-compute-storage-pool" {
   capacity_provisioning_type    = ""
+  deletion_policy               = ""
   deletion_protection           = false
   description                   = ""
   labels                        = {}

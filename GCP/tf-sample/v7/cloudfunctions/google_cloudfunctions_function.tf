@@ -3,6 +3,7 @@ resource "google_cloudfunctions_function" "tf-sample-cloudfunctions-function" {
   build_environment_variables   = {}
   build_service_account         = ""
   build_worker_pool             = ""
+  deletion_policy               = ""
   description                   = ""
   docker_registry               = ""
   docker_repository             = ""

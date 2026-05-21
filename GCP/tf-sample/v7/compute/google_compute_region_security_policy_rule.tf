@@ -1,5 +1,6 @@
 resource "google_compute_region_security_policy_rule" "tf-sample-compute-region-security-policy-rule" {
   action          = ""
+  deletion_policy = ""
   description     = ""
   preview         = false
   priority        = 0

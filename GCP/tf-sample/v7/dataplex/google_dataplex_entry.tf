@@ -1,4 +1,5 @@
 resource "google_dataplex_entry" "tf-sample-dataplex-entry" {
+  deletion_policy      = ""
   entry_group_id       = ""
   entry_id             = ""
   entry_type           = ""

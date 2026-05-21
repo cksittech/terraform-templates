@@ -1,5 +1,6 @@
 resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
   default_max_pods_per_node                 = 0
+  deletion_policy                           = ""
   external_load_balancer_ipv4_address_pools = []
   labels                                    = {}
   location                                  = ""

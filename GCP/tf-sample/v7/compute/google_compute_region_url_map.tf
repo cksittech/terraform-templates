@@ -1,5 +1,6 @@
 resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
   default_service = ""
+  deletion_policy = ""
   description     = ""
   name            = ""
   project         = ""

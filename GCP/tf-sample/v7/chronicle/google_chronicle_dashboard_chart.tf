@@ -1,4 +1,5 @@
 resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart" {
+  deletion_policy  = ""
   instance         = ""
   location         = ""
   native_dashboard = ""

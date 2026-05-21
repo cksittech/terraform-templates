@@ -5,6 +5,7 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
   connector_modes              = []
   data_source                  = ""
   data_source_version          = 0
+  deletion_policy              = ""
   incremental_refresh_interval = ""
   incremental_sync_disabled    = false
   json_params                  = ""

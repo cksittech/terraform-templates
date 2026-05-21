@@ -1,4 +1,5 @@
 resource "google_compute_firewall" "tf-sample-compute-firewall" {
+  deletion_policy         = ""
   description             = ""
   destination_ranges      = []
   direction               = ""

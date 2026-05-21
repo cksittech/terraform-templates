@@ -1,7 +1,8 @@
 resource "google_folder_organization_policy" "tf-sample-folder-organization-policy" {
-  constraint = ""
-  folder     = ""
-  version    = 0
+  constraint      = ""
+  deletion_policy = ""
+  folder          = ""
+  version         = 0
   
   boolean_policy {
     enforced = false

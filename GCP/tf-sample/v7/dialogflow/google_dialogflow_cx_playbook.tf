@@ -1,4 +1,5 @@
 resource "google_dialogflow_cx_playbook" "tf-sample-dialogflow-cx-playbook" {
+  deletion_policy  = ""
   display_name     = ""
   goal             = ""
   parent           = ""

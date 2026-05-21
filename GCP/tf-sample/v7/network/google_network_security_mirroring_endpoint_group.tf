@@ -1,4 +1,5 @@
 resource "google_network_security_mirroring_endpoint_group" "tf-sample-network-security-mirroring-endpoint-group" {
+  deletion_policy             = ""
   description                 = ""
   labels                      = {}
   location                    = ""

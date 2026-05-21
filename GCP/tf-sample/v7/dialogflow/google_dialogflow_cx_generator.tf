@@ -1,7 +1,8 @@
 resource "google_dialogflow_cx_generator" "tf-sample-dialogflow-cx-generator" {
-  display_name  = ""
-  language_code = ""
-  parent        = ""
+  deletion_policy = ""
+  display_name    = ""
+  language_code   = ""
+  parent          = ""
   
   llm_model_settings {
     model       = ""

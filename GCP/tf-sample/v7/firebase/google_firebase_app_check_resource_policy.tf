@@ -1,4 +1,5 @@
 resource "google_firebase_app_check_resource_policy" "tf-sample-firebase-app-check-resource-policy" {
+  deletion_policy  = ""
   enforcement_mode = ""
   project          = ""
   service_id       = ""

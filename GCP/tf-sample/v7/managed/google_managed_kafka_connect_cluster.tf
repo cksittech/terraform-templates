@@ -1,5 +1,6 @@
 resource "google_managed_kafka_connect_cluster" "tf-sample-managed-kafka-connect-cluster" {
   connect_cluster_id = ""
+  deletion_policy    = ""
   kafka_cluster      = ""
   labels             = {}
   location           = ""

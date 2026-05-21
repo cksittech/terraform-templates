@@ -1,4 +1,5 @@
 resource "google_colab_notebook_execution" "tf-sample-colab-notebook-execution" {
+  deletion_policy                         = ""
   display_name                            = ""
   execution_timeout                       = ""
   execution_user                          = ""

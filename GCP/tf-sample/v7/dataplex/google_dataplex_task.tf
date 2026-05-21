@@ -1,11 +1,12 @@
 resource "google_dataplex_task" "tf-sample-dataplex-task" {
-  description  = ""
-  display_name = ""
-  labels       = {}
-  lake         = ""
-  location     = ""
-  project      = ""
-  task_id      = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  labels          = {}
+  lake            = ""
+  location        = ""
+  project         = ""
+  task_id         = ""
   
   execution_spec {
     args                       = {}

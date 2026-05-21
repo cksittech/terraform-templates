@@ -1,9 +1,10 @@
 resource "google_ces_deployment" "tf-sample-ces-deployment" {
-  app          = ""
-  app_version  = ""
-  display_name = ""
-  location     = ""
-  project      = ""
+  app             = ""
+  app_version     = ""
+  deletion_policy = ""
+  display_name    = ""
+  location        = ""
+  project         = ""
   
   channel_profile {
     channel_type             = ""
@@ -18,6 +19,13 @@ resource "google_ces_deployment" "tf-sample-ces-deployment" {
       modality         = ""
       theme            = ""
       web_widget_title = ""
+      
+      security_settings {
+        allowed_origins      = []
+        enable_origin_check  = false
+        enable_public_access = false
+        enable_recaptcha     = false
+      }
     }
   }
 }

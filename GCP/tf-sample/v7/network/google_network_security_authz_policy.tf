@@ -1,11 +1,12 @@
 resource "google_network_security_authz_policy" "tf-sample-network-security-authz-policy" {
-  action         = ""
-  description    = ""
-  labels         = {}
-  location       = ""
-  name           = ""
-  policy_profile = ""
-  project        = ""
+  action          = ""
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  policy_profile  = ""
+  project         = ""
   
   custom_provider {
     authz_extension {

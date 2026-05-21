@@ -1,5 +1,6 @@
 resource "google_compute_router_nat" "tf-sample-compute-router-nat" {
   auto_network_tier                    = ""
+  deletion_policy                      = ""
   drain_nat_ips                        = []
   enable_dynamic_port_allocation       = false
   enable_endpoint_independent_mapping  = false

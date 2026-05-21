@@ -1,4 +1,5 @@
 resource "google_compute_router" "tf-sample-compute-router" {
+  deletion_policy               = ""
   description                   = ""
   encrypted_interconnect_router = false
   name                          = ""

@@ -1,4 +1,5 @@
 resource "google_integrations_auth_config" "tf-sample-integrations-auth-config" {
+  deletion_policy              = ""
   description                  = ""
   display_name                 = ""
   expiry_notification_duration = []

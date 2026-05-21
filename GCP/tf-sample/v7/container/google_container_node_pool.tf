@@ -1,5 +1,6 @@
 resource "google_container_node_pool" "tf-sample-container-node-pool" {
   cluster            = ""
+  deletion_policy    = ""
   initial_node_count = 0
   location           = ""
   max_pods_per_node  = 0

@@ -1,4 +1,5 @@
 resource "google_privileged_access_manager_entitlement" "tf-sample-privileged-access-manager-entitlement" {
+  deletion_policy      = ""
   entitlement_id       = ""
   location             = ""
   max_request_duration = ""

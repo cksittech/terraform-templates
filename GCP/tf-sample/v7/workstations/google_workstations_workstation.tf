@@ -1,5 +1,6 @@
 resource "google_workstations_workstation" "tf-sample-workstations-workstation" {
   annotations            = {}
+  deletion_policy        = ""
   display_name           = ""
   env                    = {}
   labels                 = {}

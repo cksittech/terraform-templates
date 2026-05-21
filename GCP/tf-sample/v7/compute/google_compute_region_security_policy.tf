@@ -1,9 +1,10 @@
 resource "google_compute_region_security_policy" "tf-sample-compute-region-security-policy" {
-  description = ""
-  name        = ""
-  project     = ""
-  region      = ""
-  type        = ""
+  deletion_policy = ""
+  description     = ""
+  name            = ""
+  project         = ""
+  region          = ""
+  type            = ""
   
   advanced_options_config {
     json_parsing            = ""

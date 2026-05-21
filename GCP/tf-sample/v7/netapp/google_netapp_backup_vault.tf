@@ -1,6 +1,7 @@
 resource "google_netapp_backup_vault" "tf-sample-netapp-backup-vault" {
   backup_region     = ""
   backup_vault_type = ""
+  deletion_policy   = ""
   description       = ""
   kms_config        = ""
   labels            = {}

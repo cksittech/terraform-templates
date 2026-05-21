@@ -1,6 +1,7 @@
 resource "google_bigquery_table" "tf-sample-bigquery-table" {
   clustering                   = []
   dataset_id                   = ""
+  deletion_policy              = ""
   deletion_protection          = false
   description                  = ""
   expiration_time              = 0

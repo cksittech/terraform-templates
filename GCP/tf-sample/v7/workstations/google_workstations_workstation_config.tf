@@ -1,5 +1,6 @@
 resource "google_workstations_workstation_config" "tf-sample-workstations-workstation-config" {
   annotations             = {}
+  deletion_policy         = ""
   disable_tcp_connections = false
   display_name            = ""
   enable_audit_agent      = false

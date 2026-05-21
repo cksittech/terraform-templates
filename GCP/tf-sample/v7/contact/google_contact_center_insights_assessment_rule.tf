@@ -1,6 +1,7 @@
 resource "google_contact_center_insights_assessment_rule" "tf-sample-contact-center-insights-assessment-rule" {
   active             = false
   assessment_rule_id = ""
+  deletion_policy    = ""
   display_name       = ""
   location           = ""
   project            = ""

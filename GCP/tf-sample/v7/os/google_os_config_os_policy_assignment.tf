@@ -1,4 +1,5 @@
 resource "google_os_config_os_policy_assignment" "tf-sample-os-config-os-policy-assignment" {
+  deletion_policy    = ""
   description        = ""
   location           = ""
   name               = ""

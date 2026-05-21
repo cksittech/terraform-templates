@@ -1,5 +1,6 @@
 resource "google_spanner_instance_partition" "tf-sample-spanner-instance-partition" {
   config           = ""
+  deletion_policy  = ""
   display_name     = ""
   instance         = ""
   name             = ""

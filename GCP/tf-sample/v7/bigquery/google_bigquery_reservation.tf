@@ -1,5 +1,6 @@
 resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   concurrency        = 0
+  deletion_policy    = ""
   edition            = ""
   ignore_idle_slots  = false
   location           = ""

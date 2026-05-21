@@ -1,5 +1,6 @@
 resource "google_lustre_instance" "tf-sample-lustre-instance" {
   capacity_gib                = ""
+  deletion_policy             = ""
   description                 = ""
   filesystem                  = ""
   gke_support_enabled         = false

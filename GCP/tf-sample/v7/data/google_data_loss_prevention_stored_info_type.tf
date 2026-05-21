@@ -1,4 +1,5 @@
 resource "google_data_loss_prevention_stored_info_type" "tf-sample-data-loss-prevention-stored-info-type" {
+  deletion_policy     = ""
   description         = ""
   display_name        = ""
   parent              = ""

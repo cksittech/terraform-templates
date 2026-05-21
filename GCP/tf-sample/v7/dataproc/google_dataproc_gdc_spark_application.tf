@@ -1,6 +1,7 @@
 resource "google_dataproc_gdc_spark_application" "tf-sample-dataproc-gdc-spark-application" {
   annotations             = {}
   application_environment = ""
+  deletion_policy         = ""
   dependency_images       = []
   display_name            = ""
   labels                  = {}

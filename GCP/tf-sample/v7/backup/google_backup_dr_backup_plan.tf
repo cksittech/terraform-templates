@@ -1,6 +1,7 @@
 resource "google_backup_dr_backup_plan" "tf-sample-backup-dr-backup-plan" {
   backup_plan_id                      = ""
   backup_vault                        = ""
+  deletion_policy                     = ""
   description                         = ""
   location                            = ""
   log_retention_days                  = 0
@@ -29,6 +30,9 @@ resource "google_backup_dr_backup_plan" "tf-sample-backup-dr-backup-plan" {
         week_of_month = ""
       }
     }
+  }
+  compute_instance_backup_plan_properties {
+    guest_flush = false
   }
   disk_backup_plan_properties {
     guest_flush = false

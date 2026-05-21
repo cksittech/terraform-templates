@@ -1,4 +1,5 @@
 resource "google_compute_node_group" "tf-sample-compute-node-group" {
+  deletion_policy    = ""
   description        = ""
   initial_size       = 0
   maintenance_policy = ""

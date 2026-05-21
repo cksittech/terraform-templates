@@ -1,4 +1,5 @@
 resource "google_compute_global_forwarding_rule" "tf-sample-compute-global-forwarding-rule" {
+  deletion_policy                                              = ""
   description                                                  = ""
   external_managed_backend_bucket_migration_state              = ""
   external_managed_backend_bucket_migration_testing_percentage = 0

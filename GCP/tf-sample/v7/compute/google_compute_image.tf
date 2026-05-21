@@ -1,4 +1,5 @@
 resource "google_compute_image" "tf-sample-compute-image" {
+  deletion_policy   = ""
   description       = ""
   disk_size_gb      = 0
   family            = ""

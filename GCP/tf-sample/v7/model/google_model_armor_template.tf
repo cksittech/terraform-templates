@@ -1,8 +1,9 @@
 resource "google_model_armor_template" "tf-sample-model-armor-template" {
-  labels      = {}
-  location    = ""
-  project     = ""
-  template_id = ""
+  deletion_policy = ""
+  labels          = {}
+  location        = ""
+  project         = ""
+  template_id     = ""
   
   filter_config {
     malicious_uri_filter_settings {

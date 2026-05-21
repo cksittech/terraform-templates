@@ -1,5 +1,6 @@
 resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
   dataproc_service_account      = ""
+  deletion_policy               = ""
   description                   = ""
   display_name                  = ""
   enable_rbac                   = false

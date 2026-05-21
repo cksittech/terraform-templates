@@ -1,11 +1,12 @@
 resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
-  app          = ""
-  description  = ""
-  display_name = ""
-  enabled      = false
-  guardrail_id = ""
-  location     = ""
-  project      = ""
+  app             = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  enabled         = false
+  guardrail_id    = ""
+  location        = ""
+  project         = ""
   
   action {
     generative_answer {

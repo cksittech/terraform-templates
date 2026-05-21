@@ -1,5 +1,6 @@
 resource "google_monitoring_uptime_check_config" "tf-sample-monitoring-uptime-check-config" {
   checker_type       = ""
+  deletion_policy    = ""
   display_name       = ""
   log_check_failures = false
   period             = ""

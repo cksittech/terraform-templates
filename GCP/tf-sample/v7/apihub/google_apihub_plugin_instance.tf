@@ -1,4 +1,5 @@
 resource "google_apihub_plugin_instance" "tf-sample-apihub-plugin-instance" {
+  deletion_policy    = ""
   disable            = false
   display_name       = ""
   location           = ""

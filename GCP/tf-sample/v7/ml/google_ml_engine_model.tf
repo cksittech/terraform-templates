@@ -1,4 +1,5 @@
 resource "google_ml_engine_model" "tf-sample-ml-engine-model" {
+  deletion_policy                   = ""
   description                       = ""
   labels                            = {}
   name                              = ""

@@ -1,5 +1,6 @@
 resource "google_cloud_scheduler_job" "tf-sample-cloud-scheduler-job" {
   attempt_deadline = ""
+  deletion_policy  = ""
   description      = ""
   name             = ""
   paused           = false

@@ -1,8 +1,9 @@
 resource "google_vertex_ai_featurestore_entitytype" "tf-sample-vertex-ai-featurestore-entitytype" {
-  description  = ""
-  featurestore = ""
-  labels       = {}
-  name         = ""
+  deletion_policy = ""
+  description     = ""
+  featurestore    = ""
+  labels          = {}
+  name            = ""
   
   monitoring_config {
     categorical_threshold_config {

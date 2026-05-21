@@ -4,6 +4,7 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
   default_partition_expiration_ms = 0
   default_table_expiration_ms     = 0
   delete_contents_on_destroy      = false
+  deletion_policy                 = ""
   description                     = ""
   friendly_name                   = ""
   is_case_insensitive             = false

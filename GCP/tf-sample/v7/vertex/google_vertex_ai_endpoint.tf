@@ -1,5 +1,6 @@
 resource "google_vertex_ai_endpoint" "tf-sample-vertex-ai-endpoint" {
   dedicated_endpoint_enabled = false
+  deletion_policy            = ""
   description                = ""
   display_name               = ""
   labels                     = {}

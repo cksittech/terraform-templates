@@ -6,6 +6,7 @@ resource "google_compute_interconnect_attachment" "tf-sample-compute-interconnec
   candidate_customer_router_ip_address   = ""
   candidate_customer_router_ipv6_address = ""
   candidate_subnets                      = []
+  deletion_policy                        = ""
   description                            = ""
   edge_availability_domain               = ""
   encryption                             = ""

@@ -1,6 +1,7 @@
 resource "google_datastream_stream" "tf-sample-datastream-stream" {
   create_without_validation       = false
   customer_managed_encryption_key = ""
+  deletion_policy                 = ""
   desired_state                   = ""
   display_name                    = ""
   labels                          = {}

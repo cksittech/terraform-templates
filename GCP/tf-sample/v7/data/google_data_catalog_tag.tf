@@ -1,7 +1,8 @@
 resource "google_data_catalog_tag" "tf-sample-data-catalog-tag" {
-  column   = ""
-  parent   = ""
-  template = ""
+  column          = ""
+  deletion_policy = ""
+  parent          = ""
+  template        = ""
   
   fields {
     bool_value      = false

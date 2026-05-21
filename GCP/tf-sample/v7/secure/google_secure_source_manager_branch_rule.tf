@@ -1,6 +1,7 @@
 resource "google_secure_source_manager_branch_rule" "tf-sample-secure-source-manager-branch-rule" {
   allow_stale_reviews       = false
   branch_rule_id            = ""
+  deletion_policy           = ""
   disabled                  = false
   include_pattern           = ""
   location                  = ""

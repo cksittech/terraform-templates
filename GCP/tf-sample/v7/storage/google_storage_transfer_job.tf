@@ -1,4 +1,5 @@
 resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
+  deletion_policy = ""
   description     = ""
   name            = ""
   project         = ""

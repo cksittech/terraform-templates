@@ -1,7 +1,8 @@
 resource "google_binary_authorization_attestor" "tf-sample-binary-authorization-attestor" {
-  description = ""
-  name        = ""
-  project     = ""
+  deletion_policy = ""
+  description     = ""
+  name            = ""
+  project         = ""
   
   attestation_authority_note {
     note_reference = ""

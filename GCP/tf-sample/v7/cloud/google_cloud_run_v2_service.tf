@@ -4,6 +4,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
   client_version       = ""
   custom_audiences     = []
   default_uri_disabled = false
+  deletion_policy      = ""
   deletion_protection  = false
   description          = ""
   iap_enabled          = false

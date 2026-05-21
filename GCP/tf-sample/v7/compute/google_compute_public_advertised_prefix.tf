@@ -1,4 +1,5 @@
 resource "google_compute_public_advertised_prefix" "tf-sample-compute-public-advertised-prefix" {
+  deletion_policy     = ""
   description         = ""
   dns_verification_ip = ""
   ip_cidr_range       = ""

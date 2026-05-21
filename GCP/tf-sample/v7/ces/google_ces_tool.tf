@@ -1,9 +1,10 @@
 resource "google_ces_tool" "tf-sample-ces-tool" {
-  app            = ""
-  execution_type = ""
-  location       = ""
-  project        = ""
-  tool_id        = ""
+  app             = ""
+  deletion_policy = ""
+  execution_type  = ""
+  location        = ""
+  project         = ""
+  tool_id         = ""
   
   client_function {
     description = ""

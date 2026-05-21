@@ -2,6 +2,7 @@ resource "google_contact_center_insights_analysis_rule" "tf-sample-contact-cente
   active              = false
   analysis_percentage = 0
   conversation_filter = ""
+  deletion_policy     = ""
   display_name        = ""
   location            = ""
   project             = ""

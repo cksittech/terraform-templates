@@ -1,6 +1,7 @@
 resource "google_spanner_instance" "tf-sample-spanner-instance" {
   config                       = ""
   default_backup_schedule_type = ""
+  deletion_policy              = ""
   display_name                 = ""
   edition                      = ""
   force_destroy                = false

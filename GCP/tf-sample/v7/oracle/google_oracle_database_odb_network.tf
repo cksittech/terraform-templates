@@ -1,4 +1,5 @@
 resource "google_oracle_database_odb_network" "tf-sample-oracle-database-odb-network" {
+  deletion_policy     = ""
   deletion_protection = false
   gcp_oracle_zone     = ""
   labels              = {}

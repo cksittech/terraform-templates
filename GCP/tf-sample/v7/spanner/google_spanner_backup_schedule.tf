@@ -1,5 +1,6 @@
 resource "google_spanner_backup_schedule" "tf-sample-spanner-backup-schedule" {
   database           = ""
+  deletion_policy    = ""
   instance           = ""
   name               = ""
   project            = ""

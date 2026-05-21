@@ -1,4 +1,5 @@
 resource "google_edgenetwork_interconnect_attachment" "tf-sample-edgenetwork-interconnect-attachment" {
+  deletion_policy            = ""
   description                = ""
   interconnect               = ""
   interconnect_attachment_id = ""

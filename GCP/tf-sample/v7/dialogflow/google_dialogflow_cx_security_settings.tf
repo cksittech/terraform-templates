@@ -1,5 +1,6 @@
 resource "google_dialogflow_cx_security_settings" "tf-sample-dialogflow-cx-security-settings" {
   deidentify_template   = ""
+  deletion_policy       = ""
   display_name          = ""
   inspect_template      = ""
   location              = ""

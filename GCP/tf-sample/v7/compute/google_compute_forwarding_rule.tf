@@ -3,6 +3,7 @@ resource "google_compute_forwarding_rule" "tf-sample-compute-forwarding-rule" {
   allow_global_access     = false
   allow_psc_global_access = false
   backend_service         = ""
+  deletion_policy         = ""
   description             = ""
   ip_address              = ""
   ip_collection           = ""

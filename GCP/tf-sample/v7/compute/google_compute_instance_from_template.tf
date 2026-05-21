@@ -1,6 +1,7 @@
 resource "google_compute_instance_from_template" "tf-sample-compute-instance-from-template" {
   allow_stopping_for_update  = false
   can_ip_forward             = false
+  deletion_policy            = ""
   deletion_protection        = false
   description                = ""
   desired_status             = ""

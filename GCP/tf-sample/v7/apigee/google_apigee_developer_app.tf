@@ -2,6 +2,7 @@ resource "google_apigee_developer_app" "tf-sample-apigee-developer-app" {
   api_products    = []
   app_family      = ""
   callback_url    = ""
+  deletion_policy = ""
   developer_email = ""
   key_expires_in  = ""
   name            = ""

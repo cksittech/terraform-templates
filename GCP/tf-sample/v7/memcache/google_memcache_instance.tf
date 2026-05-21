@@ -1,5 +1,6 @@
 resource "google_memcache_instance" "tf-sample-memcache-instance" {
   authorized_network   = ""
+  deletion_policy      = ""
   deletion_protection  = false
   display_name         = ""
   labels               = {}

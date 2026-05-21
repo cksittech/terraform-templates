@@ -3,6 +3,7 @@ resource "google_dialogflow_agent" "tf-sample-dialogflow-agent" {
   avatar_uri               = ""
   classification_threshold = 0
   default_language_code    = ""
+  deletion_policy          = ""
   description              = ""
   display_name             = ""
   enable_logging           = false

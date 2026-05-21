@@ -1,6 +1,7 @@
 resource "google_dialogflow_cx_tool_version" "tf-sample-dialogflow-cx-tool-version" {
-  display_name = ""
-  parent       = ""
+  deletion_policy = ""
+  display_name    = ""
+  parent          = ""
   
   tool {
     description  = ""

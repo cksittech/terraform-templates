@@ -1,11 +1,12 @@
 resource "google_developer_connect_connection" "tf-sample-developer-connect-connection" {
-  annotations   = {}
-  connection_id = ""
-  disabled      = false
-  etag          = ""
-  labels        = {}
-  location      = ""
-  project       = ""
+  annotations     = {}
+  connection_id   = ""
+  deletion_policy = ""
+  disabled        = false
+  etag            = ""
+  labels          = {}
+  location        = ""
+  project         = ""
   
   bitbucket_cloud_config {
     webhook_secret_secret_version = ""

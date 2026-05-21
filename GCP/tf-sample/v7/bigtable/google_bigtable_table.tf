@@ -1,5 +1,6 @@
 resource "google_bigtable_table" "tf-sample-bigtable-table" {
   change_stream_retention = ""
+  deletion_policy         = ""
   deletion_protection     = ""
   instance_name           = ""
   name                    = ""

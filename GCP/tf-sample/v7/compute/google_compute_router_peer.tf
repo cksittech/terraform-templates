@@ -3,6 +3,7 @@ resource "google_compute_router_peer" "tf-sample-compute-router-peer" {
   advertised_groups                  = []
   advertised_route_priority          = 0
   custom_learned_route_priority      = 0
+  deletion_policy                    = ""
   enable                             = false
   enable_ipv4                        = false
   enable_ipv6                        = false

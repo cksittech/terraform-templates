@@ -1,14 +1,15 @@
 resource "google_ces_agent" "tf-sample-ces-agent" {
-  agent_id     = ""
-  app          = ""
-  child_agents = []
-  description  = ""
-  display_name = ""
-  guardrails   = []
-  instruction  = ""
-  location     = ""
-  project      = ""
-  tools        = []
+  agent_id        = ""
+  app             = ""
+  child_agents    = []
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  guardrails      = []
+  instruction     = ""
+  location        = ""
+  project         = ""
+  tools           = []
   
   after_agent_callbacks {
     description = ""

@@ -1,4 +1,5 @@
 resource "google_scc_project_custom_module" "tf-sample-scc-project-custom-module" {
+  deletion_policy  = ""
   display_name     = ""
   enablement_state = ""
   project          = ""

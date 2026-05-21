@@ -1,5 +1,6 @@
 resource "google_privateca_certificate_authority" "tf-sample-privateca-certificate-authority" {
   certificate_authority_id               = ""
+  deletion_policy                        = ""
   deletion_protection                    = false
   desired_state                          = ""
   gcs_bucket                             = ""

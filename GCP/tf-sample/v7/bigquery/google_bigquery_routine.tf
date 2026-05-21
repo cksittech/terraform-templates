@@ -2,6 +2,7 @@ resource "google_bigquery_routine" "tf-sample-bigquery-routine" {
   data_governance_type = ""
   dataset_id           = ""
   definition_body      = ""
+  deletion_policy      = ""
   description          = ""
   determinism_level    = ""
   imported_libraries   = []

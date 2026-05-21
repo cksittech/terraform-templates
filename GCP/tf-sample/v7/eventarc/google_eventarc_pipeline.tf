@@ -1,6 +1,7 @@
 resource "google_eventarc_pipeline" "tf-sample-eventarc-pipeline" {
   annotations     = {}
   crypto_key_name = ""
+  deletion_policy = ""
   display_name    = ""
   labels          = {}
   location        = ""

@@ -3,6 +3,7 @@ resource "google_sql_source_representation_instance" "tf-sample-sql-source-repre
   client_certificate = ""
   client_key         = ""
   database_version   = ""
+  deletion_policy    = ""
   dump_file_path     = ""
   host               = ""
   name               = ""

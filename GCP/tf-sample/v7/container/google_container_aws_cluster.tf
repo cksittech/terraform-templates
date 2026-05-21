@@ -1,10 +1,11 @@
 resource "google_container_aws_cluster" "tf-sample-container-aws-cluster" {
-  annotations = {}
-  aws_region  = ""
-  description = ""
-  location    = ""
-  name        = ""
-  project     = ""
+  annotations     = {}
+  aws_region      = ""
+  deletion_policy = ""
+  description     = ""
+  location        = ""
+  name            = ""
+  project         = ""
   
   authorization {
     admin_groups {

@@ -4,6 +4,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
   clear_overrides_field_mask = ""
   data_source_id             = ""
   delete_restored_instance   = false
+  deletion_policy            = ""
   location                   = ""
   request_id                 = ""
   

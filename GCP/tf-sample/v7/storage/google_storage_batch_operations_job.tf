@@ -1,5 +1,7 @@
 resource "google_storage_batch_operations_job" "tf-sample-storage-batch-operations-job" {
   delete_protection = false
+  deletion_policy   = ""
+  description       = ""
   job_id            = ""
   project           = ""
   

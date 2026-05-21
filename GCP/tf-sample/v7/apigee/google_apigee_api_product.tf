@@ -1,6 +1,7 @@
 resource "google_apigee_api_product" "tf-sample-apigee-api-product" {
   api_resources       = []
   approval_type       = ""
+  deletion_policy     = ""
   description         = ""
   display_name        = ""
   environments        = []

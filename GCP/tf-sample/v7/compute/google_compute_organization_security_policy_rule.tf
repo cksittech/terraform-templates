@@ -1,9 +1,10 @@
 resource "google_compute_organization_security_policy_rule" "tf-sample-compute-organization-security-policy-rule" {
-  action      = ""
-  description = ""
-  policy_id   = ""
-  preview     = false
-  priority    = 0
+  action          = ""
+  deletion_policy = ""
+  description     = ""
+  policy_id       = ""
+  preview         = false
+  priority        = 0
   
   header_action {
     request_headers_to_adds {

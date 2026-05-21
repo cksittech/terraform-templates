@@ -1,7 +1,8 @@
 resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" {
-  display_name = ""
-  labels       = {}
-  project      = ""
+  deletion_policy = ""
+  display_name    = ""
+  labels          = {}
+  project         = ""
   
   android_settings {
     allow_all_package_names = false

@@ -1,4 +1,5 @@
 resource "google_network_services_multicast_group_consumer_activation" "tf-sample-network-services-multicast-group-consumer-activation" {
+  deletion_policy                        = ""
   description                            = ""
   labels                                 = {}
   location                               = ""

@@ -1,9 +1,10 @@
 resource "google_vertex_ai_featurestore" "tf-sample-vertex-ai-featurestore" {
-  force_destroy = false
-  labels        = {}
-  name          = ""
-  project       = ""
-  region        = ""
+  deletion_policy = ""
+  force_destroy   = false
+  labels          = {}
+  name            = ""
+  project         = ""
+  region          = ""
   
   encryption_spec {
     kms_key_name = ""

@@ -1,9 +1,10 @@
 resource "google_compute_security_policy" "tf-sample-compute-security-policy" {
-  description = ""
-  labels      = {}
-  name        = ""
-  project     = ""
-  type        = ""
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  name            = ""
+  project         = ""
+  type            = ""
   
   adaptive_protection_config {
     layer_7_ddos_defense_config {

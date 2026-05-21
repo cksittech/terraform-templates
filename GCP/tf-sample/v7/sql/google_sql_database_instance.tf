@@ -1,6 +1,7 @@
 resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   backupdr_backup          = ""
   database_version         = ""
+  deletion_policy          = ""
   deletion_protection      = false
   encryption_key_name      = ""
   final_backup_description = ""

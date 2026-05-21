@@ -1,8 +1,9 @@
 resource "google_logging_log_view" "tf-sample-logging-log-view" {
-  bucket      = ""
-  description = ""
-  filter      = ""
-  location    = ""
-  name        = ""
-  parent      = ""
+  bucket          = ""
+  deletion_policy = ""
+  description     = ""
+  filter          = ""
+  location        = ""
+  name            = ""
+  parent          = ""
 }

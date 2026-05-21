@@ -1,4 +1,5 @@
 resource "google_compute_ha_vpn_gateway" "tf-sample-compute-ha-vpn-gateway" {
+  deletion_policy    = ""
   description        = ""
   gateway_ip_version = ""
   labels             = {}

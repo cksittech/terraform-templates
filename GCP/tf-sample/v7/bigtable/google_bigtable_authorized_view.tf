@@ -1,4 +1,5 @@
 resource "google_bigtable_authorized_view" "tf-sample-bigtable-authorized-view" {
+  deletion_policy     = ""
   deletion_protection = ""
   instance_name       = ""
   name                = ""

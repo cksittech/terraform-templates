@@ -1,5 +1,6 @@
 resource "google_compute_ssl_certificate" "tf-sample-compute-ssl-certificate" {
   certificate            = ""
+  deletion_policy        = ""
   description            = ""
   name                   = ""
   name_prefix            = ""

@@ -1,8 +1,9 @@
 resource "google_storage_insights_report_config" "tf-sample-storage-insights-report-config" {
-  display_name  = ""
-  force_destroy = false
-  location      = ""
-  project       = ""
+  deletion_policy = ""
+  display_name    = ""
+  force_destroy   = false
+  location        = ""
+  project         = ""
   
   csv_options {
     delimiter        = ""

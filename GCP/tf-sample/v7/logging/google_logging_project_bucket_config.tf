@@ -1,5 +1,6 @@
 resource "google_logging_project_bucket_config" "tf-sample-logging-project-bucket-config" {
   bucket_id        = ""
+  deletion_policy  = ""
   description      = ""
   enable_analytics = false
   location         = ""

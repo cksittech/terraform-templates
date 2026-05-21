@@ -1,4 +1,5 @@
 resource "google_compute_router_interface" "tf-sample-compute-router-interface" {
+  deletion_policy         = ""
   interconnect_attachment = ""
   ip_range                = ""
   ip_version              = ""

@@ -1,4 +1,5 @@
 resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
+  deletion_policy    = ""
   description        = ""
   disabled           = false
   filename           = ""

@@ -1,4 +1,5 @@
 resource "google_data_catalog_tag_template" "tf-sample-data-catalog-tag-template" {
+  deletion_policy = ""
   display_name    = ""
   force_delete    = false
   project         = ""

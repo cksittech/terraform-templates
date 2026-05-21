@@ -1,6 +1,7 @@
 resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
   admin_enabled        = false
   customer_name        = ""
+  deletion_policy      = ""
   description          = ""
   interconnect_type    = ""
   labels               = {}

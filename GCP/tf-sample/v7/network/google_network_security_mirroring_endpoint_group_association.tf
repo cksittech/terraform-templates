@@ -1,4 +1,5 @@
 resource "google_network_security_mirroring_endpoint_group_association" "tf-sample-network-security-mirroring-endpoint-group-association" {
+  deletion_policy                         = ""
   labels                                  = {}
   location                                = ""
   mirroring_endpoint_group                = ""

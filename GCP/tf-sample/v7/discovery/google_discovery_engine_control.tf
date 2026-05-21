@@ -1,12 +1,13 @@
 resource "google_discovery_engine_control" "tf-sample-discovery-engine-control" {
-  collection_id = ""
-  control_id    = ""
-  display_name  = ""
-  engine_id     = ""
-  location      = ""
-  project       = ""
-  solution_type = ""
-  use_cases     = []
+  collection_id   = ""
+  control_id      = ""
+  deletion_policy = ""
+  display_name    = ""
+  engine_id       = ""
+  location        = ""
+  project         = ""
+  solution_type   = ""
+  use_cases       = []
   
   boost_action {
     data_store  = ""

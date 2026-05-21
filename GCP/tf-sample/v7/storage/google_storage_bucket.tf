@@ -1,5 +1,6 @@
 resource "google_storage_bucket" "tf-sample-storage-bucket" {
   default_event_based_hold    = false
+  deletion_policy             = ""
   enable_object_retention     = false
   force_destroy               = false
   labels                      = {}

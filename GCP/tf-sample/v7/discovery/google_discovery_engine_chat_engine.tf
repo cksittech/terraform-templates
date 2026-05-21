@@ -1,6 +1,7 @@
 resource "google_discovery_engine_chat_engine" "tf-sample-discovery-engine-chat-engine" {
   collection_id     = ""
   data_store_ids    = []
+  deletion_policy   = ""
   display_name      = ""
   engine_id         = ""
   industry_vertical = ""

@@ -4,6 +4,7 @@ resource "google_alloydb_instance" "tf-sample-alloydb-instance" {
   availability_type = ""
   cluster           = ""
   database_flags    = {}
+  deletion_policy   = ""
   display_name      = ""
   gce_zone          = ""
   instance_id       = ""

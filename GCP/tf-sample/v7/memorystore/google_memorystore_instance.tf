@@ -1,5 +1,6 @@
 resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   authorization_mode          = ""
+  deletion_policy             = ""
   deletion_protection_enabled = false
   engine_configs              = {}
   engine_version              = ""

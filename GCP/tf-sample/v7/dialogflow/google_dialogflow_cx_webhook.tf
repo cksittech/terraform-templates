@@ -1,4 +1,5 @@
 resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
+  deletion_policy            = ""
   disabled                   = false
   display_name               = ""
   enable_spell_correction    = false

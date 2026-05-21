@@ -1,8 +1,9 @@
 resource "google_netapp_volume_snapshot" "tf-sample-netapp-volume-snapshot" {
-  description = ""
-  labels      = {}
-  location    = ""
-  name        = ""
-  project     = ""
-  volume_name = ""
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
+  volume_name     = ""
 }

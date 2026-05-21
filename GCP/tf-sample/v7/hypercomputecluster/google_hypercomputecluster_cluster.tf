@@ -1,9 +1,10 @@
 resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-cluster" {
-  cluster_id  = ""
-  description = ""
-  labels      = {}
-  location    = ""
-  project     = ""
+  cluster_id      = ""
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  location        = ""
+  project         = ""
   
   compute_resources {
     id = ""
@@ -110,7 +111,8 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
         storage_class = ""
         
         autoclass {
-          enabled = false
+          enabled                = false
+          terminal_storage_class = ""
         }
         hierarchical_namespace {
           enabled = false
@@ -128,10 +130,11 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
         }
       }
       new_lustre {
-        capacity_gb = ""
-        description = ""
-        filesystem  = ""
-        lustre      = ""
+        capacity_gb                 = ""
+        description                 = ""
+        filesystem                  = ""
+        lustre                      = ""
+        per_unit_storage_throughput = ""
       }
     }
   }

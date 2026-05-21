@@ -1,9 +1,10 @@
 resource "google_vertex_ai_feature_online_store" "tf-sample-vertex-ai-feature-online-store" {
-  force_destroy = false
-  labels        = {}
-  name          = ""
-  project       = ""
-  region        = ""
+  deletion_policy = ""
+  force_destroy   = false
+  labels          = {}
+  name            = ""
+  project         = ""
+  region          = ""
   
   bigtable {
     enable_direct_bigtable_access = false

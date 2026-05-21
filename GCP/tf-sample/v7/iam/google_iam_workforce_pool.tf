@@ -1,4 +1,5 @@
 resource "google_iam_workforce_pool" "tf-sample-iam-workforce-pool" {
+  deletion_policy   = ""
   description       = ""
   disabled          = false
   display_name      = ""

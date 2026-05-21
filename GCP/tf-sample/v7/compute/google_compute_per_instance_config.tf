@@ -1,4 +1,5 @@
 resource "google_compute_per_instance_config" "tf-sample-compute-per-instance-config" {
+  deletion_policy                  = ""
   instance_group_manager           = ""
   minimal_action                   = ""
   most_disruptive_allowed_action   = ""

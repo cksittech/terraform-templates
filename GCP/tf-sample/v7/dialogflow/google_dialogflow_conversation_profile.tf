@@ -1,4 +1,5 @@
 resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversation-profile" {
+  deletion_policy   = ""
   display_name      = ""
   language_code     = ""
   location          = ""

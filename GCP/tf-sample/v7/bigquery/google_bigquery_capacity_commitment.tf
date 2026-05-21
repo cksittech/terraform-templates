@@ -1,5 +1,6 @@
 resource "google_bigquery_capacity_commitment" "tf-sample-bigquery-capacity-commitment" {
   capacity_commitment_id               = ""
+  deletion_policy                      = ""
   edition                              = ""
   enforce_single_admin_project_per_org = ""
   location                             = ""

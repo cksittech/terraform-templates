@@ -1,4 +1,5 @@
 resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-prevention-discovery-config" {
+  deletion_policy   = ""
   display_name      = ""
   inspect_templates = []
   location          = ""

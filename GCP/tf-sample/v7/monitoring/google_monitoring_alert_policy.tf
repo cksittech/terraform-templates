@@ -1,5 +1,6 @@
 resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
   combiner              = ""
+  deletion_policy       = ""
   display_name          = ""
   enabled               = false
   notification_channels = []

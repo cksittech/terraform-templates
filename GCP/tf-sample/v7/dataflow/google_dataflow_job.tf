@@ -1,5 +1,6 @@
 resource "google_dataflow_job" "tf-sample-dataflow-job" {
   additional_experiments       = []
+  deletion_policy              = ""
   enable_streaming_engine      = false
   ip_configuration             = ""
   kms_key_name                 = ""

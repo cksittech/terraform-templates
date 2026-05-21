@@ -1,4 +1,5 @@
 resource "google_iam_workload_identity_pool_managed_identity" "tf-sample-iam-workload-identity-pool-managed-identity" {
+  deletion_policy                            = ""
   description                                = ""
   disabled                                   = false
   project                                    = ""

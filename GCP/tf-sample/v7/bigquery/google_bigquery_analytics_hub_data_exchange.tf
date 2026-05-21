@@ -1,5 +1,6 @@
 resource "google_bigquery_analytics_hub_data_exchange" "tf-sample-bigquery-analytics-hub-data-exchange" {
   data_exchange_id                    = ""
+  deletion_policy                     = ""
   description                         = ""
   discovery_type                      = ""
   display_name                        = ""

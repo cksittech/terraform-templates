@@ -1,4 +1,5 @@
 resource "google_network_connectivity_destination" "tf-sample-network-connectivity-destination" {
+  deletion_policy                 = ""
   description                     = ""
   ip_prefix                       = ""
   labels                          = {}

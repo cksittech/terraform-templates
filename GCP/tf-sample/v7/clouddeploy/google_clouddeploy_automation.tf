@@ -1,5 +1,6 @@
 resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
   annotations       = {}
+  deletion_policy   = ""
   delivery_pipeline = ""
   description       = ""
   labels            = {}

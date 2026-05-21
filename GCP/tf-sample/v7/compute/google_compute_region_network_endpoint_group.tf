@@ -1,4 +1,5 @@
 resource "google_compute_region_network_endpoint_group" "tf-sample-compute-region-network-endpoint-group" {
+  deletion_policy       = ""
   description           = ""
   name                  = ""
   network               = ""

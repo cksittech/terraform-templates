@@ -1,5 +1,6 @@
 resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
   calendar_period     = ""
+  deletion_policy     = ""
   display_name        = ""
   goal                = 0
   project             = ""

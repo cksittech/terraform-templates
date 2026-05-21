@@ -1,5 +1,6 @@
 resource "google_clouddeploy_target" "tf-sample-clouddeploy-target" {
   annotations       = {}
+  deletion_policy   = ""
   deploy_parameters = {}
   description       = ""
   labels            = {}

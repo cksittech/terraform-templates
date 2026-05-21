@@ -1,10 +1,11 @@
 resource "google_biglake_iceberg_table" "tf-sample-biglake-iceberg-table" {
-  catalog    = ""
-  location   = ""
-  name       = ""
-  namespace  = ""
-  project    = ""
-  properties = {}
+  catalog         = ""
+  deletion_policy = ""
+  location        = ""
+  name            = ""
+  namespace       = ""
+  project         = ""
+  properties      = {}
   
   partition_spec {
     fields {

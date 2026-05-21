@@ -1,4 +1,5 @@
 resource "google_dns_policy" "tf-sample-dns-policy" {
+  deletion_policy           = ""
   description               = ""
   enable_inbound_forwarding = false
   enable_logging            = false

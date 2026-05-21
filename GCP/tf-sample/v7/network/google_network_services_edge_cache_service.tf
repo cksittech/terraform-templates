@@ -1,4 +1,5 @@
 resource "google_network_services_edge_cache_service" "tf-sample-network-services-edge-cache-service" {
+  deletion_policy       = ""
   description           = ""
   disable_http2         = false
   disable_quic          = false

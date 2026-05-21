@@ -1,6 +1,7 @@
 resource "google_network_security_security_profile_group" "tf-sample-network-security-security-profile-group" {
   custom_intercept_profile  = ""
   custom_mirroring_profile  = ""
+  deletion_policy           = ""
   description               = ""
   labels                    = {}
   location                  = ""

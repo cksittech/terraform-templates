@@ -1,10 +1,11 @@
 resource "google_certificate_manager_certificate" "tf-sample-certificate-manager-certificate" {
-  description = ""
-  labels      = {}
-  location    = ""
-  name        = ""
-  project     = ""
-  scope       = ""
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
+  scope           = ""
   
   managed {
     dns_authorizations = []

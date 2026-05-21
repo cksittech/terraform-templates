@@ -4,6 +4,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   cluster_ipv4_cidr                        = ""
   datapath_provider                        = ""
   default_max_pods_per_node                = 0
+  deletion_policy                          = ""
   deletion_protection                      = false
   description                              = ""
   disable_l4_lb_firewall_reconciliation    = false
@@ -72,6 +73,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       disabled = false
     }
     parallelstore_csi_driver_config {
+      enabled = false
+    }
+    pod_snapshot_config {
       enabled = false
     }
     ray_operator_config {
@@ -935,6 +939,14 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     }
   }
   secret_manager_config {
+    enabled = false
+    
+    rotation_config {
+      enabled           = false
+      rotation_interval = ""
+    }
+  }
+  secret_sync_config {
     enabled = false
     
     rotation_config {

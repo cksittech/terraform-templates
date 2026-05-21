@@ -2,6 +2,7 @@ resource "google_compute_backend_bucket" "tf-sample-compute-backend-bucket" {
   bucket_name             = ""
   compression_mode        = ""
   custom_response_headers = []
+  deletion_policy         = ""
   description             = ""
   edge_security_policy    = ""
   enable_cdn              = false

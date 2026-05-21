@@ -1,4 +1,5 @@
 resource "google_vertex_ai_feature_online_store_featureview" "tf-sample-vertex-ai-feature-online-store-featureview" {
+  deletion_policy      = ""
   feature_online_store = ""
   labels               = {}
   name                 = ""

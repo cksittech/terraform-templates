@@ -1,6 +1,7 @@
 resource "google_pubsub_schema" "tf-sample-pubsub-schema" {
-  definition = ""
-  name       = ""
-  project    = ""
-  type       = ""
+  definition      = ""
+  deletion_policy = ""
+  name            = ""
+  project         = ""
+  type            = ""
 }

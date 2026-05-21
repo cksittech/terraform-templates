@@ -1,5 +1,6 @@
 resource "google_healthcare_pipeline_job" "tf-sample-healthcare-pipeline-job" {
   dataset         = ""
+  deletion_policy = ""
   disable_lineage = false
   labels          = {}
   location        = ""

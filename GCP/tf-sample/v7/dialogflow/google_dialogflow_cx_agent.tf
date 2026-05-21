@@ -2,6 +2,7 @@ resource "google_dialogflow_cx_agent" "tf-sample-dialogflow-cx-agent" {
   avatar_uri                     = ""
   default_language_code          = ""
   delete_chat_engine_on_destroy  = false
+  deletion_policy                = ""
   description                    = ""
   display_name                   = ""
   enable_multi_language_training = false

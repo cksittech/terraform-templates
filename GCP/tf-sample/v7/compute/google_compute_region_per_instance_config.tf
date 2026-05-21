@@ -1,4 +1,5 @@
 resource "google_compute_region_per_instance_config" "tf-sample-compute-region-per-instance-config" {
+  deletion_policy                  = ""
   minimal_action                   = ""
   most_disruptive_allowed_action   = ""
   name                             = ""

@@ -1,9 +1,11 @@
 resource "google_database_migration_service_connection_profile" "tf-sample-database-migration-service-connection-profile" {
   connection_profile_id = ""
+  deletion_policy       = ""
   display_name          = ""
   labels                = {}
   location              = ""
   project               = ""
+  role                  = ""
   
   alloydb {
     cluster_id = ""
@@ -101,11 +103,15 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
   postgresql {
     alloydb_cluster_id = ""
     cloud_sql_id       = ""
+    database           = ""
     host               = ""
     password           = ""
     port               = 0
     username           = ""
     
+    private_connectivity {
+      private_connection = ""
+    }
     ssl {
       ca_certificate     = ""
       client_certificate = ""

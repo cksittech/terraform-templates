@@ -1,11 +1,12 @@
 resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spoke" {
-  description = ""
-  group       = ""
-  hub         = ""
-  labels      = {}
-  location    = ""
-  name        = ""
-  project     = ""
+  deletion_policy = ""
+  description     = ""
+  group           = ""
+  hub             = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
   
   linked_interconnect_attachments {
     exclude_export_ranges      = []

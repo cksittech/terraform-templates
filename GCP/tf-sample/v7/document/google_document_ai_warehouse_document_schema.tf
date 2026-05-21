@@ -1,4 +1,5 @@
 resource "google_document_ai_warehouse_document_schema" "tf-sample-document-ai-warehouse-document-schema" {
+  deletion_policy    = ""
   display_name       = ""
   document_is_folder = false
   location           = ""

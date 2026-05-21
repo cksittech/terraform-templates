@@ -1,4 +1,5 @@
 resource "google_privateca_certificate_template" "tf-sample-privateca-certificate-template" {
+  deletion_policy  = ""
   description      = ""
   labels           = {}
   location         = ""

@@ -1,5 +1,6 @@
 resource "google_storage_folder" "tf-sample-storage-folder" {
-  bucket        = ""
-  force_destroy = false
-  name          = ""
+  bucket          = ""
+  deletion_policy = ""
+  force_destroy   = false
+  name            = ""
 }

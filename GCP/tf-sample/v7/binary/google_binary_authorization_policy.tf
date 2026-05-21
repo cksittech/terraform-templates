@@ -1,4 +1,5 @@
 resource "google_binary_authorization_policy" "tf-sample-binary-authorization-policy" {
+  deletion_policy               = ""
   description                   = ""
   global_policy_evaluation_mode = ""
   project                       = ""

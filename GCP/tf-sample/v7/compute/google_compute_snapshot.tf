@@ -1,5 +1,6 @@
 resource "google_compute_snapshot" "tf-sample-compute-snapshot" {
   chain_name              = ""
+  deletion_policy         = ""
   description             = ""
   labels                  = {}
   name                    = ""

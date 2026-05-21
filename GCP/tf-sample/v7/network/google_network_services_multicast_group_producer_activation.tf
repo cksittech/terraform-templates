@@ -1,4 +1,5 @@
 resource "google_network_services_multicast_group_producer_activation" "tf-sample-network-services-multicast-group-producer-activation" {
+  deletion_policy                        = ""
   description                            = ""
   labels                                 = {}
   location                               = ""

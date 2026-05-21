@@ -1,5 +1,6 @@
 resource "google_redis_cluster" "tf-sample-redis-cluster" {
   authorization_mode          = ""
+  deletion_policy             = ""
   deletion_protection_enabled = false
   kms_key                     = ""
   labels                      = {}

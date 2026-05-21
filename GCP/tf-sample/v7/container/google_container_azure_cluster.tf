@@ -2,6 +2,7 @@ resource "google_container_azure_cluster" "tf-sample-container-azure-cluster" {
   annotations       = {}
   azure_region      = ""
   client            = ""
+  deletion_policy   = ""
   description       = ""
   location          = ""
   name              = ""

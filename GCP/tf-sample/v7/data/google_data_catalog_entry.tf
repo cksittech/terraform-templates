@@ -1,4 +1,5 @@
 resource "google_data_catalog_entry" "tf-sample-data-catalog-entry" {
+  deletion_policy       = ""
   description           = ""
   display_name          = ""
   entry_group           = ""

@@ -1,5 +1,6 @@
 resource "google_eventarc_trigger" "tf-sample-eventarc-trigger" {
   channel                 = ""
+  deletion_policy         = ""
   event_data_content_type = ""
   labels                  = {}
   location                = ""

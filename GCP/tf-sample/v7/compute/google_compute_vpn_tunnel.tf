@@ -1,4 +1,5 @@
 resource "google_compute_vpn_tunnel" "tf-sample-compute-vpn-tunnel" {
+  deletion_policy                 = ""
   description                     = ""
   ike_version                     = 0
   labels                          = {}

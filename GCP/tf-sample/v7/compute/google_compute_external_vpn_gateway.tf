@@ -1,4 +1,5 @@
 resource "google_compute_external_vpn_gateway" "tf-sample-compute-external-vpn-gateway" {
+  deletion_policy = ""
   description     = ""
   labels          = {}
   name            = ""

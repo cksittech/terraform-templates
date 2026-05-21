@@ -1,5 +1,6 @@
 resource "google_access_context_manager_access_level_condition" "tf-sample-access-context-manager-access-level-condition" {
   access_level           = ""
+  deletion_policy        = ""
   ip_subnetworks         = []
   members                = []
   negate                 = false

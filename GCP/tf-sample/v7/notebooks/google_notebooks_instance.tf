@@ -5,6 +5,7 @@ resource "google_notebooks_instance" "tf-sample-notebooks-instance" {
   custom_gpu_driver_path = ""
   data_disk_size_gb      = 0
   data_disk_type         = ""
+  deletion_policy        = ""
   desired_state          = ""
   disk_encryption        = ""
   install_gpu_driver     = false

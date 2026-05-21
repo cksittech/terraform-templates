@@ -1,11 +1,12 @@
 resource "google_vector_search_collection" "tf-sample-vector-search-collection" {
-  collection_id = ""
-  data_schema   = ""
-  description   = ""
-  display_name  = ""
-  labels        = {}
-  location      = ""
-  project       = ""
+  collection_id   = ""
+  data_schema     = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  labels          = {}
+  location        = ""
+  project         = ""
   
   encryption_spec {
     crypto_key_name = ""

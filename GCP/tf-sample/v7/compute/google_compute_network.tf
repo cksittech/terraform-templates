@@ -5,6 +5,7 @@ resource "google_compute_network" "tf-sample-compute-network" {
   bgp_inter_region_cost                     = ""
   delete_bgp_always_compare_med             = false
   delete_default_routes_on_create           = false
+  deletion_policy                           = ""
   description                               = ""
   enable_ula_internal_ipv6                  = false
   internal_ipv6_range                       = ""

@@ -1,4 +1,5 @@
 resource "google_gke_hub_feature_membership" "tf-sample-gke-hub-feature-membership" {
+  deletion_policy     = ""
   feature             = ""
   location            = ""
   membership          = ""

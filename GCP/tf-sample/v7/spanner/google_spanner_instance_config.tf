@@ -1,9 +1,10 @@
 resource "google_spanner_instance_config" "tf-sample-spanner-instance-config" {
-  base_config  = ""
-  display_name = ""
-  labels       = {}
-  name         = ""
-  project      = ""
+  base_config     = ""
+  deletion_policy = ""
+  display_name    = ""
+  labels          = {}
+  name            = ""
+  project         = ""
   
   replicas {
     default_leader_location = false

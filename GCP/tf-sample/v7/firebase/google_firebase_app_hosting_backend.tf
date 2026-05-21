@@ -2,6 +2,7 @@ resource "google_firebase_app_hosting_backend" "tf-sample-firebase-app-hosting-b
   annotations      = {}
   app_id           = ""
   backend_id       = ""
+  deletion_policy  = ""
   display_name     = ""
   environment      = ""
   labels           = {}

@@ -1,4 +1,5 @@
 resource "google_logging_organization_sink" "tf-sample-logging-organization-sink" {
+  deletion_policy    = ""
   description        = ""
   destination        = ""
   disabled           = false

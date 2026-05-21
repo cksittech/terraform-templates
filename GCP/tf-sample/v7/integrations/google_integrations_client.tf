@@ -1,5 +1,6 @@
 resource "google_integrations_client" "tf-sample-integrations-client" {
   create_sample_integrations = false
+  deletion_policy            = ""
   location                   = ""
   project                    = ""
   

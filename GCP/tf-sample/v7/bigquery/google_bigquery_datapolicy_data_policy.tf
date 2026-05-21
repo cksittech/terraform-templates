@@ -1,6 +1,7 @@
 resource "google_bigquery_datapolicy_data_policy" "tf-sample-bigquery-datapolicy-data-policy" {
   data_policy_id   = ""
   data_policy_type = ""
+  deletion_policy  = ""
   location         = ""
   policy_tag       = ""
   project          = ""

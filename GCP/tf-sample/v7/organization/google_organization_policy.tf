@@ -1,7 +1,8 @@
 resource "google_organization_policy" "tf-sample-organization-policy" {
-  constraint = ""
-  org_id     = ""
-  version    = 0
+  constraint      = ""
+  deletion_policy = ""
+  org_id          = ""
+  version         = 0
   
   boolean_policy {
     enforced = false

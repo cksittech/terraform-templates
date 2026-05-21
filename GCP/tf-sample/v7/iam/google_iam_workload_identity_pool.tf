@@ -1,4 +1,5 @@
 resource "google_iam_workload_identity_pool" "tf-sample-iam-workload-identity-pool" {
+  deletion_policy           = ""
   description               = ""
   disabled                  = false
   display_name              = ""

@@ -1,6 +1,7 @@
 resource "google_colab_schedule" "tf-sample-colab-schedule" {
   allow_queueing           = false
   cron                     = ""
+  deletion_policy          = ""
   desired_state            = ""
   display_name             = ""
   end_time                 = ""

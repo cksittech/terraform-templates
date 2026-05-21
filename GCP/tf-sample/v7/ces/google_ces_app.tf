@@ -1,14 +1,16 @@
 resource "google_ces_app" "tf-sample-ces-app" {
-  app_id             = ""
-  description        = ""
-  display_name       = ""
-  global_instruction = ""
-  guardrails         = []
-  location           = ""
-  metadata           = {}
-  pinned             = false
-  project            = ""
-  root_agent         = ""
+  app_id              = ""
+  deletion_policy     = ""
+  description         = ""
+  display_name        = ""
+  global_instruction  = ""
+  guardrails          = []
+  location            = ""
+  metadata            = {}
+  pinned              = false
+  project             = ""
+  root_agent          = ""
+  tool_execution_mode = ""
   
   audio_processing_config {
     inactivity_timeout = ""

@@ -3,6 +3,7 @@ resource "google_cloud_asset_folder_feed" "tf-sample-cloud-asset-folder-feed" {
   asset_types     = []
   billing_project = ""
   content_type    = ""
+  deletion_policy = ""
   feed_id         = ""
   folder          = ""
   

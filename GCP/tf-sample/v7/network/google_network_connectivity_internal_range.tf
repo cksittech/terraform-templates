@@ -1,4 +1,5 @@
 resource "google_network_connectivity_internal_range" "tf-sample-network-connectivity-internal-range" {
+  deletion_policy     = ""
   description         = ""
   exclude_cidr_ranges = []
   immutable           = false

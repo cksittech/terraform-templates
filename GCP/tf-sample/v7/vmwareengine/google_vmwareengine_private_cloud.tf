@@ -1,5 +1,6 @@
 resource "google_vmwareengine_private_cloud" "tf-sample-vmwareengine-private-cloud" {
   deletion_delay_hours              = 0
+  deletion_policy                   = ""
   description                       = ""
   location                          = ""
   name                              = ""

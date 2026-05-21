@@ -1,6 +1,7 @@
 resource "google_contact_center_insights_qa_question" "tf-sample-contact-center-insights-qa-question" {
   abbreviation        = ""
   answer_instructions = ""
+  deletion_policy     = ""
   location            = ""
   order               = 0
   project             = ""

@@ -1,5 +1,6 @@
 resource "google_integration_connectors_connection" "tf-sample-integration-connectors-connection" {
   connector_version        = ""
+  deletion_policy          = ""
   description              = ""
   eventing_enablement_type = ""
   labels                   = {}

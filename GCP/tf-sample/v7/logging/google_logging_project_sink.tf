@@ -1,5 +1,6 @@
 resource "google_logging_project_sink" "tf-sample-logging-project-sink" {
   custom_writer_identity = ""
+  deletion_policy        = ""
   description            = ""
   destination            = ""
   disabled               = false

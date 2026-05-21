@@ -2,6 +2,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
   annotations         = {}
   client              = ""
   client_version      = ""
+  deletion_policy     = ""
   deletion_protection = false
   description         = ""
   labels              = {}

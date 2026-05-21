@@ -1,8 +1,9 @@
 resource "google_firestore_field" "tf-sample-firestore-field" {
-  collection = ""
-  database   = ""
-  field      = ""
-  project    = ""
+  collection      = ""
+  database        = ""
+  deletion_policy = ""
+  field           = ""
+  project         = ""
   
   index_config {
     indexes {

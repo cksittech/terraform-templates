@@ -1,9 +1,10 @@
 resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-template" {
-  dag_timeout = ""
-  labels      = {}
-  location    = ""
-  name        = ""
-  project     = ""
+  dag_timeout     = ""
+  deletion_policy = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
   
   encryption_config {
     kms_key = ""

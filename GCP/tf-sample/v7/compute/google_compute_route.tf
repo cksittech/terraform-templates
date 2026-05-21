@@ -1,4 +1,5 @@
 resource "google_compute_route" "tf-sample-compute-route" {
+  deletion_policy        = ""
   description            = ""
   dest_range             = ""
   name                   = ""

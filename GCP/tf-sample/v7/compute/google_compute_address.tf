@@ -1,6 +1,7 @@
 resource "google_compute_address" "tf-sample-compute-address" {
   address            = ""
   address_type       = ""
+  deletion_policy    = ""
   description        = ""
   ip_collection      = ""
   ip_version         = ""

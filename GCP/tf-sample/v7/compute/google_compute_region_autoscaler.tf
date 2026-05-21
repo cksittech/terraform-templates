@@ -1,15 +1,17 @@
 resource "google_compute_region_autoscaler" "tf-sample-compute-region-autoscaler" {
-  description = ""
-  name        = ""
-  project     = ""
-  region      = ""
-  target      = ""
+  deletion_policy = ""
+  description     = ""
+  name            = ""
+  project         = ""
+  region          = ""
+  target          = ""
   
   autoscaling_policy {
-    cooldown_period = 0
-    max_replicas    = 0
-    min_replicas    = 0
-    mode            = ""
+    cooldown_period      = 0
+    max_replicas         = 0
+    min_replicas         = 0
+    mode                 = ""
+    stabilization_period = 0
     
     cpu_utilization {
       predictive_method = ""

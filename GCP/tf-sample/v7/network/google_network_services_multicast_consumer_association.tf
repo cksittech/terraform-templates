@@ -1,4 +1,5 @@
 resource "google_network_services_multicast_consumer_association" "tf-sample-network-services-multicast-consumer-association" {
+  deletion_policy                   = ""
   description                       = ""
   labels                            = {}
   location                          = ""

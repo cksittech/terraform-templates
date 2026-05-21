@@ -1,4 +1,5 @@
 resource "google_securityposture_posture_deployment" "tf-sample-securityposture-posture-deployment" {
+  deletion_policy       = ""
   description           = ""
   location              = ""
   parent                = ""

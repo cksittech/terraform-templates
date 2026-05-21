@@ -3,6 +3,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
   backup_subnet_cidr     = ""
   cidr                   = ""
   cloud_vm_cluster_id    = ""
+  deletion_policy        = ""
   deletion_protection    = false
   display_name           = ""
   exadata_infrastructure = ""

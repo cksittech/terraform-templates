@@ -1,5 +1,6 @@
 resource "google_oracle_database_exadb_vm_cluster" "tf-sample-oracle-database-exadb-vm-cluster" {
   backup_odb_subnet   = ""
+  deletion_policy     = ""
   deletion_protection = false
   display_name        = ""
   exadb_vm_cluster_id = ""

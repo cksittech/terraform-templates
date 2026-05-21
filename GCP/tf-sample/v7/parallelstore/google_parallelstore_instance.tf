@@ -1,5 +1,6 @@
 resource "google_parallelstore_instance" "tf-sample-parallelstore-instance" {
   capacity_gib           = ""
+  deletion_policy        = ""
   deployment_type        = ""
   description            = ""
   directory_stripe_level = ""

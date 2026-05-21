@@ -1,6 +1,7 @@
 resource "google_compute_target_https_proxy" "tf-sample-compute-target-https-proxy" {
   certificate_manager_certificates = []
   certificate_map                  = ""
+  deletion_policy                  = ""
   description                      = ""
   http_keep_alive_timeout_sec      = 0
   name                             = ""

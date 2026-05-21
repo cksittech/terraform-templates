@@ -1,7 +1,8 @@
 resource "google_healthcare_dicom_store" "tf-sample-healthcare-dicom-store" {
-  dataset = ""
-  labels  = {}
-  name    = ""
+  dataset         = ""
+  deletion_policy = ""
+  labels          = {}
+  name            = ""
   
   notification_config {
     pubsub_topic         = ""

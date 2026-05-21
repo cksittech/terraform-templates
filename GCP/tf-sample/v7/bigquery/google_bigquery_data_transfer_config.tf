@@ -1,6 +1,7 @@
 resource "google_bigquery_data_transfer_config" "tf-sample-bigquery-data-transfer-config" {
   data_refresh_window_days  = 0
   data_source_id            = ""
+  deletion_policy           = ""
   destination_dataset_id    = ""
   disabled                  = false
   display_name              = ""

@@ -1,4 +1,5 @@
 resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
+  deletion_policy               = ""
   graceful_decommission_timeout = ""
   labels                        = {}
   name                          = ""

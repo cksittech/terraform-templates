@@ -1,4 +1,5 @@
 resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployment" {
+  deletion_policy     = ""
   description         = ""
   duration            = ""
   patch_deployment_id = ""

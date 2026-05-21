@@ -1,5 +1,6 @@
 resource "google_compute_network_attachment" "tf-sample-compute-network-attachment" {
   connection_preference = ""
+  deletion_policy       = ""
   description           = ""
   name                  = ""
   producer_accept_lists = []

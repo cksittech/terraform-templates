@@ -1,4 +1,5 @@
 resource "google_network_services_edge_cache_origin" "tf-sample-network-services-edge-cache-origin" {
+  deletion_policy  = ""
   description      = ""
   failover_origin  = ""
   labels           = {}

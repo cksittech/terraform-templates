@@ -1,4 +1,5 @@
 resource "google_cloud_security_compliance_framework_deployment" "tf-sample-cloud-security-compliance-framework-deployment" {
+  deletion_policy         = ""
   description             = ""
   framework_deployment_id = ""
   location                = ""

@@ -1,6 +1,7 @@
 resource "google_managed_kafka_topic" "tf-sample-managed-kafka-topic" {
   cluster            = ""
   configs            = {}
+  deletion_policy    = ""
   location           = ""
   partition_count    = 0
   project            = ""

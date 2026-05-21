@@ -3,6 +3,7 @@ resource "google_oracle_database_autonomous_database" "tf-sample-oracle-database
   autonomous_database_id = ""
   cidr                   = ""
   database               = ""
+  deletion_policy        = ""
   deletion_protection    = false
   display_name           = ""
   labels                 = {}

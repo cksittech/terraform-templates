@@ -1,6 +1,7 @@
 resource "google_developer_connect_insights_config" "tf-sample-developer-connect-insights-config" {
   annotations         = {}
   app_hub_application = ""
+  deletion_policy     = ""
   insights_config_id  = ""
   labels              = {}
   location            = ""

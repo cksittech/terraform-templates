@@ -1,4 +1,5 @@
 resource "google_dns_response_policy_rule" "tf-sample-dns-response-policy-rule" {
+  deletion_policy = ""
   dns_name        = ""
   project         = ""
   response_policy = ""

@@ -1,4 +1,5 @@
 resource "google_scc_folder_custom_module" "tf-sample-scc-folder-custom-module" {
+  deletion_policy  = ""
   display_name     = ""
   enablement_state = ""
   folder           = ""

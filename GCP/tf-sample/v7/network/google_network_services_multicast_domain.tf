@@ -1,5 +1,6 @@
 resource "google_network_services_multicast_domain" "tf-sample-network-services-multicast-domain" {
   admin_network          = ""
+  deletion_policy        = ""
   description            = ""
   labels                 = {}
   location               = ""

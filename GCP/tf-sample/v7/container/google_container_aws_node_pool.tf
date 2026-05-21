@@ -1,11 +1,12 @@
 resource "google_container_aws_node_pool" "tf-sample-container-aws-node-pool" {
-  annotations = {}
-  cluster     = ""
-  location    = ""
-  name        = ""
-  project     = ""
-  subnet_id   = ""
-  version     = ""
+  annotations     = {}
+  cluster         = ""
+  deletion_policy = ""
+  location        = ""
+  name            = ""
+  project         = ""
+  subnet_id       = ""
+  version         = ""
   
   autoscaling {
     max_node_count = 0

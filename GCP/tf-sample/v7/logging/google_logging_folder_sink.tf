@@ -1,4 +1,5 @@
 resource "google_logging_folder_sink" "tf-sample-logging-folder-sink" {
+  deletion_policy    = ""
   description        = ""
   destination        = ""
   disabled           = false

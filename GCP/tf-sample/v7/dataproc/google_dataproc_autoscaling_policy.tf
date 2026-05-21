@@ -1,7 +1,8 @@
 resource "google_dataproc_autoscaling_policy" "tf-sample-dataproc-autoscaling-policy" {
-  location  = ""
-  policy_id = ""
-  project   = ""
+  deletion_policy = ""
+  location        = ""
+  policy_id       = ""
+  project         = ""
   
   basic_algorithm {
     cooldown_period = ""

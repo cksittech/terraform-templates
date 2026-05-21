@@ -1,4 +1,5 @@
 resource "google_notebooks_environment" "tf-sample-notebooks-environment" {
+  deletion_policy     = ""
   description         = ""
   display_name        = ""
   location            = ""

@@ -1,4 +1,5 @@
 resource "google_dataproc_job" "tf-sample-dataproc-job" {
+  deletion_policy     = ""
   force_delete        = false
   labels              = {}
   project             = ""

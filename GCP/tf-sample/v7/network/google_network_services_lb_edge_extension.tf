@@ -1,4 +1,5 @@
 resource "google_network_services_lb_edge_extension" "tf-sample-network-services-lb-edge-extension" {
+  deletion_policy       = ""
   description           = ""
   forwarding_rules      = []
   labels                = {}

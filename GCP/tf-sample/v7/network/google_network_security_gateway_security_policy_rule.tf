@@ -1,6 +1,7 @@
 resource "google_network_security_gateway_security_policy_rule" "tf-sample-network-security-gateway-security-policy-rule" {
   application_matcher     = ""
   basic_profile           = ""
+  deletion_policy         = ""
   description             = ""
   enabled                 = false
   gateway_security_policy = ""

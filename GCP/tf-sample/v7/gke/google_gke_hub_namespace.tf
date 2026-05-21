@@ -1,4 +1,5 @@
 resource "google_gke_hub_namespace" "tf-sample-gke-hub-namespace" {
+  deletion_policy    = ""
   labels             = {}
   namespace_labels   = {}
   project            = ""

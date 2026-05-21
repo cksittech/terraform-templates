@@ -1,5 +1,6 @@
 resource "google_network_management_connectivity_test" "tf-sample-network-management-connectivity-test" {
   bypass_firewall_checks = false
+  deletion_policy        = ""
   description            = ""
   labels                 = {}
   name                   = ""

@@ -1,6 +1,7 @@
 resource "google_data_lineage_config" "tf-sample-data-lineage-config" {
-  location = ""
-  parent   = ""
+  deletion_policy = ""
+  location        = ""
+  parent          = ""
   
   ingestion {
     rule {

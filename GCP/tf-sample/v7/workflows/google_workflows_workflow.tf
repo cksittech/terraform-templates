@@ -1,6 +1,7 @@
 resource "google_workflows_workflow" "tf-sample-workflows-workflow" {
   call_log_level          = ""
   crypto_key_name         = ""
+  deletion_policy         = ""
   deletion_protection     = false
   description             = ""
   execution_history_level = ""

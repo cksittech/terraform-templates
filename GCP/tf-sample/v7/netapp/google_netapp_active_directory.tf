@@ -2,6 +2,7 @@ resource "google_netapp_active_directory" "tf-sample-netapp-active-directory" {
   administrators         = []
   aes_encryption         = false
   backup_operators       = []
+  deletion_policy        = ""
   description            = ""
   dns                    = ""
   domain                 = ""

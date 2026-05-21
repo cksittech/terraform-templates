@@ -1,5 +1,6 @@
 resource "google_netapp_volume_replication" "tf-sample-netapp-volume-replication" {
   delete_destination_volume = false
+  deletion_policy           = ""
   description               = ""
   force_stopping            = false
   labels                    = {}

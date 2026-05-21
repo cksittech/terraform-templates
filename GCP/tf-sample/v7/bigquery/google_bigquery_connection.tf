@@ -1,10 +1,11 @@
 resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
-  connection_id = ""
-  description   = ""
-  friendly_name = ""
-  kms_key_name  = ""
-  location      = ""
-  project       = ""
+  connection_id   = ""
+  deletion_policy = ""
+  description     = ""
+  friendly_name   = ""
+  kms_key_name    = ""
+  location        = ""
+  project         = ""
   
   aws {
     access_role {

@@ -1,5 +1,6 @@
 resource "google_compute_security_policy_rule" "tf-sample-compute-security-policy-rule" {
   action          = ""
+  deletion_policy = ""
   description     = ""
   preview         = false
   priority        = 0

@@ -1,4 +1,5 @@
 resource "google_network_services_lb_route_extension" "tf-sample-network-services-lb-route-extension" {
+  deletion_policy       = ""
   description           = ""
   forwarding_rules      = []
   labels                = {}

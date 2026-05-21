@@ -4,6 +4,7 @@ resource "google_redis_instance" "tf-sample-redis-instance" {
   authorized_network      = ""
   connect_mode            = ""
   customer_managed_key    = ""
+  deletion_policy         = ""
   deletion_protection     = false
   display_name            = ""
   labels                  = {}

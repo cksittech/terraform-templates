@@ -1,4 +1,5 @@
 resource "google_vmwareengine_network_peering" "tf-sample-vmwareengine-network-peering" {
+  deletion_policy                     = ""
   description                         = ""
   export_custom_routes                = false
   export_custom_routes_with_public_ip = false

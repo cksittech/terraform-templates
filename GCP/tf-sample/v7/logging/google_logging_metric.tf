@@ -1,5 +1,6 @@
 resource "google_logging_metric" "tf-sample-logging-metric" {
   bucket_name      = ""
+  deletion_policy  = ""
   description      = ""
   disabled         = false
   filter           = ""

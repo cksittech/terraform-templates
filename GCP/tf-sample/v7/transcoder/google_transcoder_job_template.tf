@@ -1,4 +1,5 @@
 resource "google_transcoder_job_template" "tf-sample-transcoder-job-template" {
+  deletion_policy = ""
   job_template_id = ""
   labels          = {}
   location        = ""

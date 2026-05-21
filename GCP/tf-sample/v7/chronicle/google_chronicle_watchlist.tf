@@ -1,4 +1,5 @@
 resource "google_chronicle_watchlist" "tf-sample-chronicle-watchlist" {
+  deletion_policy    = ""
   description        = ""
   display_name       = ""
   instance           = ""

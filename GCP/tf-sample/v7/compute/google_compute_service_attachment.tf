@@ -1,6 +1,7 @@
 resource "google_compute_service_attachment" "tf-sample-compute-service-attachment" {
   connection_preference                    = ""
   consumer_reject_lists                    = []
+  deletion_policy                          = ""
   description                              = ""
   domain_names                             = []
   enable_proxy_protocol                    = false

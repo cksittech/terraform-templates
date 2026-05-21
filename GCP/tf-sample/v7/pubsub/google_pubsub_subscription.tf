@@ -1,5 +1,6 @@
 resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   ack_deadline_seconds         = 0
+  deletion_policy              = ""
   enable_exactly_once_delivery = false
   enable_message_ordering      = false
   filter                       = ""

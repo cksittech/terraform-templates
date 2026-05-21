@@ -1,8 +1,9 @@
 resource "google_composer_environment" "tf-sample-composer-environment" {
-  labels  = {}
-  name    = ""
-  project = ""
-  region  = ""
+  deletion_policy = ""
+  labels          = {}
+  name            = ""
+  project         = ""
+  region          = ""
   
   config {
     enable_private_builds_only = false

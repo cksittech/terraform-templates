@@ -1,4 +1,5 @@
 resource "google_workbench_instance" "tf-sample-workbench-instance" {
+  deletion_policy             = ""
   desired_state               = ""
   disable_proxy_access        = false
   enable_managed_euc          = false

@@ -2,6 +2,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
   admin_cluster_membership = ""
   annotations              = {}
   bare_metal_version       = ""
+  deletion_policy          = ""
   description              = ""
   location                 = ""
   name                     = ""

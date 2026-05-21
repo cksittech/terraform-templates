@@ -1,5 +1,6 @@
 resource "google_compute_instance_group_manager" "tf-sample-compute-instance-group-manager" {
   base_instance_name             = ""
+  deletion_policy                = ""
   description                    = ""
   list_managed_instances_results = ""
   name                           = ""

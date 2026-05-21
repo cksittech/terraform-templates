@@ -2,6 +2,7 @@ resource "google_spanner_database" "tf-sample-spanner-database" {
   database_dialect         = ""
   ddl                      = []
   default_time_zone        = ""
+  deletion_policy          = ""
   deletion_protection      = false
   enable_drop_protection   = false
   instance                 = ""

@@ -1,4 +1,5 @@
 resource "google_compute_resize_request" "tf-sample-compute-resize-request" {
+  deletion_policy        = ""
   description            = ""
   instance_group_manager = ""
   name                   = ""

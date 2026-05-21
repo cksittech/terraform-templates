@@ -1,6 +1,7 @@
 resource "google_assured_workloads_workload" "tf-sample-assured-workloads-workload" {
   billing_account                  = ""
   compliance_regime                = ""
+  deletion_policy                  = ""
   display_name                     = ""
   enable_sovereign_controls        = false
   labels                           = {}

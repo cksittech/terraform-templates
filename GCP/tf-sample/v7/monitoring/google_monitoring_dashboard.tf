@@ -1,4 +1,5 @@
 resource "google_monitoring_dashboard" "tf-sample-monitoring-dashboard" {
-  dashboard_json = ""
-  project        = ""
+  dashboard_json  = ""
+  deletion_policy = ""
+  project         = ""
 }

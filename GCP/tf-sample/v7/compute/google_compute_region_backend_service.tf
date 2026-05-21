@@ -1,6 +1,7 @@
 resource "google_compute_region_backend_service" "tf-sample-compute-region-backend-service" {
   affinity_cookie_ttl_sec         = 0
   connection_draining_timeout_sec = 0
+  deletion_policy                 = ""
   description                     = ""
   enable_cdn                      = false
   health_checks                   = []

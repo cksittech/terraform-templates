@@ -1,5 +1,6 @@
 resource "google_beyondcorp_security_gateway_application" "tf-sample-beyondcorp-security-gateway-application" {
   application_id      = ""
+  deletion_policy     = ""
   display_name        = ""
   project             = ""
   schema              = ""

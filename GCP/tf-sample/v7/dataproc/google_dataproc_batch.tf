@@ -1,8 +1,9 @@
 resource "google_dataproc_batch" "tf-sample-dataproc-batch" {
-  batch_id = ""
-  labels   = {}
-  location = ""
-  project  = ""
+  batch_id        = ""
+  deletion_policy = ""
+  labels          = {}
+  location        = ""
+  project         = ""
   
   environment_config {
     execution_config {

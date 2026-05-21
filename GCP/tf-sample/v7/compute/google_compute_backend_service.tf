@@ -4,6 +4,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   connection_draining_timeout_sec               = 0
   custom_request_headers                        = []
   custom_response_headers                       = []
+  deletion_policy                               = ""
   description                                   = ""
   edge_security_policy                          = ""
   enable_cdn                                    = false

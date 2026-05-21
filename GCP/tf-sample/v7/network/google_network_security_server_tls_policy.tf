@@ -1,10 +1,11 @@
 resource "google_network_security_server_tls_policy" "tf-sample-network-security-server-tls-policy" {
-  allow_open  = false
-  description = ""
-  labels      = {}
-  location    = ""
-  name        = ""
-  project     = ""
+  allow_open      = false
+  deletion_policy = ""
+  description     = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
   
   mtls_policy {
     client_validation_mode         = ""

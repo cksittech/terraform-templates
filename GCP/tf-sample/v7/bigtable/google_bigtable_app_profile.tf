@@ -1,5 +1,6 @@
 resource "google_bigtable_app_profile" "tf-sample-bigtable-app-profile" {
   app_profile_id                    = ""
+  deletion_policy                   = ""
   description                       = ""
   ignore_warnings                   = false
   instance                          = ""

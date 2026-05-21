@@ -1,5 +1,6 @@
 resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-policy-orchestrator" {
   action                 = ""
+  deletion_policy        = ""
   description            = ""
   labels                 = {}
   policy_orchestrator_id = ""

@@ -1,4 +1,5 @@
 resource "google_apikeys_key" "tf-sample-apikeys-key" {
+  deletion_policy       = ""
   display_name          = ""
   name                  = ""
   project               = ""

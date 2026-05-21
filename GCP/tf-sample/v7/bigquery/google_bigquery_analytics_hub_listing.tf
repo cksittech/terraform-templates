@@ -3,6 +3,7 @@ resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-h
   categories                          = []
   data_exchange_id                    = ""
   delete_commercial                   = false
+  deletion_policy                     = ""
   description                         = ""
   discovery_type                      = ""
   display_name                        = ""

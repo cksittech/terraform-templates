@@ -1,7 +1,8 @@
 resource "google_project_organization_policy" "tf-sample-project-organization-policy" {
-  constraint = ""
-  project    = ""
-  version    = 0
+  constraint      = ""
+  deletion_policy = ""
+  project         = ""
+  version         = 0
   
   boolean_policy {
     enforced = false

@@ -1,10 +1,11 @@
 resource "google_logging_saved_query" "tf-sample-logging-saved-query" {
-  description  = ""
-  display_name = ""
-  location     = ""
-  name         = ""
-  parent       = ""
-  visibility   = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  location        = ""
+  name            = ""
+  parent          = ""
+  visibility      = ""
   
   logging_query {
     filter              = ""

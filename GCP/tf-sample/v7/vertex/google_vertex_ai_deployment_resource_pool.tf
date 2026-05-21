@@ -1,7 +1,8 @@
 resource "google_vertex_ai_deployment_resource_pool" "tf-sample-vertex-ai-deployment-resource-pool" {
-  name    = ""
-  project = ""
-  region  = ""
+  deletion_policy = ""
+  name            = ""
+  project         = ""
+  region          = ""
   
   dedicated_resources {
     max_replica_count = 0

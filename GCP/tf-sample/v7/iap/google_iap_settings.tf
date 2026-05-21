@@ -1,5 +1,6 @@
 resource "google_iap_settings" "tf-sample-iap-settings" {
-  name = ""
+  deletion_policy = ""
+  name            = ""
   
   access_settings {
     identity_sources = []

@@ -1,4 +1,5 @@
 resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
+  deletion_policy            = ""
   kms_key_name               = ""
   labels                     = {}
   message_retention_duration = ""

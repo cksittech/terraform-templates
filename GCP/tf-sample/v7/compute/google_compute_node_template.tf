@@ -1,5 +1,6 @@
 resource "google_compute_node_template" "tf-sample-compute-node-template" {
   cpu_overcommit_type  = ""
+  deletion_policy      = ""
   description          = ""
   name                 = ""
   node_affinity_labels = {}

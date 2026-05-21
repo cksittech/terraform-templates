@@ -1,5 +1,6 @@
 resource "google_apigee_addons_config" "tf-sample-apigee-addons-config" {
-  org = ""
+  deletion_policy = ""
+  org             = ""
   
   addons_config {
     advanced_api_ops_config {

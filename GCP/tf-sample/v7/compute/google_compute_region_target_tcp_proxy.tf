@@ -1,5 +1,6 @@
 resource "google_compute_region_target_tcp_proxy" "tf-sample-compute-region-target-tcp-proxy" {
   backend_service = ""
+  deletion_policy = ""
   description     = ""
   name            = ""
   project         = ""

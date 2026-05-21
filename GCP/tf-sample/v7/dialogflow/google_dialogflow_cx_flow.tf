@@ -1,4 +1,5 @@
 resource "google_dialogflow_cx_flow" "tf-sample-dialogflow-cx-flow" {
+  deletion_policy         = ""
   description             = ""
   display_name            = ""
   is_default_start_flow   = false

@@ -1,6 +1,7 @@
 resource "google_org_policy_policy" "tf-sample-org-policy-policy" {
-  name   = ""
-  parent = ""
+  deletion_policy = ""
+  name            = ""
+  parent          = ""
   
   dry_run_spec {
     inherit_from_parent = false

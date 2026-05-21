@@ -1,4 +1,5 @@
 resource "google_dataproc_gdc_service_instance" "tf-sample-dataproc-gdc-service-instance" {
+  deletion_policy     = ""
   display_name        = ""
   labels              = {}
   location            = ""

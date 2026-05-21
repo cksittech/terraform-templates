@@ -1,6 +1,7 @@
 resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-provider" {
   attribute_condition    = ""
   attribute_mapping      = {}
+  deletion_policy        = ""
   description            = ""
   detailed_audit_logging = false
   disabled               = false

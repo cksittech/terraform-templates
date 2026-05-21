@@ -1,4 +1,5 @@
 resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
+  deletion_policy = ""
   description     = ""
   generator_id    = ""
   location        = ""

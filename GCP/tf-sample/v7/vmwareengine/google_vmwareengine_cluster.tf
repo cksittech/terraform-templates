@@ -1,6 +1,7 @@
 resource "google_vmwareengine_cluster" "tf-sample-vmwareengine-cluster" {
-  name   = ""
-  parent = ""
+  deletion_policy = ""
+  name            = ""
+  parent          = ""
   
   autoscaling_settings {
     cool_down_period       = ""

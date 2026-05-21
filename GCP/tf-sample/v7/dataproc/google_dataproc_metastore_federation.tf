@@ -1,4 +1,5 @@
 resource "google_dataproc_metastore_federation" "tf-sample-dataproc-metastore-federation" {
+  deletion_policy     = ""
   deletion_protection = false
   federation_id       = ""
   labels              = {}

@@ -1,5 +1,6 @@
 resource "google_compute_reservation" "tf-sample-compute-reservation" {
   delete_at_time                = ""
+  deletion_policy               = ""
   description                   = ""
   name                          = ""
   project                       = ""

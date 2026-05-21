@@ -1,11 +1,12 @@
 resource "google_ces_toolset" "tf-sample-ces-toolset" {
-  app            = ""
-  description    = ""
-  display_name   = ""
-  execution_type = ""
-  location       = ""
-  project        = ""
-  toolset_id     = ""
+  app             = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  execution_type  = ""
+  location        = ""
+  project         = ""
+  toolset_id      = ""
   
   mcp_toolset {
     custom_headers = {}

@@ -1,5 +1,6 @@
 resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repository" {
   cleanup_policy_dry_run = false
+  deletion_policy        = ""
   description            = ""
   format                 = ""
   kms_key_name           = ""

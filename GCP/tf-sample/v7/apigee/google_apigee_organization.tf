@@ -5,6 +5,7 @@ resource "google_apigee_organization" "tf-sample-apigee-organization" {
   authorized_network                    = ""
   billing_type                          = ""
   control_plane_encryption_key_name     = ""
+  deletion_policy                       = ""
   description                           = ""
   disable_vpc_peering                   = false
   display_name                          = ""

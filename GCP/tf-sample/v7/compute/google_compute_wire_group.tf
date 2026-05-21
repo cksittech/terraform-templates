@@ -1,6 +1,7 @@
 resource "google_compute_wire_group" "tf-sample-compute-wire-group" {
   admin_enabled      = false
   cross_site_network = ""
+  deletion_policy    = ""
   description        = ""
   name               = ""
   project            = ""

@@ -1,5 +1,6 @@
 resource "google_edgecontainer_vpn_connection" "tf-sample-edgecontainer-vpn-connection" {
   cluster                  = ""
+  deletion_policy          = ""
   enable_high_availability = false
   labels                   = {}
   location                 = ""

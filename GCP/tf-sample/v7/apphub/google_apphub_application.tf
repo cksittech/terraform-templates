@@ -1,9 +1,10 @@
 resource "google_apphub_application" "tf-sample-apphub-application" {
-  application_id = ""
-  description    = ""
-  display_name   = ""
-  location       = ""
-  project        = ""
+  application_id  = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  location        = ""
+  project         = ""
   
   attributes {
     business_owners {

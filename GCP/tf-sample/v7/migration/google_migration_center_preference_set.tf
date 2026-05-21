@@ -1,4 +1,5 @@
 resource "google_migration_center_preference_set" "tf-sample-migration-center-preference-set" {
+  deletion_policy   = ""
   description       = ""
   display_name      = ""
   location          = ""

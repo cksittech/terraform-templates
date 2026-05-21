@@ -1,8 +1,9 @@
 resource "google_dataproc_session_template" "tf-sample-dataproc-session-template" {
-  labels   = {}
-  location = ""
-  name     = ""
-  project  = ""
+  deletion_policy = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
   
   environment_config {
     execution_config {

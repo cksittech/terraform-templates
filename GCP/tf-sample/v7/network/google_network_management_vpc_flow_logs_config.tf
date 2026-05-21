@@ -1,5 +1,6 @@
 resource "google_network_management_vpc_flow_logs_config" "tf-sample-network-management-vpc-flow-logs-config" {
   aggregation_interval    = ""
+  deletion_policy         = ""
   description             = ""
   filter_expr             = ""
   flow_sampling           = 0

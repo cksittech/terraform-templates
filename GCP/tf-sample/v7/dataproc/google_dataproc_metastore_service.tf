@@ -1,5 +1,6 @@
 resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-service" {
   database_type       = ""
+  deletion_policy     = ""
   deletion_protection = false
   labels              = {}
   location            = ""

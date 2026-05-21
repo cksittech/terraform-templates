@@ -1,4 +1,5 @@
 resource "google_dialogflow_cx_intent" "tf-sample-dialogflow-cx-intent" {
+  deletion_policy            = ""
   description                = ""
   display_name               = ""
   is_default_negative_intent = false

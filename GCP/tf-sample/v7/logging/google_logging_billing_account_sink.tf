@@ -1,5 +1,6 @@
 resource "google_logging_billing_account_sink" "tf-sample-logging-billing-account-sink" {
   billing_account = ""
+  deletion_policy = ""
   description     = ""
   destination     = ""
   disabled        = false

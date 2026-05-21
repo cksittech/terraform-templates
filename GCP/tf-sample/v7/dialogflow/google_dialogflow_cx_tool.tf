@@ -1,7 +1,8 @@
 resource "google_dialogflow_cx_tool" "tf-sample-dialogflow-cx-tool" {
-  description  = ""
-  display_name = ""
-  parent       = ""
+  deletion_policy = ""
+  description     = ""
+  display_name    = ""
+  parent          = ""
   
   data_store_spec {
     data_store_connections {

@@ -2,6 +2,7 @@ resource "google_container_azure_node_pool" "tf-sample-container-azure-node-pool
   annotations             = {}
   azure_availability_zone = ""
   cluster                 = ""
+  deletion_policy         = ""
   location                = ""
   name                    = ""
   project                 = ""

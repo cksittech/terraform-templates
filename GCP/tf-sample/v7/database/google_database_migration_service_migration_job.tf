@@ -1,4 +1,5 @@
 resource "google_database_migration_service_migration_job" "tf-sample-database-migration-service-migration-job" {
+  deletion_policy  = ""
   destination      = ""
   display_name     = ""
   dump_path        = ""
@@ -32,6 +33,10 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
   }
   performance_config {
     dump_parallel_level = ""
+  }
+  postgres_homogeneous_config {
+    is_native_logical            = false
+    max_additional_subscriptions = 0
   }
   reverse_ssh_connectivity {
     vm      = ""

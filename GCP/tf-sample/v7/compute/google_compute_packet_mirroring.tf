@@ -1,10 +1,11 @@
 resource "google_compute_packet_mirroring" "tf-sample-compute-packet-mirroring" {
-  description = ""
-  enable      = ""
-  name        = ""
-  priority    = 0
-  project     = ""
-  region      = ""
+  deletion_policy = ""
+  description     = ""
+  enable          = ""
+  name            = ""
+  priority        = 0
+  project         = ""
+  region          = ""
   
   collector_ilb {
     url = ""

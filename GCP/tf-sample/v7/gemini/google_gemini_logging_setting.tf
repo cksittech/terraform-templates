@@ -1,4 +1,5 @@
 resource "google_gemini_logging_setting" "tf-sample-gemini-logging-setting" {
+  deletion_policy           = ""
   labels                    = {}
   location                  = ""
   log_metadata              = false
