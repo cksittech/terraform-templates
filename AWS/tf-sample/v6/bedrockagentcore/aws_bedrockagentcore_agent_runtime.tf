@@ -45,6 +45,19 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
       }
     }
   }
+  filesystem_configuration {
+    efs_access_point {
+      access_point_arn = ""
+      mount_path       = ""
+    }
+    s3_files_access_point {
+      access_point_arn = ""
+      mount_path       = ""
+    }
+    session_storage {
+      mount_path = ""
+    }
+  }
   network_configuration {
     network_mode = ""
     

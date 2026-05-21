@@ -13,6 +13,9 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   wait_for_deployment             = false
   web_acl_id                      = ""
   
+  cache_tag_config {
+    header_name = ""
+  }
   connection_function_association {
     id = ""
   }
