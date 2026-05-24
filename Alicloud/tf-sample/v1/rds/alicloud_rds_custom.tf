@@ -13,6 +13,7 @@ resource "alicloud_rds_custom" "tf-sample-rds-custom" {
   host_name                     = ""
   image_id                      = ""
   instance_charge_type          = ""
+  instance_name                 = ""
   instance_type                 = ""
   internet_charge_type          = ""
   internet_max_bandwidth_out    = 0
@@ -21,6 +22,7 @@ resource "alicloud_rds_custom" "tf-sample-rds-custom" {
   password                      = ""
   period                        = 0
   period_unit                   = ""
+  private_ip_address            = ""
   resource_group_id             = ""
   security_enhancement_strategy = ""
   security_group_ids            = []

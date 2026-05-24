@@ -13,6 +13,10 @@ resource "alicloud_cen_transit_router_vpc_attachment" "tf-sample-cen-transit-rou
   vpc_id                                = ""
   vpc_owner_id                          = ""
   
+  options {
+    appliance_mode_support = ""
+    ipv6_support           = ""
+  }
   zone_mappings {
     vswitch_id = ""
     zone_id    = ""

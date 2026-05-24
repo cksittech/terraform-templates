@@ -2,7 +2,7 @@ resource "alicloud_esa_load_balancer" "tf-sample-esa-load-balancer" {
   default_pools      = []
   description        = ""
   enabled            = false
-  fallback_pool      = 0
+  fallback_pool      = ""
   load_balancer_name = ""
   region_pools       = ""
   session_affinity   = ""
