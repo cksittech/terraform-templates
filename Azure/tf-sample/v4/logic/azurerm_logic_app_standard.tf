@@ -7,6 +7,7 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
   enabled                                  = false
   ftp_publish_basic_authentication_enabled = false
   https_only                               = false
+  key_vault_reference_identity_id          = ""
   location                                 = ""
   name                                     = ""
   public_network_access                    = ""

@@ -211,6 +211,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     load_balancing_mode                           = ""
     local_mysql_enabled                           = false
     managed_pipeline_mode                         = ""
+    minimum_tls_cipher_suite                      = ""
     minimum_tls_version                           = ""
     remote_debugging_enabled                      = false
     remote_debugging_version                      = ""

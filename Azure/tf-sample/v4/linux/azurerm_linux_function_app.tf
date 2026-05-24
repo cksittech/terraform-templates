@@ -197,6 +197,7 @@ resource "azurerm_linux_function_app" "tf-sample-linux-function-app" {
     ip_restriction_default_action                 = ""
     load_balancing_mode                           = ""
     managed_pipeline_mode                         = ""
+    minimum_tls_cipher_suite                      = ""
     minimum_tls_version                           = ""
     pre_warmed_instance_count                     = 0
     remote_debugging_enabled                      = false
