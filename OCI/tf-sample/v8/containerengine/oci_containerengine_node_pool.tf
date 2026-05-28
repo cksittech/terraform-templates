@@ -64,6 +64,9 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
     image_id                = ""
     source_type             = ""
   }
+  primary_vnic {
+    security_attributes = {}
+  }
   secondary_vnics {
     display_name = ""
     nic_index    = 0
@@ -77,6 +80,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
       freeform_tags          = {}
       ip_count               = 0
       nsg_ids                = []
+      security_attributes    = {}
       skip_source_dest_check = false
       subnet_id              = ""
       

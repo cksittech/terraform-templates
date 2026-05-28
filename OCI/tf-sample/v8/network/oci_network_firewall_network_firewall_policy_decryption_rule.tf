@@ -6,6 +6,7 @@ resource "oci_network_firewall_network_firewall_policy_decryption_rule" "tf-samp
   network_firewall_policy_id = ""
   priority_order             = ""
   secret                     = ""
+  secrets                    = []
   
   condition {
     destination_address = []

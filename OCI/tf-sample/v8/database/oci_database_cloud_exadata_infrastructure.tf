@@ -15,6 +15,9 @@ resource "oci_database_cloud_exadata_infrastructure" "tf-sample-database-cloud-e
   customer_contacts {
     email = ""
   }
+  maintenance_version_preferences {
+    reference_resource_id_for_image_updates = ""
+  }
   maintenance_window {
     custom_action_timeout_in_mins    = 0
     hours_of_day                     = []

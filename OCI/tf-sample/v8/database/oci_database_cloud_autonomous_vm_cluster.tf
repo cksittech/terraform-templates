@@ -9,6 +9,7 @@ resource "oci_database_cloud_autonomous_vm_cluster" "tf-sample-database-cloud-au
   defined_tags                          = {}
   description                           = ""
   display_name                          = ""
+  distribution_algorithm                = ""
   freeform_tags                         = {}
   is_mtls_enabled_vm_cluster            = false
   license_model                         = ""
@@ -19,6 +20,7 @@ resource "oci_database_cloud_autonomous_vm_cluster" "tf-sample-database-cloud-au
   scan_listener_port_non_tls            = 0
   scan_listener_port_tls                = 0
   security_attributes                   = {}
+  sga_percentage                        = 0
   subnet_id                             = ""
   subscription_id                       = ""
   tde_key_store_type                    = ""

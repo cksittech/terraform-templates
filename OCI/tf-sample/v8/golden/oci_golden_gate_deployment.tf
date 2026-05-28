@@ -8,6 +8,7 @@ resource "oci_golden_gate_deployment" "tf-sample-golden-gate-deployment" {
   deployment_backup_id                 = ""
   deployment_type                      = ""
   description                          = ""
+  disaster_recovery_status             = ""
   display_name                         = ""
   environment_type                     = ""
   fault_domain                         = ""
@@ -56,6 +57,7 @@ resource "oci_golden_gate_deployment" "tf-sample-golden-gate-deployment" {
     deployment_name    = ""
     identity_domain_id = ""
     key                = ""
+    key_secret_id      = ""
     ogg_version        = ""
     password_secret_id = ""
     

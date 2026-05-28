@@ -6,6 +6,7 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   db_servers                            = []
   defined_tags                          = {}
   display_name                          = ""
+  distribution_algorithm                = ""
   exadata_infrastructure_id             = ""
   freeform_tags                         = {}
   is_local_backup_enabled               = false
@@ -14,6 +15,7 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   memory_per_oracle_compute_unit_in_gbs = 0
   scan_listener_port_non_tls            = 0
   scan_listener_port_tls                = 0
+  sga_percentage                        = 0
   time_zone                             = ""
   total_container_databases             = 0
   vm_cluster_network_id                 = ""

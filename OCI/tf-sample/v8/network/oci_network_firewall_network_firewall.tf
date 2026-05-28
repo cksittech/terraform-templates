@@ -8,6 +8,7 @@ resource "oci_network_firewall_network_firewall" "tf-sample-network-firewall-net
   ipv6address                = ""
   network_firewall_policy_id = ""
   network_security_group_ids = []
+  security_attributes        = {}
   shape                      = ""
   subnet_id                  = ""
   

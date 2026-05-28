@@ -8,9 +8,7 @@ resource "oci_datascience_ml_application_instance" "tf-sample-datascience-ml-app
   ml_application_implementation_id = ""
   
   auth_configuration {
-    application_name = ""
-    domain_id        = ""
-    type             = ""
+    type = ""
   }
   configuration {
     key   = ""

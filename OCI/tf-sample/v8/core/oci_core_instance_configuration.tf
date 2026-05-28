@@ -147,6 +147,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
       }
       shape_config {
         baseline_ocpu_utilization = ""
+        local_volume_size_in_gbs  = 0
         memory_in_gbs             = 0
         nvmes                     = 0
         ocpus                     = 0
@@ -307,6 +308,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         }
         shape_config {
           baseline_ocpu_utilization = ""
+          local_volume_size_in_gbs  = 0
           memory_in_gbs             = 0
           nvmes                     = 0
           ocpus                     = 0

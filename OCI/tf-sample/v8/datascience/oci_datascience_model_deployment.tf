@@ -31,10 +31,17 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       image                          = ""
       image_digest                   = ""
       image_signature_id             = ""
+      predict_api_specification      = ""
       server_port                    = 0
+      
+      custom_http_endpoints {
+        endpoint_uri_suffix = ""
+        http_methods        = []
+      }
     }
     infrastructure_configuration_details {
       bandwidth_mbps         = 0
+      compute_target_id      = ""
       infrastructure_type    = ""
       maximum_bandwidth_mbps = 0
       
@@ -46,6 +53,17 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
         
         model_deployment_instance_shape_config_details {
           cpu_baseline  = ""
+          memory_in_gbs = 0
+          ocpus         = 0
+        }
+      }
+      model_deployment_resource_configuration {
+        resource_limit_configuration {
+          memory_in_gbs = 0
+          ocpus         = 0
+        }
+        resource_request_configuration {
+          gpus          = 0
           memory_in_gbs = 0
           ocpus         = 0
         }
@@ -66,6 +84,12 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
             metric_expression_rule_type = ""
             metric_type                 = ""
             
+            scale_configuration {
+              metric_namespace                  = ""
+              query                             = ""
+              target_scaling_configuration_type = ""
+              threshold                         = 0
+            }
             scale_in_configuration {
               instance_count_adjustment  = 0
               pending_duration           = ""
@@ -80,6 +104,16 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
               scaling_configuration_type = ""
               threshold                  = 0
             }
+          }
+          scale_in_policy {
+            cool_down_in_seconds      = 0
+            instance_count_adjustment = 0
+            pending_duration          = ""
+          }
+          scale_out_policy {
+            cool_down_in_seconds      = 0
+            instance_count_adjustment = 0
+            pending_duration          = ""
           }
         }
       }

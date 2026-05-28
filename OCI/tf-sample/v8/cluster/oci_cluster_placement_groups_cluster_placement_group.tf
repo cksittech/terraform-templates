@@ -13,6 +13,14 @@ resource "oci_cluster_placement_groups_cluster_placement_group" "tf-sample-clust
     items {
       name    = ""
       service = ""
+      
+      additional_details {
+        cluster_placement_group_count = 0
+        memory_in_gbs                 = 0
+        nvmes                         = 0
+        ocpus                         = 0
+        service_type                  = ""
+      }
     }
   }
   placement_instruction {

@@ -34,6 +34,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
   }
   job_infrastructure_configuration_details {
     block_storage_size_in_gbs = 0
+    compute_target_id         = ""
     job_infrastructure_type   = ""
     shape_name                = ""
     subnet_id                 = ""
@@ -42,6 +43,17 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
       cpu_baseline  = ""
       memory_in_gbs = 0
       ocpus         = 0
+    }
+    resource_configuration {
+      resource_limit_configuration {
+        memory_in_gbs = 0
+        ocpus         = 0
+      }
+      resource_request_configuration {
+        gpus          = 0
+        memory_in_gbs = 0
+        ocpus         = 0
+      }
     }
   }
   job_log_configuration_details {
@@ -88,6 +100,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
       }
       job_infrastructure_configuration_details {
         block_storage_size_in_gbs = 0
+        compute_target_id         = ""
         job_infrastructure_type   = ""
         shape_name                = ""
         subnet_id                 = ""
@@ -96,6 +109,17 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
           cpu_baseline  = ""
           memory_in_gbs = 0
           ocpus         = 0
+        }
+        resource_configuration {
+          resource_limit_configuration {
+            memory_in_gbs = 0
+            ocpus         = 0
+          }
+          resource_request_configuration {
+            gpus          = 0
+            memory_in_gbs = 0
+            ocpus         = 0
+          }
         }
       }
     }

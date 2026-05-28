@@ -1,12 +1,14 @@
 resource "oci_golden_gate_pipeline" "tf-sample-golden-gate-pipeline" {
-  compartment_id = ""
-  defined_tags   = {}
-  description    = ""
-  display_name   = ""
-  freeform_tags  = {}
-  license_model  = ""
-  recipe_type    = ""
-  subnet_id      = ""
+  compartment_id          = ""
+  cpu_core_count          = 0
+  defined_tags            = {}
+  description             = ""
+  display_name            = ""
+  freeform_tags           = {}
+  is_auto_scaling_enabled = false
+  license_model           = ""
+  recipe_type             = ""
+  subnet_id               = ""
   
   locks {
     message             = ""
@@ -20,7 +22,13 @@ resource "oci_golden_gate_pipeline" "tf-sample-golden-gate-pipeline" {
     
     initial_data_load {
       action_on_existing_table = ""
+      adb_wallet_path          = ""
+      bucket                   = ""
+      initial_load_type        = ""
       is_initial_load          = ""
+      namespace                = ""
+      source_wallet_path       = ""
+      target_wallet_path       = ""
     }
     replicate_schema_change {
       action_on_ddl_error         = ""

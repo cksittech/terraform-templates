@@ -14,6 +14,7 @@ resource "oci_containerengine_cluster" "tf-sample-containerengine-cluster" {
   endpoint_config {
     is_public_ip_enabled = false
     nsg_ids              = []
+    security_attributes  = {}
     subnet_id            = ""
   }
   image_policy_config {
