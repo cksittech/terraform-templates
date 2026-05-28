@@ -64,6 +64,8 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
     }
   }
   llm_prompt_security {
+    fail_open = false
+    
     custom_policy {
       allow_short_utterance     = false
       fail_open                 = false

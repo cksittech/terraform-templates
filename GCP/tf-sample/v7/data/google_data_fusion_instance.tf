@@ -28,6 +28,18 @@ resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
     enabled = false
     topic   = ""
   }
+  maintenance_policy {
+    maintenance_window {
+      recurring_time_window {
+        recurrence = ""
+        
+        window {
+          end_time   = ""
+          start_time = ""
+        }
+      }
+    }
+  }
   network_config {
     connection_type = ""
     ip_allocation   = ""

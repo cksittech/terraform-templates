@@ -299,6 +299,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     disk_type                   = ""
     enable_confidential_storage = false
     flex_start                  = false
+    gpudirect_strategy          = ""
     image_type                  = ""
     labels                      = {}
     local_ssd_count             = 0
@@ -577,6 +578,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       disk_type                   = ""
       enable_confidential_storage = false
       flex_start                  = false
+      gpudirect_strategy          = ""
       image_type                  = ""
       labels                      = {}
       local_ssd_count             = 0

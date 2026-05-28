@@ -58,25 +58,27 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     project       = ""
   }
   settings {
-    activation_policy            = ""
-    auto_upgrade_enabled         = false
-    availability_type            = ""
-    collation                    = ""
-    connector_enforcement        = ""
-    data_api_access              = ""
-    deletion_protection_enabled  = false
-    disk_autoresize              = false
-    disk_autoresize_limit        = 0
-    disk_size                    = 0
-    disk_type                    = ""
-    edition                      = ""
-    enable_dataplex_integration  = false
-    enable_google_ml_integration = false
-    pricing_plan                 = ""
-    retain_backups_on_delete     = false
-    tier                         = ""
-    time_zone                    = ""
-    user_labels                  = {}
+    activation_policy                = ""
+    auto_upgrade_enabled             = false
+    availability_type                = ""
+    collation                        = ""
+    connector_enforcement            = ""
+    data_api_access                  = ""
+    data_disk_provisioned_iops       = 0
+    data_disk_provisioned_throughput = 0
+    deletion_protection_enabled      = false
+    disk_autoresize                  = false
+    disk_autoresize_limit            = 0
+    disk_size                        = 0
+    disk_type                        = ""
+    edition                          = ""
+    enable_dataplex_integration      = false
+    enable_google_ml_integration     = false
+    pricing_plan                     = ""
+    retain_backups_on_delete         = false
+    tier                             = ""
+    time_zone                        = ""
+    user_labels                      = {}
     
     active_directory_config {
       domain = ""

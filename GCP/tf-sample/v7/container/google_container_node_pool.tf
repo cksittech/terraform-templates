@@ -52,6 +52,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     disk_type                   = ""
     enable_confidential_storage = false
     flex_start                  = false
+    gpudirect_strategy          = ""
     image_type                  = ""
     labels                      = {}
     local_ssd_count             = 0

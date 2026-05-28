@@ -2,6 +2,7 @@ resource "google_bigtable_instance" "tf-sample-bigtable-instance" {
   deletion_policy     = ""
   deletion_protection = false
   display_name        = ""
+  edition             = ""
   force_destroy       = false
   labels              = {}
   name                = ""
