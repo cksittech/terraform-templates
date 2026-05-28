@@ -14,6 +14,14 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
     map_block_key       = ""
     resource_identifier = ""
   }
+  report_configuration {
+    report_output {
+      s3_configuration {
+        bucket_owner = ""
+        bucket_path  = ""
+      }
+    }
+  }
   triggers {
     action                               = ""
     description                          = ""
@@ -263,6 +271,18 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
               ungraceful = ""
             }
           }
+          rds_create_cross_region_read_replica_config {
+            cross_account_role  = ""
+            db_instance_arn_map = {}
+            external_id         = ""
+            timeout_minutes     = 0
+          }
+          rds_promote_read_replica_config {
+            cross_account_role  = ""
+            db_instance_arn_map = {}
+            external_id         = ""
+            timeout_minutes     = 0
+          }
           region_switch_plan_config {
             cross_account_role = ""
             external_id        = ""
@@ -280,6 +300,18 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
             }
           }
         }
+      }
+      rds_create_cross_region_read_replica_config {
+        cross_account_role  = ""
+        db_instance_arn_map = {}
+        external_id         = ""
+        timeout_minutes     = 0
+      }
+      rds_promote_read_replica_config {
+        cross_account_role  = ""
+        db_instance_arn_map = {}
+        external_id         = ""
+        timeout_minutes     = 0
       }
       region_switch_plan_config {
         cross_account_role = ""

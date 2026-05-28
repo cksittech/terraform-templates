@@ -6,6 +6,8 @@ resource "aws_acm_certificate" "tf-sample-acm-certificate" {
   early_renewal_duration    = ""
   key_algorithm             = ""
   private_key               = ""
+  private_key_wo            = ""
+  private_key_wo_version    = 0
   region                    = ""
   subject_alternative_names = []
   validation_method         = ""

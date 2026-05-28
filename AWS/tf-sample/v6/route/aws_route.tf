@@ -9,6 +9,7 @@ resource "aws_route" "tf-sample-route" {
   local_gateway_id            = ""
   nat_gateway_id              = ""
   network_interface_id        = ""
+  odb_network_arn             = ""
   region                      = ""
   route_table_id              = ""
   transit_gateway_id          = ""

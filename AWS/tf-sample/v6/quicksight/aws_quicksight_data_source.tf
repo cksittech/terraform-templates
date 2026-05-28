@@ -19,6 +19,7 @@ resource "aws_quicksight_data_source" "tf-sample-quicksight-data-source" {
       domain = ""
     }
     athena {
+      role_arn   = ""
       work_group = ""
     }
     aurora {

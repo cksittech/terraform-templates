@@ -8,5 +8,9 @@ resource "aws_ssm_resource_data_sync" "tf-sample-ssm-resource-data-sync" {
     prefix      = ""
     region      = ""
     sync_format = ""
+    
+    destination_data_sharing {
+      destination_data_sharing_type = ""
+    }
   }
 }

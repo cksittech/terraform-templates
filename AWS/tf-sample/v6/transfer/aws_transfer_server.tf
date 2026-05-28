@@ -8,6 +8,7 @@ resource "aws_transfer_server" "tf-sample-transfer-server" {
   host_key                         = ""
   identity_provider_type           = ""
   invocation_role                  = ""
+  ip_address_type                  = ""
   logging_role                     = ""
   post_authentication_login_banner = ""
   pre_authentication_login_banner  = ""

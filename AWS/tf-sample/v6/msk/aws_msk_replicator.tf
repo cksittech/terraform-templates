@@ -13,6 +13,23 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
       subnet_ids          = []
     }
   }
+  log_delivery {
+    replicator_log_delivery {
+      cloudwatch_logs {
+        enabled   = false
+        log_group = ""
+      }
+      firehose {
+        delivery_stream = ""
+        enabled         = false
+      }
+      s3 {
+        bucket  = ""
+        enabled = false
+        prefix  = ""
+      }
+    }
+  }
   replication_info_list {
     source_kafka_cluster_arn = ""
     target_compression_type  = ""
