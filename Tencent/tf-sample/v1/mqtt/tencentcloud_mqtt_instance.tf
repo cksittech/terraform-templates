@@ -9,6 +9,7 @@ resource "tencentcloud_mqtt_instance" "tf-sample-mqtt-instance" {
   renew_flag           = 0
   sku_code             = ""
   time_span            = 0
+  x509_mode            = ""
   
   vpc_list {
     subnet_id = ""

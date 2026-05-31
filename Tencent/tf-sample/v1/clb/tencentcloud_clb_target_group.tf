@@ -6,6 +6,7 @@ resource "tencentcloud_clb_target_group" "tf-sample-clb-target-group" {
   protocol            = ""
   schedule_algorithm  = ""
   session_expire_time = 0
+  snat_enable         = false
   target_group_name   = ""
   type                = ""
   vpc_id              = ""

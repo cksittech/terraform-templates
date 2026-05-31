@@ -2,6 +2,7 @@ resource "tencentcloud_thpc_workspaces" "tf-sample-thpc-workspaces" {
   cam_role_name             = ""
   client_token              = ""
   disaster_recover_group_id = ""
+  force_stop                = false
   host_name                 = ""
   hpc_cluster_id            = ""
   image_id                  = ""
