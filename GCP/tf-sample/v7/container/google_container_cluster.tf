@@ -421,6 +421,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       pod_pids_limit                         = 0
       single_process_oom_kill                = false
       
+      crash_loop_back_off {
+        max_container_restart_period = ""
+      }
       eviction_minimum_reclaim {
         imagefs_available   = ""
         imagefs_inodes_free = ""
@@ -700,6 +703,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         pod_pids_limit                         = 0
         single_process_oom_kill                = false
         
+        crash_loop_back_off {
+          max_container_restart_period = ""
+        }
         eviction_minimum_reclaim {
           imagefs_available   = ""
           imagefs_inodes_free = ""

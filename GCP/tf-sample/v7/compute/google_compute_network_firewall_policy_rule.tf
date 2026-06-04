@@ -10,7 +10,9 @@ resource "google_compute_network_firewall_policy_rule" "tf-sample-compute-networ
   project                 = ""
   rule_name               = ""
   security_profile_group  = ""
+  target_forwarding_rules = []
   target_service_accounts = []
+  target_type             = ""
   tls_inspect             = false
   
   match {

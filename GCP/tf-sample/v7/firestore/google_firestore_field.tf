@@ -13,5 +13,6 @@ resource "google_firestore_field" "tf-sample-firestore-field" {
     }
   }
   ttl_config {
+    expiration_offset = ""
   }
 }

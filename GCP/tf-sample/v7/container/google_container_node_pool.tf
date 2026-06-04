@@ -174,6 +174,9 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       pod_pids_limit                         = 0
       single_process_oom_kill                = false
       
+      crash_loop_back_off {
+        max_container_restart_period = ""
+      }
       eviction_minimum_reclaim {
         imagefs_available   = ""
         imagefs_inodes_free = ""

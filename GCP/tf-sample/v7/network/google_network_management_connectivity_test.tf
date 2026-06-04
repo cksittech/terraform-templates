@@ -14,9 +14,11 @@ resource "google_network_management_connectivity_test" "tf-sample-network-manage
     forwarding_rule    = ""
     fqdn               = ""
     gke_master_cluster = ""
+    gke_pod            = ""
     instance           = ""
     ip_address         = ""
     network            = ""
+    network_type       = ""
     port               = 0
     project_id         = ""
     redis_cluster      = ""
