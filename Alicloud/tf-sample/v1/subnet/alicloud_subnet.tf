@@ -5,6 +5,7 @@ resource "alicloud_subnet" "tf-sample-subnet" {
   ipv6_cidr_block_mask = 0
   is_default           = false
   vpc_id               = ""
+  vpc_ipv6_cidr_block  = ""
   vswitch_name         = ""
   zone_id              = ""
   

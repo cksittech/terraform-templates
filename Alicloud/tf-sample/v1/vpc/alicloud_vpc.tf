@@ -8,8 +8,6 @@ resource "alicloud_vpc" "tf-sample-vpc" {
   force_delete                                = false
   ipv4_cidr_mask                              = 0
   ipv4_ipam_pool_id                           = ""
-  ipv6_cidr_block                             = ""
-  ipv6_isp                                    = ""
   is_default                                  = false
   resource_group_id                           = ""
   system_route_table_description              = ""
