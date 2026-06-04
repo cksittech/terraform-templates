@@ -4,6 +4,7 @@ resource "azurerm_data_factory_linked_service_mysql" "tf-sample-data-factory-lin
   connection_string        = ""
   data_factory_id          = ""
   description              = ""
+  driver_version           = ""
   integration_runtime_name = ""
   name                     = ""
   parameters               = {}

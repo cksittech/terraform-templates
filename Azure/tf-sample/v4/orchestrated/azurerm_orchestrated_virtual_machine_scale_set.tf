@@ -184,7 +184,11 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
   }
   sku_profile {
     allocation_strategy = ""
-    vm_sizes            = []
+    
+    virtual_machine_size {
+      name = ""
+      rank = 0
+    }
   }
   source_image_reference {
     offer     = ""

@@ -33,6 +33,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   }
   backend_http_settings {
     affinity_cookie_name                 = ""
+    certificate_chain_validation_enabled = false
     cookie_based_affinity                = ""
     dedicated_backend_connection_enabled = false
     host_name                            = ""
@@ -43,6 +44,8 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     probe_name                           = ""
     protocol                             = ""
     request_timeout                      = 0
+    sni_name                             = ""
+    sni_validation_enabled               = false
     trusted_root_certificate_names       = []
     
     authentication_certificate {
