@@ -5,4 +5,6 @@ resource "aws_vpc_ipam_pool_cidr_allocation" "tf-sample-vpc-ipam-pool-cidr-alloc
   ipam_pool_id     = ""
   netmask_length   = 0
   region           = ""
+  
+  tags = {}
 }

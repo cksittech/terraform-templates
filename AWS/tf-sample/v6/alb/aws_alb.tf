@@ -7,6 +7,7 @@ resource "aws_alb" "tf-sample-alb" {
   enable_cross_zone_load_balancing                             = false
   enable_deletion_protection                                   = false
   enable_http2                                                 = false
+  enable_prefix_for_ipv6_source_nat                            = ""
   enable_tls_version_and_cipher_suite_headers                  = false
   enable_waf_fail_open                                         = false
   enable_xff_client_port                                       = false

@@ -11,7 +11,15 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
       credential_prefix         = ""
       provider_arn              = ""
     }
+    caller_iam_credentials {
+      region  = ""
+      service = ""
+    }
     gateway_iam_role {
+      region  = ""
+      service = ""
+    }
+    jwt_passthrough {
     }
     oauth {
       custom_parameters  = {}
@@ -27,6 +35,11 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
     allowed_response_headers = []
   }
   target_configuration {
+    http {
+      agentcore_runtime {
+        qualifier = ""
+      }
+    }
     mcp {
       api_gateway {
         rest_api_id = ""
