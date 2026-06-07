@@ -5,4 +5,6 @@ resource "aws_cloudfront_function" "tf-sample-cloudfront-function" {
   name                         = ""
   publish                      = false
   runtime                      = ""
+  
+  tags = {}
 }

@@ -13,6 +13,7 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     
     jwt_options {
       enabled     = false
+      jwks_url    = ""
       public_key  = ""
       roles_key   = ""
       subject_key = ""

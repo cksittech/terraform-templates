@@ -46,6 +46,13 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
       instructions       = ""
       search_type        = ""
       supported_versions = []
+      
+      session_configuration {
+        session_timeout_in_seconds = 0
+      }
+      streaming_configuration {
+        enable_response_streaming = false
+      }
     }
   }
   
