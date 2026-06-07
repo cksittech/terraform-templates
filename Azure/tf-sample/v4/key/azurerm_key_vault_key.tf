@@ -8,6 +8,10 @@ resource "azurerm_key_vault_key" "tf-sample-key-vault-key" {
   name            = ""
   not_before_date = ""
   
+  release_policy {
+    immutable = false
+    json      = ""
+  }
   rotation_policy {
     expire_after         = ""
     notify_before_expiry = ""
