@@ -7,5 +7,6 @@ resource "oci_database_management_db_management_private_endpoint" "tf-sample-dat
   is_dns_resolution_enabled = false
   name                      = ""
   nsg_ids                   = []
+  security_attributes       = {}
   subnet_id                 = ""
 }

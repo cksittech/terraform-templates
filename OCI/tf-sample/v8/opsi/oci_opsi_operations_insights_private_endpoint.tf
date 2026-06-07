@@ -7,6 +7,7 @@ resource "oci_opsi_operations_insights_private_endpoint" "tf-sample-opsi-operati
   is_used_for_rac_dbs             = false
   nsg_ids                         = []
   private_endpoint_status_details = ""
+  security_attributes             = {}
   subnet_id                       = ""
   vcn_id                          = ""
 }

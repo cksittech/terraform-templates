@@ -22,6 +22,7 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
   security_attributes                = {}
   shape                              = ""
   state                              = ""
+  system_tags                        = {}
   
   alternate_custom_endpoints {
     certificate_secret_id = ""
