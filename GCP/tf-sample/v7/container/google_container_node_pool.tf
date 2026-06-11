@@ -285,6 +285,8 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     }
   }
   node_drain_config {
+    grace_termination_duration            = ""
+    pdb_timeout_duration                  = ""
     respect_pdb_during_node_pool_deletion = false
   }
   placement_policy {

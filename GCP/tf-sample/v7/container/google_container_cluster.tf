@@ -531,6 +531,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       mode = ""
     }
   }
+  node_creation_config {
+    node_creation_mode = ""
+  }
   node_pool {
     initial_node_count = 0
     max_pods_per_node  = 0
@@ -814,6 +817,8 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
     }
     node_drain_config {
+      grace_termination_duration            = ""
+      pdb_timeout_duration                  = ""
       respect_pdb_during_node_pool_deletion = false
     }
     placement_policy {

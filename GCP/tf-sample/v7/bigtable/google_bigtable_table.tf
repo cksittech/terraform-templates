@@ -10,6 +10,7 @@ resource "google_bigtable_table" "tf-sample-bigtable-table" {
   
   automated_backup_policy {
     frequency        = ""
+    locations        = []
     retention_period = ""
   }
   column_family {
