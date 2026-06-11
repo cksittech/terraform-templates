@@ -16,18 +16,20 @@ resource "alicloud_api_gateway_api" "tf-sample-api-gateway-api" {
     value       = ""
   }
   fc_service_config {
-    arn_role           = ""
-    function_base_url  = ""
-    function_name      = ""
-    function_type      = ""
-    function_version   = ""
-    method             = ""
-    only_business_path = false
-    path               = ""
-    qualifier          = ""
-    region             = ""
-    service_name       = ""
-    timeout            = 0
+    arn_role              = ""
+    content_type_category = ""
+    content_type_value    = ""
+    function_base_url     = ""
+    function_name         = ""
+    function_type         = ""
+    function_version      = ""
+    method                = ""
+    only_business_path    = false
+    path                  = ""
+    qualifier             = ""
+    region                = ""
+    service_name          = ""
+    timeout               = 0
   }
   http_service_config {
     address               = ""
