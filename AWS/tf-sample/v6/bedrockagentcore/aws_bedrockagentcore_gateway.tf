@@ -41,6 +41,9 @@ resource "aws_bedrockagentcore_gateway" "tf-sample-bedrockagentcore-gateway" {
       }
     }
   }
+  policy_engine_configuration {
+    mode = ""
+  }
   protocol_configuration {
     mcp {
       instructions       = ""

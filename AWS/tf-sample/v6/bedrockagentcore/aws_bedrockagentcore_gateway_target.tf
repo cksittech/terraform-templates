@@ -34,6 +34,18 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
     allowed_request_headers  = []
     allowed_response_headers = []
   }
+  private_endpoint {
+    managed_vpc_resource {
+      endpoint_ip_address_type = ""
+      routing_domain           = ""
+      security_group_ids       = []
+      subnet_ids               = []
+      vpc_identifier           = ""
+    }
+    self_managed_lattice_resource {
+      resource_configuration_identifier = ""
+    }
+  }
   target_configuration {
     http {
       agentcore_runtime {
@@ -190,7 +202,8 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
         }
       }
       mcp_server {
-        endpoint = ""
+        endpoint     = ""
+        listing_mode = ""
       }
       open_api_schema {
         inline_payload {
