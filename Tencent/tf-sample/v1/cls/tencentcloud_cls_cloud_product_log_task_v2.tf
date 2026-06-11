@@ -3,8 +3,9 @@ resource "tencentcloud_cls_cloud_product_log_task_v2" "tf-sample-cls-cloud-produ
   cloud_product_region = ""
   cls_region           = ""
   extend               = ""
-  force_delete         = false
   instance_id          = ""
+  is_delete_logset     = false
+  is_delete_topic      = false
   log_type             = ""
   logset_id            = ""
   logset_name          = ""
