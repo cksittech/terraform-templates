@@ -10,6 +10,7 @@ resource "oci_database_database" "tf-sample-database-database" {
   kms_key_version_id = ""
   source             = ""
   vault_id           = ""
+  vm_cluster_id      = ""
   
   database {
     admin_password                        = ""
@@ -69,6 +70,30 @@ resource "oci_database_database" "tf-sample-database-database" {
       hsm_password                            = ""
       provider_type                           = ""
     }
+    managed_software_update_details {
+      is_enrolled = false
+      
+      maintenance_details {
+        time_of_last_readiness_check    = ""
+        time_of_status_update           = ""
+        time_scheduled                  = ""
+        update_mode                     = ""
+        update_readiness_status         = ""
+        update_readiness_status_details = ""
+        version                         = ""
+      }
+      preference_details {
+        days_of_week = []
+        hour_of_day  = 0
+        update_mode  = ""
+        
+        version_scheme_details {
+          major_version      = ""
+          source             = ""
+          version_preference = ""
+        }
+      }
+    }
     patch_options {
       should_skip_closed_pdbs = false
       should_skip_data_patch  = false
@@ -80,6 +105,30 @@ resource "oci_database_database" "tf-sample-database-database" {
     storage_size_details {
       data_storage_size_in_gb  = 0
       reco_storage_size_in_gbs = 0
+    }
+  }
+  managed_software_update_details {
+    is_enrolled = false
+    
+    maintenance_details {
+      time_of_last_readiness_check    = ""
+      time_of_status_update           = ""
+      time_scheduled                  = ""
+      update_mode                     = ""
+      update_readiness_status         = ""
+      update_readiness_status_details = ""
+      version                         = ""
+    }
+    preference_details {
+      days_of_week = []
+      hour_of_day  = 0
+      update_mode  = ""
+      
+      version_scheme_details {
+        major_version      = ""
+        source             = ""
+        version_preference = ""
+      }
     }
   }
 }

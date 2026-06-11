@@ -7,12 +7,13 @@ resource "oci_mysql_channel" "tf-sample-mysql-channel" {
   is_enabled     = false
   
   source {
-    hostname    = ""
-    password    = ""
-    port        = 0
-    source_type = ""
-    ssl_mode    = ""
-    username    = ""
+    hostname                   = ""
+    must_use_ipv6on_dual_stack = false
+    password                   = ""
+    port                       = 0
+    source_type                = ""
+    ssl_mode                   = ""
+    username                   = ""
     
     anonymous_transactions_handling {
       last_configured_log_filename = ""

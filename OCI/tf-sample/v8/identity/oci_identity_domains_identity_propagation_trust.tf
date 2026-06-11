@@ -5,11 +5,13 @@ resource "oci_identity_domains_identity_propagation_trust" "tf-sample-identity-d
   attribute_sets               = []
   attributes                   = ""
   authorization                = ""
+  claim_propagations           = []
   client_claim_name            = ""
   client_claim_values          = []
   clock_skew_seconds           = 0
   description                  = ""
   idcs_endpoint                = ""
+  impersonating_resource       = ""
   issuer                       = ""
   name                         = ""
   oauth_clients                = []
@@ -23,6 +25,14 @@ resource "oci_identity_domains_identity_propagation_trust" "tf-sample-identity-d
   subject_type                 = ""
   type                         = ""
   
+  ca_cert_chain {
+    intermediate_cas = []
+    root_cas         = []
+  }
+  claim_validations {
+    name  = ""
+    value = ""
+  }
   impersonation_service_users {
     ocid  = ""
     rule  = ""

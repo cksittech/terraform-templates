@@ -17,6 +17,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
   hostname_label          = ""
   ip_address              = ""
   is_highly_available     = false
+  is_ipv6enabled          = false
   mysql_version           = ""
   nsg_ids                 = []
   port                    = 0
@@ -63,6 +64,10 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     key_generation_type = ""
     key_id              = ""
   }
+  ipv6address_ipv6subnet_cidr_pair_details {
+    ipv6address     = ""
+    ipv6subnet_cidr = ""
+  }
   maintenance {
     maintenance_schedule_type = ""
     version_preference        = ""
@@ -79,6 +84,11 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     is_enabled                   = false
     read_endpoint_hostname_label = ""
     read_endpoint_ip_address     = ""
+    
+    read_endpoint_ipv6address_ipv6subnet_cidr_pair_details {
+      ipv6address     = ""
+      ipv6subnet_cidr = ""
+    }
   }
   rest {
     configuration = ""

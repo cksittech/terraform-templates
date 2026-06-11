@@ -3,6 +3,7 @@ resource "oci_core_ipv6" "tf-sample-core-ipv6" {
   defined_tags       = {}
   display_name       = ""
   freeform_tags      = {}
+  hostname           = ""
   ip_address         = ""
   ipv6subnet_cidr    = ""
   lifetime           = ""
