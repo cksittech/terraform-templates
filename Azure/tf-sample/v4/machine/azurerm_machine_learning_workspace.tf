@@ -14,6 +14,7 @@ resource "azurerm_machine_learning_workspace" "tf-sample-machine-learning-worksp
   resource_group_name             = ""
   service_side_encryption_enabled = false
   sku_name                        = ""
+  storage_account_access_type     = ""
   storage_account_id              = ""
   v1_legacy_mode_enabled          = false
   

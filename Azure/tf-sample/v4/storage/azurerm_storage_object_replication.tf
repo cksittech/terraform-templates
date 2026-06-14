@@ -1,5 +1,6 @@
 resource "azurerm_storage_object_replication" "tf-sample-storage-object-replication" {
   destination_storage_account_id = ""
+  metrics_enabled                = false
   source_storage_account_id      = ""
   
   rules {
