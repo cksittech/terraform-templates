@@ -5,6 +5,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   bucket                               = ""
   cdc_id                               = ""
   chdfs_ofs                            = false
+  cors_response_vary                   = ""
   enable_intelligent_tiering           = false
   encryption_algorithm                 = ""
   force_clean                          = false

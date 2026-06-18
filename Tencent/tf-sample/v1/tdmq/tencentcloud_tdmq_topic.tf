@@ -5,4 +5,9 @@ resource "tencentcloud_tdmq_topic" "tf-sample-tdmq-topic" {
   pulsar_topic_type = 0
   remark            = ""
   topic_name        = ""
+  
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

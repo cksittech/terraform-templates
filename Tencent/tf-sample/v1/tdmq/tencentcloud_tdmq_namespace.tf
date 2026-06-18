@@ -8,4 +8,8 @@ resource "tencentcloud_tdmq_namespace" "tf-sample-tdmq-namespace" {
     size_in_mb      = 0
     time_in_minutes = 0
   }
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }
