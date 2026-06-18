@@ -3,7 +3,7 @@ resource "google_cloud_security_compliance_framework_deployment" "tf-sample-clou
   description             = ""
   framework_deployment_id = ""
   location                = ""
-  organization            = ""
+  parent                  = ""
   
   cloud_control_metadata {
     enforcement_mode = ""

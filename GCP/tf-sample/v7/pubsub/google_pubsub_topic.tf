@@ -73,8 +73,10 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
     }
   }
   schema_settings {
-    encoding = ""
-    schema   = ""
+    encoding          = ""
+    first_revision_id = ""
+    last_revision_id  = ""
+    schema            = ""
   }
   
   tags = {}

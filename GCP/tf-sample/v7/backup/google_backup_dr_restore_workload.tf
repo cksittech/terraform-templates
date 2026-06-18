@@ -169,8 +169,9 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
     }
   }
   compute_instance_target_environment {
-    project = ""
-    zone    = ""
+    project                     = ""
+    use_project_service_account = false
+    zone                        = ""
   }
   disk_restore_properties {
     access_mode                 = ""
@@ -206,12 +207,14 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
     }
   }
   disk_target_environment {
-    project = ""
-    zone    = ""
+    project                     = ""
+    use_project_service_account = false
+    zone                        = ""
   }
   region_disk_target_environment {
-    project       = ""
-    region        = ""
-    replica_zones = []
+    project                     = ""
+    region                      = ""
+    replica_zones               = []
+    use_project_service_account = false
   }
 }

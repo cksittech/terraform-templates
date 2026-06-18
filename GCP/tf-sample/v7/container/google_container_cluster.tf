@@ -91,6 +91,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     slice_controller_config {
       enabled = false
     }
+    slurm_operator_config {
+      enabled = false
+    }
     stateful_ha_config {
       enabled = false
     }
@@ -494,6 +497,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     local_nvme_ssd_block_config {
       local_ssd_count = 0
     }
+    node_image_config {
+      image         = ""
+      image_project = ""
+    }
     reservation_affinity {
       consume_reservation_type = ""
       key                      = ""
@@ -778,6 +785,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
       local_nvme_ssd_block_config {
         local_ssd_count = 0
+      }
+      node_image_config {
+        image         = ""
+        image_project = ""
       }
       reservation_affinity {
         consume_reservation_type = ""

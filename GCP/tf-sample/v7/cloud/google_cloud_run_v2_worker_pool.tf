@@ -29,6 +29,8 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
   }
   template {
     annotations                      = {}
+    client                           = ""
+    client_version                   = ""
     encryption_key                   = ""
     encryption_key_revocation_action = ""
     encryption_key_shutdown_duration = ""
@@ -71,7 +73,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
           port = 0
           
           http_headers {
-            port  = 0
+            name  = ""
             value = ""
           }
         }
@@ -97,7 +99,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
           port = 0
           
           http_headers {
-            port  = 0
+            name  = ""
             value = ""
           }
         }

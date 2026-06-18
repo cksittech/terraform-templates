@@ -11,6 +11,9 @@ resource "google_compute_reservation" "tf-sample-compute-reservation" {
     nanos   = 0
     seconds = ""
   }
+  params {
+    resource_manager_tags = {}
+  }
   reservation_sharing_policy {
     service_share_type = ""
   }

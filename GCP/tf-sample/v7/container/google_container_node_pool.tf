@@ -247,6 +247,10 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     local_nvme_ssd_block_config {
       local_ssd_count = 0
     }
+    node_image_config {
+      image         = ""
+      image_project = ""
+    }
     reservation_affinity {
       consume_reservation_type = ""
       key                      = ""

@@ -159,6 +159,43 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
       }
     }
   }
+  network_rules {
+    from {
+      not_sources {
+        ip_blocks {
+          length = 0
+          prefix = ""
+        }
+        principals {
+          principal_selector = ""
+          
+          principal {
+            exact = ""
+          }
+        }
+      }
+      sources {
+        ip_blocks {
+          length = 0
+          prefix = ""
+        }
+        principals {
+          principal_selector = ""
+          
+          principal {
+            exact = ""
+          }
+        }
+      }
+    }
+    to {
+      operations {
+        snis {
+          exact = ""
+        }
+      }
+    }
+  }
   target {
     load_balancing_scheme = ""
     resources             = []

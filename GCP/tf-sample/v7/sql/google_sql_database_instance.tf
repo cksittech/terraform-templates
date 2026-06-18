@@ -152,9 +152,11 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
         value           = ""
       }
       psc_config {
-        allowed_consumer_projects = []
-        network_attachment_uri    = ""
-        psc_enabled               = false
+        allowed_consumer_projects      = []
+        network_attachment_uri         = ""
+        psc_auto_dns_enabled           = false
+        psc_enabled                    = false
+        psc_write_endpoint_dns_enabled = false
         
         psc_auto_connections {
           consumer_network            = ""

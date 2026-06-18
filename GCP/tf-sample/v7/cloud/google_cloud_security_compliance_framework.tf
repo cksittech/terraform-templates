@@ -4,7 +4,7 @@ resource "google_cloud_security_compliance_framework" "tf-sample-cloud-security-
   display_name    = ""
   framework_id    = ""
   location        = ""
-  organization    = ""
+  parent          = ""
   
   cloud_control_details {
     major_revision_id = ""

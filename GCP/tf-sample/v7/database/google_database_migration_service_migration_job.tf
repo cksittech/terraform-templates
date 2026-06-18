@@ -1,5 +1,6 @@
 resource "google_database_migration_service_migration_job" "tf-sample-database-migration-service-migration-job" {
   deletion_policy  = ""
+  desired_state    = ""
   destination      = ""
   display_name     = ""
   dump_path        = ""
@@ -9,6 +10,7 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
   migration_job_id = ""
   project          = ""
   source           = ""
+  stop_on_warnings = false
   type             = ""
   
   dump_flags {
