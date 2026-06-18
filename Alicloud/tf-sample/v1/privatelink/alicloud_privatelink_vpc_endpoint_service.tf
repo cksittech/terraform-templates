@@ -8,6 +8,7 @@ resource "alicloud_privatelink_vpc_endpoint_service" "tf-sample-privatelink-vpc-
   service_description    = ""
   service_resource_type  = ""
   service_support_ipv6   = false
+  supported_region_list  = []
   zone_affinity_enabled  = false
   
   tags = {}

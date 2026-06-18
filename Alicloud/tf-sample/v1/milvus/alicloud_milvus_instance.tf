@@ -1,5 +1,6 @@
 resource "alicloud_milvus_instance" "tf-sample-milvus-instance" {
   auto_backup           = false
+  auto_pay              = false
   configuration         = ""
   db_admin_password     = ""
   db_version            = ""
