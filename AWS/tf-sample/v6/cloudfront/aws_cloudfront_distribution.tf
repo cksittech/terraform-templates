@@ -134,6 +134,10 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
       origin_protocol_policy   = ""
       origin_read_timeout      = 0
       origin_ssl_protocols     = []
+      
+      origin_mtls_config {
+        client_certificate_arn = ""
+      }
     }
     origin_shield {
       enabled              = false

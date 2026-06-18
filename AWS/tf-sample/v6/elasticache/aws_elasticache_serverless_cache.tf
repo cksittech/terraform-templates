@@ -5,6 +5,7 @@ resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-ca
   kms_key_id               = ""
   major_engine_version     = ""
   name                     = ""
+  network_type             = ""
   region                   = ""
   security_group_ids       = []
   snapshot_arns_to_restore = []

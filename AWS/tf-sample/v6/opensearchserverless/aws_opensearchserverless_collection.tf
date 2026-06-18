@@ -6,6 +6,7 @@ resource "aws_opensearchserverless_collection" "tf-sample-opensearchserverless-c
   region                = ""
   standby_replicas      = ""
   type                  = ""
+  vector_options        = []
   
   tags = {}
 }

@@ -21,6 +21,11 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
           kms_key_arn                             = ""
         }
       }
+      destination_metrics_configuration {
+        backup_configuration {
+          region = ""
+        }
+      }
     }
     source {
       regions = []
@@ -30,6 +35,9 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
         data_source_selection_criteria = ""
         encrypted_log_group_strategy   = ""
         log_group_selection_criteria   = ""
+      }
+      source_metrics_configuration {
+        metrics_selection_criteria = ""
       }
     }
   }

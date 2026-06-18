@@ -8,6 +8,7 @@ resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-
   cluster_mode                = ""
   data_tiering_enabled        = false
   description                 = ""
+  durability                  = ""
   engine                      = ""
   engine_version              = ""
   final_snapshot_identifier   = ""

@@ -33,7 +33,6 @@ resource "aws_dms_s3_endpoint" "tf-sample-dms-s3-endpoint" {
   glue_catalog_generation                     = false
   ignore_header_rows                          = 0
   include_op_for_full_load                    = false
-  kms_key_arn                                 = ""
   max_file_size                               = 0
   parquet_timestamp_in_millisecond            = false
   parquet_version                             = ""

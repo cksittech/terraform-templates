@@ -37,10 +37,15 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   }
   outpost_config {
     control_plane_instance_type = ""
+    etcd_instance_type          = ""
     outpost_arns                = []
     
     control_plane_placement {
-      group_name = ""
+      group_name   = ""
+      spread_level = ""
+    }
+    etcd_placement {
+      spread_level = ""
     }
   }
   remote_network_config {
