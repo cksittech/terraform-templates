@@ -7,6 +7,7 @@ resource "oci_operator_access_control_operator_control" "tf-sample-operator-acce
   email_id_list               = []
   freeform_tags               = {}
   is_fully_pre_approved       = false
+  notification_topic_id       = ""
   number_of_approvers         = 0
   operator_control_name       = ""
   pre_approved_op_action_list = []

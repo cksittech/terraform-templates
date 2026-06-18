@@ -9,6 +9,7 @@ resource "oci_objectstorage_private_endpoint" "tf-sample-objectstorage-private-e
   nsg_ids             = []
   prefix              = ""
   private_endpoint_ip = ""
+  security_attributes = {}
   state               = ""
   subnet_id           = ""
   

@@ -17,6 +17,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
     value = ""
   }
   node_config_details {
+    compute_cluster_id                  = ""
     defined_tags                        = {}
     freeform_tags                       = {}
     is_pv_encryption_in_transit_enabled = false
@@ -34,6 +35,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
       availability_domain     = ""
       capacity_reservation_id = ""
       fault_domains           = []
+      host_group_id           = ""
       subnet_id               = ""
       
       preemptible_node_config {

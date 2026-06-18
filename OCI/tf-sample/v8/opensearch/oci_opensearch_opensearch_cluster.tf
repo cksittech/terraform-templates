@@ -1,6 +1,11 @@
 resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cluster" {
   compartment_id                           = ""
   configure_outbound_cluster_trigger       = 0
+  coordinator_node_count                   = 0
+  coordinator_node_host_memory_gb          = 0
+  coordinator_node_host_ocpu_count         = 0
+  coordinator_node_host_shape              = ""
+  coordinator_node_host_type               = ""
   data_node_count                          = 0
   data_node_host_bare_metal_shape          = ""
   data_node_host_memory_gb                 = 0

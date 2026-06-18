@@ -12,6 +12,7 @@ resource "oci_desktops_desktop_pool" "tf-sample-desktops-desktop-pool" {
   is_storage_enabled       = false
   maximum_size             = 0
   nsg_ids                  = []
+  security_attributes      = {}
   shape_name               = ""
   standby_size             = 0
   storage_backup_policy_id = ""
@@ -46,13 +47,15 @@ resource "oci_desktops_desktop_pool" "tf-sample-desktops-desktop-pool" {
     operating_system = ""
   }
   network_configuration {
-    subnet_id = ""
-    vcn_id    = ""
+    security_attributes = {}
+    subnet_id           = ""
+    vcn_id              = ""
   }
   private_access_details {
-    nsg_ids    = []
-    private_ip = ""
-    subnet_id  = ""
+    nsg_ids             = []
+    private_ip          = ""
+    security_attributes = {}
+    subnet_id           = ""
   }
   session_lifecycle_actions {
     disconnect {
