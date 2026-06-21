@@ -13,6 +13,8 @@ resource "ibm_container_vpc_cluster" "tf-sample-container-vpc-cluster" {
   kms_instance_id                     = ""
   kube_version                        = ""
   name                                = ""
+  network_plugin                      = ""
+  offering                            = ""
   operating_system                    = ""
   patch_version                       = ""
   pod_subnet                          = ""

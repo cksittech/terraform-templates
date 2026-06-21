@@ -201,6 +201,16 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
           zh_cn   = ""
           zh_tw   = ""
         }
+        event_publishing {
+          state = ""
+        }
+      }
+      defaults {
+        enforcement_method = []
+        
+        event_publishing {
+          state = ""
+        }
       }
     }
     self_managed_allowlist_enforcement {

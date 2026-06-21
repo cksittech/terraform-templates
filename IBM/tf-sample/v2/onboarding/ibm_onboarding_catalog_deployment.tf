@@ -22,6 +22,9 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
         name = ""
       }
     }
+    other {
+      location_proxied_by = ""
+    }
     service {
       iam_compatible        = false
       plan_updateable       = false

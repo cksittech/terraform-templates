@@ -1,5 +1,6 @@
 resource "ibm_en_ibmsource" "tf-sample-en-ibmsource" {
-  enabled       = false
-  instance_guid = ""
-  source_id     = ""
+  enabled             = false
+  instance_guid       = ""
+  source_id           = ""
+  store_notifications = false
 }

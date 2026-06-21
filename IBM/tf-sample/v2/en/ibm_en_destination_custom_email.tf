@@ -2,6 +2,7 @@ resource "ibm_en_destination_custom_email" "tf-sample-en-destination-custom-emai
   collect_failed_events = false
   description           = ""
   instance_guid         = ""
+  is_sandbox            = false
   name                  = ""
   type                  = ""
   verification_type     = ""
