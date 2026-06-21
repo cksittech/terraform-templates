@@ -17,6 +17,7 @@ resource "azurerm_mssql_managed_instance" "tf-sample-mssql-managed-instance" {
   service_principal_type         = ""
   sku_name                       = ""
   storage_account_type           = ""
+  storage_iops                   = 0
   storage_size_in_gb             = 0
   subnet_id                      = ""
   timezone_id                    = ""

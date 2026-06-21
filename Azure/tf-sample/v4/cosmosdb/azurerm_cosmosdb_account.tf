@@ -10,7 +10,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
   is_virtual_network_filter_enabled     = false
   key_vault_key_id                      = ""
   kind                                  = ""
-  local_authentication_disabled         = false
+  local_authentication_enabled          = false
   location                              = ""
   minimal_tls_version                   = ""
   mongo_server_version                  = ""
