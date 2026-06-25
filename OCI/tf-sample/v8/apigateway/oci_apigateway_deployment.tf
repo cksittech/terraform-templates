@@ -55,6 +55,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         }
         validation_failure_policy {
           fallback_redirect_path             = ""
+          login_path                         = ""
           logout_path                        = ""
           max_expiry_duration_in_hours       = 0
           response_code                      = ""
@@ -186,6 +187,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
             }
             validation_failure_policy {
               fallback_redirect_path             = ""
+              login_path                         = ""
               logout_path                        = ""
               max_expiry_duration_in_hours       = 0
               response_code                      = ""

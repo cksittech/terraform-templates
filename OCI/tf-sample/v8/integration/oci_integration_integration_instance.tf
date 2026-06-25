@@ -1,4 +1,5 @@
 resource "oci_integration_integration_instance" "tf-sample-integration-integration-instance" {
+  attachment_type                    = ""
   compartment_id                     = ""
   consumption_model                  = ""
   convert_instance_trigger           = 0
