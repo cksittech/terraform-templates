@@ -3,6 +3,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   autopilot_privileged_admission           = []
   cluster_ipv4_cidr                        = ""
   datapath_provider                        = ""
+  dataplane_optimization_mode              = ""
   default_max_pods_per_node                = 0
   deletion_policy                          = ""
   deletion_protection                      = false
@@ -18,6 +19,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   enable_multi_networking                  = false
   enable_shielded_nodes                    = false
   enable_tpu                               = false
+  ignore_node_count_changes                = false
   in_transit_encryption_config             = ""
   initial_node_count                       = 0
   location                                 = ""
@@ -33,6 +35,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   project                                  = ""
   remove_default_node_pool                 = false
   resource_labels                          = {}
+  skip_node_pool_refresh                   = false
   subnetwork                               = ""
   
   addons_config {
@@ -531,6 +534,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       key    = ""
       value  = ""
     }
+    taint_config {
+      architecture_taint_behavior = ""
+    }
     windows_node_config {
       osversion = ""
     }
@@ -542,13 +548,14 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     node_creation_mode = ""
   }
   node_pool {
-    initial_node_count = 0
-    max_pods_per_node  = 0
-    name               = ""
-    name_prefix        = ""
-    node_count         = 0
-    node_locations     = []
-    version            = ""
+    ignore_node_count_changes = false
+    initial_node_count        = 0
+    max_pods_per_node         = 0
+    name                      = ""
+    name_prefix               = ""
+    node_count                = 0
+    node_locations            = []
+    version                   = ""
     
     autoscaling {
       location_policy      = ""
@@ -819,6 +826,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         effect = ""
         key    = ""
         value  = ""
+      }
+      taint_config {
+        architecture_taint_behavior = ""
       }
       windows_node_config {
         osversion = ""

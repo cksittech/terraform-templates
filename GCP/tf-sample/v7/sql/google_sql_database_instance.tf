@@ -81,7 +81,11 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     user_labels                      = {}
     
     active_directory_config {
-      domain = ""
+      admin_credential_secret_name = ""
+      dns_servers                  = []
+      domain                       = ""
+      mode                         = ""
+      organizational_unit          = ""
     }
     advanced_machine_features {
       threads_per_core = 0

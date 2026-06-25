@@ -26,4 +26,12 @@ resource "google_biglake_iceberg_table" "tf-sample-biglake-iceberg-table" {
       type     = ""
     }
   }
+  sort_order {
+    fields {
+      direction  = ""
+      null_order = ""
+      source_id  = 0
+      transform  = ""
+    }
+  }
 }

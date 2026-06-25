@@ -1,15 +1,16 @@
 resource "google_container_node_pool" "tf-sample-container-node-pool" {
-  cluster            = ""
-  deletion_policy    = ""
-  initial_node_count = 0
-  location           = ""
-  max_pods_per_node  = 0
-  name               = ""
-  name_prefix        = ""
-  node_count         = 0
-  node_locations     = []
-  project            = ""
-  version            = ""
+  cluster                   = ""
+  deletion_policy           = ""
+  ignore_node_count_changes = false
+  initial_node_count        = 0
+  location                  = ""
+  max_pods_per_node         = 0
+  name                      = ""
+  name_prefix               = ""
+  node_count                = 0
+  node_locations            = []
+  project                   = ""
+  version                   = ""
   
   autoscaling {
     location_policy      = ""
@@ -280,6 +281,9 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       effect = ""
       key    = ""
       value  = ""
+    }
+    taint_config {
+      architecture_taint_behavior = ""
     }
     windows_node_config {
       osversion = ""

@@ -18,7 +18,9 @@ resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-prov
     
     client_secret {
       value {
-        plain_text = ""
+        plain_text            = ""
+        plain_text_wo         = ""
+        plain_text_wo_version = ""
       }
     }
     query_parameters {
@@ -32,7 +34,9 @@ resource "google_iam_workforce_pool_provider" "tf-sample-iam-workforce-pool-prov
     
     client_secret {
       value {
-        plain_text = ""
+        plain_text            = ""
+        plain_text_wo         = ""
+        plain_text_wo_version = ""
       }
     }
     web_sso_config {

@@ -4,6 +4,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   execution_type  = ""
   location        = ""
   project         = ""
+  timeout         = ""
   tool_id         = ""
   
   agent_tool {
@@ -151,6 +152,13 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   python_function {
     name        = ""
     python_code = ""
+  }
+  tool_fake_config {
+    enable_fake_mode = false
+    
+    code_block {
+      python_code = ""
+    }
   }
   widget_tool {
     description = ""

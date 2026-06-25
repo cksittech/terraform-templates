@@ -21,6 +21,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
     root_path = ""
   }
   mongodb_profile {
+    additional_options             = {}
     password                       = ""
     replica_set                    = ""
     secret_manager_stored_password = ""

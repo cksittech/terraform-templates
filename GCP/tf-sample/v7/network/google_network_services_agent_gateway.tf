@@ -11,6 +11,11 @@ resource "google_network_services_agent_gateway" "tf-sample-network-services-age
     governed_access_path = ""
   }
   network_config {
+    dns_peering_config {
+      domains        = []
+      target_network = ""
+      target_project = ""
+    }
     egress {
       network_attachment = ""
     }

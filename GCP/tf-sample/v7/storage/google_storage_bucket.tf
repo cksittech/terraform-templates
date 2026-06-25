@@ -75,6 +75,8 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
       send_days_since_custom_time_if_zero     = false
       send_days_since_noncurrent_time_if_zero = false
       send_num_newer_versions_if_zero         = false
+      size_above_bytes                        = 0
+      size_below_bytes                        = 0
       with_state                              = ""
     }
   }

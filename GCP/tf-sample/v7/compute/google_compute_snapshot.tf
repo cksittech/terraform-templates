@@ -11,6 +11,9 @@ resource "google_compute_snapshot" "tf-sample-compute-snapshot" {
   storage_locations       = []
   zone                    = ""
   
+  params {
+    resource_manager_tags = {}
+  }
   snapshot_encryption_key {
     kms_key_self_link       = ""
     kms_key_service_account = ""

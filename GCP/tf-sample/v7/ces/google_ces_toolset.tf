@@ -82,4 +82,11 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
       }
     }
   }
+  tool_fake_config {
+    enable_fake_mode = false
+    
+    code_block {
+      python_code = ""
+    }
+  }
 }
