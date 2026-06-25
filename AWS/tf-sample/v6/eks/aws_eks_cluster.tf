@@ -65,11 +65,12 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
     support_type = ""
   }
   vpc_config {
-    endpoint_private_access = false
-    endpoint_public_access  = false
-    public_access_cidrs     = []
-    security_group_ids      = []
-    subnet_ids              = []
+    control_plane_egress_mode = ""
+    endpoint_private_access   = false
+    endpoint_public_access    = false
+    public_access_cidrs       = []
+    security_group_ids        = []
+    subnet_ids                = []
   }
   zonal_shift_config {
     enabled = false
