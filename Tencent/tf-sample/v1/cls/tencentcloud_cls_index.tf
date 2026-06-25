@@ -20,10 +20,77 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
         key = ""
         
         value {
-          contain_z_h = false
-          sql_flag    = false
-          tokenizer   = ""
-          type        = ""
+          alias                     = ""
+          contain_z_h               = false
+          open_index_for_child_only = false
+          sql_flag                  = false
+          tokenizer                 = ""
+          type                      = ""
+          
+          child_node {
+            key = ""
+            
+            value {
+              alias                     = ""
+              contain_z_h               = false
+              open_index_for_child_only = false
+              sql_flag                  = false
+              tokenizer                 = ""
+              type                      = ""
+              
+              child_node {
+                key = ""
+                
+                value {
+                  alias                     = ""
+                  contain_z_h               = false
+                  open_index_for_child_only = false
+                  sql_flag                  = false
+                  tokenizer                 = ""
+                  type                      = ""
+                  
+                  child_node {
+                    key = ""
+                    
+                    value {
+                      alias                     = ""
+                      contain_z_h               = false
+                      open_index_for_child_only = false
+                      sql_flag                  = false
+                      tokenizer                 = ""
+                      type                      = ""
+                      
+                      child_node {
+                        key = ""
+                        
+                        value {
+                          alias                     = ""
+                          contain_z_h               = false
+                          open_index_for_child_only = false
+                          sql_flag                  = false
+                          tokenizer                 = ""
+                          type                      = ""
+                          
+                          child_node {
+                            key = ""
+                            
+                            value {
+                              alias                     = ""
+                              contain_z_h               = false
+                              open_index_for_child_only = false
+                              sql_flag                  = false
+                              tokenizer                 = ""
+                              type                      = ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -34,10 +101,77 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
         key = ""
         
         value {
-          contain_z_h = false
-          sql_flag    = false
-          tokenizer   = ""
-          type        = ""
+          alias                     = ""
+          contain_z_h               = false
+          open_index_for_child_only = false
+          sql_flag                  = false
+          tokenizer                 = ""
+          type                      = ""
+          
+          child_node {
+            key = ""
+            
+            value {
+              alias                     = ""
+              contain_z_h               = false
+              open_index_for_child_only = false
+              sql_flag                  = false
+              tokenizer                 = ""
+              type                      = ""
+              
+              child_node {
+                key = ""
+                
+                value {
+                  alias                     = ""
+                  contain_z_h               = false
+                  open_index_for_child_only = false
+                  sql_flag                  = false
+                  tokenizer                 = ""
+                  type                      = ""
+                  
+                  child_node {
+                    key = ""
+                    
+                    value {
+                      alias                     = ""
+                      contain_z_h               = false
+                      open_index_for_child_only = false
+                      sql_flag                  = false
+                      tokenizer                 = ""
+                      type                      = ""
+                      
+                      child_node {
+                        key = ""
+                        
+                        value {
+                          alias                     = ""
+                          contain_z_h               = false
+                          open_index_for_child_only = false
+                          sql_flag                  = false
+                          tokenizer                 = ""
+                          type                      = ""
+                          
+                          child_node {
+                            key = ""
+                            
+                            value {
+                              alias                     = ""
+                              contain_z_h               = false
+                              open_index_for_child_only = false
+                              sql_flag                  = false
+                              tokenizer                 = ""
+                              type                      = ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
