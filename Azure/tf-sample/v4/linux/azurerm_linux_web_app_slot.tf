@@ -236,7 +236,6 @@ resource "azurerm_linux_web_app_slot" "tf-sample-linux-web-app-slot" {
       node_version             = ""
       php_version              = ""
       python_version           = ""
-      ruby_version             = ""
     }
     auto_heal_setting {
       action {

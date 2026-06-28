@@ -8,6 +8,8 @@ resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
   generation                            = ""
   ip_sec_replay_protection_enabled      = false
   location                              = ""
+  maximum_scale_unit                    = 0
+  minimum_scale_unit                    = 0
   name                                  = ""
   private_ip_address_enabled            = false
   remote_vnet_traffic_enabled           = false
