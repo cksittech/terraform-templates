@@ -8,6 +8,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   deployment_set_id                   = ""
   description                         = ""
   dry_run                             = false
+  enable_high_density_mode            = false
   enable_jumbo_frame                  = false
   force_delete                        = false
   host_name                           = ""
@@ -35,6 +36,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   maintenance_action                  = ""
   maintenance_notify                  = false
   network_card_index                  = 0
+  network_interface_id                = ""
   network_interface_traffic_mode      = ""
   operator_type                       = ""
   password                            = ""
@@ -51,6 +53,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   secondary_private_ips               = []
   security_enhancement_strategy       = ""
   security_groups                     = []
+  source_dest_check                   = false
   spot_duration                       = 0
   spot_interruption_behavior          = ""
   spot_price_limit                    = 0
@@ -108,6 +111,7 @@ resource "alicloud_instance" "tf-sample-instance" {
     network_interface_traffic_mode = ""
     queue_pair_number              = 0
     security_group_ids             = []
+    source_dest_check              = false
     vswitch_id                     = ""
   }
   

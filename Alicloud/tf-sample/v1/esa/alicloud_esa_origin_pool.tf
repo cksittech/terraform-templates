@@ -4,12 +4,13 @@ resource "alicloud_esa_origin_pool" "tf-sample-esa-origin-pool" {
   site_id          = ""
   
   origins {
-    address = ""
-    enabled = false
-    header  = ""
-    name    = ""
-    type    = ""
-    weight  = 0
+    address           = ""
+    enabled           = false
+    header            = ""
+    ip_version_policy = ""
+    name              = ""
+    type              = ""
+    weight            = 0
     
     auth_conf {
       access_key = ""

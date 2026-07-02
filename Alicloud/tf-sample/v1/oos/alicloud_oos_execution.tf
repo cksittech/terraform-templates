@@ -8,4 +8,6 @@ resource "alicloud_oos_execution" "tf-sample-oos-execution" {
   template_content    = ""
   template_name       = ""
   template_version    = ""
+  
+  tags = {}
 }

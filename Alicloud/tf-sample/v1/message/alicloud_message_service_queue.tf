@@ -5,6 +5,7 @@ resource "alicloud_message_service_queue" "tf-sample-message-service-queue" {
   message_retention_period = 0
   polling_wait_seconds     = 0
   queue_name               = ""
+  queue_type               = ""
   visibility_timeout       = 0
   
   dlq_policy {

@@ -1,5 +1,6 @@
 resource "alicloud_cloud_firewall_instance" "tf-sample-cloud-firewall-instance" {
   account_number        = 0
+  auto_asset_protection = ""
   band_width            = 0
   cfw_account           = false
   cfw_log               = false

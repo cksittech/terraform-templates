@@ -65,6 +65,7 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   strict_consistency                          = ""
   sub_category                                = ""
   target_db_revision_version_code             = ""
+  target_minor_version                        = ""
   tde_status                                  = ""
   upgrade_type                                = ""
   vpc_id                                      = ""

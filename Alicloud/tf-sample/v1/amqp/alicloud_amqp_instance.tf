@@ -18,10 +18,13 @@ resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
   renewal_status         = ""
   security_group_id      = ""
   serverless_charge_type = ""
+  serverless_switch      = false
   storage_size           = ""
   support_eip            = false
   support_tracing        = false
   tracing_storage_time   = 0
   vpc_id                 = ""
   vswitch_ids            = []
+  
+  tags = {}
 }
