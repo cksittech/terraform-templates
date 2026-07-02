@@ -4,6 +4,13 @@ resource "aws_bedrockagentcore_code_interpreter" "tf-sample-bedrockagentcore-cod
   name               = ""
   region             = ""
   
+  certificate {
+    location {
+      secrets_manager {
+        secret_arn = ""
+      }
+    }
+  }
   network_configuration {
     network_mode = ""
     

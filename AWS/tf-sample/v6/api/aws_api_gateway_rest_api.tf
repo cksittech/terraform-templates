@@ -4,6 +4,7 @@ resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   body                         = ""
   description                  = ""
   disable_execute_api_endpoint = false
+  endpoint_access_mode         = ""
   fail_on_warnings             = false
   minimum_compression_size     = ""
   name                         = ""
@@ -11,6 +12,7 @@ resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   policy                       = ""
   put_rest_api_mode            = ""
   region                       = ""
+  security_policy              = ""
   
   endpoint_configuration {
     ip_address_type  = ""

@@ -4,6 +4,27 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   name               = ""
   region             = ""
   
+  browser_signing {
+    enabled = false
+  }
+  certificate {
+    location {
+      secrets_manager {
+        secret_arn = ""
+      }
+    }
+  }
+  enterprise_policy {
+    type = ""
+    
+    location {
+      s3 {
+        bucket     = ""
+        prefix     = ""
+        version_id = ""
+      }
+    }
+  }
   network_configuration {
     network_mode = ""
     
