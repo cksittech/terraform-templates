@@ -39,6 +39,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   subnetwork                               = ""
   
   addons_config {
+    agent_sandbox_config {
+      enabled = false
+    }
     cloudrun_config {
       disabled           = false
       load_balancer_type = ""
@@ -411,21 +414,23 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       maintenance_interval = ""
     }
     kubelet_config {
-      allowed_unsafe_sysctls                 = []
-      container_log_max_files                = 0
-      container_log_max_size                 = ""
-      cpu_cfs_quota                          = false
-      cpu_cfs_quota_period                   = ""
-      cpu_manager_policy                     = ""
-      eviction_max_pod_grace_period_seconds  = 0
-      image_gc_high_threshold_percent        = 0
-      image_gc_low_threshold_percent         = 0
-      image_maximum_gc_age                   = ""
-      image_minimum_gc_age                   = ""
-      insecure_kubelet_readonly_port_enabled = ""
-      max_parallel_image_pulls               = 0
-      pod_pids_limit                         = 0
-      single_process_oom_kill                = false
+      allowed_unsafe_sysctls                      = []
+      container_log_max_files                     = 0
+      container_log_max_size                      = ""
+      cpu_cfs_quota                               = false
+      cpu_cfs_quota_period                        = ""
+      cpu_manager_policy                          = ""
+      eviction_max_pod_grace_period_seconds       = 0
+      image_gc_high_threshold_percent             = 0
+      image_gc_low_threshold_percent              = 0
+      image_maximum_gc_age                        = ""
+      image_minimum_gc_age                        = ""
+      insecure_kubelet_readonly_port_enabled      = ""
+      max_parallel_image_pulls                    = 0
+      pod_pids_limit                              = 0
+      shutdown_grace_period_critical_pods_seconds = 0
+      shutdown_grace_period_seconds               = 0
+      single_process_oom_kill                     = false
       
       crash_loop_back_off {
         max_container_restart_period = ""
@@ -704,21 +709,23 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         maintenance_interval = ""
       }
       kubelet_config {
-        allowed_unsafe_sysctls                 = []
-        container_log_max_files                = 0
-        container_log_max_size                 = ""
-        cpu_cfs_quota                          = false
-        cpu_cfs_quota_period                   = ""
-        cpu_manager_policy                     = ""
-        eviction_max_pod_grace_period_seconds  = 0
-        image_gc_high_threshold_percent        = 0
-        image_gc_low_threshold_percent         = 0
-        image_maximum_gc_age                   = ""
-        image_minimum_gc_age                   = ""
-        insecure_kubelet_readonly_port_enabled = ""
-        max_parallel_image_pulls               = 0
-        pod_pids_limit                         = 0
-        single_process_oom_kill                = false
+        allowed_unsafe_sysctls                      = []
+        container_log_max_files                     = 0
+        container_log_max_size                      = ""
+        cpu_cfs_quota                               = false
+        cpu_cfs_quota_period                        = ""
+        cpu_manager_policy                          = ""
+        eviction_max_pod_grace_period_seconds       = 0
+        image_gc_high_threshold_percent             = 0
+        image_gc_low_threshold_percent              = 0
+        image_maximum_gc_age                        = ""
+        image_minimum_gc_age                        = ""
+        insecure_kubelet_readonly_port_enabled      = ""
+        max_parallel_image_pulls                    = 0
+        pod_pids_limit                              = 0
+        shutdown_grace_period_critical_pods_seconds = 0
+        shutdown_grace_period_seconds               = 0
+        single_process_oom_kill                     = false
         
         crash_loop_back_off {
           max_container_restart_period = ""

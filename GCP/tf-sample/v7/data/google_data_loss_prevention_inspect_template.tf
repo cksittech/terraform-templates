@@ -1,9 +1,10 @@
 resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-prevention-inspect-template" {
-  deletion_policy = ""
-  description     = ""
-  display_name    = ""
-  parent          = ""
-  template_id     = ""
+  allow_limited_availability_info_types = false
+  deletion_policy                       = ""
+  description                           = ""
+  display_name                          = ""
+  parent                                = ""
+  template_id                           = ""
   
   inspect_config {
     content_options    = []

@@ -14,6 +14,7 @@ resource "google_network_services_lb_route_extension" "tf-sample-network-service
     extensions {
       authority              = ""
       fail_open              = false
+      forward_attributes     = []
       forward_headers        = []
       metadata               = {}
       name                   = ""

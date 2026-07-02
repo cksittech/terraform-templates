@@ -12,11 +12,12 @@ resource "google_network_services_lb_edge_extension" "tf-sample-network-services
     name = ""
     
     extensions {
-      fail_open        = false
-      forward_headers  = []
-      name             = ""
-      service          = ""
-      supported_events = []
+      fail_open          = false
+      forward_attributes = []
+      forward_headers    = []
+      name               = ""
+      service            = ""
+      supported_events   = []
     }
     match_condition {
       cel_expression = ""

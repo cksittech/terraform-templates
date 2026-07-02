@@ -12,14 +12,15 @@ resource "google_network_services_lb_traffic_extension" "tf-sample-network-servi
     name = ""
     
     extensions {
-      authority        = ""
-      fail_open        = false
-      forward_headers  = []
-      metadata         = {}
-      name             = ""
-      service          = ""
-      supported_events = []
-      timeout          = ""
+      authority          = ""
+      fail_open          = false
+      forward_attributes = []
+      forward_headers    = []
+      metadata           = {}
+      name               = ""
+      service            = ""
+      supported_events   = []
+      timeout            = ""
     }
     match_condition {
       cel_expression = ""

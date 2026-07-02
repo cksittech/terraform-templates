@@ -3,6 +3,7 @@ resource "google_dataplex_data_product" "tf-sample-dataplex-data-product" {
   deletion_policy = ""
   description     = ""
   display_name    = ""
+  icon            = ""
   labels          = {}
   location        = ""
   owner_emails    = []

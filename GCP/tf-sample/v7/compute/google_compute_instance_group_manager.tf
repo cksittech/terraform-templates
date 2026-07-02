@@ -24,6 +24,7 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
   instance_lifecycle_policy {
     default_action_on_failure = ""
     force_update_on_repair    = ""
+    on_failed_health_check    = ""
   }
   named_port {
     name = ""
