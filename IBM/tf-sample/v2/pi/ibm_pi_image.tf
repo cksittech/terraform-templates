@@ -15,6 +15,7 @@ resource "ibm_pi_image" "tf-sample-pi-image" {
   pi_image_secret_key        = ""
   pi_image_storage_pool      = ""
   pi_image_storage_type      = ""
+  pi_source_checksum         = false
   pi_user_tags               = []
   
   pi_image_import_details {

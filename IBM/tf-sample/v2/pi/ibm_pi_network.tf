@@ -4,6 +4,7 @@ resource "ibm_pi_network" "tf-sample-pi-network" {
   pi_cidr              = ""
   pi_cloud_instance_id = ""
   pi_dns               = []
+  pi_enable_dhcp       = false
   pi_gateway           = ""
   pi_network_mtu       = 0
   pi_network_name      = ""

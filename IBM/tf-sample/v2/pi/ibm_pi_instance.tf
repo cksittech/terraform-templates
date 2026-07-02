@@ -2,6 +2,7 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_affinity_instance                      = ""
   pi_affinity_policy                        = ""
   pi_affinity_volume                        = ""
+  pi_allow_remote_restart                   = false
   pi_anti_affinity_instances                = []
   pi_anti_affinity_volumes                  = []
   pi_boot_volume_replication_enabled        = false
@@ -40,9 +41,22 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_virtual_optical_device                 = ""
   pi_volume_ids                             = []
   
+  pi_default_trusted_profile {
+    autolink = false
+    
+    target {
+      crn  = ""
+      id   = ""
+      name = ""
+    }
+  }
   pi_deployment_target {
     id   = ""
     type = ""
+  }
+  pi_metadata_service {
+    enabled       = false
+    force_disable = false
   }
   pi_network {
     ip_address                 = ""
