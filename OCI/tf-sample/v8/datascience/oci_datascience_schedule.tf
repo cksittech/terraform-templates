@@ -96,13 +96,14 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
     log_id       = ""
   }
   trigger {
-    cron_expression      = ""
-    frequency            = ""
-    interval             = 0
-    is_random_start_time = false
-    recurrence           = ""
-    time_end             = ""
-    time_start           = ""
-    trigger_type         = ""
+    cron_expression           = ""
+    frequency                 = ""
+    initial_jitter_in_minutes = 0
+    interval                  = 0
+    is_random_start_time      = false
+    recurrence                = ""
+    time_end                  = ""
+    time_start                = ""
+    trigger_type              = ""
   }
 }

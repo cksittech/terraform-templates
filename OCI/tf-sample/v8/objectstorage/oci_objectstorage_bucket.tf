@@ -5,6 +5,7 @@ resource "oci_objectstorage_bucket" "tf-sample-objectstorage-bucket" {
   compartment_id        = ""
   defined_tags          = {}
   freeform_tags         = {}
+  is_bucket_key_enabled = false
   kms_key_id            = ""
   metadata              = {}
   name                  = ""

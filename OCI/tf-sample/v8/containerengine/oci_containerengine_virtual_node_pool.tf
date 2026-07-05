@@ -26,6 +26,11 @@ resource "oci_containerengine_virtual_node_pool" "tf-sample-containerengine-virt
     key    = ""
     value  = ""
   }
+  virtual_node_pool_cycling_details {
+    is_virtual_node_cycling_enabled = false
+    maximum_surge                   = ""
+    maximum_unavailable             = ""
+  }
   virtual_node_tags {
     defined_tags  = {}
     freeform_tags = {}

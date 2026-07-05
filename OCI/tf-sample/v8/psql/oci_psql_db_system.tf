@@ -60,6 +60,10 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
         retention_period = 0
       }
     }
+    pitr_policy {
+      kind         = ""
+      restore_days = 0
+    }
   }
   network_details {
     is_reader_endpoint_enabled     = false
@@ -89,9 +93,11 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   }
   source {
     backup_id                          = ""
+    db_system_id                       = ""
     is_having_restore_config_overrides = false
     primary_db_system_id               = ""
     source_type                        = ""
+    time_to_restore                    = ""
   }
   storage_details {
     availability_domain   = ""

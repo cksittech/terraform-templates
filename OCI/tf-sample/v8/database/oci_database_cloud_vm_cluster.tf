@@ -21,6 +21,7 @@ resource "oci_database_cloud_vm_cluster" "tf-sample-database-cloud-vm-cluster" {
   is_sparse_diskgroup_enabled     = false
   license_model                   = ""
   memory_size_in_gbs              = 0
+  node_count                      = 0
   nsg_ids                         = []
   ocpu_count                      = 0
   private_zone_id                 = ""
