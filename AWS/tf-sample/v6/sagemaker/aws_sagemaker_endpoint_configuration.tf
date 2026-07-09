@@ -48,6 +48,10 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
     variant_name                                      = ""
     volume_size_in_gb                                 = 0
     
+    capacity_reservation_config {
+      capacity_reservation_preference = ""
+      ml_reservation_arn              = ""
+    }
     core_dump_config {
       destination_s3_uri = ""
       kms_key_id         = ""
@@ -79,6 +83,10 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
     variant_name                                      = ""
     volume_size_in_gb                                 = 0
     
+    capacity_reservation_config {
+      capacity_reservation_preference = ""
+      ml_reservation_arn              = ""
+    }
     core_dump_config {
       destination_s3_uri = ""
       kms_key_id         = ""

@@ -11,6 +11,7 @@ resource "aws_mq_broker" "tf-sample-mq-broker" {
   host_instance_type                  = ""
   publicly_accessible                 = false
   region                              = ""
+  resource_share_arns                 = []
   security_groups                     = []
   storage_type                        = ""
   subnet_ids                          = []

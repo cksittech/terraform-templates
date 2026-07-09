@@ -2,6 +2,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   allocated_storage                     = 0
   allow_major_version_upgrade           = false
   apply_immediately                     = false
+  auto_minor_version_upgrade            = false
   availability_zones                    = []
   backtrack_window                      = 0
   backup_retention_period               = 0

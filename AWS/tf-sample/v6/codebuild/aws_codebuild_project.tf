@@ -44,6 +44,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
   environment {
     certificate                 = ""
     compute_type                = ""
+    host_kernel                 = ""
     image                       = ""
     image_pull_credentials_type = ""
     privileged_mode             = false
