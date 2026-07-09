@@ -8,7 +8,7 @@ resource "oci_events_rule" "tf-sample-events-rule" {
   is_enabled     = false
   
   actions {
-    actions {
+    action {
       action_type = ""
       description = ""
       function_id = ""
@@ -16,5 +16,9 @@ resource "oci_events_rule" "tf-sample-events-rule" {
       stream_id   = ""
       topic_id    = ""
     }
+  }
+  condition_details {
+    data        = ""
+    event_types = []
   }
 }
