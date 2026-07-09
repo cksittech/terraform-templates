@@ -30,14 +30,6 @@ resource "tencentcloud_postgresql_instance" "tf-sample-postgresql-instance" {
   vpc_id                      = ""
   wait_switch                 = 0
   
-  backup_plan {
-    backup_period                   = []
-    base_backup_retention_period    = 0
-    max_backup_start_time           = ""
-    min_backup_start_time           = ""
-    monthly_backup_period           = []
-    monthly_backup_retention_period = 0
-  }
   db_node_set {
     dedicated_cluster_id = ""
     role                 = ""

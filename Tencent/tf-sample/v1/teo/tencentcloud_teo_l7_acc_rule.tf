@@ -28,6 +28,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
             value  = ""
           }
         }
+        advanced_origin_routing_parameters {
+          direction = ""
+        }
         authentication_parameters {
           auth_param        = ""
           auth_type         = ""
@@ -189,6 +192,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
         set_content_identifier_parameters {
           content_identifier = ""
         }
+        shield_parameters {
+          shield_space_id = ""
+        }
+        site_failover_parameters {
+          site_failover_status_codes = []
+          
+          site_failover_params {
+            http_origin_port  = 0
+            https_origin_port = 0
+            mode              = ""
+            origin            = ""
+            origin_protocol   = ""
+            private_access    = ""
+            redirect_url      = ""
+            response_page_id  = ""
+            status_code       = 0
+            
+            private_parameters {
+              access_key_id     = ""
+              region            = ""
+              secret_access_key = ""
+              signature_version = ""
+            }
+            upstream_host_header {
+              action      = ""
+              server_name = ""
+            }
+            upstream_http2_parameters {
+              switch = ""
+            }
+            upstream_request_parameters {
+              cookie {
+                action = ""
+                switch = ""
+                values = []
+              }
+              query_string {
+                action = ""
+                switch = ""
+                values = []
+              }
+            }
+            upstream_url_rewrite {
+              action = ""
+              regex  = ""
+              type   = ""
+              value  = ""
+            }
+          }
+        }
         smart_routing_parameters {
           switch = ""
         }
@@ -260,6 +313,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                 regex  = ""
                 value  = ""
               }
+            }
+            advanced_origin_routing_parameters {
+              direction = ""
             }
             authentication_parameters {
               auth_param        = ""
@@ -422,6 +478,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
             set_content_identifier_parameters {
               content_identifier = ""
             }
+            shield_parameters {
+              shield_space_id = ""
+            }
+            site_failover_parameters {
+              site_failover_status_codes = []
+              
+              site_failover_params {
+                http_origin_port  = 0
+                https_origin_port = 0
+                mode              = ""
+                origin            = ""
+                origin_protocol   = ""
+                private_access    = ""
+                redirect_url      = ""
+                response_page_id  = ""
+                status_code       = 0
+                
+                private_parameters {
+                  access_key_id     = ""
+                  region            = ""
+                  secret_access_key = ""
+                  signature_version = ""
+                }
+                upstream_host_header {
+                  action      = ""
+                  server_name = ""
+                }
+                upstream_http2_parameters {
+                  switch = ""
+                }
+                upstream_request_parameters {
+                  cookie {
+                    action = ""
+                    switch = ""
+                    values = []
+                  }
+                  query_string {
+                    action = ""
+                    switch = ""
+                    values = []
+                  }
+                }
+                upstream_url_rewrite {
+                  action = ""
+                  regex  = ""
+                  type   = ""
+                  value  = ""
+                }
+              }
+            }
             smart_routing_parameters {
               switch = ""
             }
@@ -493,6 +599,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                     regex  = ""
                     value  = ""
                   }
+                }
+                advanced_origin_routing_parameters {
+                  direction = ""
                 }
                 authentication_parameters {
                   auth_param        = ""
@@ -655,6 +764,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                 set_content_identifier_parameters {
                   content_identifier = ""
                 }
+                shield_parameters {
+                  shield_space_id = ""
+                }
+                site_failover_parameters {
+                  site_failover_status_codes = []
+                  
+                  site_failover_params {
+                    http_origin_port  = 0
+                    https_origin_port = 0
+                    mode              = ""
+                    origin            = ""
+                    origin_protocol   = ""
+                    private_access    = ""
+                    redirect_url      = ""
+                    response_page_id  = ""
+                    status_code       = 0
+                    
+                    private_parameters {
+                      access_key_id     = ""
+                      region            = ""
+                      secret_access_key = ""
+                      signature_version = ""
+                    }
+                    upstream_host_header {
+                      action      = ""
+                      server_name = ""
+                    }
+                    upstream_http2_parameters {
+                      switch = ""
+                    }
+                    upstream_request_parameters {
+                      cookie {
+                        action = ""
+                        switch = ""
+                        values = []
+                      }
+                      query_string {
+                        action = ""
+                        switch = ""
+                        values = []
+                      }
+                    }
+                    upstream_url_rewrite {
+                      action = ""
+                      regex  = ""
+                      type   = ""
+                      value  = ""
+                    }
+                  }
+                }
                 smart_routing_parameters {
                   switch = ""
                 }
@@ -726,6 +885,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                         regex  = ""
                         value  = ""
                       }
+                    }
+                    advanced_origin_routing_parameters {
+                      direction = ""
                     }
                     authentication_parameters {
                       auth_param        = ""
@@ -888,6 +1050,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                     set_content_identifier_parameters {
                       content_identifier = ""
                     }
+                    shield_parameters {
+                      shield_space_id = ""
+                    }
+                    site_failover_parameters {
+                      site_failover_status_codes = []
+                      
+                      site_failover_params {
+                        http_origin_port  = 0
+                        https_origin_port = 0
+                        mode              = ""
+                        origin            = ""
+                        origin_protocol   = ""
+                        private_access    = ""
+                        redirect_url      = ""
+                        response_page_id  = ""
+                        status_code       = 0
+                        
+                        private_parameters {
+                          access_key_id     = ""
+                          region            = ""
+                          secret_access_key = ""
+                          signature_version = ""
+                        }
+                        upstream_host_header {
+                          action      = ""
+                          server_name = ""
+                        }
+                        upstream_http2_parameters {
+                          switch = ""
+                        }
+                        upstream_request_parameters {
+                          cookie {
+                            action = ""
+                            switch = ""
+                            values = []
+                          }
+                          query_string {
+                            action = ""
+                            switch = ""
+                            values = []
+                          }
+                        }
+                        upstream_url_rewrite {
+                          action = ""
+                          regex  = ""
+                          type   = ""
+                          value  = ""
+                        }
+                      }
+                    }
                     smart_routing_parameters {
                       switch = ""
                     }
@@ -959,6 +1171,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                             regex  = ""
                             value  = ""
                           }
+                        }
+                        advanced_origin_routing_parameters {
+                          direction = ""
                         }
                         authentication_parameters {
                           auth_param        = ""
@@ -1121,6 +1336,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                         set_content_identifier_parameters {
                           content_identifier = ""
                         }
+                        shield_parameters {
+                          shield_space_id = ""
+                        }
+                        site_failover_parameters {
+                          site_failover_status_codes = []
+                          
+                          site_failover_params {
+                            http_origin_port  = 0
+                            https_origin_port = 0
+                            mode              = ""
+                            origin            = ""
+                            origin_protocol   = ""
+                            private_access    = ""
+                            redirect_url      = ""
+                            response_page_id  = ""
+                            status_code       = 0
+                            
+                            private_parameters {
+                              access_key_id     = ""
+                              region            = ""
+                              secret_access_key = ""
+                              signature_version = ""
+                            }
+                            upstream_host_header {
+                              action      = ""
+                              server_name = ""
+                            }
+                            upstream_http2_parameters {
+                              switch = ""
+                            }
+                            upstream_request_parameters {
+                              cookie {
+                                action = ""
+                                switch = ""
+                                values = []
+                              }
+                              query_string {
+                                action = ""
+                                switch = ""
+                                values = []
+                              }
+                            }
+                            upstream_url_rewrite {
+                              action = ""
+                              regex  = ""
+                              type   = ""
+                              value  = ""
+                            }
+                          }
+                        }
                         smart_routing_parameters {
                           switch = ""
                         }
@@ -1192,6 +1457,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                 regex  = ""
                                 value  = ""
                               }
+                            }
+                            advanced_origin_routing_parameters {
+                              direction = ""
                             }
                             authentication_parameters {
                               auth_param        = ""
@@ -1354,6 +1622,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                             set_content_identifier_parameters {
                               content_identifier = ""
                             }
+                            shield_parameters {
+                              shield_space_id = ""
+                            }
+                            site_failover_parameters {
+                              site_failover_status_codes = []
+                              
+                              site_failover_params {
+                                http_origin_port  = 0
+                                https_origin_port = 0
+                                mode              = ""
+                                origin            = ""
+                                origin_protocol   = ""
+                                private_access    = ""
+                                redirect_url      = ""
+                                response_page_id  = ""
+                                status_code       = 0
+                                
+                                private_parameters {
+                                  access_key_id     = ""
+                                  region            = ""
+                                  secret_access_key = ""
+                                  signature_version = ""
+                                }
+                                upstream_host_header {
+                                  action      = ""
+                                  server_name = ""
+                                }
+                                upstream_http2_parameters {
+                                  switch = ""
+                                }
+                                upstream_request_parameters {
+                                  cookie {
+                                    action = ""
+                                    switch = ""
+                                    values = []
+                                  }
+                                  query_string {
+                                    action = ""
+                                    switch = ""
+                                    values = []
+                                  }
+                                }
+                                upstream_url_rewrite {
+                                  action = ""
+                                  regex  = ""
+                                  type   = ""
+                                  value  = ""
+                                }
+                              }
+                            }
                             smart_routing_parameters {
                               switch = ""
                             }
@@ -1425,6 +1743,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                     regex  = ""
                                     value  = ""
                                   }
+                                }
+                                advanced_origin_routing_parameters {
+                                  direction = ""
                                 }
                                 authentication_parameters {
                                   auth_param        = ""
@@ -1587,6 +1908,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                 set_content_identifier_parameters {
                                   content_identifier = ""
                                 }
+                                shield_parameters {
+                                  shield_space_id = ""
+                                }
+                                site_failover_parameters {
+                                  site_failover_status_codes = []
+                                  
+                                  site_failover_params {
+                                    http_origin_port  = 0
+                                    https_origin_port = 0
+                                    mode              = ""
+                                    origin            = ""
+                                    origin_protocol   = ""
+                                    private_access    = ""
+                                    redirect_url      = ""
+                                    response_page_id  = ""
+                                    status_code       = 0
+                                    
+                                    private_parameters {
+                                      access_key_id     = ""
+                                      region            = ""
+                                      secret_access_key = ""
+                                      signature_version = ""
+                                    }
+                                    upstream_host_header {
+                                      action      = ""
+                                      server_name = ""
+                                    }
+                                    upstream_http2_parameters {
+                                      switch = ""
+                                    }
+                                    upstream_request_parameters {
+                                      cookie {
+                                        action = ""
+                                        switch = ""
+                                        values = []
+                                      }
+                                      query_string {
+                                        action = ""
+                                        switch = ""
+                                        values = []
+                                      }
+                                    }
+                                    upstream_url_rewrite {
+                                      action = ""
+                                      regex  = ""
+                                      type   = ""
+                                      value  = ""
+                                    }
+                                  }
+                                }
                                 smart_routing_parameters {
                                   switch = ""
                                 }
@@ -1658,6 +2029,9 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                         regex  = ""
                                         value  = ""
                                       }
+                                    }
+                                    advanced_origin_routing_parameters {
+                                      direction = ""
                                     }
                                     authentication_parameters {
                                       auth_param        = ""
@@ -1819,6 +2193,56 @@ resource "tencentcloud_teo_l7_acc_rule" "tf-sample-teo-l7-acc-rule" {
                                     }
                                     set_content_identifier_parameters {
                                       content_identifier = ""
+                                    }
+                                    shield_parameters {
+                                      shield_space_id = ""
+                                    }
+                                    site_failover_parameters {
+                                      site_failover_status_codes = []
+                                      
+                                      site_failover_params {
+                                        http_origin_port  = 0
+                                        https_origin_port = 0
+                                        mode              = ""
+                                        origin            = ""
+                                        origin_protocol   = ""
+                                        private_access    = ""
+                                        redirect_url      = ""
+                                        response_page_id  = ""
+                                        status_code       = 0
+                                        
+                                        private_parameters {
+                                          access_key_id     = ""
+                                          region            = ""
+                                          secret_access_key = ""
+                                          signature_version = ""
+                                        }
+                                        upstream_host_header {
+                                          action      = ""
+                                          server_name = ""
+                                        }
+                                        upstream_http2_parameters {
+                                          switch = ""
+                                        }
+                                        upstream_request_parameters {
+                                          cookie {
+                                            action = ""
+                                            switch = ""
+                                            values = []
+                                          }
+                                          query_string {
+                                            action = ""
+                                            switch = ""
+                                            values = []
+                                          }
+                                        }
+                                        upstream_url_rewrite {
+                                          action = ""
+                                          regex  = ""
+                                          type   = ""
+                                          value  = ""
+                                        }
+                                      }
                                     }
                                     smart_routing_parameters {
                                       switch = ""

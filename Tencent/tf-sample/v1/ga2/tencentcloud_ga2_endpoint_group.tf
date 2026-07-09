@@ -20,6 +20,7 @@ resource "tencentcloud_ga2_endpoint_group" "tf-sample-ga2-endpoint-group" {
     forward_protocol      = ""
     health_check_interval = 0
     healthy_threshold     = 0
+    http_version          = ""
     isp_type              = ""
     name                  = ""
     status_mask           = []

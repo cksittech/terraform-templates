@@ -108,6 +108,24 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
           disk_type = ""
         }
       }
+      router_resource_spec {
+        _node_index   = ""
+        instance_type = ""
+        
+        data_disk {
+          _disk_index = ""
+          disk_size   = 0
+          disk_type   = ""
+        }
+        software {
+          roles    = []
+          services = ""
+        }
+        system_disk {
+          disk_size = 0
+          disk_type = ""
+        }
+      }
       task_resource_spec {
         _node_index   = ""
         instance_type = ""

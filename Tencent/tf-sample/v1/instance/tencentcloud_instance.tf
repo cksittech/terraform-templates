@@ -46,7 +46,9 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   stop_type                               = ""
   stopped_mode                            = ""
   subnet_id                               = ""
+  system_disk_encrypt                     = false
   system_disk_id                          = ""
+  system_disk_kms_key_id                  = ""
   system_disk_name                        = ""
   system_disk_resize_online               = false
   system_disk_size                        = 0

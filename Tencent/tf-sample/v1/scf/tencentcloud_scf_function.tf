@@ -41,6 +41,26 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
     image_uri                  = ""
     registry_id                = ""
   }
+  instance_concurrency_config {
+    dynamic_enabled            = ""
+    instance_isolation_enabled = ""
+    max_concurrency            = 0
+    type                       = ""
+    
+    mix_node_config {
+      node_spec = ""
+      num       = 0
+    }
+    session_config {
+      idle_timeout_strategy                    = ""
+      maximum_concurrency_session_per_instance = 0
+      maximum_idle_time_in_seconds             = 0
+      maximum_ttl_in_seconds                   = 0
+      session_name                             = ""
+      session_path                             = ""
+      session_source                           = ""
+    }
+  }
   intranet_config {
     ip_fixed = ""
   }
