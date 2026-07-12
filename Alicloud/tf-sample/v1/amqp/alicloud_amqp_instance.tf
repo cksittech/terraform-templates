@@ -1,4 +1,5 @@
 resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
+  auth_model             = ""
   auto_renew             = false
   edition                = ""
   instance_name          = ""
