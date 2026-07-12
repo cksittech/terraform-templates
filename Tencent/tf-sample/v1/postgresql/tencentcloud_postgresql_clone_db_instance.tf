@@ -3,6 +3,7 @@ resource "tencentcloud_postgresql_clone_db_instance" "tf-sample-postgresql-clone
   auto_renew_flag      = 0
   backup_set_id        = ""
   db_instance_id       = ""
+  deletion_protection  = false
   instance_charge_type = ""
   name                 = ""
   period               = 0
@@ -20,8 +21,6 @@ resource "tencentcloud_postgresql_clone_db_instance" "tf-sample-postgresql-clone
     role                 = ""
     zone                 = ""
   }
-  tag_list {
-    tag_key   = ""
-    tag_value = ""
-  }
+  
+  tags = {}
 }

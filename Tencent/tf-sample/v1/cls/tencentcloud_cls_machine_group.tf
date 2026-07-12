@@ -1,6 +1,8 @@
 resource "tencentcloud_cls_machine_group" "tf-sample-cls-machine-group" {
   auto_update       = false
   group_name        = ""
+  meta_tags         = {}
+  ostype            = 0
   service_logging   = false
   update_end_time   = ""
   update_start_time = ""

@@ -7,5 +7,6 @@ resource "tencentcloud_kubernetes_cluster_endpoint" "tf-sample-kubernetes-cluste
   cluster_intranet_domain         = ""
   cluster_intranet_security_group = ""
   cluster_intranet_subnet_id      = ""
+  existed_load_balancer_id        = ""
   extensive_parameters            = ""
 }
