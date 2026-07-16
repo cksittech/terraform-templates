@@ -177,6 +177,10 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     enable_secure_boot          = false
     enable_vtpm                 = false
   }
+  workload_identity_config {
+    identity                     = ""
+    identity_certificate_enabled = false
+  }
   
   tags = {}
 }

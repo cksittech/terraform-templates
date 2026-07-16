@@ -19,6 +19,11 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     total_max_node_count = 0
     total_min_node_count = 0
   }
+  maintenance_policy {
+    exclusion_until_end_of_support {
+      enabled = false
+    }
+  }
   management {
     auto_repair  = false
     auto_upgrade = false
@@ -220,6 +225,13 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       
       accurate_time_config {
         enable_ptp_kvm_time_sync = false
+      }
+      custom_node_init {
+        init_script {
+          gcp_secret_manager_secret_uri = ""
+          gcs_generation                = 0
+          gcs_uri                       = ""
+        }
       }
       hugepages_config {
         hugepage_size_1g = 0

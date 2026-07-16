@@ -108,10 +108,11 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
       }
     }
     azure_blob_storage_data_source {
-      container          = ""
-      credentials_secret = ""
-      path               = ""
-      storage_account    = ""
+      container               = ""
+      credentials_secret      = ""
+      path                    = ""
+      private_network_service = ""
+      storage_account         = ""
       
       azure_credentials {
         sas_token = ""

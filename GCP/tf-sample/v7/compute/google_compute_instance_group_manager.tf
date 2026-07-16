@@ -25,6 +25,10 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
     default_action_on_failure = ""
     force_update_on_repair    = ""
     on_failed_health_check    = ""
+    
+    on_repair {
+      allow_changing_zone = ""
+    }
   }
   named_port {
     name = ""

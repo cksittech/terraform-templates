@@ -257,6 +257,21 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         scope             = ""
       }
     }
+    recurring_maintenance_window {
+      recurrence      = ""
+      window_duration = ""
+      
+      delay_until {
+        day   = 0
+        month = 0
+        year  = 0
+      }
+      window_start_time {
+        hours   = 0
+        minutes = 0
+        seconds = 0
+      }
+    }
     recurring_window {
       end_time   = ""
       recurrence = ""
@@ -476,6 +491,13 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       accurate_time_config {
         enable_ptp_kvm_time_sync = false
       }
+      custom_node_init {
+        init_script {
+          gcp_secret_manager_secret_uri = ""
+          gcs_generation                = 0
+          gcs_uri                       = ""
+        }
+      }
       hugepages_config {
         hugepage_size_1g = 0
         hugepage_size_2m = 0
@@ -568,6 +590,11 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       min_node_count       = 0
       total_max_node_count = 0
       total_min_node_count = 0
+    }
+    maintenance_policy {
+      exclusion_until_end_of_support {
+        enabled = false
+      }
     }
     management {
       auto_repair  = false
@@ -770,6 +797,13 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         
         accurate_time_config {
           enable_ptp_kvm_time_sync = false
+        }
+        custom_node_init {
+          init_script {
+            gcp_secret_manager_secret_uri = ""
+            gcs_generation                = 0
+            gcs_uri                       = ""
+          }
         }
         hugepages_config {
           hugepage_size_1g = 0

@@ -2,6 +2,7 @@ resource "google_oracle_database_exascale_db_storage_vault" "tf-sample-oracle-da
   deletion_policy              = ""
   deletion_protection          = false
   display_name                 = ""
+  exadata_infrastructure       = ""
   exascale_db_storage_vault_id = ""
   gcp_oracle_zone              = ""
   labels                       = {}

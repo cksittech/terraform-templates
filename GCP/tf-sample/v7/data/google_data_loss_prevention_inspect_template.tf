@@ -70,6 +70,14 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
         }
       }
     }
+    min_likelihood_per_info_type {
+      min_likelihood = ""
+      
+      info_type {
+        name    = ""
+        version = ""
+      }
+    }
     rule_set {
       info_types {
         name    = ""

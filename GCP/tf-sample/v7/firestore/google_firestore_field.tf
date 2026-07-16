@@ -4,6 +4,7 @@ resource "google_firestore_field" "tf-sample-firestore-field" {
   deletion_policy = ""
   field           = ""
   project         = ""
+  skip_wait       = false
   
   index_config {
     indexes {

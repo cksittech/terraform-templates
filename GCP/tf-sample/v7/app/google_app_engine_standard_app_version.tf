@@ -1,18 +1,19 @@
 resource "google_app_engine_standard_app_version" "tf-sample-app-engine-standard-app-version" {
-  app_engine_apis           = false
-  delete_service_on_destroy = false
-  deletion_policy           = ""
-  env_variables             = {}
-  inbound_services          = []
-  instance_class            = ""
-  noop_on_destroy           = false
-  project                   = ""
-  runtime                   = ""
-  runtime_api_version       = ""
-  service                   = ""
-  service_account           = ""
-  threadsafe                = false
-  version_id                = ""
+  app_engine_apis             = false
+  app_engine_bundled_services = []
+  delete_service_on_destroy   = false
+  deletion_policy             = ""
+  env_variables               = {}
+  inbound_services            = []
+  instance_class              = ""
+  noop_on_destroy             = false
+  project                     = ""
+  runtime                     = ""
+  runtime_api_version         = ""
+  service                     = ""
+  service_account             = ""
+  threadsafe                  = false
+  version_id                  = ""
   
   automatic_scaling {
     max_concurrent_requests = 0

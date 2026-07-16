@@ -1,21 +1,22 @@
 resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
-  backupdr_backup          = ""
-  database_version         = ""
-  deletion_policy          = ""
-  deletion_protection      = false
-  encryption_key_name      = ""
-  final_backup_description = ""
-  instance_type            = ""
-  maintenance_version      = ""
-  master_instance_name     = ""
-  name                     = ""
-  node_count               = 0
-  project                  = ""
-  region                   = ""
-  replica_names            = []
-  root_password            = ""
-  root_password_wo         = ""
-  root_password_wo_version = ""
+  backupdr_backup                      = ""
+  database_version                     = ""
+  deletion_policy                      = ""
+  deletion_protection                  = false
+  encryption_key_name                  = ""
+  enforce_new_sql_network_architecture = false
+  final_backup_description             = ""
+  instance_type                        = ""
+  maintenance_version                  = ""
+  master_instance_name                 = ""
+  name                                 = ""
+  node_count                           = 0
+  project                              = ""
+  region                               = ""
+  replica_names                        = []
+  root_password                        = ""
+  root_password_wo                     = ""
+  root_password_wo_version             = ""
   
   clone {
     allocated_ip_range            = ""
@@ -156,11 +157,12 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
         value           = ""
       }
       psc_config {
-        allowed_consumer_projects      = []
-        network_attachment_uri         = ""
-        psc_auto_dns_enabled           = false
-        psc_enabled                    = false
-        psc_write_endpoint_dns_enabled = false
+        allowed_consumer_projects          = []
+        network_attachment_uri             = ""
+        psc_auto_connection_policy_enabled = false
+        psc_auto_dns_enabled               = false
+        psc_enabled                        = false
+        psc_write_endpoint_dns_enabled     = false
         
         psc_auto_connections {
           consumer_network            = ""

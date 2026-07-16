@@ -15,7 +15,9 @@ resource "google_compute_region_network_firewall_policy_with_rules" "tf-sample-c
     priority                = 0
     rule_name               = ""
     security_profile_group  = ""
+    target_forwarding_rules = []
     target_service_accounts = []
+    target_type             = ""
     tls_inspect             = false
     
     match {
