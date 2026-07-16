@@ -36,6 +36,7 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
     target_kafka_cluster_arn = ""
     
     consumer_group_replication {
+      consumer_group_offset_sync_mode     = ""
       consumer_groups_to_exclude          = []
       consumer_groups_to_replicate        = []
       detect_and_copy_new_consumer_groups = false
