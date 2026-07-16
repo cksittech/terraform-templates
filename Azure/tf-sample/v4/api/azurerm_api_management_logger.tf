@@ -8,6 +8,7 @@ resource "azurerm_api_management_logger" "tf-sample-api-management-logger" {
   
   application_insights {
     connection_string   = ""
+    identity_client_id  = ""
     instrumentation_key = ""
   }
   eventhub {

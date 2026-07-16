@@ -55,16 +55,16 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
     storage_account_uri = ""
   }
   data_disk {
-    caching                        = ""
-    create_option                  = ""
-    disk_encryption_set_id         = ""
-    disk_size_gb                   = 0
-    lun                            = 0
-    name                           = ""
-    storage_account_type           = ""
-    ultra_ssd_disk_iops_read_write = 0
-    ultra_ssd_disk_mbps_read_write = 0
-    write_accelerator_enabled      = false
+    caching                   = ""
+    create_option             = ""
+    disk_encryption_set_id    = ""
+    disk_iops_read_write      = 0
+    disk_mbps_read_write      = 0
+    disk_size_gb              = 0
+    lun                       = 0
+    name                      = ""
+    storage_account_type      = ""
+    write_accelerator_enabled = false
   }
   extension {
     auto_upgrade_minor_version = false

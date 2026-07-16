@@ -16,6 +16,7 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
   storage_account_access_key               = ""
   storage_account_name                     = ""
   storage_account_share_name               = ""
+  storage_key_vault_secret_id              = ""
   use_extension_bundle                     = false
   version                                  = ""
   virtual_network_subnet_id                = ""
