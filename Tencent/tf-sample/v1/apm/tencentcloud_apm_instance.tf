@@ -27,6 +27,7 @@ resource "tencentcloud_apm_instance" "tf-sample-apm-instance" {
   log_region                            = ""
   log_set                               = ""
   log_source                            = ""
+  log_span_id_key                       = ""
   log_topic_id                          = ""
   log_trace_id_key                      = ""
   name                                  = ""

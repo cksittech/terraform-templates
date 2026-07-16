@@ -2,6 +2,7 @@ resource "tencentcloud_ckafka_instance" "tf-sample-ckafka-instance" {
   band_width               = 0
   charge_type              = ""
   custom_ssl_cert_id       = ""
+  delete_protection_enable = 0
   disk_size                = 0
   disk_type                = ""
   elastic_bandwidth_switch = 0

@@ -35,6 +35,7 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   launch_template_id                      = ""
   launch_template_version                 = 0
   orderly_security_groups                 = []
+  partition_number                        = 0
   password                                = ""
   placement_group_id                      = ""
   private_ip                              = ""

@@ -11,4 +11,6 @@ resource "tencentcloud_cls_cloud_product_log_task_v2" "tf-sample-cls-cloud-produ
   logset_name          = ""
   topic_id             = ""
   topic_name           = ""
+  
+  tags = {}
 }
