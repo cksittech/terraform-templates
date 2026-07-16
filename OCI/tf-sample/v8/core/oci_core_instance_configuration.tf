@@ -6,6 +6,21 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
   instance_id    = ""
   source         = ""
   
+  gmc_configs {
+    availability_domain       = ""
+    compartment_id            = ""
+    defined_tags              = {}
+    display_name              = ""
+    freeform_tags             = {}
+    instance_configuration_id = ""
+    size                      = ""
+    
+    gpu_memory_cluster_scale_config {
+      is_downsize_enabled = false
+      is_upsize_enabled   = false
+      target_size         = ""
+    }
+  }
   instance_details {
     instance_type = ""
     

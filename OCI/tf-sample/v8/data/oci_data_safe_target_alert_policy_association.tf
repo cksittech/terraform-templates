@@ -7,4 +7,5 @@ resource "oci_data_safe_target_alert_policy_association" "tf-sample-data-safe-ta
   is_enabled     = false
   policy_id      = ""
   target_id      = ""
+  target_type    = ""
 }

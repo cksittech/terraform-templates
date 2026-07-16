@@ -76,6 +76,11 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
     secret_type       = ""
     username          = ""
   }
+  security_context {
+    fs_group               = 0
+    fs_group_change_policy = ""
+    security_context_type  = ""
+  }
   shape_config {
     memory_in_gbs = 0
     ocpus         = 0
@@ -94,12 +99,31 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
   volumes {
     backing_store = ""
     name          = ""
+    subnet_id     = ""
     volume_type   = ""
     
     configs {
       data      = ""
       file_name = ""
       path      = ""
+    }
+    export {
+      id                  = ""
+      oci_fss_export_type = ""
+    }
+    mount_command {
+      mount_options {
+        option = ""
+        value  = ""
+      }
+    }
+    mount_target {
+      id                        = ""
+      oci_fss_mount_target_type = ""
+    }
+    security {
+      auth                    = ""
+      is_encrypted_in_transit = false
     }
   }
 }
