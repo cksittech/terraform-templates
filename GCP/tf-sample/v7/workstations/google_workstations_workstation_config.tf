@@ -46,6 +46,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
       disable_public_ip_addresses  = false
       disable_ssh                  = false
       enable_nested_virtualization = false
+      instance_metadata            = {}
       machine_type                 = ""
       pool_size                    = 0
       service_account              = ""

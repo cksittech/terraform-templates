@@ -10,6 +10,10 @@ resource "google_access_context_manager_service_perimeter_ingress_policy" "tf-sa
     sources {
       access_level = ""
       resource     = ""
+      
+      psc_endpoint {
+        forwarding_rule = ""
+      }
     }
   }
   ingress_to {

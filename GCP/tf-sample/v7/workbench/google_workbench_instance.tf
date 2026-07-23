@@ -2,6 +2,7 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
   deletion_policy             = ""
   desired_state               = ""
   disable_proxy_access        = false
+  enable_deletion_protection  = false
   enable_managed_euc          = false
   enable_third_party_identity = false
   instance_id                 = ""
@@ -16,6 +17,7 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
     enable_ip_forwarding = false
     machine_type         = ""
     metadata             = {}
+    min_cpu_platform     = ""
     
     accelerator_configs {
       core_count = ""
@@ -35,10 +37,11 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
       tag        = ""
     }
     data_disks {
-      disk_encryption = ""
-      disk_size_gb    = ""
-      disk_type       = ""
-      kms_key         = ""
+      disk_encryption   = ""
+      disk_size_gb      = ""
+      disk_type         = ""
+      kms_key           = ""
+      resource_policies = []
     }
     network_interfaces {
       network  = ""

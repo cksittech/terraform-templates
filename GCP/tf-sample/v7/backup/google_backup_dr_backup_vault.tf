@@ -9,6 +9,7 @@ resource "google_backup_dr_backup_vault" "tf-sample-backup-dr-backup-vault" {
   description                                = ""
   effective_time                             = ""
   force_update                               = false
+  force_update_access_restriction            = false
   ignore_backup_plan_references              = false
   ignore_inactive_datasources                = false
   labels                                     = {}

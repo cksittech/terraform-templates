@@ -25,6 +25,10 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
           sources {
             access_level = ""
             resource     = ""
+            
+            psc_endpoint {
+              forwarding_rule = ""
+            }
           }
         }
         egress_to {
@@ -52,6 +56,10 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
           sources {
             access_level = ""
             resource     = ""
+            
+            psc_endpoint {
+              forwarding_rule = ""
+            }
           }
         }
         ingress_to {
@@ -69,8 +77,21 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
         }
       }
       vpc_accessible_services {
-        allowed_services   = []
-        enable_restriction = false
+        allowed_services                    = []
+        enable_restriction                  = false
+        service_patterns_enforcement_scopes = []
+        
+        allowed_service_patterns {
+          pattern = ""
+          service = ""
+          
+          modifiers {
+            add_request_header {
+              key   = ""
+              value = ""
+            }
+          }
+        }
       }
     }
     status {
@@ -89,6 +110,10 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
           sources {
             access_level = ""
             resource     = ""
+            
+            psc_endpoint {
+              forwarding_rule = ""
+            }
           }
         }
         egress_to {
@@ -116,6 +141,10 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
           sources {
             access_level = ""
             resource     = ""
+            
+            psc_endpoint {
+              forwarding_rule = ""
+            }
           }
         }
         ingress_to {
@@ -133,8 +162,21 @@ resource "google_access_context_manager_service_perimeters" "tf-sample-access-co
         }
       }
       vpc_accessible_services {
-        allowed_services   = []
-        enable_restriction = false
+        allowed_services                    = []
+        enable_restriction                  = false
+        service_patterns_enforcement_scopes = []
+        
+        allowed_service_patterns {
+          pattern = ""
+          service = ""
+          
+          modifiers {
+            add_request_header {
+              key   = ""
+              value = ""
+            }
+          }
+        }
       }
     }
   }

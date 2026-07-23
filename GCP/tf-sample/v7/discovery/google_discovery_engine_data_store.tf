@@ -26,12 +26,14 @@ resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-s
       digital_parsing_config {
       }
       layout_parsing_config {
-        enable_image_annotation  = false
-        enable_table_annotation  = false
-        exclude_html_classes     = []
-        exclude_html_elements    = []
-        exclude_html_ids         = []
-        structured_content_types = []
+        enable_get_processed_document = false
+        enable_image_annotation       = false
+        enable_llm_layout_parsing     = false
+        enable_table_annotation       = false
+        exclude_html_classes          = []
+        exclude_html_elements         = []
+        exclude_html_ids              = []
+        structured_content_types      = []
       }
       ocr_parsing_config {
         use_native_text = false
@@ -43,12 +45,14 @@ resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-s
       digital_parsing_config {
       }
       layout_parsing_config {
-        enable_image_annotation  = false
-        enable_table_annotation  = false
-        exclude_html_classes     = []
-        exclude_html_elements    = []
-        exclude_html_ids         = []
-        structured_content_types = []
+        enable_get_processed_document = false
+        enable_image_annotation       = false
+        enable_llm_layout_parsing     = false
+        enable_table_annotation       = false
+        exclude_html_classes          = []
+        exclude_html_elements         = []
+        exclude_html_ids              = []
+        structured_content_types      = []
       }
       ocr_parsing_config {
         use_native_text = false

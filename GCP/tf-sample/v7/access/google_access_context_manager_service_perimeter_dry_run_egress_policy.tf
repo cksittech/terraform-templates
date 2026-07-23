@@ -11,6 +11,10 @@ resource "google_access_context_manager_service_perimeter_dry_run_egress_policy"
     sources {
       access_level = ""
       resource     = ""
+      
+      psc_endpoint {
+        forwarding_rule = ""
+      }
     }
   }
   egress_to {
