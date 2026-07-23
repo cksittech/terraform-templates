@@ -27,6 +27,8 @@ resource "aws_s3tables_table" "tf-sample-s3tables-table" {
   
   metadata {
     iceberg {
+      properties = {}
+      
       schema {
         field {
           name     = ""

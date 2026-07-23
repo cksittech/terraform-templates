@@ -10,6 +10,31 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
     kendra_knowledge_base_configuration {
       kendra_index_arn = ""
     }
+    managed_knowledge_base_configuration {
+      embedding_model_arn  = ""
+      embedding_model_type = ""
+      
+      embedding_model_configuration {
+        bedrock_embedding_model_configuration {
+          dimensions          = 0
+          embedding_data_type = ""
+          
+          audio {
+            segmentation_configuration {
+              fixed_length_duration = 0
+            }
+          }
+          video {
+            segmentation_configuration {
+              fixed_length_duration = 0
+            }
+          }
+        }
+      }
+      server_side_encryption_configuration {
+        kms_key_arn = ""
+      }
+    }
     sql_knowledge_base_configuration {
       type = ""
       
@@ -75,6 +100,17 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
         bedrock_embedding_model_configuration {
           dimensions          = 0
           embedding_data_type = ""
+          
+          audio {
+            segmentation_configuration {
+              fixed_length_duration = 0
+            }
+          }
+          video {
+            segmentation_configuration {
+              fixed_length_duration = 0
+            }
+          }
         }
       }
       supplemental_data_storage_configuration {

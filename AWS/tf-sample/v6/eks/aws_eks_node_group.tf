@@ -52,6 +52,12 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
     max_unavailable_percentage = 0
     update_strategy            = ""
   }
+  warm_pool_config {
+    max_group_prepared_capacity = 0
+    min_size                    = 0
+    pool_state                  = ""
+    reuse_on_scale_in           = false
+  }
   
   tags = {}
 }

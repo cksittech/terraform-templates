@@ -29,6 +29,25 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
         host_url               = ""
       }
     }
+    managed_knowledge_base_connector_configuration {
+      connector_parameters = ""
+      
+      deletion_protection_configuration {
+        deletion_protection_status    = ""
+        deletion_protection_threshold = 0
+      }
+      media_extraction_configuration {
+        audio_extraction_configuration {
+          audio_extraction_status = ""
+        }
+        image_extraction_configuration {
+          image_extraction_status = ""
+        }
+        video_extraction_configuration {
+          video_extraction_status = ""
+        }
+      }
+    }
     s3_configuration {
       bucket_arn              = ""
       bucket_owner_account_id = ""

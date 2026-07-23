@@ -52,6 +52,11 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
     notification_target_arn = ""
     role_arn                = ""
   }
+  instance_lifecycle_policy {
+    retention_triggers {
+      terminate_hook_abandon = ""
+    }
+  }
   instance_maintenance_policy {
     max_healthy_percentage = 0
     min_healthy_percentage = 0

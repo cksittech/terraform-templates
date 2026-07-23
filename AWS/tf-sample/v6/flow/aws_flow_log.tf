@@ -19,6 +19,10 @@ resource "aws_flow_log" "tf-sample-flow-log" {
     hive_compatible_partitions = false
     per_hour_partition         = false
   }
+  tag_field_specification {
+    resource_type = ""
+    tag_keys      = []
+  }
   
   tags = {}
 }
