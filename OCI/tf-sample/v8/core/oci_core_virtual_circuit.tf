@@ -14,6 +14,7 @@ resource "oci_core_virtual_circuit" "tf-sample-core-virtual-circuit" {
   provider_service_key_name = ""
   region                    = ""
   routing_policy            = []
+  traffic_mode              = ""
   type                      = ""
   
   cross_connect_mappings {
