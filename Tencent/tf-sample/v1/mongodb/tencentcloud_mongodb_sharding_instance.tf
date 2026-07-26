@@ -3,6 +3,7 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
   availability_zone_list = []
   available_zone         = ""
   charge_type            = ""
+  cpu                    = 0
   engine_version         = ""
   hidden_zone            = ""
   in_maintenance         = 0
@@ -21,6 +22,16 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""
+  
+  add_node_list {
+    role = ""
+    zone = ""
+  }
+  remove_node_list {
+    node_name = ""
+    role      = ""
+    zone      = ""
+  }
   
   tags = {}
 }

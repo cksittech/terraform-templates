@@ -3,6 +3,7 @@ resource "tencentcloud_mongodb_instance" "tf-sample-mongodb-instance" {
   availability_zone_list = []
   available_zone         = ""
   charge_type            = ""
+  cpu                    = 0
   engine_version         = ""
   hidden_zone            = ""
   in_maintenance         = 0

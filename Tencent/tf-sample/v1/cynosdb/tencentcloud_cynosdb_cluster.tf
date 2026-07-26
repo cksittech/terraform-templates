@@ -16,6 +16,7 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
   instance_maintain_start_time = 0
   instance_maintain_weekdays   = []
   instance_memory_size         = 0
+  instance_name                = ""
   max_cpu                      = 0
   min_cpu                      = 0
   old_ip_reserve_hours         = 0
