@@ -1,4 +1,5 @@
 resource "alicloud_apig_gateway" "tf-sample-apig-gateway" {
+  gateway_edition   = ""
   gateway_name      = ""
   gateway_type      = ""
   payment_type      = ""

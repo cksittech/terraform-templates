@@ -13,6 +13,8 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   instance_class                                 = ""
   instance_type                                  = ""
   intranet_bandwidth                             = 0
+  maintain_end_time                              = ""
+  maintain_start_time                            = ""
   modify_mode                                    = ""
   node_type                                      = ""
   param_no_loose_sentinel_enabled                = ""

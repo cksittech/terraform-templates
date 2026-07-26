@@ -3,7 +3,9 @@ resource "alicloud_cs_serverless_kubernetes" "tf-sample-cs-serverless-kubernetes
   create_v2_cluster              = false
   custom_san                     = ""
   deletion_protection            = false
+  disable_encryption             = false
   enable_rrsa                    = false
+  encryption_provider_key        = ""
   endpoint_public_access_enabled = false
   force_update                   = false
   name                           = ""

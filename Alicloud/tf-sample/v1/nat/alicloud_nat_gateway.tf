@@ -1,4 +1,5 @@
 resource "alicloud_nat_gateway" "tf-sample-nat-gateway" {
+  availability_mode    = ""
   deletion_protection  = false
   description          = ""
   dry_run              = false
