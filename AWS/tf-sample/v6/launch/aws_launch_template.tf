@@ -148,6 +148,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     delete_on_termination        = ""
     description                  = ""
     device_index                 = 0
+    ena_queue_count              = 0
     interface_type               = ""
     ipv4_address_count           = 0
     ipv4_addresses               = []

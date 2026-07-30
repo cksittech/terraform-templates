@@ -20,11 +20,13 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     
     action {
       category           = ""
+      commands           = []
       configuration      = {}
       input_artifacts    = []
       name               = ""
       namespace          = ""
       output_artifacts   = []
+      output_variables   = []
       owner              = ""
       provider           = ""
       region             = ""
@@ -32,6 +34,11 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
       run_order          = 0
       timeout_in_minutes = 0
       version            = ""
+      
+      output_artifacts_for_compute_action {
+        files = []
+        name  = ""
+      }
     }
     before_entry {
       condition {
