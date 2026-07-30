@@ -14,6 +14,7 @@ resource "oci_database_exadb_vm_cluster" "tf-sample-database-exadb-vm-cluster" {
   license_model                = ""
   nsg_ids                      = []
   private_zone_id              = ""
+  register_pkcs_trigger        = 0
   scan_listener_port_tcp       = 0
   scan_listener_port_tcp_ssl   = 0
   security_attributes          = {}
@@ -23,7 +24,9 @@ resource "oci_database_exadb_vm_cluster" "tf-sample-database-exadb-vm-cluster" {
   subnet_id                    = ""
   subscription_id              = ""
   system_version               = ""
+  tde_key_store_type           = ""
   time_zone                    = ""
+  unregister_pkcs_trigger      = 0
   
   data_collection_options {
     is_diagnostics_events_enabled = false

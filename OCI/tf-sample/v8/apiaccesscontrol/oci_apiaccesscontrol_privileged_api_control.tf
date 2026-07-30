@@ -10,6 +10,10 @@ resource "oci_apiaccesscontrol_privileged_api_control" "tf-sample-apiaccesscontr
   resource_type          = ""
   resources              = []
   
+  approver_group_level_list {
+    group_id    = []
+    group_level = 0
+  }
   privileged_operation_list {
     api_name        = ""
     attribute_names = []

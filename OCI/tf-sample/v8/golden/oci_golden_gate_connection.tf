@@ -38,12 +38,15 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   key_id                                      = ""
   key_store_password_secret_id                = ""
   key_store_secret_id                         = ""
+  max_input_chars                             = 0
+  model_key                                   = ""
   nsg_ids                                     = []
   password_secret_id                          = ""
   port                                        = 0
   private_key_file_secret_id                  = ""
   private_key_passphrase_secret_id            = ""
   producer_properties                         = ""
+  provider_type                               = ""
   public_key_fingerprint                      = ""
   redis_cluster_id                            = ""
   region                                      = ""
@@ -89,6 +92,16 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   additional_attributes {
     name  = ""
     value = ""
+  }
+  auth_details {
+    api_key           = ""
+    api_key_secret_id = ""
+    auth_type         = ""
+    base_url          = ""
+    key_fingerprint   = ""
+    region            = ""
+    tenancy_id        = ""
+    user_id           = ""
   }
   bootstrap_servers {
     host = ""
