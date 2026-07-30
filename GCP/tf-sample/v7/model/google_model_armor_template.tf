@@ -39,6 +39,10 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
     log_sanitize_operations                  = false
     log_template_operations                  = false
     
+    filter_version_selector {
+      alias   = ""
+      version = ""
+    }
     multi_language_detection {
       enable_multi_language_detection = false
     }

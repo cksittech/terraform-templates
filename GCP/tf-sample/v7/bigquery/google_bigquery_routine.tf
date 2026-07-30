@@ -19,6 +19,13 @@ resource "google_bigquery_routine" "tf-sample-bigquery-routine" {
     data_type     = ""
     mode          = ""
     name          = ""
+    
+    table_type {
+      columns {
+        name = ""
+        type = ""
+      }
+    }
   }
   remote_function_options {
     connection           = ""

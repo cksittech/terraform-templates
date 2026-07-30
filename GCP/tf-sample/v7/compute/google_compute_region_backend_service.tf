@@ -116,6 +116,13 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     optional_fields = []
     optional_mode   = ""
     sample_rate     = 0
+    
+    request_headers {
+      header_name = ""
+    }
+    response_headers {
+      header_name = ""
+    }
   }
   network_pass_through_lb_traffic_policy {
     zonal_affinity {

@@ -1,14 +1,16 @@
 resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
-  annotations         = {}
-  client              = ""
-  client_version      = ""
-  deletion_policy     = ""
-  deletion_protection = false
-  labels              = {}
-  launch_stage        = ""
-  location            = ""
-  name                = ""
-  project             = ""
+  annotations           = {}
+  client                = ""
+  client_version        = ""
+  deletion_policy       = ""
+  deletion_protection   = false
+  labels                = {}
+  launch_stage          = ""
+  location              = ""
+  name                  = ""
+  project               = ""
+  run_execution_token   = ""
+  start_execution_token = ""
   
   binary_authorization {
     breakglass_justification = ""

@@ -1,9 +1,11 @@
 resource "google_gke_hub_rollout_sequence" "tf-sample-gke-hub-rollout-sequence" {
-  deletion_policy     = ""
-  display_name        = ""
-  labels              = {}
-  project             = ""
-  rollout_sequence_id = ""
+  deletion_policy           = ""
+  display_name              = ""
+  labels                    = {}
+  min_control_plane_version = ""
+  min_node_version          = ""
+  project                   = ""
+  rollout_sequence_id       = ""
   
   auto_upgrade_config {
     rollout_creation_scope {

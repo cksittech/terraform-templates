@@ -114,6 +114,13 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     optional_fields = []
     optional_mode   = ""
     sample_rate     = 0
+    
+    request_headers {
+      header_name = ""
+    }
+    response_headers {
+      header_name = ""
+    }
   }
   max_stream_duration {
     nanos   = 0

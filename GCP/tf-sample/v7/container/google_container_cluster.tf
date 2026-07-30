@@ -8,6 +8,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   deletion_policy                          = ""
   deletion_protection                      = false
   description                              = ""
+  desired_emulated_version                 = ""
   disable_l4_lb_firewall_reconciliation    = false
   enable_autopilot                         = false
   enable_cilium_clusterwide_network_policy = false
@@ -77,6 +78,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     }
     network_policy_config {
       disabled = false
+    }
+    node_readiness_config {
+      enabled = false
     }
     parallelstore_csi_driver_config {
       enabled = false
@@ -1012,6 +1016,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     bigquery_destination {
       dataset_id = ""
     }
+  }
+  rollback_safe_upgrade {
+    control_plane_soak_duration = ""
   }
   secret_manager_config {
     enabled = false
