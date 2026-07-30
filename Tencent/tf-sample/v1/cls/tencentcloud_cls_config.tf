@@ -1,4 +1,5 @@
 resource "tencentcloud_cls_config" "tf-sample-cls-config" {
+  input_type       = ""
   log_type         = ""
   name             = ""
   output           = ""

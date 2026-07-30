@@ -15,7 +15,7 @@ resource "tencentcloud_kubernetes_cluster_attachment" "tf-sample-kubernetes-clus
     extra_args            = []
     mount_target          = ""
     pre_start_user_script = ""
-    user_data             = ""
+    user_script           = ""
     
     data_disk {
       auto_format_and_mount = false

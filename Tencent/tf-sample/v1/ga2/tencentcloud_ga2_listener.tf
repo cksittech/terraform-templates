@@ -7,6 +7,7 @@ resource "tencentcloud_ga2_listener" "tf-sample-ga2-listener" {
   description             = ""
   get_real_ip_type        = ""
   global_accelerator_id   = ""
+  http_version            = ""
   idle_timeout            = 0
   listener_type           = ""
   name                    = ""

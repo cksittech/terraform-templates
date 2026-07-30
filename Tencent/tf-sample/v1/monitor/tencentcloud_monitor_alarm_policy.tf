@@ -51,6 +51,14 @@ resource "tencentcloud_monitor_alarm_policy" "tf-sample-monitor-alarm-policy" {
     dimensions = ""
     type       = ""
   }
+  hierarchical_notices {
+    classification = []
+    notice_id      = ""
+  }
+  notice_content_tmpl_bind_infos {
+    content_tmpl_id = ""
+    notice_id       = ""
+  }
   policy_tag {
     key   = ""
     value = ""
