@@ -1,5 +1,6 @@
 resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
   auto_split           = false
+  biz_type             = 0
   describes            = ""
   encryption           = 0
   hot_period           = 0

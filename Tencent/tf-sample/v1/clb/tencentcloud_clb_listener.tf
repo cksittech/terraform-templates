@@ -3,6 +3,7 @@ resource "tencentcloud_clb_listener" "tf-sample-clb-listener" {
   certificate_id                = ""
   certificate_ssl_mode          = ""
   clb_id                        = ""
+  data_compress_mode            = ""
   deregister_target_rst         = false
   end_port                      = 0
   h2c_switch                    = false
@@ -25,8 +26,11 @@ resource "tencentcloud_clb_listener" "tf-sample-clb-listener" {
   idle_connect_timeout          = 0
   keepalive_enable              = 0
   listener_name                 = ""
+  max_conn                      = 0
+  max_cps                       = 0
   port                          = 0
   protocol                      = ""
+  proxy_protocol                = false
   reschedule_expand_target      = false
   reschedule_interval           = 0
   reschedule_start_time         = 0
