@@ -28,12 +28,14 @@ resource "tencentcloud_cynosdb_cluster_v2" "tf-sample-cynosdb-cluster-v2" {
   project_id                   = 0
   ro_group_sg                  = []
   rw_group_sg                  = []
+  semi_sync_timeout            = 0
   serverless_status_flag       = ""
   single_ro_group_sg           = []
   slave_zone                   = ""
   storage_limit                = 0
   storage_pay_mode             = 0
   subnet_id                    = ""
+  sync_way                     = ""
   vpc_id                       = ""
   
   instance_init_infos {

@@ -7,6 +7,7 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   delete_protect               = false
   dynamic_vip                  = false
   eip_address_id               = ""
+  force                        = false
   internet_bandwidth_max_out   = 0
   internet_charge_type         = ""
   load_balancer_pass_to_target = false

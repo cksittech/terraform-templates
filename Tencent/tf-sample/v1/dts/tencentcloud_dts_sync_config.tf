@@ -51,6 +51,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
       new_schema_name = ""
       procedure_mode  = ""
       procedures      = []
+      schema_mode     = ""
       schema_name     = ""
       table_mode      = ""
       trigger_mode    = ""
@@ -66,9 +67,6 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
         new_view_name = ""
         view_name     = ""
       }
-    }
-    online_ddl {
-      status = ""
     }
   }
   options {
