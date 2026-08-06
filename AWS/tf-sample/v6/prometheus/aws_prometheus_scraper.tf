@@ -7,6 +7,9 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
     amp {
       workspace_arn = ""
     }
+    cloudwatch {
+      dataset_arn = ""
+    }
   }
   role_configuration {
     source_role_arn = ""

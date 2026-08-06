@@ -28,6 +28,10 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
       ec2_instance_profile_arn = ""
       monitoring               = ""
       
+      capacity_reservations {
+        reservation_group_arn  = ""
+        reservation_preference = ""
+      }
       instance_requirements {
         accelerator_manufacturers                               = []
         accelerator_names                                       = []
@@ -81,6 +85,9 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
           max = 0
           min = 0
         }
+      }
+      local_storage_configuration {
+        use_local_storage = false
       }
       network_configuration {
         security_groups = []

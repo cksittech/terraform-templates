@@ -9,6 +9,13 @@ resource "aws_glue_catalog_table_optimizer" "tf-sample-glue-catalog-table-optimi
     enabled  = false
     role_arn = ""
     
+    compaction_configuration {
+      iceberg_configuration {
+        delete_file_threshold = 0
+        min_input_files       = 0
+        strategy              = ""
+      }
+    }
     orphan_file_deletion_configuration {
       iceberg_configuration {
         location                             = ""
