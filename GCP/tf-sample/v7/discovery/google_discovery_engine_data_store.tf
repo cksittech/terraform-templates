@@ -1,4 +1,5 @@
 resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-store" {
+  acl_enabled                  = false
   content_config               = ""
   create_advanced_site_search  = false
   data_store_id                = ""

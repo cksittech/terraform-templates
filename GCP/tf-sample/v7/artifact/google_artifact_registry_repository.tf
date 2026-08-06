@@ -61,6 +61,8 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
         uri = ""
       }
     }
+    no_cache {
+    }
     npm_repository {
       public_repository = ""
       

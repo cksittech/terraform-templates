@@ -24,10 +24,11 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
       timeout_seconds       = 0
       
       containers {
-        args    = []
-        command = []
-        image   = ""
-        name    = ""
+        args             = []
+        command          = []
+        image            = ""
+        name             = ""
+        sandbox_launcher = false
         
         env {
           name  = ""

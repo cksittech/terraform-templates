@@ -3,6 +3,7 @@ resource "google_compute_router" "tf-sample-compute-router" {
   description                   = ""
   encrypted_interconnect_router = false
   name                          = ""
+  ncc_gateway                   = ""
   network                       = ""
   project                       = ""
   region                        = ""

@@ -3,6 +3,7 @@ resource "google_bigquery_reservation_assignment" "tf-sample-bigquery-reservatio
   deletion_policy = ""
   job_type        = ""
   location        = ""
+  principal       = ""
   project         = ""
   reservation     = ""
 }

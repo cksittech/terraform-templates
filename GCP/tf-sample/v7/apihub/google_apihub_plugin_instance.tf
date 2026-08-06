@@ -6,6 +6,7 @@ resource "google_apihub_plugin_instance" "tf-sample-apihub-plugin-instance" {
   plugin             = ""
   plugin_instance_id = ""
   project            = ""
+  source_project_id  = ""
   
   actions {
     action_id                = ""

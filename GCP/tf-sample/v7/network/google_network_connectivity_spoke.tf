@@ -8,6 +8,13 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
   name            = ""
   project         = ""
   
+  gateway {
+    capacity = ""
+    
+    ip_range_reservations {
+      ip_range = ""
+    }
+  }
   linked_interconnect_attachments {
     exclude_export_ranges      = []
     exclude_import_ranges      = []

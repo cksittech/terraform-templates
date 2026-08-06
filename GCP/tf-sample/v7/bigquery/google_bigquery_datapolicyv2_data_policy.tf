@@ -7,6 +7,10 @@ resource "google_bigquery_datapolicyv2_data_policy" "tf-sample-bigquery-datapoli
   location         = ""
   project          = ""
   
+  data_governance_tag {
+    key   = ""
+    value = ""
+  }
   data_masking_policy {
     predefined_expression = ""
     routine               = ""

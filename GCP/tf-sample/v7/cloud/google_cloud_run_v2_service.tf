@@ -54,13 +54,14 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
     timeout                          = ""
     
     containers {
-      args           = []
-      base_image_uri = ""
-      command        = []
-      depends_on     = []
-      image          = ""
-      name           = ""
-      working_dir    = ""
+      args             = []
+      base_image_uri   = ""
+      command          = []
+      depends_on       = []
+      image            = ""
+      name             = ""
+      sandbox_launcher = false
+      working_dir      = ""
       
       env {
         name  = ""
