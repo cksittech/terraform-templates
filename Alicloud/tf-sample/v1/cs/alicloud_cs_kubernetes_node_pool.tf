@@ -61,6 +61,15 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   auto_mode {
     enabled = false
   }
+  containerd_config {
+    ignore_image_defined_volume = ""
+    insecure_registries         = []
+    limit_core                  = ""
+    limit_mem_lock              = ""
+    limit_no_file               = ""
+    max_concurrent_downloads    = 0
+    registry_mirrors            = []
+  }
   data_disks {
     auto_format             = ""
     auto_snapshot_policy_id = ""

@@ -1,4 +1,6 @@
 resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
+  backup_id                   = ""
+  cache_storage_size          = 0
   create_sample_data          = false
   data_share_status           = ""
   db_instance_category        = ""
@@ -15,6 +17,7 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   maintain_end_time           = ""
   maintain_start_time         = ""
   master_cu                   = 0
+  minor_version               = ""
   payment_type                = ""
   period                      = ""
   prod_type                   = ""
@@ -24,6 +27,8 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   seg_node_num                = 0
   seg_storage_type            = ""
   serverless_mode             = ""
+  serverless_resource         = 0
+  src_db_instance_name        = ""
   ssl_enabled                 = 0
   storage_size                = 0
   used_time                   = ""

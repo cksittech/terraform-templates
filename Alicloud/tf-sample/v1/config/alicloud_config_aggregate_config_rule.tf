@@ -15,4 +15,9 @@ resource "alicloud_config_aggregate_config_rule" "tf-sample-config-aggregate-con
   status                      = ""
   tag_key_scope               = ""
   tag_value_scope             = ""
+  
+  exclude_tags_scope {
+    tag_key   = ""
+    tag_value = ""
+  }
 }

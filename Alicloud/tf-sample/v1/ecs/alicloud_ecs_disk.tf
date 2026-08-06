@@ -8,7 +8,6 @@ resource "alicloud_ecs_disk" "tf-sample-ecs-disk" {
   description                        = ""
   disk_name                          = ""
   dry_run                            = false
-  enable_auto_snapshot               = false
   encrypt_algorithm                  = ""
   encrypted                          = false
   instance_id                        = ""

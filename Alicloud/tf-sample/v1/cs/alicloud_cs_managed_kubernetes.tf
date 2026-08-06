@@ -81,6 +81,16 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
   auto_mode {
     enabled = false
   }
+  control_plane_endpoints_config {
+    internal_dns_config {
+      bind_vpcs = []
+      enabled   = false
+    }
+    load_balancers_config {
+      endpoint_type    = ""
+      load_balancer_id = ""
+    }
+  }
   delete_options {
     delete_mode   = ""
     resource_type = ""

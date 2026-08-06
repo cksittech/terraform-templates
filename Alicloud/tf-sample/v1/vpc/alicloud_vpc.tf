@@ -1,6 +1,5 @@
 resource "alicloud_vpc" "tf-sample-vpc" {
   cidr_block                                  = ""
-  classic_link_enabled                        = false
   description                                 = ""
   dns_hostname_status                         = ""
   dry_run                                     = false

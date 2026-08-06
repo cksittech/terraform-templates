@@ -1,11 +1,12 @@
 resource "alicloud_gwlb_server_group" "tf-sample-gwlb-server-group" {
-  dry_run           = false
-  protocol          = ""
-  resource_group_id = ""
-  scheduler         = ""
-  server_group_name = ""
-  server_group_type = ""
-  vpc_id            = ""
+  dry_run              = false
+  protocol             = ""
+  resource_group_id    = ""
+  scheduler            = ""
+  server_failover_mode = ""
+  server_group_name    = ""
+  server_group_type    = ""
+  vpc_id               = ""
   
   connection_drain_config {
     connection_drain_enabled = false

@@ -39,6 +39,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   private_connection_prefix   = ""
   private_ip                  = ""
   read_only_count             = 0
+  replica_count               = 0
   resource_group_id           = ""
   restore_time                = ""
   role_arn                    = ""
@@ -49,6 +50,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   security_ips                = []
   shard_count                 = 0
   slave_read_only_count       = 0
+  slave_replica_count         = 0
   srcdb_instance_id           = ""
   ssl_enable                  = ""
   tde_status                  = ""

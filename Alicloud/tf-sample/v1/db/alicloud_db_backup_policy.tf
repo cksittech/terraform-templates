@@ -10,7 +10,9 @@ resource "alicloud_db_backup_policy" "tf-sample-db-backup-policy" {
   compress_type                     = ""
   enable_backup_log                 = false
   enable_increment_data_backup      = false
+  enable_pitr_protection            = false
   high_space_usage_protection       = ""
+  inc_backup_interval               = 0
   instance_id                       = ""
   local_log_retention_hours         = 0
   local_log_retention_space         = 0

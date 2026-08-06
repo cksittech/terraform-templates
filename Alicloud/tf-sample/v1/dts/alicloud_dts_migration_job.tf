@@ -12,6 +12,7 @@ resource "alicloud_dts_migration_job" "tf-sample-dts-migration-job" {
   destination_endpoint_password      = ""
   destination_endpoint_port          = ""
   destination_endpoint_region        = ""
+  destination_endpoint_ssl           = ""
   destination_endpoint_user_name     = ""
   dts_instance_id                    = ""
   dts_job_name                       = ""
@@ -27,6 +28,7 @@ resource "alicloud_dts_migration_job" "tf-sample-dts-migration-job" {
   source_endpoint_port               = ""
   source_endpoint_region             = ""
   source_endpoint_role               = ""
+  source_endpoint_ssl                = ""
   source_endpoint_user_name          = ""
   status                             = ""
   structure_initialization           = false

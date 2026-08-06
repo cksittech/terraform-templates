@@ -2,8 +2,10 @@ resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
   auth_model             = ""
   auto_renew             = false
   edition                = ""
+  encrypted_instance     = false
   instance_name          = ""
   instance_type          = ""
+  kms_key_id             = ""
   listener_mode          = ""
   max_connections        = 0
   max_eip_tps            = ""

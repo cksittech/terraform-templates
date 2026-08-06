@@ -3,6 +3,7 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   auto_renew_period                              = ""
   backup_id                                      = ""
   cluster_backup_id                              = ""
+  config                                         = {}
   connection_string_prefix                       = ""
   effective_time                                 = ""
   encryption_key                                 = ""

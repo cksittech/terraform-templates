@@ -1,4 +1,7 @@
 resource "alicloud_esa_routine" "tf-sample-esa-routine" {
-  description = ""
-  name        = ""
+  code             = ""
+  code_description = ""
+  deploy_env       = ""
+  description      = ""
+  name             = ""
 }

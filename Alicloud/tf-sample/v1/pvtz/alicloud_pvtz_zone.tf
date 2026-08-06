@@ -1,4 +1,5 @@
 resource "alicloud_pvtz_zone" "tf-sample-pvtz-zone" {
+  dns_group         = ""
   lang              = ""
   proxy_pattern     = ""
   remark            = ""

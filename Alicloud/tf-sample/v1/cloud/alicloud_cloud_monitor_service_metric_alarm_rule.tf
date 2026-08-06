@@ -64,4 +64,9 @@ resource "alicloud_cloud_monitor_service_metric_alarm_rule" "tf-sample-cloud-mon
       value = ""
     }
   }
+  targets {
+    json_params = ""
+    level       = ""
+    target_id   = ""
+  }
 }

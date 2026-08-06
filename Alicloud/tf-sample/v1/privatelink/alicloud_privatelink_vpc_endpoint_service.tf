@@ -11,5 +11,11 @@ resource "alicloud_privatelink_vpc_endpoint_service" "tf-sample-privatelink-vpc-
   supported_region_list  = []
   zone_affinity_enabled  = false
   
+  resource {
+    resource_id   = ""
+    resource_type = ""
+    zone_id       = ""
+  }
+  
   tags = {}
 }

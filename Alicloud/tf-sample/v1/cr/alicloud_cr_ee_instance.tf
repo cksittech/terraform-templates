@@ -15,4 +15,6 @@ resource "alicloud_cr_ee_instance" "tf-sample-cr-ee-instance" {
   repo_quota             = 0
   resource_group_id      = ""
   vpc_quota              = 0
+  
+  tags = {}
 }

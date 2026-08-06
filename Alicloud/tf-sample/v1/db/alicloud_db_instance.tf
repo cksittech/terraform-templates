@@ -28,6 +28,7 @@ resource "alicloud_db_instance" "tf-sample-db-instance" {
   engine                         = ""
   engine_version                 = ""
   force                          = ""
+  force_delete                   = false
   force_encryption               = 0
   force_restart                  = false
   fresh_white_list_readins       = ""
