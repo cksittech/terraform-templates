@@ -12,6 +12,7 @@ resource "ibm_is_instance_template" "tf-sample-is-instance-template" {
   placement_group                   = ""
   profile                           = ""
   resource_group                    = ""
+  threads_per_core                  = 0
   total_volume_bandwidth            = 0
   user_data                         = ""
   volume_bandwidth_qos_mode         = ""

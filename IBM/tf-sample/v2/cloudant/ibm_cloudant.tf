@@ -7,7 +7,6 @@ resource "ibm_cloudant" "tf-sample-cloudant" {
   location            = ""
   name                = ""
   parameters          = {}
-  parameters_json     = ""
   plan                = ""
   resource_group_id   = ""
   service_endpoints   = ""

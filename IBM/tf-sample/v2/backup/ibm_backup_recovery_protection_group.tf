@@ -33,16 +33,18 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
     }
   }
   kubernetes_params {
-    enable_indexing       = false
-    exclude_label_ids     = []
-    exclude_object_ids    = []
-    label_ids             = []
-    leverage_csi_snapshot = false
-    non_snapshot_backup   = false
-    volume_backup_failure = false
+    enable_indexing                   = false
+    exclude_label_ids                 = []
+    exclude_object_ids                = []
+    label_ids                         = []
+    leverage_csi_snapshot             = false
+    non_snapshot_backup               = false
+    perform_source_side_deduplication = false
+    volume_backup_failure             = false
     
     exclude_params {
       label_combination_method = ""
+      label_filter_entity_type = ""
       objects                  = []
       
       label_vector {
@@ -64,6 +66,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
     }
     include_params {
       label_combination_method = ""
+      label_filter_entity_type = ""
       objects                  = []
       
       label_vector {
@@ -92,6 +95,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       
       exclude_params {
         label_combination_method = ""
+        label_filter_entity_type = ""
         objects                  = []
         
         label_vector {
@@ -112,9 +116,11 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         }
       }
       exclude_pvcs {
+        metadata_only = false
       }
       include_params {
         label_combination_method = ""
+        label_filter_entity_type = ""
         objects                  = []
         
         label_vector {
@@ -135,8 +141,9 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         }
       }
       include_pvcs {
-        id   = 0
-        name = ""
+        id            = 0
+        metadata_only = false
+        name          = ""
       }
       quiesce_groups {
         quiesce_mode = ""

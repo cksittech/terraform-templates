@@ -13,6 +13,9 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
   session_persistence_app_cookie_name = ""
   session_persistence_type            = ""
   
+  client_authentication {
+    certificate_instance = ""
+  }
   failsafe_policy {
     action = ""
     
@@ -20,5 +23,24 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
       href = ""
       id   = ""
     }
+  }
+  health_monitor {
+    request {
+      body   = ""
+      method = ""
+      
+      headers {
+        field = ""
+        value = ""
+      }
+    }
+    response {
+      body_regex = ""
+      codes      = []
+    }
+  }
+  server_authentication {
+    certificate_authority = ""
+    verify_certificate    = false
   }
 }

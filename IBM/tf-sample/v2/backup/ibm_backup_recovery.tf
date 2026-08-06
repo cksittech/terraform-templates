@@ -69,11 +69,13 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
       target_environment = ""
       
       kubernetes_target_params {
+        preserve_mac_address             = false
         recover_pvcs_only                = false
         skip_cluster_compatibility_check = false
         
         exclude_params {
           label_combination_method = ""
+          label_filter_entity_type = ""
           objects                  = []
           
           label_vector {
@@ -92,9 +94,11 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           }
         }
         excluded_pvcs {
+          metadata_only = false
         }
         include_params {
           label_combination_method = ""
+          label_filter_entity_type = ""
           objects                  = []
           
           label_vector {
@@ -120,9 +124,11 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           recover_pvcs_only     = false
           snapshot_id           = ""
           unbind_pvcs           = false
+          use_instant_recovery  = false
           
           exclude_params {
             label_combination_method = ""
+            label_filter_entity_type = ""
             objects                  = []
             
             label_vector {
@@ -142,6 +148,7 @@ resource "ibm_backup_recovery" "tf-sample-backup-recovery" {
           }
           include_params {
             label_combination_method = ""
+            label_filter_entity_type = ""
             objects                  = []
             
             label_vector {
