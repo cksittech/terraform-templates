@@ -1,7 +1,10 @@
 resource "oci_database_autonomous_container_database" "tf-sample-database-autonomous-container-database" {
   autonomous_container_database_backup_id           = ""
+  autonomous_databases_to_clone                     = []
   autonomous_exadata_infrastructure_id              = ""
   autonomous_vm_cluster_id                          = ""
+  clone_band_width                                  = ""
+  clone_type                                        = ""
   cloud_autonomous_vm_cluster_id                    = ""
   compartment_id                                    = ""
   database_software_image_id                        = ""
@@ -33,9 +36,12 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   reinstate_trigger                                 = 0
   rotate_key_trigger                                = false
   service_level_agreement_type                      = ""
+  should_use_latest_available_backup_time_stamp     = false
   source                                            = ""
+  source_autonomous_container_database_id           = ""
   standby_maintenance_buffer_in_days                = 0
   switchover_trigger                                = 0
+  time_stamp_to_use_for_cloning                     = ""
   vault_id                                          = ""
   version_preference                                = ""
   vm_failover_reservation                           = 0

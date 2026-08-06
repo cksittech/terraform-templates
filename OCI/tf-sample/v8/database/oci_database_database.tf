@@ -41,6 +41,10 @@ resource "oci_database_database" "tf-sample-database-database" {
     vault_id                              = ""
     vm_cluster_id                         = ""
     
+    auto_failover_configuration {
+      failover_targets      = []
+      managed_auto_failover = ""
+    }
     db_backup_config {
       auto_backup_enabled       = false
       auto_backup_window        = ""
