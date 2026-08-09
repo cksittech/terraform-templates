@@ -4,6 +4,7 @@ resource "tencentcloud_waf_cc_session" "tf-sample-waf-cc-session" {
   edition          = ""
   end_mat          = ""
   end_offset       = ""
+  key              = ""
   key_or_start_mat = ""
   session_name     = ""
   source           = ""

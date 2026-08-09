@@ -9,6 +9,7 @@ resource "tencentcloud_cls_cos_shipper" "tf-sample-cls-cos-shipper" {
   shipper_name  = ""
   start_time    = 0
   storage_type  = ""
+  time_zone     = ""
   topic_id      = ""
   
   compress {
