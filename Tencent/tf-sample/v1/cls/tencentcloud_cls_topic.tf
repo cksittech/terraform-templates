@@ -12,6 +12,10 @@ resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
   storage_type         = ""
   topic_name           = ""
   
+  custom_kms_info {
+    kms_key_id = ""
+    kms_region = ""
+  }
   extends {
     anonymous_access {
       operations = []

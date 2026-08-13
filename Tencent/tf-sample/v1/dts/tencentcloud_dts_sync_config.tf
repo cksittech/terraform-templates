@@ -59,9 +59,17 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
       view_mode       = ""
       
       tables {
+        column_mode      = ""
         filter_condition = ""
         new_table_name   = ""
+        table_edit_mode  = ""
         table_name       = ""
+        tmp_tables       = []
+        
+        columns {
+          column_name     = ""
+          new_column_name = ""
+        }
       }
       views {
         new_view_name = ""

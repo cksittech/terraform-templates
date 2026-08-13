@@ -49,4 +49,8 @@ resource "tencentcloud_dlc_data_engine" "tf-sample-dlc-data-engine" {
       config_value = ""
     }
   }
+  tags {
+    tag_key   = ""
+    tag_value = ""
+  }
 }
