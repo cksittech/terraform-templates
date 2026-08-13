@@ -111,6 +111,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
   scheduling {
     automatic_restart           = false
     availability_domain         = 0
+    host_error_timeout_seconds  = 0
     instance_termination_action = ""
     min_node_cpus               = 0
     on_host_maintenance         = ""

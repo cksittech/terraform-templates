@@ -108,6 +108,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
+        
+        attached_disk_config {
+          disk_size_gb           = 0
+          disk_type              = ""
+          provisioned_iops       = 0
+          provisioned_throughput = 0
+        }
       }
       instance_flexibility_policy {
         instance_selection_list {
@@ -121,6 +128,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
+            
+            attached_disk_config {
+              disk_size_gb           = 0
+              disk_type              = ""
+              provisioned_iops       = 0
+              provisioned_throughput = 0
+            }
           }
         }
       }
@@ -139,6 +153,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
+        
+        attached_disk_config {
+          disk_size_gb           = 0
+          disk_type              = ""
+          provisioned_iops       = 0
+          provisioned_throughput = 0
+        }
       }
       instance_flexibility_policy {
         instance_selection_list {
@@ -152,6 +173,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
+            
+            attached_disk_config {
+              disk_size_gb           = 0
+              disk_type              = ""
+              provisioned_iops       = 0
+              provisioned_throughput = 0
+            }
           }
         }
         provisioning_model_mix {
@@ -205,6 +233,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
+        
+        attached_disk_config {
+          disk_size_gb           = 0
+          disk_type              = ""
+          provisioned_iops       = 0
+          provisioned_throughput = 0
+        }
       }
       instance_flexibility_policy {
         instance_selection_list {
@@ -218,6 +253,13 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
+            
+            attached_disk_config {
+              disk_size_gb           = 0
+              disk_type              = ""
+              provisioned_iops       = 0
+              provisioned_throughput = 0
+            }
           }
         }
       }

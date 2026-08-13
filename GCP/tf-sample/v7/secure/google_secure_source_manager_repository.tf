@@ -5,11 +5,18 @@ resource "google_secure_source_manager_repository" "tf-sample-secure-source-mana
   location        = ""
   project         = ""
   repository_id   = ""
+  service_account = ""
   
   initial_config {
     default_branch = ""
     gitignores     = []
     license        = ""
     readme         = ""
+  }
+  scan_config {
+    secret_scan_config {
+      enabled          = false
+      inspect_template = ""
+    }
   }
 }

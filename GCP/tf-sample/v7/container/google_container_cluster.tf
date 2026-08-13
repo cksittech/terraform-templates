@@ -65,6 +65,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     gke_backup_agent_config {
       enabled = false
     }
+    high_scale_checkpointing_config {
+      enabled = false
+    }
     horizontal_pod_autoscaling {
       disabled = false
     }

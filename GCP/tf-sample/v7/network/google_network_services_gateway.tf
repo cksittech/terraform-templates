@@ -1,6 +1,7 @@
 resource "google_network_services_gateway" "tf-sample-network-services-gateway" {
   addresses                            = []
   all_ports                            = false
+  allow_global_access                  = false
   certificate_urls                     = []
   delete_swg_autogen_router_on_destroy = false
   deletion_policy                      = ""

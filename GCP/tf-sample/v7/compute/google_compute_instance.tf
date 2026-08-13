@@ -138,6 +138,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
   scheduling {
     automatic_restart           = false
     availability_domain         = 0
+    host_error_timeout_seconds  = 0
     instance_termination_action = ""
     min_node_cpus               = 0
     on_host_maintenance         = ""
