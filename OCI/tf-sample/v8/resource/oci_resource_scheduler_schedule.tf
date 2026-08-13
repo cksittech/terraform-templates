@@ -5,6 +5,7 @@ resource "oci_resource_scheduler_schedule" "tf-sample-resource-scheduler-schedul
   description        = ""
   display_name       = ""
   freeform_tags      = {}
+  local_time_zone    = ""
   recurrence_details = ""
   recurrence_type    = ""
   state              = ""

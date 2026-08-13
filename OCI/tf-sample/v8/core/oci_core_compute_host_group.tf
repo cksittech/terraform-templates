@@ -11,5 +11,9 @@ resource "oci_core_compute_host_group" "tf-sample-core-compute-host-group" {
     recycle_level      = ""
     state              = ""
     target             = ""
+    
+    quick_recycle_settings {
+      nvme_wipe = false
+    }
   }
 }

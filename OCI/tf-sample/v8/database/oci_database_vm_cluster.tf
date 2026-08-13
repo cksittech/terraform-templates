@@ -49,4 +49,9 @@ resource "oci_database_vm_cluster" "tf-sample-database-vm-cluster" {
     file_system_size_gb = 0
     mount_point         = ""
   }
+  update_details {
+    update_action = ""
+    update_id     = ""
+    update_mode   = ""
+  }
 }

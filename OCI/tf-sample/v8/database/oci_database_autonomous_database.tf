@@ -7,6 +7,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   autonomous_database_backup_id                  = ""
   autonomous_database_id                         = ""
   autonomous_maintenance_schedule_type           = ""
+  availability_domain                            = ""
   backup_retention_period_in_days                = 0
   byol_compute_count_limit                       = 0
   character_set                                  = ""
@@ -37,6 +38,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   is_data_guard_enabled                          = false
   is_dedicated                                   = false
   is_dev_tier                                    = false
+  is_disable_ad_update_schedule                  = false
   is_disable_db_version_upgrade_schedule         = false
   is_disconnect_peer                             = false
   is_free_tier                                   = false
@@ -45,6 +47,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   is_preview_version_with_service_terms_accepted = false
   is_refreshable_clone                           = false
   is_replicate_automatic_backups                 = false
+  is_schedule_ad_update_to_earliest              = false
   is_schedule_db_version_upgrade_to_earliest     = false
   key_version_id                                 = ""
   kms_key_id                                     = ""
@@ -79,6 +82,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   switchover_to_remote_peer_id                   = ""
   time_maintenance_pause_until                   = ""
   time_of_auto_refresh_start                     = ""
+  time_scheduled_ad_update                       = ""
   time_scheduled_db_version_upgrade              = ""
   timestamp                                      = ""
   use_latest_available_backup_time_stamp         = false
