@@ -202,8 +202,19 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
         }
       }
       mcp_server {
-        endpoint     = ""
-        listing_mode = ""
+        endpoint          = ""
+        listing_mode      = ""
+        resource_priority = 0
+        
+        mcp_tool_schema {
+          inline_payload {
+            payload = ""
+          }
+          s3 {
+            bucket_owner_account_id = ""
+            uri                     = ""
+          }
+        }
       }
       open_api_schema {
         inline_payload {

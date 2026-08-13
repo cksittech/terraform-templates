@@ -83,6 +83,13 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
         top_k           = 0
       }
     }
+    disabled {
+    }
+    managed_memory_configuration {
+      encryption_key_arn    = ""
+      event_expiry_duration = 0
+      strategies            = []
+    }
   }
   model {
     bedrock_model_config {

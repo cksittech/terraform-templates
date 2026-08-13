@@ -11,6 +11,11 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
       dataset_arn = ""
     }
   }
+  exporter {
+    opensearch {
+      domain_arn = ""
+    }
+  }
   role_configuration {
     source_role_arn = ""
     target_role_arn = ""

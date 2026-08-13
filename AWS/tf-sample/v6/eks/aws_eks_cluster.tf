@@ -27,6 +27,31 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
       key_arn = ""
     }
   }
+  kube_api_server_config {
+    event_ttl = ""
+    
+    service_node_port_range {
+      max_port = 0
+      min_port = 0
+    }
+  }
+  kube_controller_manager_config {
+    horizontal_pod_autoscaler_controller_config {
+      horizontal_pod_autoscaler_sync_period = ""
+    }
+  }
+  kube_scheduler_config {
+    node_resources_fit {
+      scoring_strategy {
+        type = ""
+        
+        resource {
+          name   = ""
+          weight = 0
+        }
+      }
+    }
+  }
   kubernetes_network_config {
     ip_family         = ""
     service_ipv4_cidr = ""

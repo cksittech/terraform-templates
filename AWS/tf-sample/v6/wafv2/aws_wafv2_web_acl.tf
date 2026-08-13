@@ -228,6 +228,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -322,6 +326,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -394,6 +402,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -471,6 +483,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -546,6 +562,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -618,6 +638,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -704,6 +728,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -810,6 +838,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -904,6 +936,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -976,6 +1012,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -1053,6 +1093,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1128,6 +1172,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1200,6 +1248,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -1289,6 +1341,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1383,6 +1439,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1455,6 +1515,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -1532,6 +1596,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1607,6 +1675,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -1679,6 +1751,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -1757,6 +1833,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -1829,6 +1909,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -1906,6 +1990,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -1981,6 +2069,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -2053,6 +2145,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -2139,6 +2235,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -2247,6 +2347,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2341,6 +2445,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2413,6 +2521,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -2490,6 +2602,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2565,6 +2681,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2637,6 +2757,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -2723,6 +2847,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -2829,6 +2957,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2923,6 +3055,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -2995,6 +3131,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -3072,6 +3212,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3147,6 +3291,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3219,6 +3367,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -3308,6 +3460,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3402,6 +3558,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3474,6 +3634,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -3551,6 +3715,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3626,6 +3794,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -3698,6 +3870,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -3776,6 +3952,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -3848,6 +4028,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -3925,6 +4109,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -4000,6 +4188,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -4072,6 +4264,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -4163,6 +4359,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4257,6 +4457,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4329,6 +4533,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -4406,6 +4614,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4481,6 +4693,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4553,6 +4769,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -4639,6 +4859,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -4745,6 +4969,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4839,6 +5067,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -4911,6 +5143,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -4988,6 +5224,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5063,6 +5303,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5135,6 +5379,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -5224,6 +5472,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5318,6 +5570,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5390,6 +5646,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -5467,6 +5727,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5542,6 +5806,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -5614,6 +5882,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -5692,6 +5964,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -5764,6 +6040,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -5841,6 +6121,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -5916,6 +6200,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -5988,6 +6276,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -6066,6 +6358,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -6138,6 +6434,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -6215,6 +6515,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -6290,6 +6594,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -6362,6 +6670,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -6448,6 +6760,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           uri_path {
           }
+        }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
         }
         text_transformation {
           priority = 0
@@ -6720,6 +7036,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -6814,6 +7134,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -6886,6 +7210,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -6963,6 +7291,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7038,6 +7370,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7110,6 +7446,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -7196,6 +7536,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -7302,6 +7646,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7396,6 +7744,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7468,6 +7820,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -7545,6 +7901,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7620,6 +7980,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7692,6 +8056,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -7781,6 +8149,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7875,6 +8247,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -7947,6 +8323,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -8024,6 +8404,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -8099,6 +8483,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -8171,6 +8559,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -8249,6 +8641,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -8321,6 +8717,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -8398,6 +8798,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -8473,6 +8877,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -8545,6 +8953,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -8631,6 +9043,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -8739,6 +9155,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -8833,6 +9253,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -8905,6 +9329,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -8982,6 +9410,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9057,6 +9489,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9129,6 +9565,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -9215,6 +9655,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -9321,6 +9765,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9415,6 +9863,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9487,6 +9939,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -9564,6 +10020,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9639,6 +10099,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9711,6 +10175,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -9800,6 +10268,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9894,6 +10366,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -9966,6 +10442,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -10043,6 +10523,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -10118,6 +10602,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -10190,6 +10678,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -10268,6 +10760,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -10340,6 +10836,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -10417,6 +10917,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -10492,6 +10996,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -10564,6 +11072,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -10655,6 +11167,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -10749,6 +11265,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -10821,6 +11341,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -10898,6 +11422,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -10973,6 +11501,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11045,6 +11577,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -11131,6 +11667,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -11237,6 +11777,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11331,6 +11875,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11403,6 +11951,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -11480,6 +12032,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11555,6 +12111,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11627,6 +12187,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -11716,6 +12280,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11810,6 +12378,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -11882,6 +12454,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -11959,6 +12535,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -12034,6 +12614,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -12106,6 +12690,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -12184,6 +12772,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -12256,6 +12848,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -12333,6 +12929,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -12408,6 +13008,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -12480,6 +13084,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -12558,6 +13166,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -12630,6 +13242,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -12707,6 +13323,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -12782,6 +13402,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -12854,6 +13478,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -12947,6 +13575,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13041,6 +13673,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13113,6 +13749,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -13190,6 +13830,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13265,6 +13909,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13337,6 +13985,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -13423,6 +14075,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -13529,6 +14185,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13623,6 +14283,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13695,6 +14359,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -13772,6 +14440,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13847,6 +14519,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -13919,6 +14595,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -14008,6 +14688,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -14102,6 +14786,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -14174,6 +14862,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -14251,6 +14943,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -14326,6 +15022,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -14398,6 +15098,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -14476,6 +15180,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -14548,6 +15256,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -14625,6 +15337,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -14700,6 +15416,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -14772,6 +15492,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -14858,6 +15582,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -14966,6 +15694,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15060,6 +15792,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15132,6 +15868,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -15209,6 +15949,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15284,6 +16028,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15356,6 +16104,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -15442,6 +16194,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -15548,6 +16304,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15642,6 +16402,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15714,6 +16478,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -15791,6 +16559,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15866,6 +16638,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -15938,6 +16714,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -16027,6 +16807,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -16121,6 +16905,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -16193,6 +16981,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -16270,6 +17062,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -16345,6 +17141,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -16417,6 +17217,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -16495,6 +17299,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -16567,6 +17375,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -16644,6 +17456,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -16719,6 +17535,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -16791,6 +17611,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -16882,6 +17706,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -16976,6 +17804,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17048,6 +17880,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -17125,6 +17961,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17200,6 +18040,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17272,6 +18116,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -17358,6 +18206,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -17464,6 +18316,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17558,6 +18414,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17630,6 +18490,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -17707,6 +18571,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17782,6 +18650,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -17854,6 +18726,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -17943,6 +18819,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -18037,6 +18917,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -18109,6 +18993,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -18186,6 +19074,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -18261,6 +19153,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -18333,6 +19229,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -18411,6 +19311,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -18483,6 +19387,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -18560,6 +19468,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -18635,6 +19547,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -18707,6 +19623,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -18785,6 +19705,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -18857,6 +19781,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -18934,6 +19862,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -19009,6 +19941,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -19081,6 +20017,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -19174,6 +20114,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19268,6 +20212,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19340,6 +20288,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -19417,6 +20369,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19492,6 +20448,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19564,6 +20524,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -19650,6 +20614,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -19756,6 +20724,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19850,6 +20822,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -19922,6 +20898,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -19999,6 +20979,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20074,6 +21058,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20146,6 +21134,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -20235,6 +21227,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20329,6 +21325,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20401,6 +21401,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -20478,6 +21482,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20553,6 +21561,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -20625,6 +21637,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -20703,6 +21719,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -20775,6 +21795,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -20852,6 +21876,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -20927,6 +21955,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -20999,6 +22031,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -21085,6 +22121,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -21193,6 +22233,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21287,6 +22331,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21359,6 +22407,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -21436,6 +22488,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21511,6 +22567,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21583,6 +22643,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -21669,6 +22733,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -21775,6 +22843,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21869,6 +22941,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -21941,6 +23017,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -22018,6 +23098,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22093,6 +23177,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22165,6 +23253,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -22254,6 +23346,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22348,6 +23444,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22420,6 +23520,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -22497,6 +23601,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22572,6 +23680,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -22644,6 +23756,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -22722,6 +23838,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -22794,6 +23914,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -22871,6 +23995,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -22946,6 +24074,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -23018,6 +24150,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -23109,6 +24245,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23203,6 +24343,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23275,6 +24419,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -23352,6 +24500,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23427,6 +24579,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23499,6 +24655,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -23585,6 +24745,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -23691,6 +24855,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23785,6 +24953,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -23857,6 +25029,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -23934,6 +25110,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24009,6 +25189,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24081,6 +25265,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -24170,6 +25358,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24264,6 +25456,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24336,6 +25532,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -24413,6 +25613,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24488,6 +25692,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -24560,6 +25768,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -24638,6 +25850,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -24710,6 +25926,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -24787,6 +26007,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -24862,6 +26086,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -24934,6 +26162,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -25012,6 +26244,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -25084,6 +26320,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -25161,6 +26401,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -25236,6 +26480,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -25308,6 +26556,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -25464,6 +26716,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -25558,6 +26814,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -25630,6 +26890,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -25707,6 +26971,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -25782,6 +27050,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -25854,6 +27126,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -25940,6 +27216,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -26046,6 +27326,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26140,6 +27424,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26212,6 +27500,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -26289,6 +27581,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26364,6 +27660,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26436,6 +27736,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -26525,6 +27829,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26619,6 +27927,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26691,6 +28003,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -26768,6 +28084,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26843,6 +28163,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -26915,6 +28239,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -26993,6 +28321,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -27065,6 +28397,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -27142,6 +28478,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -27217,6 +28557,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -27289,6 +28633,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -27375,6 +28723,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -27483,6 +28835,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -27577,6 +28933,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -27649,6 +29009,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -27726,6 +29090,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -27801,6 +29169,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -27873,6 +29245,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -27959,6 +29335,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -28065,6 +29445,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28159,6 +29543,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28231,6 +29619,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -28308,6 +29700,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28383,6 +29779,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28455,6 +29855,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -28544,6 +29948,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28638,6 +30046,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28710,6 +30122,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -28787,6 +30203,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28862,6 +30282,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -28934,6 +30358,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -29012,6 +30440,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -29084,6 +30516,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -29161,6 +30597,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -29236,6 +30676,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -29308,6 +30752,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -29399,6 +30847,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -29493,6 +30945,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -29565,6 +31021,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -29642,6 +31102,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -29717,6 +31181,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -29789,6 +31257,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -29875,6 +31347,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -29981,6 +31457,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30075,6 +31555,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30147,6 +31631,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -30224,6 +31712,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30299,6 +31791,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30371,6 +31867,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -30460,6 +31960,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30554,6 +32058,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30626,6 +32134,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -30703,6 +32215,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30778,6 +32294,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       uri_path {
                       }
                     }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
+                    }
                     text_transformation {
                       priority = 0
                       type     = ""
@@ -30850,6 +32370,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       }
                       uri_path {
                       }
+                    }
+                    pre_parse_text_transformation {
+                      priority = 0
+                      type     = ""
                     }
                     text_transformation {
                       priority = 0
@@ -30928,6 +32452,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -31000,6 +32528,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -31077,6 +32609,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -31152,6 +32688,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   uri_path {
                   }
                 }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
+                }
                 text_transformation {
                   priority = 0
                   type     = ""
@@ -31224,6 +32764,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   uri_path {
                   }
+                }
+                pre_parse_text_transformation {
+                  priority = 0
+                  type     = ""
                 }
                 text_transformation {
                   priority = 0
@@ -31302,6 +32846,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -31374,6 +32922,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -31451,6 +33003,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -31526,6 +33082,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               uri_path {
               }
             }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
+            }
             text_transformation {
               priority = 0
               type     = ""
@@ -31598,6 +33158,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               uri_path {
               }
+            }
+            pre_parse_text_transformation {
+              priority = 0
+              type     = ""
             }
             text_transformation {
               priority = 0
@@ -31676,6 +33240,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           uri_path {
           }
         }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
+        }
         text_transformation {
           priority = 0
           type     = ""
@@ -31748,6 +33316,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           uri_path {
           }
+        }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
         }
         text_transformation {
           priority = 0
@@ -31876,6 +33448,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           uri_path {
           }
         }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
+        }
         text_transformation {
           priority = 0
           type     = ""
@@ -31951,6 +33527,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           uri_path {
           }
         }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
+        }
         text_transformation {
           priority = 0
           type     = ""
@@ -32023,6 +33603,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           uri_path {
           }
+        }
+        pre_parse_text_transformation {
+          priority = 0
+          type     = ""
         }
         text_transformation {
           priority = 0

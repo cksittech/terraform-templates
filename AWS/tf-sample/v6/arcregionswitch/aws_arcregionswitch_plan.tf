@@ -57,6 +57,22 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
           }
         }
       }
+      aurora_provisioned_scaling_config {
+        cross_account_role           = ""
+        external_id                  = ""
+        global_cluster_identifier    = ""
+        instance_arns                = {}
+        region_database_cluster_arns = {}
+        timeout_minutes              = 0
+      }
+      aurora_serverless_scaling_config {
+        cross_account_role           = ""
+        external_id                  = ""
+        global_cluster_identifier    = ""
+        region_database_cluster_arns = {}
+        target_percent               = 0
+        timeout_minutes              = 0
+      }
       custom_action_lambda_config {
         region_to_run          = ""
         retry_interval_minutes = 0
@@ -154,6 +170,31 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
           ungraceful = ""
         }
       }
+      lambda_event_source_mapping_config {
+        action          = ""
+        timeout_minutes = 0
+        
+        region_event_source_mapping {
+          cross_account_role = ""
+          external_id        = ""
+          region             = ""
+        }
+        ungraceful {
+          behavior = ""
+        }
+      }
+      neptune_global_database_config {
+        behavior                     = ""
+        cross_account_role           = ""
+        external_id                  = ""
+        global_cluster_identifier    = ""
+        region_database_cluster_arns = {}
+        timeout_minutes              = 0
+        
+        ungraceful {
+          ungraceful = ""
+        }
+      }
       parallel_config {
         step {
           description          = ""
@@ -173,6 +214,22 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
                 state               = ""
               }
             }
+          }
+          aurora_provisioned_scaling_config {
+            cross_account_role           = ""
+            external_id                  = ""
+            global_cluster_identifier    = ""
+            instance_arns                = {}
+            region_database_cluster_arns = {}
+            timeout_minutes              = 0
+          }
+          aurora_serverless_scaling_config {
+            cross_account_role           = ""
+            external_id                  = ""
+            global_cluster_identifier    = ""
+            region_database_cluster_arns = {}
+            target_percent               = 0
+            timeout_minutes              = 0
           }
           custom_action_lambda_config {
             region_to_run          = ""
@@ -266,6 +323,31 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
             external_id               = ""
             global_cluster_identifier = ""
             timeout_minutes           = 0
+            
+            ungraceful {
+              ungraceful = ""
+            }
+          }
+          lambda_event_source_mapping_config {
+            action          = ""
+            timeout_minutes = 0
+            
+            region_event_source_mapping {
+              cross_account_role = ""
+              external_id        = ""
+              region             = ""
+            }
+            ungraceful {
+              behavior = ""
+            }
+          }
+          neptune_global_database_config {
+            behavior                     = ""
+            cross_account_role           = ""
+            external_id                  = ""
+            global_cluster_identifier    = ""
+            region_database_cluster_arns = {}
+            timeout_minutes              = 0
             
             ungraceful {
               ungraceful = ""

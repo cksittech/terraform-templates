@@ -48,8 +48,9 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
       exclude_volume_types = []
     }
     parameters {
-      exclude_boot_volume = false
-      no_reboot           = false
+      exclude_boot_volume      = false
+      exclude_data_volume_tags = {}
+      no_reboot                = false
     }
     schedule {
       copy_tags     = false
