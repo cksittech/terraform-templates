@@ -4,4 +4,6 @@ resource "tencentcloud_vpc_private_nat_gateway" "tf-sample-vpc-private-nat-gatew
   nat_gateway_name = ""
   vpc_id           = ""
   vpc_type         = false
+  
+  tags = {}
 }
