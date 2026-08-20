@@ -6,6 +6,7 @@ resource "aws_fsx_ontap_file_system" "tf-sample-fsx-ontap-file-system" {
   fsx_admin_password                = ""
   ha_pairs                          = 0
   kms_key_id                        = ""
+  network_type                      = ""
   preferred_subnet_id               = ""
   region                            = ""
   route_table_ids                   = []

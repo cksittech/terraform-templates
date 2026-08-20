@@ -86,7 +86,8 @@ resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
       value = ""
     }
     source_ip {
-      values = []
+      ip_address_type = ""
+      values          = []
     }
   }
   transform {

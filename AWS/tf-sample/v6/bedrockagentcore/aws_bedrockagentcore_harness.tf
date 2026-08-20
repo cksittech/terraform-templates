@@ -1,6 +1,5 @@
 resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   allowed_tools         = []
-  environment           = []
   environment_variables = {}
   execution_role_arn    = ""
   harness_name          = ""
@@ -62,6 +61,33 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
           self_managed_lattice_resource {
             resource_configuration_identifier = ""
           }
+        }
+      }
+    }
+  }
+  environment {
+    agentcore_runtime_environment {
+      lifecycle_configuration = []
+      
+      filesystem_configuration {
+        efs_access_point {
+          access_point_arn = ""
+          mount_path       = ""
+        }
+        s3_files_access_point {
+          access_point_arn = ""
+          mount_path       = ""
+        }
+        session_storage {
+          mount_path = ""
+        }
+      }
+      network_configuration {
+        network_mode = ""
+        
+        network_mode_config {
+          security_groups = []
+          subnets         = []
         }
       }
     }

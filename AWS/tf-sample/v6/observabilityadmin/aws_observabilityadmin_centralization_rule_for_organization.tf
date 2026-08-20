@@ -17,6 +17,7 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
         }
         logs_encryption_configuration {
           encryption_conflict_resolution_strategy = ""
+          encryption_scope                        = ""
           encryption_strategy                     = ""
           kms_key_arn                             = ""
         }

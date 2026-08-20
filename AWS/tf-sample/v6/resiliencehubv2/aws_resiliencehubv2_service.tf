@@ -7,6 +7,9 @@ resource "aws_resiliencehubv2_service" "tf-sample-resiliencehubv2-service" {
   region               = ""
   regions              = []
   
+  associated_system {
+    system_arn = ""
+  }
   permission_model {
     invoker_role_name = ""
     

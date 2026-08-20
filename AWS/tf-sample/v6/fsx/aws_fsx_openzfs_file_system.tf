@@ -9,6 +9,7 @@ resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
   endpoint_ip_address_range         = ""
   final_backup_tags                 = {}
   kms_key_id                        = ""
+  network_type                      = ""
   preferred_subnet_id               = ""
   region                            = ""
   route_table_ids                   = []

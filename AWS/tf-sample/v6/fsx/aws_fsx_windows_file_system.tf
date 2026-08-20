@@ -8,6 +8,7 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   deployment_type                   = ""
   final_backup_tags                 = {}
   kms_key_id                        = ""
+  network_type                      = ""
   preferred_subnet_id               = ""
   region                            = ""
   security_group_ids                = []
