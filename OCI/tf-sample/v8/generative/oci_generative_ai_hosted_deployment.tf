@@ -6,12 +6,13 @@ resource "oci_generative_ai_hosted_deployment" "tf-sample-generative-ai-hosted-d
   hosted_application_id = ""
   
   active_artifact {
-    artifact_type        = ""
-    container_uri        = ""
-    hosted_deployment_id = ""
-    id                   = ""
-    status               = ""
-    tag                  = ""
-    time_created         = ""
+    artifact_type                  = ""
+    container_uri                  = ""
+    hosted_deployment_id           = ""
+    id                             = ""
+    is_vulnerability_scan_required = false
+    status                         = ""
+    tag                            = ""
+    time_created                   = ""
   }
 }

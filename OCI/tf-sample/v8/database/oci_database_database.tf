@@ -32,6 +32,7 @@ resource "oci_database_database" "tf-sample-database-database" {
     pdb_name                              = ""
     pluggable_databases                   = []
     protection_mode                       = ""
+    recovery_appliance_vpc_password       = ""
     sid_prefix                            = ""
     source_database_id                    = ""
     source_tde_wallet_password            = ""
@@ -65,6 +66,11 @@ resource "oci_database_database" "tf-sample-database-database" {
         type                                 = ""
         vpc_password                         = ""
         vpc_user                             = ""
+        
+        tde_wallet_backup_destination {
+          backup_destination_id   = ""
+          backup_destination_type = ""
+        }
       }
     }
     encryption_key_location_details {
