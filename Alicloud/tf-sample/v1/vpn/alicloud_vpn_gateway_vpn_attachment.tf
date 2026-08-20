@@ -8,6 +8,7 @@ resource "alicloud_vpn_gateway_vpn_attachment" "tf-sample-vpn-gateway-vpn-attach
   network_type         = ""
   remote_subnet        = ""
   resource_group_id    = ""
+  tunnel_bandwidth     = ""
   vpn_attachment_name  = ""
   
   bgp_config {

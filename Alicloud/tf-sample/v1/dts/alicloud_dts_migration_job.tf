@@ -3,6 +3,8 @@ resource "alicloud_dts_migration_job" "tf-sample-dts-migration-job" {
   data_initialization                = false
   data_synchronization               = false
   db_list                            = ""
+  dest_primary_vswitch_id            = ""
+  dest_secondary_vswitch_id          = ""
   destination_endpoint_database_name = ""
   destination_endpoint_engine_name   = ""
   destination_endpoint_instance_id   = ""
@@ -30,6 +32,8 @@ resource "alicloud_dts_migration_job" "tf-sample-dts-migration-job" {
   source_endpoint_role               = ""
   source_endpoint_ssl                = ""
   source_endpoint_user_name          = ""
+  src_primary_vswitch_id             = ""
+  src_secondary_vswitch_id           = ""
   status                             = ""
   structure_initialization           = false
 }

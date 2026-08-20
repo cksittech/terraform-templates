@@ -17,6 +17,7 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   default_time_zone                           = ""
   deletion_lock                               = 0
   description                                 = ""
+  enable_automatic_rotation                   = false
   enable_dynamodb                             = false
   encrypt_new_tables                          = ""
   encryption_key                              = ""

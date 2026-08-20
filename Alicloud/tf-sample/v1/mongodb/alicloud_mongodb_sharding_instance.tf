@@ -56,6 +56,11 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
     name  = ""
     value = ""
   }
+  security_ip_groups {
+    security_ip_group_attribute = ""
+    security_ip_group_name      = ""
+    security_ip_list            = ""
+  }
   shard_list {
     node_class        = ""
     node_storage      = 0

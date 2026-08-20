@@ -6,6 +6,7 @@ resource "alicloud_hbr_policy" "tf-sample-hbr-policy" {
   rules {
     archive_days          = 0
     backup_type           = ""
+    immutable             = false
     keep_latest_snapshots = 0
     replication_region_id = ""
     retention             = 0

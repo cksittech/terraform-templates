@@ -1,6 +1,7 @@
 resource "alicloud_api_gateway_vpc_access" "tf-sample-api-gateway-vpc-access" {
-  instance_id = ""
-  name        = ""
-  port        = 0
-  vpc_id      = ""
+  instance_id          = ""
+  name                 = ""
+  port                 = 0
+  vpc_id               = ""
+  vpc_target_host_name = ""
 }

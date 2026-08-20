@@ -30,6 +30,7 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   serverless_resource         = 0
   src_db_instance_name        = ""
   ssl_enabled                 = 0
+  status                      = ""
   storage_size                = 0
   used_time                   = ""
   vector_configuration_status = ""

@@ -53,6 +53,11 @@ resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
     name  = ""
     value = ""
   }
+  security_ip_groups {
+    security_ip_group_attribute = ""
+    security_ip_group_name      = ""
+    security_ip_list            = ""
+  }
   
   tags = {}
 }
