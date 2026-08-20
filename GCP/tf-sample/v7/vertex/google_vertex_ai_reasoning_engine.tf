@@ -17,6 +17,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
     
     container_spec {
       image_uri = ""
+      port      = 0
     }
     deployment_spec {
       container_concurrency = 0

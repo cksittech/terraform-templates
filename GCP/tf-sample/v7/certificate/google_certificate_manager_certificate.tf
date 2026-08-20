@@ -13,7 +13,9 @@ resource "google_certificate_manager_certificate" "tf-sample-certificate-manager
     issuance_config    = ""
   }
   self_managed {
-    pem_certificate = ""
-    pem_private_key = ""
+    pem_certificate            = ""
+    pem_private_key            = ""
+    pem_private_key_wo         = ""
+    pem_private_key_wo_version = ""
   }
 }

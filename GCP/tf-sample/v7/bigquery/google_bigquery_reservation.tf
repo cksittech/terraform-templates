@@ -3,6 +3,7 @@ resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   deletion_policy    = ""
   edition            = ""
   ignore_idle_slots  = false
+  labels             = {}
   location           = ""
   name               = ""
   project            = ""

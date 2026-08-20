@@ -120,6 +120,9 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
           temperature = 0
         }
       }
+      snippets_config {
+        enable_snippets = false
+      }
       summarization_config {
         disabled = false
         prompt   = ""
@@ -152,6 +155,10 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   python_function {
     name        = ""
     python_code = ""
+    
+    service_directory_config {
+      service = ""
+    }
   }
   tool_fake_config {
     enable_fake_mode = false
