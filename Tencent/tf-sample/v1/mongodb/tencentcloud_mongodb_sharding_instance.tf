@@ -4,10 +4,14 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
   available_zone         = ""
   charge_type            = ""
   cpu                    = 0
+  data_encryption        = ""
+  encryption_key_source  = ""
   engine_version         = ""
   hidden_zone            = ""
   in_maintenance         = 0
   instance_name          = ""
+  key_id                 = ""
+  kms_region             = ""
   machine_type           = ""
   memory                 = 0
   mongos_cpu             = 0

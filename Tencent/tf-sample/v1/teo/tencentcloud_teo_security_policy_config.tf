@@ -857,6 +857,60 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
         name        = ""
         priority    = 0
         
+        device_profiles {
+          client_type           = ""
+          high_risk_min_score   = 0
+          medium_risk_min_score = 0
+          
+          high_risk_request_action {
+            name = ""
+            
+            allow_action_parameters {
+              max_delay_time = ""
+              min_delay_time = ""
+            }
+            challenge_action_parameters {
+              attester_id      = ""
+              challenge_option = ""
+              interval         = ""
+            }
+            deny_action_parameters {
+              block_ip           = ""
+              block_ip_duration  = ""
+              error_page_id      = ""
+              response_code      = ""
+              return_custom_page = ""
+              stall              = ""
+            }
+            redirect_action_parameters {
+              url = ""
+            }
+          }
+          medium_risk_request_action {
+            name = ""
+            
+            allow_action_parameters {
+              max_delay_time = ""
+              min_delay_time = ""
+            }
+            challenge_action_parameters {
+              attester_id      = ""
+              challenge_option = ""
+              interval         = ""
+            }
+            deny_action_parameters {
+              block_ip           = ""
+              block_ip_duration  = ""
+              error_page_id      = ""
+              response_code      = ""
+              return_custom_page = ""
+              stall              = ""
+            }
+            redirect_action_parameters {
+              url = ""
+            }
+          }
+        }
         invalid_attestation_action {
           name = ""
           
@@ -1013,15 +1067,16 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
     }
     exception_rules {
       rules {
-        condition                          = ""
-        enabled                            = ""
-        id                                 = ""
-        managed_rule_groups_for_exception  = []
-        managed_rules_for_exception        = []
-        name                               = ""
-        skip_option                        = ""
-        skip_scope                         = ""
-        web_security_modules_for_exception = []
+        condition                             = ""
+        enabled                               = ""
+        id                                    = ""
+        managed_rule_groups_for_exception     = []
+        managed_rules_for_exception           = []
+        name                                  = ""
+        skip_option                           = ""
+        skip_scope                            = ""
+        web_security_modules_for_exception    = []
+        web_security_submodules_for_exception = []
         
         request_fields_for_exception {
           condition    = ""

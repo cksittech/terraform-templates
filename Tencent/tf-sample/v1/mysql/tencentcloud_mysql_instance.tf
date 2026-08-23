@@ -3,6 +3,7 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
   availability_zone  = ""
   charge_type        = ""
   cpu                = 0
+  destroy_protect    = ""
   device_type        = ""
   disk_type          = ""
   engine_type        = ""

@@ -3,11 +3,16 @@ resource "tencentcloud_mongodb_readonly_instance" "tf-sample-mongodb-readonly-in
   available_zone         = ""
   charge_type            = ""
   cluster_type           = ""
+  cpu                    = 0
+  data_encryption        = ""
+  encryption_key_source  = ""
   engine_version         = ""
   father_instance_id     = ""
   father_instance_region = ""
   in_maintenance         = 0
   instance_name          = ""
+  key_id                 = ""
+  kms_region             = ""
   machine_type           = ""
   memory                 = 0
   mongos_cpu             = 0

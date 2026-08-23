@@ -22,8 +22,13 @@ resource "tencentcloud_cls_data_transform" "tf-sample-cls-data-transform" {
     user        = ""
   }
   dst_resources {
-    alias    = ""
-    topic_id = ""
+    alias            = ""
+    external_id      = ""
+    is_cross_account = false
+    logset_name      = ""
+    role_arn         = ""
+    topic_id         = ""
+    topic_name       = ""
   }
   env_infos {
     key   = ""
