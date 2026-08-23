@@ -13,6 +13,10 @@ resource "azurerm_redhat_openshift_cluster" "tf-sample-redhat-openshift-cluster"
     pull_secret                 = ""
     version                     = ""
   }
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   ingress_profile {
     visibility = ""
   }
@@ -27,6 +31,18 @@ resource "azurerm_redhat_openshift_cluster" "tf-sample-redhat-openshift-cluster"
     pod_cidr                                     = ""
     preconfigured_network_security_group_enabled = false
     service_cidr                                 = ""
+    
+    load_balancer_profile {
+      managed_outbound_ip_count = 0
+    }
+  }
+  platform_workload_identity_profile {
+    upgradeable_to = ""
+    
+    platform_workload_identity {
+      identity_id = ""
+      name        = ""
+    }
   }
   service_principal {
     client_id     = ""
