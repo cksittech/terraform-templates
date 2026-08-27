@@ -2,6 +2,7 @@ resource "aws_secretsmanager_secret_rotation" "tf-sample-secretsmanager-secret-r
   external_secret_rotation_role_arn = ""
   region                            = ""
   rotate_immediately                = false
+  rotation_enabled                  = false
   rotation_lambda_arn               = ""
   secret_id                         = ""
   

@@ -21,6 +21,10 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
           encryption_strategy                     = ""
           kms_key_arn                             = ""
         }
+        tag_propagation_configuration {
+          destination_role_arn             = ""
+          tag_conflict_resolution_strategy = ""
+        }
       }
       destination_metrics_configuration {
         backup_configuration {

@@ -38,6 +38,15 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
     device_type_web        = ""
     device_type_windows    = ""
     device_type_zeroclient = ""
+    
+    access_endpoint_config {
+      internet_fallback_protocols = []
+      
+      access_endpoints {
+        access_endpoint_type = ""
+        vpc_endpoint_id      = ""
+      }
+    }
   }
   workspace_creation_properties {
     custom_security_group_id            = ""

@@ -3,6 +3,8 @@ resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-
   at_rest_encryption_enabled  = ""
   auth_token                  = ""
   auth_token_update_strategy  = ""
+  auth_token_wo               = ""
+  auth_token_wo_version       = 0
   auto_minor_version_upgrade  = ""
   automatic_failover_enabled  = false
   cluster_mode                = ""
