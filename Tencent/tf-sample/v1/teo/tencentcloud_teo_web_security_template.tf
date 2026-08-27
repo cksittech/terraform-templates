@@ -845,6 +845,36 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         }
       }
     }
+    bot_management_lite {
+      ai_crawler_detection {
+        enabled = ""
+        
+        action {
+          name = ""
+          
+          allow_action_parameters {
+            max_delay_time = ""
+            min_delay_time = ""
+          }
+          challenge_action_parameters {
+            attester_id      = ""
+            challenge_option = ""
+            interval         = ""
+          }
+          deny_action_parameters {
+            block_ip           = ""
+            block_ip_duration  = ""
+            error_page_id      = ""
+            response_code      = ""
+            return_custom_page = ""
+            stall              = ""
+          }
+        }
+      }
+      captcha_page_challenge {
+        enabled = ""
+      }
+    }
     custom_rules {
       rules {
         condition = ""
