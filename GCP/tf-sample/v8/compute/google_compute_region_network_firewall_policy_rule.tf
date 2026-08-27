@@ -1,0 +1,45 @@
+resource "google_compute_region_network_firewall_policy_rule" "tf-sample-compute-region-network-firewall-policy-rule" {
+  action                  = ""
+  deletion_policy         = ""
+  description             = ""
+  direction               = ""
+  disabled                = false
+  enable_logging          = false
+  firewall_policy         = ""
+  priority                = 0
+  project                 = ""
+  region                  = ""
+  rule_name               = ""
+  security_profile_group  = ""
+  target_forwarding_rules = []
+  target_service_accounts = []
+  target_type             = ""
+  tls_inspect             = false
+  
+  match {
+    dest_address_groups       = []
+    dest_fqdns                = []
+    dest_ip_ranges            = []
+    dest_network_context      = ""
+    dest_region_codes         = []
+    dest_threat_intelligences = []
+    src_address_groups        = []
+    src_fqdns                 = []
+    src_ip_ranges             = []
+    src_network_context       = ""
+    src_networks              = []
+    src_region_codes          = []
+    src_threat_intelligences  = []
+    
+    layer4_configs {
+      ip_protocol = ""
+      ports       = []
+    }
+    src_secure_tags {
+      name = ""
+    }
+  }
+  target_secure_tags {
+    name = ""
+  }
+}

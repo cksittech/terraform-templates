@@ -1,0 +1,21 @@
+resource "google_dialogflow_cx_playbook" "tf-sample-dialogflow-cx-playbook" {
+  deletion_policy  = ""
+  display_name     = ""
+  goal             = ""
+  parent           = ""
+  playbook_type    = ""
+  referenced_tools = []
+  
+  instruction {
+    guidelines = ""
+    
+    steps {
+      steps = ""
+      text  = ""
+    }
+  }
+  llm_model_settings {
+    model       = ""
+    prompt_text = ""
+  }
+}

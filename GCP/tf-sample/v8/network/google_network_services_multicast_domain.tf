@@ -1,0 +1,18 @@
+resource "google_network_services_multicast_domain" "tf-sample-network-services-multicast-domain" {
+  admin_network          = ""
+  deletion_policy        = ""
+  description            = ""
+  labels                 = {}
+  location               = ""
+  multicast_domain_group = ""
+  multicast_domain_id    = ""
+  project                = ""
+  
+  connection_config {
+    connection_type = ""
+    ncc_hub         = ""
+  }
+  ull_multicast_domain {
+    preconfigured_ull_domain = ""
+  }
+}

@@ -1,0 +1,57 @@
+resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spoke" {
+  deletion_policy = ""
+  description     = ""
+  group           = ""
+  hub             = ""
+  labels          = {}
+  location        = ""
+  name            = ""
+  project         = ""
+  
+  gateway {
+    capacity = ""
+    
+    ip_range_reservations {
+      ip_range = ""
+    }
+  }
+  linked_interconnect_attachments {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
+    include_import_ranges      = []
+    site_to_site_data_transfer = false
+    uris                       = []
+  }
+  linked_producer_vpc_network {
+    exclude_export_ranges = []
+    include_export_ranges = []
+    network               = ""
+    peering               = ""
+  }
+  linked_router_appliance_instances {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
+    include_import_ranges      = []
+    site_to_site_data_transfer = false
+    
+    instances {
+      ip_address      = ""
+      virtual_machine = ""
+    }
+  }
+  linked_vpc_network {
+    exclude_export_ranges = []
+    include_export_ranges = []
+    uri                   = ""
+  }
+  linked_vpn_tunnels {
+    exclude_export_ranges      = []
+    exclude_import_ranges      = []
+    include_export_ranges      = []
+    include_import_ranges      = []
+    site_to_site_data_transfer = false
+    uris                       = []
+  }
+}

@@ -1,0 +1,54 @@
+resource "google_database_migration_service_migration_job" "tf-sample-database-migration-service-migration-job" {
+  deletion_policy  = ""
+  desired_state    = ""
+  destination      = ""
+  display_name     = ""
+  dump_path        = ""
+  dump_type        = ""
+  labels           = {}
+  location         = ""
+  migration_job_id = ""
+  project          = ""
+  source           = ""
+  stop_on_warnings = false
+  type             = ""
+  
+  dump_flags {
+    dump_flags {
+      name  = ""
+      value = ""
+    }
+  }
+  objects_config {
+    source_objects_config {
+      objects_selection_type = ""
+      
+      object_configs {
+        object_identifier {
+          database = ""
+          schema   = ""
+          table    = ""
+          type     = ""
+        }
+      }
+    }
+  }
+  performance_config {
+    dump_parallel_level = ""
+  }
+  postgres_homogeneous_config {
+    is_native_logical            = false
+    max_additional_subscriptions = 0
+  }
+  reverse_ssh_connectivity {
+    vm      = ""
+    vm_ip   = ""
+    vm_port = 0
+    vpc     = ""
+  }
+  static_ip_connectivity {
+  }
+  vpc_peering_connectivity {
+    vpc = ""
+  }
+}
