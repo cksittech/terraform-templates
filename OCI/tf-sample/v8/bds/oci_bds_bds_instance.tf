@@ -24,6 +24,10 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
   secret_id                   = ""
   state                       = ""
   
+  bds_capacity_reservation_configurations {
+    bds_capacity_reservation_id = ""
+    display_name                = ""
+  }
   bds_cluster_version_summary {
     bds_version = ""
     odh_version = ""
