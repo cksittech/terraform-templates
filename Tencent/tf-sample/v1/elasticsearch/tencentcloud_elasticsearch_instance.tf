@@ -1,10 +1,15 @@
 resource "tencentcloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
   availability_zone         = ""
   basic_security_type       = 0
+  cerebro_private_access    = ""
+  cerebro_private_domain    = ""
+  cerebro_public_access     = ""
   charge_period             = 0
   charge_type               = ""
   deploy_mode               = 0
+  enable_cerebro            = false
   enable_destroy_protection = ""
+  force_delete              = false
   instance_name             = ""
   kibana_private_access     = ""
   kibana_public_access      = ""
