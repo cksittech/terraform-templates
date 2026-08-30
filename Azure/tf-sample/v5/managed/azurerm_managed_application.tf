@@ -7,6 +7,10 @@ resource "azurerm_managed_application" "tf-sample-managed-application" {
   parameter_values            = ""
   resource_group_name         = ""
   
+  identity {
+    identity_ids = []
+    type         = ""
+  }
   plan {
     name           = ""
     product        = ""

@@ -296,6 +296,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   oms_agent {
     log_analytics_workspace_id      = ""
     msi_auth_for_monitoring_enabled = false
+    retina_flow_logs_enabled        = false
   }
   service_mesh_profile {
     external_ingress_gateway_enabled = false
