@@ -1,0 +1,19 @@
+resource "oci_core_compute_host_group" "tf-sample-core-compute-host-group" {
+  availability_domain            = ""
+  compartment_id                 = ""
+  defined_tags                   = {}
+  display_name                   = ""
+  freeform_tags                  = {}
+  is_targeted_placement_required = false
+  
+  configurations {
+    firmware_bundle_id = ""
+    recycle_level      = ""
+    state              = ""
+    target             = ""
+    
+    quick_recycle_settings {
+      nvme_wipe = false
+    }
+  }
+}
