@@ -40,12 +40,13 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
     service_account                  = ""
     
     containers {
-      args        = []
-      command     = []
-      depends_on  = []
-      image       = ""
-      name        = ""
-      working_dir = ""
+      args             = []
+      command          = []
+      depends_on       = []
+      image            = ""
+      name             = ""
+      sandbox_launcher = false
+      working_dir      = ""
       
       env {
         name  = ""

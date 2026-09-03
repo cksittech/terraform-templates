@@ -15,6 +15,10 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
     identity_type   = ""
     service_account = ""
     
+    build_spec {
+      service_account = ""
+      worker_pool     = ""
+    }
     container_spec {
       image_uri = ""
       port      = 0
@@ -25,6 +29,14 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       min_instances         = 0
       resource_limits       = {}
       
+      agent_gateway_config {
+        agent_to_anywhere_config {
+          agent_gateway = ""
+        }
+        client_to_agent_config {
+          agent_gateway = ""
+        }
+      }
       env {
         name  = ""
         value = ""
@@ -54,6 +66,14 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       requirements_gcs_uri     = ""
     }
     source_code_spec {
+      agent_config_source {
+        adk_config {
+          json_config = ""
+        }
+        inline_source {
+          source_archive = ""
+        }
+      }
       developer_connect_source {
         config {
           dir                 = ""

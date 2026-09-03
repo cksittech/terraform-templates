@@ -52,6 +52,7 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
     environment_id                         = ""
     flow_id                                = ""
     input_variable_mapping                 = {}
+    language_code_variable                 = ""
     output_variable_mapping                = {}
     respect_response_interruption_settings = false
   }

@@ -3,6 +3,7 @@ resource "google_network_services_authz_extension" "tf-sample-network-services-a
   deletion_policy       = ""
   description           = ""
   fail_open             = false
+  forward_attributes    = []
   forward_headers       = []
   labels                = {}
   load_balancing_scheme = ""

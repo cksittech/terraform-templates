@@ -28,4 +28,22 @@ resource "google_ces_deployment" "tf-sample-ces-deployment" {
       }
     }
   }
+  instagram_credentials {
+    auth_code               = ""
+    auth_code_wo            = ""
+    auth_code_wo_version    = ""
+    conversation_profile_id = ""
+  }
+  whatsapp_credentials {
+    auth_code               = ""
+    auth_code_wo            = ""
+    auth_code_wo_version    = ""
+    business_account_id     = ""
+    conversation_profile_id = ""
+    phone_number            = ""
+    pin                     = ""
+    pin_wo                  = ""
+    pin_wo_version          = ""
+    waba_id                 = ""
+  }
 }

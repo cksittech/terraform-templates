@@ -50,6 +50,22 @@ resource "google_ces_app" "tf-sample-ces-app" {
       theme            = ""
       web_widget_title = ""
     }
+    whatsapp_config {
+      phone_number    = ""
+      phone_number_id = ""
+      waba_id         = ""
+    }
+  }
+  error_handling_settings {
+    error_handling_strategy = ""
+    
+    end_session_config {
+      escalate_session = false
+    }
+    fallback_response_config {
+      custom_fallback_messages = {}
+      max_fallback_attempts    = 0
+    }
   }
   evaluation_metrics_thresholds {
     golden_evaluation_metrics_thresholds {
@@ -83,6 +99,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
     }
     conversation_logging_settings {
       disable_conversation_logging = false
+      retention_window             = ""
     }
     redaction_config {
       deidentify_template = ""
@@ -118,5 +135,8 @@ resource "google_ces_app" "tf-sample-ces-app" {
       type                  = ""
       unique_items          = false
     }
+  }
+  vpc_sc_settings {
+    allowed_origins = []
   }
 }
