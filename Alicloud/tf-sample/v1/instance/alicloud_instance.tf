@@ -19,6 +19,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   image_id                            = ""
   include_data_disks                  = false
   instance_charge_type                = ""
+  instance_metadata_tags              = ""
   instance_name                       = ""
   instance_type                       = ""
   internet_charge_type                = ""

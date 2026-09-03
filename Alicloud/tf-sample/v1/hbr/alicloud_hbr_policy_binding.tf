@@ -19,9 +19,17 @@ resource "alicloud_hbr_policy_binding" "tf-sample-hbr-policy-binding" {
       inventory_id             = ""
     }
     udm_detail {
+      app_consistent         = false
       destination_kms_key_id = ""
       disk_id_list           = []
+      enable_fs_freeze       = false
+      enable_writers         = false
       exclude_disk_id_list   = []
+      post_script_path       = ""
+      pre_script_path        = ""
+      ram_role_name          = ""
+      snapshot_group         = false
+      timeout_in_seconds     = 0
     }
   }
 }

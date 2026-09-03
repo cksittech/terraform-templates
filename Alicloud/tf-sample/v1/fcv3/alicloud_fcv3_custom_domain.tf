@@ -1,4 +1,5 @@
 resource "alicloud_fcv3_custom_domain" "tf-sample-fcv3-custom-domain" {
+  certificate_id     = ""
   custom_domain_name = ""
   protocol           = ""
   
