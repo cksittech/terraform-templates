@@ -14,5 +14,6 @@ resource "tencentcloud_wedata_project" "tf-sample-wedata-project" {
     display_name  = ""
     project_model = ""
     project_name  = ""
+    schedule_mode = ""
   }
 }

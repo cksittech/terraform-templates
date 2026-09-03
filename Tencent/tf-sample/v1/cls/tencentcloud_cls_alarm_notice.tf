@@ -1,10 +1,11 @@
 resource "tencentcloud_cls_alarm_notice" "tf-sample-cls-alarm-notice" {
-  alarm_shield_status = 0
-  callback_prioritize = false
-  deliver_status      = 0
-  jump_domain         = ""
-  name                = ""
-  type                = ""
+  alarm_shield_status  = 0
+  callback_prioritize  = false
+  deliver_status       = 0
+  jump_domain          = ""
+  name                 = ""
+  secure_detail_status = 0
+  type                 = ""
   
   deliver_config {
     region   = ""
