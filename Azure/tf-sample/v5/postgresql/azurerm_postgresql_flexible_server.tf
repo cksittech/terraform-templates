@@ -17,8 +17,11 @@ resource "azurerm_postgresql_flexible_server" "tf-sample-postgresql-flexible-ser
   resource_group_name               = ""
   sku_name                          = ""
   source_server_id                  = ""
+  storage_iops                      = 0
   storage_mb                        = 0
+  storage_throughput                = 0
   storage_tier                      = ""
+  storage_type                      = ""
   version                           = ""
   zone                              = ""
   

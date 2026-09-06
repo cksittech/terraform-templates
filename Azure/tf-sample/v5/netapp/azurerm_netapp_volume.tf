@@ -2,6 +2,7 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
   accept_grow_capacity_pool_for_short_term_clone_split = ""
   account_name                                         = ""
   azure_vmware_data_store_enabled                      = false
+  breakthrough_mode_enabled                            = false
   create_from_snapshot_resource_id                     = ""
   encryption_key_source                                = ""
   kerberos_enabled                                     = false
