@@ -50,6 +50,66 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
     http {
       agentcore_runtime {
         qualifier = ""
+        
+        schema {
+          source {
+            inline_payload {
+              payload = ""
+            }
+            s3 {
+              bucket_owner_account_id = ""
+              uri                     = ""
+            }
+          }
+        }
+      }
+      passthrough {
+        endpoint                                   = ""
+        protocol_type                              = ""
+        static_query_parameter_conflict_resolution = ""
+        static_query_parameters                    = {}
+        
+        schema {
+          source {
+            inline_payload {
+              payload = ""
+            }
+            s3 {
+              bucket_owner_account_id = ""
+              uri                     = ""
+            }
+          }
+        }
+        stickiness_configuration {
+          composite_identifier = []
+          identifier           = ""
+          timeout              = 0
+        }
+      }
+    }
+    inference {
+      connector {
+        source {
+          connector_id = ""
+        }
+      }
+      provider {
+        endpoint = ""
+        
+        model_mapping {
+          provider_prefix {
+            separator = ""
+            strip     = false
+          }
+        }
+        operation {
+          path          = ""
+          provider_path = ""
+          
+          model {
+            model = ""
+          }
+        }
       }
     }
     mcp {
@@ -68,6 +128,25 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
             name        = ""
             path        = ""
           }
+        }
+      }
+      connector {
+        enabled = []
+        
+        configuration {
+          description      = ""
+          name             = ""
+          parameter_values = ""
+          
+          parameter_override {
+            description = ""
+            path        = ""
+            visible     = false
+          }
+        }
+        source {
+          connector_id = ""
+          version      = ""
         }
       }
       lambda {

@@ -8,6 +8,7 @@ resource "aws_dx_hosted_private_virtual_interface" "tf-sample-dx-hosted-private-
   mtu              = 0
   name             = ""
   owner_account_id = ""
+  rate_limit       = ""
   region           = ""
   vlan             = 0
 }

@@ -39,6 +39,9 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
     horizontal_pod_autoscaler_controller_config {
       horizontal_pod_autoscaler_sync_period = ""
     }
+    pod_gc_controller_config {
+      terminated_pod_gc_threshold = 0
+    }
   }
   kube_scheduler_config {
     node_resources_fit {

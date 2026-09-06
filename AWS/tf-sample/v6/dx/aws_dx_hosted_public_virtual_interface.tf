@@ -7,6 +7,7 @@ resource "aws_dx_hosted_public_virtual_interface" "tf-sample-dx-hosted-public-vi
   customer_address      = ""
   name                  = ""
   owner_account_id      = ""
+  rate_limit            = ""
   region                = ""
   route_filter_prefixes = []
   vlan                  = 0

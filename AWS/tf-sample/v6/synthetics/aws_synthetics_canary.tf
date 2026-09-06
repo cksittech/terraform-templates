@@ -4,6 +4,7 @@ resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
   execution_role_arn       = ""
   failure_retention_period = 0
   handler                  = ""
+  kms_key_arn              = ""
   name                     = ""
   region                   = ""
   runtime_version          = ""
