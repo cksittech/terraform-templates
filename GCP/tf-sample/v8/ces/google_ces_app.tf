@@ -6,6 +6,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
   global_instruction  = ""
   guardrails          = []
   location            = ""
+  locked              = false
   metadata            = {}
   pinned              = false
   project             = ""
@@ -49,6 +50,13 @@ resource "google_ces_app" "tf-sample-ces-app" {
       modality         = ""
       theme            = ""
       web_widget_title = ""
+      
+      security_settings {
+        allowed_origins      = []
+        enable_origin_check  = false
+        enable_public_access = false
+        enable_recaptcha     = false
+      }
     }
     whatsapp_config {
       phone_number    = ""
@@ -68,6 +76,9 @@ resource "google_ces_app" "tf-sample-ces-app" {
     }
   }
   evaluation_metrics_thresholds {
+    golden_hallucination_metric_behavior   = ""
+    scenario_hallucination_metric_behavior = ""
+    
     golden_evaluation_metrics_thresholds {
       expectation_level_metrics_thresholds {
         tool_invocation_parameter_correctness_threshold = 0
@@ -100,6 +111,9 @@ resource "google_ces_app" "tf-sample-ces-app" {
     conversation_logging_settings {
       disable_conversation_logging = false
       retention_window             = ""
+    }
+    metric_analysis_settings {
+      llm_metrics_opted_out = false
     }
     redaction_config {
       deidentify_template = ""

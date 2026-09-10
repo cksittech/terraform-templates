@@ -24,24 +24,28 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
   }
   code_callback {
     after_agent_callback {
-      description = ""
-      disabled    = false
-      python_code = ""
+      description                 = ""
+      disabled                    = false
+      proactive_execution_enabled = false
+      python_code                 = ""
     }
     after_model_callback {
-      description = ""
-      disabled    = false
-      python_code = ""
+      description                 = ""
+      disabled                    = false
+      proactive_execution_enabled = false
+      python_code                 = ""
     }
     before_agent_callback {
-      description = ""
-      disabled    = false
-      python_code = ""
+      description                 = ""
+      disabled                    = false
+      proactive_execution_enabled = false
+      python_code                 = ""
     }
     before_model_callback {
-      description = ""
-      disabled    = false
-      python_code = ""
+      description                 = ""
+      disabled                    = false
+      proactive_execution_enabled = false
+      python_code                 = ""
     }
   }
   content_filter {

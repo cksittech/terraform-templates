@@ -1,4 +1,5 @@
 resource "google_apikeys_key" "tf-sample-apikeys-key" {
+  check_existing_usage  = ""
   deletion_policy       = ""
   display_name          = ""
   name                  = ""

@@ -4,6 +4,7 @@ resource "google_gemini_gemini_gcp_enablement_setting" "tf-sample-gemini-gemini-
   gemini_gcp_enablement_setting_id = ""
   labels                           = {}
   location                         = ""
+  mutations_enabled                = false
   project                          = ""
   web_grounding_type               = ""
 }

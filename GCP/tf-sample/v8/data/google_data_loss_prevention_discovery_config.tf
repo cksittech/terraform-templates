@@ -72,6 +72,8 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
   targets {
     big_query_target {
       cadence {
+        refresh_frequency = ""
+        
         inspect_template_modified_cadence {
           frequency = ""
         }
