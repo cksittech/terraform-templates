@@ -1,13 +1,14 @@
 resource "alicloud_api_gateway_api" "tf-sample-api-gateway-api" {
-  auth_type         = ""
-  backend_enabled   = false
-  backend_id        = ""
-  description       = ""
-  force_nonce_check = false
-  group_id          = ""
-  name              = ""
-  service_type      = ""
-  stage_names       = []
+  app_code_auth_type = ""
+  auth_type          = ""
+  backend_enabled    = false
+  backend_id         = ""
+  description        = ""
+  force_nonce_check  = false
+  group_id           = ""
+  name               = ""
+  service_type       = ""
+  stage_names        = []
   
   constant_parameters {
     description = ""

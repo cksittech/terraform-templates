@@ -173,6 +173,10 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     private_pool_options_id             = ""
     private_pool_options_match_criteria = ""
   }
+  resource_pool_options {
+    private_pool_ids = []
+    strategy         = ""
+  }
   rolling_policy {
     batch_interval  = ""
     max_parallelism = 0

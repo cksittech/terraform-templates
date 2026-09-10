@@ -5,4 +5,6 @@ resource "alicloud_ram_user" "tf-sample-ram-user" {
   force        = false
   mobile       = ""
   name         = ""
+  
+  tags = {}
 }

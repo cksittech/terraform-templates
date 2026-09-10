@@ -38,6 +38,21 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
       success_threshold     = 0
       timeout_seconds       = 0
     }
+    registry_config {
+      auth_config {
+        password  = ""
+        user_name = ""
+      }
+      cert_config {
+        insecure            = false
+        root_ca_cert_base64 = ""
+      }
+      network_config {
+        security_group_id = ""
+        vpc_id            = ""
+        vswitch_id        = ""
+      }
+    }
   }
   custom_dns {
     name_servers = []

@@ -4,7 +4,6 @@ resource "alicloud_ecs_invocation" "tf-sample-ecs-invocation" {
   instance_id           = []
   parameters            = {}
   repeat_mode           = ""
-  timed                 = false
   username              = ""
   windows_password_name = ""
 }
