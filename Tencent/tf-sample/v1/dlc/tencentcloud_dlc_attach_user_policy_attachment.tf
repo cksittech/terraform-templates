@@ -13,6 +13,7 @@ resource "tencentcloud_dlc_attach_user_policy_attachment" "tf-sample-dlc-attach-
     model             = ""
     operation         = ""
     policy_type       = ""
+    re_auth           = false
     source            = ""
     table             = ""
     view              = ""
