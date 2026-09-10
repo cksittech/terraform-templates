@@ -60,6 +60,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   storage_encrypted                     = false
   storage_type                          = ""
   vpc_security_group_ids                = []
+  warning_event_categories              = []
   
   restore_to_point_in_time {
     restore_to_time            = ""

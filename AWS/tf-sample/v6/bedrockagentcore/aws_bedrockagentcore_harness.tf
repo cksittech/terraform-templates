@@ -119,29 +119,59 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   }
   model {
     bedrock_model_config {
-      max_tokens  = 0
-      model_id    = ""
-      temperature = 0
-      top_p       = 0
+      additional_params = ""
+      api_format        = ""
+      max_tokens        = 0
+      model_id          = ""
+      temperature       = 0
+      top_p             = 0
     }
     gemini_model_config {
-      api_key_arn = ""
-      max_tokens  = 0
-      model_id    = ""
-      temperature = 0
-      top_k       = 0
-      top_p       = 0
+      additional_params = ""
+      api_key_arn       = ""
+      max_tokens        = 0
+      model_id          = ""
+      temperature       = 0
+      top_k             = 0
+      top_p             = 0
+    }
+    litellm_model_config {
+      additional_params = ""
+      api_base          = ""
+      api_key_arn       = ""
+      max_tokens        = 0
+      model_id          = ""
+      temperature       = 0
+      top_p             = 0
     }
     openai_model_config {
-      api_key_arn = ""
-      max_tokens  = 0
-      model_id    = ""
-      temperature = 0
-      top_p       = 0
+      additional_params = ""
+      api_format        = ""
+      api_key_arn       = ""
+      max_tokens        = 0
+      model_id          = ""
+      temperature       = 0
+      top_p             = 0
     }
   }
   skill {
     path = ""
+    
+    aws_skills {
+      paths = []
+    }
+    git {
+      path = ""
+      url  = ""
+      
+      auth {
+        credential_arn = ""
+        username       = ""
+      }
+    }
+    s3 {
+      uri = ""
+    }
   }
   system_prompt {
     text = ""

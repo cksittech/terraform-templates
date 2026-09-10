@@ -46,6 +46,10 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
       unit        = ""
     }
   }
+  warm_up_configuration {
+    only_start_evaluating_after_warm_up_period_ends = false
+    warm_up_period_duration_in_minutes              = 0
+  }
   
   tags = {}
 }

@@ -5,4 +5,5 @@ resource "aws_appconfig_hosted_configuration_version" "tf-sample-appconfig-hoste
   content_type             = ""
   description              = ""
   region                   = ""
+  version_label            = ""
 }

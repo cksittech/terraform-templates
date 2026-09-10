@@ -20,6 +20,9 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
     infrastructure_role_arn = ""
     propagate_tags          = ""
     
+    auto_repair_configuration {
+      actions_status = ""
+    }
     infrastructure_optimization {
       scale_in_after = 0
     }

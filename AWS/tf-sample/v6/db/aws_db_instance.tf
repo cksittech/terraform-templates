@@ -67,6 +67,7 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   upgrade_storage_config                = false
   username                              = ""
   vpc_security_group_ids                = []
+  warning_event_categories              = []
   
   blue_green_update {
     enabled = false

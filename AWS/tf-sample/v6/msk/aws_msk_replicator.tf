@@ -8,6 +8,22 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
     amazon_msk_cluster {
       msk_cluster_arn = ""
     }
+    apache_kafka_cluster {
+      apache_kafka_cluster_id = ""
+      bootstrap_broker_string = ""
+    }
+    client_authentication {
+      mtls {
+        secret_arn = ""
+      }
+      sasl_scram {
+        mechanism  = ""
+        secret_arn = ""
+      }
+    }
+    encryption_in_transit {
+      root_ca_certificate = ""
+    }
     vpc_config {
       security_groups_ids = []
       subnet_ids          = []
@@ -32,8 +48,10 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
   }
   replication_info_list {
     source_kafka_cluster_arn = ""
+    source_kafka_cluster_id  = ""
     target_compression_type  = ""
     target_kafka_cluster_arn = ""
+    target_kafka_cluster_id  = ""
     
     consumer_group_replication {
       consumer_group_offset_sync_mode     = ""

@@ -24,6 +24,7 @@ resource "aws_rds_cluster_instance" "tf-sample-rds-cluster-instance" {
   promotion_tier                        = 0
   publicly_accessible                   = false
   region                                = ""
+  warning_event_categories              = []
   
   tags = {}
 }
