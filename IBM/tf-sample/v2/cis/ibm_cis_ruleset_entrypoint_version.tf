@@ -4,25 +4,15 @@ resource "ibm_cis_ruleset_entrypoint_version" "tf-sample-cis-ruleset-entrypoint-
   phase     = ""
   
   rulesets {
-    description  = ""
-    kind         = ""
-    last_updated = ""
-    name         = ""
-    phase        = ""
-    ruleset_id   = ""
-    version      = ""
+    description = ""
     
     rules {
-      action          = ""
-      categories      = []
-      description     = ""
-      enabled         = false
-      expression      = ""
-      id              = ""
-      last_updated_at = ""
-      logging         = {}
-      ref             = ""
-      version         = ""
+      action      = ""
+      description = ""
+      enabled     = false
+      expression  = ""
+      id          = ""
+      ref         = ""
       
       action_parameters {
         id       = ""
@@ -30,7 +20,6 @@ resource "ibm_cis_ruleset_entrypoint_version" "tf-sample-cis-ruleset-entrypoint-
         products = []
         ruleset  = ""
         rulesets = []
-        version  = ""
         
         overrides {
           action  = ""

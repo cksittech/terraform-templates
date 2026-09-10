@@ -4,25 +4,15 @@ resource "ibm_cis_ruleset" "tf-sample-cis-ruleset" {
   ruleset_id = ""
   
   rulesets {
-    description  = ""
-    kind         = ""
-    last_updated = ""
-    name         = ""
-    phase        = ""
-    ruleset_id   = ""
-    version      = ""
+    description = ""
     
     rules {
-      action          = ""
-      categories      = []
-      description     = ""
-      enabled         = false
-      expression      = ""
-      id              = ""
-      last_updated_at = ""
-      logging         = {}
-      ref             = ""
-      version         = ""
+      action      = ""
+      description = ""
+      enabled     = false
+      expression  = ""
+      id          = ""
+      ref         = ""
       
       action_parameters {
         id       = ""
@@ -30,7 +20,6 @@ resource "ibm_cis_ruleset" "tf-sample-cis-ruleset" {
         products = []
         ruleset  = ""
         rulesets = []
-        version  = ""
         
         overrides {
           action  = ""

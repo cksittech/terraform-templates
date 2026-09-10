@@ -14,6 +14,9 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
     rc_compatible = false
     
     other {
+      product_code      = ""
+      product_code_type = ""
+      
       composite {
         composite_kind = ""
         composite_tag  = ""
