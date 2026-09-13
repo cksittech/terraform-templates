@@ -19,7 +19,7 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
   name                              = ""
   nfsv3_enabled                     = false
   provisioned_billing_model_version = ""
-  public_network_access_enabled     = false
+  public_network_access             = ""
   queue_encryption_key_type         = ""
   resource_group_name               = ""
   sftp_enabled                      = false
