@@ -14,19 +14,20 @@ resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
   
   initial_configuration {
     initial_cluster_configurations {
-      capacity_reservation_id        = ""
-      compute_availability_domain    = ""
-      datastore_cluster_ids          = []
-      display_name                   = ""
-      esxi_hosts_count               = 0
-      initial_commitment             = ""
-      initial_host_ocpu_count        = 0
-      initial_host_shape_name        = ""
-      initial_vcf_byol_allocation_id = ""
-      instance_display_name_prefix   = ""
-      is_shielded_instance_enabled   = false
-      vsphere_type                   = ""
-      workload_network_cidr          = ""
+      capacity_reservation_id                = ""
+      compute_availability_domain            = ""
+      datastore_cluster_ids                  = []
+      display_name                           = ""
+      esxi_hosts_count                       = 0
+      initial_commitment                     = ""
+      initial_fault_domain_host_distribution = ""
+      initial_host_ocpu_count                = 0
+      initial_host_shape_name                = ""
+      initial_vcf_byol_allocation_id         = ""
+      instance_display_name_prefix           = ""
+      is_shielded_instance_enabled           = false
+      vsphere_type                           = ""
+      workload_network_cidr                  = ""
       
       cluster_byol_allocation_details {
         firewall_byol_allocation_id = ""
