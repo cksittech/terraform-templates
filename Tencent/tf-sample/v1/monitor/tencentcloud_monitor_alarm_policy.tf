@@ -2,6 +2,7 @@ resource "tencentcloud_monitor_alarm_policy" "tf-sample-monitor-alarm-policy" {
   conditon_template_id = 0
   enable               = 0
   group_by             = []
+  is_bind_all          = 0
   monitor_type         = ""
   namespace            = ""
   notice_ids           = []

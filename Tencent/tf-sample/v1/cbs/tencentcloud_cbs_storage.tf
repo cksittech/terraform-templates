@@ -7,6 +7,7 @@ resource "tencentcloud_cbs_storage" "tf-sample-cbs-storage" {
   encrypt                = false
   encrypt_type           = ""
   force_delete           = false
+  instance_id            = ""
   kms_key_id             = ""
   prepaid_period         = 0
   prepaid_renew_flag     = ""

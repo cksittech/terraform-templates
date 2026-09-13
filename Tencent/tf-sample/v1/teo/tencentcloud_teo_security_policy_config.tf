@@ -413,7 +413,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
           
           ip_reputation_group {
             action_overrides {
-              rule_id = ""
+              rule_ids = []
               
               action {
                 name = ""
@@ -468,7 +468,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
         }
         known_bot_categories {
           action_overrides {
-            rule_id = ""
+            rule_ids = []
             
             action {
               name = ""
@@ -522,7 +522,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
         }
         search_engine_bots {
           action_overrides {
-            rule_id = ""
+            rule_ids = []
             
             action {
               name = ""
@@ -576,7 +576,7 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
         }
         source_idc {
           action_overrides {
-            rule_id = ""
+            rule_ids = []
             
             action {
               name = ""
