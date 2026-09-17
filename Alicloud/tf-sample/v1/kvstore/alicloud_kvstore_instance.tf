@@ -30,6 +30,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   maintain_end_time           = ""
   maintain_start_time         = ""
   modify_mode                 = 0
+  node_type                   = ""
   order_type                  = ""
   password                    = ""
   payment_type                = ""

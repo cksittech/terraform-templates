@@ -3,6 +3,8 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   auto_renew_period                           = 0
   backup_retention_policy_on_cluster_deletion = ""
   clone_data_point                            = ""
+  cn_node_class                               = ""
+  cn_node_num                                 = 0
   collector_status                            = ""
   compress_storage                            = ""
   creation_category                           = ""
@@ -17,6 +19,8 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   default_time_zone                           = ""
   deletion_lock                               = 0
   description                                 = ""
+  dn_node_class                               = ""
+  dn_node_num                                 = 0
   enable_automatic_rotation                   = false
   enable_dynamodb                             = false
   encrypt_new_tables                          = ""

@@ -10,6 +10,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   dry_run                             = false
   enable_high_density_mode            = false
   enable_jumbo_frame                  = false
+  enable_network_encryption           = false
   force_delete                        = false
   host_name                           = ""
   hpc_cluster_id                      = ""

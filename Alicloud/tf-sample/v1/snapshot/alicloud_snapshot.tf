@@ -6,6 +6,7 @@ resource "alicloud_snapshot" "tf-sample-snapshot" {
   resource_group_id = ""
   retention_days    = 0
   snapshot_name     = ""
+  wait_until        = ""
   
   tags = {}
 }
