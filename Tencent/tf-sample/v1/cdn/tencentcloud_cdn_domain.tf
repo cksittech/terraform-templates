@@ -228,6 +228,13 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     origin_pull_protocol = ""
     origin_type          = ""
     server_name          = ""
+    
+    path_rules {
+      forward_uri = ""
+      full_match  = false
+      path        = ""
+      server_name = ""
+    }
   }
   origin_combine {
     switch = ""

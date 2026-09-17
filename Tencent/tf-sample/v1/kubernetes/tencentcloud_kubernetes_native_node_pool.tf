@@ -15,6 +15,7 @@ resource "tencentcloud_kubernetes_native_node_pool" "tf-sample-kubernetes-native
   }
   native {
     auto_repair              = false
+    custom_image             = ""
     enable_autoscaling       = false
     health_check_policy_name = ""
     host_name_pattern        = ""
