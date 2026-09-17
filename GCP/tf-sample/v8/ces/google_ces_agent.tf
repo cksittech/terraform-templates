@@ -60,4 +60,22 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
     tool_ids = []
     toolset  = ""
   }
+  transfer_rules {
+    child_agent = ""
+    direction   = ""
+    
+    deterministic_transfer {
+      expression_condition {
+        expression = ""
+      }
+      python_code_condition {
+        python_code = ""
+      }
+    }
+    disable_planner_transfer {
+      expression_condition {
+        expression = ""
+      }
+    }
+  }
 }

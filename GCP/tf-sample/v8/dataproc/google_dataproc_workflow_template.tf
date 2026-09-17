@@ -206,6 +206,18 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_type    = ""
             num_local_ssds    = 0
           }
+          instance_flexibility_policy {
+            instance_selection_list {
+              machine_types = []
+              rank          = 0
+              
+              disk_config {
+                boot_disk_size_gb = 0
+                boot_disk_type    = ""
+                num_local_ssds    = 0
+              }
+            }
+          }
         }
         secondary_worker_config {
           image            = ""
@@ -222,6 +234,22 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_size_gb = 0
             boot_disk_type    = ""
             num_local_ssds    = 0
+          }
+          instance_flexibility_policy {
+            instance_selection_list {
+              machine_types = []
+              rank          = 0
+              
+              disk_config {
+                boot_disk_size_gb = 0
+                boot_disk_type    = ""
+                num_local_ssds    = 0
+              }
+            }
+            provisioning_model_mix {
+              standard_capacity_base               = 0
+              standard_capacity_percent_above_base = 0
+            }
           }
         }
         security_config {
@@ -263,6 +291,18 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_size_gb = 0
             boot_disk_type    = ""
             num_local_ssds    = 0
+          }
+          instance_flexibility_policy {
+            instance_selection_list {
+              machine_types = []
+              rank          = 0
+              
+              disk_config {
+                boot_disk_size_gb = 0
+                boot_disk_type    = ""
+                num_local_ssds    = 0
+              }
+            }
           }
         }
       }

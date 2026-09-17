@@ -6,4 +6,6 @@ resource "google_parameter_manager_regional_parameter" "tf-sample-parameter-mana
   location        = ""
   parameter_id    = ""
   project         = ""
+  
+  tags = {}
 }

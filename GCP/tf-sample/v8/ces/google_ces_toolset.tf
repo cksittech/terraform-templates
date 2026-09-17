@@ -69,6 +69,11 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
         display_name = ""
       }
     }
+    tool_overrides {
+      description_override = ""
+      name_override        = ""
+      tool                 = ""
+    }
   }
   open_api_toolset {
     ignore_unknown_fields = false

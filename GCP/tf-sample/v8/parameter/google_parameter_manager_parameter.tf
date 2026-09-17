@@ -5,4 +5,6 @@ resource "google_parameter_manager_parameter" "tf-sample-parameter-manager-param
   labels          = {}
   parameter_id    = ""
   project         = ""
+  
+  tags = {}
 }

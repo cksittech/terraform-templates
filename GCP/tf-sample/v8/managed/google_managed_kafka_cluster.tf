@@ -19,6 +19,9 @@ resource "google_managed_kafka_cluster" "tf-sample-managed-kafka-cluster" {
       network_configs {
         subnet = ""
       }
+      public_cluster_config {
+        allowed_source_ip_ranges = []
+      }
     }
   }
   rebalance_config {

@@ -27,6 +27,11 @@ resource "google_ces_deployment" "tf-sample-ces-deployment" {
         enable_recaptcha     = false
       }
     }
+    whatsapp_config {
+      phone_number    = ""
+      phone_number_id = ""
+      waba_id         = ""
+    }
   }
   instagram_credentials {
     auth_code               = ""

@@ -31,6 +31,19 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
           number_value = 0
           string_value = ""
           
+          oneof_value {
+            name = ""
+            
+            parameter_value {
+              bool_value   = false
+              number_value = 0
+              string_value = ""
+              
+              string_list_value {
+                values = []
+              }
+            }
+          }
           string_list_value {
             values = []
           }
@@ -60,6 +73,19 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
             number_value = 0
             string_value = ""
             
+            oneof_value {
+              name = ""
+              
+              parameter_value {
+                bool_value   = false
+                number_value = 0
+                string_value = ""
+                
+                string_list_value {
+                  values = []
+                }
+              }
+            }
             string_list_value {
               values = []
             }
@@ -67,6 +93,77 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
         }
         string_list_value {
           values = []
+        }
+      }
+      sub_parameters {
+        description  = ""
+        display_name = ""
+        is_required  = false
+        name         = ""
+        value_type   = ""
+        
+        default_value {
+          bool_value   = false
+          number_value = 0
+          string_value = ""
+          
+          oneof_value {
+            name = ""
+            
+            parameter_value {
+              bool_value   = false
+              number_value = 0
+              string_value = ""
+              
+              string_list_value {
+                values = []
+              }
+            }
+          }
+          string_list_value {
+            values = []
+          }
+        }
+        substitution_rules {
+          attribute_substitution_rule {
+            attribute = ""
+          }
+          placeholder_substitution_rule {
+            attribute = ""
+          }
+        }
+        validation {
+          allowed_values {
+            values {
+              bool_value   = false
+              number_value = 0
+              string_value = ""
+              
+              oneof_value {
+                name = ""
+                
+                parameter_value {
+                  bool_value   = false
+                  number_value = 0
+                  string_value = ""
+                  
+                  string_list_value {
+                    values = []
+                  }
+                }
+              }
+              string_list_value {
+                values = []
+              }
+            }
+          }
+          int_range {
+            max = ""
+            min = ""
+          }
+          regexp_pattern {
+            pattern = ""
+          }
         }
       }
       substitution_rules {
@@ -92,6 +189,19 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
                 number_value = 0
                 string_value = ""
                 
+                oneof_value {
+                  name = ""
+                  
+                  parameter_value {
+                    bool_value   = false
+                    number_value = 0
+                    string_value = ""
+                    
+                    string_list_value {
+                      values = []
+                    }
+                  }
+                }
                 string_list_value {
                   values = []
                 }
@@ -134,6 +244,19 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
               number_value = 0
               string_value = ""
               
+              oneof_value {
+                name = ""
+                
+                parameter_value {
+                  bool_value   = false
+                  number_value = 0
+                  string_value = ""
+                  
+                  string_list_value {
+                    values = []
+                  }
+                }
+              }
               string_list_value {
                 values = []
               }

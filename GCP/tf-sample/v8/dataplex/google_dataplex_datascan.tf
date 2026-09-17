@@ -37,6 +37,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   }
   data_documentation_spec {
     catalog_publishing_enabled = false
+    sql_dialect                = ""
   }
   data_profile_spec {
     catalog_publishing_enabled = false

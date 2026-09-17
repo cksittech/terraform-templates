@@ -83,8 +83,12 @@ resource "google_ces_app" "tf-sample-ces-app" {
       expectation_level_metrics_thresholds {
         tool_invocation_parameter_correctness_threshold = 0
       }
+      tool_matching_settings {
+        extra_tool_call_behavior = ""
+      }
       turn_level_metrics_thresholds {
         overall_tool_invocation_correctness_threshold = 0
+        semantic_similarity_channel                   = ""
         semantic_similarity_success_threshold         = 0
       }
     }
