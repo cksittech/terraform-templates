@@ -6,6 +6,10 @@ resource "aws_agentregistry_registry" "tf-sample-agentregistry-registry" {
   approval_configuration {
     auto_approval_rules = []
   }
+  auto_detection_configuration {
+    enabled = false
+    scope   = ""
+  }
   discovery_configuration {
     authorizer_type = ""
     
@@ -29,8 +33,39 @@ resource "aws_agentregistry_registry" "tf-sample-agentregistry-registry" {
             }
           }
         }
+        private_endpoint {
+          managed_vpc_resource {
+            endpoint_ip_address_type = ""
+            routing_domain           = ""
+            security_group_ids       = []
+            subnet_ids               = []
+            vpc_identifier           = ""
+          }
+          self_managed_lattice_resource {
+            resource_configuration_identifier = ""
+          }
+        }
+        private_endpoint_override {
+          domain = ""
+          
+          private_endpoint {
+            managed_vpc_resource {
+              endpoint_ip_address_type = ""
+              routing_domain           = ""
+              security_group_ids       = []
+              subnet_ids               = []
+              vpc_identifier           = ""
+            }
+            self_managed_lattice_resource {
+              resource_configuration_identifier = ""
+            }
+          }
+        }
       }
     }
+  }
+  encryption_configuration {
+    kms_key_arn = ""
   }
   
   tags = {}

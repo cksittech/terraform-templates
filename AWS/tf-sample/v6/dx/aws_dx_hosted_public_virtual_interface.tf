@@ -2,6 +2,7 @@ resource "aws_dx_hosted_public_virtual_interface" "tf-sample-dx-hosted-public-vi
   address_family        = ""
   amazon_address        = ""
   bgp_asn               = 0
+  bgp_asn_long          = ""
   bgp_auth_key          = ""
   connection_id         = ""
   customer_address      = ""

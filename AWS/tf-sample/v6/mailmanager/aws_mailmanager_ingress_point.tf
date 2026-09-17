@@ -2,6 +2,7 @@ resource "aws_mailmanager_ingress_point" "tf-sample-mailmanager-ingress-point" {
   name              = ""
   region            = ""
   rule_set_id       = ""
+  status_to_update  = ""
   tls_policy        = ""
   traffic_policy_id = ""
   type              = ""
