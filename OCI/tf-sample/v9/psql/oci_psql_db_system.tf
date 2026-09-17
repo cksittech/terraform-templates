@@ -56,6 +56,7 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
       
       copy_policy {
         compartment_id   = ""
+        kms_key_ids      = []
         regions          = []
         retention_period = 0
       }
@@ -103,6 +104,7 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
     availability_domain   = ""
     iops                  = ""
     is_regionally_durable = false
+    kms_key_id            = ""
     system_type           = ""
   }
 }
