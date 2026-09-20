@@ -6,6 +6,7 @@ resource "azurerm_linux_web_app_slot" "tf-sample-linux-web-app-slot" {
   client_certificate_exclusion_paths             = ""
   client_certificate_mode                        = ""
   enabled                                        = false
+  end_to_end_tls_encryption_enabled              = false
   ftp_publish_basic_authentication_enabled       = false
   https_only                                     = false
   key_vault_reference_identity_id                = ""

@@ -7,6 +7,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
   content_share_force_disabled                   = false
   daily_memory_time_quota                        = 0
   enabled                                        = false
+  end_to_end_tls_encryption_enabled              = false
   ftp_publish_basic_authentication_enabled       = false
   function_app_id                                = ""
   functions_extension_version                    = ""

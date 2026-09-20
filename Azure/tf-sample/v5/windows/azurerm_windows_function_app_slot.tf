@@ -7,6 +7,7 @@ resource "azurerm_windows_function_app_slot" "tf-sample-windows-function-app-slo
   content_share_force_disabled                   = false
   daily_memory_time_quota                        = 0
   enabled                                        = false
+  end_to_end_tls_encryption_enabled              = false
   ftp_publish_basic_authentication_enabled       = false
   function_app_id                                = ""
   functions_extension_version                    = ""
