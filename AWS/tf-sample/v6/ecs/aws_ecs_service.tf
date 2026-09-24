@@ -48,6 +48,12 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
       hook_target_arn  = ""
       lifecycle_stages = []
       role_arn         = ""
+      target_type      = ""
+      
+      timeout_configuration {
+        action             = ""
+        timeout_in_minutes = ""
+      }
     }
     linear_configuration {
       step_bake_time_in_minutes = ""
