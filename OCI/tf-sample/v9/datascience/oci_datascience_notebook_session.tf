@@ -8,6 +8,7 @@ resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-sess
   
   notebook_session_config_details {
     block_storage_size_in_gbs = 0
+    capacity_reservation_id   = ""
     private_endpoint_id       = ""
     shape                     = ""
     subnet_id                 = ""
@@ -20,6 +21,7 @@ resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-sess
   }
   notebook_session_configuration_details {
     block_storage_size_in_gbs = 0
+    capacity_reservation_id   = ""
     private_endpoint_id       = ""
     shape                     = ""
     subnet_id                 = ""

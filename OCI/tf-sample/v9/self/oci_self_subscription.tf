@@ -21,10 +21,12 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
     partner_registration_url = ""
     
     billing_details {
-      has_gov_sku     = false
-      metric_type     = ""
-      rate_allocation = 0
-      sku             = ""
+      billing_model    = ""
+      has_gov_sku      = false
+      metric_type      = ""
+      pricing_plan_key = ""
+      rate_allocation  = 0
+      sku              = ""
       
       meters {
         name            = ""
@@ -43,6 +45,19 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
       plan_name         = ""
       plan_type         = ""
       
+      dimensions {
+        dimension_billing_frequency = ""
+        dimension_description       = ""
+        dimension_key               = ""
+        dimension_name              = ""
+        included_quantity           = 0
+        metric_type                 = ""
+        
+        rates {
+          currency = ""
+          rate     = 0
+        }
+      }
       rates {
         currency = ""
         rate     = 0

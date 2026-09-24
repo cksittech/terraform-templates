@@ -116,8 +116,10 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
     }
   }
   maintenance_window_schedule {
-    time_ended   = ""
-    time_started = ""
+    recurrence_type = ""
+    schedule_type   = ""
+    time_ended      = ""
+    time_started    = ""
   }
   script_parameters {
     param_name  = ""
