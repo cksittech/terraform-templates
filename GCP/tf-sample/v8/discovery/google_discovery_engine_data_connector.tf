@@ -16,6 +16,7 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
   refresh_interval             = ""
   static_ip_enabled            = false
   sync_mode                    = ""
+  tag                          = ""
   
   action_config {
     action_params         = {}
@@ -38,5 +39,12 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
     entity_name           = ""
     key_property_mappings = {}
     params                = ""
+  }
+  metadata {
+    author            = ""
+    description       = ""
+    note              = ""
+    short_description = ""
+    title             = ""
   }
 }

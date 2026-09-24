@@ -18,10 +18,11 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
     use_default              = false
   }
   template {
-    annotations = {}
-    labels      = {}
-    parallelism = 0
-    task_count  = 0
+    annotations     = {}
+    delay_execution = false
+    labels          = {}
+    parallelism     = 0
+    task_count      = 0
     
     template {
       encryption_key                = ""
@@ -32,12 +33,13 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       timeout                       = ""
       
       containers {
-        args        = []
-        command     = []
-        depends_on  = []
-        image       = ""
-        name        = ""
-        working_dir = ""
+        args             = []
+        command          = []
+        depends_on       = []
+        image            = ""
+        name             = ""
+        sandbox_launcher = false
+        working_dir      = ""
         
         env {
           name  = ""

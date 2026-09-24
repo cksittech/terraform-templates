@@ -28,17 +28,18 @@ resource "google_discovery_engine_widget_config" "tf-sample-discovery-engine-wid
     }
   }
   ui_settings {
-    default_search_request_order_by = ""
-    disable_user_events_collection  = false
-    enable_autocomplete             = false
-    enable_create_agent_button      = false
-    enable_people_search            = false
-    enable_quality_feedback         = false
-    enable_safe_search              = false
-    enable_search_as_you_type       = false
-    enable_visual_content_summary   = false
-    interaction_type                = ""
-    result_description_type         = ""
+    default_search_request_order_by   = ""
+    disable_user_events_collection    = false
+    enable_autocomplete               = false
+    enable_create_agent_button        = false
+    enable_people_search              = false
+    enable_quality_feedback           = false
+    enable_safe_search                = false
+    enable_search_as_you_type         = false
+    enable_visual_content_summary     = false
+    interaction_type                  = ""
+    result_description_type           = ""
+    source_admin_display_name_enabled = false
     
     data_store_ui_configs {
       name = ""
@@ -65,6 +66,11 @@ resource "google_discovery_engine_widget_config" "tf-sample-discovery-engine-wid
       model_prompt_preamble           = ""
       model_version                   = ""
       result_count                    = 0
+    }
+    search_addon_spec {
+      generative_answer_add_on_disabled   = false
+      kpi_personalization_add_on_disabled = false
+      semantic_add_on_disabled            = false
     }
   }
 }

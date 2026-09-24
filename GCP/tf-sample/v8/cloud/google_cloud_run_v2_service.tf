@@ -216,6 +216,11 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         subnetwork = ""
       }
     }
+    workload_identity_config {
+      identity                     = ""
+      identity_certificate_enabled = false
+      identity_type                = ""
+    }
   }
   traffic {
     percent  = 0

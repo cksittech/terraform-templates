@@ -432,9 +432,6 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     gvnic {
       enabled = false
     }
-    host_maintenance_policy {
-      maintenance_interval = ""
-    }
     kubelet_config {
       allowed_unsafe_sysctls                      = []
       container_log_max_files                     = 0
@@ -738,9 +735,6 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
       gvnic {
         enabled = false
-      }
-      host_maintenance_policy {
-        maintenance_interval = ""
       }
       kubelet_config {
         allowed_unsafe_sysctls                      = []

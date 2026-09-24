@@ -73,6 +73,11 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
         }
       }
     }
+    methodology_export_options {
+      append_methodology          = false
+      export_format               = ""
+      export_methodology_artifact = false
+    }
     slide_generation_options {
       export_format = ""
       

@@ -18,7 +18,12 @@ resource "google_ces_example" "tf-sample-ces-example" {
       agent_transfer {
         target_agent = ""
       }
+      blob {
+        data      = ""
+        mime_type = ""
+      }
       image {
+        alt_text  = ""
         data      = ""
         mime_type = ""
       }

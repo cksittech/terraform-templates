@@ -35,6 +35,20 @@ resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
             summary = ""
           }
         }
+        tool_call_info {
+          tool_call {
+            action = ""
+            tool   = ""
+          }
+          tool_call_result {
+            action = ""
+            
+            error {
+              message   = ""
+              retryable = false
+            }
+          }
+        }
       }
       summarization_section_list {
         summarization_sections {

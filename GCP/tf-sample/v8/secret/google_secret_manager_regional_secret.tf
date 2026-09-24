@@ -7,6 +7,7 @@ resource "google_secret_manager_regional_secret" "tf-sample-secret-manager-regio
   location            = ""
   project             = ""
   secret_id           = ""
+  secret_type         = ""
   ttl                 = ""
   version_aliases     = {}
   version_destroy_ttl = ""

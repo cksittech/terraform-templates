@@ -160,9 +160,6 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     gvnic {
       enabled = false
     }
-    host_maintenance_policy {
-      maintenance_interval = ""
-    }
     kubelet_config {
       allowed_unsafe_sysctls                      = []
       container_log_max_files                     = 0
