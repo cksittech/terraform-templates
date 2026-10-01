@@ -1,9 +1,10 @@
 resource "oci_data_safe_target_database" "tf-sample-data-safe-target-database" {
-  compartment_id = ""
-  defined_tags   = {}
-  description    = ""
-  display_name   = ""
-  freeform_tags  = {}
+  compartment_id            = ""
+  defined_tags              = {}
+  description               = ""
+  display_name              = ""
+  freeform_tags             = {}
+  manage_privileges_trigger = 0
   
   connection_option {
     connection_type              = ""

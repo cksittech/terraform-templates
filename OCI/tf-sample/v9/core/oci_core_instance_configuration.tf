@@ -45,6 +45,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         display_name               = ""
         freeform_tags              = {}
         is_auto_tune_enabled       = false
+        is_reservations_enabled    = false
         kms_key_id                 = ""
         size_in_gbs                = ""
         vpus_per_gb                = ""
@@ -207,6 +208,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
           display_name               = ""
           freeform_tags              = {}
           is_auto_tune_enabled       = false
+          is_reservations_enabled    = false
           kms_key_id                 = ""
           size_in_gbs                = ""
           vpus_per_gb                = ""
@@ -304,6 +306,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         }
         platform_config {
           are_virtual_instructions_enabled               = false
+          config_map                                     = {}
           is_access_control_service_enabled              = false
           is_input_output_memory_management_unit_enabled = false
           is_measured_boot_enabled                       = false

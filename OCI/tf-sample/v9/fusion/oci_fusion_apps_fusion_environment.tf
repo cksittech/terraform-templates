@@ -8,7 +8,6 @@ resource "oci_fusion_apps_fusion_environment" "tf-sample-fusion-apps-fusion-envi
   fusion_environment_family_id = ""
   fusion_environment_type      = ""
   is_ipv6dual_stack_enabled    = false
-  kms_key_id                   = ""
   
   additional_egress_rules {
     description          = ""
