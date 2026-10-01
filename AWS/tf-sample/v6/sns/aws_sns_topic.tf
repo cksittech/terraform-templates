@@ -18,6 +18,7 @@ resource "aws_sns_topic" "tf-sample-sns-topic" {
   lambda_failure_feedback_role_arn         = ""
   lambda_success_feedback_role_arn         = ""
   lambda_success_feedback_sample_rate      = 0
+  maximum_message_size                     = 0
   name                                     = ""
   name_prefix                              = ""
   policy                                   = ""
