@@ -4,6 +4,7 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   cpu                = 0
   destroy_protect    = ""
   device_type        = ""
+  disk_encryption    = ""
   disk_type          = ""
   fast_upgrade       = 0
   force_delete       = false

@@ -4,6 +4,7 @@ resource "tencentcloud_cfs_file_system" "tf-sample-cfs-file-system" {
   capacity          = 0
   ccn_id            = ""
   cidr_block        = ""
+  encrypted         = false
   mount_ip          = ""
   name              = ""
   net_interface     = ""

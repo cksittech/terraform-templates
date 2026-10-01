@@ -31,6 +31,15 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
     password      = ""
     public_key_id = ""
   }
+  meta_db_group_info {
+    components             = []
+    default_meta_version   = ""
+    meta_data_jdbc_url     = ""
+    meta_data_pass         = ""
+    meta_data_user         = ""
+    meta_type              = ""
+    unify_meta_instance_id = ""
+  }
   meta_db_info {
     meta_data_jdbc_url     = ""
     meta_data_pass         = ""

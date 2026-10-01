@@ -5,6 +5,7 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
   cpu                = 0
   destroy_protect    = ""
   device_type        = ""
+  disk_encryption    = ""
   disk_type          = ""
   engine_type        = ""
   engine_version     = ""
