@@ -3,6 +3,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   database_version                                 = ""
   deletion_policy                                  = ""
   deletion_protection                              = false
+  encryption_confidential_mode                     = false
   encryption_key_name                              = ""
   enforce_new_sql_network_architecture             = false
   final_backup_description                         = ""

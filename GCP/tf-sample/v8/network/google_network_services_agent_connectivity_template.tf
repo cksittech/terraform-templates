@@ -13,8 +13,12 @@ resource "google_network_services_agent_connectivity_template" "tf-sample-networ
     vpc_egress         = ""
     
     dns_peering_config {
-      domain         = ""
+      domains        = []
       target_network = ""
+    }
+    tls_config {
+      additional_roots = ""
+      trust_config     = ""
     }
   }
 }

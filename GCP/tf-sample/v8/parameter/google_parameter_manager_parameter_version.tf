@@ -1,4 +1,5 @@
 resource "google_parameter_manager_parameter_version" "tf-sample-parameter-manager-parameter-version" {
+  data_crc32c          = ""
   deletion_policy      = ""
   disabled             = false
   parameter            = ""

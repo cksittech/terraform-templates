@@ -6,6 +6,7 @@ resource "google_compute_service_attachment" "tf-sample-compute-service-attachme
   domain_names                             = []
   enable_proxy_protocol                    = false
   name                                     = ""
+  nat_ips_per_endpoint                     = 0
   nat_subnets                              = []
   project                                  = ""
   propagated_connection_limit              = 0

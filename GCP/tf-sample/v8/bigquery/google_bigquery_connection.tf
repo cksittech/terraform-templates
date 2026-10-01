@@ -31,8 +31,10 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
     type        = ""
     
     credential {
-      password = ""
-      username = ""
+      password            = ""
+      password_wo         = ""
+      password_wo_version = ""
+      username            = ""
     }
   }
   configuration {

@@ -15,6 +15,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
   location             = ""
   name                 = ""
   project              = ""
+  ssh_enabled          = false
   
   binary_authorization {
     breakglass_justification = ""
@@ -173,8 +174,10 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
       }
     }
     scaling {
-      max_instance_count = 0
-      min_instance_count = 0
+      concurrency_utilization = 0
+      cpu_utilization         = 0
+      max_instance_count      = 0
+      min_instance_count      = 0
     }
     volumes {
       name = ""

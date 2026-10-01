@@ -12,6 +12,7 @@ resource "google_chronicle_environment" "tf-sample-chronicle-environment" {
   instance                = ""
   instance_uri            = ""
   location                = ""
+  parallel_instance       = ""
   project                 = ""
   retention_duration      = 0
   weight                  = 0

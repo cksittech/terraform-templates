@@ -6,6 +6,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
   display_name             = ""
   gemini_enterprise_engine = ""
   location                 = ""
+  math_rendering_mode      = ""
   model_description        = ""
   project                  = ""
   role                     = ""
@@ -223,5 +224,8 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
       description = ""
       name        = ""
     }
+  }
+  web_search_config {
+    excluded_domains = []
   }
 }

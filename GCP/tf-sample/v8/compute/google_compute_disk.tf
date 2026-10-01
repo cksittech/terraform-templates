@@ -27,10 +27,14 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
     disk = ""
   }
   disk_encryption_key {
-    kms_key_self_link       = ""
-    kms_key_service_account = ""
-    raw_key                 = ""
-    rsa_encrypted_key       = ""
+    kms_key_self_link            = ""
+    kms_key_service_account      = ""
+    raw_key                      = ""
+    raw_key_wo                   = ""
+    raw_key_wo_version           = ""
+    rsa_encrypted_key            = ""
+    rsa_encrypted_key_wo         = ""
+    rsa_encrypted_key_wo_version = ""
   }
   guest_os_features {
     type = ""

@@ -23,9 +23,13 @@ resource "google_compute_region_disk" "tf-sample-compute-region-disk" {
     disk = ""
   }
   disk_encryption_key {
-    kms_key_name      = ""
-    raw_key           = ""
-    rsa_encrypted_key = ""
+    kms_key_name                 = ""
+    raw_key                      = ""
+    raw_key_wo                   = ""
+    raw_key_wo_version           = ""
+    rsa_encrypted_key            = ""
+    rsa_encrypted_key_wo         = ""
+    rsa_encrypted_key_wo_version = ""
   }
   guest_os_features {
     type = ""

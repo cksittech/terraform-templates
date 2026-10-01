@@ -22,12 +22,41 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
       exclusion_type = ""
       likelihood     = ""
       
+      detection_rules {
+        hotword_rule {
+          hotword_regex {
+            group_indexes = []
+            pattern       = ""
+          }
+          likelihood_adjustment {
+            fixed_likelihood    = ""
+            relative_likelihood = 0
+          }
+          proximity {
+            window_after  = 0
+            window_before = 0
+          }
+        }
+      }
       dictionary {
         cloud_storage_path {
           path = ""
         }
         word_list {
           words = []
+        }
+      }
+      file_label_info_type {
+        google_drive_label {
+          label_id = ""
+          
+          label_fields_to_match {
+            id    = ""
+            value = ""
+          }
+        }
+        sensitivity_label {
+          guid = ""
         }
       }
       info_type {
@@ -37,6 +66,10 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
         sensitivity_score {
           score = ""
         }
+      }
+      metadata_key_value_expression {
+        key_regex   = ""
+        value_regex = ""
       }
       regex {
         group_indexes = []
@@ -82,6 +115,10 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
       info_type {
         name    = ""
         version = ""
+        
+        sensitivity_score {
+          score = ""
+        }
       }
     }
     rule_set {
@@ -94,6 +131,44 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
         }
       }
       rules {
+        adjustment_rule {
+          adjust_by_image_findings {
+            min_likelihood = ""
+            
+            image_containment_type {
+              encloses {
+              }
+              fully_inside {
+              }
+              overlaps {
+              }
+            }
+            info_types {
+              name    = ""
+              version = ""
+              
+              sensitivity_score {
+                score = ""
+              }
+            }
+          }
+          adjust_by_matching_info_types {
+            matching_type  = ""
+            min_likelihood = ""
+            
+            info_types {
+              name    = ""
+              version = ""
+              
+              sensitivity_score {
+                score = ""
+              }
+            }
+          }
+          likelihood_adjustment {
+            fixed_likelihood = ""
+          }
+        }
         exclusion_rule {
           matching_type = ""
           
@@ -113,6 +188,24 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
             proximity {
               window_after  = 0
               window_before = 0
+            }
+          }
+          exclude_by_image_findings {
+            image_containment_type {
+              encloses {
+              }
+              fully_inside {
+              }
+              overlaps {
+              }
+            }
+            info_types {
+              name    = ""
+              version = ""
+              
+              sensitivity_score {
+                score = ""
+              }
             }
           }
           exclude_info_types {
