@@ -25,6 +25,11 @@ resource "aws_network_interface" "tf-sample-network-interface" {
     instance           = ""
     network_card_index = 0
   }
+  connection_tracking_specification {
+    tcp_established_timeout = 0
+    udp_stream_timeout      = 0
+    udp_timeout             = 0
+  }
   ena_srd_specification {
     ena_srd_enabled = false
     

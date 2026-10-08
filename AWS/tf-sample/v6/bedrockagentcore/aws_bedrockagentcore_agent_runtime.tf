@@ -3,6 +3,7 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
   description             = ""
   environment_variables   = {}
   lifecycle_configuration = []
+  platform_version        = ""
   region                  = ""
   role_arn                = ""
   
