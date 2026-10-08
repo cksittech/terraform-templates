@@ -4,4 +4,5 @@ resource "google_oracle_database_cloud_exadata_infrastructure_exascale_config" "
   location                     = ""
   project                      = ""
   total_storage_size_gb        = 0
+  total_vm_storage_size_gb     = 0
 }

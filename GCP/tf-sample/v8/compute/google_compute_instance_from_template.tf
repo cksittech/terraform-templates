@@ -92,6 +92,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     kms_key_service_account = ""
   }
   network_interface {
+    enable_vpc_scoped_dns       = false
     igmp_query                  = ""
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""

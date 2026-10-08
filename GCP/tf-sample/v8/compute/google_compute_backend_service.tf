@@ -175,6 +175,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   }
   tls_settings {
     authentication_config = ""
+    identity              = ""
     sni                   = ""
     
     subject_alt_names {

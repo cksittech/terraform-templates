@@ -7,9 +7,10 @@ resource "google_network_security_ull_mirroring_collector_rule" "tf-sample-netwo
   ull_mirroring_collector_rule_id = ""
   
   match {
-    direction     = ""
-    dst_ip_ranges = []
-    ip_protocols  = []
-    src_ip_ranges = []
+    direction         = ""
+    dst_ip_ranges     = []
+    ip_protocols      = []
+    primary_ip_ranges = []
+    src_ip_ranges     = []
   }
 }

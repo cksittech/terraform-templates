@@ -15,6 +15,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   protocol                        = ""
   region                          = ""
   security_policy                 = ""
+  service_lb_policy               = ""
   session_affinity                = ""
   timeout_sec                     = 0
   
@@ -164,6 +165,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   }
   tls_settings {
     authentication_config = ""
+    identity              = ""
     sni                   = ""
     
     subject_alt_names {

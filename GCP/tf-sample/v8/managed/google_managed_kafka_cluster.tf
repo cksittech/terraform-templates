@@ -1,6 +1,7 @@
 resource "google_managed_kafka_cluster" "tf-sample-managed-kafka-cluster" {
   cluster_id      = ""
   deletion_policy = ""
+  kafka_version   = ""
   labels          = {}
   location        = ""
   project         = ""

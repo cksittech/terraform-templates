@@ -72,6 +72,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     type  = ""
   }
   network_interface {
+    enable_vpc_scoped_dns       = false
     igmp_query                  = ""
     internal_ipv6_prefix_length = 0
     ipv6_address                = ""

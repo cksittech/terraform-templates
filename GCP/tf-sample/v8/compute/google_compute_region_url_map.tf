@@ -378,6 +378,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
           host_rewrite          = ""
           path_prefix_rewrite   = ""
           path_template_rewrite = ""
+          
+          regex_rewrite {
+            path_pattern      = ""
+            path_substitution = ""
+          }
         }
         weighted_backend_services {
           backend_service = ""

@@ -16,5 +16,6 @@ resource "google_iam_organizations_policy_binding" "tf-sample-iam-organizations-
   }
   target {
     principal_set = ""
+    resource      = ""
   }
 }

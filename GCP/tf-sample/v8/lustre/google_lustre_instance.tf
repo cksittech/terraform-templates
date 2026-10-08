@@ -12,6 +12,7 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
   per_unit_storage_throughput = ""
   placement_policy            = ""
   project                     = ""
+  target_version              = ""
   
   access_rules_options {
     default_squash_gid  = 0

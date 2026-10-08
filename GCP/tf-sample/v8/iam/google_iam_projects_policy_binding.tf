@@ -16,5 +16,6 @@ resource "google_iam_projects_policy_binding" "tf-sample-iam-projects-policy-bin
   }
   target {
     principal_set = ""
+    resource      = ""
   }
 }

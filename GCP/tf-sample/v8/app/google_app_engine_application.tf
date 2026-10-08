@@ -10,8 +10,10 @@ resource "google_app_engine_application" "tf-sample-app-engine-application" {
     split_health_checks = false
   }
   iap {
-    enabled              = false
-    oauth2_client_id     = ""
-    oauth2_client_secret = ""
+    enabled                         = false
+    oauth2_client_id                = ""
+    oauth2_client_secret            = ""
+    oauth2_client_secret_wo         = ""
+    oauth2_client_secret_wo_version = ""
   }
 }

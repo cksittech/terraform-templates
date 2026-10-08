@@ -1,16 +1,17 @@
 resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-search-engine" {
-  app_type          = ""
-  collection_id     = ""
-  data_store_ids    = []
-  deletion_policy   = ""
-  disable_analytics = false
-  display_name      = ""
-  engine_id         = ""
-  features          = {}
-  industry_vertical = ""
-  kms_key_name      = ""
-  location          = ""
-  project           = ""
+  app_type                   = ""
+  collection_id              = ""
+  data_store_ids             = []
+  deletion_policy            = ""
+  disable_analytics          = false
+  display_name               = ""
+  engine_id                  = ""
+  features                   = {}
+  industry_vertical          = ""
+  kms_key_name               = ""
+  location                   = ""
+  procurement_contact_emails = []
+  project                    = ""
   
   common_config {
     company_name = ""

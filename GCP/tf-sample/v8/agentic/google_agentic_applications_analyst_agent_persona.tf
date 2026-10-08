@@ -113,6 +113,8 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
       }
     }
     visualization_options {
+      visualization_mode = ""
+      
       visualization_examples {
         visualization_type = ""
         
@@ -168,6 +170,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
   }
   mcp_data_sources {
     api_key         = ""
+    api_key_header  = ""
     api_key_name    = ""
     client_id       = ""
     client_secret   = ""
@@ -226,6 +229,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
   }
   web_search_config {
+    disabled         = false
     excluded_domains = []
   }
 }

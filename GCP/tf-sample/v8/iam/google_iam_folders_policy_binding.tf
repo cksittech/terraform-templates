@@ -16,5 +16,6 @@ resource "google_iam_folders_policy_binding" "tf-sample-iam-folders-policy-bindi
   }
   target {
     principal_set = ""
+    resource      = ""
   }
 }

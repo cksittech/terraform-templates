@@ -25,7 +25,9 @@ resource "google_ces_app" "tf-sample-ces-app" {
       barge_in_awareness = false
     }
     synthesize_speech_configs {
+      instruction   = ""
       language_code = ""
+      model         = ""
       speaking_rate = 0
       voice         = ""
     }
