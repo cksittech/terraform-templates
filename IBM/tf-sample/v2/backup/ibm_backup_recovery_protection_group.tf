@@ -40,6 +40,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
     leverage_csi_snapshot             = false
     non_snapshot_backup               = false
     perform_source_side_deduplication = false
+    snapshot_timeout_seconds          = 0
     volume_backup_failure             = false
     
     exclude_params {

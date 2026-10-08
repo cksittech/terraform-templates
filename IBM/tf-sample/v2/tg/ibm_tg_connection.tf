@@ -4,6 +4,7 @@ resource "ibm_tg_connection" "tf-sample-tg-connection" {
   cidr                  = ""
   default_prefix_filter = ""
   gateway               = ""
+  local_bgp_asn         = 0
   local_gateway_ip      = ""
   local_tunnel_ip       = ""
   name                  = ""

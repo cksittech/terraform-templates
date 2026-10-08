@@ -57,6 +57,7 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_metadata_service {
     enabled       = false
     force_disable = false
+    force_enable  = false
   }
   pi_network {
     ip_address                 = ""

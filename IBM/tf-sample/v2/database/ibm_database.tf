@@ -17,6 +17,7 @@ resource "ibm_database" "tf-sample-database" {
   resource_group_id                    = ""
   service                              = ""
   service_endpoints                    = ""
+  shards                               = 0
   skip_initial_backup                  = false
   version                              = ""
   version_upgrade_skip_backup          = false

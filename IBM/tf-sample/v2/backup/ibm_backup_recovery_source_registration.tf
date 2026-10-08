@@ -26,6 +26,7 @@ resource "ibm_backup_recovery_source_registration" "tf-sample-backup-recovery-so
     client_private_key                         = ""
     cohesity_dataprotect_plugin_image_location = ""
     data_mover_image_location                  = ""
+    datamover_hostport_number                  = 0
     datamover_service_type                     = ""
     endpoint                                   = ""
     init_container_image_location              = ""
