@@ -206,6 +206,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     policy_type          = ""
   }
   ssl_profile {
+    client_authentication_mode           = ""
     name                                 = ""
     trusted_client_certificate_names     = []
     verify_client_certificate_issuer_dn  = false

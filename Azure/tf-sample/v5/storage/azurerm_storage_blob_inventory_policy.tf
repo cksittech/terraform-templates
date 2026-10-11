@@ -11,6 +11,7 @@ resource "azurerm_storage_blob_inventory_policy" "tf-sample-storage-blob-invento
     
     filter {
       blob_types            = []
+      created_within_days   = 0
       exclude_prefixes      = []
       include_blob_versions = false
       include_deleted       = false
