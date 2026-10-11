@@ -67,6 +67,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     boot_volume_type                    = ""
     firmware                            = ""
     is_consistent_volume_naming_enabled = false
+    is_encryption_in_transit_enabled    = false
     is_pv_encryption_in_transit_enabled = false
     network_type                        = ""
     remote_data_volume_type             = ""
