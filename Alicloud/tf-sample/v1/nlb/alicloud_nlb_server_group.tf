@@ -3,6 +3,7 @@ resource "alicloud_nlb_server_group" "tf-sample-nlb-server-group" {
   any_port_enabled           = false
   connection_drain_enabled   = false
   connection_drain_timeout   = 0
+  ip_version_affinity_mode   = ""
   preserve_client_ip_enabled = false
   protocol                   = ""
   resource_group_id          = ""

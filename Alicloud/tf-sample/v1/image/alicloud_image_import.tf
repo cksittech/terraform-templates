@@ -14,4 +14,7 @@ resource "alicloud_image_import" "tf-sample-image-import" {
     oss_bucket      = ""
     oss_object      = ""
   }
+  features {
+    nvme_support = ""
+  }
 }

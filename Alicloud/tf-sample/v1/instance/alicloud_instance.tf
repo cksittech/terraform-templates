@@ -81,6 +81,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   vswitch_id                          = ""
   
   cpu_options {
+    accelerators     = []
     core_count       = 0
     threads_per_core = 0
     topology_type    = ""
