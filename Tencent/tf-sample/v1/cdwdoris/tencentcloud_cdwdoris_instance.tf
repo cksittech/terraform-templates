@@ -1,5 +1,6 @@
 resource "tencentcloud_cdwdoris_instance" "tf-sample-cdwdoris-instance" {
   case_sensitive        = 0
+  disk_encrypt          = 0
   doris_user_pwd        = ""
   enable_multi_zones    = false
   ha_flag               = false

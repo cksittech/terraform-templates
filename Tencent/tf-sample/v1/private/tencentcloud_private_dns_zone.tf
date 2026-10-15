@@ -8,7 +8,6 @@ resource "tencentcloud_private_dns_zone" "tf-sample-private-dns-zone" {
     region      = ""
     uin         = ""
     uniq_vpc_id = ""
-    vpc_name    = ""
   }
   vpc_set {
     region      = ""
