@@ -78,6 +78,24 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
       seed_cluster_id     = ""
     }
   }
+  remote_reindex_trust_config {
+    remote_sources {
+      certificate_id         = ""
+      endpoint               = ""
+      endpoint_resolution_ip = ""
+    }
+  }
+  security_master_user_auth_details {
+    user_details {
+      username = ""
+      
+      password_details {
+        plain_password  = ""
+        source_type     = ""
+        vault_secret_id = ""
+      }
+    }
+  }
   security_saml_config {
     admin_backend_role   = ""
     idp_entity_id        = ""

@@ -65,6 +65,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
     }
     encryption_key_location_details {
       aws_encryption_key_id                   = ""
+      aws_encryption_key_pool_id              = ""
       azure_encryption_key_id                 = ""
       google_cloud_provider_encryption_key_id = ""
       hsm_password                            = ""

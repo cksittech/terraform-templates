@@ -75,6 +75,7 @@ resource "oci_database_database" "tf-sample-database-database" {
     }
     encryption_key_location_details {
       aws_encryption_key_id                   = ""
+      aws_encryption_key_pool_id              = ""
       azure_encryption_key_id                 = ""
       google_cloud_provider_encryption_key_id = ""
       hsm_password                            = ""
@@ -109,8 +110,12 @@ resource "oci_database_database" "tf-sample-database-database" {
       should_skip_data_patch  = false
     }
     source_encryption_key_location_details {
-      hsm_password  = ""
-      provider_type = ""
+      aws_encryption_key_id                   = ""
+      aws_encryption_key_pool_id              = ""
+      azure_encryption_key_id                 = ""
+      google_cloud_provider_encryption_key_id = ""
+      hsm_password                            = ""
+      provider_type                           = ""
     }
     storage_size_details {
       data_storage_size_in_gb  = 0
