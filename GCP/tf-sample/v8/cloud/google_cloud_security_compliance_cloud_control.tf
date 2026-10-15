@@ -37,6 +37,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
             parameter_value {
               bool_value   = false
               number_value = 0
+              oneof_value  = ""
               string_value = ""
               
               string_list_value {
@@ -79,6 +80,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
               parameter_value {
                 bool_value   = false
                 number_value = 0
+                oneof_value  = ""
                 string_value = ""
                 
                 string_list_value {
@@ -96,11 +98,12 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
         }
       }
       sub_parameters {
-        description  = ""
-        display_name = ""
-        is_required  = false
-        name         = ""
-        value_type   = ""
+        description    = ""
+        display_name   = ""
+        is_required    = false
+        name           = ""
+        sub_parameters = ""
+        value_type     = ""
         
         default_value {
           bool_value   = false
@@ -113,6 +116,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
             parameter_value {
               bool_value   = false
               number_value = 0
+              oneof_value  = ""
               string_value = ""
               
               string_list_value {
@@ -145,6 +149,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
                 parameter_value {
                   bool_value   = false
                   number_value = 0
+                  oneof_value  = ""
                   string_value = ""
                   
                   string_list_value {
@@ -195,6 +200,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
                   parameter_value {
                     bool_value   = false
                     number_value = 0
+                    oneof_value  = ""
                     string_value = ""
                     
                     string_list_value {
@@ -250,6 +256,7 @@ resource "google_cloud_security_compliance_cloud_control" "tf-sample-cloud-secur
                 parameter_value {
                   bool_value   = false
                   number_value = 0
+                  oneof_value  = ""
                   string_value = ""
                   
                   string_list_value {

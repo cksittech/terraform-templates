@@ -595,6 +595,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       total_max_node_count = 0
       total_min_node_count = 0
     }
+    best_effort_provisioning {
+      enabled             = false
+      min_provision_nodes = 0
+    }
     maintenance_policy {
       exclusion_until_end_of_support {
         enabled = false

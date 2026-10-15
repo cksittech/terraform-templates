@@ -160,6 +160,8 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
     }
   }
   network_rules {
+    when = ""
+    
     from {
       not_sources {
         ip_blocks {
@@ -170,7 +172,20 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
           principal_selector = ""
           
           principal {
-            exact = ""
+            exact       = ""
+            ignore_case = false
+          }
+        }
+        resources {
+          iam_service_account {
+            contains    = ""
+            exact       = ""
+            ignore_case = false
+            prefix      = ""
+            suffix      = ""
+          }
+          tag_value_id_set {
+            ids = []
           }
         }
       }
@@ -183,15 +198,41 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
           principal_selector = ""
           
           principal {
-            exact = ""
+            exact       = ""
+            ignore_case = false
+          }
+        }
+        resources {
+          iam_service_account {
+            contains    = ""
+            exact       = ""
+            ignore_case = false
+            prefix      = ""
+            suffix      = ""
+          }
+          tag_value_id_set {
+            ids = []
           }
         }
       }
     }
     to {
+      not_operations {
+        snis {
+          contains    = ""
+          exact       = ""
+          ignore_case = false
+          prefix      = ""
+          suffix      = ""
+        }
+      }
       operations {
         snis {
-          exact = ""
+          contains    = ""
+          exact       = ""
+          ignore_case = false
+          prefix      = ""
+          suffix      = ""
         }
       }
     }

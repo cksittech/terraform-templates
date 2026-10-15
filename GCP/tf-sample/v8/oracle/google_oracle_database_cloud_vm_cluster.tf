@@ -16,21 +16,23 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
   project                   = ""
   
   properties {
-    cluster_name             = ""
-    cpu_core_count           = 0
-    data_storage_size_tb     = 0
-    db_node_storage_size_gb  = 0
-    db_server_ocids          = []
-    disk_redundancy          = ""
-    gi_version               = ""
-    hostname_prefix          = ""
-    license_type             = ""
-    local_backup_enabled     = false
-    memory_size_gb           = 0
-    node_count               = 0
-    ocpu_count               = 0
-    sparse_diskgroup_enabled = false
-    ssh_public_keys          = []
+    cluster_name                = ""
+    cpu_core_count              = 0
+    data_storage_size_tb        = 0
+    db_node_storage_size_gb     = 0
+    db_server_ocids             = []
+    disk_redundancy             = ""
+    gi_version                  = ""
+    hostname_prefix             = ""
+    license_type                = ""
+    local_backup_enabled        = false
+    memory_size_gb              = 0
+    node_count                  = 0
+    ocpu_count                  = 0
+    sparse_diskgroup_enabled    = false
+    ssh_public_keys             = []
+    vm_backup_storage_type      = ""
+    vm_file_system_storage_type = ""
     
     diagnostics_data_collection_options {
       diagnostics_events_enabled = false

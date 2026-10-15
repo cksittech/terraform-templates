@@ -5,8 +5,26 @@ resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
   location        = ""
   project         = ""
   published_model = ""
+  tools           = []
   trigger_event   = ""
   
+  agent_coaching_context {
+    output_language_code = ""
+    overarching_guidance = ""
+    version              = ""
+    
+    instructions {
+      agent_action     = ""
+      condition        = ""
+      display_details  = ""
+      display_name     = ""
+      system_action    = ""
+      triggering_event = ""
+    }
+  }
+  free_form_context {
+    text = ""
+  }
   inference_parameter {
     max_output_tokens = 0
     temperature       = 0

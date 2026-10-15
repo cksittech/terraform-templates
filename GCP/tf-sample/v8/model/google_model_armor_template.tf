@@ -38,6 +38,7 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
     ignore_partial_invocation_failures       = false
     log_sanitize_operations                  = false
     log_template_operations                  = false
+    modalities                               = []
     
     filter_version_selector {
       alias   = ""

@@ -10,6 +10,9 @@ resource "google_bigquery_analytics_hub_query_template" "tf-sample-bigquery-anal
   query_template_id = ""
   submit            = false
   
+  encryption_configuration {
+    kms_key_name = ""
+  }
   routine {
     definition_body = ""
     routine_type    = ""

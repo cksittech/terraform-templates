@@ -50,8 +50,9 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
   llm_agent {
   }
   model_settings {
-    model       = ""
-    temperature = 0
+    model          = ""
+    temperature    = 0
+    thinking_level = ""
   }
   remote_a2a_agent {
     a2a_config {

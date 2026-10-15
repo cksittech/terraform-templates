@@ -211,9 +211,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             
             attached_disk_config {
               disk_size_gb           = 0
-              disk_type              = ""
               provisioned_iops       = 0
               provisioned_throughput = 0
+              type                   = ""
             }
           }
           instance_flexibility_policy {
@@ -231,9 +231,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 
                 attached_disk_config {
                   disk_size_gb           = 0
-                  disk_type              = ""
                   provisioned_iops       = 0
                   provisioned_throughput = 0
+                  type                   = ""
                 }
               }
             }
@@ -260,9 +260,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             
             attached_disk_config {
               disk_size_gb           = 0
-              disk_type              = ""
               provisioned_iops       = 0
               provisioned_throughput = 0
+              type                   = ""
             }
           }
           instance_flexibility_policy {
@@ -280,9 +280,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 
                 attached_disk_config {
                   disk_size_gb           = 0
-                  disk_type              = ""
                   provisioned_iops       = 0
                   provisioned_throughput = 0
+                  type                   = ""
                 }
               }
             }
@@ -337,9 +337,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             
             attached_disk_config {
               disk_size_gb           = 0
-              disk_type              = ""
               provisioned_iops       = 0
               provisioned_throughput = 0
+              type                   = ""
             }
           }
           instance_flexibility_policy {
@@ -357,9 +357,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 
                 attached_disk_config {
                   disk_size_gb           = 0
-                  disk_type              = ""
                   provisioned_iops       = 0
                   provisioned_throughput = 0
+                  type                   = ""
                 }
               }
             }

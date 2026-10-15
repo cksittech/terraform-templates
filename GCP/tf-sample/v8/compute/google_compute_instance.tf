@@ -100,6 +100,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     network_ip                  = ""
     nic_type                    = ""
     queue_count                 = 0
+    service_class_id            = ""
     stack_type                  = ""
     subnetwork                  = ""
     subnetwork_project          = ""
@@ -162,6 +163,10 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     }
     on_instance_stop_action {
       discard_local_ssd = false
+    }
+    preemption_notice_duration {
+      nanos   = 0
+      seconds = 0
     }
   }
   scratch_disk {
