@@ -47,6 +47,21 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
           video_extraction_status = ""
         }
       }
+      sync_schedule {
+        daily {
+        }
+        monthly {
+          day_of_month {
+            day_number = 0
+            
+            last_day_of_month {
+            }
+          }
+        }
+        weekly {
+          day_of_week = ""
+        }
+      }
     }
     s3_configuration {
       bucket_arn              = ""
@@ -139,6 +154,17 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
         breakpoint_percentile_threshold = 0
         buffer_size                     = 0
         max_token                       = 0
+      }
+    }
+    context_enrichment_configuration {
+      type = ""
+      
+      bedrock_foundation_model_configuration {
+        model_arn = ""
+        
+        enrichment_strategy_configuration {
+          method = ""
+        }
       }
     }
     custom_transformation_configuration {

@@ -1,8 +1,9 @@
 resource "aws_resiliencehubv2_policy" "tf-sample-resiliencehubv2-policy" {
-  description = ""
-  kms_key_id  = ""
-  name        = ""
-  region      = ""
+  description     = ""
+  kms_key_id      = ""
+  name            = ""
+  region          = ""
+  sharing_enabled = false
   
   availability_slo {
     target = 0

@@ -10,6 +10,16 @@ resource "aws_resiliencehubv2_input_source" "tf-sample-resiliencehubv2-input-sou
     eks {
       cluster_arn = ""
       namespaces  = []
+      
+      label_selector {
+        match_labels = {}
+        
+        match_expressions {
+          key      = ""
+          operator = ""
+          values   = []
+        }
+      }
     }
     resource_tag {
       key    = ""

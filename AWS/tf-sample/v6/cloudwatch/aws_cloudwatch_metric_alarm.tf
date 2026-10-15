@@ -29,6 +29,11 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
       recovery_period = 0
     }
   }
+  evaluation_window {
+    wall_clock_window {
+      timezone = ""
+    }
+  }
   metric_query {
     account_id  = ""
     expression  = ""

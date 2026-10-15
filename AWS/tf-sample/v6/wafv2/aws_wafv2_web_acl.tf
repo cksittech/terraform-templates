@@ -74,6 +74,21 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       }
     }
   }
+  monetization_config {
+    currency_mode = ""
+    
+    crypto_config {
+      payment_network {
+        chain          = ""
+        wallet_address = ""
+        
+        prices {
+          amount   = ""
+          currency = ""
+        }
+      }
+    }
+  }
   rule {
     name     = ""
     priority = 0
@@ -121,6 +136,9 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             value = ""
           }
         }
+      }
+      monetize {
+        price_multiplier = ""
       }
     }
     captcha_config {

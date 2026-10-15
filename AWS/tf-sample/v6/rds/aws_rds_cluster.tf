@@ -52,6 +52,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   port                                  = 0
   preferred_backup_window               = ""
   preferred_maintenance_window          = ""
+  publicly_accessible                   = false
   region                                = ""
   replication_source_identifier         = ""
   skip_final_snapshot                   = false

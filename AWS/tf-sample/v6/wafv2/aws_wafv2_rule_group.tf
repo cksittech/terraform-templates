@@ -12,6 +12,21 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
     content_type = ""
     key          = ""
   }
+  monetization_config {
+    currency_mode = ""
+    
+    crypto_config {
+      payment_network {
+        chain          = ""
+        wallet_address = ""
+        
+        prices {
+          amount   = ""
+          currency = ""
+        }
+      }
+    }
+  }
   rule {
     name     = ""
     priority = 0
@@ -59,6 +74,9 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             value = ""
           }
         }
+      }
+      monetize {
+        price_multiplier = ""
       }
     }
     captcha_config {
