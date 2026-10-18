@@ -24,6 +24,7 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
   storage_quota_in_gb                                  = 0
   subnet_id                                            = ""
   throughput_in_mibps                                  = 0
+  unix_permissions                                     = ""
   volume_path                                          = ""
   zone                                                 = ""
   

@@ -1,8 +1,10 @@
 resource "azurerm_eventgrid_topic" "tf-sample-eventgrid-topic" {
+  data_residency_boundary       = ""
   inbound_ip_rule               = []
   input_schema                  = ""
   local_auth_enabled            = false
   location                      = ""
+  minimum_tls_version           = ""
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""

@@ -20,6 +20,28 @@ resource "azurerm_shared_image_version" "tf-sample-shared-image-version" {
     regional_replica_count      = 0
     storage_account_type        = ""
   }
+  uefi {
+    signature_template_names = []
+    
+    additional_signatures {
+      db {
+        type          = ""
+        values_base64 = []
+      }
+      dbx {
+        type          = ""
+        values_base64 = []
+      }
+      kek {
+        type          = ""
+        values_base64 = []
+      }
+      pk {
+        type          = ""
+        values_base64 = []
+      }
+    }
+  }
   
   tags = {}
 }
