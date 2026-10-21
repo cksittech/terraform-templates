@@ -12,7 +12,7 @@ variable "terraform" {
 
 
 
-data "aws_route53_zone" "tf-keycloak-route53-zone" {
+data "aws_route53_zone" "tf-ses-route53-zone" {
   name         = "${var.AWS_DOMAIN}."
   private_zone = false
 }
