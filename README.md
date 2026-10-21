@@ -83,42 +83,48 @@
 | Project | Link | Description |
 |-|-|-|
 | tf-sample/v4 | [Sources](./Azure/tf-sample/v4/) | Terraform samples built with Azure provider v4.57.0.<br>This cannot be deployed. |
+| tf-sample/v5 | [Sources](./Azure/tf-sample/v5/) | Terraform samples built with Azure provider v5.10.0.<br>This cannot be deployed. |
 
 # GCP
 ## Summary
 | Project | Link | Description |
 |-|-|-|
 | tf-sample/v7 | [Sources](./GCP/tf-sample/v7/) | Terraform samples built with GCP provider v7.16.0.<br>This cannot be deployed. |
+| tf-sample/v8 | [Sources](./GCP/tf-sample/v8/) | Terraform samples built with GCP provider v8.7.0.<br>This cannot be deployed. |
 
 # IBM
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v7 | [Sources](./IBM/tf-sample/v1/) | Terraform samples built with IBM provider v1.87.1.<br>This cannot be deployed. |
+| tf-sample/v1 | [Sources](./IBM/tf-sample/v1/) | Terraform samples built with IBM provider v1.87.1.<br>This cannot be deployed. |
+| tf-sample/v2 | [Sources](./IBM/tf-sample/v2/) | Terraform samples built with IBM provider v2.8.0.<br>This cannot be deployed. |
 
 # OCI
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v7 | [Sources](./OCI/tf-sample/v1/) | Terraform samples built with OCI provider v1.87.1.<br>This cannot be deployed. |
+| tf-sample/v7 | [Sources](./OCI/tf-sample/v7/) | Terraform samples built with OCI provider v7.32.0.<br>This cannot be deployed. |
+| tf-sample/v8 | [Sources](./OCI/tf-sample/v8/) | Terraform samples built with OCI provider v8.29.0.<br>This cannot be deployed. |
+| tf-sample/v9 | [Sources](./OCI/tf-sample/v9/) | Terraform samples built with OCI provider v9.10.0.<br>This cannot be deployed. |
 
 # Tencent
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v7 | [Sources](./Tencent/tf-sample/v1/) | Terraform samples built with Tencent provider v1.82.56.<br>This cannot be deployed. |
+| tf-sample/v1 | [Sources](./Tencent/tf-sample/v1/) | Terraform samples built with Tencent provider v1.82.56.<br>This cannot be deployed. |
 
 # Alicloud
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v7 | [Sources](./Alicloud/tf-sample/v1/) | Terraform samples built with Alicloud provider v1.268.0.<br>This cannot be deployed. |
+| tf-sample/v1 | [Sources](./Alicloud/tf-sample/v1/) | Terraform samples built with Alicloud provider v1.268.0.<br>This cannot be deployed. |
+| tf-sample/v2 | [Sources](./Alicloud/tf-sample/v2/) | Terraform samples built with Alicloud provider v2.0.0.<br>This cannot be deployed. |
 
 # Sacloud
 ## Summary
 | Project | Link | Description |
 |-|-|-|
-| tf-sample/v7 | [Sources](./Sacloud/tf-sample/v2/) | Terraform samples built with Sacloud provider v2.34.0.<br>This cannot be deployed. |
+| tf-sample/v2 | [Sources](./Sacloud/tf-sample/v2/) | Terraform samples built with Sacloud provider v2.34.0.<br>This cannot be deployed. |
 
 </details>
 <details><summary><img src="https://flagcdn.com/w20/es.png" alt="Español"> Español (traducción automática, en preparación)</summary></details>
