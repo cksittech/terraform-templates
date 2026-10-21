@@ -10,6 +10,7 @@
 | tf-backstage | [Sources](./AWS/tf-backstage/)<br>[Details](#tf-backstage) | You can run Backstage from the community image over HTTP. |
 | tf-ses | [Sources](./AWS/tf-ses/)<br>[Details](#tf-ses) | You can send emails using a public domain with SES. |
 | tf-pullthroughcache | [Sources](./AWS/tf-pullthroughcache/)<br>[Details](#tf-pullthroughcache) | You can cache container images via ECR. |
+| tf-rdscluster | [Sources](./AWS/tf-rdscluster/)<br>[Details](#tf-rdscluster) | You can run an Aurora PostgreSQL cluster with a writer and a reader instance. |
 ## Details
 ### [tf-keycloak](./AWS/tf-keycloak/)
 <details><summary>Overview</summary>
@@ -76,6 +77,21 @@
     - `TF_VAR_DOCKER_TOKEN`
     - `TF_VAR_GITHUB_USERNAME`
     - `TF_VAR_GITHUB_TOKEN`
+</details>
+
+### [tf-rdscluster](./AWS/tf-rdscluster/)
+<details><summary>Overview</summary>
+
+- The architecture diagram is not yet available.
+</details>
+<details><summary>Requirements</summary>
+
+- To deploy this module, Terraform must authenticate with your AWS account.
+- Set the following environment variables before running the module: 
+    - `TF_VAR_AWS_REGION`
+    - `TF_VAR_AWS_ACCOUNT_ID`
+    - `TF_VAR_AWS_ACCESS_KEY_ID`
+    - `TF_VAR_AWS_SECRET_ACCESS_KEY`
 </details>
 
 # Azure
