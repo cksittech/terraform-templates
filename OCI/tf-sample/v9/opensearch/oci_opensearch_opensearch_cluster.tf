@@ -79,11 +79,7 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
     }
   }
   remote_reindex_trust_config {
-    remote_sources {
-      certificate_id         = ""
-      endpoint               = ""
-      endpoint_resolution_ip = ""
-    }
+    remote_sources = []
   }
   security_master_user_auth_details {
     user_details {

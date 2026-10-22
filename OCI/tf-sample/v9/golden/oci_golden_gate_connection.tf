@@ -2,12 +2,15 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   access_key_id                               = ""
   account_key_secret_id                       = ""
   account_name                                = ""
+  auth_secret_secret_id                       = ""
+  auth_token_secret_id                        = ""
   authentication_mode                         = ""
   authentication_type                         = ""
   azure_authority_host                        = ""
   azure_tenant_id                             = ""
   client_id                                   = ""
   client_secret_secret_id                     = ""
+  cluster_endpoint                            = ""
   cluster_id                                  = ""
   cluster_placement_group_id                  = ""
   compartment_id                              = ""
@@ -38,6 +41,7 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   key_id                                      = ""
   key_store_password_secret_id                = ""
   key_store_secret_id                         = ""
+  key_store_type                              = ""
   max_input_chars                             = 0
   model_key                                   = ""
   nsg_ids                                     = []
@@ -46,11 +50,15 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   private_key_file_secret_id                  = ""
   private_key_passphrase_secret_id            = ""
   producer_properties                         = ""
+  provider_id                                 = ""
   provider_type                               = ""
   public_key_fingerprint                      = ""
   redis_cluster_id                            = ""
   region                                      = ""
+  rest_auth_secret_key_secret_id              = ""
+  rest_endpoint                               = ""
   routing_method                              = ""
+  rpc_cipher                                  = ""
   sas_token_secret_id                         = ""
   secret_access_key_secret_id                 = ""
   security_attributes                         = {}
@@ -72,6 +80,7 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   ssl_server_certificate                      = ""
   storage_credential_name                     = ""
   stream_pool_id                              = ""
+  submit_mode                                 = ""
   subnet_id                                   = ""
   subscription_id                             = ""
   technology_type                             = ""
@@ -80,18 +89,47 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   tls_ca_file                                 = ""
   tls_certificate_key_file_password_secret_id = ""
   tls_certificate_key_file_secret_id          = ""
+  tls_protocol                                = ""
   trigger_refresh                             = false
   trust_store_password_secret_id              = ""
   trust_store_secret_id                       = ""
+  trust_store_type                            = ""
   url                                         = ""
   user_id                                     = ""
   username                                    = ""
   vault_id                                    = ""
   wallet_secret_id                            = ""
+  workspace_url                               = ""
   
   additional_attributes {
     name  = ""
     value = ""
+  }
+  artifact_location {
+    account_key               = ""
+    account_key_secret_id     = ""
+    endpoint_suffix           = ""
+    filesystem                = ""
+    location_type             = ""
+    path                      = ""
+    should_overwrite_existing = false
+    storage_account           = ""
+    
+    configuration {
+      access_key_id                    = ""
+      authentication_type              = ""
+      bucket                           = ""
+      namespace                        = ""
+      par_url_secret_id                = ""
+      path                             = ""
+      private_key_file_secret_id       = ""
+      private_key_passphrase_secret_id = ""
+      public_key_fingerprint           = ""
+      region                           = ""
+      secret_access_key_secret_id      = ""
+      tenancy_id                       = ""
+      user_id                          = ""
+    }
   }
   auth_details {
     api_key           = ""

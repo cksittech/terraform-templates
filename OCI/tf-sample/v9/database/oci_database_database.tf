@@ -26,6 +26,8 @@ resource "oci_database_database" "tf-sample-database-database" {
     defined_tags                          = {}
     freeform_tags                         = {}
     is_active_data_guard_enabled          = false
+    is_thin_clone                         = false
+    key_store_id                          = ""
     kms_key_id                            = ""
     kms_key_version_id                    = ""
     ncharacter_set                        = ""
@@ -34,7 +36,10 @@ resource "oci_database_database" "tf-sample-database-database" {
     protection_mode                       = ""
     recovery_appliance_vpc_password       = ""
     sid_prefix                            = ""
+    source_admin_password                 = ""
     source_database_id                    = ""
+    source_snapshot_id                    = ""
+    source_tde_password                   = ""
     source_tde_wallet_password            = ""
     tde_wallet_password                   = ""
     time_stamp_for_point_in_time_recovery = ""

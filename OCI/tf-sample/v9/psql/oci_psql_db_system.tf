@@ -1,4 +1,5 @@
 resource "oci_psql_db_system" "tf-sample-psql-db-system" {
+  allow_major_version_upgrade      = false
   apply_change_mode_to_stand_alone = ""
   apply_config                     = ""
   compartment_id                   = ""
@@ -14,6 +15,7 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   shape                            = ""
   state                            = ""
   system_type                      = ""
+  upgrade_options                  = []
   
   credentials {
     username = ""

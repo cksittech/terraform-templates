@@ -91,6 +91,17 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
       encryption_key_id = ""
       vault_id          = ""
     }
+    dr_drill_properties {
+      vnic_mappings {
+        destination_nsg_id_list                       = []
+        destination_primary_private_ip_address        = ""
+        destination_primary_private_ip_hostname_label = ""
+        destination_reserved_primary_private_ip_id    = ""
+        destination_reserved_public_ip_id             = ""
+        destination_subnet_id                         = ""
+        source_vnic_id                                = ""
+      }
+    }
     export_mappings {
       destination_mount_target_id = ""
       export_id                   = ""
@@ -150,6 +161,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
       destination_nsg_id_list                       = []
       destination_primary_private_ip_address        = ""
       destination_primary_private_ip_hostname_label = ""
+      destination_reserved_primary_private_ip_id    = ""
       destination_reserved_public_ip_id             = ""
       destination_subnet_id                         = ""
       source_vnic_id                                = ""
