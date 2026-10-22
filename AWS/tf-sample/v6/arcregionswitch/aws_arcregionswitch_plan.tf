@@ -365,6 +365,16 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
             external_id         = ""
             timeout_minutes     = 0
           }
+          rds_switchover_read_replica_config {
+            cross_account_role  = ""
+            db_instance_arn_map = {}
+            external_id         = ""
+            timeout_minutes     = 0
+            
+            ungraceful {
+              ungraceful = ""
+            }
+          }
           region_switch_plan_config {
             cross_account_role = ""
             external_id        = ""
@@ -394,6 +404,16 @@ resource "aws_arcregionswitch_plan" "tf-sample-arcregionswitch-plan" {
         db_instance_arn_map = {}
         external_id         = ""
         timeout_minutes     = 0
+      }
+      rds_switchover_read_replica_config {
+        cross_account_role  = ""
+        db_instance_arn_map = {}
+        external_id         = ""
+        timeout_minutes     = 0
+        
+        ungraceful {
+          ungraceful = ""
+        }
       }
       region_switch_plan_config {
         cross_account_role = ""

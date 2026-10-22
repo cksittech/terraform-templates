@@ -18,6 +18,7 @@ resource "aws_neptune_cluster" "tf-sample-neptune-cluster" {
   neptune_cluster_parameter_group_name  = ""
   neptune_instance_parameter_group_name = ""
   neptune_subnet_group_name             = ""
+  network_type                          = ""
   port                                  = 0
   preferred_backup_window               = ""
   preferred_maintenance_window          = ""
