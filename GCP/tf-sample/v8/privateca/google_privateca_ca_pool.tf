@@ -10,8 +10,9 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
     cloud_kms_key = ""
   }
   issuance_policy {
-    backdate_duration = ""
-    maximum_lifetime  = ""
+    allow_requester_specified_not_before_time = false
+    backdate_duration                         = ""
+    maximum_lifetime                          = ""
     
     allowed_issuance_modes {
       allow_config_based_issuance = false

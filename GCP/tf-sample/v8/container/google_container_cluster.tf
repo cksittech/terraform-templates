@@ -285,6 +285,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       start_time = ""
     }
   }
+  managed_opentelemetry_config {
+    scope = ""
+  }
   master_auth {
     client_certificate_config {
       issue_client_certificate = false

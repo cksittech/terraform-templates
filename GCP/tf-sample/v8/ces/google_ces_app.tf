@@ -128,8 +128,9 @@ resource "google_ces_app" "tf-sample-ces-app" {
     }
   }
   model_settings {
-    model       = ""
-    temperature = 0
+    model          = ""
+    temperature    = 0
+    thinking_level = ""
   }
   time_zone_settings {
     time_zone = ""

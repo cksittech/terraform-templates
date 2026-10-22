@@ -63,8 +63,9 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
     prompt                    = ""
     
     model_settings {
-      model       = ""
-      temperature = 0
+      model          = ""
+      temperature    = 0
+      thinking_level = ""
     }
   }
   llm_prompt_security {
@@ -78,8 +79,9 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
       prompt                    = ""
       
       model_settings {
-        model       = ""
-        temperature = 0
+        model          = ""
+        temperature    = 0
+        thinking_level = ""
       }
     }
     default_settings {

@@ -19,6 +19,21 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
     use_topic_schema      = false
     write_metadata        = false
   }
+  bigtable_config {
+    app_profile_id        = ""
+    service_account_email = ""
+    table                 = ""
+    write_metadata        = false
+    
+    column_family_mapping {
+      delimited_key {
+        delimiter  = ""
+        key_fields = []
+      }
+      row_key_schema {
+      }
+    }
+  }
   cloud_storage_config {
     bucket                   = ""
     filename_datetime_format = ""

@@ -116,20 +116,23 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
         prompt   = ""
         
         model_settings {
-          model       = ""
-          temperature = 0
+          model          = ""
+          temperature    = 0
+          thinking_level = ""
         }
       }
       snippets_config {
         enable_snippets = false
+        max_snippets    = 0
       }
       summarization_config {
         disabled = false
         prompt   = ""
         
         model_settings {
-          model       = ""
-          temperature = 0
+          model          = ""
+          temperature    = 0
+          thinking_level = ""
         }
       }
     }

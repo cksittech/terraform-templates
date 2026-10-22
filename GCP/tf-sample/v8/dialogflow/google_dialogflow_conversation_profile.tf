@@ -150,7 +150,16 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
     model                         = ""
     sample_rate_hertz             = 0
     speech_model_variant          = ""
+    use_gemini_asr                = false
     use_timeout_based_endpointing = false
+    
+    gemini_asr_config {
+      end_of_speech_sensitivity   = ""
+      model_id                    = ""
+      prefix_padding_ms           = 0
+      silence_duration_ms         = 0
+      start_of_speech_sensitivity = ""
+    }
   }
   tts_config {
     effects_profile_id = []

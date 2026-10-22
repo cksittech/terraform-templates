@@ -6,6 +6,7 @@ resource "google_access_context_manager_gcp_user_access_binding" "tf-sample-acce
   organization_id       = ""
   
   principal {
+    federated_principal            = ""
     service_account                = ""
     service_account_project_number = ""
   }
@@ -29,6 +30,9 @@ resource "google_access_context_manager_gcp_user_access_binding" "tf-sample-acce
         restricted_client_application {
           client_id = ""
           name      = ""
+        }
+        restricted_project {
+          name = ""
         }
       }
     }

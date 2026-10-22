@@ -10,6 +10,7 @@ resource "google_vector_search_index" "tf-sample-vector-search-index" {
   labels          = {}
   location        = ""
   project         = ""
+  skip_wait       = false
   store_fields    = []
   
   dedicated_infrastructure {

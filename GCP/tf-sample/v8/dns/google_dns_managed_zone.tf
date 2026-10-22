@@ -24,6 +24,9 @@ resource "google_dns_managed_zone" "tf-sample-dns-managed-zone" {
     }
   }
   forwarding_config {
+    outbound_endpoints {
+      name = ""
+    }
     target_name_servers {
       domain_name     = ""
       forwarding_path = ""

@@ -7,6 +7,9 @@ resource "google_dns_policy" "tf-sample-dns-policy" {
   project                   = ""
   
   alternative_name_server_config {
+    outbound_endpoints {
+      name = ""
+    }
     target_name_servers {
       forwarding_path = ""
       ipv4_address    = ""

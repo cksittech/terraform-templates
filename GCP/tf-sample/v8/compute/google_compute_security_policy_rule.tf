@@ -34,6 +34,10 @@ resource "google_compute_security_policy_rule" "tf-sample-compute-security-polic
       target_rule_ids = []
       target_rule_set = ""
       
+      request_body {
+        operator = ""
+        value    = ""
+      }
       request_cookie {
         operator = ""
         value    = ""

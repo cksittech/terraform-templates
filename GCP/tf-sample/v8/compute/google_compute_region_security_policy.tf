@@ -53,6 +53,10 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
         target_rule_ids = []
         target_rule_set = ""
         
+        request_body {
+          operator = ""
+          value    = ""
+        }
         request_cookie {
           operator = ""
           value    = ""

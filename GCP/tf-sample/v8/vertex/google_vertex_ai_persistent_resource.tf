@@ -39,6 +39,9 @@ resource "google_vertex_ai_persistent_resource" "tf-sample-vertex-ai-persistent-
     }
   }
   resource_runtime_spec {
+    ray_spec {
+      image_uri = ""
+    }
     service_account_spec {
       enable_custom_service_account = false
     }

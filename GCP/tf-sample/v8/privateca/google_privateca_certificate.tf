@@ -1,14 +1,15 @@
 resource "google_privateca_certificate" "tf-sample-privateca-certificate" {
-  certificate_authority = ""
-  certificate_template  = ""
-  deletion_policy       = ""
-  labels                = {}
-  lifetime              = ""
-  location              = ""
-  name                  = ""
-  pem_csr               = ""
-  pool                  = ""
-  project               = ""
+  certificate_authority     = ""
+  certificate_template      = ""
+  deletion_policy           = ""
+  labels                    = {}
+  lifetime                  = ""
+  location                  = ""
+  name                      = ""
+  pem_csr                   = ""
+  pool                      = ""
+  project                   = ""
+  requested_not_before_time = ""
   
   config {
     public_key {
