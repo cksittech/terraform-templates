@@ -6,6 +6,7 @@ resource "azurerm_api_management_api_diagnostic" "tf-sample-api-management-api-d
   http_correlation_protocol = ""
   identifier                = ""
   log_client_ip             = false
+  metrics_enabled           = false
   operation_name_format     = ""
   resource_group_name       = ""
   sampling_percentage       = 0
