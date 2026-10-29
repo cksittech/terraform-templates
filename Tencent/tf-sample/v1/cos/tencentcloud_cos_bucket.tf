@@ -131,8 +131,10 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
     }
   }
   website {
+    charity_404              = ""
     error_document           = ""
     index_document           = ""
+    original_http_status     = ""
     redirect_all_requests_to = ""
     
     routing_rules {

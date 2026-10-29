@@ -54,6 +54,9 @@ resource "tencentcloud_teo_zone_setting" "tf-sample-teo-zone-setting" {
   ipv6 {
     switch = ""
   }
+  jit_video_process {
+    switch = ""
+  }
   max_age {
     follow_origin = ""
     max_age_time  = 0

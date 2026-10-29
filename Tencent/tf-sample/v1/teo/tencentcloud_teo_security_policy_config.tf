@@ -1229,6 +1229,38 @@ resource "tencentcloud_teo_security_policy_config" "tf-sample-teo-security-polic
       auto_update {
         auto_update_to_latest_version = ""
       }
+      frequent_scanning_protection {
+        action_duration = ""
+        block_threshold = 0
+        count_by        = ""
+        counting_period = ""
+        enabled         = ""
+        
+        action {
+          name = ""
+          
+          allow_action_parameters {
+            max_delay_time = ""
+            min_delay_time = ""
+          }
+          challenge_action_parameters {
+            attester_id      = ""
+            challenge_option = ""
+            interval         = ""
+          }
+          deny_action_parameters {
+            block_ip           = ""
+            block_ip_duration  = ""
+            error_page_id      = ""
+            response_code      = ""
+            return_custom_page = ""
+            stall              = ""
+          }
+          redirect_action_parameters {
+            url = ""
+          }
+        }
+      }
       managed_rule_groups {
         group_id          = ""
         sensitivity_level = ""
