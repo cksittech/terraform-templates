@@ -1,4 +1,5 @@
 resource "alicloud_instance" "tf-sample-instance" {
+  additional_attributes               = []
   auto_release_time                   = ""
   auto_renew_period                   = 0
   availability_zone                   = ""
@@ -36,6 +37,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   launch_template_version             = ""
   maintenance_action                  = ""
   maintenance_notify                  = false
+  managed_host_id                     = ""
   network_card_index                  = 0
   network_interface_id                = ""
   network_interface_traffic_mode      = ""

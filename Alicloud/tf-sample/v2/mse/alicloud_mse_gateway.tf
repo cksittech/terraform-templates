@@ -5,8 +5,11 @@ resource "alicloud_mse_gateway" "tf-sample-mse-gateway" {
   gateway_name              = ""
   internet_slb_spec         = ""
   replica                   = 0
+  resource_group_id         = ""
   slb_spec                  = ""
   spec                      = ""
   vpc_id                    = ""
   vswitch_id                = ""
+  
+  tags = {}
 }

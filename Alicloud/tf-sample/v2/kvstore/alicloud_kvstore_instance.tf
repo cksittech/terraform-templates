@@ -21,6 +21,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   force_upgrade               = false
   global_instance             = false
   global_instance_id          = ""
+  global_security_group_list  = []
   instance_class              = ""
   instance_release_protection = false
   instance_type               = ""

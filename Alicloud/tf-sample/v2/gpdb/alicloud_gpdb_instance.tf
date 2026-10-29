@@ -7,6 +7,7 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   db_instance_class           = ""
   db_instance_mode            = ""
   description                 = ""
+  effective_time              = ""
   encryption_key              = ""
   encryption_type             = ""
   engine                      = ""
@@ -28,6 +29,7 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   seg_storage_type            = ""
   serverless_mode             = ""
   serverless_resource         = 0
+  sql_collector_status        = ""
   src_db_instance_name        = ""
   ssl_enabled                 = 0
   status                      = ""

@@ -28,6 +28,7 @@ resource "alicloud_dts_subscription_job" "tf-sample-dts-subscription-job" {
   source_endpoint_port               = ""
   source_endpoint_region             = ""
   source_endpoint_role               = ""
+  source_endpoint_ssl                = ""
   source_endpoint_user_name          = ""
   status                             = ""
   subscription_data_type_ddl         = false
