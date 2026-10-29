@@ -43,6 +43,7 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   monitoring_interval                   = 0
   monitoring_role_arn                   = ""
   multi_az                              = false
+  multi_tenant                          = false
   nchar_character_set_name              = ""
   network_type                          = ""
   option_group_name                     = ""

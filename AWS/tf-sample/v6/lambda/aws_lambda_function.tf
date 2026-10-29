@@ -40,6 +40,7 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   }
   durable_config {
     execution_timeout = 0
+    kms_key_arn       = ""
     retention_period  = 0
   }
   environment {

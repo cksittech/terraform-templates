@@ -22518,6 +22518,1443 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         }
       }
       scope_down_statement {
+        and_statement {
+          statement {
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            or_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
+        }
         asn_match_statement {
           asn_list = []
           
@@ -22620,6 +24057,3359 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         label_match_statement {
           key   = ""
           scope = ""
+        }
+        not_statement {
+          statement {
+            and_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            or_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
+        }
+        or_statement {
+          statement {
+            and_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
         }
         regex_match_statement {
           regex_string = ""
@@ -67442,6 +72232,1443 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         header_name       = ""
       }
       scope_down_statement {
+        and_statement {
+          statement {
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            or_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
+        }
         asn_match_statement {
           asn_list = []
           
@@ -67544,6 +73771,3359 @@ resource "aws_wafv2_web_acl_rule" "tf-sample-wafv2-web-acl-rule" {
         label_match_statement {
           key   = ""
           scope = ""
+        }
+        not_statement {
+          statement {
+            and_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            or_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
+        }
+        or_statement {
+          statement {
+            and_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            asn_match_statement {
+              asn_list = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            byte_match_statement {
+              positional_constraint = ""
+              search_string         = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            geo_match_statement {
+              country_codes = []
+              
+              forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+              }
+            }
+            ip_set_reference_statement {
+              ip_set_forwarded_ip_config {
+                fallback_behavior = ""
+                header_name       = ""
+                position          = ""
+              }
+            }
+            label_match_statement {
+              key   = ""
+              scope = ""
+            }
+            not_statement {
+              statement {
+                asn_match_statement {
+                  asn_list = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                byte_match_statement {
+                  positional_constraint = ""
+                  search_string         = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                geo_match_statement {
+                  country_codes = []
+                  
+                  forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                  }
+                }
+                ip_set_reference_statement {
+                  ip_set_forwarded_ip_config {
+                    fallback_behavior = ""
+                    header_name       = ""
+                    position          = ""
+                  }
+                }
+                label_match_statement {
+                  key   = ""
+                  scope = ""
+                }
+                regex_match_statement {
+                  regex_string = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                regex_pattern_set_reference_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                size_constraint_statement {
+                  comparison_operator = ""
+                  size                = 0
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                sqli_match_statement {
+                  sensitivity_level = ""
+                  
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+                xss_match_statement {
+                  field_to_match {
+                    all_query_arguments {
+                    }
+                    body {
+                      oversize_handling = ""
+                    }
+                    cookies {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_cookies = []
+                        included_cookies = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    header_order {
+                      oversize_handling = ""
+                    }
+                    headers {
+                      match_scope       = ""
+                      oversize_handling = ""
+                      
+                      match_pattern {
+                        excluded_headers = []
+                        included_headers = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    ja3_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    ja4_fingerprint {
+                      fallback_behavior = ""
+                    }
+                    json_body {
+                      invalid_fallback_behavior = ""
+                      match_scope               = ""
+                      oversize_handling         = ""
+                      
+                      match_pattern {
+                        included_paths = []
+                        
+                        all {
+                        }
+                      }
+                    }
+                    method {
+                    }
+                    query_string {
+                    }
+                    single_header {
+                      name = ""
+                    }
+                    single_query_argument {
+                      name = ""
+                    }
+                    uri_fragment {
+                      fallback_behavior = ""
+                    }
+                    uri_path {
+                    }
+                  }
+                  text_transformation {
+                    priority = 0
+                    type     = ""
+                  }
+                }
+              }
+            }
+            regex_match_statement {
+              regex_string = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            regex_pattern_set_reference_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            size_constraint_statement {
+              comparison_operator = ""
+              size                = 0
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            sqli_match_statement {
+              sensitivity_level = ""
+              
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+            xss_match_statement {
+              field_to_match {
+                all_query_arguments {
+                }
+                body {
+                  oversize_handling = ""
+                }
+                cookies {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_cookies = []
+                    included_cookies = []
+                    
+                    all {
+                    }
+                  }
+                }
+                header_order {
+                  oversize_handling = ""
+                }
+                headers {
+                  match_scope       = ""
+                  oversize_handling = ""
+                  
+                  match_pattern {
+                    excluded_headers = []
+                    included_headers = []
+                    
+                    all {
+                    }
+                  }
+                }
+                ja3_fingerprint {
+                  fallback_behavior = ""
+                }
+                ja4_fingerprint {
+                  fallback_behavior = ""
+                }
+                json_body {
+                  invalid_fallback_behavior = ""
+                  match_scope               = ""
+                  oversize_handling         = ""
+                  
+                  match_pattern {
+                    included_paths = []
+                    
+                    all {
+                    }
+                  }
+                }
+                method {
+                }
+                query_string {
+                }
+                single_header {
+                  name = ""
+                }
+                single_query_argument {
+                  name = ""
+                }
+                uri_fragment {
+                  fallback_behavior = ""
+                }
+                uri_path {
+                }
+              }
+              text_transformation {
+                priority = 0
+                type     = ""
+              }
+            }
+          }
         }
         regex_match_statement {
           regex_string = ""

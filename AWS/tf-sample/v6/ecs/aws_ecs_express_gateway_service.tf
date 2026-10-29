@@ -1,6 +1,7 @@
 resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-service" {
   cluster                 = ""
   cpu                     = ""
+  cpu_architecture        = ""
   execution_role_arn      = ""
   health_check_path       = ""
   infrastructure_role_arn = ""

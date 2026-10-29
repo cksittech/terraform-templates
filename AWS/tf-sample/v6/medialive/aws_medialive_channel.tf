@@ -655,6 +655,9 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
         }
       }
     }
+    thumbnail_configuration {
+      state = ""
+    }
     timecode_config {
       source         = ""
       sync_threshold = 0

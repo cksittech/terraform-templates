@@ -10,9 +10,10 @@ resource "aws_bcmdataexports_export" "tf-sample-bcmdataexports-export" {
     }
     destination_configurations {
       s3_destination {
-        s3_bucket = ""
-        s3_prefix = ""
-        s3_region = ""
+        s3_bucket       = ""
+        s3_bucket_owner = ""
+        s3_prefix       = ""
+        s3_region       = ""
         
         s3_output_configurations {
           compression = ""

@@ -23,6 +23,13 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
         }
       }
     }
+    route53_resolved_ip_validation {
+      action                                  = ""
+      bypass_destination_validation_ip_ranges = []
+      dns_expiry_exception_policy             = ""
+      dns_firewall_rule_group_id              = ""
+      source_ip_ranges                        = []
+    }
     stateful_engine_options {
       rule_order              = ""
       stream_exception_policy = ""

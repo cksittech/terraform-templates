@@ -13,6 +13,9 @@ resource "aws_vpclattice_resource_configuration" "tf-sample-vpclattice-resource-
   resource_configuration_definition {
     arn_resource {
     }
+    cidr_resource {
+      cidr_ranges = []
+    }
     dns_resource {
       domain_name     = ""
       ip_address_type = ""

@@ -21,6 +21,9 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         s3_data_type     = ""
         s3_uri           = ""
         
+        hub_access_config {
+          hub_content_arn = ""
+        }
         model_access_config {
           accept_eula = false
         }
@@ -39,6 +42,9 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         s3_data_type     = ""
         s3_uri           = ""
         
+        hub_access_config {
+          hub_content_arn = ""
+        }
         model_access_config {
           accept_eula = false
         }
@@ -68,6 +74,9 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         s3_data_type     = ""
         s3_uri           = ""
         
+        hub_access_config {
+          hub_content_arn = ""
+        }
         model_access_config {
           accept_eula = false
         }
@@ -86,6 +95,9 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         s3_data_type     = ""
         s3_uri           = ""
         
+        hub_access_config {
+          hub_content_arn = ""
+        }
         model_access_config {
           accept_eula = false
         }
