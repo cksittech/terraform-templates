@@ -9,4 +9,5 @@ resource "google_network_security_security_profile_group" "tf-sample-network-sec
   parent                    = ""
   threat_prevention_profile = ""
   url_filtering_profile     = ""
+  wildfire_analysis_profile = ""
 }

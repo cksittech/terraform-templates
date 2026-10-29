@@ -14,4 +14,8 @@ resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   autoscale {
     max_slots = 0
   }
+  scheduling_policy {
+    concurrency = 0
+    max_slots   = 0
+  }
 }

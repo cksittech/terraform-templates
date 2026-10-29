@@ -25,9 +25,57 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
   }
   instance_flexibility_policy {
     instance_selections {
-      machine_types = []
-      name          = ""
-      rank          = 0
+      machine_types    = []
+      min_cpu_platform = ""
+      name             = ""
+      rank             = 0
+      
+      disks {
+        architecture           = ""
+        auto_delete            = false
+        boot                   = false
+        device_name            = ""
+        disk_name              = ""
+        disk_size_gb           = 0
+        disk_type              = ""
+        guest_os_features      = []
+        interface              = ""
+        mode                   = ""
+        provisioned_iops       = 0
+        provisioned_throughput = 0
+        resource_policies      = []
+        source                 = ""
+        source_image           = ""
+        source_snapshot        = ""
+        type                   = ""
+        
+        disk_encryption_key {
+          kms_key_self_link       = ""
+          kms_key_service_account = ""
+          raw_key                 = ""
+          rsa_encrypted_key       = ""
+        }
+        labels {
+          key   = ""
+          value = ""
+        }
+        resource_manager_tags {
+          key   = ""
+          value = ""
+        }
+        source_image_encryption_key {
+          kms_key_self_link       = ""
+          kms_key_service_account = ""
+          raw_key                 = ""
+          rsa_encrypted_key       = ""
+        }
+        source_snapshot_encryption_key {
+          kms_key_self_link       = ""
+          kms_key_service_account = ""
+          raw_key                 = ""
+          rsa_encrypted_key       = ""
+        }
+      }
     }
   }
   instance_lifecycle_policy {

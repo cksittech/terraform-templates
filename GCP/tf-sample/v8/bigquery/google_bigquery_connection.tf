@@ -62,6 +62,14 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
       }
     }
   }
+  salesforce_data_cloud {
+    instance_uri = ""
+    tenant_id    = ""
+    
+    cross_cloud_cache_options {
+      enabled = false
+    }
+  }
   spark {
     metastore_service_config {
       metastore_service = ""

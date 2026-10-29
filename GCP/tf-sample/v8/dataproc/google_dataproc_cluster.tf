@@ -139,6 +139,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         }
       }
     }
+    master_flexible_config {
+      boot_disk_size_gb = 0
+      core_count        = 0
+      hardware_class    = ""
+      num_instances     = 0
+    }
     metastore_config {
       dataproc_metastore_service = ""
     }
@@ -187,6 +193,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
           standard_capacity_percent_above_base = 0
         }
       }
+    }
+    secondary_worker_flexible_config {
+      boot_disk_size_gb = 0
+      core_count        = 0
+      hardware_class    = ""
+      num_instances     = 0
     }
     security_config {
       identity_config {
@@ -263,6 +275,12 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
           }
         }
       }
+    }
+    worker_flexible_config {
+      boot_disk_size_gb = 0
+      core_count        = 0
+      hardware_class    = ""
+      num_instances     = 0
     }
   }
   virtual_cluster_config {

@@ -25,8 +25,8 @@ resource "google_vertex_ai_index" "tf-sample-vertex-ai-index" {
         brute_force_config {
         }
         tree_ah_config {
-          leaf_node_embedding_count    = 0
-          leaf_nodes_to_search_percent = 0
+          fraction_leaf_nodes_to_search = 0
+          leaf_node_embedding_count     = 0
         }
       }
     }

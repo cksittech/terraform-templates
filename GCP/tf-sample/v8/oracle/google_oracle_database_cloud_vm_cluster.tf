@@ -29,6 +29,8 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
     memory_size_gb              = 0
     node_count                  = 0
     ocpu_count                  = 0
+    scan_listener_port_tcp      = 0
+    scan_listener_port_tcp_ssl  = 0
     sparse_diskgroup_enabled    = false
     ssh_public_keys             = []
     vm_backup_storage_type      = ""

@@ -85,6 +85,7 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
     }
     request_mirror_policy {
       backend_service = ""
+      mirror_percent  = 0
     }
     retry_policy {
       num_retries      = 0
@@ -237,6 +238,7 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
       }
       request_mirror_policy {
         backend_service = ""
+        mirror_percent  = 0
       }
       retry_policy {
         num_retries      = 0
@@ -383,6 +385,7 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
         }
         request_mirror_policy {
           backend_service = ""
+          mirror_percent  = 0
         }
         retry_policy {
           num_retries      = 0
@@ -566,6 +569,7 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
         }
         request_mirror_policy {
           backend_service = ""
+          mirror_percent  = 0
         }
         retry_policy {
           num_retries      = 0

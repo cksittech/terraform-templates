@@ -4,6 +4,7 @@ resource "google_colab_notebook_execution" "tf-sample-colab-notebook-execution" 
   execution_timeout                       = ""
   execution_user                          = ""
   gcs_output_uri                          = ""
+  kernel_name                             = ""
   location                                = ""
   notebook_execution_job_id               = ""
   notebook_runtime_template_resource_name = ""
@@ -43,6 +44,10 @@ resource "google_colab_notebook_execution" "tf-sample-colab-notebook-execution" 
     uri        = ""
   }
   workbench_runtime {
+    custom_container_image {
+      repository = ""
+      tag        = ""
+    }
     vm_image {
       family  = ""
       name    = ""

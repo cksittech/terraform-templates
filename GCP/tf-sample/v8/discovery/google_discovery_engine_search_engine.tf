@@ -10,6 +10,7 @@ resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-sea
   industry_vertical          = ""
   kms_key_name               = ""
   location                   = ""
+  model_configs              = {}
   procurement_contact_emails = []
   project                    = ""
   

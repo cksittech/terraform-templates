@@ -19,5 +19,6 @@ resource "google_cloudbuild_worker_pool" "tf-sample-cloudbuild-worker-pool" {
     enable_nested_virtualization = false
     machine_type                 = ""
     no_external_ip               = false
+    worker_release               = ""
   }
 }

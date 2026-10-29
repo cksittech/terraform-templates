@@ -6,4 +6,9 @@ resource "google_bigquery_reservation_assignment" "tf-sample-bigquery-reservatio
   principal       = ""
   project         = ""
   reservation     = ""
+  
+  scheduling_policy {
+    concurrency = 0
+    max_slots   = 0
+  }
 }

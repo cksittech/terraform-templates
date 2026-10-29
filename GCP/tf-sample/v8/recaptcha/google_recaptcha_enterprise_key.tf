@@ -8,6 +8,8 @@ resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" 
     allow_all_package_names = false
     allowed_package_names   = []
   }
+  express_settings {
+  }
   ios_settings {
     allow_all_bundle_ids = false
     allowed_bundle_ids   = []
@@ -15,6 +17,8 @@ resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" 
   testing_options {
     testing_challenge = ""
     testing_score     = 0
+  }
+  universal_settings {
   }
   waf_settings {
     waf_feature = ""

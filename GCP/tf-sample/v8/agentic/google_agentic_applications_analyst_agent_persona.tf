@@ -41,6 +41,11 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
   }
   artifacts_config {
+    audit_trail_export_options {
+      append_audit_trail          = false
+      export_audit_trail_artifact = false
+      export_format               = ""
+    }
     document_generation_options {
       export_format = ""
       

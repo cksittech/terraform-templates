@@ -5,8 +5,9 @@ resource "google_compute_network_endpoints" "tf-sample-compute-network-endpoints
   zone                   = ""
   
   network_endpoints {
-    instance   = ""
-    ip_address = ""
-    port       = 0
+    instance     = ""
+    ip_address   = ""
+    ipv6_address = ""
+    port         = 0
   }
 }

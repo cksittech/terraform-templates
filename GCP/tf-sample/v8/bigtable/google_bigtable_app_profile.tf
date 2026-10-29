@@ -18,5 +18,8 @@ resource "google_bigtable_app_profile" "tf-sample-bigtable-app-profile" {
   }
   standard_isolation {
     priority = ""
+    
+    memory_config {
+    }
   }
 }

@@ -34,7 +34,6 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   node_version                             = ""
   private_ipv6_google_access               = ""
   project                                  = ""
-  remove_default_node_pool                 = false
   resource_labels                          = {}
   skip_node_pool_refresh                   = false
   subnetwork                               = ""
@@ -83,9 +82,6 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       disabled = false
     }
     node_readiness_config {
-      enabled = false
-    }
-    parallelstore_csi_driver_config {
       enabled = false
     }
     pod_snapshot_config {
@@ -1023,6 +1019,9 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   rollback_safe_upgrade {
     control_plane_soak_duration = ""
+  }
+  schedule_upgrade_config {
+    enabled = false
   }
   secret_manager_config {
     enabled = false
