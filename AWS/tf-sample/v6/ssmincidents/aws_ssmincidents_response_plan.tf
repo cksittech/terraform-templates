@@ -4,7 +4,7 @@ resource "aws_ssmincidents_response_plan" "tf-sample-ssmincidents-response-plan"
   engagements  = []
   name         = ""
   region       = ""
-  
+
   action {
     ssm_automation {
       document_name      = ""
@@ -12,7 +12,7 @@ resource "aws_ssmincidents_response_plan" "tf-sample-ssmincidents-response-plan"
       dynamic_parameters = {}
       role_arn           = ""
       target_account     = ""
-      
+
       parameter {
         name   = ""
         values = []
@@ -25,7 +25,7 @@ resource "aws_ssmincidents_response_plan" "tf-sample-ssmincidents-response-plan"
     incident_tags = {}
     summary       = ""
     title         = ""
-    
+
     notification_target {
       sns_topic_arn = ""
     }
@@ -37,6 +37,6 @@ resource "aws_ssmincidents_response_plan" "tf-sample-ssmincidents-response-plan"
       service_id = ""
     }
   }
-  
+
   tags = {}
 }

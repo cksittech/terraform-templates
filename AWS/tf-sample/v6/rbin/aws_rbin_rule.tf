@@ -2,7 +2,7 @@ resource "aws_rbin_rule" "tf-sample-rbin-rule" {
   description   = ""
   region        = ""
   resource_type = ""
-  
+
   exclude_resource_tags {
     resource_tag_key   = ""
     resource_tag_value = ""
@@ -21,6 +21,6 @@ resource "aws_rbin_rule" "tf-sample-rbin-rule" {
     retention_period_unit  = ""
     retention_period_value = 0
   }
-  
+
   tags = {}
 }

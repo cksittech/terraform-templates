@@ -7,6 +7,6 @@ resource "aws_ec2_host" "tf-sample-ec2-host" {
   instance_type     = ""
   outpost_arn       = ""
   region            = ""
-  
+
   tags = {}
 }

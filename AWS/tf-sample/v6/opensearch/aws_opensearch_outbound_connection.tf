@@ -3,7 +3,7 @@ resource "aws_opensearch_outbound_connection" "tf-sample-opensearch-outbound-con
   connection_alias  = ""
   connection_mode   = ""
   region            = ""
-  
+
   connection_properties {
     cross_cluster_search {
       skip_unavailable = ""

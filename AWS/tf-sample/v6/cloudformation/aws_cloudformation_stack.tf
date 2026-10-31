@@ -12,6 +12,6 @@ resource "aws_cloudformation_stack" "tf-sample-cloudformation-stack" {
   template_body      = ""
   template_url       = ""
   timeout_in_minutes = 0
-  
+
   tags = {}
 }

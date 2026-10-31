@@ -4,6 +4,6 @@ resource "aws_resiliencehubv2_system" "tf-sample-resiliencehubv2-system" {
   name            = ""
   region          = ""
   sharing_enabled = false
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "aws_cloudwatchomni_dashboard" "tf-sample-cloudwatchomni-dashboard" {
   name        = ""
   region      = ""
   space_id    = ""
-  
+
   tags = {}
 }

@@ -1,7 +1,7 @@
 resource "aws_sesv2_configuration_set" "tf-sample-sesv2-configuration-set" {
   configuration_set_name = ""
   region                 = ""
-  
+
   delivery_options {
     max_delivery_seconds = 0
     sending_pool_name    = ""
@@ -28,6 +28,6 @@ resource "aws_sesv2_configuration_set" "tf-sample-sesv2-configuration-set" {
       optimized_shared_delivery = ""
     }
   }
-  
+
   tags = {}
 }

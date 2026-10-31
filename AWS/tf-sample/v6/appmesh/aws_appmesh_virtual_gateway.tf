@@ -3,14 +3,14 @@ resource "aws_appmesh_virtual_gateway" "tf-sample-appmesh-virtual-gateway" {
   mesh_owner = ""
   name       = ""
   region     = ""
-  
+
   spec {
     backend_defaults {
       client_policy {
         tls {
           enforce = false
           ports   = []
-          
+
           certificate {
             file {
               certificate_chain = ""
@@ -69,7 +69,7 @@ resource "aws_appmesh_virtual_gateway" "tf-sample-appmesh-virtual-gateway" {
       }
       tls {
         mode = ""
-        
+
         certificate {
           acm {
             certificate_arn = ""
@@ -103,10 +103,10 @@ resource "aws_appmesh_virtual_gateway" "tf-sample-appmesh-virtual-gateway" {
       access_log {
         file {
           path = ""
-          
+
           format {
             text = ""
-            
+
             json {
               key   = ""
               value = ""
@@ -116,6 +116,6 @@ resource "aws_appmesh_virtual_gateway" "tf-sample-appmesh-virtual-gateway" {
       }
     }
   }
-  
+
   tags = {}
 }

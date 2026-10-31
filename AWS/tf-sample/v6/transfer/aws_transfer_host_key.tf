@@ -4,6 +4,6 @@ resource "aws_transfer_host_key" "tf-sample-transfer-host-key" {
   host_key_body_wo = ""
   region           = ""
   server_id        = ""
-  
+
   tags = {}
 }

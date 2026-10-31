@@ -5,7 +5,7 @@ resource "aws_kendra_index" "tf-sample-kendra-index" {
   region              = ""
   role_arn            = ""
   user_context_policy = ""
-  
+
   capacity_units {
     query_capacity_units   = 0
     storage_capacity_units = 0
@@ -13,7 +13,7 @@ resource "aws_kendra_index" "tf-sample-kendra-index" {
   document_metadata_configuration_updates {
     name = ""
     type = ""
-    
+
     relevance {
       duration              = ""
       freshness             = false
@@ -49,6 +49,6 @@ resource "aws_kendra_index" "tf-sample-kendra-index" {
       user_name_attribute_field = ""
     }
   }
-  
+
   tags = {}
 }

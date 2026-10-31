@@ -7,12 +7,12 @@ resource "aws_connect_queue" "tf-sample-connect-queue" {
   quick_connect_ids     = []
   region                = ""
   status                = ""
-  
+
   outbound_caller_config {
     outbound_caller_id_name      = ""
     outbound_caller_id_number_id = ""
     outbound_flow_id             = ""
   }
-  
+
   tags = {}
 }

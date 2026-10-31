@@ -3,18 +3,18 @@ resource "aws_networkfirewall_tls_inspection_configuration" "tf-sample-networkfi
   encryption_configuration = []
   name                     = ""
   region                   = ""
-  
+
   tls_inspection_configuration {
     server_certificate_configuration {
       certificate_authority_arn = ""
-      
+
       check_certificate_revocation_status {
         revoked_status_action = ""
         unknown_status_action = ""
       }
       scope {
         protocols = []
-        
+
         destination {
           address_definition = ""
         }
@@ -35,6 +35,6 @@ resource "aws_networkfirewall_tls_inspection_configuration" "tf-sample-networkfi
       }
     }
   }
-  
+
   tags = {}
 }

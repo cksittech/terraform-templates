@@ -6,7 +6,7 @@ resource "aws_transfer_user" "tf-sample-transfer-user" {
   role                = ""
   server_id           = ""
   user_name           = ""
-  
+
   home_directory_mappings {
     entry  = ""
     target = ""
@@ -16,6 +16,6 @@ resource "aws_transfer_user" "tf-sample-transfer-user" {
     secondary_gids = []
     uid            = 0
   }
-  
+
   tags = {}
 }

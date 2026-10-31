@@ -8,7 +8,7 @@ resource "aws_config_remediation_configuration" "tf-sample-config-remediation-co
   target_id                  = ""
   target_type                = ""
   target_version             = ""
-  
+
   execution_controls {
     ssm_controls {
       concurrent_execution_rate_percentage = 0

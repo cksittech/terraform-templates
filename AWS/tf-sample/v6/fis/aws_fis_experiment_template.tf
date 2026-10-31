@@ -2,13 +2,13 @@ resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
   description = ""
   region      = ""
   role_arn    = ""
-  
+
   action {
     action_id   = ""
     description = ""
     name        = ""
     start_after = []
-    
+
     parameter {
       key   = ""
       value = ""
@@ -25,7 +25,7 @@ resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
   experiment_report_configuration {
     post_experiment_duration = ""
     pre_experiment_duration  = ""
-    
+
     data_sources {
       cloudwatch_dashboard {
         dashboard_arn = ""
@@ -40,7 +40,7 @@ resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
   }
   log_configuration {
     log_schema_version = 0
-    
+
     cloudwatch_logs_configuration {
       log_group_arn = ""
     }
@@ -59,7 +59,7 @@ resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
     resource_arns  = []
     resource_type  = ""
     selection_mode = ""
-    
+
     filter {
       path   = ""
       values = []
@@ -69,6 +69,6 @@ resource "aws_fis_experiment_template" "tf-sample-fis-experiment-template" {
       value = ""
     }
   }
-  
+
   tags = {}
 }

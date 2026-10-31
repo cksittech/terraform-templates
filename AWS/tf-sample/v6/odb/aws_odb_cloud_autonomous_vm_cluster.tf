@@ -16,7 +16,7 @@ resource "aws_odb_cloud_autonomous_vm_cluster" "tf-sample-odb-cloud-autonomous-v
   scan_listener_port_tls                = 0
   time_zone                             = ""
   total_container_databases             = 0
-  
+
   maintenance_window {
     days_of_week       = []
     hours_of_day       = []
@@ -25,6 +25,6 @@ resource "aws_odb_cloud_autonomous_vm_cluster" "tf-sample-odb-cloud-autonomous-v
     preference         = ""
     weeks_of_month     = []
   }
-  
+
   tags = {}
 }

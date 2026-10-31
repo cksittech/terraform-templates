@@ -2,11 +2,11 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
   account_id = ""
   config_id  = ""
   region     = ""
-  
+
   storage_lens_configuration {
     enabled          = false
     prefix_delimiter = ""
-    
+
     account_level {
       activity_metrics {
         enabled = false
@@ -39,7 +39,7 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
         prefix_level {
           storage_metrics {
             enabled = false
-            
+
             selection_criteria {
               delimiter                    = ""
               max_depth                    = 0
@@ -63,7 +63,7 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
         format                = ""
         output_schema_version = ""
         prefix                = ""
-        
+
         encryption {
           sse_kms {
             key_id = ""
@@ -74,7 +74,7 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
       }
       storage_lens_table_destination {
         enabled = false
-        
+
         encryption {
           sse_kms {
             key_id = ""
@@ -94,7 +94,7 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
         format                = ""
         output_schema_version = ""
         prefix                = ""
-        
+
         encryption {
           sse_kms {
             key_id = ""
@@ -105,7 +105,7 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
       }
       storage_lens_table_destination {
         enabled = false
-        
+
         encryption {
           sse_kms {
             key_id = ""
@@ -120,6 +120,6 @@ resource "aws_s3control_storage_lens_configuration" "tf-sample-s3control-storage
       regions = []
     }
   }
-  
+
   tags = {}
 }

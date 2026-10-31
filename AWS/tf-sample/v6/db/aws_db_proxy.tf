@@ -11,7 +11,7 @@ resource "aws_db_proxy" "tf-sample-db-proxy" {
   target_connection_network_type = ""
   vpc_security_group_ids         = []
   vpc_subnet_ids                 = []
-  
+
   auth {
     auth_scheme               = ""
     client_password_auth_type = ""
@@ -20,6 +20,6 @@ resource "aws_db_proxy" "tf-sample-db-proxy" {
     secret_arn                = ""
     username                  = ""
   }
-  
+
   tags = {}
 }

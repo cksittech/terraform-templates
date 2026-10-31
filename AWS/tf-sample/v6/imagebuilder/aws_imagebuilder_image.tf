@@ -6,10 +6,10 @@ resource "aws_imagebuilder_image" "tf-sample-imagebuilder-image" {
   image_recipe_arn                 = ""
   infrastructure_configuration_arn = ""
   region                           = ""
-  
+
   image_scanning_configuration {
     image_scanning_enabled = false
-    
+
     ecr_configuration {
       container_tags  = []
       repository_name = ""
@@ -26,12 +26,12 @@ resource "aws_imagebuilder_image" "tf-sample-imagebuilder-image" {
     on_failure     = ""
     parallel_group = ""
     workflow_arn   = ""
-    
+
     parameter {
       name  = ""
       value = ""
     }
   }
-  
+
   tags = {}
 }

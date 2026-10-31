@@ -12,6 +12,6 @@ resource "aws_xray_sampling_rule" "tf-sample-xray-sampling-rule" {
   service_type   = ""
   url_path       = ""
   version        = 0
-  
+
   tags = {}
 }

@@ -7,6 +7,6 @@ resource "aws_dx_connection" "tf-sample-dx-connection" {
   region          = ""
   request_macsec  = false
   skip_destroy    = false
-  
+
   tags = {}
 }

@@ -6,10 +6,10 @@ resource "aws_datasync_location_smb" "tf-sample-datasync-location-smb" {
   server_hostname = ""
   subdirectory    = ""
   user            = ""
-  
+
   mount_options {
     version = ""
   }
-  
+
   tags = {}
 }

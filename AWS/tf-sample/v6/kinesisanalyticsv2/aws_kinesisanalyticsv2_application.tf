@@ -7,14 +7,14 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
   runtime_environment    = ""
   service_execution_role = ""
   start_application      = false
-  
+
   application_configuration {
     application_code_configuration {
       code_content_type = ""
-      
+
       code_content {
         text_content = ""
-        
+
         s3_content_location {
           bucket_arn     = ""
           file_key       = ""
@@ -66,7 +66,7 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
     sql_application_configuration {
       input {
         name_prefix = ""
-        
+
         input_parallelism {
           count = 0
         }
@@ -77,7 +77,7 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
         }
         input_schema {
           record_encoding = ""
-          
+
           record_column {
             mapping  = ""
             name     = ""
@@ -85,7 +85,7 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
           }
           record_format {
             record_format_type = ""
-            
+
             mapping_parameters {
               csv_mapping_parameters {
                 record_column_delimiter = ""
@@ -109,7 +109,7 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
       }
       output {
         name = ""
-        
+
         destination_schema {
           record_format_type = ""
         }
@@ -125,10 +125,10 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
       }
       reference_data_source {
         table_name = ""
-        
+
         reference_schema {
           record_encoding = ""
-          
+
           record_column {
             mapping  = ""
             name     = ""
@@ -136,7 +136,7 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
           }
           record_format {
             record_format_type = ""
-            
+
             mapping_parameters {
               csv_mapping_parameters {
                 record_column_delimiter = ""
@@ -162,6 +162,6 @@ resource "aws_kinesisanalyticsv2_application" "tf-sample-kinesisanalyticsv2-appl
   cloudwatch_logging_options {
     log_stream_arn = ""
   }
-  
+
   tags = {}
 }

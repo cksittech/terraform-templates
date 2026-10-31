@@ -13,6 +13,6 @@ resource "aws_pinpointsmsvoicev2_phone_number" "tf-sample-pinpointsmsvoicev2-pho
   two_way_channel_enabled       = false
   two_way_channel_role          = ""
   wait_for_active               = false
-  
+
   tags = {}
 }

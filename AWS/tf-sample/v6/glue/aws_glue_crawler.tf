@@ -9,7 +9,7 @@ resource "aws_glue_crawler" "tf-sample-glue-crawler" {
   schedule               = ""
   security_configuration = ""
   table_prefix           = ""
-  
+
   catalog_target {
     connection_name     = ""
     database_name       = ""
@@ -73,6 +73,6 @@ resource "aws_glue_crawler" "tf-sample-glue-crawler" {
     delete_behavior = ""
     update_behavior = ""
   }
-  
+
   tags = {}
 }

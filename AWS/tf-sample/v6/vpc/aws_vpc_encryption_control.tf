@@ -10,6 +10,6 @@ resource "aws_vpc_encryption_control" "tf-sample-vpc-encryption-control" {
   vpc_id                                 = ""
   vpc_lattice_exclusion                  = ""
   vpc_peering_exclusion                  = ""
-  
+
   tags = {}
 }

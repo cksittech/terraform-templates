@@ -21,6 +21,6 @@ resource "aws_s3_bucket_object" "tf-sample-s3-bucket-object" {
   source_hash                   = ""
   storage_class                 = ""
   website_redirect              = ""
-  
+
   tags = {}
 }

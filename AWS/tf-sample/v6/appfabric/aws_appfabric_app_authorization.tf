@@ -3,7 +3,7 @@ resource "aws_appfabric_app_authorization" "tf-sample-appfabric-app-authorizatio
   app_bundle_arn = ""
   auth_type      = ""
   region         = ""
-  
+
   credential {
     api_key_credential {
       api_key = ""
@@ -17,6 +17,6 @@ resource "aws_appfabric_app_authorization" "tf-sample-appfabric-app-authorizatio
     tenant_display_name = ""
     tenant_identifier   = ""
   }
-  
+
   tags = {}
 }

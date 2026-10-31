@@ -3,6 +3,6 @@ resource "aws_pinpointsmsvoicev2_configuration_set" "tf-sample-pinpointsmsvoicev
   default_sender_id    = ""
   name                 = ""
   region               = ""
-  
+
   tags = {}
 }

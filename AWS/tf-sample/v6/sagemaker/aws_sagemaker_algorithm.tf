@@ -3,13 +3,13 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
   algorithm_name          = ""
   certify_for_marketplace = false
   region                  = ""
-  
+
   inference_specification {
     supported_content_types                     = []
     supported_realtime_inference_instance_types = []
     supported_response_mime_types               = []
     supported_transform_instance_types          = []
-    
+
     containers {
       container_hostname = ""
       environment        = {}
@@ -22,7 +22,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
       model_data_url     = ""
       nearest_model_name = ""
       product_id         = ""
-      
+
       additional_s3_data_source {
         compression_type = ""
         etag             = ""
@@ -42,7 +42,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
           manifest_s3_uri  = ""
           s3_data_type     = ""
           s3_uri           = ""
-          
+
           hub_access_config {
             hub_content_arn = ""
           }
@@ -61,7 +61,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
     supports_distributed_training     = false
     training_image                    = ""
     training_image_digest             = ""
-    
+
     additional_s3_data_source {
       compression_type = ""
       etag             = ""
@@ -79,7 +79,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
       is_tunable    = false
       name          = ""
       type          = ""
-      
+
       range {
         categorical_parameter_range_specification {
           values = []
@@ -109,21 +109,21 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
   }
   validation_specification {
     validation_role = ""
-    
+
     validation_profiles {
       profile_name = ""
-      
+
       training_job_definition {
         hyper_parameters    = {}
         training_input_mode = ""
-        
+
         input_data_config {
           channel_name        = ""
           compression_type    = ""
           content_type        = ""
           input_mode          = ""
           record_wrapper_type = ""
-          
+
           data_source {
             file_system_data_source {
               directory_path          = ""
@@ -137,7 +137,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
               s3_data_distribution_type = ""
               s3_data_type              = ""
               s3_uri                    = ""
-              
+
               hub_access_config {
                 hub_content_arn = ""
               }
@@ -162,7 +162,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
           training_plan_arn            = ""
           volume_kms_key_id            = ""
           volume_size_in_gb            = 0
-          
+
           instance_groups {
             instance_count      = 0
             instance_group_name = ""
@@ -170,7 +170,7 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
           }
           instance_placement_config {
             enable_multiple_jobs = false
-            
+
             placement_specifications {
               instance_count  = 0
               ultra_server_id = ""
@@ -188,12 +188,12 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
         environment               = {}
         max_concurrent_transforms = 0
         max_payload_in_mb         = 0
-        
+
         transform_input {
           compression_type = ""
           content_type     = ""
           split_type       = ""
-          
+
           data_source {
             s3_data_source {
               s3_data_type = ""
@@ -216,6 +216,6 @@ resource "aws_sagemaker_algorithm" "tf-sample-sagemaker-algorithm" {
       }
     }
   }
-  
+
   tags = {}
 }

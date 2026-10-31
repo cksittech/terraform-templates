@@ -5,7 +5,7 @@ resource "aws_quicksight_iam_policy_assignment" "tf-sample-quicksight-iam-policy
   namespace         = ""
   policy_arn        = ""
   region            = ""
-  
+
   identities {
     group = []
     user  = []

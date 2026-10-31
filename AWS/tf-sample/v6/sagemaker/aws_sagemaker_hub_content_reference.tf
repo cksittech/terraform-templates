@@ -4,6 +4,6 @@ resource "aws_sagemaker_hub_content_reference" "tf-sample-sagemaker-hub-content-
   min_version                      = ""
   region                           = ""
   sagemaker_public_hub_content_arn = ""
-  
+
   tags = {}
 }

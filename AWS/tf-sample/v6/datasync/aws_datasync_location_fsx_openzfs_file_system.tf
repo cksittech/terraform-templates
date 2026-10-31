@@ -3,7 +3,7 @@ resource "aws_datasync_location_fsx_openzfs_file_system" "tf-sample-datasync-loc
   region              = ""
   security_group_arns = []
   subdirectory        = ""
-  
+
   protocol {
     nfs {
       mount_options {
@@ -11,6 +11,6 @@ resource "aws_datasync_location_fsx_openzfs_file_system" "tf-sample-datasync-loc
       }
     }
   }
-  
+
   tags = {}
 }

@@ -2,11 +2,11 @@ resource "aws_s3_bucket_lifecycle_configuration" "tf-sample-s3-bucket-lifecycle-
   bucket                                 = ""
   region                                 = ""
   transition_default_minimum_object_size = ""
-  
+
   rule {
     id     = ""
     status = ""
-    
+
     abort_incomplete_multipart_upload {
       days_after_initiation = 0
     }
@@ -19,7 +19,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "tf-sample-s3-bucket-lifecycle-
       object_size_greater_than = 0
       object_size_less_than    = 0
       prefix                   = ""
-      
+
       and {
         object_size_greater_than = 0
         object_size_less_than    = 0

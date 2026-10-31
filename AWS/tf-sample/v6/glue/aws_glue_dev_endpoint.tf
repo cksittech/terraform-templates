@@ -14,6 +14,6 @@ resource "aws_glue_dev_endpoint" "tf-sample-glue-dev-endpoint" {
   security_group_ids        = []
   subnet_id                 = ""
   worker_type               = ""
-  
+
   tags = {}
 }

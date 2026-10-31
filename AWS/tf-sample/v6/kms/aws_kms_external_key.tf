@@ -10,6 +10,6 @@ resource "aws_kms_external_key" "tf-sample-kms-external-key" {
   policy                             = ""
   region                             = ""
   valid_to                           = ""
-  
+
   tags = {}
 }

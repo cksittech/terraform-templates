@@ -1,7 +1,7 @@
 resource "aws_sagemaker_workforce" "tf-sample-sagemaker-workforce" {
   region         = ""
   workforce_name = ""
-  
+
   cognito_config {
     client_id = ""
     user_pool = ""

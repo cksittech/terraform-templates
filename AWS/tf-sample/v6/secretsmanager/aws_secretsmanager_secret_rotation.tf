@@ -5,7 +5,7 @@ resource "aws_secretsmanager_secret_rotation" "tf-sample-secretsmanager-secret-r
   rotation_enabled                  = false
   rotation_lambda_arn               = ""
   secret_id                         = ""
-  
+
   external_secret_rotation_metadata {
     key   = ""
     value = ""

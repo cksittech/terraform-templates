@@ -3,6 +3,6 @@ resource "aws_prometheus_rule_group_namespace" "tf-sample-prometheus-rule-group-
   name         = ""
   region       = ""
   workspace_id = ""
-  
+
   tags = {}
 }

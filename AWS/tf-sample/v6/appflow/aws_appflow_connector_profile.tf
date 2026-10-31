@@ -5,7 +5,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
   kms_arn         = ""
   name            = ""
   region          = ""
-  
+
   connector_profile_config {
     connector_profile_credentials {
       amplitude {
@@ -14,7 +14,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
       }
       custom_connector {
         authentication_type = ""
-        
+
         api_key {
           api_key        = ""
           api_secret_key = ""
@@ -32,7 +32,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
           client_id     = ""
           client_secret = ""
           refresh_token = ""
-          
+
           oauth_request {
             auth_code    = ""
             redirect_uri = ""
@@ -51,7 +51,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         client_id     = ""
         client_secret = ""
         refresh_token = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -60,7 +60,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
       honeycode {
         access_token  = ""
         refresh_token = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -76,7 +76,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         access_token  = ""
         client_id     = ""
         client_secret = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -92,7 +92,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         jwt_token              = ""
         oauth2_grant_type      = ""
         refresh_token          = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -108,7 +108,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
           client_id     = ""
           client_secret = ""
           refresh_token = ""
-          
+
           oauth_request {
             auth_code    = ""
             redirect_uri = ""
@@ -126,7 +126,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         access_token  = ""
         client_id     = ""
         client_secret = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -147,7 +147,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         access_token  = ""
         client_id     = ""
         client_secret = ""
-        
+
         oauth_request {
           auth_code    = ""
           redirect_uri = ""
@@ -159,7 +159,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
       }
       custom_connector {
         profile_properties = {}
-        
+
         oauth2_properties {
           oauth2_grant_type           = ""
           token_url                   = ""
@@ -203,7 +203,7 @@ resource "aws_appflow_connector_profile" "tf-sample-appflow-connector-profile" {
         logon_language            = ""
         port_number               = 0
         private_link_service_name = ""
-        
+
         oauth_properties {
           auth_code_url = ""
           oauth_scopes  = []

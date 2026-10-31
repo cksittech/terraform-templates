@@ -10,7 +10,7 @@ resource "aws_identitystore_user" "tf-sample-identitystore-user" {
   title              = ""
   user_name          = ""
   user_type          = ""
-  
+
   addresses {
     country        = ""
     formatted      = ""

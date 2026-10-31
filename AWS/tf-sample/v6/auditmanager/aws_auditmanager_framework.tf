@@ -3,14 +3,14 @@ resource "aws_auditmanager_framework" "tf-sample-auditmanager-framework" {
   description     = ""
   name            = ""
   region          = ""
-  
+
   control_sets {
     name = ""
-    
+
     controls {
       id = ""
     }
   }
-  
+
   tags = {}
 }

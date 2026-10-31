@@ -4,7 +4,7 @@ resource "aws_kendra_experience" "tf-sample-kendra-experience" {
   name        = ""
   region      = ""
   role_arn    = ""
-  
+
   configuration {
     content_source_configuration {
       data_source_ids    = []

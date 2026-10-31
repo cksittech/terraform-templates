@@ -8,7 +8,7 @@ resource "aws_iot_domain_configuration" "tf-sample-iot-domain-configuration" {
   service_type               = ""
   status                     = ""
   validation_certificate_arn = ""
-  
+
   authorizer_config {
     allow_authorizer_override = false
     default_authorizer_name   = ""
@@ -16,6 +16,6 @@ resource "aws_iot_domain_configuration" "tf-sample-iot-domain-configuration" {
   tls_config {
     security_policy = ""
   }
-  
+
   tags = {}
 }

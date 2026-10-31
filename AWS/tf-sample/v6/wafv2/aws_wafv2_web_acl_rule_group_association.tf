@@ -4,21 +4,21 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
   region          = ""
   rule_name       = ""
   web_acl_arn     = ""
-  
+
   managed_rule_group {
     name        = ""
     vendor_name = ""
     version     = ""
-    
+
     managed_rule_group_configs {
       aws_managed_rules_acfp_rule_set {
         creation_path          = ""
         enable_regex_in_path   = false
         registration_page_path = ""
-        
+
         request_inspection {
           payload_type = ""
-          
+
           address_fields {
             identifiers = []
           }
@@ -58,12 +58,12 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
       }
       aws_managed_rules_anti_ddos_rule_set {
         sensitivity_to_block = ""
-        
+
         client_side_action_config {
           challenge {
             sensitivity     = ""
             usage_of_action = ""
-            
+
             exempt_uri_regular_expression {
               regex_string = ""
             }
@@ -73,10 +73,10 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
       aws_managed_rules_atp_rule_set {
         enable_regex_in_path = false
         login_path           = ""
-        
+
         request_inspection {
           payload_type = ""
-          
+
           password_field {
             identifier = ""
           }
@@ -112,7 +112,7 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
     }
     rule_action_override {
       name = ""
-      
+
       action_to_use {
         allow {
           custom_request_handling {
@@ -126,7 +126,7 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
           custom_response {
             custom_response_body_key = ""
             response_code            = 0
-            
+
             response_header {
               name  = ""
               value = ""
@@ -163,7 +163,7 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
   rule_group_reference {
     rule_action_override {
       name = ""
-      
+
       action_to_use {
         allow {
           custom_request_handling {
@@ -177,7 +177,7 @@ resource "aws_wafv2_web_acl_rule_group_association" "tf-sample-wafv2-web-acl-rul
           custom_response {
             custom_response_body_key = ""
             response_code            = 0
-            
+
             response_header {
               name  = ""
               value = ""

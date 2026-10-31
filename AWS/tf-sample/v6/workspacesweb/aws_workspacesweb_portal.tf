@@ -7,6 +7,6 @@ resource "aws_workspacesweb_portal" "tf-sample-workspacesweb-portal" {
   instance_type                 = ""
   max_concurrent_sessions       = 0
   region                        = ""
-  
+
   tags = {}
 }

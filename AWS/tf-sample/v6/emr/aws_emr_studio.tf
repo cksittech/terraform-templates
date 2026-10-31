@@ -13,6 +13,6 @@ resource "aws_emr_studio" "tf-sample-emr-studio" {
   user_role                      = ""
   vpc_id                         = ""
   workspace_security_group_id    = ""
-  
+
   tags = {}
 }

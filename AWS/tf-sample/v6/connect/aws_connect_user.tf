@@ -7,7 +7,7 @@ resource "aws_connect_user" "tf-sample-connect-user" {
   region               = ""
   routing_profile_id   = ""
   security_profile_ids = []
-  
+
   identity_info {
     email           = ""
     first_name      = ""
@@ -20,6 +20,6 @@ resource "aws_connect_user" "tf-sample-connect-user" {
     desk_phone_number             = ""
     phone_type                    = ""
   }
-  
+
   tags = {}
 }

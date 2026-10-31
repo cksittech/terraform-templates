@@ -12,7 +12,7 @@ resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-ca
   snapshot_retention_limit = 0
   subnet_ids               = []
   user_group_id            = ""
-  
+
   cache_usage_limits {
     data_storage {
       maximum = 0
@@ -24,6 +24,6 @@ resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-ca
       minimum = 0
     }
   }
-  
+
   tags = {}
 }

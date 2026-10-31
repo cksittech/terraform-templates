@@ -10,10 +10,10 @@ resource "aws_appsync_graphql_api" "tf-sample-appsync-graphql-api" {
   schema                        = ""
   visibility                    = ""
   xray_enabled                  = false
-  
+
   additional_authentication_provider {
     authentication_type = ""
-    
+
     lambda_authorizer_config {
       authorizer_result_ttl_in_seconds = 0
       authorizer_uri                   = ""
@@ -58,6 +58,6 @@ resource "aws_appsync_graphql_api" "tf-sample-appsync-graphql-api" {
     default_action      = ""
     user_pool_id        = ""
   }
-  
+
   tags = {}
 }

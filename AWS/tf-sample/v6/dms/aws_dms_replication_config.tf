@@ -9,7 +9,7 @@ resource "aws_dms_replication_config" "tf-sample-dms-replication-config" {
   supplemental_settings         = ""
   table_mappings                = ""
   target_endpoint_arn           = ""
-  
+
   compute_config {
     availability_zone            = ""
     dns_name_servers             = ""
@@ -21,6 +21,6 @@ resource "aws_dms_replication_config" "tf-sample-dms-replication-config" {
     replication_subnet_group_id  = ""
     vpc_security_group_ids       = []
   }
-  
+
   tags = {}
 }

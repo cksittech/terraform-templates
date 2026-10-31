@@ -8,6 +8,6 @@ resource "aws_kms_replica_external_key" "tf-sample-kms-replica-external-key" {
   primary_key_arn                    = ""
   region                             = ""
   valid_to                           = ""
-  
+
   tags = {}
 }

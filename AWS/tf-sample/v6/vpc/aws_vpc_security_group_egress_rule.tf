@@ -9,6 +9,6 @@ resource "aws_vpc_security_group_egress_rule" "tf-sample-vpc-security-group-egre
   region                       = ""
   security_group_id            = ""
   to_port                      = 0
-  
+
   tags = {}
 }

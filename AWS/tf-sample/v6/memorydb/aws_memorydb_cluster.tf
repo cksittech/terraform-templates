@@ -27,6 +27,6 @@ resource "aws_memorydb_cluster" "tf-sample-memorydb-cluster" {
   sns_topic_arn              = ""
   subnet_group_name          = ""
   tls_enabled                = false
-  
+
   tags = {}
 }

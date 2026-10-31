@@ -5,7 +5,7 @@ resource "aws_bedrockagentcore_memory" "tf-sample-bedrockagentcore-memory" {
   memory_execution_role_arn = ""
   name                      = ""
   region                    = ""
-  
+
   indexed_key {
     key  = ""
     type = ""
@@ -14,7 +14,7 @@ resource "aws_bedrockagentcore_memory" "tf-sample-bedrockagentcore-memory" {
     resource {
       kinesis {
         data_stream_arn = ""
-        
+
         content_configuration {
           level = ""
           type  = ""
@@ -22,6 +22,6 @@ resource "aws_bedrockagentcore_memory" "tf-sample-bedrockagentcore-memory" {
       }
     }
   }
-  
+
   tags = {}
 }

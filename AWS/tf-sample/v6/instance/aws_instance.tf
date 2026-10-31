@@ -33,10 +33,10 @@ resource "aws_instance" "tf-sample-instance" {
   user_data_replace_on_change          = false
   volume_tags                          = {}
   vpc_security_group_ids               = []
-  
+
   capacity_reservation_specification {
     capacity_reservation_preference = ""
-    
+
     capacity_reservation_target {
       capacity_reservation_id                 = ""
       capacity_reservation_resource_group_arn = ""
@@ -72,7 +72,7 @@ resource "aws_instance" "tf-sample-instance" {
   }
   instance_market_options {
     market_type = ""
-    
+
     spot_options {
       instance_interruption_behavior = ""
       max_price                      = ""
@@ -120,6 +120,6 @@ resource "aws_instance" "tf-sample-instance" {
     private_ip_address_count = 0
     secondary_subnet_id      = ""
   }
-  
+
   tags = {}
 }

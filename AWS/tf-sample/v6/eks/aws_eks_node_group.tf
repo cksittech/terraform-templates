@@ -13,7 +13,7 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
   release_version        = ""
   subnet_ids             = []
   version                = ""
-  
+
   launch_template {
     id      = ""
     name    = ""
@@ -25,7 +25,7 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
     max_parallel_nodes_repaired_percentage  = 0
     max_unhealthy_node_threshold_count      = 0
     max_unhealthy_node_threshold_percentage = 0
-    
+
     node_repair_config_overrides {
       min_repair_wait_time_mins = 0
       node_monitoring_condition = ""
@@ -58,6 +58,6 @@ resource "aws_eks_node_group" "tf-sample-eks-node-group" {
     pool_state                  = ""
     reuse_on_scale_in           = false
   }
-  
+
   tags = {}
 }

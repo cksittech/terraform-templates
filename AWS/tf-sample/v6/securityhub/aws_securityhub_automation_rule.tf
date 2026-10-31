@@ -5,17 +5,17 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
   rule_name   = ""
   rule_order  = 0
   rule_status = ""
-  
+
   actions {
     type = ""
-    
+
     finding_fields_update {
       confidence          = 0
       criticality         = 0
       types               = []
       user_defined_fields = {}
       verification_state  = ""
-      
+
       note {
         text       = ""
         updated_by = ""
@@ -68,7 +68,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
     created_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -88,7 +88,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
     first_observed_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -105,7 +105,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
     last_observed_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -118,7 +118,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
     note_updated_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -201,7 +201,7 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
     updated_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -221,6 +221,6 @@ resource "aws_securityhub_automation_rule" "tf-sample-securityhub-automation-rul
       value      = ""
     }
   }
-  
+
   tags = {}
 }

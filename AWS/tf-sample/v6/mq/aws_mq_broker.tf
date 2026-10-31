@@ -15,7 +15,7 @@ resource "aws_mq_broker" "tf-sample-mq-broker" {
   security_groups                     = []
   storage_type                        = ""
   subnet_ids                          = []
-  
+
   configuration {
     id       = ""
     revision = 0
@@ -53,6 +53,6 @@ resource "aws_mq_broker" "tf-sample-mq-broker" {
     replication_user = false
     username         = ""
   }
-  
+
   tags = {}
 }

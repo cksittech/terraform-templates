@@ -11,6 +11,6 @@ resource "aws_ssm_maintenance_window" "tf-sample-ssm-maintenance-window" {
   schedule_offset            = 0
   schedule_timezone          = ""
   start_date                 = ""
-  
+
   tags = {}
 }

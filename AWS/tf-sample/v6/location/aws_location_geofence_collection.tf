@@ -3,6 +3,6 @@ resource "aws_location_geofence_collection" "tf-sample-location-geofence-collect
   description     = ""
   kms_key_id      = ""
   region          = ""
-  
+
   tags = {}
 }

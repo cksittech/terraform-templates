@@ -4,14 +4,14 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
   execution_role_arn          = ""
   name                        = ""
   region                      = ""
-  
+
   definition {
     connection {
       name   = ""
       source = ""
       target = ""
       type   = ""
-      
+
       configuration {
         conditional {
           condition = ""
@@ -25,7 +25,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
     node {
       name = ""
       type = ""
-      
+
       configuration {
         agent {
           agent_alias_arn = ""
@@ -50,7 +50,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
           knowledge_base_id = ""
           model_id          = ""
           number_of_results = 0
-          
+
           guardrail_configuration {
             guardrail_identifier = ""
             guardrail_version    = ""
@@ -83,7 +83,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
               additional_model_request_fields = ""
               model_id                        = ""
               template_type                   = ""
-              
+
               inference_configuration {
                 text {
                   max_tokens     = 0
@@ -99,10 +99,10 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
                   }
                   message {
                     role = ""
-                    
+
                     content {
                       text = ""
-                      
+
                       cache_point {
                         type = ""
                       }
@@ -110,7 +110,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
                   }
                   system {
                     text = ""
-                    
+
                     cache_point {
                       type = ""
                     }
@@ -123,7 +123,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
                       tool_spec {
                         description = ""
                         name        = ""
-                        
+
                         input_schema {
                           json = ""
                         }
@@ -142,7 +142,7 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
                 }
                 text {
                   text = ""
-                  
+
                   cache_point {
                     type = ""
                   }
@@ -184,6 +184,6 @@ resource "aws_bedrockagent_flow" "tf-sample-bedrockagent-flow" {
       }
     }
   }
-  
+
   tags = {}
 }

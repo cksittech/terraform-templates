@@ -4,6 +4,6 @@ resource "aws_network_acl" "tf-sample-network-acl" {
   region     = ""
   subnet_ids = []
   vpc_id     = ""
-  
+
   tags = {}
 }

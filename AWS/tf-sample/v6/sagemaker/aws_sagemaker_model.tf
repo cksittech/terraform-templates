@@ -3,7 +3,7 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
   execution_role_arn       = ""
   name                     = ""
   region                   = ""
-  
+
   container {
     container_hostname           = ""
     environment                  = {}
@@ -12,15 +12,15 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
     mode                         = ""
     model_data_url               = ""
     model_package_name           = ""
-    
+
     additional_model_data_source {
       channel_name = ""
-      
+
       s3_data_source {
         compression_type = ""
         s3_data_type     = ""
         s3_uri           = ""
-        
+
         hub_access_config {
           hub_content_arn = ""
         }
@@ -31,7 +31,7 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
     }
     image_config {
       repository_access_mode = ""
-      
+
       repository_auth_config {
         repository_credentials_provider_arn = ""
       }
@@ -41,7 +41,7 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         compression_type = ""
         s3_data_type     = ""
         s3_uri           = ""
-        
+
         hub_access_config {
           hub_content_arn = ""
         }
@@ -65,15 +65,15 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
     mode                         = ""
     model_data_url               = ""
     model_package_name           = ""
-    
+
     additional_model_data_source {
       channel_name = ""
-      
+
       s3_data_source {
         compression_type = ""
         s3_data_type     = ""
         s3_uri           = ""
-        
+
         hub_access_config {
           hub_content_arn = ""
         }
@@ -84,7 +84,7 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
     }
     image_config {
       repository_access_mode = ""
-      
+
       repository_auth_config {
         repository_credentials_provider_arn = ""
       }
@@ -94,7 +94,7 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
         compression_type = ""
         s3_data_type     = ""
         s3_uri           = ""
-        
+
         hub_access_config {
           hub_content_arn = ""
         }
@@ -111,6 +111,6 @@ resource "aws_sagemaker_model" "tf-sample-sagemaker-model" {
     security_group_ids = []
     subnets            = []
   }
-  
+
   tags = {}
 }

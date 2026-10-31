@@ -6,7 +6,7 @@ resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
   region      = ""
   role_arn    = ""
   type        = ""
-  
+
   encryption_configuration {
     kms_data_key_reuse_period_seconds = 0
     kms_key_id                        = ""
@@ -20,6 +20,6 @@ resource "aws_sfn_state_machine" "tf-sample-sfn-state-machine" {
   tracing_configuration {
     enabled = false
   }
-  
+
   tags = {}
 }

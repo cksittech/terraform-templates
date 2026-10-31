@@ -4,14 +4,14 @@ resource "aws_dataexchange_revision_assets" "tf-sample-dataexchange-revision-ass
   finalized     = false
   force_destroy = false
   region        = ""
-  
+
   asset {
     create_s3_data_access_from_s3_bucket {
       asset_source {
         bucket       = ""
         key_prefixes = []
         keys         = []
-        
+
         kms_keys_to_grant {
           kms_key_arn = ""
         }
@@ -27,6 +27,6 @@ resource "aws_dataexchange_revision_assets" "tf-sample-dataexchange-revision-ass
       filename = ""
     }
   }
-  
+
   tags = {}
 }

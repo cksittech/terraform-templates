@@ -5,11 +5,11 @@ resource "aws_m2_application" "tf-sample-m2-application" {
   name        = ""
   region      = ""
   role_arn    = ""
-  
+
   definition {
     content     = ""
     s3_location = ""
   }
-  
+
   tags = {}
 }

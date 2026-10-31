@@ -13,10 +13,10 @@ resource "aws_sagemaker_notebook_instance" "tf-sample-sagemaker-notebook-instanc
   security_groups              = []
   subnet_id                    = ""
   volume_size                  = 0
-  
+
   instance_metadata_service_configuration {
     minimum_instance_metadata_service_version = ""
   }
-  
+
   tags = {}
 }

@@ -11,6 +11,6 @@ resource "aws_dms_replication_task" "tf-sample-dms-replication-task" {
   start_replication_task    = false
   table_mappings            = ""
   target_endpoint_arn       = ""
-  
+
   tags = {}
 }

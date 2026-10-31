@@ -3,13 +3,13 @@ resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
   region             = ""
   space_display_name = ""
   space_name         = ""
-  
+
   ownership_settings {
     owner_user_profile_name = ""
   }
   space_settings {
     app_type = ""
-    
+
     code_editor_app_settings {
       app_lifecycle_management {
         idle_settings {
@@ -48,7 +48,7 @@ resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
     }
     jupyter_server_app_settings {
       lifecycle_config_arns = []
-      
+
       code_repository {
         repository_url = ""
       }
@@ -62,7 +62,7 @@ resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
     }
     kernel_gateway_app_settings {
       lifecycle_config_arns = []
-      
+
       custom_image {
         app_image_config_name = ""
         image_name            = ""
@@ -85,6 +85,6 @@ resource "aws_sagemaker_space" "tf-sample-sagemaker-space" {
   space_sharing_settings {
     sharing_type = ""
   }
-  
+
   tags = {}
 }

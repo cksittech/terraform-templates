@@ -23,10 +23,10 @@ resource "aws_storagegateway_smb_file_share" "tf-sample-storagegateway-smb-file-
   smb_acl_enabled          = false
   valid_user_list          = []
   vpc_endpoint_dns_name    = ""
-  
+
   cache_attributes {
     cache_stale_timeout_in_seconds = 0
   }
-  
+
   tags = {}
 }

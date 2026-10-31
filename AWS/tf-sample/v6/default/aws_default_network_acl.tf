@@ -2,7 +2,7 @@ resource "aws_default_network_acl" "tf-sample-default-network-acl" {
   default_network_acl_id = ""
   region                 = ""
   subnet_ids             = []
-  
+
   egress {
     action          = ""
     cidr_block      = ""
@@ -25,6 +25,6 @@ resource "aws_default_network_acl" "tf-sample-default-network-acl" {
     rule_no         = 0
     to_port         = 0
   }
-  
+
   tags = {}
 }

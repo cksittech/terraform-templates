@@ -4,7 +4,7 @@ resource "aws_datazone_policy_grant" "tf-sample-datazone-policy-grant" {
   entity_type       = ""
   policy_type       = ""
   region            = ""
-  
+
   detail {
     add_to_project_member_pool {
       include_child_domain_units = false
@@ -51,7 +51,7 @@ resource "aws_datazone_policy_grant" "tf-sample-datazone-policy-grant" {
     domain_unit {
       domain_unit_designation = ""
       domain_unit_identifier  = ""
-      
+
       all_domain_units_grant_filter {
       }
     }
@@ -61,7 +61,7 @@ resource "aws_datazone_policy_grant" "tf-sample-datazone-policy-grant" {
     project {
       project_designation = ""
       project_identifier  = ""
-      
+
       domain_unit_filter {
         domain_unit                = ""
         include_child_domain_units = false
@@ -69,7 +69,7 @@ resource "aws_datazone_policy_grant" "tf-sample-datazone-policy-grant" {
     }
     user {
       user_identifier = ""
-      
+
       all_users_grant_filter {
       }
     }

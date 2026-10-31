@@ -24,11 +24,11 @@ resource "aws_s3_object" "tf-sample-s3-object" {
   source_hash                   = ""
   storage_class                 = ""
   website_redirect              = ""
-  
+
   override_provider {
     default_tags {
     }
   }
-  
+
   tags = {}
 }

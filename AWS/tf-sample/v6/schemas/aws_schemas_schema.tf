@@ -5,6 +5,6 @@ resource "aws_schemas_schema" "tf-sample-schemas-schema" {
   region        = ""
   registry_name = ""
   type          = ""
-  
+
   tags = {}
 }

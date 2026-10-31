@@ -20,7 +20,7 @@ resource "aws_cognito_user_pool_client" "tf-sample-cognito-user-pool-client" {
   supported_identity_providers                  = []
   user_pool_id                                  = ""
   write_attributes                              = []
-  
+
   analytics_configuration {
     application_arn  = ""
     application_id   = ""

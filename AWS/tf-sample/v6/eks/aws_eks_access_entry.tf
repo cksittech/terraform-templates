@@ -5,6 +5,6 @@ resource "aws_eks_access_entry" "tf-sample-eks-access-entry" {
   region            = ""
   type              = ""
   user_name         = ""
-  
+
   tags = {}
 }

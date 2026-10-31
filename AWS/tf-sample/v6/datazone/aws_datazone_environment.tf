@@ -9,7 +9,7 @@ resource "aws_datazone_environment" "tf-sample-datazone-environment" {
   profile_identifier   = ""
   project_identifier   = ""
   region               = ""
-  
+
   user_parameters {
     name  = ""
     value = ""

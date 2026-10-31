@@ -1,7 +1,7 @@
 resource "aws_ivschat_logging_configuration" "tf-sample-ivschat-logging-configuration" {
   name   = ""
   region = ""
-  
+
   destination_configuration {
     cloudwatch_logs {
       log_group_name = ""
@@ -13,6 +13,6 @@ resource "aws_ivschat_logging_configuration" "tf-sample-ivschat-logging-configur
       bucket_name = ""
     }
   }
-  
+
   tags = {}
 }

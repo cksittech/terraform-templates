@@ -3,7 +3,7 @@ resource "aws_mskconnect_custom_plugin" "tf-sample-mskconnect-custom-plugin" {
   description  = ""
   name         = ""
   region       = ""
-  
+
   location {
     s3 {
       bucket_arn     = ""
@@ -11,6 +11,6 @@ resource "aws_mskconnect_custom_plugin" "tf-sample-mskconnect-custom-plugin" {
       object_version = ""
     }
   }
-  
+
   tags = {}
 }

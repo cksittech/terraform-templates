@@ -9,7 +9,7 @@ resource "aws_servicecatalog_product" "tf-sample-servicecatalog-product" {
   support_email       = ""
   support_url         = ""
   type                = ""
-  
+
   provisioning_artifact_parameters {
     description                 = ""
     disable_template_validation = false
@@ -18,6 +18,6 @@ resource "aws_servicecatalog_product" "tf-sample-servicecatalog-product" {
     template_url                = ""
     type                        = ""
   }
-  
+
   tags = {}
 }

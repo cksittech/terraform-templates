@@ -12,6 +12,6 @@ resource "aws_ssm_parameter" "tf-sample-ssm-parameter" {
   value            = ""
   value_wo         = ""
   value_wo_version = 0
-  
+
   tags = {}
 }

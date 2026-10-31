@@ -7,6 +7,6 @@ resource "aws_elastic_beanstalk_application_version" "tf-sample-elastic-beanstal
   name         = ""
   process      = false
   region       = ""
-  
+
   tags = {}
 }

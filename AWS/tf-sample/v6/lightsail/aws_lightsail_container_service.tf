@@ -4,7 +4,7 @@ resource "aws_lightsail_container_service" "tf-sample-lightsail-container-servic
   power       = ""
   region      = ""
   scale       = 0
-  
+
   private_registry_access {
     ecr_image_puller_role {
       is_active = false
@@ -16,6 +16,6 @@ resource "aws_lightsail_container_service" "tf-sample-lightsail-container-servic
       domain_names     = []
     }
   }
-  
+
   tags = {}
 }

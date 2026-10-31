@@ -6,6 +6,6 @@ resource "aws_transfer_agreement" "tf-sample-transfer-agreement" {
   partner_profile_id = ""
   region             = ""
   server_id          = ""
-  
+
   tags = {}
 }

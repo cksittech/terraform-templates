@@ -8,7 +8,7 @@ resource "aws_redshiftdata_statement" "tf-sample-redshiftdata-statement" {
   statement_name     = ""
   with_event         = false
   workgroup_name     = ""
-  
+
   parameters {
     name  = ""
     value = ""

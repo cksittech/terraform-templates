@@ -3,6 +3,6 @@ resource "aws_datasync_location_fsx_lustre_file_system" "tf-sample-datasync-loca
   region              = ""
   security_group_arns = []
   subdirectory        = ""
-  
+
   tags = {}
 }

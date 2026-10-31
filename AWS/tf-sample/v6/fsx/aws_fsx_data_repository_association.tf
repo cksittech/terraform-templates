@@ -6,7 +6,7 @@ resource "aws_fsx_data_repository_association" "tf-sample-fsx-data-repository-as
   file_system_path                 = ""
   imported_file_chunk_size         = 0
   region                           = ""
-  
+
   s3 {
     auto_export_policy {
       events = []
@@ -15,6 +15,6 @@ resource "aws_fsx_data_repository_association" "tf-sample-fsx-data-repository-as
       events = []
     }
   }
-  
+
   tags = {}
 }

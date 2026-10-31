@@ -4,12 +4,12 @@ resource "aws_paymentcryptography_key" "tf-sample-paymentcryptography-key" {
   exportable                = false
   key_check_value_algorithm = ""
   region                    = ""
-  
+
   key_attributes {
     key_algorithm = ""
     key_class     = ""
     key_usage     = ""
-    
+
     key_modes_of_use {
       decrypt         = false
       derive_key      = false
@@ -22,6 +22,6 @@ resource "aws_paymentcryptography_key" "tf-sample-paymentcryptography-key" {
       wrap            = false
     }
   }
-  
+
   tags = {}
 }

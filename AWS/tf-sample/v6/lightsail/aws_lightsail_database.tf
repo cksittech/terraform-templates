@@ -14,6 +14,6 @@ resource "aws_lightsail_database" "tf-sample-lightsail-database" {
   region                       = ""
   relational_database_name     = ""
   skip_final_snapshot          = false
-  
+
   tags = {}
 }

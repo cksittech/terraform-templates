@@ -4,6 +4,6 @@ resource "aws_glue_workflow" "tf-sample-glue-workflow" {
   max_concurrent_runs    = 0
   name                   = ""
   region                 = ""
-  
+
   tags = {}
 }

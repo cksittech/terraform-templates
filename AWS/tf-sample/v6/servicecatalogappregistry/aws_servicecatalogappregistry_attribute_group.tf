@@ -3,6 +3,6 @@ resource "aws_servicecatalogappregistry_attribute_group" "tf-sample-servicecatal
   description = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

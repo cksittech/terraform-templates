@@ -6,19 +6,19 @@ resource "aws_resiliencehubv2_service" "tf-sample-resiliencehubv2-service" {
   policy_arn           = ""
   region               = ""
   regions              = []
-  
+
   associated_system {
     system_arn       = ""
     user_journey_ids = []
   }
   permission_model {
     invoker_role_name = ""
-    
+
     cross_account_role {
       cross_account_role_arn = ""
       external_id            = ""
     }
   }
-  
+
   tags = {}
 }

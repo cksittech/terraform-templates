@@ -7,10 +7,10 @@ resource "aws_neptunegraph_graph" "tf-sample-neptunegraph-graph" {
   public_connectivity = false
   region              = ""
   replica_count       = 0
-  
+
   vector_search_configuration {
     vector_search_dimension = 0
   }
-  
+
   tags = {}
 }

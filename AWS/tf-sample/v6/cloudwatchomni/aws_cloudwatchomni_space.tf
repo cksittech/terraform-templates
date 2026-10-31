@@ -4,7 +4,7 @@ resource "aws_cloudwatchomni_space" "tf-sample-cloudwatchomni-space" {
   domain_id                      = ""
   name                           = ""
   region                         = ""
-  
+
   encryption_configuration {
     encryption_strategy = ""
     kms_key_arn         = ""

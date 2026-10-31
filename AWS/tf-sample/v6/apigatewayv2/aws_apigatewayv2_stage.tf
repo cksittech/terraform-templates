@@ -7,7 +7,7 @@ resource "aws_apigatewayv2_stage" "tf-sample-apigatewayv2-stage" {
   name                  = ""
   region                = ""
   stage_variables       = {}
-  
+
   access_log_settings {
     destination_arn = ""
     format          = ""
@@ -27,6 +27,6 @@ resource "aws_apigatewayv2_stage" "tf-sample-apigatewayv2-stage" {
     throttling_burst_limit   = 0
     throttling_rate_limit    = 0
   }
-  
+
   tags = {}
 }

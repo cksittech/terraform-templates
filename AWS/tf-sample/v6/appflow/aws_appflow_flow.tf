@@ -3,19 +3,19 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
   kms_arn     = ""
   name        = ""
   region      = ""
-  
+
   destination_flow_config {
     api_version            = ""
     connector_profile_name = ""
     connector_type         = ""
-    
+
     destination_connector_properties {
       custom_connector {
         custom_properties    = {}
         entity_name          = ""
         id_field_names       = []
         write_operation_type = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -28,7 +28,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       }
       event_bridge {
         object = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -37,7 +37,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       }
       honeycode {
         object = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -48,7 +48,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       }
       marketo {
         object = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -59,7 +59,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
         bucket_prefix            = ""
         intermediate_bucket_name = ""
         object                   = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -69,11 +69,11 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       s3 {
         bucket_name   = ""
         bucket_prefix = ""
-        
+
         s3_output_format_config {
           file_type                   = ""
           preserve_source_data_typing = false
-          
+
           aggregation_config {
             aggregation_type = ""
             target_file_size = 0
@@ -90,7 +90,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
         id_field_names       = []
         object               = ""
         write_operation_type = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -101,7 +101,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
         id_field_names       = []
         object_path          = ""
         write_operation_type = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -116,7 +116,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
         bucket_prefix            = ""
         intermediate_bucket_name = ""
         object                   = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -126,10 +126,10 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       upsolver {
         bucket_name   = ""
         bucket_prefix = ""
-        
+
         s3_output_format_config {
           file_type = ""
-          
+
           aggregation_config {
             aggregation_type = ""
           }
@@ -144,7 +144,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
         id_field_names       = []
         object               = ""
         write_operation_type = ""
-        
+
         error_handling_config {
           bucket_name                     = ""
           bucket_prefix                   = ""
@@ -164,7 +164,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
     api_version            = ""
     connector_profile_name = ""
     connector_type         = ""
-    
+
     incremental_pull_config {
       datetime_type_field_name = ""
     }
@@ -194,7 +194,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       s3 {
         bucket_name   = ""
         bucket_prefix = ""
-        
+
         s3_input_format_config {
           s3_input_file_type = ""
         }
@@ -207,7 +207,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       }
       sapo_data {
         object_path = ""
-        
+
         pagination_config {
           max_page_size = 0
         }
@@ -244,7 +244,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
     source_fields     = []
     task_properties   = {}
     task_type         = ""
-    
+
     connector_operator {
       amplitude        = ""
       custom_connector = ""
@@ -266,7 +266,7 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
   }
   trigger_config {
     trigger_type = ""
-    
+
     trigger_properties {
       scheduled {
         data_pull_mode       = ""
@@ -279,6 +279,6 @@ resource "aws_appflow_flow" "tf-sample-appflow-flow" {
       }
     }
   }
-  
+
   tags = {}
 }

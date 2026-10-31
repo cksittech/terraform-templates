@@ -2,12 +2,12 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
   cluster = ""
   name    = ""
   region  = ""
-  
+
   auto_scaling_group_provider {
     auto_scaling_group_arn         = ""
     managed_draining               = ""
     managed_termination_protection = ""
-    
+
     managed_scaling {
       instance_warmup_period    = 0
       maximum_scaling_step_size = 0
@@ -19,7 +19,7 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
   managed_instances_provider {
     infrastructure_role_arn = ""
     propagate_tags          = ""
-    
+
     auto_repair_configuration {
       actions_status = ""
     }
@@ -30,7 +30,7 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
       capacity_option_type     = ""
       ec2_instance_profile_arn = ""
       monitoring               = ""
-      
+
       capacity_reservations {
         reservation_group_arn  = ""
         reservation_preference = ""
@@ -51,7 +51,7 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
         on_demand_max_price_percentage_over_lowest_price        = 0
         require_hibernate_support                               = false
         spot_max_price_percentage_over_lowest_price             = 0
-        
+
         accelerator_count {
           max = 0
           min = 0
@@ -101,6 +101,6 @@ resource "aws_ecs_capacity_provider" "tf-sample-ecs-capacity-provider" {
       }
     }
   }
-  
+
   tags = {}
 }

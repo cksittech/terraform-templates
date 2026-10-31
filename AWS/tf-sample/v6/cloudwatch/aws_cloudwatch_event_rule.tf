@@ -9,6 +9,6 @@ resource "aws_cloudwatch_event_rule" "tf-sample-cloudwatch-event-rule" {
   role_arn            = ""
   schedule_expression = ""
   state               = ""
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "aws_config_config_rule" "tf-sample-config-config-rule" {
   maximum_execution_frequency = ""
   name                        = ""
   region                      = ""
-  
+
   evaluation_mode {
     mode = ""
   }
@@ -17,7 +17,7 @@ resource "aws_config_config_rule" "tf-sample-config-config-rule" {
   source {
     owner             = ""
     source_identifier = ""
-    
+
     custom_policy_details {
       enable_debug_log_delivery = false
       policy_runtime            = ""
@@ -29,6 +29,6 @@ resource "aws_config_config_rule" "tf-sample-config-config-rule" {
       message_type                = ""
     }
   }
-  
+
   tags = {}
 }

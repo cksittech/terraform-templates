@@ -4,7 +4,7 @@ resource "aws_transfer_connector" "tf-sample-transfer-connector" {
   region               = ""
   security_policy_name = ""
   url                  = ""
-  
+
   as2_config {
     compression           = ""
     encryption_algorithm  = ""
@@ -25,6 +25,6 @@ resource "aws_transfer_connector" "tf-sample-transfer-connector" {
     trusted_host_keys = []
     user_secret_id    = ""
   }
-  
+
   tags = {}
 }

@@ -10,7 +10,7 @@ resource "aws_api_gateway_stage" "tf-sample-api-gateway-stage" {
   stage_name            = ""
   variables             = {}
   xray_tracing_enabled  = false
-  
+
   access_log_settings {
     destination_arn = ""
     format          = ""
@@ -21,6 +21,6 @@ resource "aws_api_gateway_stage" "tf-sample-api-gateway-stage" {
     stage_variable_overrides = {}
     use_stage_cache          = false
   }
-  
+
   tags = {}
 }

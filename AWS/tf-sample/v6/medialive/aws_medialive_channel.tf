@@ -5,13 +5,13 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
   region        = ""
   role_arn      = ""
   start_channel = false
-  
+
   cdi_input_specification {
     resolution = ""
   }
   destinations {
     id = ""
-    
+
     media_package_settings {
       channel_id = ""
     }
@@ -35,7 +35,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       language_code_control = ""
       name                  = ""
       stream_name           = ""
-      
+
       audio_normalization_settings {
         algorithm         = ""
         algorithm_control = ""
@@ -44,7 +44,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       audio_watermark_settings {
         nielsen_watermarks_settings {
           nielsen_distribution_type = ""
-          
+
           nielsen_cbet_settings {
             cbet_check_digit_string = ""
             cbet_stepaside          = ""
@@ -124,10 +124,10 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       remix_settings {
         channels_in  = 0
         channels_out = 0
-        
+
         channel_mappings {
           output_channel = 0
-          
+
           input_channel_levels {
             gain          = 0
             input_channel = 0
@@ -137,7 +137,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
     }
     avail_blanking {
       state = ""
-      
+
       avail_blanking_image {
         password_param = ""
         uri            = ""
@@ -150,7 +150,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       language_code         = ""
       language_description  = ""
       name                  = ""
-      
+
       destination_settings {
         arib_destination_settings {
         }
@@ -171,7 +171,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           teletext_grid_control = ""
           x_position            = 0
           y_position            = 0
-          
+
           font {
             password_param = ""
             uri            = ""
@@ -195,7 +195,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           teletext_grid_control = ""
           x_position            = 0
           y_position            = 0
-          
+
           font {
             password_param = ""
             uri            = ""
@@ -236,13 +236,13 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       output_locking_mode          = ""
       output_timing_source         = ""
       support_low_framerate_inputs = ""
-      
+
       input_loss_behavior {
         black_frame_msec       = 0
         input_loss_image_color = ""
         input_loss_image_type  = ""
         repeat_frame_msec      = 0
-        
+
         input_loss_image_slate {
           password_param = ""
           uri            = ""
@@ -252,7 +252,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
     }
     motion_graphics_configuration {
       motion_graphics_insertion = ""
-      
+
       motion_graphics_settings {
         html_motion_graphics_settings {
         }
@@ -264,11 +264,11 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
     }
     output_groups {
       name = ""
-      
+
       output_group_settings {
         archive_group_settings {
           rollover_interval = 0
-          
+
           archive_cdn_settings {
             archive_s3_settings {
               canned_acl = ""
@@ -327,7 +327,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           timed_metadata_id3_period    = 0
           timestamp_delta_milliseconds = 0
           ts_file_mode                 = ""
-          
+
           caption_language_mappings {
             caption_channel      = 0
             language_code        = ""
@@ -373,7 +373,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           key_provider_settings {
             static_key_settings {
               static_key_value = ""
-              
+
               key_provider_server {
                 password_param = ""
                 uri            = ""
@@ -406,7 +406,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           stream_manifest_behavior    = ""
           timestamp_offset            = ""
           timestamp_offset_mode       = ""
-          
+
           destination {
             destination_ref_id = ""
           }
@@ -433,12 +433,12 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
         caption_description_names = []
         output_name               = ""
         video_description_name    = ""
-        
+
         output_settings {
           archive_output_settings {
             extension     = ""
             name_modifier = ""
-            
+
             container_settings {
               m2ts_settings {
                 absent_input_audio_behavior = ""
@@ -485,7 +485,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
                 timed_metadata_pid          = ""
                 transport_stream_id         = 0
                 video_pid                   = ""
-                
+
                 dvb_nit_settings {
                   network_id   = 0
                   network_name = ""
@@ -512,13 +512,13 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
             h265_packaging_type = ""
             name_modifier       = ""
             segment_modifier    = ""
-            
+
             hls_settings {
               audio_only_hls_settings {
                 audio_group_id   = ""
                 audio_track_type = ""
                 segment_type     = ""
-                
+
                 audio_only_image {
                   password_param = ""
                   uri            = ""
@@ -534,7 +534,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
               }
               standard_hls_settings {
                 audio_rendition_sets = ""
-                
+
                 m3u8_settings {
                   audio_frames_per_pes    = 0
                   audio_pids              = ""
@@ -572,14 +572,14 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
             certificate_mode          = ""
             connection_retry_interval = 0
             num_retries               = 0
-            
+
             destination {
               destination_ref_id = ""
             }
           }
           udp_output_settings {
             buffer_msec = 0
-            
+
             container_settings {
               m2ts_settings {
                 absent_input_audio_behavior = ""
@@ -626,7 +626,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
                 timed_metadata_pid          = ""
                 transport_stream_id         = 0
                 video_pid                   = ""
-                
+
                 dvb_nit_settings {
                   network_id   = 0
                   network_name = ""
@@ -669,7 +669,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       scaling_behavior = ""
       sharpness        = 0
       width            = 0
-      
+
       codec_settings {
         frame_capture_settings {
           capture_interval       = 0
@@ -715,7 +715,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           syntax                  = ""
           temporal_aq             = ""
           timecode_insertion      = ""
-          
+
           filter_settings {
             temporal_filter_settings {
               post_filter_sharpening = ""
@@ -758,7 +758,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           tile_width                    = 0
           timecode_insertion            = ""
           treeblock_size                = ""
-          
+
           color_space_settings {
             color_space_passthrough_settings {
             }
@@ -791,12 +791,12 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
   input_attachments {
     input_attachment_name = ""
     input_id              = ""
-    
+
     automatic_input_failover_settings {
       error_clear_time_msec = 0
       input_preference      = ""
       secondary_input_id    = ""
-      
+
       failover_condition {
         failover_condition_settings {
           audio_silence_settings {
@@ -821,10 +821,10 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       scte35_pid                = 0
       smpte2038_data_preference = ""
       source_end_behavior       = ""
-      
+
       audio_selector {
         name = ""
-        
+
         selector_settings {
           audio_hls_rendition_selection {
             group_id = ""
@@ -850,7 +850,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       caption_selector {
         language_code = ""
         name          = ""
-        
+
         selector_settings {
           ancillary_source_settings {
             source_ancillary_channel_number = 0
@@ -876,7 +876,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
           }
           teletext_source_settings {
             page_number = ""
-            
+
             output_rectangle {
               height      = 0
               left_offset = 0
@@ -888,7 +888,7 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
       }
       network_input_settings {
         server_validation = ""
-        
+
         hls_input_settings {
           bandwidth       = 0
           buffer_segments = 0
@@ -917,6 +917,6 @@ resource "aws_medialive_channel" "tf-sample-medialive-channel" {
     security_group_ids            = []
     subnet_ids                    = []
   }
-  
+
   tags = {}
 }

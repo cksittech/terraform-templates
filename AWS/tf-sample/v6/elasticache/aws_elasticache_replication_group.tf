@@ -40,7 +40,7 @@ resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-
   transit_encryption_enabled  = false
   transit_encryption_mode     = ""
   user_group_ids              = []
-  
+
   log_delivery_configuration {
     destination      = ""
     destination_type = ""
@@ -56,6 +56,6 @@ resource "aws_elasticache_replication_group" "tf-sample-elasticache-replication-
     replica_outpost_arns       = []
     slots                      = ""
   }
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_quicksight_namespace" "tf-sample-quicksight-namespace" {
   identity_store = ""
   namespace      = ""
   region         = ""
-  
+
   tags = {}
 }

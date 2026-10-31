@@ -1,7 +1,7 @@
 resource "aws_eks_identity_provider_config" "tf-sample-eks-identity-provider-config" {
   cluster_name = ""
   region       = ""
-  
+
   oidc {
     client_id                     = ""
     groups_claim                  = ""
@@ -12,6 +12,6 @@ resource "aws_eks_identity_provider_config" "tf-sample-eks-identity-provider-con
     username_claim                = ""
     username_prefix               = ""
   }
-  
+
   tags = {}
 }

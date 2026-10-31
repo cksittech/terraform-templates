@@ -3,6 +3,6 @@ resource "aws_cloudwatch_contributor_insight_rule" "tf-sample-cloudwatch-contrib
   rule_definition = ""
   rule_name       = ""
   rule_state      = ""
-  
+
   tags = {}
 }

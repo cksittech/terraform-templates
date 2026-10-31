@@ -10,21 +10,21 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   region                     = ""
   scheduling_priority        = 0
   type                       = ""
-  
+
   eks_properties {
     pod_properties {
       dns_policy              = ""
       host_network            = false
       service_account_name    = ""
       share_process_namespace = false
-      
+
       containers {
         args              = []
         command           = []
         image             = ""
         image_pull_policy = ""
         name              = ""
-        
+
         env {
           name  = ""
           value = ""
@@ -56,7 +56,7 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
         image             = ""
         image_pull_policy = ""
         name              = ""
-        
+
         env {
           name  = ""
           value = ""
@@ -84,7 +84,7 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
       }
       volumes {
         name = ""
-        
+
         empty_dir {
           medium     = ""
           size_limit = ""
@@ -101,7 +101,7 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   }
   retry_strategy {
     attempts = 0
-    
+
     evaluate_on_exit {
       action           = ""
       on_exit_code     = ""
@@ -112,6 +112,6 @@ resource "aws_batch_job_definition" "tf-sample-batch-job-definition" {
   timeout {
     attempt_duration_seconds = 0
   }
-  
+
   tags = {}
 }

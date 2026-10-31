@@ -6,7 +6,7 @@ resource "aws_lexv2models_slot_type" "tf-sample-lexv2models-slot-type" {
   name                       = ""
   parent_slot_type_signature = ""
   region                     = ""
-  
+
   composite_slot_type_setting {
     sub_slots {
       name         = ""
@@ -32,7 +32,7 @@ resource "aws_lexv2models_slot_type" "tf-sample-lexv2models-slot-type" {
   }
   value_selection_setting {
     resolution_strategy = ""
-    
+
     advanced_recognition_setting {
       audio_recognition_strategy = ""
     }

@@ -4,7 +4,7 @@ resource "aws_cloudwatch_log_metric_filter" "tf-sample-cloudwatch-log-metric-fil
   name                      = ""
   pattern                   = ""
   region                    = ""
-  
+
   metric_transformation {
     default_value = ""
     dimensions    = {}

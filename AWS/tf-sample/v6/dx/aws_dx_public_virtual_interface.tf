@@ -10,6 +10,6 @@ resource "aws_dx_public_virtual_interface" "tf-sample-dx-public-virtual-interfac
   region                = ""
   route_filter_prefixes = []
   vlan                  = 0
-  
+
   tags = {}
 }

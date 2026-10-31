@@ -6,7 +6,7 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
   region                     = ""
   role_arn                   = ""
   skip_destroy               = false
-  
+
   evaluation_config {
     automated {
       custom_metric_config {
@@ -14,10 +14,10 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
           custom_metric_definition {
             instructions = ""
             name         = ""
-            
+
             rating_scale {
               definition = ""
-              
+
               value {
                 float_value  = 0
                 string_value = ""
@@ -34,10 +34,10 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
       dataset_metric_config {
         metric_names = []
         task_type    = ""
-        
+
         dataset {
           name = ""
-          
+
           dataset_location {
             s3_uri = ""
           }
@@ -58,10 +58,10 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
       dataset_metric_config {
         metric_names = []
         task_type    = ""
-        
+
         dataset {
           name = ""
-          
+
           dataset_location {
             s3_uri = ""
           }
@@ -78,7 +78,7 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
       bedrock_model {
         inference_params = ""
         model_identifier = ""
-        
+
         performance_config {
           latency = ""
         }
@@ -92,7 +92,7 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
         retrieve_and_generate_config {
           knowledge_base_id = ""
           model_arn         = ""
-          
+
           retrieval_configuration {
             vector_search_configuration {
               number_of_results = 0
@@ -101,7 +101,7 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
         }
         retrieve_config {
           knowledge_base_id = ""
-          
+
           knowledge_base_retrieval_configuration {
             vector_search_configuration {
               number_of_results = 0
@@ -122,6 +122,6 @@ resource "aws_bedrock_evaluation_job" "tf-sample-bedrock-evaluation-job" {
   output_data_config {
     s3_uri = ""
   }
-  
+
   tags = {}
 }

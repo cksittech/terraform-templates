@@ -4,11 +4,11 @@ resource "aws_quicksight_data_source" "tf-sample-quicksight-data-source" {
   name           = ""
   region         = ""
   type           = ""
-  
+
   credentials {
     copy_source_arn = ""
     secret_arn      = ""
-    
+
     credential_pair {
       password = ""
       username = ""
@@ -80,7 +80,7 @@ resource "aws_quicksight_data_source" "tf-sample-quicksight-data-source" {
     }
     s3 {
       role_arn = ""
-      
+
       manifest_file_location {
         bucket = ""
         key    = ""
@@ -123,6 +123,6 @@ resource "aws_quicksight_data_source" "tf-sample-quicksight-data-source" {
   vpc_connection_properties {
     vpc_connection_arn = ""
   }
-  
+
   tags = {}
 }

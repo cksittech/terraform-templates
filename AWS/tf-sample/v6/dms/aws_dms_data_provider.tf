@@ -4,7 +4,7 @@ resource "aws_dms_data_provider" "tf-sample-dms-data-provider" {
   name        = ""
   region      = ""
   virtual     = false
-  
+
   settings {
     doc_db_settings {
       certificate_arn = ""
@@ -107,6 +107,6 @@ resource "aws_dms_data_provider" "tf-sample-dms-data-provider" {
       ssl_mode         = ""
     }
   }
-  
+
   tags = {}
 }

@@ -5,6 +5,6 @@ resource "aws_ivs_channel" "tf-sample-ivs-channel" {
   recording_configuration_arn = ""
   region                      = ""
   type                        = ""
-  
+
   tags = {}
 }

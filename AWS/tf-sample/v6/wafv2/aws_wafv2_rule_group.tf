@@ -6,7 +6,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
   region      = ""
   rules_json  = ""
   scope       = ""
-  
+
   custom_response_body {
     content      = ""
     content_type = ""
@@ -14,12 +14,12 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
   }
   monetization_config {
     currency_mode = ""
-    
+
     crypto_config {
       payment_network {
         chain          = ""
         wallet_address = ""
-        
+
         prices {
           amount   = ""
           currency = ""
@@ -30,7 +30,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
   rule {
     name     = ""
     priority = 0
-    
+
     action {
       allow {
         custom_request_handling {
@@ -44,7 +44,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
         custom_response {
           custom_response_body_key = ""
           response_code            = 0
-          
+
           response_header {
             name  = ""
             value = ""
@@ -96,7 +96,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -105,7 +105,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -115,11 +115,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -130,11 +130,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -149,10 +149,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -184,7 +184,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -203,7 +203,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -213,11 +213,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -228,11 +228,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -247,10 +247,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -290,11 +290,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -305,11 +305,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -324,10 +324,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -360,7 +360,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -370,11 +370,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -385,11 +385,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -404,10 +404,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -439,7 +439,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -449,11 +449,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -464,11 +464,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -483,10 +483,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -526,11 +526,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -541,11 +541,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -560,10 +560,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -597,7 +597,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -606,7 +606,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -616,11 +616,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -631,11 +631,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -650,10 +650,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -685,7 +685,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -706,7 +706,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -715,7 +715,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -725,11 +725,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -740,11 +740,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -759,10 +759,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -794,7 +794,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -813,7 +813,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -823,11 +823,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -838,11 +838,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -857,10 +857,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -900,11 +900,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -915,11 +915,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -934,10 +934,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -970,7 +970,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -980,11 +980,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -995,11 +995,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1014,10 +1014,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1049,7 +1049,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1059,11 +1059,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1074,11 +1074,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1093,10 +1093,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1136,11 +1136,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1151,11 +1151,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1170,10 +1170,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1209,7 +1209,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -1218,7 +1218,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1228,11 +1228,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1243,11 +1243,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1262,10 +1262,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1297,7 +1297,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -1316,7 +1316,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1326,11 +1326,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1341,11 +1341,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1360,10 +1360,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1403,11 +1403,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1418,11 +1418,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1437,10 +1437,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1473,7 +1473,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1483,11 +1483,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1498,11 +1498,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1517,10 +1517,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1552,7 +1552,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1562,11 +1562,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1577,11 +1577,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1596,10 +1596,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1639,11 +1639,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1654,11 +1654,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1673,10 +1673,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1710,7 +1710,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -1720,11 +1720,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1735,11 +1735,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1754,10 +1754,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -1797,11 +1797,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1812,11 +1812,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1831,10 +1831,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -1867,7 +1867,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -1877,11 +1877,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1892,11 +1892,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1911,10 +1911,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -1946,7 +1946,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -1956,11 +1956,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1971,11 +1971,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1990,10 +1990,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2033,11 +2033,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -2048,11 +2048,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -2067,10 +2067,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2104,7 +2104,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -2113,7 +2113,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -2123,11 +2123,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -2138,11 +2138,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -2157,10 +2157,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -2192,7 +2192,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -2215,7 +2215,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2224,7 +2224,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2234,11 +2234,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2249,11 +2249,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2268,10 +2268,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2303,7 +2303,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2322,7 +2322,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2332,11 +2332,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2347,11 +2347,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2366,10 +2366,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2409,11 +2409,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2424,11 +2424,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2443,10 +2443,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2479,7 +2479,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2489,11 +2489,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2504,11 +2504,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2523,10 +2523,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2558,7 +2558,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2568,11 +2568,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2583,11 +2583,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2602,10 +2602,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2645,11 +2645,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2660,11 +2660,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2679,10 +2679,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2716,7 +2716,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -2725,7 +2725,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -2735,11 +2735,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -2750,11 +2750,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -2769,10 +2769,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2804,7 +2804,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -2825,7 +2825,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2834,7 +2834,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2844,11 +2844,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2859,11 +2859,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2878,10 +2878,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2913,7 +2913,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2932,7 +2932,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2942,11 +2942,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2957,11 +2957,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2976,10 +2976,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3019,11 +3019,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3034,11 +3034,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3053,10 +3053,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3089,7 +3089,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3099,11 +3099,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3114,11 +3114,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3133,10 +3133,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3168,7 +3168,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3178,11 +3178,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3193,11 +3193,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3212,10 +3212,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3255,11 +3255,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3270,11 +3270,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3289,10 +3289,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3328,7 +3328,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -3337,7 +3337,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3347,11 +3347,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3362,11 +3362,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3381,10 +3381,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3416,7 +3416,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -3435,7 +3435,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3445,11 +3445,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3460,11 +3460,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3479,10 +3479,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3522,11 +3522,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3537,11 +3537,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3556,10 +3556,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3592,7 +3592,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3602,11 +3602,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3617,11 +3617,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3636,10 +3636,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3671,7 +3671,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3681,11 +3681,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3696,11 +3696,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3715,10 +3715,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3758,11 +3758,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3773,11 +3773,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3792,10 +3792,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3829,7 +3829,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -3839,11 +3839,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -3854,11 +3854,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -3873,10 +3873,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -3916,11 +3916,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -3931,11 +3931,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -3950,10 +3950,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -3986,7 +3986,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -3996,11 +3996,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4011,11 +4011,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4030,10 +4030,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4065,7 +4065,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -4075,11 +4075,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4090,11 +4090,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4109,10 +4109,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4152,11 +4152,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4167,11 +4167,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4186,10 +4186,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4227,7 +4227,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4236,7 +4236,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4246,11 +4246,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4261,11 +4261,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4280,10 +4280,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4315,7 +4315,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4334,7 +4334,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4344,11 +4344,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4359,11 +4359,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4378,10 +4378,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4421,11 +4421,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4436,11 +4436,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4455,10 +4455,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4491,7 +4491,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4501,11 +4501,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4516,11 +4516,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4535,10 +4535,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4570,7 +4570,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4580,11 +4580,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4595,11 +4595,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4614,10 +4614,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4657,11 +4657,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4672,11 +4672,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4691,10 +4691,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4728,7 +4728,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -4737,7 +4737,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -4747,11 +4747,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4762,11 +4762,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4781,10 +4781,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4816,7 +4816,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -4837,7 +4837,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4846,7 +4846,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4856,11 +4856,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4871,11 +4871,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4890,10 +4890,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4925,7 +4925,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4944,7 +4944,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4954,11 +4954,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4969,11 +4969,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4988,10 +4988,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5031,11 +5031,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5046,11 +5046,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5065,10 +5065,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5101,7 +5101,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5111,11 +5111,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5126,11 +5126,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5145,10 +5145,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5180,7 +5180,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5190,11 +5190,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5205,11 +5205,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5224,10 +5224,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5267,11 +5267,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5282,11 +5282,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5301,10 +5301,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5340,7 +5340,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -5349,7 +5349,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5359,11 +5359,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5374,11 +5374,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5393,10 +5393,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5428,7 +5428,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -5447,7 +5447,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5457,11 +5457,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5472,11 +5472,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5491,10 +5491,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5534,11 +5534,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5549,11 +5549,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5568,10 +5568,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5604,7 +5604,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5614,11 +5614,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5629,11 +5629,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5648,10 +5648,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5683,7 +5683,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5693,11 +5693,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5708,11 +5708,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5727,10 +5727,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5770,11 +5770,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5785,11 +5785,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5804,10 +5804,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5841,7 +5841,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -5851,11 +5851,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -5866,11 +5866,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -5885,10 +5885,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -5928,11 +5928,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -5943,11 +5943,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -5962,10 +5962,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -5998,7 +5998,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -6008,11 +6008,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6023,11 +6023,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6042,10 +6042,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6077,7 +6077,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -6087,11 +6087,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6102,11 +6102,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6121,10 +6121,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6164,11 +6164,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6179,11 +6179,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6198,10 +6198,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6235,7 +6235,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6245,11 +6245,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6260,11 +6260,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6279,10 +6279,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6322,11 +6322,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6337,11 +6337,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6356,10 +6356,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6392,7 +6392,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6402,11 +6402,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6417,11 +6417,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6436,10 +6436,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6471,7 +6471,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6481,11 +6481,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6496,11 +6496,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6515,10 +6515,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6558,11 +6558,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6573,11 +6573,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6592,10 +6592,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6629,7 +6629,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       }
       asn_match_statement {
         asn_list = []
-        
+
         forwarded_ip_config {
           fallback_behavior = ""
           header_name       = ""
@@ -6638,7 +6638,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       byte_match_statement {
         positional_constraint = ""
         search_string         = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -6648,11 +6648,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -6663,11 +6663,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -6682,10 +6682,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -6717,7 +6717,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       }
       geo_match_statement {
         country_codes = []
-        
+
         forwarded_ip_config {
           fallback_behavior = ""
           header_name       = ""
@@ -6742,7 +6742,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -6751,7 +6751,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -6761,11 +6761,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -6776,11 +6776,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -6795,10 +6795,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -6830,7 +6830,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -6849,7 +6849,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -6859,11 +6859,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -6874,11 +6874,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -6893,10 +6893,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -6936,11 +6936,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -6951,11 +6951,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -6970,10 +6970,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7006,7 +7006,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7016,11 +7016,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7031,11 +7031,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7050,10 +7050,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7085,7 +7085,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7095,11 +7095,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7110,11 +7110,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7129,10 +7129,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7172,11 +7172,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7187,11 +7187,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7206,10 +7206,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7243,7 +7243,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -7252,7 +7252,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -7262,11 +7262,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -7277,11 +7277,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -7296,10 +7296,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -7331,7 +7331,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -7352,7 +7352,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7361,7 +7361,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7371,11 +7371,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7386,11 +7386,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7405,10 +7405,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7440,7 +7440,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7459,7 +7459,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7469,11 +7469,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7484,11 +7484,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7503,10 +7503,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7546,11 +7546,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7561,11 +7561,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7580,10 +7580,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7616,7 +7616,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7626,11 +7626,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7641,11 +7641,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7660,10 +7660,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7695,7 +7695,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7705,11 +7705,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7720,11 +7720,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7739,10 +7739,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7782,11 +7782,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7797,11 +7797,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7816,10 +7816,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7855,7 +7855,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7864,7 +7864,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7874,11 +7874,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7889,11 +7889,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7908,10 +7908,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7943,7 +7943,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7962,7 +7962,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7972,11 +7972,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7987,11 +7987,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8006,10 +8006,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8049,11 +8049,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8064,11 +8064,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8083,10 +8083,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8119,7 +8119,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8129,11 +8129,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8144,11 +8144,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8163,10 +8163,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8198,7 +8198,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8208,11 +8208,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8223,11 +8223,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8242,10 +8242,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8285,11 +8285,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8300,11 +8300,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8319,10 +8319,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8356,7 +8356,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8366,11 +8366,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8381,11 +8381,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8400,10 +8400,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8443,11 +8443,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8458,11 +8458,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8477,10 +8477,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8513,7 +8513,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8523,11 +8523,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8538,11 +8538,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8557,10 +8557,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8592,7 +8592,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8602,11 +8602,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8617,11 +8617,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8636,10 +8636,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8679,11 +8679,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8694,11 +8694,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8713,10 +8713,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8750,7 +8750,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -8759,7 +8759,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -8769,11 +8769,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -8784,11 +8784,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -8803,10 +8803,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -8838,7 +8838,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -8861,7 +8861,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -8870,7 +8870,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8880,11 +8880,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8895,11 +8895,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8914,10 +8914,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8949,7 +8949,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -8968,7 +8968,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8978,11 +8978,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8993,11 +8993,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9012,10 +9012,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9055,11 +9055,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9070,11 +9070,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9089,10 +9089,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9125,7 +9125,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9135,11 +9135,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9150,11 +9150,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9169,10 +9169,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9204,7 +9204,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9214,11 +9214,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9229,11 +9229,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9248,10 +9248,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9291,11 +9291,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9306,11 +9306,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9325,10 +9325,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9362,7 +9362,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -9371,7 +9371,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -9381,11 +9381,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -9396,11 +9396,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -9415,10 +9415,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -9450,7 +9450,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -9471,7 +9471,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9480,7 +9480,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9490,11 +9490,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9505,11 +9505,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9524,10 +9524,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9559,7 +9559,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9578,7 +9578,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9588,11 +9588,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9603,11 +9603,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9622,10 +9622,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9665,11 +9665,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9680,11 +9680,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9699,10 +9699,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9735,7 +9735,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9745,11 +9745,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9760,11 +9760,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9779,10 +9779,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9814,7 +9814,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9824,11 +9824,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9839,11 +9839,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9858,10 +9858,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9901,11 +9901,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9916,11 +9916,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9935,10 +9935,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9974,7 +9974,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9983,7 +9983,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9993,11 +9993,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10008,11 +10008,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10027,10 +10027,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10062,7 +10062,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -10081,7 +10081,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10091,11 +10091,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10106,11 +10106,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10125,10 +10125,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10168,11 +10168,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10183,11 +10183,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10202,10 +10202,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10238,7 +10238,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10248,11 +10248,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10263,11 +10263,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10282,10 +10282,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10317,7 +10317,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10327,11 +10327,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10342,11 +10342,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10361,10 +10361,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10404,11 +10404,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10419,11 +10419,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10438,10 +10438,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10475,7 +10475,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10485,11 +10485,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10500,11 +10500,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10519,10 +10519,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10562,11 +10562,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10577,11 +10577,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10596,10 +10596,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10632,7 +10632,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10642,11 +10642,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10657,11 +10657,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10676,10 +10676,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10711,7 +10711,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10721,11 +10721,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10736,11 +10736,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10755,10 +10755,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10798,11 +10798,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10813,11 +10813,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10832,10 +10832,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10873,7 +10873,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -10882,7 +10882,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10892,11 +10892,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10907,11 +10907,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10926,10 +10926,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10961,7 +10961,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -10980,7 +10980,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10990,11 +10990,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11005,11 +11005,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11024,10 +11024,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11067,11 +11067,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11082,11 +11082,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11101,10 +11101,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11137,7 +11137,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11147,11 +11147,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11162,11 +11162,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11181,10 +11181,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11216,7 +11216,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11226,11 +11226,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11241,11 +11241,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11260,10 +11260,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11303,11 +11303,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11318,11 +11318,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11337,10 +11337,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11374,7 +11374,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -11383,7 +11383,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -11393,11 +11393,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -11408,11 +11408,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -11427,10 +11427,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -11462,7 +11462,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -11483,7 +11483,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11492,7 +11492,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11502,11 +11502,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11517,11 +11517,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11536,10 +11536,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11571,7 +11571,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11590,7 +11590,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11600,11 +11600,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11615,11 +11615,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11634,10 +11634,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11677,11 +11677,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11692,11 +11692,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11711,10 +11711,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11747,7 +11747,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11757,11 +11757,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11772,11 +11772,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11791,10 +11791,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11826,7 +11826,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11836,11 +11836,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11851,11 +11851,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11870,10 +11870,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11913,11 +11913,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11928,11 +11928,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11947,10 +11947,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11986,7 +11986,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11995,7 +11995,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12005,11 +12005,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12020,11 +12020,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12039,10 +12039,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12074,7 +12074,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -12093,7 +12093,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12103,11 +12103,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12118,11 +12118,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12137,10 +12137,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12180,11 +12180,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12195,11 +12195,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12214,10 +12214,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12250,7 +12250,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12260,11 +12260,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12275,11 +12275,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12294,10 +12294,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12329,7 +12329,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12339,11 +12339,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12354,11 +12354,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12373,10 +12373,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12416,11 +12416,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12431,11 +12431,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12450,10 +12450,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12487,7 +12487,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12497,11 +12497,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12512,11 +12512,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12531,10 +12531,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12574,11 +12574,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12589,11 +12589,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12608,10 +12608,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12644,7 +12644,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12654,11 +12654,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12669,11 +12669,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12688,10 +12688,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12723,7 +12723,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12733,11 +12733,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12748,11 +12748,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12767,10 +12767,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12810,11 +12810,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12825,11 +12825,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12844,10 +12844,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12881,7 +12881,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -12891,11 +12891,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -12906,11 +12906,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -12925,10 +12925,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -12968,11 +12968,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -12983,11 +12983,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13002,10 +13002,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13038,7 +13038,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -13048,11 +13048,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13063,11 +13063,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13082,10 +13082,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13117,7 +13117,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -13127,11 +13127,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13142,11 +13142,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13161,10 +13161,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13204,11 +13204,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13219,11 +13219,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13238,10 +13238,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13281,7 +13281,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13290,7 +13290,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13300,11 +13300,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13315,11 +13315,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13334,10 +13334,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13369,7 +13369,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13388,7 +13388,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13398,11 +13398,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13413,11 +13413,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13432,10 +13432,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13475,11 +13475,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13490,11 +13490,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13509,10 +13509,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13545,7 +13545,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13555,11 +13555,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13570,11 +13570,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13589,10 +13589,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13624,7 +13624,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13634,11 +13634,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13649,11 +13649,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13668,10 +13668,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13711,11 +13711,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13726,11 +13726,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13745,10 +13745,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13782,7 +13782,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -13791,7 +13791,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -13801,11 +13801,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -13816,11 +13816,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -13835,10 +13835,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -13870,7 +13870,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -13891,7 +13891,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13900,7 +13900,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13910,11 +13910,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13925,11 +13925,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13944,10 +13944,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13979,7 +13979,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13998,7 +13998,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14008,11 +14008,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14023,11 +14023,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14042,10 +14042,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14085,11 +14085,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14100,11 +14100,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14119,10 +14119,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14155,7 +14155,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14165,11 +14165,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14180,11 +14180,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14199,10 +14199,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14234,7 +14234,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14244,11 +14244,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14259,11 +14259,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14278,10 +14278,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14321,11 +14321,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14336,11 +14336,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14355,10 +14355,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14394,7 +14394,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14403,7 +14403,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14413,11 +14413,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14428,11 +14428,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14447,10 +14447,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14482,7 +14482,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14501,7 +14501,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14511,11 +14511,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14526,11 +14526,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14545,10 +14545,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14588,11 +14588,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14603,11 +14603,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14622,10 +14622,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14658,7 +14658,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14668,11 +14668,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14683,11 +14683,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14702,10 +14702,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14737,7 +14737,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14747,11 +14747,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14762,11 +14762,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14781,10 +14781,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14824,11 +14824,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14839,11 +14839,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14858,10 +14858,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14895,7 +14895,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -14905,11 +14905,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -14920,11 +14920,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -14939,10 +14939,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -14982,11 +14982,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -14997,11 +14997,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15016,10 +15016,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15052,7 +15052,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15062,11 +15062,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15077,11 +15077,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15096,10 +15096,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15131,7 +15131,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15141,11 +15141,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15156,11 +15156,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15175,10 +15175,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15218,11 +15218,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15233,11 +15233,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15252,10 +15252,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15289,7 +15289,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -15298,7 +15298,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -15308,11 +15308,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -15323,11 +15323,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -15342,10 +15342,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -15377,7 +15377,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -15400,7 +15400,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -15409,7 +15409,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15419,11 +15419,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15434,11 +15434,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15453,10 +15453,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15488,7 +15488,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -15507,7 +15507,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15517,11 +15517,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15532,11 +15532,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15551,10 +15551,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15594,11 +15594,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15609,11 +15609,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15628,10 +15628,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15664,7 +15664,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15674,11 +15674,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15689,11 +15689,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15708,10 +15708,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15743,7 +15743,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15753,11 +15753,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15768,11 +15768,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15787,10 +15787,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15830,11 +15830,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15845,11 +15845,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15864,10 +15864,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15901,7 +15901,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -15910,7 +15910,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15920,11 +15920,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15935,11 +15935,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15954,10 +15954,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15989,7 +15989,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -16010,7 +16010,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16019,7 +16019,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16029,11 +16029,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16044,11 +16044,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16063,10 +16063,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16098,7 +16098,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16117,7 +16117,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16127,11 +16127,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16142,11 +16142,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16161,10 +16161,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16204,11 +16204,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16219,11 +16219,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16238,10 +16238,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16274,7 +16274,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16284,11 +16284,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16299,11 +16299,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16318,10 +16318,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16353,7 +16353,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16363,11 +16363,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16378,11 +16378,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16397,10 +16397,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16440,11 +16440,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16455,11 +16455,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16474,10 +16474,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16513,7 +16513,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16522,7 +16522,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16532,11 +16532,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16547,11 +16547,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16566,10 +16566,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16601,7 +16601,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16620,7 +16620,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16630,11 +16630,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16645,11 +16645,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16664,10 +16664,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16707,11 +16707,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16722,11 +16722,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16741,10 +16741,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16777,7 +16777,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16787,11 +16787,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16802,11 +16802,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16821,10 +16821,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16856,7 +16856,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16866,11 +16866,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16881,11 +16881,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16900,10 +16900,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16943,11 +16943,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16958,11 +16958,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16977,10 +16977,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17014,7 +17014,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17024,11 +17024,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17039,11 +17039,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17058,10 +17058,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17101,11 +17101,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17116,11 +17116,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17135,10 +17135,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17171,7 +17171,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17181,11 +17181,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17196,11 +17196,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17215,10 +17215,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17250,7 +17250,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17260,11 +17260,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17275,11 +17275,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17294,10 +17294,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17337,11 +17337,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17352,11 +17352,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17371,10 +17371,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17412,7 +17412,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -17421,7 +17421,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17431,11 +17431,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17446,11 +17446,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17465,10 +17465,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17500,7 +17500,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -17519,7 +17519,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17529,11 +17529,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17544,11 +17544,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17563,10 +17563,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17606,11 +17606,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17621,11 +17621,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17640,10 +17640,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17676,7 +17676,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17686,11 +17686,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17701,11 +17701,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17720,10 +17720,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17755,7 +17755,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17765,11 +17765,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17780,11 +17780,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17799,10 +17799,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17842,11 +17842,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17857,11 +17857,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17876,10 +17876,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17913,7 +17913,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -17922,7 +17922,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17932,11 +17932,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17947,11 +17947,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17966,10 +17966,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -18001,7 +18001,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -18022,7 +18022,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18031,7 +18031,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18041,11 +18041,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18056,11 +18056,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18075,10 +18075,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18110,7 +18110,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18129,7 +18129,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18139,11 +18139,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18154,11 +18154,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18173,10 +18173,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18216,11 +18216,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18231,11 +18231,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18250,10 +18250,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18286,7 +18286,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18296,11 +18296,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18311,11 +18311,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18330,10 +18330,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18365,7 +18365,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18375,11 +18375,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18390,11 +18390,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18409,10 +18409,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18452,11 +18452,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18467,11 +18467,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18486,10 +18486,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18525,7 +18525,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18534,7 +18534,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18544,11 +18544,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18559,11 +18559,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18578,10 +18578,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18613,7 +18613,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18632,7 +18632,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18642,11 +18642,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18657,11 +18657,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18676,10 +18676,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18719,11 +18719,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18734,11 +18734,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18753,10 +18753,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18789,7 +18789,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18799,11 +18799,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18814,11 +18814,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18833,10 +18833,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18868,7 +18868,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18878,11 +18878,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18893,11 +18893,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18912,10 +18912,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18955,11 +18955,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18970,11 +18970,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18989,10 +18989,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19026,7 +19026,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19036,11 +19036,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19051,11 +19051,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19070,10 +19070,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19113,11 +19113,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19128,11 +19128,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19147,10 +19147,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19183,7 +19183,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19193,11 +19193,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19208,11 +19208,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19227,10 +19227,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19262,7 +19262,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19272,11 +19272,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19287,11 +19287,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19306,10 +19306,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19349,11 +19349,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19364,11 +19364,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19383,10 +19383,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19420,7 +19420,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19430,11 +19430,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19445,11 +19445,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19464,10 +19464,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19507,11 +19507,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19522,11 +19522,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19541,10 +19541,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19577,7 +19577,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19587,11 +19587,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19602,11 +19602,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19621,10 +19621,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19656,7 +19656,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19666,11 +19666,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19681,11 +19681,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19700,10 +19700,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19743,11 +19743,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19758,11 +19758,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19777,10 +19777,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19816,13 +19816,13 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
         aggregate_key_type    = ""
         evaluation_window_sec = 0
         limit                 = 0
-        
+
         custom_key {
           asn {
           }
           cookie {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -19832,7 +19832,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           header {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -19853,7 +19853,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           query_argument {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -19883,7 +19883,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -19892,7 +19892,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -19902,11 +19902,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -19917,11 +19917,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -19936,10 +19936,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19971,7 +19971,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -19990,7 +19990,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20000,11 +20000,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20015,11 +20015,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20034,10 +20034,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20077,11 +20077,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20092,11 +20092,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20111,10 +20111,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20147,7 +20147,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20157,11 +20157,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20172,11 +20172,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20191,10 +20191,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20226,7 +20226,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20236,11 +20236,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20251,11 +20251,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20270,10 +20270,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20313,11 +20313,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20328,11 +20328,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20347,10 +20347,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20384,7 +20384,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -20393,7 +20393,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -20403,11 +20403,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -20418,11 +20418,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -20437,10 +20437,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -20472,7 +20472,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -20493,7 +20493,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20502,7 +20502,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20512,11 +20512,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20527,11 +20527,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20546,10 +20546,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20581,7 +20581,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20600,7 +20600,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20610,11 +20610,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20625,11 +20625,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20644,10 +20644,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20687,11 +20687,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20702,11 +20702,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20721,10 +20721,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20757,7 +20757,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20767,11 +20767,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20782,11 +20782,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20801,10 +20801,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20836,7 +20836,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20846,11 +20846,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20861,11 +20861,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20880,10 +20880,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20923,11 +20923,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20938,11 +20938,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20957,10 +20957,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20996,7 +20996,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -21005,7 +21005,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21015,11 +21015,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21030,11 +21030,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21049,10 +21049,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21084,7 +21084,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -21103,7 +21103,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21113,11 +21113,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21128,11 +21128,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21147,10 +21147,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21190,11 +21190,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21205,11 +21205,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21224,10 +21224,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21260,7 +21260,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21270,11 +21270,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21285,11 +21285,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21304,10 +21304,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21339,7 +21339,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21349,11 +21349,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21364,11 +21364,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21383,10 +21383,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21426,11 +21426,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21441,11 +21441,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21460,10 +21460,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21497,7 +21497,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21507,11 +21507,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21522,11 +21522,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21541,10 +21541,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21584,11 +21584,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21599,11 +21599,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21618,10 +21618,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21654,7 +21654,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21664,11 +21664,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21679,11 +21679,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21698,10 +21698,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21733,7 +21733,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21743,11 +21743,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21758,11 +21758,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21777,10 +21777,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21820,11 +21820,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21835,11 +21835,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21854,10 +21854,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21891,7 +21891,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -21900,7 +21900,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -21910,11 +21910,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -21925,11 +21925,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -21944,10 +21944,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -21979,7 +21979,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -22002,7 +22002,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22011,7 +22011,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22021,11 +22021,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22036,11 +22036,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22055,10 +22055,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22090,7 +22090,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22109,7 +22109,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22119,11 +22119,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22134,11 +22134,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22153,10 +22153,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22196,11 +22196,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22211,11 +22211,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22230,10 +22230,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22266,7 +22266,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22276,11 +22276,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22291,11 +22291,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22310,10 +22310,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22345,7 +22345,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22355,11 +22355,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22370,11 +22370,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22389,10 +22389,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22432,11 +22432,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22447,11 +22447,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22466,10 +22466,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22503,7 +22503,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -22512,7 +22512,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -22522,11 +22522,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -22537,11 +22537,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -22556,10 +22556,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -22591,7 +22591,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -22612,7 +22612,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22621,7 +22621,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22631,11 +22631,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22646,11 +22646,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22665,10 +22665,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22700,7 +22700,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22719,7 +22719,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22729,11 +22729,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22744,11 +22744,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22763,10 +22763,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22806,11 +22806,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22821,11 +22821,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22840,10 +22840,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22876,7 +22876,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22886,11 +22886,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22901,11 +22901,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22920,10 +22920,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22955,7 +22955,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22965,11 +22965,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22980,11 +22980,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22999,10 +22999,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23042,11 +23042,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23057,11 +23057,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23076,10 +23076,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23115,7 +23115,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -23124,7 +23124,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23134,11 +23134,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23149,11 +23149,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23168,10 +23168,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23203,7 +23203,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -23222,7 +23222,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23232,11 +23232,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23247,11 +23247,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23266,10 +23266,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23309,11 +23309,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23324,11 +23324,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23343,10 +23343,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23379,7 +23379,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23389,11 +23389,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23404,11 +23404,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23423,10 +23423,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23458,7 +23458,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23468,11 +23468,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23483,11 +23483,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23502,10 +23502,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23545,11 +23545,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23560,11 +23560,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23579,10 +23579,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23616,7 +23616,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -23626,11 +23626,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23641,11 +23641,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23660,10 +23660,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23703,11 +23703,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23718,11 +23718,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23737,10 +23737,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23773,7 +23773,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -23783,11 +23783,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23798,11 +23798,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23817,10 +23817,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23852,7 +23852,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -23862,11 +23862,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23877,11 +23877,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23896,10 +23896,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23939,11 +23939,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23954,11 +23954,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23973,10 +23973,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24014,7 +24014,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24023,7 +24023,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24033,11 +24033,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24048,11 +24048,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24067,10 +24067,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24102,7 +24102,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24121,7 +24121,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24131,11 +24131,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24146,11 +24146,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24165,10 +24165,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24208,11 +24208,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24223,11 +24223,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24242,10 +24242,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24278,7 +24278,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24288,11 +24288,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24303,11 +24303,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24322,10 +24322,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24357,7 +24357,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24367,11 +24367,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24382,11 +24382,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24401,10 +24401,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24444,11 +24444,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24459,11 +24459,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24478,10 +24478,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24515,7 +24515,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -24524,7 +24524,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -24534,11 +24534,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -24549,11 +24549,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -24568,10 +24568,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24603,7 +24603,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -24624,7 +24624,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24633,7 +24633,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24643,11 +24643,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24658,11 +24658,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24677,10 +24677,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24712,7 +24712,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24731,7 +24731,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24741,11 +24741,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24756,11 +24756,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24775,10 +24775,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24818,11 +24818,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24833,11 +24833,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24852,10 +24852,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24888,7 +24888,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24898,11 +24898,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24913,11 +24913,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24932,10 +24932,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24967,7 +24967,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24977,11 +24977,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24992,11 +24992,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25011,10 +25011,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25054,11 +25054,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25069,11 +25069,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25088,10 +25088,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25127,7 +25127,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -25136,7 +25136,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25146,11 +25146,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25161,11 +25161,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25180,10 +25180,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25215,7 +25215,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -25234,7 +25234,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25244,11 +25244,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25259,11 +25259,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25278,10 +25278,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25321,11 +25321,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25336,11 +25336,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25355,10 +25355,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25391,7 +25391,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25401,11 +25401,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25416,11 +25416,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25435,10 +25435,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25470,7 +25470,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25480,11 +25480,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25495,11 +25495,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25514,10 +25514,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25557,11 +25557,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25572,11 +25572,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25591,10 +25591,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25628,7 +25628,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -25638,11 +25638,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25653,11 +25653,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25672,10 +25672,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25715,11 +25715,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25730,11 +25730,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25749,10 +25749,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25785,7 +25785,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -25795,11 +25795,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25810,11 +25810,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25829,10 +25829,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25864,7 +25864,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -25874,11 +25874,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25889,11 +25889,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25908,10 +25908,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25951,11 +25951,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25966,11 +25966,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25985,10 +25985,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -26022,7 +26022,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26032,11 +26032,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26047,11 +26047,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26066,10 +26066,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26109,11 +26109,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26124,11 +26124,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26143,10 +26143,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26179,7 +26179,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26189,11 +26189,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26204,11 +26204,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26223,10 +26223,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26258,7 +26258,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26268,11 +26268,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26283,11 +26283,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26302,10 +26302,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26345,11 +26345,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26360,11 +26360,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26379,10 +26379,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26416,7 +26416,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       }
       regex_match_statement {
         regex_string = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -26426,11 +26426,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -26441,11 +26441,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -26460,10 +26460,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -26503,11 +26503,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -26518,11 +26518,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -26537,10 +26537,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -26573,7 +26573,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       size_constraint_statement {
         comparison_operator = ""
         size                = 0
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -26583,11 +26583,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -26598,11 +26598,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -26617,10 +26617,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -26652,7 +26652,7 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
       }
       sqli_match_statement {
         sensitivity_level = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -26662,11 +26662,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -26677,11 +26677,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -26696,10 +26696,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -26739,11 +26739,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -26754,11 +26754,11 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -26773,10 +26773,10 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -26818,6 +26818,6 @@ resource "aws_wafv2_rule_group" "tf-sample-wafv2-rule-group" {
     metric_name                = ""
     sampled_requests_enabled   = false
   }
-  
+
   tags = {}
 }

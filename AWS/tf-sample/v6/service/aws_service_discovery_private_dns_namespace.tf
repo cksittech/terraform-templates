@@ -3,6 +3,6 @@ resource "aws_service_discovery_private_dns_namespace" "tf-sample-service-discov
   name        = ""
   region      = ""
   vpc         = ""
-  
+
   tags = {}
 }

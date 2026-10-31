@@ -7,7 +7,7 @@ resource "aws_codebuild_fleet" "tf-sample-codebuild-fleet" {
   name               = ""
   overflow_behavior  = ""
   region             = ""
-  
+
   compute_configuration {
     disk          = 0
     instance_type = ""
@@ -18,7 +18,7 @@ resource "aws_codebuild_fleet" "tf-sample-codebuild-fleet" {
   scaling_configuration {
     max_capacity = 0
     scaling_type = ""
-    
+
     target_tracking_scaling_configs {
       metric_type  = ""
       target_value = 0
@@ -29,6 +29,6 @@ resource "aws_codebuild_fleet" "tf-sample-codebuild-fleet" {
     subnets            = []
     vpc_id             = ""
   }
-  
+
   tags = {}
 }

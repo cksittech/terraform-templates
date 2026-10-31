@@ -3,7 +3,7 @@ resource "aws_securityhub_connector_v2" "tf-sample-securityhub-connector-v2" {
   kms_key_arn = ""
   name        = ""
   region      = ""
-  
+
   connector_provider {
     jira_cloud {
       project_key = ""
@@ -13,6 +13,6 @@ resource "aws_securityhub_connector_v2" "tf-sample-securityhub-connector-v2" {
       secret_arn    = ""
     }
   }
-  
+
   tags = {}
 }

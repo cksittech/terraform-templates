@@ -17,6 +17,6 @@ resource "aws_neptune_cluster_instance" "tf-sample-neptune-cluster-instance" {
   publicly_accessible          = false
   region                       = ""
   skip_final_snapshot          = false
-  
+
   tags = {}
 }

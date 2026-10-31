@@ -9,7 +9,7 @@ resource "aws_lakeformation_data_lake_settings" "tf-sample-lakeformation-data-la
   read_only_admins                      = []
   region                                = ""
   trusted_resource_owners               = []
-  
+
   create_database_default_permissions {
     permissions = []
     principal   = ""

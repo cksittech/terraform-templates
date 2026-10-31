@@ -7,6 +7,6 @@ resource "aws_neptune_event_subscription" "tf-sample-neptune-event-subscription"
   sns_topic_arn    = ""
   source_ids       = []
   source_type      = ""
-  
+
   tags = {}
 }

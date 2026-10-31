@@ -9,6 +9,6 @@ resource "aws_ebs_snapshot_copy" "tf-sample-ebs-snapshot-copy" {
   source_snapshot_id          = ""
   storage_tier                = ""
   temporary_restore_days      = 0
-  
+
   tags = {}
 }

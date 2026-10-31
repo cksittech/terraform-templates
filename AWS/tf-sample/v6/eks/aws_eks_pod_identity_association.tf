@@ -7,6 +7,6 @@ resource "aws_eks_pod_identity_association" "tf-sample-eks-pod-identity-associat
   role_arn             = ""
   service_account      = ""
   target_role_arn      = ""
-  
+
   tags = {}
 }

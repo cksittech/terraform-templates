@@ -20,7 +20,7 @@ resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
   subnet_ids                        = []
   throughput_capacity               = 0
   weekly_maintenance_start_time     = ""
-  
+
   disk_iops_configuration {
     iops = 0
     mode = ""
@@ -34,7 +34,7 @@ resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
     data_compression_type  = ""
     read_only              = false
     record_size_kib        = 0
-    
+
     nfs_exports {
       client_configurations {
         clients = ""
@@ -47,6 +47,6 @@ resource "aws_fsx_openzfs_file_system" "tf-sample-fsx-openzfs-file-system" {
       type                       = ""
     }
   }
-  
+
   tags = {}
 }

@@ -12,10 +12,10 @@ resource "aws_cloudtrail" "tf-sample-cloudtrail" {
   s3_bucket_name                = ""
   s3_key_prefix                 = ""
   sns_topic_name                = ""
-  
+
   advanced_event_selector {
     name = ""
-    
+
     field_selector {
       ends_with       = []
       equals          = []
@@ -30,7 +30,7 @@ resource "aws_cloudtrail" "tf-sample-cloudtrail" {
     exclude_management_event_sources = []
     include_management_events        = false
     read_write_type                  = ""
-    
+
     data_resource {
       type   = ""
       values = []
@@ -39,6 +39,6 @@ resource "aws_cloudtrail" "tf-sample-cloudtrail" {
   insight_selector {
     insight_type = ""
   }
-  
+
   tags = {}
 }

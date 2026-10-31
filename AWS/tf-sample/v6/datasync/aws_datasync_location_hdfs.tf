@@ -12,7 +12,7 @@ resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
   replication_factor        = 0
   simple_user               = ""
   subdirectory              = ""
-  
+
   name_node {
     hostname = ""
     port     = 0
@@ -21,6 +21,6 @@ resource "aws_datasync_location_hdfs" "tf-sample-datasync-location-hdfs" {
     data_transfer_protection = ""
     rpc_protection           = ""
   }
-  
+
   tags = {}
 }

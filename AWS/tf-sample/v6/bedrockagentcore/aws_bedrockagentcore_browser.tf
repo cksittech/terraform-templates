@@ -3,7 +3,7 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   execution_role_arn = ""
   name               = ""
   region             = ""
-  
+
   browser_signing {
     enabled = false
   }
@@ -16,7 +16,7 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   }
   enterprise_policy {
     type = ""
-    
+
     location {
       s3 {
         bucket     = ""
@@ -27,7 +27,7 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   }
   network_configuration {
     network_mode = ""
-    
+
     vpc_config {
       security_groups = []
       subnets         = []
@@ -35,12 +35,12 @@ resource "aws_bedrockagentcore_browser" "tf-sample-bedrockagentcore-browser" {
   }
   recording {
     enabled = false
-    
+
     s3_location {
       bucket = ""
       prefix = ""
     }
   }
-  
+
   tags = {}
 }

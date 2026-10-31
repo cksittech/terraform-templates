@@ -38,6 +38,6 @@ resource "aws_redshift_cluster" "tf-sample-redshift-cluster" {
   snapshot_cluster_identifier          = ""
   snapshot_identifier                  = ""
   vpc_security_group_ids               = []
-  
+
   tags = {}
 }

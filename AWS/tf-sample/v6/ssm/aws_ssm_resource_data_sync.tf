@@ -1,14 +1,14 @@
 resource "aws_ssm_resource_data_sync" "tf-sample-ssm-resource-data-sync" {
   name   = ""
   region = ""
-  
+
   s3_destination {
     bucket_name = ""
     kms_key_arn = ""
     prefix      = ""
     region      = ""
     sync_format = ""
-    
+
     destination_data_sharing {
       destination_data_sharing_type = ""
     }

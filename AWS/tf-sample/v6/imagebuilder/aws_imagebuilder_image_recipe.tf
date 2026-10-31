@@ -7,12 +7,12 @@ resource "aws_imagebuilder_image_recipe" "tf-sample-imagebuilder-image-recipe" {
   user_data_base64  = ""
   version           = ""
   working_directory = ""
-  
+
   block_device_mapping {
     device_name  = ""
     no_device    = false
     virtual_name = ""
-    
+
     ebs {
       delete_on_termination = ""
       encrypted             = ""
@@ -26,7 +26,7 @@ resource "aws_imagebuilder_image_recipe" "tf-sample-imagebuilder-image-recipe" {
   }
   component {
     component_arn = ""
-    
+
     parameter {
       name  = ""
       value = ""
@@ -35,6 +35,6 @@ resource "aws_imagebuilder_image_recipe" "tf-sample-imagebuilder-image-recipe" {
   systems_manager_agent {
     uninstall_after_build = false
   }
-  
+
   tags = {}
 }

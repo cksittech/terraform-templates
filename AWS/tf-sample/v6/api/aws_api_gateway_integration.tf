@@ -18,7 +18,7 @@ resource "aws_api_gateway_integration" "tf-sample-api-gateway-integration" {
   timeout_milliseconds    = 0
   type                    = ""
   uri                     = ""
-  
+
   tls_config {
     insecure_skip_verification = false
   }

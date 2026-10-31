@@ -7,6 +7,6 @@ resource "aws_sagemaker_mlflow_tracking_server" "tf-sample-sagemaker-mlflow-trac
   tracking_server_name            = ""
   tracking_server_size            = ""
   weekly_maintenance_window_start = ""
-  
+
   tags = {}
 }

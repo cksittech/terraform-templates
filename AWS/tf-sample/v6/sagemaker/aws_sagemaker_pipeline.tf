@@ -5,7 +5,7 @@ resource "aws_sagemaker_pipeline" "tf-sample-sagemaker-pipeline" {
   pipeline_name         = ""
   region                = ""
   role_arn              = ""
-  
+
   parallelism_configuration {
     max_parallel_execution_steps = 0
   }
@@ -14,6 +14,6 @@ resource "aws_sagemaker_pipeline" "tf-sample-sagemaker-pipeline" {
     object_key = ""
     version_id = ""
   }
-  
+
   tags = {}
 }

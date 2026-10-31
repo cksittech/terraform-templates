@@ -16,6 +16,6 @@ resource "aws_odb_network" "tf-sample-odb-network" {
   sts_access                             = ""
   sts_policy_document                    = ""
   zero_etl_access                        = ""
-  
+
   tags = {}
 }

@@ -5,10 +5,10 @@ resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   kms_key_arn               = ""
   name                      = ""
   region                    = ""
-  
+
   content_policy_config {
     tier_config = []
-    
+
     filters_config {
       input_action      = ""
       input_enabled     = false
@@ -52,7 +52,7 @@ resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
   }
   topic_policy_config {
     tier_config = []
-    
+
     topics_config {
       definition = ""
       examples   = []
@@ -76,6 +76,6 @@ resource "aws_bedrock_guardrail" "tf-sample-bedrock-guardrail" {
       text           = ""
     }
   }
-  
+
   tags = {}
 }

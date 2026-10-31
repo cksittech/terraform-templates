@@ -4,7 +4,7 @@ resource "aws_cloudwatch_event_permission" "tf-sample-cloudwatch-event-permissio
   principal      = ""
   region         = ""
   statement_id   = ""
-  
+
   condition {
     key   = ""
     type  = ""

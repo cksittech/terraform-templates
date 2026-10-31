@@ -31,13 +31,13 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   vpc_zone_identifier              = []
   wait_for_capacity_timeout        = ""
   wait_for_elb_capacity            = 0
-  
+
   availability_zone_distribution {
     capacity_distribution_strategy = ""
   }
   capacity_reservation_specification {
     capacity_reservation_preference = ""
-    
+
     capacity_reservation_target {
       capacity_reservation_ids                 = []
       capacity_reservation_resource_group_arns = []
@@ -64,7 +64,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
   instance_refresh {
     strategy = ""
     triggers = []
-    
+
     preferences {
       auto_rollback                = false
       checkpoint_delay             = ""
@@ -75,7 +75,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
       scale_in_protected_instances = ""
       skip_matching                = false
       standby_instances            = ""
-      
+
       alarm_specification {
         alarms = []
       }
@@ -104,7 +104,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
       override {
         instance_type     = ""
         weighted_capacity = ""
-        
+
         instance_requirements {
           accelerator_manufacturers                               = []
           accelerator_names                                       = []
@@ -121,7 +121,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
           on_demand_max_price_percentage_over_lowest_price        = 0
           require_hibernate_support                               = false
           spot_max_price_percentage_over_lowest_price             = 0
-          
+
           accelerator_count {
             max = 0
             min = 0
@@ -180,7 +180,7 @@ resource "aws_autoscaling_group" "tf-sample-autoscaling-group" {
     max_group_prepared_capacity = 0
     min_size                    = 0
     pool_state                  = ""
-    
+
     instance_reuse_policy {
       reuse_on_scale_in = false
     }

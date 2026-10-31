@@ -3,6 +3,6 @@ resource "aws_verifiedaccess_instance" "tf-sample-verifiedaccess-instance" {
   description                     = ""
   fips_enabled                    = false
   region                          = ""
-  
+
   tags = {}
 }

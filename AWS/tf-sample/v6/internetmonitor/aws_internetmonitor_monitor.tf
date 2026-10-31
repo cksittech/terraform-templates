@@ -5,7 +5,7 @@ resource "aws_internetmonitor_monitor" "tf-sample-internetmonitor-monitor" {
   resources                     = []
   status                        = ""
   traffic_percentage_to_monitor = 0
-  
+
   health_events_config {
     availability_score_threshold = 0
     performance_score_threshold  = 0
@@ -17,6 +17,6 @@ resource "aws_internetmonitor_monitor" "tf-sample-internetmonitor-monitor" {
       log_delivery_status = ""
     }
   }
-  
+
   tags = {}
 }

@@ -5,10 +5,10 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
   parent_intent_signature = ""
   region                  = ""
   sample_utterances       = []
-  
+
   conclusion_statement {
     response_card = ""
-    
+
     message {
       content      = ""
       content_type = ""
@@ -18,7 +18,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
   confirmation_prompt {
     max_attempts  = 0
     response_card = ""
-    
+
     message {
       content      = ""
       content_type = ""
@@ -33,7 +33,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
     prompt {
       max_attempts  = 0
       response_card = ""
-      
+
       message {
         content      = ""
         content_type = ""
@@ -42,7 +42,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
     }
     rejection_statement {
       response_card = ""
-      
+
       message {
         content      = ""
         content_type = ""
@@ -52,7 +52,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
   }
   fulfillment_activity {
     type = ""
-    
+
     code_hook {
       message_version = ""
       uri             = ""
@@ -60,7 +60,7 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
   }
   rejection_statement {
     response_card = ""
-    
+
     message {
       content      = ""
       content_type = ""
@@ -76,11 +76,11 @@ resource "aws_lex_intent" "tf-sample-lex-intent" {
     slot_constraint   = ""
     slot_type         = ""
     slot_type_version = ""
-    
+
     value_elicitation_prompt {
       max_attempts  = 0
       response_card = ""
-      
+
       message {
         content      = ""
         content_type = ""

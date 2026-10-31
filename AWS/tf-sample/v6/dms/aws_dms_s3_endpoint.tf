@@ -46,6 +46,6 @@ resource "aws_dms_s3_endpoint" "tf-sample-dms-s3-endpoint" {
   timestamp_column_name                       = ""
   use_csv_no_sup_value                        = false
   use_task_start_time_for_full_load_timestamp = false
-  
+
   tags = {}
 }

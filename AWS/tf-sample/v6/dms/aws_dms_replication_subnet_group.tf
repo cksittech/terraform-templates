@@ -3,6 +3,6 @@ resource "aws_dms_replication_subnet_group" "tf-sample-dms-replication-subnet-gr
   replication_subnet_group_description = ""
   replication_subnet_group_id          = ""
   subnet_ids                           = []
-  
+
   tags = {}
 }

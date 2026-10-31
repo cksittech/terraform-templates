@@ -5,7 +5,7 @@ resource "aws_datasync_task" "tf-sample-datasync-task" {
   region                   = ""
   source_location_arn      = ""
   task_mode                = ""
-  
+
   excludes {
     filter_type = ""
     value       = ""
@@ -39,7 +39,7 @@ resource "aws_datasync_task" "tf-sample-datasync-task" {
     output_type          = ""
     report_level         = ""
     s3_object_versioning = ""
-    
+
     report_overrides {
       deleted_override     = ""
       skipped_override     = ""
@@ -52,6 +52,6 @@ resource "aws_datasync_task" "tf-sample-datasync-task" {
       subdirectory           = ""
     }
   }
-  
+
   tags = {}
 }

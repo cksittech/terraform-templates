@@ -2,7 +2,7 @@ resource "aws_s3control_multi_region_access_point_routes" "tf-sample-s3control-m
   account_id = ""
   mrap       = ""
   region     = ""
-  
+
   route {
     bucket                  = ""
     region                  = ""

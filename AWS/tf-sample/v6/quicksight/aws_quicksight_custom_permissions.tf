@@ -2,7 +2,7 @@ resource "aws_quicksight_custom_permissions" "tf-sample-quicksight-custom-permis
   aws_account_id          = ""
   custom_permissions_name = ""
   region                  = ""
-  
+
   capabilities {
     action                                     = ""
     add_or_run_anomaly_detection_for_analyses  = ""
@@ -42,6 +42,6 @@ resource "aws_quicksight_custom_permissions" "tf-sample-quicksight-custom-permis
     use_bedrock_models                         = ""
     view_account_spice_capacity                = ""
   }
-  
+
   tags = {}
 }

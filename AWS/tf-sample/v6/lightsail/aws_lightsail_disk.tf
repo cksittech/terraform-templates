@@ -3,6 +3,6 @@ resource "aws_lightsail_disk" "tf-sample-lightsail-disk" {
   name              = ""
   region            = ""
   size_in_gb        = 0
-  
+
   tags = {}
 }

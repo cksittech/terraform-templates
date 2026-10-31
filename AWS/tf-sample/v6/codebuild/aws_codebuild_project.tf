@@ -12,7 +12,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
   resource_access_role   = ""
   service_role           = ""
   source_version         = ""
-  
+
   artifacts {
     artifact_identifier    = ""
     bucket_owner_access    = ""
@@ -29,7 +29,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     combine_artifacts = false
     service_role      = ""
     timeout_in_mins   = 0
-    
+
     restrictions {
       compute_types_allowed  = []
       maximum_builds_allowed = 0
@@ -49,7 +49,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     image_pull_credentials_type = ""
     privileged_mode             = false
     type                        = ""
-    
+
     docker_server {
       compute_type       = ""
       security_group_ids = []
@@ -111,7 +111,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     report_build_status = false
     source_identifier   = ""
     type                = ""
-    
+
     auth {
       resource = ""
       type     = ""
@@ -131,7 +131,7 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     location            = ""
     report_build_status = false
     type                = ""
-    
+
     auth {
       resource = ""
       type     = ""
@@ -149,6 +149,6 @@ resource "aws_codebuild_project" "tf-sample-codebuild-project" {
     subnets            = []
     vpc_id             = ""
   }
-  
+
   tags = {}
 }

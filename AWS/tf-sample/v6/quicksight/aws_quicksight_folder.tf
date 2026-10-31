@@ -5,11 +5,11 @@ resource "aws_quicksight_folder" "tf-sample-quicksight-folder" {
   name              = ""
   parent_folder_arn = ""
   region            = ""
-  
+
   permissions {
     actions   = []
     principal = ""
   }
-  
+
   tags = {}
 }

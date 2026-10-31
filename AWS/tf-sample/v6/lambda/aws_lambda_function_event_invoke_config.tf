@@ -4,7 +4,7 @@ resource "aws_lambda_function_event_invoke_config" "tf-sample-lambda-function-ev
   maximum_retry_attempts       = 0
   qualifier                    = ""
   region                       = ""
-  
+
   destination_config {
     on_failure {
       destination = ""

@@ -5,12 +5,12 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   engine_version   = ""
   ip_address_type  = ""
   region           = ""
-  
+
   advanced_security_options {
     anonymous_auth_enabled         = false
     enabled                        = false
     internal_user_database_enabled = false
-    
+
     jwt_options {
       enabled     = false
       jwks_url    = ""
@@ -39,11 +39,11 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     desired_state       = ""
     rollback_on_disable = ""
     use_off_peak_window = false
-    
+
     maintenance_schedule {
       cron_expression_for_recurrence = ""
       start_at                       = ""
-      
+
       duration {
         unit  = ""
         value = 0
@@ -61,13 +61,13 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     warm_enabled                  = false
     warm_type                     = ""
     zone_awareness_enabled        = false
-    
+
     cold_storage_options {
       enabled = false
     }
     node_options {
       node_type = ""
-      
+
       node_config {
         count   = 0
         enabled = false
@@ -121,7 +121,7 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
   }
   off_peak_window_options {
     enabled = false
-    
+
     off_peak_window {
       window_start_time {
         hours   = 0
@@ -139,6 +139,6 @@ resource "aws_opensearch_domain" "tf-sample-opensearch-domain" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

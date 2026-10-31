@@ -3,6 +3,6 @@ resource "aws_lightsail_certificate" "tf-sample-lightsail-certificate" {
   name                      = ""
   region                    = ""
   subject_alternative_names = []
-  
+
   tags = {}
 }

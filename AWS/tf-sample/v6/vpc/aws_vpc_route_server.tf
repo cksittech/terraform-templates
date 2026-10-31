@@ -4,6 +4,6 @@ resource "aws_vpc_route_server" "tf-sample-vpc-route-server" {
   persist_routes_duration   = 0
   region                    = ""
   sns_notifications_enabled = false
-  
+
   tags = {}
 }

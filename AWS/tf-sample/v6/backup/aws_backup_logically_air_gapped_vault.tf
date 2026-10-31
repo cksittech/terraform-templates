@@ -4,6 +4,6 @@ resource "aws_backup_logically_air_gapped_vault" "tf-sample-backup-logically-air
   min_retention_days = 0
   name               = ""
   region             = ""
-  
+
   tags = {}
 }

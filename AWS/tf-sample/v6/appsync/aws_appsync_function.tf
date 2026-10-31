@@ -9,7 +9,7 @@ resource "aws_appsync_function" "tf-sample-appsync-function" {
   region                    = ""
   request_mapping_template  = ""
   response_mapping_template = ""
-  
+
   runtime {
     name            = ""
     runtime_version = ""
@@ -17,7 +17,7 @@ resource "aws_appsync_function" "tf-sample-appsync-function" {
   sync_config {
     conflict_detection = ""
     conflict_handler   = ""
-    
+
     lambda_conflict_handler_config {
       lambda_conflict_handler_arn = ""
     }

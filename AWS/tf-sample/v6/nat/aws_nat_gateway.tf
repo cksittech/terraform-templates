@@ -9,12 +9,12 @@ resource "aws_nat_gateway" "tf-sample-nat-gateway" {
   secondary_private_ip_addresses     = []
   subnet_id                          = ""
   vpc_id                             = ""
-  
+
   availability_zone_address {
     allocation_ids       = []
     availability_zone    = ""
     availability_zone_id = ""
   }
-  
+
   tags = {}
 }

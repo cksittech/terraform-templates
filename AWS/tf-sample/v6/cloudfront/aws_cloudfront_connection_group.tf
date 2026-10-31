@@ -4,6 +4,6 @@ resource "aws_cloudfront_connection_group" "tf-sample-cloudfront-connection-grou
   ipv6_enabled        = false
   name                = ""
   wait_for_deployment = false
-  
+
   tags = {}
 }

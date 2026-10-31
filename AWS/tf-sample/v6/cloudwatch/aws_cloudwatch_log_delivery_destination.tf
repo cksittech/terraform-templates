@@ -3,10 +3,10 @@ resource "aws_cloudwatch_log_delivery_destination" "tf-sample-cloudwatch-log-del
   name                      = ""
   output_format             = ""
   region                    = ""
-  
+
   delivery_destination_configuration {
     destination_resource_arn = ""
   }
-  
+
   tags = {}
 }

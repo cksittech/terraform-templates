@@ -2,10 +2,10 @@ resource "aws_timestreamwrite_table" "tf-sample-timestreamwrite-table" {
   database_name = ""
   region        = ""
   table_name    = ""
-  
+
   magnetic_store_write_properties {
     enable_magnetic_store_writes = false
-    
+
     magnetic_store_rejected_data_location {
       s3_configuration {
         bucket_name       = ""
@@ -26,6 +26,6 @@ resource "aws_timestreamwrite_table" "tf-sample-timestreamwrite-table" {
       type                  = ""
     }
   }
-  
+
   tags = {}
 }

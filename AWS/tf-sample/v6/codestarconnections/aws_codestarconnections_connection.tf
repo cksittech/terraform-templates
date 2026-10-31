@@ -3,6 +3,6 @@ resource "aws_codestarconnections_connection" "tf-sample-codestarconnections-con
   name          = ""
   provider_type = ""
   region        = ""
-  
+
   tags = {}
 }

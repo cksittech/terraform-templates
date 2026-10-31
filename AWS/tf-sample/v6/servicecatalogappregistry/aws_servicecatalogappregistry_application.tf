@@ -2,6 +2,6 @@ resource "aws_servicecatalogappregistry_application" "tf-sample-servicecatalogap
   description = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

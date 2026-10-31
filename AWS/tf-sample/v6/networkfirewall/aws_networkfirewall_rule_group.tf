@@ -5,7 +5,7 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
   region      = ""
   rules       = ""
   type        = ""
-  
+
   encryption_configuration {
     key_id = ""
     type   = ""
@@ -14,7 +14,7 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
     reference_sets {
       ip_set_references {
         key = ""
-        
+
         ip_set_reference {
           reference_arn = ""
         }
@@ -23,14 +23,14 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
     rule_variables {
       ip_sets {
         key = ""
-        
+
         ip_set {
           definition = []
         }
       }
       port_sets {
         key = ""
-        
+
         port_set {
           definition = []
         }
@@ -38,7 +38,7 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
     }
     rules_source {
       rules_string = ""
-      
+
       rules_source_list {
         generated_rules_type = ""
         target_types         = []
@@ -46,7 +46,7 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
       }
       stateful_rule {
         action = ""
-        
+
         header {
           destination      = ""
           destination_port = ""
@@ -63,7 +63,7 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
       stateless_rules_and_custom_actions {
         custom_action {
           action_name = ""
-          
+
           action_definition {
             publish_metric_action {
               dimension {
@@ -74,13 +74,13 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
         }
         stateless_rule {
           priority = 0
-          
+
           rule_definition {
             actions = []
-            
+
             match_attributes {
               protocols = []
-              
+
               destination {
                 address_definition = ""
               }
@@ -108,6 +108,6 @@ resource "aws_networkfirewall_rule_group" "tf-sample-networkfirewall-rule-group"
       rule_order = ""
     }
   }
-  
+
   tags = {}
 }

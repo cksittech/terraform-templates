@@ -5,6 +5,6 @@ resource "aws_connect_phone_number" "tf-sample-connect-phone-number" {
   region       = ""
   target_arn   = ""
   type         = ""
-  
+
   tags = {}
 }

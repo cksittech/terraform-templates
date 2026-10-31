@@ -62,7 +62,7 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
   storage_type                          = ""
   vpc_security_group_ids                = []
   warning_event_categories              = []
-  
+
   restore_to_point_in_time {
     restore_to_time            = ""
     restore_type               = ""
@@ -90,6 +90,6 @@ resource "aws_rds_cluster" "tf-sample-rds-cluster" {
     min_capacity             = 0
     seconds_until_auto_pause = 0
   }
-  
+
   tags = {}
 }

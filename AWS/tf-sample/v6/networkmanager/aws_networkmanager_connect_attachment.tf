@@ -3,10 +3,10 @@ resource "aws_networkmanager_connect_attachment" "tf-sample-networkmanager-conne
   edge_location           = ""
   routing_policy_label    = ""
   transport_attachment_id = ""
-  
+
   options {
     protocol = ""
   }
-  
+
   tags = {}
 }

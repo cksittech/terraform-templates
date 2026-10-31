@@ -13,7 +13,7 @@ resource "aws_apigatewayv2_api" "tf-sample-apigatewayv2-api" {
   route_selection_expression   = ""
   target                       = ""
   version                      = ""
-  
+
   cors_configuration {
     allow_credentials = false
     allow_headers     = []
@@ -22,6 +22,6 @@ resource "aws_apigatewayv2_api" "tf-sample-apigatewayv2-api" {
     expose_headers    = []
     max_age           = 0
   }
-  
+
   tags = {}
 }

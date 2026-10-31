@@ -1,12 +1,12 @@
 resource "aws_cloudfront_response_headers_policy" "tf-sample-cloudfront-response-headers-policy" {
   comment = ""
   name    = ""
-  
+
   cors_config {
     access_control_allow_credentials = false
     access_control_max_age_sec       = 0
     origin_override                  = false
-    
+
     access_control_allow_headers {
       items = []
     }

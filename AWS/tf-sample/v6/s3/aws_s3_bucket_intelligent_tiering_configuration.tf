@@ -3,7 +3,7 @@ resource "aws_s3_bucket_intelligent_tiering_configuration" "tf-sample-s3-bucket-
   name   = ""
   region = ""
   status = ""
-  
+
   filter {
     prefix = ""
   }

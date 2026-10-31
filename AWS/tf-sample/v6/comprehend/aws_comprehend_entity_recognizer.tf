@@ -7,10 +7,10 @@ resource "aws_comprehend_entity_recognizer" "tf-sample-comprehend-entity-recogni
   version_name         = ""
   version_name_prefix  = ""
   volume_kms_key_id    = ""
-  
+
   input_data_config {
     data_format = ""
-    
+
     annotations {
       s3_uri      = ""
       test_s3_uri = ""
@@ -39,6 +39,6 @@ resource "aws_comprehend_entity_recognizer" "tf-sample-comprehend-entity-recogni
     security_group_ids = []
     subnets            = []
   }
-  
+
   tags = {}
 }

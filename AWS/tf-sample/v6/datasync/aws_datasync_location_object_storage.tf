@@ -9,6 +9,6 @@ resource "aws_datasync_location_object_storage" "tf-sample-datasync-location-obj
   server_port        = 0
   server_protocol    = ""
   subdirectory       = ""
-  
+
   tags = {}
 }

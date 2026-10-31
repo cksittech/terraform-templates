@@ -12,6 +12,6 @@ resource "aws_vpc" "tf-sample-vpc" {
   ipv6_ipam_pool_id                    = ""
   ipv6_netmask_length                  = 0
   region                               = ""
-  
+
   tags = {}
 }

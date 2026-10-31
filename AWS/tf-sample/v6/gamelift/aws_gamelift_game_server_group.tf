@@ -7,10 +7,10 @@ resource "aws_gamelift_game_server_group" "tf-sample-gamelift-game-server-group"
   region                        = ""
   role_arn                      = ""
   vpc_subnets                   = []
-  
+
   auto_scaling_policy {
     estimated_instance_warmup = 0
-    
+
     target_tracking_configuration {
       target_value = 0
     }
@@ -24,6 +24,6 @@ resource "aws_gamelift_game_server_group" "tf-sample-gamelift-game-server-group"
     name    = ""
     version = ""
   }
-  
+
   tags = {}
 }

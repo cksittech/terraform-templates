@@ -5,6 +5,6 @@ resource "aws_s3files_file_system" "tf-sample-s3files-file-system" {
   prefix                = ""
   region                = ""
   role_arn              = ""
-  
+
   tags = {}
 }

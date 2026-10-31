@@ -16,7 +16,7 @@ resource "aws_apigatewayv2_integration" "tf-sample-apigatewayv2-integration" {
   request_templates             = {}
   template_selection_expression = ""
   timeout_milliseconds          = 0
-  
+
   response_parameters {
     mappings    = {}
     status_code = ""

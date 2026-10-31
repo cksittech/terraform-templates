@@ -5,7 +5,7 @@ resource "aws_arczonalshift_zonal_autoshift_configuration" "tf-sample-arczonalsh
   region                 = ""
   resource_arn           = ""
   zonal_autoshift_status = ""
-  
+
   blocking_alarms {
     alarm_identifier = ""
     type             = ""

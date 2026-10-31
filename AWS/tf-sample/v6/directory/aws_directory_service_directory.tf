@@ -11,7 +11,7 @@ resource "aws_directory_service_directory" "tf-sample-directory-service-director
   short_name                           = ""
   size                                 = ""
   type                                 = ""
-  
+
   connect_settings {
     customer_dns_ips  = []
     customer_username = ""
@@ -22,6 +22,6 @@ resource "aws_directory_service_directory" "tf-sample-directory-service-director
     subnet_ids = []
     vpc_id     = ""
   }
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "aws_memorydb_snapshot" "tf-sample-memorydb-snapshot" {
   name         = ""
   name_prefix  = ""
   region       = ""
-  
+
   tags = {}
 }

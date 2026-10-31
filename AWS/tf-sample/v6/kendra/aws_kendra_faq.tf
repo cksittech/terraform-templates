@@ -6,11 +6,11 @@ resource "aws_kendra_faq" "tf-sample-kendra-faq" {
   name          = ""
   region        = ""
   role_arn      = ""
-  
+
   s3_path {
     bucket = ""
     key    = ""
   }
-  
+
   tags = {}
 }

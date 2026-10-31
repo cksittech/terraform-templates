@@ -4,11 +4,11 @@ resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
   domain_name           = ""
   elasticsearch_version = ""
   region                = ""
-  
+
   advanced_security_options {
     enabled                        = false
     internal_user_database_enabled = false
-    
+
     master_user_options {
       master_user_arn      = ""
       master_user_name     = ""
@@ -18,11 +18,11 @@ resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
   auto_tune_options {
     desired_state       = ""
     rollback_on_disable = ""
-    
+
     maintenance_schedule {
       cron_expression_for_recurrence = ""
       start_at                       = ""
-      
+
       duration {
         unit  = ""
         value = 0
@@ -39,7 +39,7 @@ resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
     warm_enabled             = false
     warm_type                = ""
     zone_awareness_enabled   = false
-    
+
     cold_storage_options {
       enabled = false
     }
@@ -86,6 +86,6 @@ resource "aws_elasticsearch_domain" "tf-sample-elasticsearch-domain" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

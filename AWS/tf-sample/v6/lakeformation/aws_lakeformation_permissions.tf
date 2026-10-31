@@ -5,7 +5,7 @@ resource "aws_lakeformation_permissions" "tf-sample-lakeformation-permissions" {
   permissions_with_grant_option = []
   principal                     = ""
   region                        = ""
-  
+
   data_cells_filter {
     database_name    = ""
     name             = ""
@@ -27,7 +27,7 @@ resource "aws_lakeformation_permissions" "tf-sample-lakeformation-permissions" {
   lf_tag_policy {
     catalog_id    = ""
     resource_type = ""
-    
+
     expression {
       key    = ""
       values = []

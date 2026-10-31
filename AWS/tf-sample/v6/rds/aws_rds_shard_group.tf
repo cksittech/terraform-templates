@@ -6,6 +6,6 @@ resource "aws_rds_shard_group" "tf-sample-rds-shard-group" {
   min_acu                   = 0
   publicly_accessible       = false
   region                    = ""
-  
+
   tags = {}
 }

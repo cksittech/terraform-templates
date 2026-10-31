@@ -6,7 +6,7 @@ resource "aws_lexv2models_bot" "tf-sample-lexv2models-bot" {
   role_arn                    = ""
   test_bot_alias_tags         = {}
   type                        = ""
-  
+
   data_privacy {
     child_directed = false
   }
@@ -17,6 +17,6 @@ resource "aws_lexv2models_bot" "tf-sample-lexv2models-bot" {
     name       = ""
     version    = ""
   }
-  
+
   tags = {}
 }

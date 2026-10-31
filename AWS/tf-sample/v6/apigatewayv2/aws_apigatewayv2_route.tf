@@ -11,7 +11,7 @@ resource "aws_apigatewayv2_route" "tf-sample-apigatewayv2-route" {
   route_key                           = ""
   route_response_selection_expression = ""
   target                              = ""
-  
+
   request_parameter {
     request_parameter_key = ""
     required              = false

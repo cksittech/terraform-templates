@@ -10,7 +10,7 @@ resource "aws_workspacesweb_user_settings" "tf-sample-workspacesweb-user-setting
   print_allowed                      = ""
   region                             = ""
   upload_allowed                     = ""
-  
+
   cookie_synchronization_configuration {
     allowlist {
       domain = ""
@@ -29,6 +29,6 @@ resource "aws_workspacesweb_user_settings" "tf-sample-workspacesweb-user-setting
     toolbar_type           = ""
     visual_mode            = ""
   }
-  
+
   tags = {}
 }

@@ -2,6 +2,6 @@ resource "aws_athena_capacity_reservation" "tf-sample-athena-capacity-reservatio
   name        = ""
   region      = ""
   target_dpus = 0
-  
+
   tags = {}
 }

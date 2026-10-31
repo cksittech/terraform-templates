@@ -4,7 +4,7 @@ resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
   region        = ""
   release_label = ""
   type          = ""
-  
+
   auto_start_configuration {
     enabled = false
   }
@@ -17,10 +17,10 @@ resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
   }
   initial_capacity {
     initial_capacity_type = ""
-    
+
     initial_capacity_config {
       worker_count = 0
-      
+
       worker_configuration {
         cpu    = ""
         disk   = ""
@@ -46,7 +46,7 @@ resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
       encryption_key_arn     = ""
       log_group_name         = ""
       log_stream_name_prefix = ""
-      
+
       log_types {
         name   = ""
         values = []
@@ -76,6 +76,6 @@ resource "aws_emrserverless_application" "tf-sample-emrserverless-application" {
     max_concurrent_runs   = 0
     queue_timeout_minutes = 0
   }
-  
+
   tags = {}
 }

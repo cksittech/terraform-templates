@@ -7,7 +7,7 @@ resource "aws_lambdamicrovms_microvm" "tf-sample-lambdamicrovms-microvm" {
   maximum_duration_in_seconds = 0
   region                      = ""
   run_hook_payload            = ""
-  
+
   idle_policy {
     auto_resume_enabled        = false
     max_idle_duration_seconds  = 0

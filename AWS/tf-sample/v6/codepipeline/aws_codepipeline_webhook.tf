@@ -4,7 +4,7 @@ resource "aws_codepipeline_webhook" "tf-sample-codepipeline-webhook" {
   region          = ""
   target_action   = ""
   target_pipeline = ""
-  
+
   authentication_configuration {
     allowed_ip_range = ""
     secret_token     = ""
@@ -13,6 +13,6 @@ resource "aws_codepipeline_webhook" "tf-sample-codepipeline-webhook" {
     json_path    = ""
     match_equals = ""
   }
-  
+
   tags = {}
 }

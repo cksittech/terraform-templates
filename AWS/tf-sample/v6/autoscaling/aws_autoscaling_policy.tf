@@ -10,31 +10,31 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
   policy_type               = ""
   region                    = ""
   scaling_adjustment        = 0
-  
+
   predictive_scaling_configuration {
     max_capacity_breach_behavior = ""
     max_capacity_buffer          = ""
     mode                         = ""
     scheduling_buffer_time       = ""
-    
+
     metric_specification {
       target_value = 0
-      
+
       customized_capacity_metric_specification {
         metric_data_queries {
           expression  = ""
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimensions {
                 name  = ""
                 value = ""
@@ -49,15 +49,15 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimensions {
                 name  = ""
                 value = ""
@@ -72,15 +72,15 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimensions {
                 name  = ""
                 value = ""
@@ -111,14 +111,14 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
   target_tracking_configuration {
     disable_scale_in = false
     target_value     = 0
-    
+
     customized_metric_specification {
       metric_name = ""
       namespace   = ""
       period      = 0
       statistic   = ""
       unit        = ""
-      
+
       metric_dimension {
         name  = ""
         value = ""
@@ -128,16 +128,16 @@ resource "aws_autoscaling_policy" "tf-sample-autoscaling-policy" {
         id          = ""
         label       = ""
         return_data = false
-        
+
         metric_stat {
           period = 0
           stat   = ""
           unit   = ""
-          
+
           metric {
             metric_name = ""
             namespace   = ""
-            
+
             dimensions {
               name  = ""
               value = ""

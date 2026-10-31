@@ -3,6 +3,6 @@ resource "aws_ram_permission" "tf-sample-ram-permission" {
   policy_template = ""
   region          = ""
   resource_type   = ""
-  
+
   tags = {}
 }

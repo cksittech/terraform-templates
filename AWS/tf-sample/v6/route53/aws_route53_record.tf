@@ -8,7 +8,7 @@ resource "aws_route53_record" "tf-sample-route53-record" {
   ttl                              = 0
   type                             = ""
   zone_id                          = ""
-  
+
   alias {
     evaluate_target_health = false
     name                   = ""
@@ -30,7 +30,7 @@ resource "aws_route53_record" "tf-sample-route53-record" {
     aws_region       = ""
     bias             = 0
     local_zone_group = ""
-    
+
     coordinates {
       latitude  = ""
       longitude = ""

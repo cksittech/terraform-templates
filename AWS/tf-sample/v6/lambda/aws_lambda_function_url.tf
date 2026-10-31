@@ -4,7 +4,7 @@ resource "aws_lambda_function_url" "tf-sample-lambda-function-url" {
   invoke_mode        = ""
   qualifier          = ""
   region             = ""
-  
+
   cors {
     allow_credentials = false
     allow_headers     = []

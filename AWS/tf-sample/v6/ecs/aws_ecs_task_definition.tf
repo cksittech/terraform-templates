@@ -13,7 +13,7 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
   skip_destroy             = false
   task_role_arn            = ""
   track_latest             = false
-  
+
   ephemeral_storage {
     size_in_gib = 0
   }
@@ -34,7 +34,7 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
     configure_at_launch = false
     host_path           = ""
     name                = ""
-    
+
     docker_volume_configuration {
       autoprovision = false
       driver        = ""
@@ -47,7 +47,7 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
       root_directory          = ""
       transit_encryption      = ""
       transit_encryption_port = 0
-      
+
       authorization_config {
         access_point_id = ""
         iam             = ""
@@ -56,7 +56,7 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
     fsx_windows_file_server_volume_configuration {
       file_system_id = ""
       root_directory = ""
-      
+
       authorization_config {
         credentials_parameter = ""
         domain                = ""
@@ -69,6 +69,6 @@ resource "aws_ecs_task_definition" "tf-sample-ecs-task-definition" {
       transit_encryption_port = 0
     }
   }
-  
+
   tags = {}
 }

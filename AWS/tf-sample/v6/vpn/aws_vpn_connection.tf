@@ -54,7 +54,7 @@ resource "aws_vpn_connection" "tf-sample-vpn-connection" {
   type                                    = ""
   vpn_concentrator_id                     = ""
   vpn_gateway_id                          = ""
-  
+
   tunnel1_log_options {
     cloudwatch_log_options {
       bgp_log_enabled       = false
@@ -75,6 +75,6 @@ resource "aws_vpn_connection" "tf-sample-vpn-connection" {
       log_output_format     = ""
     }
   }
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "aws_appfabric_ingestion_destination" "tf-sample-appfabric-ingestion-de
   app_bundle_arn = ""
   ingestion_arn  = ""
   region         = ""
-  
+
   destination_configuration {
     audit_log {
       destination {
@@ -22,6 +22,6 @@ resource "aws_appfabric_ingestion_destination" "tf-sample-appfabric-ingestion-de
       schema = ""
     }
   }
-  
+
   tags = {}
 }

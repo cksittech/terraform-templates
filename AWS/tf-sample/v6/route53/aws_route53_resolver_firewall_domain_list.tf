@@ -2,6 +2,6 @@ resource "aws_route53_resolver_firewall_domain_list" "tf-sample-route53-resolver
   domains = []
   name    = ""
   region  = ""
-  
+
   tags = {}
 }

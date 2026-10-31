@@ -14,7 +14,7 @@ resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
   start_canary             = false
   success_retention_period = 0
   zip_file                 = ""
-  
+
   artifact_config {
     s3_encryption {
       encryption_mode = ""
@@ -31,7 +31,7 @@ resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
   schedule {
     duration_in_seconds = 0
     expression          = ""
-    
+
     retry_config {
       max_retries = 0
     }
@@ -41,6 +41,6 @@ resource "aws_synthetics_canary" "tf-sample-synthetics-canary" {
     security_group_ids          = []
     subnet_ids                  = []
   }
-  
+
   tags = {}
 }

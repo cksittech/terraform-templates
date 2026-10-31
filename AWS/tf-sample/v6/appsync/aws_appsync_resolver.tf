@@ -9,7 +9,7 @@ resource "aws_appsync_resolver" "tf-sample-appsync-resolver" {
   request_template  = ""
   response_template = ""
   type              = ""
-  
+
   caching_config {
     caching_keys = []
     ttl          = 0
@@ -24,7 +24,7 @@ resource "aws_appsync_resolver" "tf-sample-appsync-resolver" {
   sync_config {
     conflict_detection = ""
     conflict_handler   = ""
-    
+
     lambda_conflict_handler_config {
       lambda_conflict_handler_arn = ""
     }

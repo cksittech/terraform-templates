@@ -4,6 +4,6 @@ resource "aws_neptune_subnet_group" "tf-sample-neptune-subnet-group" {
   name_prefix = ""
   region      = ""
   subnet_ids  = []
-  
+
   tags = {}
 }

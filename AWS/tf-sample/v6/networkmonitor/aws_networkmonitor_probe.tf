@@ -6,6 +6,6 @@ resource "aws_networkmonitor_probe" "tf-sample-networkmonitor-probe" {
   protocol         = ""
   region           = ""
   source_arn       = ""
-  
+
   tags = {}
 }

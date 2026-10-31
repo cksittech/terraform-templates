@@ -4,7 +4,7 @@ resource "aws_chimesdkvoice_sip_rule" "tf-sample-chimesdkvoice-sip-rule" {
   region        = ""
   trigger_type  = ""
   trigger_value = ""
-  
+
   target_applications {
     aws_region               = ""
     priority                 = 0

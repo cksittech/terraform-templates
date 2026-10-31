@@ -4,11 +4,11 @@ resource "aws_connect_routing_profile" "tf-sample-connect-routing-profile" {
   instance_id               = ""
   name                      = ""
   region                    = ""
-  
+
   media_concurrencies {
     channel     = ""
     concurrency = 0
-    
+
     cross_channel_behavior {
       behavior_type = ""
     }
@@ -19,6 +19,6 @@ resource "aws_connect_routing_profile" "tf-sample-connect-routing-profile" {
     priority = 0
     queue_id = ""
   }
-  
+
   tags = {}
 }

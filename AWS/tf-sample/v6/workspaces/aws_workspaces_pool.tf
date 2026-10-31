@@ -7,10 +7,10 @@ resource "aws_workspaces_pool" "tf-sample-workspaces-pool" {
   region               = ""
   running_mode         = ""
   timeout_settings     = []
-  
+
   capacity {
     desired_user_sessions = 0
   }
-  
+
   tags = {}
 }

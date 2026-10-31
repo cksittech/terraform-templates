@@ -3,7 +3,7 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
   region                     = ""
   replicator_name            = ""
   service_execution_role_arn = ""
-  
+
   kafka_cluster {
     amazon_msk_cluster {
       msk_cluster_arn = ""
@@ -52,7 +52,7 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
     target_compression_type  = ""
     target_kafka_cluster_arn = ""
     target_kafka_cluster_id  = ""
-    
+
     consumer_group_replication {
       consumer_group_offset_sync_mode     = ""
       consumer_groups_to_exclude          = []
@@ -66,7 +66,7 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
       detect_and_copy_new_topics           = false
       topics_to_exclude                    = []
       topics_to_replicate                  = []
-      
+
       starting_position {
         type = ""
       }
@@ -75,6 +75,6 @@ resource "aws_msk_replicator" "tf-sample-msk-replicator" {
       }
     }
   }
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "aws_medialive_input" "tf-sample-medialive-input" {
   region                = ""
   role_arn              = ""
   type                  = ""
-  
+
   destinations {
     stream_name = ""
   }
@@ -23,6 +23,6 @@ resource "aws_medialive_input" "tf-sample-medialive-input" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

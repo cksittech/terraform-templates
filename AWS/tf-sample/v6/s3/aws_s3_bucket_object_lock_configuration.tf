@@ -3,7 +3,7 @@ resource "aws_s3_bucket_object_lock_configuration" "tf-sample-s3-bucket-object-l
   object_lock_enabled = ""
   region              = ""
   token               = ""
-  
+
   rule {
     default_retention {
       days  = 0

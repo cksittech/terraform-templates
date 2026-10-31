@@ -5,7 +5,7 @@ resource "aws_quicksight_theme" "tf-sample-quicksight-theme" {
   region              = ""
   theme_id            = ""
   version_description = ""
-  
+
   configuration {
     data_color_palette {
       colors           = []
@@ -55,6 +55,6 @@ resource "aws_quicksight_theme" "tf-sample-quicksight-theme" {
     actions   = []
     principal = ""
   }
-  
+
   tags = {}
 }

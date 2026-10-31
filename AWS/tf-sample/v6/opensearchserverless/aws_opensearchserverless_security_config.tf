@@ -3,7 +3,7 @@ resource "aws_opensearchserverless_security_config" "tf-sample-opensearchserverl
   name        = ""
   region      = ""
   type        = ""
-  
+
   iam_federation_options {
     group_attribute = ""
     user_attribute  = ""

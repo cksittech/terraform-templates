@@ -4,7 +4,7 @@ resource "aws_resiliencehub_resiliency_policy" "tf-sample-resiliencehub-resilien
   name                     = ""
   region                   = ""
   tier                     = ""
-  
+
   policy {
     az {
       rpo = ""
@@ -23,6 +23,6 @@ resource "aws_resiliencehub_resiliency_policy" "tf-sample-resiliencehub-resilien
       rto = ""
     }
   }
-  
+
   tags = {}
 }

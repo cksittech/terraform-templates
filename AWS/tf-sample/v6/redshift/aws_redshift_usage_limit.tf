@@ -6,6 +6,6 @@ resource "aws_redshift_usage_limit" "tf-sample-redshift-usage-limit" {
   limit_type         = ""
   period             = ""
   region             = ""
-  
+
   tags = {}
 }

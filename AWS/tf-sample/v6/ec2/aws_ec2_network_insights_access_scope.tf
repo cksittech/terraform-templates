@@ -1,6 +1,6 @@
 resource "aws_ec2_network_insights_access_scope" "tf-sample-ec2-network-insights-access-scope" {
   region = ""
-  
+
   exclude_paths {
     destination {
       packet_header_statement {
@@ -71,6 +71,6 @@ resource "aws_ec2_network_insights_access_scope" "tf-sample-ec2-network-insights
       }
     }
   }
-  
+
   tags = {}
 }

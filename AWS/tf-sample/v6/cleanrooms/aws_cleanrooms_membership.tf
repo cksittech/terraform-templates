@@ -2,10 +2,10 @@ resource "aws_cleanrooms_membership" "tf-sample-cleanrooms-membership" {
   collaboration_id = ""
   query_log_status = ""
   region           = ""
-  
+
   default_result_configuration {
     role_arn = ""
-    
+
     output_configuration {
       s3 {
         bucket        = ""
@@ -19,6 +19,6 @@ resource "aws_cleanrooms_membership" "tf-sample-cleanrooms-membership" {
       is_responsible = false
     }
   }
-  
+
   tags = {}
 }

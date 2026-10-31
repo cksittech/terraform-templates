@@ -7,6 +7,6 @@ resource "aws_connect_contact_flow" "tf-sample-connect-contact-flow" {
   name         = ""
   region       = ""
   type         = ""
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "aws_cloudwatch_metric_stream" "tf-sample-cloudwatch-metric-stream" {
   output_format                   = ""
   region                          = ""
   role_arn                        = ""
-  
+
   exclude_filter {
     metric_names = []
     namespace    = ""
@@ -17,12 +17,12 @@ resource "aws_cloudwatch_metric_stream" "tf-sample-cloudwatch-metric-stream" {
   }
   statistics_configuration {
     additional_statistics = []
-    
+
     include_metric {
       metric_name = ""
       namespace   = ""
     }
   }
-  
+
   tags = {}
 }

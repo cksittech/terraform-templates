@@ -2,7 +2,7 @@ resource "aws_sagemaker_data_quality_job_definition" "tf-sample-sagemaker-data-q
   name     = ""
   region   = ""
   role_arn = ""
-  
+
   data_quality_app_specification {
     environment                         = {}
     image_uri                           = ""
@@ -23,7 +23,7 @@ resource "aws_sagemaker_data_quality_job_definition" "tf-sample-sagemaker-data-q
       local_path                       = ""
       s3_data_distribution_type        = ""
       s3_input_mode                    = ""
-      
+
       dataset_format {
         csv {
           header = false
@@ -42,7 +42,7 @@ resource "aws_sagemaker_data_quality_job_definition" "tf-sample-sagemaker-data-q
   }
   data_quality_job_output_config {
     kms_key_id = ""
-    
+
     monitoring_outputs {
       s3_output {
         local_path     = ""
@@ -62,7 +62,7 @@ resource "aws_sagemaker_data_quality_job_definition" "tf-sample-sagemaker-data-q
   network_config {
     enable_inter_container_traffic_encryption = false
     enable_network_isolation                  = false
-    
+
     vpc_config {
       security_group_ids = []
       subnets            = []
@@ -71,6 +71,6 @@ resource "aws_sagemaker_data_quality_job_definition" "tf-sample-sagemaker-data-q
   stopping_condition {
     max_runtime_in_seconds = 0
   }
-  
+
   tags = {}
 }

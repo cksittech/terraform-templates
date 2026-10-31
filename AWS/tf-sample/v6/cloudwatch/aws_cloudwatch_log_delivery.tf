@@ -5,6 +5,6 @@ resource "aws_cloudwatch_log_delivery" "tf-sample-cloudwatch-log-delivery" {
   record_fields             = []
   region                    = ""
   s3_delivery_configuration = []
-  
+
   tags = {}
 }

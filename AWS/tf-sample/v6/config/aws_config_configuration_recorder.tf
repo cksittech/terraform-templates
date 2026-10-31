@@ -2,12 +2,12 @@ resource "aws_config_configuration_recorder" "tf-sample-config-configuration-rec
   name     = ""
   region   = ""
   role_arn = ""
-  
+
   recording_group {
     all_supported                 = false
     include_global_resource_types = false
     resource_types                = []
-    
+
     exclusion_by_resource_types {
       resource_types = []
     }
@@ -17,7 +17,7 @@ resource "aws_config_configuration_recorder" "tf-sample-config-configuration-rec
   }
   recording_mode {
     recording_frequency = ""
-    
+
     recording_mode_override {
       description         = ""
       recording_frequency = ""

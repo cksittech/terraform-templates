@@ -5,6 +5,6 @@ resource "aws_dynamodb_table_replica" "tf-sample-dynamodb-table-replica" {
   point_in_time_recovery      = false
   region                      = ""
   table_class_override        = ""
-  
+
   tags = {}
 }

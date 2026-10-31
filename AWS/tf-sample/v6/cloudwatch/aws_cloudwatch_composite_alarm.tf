@@ -7,12 +7,12 @@ resource "aws_cloudwatch_composite_alarm" "tf-sample-cloudwatch-composite-alarm"
   insufficient_data_actions = []
   ok_actions                = []
   region                    = ""
-  
+
   actions_suppressor {
     alarm            = ""
     extension_period = 0
     wait_period      = 0
   }
-  
+
   tags = {}
 }

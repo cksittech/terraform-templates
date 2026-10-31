@@ -4,7 +4,7 @@ resource "aws_bedrockagentcore_evaluator" "tf-sample-bedrockagentcore-evaluator"
   kms_key_arn    = ""
   level          = ""
   region         = ""
-  
+
   evaluator_config {
     code_based {
       lambda_config {
@@ -14,12 +14,12 @@ resource "aws_bedrockagentcore_evaluator" "tf-sample-bedrockagentcore-evaluator"
     }
     llm_as_a_judge {
       instructions = ""
-      
+
       model_config {
         bedrock_evaluator_model_config {
           additional_model_request_fields = ""
           model_id                        = ""
-          
+
           inference_config {
             max_tokens     = 0
             stop_sequences = []
@@ -41,6 +41,6 @@ resource "aws_bedrockagentcore_evaluator" "tf-sample-bedrockagentcore-evaluator"
       }
     }
   }
-  
+
   tags = {}
 }

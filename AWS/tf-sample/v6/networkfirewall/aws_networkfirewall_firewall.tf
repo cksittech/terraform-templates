@@ -10,7 +10,7 @@ resource "aws_networkfirewall_firewall" "tf-sample-networkfirewall-firewall" {
   subnet_change_protection            = false
   transit_gateway_id                  = ""
   vpc_id                              = ""
-  
+
   availability_zone_mapping {
     availability_zone_id = ""
   }
@@ -22,6 +22,6 @@ resource "aws_networkfirewall_firewall" "tf-sample-networkfirewall-firewall" {
     ip_address_type = ""
     subnet_id       = ""
   }
-  
+
   tags = {}
 }

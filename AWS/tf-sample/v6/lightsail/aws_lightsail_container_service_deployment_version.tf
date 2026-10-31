@@ -1,7 +1,7 @@
 resource "aws_lightsail_container_service_deployment_version" "tf-sample-lightsail-container-service-deployment-version" {
   region       = ""
   service_name = ""
-  
+
   container {
     command        = []
     container_name = ""
@@ -12,7 +12,7 @@ resource "aws_lightsail_container_service_deployment_version" "tf-sample-lightsa
   public_endpoint {
     container_name = ""
     container_port = 0
-    
+
     health_check {
       healthy_threshold   = 0
       interval_seconds    = 0

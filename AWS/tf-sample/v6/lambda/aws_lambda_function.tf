@@ -27,7 +27,7 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   source_kms_key_arn                   = ""
   timeout                              = 0
   use_resource_timeout_for_propagation = false
-  
+
   capacity_provider_config {
     lambda_managed_instances_capacity_provider_config {
       capacity_provider_arn                     = ""
@@ -77,6 +77,6 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
     security_group_ids          = []
     subnet_ids                  = []
   }
-  
+
   tags = {}
 }

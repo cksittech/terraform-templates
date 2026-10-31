@@ -9,10 +9,10 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
   name                             = ""
   region                           = ""
   status                           = ""
-  
+
   image_scanning_configuration {
     image_scanning_enabled = false
-    
+
     ecr_configuration {
       container_tags  = []
       repository_name = ""
@@ -35,12 +35,12 @@ resource "aws_imagebuilder_image_pipeline" "tf-sample-imagebuilder-image-pipelin
     on_failure     = ""
     parallel_group = ""
     workflow_arn   = ""
-    
+
     parameter {
       name  = ""
       value = ""
     }
   }
-  
+
   tags = {}
 }

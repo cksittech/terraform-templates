@@ -6,6 +6,6 @@ resource "aws_datasync_location_fsx_windows_file_system" "tf-sample-datasync-loc
   security_group_arns = []
   subdirectory        = ""
   user                = ""
-  
+
   tags = {}
 }

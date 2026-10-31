@@ -15,7 +15,7 @@ resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-i
   username                      = ""
   vpc_security_group_ids        = []
   vpc_subnet_ids                = []
-  
+
   log_delivery_configuration {
     s3_configuration {
       bucket_name = ""
@@ -26,6 +26,6 @@ resource "aws_timestreaminfluxdb_db_instance" "tf-sample-timestreaminfluxdb-db-i
     preferred_maintenance_window = ""
     timezone                     = ""
   }
-  
+
   tags = {}
 }

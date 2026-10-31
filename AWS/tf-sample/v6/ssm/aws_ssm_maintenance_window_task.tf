@@ -10,7 +10,7 @@ resource "aws_ssm_maintenance_window_task" "tf-sample-ssm-maintenance-window-tas
   task_arn         = ""
   task_type        = ""
   window_id        = ""
-  
+
   targets {
     key    = ""
     values = []
@@ -18,7 +18,7 @@ resource "aws_ssm_maintenance_window_task" "tf-sample-ssm-maintenance-window-tas
   task_invocation_parameters {
     automation_parameters {
       document_version = ""
-      
+
       parameter {
         name   = ""
         values = []
@@ -38,7 +38,7 @@ resource "aws_ssm_maintenance_window_task" "tf-sample-ssm-maintenance-window-tas
       output_s3_key_prefix = ""
       service_role_arn     = ""
       timeout_seconds      = 0
-      
+
       cloudwatch_config {
         cloudwatch_log_group_name = ""
         cloudwatch_output_enabled = false

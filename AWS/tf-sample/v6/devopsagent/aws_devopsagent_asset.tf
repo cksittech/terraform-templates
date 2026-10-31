@@ -3,12 +3,12 @@ resource "aws_devopsagent_asset" "tf-sample-devopsagent-asset" {
   asset_type     = ""
   metadata       = ""
   region         = ""
-  
+
   content {
     file {
       metadata = ""
       path     = ""
-      
+
       body {
         bytes = ""
         text  = ""

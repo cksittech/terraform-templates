@@ -4,7 +4,7 @@ resource "aws_cloudfront_distribution_tenant" "tf-sample-cloudfront-distribution
   enabled             = false
   name                = ""
   wait_for_deployment = false
-  
+
   customizations {
     certificate {
     }
@@ -28,6 +28,6 @@ resource "aws_cloudfront_distribution_tenant" "tf-sample-cloudfront-distribution
     name  = ""
     value = ""
   }
-  
+
   tags = {}
 }

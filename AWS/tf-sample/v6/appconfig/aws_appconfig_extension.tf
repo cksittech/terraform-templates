@@ -2,10 +2,10 @@ resource "aws_appconfig_extension" "tf-sample-appconfig-extension" {
   description = ""
   name        = ""
   region      = ""
-  
+
   action_point {
     point = ""
-    
+
     action {
       description = ""
       name        = ""
@@ -18,6 +18,6 @@ resource "aws_appconfig_extension" "tf-sample-appconfig-extension" {
     name        = ""
     required    = false
   }
-  
+
   tags = {}
 }

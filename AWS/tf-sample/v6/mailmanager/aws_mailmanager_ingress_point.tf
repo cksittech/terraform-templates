@@ -6,12 +6,12 @@ resource "aws_mailmanager_ingress_point" "tf-sample-mailmanager-ingress-point" {
   tls_policy        = ""
   traffic_policy_id = ""
   type              = ""
-  
+
   ingress_point_configuration {
     secret_arn               = ""
     smtp_password_wo         = ""
     smtp_password_wo_version = 0
-    
+
     tls_auth_configuration {
       trust_store {
         ca_content  = ""
@@ -28,6 +28,6 @@ resource "aws_mailmanager_ingress_point" "tf-sample-mailmanager-ingress-point" {
       ip_type = ""
     }
   }
-  
+
   tags = {}
 }

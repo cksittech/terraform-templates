@@ -3,6 +3,6 @@ resource "aws_default_route_table" "tf-sample-default-route-table" {
   propagating_vgws       = []
   region                 = ""
   route                  = []
-  
+
   tags = {}
 }

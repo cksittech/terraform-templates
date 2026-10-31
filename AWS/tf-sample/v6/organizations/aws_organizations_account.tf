@@ -6,6 +6,6 @@ resource "aws_organizations_account" "tf-sample-organizations-account" {
   name                       = ""
   parent_id                  = ""
   role_name                  = ""
-  
+
   tags = {}
 }

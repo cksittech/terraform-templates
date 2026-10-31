@@ -8,11 +8,11 @@ resource "aws_elasticache_user" "tf-sample-elasticache-user" {
   region               = ""
   user_id              = ""
   user_name            = ""
-  
+
   authentication_mode {
     passwords = []
     type      = ""
   }
-  
+
   tags = {}
 }

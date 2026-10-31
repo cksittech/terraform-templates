@@ -5,10 +5,10 @@ resource "aws_vpc_ipam" "tf-sample-vpc-ipam" {
   metered_account    = ""
   region             = ""
   tier               = ""
-  
+
   operating_regions {
     region_name = ""
   }
-  
+
   tags = {}
 }

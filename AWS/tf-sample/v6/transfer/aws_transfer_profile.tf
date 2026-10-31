@@ -3,6 +3,6 @@ resource "aws_transfer_profile" "tf-sample-transfer-profile" {
   certificate_ids = []
   profile_type    = ""
   region          = ""
-  
+
   tags = {}
 }

@@ -9,12 +9,12 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
   region                   = ""
   security_group_ids       = []
   verified_access_group_id = ""
-  
+
   cidr_options {
     cidr       = ""
     protocol   = ""
     subnet_ids = []
-    
+
     port_range {
       from_port = 0
       to_port   = 0
@@ -25,7 +25,7 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
     port              = 0
     protocol          = ""
     subnet_ids        = []
-    
+
     port_range {
       from_port = 0
       to_port   = 0
@@ -35,7 +35,7 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
     network_interface_id = ""
     port                 = 0
     protocol             = ""
-    
+
     port_range {
       from_port = 0
       to_port   = 0
@@ -54,6 +54,6 @@ resource "aws_verifiedaccess_endpoint" "tf-sample-verifiedaccess-endpoint" {
     customer_managed_key_enabled = false
     kms_key_arn                  = ""
   }
-  
+
   tags = {}
 }

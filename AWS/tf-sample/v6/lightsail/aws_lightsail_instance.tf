@@ -7,12 +7,12 @@ resource "aws_lightsail_instance" "tf-sample-lightsail-instance" {
   name              = ""
   region            = ""
   user_data         = ""
-  
+
   add_on {
     snapshot_time = ""
     status        = ""
     type          = ""
   }
-  
+
   tags = {}
 }

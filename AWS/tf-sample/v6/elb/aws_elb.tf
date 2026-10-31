@@ -13,7 +13,7 @@ resource "aws_elb" "tf-sample-elb" {
   security_groups             = []
   source_security_group       = ""
   subnets                     = []
-  
+
   access_logs {
     bucket        = ""
     bucket_prefix = ""
@@ -34,6 +34,6 @@ resource "aws_elb" "tf-sample-elb" {
     lb_protocol        = ""
     ssl_certificate_id = ""
   }
-  
+
   tags = {}
 }

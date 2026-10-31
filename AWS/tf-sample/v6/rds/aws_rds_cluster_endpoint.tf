@@ -5,6 +5,6 @@ resource "aws_rds_cluster_endpoint" "tf-sample-rds-cluster-endpoint" {
   excluded_members            = []
   region                      = ""
   static_members              = []
-  
+
   tags = {}
 }

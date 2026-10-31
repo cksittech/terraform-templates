@@ -5,7 +5,7 @@ resource "aws_verifiedaccess_trust_provider" "tf-sample-verifiedaccess-trust-pro
   region                     = ""
   trust_provider_type        = ""
   user_trust_provider_type   = ""
-  
+
   device_options {
     tenant_id = ""
   }
@@ -32,6 +32,6 @@ resource "aws_verifiedaccess_trust_provider" "tf-sample-verifiedaccess-trust-pro
     customer_managed_key_enabled = false
     kms_key_arn                  = ""
   }
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_vpn_gateway" "tf-sample-vpn-gateway" {
   availability_zone = ""
   region            = ""
   vpc_id            = ""
-  
+
   tags = {}
 }

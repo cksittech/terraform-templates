@@ -3,6 +3,6 @@ resource "aws_transcribe_medical_vocabulary" "tf-sample-transcribe-medical-vocab
   region              = ""
   vocabulary_file_uri = ""
   vocabulary_name     = ""
-  
+
   tags = {}
 }

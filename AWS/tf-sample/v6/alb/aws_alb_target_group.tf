@@ -18,7 +18,7 @@ resource "aws_alb_target_group" "tf-sample-alb-target-group" {
   target_control_port                = 0
   target_type                        = ""
   vpc_id                             = ""
-  
+
   health_check {
     enabled             = false
     healthy_threshold   = 0
@@ -54,6 +54,6 @@ resource "aws_alb_target_group" "tf-sample-alb-target-group" {
     enable_unhealthy_connection_termination = false
     unhealthy_draining_interval             = 0
   }
-  
+
   tags = {}
 }

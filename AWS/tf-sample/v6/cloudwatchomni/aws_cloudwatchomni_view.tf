@@ -3,6 +3,6 @@ resource "aws_cloudwatchomni_view" "tf-sample-cloudwatchomni-view" {
   description = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

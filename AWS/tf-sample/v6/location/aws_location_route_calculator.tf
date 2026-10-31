@@ -3,6 +3,6 @@ resource "aws_location_route_calculator" "tf-sample-location-route-calculator" {
   data_source     = ""
   description     = ""
   region          = ""
-  
+
   tags = {}
 }

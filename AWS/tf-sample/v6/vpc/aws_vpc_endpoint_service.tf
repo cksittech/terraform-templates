@@ -7,6 +7,6 @@ resource "aws_vpc_endpoint_service" "tf-sample-vpc-endpoint-service" {
   region                     = ""
   supported_ip_address_types = []
   supported_regions          = []
-  
+
   tags = {}
 }

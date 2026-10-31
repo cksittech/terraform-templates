@@ -5,6 +5,6 @@ resource "aws_vpclattice_service" "tf-sample-vpclattice-service" {
   idle_timeout_seconds = 0
   name                 = ""
   region               = ""
-  
+
   tags = {}
 }

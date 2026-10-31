@@ -4,7 +4,7 @@ resource "aws_rum_app_monitor" "tf-sample-rum-app-monitor" {
   domain_list    = []
   name           = ""
   region         = ""
-  
+
   app_monitor_configuration {
     allow_cookies       = false
     enable_xray         = false
@@ -19,6 +19,6 @@ resource "aws_rum_app_monitor" "tf-sample-rum-app-monitor" {
   custom_events {
     status = ""
   }
-  
+
   tags = {}
 }

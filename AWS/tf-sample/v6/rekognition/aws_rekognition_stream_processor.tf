@@ -3,7 +3,7 @@ resource "aws_rekognition_stream_processor" "tf-sample-rekognition-stream-proces
   name       = ""
   region     = ""
   role_arn   = ""
-  
+
   data_sharing_preference {
     opt_in = false
   }
@@ -44,6 +44,6 @@ resource "aws_rekognition_stream_processor" "tf-sample-rekognition-stream-proces
       face_match_threshold = 0
     }
   }
-  
+
   tags = {}
 }

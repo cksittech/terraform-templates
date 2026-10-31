@@ -6,7 +6,7 @@ resource "aws_config_organization_conformance_pack" "tf-sample-config-organizati
   region                 = ""
   template_body          = ""
   template_s3_uri        = ""
-  
+
   input_parameter {
     parameter_name  = ""
     parameter_value = ""

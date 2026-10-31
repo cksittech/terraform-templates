@@ -2,7 +2,7 @@ resource "aws_opensearch_application" "tf-sample-opensearch-application" {
   kms_key_arn = ""
   name        = ""
   region      = ""
-  
+
   app_config {
     key   = ""
     value = ""
@@ -16,6 +16,6 @@ resource "aws_opensearch_application" "tf-sample-opensearch-application" {
     iam_identity_center_instance_arn             = ""
     iam_role_for_identity_center_application_arn = ""
   }
-  
+
   tags = {}
 }

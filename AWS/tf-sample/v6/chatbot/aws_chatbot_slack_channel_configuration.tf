@@ -8,6 +8,6 @@ resource "aws_chatbot_slack_channel_configuration" "tf-sample-chatbot-slack-chan
   slack_team_id               = ""
   sns_topic_arns              = []
   user_authorization_required = false
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_chime_voice_connector" "tf-sample-chime-voice-connector" {
   name               = ""
   region             = ""
   require_encryption = false
-  
+
   tags = {}
 }

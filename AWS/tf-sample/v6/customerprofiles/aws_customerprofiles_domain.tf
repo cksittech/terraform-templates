@@ -4,14 +4,14 @@ resource "aws_customerprofiles_domain" "tf-sample-customerprofiles-domain" {
   default_expiration_days = 0
   domain_name             = ""
   region                  = ""
-  
+
   matching {
     enabled = false
-    
+
     auto_merging {
       enabled                                  = false
       min_allowed_confidence_score_for_merging = 0
-      
+
       conflict_resolution {
         conflict_resolving_model = ""
         source_name              = ""
@@ -36,7 +36,7 @@ resource "aws_customerprofiles_domain" "tf-sample-customerprofiles-domain" {
     max_allowed_rule_level_for_matching = 0
     max_allowed_rule_level_for_merging  = 0
     status                              = ""
-    
+
     attribute_types_selector {
       address                  = []
       attribute_matching_model = ""
@@ -57,6 +57,6 @@ resource "aws_customerprofiles_domain" "tf-sample-customerprofiles-domain" {
       rule = []
     }
   }
-  
+
   tags = {}
 }

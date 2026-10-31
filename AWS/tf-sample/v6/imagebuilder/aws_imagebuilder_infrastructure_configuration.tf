@@ -10,7 +10,7 @@ resource "aws_imagebuilder_infrastructure_configuration" "tf-sample-imagebuilder
   sns_topic_arn                 = ""
   subnet_id                     = ""
   terminate_instance_on_failure = false
-  
+
   instance_metadata_options {
     http_put_response_hop_limit = 0
     http_tokens                 = ""
@@ -27,6 +27,6 @@ resource "aws_imagebuilder_infrastructure_configuration" "tf-sample-imagebuilder
     host_resource_group_arn = ""
     tenancy                 = ""
   }
-  
+
   tags = {}
 }

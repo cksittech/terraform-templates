@@ -8,7 +8,7 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
   workspace_directory_description = ""
   workspace_directory_name        = ""
   workspace_type                  = ""
-  
+
   active_directory_config {
     domain_name                = ""
     service_account_secret_arn = ""
@@ -38,10 +38,10 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
     device_type_web        = ""
     device_type_windows    = ""
     device_type_zeroclient = ""
-    
+
     access_endpoint_config {
       internet_fallback_protocols = []
-      
+
       access_endpoints {
         access_endpoint_type = ""
         vpc_endpoint_id      = ""
@@ -55,6 +55,6 @@ resource "aws_workspaces_directory" "tf-sample-workspaces-directory" {
     enable_maintenance_mode             = false
     user_enabled_as_local_administrator = false
   }
-  
+
   tags = {}
 }

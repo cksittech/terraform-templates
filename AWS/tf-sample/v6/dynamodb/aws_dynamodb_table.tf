@@ -15,7 +15,7 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
   stream_view_type            = ""
   table_class                 = ""
   write_capacity              = 0
-  
+
   attribute {
     name = ""
     type = ""
@@ -26,7 +26,7 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
     projection_type    = ""
     read_capacity      = 0
     write_capacity     = 0
-    
+
     key_schema {
       attribute_name = ""
       key_type       = ""
@@ -46,7 +46,7 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
   import_table {
     input_compression_type = ""
     input_format           = ""
-    
+
     input_format_options {
       csv {
         delimiter   = ""
@@ -93,6 +93,6 @@ resource "aws_dynamodb_table" "tf-sample-dynamodb-table" {
     read_units_per_second  = 0
     write_units_per_second = 0
   }
-  
+
   tags = {}
 }

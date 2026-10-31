@@ -6,7 +6,7 @@ resource "aws_appstream_stack" "tf-sample-appstream-stack" {
   name               = ""
   redirect_url       = ""
   region             = ""
-  
+
   access_endpoints {
     endpoint_type = ""
     vpce_id       = ""
@@ -27,6 +27,6 @@ resource "aws_appstream_stack" "tf-sample-appstream-stack" {
     action     = ""
     permission = ""
   }
-  
+
   tags = {}
 }

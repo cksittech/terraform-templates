@@ -7,7 +7,7 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
   role_arn      = ""
   schedule      = ""
   type          = ""
-  
+
   configuration {
     template_configuration {
       template = ""
@@ -15,14 +15,14 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
   }
   custom_document_enrichment_configuration {
     role_arn = ""
-    
+
     inline_configurations {
       document_content_deletion = false
-      
+
       condition {
         condition_document_attribute_key = ""
         operator                         = ""
-        
+
         condition_on_value {
           date_value        = ""
           long_value        = 0
@@ -33,7 +33,7 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
       target {
         target_document_attribute_key            = ""
         target_document_attribute_value_deletion = false
-        
+
         target_document_attribute_value {
           date_value        = ""
           long_value        = 0
@@ -45,11 +45,11 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
     post_extraction_hook_configuration {
       lambda_arn = ""
       s3_bucket  = ""
-      
+
       invocation_condition {
         condition_document_attribute_key = ""
         operator                         = ""
-        
+
         condition_on_value {
           date_value        = ""
           long_value        = 0
@@ -61,11 +61,11 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
     pre_extraction_hook_configuration {
       lambda_arn = ""
       s3_bucket  = ""
-      
+
       invocation_condition {
         condition_document_attribute_key = ""
         operator                         = ""
-        
+
         condition_on_value {
           date_value        = ""
           long_value        = 0
@@ -75,6 +75,6 @@ resource "aws_kendra_data_source" "tf-sample-kendra-data-source" {
       }
     }
   }
-  
+
   tags = {}
 }

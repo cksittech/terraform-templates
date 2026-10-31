@@ -6,10 +6,10 @@ resource "aws_evidently_feature" "tf-sample-evidently-feature" {
   name                = ""
   project             = ""
   region              = ""
-  
+
   variations {
     name = ""
-    
+
     value {
       bool_value   = ""
       double_value = ""
@@ -17,6 +17,6 @@ resource "aws_evidently_feature" "tf-sample-evidently-feature" {
       string_value = ""
     }
   }
-  
+
   tags = {}
 }

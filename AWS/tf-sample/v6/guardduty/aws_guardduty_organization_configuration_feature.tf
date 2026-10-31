@@ -3,7 +3,7 @@ resource "aws_guardduty_organization_configuration_feature" "tf-sample-guardduty
   detector_id = ""
   name        = ""
   region      = ""
-  
+
   additional_configuration {
     auto_enable = ""
     name        = ""

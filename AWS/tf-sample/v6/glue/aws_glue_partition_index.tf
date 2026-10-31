@@ -3,7 +3,7 @@ resource "aws_glue_partition_index" "tf-sample-glue-partition-index" {
   database_name = ""
   region        = ""
   table_name    = ""
-  
+
   partition_index {
     index_name = ""
     keys       = []

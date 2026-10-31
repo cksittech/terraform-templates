@@ -4,11 +4,11 @@ resource "aws_cleanrooms_configured_table" "tf-sample-cleanrooms-configured-tabl
   description     = ""
   name            = ""
   region          = ""
-  
+
   table_reference {
     database_name = ""
     table_name    = ""
   }
-  
+
   tags = {}
 }

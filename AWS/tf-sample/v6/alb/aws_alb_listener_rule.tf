@@ -2,12 +2,12 @@ resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
   listener_arn = ""
   priority     = 0
   region       = ""
-  
+
   action {
     order            = 0
     target_group_arn = ""
     type             = ""
-    
+
     authenticate_cognito {
       authentication_request_extra_params = {}
       on_unauthenticated_request          = ""
@@ -48,7 +48,7 @@ resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
     jwt_validation {
       issuer        = ""
       jwks_endpoint = ""
-      
+
       additional_claim {
         format = ""
         name   = ""
@@ -92,7 +92,7 @@ resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
   }
   transform {
     type = ""
-    
+
     host_header_rewrite_config {
       rewrite {
         regex   = ""
@@ -106,6 +106,6 @@ resource "aws_alb_listener_rule" "tf-sample-alb-listener-rule" {
       }
     }
   }
-  
+
   tags = {}
 }

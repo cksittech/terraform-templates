@@ -21,7 +21,7 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
   threshold_metric_id                   = ""
   treat_missing_data                    = ""
   unit                                  = ""
-  
+
   evaluation_criteria {
     promql_criteria {
       pending_period  = 0
@@ -41,7 +41,7 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
     label       = ""
     period      = 0
     return_data = false
-    
+
     metric {
       dimensions  = {}
       metric_name = ""
@@ -55,6 +55,6 @@ resource "aws_cloudwatch_metric_alarm" "tf-sample-cloudwatch-metric-alarm" {
     only_start_evaluating_after_warm_up_period_ends = false
     warm_up_period_duration_in_minutes              = 0
   }
-  
+
   tags = {}
 }

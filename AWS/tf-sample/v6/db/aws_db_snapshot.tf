@@ -3,6 +3,6 @@ resource "aws_db_snapshot" "tf-sample-db-snapshot" {
   db_snapshot_identifier = ""
   region                 = ""
   shared_accounts        = []
-  
+
   tags = {}
 }

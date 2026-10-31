@@ -7,6 +7,6 @@ resource "aws_cloudwatch_log_group" "tf-sample-cloudwatch-log-group" {
   region                      = ""
   retention_in_days           = 0
   skip_destroy                = false
-  
+
   tags = {}
 }

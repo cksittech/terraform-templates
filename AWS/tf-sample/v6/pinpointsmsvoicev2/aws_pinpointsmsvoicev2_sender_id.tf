@@ -4,6 +4,6 @@ resource "aws_pinpointsmsvoicev2_sender_id" "tf-sample-pinpointsmsvoicev2-sender
   message_types               = []
   region                      = ""
   sender_id                   = ""
-  
+
   tags = {}
 }

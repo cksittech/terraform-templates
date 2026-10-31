@@ -1,7 +1,7 @@
 resource "aws_lakeformation_resource_lf_tags" "tf-sample-lakeformation-resource-lf-tags" {
   catalog_id = ""
   region     = ""
-  
+
   database {
     catalog_id = ""
     name       = ""

@@ -11,6 +11,6 @@ resource "aws_chatbot_teams_channel_configuration" "tf-sample-chatbot-teams-chan
   team_name                   = ""
   tenant_id                   = ""
   user_authorization_required = false
-  
+
   tags = {}
 }

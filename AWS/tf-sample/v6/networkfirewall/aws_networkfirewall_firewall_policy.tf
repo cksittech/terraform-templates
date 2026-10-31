@@ -2,7 +2,7 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
   description = ""
   name        = ""
   region      = ""
-  
+
   encryption_configuration {
     key_id = ""
     type   = ""
@@ -13,11 +13,11 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
     stateless_default_actions          = []
     stateless_fragment_default_actions = []
     tls_inspection_configuration_arn   = ""
-    
+
     policy_variables {
       rule_variables {
         key = ""
-        
+
         ip_set {
           definition = []
         }
@@ -33,7 +33,7 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
     stateful_engine_options {
       rule_order              = ""
       stream_exception_policy = ""
-      
+
       flow_timeouts {
         tcp_idle_timeout_seconds = 0
       }
@@ -42,14 +42,14 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
       deep_threat_inspection = ""
       priority               = 0
       resource_arn           = ""
-      
+
       override {
         action = ""
       }
     }
     stateless_custom_action {
       action_name = ""
-      
+
       action_definition {
         publish_metric_action {
           dimension {
@@ -63,6 +63,6 @@ resource "aws_networkfirewall_firewall_policy" "tf-sample-networkfirewall-firewa
       resource_arn = ""
     }
   }
-  
+
   tags = {}
 }

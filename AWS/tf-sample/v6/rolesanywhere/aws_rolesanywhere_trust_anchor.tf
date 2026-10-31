@@ -1,7 +1,7 @@
 resource "aws_rolesanywhere_trust_anchor" "tf-sample-rolesanywhere-trust-anchor" {
   enabled = false
   name    = ""
-  
+
   notification_settings {
     channel   = ""
     enabled   = false
@@ -10,12 +10,12 @@ resource "aws_rolesanywhere_trust_anchor" "tf-sample-rolesanywhere-trust-anchor"
   }
   source {
     source_type = ""
-    
+
     source_data {
       acm_pca_arn           = ""
       x509_certificate_data = ""
     }
   }
-  
+
   tags = {}
 }

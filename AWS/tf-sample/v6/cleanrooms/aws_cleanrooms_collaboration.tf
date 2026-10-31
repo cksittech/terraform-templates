@@ -6,7 +6,7 @@ resource "aws_cleanrooms_collaboration" "tf-sample-cleanrooms-collaboration" {
   name                     = ""
   query_log_status         = ""
   region                   = ""
-  
+
   data_encryption_metadata {
     allow_clear_text                            = false
     allow_duplicates                            = false
@@ -18,6 +18,6 @@ resource "aws_cleanrooms_collaboration" "tf-sample-cleanrooms-collaboration" {
     display_name     = ""
     member_abilities = []
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "aws_ecr_repository" "tf-sample-ecr-repository" {
   image_tag_mutability = ""
   name                 = ""
   region               = ""
-  
+
   encryption_configuration {
     encryption_type = ""
     kms_key         = ""
@@ -15,6 +15,6 @@ resource "aws_ecr_repository" "tf-sample-ecr-repository" {
     filter      = ""
     filter_type = ""
   }
-  
+
   tags = {}
 }

@@ -5,6 +5,6 @@ resource "aws_neptune_cluster_endpoint" "tf-sample-neptune-cluster-endpoint" {
   excluded_members            = []
   region                      = ""
   static_members              = []
-  
+
   tags = {}
 }

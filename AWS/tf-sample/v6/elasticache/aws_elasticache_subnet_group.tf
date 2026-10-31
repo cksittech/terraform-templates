@@ -3,6 +3,6 @@ resource "aws_elasticache_subnet_group" "tf-sample-elasticache-subnet-group" {
   name        = ""
   region      = ""
   subnet_ids  = []
-  
+
   tags = {}
 }

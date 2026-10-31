@@ -3,6 +3,6 @@ resource "aws_controltower_landing_zone" "tf-sample-controltower-landing-zone" {
   region            = ""
   remediation_types = []
   version           = ""
-  
+
   tags = {}
 }

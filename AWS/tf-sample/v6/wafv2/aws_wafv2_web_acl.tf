@@ -6,7 +6,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
   rule_json     = ""
   scope         = ""
   token_domains = []
-  
+
   association_config {
     request_body {
       api_gateway {
@@ -46,7 +46,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       action                     = ""
       exclude_rate_based_details = false
       exclude_rule_match_details = false
-      
+
       field {
         field_keys = []
         field_type = ""
@@ -66,7 +66,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       custom_response {
         custom_response_body_key = ""
         response_code            = 0
-        
+
         response_header {
           name  = ""
           value = ""
@@ -76,12 +76,12 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
   }
   monetization_config {
     currency_mode = ""
-    
+
     crypto_config {
       payment_network {
         chain          = ""
         wallet_address = ""
-        
+
         prices {
           amount   = ""
           currency = ""
@@ -92,7 +92,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
   rule {
     name     = ""
     priority = 0
-    
+
     action {
       allow {
         custom_request_handling {
@@ -106,7 +106,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
         custom_response {
           custom_response_body_key = ""
           response_code            = 0
-          
+
           response_header {
             name  = ""
             value = ""
@@ -169,7 +169,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -178,7 +178,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -188,11 +188,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -203,11 +203,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -222,10 +222,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -257,7 +257,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -276,7 +276,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -286,11 +286,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -301,11 +301,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -320,10 +320,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -363,11 +363,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -378,11 +378,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -397,10 +397,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -433,7 +433,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -443,11 +443,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -458,11 +458,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -477,10 +477,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -512,7 +512,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -522,11 +522,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -537,11 +537,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -556,10 +556,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -599,11 +599,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -614,11 +614,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -633,10 +633,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -670,7 +670,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -679,7 +679,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -689,11 +689,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -704,11 +704,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -723,10 +723,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -758,7 +758,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -779,7 +779,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -788,7 +788,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -798,11 +798,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -813,11 +813,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -832,10 +832,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -867,7 +867,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -886,7 +886,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -896,11 +896,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -911,11 +911,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -930,10 +930,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -973,11 +973,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -988,11 +988,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1007,10 +1007,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1043,7 +1043,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1053,11 +1053,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1068,11 +1068,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1087,10 +1087,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1122,7 +1122,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1132,11 +1132,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1147,11 +1147,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1166,10 +1166,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1209,11 +1209,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1224,11 +1224,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1243,10 +1243,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1282,7 +1282,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -1291,7 +1291,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1301,11 +1301,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1316,11 +1316,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1335,10 +1335,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1370,7 +1370,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -1389,7 +1389,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1399,11 +1399,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1414,11 +1414,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1433,10 +1433,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1476,11 +1476,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1491,11 +1491,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1510,10 +1510,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1546,7 +1546,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1556,11 +1556,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1571,11 +1571,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1590,10 +1590,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1625,7 +1625,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -1635,11 +1635,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1650,11 +1650,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1669,10 +1669,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1712,11 +1712,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -1727,11 +1727,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -1746,10 +1746,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -1783,7 +1783,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -1793,11 +1793,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1808,11 +1808,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1827,10 +1827,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -1870,11 +1870,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1885,11 +1885,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1904,10 +1904,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -1940,7 +1940,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -1950,11 +1950,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -1965,11 +1965,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -1984,10 +1984,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2019,7 +2019,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -2029,11 +2029,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -2044,11 +2044,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -2063,10 +2063,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2106,11 +2106,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -2121,11 +2121,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -2140,10 +2140,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2177,7 +2177,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -2186,7 +2186,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -2196,11 +2196,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -2211,11 +2211,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -2230,10 +2230,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -2265,7 +2265,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -2288,7 +2288,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2297,7 +2297,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2307,11 +2307,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2322,11 +2322,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2341,10 +2341,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2376,7 +2376,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2395,7 +2395,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2405,11 +2405,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2420,11 +2420,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2439,10 +2439,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2482,11 +2482,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2497,11 +2497,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2516,10 +2516,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2552,7 +2552,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2562,11 +2562,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2577,11 +2577,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2596,10 +2596,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2631,7 +2631,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2641,11 +2641,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2656,11 +2656,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2675,10 +2675,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2718,11 +2718,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2733,11 +2733,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2752,10 +2752,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2789,7 +2789,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -2798,7 +2798,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -2808,11 +2808,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -2823,11 +2823,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -2842,10 +2842,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -2877,7 +2877,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -2898,7 +2898,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -2907,7 +2907,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -2917,11 +2917,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -2932,11 +2932,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -2951,10 +2951,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -2986,7 +2986,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -3005,7 +3005,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3015,11 +3015,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3030,11 +3030,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3049,10 +3049,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3092,11 +3092,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3107,11 +3107,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3126,10 +3126,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3162,7 +3162,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3172,11 +3172,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3187,11 +3187,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3206,10 +3206,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3241,7 +3241,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3251,11 +3251,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3266,11 +3266,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3285,10 +3285,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3328,11 +3328,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3343,11 +3343,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3362,10 +3362,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3401,7 +3401,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -3410,7 +3410,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3420,11 +3420,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3435,11 +3435,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3454,10 +3454,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3489,7 +3489,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -3508,7 +3508,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3518,11 +3518,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3533,11 +3533,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3552,10 +3552,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3595,11 +3595,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3610,11 +3610,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3629,10 +3629,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3665,7 +3665,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3675,11 +3675,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3690,11 +3690,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3709,10 +3709,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3744,7 +3744,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -3754,11 +3754,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3769,11 +3769,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3788,10 +3788,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3831,11 +3831,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -3846,11 +3846,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -3865,10 +3865,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -3902,7 +3902,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -3912,11 +3912,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -3927,11 +3927,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -3946,10 +3946,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -3989,11 +3989,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4004,11 +4004,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4023,10 +4023,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4059,7 +4059,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -4069,11 +4069,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4084,11 +4084,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4103,10 +4103,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4138,7 +4138,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -4148,11 +4148,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4163,11 +4163,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4182,10 +4182,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4225,11 +4225,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4240,11 +4240,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4259,10 +4259,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4300,7 +4300,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4309,7 +4309,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4319,11 +4319,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4334,11 +4334,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4353,10 +4353,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4388,7 +4388,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4407,7 +4407,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4417,11 +4417,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4432,11 +4432,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4451,10 +4451,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4494,11 +4494,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4509,11 +4509,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4528,10 +4528,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4564,7 +4564,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4574,11 +4574,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4589,11 +4589,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4608,10 +4608,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4643,7 +4643,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4653,11 +4653,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4668,11 +4668,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4687,10 +4687,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4730,11 +4730,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4745,11 +4745,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4764,10 +4764,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4801,7 +4801,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -4810,7 +4810,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -4820,11 +4820,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -4835,11 +4835,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -4854,10 +4854,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -4889,7 +4889,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -4910,7 +4910,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -4919,7 +4919,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -4929,11 +4929,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -4944,11 +4944,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -4963,10 +4963,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -4998,7 +4998,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -5017,7 +5017,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5027,11 +5027,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5042,11 +5042,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5061,10 +5061,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5104,11 +5104,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5119,11 +5119,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5138,10 +5138,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5174,7 +5174,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5184,11 +5184,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5199,11 +5199,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5218,10 +5218,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5253,7 +5253,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5263,11 +5263,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5278,11 +5278,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5297,10 +5297,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5340,11 +5340,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5355,11 +5355,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5374,10 +5374,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5413,7 +5413,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -5422,7 +5422,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5432,11 +5432,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5447,11 +5447,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5466,10 +5466,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5501,7 +5501,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -5520,7 +5520,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5530,11 +5530,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5545,11 +5545,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5564,10 +5564,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5607,11 +5607,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5622,11 +5622,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5641,10 +5641,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5677,7 +5677,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5687,11 +5687,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5702,11 +5702,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5721,10 +5721,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5756,7 +5756,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -5766,11 +5766,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5781,11 +5781,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5800,10 +5800,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5843,11 +5843,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -5858,11 +5858,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -5877,10 +5877,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -5914,7 +5914,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -5924,11 +5924,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -5939,11 +5939,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -5958,10 +5958,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6001,11 +6001,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6016,11 +6016,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6035,10 +6035,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6071,7 +6071,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -6081,11 +6081,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6096,11 +6096,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6115,10 +6115,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6150,7 +6150,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -6160,11 +6160,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6175,11 +6175,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6194,10 +6194,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6237,11 +6237,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -6252,11 +6252,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -6271,10 +6271,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -6308,7 +6308,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6318,11 +6318,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6333,11 +6333,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6352,10 +6352,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6395,11 +6395,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6410,11 +6410,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6429,10 +6429,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6465,7 +6465,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6475,11 +6475,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6490,11 +6490,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6509,10 +6509,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6544,7 +6544,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -6554,11 +6554,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6569,11 +6569,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6588,10 +6588,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6631,11 +6631,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -6646,11 +6646,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -6665,10 +6665,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -6702,7 +6702,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       }
       asn_match_statement {
         asn_list = []
-        
+
         forwarded_ip_config {
           fallback_behavior = ""
           header_name       = ""
@@ -6711,7 +6711,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       byte_match_statement {
         positional_constraint = ""
         search_string         = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -6721,11 +6721,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -6736,11 +6736,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -6755,10 +6755,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -6790,7 +6790,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       }
       geo_match_statement {
         country_codes = []
-        
+
         forwarded_ip_config {
           fallback_behavior = ""
           header_name       = ""
@@ -6811,19 +6811,19 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
         name        = ""
         vendor_name = ""
         version     = ""
-        
+
         managed_rule_group_configs {
           login_path   = ""
           payload_type = ""
-          
+
           aws_managed_rules_acfp_rule_set {
             creation_path          = ""
             enable_regex_in_path   = false
             registration_page_path = ""
-            
+
             request_inspection {
               payload_type = ""
-              
+
               address_fields {
                 identifiers = []
               }
@@ -6863,12 +6863,12 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           aws_managed_rules_anti_ddos_rule_set {
             sensitivity_to_block = ""
-            
+
             client_side_action_config {
               challenge {
                 sensitivity     = ""
                 usage_of_action = ""
-                
+
                 exempt_uri_regular_expression {
                   regex_string = ""
                 }
@@ -6878,10 +6878,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           aws_managed_rules_atp_rule_set {
             enable_regex_in_path = false
             login_path           = ""
-            
+
             request_inspection {
               payload_type = ""
-              
+
               password_field {
                 identifier = ""
               }
@@ -6923,7 +6923,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
         }
         rule_action_override {
           name = ""
-          
+
           action_to_use {
             allow {
               custom_request_handling {
@@ -6937,7 +6937,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               custom_response {
                 custom_response_body_key = ""
                 response_code            = 0
-                
+
                 response_header {
                   name  = ""
                   value = ""
@@ -6977,7 +6977,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -6986,7 +6986,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -6996,11 +6996,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7011,11 +7011,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7030,10 +7030,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7065,7 +7065,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7084,7 +7084,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7094,11 +7094,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7109,11 +7109,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7128,10 +7128,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7171,11 +7171,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7186,11 +7186,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7205,10 +7205,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7241,7 +7241,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7251,11 +7251,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7266,11 +7266,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7285,10 +7285,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7320,7 +7320,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7330,11 +7330,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7345,11 +7345,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7364,10 +7364,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7407,11 +7407,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7422,11 +7422,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7441,10 +7441,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7478,7 +7478,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -7487,7 +7487,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -7497,11 +7497,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -7512,11 +7512,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -7531,10 +7531,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -7566,7 +7566,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -7587,7 +7587,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7596,7 +7596,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7606,11 +7606,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7621,11 +7621,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7640,10 +7640,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7675,7 +7675,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -7694,7 +7694,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7704,11 +7704,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7719,11 +7719,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7738,10 +7738,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7781,11 +7781,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7796,11 +7796,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7815,10 +7815,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7851,7 +7851,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7861,11 +7861,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7876,11 +7876,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7895,10 +7895,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -7930,7 +7930,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -7940,11 +7940,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -7955,11 +7955,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -7974,10 +7974,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8017,11 +8017,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8032,11 +8032,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8051,10 +8051,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8090,7 +8090,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -8099,7 +8099,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8109,11 +8109,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8124,11 +8124,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8143,10 +8143,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8178,7 +8178,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -8197,7 +8197,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8207,11 +8207,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8222,11 +8222,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8241,10 +8241,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8284,11 +8284,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8299,11 +8299,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8318,10 +8318,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8354,7 +8354,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8364,11 +8364,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8379,11 +8379,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8398,10 +8398,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8433,7 +8433,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -8443,11 +8443,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8458,11 +8458,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8477,10 +8477,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8520,11 +8520,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -8535,11 +8535,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -8554,10 +8554,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -8591,7 +8591,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8601,11 +8601,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8616,11 +8616,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8635,10 +8635,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8678,11 +8678,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8693,11 +8693,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8712,10 +8712,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8748,7 +8748,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8758,11 +8758,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8773,11 +8773,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8792,10 +8792,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8827,7 +8827,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -8837,11 +8837,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8852,11 +8852,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8871,10 +8871,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8914,11 +8914,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -8929,11 +8929,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -8948,10 +8948,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -8985,7 +8985,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -8994,7 +8994,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -9004,11 +9004,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -9019,11 +9019,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -9038,10 +9038,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -9073,7 +9073,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -9096,7 +9096,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9105,7 +9105,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9115,11 +9115,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9130,11 +9130,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9149,10 +9149,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9184,7 +9184,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9203,7 +9203,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9213,11 +9213,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9228,11 +9228,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9247,10 +9247,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9290,11 +9290,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9305,11 +9305,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9324,10 +9324,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9360,7 +9360,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9370,11 +9370,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9385,11 +9385,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9404,10 +9404,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9439,7 +9439,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9449,11 +9449,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9464,11 +9464,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9483,10 +9483,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9526,11 +9526,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9541,11 +9541,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9560,10 +9560,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9597,7 +9597,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -9606,7 +9606,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -9616,11 +9616,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -9631,11 +9631,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -9650,10 +9650,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -9685,7 +9685,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -9706,7 +9706,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9715,7 +9715,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9725,11 +9725,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9740,11 +9740,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9759,10 +9759,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9794,7 +9794,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -9813,7 +9813,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9823,11 +9823,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9838,11 +9838,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9857,10 +9857,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9900,11 +9900,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9915,11 +9915,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -9934,10 +9934,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -9970,7 +9970,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -9980,11 +9980,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -9995,11 +9995,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10014,10 +10014,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10049,7 +10049,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10059,11 +10059,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10074,11 +10074,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10093,10 +10093,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10136,11 +10136,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10151,11 +10151,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10170,10 +10170,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10209,7 +10209,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -10218,7 +10218,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10228,11 +10228,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10243,11 +10243,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10262,10 +10262,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10297,7 +10297,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -10316,7 +10316,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10326,11 +10326,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10341,11 +10341,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10360,10 +10360,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10403,11 +10403,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10418,11 +10418,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10437,10 +10437,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10473,7 +10473,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10483,11 +10483,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10498,11 +10498,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10517,10 +10517,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10552,7 +10552,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -10562,11 +10562,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10577,11 +10577,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10596,10 +10596,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10639,11 +10639,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -10654,11 +10654,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -10673,10 +10673,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -10710,7 +10710,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10720,11 +10720,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10735,11 +10735,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10754,10 +10754,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10797,11 +10797,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10812,11 +10812,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10831,10 +10831,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10867,7 +10867,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10877,11 +10877,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10892,11 +10892,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10911,10 +10911,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -10946,7 +10946,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -10956,11 +10956,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -10971,11 +10971,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -10990,10 +10990,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -11033,11 +11033,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -11048,11 +11048,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -11067,10 +11067,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -11108,7 +11108,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11117,7 +11117,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11127,11 +11127,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11142,11 +11142,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11161,10 +11161,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11196,7 +11196,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11215,7 +11215,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11225,11 +11225,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11240,11 +11240,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11259,10 +11259,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11302,11 +11302,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11317,11 +11317,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11336,10 +11336,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11372,7 +11372,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11382,11 +11382,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11397,11 +11397,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11416,10 +11416,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11451,7 +11451,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11461,11 +11461,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11476,11 +11476,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11495,10 +11495,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11538,11 +11538,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11553,11 +11553,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11572,10 +11572,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11609,7 +11609,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -11618,7 +11618,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -11628,11 +11628,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -11643,11 +11643,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -11662,10 +11662,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -11697,7 +11697,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -11718,7 +11718,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11727,7 +11727,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11737,11 +11737,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11752,11 +11752,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11771,10 +11771,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11806,7 +11806,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -11825,7 +11825,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11835,11 +11835,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11850,11 +11850,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11869,10 +11869,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11912,11 +11912,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -11927,11 +11927,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -11946,10 +11946,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -11982,7 +11982,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -11992,11 +11992,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12007,11 +12007,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12026,10 +12026,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12061,7 +12061,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12071,11 +12071,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12086,11 +12086,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12105,10 +12105,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12148,11 +12148,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12163,11 +12163,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12182,10 +12182,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12221,7 +12221,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -12230,7 +12230,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12240,11 +12240,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12255,11 +12255,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12274,10 +12274,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12309,7 +12309,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -12328,7 +12328,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12338,11 +12338,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12353,11 +12353,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12372,10 +12372,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12415,11 +12415,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12430,11 +12430,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12449,10 +12449,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12485,7 +12485,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12495,11 +12495,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12510,11 +12510,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12529,10 +12529,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12564,7 +12564,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -12574,11 +12574,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12589,11 +12589,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12608,10 +12608,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12651,11 +12651,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -12666,11 +12666,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -12685,10 +12685,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -12722,7 +12722,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12732,11 +12732,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12747,11 +12747,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12766,10 +12766,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12809,11 +12809,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12824,11 +12824,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12843,10 +12843,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12879,7 +12879,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12889,11 +12889,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12904,11 +12904,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -12923,10 +12923,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -12958,7 +12958,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -12968,11 +12968,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -12983,11 +12983,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -13002,10 +13002,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -13045,11 +13045,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -13060,11 +13060,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -13079,10 +13079,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -13116,7 +13116,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -13126,11 +13126,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13141,11 +13141,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13160,10 +13160,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13203,11 +13203,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13218,11 +13218,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13237,10 +13237,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13273,7 +13273,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -13283,11 +13283,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13298,11 +13298,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13317,10 +13317,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13352,7 +13352,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -13362,11 +13362,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13377,11 +13377,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13396,10 +13396,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13439,11 +13439,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -13454,11 +13454,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -13473,10 +13473,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -13516,7 +13516,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13525,7 +13525,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13535,11 +13535,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13550,11 +13550,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13569,10 +13569,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13604,7 +13604,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -13623,7 +13623,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13633,11 +13633,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13648,11 +13648,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13667,10 +13667,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13710,11 +13710,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13725,11 +13725,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13744,10 +13744,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13780,7 +13780,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13790,11 +13790,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13805,11 +13805,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13824,10 +13824,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13859,7 +13859,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -13869,11 +13869,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13884,11 +13884,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13903,10 +13903,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -13946,11 +13946,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -13961,11 +13961,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -13980,10 +13980,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14017,7 +14017,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -14026,7 +14026,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -14036,11 +14036,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -14051,11 +14051,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -14070,10 +14070,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -14105,7 +14105,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -14126,7 +14126,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14135,7 +14135,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14145,11 +14145,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14160,11 +14160,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14179,10 +14179,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14214,7 +14214,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14233,7 +14233,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14243,11 +14243,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14258,11 +14258,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14277,10 +14277,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14320,11 +14320,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14335,11 +14335,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14354,10 +14354,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14390,7 +14390,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14400,11 +14400,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14415,11 +14415,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14434,10 +14434,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14469,7 +14469,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14479,11 +14479,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14494,11 +14494,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14513,10 +14513,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14556,11 +14556,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14571,11 +14571,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14590,10 +14590,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14629,7 +14629,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14638,7 +14638,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14648,11 +14648,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14663,11 +14663,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14682,10 +14682,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14717,7 +14717,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -14736,7 +14736,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14746,11 +14746,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14761,11 +14761,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14780,10 +14780,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14823,11 +14823,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14838,11 +14838,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14857,10 +14857,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14893,7 +14893,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14903,11 +14903,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14918,11 +14918,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -14937,10 +14937,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -14972,7 +14972,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -14982,11 +14982,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -14997,11 +14997,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15016,10 +15016,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15059,11 +15059,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15074,11 +15074,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15093,10 +15093,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15130,7 +15130,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15140,11 +15140,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15155,11 +15155,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15174,10 +15174,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15217,11 +15217,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15232,11 +15232,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15251,10 +15251,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15287,7 +15287,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15297,11 +15297,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15312,11 +15312,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15331,10 +15331,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15366,7 +15366,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -15376,11 +15376,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15391,11 +15391,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15410,10 +15410,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15453,11 +15453,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -15468,11 +15468,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -15487,10 +15487,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -15524,7 +15524,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -15533,7 +15533,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -15543,11 +15543,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -15558,11 +15558,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -15577,10 +15577,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -15612,7 +15612,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -15635,7 +15635,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -15644,7 +15644,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15654,11 +15654,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15669,11 +15669,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15688,10 +15688,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15723,7 +15723,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -15742,7 +15742,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15752,11 +15752,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15767,11 +15767,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15786,10 +15786,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15829,11 +15829,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15844,11 +15844,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15863,10 +15863,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15899,7 +15899,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15909,11 +15909,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -15924,11 +15924,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -15943,10 +15943,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -15978,7 +15978,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -15988,11 +15988,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16003,11 +16003,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16022,10 +16022,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16065,11 +16065,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16080,11 +16080,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16099,10 +16099,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16136,7 +16136,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -16145,7 +16145,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -16155,11 +16155,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -16170,11 +16170,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -16189,10 +16189,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -16224,7 +16224,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -16245,7 +16245,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16254,7 +16254,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16264,11 +16264,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16279,11 +16279,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16298,10 +16298,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16333,7 +16333,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16352,7 +16352,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16362,11 +16362,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16377,11 +16377,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16396,10 +16396,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16439,11 +16439,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16454,11 +16454,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16473,10 +16473,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16509,7 +16509,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16519,11 +16519,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16534,11 +16534,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16553,10 +16553,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16588,7 +16588,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16598,11 +16598,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16613,11 +16613,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16632,10 +16632,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16675,11 +16675,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16690,11 +16690,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16709,10 +16709,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16748,7 +16748,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16757,7 +16757,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16767,11 +16767,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16782,11 +16782,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16801,10 +16801,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16836,7 +16836,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -16855,7 +16855,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -16865,11 +16865,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16880,11 +16880,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16899,10 +16899,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -16942,11 +16942,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -16957,11 +16957,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -16976,10 +16976,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17012,7 +17012,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17022,11 +17022,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17037,11 +17037,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17056,10 +17056,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17091,7 +17091,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17101,11 +17101,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17116,11 +17116,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17135,10 +17135,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17178,11 +17178,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17193,11 +17193,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17212,10 +17212,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17249,7 +17249,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17259,11 +17259,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17274,11 +17274,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17293,10 +17293,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17336,11 +17336,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17351,11 +17351,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17370,10 +17370,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17406,7 +17406,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17416,11 +17416,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17431,11 +17431,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17450,10 +17450,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17485,7 +17485,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -17495,11 +17495,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17510,11 +17510,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17529,10 +17529,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17572,11 +17572,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -17587,11 +17587,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -17606,10 +17606,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -17647,7 +17647,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -17656,7 +17656,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17666,11 +17666,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17681,11 +17681,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17700,10 +17700,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17735,7 +17735,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -17754,7 +17754,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17764,11 +17764,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17779,11 +17779,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17798,10 +17798,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17841,11 +17841,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17856,11 +17856,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17875,10 +17875,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17911,7 +17911,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -17921,11 +17921,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -17936,11 +17936,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -17955,10 +17955,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -17990,7 +17990,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18000,11 +18000,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18015,11 +18015,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18034,10 +18034,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18077,11 +18077,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18092,11 +18092,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18111,10 +18111,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18148,7 +18148,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -18157,7 +18157,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -18167,11 +18167,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -18182,11 +18182,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -18201,10 +18201,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -18236,7 +18236,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -18257,7 +18257,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18266,7 +18266,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18276,11 +18276,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18291,11 +18291,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18310,10 +18310,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18345,7 +18345,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18364,7 +18364,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18374,11 +18374,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18389,11 +18389,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18408,10 +18408,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18451,11 +18451,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18466,11 +18466,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18485,10 +18485,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18521,7 +18521,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18531,11 +18531,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18546,11 +18546,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18565,10 +18565,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18600,7 +18600,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18610,11 +18610,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18625,11 +18625,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18644,10 +18644,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18687,11 +18687,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18702,11 +18702,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18721,10 +18721,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18760,7 +18760,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18769,7 +18769,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18779,11 +18779,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18794,11 +18794,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18813,10 +18813,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18848,7 +18848,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -18867,7 +18867,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -18877,11 +18877,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18892,11 +18892,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18911,10 +18911,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -18954,11 +18954,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -18969,11 +18969,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -18988,10 +18988,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19024,7 +19024,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -19034,11 +19034,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -19049,11 +19049,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -19068,10 +19068,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19103,7 +19103,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -19113,11 +19113,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -19128,11 +19128,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -19147,10 +19147,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19190,11 +19190,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -19205,11 +19205,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -19224,10 +19224,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -19261,7 +19261,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19271,11 +19271,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19286,11 +19286,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19305,10 +19305,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19348,11 +19348,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19363,11 +19363,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19382,10 +19382,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19418,7 +19418,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19428,11 +19428,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19443,11 +19443,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19462,10 +19462,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19497,7 +19497,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -19507,11 +19507,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19522,11 +19522,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19541,10 +19541,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19584,11 +19584,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -19599,11 +19599,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -19618,10 +19618,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -19655,7 +19655,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19665,11 +19665,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19680,11 +19680,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19699,10 +19699,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19742,11 +19742,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19757,11 +19757,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19776,10 +19776,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19812,7 +19812,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19822,11 +19822,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19837,11 +19837,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19856,10 +19856,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19891,7 +19891,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -19901,11 +19901,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19916,11 +19916,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -19935,10 +19935,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -19978,11 +19978,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -19993,11 +19993,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -20012,10 +20012,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -20055,7 +20055,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20064,7 +20064,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20074,11 +20074,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20089,11 +20089,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20108,10 +20108,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20143,7 +20143,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20162,7 +20162,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20172,11 +20172,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20187,11 +20187,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20206,10 +20206,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20249,11 +20249,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20264,11 +20264,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20283,10 +20283,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20319,7 +20319,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20329,11 +20329,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20344,11 +20344,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20363,10 +20363,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20398,7 +20398,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20408,11 +20408,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20423,11 +20423,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20442,10 +20442,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20485,11 +20485,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20500,11 +20500,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20519,10 +20519,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20556,7 +20556,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -20565,7 +20565,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -20575,11 +20575,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -20590,11 +20590,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -20609,10 +20609,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -20644,7 +20644,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -20665,7 +20665,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20674,7 +20674,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20684,11 +20684,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20699,11 +20699,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20718,10 +20718,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20753,7 +20753,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -20772,7 +20772,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20782,11 +20782,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20797,11 +20797,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20816,10 +20816,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20859,11 +20859,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20874,11 +20874,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20893,10 +20893,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -20929,7 +20929,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -20939,11 +20939,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -20954,11 +20954,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -20973,10 +20973,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21008,7 +21008,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21018,11 +21018,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21033,11 +21033,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21052,10 +21052,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21095,11 +21095,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21110,11 +21110,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21129,10 +21129,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21168,7 +21168,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -21177,7 +21177,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21187,11 +21187,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21202,11 +21202,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21221,10 +21221,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21256,7 +21256,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -21275,7 +21275,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21285,11 +21285,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21300,11 +21300,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21319,10 +21319,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21362,11 +21362,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21377,11 +21377,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21396,10 +21396,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21432,7 +21432,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21442,11 +21442,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21457,11 +21457,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21476,10 +21476,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21511,7 +21511,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -21521,11 +21521,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21536,11 +21536,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21555,10 +21555,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21598,11 +21598,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -21613,11 +21613,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -21632,10 +21632,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -21669,7 +21669,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21679,11 +21679,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21694,11 +21694,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21713,10 +21713,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21756,11 +21756,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21771,11 +21771,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21790,10 +21790,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21826,7 +21826,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21836,11 +21836,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21851,11 +21851,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21870,10 +21870,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21905,7 +21905,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -21915,11 +21915,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -21930,11 +21930,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -21949,10 +21949,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -21992,11 +21992,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -22007,11 +22007,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -22026,10 +22026,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -22063,7 +22063,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -22072,7 +22072,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -22082,11 +22082,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -22097,11 +22097,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -22116,10 +22116,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -22151,7 +22151,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -22174,7 +22174,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22183,7 +22183,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22193,11 +22193,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22208,11 +22208,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22227,10 +22227,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22262,7 +22262,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22281,7 +22281,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22291,11 +22291,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22306,11 +22306,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22325,10 +22325,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22368,11 +22368,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22383,11 +22383,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22402,10 +22402,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22438,7 +22438,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22448,11 +22448,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22463,11 +22463,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22482,10 +22482,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22517,7 +22517,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22527,11 +22527,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22542,11 +22542,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22561,10 +22561,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22604,11 +22604,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22619,11 +22619,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22638,10 +22638,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22675,7 +22675,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -22684,7 +22684,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -22694,11 +22694,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -22709,11 +22709,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -22728,10 +22728,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -22763,7 +22763,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -22784,7 +22784,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22793,7 +22793,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22803,11 +22803,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22818,11 +22818,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22837,10 +22837,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22872,7 +22872,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -22891,7 +22891,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -22901,11 +22901,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22916,11 +22916,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -22935,10 +22935,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -22978,11 +22978,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -22993,11 +22993,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23012,10 +23012,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23048,7 +23048,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23058,11 +23058,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23073,11 +23073,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23092,10 +23092,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23127,7 +23127,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23137,11 +23137,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23152,11 +23152,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23171,10 +23171,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23214,11 +23214,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23229,11 +23229,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23248,10 +23248,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23287,7 +23287,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -23296,7 +23296,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23306,11 +23306,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23321,11 +23321,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23340,10 +23340,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23375,7 +23375,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -23394,7 +23394,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23404,11 +23404,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23419,11 +23419,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23438,10 +23438,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23481,11 +23481,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23496,11 +23496,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23515,10 +23515,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23551,7 +23551,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23561,11 +23561,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23576,11 +23576,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23595,10 +23595,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23630,7 +23630,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -23640,11 +23640,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23655,11 +23655,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23674,10 +23674,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23717,11 +23717,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -23732,11 +23732,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -23751,10 +23751,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -23788,7 +23788,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -23798,11 +23798,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23813,11 +23813,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23832,10 +23832,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23875,11 +23875,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23890,11 +23890,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23909,10 +23909,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -23945,7 +23945,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -23955,11 +23955,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -23970,11 +23970,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -23989,10 +23989,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24024,7 +24024,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -24034,11 +24034,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -24049,11 +24049,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -24068,10 +24068,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24111,11 +24111,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -24126,11 +24126,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -24145,10 +24145,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24186,7 +24186,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24195,7 +24195,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24205,11 +24205,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24220,11 +24220,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24239,10 +24239,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24274,7 +24274,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24293,7 +24293,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24303,11 +24303,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24318,11 +24318,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24337,10 +24337,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24380,11 +24380,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24395,11 +24395,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24414,10 +24414,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24450,7 +24450,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24460,11 +24460,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24475,11 +24475,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24494,10 +24494,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24529,7 +24529,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24539,11 +24539,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24554,11 +24554,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24573,10 +24573,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24616,11 +24616,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24631,11 +24631,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24650,10 +24650,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24687,7 +24687,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -24696,7 +24696,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -24706,11 +24706,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -24721,11 +24721,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -24740,10 +24740,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -24775,7 +24775,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -24796,7 +24796,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24805,7 +24805,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24815,11 +24815,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24830,11 +24830,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24849,10 +24849,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24884,7 +24884,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -24903,7 +24903,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -24913,11 +24913,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -24928,11 +24928,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -24947,10 +24947,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -24990,11 +24990,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25005,11 +25005,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25024,10 +25024,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25060,7 +25060,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25070,11 +25070,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25085,11 +25085,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25104,10 +25104,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25139,7 +25139,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25149,11 +25149,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25164,11 +25164,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25183,10 +25183,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25226,11 +25226,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25241,11 +25241,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25260,10 +25260,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25299,7 +25299,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -25308,7 +25308,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25318,11 +25318,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25333,11 +25333,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25352,10 +25352,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25387,7 +25387,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -25406,7 +25406,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25416,11 +25416,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25431,11 +25431,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25450,10 +25450,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25493,11 +25493,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25508,11 +25508,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25527,10 +25527,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25563,7 +25563,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25573,11 +25573,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25588,11 +25588,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25607,10 +25607,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25642,7 +25642,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -25652,11 +25652,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25667,11 +25667,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25686,10 +25686,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25729,11 +25729,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -25744,11 +25744,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -25763,10 +25763,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -25800,7 +25800,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -25810,11 +25810,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25825,11 +25825,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25844,10 +25844,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25887,11 +25887,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25902,11 +25902,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -25921,10 +25921,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -25957,7 +25957,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -25967,11 +25967,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -25982,11 +25982,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -26001,10 +26001,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -26036,7 +26036,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -26046,11 +26046,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -26061,11 +26061,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -26080,10 +26080,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -26123,11 +26123,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -26138,11 +26138,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -26157,10 +26157,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -26194,7 +26194,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26204,11 +26204,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26219,11 +26219,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26238,10 +26238,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26281,11 +26281,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26296,11 +26296,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26315,10 +26315,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26351,7 +26351,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26361,11 +26361,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26376,11 +26376,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26395,10 +26395,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26430,7 +26430,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -26440,11 +26440,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26455,11 +26455,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26474,10 +26474,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26517,11 +26517,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -26532,11 +26532,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -26551,10 +26551,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -26590,13 +26590,13 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
         aggregate_key_type    = ""
         evaluation_window_sec = 0
         limit                 = 0
-        
+
         custom_key {
           asn {
           }
           cookie {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -26606,7 +26606,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           header {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -26627,7 +26627,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           query_argument {
             name = ""
-            
+
             text_transformation {
               priority = 0
               type     = ""
@@ -26657,7 +26657,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -26666,7 +26666,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -26676,11 +26676,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -26691,11 +26691,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -26710,10 +26710,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -26745,7 +26745,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -26764,7 +26764,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -26774,11 +26774,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -26789,11 +26789,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -26808,10 +26808,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -26851,11 +26851,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -26866,11 +26866,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -26885,10 +26885,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -26921,7 +26921,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -26931,11 +26931,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -26946,11 +26946,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -26965,10 +26965,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27000,7 +27000,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27010,11 +27010,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27025,11 +27025,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27044,10 +27044,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27087,11 +27087,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27102,11 +27102,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27121,10 +27121,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27158,7 +27158,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -27167,7 +27167,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -27177,11 +27177,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -27192,11 +27192,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -27211,10 +27211,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -27246,7 +27246,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -27267,7 +27267,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -27276,7 +27276,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27286,11 +27286,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27301,11 +27301,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27320,10 +27320,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27355,7 +27355,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -27374,7 +27374,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27384,11 +27384,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27399,11 +27399,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27418,10 +27418,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27461,11 +27461,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27476,11 +27476,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27495,10 +27495,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27531,7 +27531,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27541,11 +27541,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27556,11 +27556,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27575,10 +27575,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27610,7 +27610,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27620,11 +27620,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27635,11 +27635,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27654,10 +27654,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27697,11 +27697,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27712,11 +27712,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27731,10 +27731,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27770,7 +27770,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -27779,7 +27779,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27789,11 +27789,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27804,11 +27804,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27823,10 +27823,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27858,7 +27858,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -27877,7 +27877,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -27887,11 +27887,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27902,11 +27902,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27921,10 +27921,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -27964,11 +27964,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -27979,11 +27979,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -27998,10 +27998,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28034,7 +28034,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -28044,11 +28044,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28059,11 +28059,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -28078,10 +28078,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28113,7 +28113,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -28123,11 +28123,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28138,11 +28138,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -28157,10 +28157,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28200,11 +28200,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28215,11 +28215,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -28234,10 +28234,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28271,7 +28271,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -28281,11 +28281,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -28296,11 +28296,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -28315,10 +28315,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -28358,11 +28358,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -28373,11 +28373,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -28392,10 +28392,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -28428,7 +28428,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -28438,11 +28438,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -28453,11 +28453,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -28472,10 +28472,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -28507,7 +28507,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -28517,11 +28517,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -28532,11 +28532,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -28551,10 +28551,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -28594,11 +28594,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -28609,11 +28609,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -28628,10 +28628,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -28665,7 +28665,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           asn_match_statement {
             asn_list = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -28674,7 +28674,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           byte_match_statement {
             positional_constraint = ""
             search_string         = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -28684,11 +28684,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -28699,11 +28699,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -28718,10 +28718,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -28753,7 +28753,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           geo_match_statement {
             country_codes = []
-            
+
             forwarded_ip_config {
               fallback_behavior = ""
               header_name       = ""
@@ -28776,7 +28776,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -28785,7 +28785,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -28795,11 +28795,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28810,11 +28810,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -28829,10 +28829,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28864,7 +28864,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -28883,7 +28883,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -28893,11 +28893,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28908,11 +28908,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -28927,10 +28927,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -28970,11 +28970,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -28985,11 +28985,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29004,10 +29004,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29040,7 +29040,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29050,11 +29050,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29065,11 +29065,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29084,10 +29084,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29119,7 +29119,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29129,11 +29129,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29144,11 +29144,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29163,10 +29163,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29206,11 +29206,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29221,11 +29221,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29240,10 +29240,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29277,7 +29277,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -29286,7 +29286,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -29296,11 +29296,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -29311,11 +29311,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -29330,10 +29330,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -29365,7 +29365,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -29386,7 +29386,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -29395,7 +29395,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29405,11 +29405,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29420,11 +29420,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29439,10 +29439,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29474,7 +29474,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -29493,7 +29493,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29503,11 +29503,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29518,11 +29518,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29537,10 +29537,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29580,11 +29580,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29595,11 +29595,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29614,10 +29614,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29650,7 +29650,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29660,11 +29660,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29675,11 +29675,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29694,10 +29694,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29729,7 +29729,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29739,11 +29739,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29754,11 +29754,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29773,10 +29773,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29816,11 +29816,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29831,11 +29831,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29850,10 +29850,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29889,7 +29889,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -29898,7 +29898,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -29908,11 +29908,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -29923,11 +29923,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -29942,10 +29942,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -29977,7 +29977,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -29996,7 +29996,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -30006,11 +30006,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30021,11 +30021,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30040,10 +30040,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30083,11 +30083,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30098,11 +30098,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30117,10 +30117,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30153,7 +30153,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -30163,11 +30163,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30178,11 +30178,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30197,10 +30197,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30232,7 +30232,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -30242,11 +30242,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30257,11 +30257,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30276,10 +30276,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30319,11 +30319,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30334,11 +30334,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30353,10 +30353,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30390,7 +30390,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -30400,11 +30400,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -30415,11 +30415,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -30434,10 +30434,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -30477,11 +30477,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -30492,11 +30492,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -30511,10 +30511,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -30547,7 +30547,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -30557,11 +30557,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -30572,11 +30572,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -30591,10 +30591,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -30626,7 +30626,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -30636,11 +30636,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -30651,11 +30651,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -30670,10 +30670,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -30713,11 +30713,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -30728,11 +30728,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -30747,10 +30747,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -30788,7 +30788,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -30797,7 +30797,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -30807,11 +30807,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30822,11 +30822,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30841,10 +30841,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30876,7 +30876,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -30895,7 +30895,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -30905,11 +30905,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30920,11 +30920,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -30939,10 +30939,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -30982,11 +30982,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -30997,11 +30997,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31016,10 +31016,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31052,7 +31052,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31062,11 +31062,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31077,11 +31077,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31096,10 +31096,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31131,7 +31131,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31141,11 +31141,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31156,11 +31156,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31175,10 +31175,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31218,11 +31218,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31233,11 +31233,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31252,10 +31252,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31289,7 +31289,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               asn_match_statement {
                 asn_list = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -31298,7 +31298,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               byte_match_statement {
                 positional_constraint = ""
                 search_string         = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -31308,11 +31308,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -31323,11 +31323,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -31342,10 +31342,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -31377,7 +31377,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               geo_match_statement {
                 country_codes = []
-                
+
                 forwarded_ip_config {
                   fallback_behavior = ""
                   header_name       = ""
@@ -31398,7 +31398,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -31407,7 +31407,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31417,11 +31417,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31432,11 +31432,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31451,10 +31451,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31486,7 +31486,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -31505,7 +31505,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31515,11 +31515,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31530,11 +31530,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31549,10 +31549,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31592,11 +31592,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31607,11 +31607,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31626,10 +31626,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31662,7 +31662,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31672,11 +31672,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31687,11 +31687,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31706,10 +31706,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31741,7 +31741,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31751,11 +31751,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31766,11 +31766,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31785,10 +31785,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31828,11 +31828,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31843,11 +31843,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31862,10 +31862,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31901,7 +31901,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 statement {
                   asn_match_statement {
                     asn_list = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -31910,7 +31910,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   byte_match_statement {
                     positional_constraint = ""
                     search_string         = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -31920,11 +31920,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -31935,11 +31935,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -31954,10 +31954,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -31989,7 +31989,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   geo_match_statement {
                     country_codes = []
-                    
+
                     forwarded_ip_config {
                       fallback_behavior = ""
                       header_name       = ""
@@ -32008,7 +32008,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   regex_match_statement {
                     regex_string = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -32018,11 +32018,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -32033,11 +32033,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -32052,10 +32052,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -32095,11 +32095,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -32110,11 +32110,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -32129,10 +32129,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -32165,7 +32165,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   size_constraint_statement {
                     comparison_operator = ""
                     size                = 0
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -32175,11 +32175,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -32190,11 +32190,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -32209,10 +32209,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -32244,7 +32244,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   }
                   sqli_match_statement {
                     sensitivity_level = ""
-                    
+
                     field_to_match {
                       all_query_arguments {
                       }
@@ -32254,11 +32254,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -32269,11 +32269,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -32288,10 +32288,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -32331,11 +32331,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       cookies {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_cookies = []
                           included_cookies = []
-                          
+
                           all {
                           }
                         }
@@ -32346,11 +32346,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                       headers {
                         match_scope       = ""
                         oversize_handling = ""
-                        
+
                         match_pattern {
                           excluded_headers = []
                           included_headers = []
-                          
+
                           all {
                           }
                         }
@@ -32365,10 +32365,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                         invalid_fallback_behavior = ""
                         match_scope               = ""
                         oversize_handling         = ""
-                        
+
                         match_pattern {
                           included_paths = []
-                          
+
                           all {
                           }
                         }
@@ -32402,7 +32402,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               regex_match_statement {
                 regex_string = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -32412,11 +32412,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -32427,11 +32427,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -32446,10 +32446,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -32489,11 +32489,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -32504,11 +32504,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -32523,10 +32523,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -32559,7 +32559,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               size_constraint_statement {
                 comparison_operator = ""
                 size                = 0
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -32569,11 +32569,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -32584,11 +32584,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -32603,10 +32603,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -32638,7 +32638,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               }
               sqli_match_statement {
                 sensitivity_level = ""
-                
+
                 field_to_match {
                   all_query_arguments {
                   }
@@ -32648,11 +32648,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -32663,11 +32663,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -32682,10 +32682,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -32725,11 +32725,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   cookies {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_cookies = []
                       included_cookies = []
-                      
+
                       all {
                       }
                     }
@@ -32740,11 +32740,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                   headers {
                     match_scope       = ""
                     oversize_handling = ""
-                    
+
                     match_pattern {
                       excluded_headers = []
                       included_headers = []
-                      
+
                       all {
                       }
                     }
@@ -32759,10 +32759,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                     invalid_fallback_behavior = ""
                     match_scope               = ""
                     oversize_handling         = ""
-                    
+
                     match_pattern {
                       included_paths = []
-                      
+
                       all {
                       }
                     }
@@ -32796,7 +32796,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           regex_match_statement {
             regex_string = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -32806,11 +32806,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -32821,11 +32821,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -32840,10 +32840,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -32883,11 +32883,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -32898,11 +32898,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -32917,10 +32917,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -32953,7 +32953,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           size_constraint_statement {
             comparison_operator = ""
             size                = 0
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -32963,11 +32963,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -32978,11 +32978,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -32997,10 +32997,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -33032,7 +33032,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           }
           sqli_match_statement {
             sensitivity_level = ""
-            
+
             field_to_match {
               all_query_arguments {
               }
@@ -33042,11 +33042,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -33057,11 +33057,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -33076,10 +33076,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -33119,11 +33119,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               cookies {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_cookies = []
                   included_cookies = []
-                  
+
                   all {
                   }
                 }
@@ -33134,11 +33134,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               headers {
                 match_scope       = ""
                 oversize_handling = ""
-                
+
                 match_pattern {
                   excluded_headers = []
                   included_headers = []
-                  
+
                   all {
                   }
                 }
@@ -33153,10 +33153,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
                 invalid_fallback_behavior = ""
                 match_scope               = ""
                 oversize_handling         = ""
-                
+
                 match_pattern {
                   included_paths = []
-                  
+
                   all {
                   }
                 }
@@ -33190,7 +33190,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       }
       regex_match_statement {
         regex_string = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -33200,11 +33200,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -33215,11 +33215,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -33234,10 +33234,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -33277,11 +33277,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -33292,11 +33292,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -33311,10 +33311,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -33347,7 +33347,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       rule_group_reference_statement {
         rule_action_override {
           name = ""
-          
+
           action_to_use {
             allow {
               custom_request_handling {
@@ -33361,7 +33361,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
               custom_response {
                 custom_response_body_key = ""
                 response_code            = 0
-                
+
                 response_header {
                   name  = ""
                   value = ""
@@ -33398,7 +33398,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       size_constraint_statement {
         comparison_operator = ""
         size                = 0
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -33408,11 +33408,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -33423,11 +33423,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -33442,10 +33442,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -33477,7 +33477,7 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
       }
       sqli_match_statement {
         sensitivity_level = ""
-        
+
         field_to_match {
           all_query_arguments {
           }
@@ -33487,11 +33487,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -33502,11 +33502,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -33521,10 +33521,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -33564,11 +33564,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           cookies {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_cookies = []
               included_cookies = []
-              
+
               all {
               }
             }
@@ -33579,11 +33579,11 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
           headers {
             match_scope       = ""
             oversize_handling = ""
-            
+
             match_pattern {
               excluded_headers = []
               included_headers = []
-              
+
               all {
               }
             }
@@ -33598,10 +33598,10 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
             invalid_fallback_behavior = ""
             match_scope               = ""
             oversize_handling         = ""
-            
+
             match_pattern {
               included_paths = []
-              
+
               all {
               }
             }
@@ -33643,6 +33643,6 @@ resource "aws_wafv2_web_acl" "tf-sample-wafv2-web-acl" {
     metric_name                = ""
     sampled_requests_enabled   = false
   }
-  
+
   tags = {}
 }

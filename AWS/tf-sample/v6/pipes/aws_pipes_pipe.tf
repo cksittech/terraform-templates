@@ -9,10 +9,10 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
   role_arn           = ""
   source             = ""
   target             = ""
-  
+
   enrichment_parameters {
     input_template = ""
-    
+
     http_parameters {
       header_parameters       = {}
       path_parameter_values   = []
@@ -22,7 +22,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
   log_configuration {
     include_execution_data = []
     level                  = ""
-    
+
     cloudwatch_logs_log_destination {
       log_group_arn = ""
     }
@@ -41,7 +41,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       batch_size                         = 0
       maximum_batching_window_in_seconds = 0
       queue_name                         = ""
-      
+
       credentials {
         basic_auth = ""
       }
@@ -54,7 +54,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       on_partial_batch_item_failure      = ""
       parallelization_factor             = 0
       starting_position                  = ""
-      
+
       dead_letter_config {
       }
     }
@@ -72,7 +72,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       parallelization_factor             = 0
       starting_position                  = ""
       starting_position_timestamp        = ""
-      
+
       dead_letter_config {
       }
     }
@@ -82,7 +82,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       maximum_batching_window_in_seconds = 0
       starting_position                  = ""
       topic_name                         = ""
-      
+
       credentials {
         client_certificate_tls_auth = ""
         sasl_scram_512_auth         = ""
@@ -93,7 +93,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       maximum_batching_window_in_seconds = 0
       queue_name                         = ""
       virtual_host                       = ""
-      
+
       credentials {
         basic_auth = ""
       }
@@ -106,7 +106,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       server_root_ca_certificate         = ""
       starting_position                  = ""
       topic_name                         = ""
-      
+
       credentials {
         basic_auth                  = ""
         client_certificate_tls_auth = ""
@@ -125,19 +125,19 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
   }
   target_parameters {
     input_template = ""
-    
+
     batch_job_parameters {
       job_definition = ""
       job_name       = ""
       parameters     = {}
-      
+
       array_properties {
         size = 0
       }
       container_overrides {
         command       = []
         instance_type = ""
-        
+
         environment {
           name  = ""
           value = ""
@@ -169,7 +169,7 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       reference_id            = ""
       task_count              = 0
       task_definition_arn     = ""
-      
+
       capacity_provider_strategy {
         base              = 0
         capacity_provider = ""
@@ -187,14 +187,14 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
         execution_role_arn = ""
         memory             = ""
         task_role_arn      = ""
-        
+
         container_override {
           command            = []
           cpu                = 0
           memory             = 0
           memory_reservation = 0
           name               = ""
-          
+
           environment {
             name  = ""
             value = ""
@@ -265,6 +265,6 @@ resource "aws_pipes_pipe" "tf-sample-pipes-pipe" {
       invocation_type = ""
     }
   }
-  
+
   tags = {}
 }

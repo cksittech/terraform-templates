@@ -6,6 +6,6 @@ resource "aws_rds_integration" "tf-sample-rds-integration" {
   region                        = ""
   source_arn                    = ""
   target_arn                    = ""
-  
+
   tags = {}
 }

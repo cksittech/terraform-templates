@@ -4,6 +4,6 @@ resource "aws_apprunner_auto_scaling_configuration_version" "tf-sample-apprunner
   max_size                        = 0
   min_size                        = 0
   region                          = ""
-  
+
   tags = {}
 }

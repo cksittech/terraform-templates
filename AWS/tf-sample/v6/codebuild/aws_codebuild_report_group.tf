@@ -3,10 +3,10 @@ resource "aws_codebuild_report_group" "tf-sample-codebuild-report-group" {
   name           = ""
   region         = ""
   type           = ""
-  
+
   export_config {
     type = ""
-    
+
     s3_destination {
       bucket              = ""
       encryption_disabled = false
@@ -15,6 +15,6 @@ resource "aws_codebuild_report_group" "tf-sample-codebuild-report-group" {
       path                = ""
     }
   }
-  
+
   tags = {}
 }

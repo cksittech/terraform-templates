@@ -2,7 +2,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
   group_by_attribute = ""
   name               = ""
   region             = ""
-  
+
   filters {
     aws_account_id {
       comparison = ""
@@ -44,7 +44,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     created_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -92,7 +92,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     first_observed_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -112,7 +112,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     last_observed_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -183,7 +183,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     note_updated_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -196,7 +196,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     process_launched_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -223,7 +223,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     process_terminated_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -279,7 +279,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     resource_aws_ec2_instance_launched_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -300,7 +300,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     resource_aws_iam_access_key_created_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -333,7 +333,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     resource_container_launched_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -384,7 +384,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     threat_intel_indicator_last_observed_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0
@@ -417,7 +417,7 @@ resource "aws_securityhub_insight" "tf-sample-securityhub-insight" {
     updated_at {
       end   = ""
       start = ""
-      
+
       date_range {
         unit  = ""
         value = 0

@@ -6,7 +6,7 @@ resource "aws_glue_user_defined_function" "tf-sample-glue-user-defined-function"
   owner_name    = ""
   owner_type    = ""
   region        = ""
-  
+
   resource_uris {
     resource_type = ""
     uri           = ""

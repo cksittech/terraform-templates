@@ -7,16 +7,16 @@ resource "aws_ecs_daemon" "tf-sample-ecs-daemon" {
   name                       = ""
   propagate_tags             = ""
   region                     = ""
-  
+
   deployment_configuration {
     bake_time_in_minutes = 0
     drain_percent        = 0
-    
+
     alarms {
       alarm_names = []
       enable      = false
     }
   }
-  
+
   tags = {}
 }

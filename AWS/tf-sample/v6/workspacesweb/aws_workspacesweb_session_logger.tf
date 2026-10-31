@@ -3,10 +3,10 @@ resource "aws_workspacesweb_session_logger" "tf-sample-workspacesweb-session-log
   customer_managed_key          = ""
   display_name                  = ""
   region                        = ""
-  
+
   event_filter {
     include = []
-    
+
     all {
     }
   }
@@ -19,6 +19,6 @@ resource "aws_workspacesweb_session_logger" "tf-sample-workspacesweb-session-log
       log_file_format  = ""
     }
   }
-  
+
   tags = {}
 }

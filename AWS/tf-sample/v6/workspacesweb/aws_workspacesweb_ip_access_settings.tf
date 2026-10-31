@@ -4,11 +4,11 @@ resource "aws_workspacesweb_ip_access_settings" "tf-sample-workspacesweb-ip-acce
   description                   = ""
   display_name                  = ""
   region                        = ""
-  
+
   ip_rule {
     description = ""
     ip_range    = ""
   }
-  
+
   tags = {}
 }

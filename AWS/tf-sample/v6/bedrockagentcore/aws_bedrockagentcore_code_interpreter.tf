@@ -3,7 +3,7 @@ resource "aws_bedrockagentcore_code_interpreter" "tf-sample-bedrockagentcore-cod
   execution_role_arn = ""
   name               = ""
   region             = ""
-  
+
   certificate {
     location {
       secrets_manager {
@@ -13,12 +13,12 @@ resource "aws_bedrockagentcore_code_interpreter" "tf-sample-bedrockagentcore-cod
   }
   network_configuration {
     network_mode = ""
-    
+
     vpc_config {
       security_groups = []
       subnets         = []
     }
   }
-  
+
   tags = {}
 }

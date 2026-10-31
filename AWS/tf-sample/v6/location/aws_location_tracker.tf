@@ -4,6 +4,6 @@ resource "aws_location_tracker" "tf-sample-location-tracker" {
   position_filtering = ""
   region             = ""
   tracker_name       = ""
-  
+
   tags = {}
 }

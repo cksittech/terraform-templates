@@ -4,7 +4,7 @@ resource "aws_dms_migration_project" "tf-sample-dms-migration-project" {
   name                 = ""
   region               = ""
   transformation_rules = ""
-  
+
   schema_conversion_application_attributes {
     s3_bucket_path     = ""
     s3_bucket_role_arn = ""
@@ -19,6 +19,6 @@ resource "aws_dms_migration_project" "tf-sample-dms-migration-project" {
     secrets_manager_access_role_arn = ""
     secrets_manager_secret_id       = ""
   }
-  
+
   tags = {}
 }

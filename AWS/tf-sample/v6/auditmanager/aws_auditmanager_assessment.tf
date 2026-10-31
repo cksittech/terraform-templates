@@ -3,7 +3,7 @@ resource "aws_auditmanager_assessment" "tf-sample-auditmanager-assessment" {
   framework_id = ""
   name         = ""
   region       = ""
-  
+
   assessment_reports_destination {
     destination      = ""
     destination_type = ""
@@ -20,6 +20,6 @@ resource "aws_auditmanager_assessment" "tf-sample-auditmanager-assessment" {
       service_name = ""
     }
   }
-  
+
   tags = {}
 }

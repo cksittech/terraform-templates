@@ -3,6 +3,6 @@ resource "aws_backup_vault" "tf-sample-backup-vault" {
   kms_key_arn   = ""
   name          = ""
   region        = ""
-  
+
   tags = {}
 }

@@ -3,10 +3,10 @@ resource "aws_connect_quick_connect" "tf-sample-connect-quick-connect" {
   instance_id = ""
   name        = ""
   region      = ""
-  
+
   quick_connect_config {
     quick_connect_type = ""
-    
+
     phone_config {
       phone_number = ""
     }
@@ -19,6 +19,6 @@ resource "aws_connect_quick_connect" "tf-sample-connect-quick-connect" {
       user_id         = ""
     }
   }
-  
+
   tags = {}
 }

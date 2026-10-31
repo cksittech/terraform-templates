@@ -5,31 +5,31 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
   resource_id        = ""
   scalable_dimension = ""
   service_namespace  = ""
-  
+
   predictive_scaling_policy_configuration {
     max_capacity_breach_behavior = ""
     max_capacity_buffer          = 0
     mode                         = ""
     scheduling_buffer_time       = 0
-    
+
     metric_specification {
       target_value = ""
-      
+
       customized_capacity_metric_specification {
         metric_data_query {
           expression  = ""
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimension {
                 name  = ""
                 value = ""
@@ -44,15 +44,15 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimension {
                 name  = ""
                 value = ""
@@ -67,15 +67,15 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
           id          = ""
           label       = ""
           return_data = false
-          
+
           metric_stat {
             stat = ""
             unit = ""
-            
+
             metric {
               metric_name = ""
               namespace   = ""
-              
+
               dimension {
                 name  = ""
                 value = ""
@@ -103,7 +103,7 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
     cooldown                 = 0
     metric_aggregation_type  = ""
     min_adjustment_magnitude = 0
-    
+
     step_adjustment {
       metric_interval_lower_bound = ""
       metric_interval_upper_bound = ""
@@ -115,13 +115,13 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
     scale_in_cooldown  = 0
     scale_out_cooldown = 0
     target_value       = 0
-    
+
     customized_metric_specification {
       metric_name = ""
       namespace   = ""
       statistic   = ""
       unit        = ""
-      
+
       dimensions {
         name  = ""
         value = ""
@@ -131,15 +131,15 @@ resource "aws_appautoscaling_policy" "tf-sample-appautoscaling-policy" {
         id          = ""
         label       = ""
         return_data = false
-        
+
         metric_stat {
           stat = ""
           unit = ""
-          
+
           metric {
             metric_name = ""
             namespace   = ""
-            
+
             dimensions {
               name  = ""
               value = ""

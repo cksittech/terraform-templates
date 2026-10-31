@@ -4,7 +4,7 @@ resource "aws_cloudwatch_alarm_mute_rule" "tf-sample-cloudwatch-alarm-mute-rule"
   name        = ""
   region      = ""
   start_date  = ""
-  
+
   mute_targets {
     alarm_names = []
   }
@@ -15,6 +15,6 @@ resource "aws_cloudwatch_alarm_mute_rule" "tf-sample-cloudwatch-alarm-mute-rule"
       timezone   = ""
     }
   }
-  
+
   tags = {}
 }

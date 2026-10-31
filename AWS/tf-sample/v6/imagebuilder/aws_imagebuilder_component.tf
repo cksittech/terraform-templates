@@ -10,6 +10,6 @@ resource "aws_imagebuilder_component" "tf-sample-imagebuilder-component" {
   supported_os_versions = []
   uri                   = ""
   version               = ""
-  
+
   tags = {}
 }

@@ -12,6 +12,6 @@ resource "aws_kms_key" "tf-sample-kms-key" {
   region                             = ""
   rotation_period_in_days            = 0
   xks_key_id                         = ""
-  
+
   tags = {}
 }

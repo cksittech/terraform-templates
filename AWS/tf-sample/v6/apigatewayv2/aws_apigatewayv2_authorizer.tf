@@ -9,7 +9,7 @@ resource "aws_apigatewayv2_authorizer" "tf-sample-apigatewayv2-authorizer" {
   identity_sources                  = []
   name                              = ""
   region                            = ""
-  
+
   jwt_configuration {
     audience = []
     issuer   = ""

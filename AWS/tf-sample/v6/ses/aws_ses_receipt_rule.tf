@@ -7,7 +7,7 @@ resource "aws_ses_receipt_rule" "tf-sample-ses-receipt-rule" {
   rule_set_name = ""
   scan_enabled  = false
   tls_policy    = ""
-  
+
   add_header_action {
     header_name  = ""
     header_value = ""

@@ -3,7 +3,7 @@ resource "aws_securitylake_subscriber" "tf-sample-securitylake-subscriber" {
   region                 = ""
   subscriber_description = ""
   subscriber_name        = ""
-  
+
   source {
     aws_log_source_resource {
       source_name    = ""
@@ -18,6 +18,6 @@ resource "aws_securitylake_subscriber" "tf-sample-securitylake-subscriber" {
     external_id = ""
     principal   = ""
   }
-  
+
   tags = {}
 }

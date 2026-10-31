@@ -6,6 +6,6 @@ resource "aws_redshift_hsm_configuration" "tf-sample-redshift-hsm-configuration"
   hsm_partition_password        = ""
   hsm_server_public_certificate = ""
   region                        = ""
-  
+
   tags = {}
 }

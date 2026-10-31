@@ -7,6 +7,6 @@ resource "aws_appconfig_deployment" "tf-sample-appconfig-deployment" {
   environment_id           = ""
   kms_key_identifier       = ""
   region                   = ""
-  
+
   tags = {}
 }

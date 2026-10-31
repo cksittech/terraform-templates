@@ -21,7 +21,7 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
   valid_from                          = ""
   valid_until                         = ""
   wait_for_fulfillment                = false
-  
+
   launch_specification {
     ami                         = ""
     associate_public_ip_address = false
@@ -39,7 +39,7 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
     user_data                   = ""
     vpc_security_group_ids      = []
     weighted_capacity           = ""
-    
+
     ebs_block_device {
       delete_on_termination = false
       device_name           = ""
@@ -78,7 +78,7 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
       spot_price        = ""
       subnet_id         = ""
       weighted_capacity = 0
-      
+
       instance_requirements {
         accelerator_manufacturers                        = []
         accelerator_names                                = []
@@ -94,7 +94,7 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
         on_demand_max_price_percentage_over_lowest_price = 0
         require_hibernate_support                        = false
         spot_max_price_percentage_over_lowest_price      = 0
-        
+
         accelerator_count {
           max = 0
           min = 0
@@ -139,6 +139,6 @@ resource "aws_spot_fleet_request" "tf-sample-spot-fleet-request" {
       replacement_strategy = ""
     }
   }
-  
+
   tags = {}
 }

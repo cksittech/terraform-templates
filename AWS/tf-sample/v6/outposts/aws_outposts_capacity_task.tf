@@ -4,7 +4,7 @@ resource "aws_outposts_capacity_task" "tf-sample-outposts-capacity-task" {
   outpost_identifier                = ""
   region                            = ""
   task_action_on_blocking_instances = ""
-  
+
   instance_pool {
     count         = 0
     instance_type = ""

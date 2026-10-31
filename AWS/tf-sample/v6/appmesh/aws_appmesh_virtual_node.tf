@@ -3,17 +3,17 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
   mesh_owner = ""
   name       = ""
   region     = ""
-  
+
   spec {
     backend {
       virtual_service {
         virtual_service_name = ""
-        
+
         client_policy {
           tls {
             enforce = false
             ports   = []
-            
+
             certificate {
               file {
                 certificate_chain = ""
@@ -50,7 +50,7 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
         tls {
           enforce = false
           ports   = []
-          
+
           certificate {
             file {
               certificate_chain = ""
@@ -109,7 +109,7 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
       outlier_detection {
         max_ejection_percent = 0
         max_server_errors    = 0
-        
+
         base_ejection_duration {
           unit  = ""
           value = 0
@@ -163,7 +163,7 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
       }
       tls {
         mode = ""
-        
+
         certificate {
           acm {
             certificate_arn = ""
@@ -197,10 +197,10 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
       access_log {
         file {
           path = ""
-          
+
           format {
             text = ""
-            
+
             json {
               key   = ""
               value = ""
@@ -222,6 +222,6 @@ resource "aws_appmesh_virtual_node" "tf-sample-appmesh-virtual-node" {
       }
     }
   }
-  
+
   tags = {}
 }

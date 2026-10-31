@@ -6,12 +6,12 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
   platform_version        = ""
   region                  = ""
   role_arn                = ""
-  
+
   agent_runtime_artifact {
     code_configuration {
       entry_point = []
       runtime     = ""
-      
+
       code {
         s3 {
           bucket     = ""
@@ -30,20 +30,20 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
       allowed_clients  = []
       allowed_scopes   = []
       discovery_url    = ""
-      
+
       allowed_workload_configuration {
         workload_identities = []
-        
+
         hosting_environment {
         }
       }
       custom_claim {
         inbound_token_claim_name       = ""
         inbound_token_claim_value_type = ""
-        
+
         authorizing_claim_match_value {
           claim_match_operator = ""
-          
+
           claim_match_value {
             match_value_string      = ""
             match_value_string_list = []
@@ -64,7 +64,7 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
       }
       private_endpoint_overrides {
         domain = ""
-        
+
         private_endpoint {
           managed_vpc_resource {
             endpoint_ip_address_type = ""
@@ -95,7 +95,7 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
   }
   network_configuration {
     network_mode = ""
-    
+
     network_mode_config {
       security_groups = []
       subnets         = []
@@ -107,6 +107,6 @@ resource "aws_bedrockagentcore_agent_runtime" "tf-sample-bedrockagentcore-agent-
   request_header_configuration {
     request_header_allowlist = []
   }
-  
+
   tags = {}
 }

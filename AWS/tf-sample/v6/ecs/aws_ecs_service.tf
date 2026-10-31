@@ -20,7 +20,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
   task_definition                    = ""
   triggers                           = {}
   wait_for_steady_state              = false
-  
+
   alarms {
     alarm_names = []
     enable      = false
@@ -38,7 +38,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
   deployment_configuration {
     bake_time_in_minutes = ""
     strategy             = ""
-    
+
     canary_configuration {
       canary_bake_time_in_minutes = ""
       canary_percent              = 0
@@ -49,7 +49,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
       lifecycle_stages = []
       role_arn         = ""
       target_type      = ""
-      
+
       timeout_configuration {
         action             = ""
         timeout_in_minutes = ""
@@ -68,7 +68,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
     container_port   = 0
     elb_name         = ""
     target_group_arn = ""
-    
+
     advanced_configuration {
       alternate_target_group_arn = ""
       production_listener_rule   = ""
@@ -92,7 +92,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
   service_connect_configuration {
     enabled   = false
     namespace = ""
-    
+
     access_log_configuration {
       format                   = ""
       include_query_parameters = ""
@@ -100,7 +100,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
     log_configuration {
       log_driver = ""
       options    = {}
-      
+
       secret_option {
         name       = ""
         value_from = ""
@@ -110,15 +110,15 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
       discovery_name        = ""
       ingress_port_override = 0
       port_name             = ""
-      
+
       client_alias {
         dns_name = ""
         port     = 0
-        
+
         test_traffic_rules {
           header {
             name = ""
-            
+
             value {
               exact = ""
             }
@@ -132,7 +132,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
       tls {
         kms_key  = ""
         role_arn = ""
-        
+
         issuer_cert_authority {
           aws_pca_authority_arn = ""
         }
@@ -147,7 +147,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
   }
   volume_configuration {
     name = ""
-    
+
     managed_ebs_volume {
       encrypted                  = false
       file_system_type           = ""
@@ -159,7 +159,7 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
       throughput                 = 0
       volume_initialization_rate = 0
       volume_type                = ""
-      
+
       tag_specifications {
         propagate_tags = ""
         resource_type  = ""
@@ -171,6 +171,6 @@ resource "aws_ecs_service" "tf-sample-ecs-service" {
     role_arn         = ""
     target_group_arn = ""
   }
-  
+
   tags = {}
 }

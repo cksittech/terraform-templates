@@ -3,14 +3,14 @@ resource "aws_appsync_channel_namespace" "tf-sample-appsync-channel-namespace" {
   code_handlers = ""
   name          = ""
   region        = ""
-  
+
   handler_configs {
     on_publish {
       behavior = ""
-      
+
       integration {
         data_source_name = ""
-        
+
         lambda_config {
           invoke_type = ""
         }
@@ -18,10 +18,10 @@ resource "aws_appsync_channel_namespace" "tf-sample-appsync-channel-namespace" {
     }
     on_subscribe {
       behavior = ""
-      
+
       integration {
         data_source_name = ""
-        
+
         lambda_config {
           invoke_type = ""
         }
@@ -34,6 +34,6 @@ resource "aws_appsync_channel_namespace" "tf-sample-appsync-channel-namespace" {
   subscribe_auth_mode {
     auth_type = ""
   }
-  
+
   tags = {}
 }

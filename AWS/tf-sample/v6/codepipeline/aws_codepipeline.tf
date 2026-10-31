@@ -4,12 +4,12 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
   pipeline_type  = ""
   region         = ""
   role_arn       = ""
-  
+
   artifact_store {
     location = ""
     region   = ""
     type     = ""
-    
+
     encryption_key {
       id   = ""
       type = ""
@@ -17,7 +17,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
   }
   stage {
     name = ""
-    
+
     action {
       category           = ""
       commands           = []
@@ -34,7 +34,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
       run_order          = 0
       timeout_in_minutes = 0
       version            = ""
-      
+
       output_artifacts_for_compute_action {
         files = []
         name  = ""
@@ -43,7 +43,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     before_entry {
       condition {
         result = ""
-        
+
         rule {
           commands           = []
           configuration      = {}
@@ -52,7 +52,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
           region             = ""
           role_arn           = ""
           timeout_in_minutes = 0
-          
+
           rule_type_id {
             category = ""
             owner    = ""
@@ -64,10 +64,10 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     }
     on_failure {
       result = ""
-      
+
       condition {
         result = ""
-        
+
         rule {
           commands           = []
           configuration      = {}
@@ -76,7 +76,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
           region             = ""
           role_arn           = ""
           timeout_in_minutes = 0
-          
+
           rule_type_id {
             category = ""
             owner    = ""
@@ -92,7 +92,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     on_success {
       condition {
         result = ""
-        
+
         rule {
           commands           = []
           configuration      = {}
@@ -101,7 +101,7 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
           region             = ""
           role_arn           = ""
           timeout_in_minutes = 0
-          
+
           rule_type_id {
             category = ""
             owner    = ""
@@ -114,13 +114,13 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
   }
   trigger {
     provider_type = ""
-    
+
     git_configuration {
       source_action_name = ""
-      
+
       pull_request {
         events = []
-        
+
         branches {
           excludes = []
           includes = []
@@ -151,6 +151,6 @@ resource "aws_codepipeline" "tf-sample-codepipeline" {
     description   = ""
     name          = ""
   }
-  
+
   tags = {}
 }

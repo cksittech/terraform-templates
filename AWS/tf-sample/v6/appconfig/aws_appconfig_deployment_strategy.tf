@@ -7,6 +7,6 @@ resource "aws_appconfig_deployment_strategy" "tf-sample-appconfig-deployment-str
   name                           = ""
   region                         = ""
   replicate_to                   = ""
-  
+
   tags = {}
 }

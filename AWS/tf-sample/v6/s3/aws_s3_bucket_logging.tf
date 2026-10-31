@@ -3,10 +3,10 @@ resource "aws_s3_bucket_logging" "tf-sample-s3-bucket-logging" {
   region        = ""
   target_bucket = ""
   target_prefix = ""
-  
+
   target_grant {
     permission = ""
-    
+
     grantee {
       email_address = ""
       id            = ""

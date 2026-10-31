@@ -3,7 +3,7 @@ resource "aws_lakeformation_lf_tag_expression" "tf-sample-lakeformation-lf-tag-e
   description = ""
   name        = ""
   region      = ""
-  
+
   expression {
     tag_key    = ""
     tag_values = []

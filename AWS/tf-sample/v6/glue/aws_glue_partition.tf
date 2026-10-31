@@ -5,7 +5,7 @@ resource "aws_glue_partition" "tf-sample-glue-partition" {
   partition_values = []
   region           = ""
   table_name       = ""
-  
+
   storage_descriptor {
     additional_locations      = []
     bucket_columns            = []
@@ -16,7 +16,7 @@ resource "aws_glue_partition" "tf-sample-glue-partition" {
     output_format             = ""
     parameters                = {}
     stored_as_sub_directories = false
-    
+
     columns {
       comment = ""
       name    = ""

@@ -3,7 +3,7 @@ resource "aws_codepipeline_custom_action_type" "tf-sample-codepipeline-custom-ac
   provider_name = ""
   region        = ""
   version       = ""
-  
+
   configuration_property {
     description = ""
     key         = false
@@ -27,6 +27,6 @@ resource "aws_codepipeline_custom_action_type" "tf-sample-codepipeline-custom-ac
     revision_url_template         = ""
     third_party_configuration_url = ""
   }
-  
+
   tags = {}
 }

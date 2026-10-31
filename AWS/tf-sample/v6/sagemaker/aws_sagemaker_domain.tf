@@ -8,11 +8,11 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
   subnet_ids                    = []
   tag_propagation               = ""
   vpc_id                        = ""
-  
+
   default_space_settings {
     execution_role  = ""
     security_groups = []
-    
+
     custom_file_system_config {
       efs_file_system_config {
         file_system_id   = ""
@@ -26,7 +26,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     jupyter_lab_app_settings {
       built_in_lifecycle_config_arn = ""
       lifecycle_config_arns         = []
-      
+
       app_lifecycle_management {
         idle_settings {
           idle_timeout_in_minutes     = 0
@@ -57,7 +57,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     }
     jupyter_server_app_settings {
       lifecycle_config_arns = []
-      
+
       code_repository {
         repository_url = ""
       }
@@ -71,7 +71,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     }
     kernel_gateway_app_settings {
       lifecycle_config_arns = []
-      
+
       custom_image {
         app_image_config_name = ""
         image_name            = ""
@@ -98,7 +98,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     execution_role      = ""
     security_groups     = []
     studio_web_portal   = ""
-    
+
     canvas_app_settings {
       direct_deploy_settings {
         status = ""
@@ -134,7 +134,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     code_editor_app_settings {
       built_in_lifecycle_config_arn = ""
       lifecycle_config_arns         = []
-      
+
       app_lifecycle_management {
         idle_settings {
           idle_timeout_in_minutes     = 0
@@ -169,7 +169,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     jupyter_lab_app_settings {
       built_in_lifecycle_config_arn = ""
       lifecycle_config_arns         = []
-      
+
       app_lifecycle_management {
         idle_settings {
           idle_timeout_in_minutes     = 0
@@ -200,7 +200,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     }
     jupyter_server_app_settings {
       lifecycle_config_arns = []
-      
+
       code_repository {
         repository_url = ""
       }
@@ -214,7 +214,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
     }
     kernel_gateway_app_settings {
       lifecycle_config_arns = []
-      
+
       custom_image {
         app_image_config_name = ""
         image_name            = ""
@@ -275,7 +275,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
   domain_settings {
     execution_role_identity_config = ""
     security_group_ids             = []
-    
+
     docker_settings {
       enable_docker_access      = ""
       vpc_only_trusted_accounts = []
@@ -284,7 +284,7 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
       domain_execution_role_arn    = ""
       r_studio_connect_url         = ""
       r_studio_package_manager_url = ""
-      
+
       default_resource_spec {
         instance_type                 = ""
         lifecycle_config_arn          = ""
@@ -300,6 +300,6 @@ resource "aws_sagemaker_domain" "tf-sample-sagemaker-domain" {
   retention_policy {
     home_efs_file_system = ""
   }
-  
+
   tags = {}
 }

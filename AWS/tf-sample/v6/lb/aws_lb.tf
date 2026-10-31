@@ -25,7 +25,7 @@ resource "aws_lb" "tf-sample-lb" {
   security_groups                                              = []
   subnets                                                      = []
   xff_header_processing_mode                                   = ""
-  
+
   access_logs {
     bucket  = ""
     enabled = false
@@ -53,6 +53,6 @@ resource "aws_lb" "tf-sample-lb" {
     private_ipv4_address = ""
     subnet_id            = ""
   }
-  
+
   tags = {}
 }

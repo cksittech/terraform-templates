@@ -5,7 +5,7 @@ resource "aws_vpclattice_listener" "tf-sample-vpclattice-listener" {
   region             = ""
   service_arn        = ""
   service_identifier = ""
-  
+
   default_action {
     fixed_response {
       status_code = 0
@@ -17,6 +17,6 @@ resource "aws_vpclattice_listener" "tf-sample-vpclattice-listener" {
       }
     }
   }
-  
+
   tags = {}
 }

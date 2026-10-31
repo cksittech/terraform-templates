@@ -7,12 +7,12 @@ resource "aws_cognito_identity_pool" "tf-sample-cognito-identity-pool" {
   region                           = ""
   saml_provider_arns               = []
   supported_login_providers        = {}
-  
+
   cognito_identity_providers {
     client_id               = ""
     provider_name           = ""
     server_side_token_check = false
   }
-  
+
   tags = {}
 }

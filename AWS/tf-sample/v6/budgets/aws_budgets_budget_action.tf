@@ -5,7 +5,7 @@ resource "aws_budgets_budget_action" "tf-sample-budgets-budget-action" {
   budget_name        = ""
   execution_role_arn = ""
   notification_type  = ""
-  
+
   action_threshold {
     action_threshold_type  = ""
     action_threshold_value = 0
@@ -31,6 +31,6 @@ resource "aws_budgets_budget_action" "tf-sample-budgets-budget-action" {
     address           = ""
     subscription_type = ""
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
   name        = ""
   rank        = 0
   region      = ""
-  
+
   finding_criteria {
     criterion {
       equals                = []
@@ -19,6 +19,6 @@ resource "aws_guardduty_filter" "tf-sample-guardduty-filter" {
       not_matches           = []
     }
   }
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-schedu
   name               = ""
   query_string       = ""
   region             = ""
-  
+
   error_report_configuration {
     s3_configuration {
       bucket_name       = ""
@@ -62,7 +62,7 @@ resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-schedu
       measure_name_column = ""
       table_name          = ""
       time_column         = ""
-      
+
       dimension_mapping {
         dimension_value_type = ""
         name                 = ""
@@ -72,7 +72,7 @@ resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-schedu
         measure_value_type  = ""
         source_column       = ""
         target_measure_name = ""
-        
+
         multi_measure_attribute_mapping {
           measure_value_type                  = ""
           source_column                       = ""
@@ -81,7 +81,7 @@ resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-schedu
       }
       multi_measure_mappings {
         target_multi_measure_name = ""
-        
+
         multi_measure_attribute_mapping {
           measure_value_type                  = ""
           source_column                       = ""
@@ -90,6 +90,6 @@ resource "aws_timestreamquery_scheduled_query" "tf-sample-timestreamquery-schedu
       }
     }
   }
-  
+
   tags = {}
 }

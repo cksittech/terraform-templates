@@ -6,6 +6,6 @@ resource "aws_workmail_organization" "tf-sample-workmail-organization" {
   kms_key_arn                        = ""
   organization_alias                 = ""
   region                             = ""
-  
+
   tags = {}
 }

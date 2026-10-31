@@ -8,11 +8,11 @@ resource "aws_secretsmanager_secret" "tf-sample-secretsmanager-secret" {
   recovery_window_in_days        = 0
   region                         = ""
   type                           = ""
-  
+
   replica {
     kms_key_id = ""
     region     = ""
   }
-  
+
   tags = {}
 }

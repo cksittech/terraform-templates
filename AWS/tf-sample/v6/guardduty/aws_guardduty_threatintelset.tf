@@ -5,6 +5,6 @@ resource "aws_guardduty_threatintelset" "tf-sample-guardduty-threatintelset" {
   location    = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

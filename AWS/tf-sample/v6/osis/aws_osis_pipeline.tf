@@ -5,7 +5,7 @@ resource "aws_osis_pipeline" "tf-sample-osis-pipeline" {
   pipeline_name               = ""
   pipeline_role_arn           = ""
   region                      = ""
-  
+
   buffer_options {
     persistent_buffer_enabled = false
   }
@@ -14,7 +14,7 @@ resource "aws_osis_pipeline" "tf-sample-osis-pipeline" {
   }
   log_publishing_options {
     is_logging_enabled = false
-    
+
     cloudwatch_log_destination {
       log_group = ""
     }
@@ -24,6 +24,6 @@ resource "aws_osis_pipeline" "tf-sample-osis-pipeline" {
     subnet_ids              = []
     vpc_endpoint_management = ""
   }
-  
+
   tags = {}
 }

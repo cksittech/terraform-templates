@@ -2,7 +2,7 @@ resource "aws_api_gateway_documentation_part" "tf-sample-api-gateway-documentati
   properties  = ""
   region      = ""
   rest_api_id = ""
-  
+
   location {
     method      = ""
     name        = ""

@@ -3,11 +3,11 @@ resource "aws_directory_service_region" "tf-sample-directory-service-region" {
   directory_id                         = ""
   region                               = ""
   region_name                          = ""
-  
+
   vpc_settings {
     subnet_ids = []
     vpc_id     = ""
   }
-  
+
   tags = {}
 }

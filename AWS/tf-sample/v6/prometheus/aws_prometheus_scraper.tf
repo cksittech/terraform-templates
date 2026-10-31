@@ -2,7 +2,7 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
   alias                = ""
   region               = ""
   scrape_configuration = ""
-  
+
   destination {
     amp {
       workspace_arn = ""
@@ -31,6 +31,6 @@ resource "aws_prometheus_scraper" "tf-sample-prometheus-scraper" {
       subnet_ids         = []
     }
   }
-  
+
   tags = {}
 }

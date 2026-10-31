@@ -2,7 +2,7 @@ resource "aws_prometheus_scraper_logging_configuration" "tf-sample-prometheus-sc
   region             = ""
   scraper_components = []
   scraper_id         = ""
-  
+
   logging_destination {
     cloudwatch_logs {
       log_group_arn = ""

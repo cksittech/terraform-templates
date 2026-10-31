@@ -13,6 +13,6 @@ resource "aws_bedrockagent_agent" "tf-sample-bedrockagent-agent" {
   prompt_override_configuration = []
   region                        = ""
   skip_resource_in_use_check    = false
-  
+
   tags = {}
 }

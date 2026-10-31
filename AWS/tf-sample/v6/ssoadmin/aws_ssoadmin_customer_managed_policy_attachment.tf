@@ -2,7 +2,7 @@ resource "aws_ssoadmin_customer_managed_policy_attachment" "tf-sample-ssoadmin-c
   instance_arn       = ""
   permission_set_arn = ""
   region             = ""
-  
+
   customer_managed_policy_reference {
     name = ""
     path = ""

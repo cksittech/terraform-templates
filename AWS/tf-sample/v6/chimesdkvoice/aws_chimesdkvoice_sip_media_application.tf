@@ -2,10 +2,10 @@ resource "aws_chimesdkvoice_sip_media_application" "tf-sample-chimesdkvoice-sip-
   aws_region = ""
   name       = ""
   region     = ""
-  
+
   endpoints {
     lambda_arn = ""
   }
-  
+
   tags = {}
 }

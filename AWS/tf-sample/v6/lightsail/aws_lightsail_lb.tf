@@ -4,6 +4,6 @@ resource "aws_lightsail_lb" "tf-sample-lightsail-lb" {
   ip_address_type   = ""
   name              = ""
   region            = ""
-  
+
   tags = {}
 }

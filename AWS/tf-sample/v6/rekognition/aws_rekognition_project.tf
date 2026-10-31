@@ -3,6 +3,6 @@ resource "aws_rekognition_project" "tf-sample-rekognition-project" {
   feature     = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

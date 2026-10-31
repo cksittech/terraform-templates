@@ -1,7 +1,7 @@
 resource "aws_glue_classifier" "tf-sample-glue-classifier" {
   name   = ""
   region = ""
-  
+
   csv_classifier {
     allow_single_column        = false
     contains_header            = ""

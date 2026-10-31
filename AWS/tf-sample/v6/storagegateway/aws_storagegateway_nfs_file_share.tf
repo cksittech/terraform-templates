@@ -17,7 +17,7 @@ resource "aws_storagegateway_nfs_file_share" "tf-sample-storagegateway-nfs-file-
   role_arn                = ""
   squash                  = ""
   vpc_endpoint_dns_name   = ""
-  
+
   cache_attributes {
     cache_stale_timeout_in_seconds = 0
   }
@@ -27,6 +27,6 @@ resource "aws_storagegateway_nfs_file_share" "tf-sample-storagegateway-nfs-file-
     group_id       = ""
     owner_id       = ""
   }
-  
+
   tags = {}
 }

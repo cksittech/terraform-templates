@@ -5,6 +5,6 @@ resource "aws_s3_bucket" "tf-sample-s3-bucket" {
   force_destroy       = false
   object_lock_enabled = false
   region              = ""
-  
+
   tags = {}
 }

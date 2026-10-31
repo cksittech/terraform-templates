@@ -9,6 +9,6 @@ resource "aws_eip" "tf-sample-eip" {
   network_interface         = ""
   public_ipv4_pool          = ""
   region                    = ""
-  
+
   tags = {}
 }

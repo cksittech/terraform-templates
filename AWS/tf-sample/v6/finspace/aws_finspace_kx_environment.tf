@@ -3,7 +3,7 @@ resource "aws_finspace_kx_environment" "tf-sample-finspace-kx-environment" {
   kms_key_id  = ""
   name        = ""
   region      = ""
-  
+
   custom_dns_configuration {
     custom_dns_server_ip   = ""
     custom_dns_server_name = ""
@@ -11,13 +11,13 @@ resource "aws_finspace_kx_environment" "tf-sample-finspace-kx-environment" {
   transit_gateway_configuration {
     routable_cidr_space = ""
     transit_gateway_id  = ""
-    
+
     attachment_network_acl_configuration {
       cidr_block  = ""
       protocol    = ""
       rule_action = ""
       rule_number = 0
-      
+
       icmp_type_code {
         code = 0
         type = 0
@@ -28,6 +28,6 @@ resource "aws_finspace_kx_environment" "tf-sample-finspace-kx-environment" {
       }
     }
   }
-  
+
   tags = {}
 }

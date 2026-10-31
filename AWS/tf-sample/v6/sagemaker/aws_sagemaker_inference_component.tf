@@ -3,7 +3,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
   name          = ""
   region        = ""
   variant_name  = ""
-  
+
   deployment_config {
     auto_rollback_configuration {
       alarms {
@@ -13,7 +13,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
     rolling_update_policy {
       maximum_execution_timeout_in_seconds = 0
       wait_interval_in_seconds             = 0
-      
+
       maximum_batch_size {
         type  = ""
         value = 0
@@ -31,7 +31,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
     base_inference_component_name = ""
     instance_type                 = ""
     model_name                    = ""
-    
+
     compute_resource_requirements {
       max_memory_required_in_mb              = 0
       min_memory_required_in_mb              = 0
@@ -42,7 +42,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
       artifact_url = ""
       environment  = {}
       image        = ""
-      
+
       container_metrics_config {
         metrics_endpoint {
           metric_publish_frequency_in_seconds = 0
@@ -55,7 +55,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
     }
     scheduling_config {
       placement_strategy = ""
-      
+
       availability_zone_balance {
         enforcement_mode = ""
         max_imbalance    = 0
@@ -70,7 +70,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
     base_inference_component_name = ""
     instance_type                 = ""
     model_name                    = ""
-    
+
     compute_resource_requirements {
       max_memory_required_in_mb              = 0
       min_memory_required_in_mb              = 0
@@ -81,7 +81,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
       artifact_url = ""
       environment  = {}
       image        = ""
-      
+
       container_metrics_config {
         metrics_endpoint {
           metric_publish_frequency_in_seconds = 0
@@ -94,7 +94,7 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
     }
     scheduling_config {
       placement_strategy = ""
-      
+
       availability_zone_balance {
         enforcement_mode = ""
         max_imbalance    = 0
@@ -105,6 +105,6 @@ resource "aws_sagemaker_inference_component" "tf-sample-sagemaker-inference-comp
       model_data_download_timeout_in_seconds            = 0
     }
   }
-  
+
   tags = {}
 }

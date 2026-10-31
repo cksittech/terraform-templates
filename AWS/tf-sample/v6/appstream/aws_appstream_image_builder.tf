@@ -9,7 +9,7 @@ resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
   instance_type                  = ""
   name                           = ""
   region                         = ""
-  
+
   access_endpoint {
     endpoint_type = ""
     vpce_id       = ""
@@ -22,6 +22,6 @@ resource "aws_appstream_image_builder" "tf-sample-appstream-image-builder" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

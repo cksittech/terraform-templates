@@ -4,6 +4,6 @@ resource "aws_bedrockagentcore_agent_runtime_endpoint" "tf-sample-bedrockagentco
   description           = ""
   name                  = ""
   region                = ""
-  
+
   tags = {}
 }

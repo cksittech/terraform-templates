@@ -7,7 +7,7 @@ resource "aws_bedrock_custom_model" "tf-sample-bedrock-custom-model" {
   job_name                = ""
   region                  = ""
   role_arn                = ""
-  
+
   output_data_config {
     s3_uri = ""
   }
@@ -23,6 +23,6 @@ resource "aws_bedrock_custom_model" "tf-sample-bedrock-custom-model" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

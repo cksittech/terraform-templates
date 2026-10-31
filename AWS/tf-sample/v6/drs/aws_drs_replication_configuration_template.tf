@@ -13,7 +13,7 @@ resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication
   staging_area_subnet_id                  = ""
   staging_area_tags                       = {}
   use_dedicated_replication_server        = false
-  
+
   pit_policy {
     enabled            = false
     interval           = 0
@@ -21,6 +21,6 @@ resource "aws_drs_replication_configuration_template" "tf-sample-drs-replication
     rule_id            = 0
     units              = ""
   }
-  
+
   tags = {}
 }

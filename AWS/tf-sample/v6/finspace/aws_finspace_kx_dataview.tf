@@ -9,12 +9,12 @@ resource "aws_finspace_kx_dataview" "tf-sample-finspace-kx-dataview" {
   name                 = ""
   read_write           = false
   region               = ""
-  
+
   segment_configurations {
     db_paths    = []
     on_demand   = false
     volume_name = ""
   }
-  
+
   tags = {}
 }

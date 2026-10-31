@@ -19,7 +19,7 @@ resource "aws_network_interface" "tf-sample-network-interface" {
   security_groups           = []
   source_dest_check         = false
   subnet_id                 = ""
-  
+
   attachment {
     device_index       = 0
     instance           = ""
@@ -32,11 +32,11 @@ resource "aws_network_interface" "tf-sample-network-interface" {
   }
   ena_srd_specification {
     ena_srd_enabled = false
-    
+
     ena_srd_udp_specification {
       ena_srd_udp_enabled = false
     }
   }
-  
+
   tags = {}
 }

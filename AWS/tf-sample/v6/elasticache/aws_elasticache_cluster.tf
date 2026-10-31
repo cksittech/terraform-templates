@@ -27,13 +27,13 @@ resource "aws_elasticache_cluster" "tf-sample-elasticache-cluster" {
   snapshot_window              = ""
   subnet_group_name            = ""
   transit_encryption_enabled   = false
-  
+
   log_delivery_configuration {
     destination      = ""
     destination_type = ""
     log_format       = ""
     log_type         = ""
   }
-  
+
   tags = {}
 }

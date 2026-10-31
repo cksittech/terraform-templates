@@ -5,11 +5,11 @@ resource "aws_eks_capability" "tf-sample-eks-capability" {
   region                    = ""
   role_arn                  = ""
   type                      = ""
-  
+
   configuration {
     argo_cd {
       namespace = ""
-      
+
       aws_idc {
         idc_instance_arn = ""
         idc_region       = ""
@@ -19,7 +19,7 @@ resource "aws_eks_capability" "tf-sample-eks-capability" {
       }
       rbac_role_mapping {
         role = ""
-        
+
         identity {
           id   = ""
           type = ""
@@ -27,6 +27,6 @@ resource "aws_eks_capability" "tf-sample-eks-capability" {
       }
     }
   }
-  
+
   tags = {}
 }

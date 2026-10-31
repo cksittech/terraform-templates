@@ -4,6 +4,6 @@ resource "aws_connect_security_profile" "tf-sample-connect-security-profile" {
   name        = ""
   permissions = []
   region      = ""
-  
+
   tags = {}
 }

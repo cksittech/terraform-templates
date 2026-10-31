@@ -23,7 +23,7 @@ resource "aws_mwaa_environment" "tf-sample-mwaa-environment" {
   webserver_access_mode            = ""
   weekly_maintenance_window_start  = ""
   worker_replacement_strategy      = ""
-  
+
   logging_configuration {
     dag_processing_logs {
       enabled   = false
@@ -50,6 +50,6 @@ resource "aws_mwaa_environment" "tf-sample-mwaa-environment" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

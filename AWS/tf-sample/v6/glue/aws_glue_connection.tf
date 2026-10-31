@@ -7,13 +7,13 @@ resource "aws_glue_connection" "tf-sample-glue-connection" {
   match_criteria        = []
   name                  = ""
   region                = ""
-  
+
   authentication_configuration {
     authentication_type               = ""
     custom_authentication_credentials = {}
     kms_key_arn                       = ""
     secret_arn                        = ""
-    
+
     basic_authentication_credentials {
       password = ""
       username = ""
@@ -22,7 +22,7 @@ resource "aws_glue_connection" "tf-sample-glue-connection" {
       oauth2_grant_type        = ""
       token_url                = ""
       token_url_parameters_map = {}
-      
+
       authorization_code_properties {
         authorization_code = ""
         redirect_uri       = ""
@@ -44,6 +44,6 @@ resource "aws_glue_connection" "tf-sample-glue-connection" {
     security_group_id_list = []
     subnet_id              = ""
   }
-  
+
   tags = {}
 }

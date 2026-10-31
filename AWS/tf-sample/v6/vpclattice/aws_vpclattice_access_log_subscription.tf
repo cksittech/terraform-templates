@@ -3,6 +3,6 @@ resource "aws_vpclattice_access_log_subscription" "tf-sample-vpclattice-access-l
   region                   = ""
   resource_identifier      = ""
   service_network_log_type = ""
-  
+
   tags = {}
 }

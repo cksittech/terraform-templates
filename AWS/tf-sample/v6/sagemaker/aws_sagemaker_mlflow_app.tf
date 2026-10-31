@@ -7,6 +7,6 @@ resource "aws_sagemaker_mlflow_app" "tf-sample-sagemaker-mlflow-app" {
   region                          = ""
   role_arn                        = ""
   weekly_maintenance_window_start = ""
-  
+
   tags = {}
 }

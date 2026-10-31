@@ -5,6 +5,6 @@ resource "aws_iam_server_certificate" "tf-sample-iam-server-certificate" {
   name_prefix       = ""
   path              = ""
   private_key       = ""
-  
+
   tags = {}
 }

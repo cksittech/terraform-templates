@@ -4,11 +4,11 @@ resource "aws_eks_fargate_profile" "tf-sample-eks-fargate-profile" {
   pod_execution_role_arn = ""
   region                 = ""
   subnet_ids             = []
-  
+
   selector {
     labels    = {}
     namespace = ""
   }
-  
+
   tags = {}
 }

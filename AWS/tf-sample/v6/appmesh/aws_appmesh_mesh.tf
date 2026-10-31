@@ -1,7 +1,7 @@
 resource "aws_appmesh_mesh" "tf-sample-appmesh-mesh" {
   name   = ""
   region = ""
-  
+
   spec {
     egress_filter {
       type = ""
@@ -10,6 +10,6 @@ resource "aws_appmesh_mesh" "tf-sample-appmesh-mesh" {
       ip_preference = ""
     }
   }
-  
+
   tags = {}
 }

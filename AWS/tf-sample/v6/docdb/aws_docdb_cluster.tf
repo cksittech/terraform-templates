@@ -30,7 +30,7 @@ resource "aws_docdb_cluster" "tf-sample-docdb-cluster" {
   storage_encrypted               = false
   storage_type                    = ""
   vpc_security_group_ids          = []
-  
+
   restore_to_point_in_time {
     restore_to_time            = ""
     restore_type               = ""
@@ -41,6 +41,6 @@ resource "aws_docdb_cluster" "tf-sample-docdb-cluster" {
     max_capacity = 0
     min_capacity = 0
   }
-  
+
   tags = {}
 }

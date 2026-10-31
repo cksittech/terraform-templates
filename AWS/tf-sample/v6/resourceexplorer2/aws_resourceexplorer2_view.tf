@@ -3,13 +3,13 @@ resource "aws_resourceexplorer2_view" "tf-sample-resourceexplorer2-view" {
   name         = ""
   region       = ""
   scope        = ""
-  
+
   filters {
     filter_string = ""
   }
   included_property {
     name = ""
   }
-  
+
   tags = {}
 }

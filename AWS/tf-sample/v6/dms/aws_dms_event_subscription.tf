@@ -6,6 +6,6 @@ resource "aws_dms_event_subscription" "tf-sample-dms-event-subscription" {
   sns_topic_arn    = ""
   source_ids       = []
   source_type      = ""
-  
+
   tags = {}
 }

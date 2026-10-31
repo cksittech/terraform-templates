@@ -6,7 +6,7 @@ resource "aws_redshift_idc_application" "tf-sample-redshift-idc-application" {
   identity_namespace            = ""
   redshift_idc_application_name = ""
   region                        = ""
-  
+
   authorized_token_issuer {
     authorized_audiences_list = []
     trusted_token_issuer_arn  = ""
@@ -28,6 +28,6 @@ resource "aws_redshift_idc_application" "tf-sample-redshift-idc-application" {
       }
     }
   }
-  
+
   tags = {}
 }

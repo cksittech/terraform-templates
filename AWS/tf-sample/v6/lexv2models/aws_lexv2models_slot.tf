@@ -7,7 +7,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
   name         = ""
   region       = ""
   slot_type_id = ""
-  
+
   multiple_values_setting {
     allow_multiple_values = false
   }
@@ -16,11 +16,11 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
   }
   sub_slot_setting {
     expression = ""
-    
+
     slot_specification {
       map_block_key = ""
       slot_type_id  = ""
-      
+
       value_elicitation_setting {
         default_value_specification {
           default_value_list {
@@ -31,7 +31,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
           allow_interrupt            = false
           max_retries                = 0
           message_selection_strategy = ""
-          
+
           message_group {
             message {
               custom_payload {
@@ -41,7 +41,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                 image_url = ""
                 subtitle  = ""
                 title     = ""
-                
+
                 button {
                   text  = ""
                   value = ""
@@ -62,7 +62,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                 image_url = ""
                 subtitle  = ""
                 title     = ""
-                
+
                 button {
                   text  = ""
                   value = ""
@@ -79,14 +79,14 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
           prompt_attempts_specification {
             allow_interrupt = false
             map_block_key   = ""
-            
+
             allowed_input_types {
               allow_audio_input = false
               allow_dtmf_input  = false
             }
             audio_and_dtmf_input_specification {
               start_timeout_ms = 0
-              
+
               audio_specification {
                 end_timeout_ms = 0
                 max_length_ms  = 0
@@ -108,10 +108,10 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
         }
         wait_and_continue_specification {
           active = false
-          
+
           continue_response {
             allow_interrupt = false
-            
+
             message_group {
               message {
                 custom_payload {
@@ -121,7 +121,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -142,7 +142,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -161,7 +161,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
             allow_interrupt      = false
             frequency_in_seconds = 0
             timeout_in_seconds   = 0
-            
+
             message_group {
               message {
                 custom_payload {
@@ -171,7 +171,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -192,7 +192,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -209,7 +209,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
           }
           waiting_response {
             allow_interrupt = false
-            
+
             message_group {
               message {
                 custom_payload {
@@ -219,7 +219,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -240,7 +240,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
                   image_url = ""
                   subtitle  = ""
                   title     = ""
-                  
+
                   button {
                     text  = ""
                     value = ""
@@ -261,7 +261,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
   }
   value_elicitation_setting {
     slot_constraint = ""
-    
+
     default_value_specification {
       default_value_list {
         default_value = ""
@@ -271,7 +271,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
       allow_interrupt            = false
       max_retries                = 0
       message_selection_strategy = ""
-      
+
       message_group {
         message {
           custom_payload {
@@ -281,7 +281,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
             image_url = ""
             subtitle  = ""
             title     = ""
-            
+
             button {
               text  = ""
               value = ""
@@ -302,7 +302,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
             image_url = ""
             subtitle  = ""
             title     = ""
-            
+
             button {
               text  = ""
               value = ""
@@ -319,14 +319,14 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
       prompt_attempts_specification {
         allow_interrupt = false
         map_block_key   = ""
-        
+
         allowed_input_types {
           allow_audio_input = false
           allow_dtmf_input  = false
         }
         audio_and_dtmf_input_specification {
           start_timeout_ms = 0
-          
+
           audio_specification {
             end_timeout_ms = 0
             max_length_ms  = 0
@@ -351,10 +351,10 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
     }
     wait_and_continue_specification {
       active = false
-      
+
       continue_response {
         allow_interrupt = false
-        
+
         message_group {
           message {
             custom_payload {
@@ -364,7 +364,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""
@@ -385,7 +385,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""
@@ -404,7 +404,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
         allow_interrupt      = false
         frequency_in_seconds = 0
         timeout_in_seconds   = 0
-        
+
         message_group {
           message {
             custom_payload {
@@ -414,7 +414,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""
@@ -435,7 +435,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""
@@ -452,7 +452,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
       }
       waiting_response {
         allow_interrupt = false
-        
+
         message_group {
           message {
             custom_payload {
@@ -462,7 +462,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""
@@ -483,7 +483,7 @@ resource "aws_lexv2models_slot" "tf-sample-lexv2models-slot" {
               image_url = ""
               subtitle  = ""
               title     = ""
-              
+
               button {
                 text  = ""
                 value = ""

@@ -8,11 +8,11 @@ resource "aws_ami_copy" "tf-sample-ami-copy" {
   region                  = ""
   source_ami_id           = ""
   source_ami_region       = ""
-  
+
   ebs_block_device {
   }
   ephemeral_block_device {
   }
-  
+
   tags = {}
 }

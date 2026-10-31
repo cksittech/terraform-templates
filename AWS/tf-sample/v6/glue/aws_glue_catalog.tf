@@ -5,10 +5,10 @@ resource "aws_glue_catalog" "tf-sample-glue-catalog" {
   overwrite_child_resource_permissions_with_default = ""
   parameters                                        = {}
   region                                            = ""
-  
+
   catalog_properties {
     custom_properties = {}
-    
+
     data_lake_access_properties {
       catalog_type       = ""
       data_lake_access   = false
@@ -24,14 +24,14 @@ resource "aws_glue_catalog" "tf-sample-glue-catalog" {
   }
   create_database_default_permissions {
     permissions = []
-    
+
     principal {
       data_lake_principal_identifier = ""
     }
   }
   create_table_default_permissions {
     permissions = []
-    
+
     principal {
       data_lake_principal_identifier = ""
     }
@@ -44,6 +44,6 @@ resource "aws_glue_catalog" "tf-sample-glue-catalog" {
   target_redshift_catalog {
     catalog_arn = ""
   }
-  
+
   tags = {}
 }

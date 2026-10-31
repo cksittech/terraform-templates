@@ -28,6 +28,6 @@ resource "aws_sns_topic" "tf-sample-sns-topic" {
   sqs_success_feedback_role_arn            = ""
   sqs_success_feedback_sample_rate         = 0
   tracing_config                           = ""
-  
+
   tags = {}
 }

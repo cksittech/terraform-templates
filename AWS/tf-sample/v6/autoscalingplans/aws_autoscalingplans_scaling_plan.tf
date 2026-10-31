@@ -1,10 +1,10 @@
 resource "aws_autoscalingplans_scaling_plan" "tf-sample-autoscalingplans-scaling-plan" {
   name   = ""
   region = ""
-  
+
   application_source {
     cloudformation_stack_arn = ""
-    
+
     tag_filter {
       key    = ""
       values = []
@@ -22,7 +22,7 @@ resource "aws_autoscalingplans_scaling_plan" "tf-sample-autoscalingplans-scaling
     scaling_policy_update_behavior           = ""
     scheduled_action_buffer_time             = 0
     service_namespace                        = ""
-    
+
     customized_load_metric_specification {
       dimensions  = {}
       metric_name = ""
@@ -40,7 +40,7 @@ resource "aws_autoscalingplans_scaling_plan" "tf-sample-autoscalingplans-scaling
       scale_in_cooldown         = 0
       scale_out_cooldown        = 0
       target_value              = 0
-      
+
       customized_scaling_metric_specification {
         dimensions  = {}
         metric_name = ""

@@ -6,6 +6,6 @@ resource "aws_connect_contact_flow_module" "tf-sample-connect-contact-flow-modul
   instance_id  = ""
   name         = ""
   region       = ""
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
   gateway_identifier = ""
   name               = ""
   region             = ""
-  
+
   credential_provider_configuration {
     api_key {
       credential_location       = ""
@@ -50,7 +50,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
     http {
       agentcore_runtime {
         qualifier = ""
-        
+
         schema {
           source {
             inline_payload {
@@ -68,7 +68,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
         protocol_type                              = ""
         static_query_parameter_conflict_resolution = ""
         static_query_parameters                    = {}
-        
+
         schema {
           source {
             inline_payload {
@@ -95,7 +95,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
       }
       provider {
         endpoint = ""
-        
+
         model_mapping {
           provider_prefix {
             separator = ""
@@ -105,7 +105,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
         operation {
           path          = ""
           provider_path = ""
-          
+
           model {
             model = ""
           }
@@ -116,7 +116,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
       api_gateway {
         rest_api_id = ""
         stage       = ""
-        
+
         api_gateway_tool_configuration {
           tool_filter {
             filter_path = ""
@@ -132,12 +132,12 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
       }
       connector {
         enabled = []
-        
+
         configuration {
           description      = ""
           name             = ""
           parameter_values = ""
-          
+
           parameter_override {
             description = ""
             path        = ""
@@ -151,20 +151,20 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
       }
       lambda {
         lambda_arn = ""
-        
+
         tool_schema {
           inline_payload {
             description = ""
             name        = ""
-            
+
             input_schema {
               description = ""
               type        = ""
-              
+
               items {
                 description = ""
                 type        = ""
-                
+
                 items {
                   description     = ""
                   items_json      = ""
@@ -185,11 +185,11 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
                 name        = ""
                 required    = false
                 type        = ""
-                
+
                 items {
                   description = ""
                   type        = ""
-                  
+
                   items {
                     description     = ""
                     items_json      = ""
@@ -218,11 +218,11 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
             output_schema {
               description = ""
               type        = ""
-              
+
               items {
                 description = ""
                 type        = ""
-                
+
                 items {
                   description     = ""
                   items_json      = ""
@@ -243,11 +243,11 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
                 name        = ""
                 required    = false
                 type        = ""
-                
+
                 items {
                   description = ""
                   type        = ""
-                  
+
                   items {
                     description     = ""
                     items_json      = ""
@@ -284,7 +284,7 @@ resource "aws_bedrockagentcore_gateway_target" "tf-sample-bedrockagentcore-gatew
         endpoint          = ""
         listing_mode      = ""
         resource_priority = 0
-        
+
         mcp_tool_schema {
           inline_payload {
             payload = ""

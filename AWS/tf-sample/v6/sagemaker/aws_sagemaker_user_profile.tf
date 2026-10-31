@@ -4,14 +4,14 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
   single_sign_on_user_identifier = ""
   single_sign_on_user_value      = ""
   user_profile_name              = ""
-  
+
   user_settings {
     auto_mount_home_efs = ""
     default_landing_uri = ""
     execution_role      = ""
     security_groups     = []
     studio_web_portal   = ""
-    
+
     canvas_app_settings {
       direct_deploy_settings {
         status = ""
@@ -47,7 +47,7 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
     code_editor_app_settings {
       built_in_lifecycle_config_arn = ""
       lifecycle_config_arns         = []
-      
+
       app_lifecycle_management {
         idle_settings {
           idle_timeout_in_minutes     = 0
@@ -82,7 +82,7 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
     jupyter_lab_app_settings {
       built_in_lifecycle_config_arn = ""
       lifecycle_config_arns         = []
-      
+
       app_lifecycle_management {
         idle_settings {
           idle_timeout_in_minutes     = 0
@@ -113,7 +113,7 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
     }
     jupyter_server_app_settings {
       lifecycle_config_arns = []
-      
+
       code_repository {
         repository_url = ""
       }
@@ -127,7 +127,7 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
     }
     kernel_gateway_app_settings {
       lifecycle_config_arns = []
-      
+
       custom_image {
         app_image_config_name = ""
         image_name            = ""
@@ -185,6 +185,6 @@ resource "aws_sagemaker_user_profile" "tf-sample-sagemaker-user-profile" {
       }
     }
   }
-  
+
   tags = {}
 }

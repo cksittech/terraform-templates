@@ -2,7 +2,7 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
   channel_name = ""
   cluster_arn  = ""
   region       = ""
-  
+
   encryption_configuration {
     kms_key_arn = ""
   }
@@ -11,7 +11,7 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
     compression_type           = ""
     data_freshness_in_seconds  = 0
     service_execution_role_arn = ""
-    
+
     catalog {
       catalog_arn        = ""
       warehouse_location = ""
@@ -24,10 +24,10 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
     destination_table {
       destination_database_name = ""
       destination_table_name    = ""
-      
+
       partition_spec {
         partition_strategy = ""
-        
+
         source {
           source_name = ""
         }
@@ -58,7 +58,7 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
   s3_destination {
     data_freshness_in_seconds  = 0
     service_execution_role_arn = ""
-    
+
     dead_letter_queue_s3 {
       bucket_arn            = ""
       error_output_prefix   = ""
@@ -75,7 +75,7 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
   }
   topic_configuration {
     topic_arn = ""
-    
+
     record_converter {
       value_converter = ""
     }
@@ -83,6 +83,6 @@ resource "aws_msk_channel" "tf-sample-msk-channel" {
       gsr_arn = ""
     }
   }
-  
+
   tags = {}
 }

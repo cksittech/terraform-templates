@@ -8,7 +8,7 @@ resource "aws_ecr_repository_creation_template" "tf-sample-ecr-repository-creati
   region               = ""
   repository_policy    = ""
   resource_tags        = {}
-  
+
   encryption_configuration {
     encryption_type = ""
     kms_key         = ""

@@ -5,11 +5,11 @@ resource "aws_service_discovery_service" "tf-sample-service-discovery-service" {
   namespace_id  = ""
   region        = ""
   type          = ""
-  
+
   dns_config {
     namespace_id   = ""
     routing_policy = ""
-    
+
     dns_records {
       ttl  = 0
       type = ""
@@ -22,6 +22,6 @@ resource "aws_service_discovery_service" "tf-sample-service-discovery-service" {
   }
   health_check_custom_config {
   }
-  
+
   tags = {}
 }

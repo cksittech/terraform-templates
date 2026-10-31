@@ -3,6 +3,6 @@ resource "aws_cloudwatch_log_delivery_source" "tf-sample-cloudwatch-log-delivery
   name         = ""
   region       = ""
   resource_arn = ""
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_redshift_subnet_group" "tf-sample-redshift-subnet-group" {
   name        = ""
   region      = ""
   subnet_ids  = []
-  
+
   tags = {}
 }

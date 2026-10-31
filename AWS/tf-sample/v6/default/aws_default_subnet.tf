@@ -12,6 +12,6 @@ resource "aws_default_subnet" "tf-sample-default-subnet" {
   map_public_ip_on_launch                        = false
   private_dns_hostname_type_on_launch            = ""
   region                                         = ""
-  
+
   tags = {}
 }

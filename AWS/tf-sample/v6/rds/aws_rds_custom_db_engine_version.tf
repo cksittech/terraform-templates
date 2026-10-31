@@ -11,6 +11,6 @@ resource "aws_rds_custom_db_engine_version" "tf-sample-rds-custom-db-engine-vers
   region                                     = ""
   source_image_id                            = ""
   status                                     = ""
-  
+
   tags = {}
 }

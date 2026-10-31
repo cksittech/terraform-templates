@@ -2,7 +2,7 @@ resource "aws_s3control_directory_bucket_access_point_scope" "tf-sample-s3contro
   account_id = ""
   name       = ""
   region     = ""
-  
+
   scope {
     permissions = []
     prefixes    = []

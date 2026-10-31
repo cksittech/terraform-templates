@@ -4,14 +4,14 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
   name              = ""
   region            = ""
   start_application = false
-  
+
   cloudwatch_logging_options {
     log_stream_arn = ""
     role_arn       = ""
   }
   inputs {
     name_prefix = ""
-    
+
     kinesis_firehose {
       resource_arn = ""
       role_arn     = ""
@@ -31,7 +31,7 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
     }
     schema {
       record_encoding = ""
-      
+
       record_columns {
         mapping  = ""
         name     = ""
@@ -55,7 +55,7 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
   }
   outputs {
     name = ""
-    
+
     kinesis_firehose {
       resource_arn = ""
       role_arn     = ""
@@ -74,7 +74,7 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
   }
   reference_data_sources {
     table_name = ""
-    
+
     s3 {
       bucket_arn = ""
       file_key   = ""
@@ -82,7 +82,7 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
     }
     schema {
       record_encoding = ""
-      
+
       record_columns {
         mapping  = ""
         name     = ""
@@ -101,6 +101,6 @@ resource "aws_kinesis_analytics_application" "tf-sample-kinesis-analytics-applic
       }
     }
   }
-  
+
   tags = {}
 }

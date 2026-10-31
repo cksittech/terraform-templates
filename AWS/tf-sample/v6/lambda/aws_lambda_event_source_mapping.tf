@@ -17,14 +17,14 @@ resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mappin
   topics                               = []
   tumbling_window_in_seconds           = 0
   use_resource_timeout_for_propagation = false
-  
+
   amazon_managed_kafka_event_source_config {
     consumer_group_id = ""
-    
+
     schema_registry_config {
       event_record_format = ""
       schema_registry_uri = ""
-      
+
       access_config {
         type = ""
         uri  = ""
@@ -65,11 +65,11 @@ resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mappin
   }
   self_managed_kafka_event_source_config {
     consumer_group_id = ""
-    
+
     schema_registry_config {
       event_record_format = ""
       schema_registry_uri = ""
-      
+
       access_config {
         type = ""
         uri  = ""
@@ -83,6 +83,6 @@ resource "aws_lambda_event_source_mapping" "tf-sample-lambda-event-source-mappin
     type = ""
     uri  = ""
   }
-  
+
   tags = {}
 }

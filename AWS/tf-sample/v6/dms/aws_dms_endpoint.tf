@@ -16,7 +16,7 @@ resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
   service_access_role             = ""
   ssl_mode                        = ""
   username                        = ""
-  
+
   elasticsearch_settings {
     endpoint_uri               = ""
     error_retry_duration       = 0
@@ -153,6 +153,6 @@ resource "aws_dms_endpoint" "tf-sample-dms-endpoint" {
     server_side_encryption_kms_key_id = ""
     service_access_role_arn           = ""
   }
-  
+
   tags = {}
 }

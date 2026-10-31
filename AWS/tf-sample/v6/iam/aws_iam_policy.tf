@@ -5,6 +5,6 @@ resource "aws_iam_policy" "tf-sample-iam-policy" {
   name_prefix                       = ""
   path                              = ""
   policy                            = ""
-  
+
   tags = {}
 }

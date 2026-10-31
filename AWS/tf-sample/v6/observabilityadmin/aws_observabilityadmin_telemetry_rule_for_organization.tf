@@ -1,7 +1,7 @@
 resource "aws_observabilityadmin_telemetry_rule_for_organization" "tf-sample-observabilityadmin-telemetry-rule-for-organization" {
   region    = ""
   rule_name = ""
-  
+
   rule {
     all_regions            = false
     allow_field_updates    = false
@@ -11,16 +11,16 @@ resource "aws_observabilityadmin_telemetry_rule_for_organization" "tf-sample-obs
     selection_criteria     = ""
     telemetry_source_types = []
     telemetry_type         = ""
-    
+
     destination_configuration {
       destination_pattern = ""
       destination_type    = ""
       retention_in_days   = 0
-      
+
       cloudtrail_parameters {
         advanced_event_selectors {
           name = ""
-          
+
           field_selectors {
             ends_with       = []
             equals          = []
@@ -49,14 +49,14 @@ resource "aws_observabilityadmin_telemetry_rule_for_organization" "tf-sample-obs
       }
       waf_logging_parameters {
         log_type = ""
-        
+
         logging_filter {
           default_behavior = ""
-          
+
           filters {
             behavior    = ""
             requirement = ""
-            
+
             conditions {
               action_condition {
                 action = ""
@@ -71,7 +71,7 @@ resource "aws_observabilityadmin_telemetry_rule_for_organization" "tf-sample-obs
           method       = ""
           query_string = ""
           uri_path     = ""
-          
+
           single_header {
             name = ""
           }
@@ -79,6 +79,6 @@ resource "aws_observabilityadmin_telemetry_rule_for_organization" "tf-sample-obs
       }
     }
   }
-  
+
   tags = {}
 }

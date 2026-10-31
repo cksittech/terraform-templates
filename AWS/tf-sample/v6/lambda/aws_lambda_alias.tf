@@ -4,7 +4,7 @@ resource "aws_lambda_alias" "tf-sample-lambda-alias" {
   function_version = ""
   name             = ""
   region           = ""
-  
+
   routing_config {
     additional_version_weights = {}
   }

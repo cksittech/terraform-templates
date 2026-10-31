@@ -4,7 +4,7 @@ resource "aws_codebuild_webhook" "tf-sample-codebuild-webhook" {
   manual_creation = false
   project_name    = ""
   region          = ""
-  
+
   filter_group {
     filter {
       exclude_matched_pattern = false

@@ -5,7 +5,7 @@ resource "aws_config_conformance_pack" "tf-sample-config-conformance-pack" {
   region                 = ""
   template_body          = ""
   template_s3_uri        = ""
-  
+
   input_parameter {
     parameter_name  = ""
     parameter_value = ""

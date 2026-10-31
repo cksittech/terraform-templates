@@ -9,6 +9,6 @@ resource "aws_memorydb_multi_region_cluster" "tf-sample-memorydb-multi-region-cl
   region                            = ""
   tls_enabled                       = false
   update_strategy                   = ""
-  
+
   tags = {}
 }

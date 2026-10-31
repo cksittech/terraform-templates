@@ -3,7 +3,7 @@ resource "aws_securitylake_custom_log_source" "tf-sample-securitylake-custom-log
   region         = ""
   source_name    = ""
   source_version = ""
-  
+
   configuration {
     crawler_configuration {
       role_arn = ""

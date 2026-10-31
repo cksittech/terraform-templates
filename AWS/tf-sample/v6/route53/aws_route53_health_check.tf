@@ -20,6 +20,6 @@ resource "aws_route53_health_check" "tf-sample-route53-health-check" {
   search_string                   = ""
   triggers                        = {}
   type                            = ""
-  
+
   tags = {}
 }

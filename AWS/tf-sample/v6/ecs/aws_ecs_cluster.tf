@@ -1,12 +1,12 @@
 resource "aws_ecs_cluster" "tf-sample-ecs-cluster" {
   name   = ""
   region = ""
-  
+
   configuration {
     execute_command_configuration {
       kms_key_id = ""
       logging    = ""
-      
+
       log_configuration {
         cloud_watch_encryption_enabled = false
         cloud_watch_log_group_name     = ""
@@ -27,6 +27,6 @@ resource "aws_ecs_cluster" "tf-sample-ecs-cluster" {
     name  = ""
     value = ""
   }
-  
+
   tags = {}
 }

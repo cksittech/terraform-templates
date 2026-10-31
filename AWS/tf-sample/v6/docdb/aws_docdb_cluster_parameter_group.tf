@@ -4,12 +4,12 @@ resource "aws_docdb_cluster_parameter_group" "tf-sample-docdb-cluster-parameter-
   name        = ""
   name_prefix = ""
   region      = ""
-  
+
   parameter {
     apply_method = ""
     name         = ""
     value        = ""
   }
-  
+
   tags = {}
 }

@@ -7,6 +7,6 @@ resource "aws_iam_role" "tf-sample-iam-role" {
   name_prefix           = ""
   path                  = ""
   permissions_boundary  = ""
-  
+
   tags = {}
 }

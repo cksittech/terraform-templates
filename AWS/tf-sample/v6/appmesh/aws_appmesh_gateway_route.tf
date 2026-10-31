@@ -4,15 +4,15 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
   name                 = ""
   region               = ""
   virtual_gateway_name = ""
-  
+
   spec {
     priority = 0
-    
+
     grpc_route {
       action {
         target {
           port = 0
-          
+
           virtual_service {
             virtual_service_name = ""
           }
@@ -39,7 +39,7 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
         }
         target {
           port = 0
-          
+
           virtual_service {
             virtual_service_name = ""
           }
@@ -48,17 +48,17 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
       match {
         port   = 0
         prefix = ""
-        
+
         header {
           invert = false
           name   = ""
-          
+
           match {
             exact  = ""
             prefix = ""
             regex  = ""
             suffix = ""
-            
+
             range {
               end   = 0
               start = 0
@@ -75,7 +75,7 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
         }
         query_parameter {
           name = ""
-          
+
           match {
             exact = ""
           }
@@ -98,7 +98,7 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
         }
         target {
           port = 0
-          
+
           virtual_service {
             virtual_service_name = ""
           }
@@ -107,17 +107,17 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
       match {
         port   = 0
         prefix = ""
-        
+
         header {
           invert = false
           name   = ""
-          
+
           match {
             exact  = ""
             prefix = ""
             regex  = ""
             suffix = ""
-            
+
             range {
               end   = 0
               start = 0
@@ -134,7 +134,7 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
         }
         query_parameter {
           name = ""
-          
+
           match {
             exact = ""
           }
@@ -142,6 +142,6 @@ resource "aws_appmesh_gateway_route" "tf-sample-appmesh-gateway-route" {
       }
     }
   }
-  
+
   tags = {}
 }

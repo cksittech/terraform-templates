@@ -4,15 +4,15 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
   knowledge_base_id    = ""
   name                 = ""
   region               = ""
-  
+
   data_source_configuration {
     type = ""
-    
+
     confluence_configuration {
       crawler_configuration {
         filter_configuration {
           type = ""
-          
+
           pattern_object_filter {
             filters {
               exclusion_filters = []
@@ -31,7 +31,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
     }
     managed_knowledge_base_connector_configuration {
       connector_parameters = ""
-      
+
       deletion_protection_configuration {
         deletion_protection_status    = ""
         deletion_protection_threshold = 0
@@ -53,7 +53,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
         monthly {
           day_of_month {
             day_number = 0
-            
+
             last_day_of_month {
             }
           }
@@ -72,7 +72,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
       crawler_configuration {
         filter_configuration {
           type = ""
-          
+
           pattern_object_filter {
             filters {
               exclusion_filters = []
@@ -92,7 +92,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
       crawler_configuration {
         filter_configuration {
           type = ""
-          
+
           pattern_object_filter {
             filters {
               exclusion_filters = []
@@ -117,7 +117,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
         inclusion_filters = []
         scope             = ""
         user_agent        = ""
-        
+
         crawler_limits {
           max_pages  = 0
           rate_limit = 0
@@ -138,14 +138,14 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
   vector_ingestion_configuration {
     chunking_configuration {
       chunking_strategy = ""
-      
+
       fixed_size_chunking_configuration {
         max_tokens         = 0
         overlap_percentage = 0
       }
       hierarchical_chunking_configuration {
         overlap_tokens = 0
-        
+
         level_configuration {
           max_tokens = 0
         }
@@ -158,10 +158,10 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
     }
     context_enrichment_configuration {
       type = ""
-      
+
       bedrock_foundation_model_configuration {
         model_arn = ""
-        
+
         enrichment_strategy_configuration {
           method = ""
         }
@@ -175,7 +175,7 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
       }
       transformation {
         step_to_apply = ""
-        
+
         transformation_function {
           transformation_lambda_configuration {
             lambda_arn = ""
@@ -185,14 +185,14 @@ resource "aws_bedrockagent_data_source" "tf-sample-bedrockagent-data-source" {
     }
     parsing_configuration {
       parsing_strategy = ""
-      
+
       bedrock_data_automation_configuration {
         parsing_modality = ""
       }
       bedrock_foundation_model_configuration {
         model_arn        = ""
         parsing_modality = ""
-        
+
         parsing_prompt {
           parsing_prompt_string = ""
         }

@@ -3,6 +3,6 @@ resource "aws_bedrockagentcore_policy_engine" "tf-sample-bedrockagentcore-policy
   encryption_key_arn = ""
   name               = ""
   region             = ""
-  
+
   tags = {}
 }

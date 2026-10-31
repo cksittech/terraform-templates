@@ -37,7 +37,7 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
   storage_class                 = ""
   tagging_directive             = ""
   website_redirect              = ""
-  
+
   grant {
     email       = ""
     id          = ""
@@ -49,6 +49,6 @@ resource "aws_s3_object_copy" "tf-sample-s3-object-copy" {
     default_tags {
     }
   }
-  
+
   tags = {}
 }

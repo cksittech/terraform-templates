@@ -10,19 +10,19 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
   table_type         = ""
   view_expanded_text = ""
   view_original_text = ""
-  
+
   open_table_format_input {
     iceberg_input {
       metadata_operation = ""
       version            = ""
-      
+
       iceberg_table_input {
         location   = ""
         properties = {}
-        
+
         partition_spec {
           spec_id = 0
-          
+
           fields {
             field_id  = 0
             name      = ""
@@ -34,7 +34,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
           identifier_field_ids = []
           schema_id            = 0
           type                 = ""
-          
+
           fields {
             doc             = ""
             id              = 0
@@ -47,7 +47,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
         }
         sort_order {
           order_id = 0
-          
+
           fields {
             direction  = ""
             null_order = ""
@@ -78,7 +78,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
     output_format             = ""
     parameters                = {}
     stored_as_sub_directories = false
-    
+
     columns {
       comment    = ""
       name       = ""
@@ -88,7 +88,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
     schema_reference {
       schema_version_id     = ""
       schema_version_number = 0
-      
+
       schema_id {
         registry_name = ""
         schema_arn    = ""
@@ -125,7 +125,7 @@ resource "aws_glue_catalog_table" "tf-sample-glue-catalog-table" {
     sub_objects            = []
     view_version_id        = 0
     view_version_token     = ""
-    
+
     representations {
       dialect               = ""
       dialect_version       = ""

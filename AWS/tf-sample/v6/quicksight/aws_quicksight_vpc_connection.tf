@@ -7,6 +7,6 @@ resource "aws_quicksight_vpc_connection" "tf-sample-quicksight-vpc-connection" {
   security_group_ids = []
   subnet_ids         = []
   vpc_connection_id  = ""
-  
+
   tags = {}
 }

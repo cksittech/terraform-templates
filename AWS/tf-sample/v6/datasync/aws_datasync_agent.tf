@@ -7,6 +7,6 @@ resource "aws_datasync_agent" "tf-sample-datasync-agent" {
   security_group_arns   = []
   subnet_arns           = []
   vpc_endpoint_id       = ""
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "aws_sagemaker_endpoint" "tf-sample-sagemaker-endpoint" {
   endpoint_config_name = ""
   name                 = ""
   region               = ""
-  
+
   deployment_config {
     auto_rollback_configuration {
       alarms {
@@ -12,11 +12,11 @@ resource "aws_sagemaker_endpoint" "tf-sample-sagemaker-endpoint" {
     blue_green_update_policy {
       maximum_execution_timeout_in_seconds = 0
       termination_wait_in_seconds          = 0
-      
+
       traffic_routing_configuration {
         type                     = ""
         wait_interval_in_seconds = 0
-        
+
         canary_size {
           type  = ""
           value = 0
@@ -30,7 +30,7 @@ resource "aws_sagemaker_endpoint" "tf-sample-sagemaker-endpoint" {
     rolling_update_policy {
       maximum_execution_timeout_in_seconds = 0
       wait_interval_in_seconds             = 0
-      
+
       maximum_batch_size {
         type  = ""
         value = 0
@@ -41,6 +41,6 @@ resource "aws_sagemaker_endpoint" "tf-sample-sagemaker-endpoint" {
       }
     }
   }
-  
+
   tags = {}
 }

@@ -9,7 +9,7 @@ resource "aws_glue_ml_transform" "tf-sample-glue-ml-transform" {
   role_arn          = ""
   timeout           = 0
   worker_type       = ""
-  
+
   input_record_tables {
     catalog_id      = ""
     connection_name = ""
@@ -18,7 +18,7 @@ resource "aws_glue_ml_transform" "tf-sample-glue-ml-transform" {
   }
   parameters {
     transform_type = ""
-    
+
     find_matches_parameters {
       accuracy_cost_trade_off    = 0
       enforce_provided_labels    = false
@@ -26,6 +26,6 @@ resource "aws_glue_ml_transform" "tf-sample-glue-ml-transform" {
       primary_key_column_name    = ""
     }
   }
-  
+
   tags = {}
 }

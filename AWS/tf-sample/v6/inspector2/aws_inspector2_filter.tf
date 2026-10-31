@@ -4,7 +4,7 @@ resource "aws_inspector2_filter" "tf-sample-inspector2-filter" {
   name        = ""
   reason      = ""
   region      = ""
-  
+
   filter_criteria {
     aws_account_id {
       comparison = ""
@@ -222,6 +222,6 @@ resource "aws_inspector2_filter" "tf-sample-inspector2-filter" {
       }
     }
   }
-  
+
   tags = {}
 }

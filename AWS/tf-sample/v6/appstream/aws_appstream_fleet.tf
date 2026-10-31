@@ -14,7 +14,7 @@ resource "aws_appstream_fleet" "tf-sample-appstream-fleet" {
   name                               = ""
   region                             = ""
   stream_view                        = ""
-  
+
   compute_capacity {
     desired_instances = 0
     desired_sessions  = 0
@@ -27,6 +27,6 @@ resource "aws_appstream_fleet" "tf-sample-appstream-fleet" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

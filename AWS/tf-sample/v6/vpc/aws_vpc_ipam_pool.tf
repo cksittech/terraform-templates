@@ -14,13 +14,13 @@ resource "aws_vpc_ipam_pool" "tf-sample-vpc-ipam-pool" {
   publicly_advertisable             = false
   region                            = ""
   source_ipam_pool_id               = ""
-  
+
   source_resource {
     resource_id     = ""
     resource_owner  = ""
     resource_region = ""
     resource_type   = ""
   }
-  
+
   tags = {}
 }

@@ -13,6 +13,6 @@ resource "aws_docdbelastic_cluster" "tf-sample-docdbelastic-cluster" {
   shard_instance_count         = 0
   subnet_ids                   = []
   vpc_security_group_ids       = []
-  
+
   tags = {}
 }

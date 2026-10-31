@@ -4,10 +4,10 @@ resource "aws_connect_hours_of_operation" "tf-sample-connect-hours-of-operation"
   name        = ""
   region      = ""
   time_zone   = ""
-  
+
   config {
     day = ""
-    
+
     end_time {
       hours   = 0
       minutes = 0
@@ -17,6 +17,6 @@ resource "aws_connect_hours_of_operation" "tf-sample-connect-hours-of-operation"
       minutes = 0
     }
   }
-  
+
   tags = {}
 }

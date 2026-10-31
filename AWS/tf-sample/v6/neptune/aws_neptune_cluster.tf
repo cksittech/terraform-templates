@@ -29,11 +29,11 @@ resource "aws_neptune_cluster" "tf-sample-neptune-cluster" {
   storage_encrypted                     = false
   storage_type                          = ""
   vpc_security_group_ids                = []
-  
+
   serverless_v2_scaling_configuration {
     max_capacity = 0
     min_capacity = 0
   }
-  
+
   tags = {}
 }

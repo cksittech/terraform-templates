@@ -5,6 +5,6 @@ resource "aws_redshift_snapshot_schedule" "tf-sample-redshift-snapshot-schedule"
   identifier        = ""
   identifier_prefix = ""
   region            = ""
-  
+
   tags = {}
 }

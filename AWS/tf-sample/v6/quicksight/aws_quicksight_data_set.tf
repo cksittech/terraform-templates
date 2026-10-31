@@ -5,7 +5,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
   name           = ""
   region         = ""
   use_as         = ""
-  
+
   column_groups {
     geo_spatial_column_group {
       columns      = []
@@ -29,7 +29,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
   logical_table_map {
     alias                = ""
     logical_table_map_id = ""
-    
+
     data_transforms {
       cast_column_type_operation {
         column_name     = ""
@@ -55,10 +55,10 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
       }
       tag_column_operation {
         column_name = ""
-        
+
         tags {
           column_geographic_role = ""
-          
+
           column_description {
             text = ""
           }
@@ -72,13 +72,13 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
     source {
       data_set_arn      = ""
       physical_table_id = ""
-      
+
       join_instruction {
         left_operand  = ""
         on_clause     = ""
         right_operand = ""
         type          = ""
-        
+
         left_join_key_properties {
           unique_key = false
         }
@@ -94,12 +94,12 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
   }
   physical_table_map {
     physical_table_map_id = ""
-    
+
     custom_sql {
       data_source_arn = ""
       name            = ""
       sql_query       = ""
-      
+
       columns {
         name = ""
         type = ""
@@ -110,7 +110,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
       data_source_arn = ""
       name            = ""
       schema          = ""
-      
+
       input_columns {
         name = ""
         type = ""
@@ -118,7 +118,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
     }
     s3_source {
       data_source_arn = ""
-      
+
       input_columns {
         name = ""
         type = ""
@@ -151,7 +151,7 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
   }
   row_level_permission_tag_configuration {
     status = ""
-    
+
     tag_rules {
       column_name               = ""
       match_all_value           = ""
@@ -159,6 +159,6 @@ resource "aws_quicksight_data_set" "tf-sample-quicksight-data-set" {
       tag_multi_value_delimiter = ""
     }
   }
-  
+
   tags = {}
 }

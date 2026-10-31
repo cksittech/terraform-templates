@@ -9,7 +9,7 @@ resource "aws_dynamodb_table_export" "tf-sample-dynamodb-table-export" {
   s3_sse_algorithm  = ""
   s3_sse_kms_key_id = ""
   table_arn         = ""
-  
+
   incremental_export_specification {
     export_from_time = ""
     export_to_time   = ""

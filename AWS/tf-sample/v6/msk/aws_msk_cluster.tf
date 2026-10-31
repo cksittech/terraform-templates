@@ -5,23 +5,23 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   number_of_broker_nodes = 0
   region                 = ""
   storage_mode           = ""
-  
+
   broker_node_group_info {
     az_distribution = ""
     client_subnets  = []
     instance_type   = ""
     security_groups = []
-    
+
     connectivity_info {
       network_type = ""
-      
+
       public_access {
         type = ""
       }
       vpc_connectivity {
         client_authentication {
           tls = false
-          
+
           sasl {
             iam   = false
             scram = false
@@ -32,7 +32,7 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
     storage_info {
       ebs_storage_info {
         volume_size = 0
-        
+
         provisioned_throughput {
           enabled           = false
           volume_throughput = 0
@@ -42,7 +42,7 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   }
   client_authentication {
     unauthenticated = false
-    
+
     sasl {
       iam   = false
       scram = false
@@ -56,7 +56,7 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   }
   encryption_info {
     encryption_at_rest_kms_key_arn = ""
-    
+
     encryption_in_transit {
       client_broker = ""
       in_cluster    = false
@@ -92,6 +92,6 @@ resource "aws_msk_cluster" "tf-sample-msk-cluster" {
   rebalancing {
     status = ""
   }
-  
+
   tags = {}
 }

@@ -7,7 +7,7 @@ resource "aws_redshift_scheduled_action" "tf-sample-redshift-scheduled-action" {
   region      = ""
   schedule    = ""
   start_time  = ""
-  
+
   target_action {
     pause_cluster {
       cluster_identifier = ""

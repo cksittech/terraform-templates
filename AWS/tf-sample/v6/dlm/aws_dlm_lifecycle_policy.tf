@@ -4,7 +4,7 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
   execution_role_arn = ""
   region             = ""
   state              = ""
-  
+
   policy_details {
     copy_tags          = false
     create_interval    = 0
@@ -16,13 +16,13 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
     resource_types     = []
     retain_interval    = 0
     target_tags        = {}
-    
+
     action {
       name = ""
-      
+
       cross_region_copy {
         target = ""
-        
+
         encryption_configuration {
           cmk_arn   = ""
           encrypted = false
@@ -35,7 +35,7 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
     }
     event_source {
       type = ""
-      
+
       parameters {
         description_regex = ""
         event_type        = ""
@@ -57,7 +57,7 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
       name          = ""
       tags_to_add   = {}
       variable_tags = {}
-      
+
       archive_rule {
         archive_retain_rule {
           retention_archive_tier {
@@ -73,7 +73,7 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
         interval_unit   = ""
         location        = ""
         times           = []
-        
+
         scripts {
           execute_operation_on_script_failure = false
           execution_handler                   = ""
@@ -89,7 +89,7 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
         encrypted     = false
         target        = ""
         target_region = ""
-        
+
         deprecate_rule {
           interval      = 0
           interval_unit = ""
@@ -122,6 +122,6 @@ resource "aws_dlm_lifecycle_policy" "tf-sample-dlm-lifecycle-policy" {
       }
     }
   }
-  
+
   tags = {}
 }

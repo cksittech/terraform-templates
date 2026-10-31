@@ -12,10 +12,10 @@ resource "aws_dax_cluster" "tf-sample-dax-cluster" {
   replication_factor               = 0
   security_group_ids               = []
   subnet_group_name                = ""
-  
+
   server_side_encryption {
     enabled = false
   }
-  
+
   tags = {}
 }

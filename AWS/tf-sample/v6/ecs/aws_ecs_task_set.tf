@@ -9,7 +9,7 @@ resource "aws_ecs_task_set" "tf-sample-ecs-task-set" {
   task_definition           = ""
   wait_until_stable         = false
   wait_until_stable_timeout = ""
-  
+
   capacity_provider_strategy {
     base              = 0
     capacity_provider = ""
@@ -36,6 +36,6 @@ resource "aws_ecs_task_set" "tf-sample-ecs-task-set" {
     port           = 0
     registry_arn   = ""
   }
-  
+
   tags = {}
 }

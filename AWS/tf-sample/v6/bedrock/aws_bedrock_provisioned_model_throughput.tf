@@ -4,6 +4,6 @@ resource "aws_bedrock_provisioned_model_throughput" "tf-sample-bedrock-provision
   model_units            = 0
   provisioned_model_name = ""
   region                 = ""
-  
+
   tags = {}
 }

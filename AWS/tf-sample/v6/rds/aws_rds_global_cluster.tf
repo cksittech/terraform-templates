@@ -9,6 +9,6 @@ resource "aws_rds_global_cluster" "tf-sample-rds-global-cluster" {
   region                       = ""
   source_db_cluster_identifier = ""
   storage_encrypted            = false
-  
+
   tags = {}
 }

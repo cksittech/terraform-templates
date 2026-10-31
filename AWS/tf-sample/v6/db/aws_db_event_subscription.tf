@@ -7,6 +7,6 @@ resource "aws_db_event_subscription" "tf-sample-db-event-subscription" {
   sns_topic        = ""
   source_ids       = []
   source_type      = ""
-  
+
   tags = {}
 }

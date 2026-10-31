@@ -9,10 +9,10 @@ resource "aws_kinesis_stream" "tf-sample-kinesis-stream" {
   shard_count               = 0
   shard_level_metrics       = []
   warm_throughput_mib_ps    = 0
-  
+
   stream_mode_details {
     stream_mode = ""
   }
-  
+
   tags = {}
 }

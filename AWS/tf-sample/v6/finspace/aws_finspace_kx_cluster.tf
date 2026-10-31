@@ -10,7 +10,7 @@ resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
   region                 = ""
   release_label          = ""
   type                   = ""
-  
+
   auto_scaling_configuration {
     auto_scaling_metric        = ""
     max_node_count             = 0
@@ -36,7 +36,7 @@ resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
     changeset_id  = ""
     database_name = ""
     dataview_name = ""
-    
+
     cache_configurations {
       cache_type = ""
       db_paths   = []
@@ -63,6 +63,6 @@ resource "aws_finspace_kx_cluster" "tf-sample-finspace-kx-cluster" {
     subnet_ids         = []
     vpc_id             = ""
   }
-  
+
   tags = {}
 }

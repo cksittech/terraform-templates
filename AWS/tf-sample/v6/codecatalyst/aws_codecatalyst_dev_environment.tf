@@ -5,7 +5,7 @@ resource "aws_codecatalyst_dev_environment" "tf-sample-codecatalyst-dev-environm
   project_name               = ""
   region                     = ""
   space_name                 = ""
-  
+
   ides {
     name    = ""
     runtime = ""

@@ -2,10 +2,10 @@ resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "tf-
   name                     = ""
   region                   = ""
   resource_access_role_arn = ""
-  
+
   elements {
     type = ""
-    
+
     amazon_transcribe_call_analytics_processor_configuration {
       call_analytics_stream_categories     = []
       content_identification_type          = ""
@@ -19,7 +19,7 @@ resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "tf-
       vocabulary_filter_method             = ""
       vocabulary_filter_name               = ""
       vocabulary_name                      = ""
-      
+
       post_call_analytics_settings {
         content_redaction_output     = ""
         data_access_role_arn         = ""
@@ -63,10 +63,10 @@ resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "tf-
   }
   real_time_alert_configuration {
     disabled = false
-    
+
     rules {
       type = ""
-      
+
       issue_detection_configuration {
         rule_name = ""
       }
@@ -82,6 +82,6 @@ resource "aws_chimesdkmediapipelines_media_insights_pipeline_configuration" "tf-
       }
     }
   }
-  
+
   tags = {}
 }

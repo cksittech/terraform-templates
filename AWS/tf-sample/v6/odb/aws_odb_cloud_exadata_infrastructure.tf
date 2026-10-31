@@ -9,7 +9,7 @@ resource "aws_odb_cloud_exadata_infrastructure" "tf-sample-odb-cloud-exadata-inf
   shape                            = ""
   storage_count                    = 0
   storage_server_type              = ""
-  
+
   maintenance_window {
     custom_action_timeout_in_mins    = 0
     days_of_week                     = []
@@ -21,6 +21,6 @@ resource "aws_odb_cloud_exadata_infrastructure" "tf-sample-odb-cloud-exadata-inf
     preference                       = ""
     weeks_of_month                   = []
   }
-  
+
   tags = {}
 }

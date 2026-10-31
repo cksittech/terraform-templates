@@ -18,7 +18,7 @@ resource "aws_transfer_server" "tf-sample-transfer-server" {
   sftp_authentication_methods      = ""
   structured_log_destinations      = []
   url                              = ""
-  
+
   endpoint_details {
     address_allocation_ids = []
     security_group_ids     = []
@@ -45,6 +45,6 @@ resource "aws_transfer_server" "tf-sample-transfer-server" {
       workflow_id    = ""
     }
   }
-  
+
   tags = {}
 }

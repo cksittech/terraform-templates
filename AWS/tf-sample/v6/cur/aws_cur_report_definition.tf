@@ -10,6 +10,6 @@ resource "aws_cur_report_definition" "tf-sample-cur-report-definition" {
   s3_prefix                  = ""
   s3_region                  = ""
   time_unit                  = ""
-  
+
   tags = {}
 }

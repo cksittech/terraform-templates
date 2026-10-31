@@ -8,13 +8,13 @@ resource "aws_lambdamicrovms_image" "tf-sample-lambdamicrovms-image" {
   environment_variables      = {}
   name                       = ""
   region                     = ""
-  
+
   code_artifact {
     uri = ""
   }
   cpu_configuration {
     architecture = ""
   }
-  
+
   tags = {}
 }

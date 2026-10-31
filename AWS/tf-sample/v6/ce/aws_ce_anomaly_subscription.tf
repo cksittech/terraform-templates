@@ -3,7 +3,7 @@ resource "aws_ce_anomaly_subscription" "tf-sample-ce-anomaly-subscription" {
   frequency        = ""
   monitor_arn_list = []
   name             = ""
-  
+
   subscriber {
     address = ""
     type    = ""
@@ -76,6 +76,6 @@ resource "aws_ce_anomaly_subscription" "tf-sample-ce-anomaly-subscription" {
       values        = []
     }
   }
-  
+
   tags = {}
 }

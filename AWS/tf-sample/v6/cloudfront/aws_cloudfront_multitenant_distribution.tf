@@ -4,7 +4,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
   enabled             = false
   http_version        = ""
   web_acl_id          = ""
-  
+
   active_trusted_key_groups {
     items {
     }
@@ -19,7 +19,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     response_headers_policy_id = ""
     target_origin_id           = ""
     viewer_protocol_policy     = ""
-    
+
     allowed_methods {
       cached_methods = []
       items          = []
@@ -53,7 +53,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     response_headers_policy_id = ""
     target_origin_id           = ""
     viewer_protocol_policy     = ""
-    
+
     allowed_methods {
       cached_methods = []
       items          = []
@@ -80,7 +80,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     origin_access_control_id    = ""
     origin_path                 = ""
     response_completion_timeout = 0
-    
+
     custom_header {
       header_name  = ""
       header_value = ""
@@ -93,7 +93,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
       origin_protocol_policy   = ""
       origin_read_timeout      = 0
       origin_ssl_protocols     = []
-      
+
       origin_mtls_config {
         client_certificate_arn = ""
       }
@@ -110,7 +110,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
   }
   origin_group {
     id = ""
-    
+
     failover_criteria {
       status_codes = []
     }
@@ -127,7 +127,7 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
   tenant_config {
     parameter_definition {
       name = ""
-      
+
       definition {
         string_schema {
           comment       = ""
@@ -143,6 +143,6 @@ resource "aws_cloudfront_multitenant_distribution" "tf-sample-cloudfront-multite
     minimum_protocol_version       = ""
     ssl_support_method             = ""
   }
-  
+
   tags = {}
 }

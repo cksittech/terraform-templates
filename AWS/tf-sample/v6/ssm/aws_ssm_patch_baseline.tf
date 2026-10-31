@@ -9,13 +9,13 @@ resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
   region                                       = ""
   rejected_patches                             = []
   rejected_patches_action                      = ""
-  
+
   approval_rule {
     approve_after_days  = 0
     approve_until_date  = ""
     compliance_level    = ""
     enable_non_security = false
-    
+
     patch_filter {
       key    = ""
       values = []
@@ -30,6 +30,6 @@ resource "aws_ssm_patch_baseline" "tf-sample-ssm-patch-baseline" {
     name          = ""
     products      = []
   }
-  
+
   tags = {}
 }

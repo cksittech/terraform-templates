@@ -11,7 +11,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   sms_verification_message   = ""
   user_pool_tier             = ""
   username_attributes        = []
-  
+
   account_recovery_setting {
     recovery_mechanism {
       name     = ""
@@ -20,7 +20,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   }
   admin_create_user_config {
     allow_admin_create_user_only = false
-    
+
     invite_message_template {
       email_message = ""
       email_subject = ""
@@ -54,7 +54,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
     pre_token_generation           = ""
     user_migration                 = ""
     verify_auth_challenge_response = ""
-    
+
     custom_email_sender {
       lambda_arn     = ""
       lambda_version = ""
@@ -83,7 +83,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
     mutable                  = false
     name                     = ""
     required                 = false
-    
+
     number_attribute_constraints {
       max_value = ""
       min_value = ""
@@ -109,7 +109,7 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
   }
   user_pool_add_ons {
     advanced_security_mode = ""
-    
+
     advanced_security_additional_flows {
       custom_auth_mode = ""
     }
@@ -129,6 +129,6 @@ resource "aws_cognito_user_pool" "tf-sample-cognito-user-pool" {
     relying_party_id  = ""
     user_verification = ""
   }
-  
+
   tags = {}
 }

@@ -12,6 +12,6 @@ resource "aws_ec2_capacity_reservation" "tf-sample-ec2-capacity-reservation" {
   placement_group_arn     = ""
   region                  = ""
   tenancy                 = ""
-  
+
   tags = {}
 }

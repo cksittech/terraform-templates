@@ -4,6 +4,6 @@ resource "aws_finspace_kx_scaling_group" "tf-sample-finspace-kx-scaling-group" {
   host_type            = ""
   name                 = ""
   region               = ""
-  
+
   tags = {}
 }

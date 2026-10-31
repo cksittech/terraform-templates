@@ -2,7 +2,7 @@ resource "aws_s3_bucket_notification" "tf-sample-s3-bucket-notification" {
   bucket      = ""
   eventbridge = false
   region      = ""
-  
+
   lambda_function {
     events              = []
     filter_prefix       = ""

@@ -13,7 +13,7 @@ resource "aws_ssm_association" "tf-sample-ssm-association" {
   schedule_expression              = ""
   sync_compliance                  = ""
   wait_for_success_timeout_seconds = 0
-  
+
   output_location {
     s3_bucket_name = ""
     s3_key_prefix  = ""
@@ -23,6 +23,6 @@ resource "aws_ssm_association" "tf-sample-ssm-association" {
     key    = ""
     values = []
   }
-  
+
   tags = {}
 }

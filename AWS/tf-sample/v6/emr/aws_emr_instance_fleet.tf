@@ -4,13 +4,13 @@ resource "aws_emr_instance_fleet" "tf-sample-emr-instance-fleet" {
   region                    = ""
   target_on_demand_capacity = 0
   target_spot_capacity      = 0
-  
+
   instance_type_configs {
     bid_price                                  = ""
     bid_price_as_percentage_of_on_demand_price = 0
     instance_type                              = ""
     weighted_capacity                          = 0
-    
+
     configurations {
       classification = ""
       properties     = {}

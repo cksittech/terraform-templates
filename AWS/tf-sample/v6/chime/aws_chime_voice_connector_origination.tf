@@ -2,7 +2,7 @@ resource "aws_chime_voice_connector_origination" "tf-sample-chime-voice-connecto
   disabled           = false
   region             = ""
   voice_connector_id = ""
-  
+
   route {
     host     = ""
     port     = 0

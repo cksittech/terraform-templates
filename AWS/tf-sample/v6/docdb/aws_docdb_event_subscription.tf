@@ -7,6 +7,6 @@ resource "aws_docdb_event_subscription" "tf-sample-docdb-event-subscription" {
   sns_topic_arn    = ""
   source_ids       = []
   source_type      = ""
-  
+
   tags = {}
 }

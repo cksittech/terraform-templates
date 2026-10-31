@@ -1,10 +1,10 @@
 resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
   name   = ""
   region = ""
-  
+
   rule {
     name = ""
-    
+
     action {
       add_header {
         header_name  = ""
@@ -73,10 +73,10 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
     condition {
       boolean_expression {
         operator = ""
-        
+
         evaluate {
           attribute = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -94,7 +94,7 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       ip_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
         }
@@ -102,7 +102,7 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       number_expression {
         operator = ""
         value    = 0
-        
+
         evaluate {
           attribute = ""
         }
@@ -110,12 +110,12 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       string_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute                    = ""
           client_certificate_attribute = ""
           mime_header_attribute        = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -125,10 +125,10 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       verdict_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -139,10 +139,10 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
     unless {
       boolean_expression {
         operator = ""
-        
+
         evaluate {
           attribute = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -160,7 +160,7 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       ip_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
         }
@@ -168,7 +168,7 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       number_expression {
         operator = ""
         value    = 0
-        
+
         evaluate {
           attribute = ""
         }
@@ -176,12 +176,12 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       string_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute                    = ""
           client_certificate_attribute = ""
           mime_header_attribute        = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -191,10 +191,10 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       verdict_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -203,6 +203,6 @@ resource "aws_mailmanager_rule_set" "tf-sample-mailmanager-rule-set" {
       }
     }
   }
-  
+
   tags = {}
 }

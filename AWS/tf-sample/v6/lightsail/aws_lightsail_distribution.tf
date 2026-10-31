@@ -5,7 +5,7 @@ resource "aws_lightsail_distribution" "tf-sample-lightsail-distribution" {
   is_enabled       = false
   name             = ""
   region           = ""
-  
+
   cache_behavior {
     behavior = ""
     path     = ""
@@ -16,7 +16,7 @@ resource "aws_lightsail_distribution" "tf-sample-lightsail-distribution" {
     default_ttl          = 0
     maximum_ttl          = 0
     minimum_ttl          = 0
-    
+
     forwarded_cookies {
       cookies_allow_list = []
       option             = ""
@@ -38,6 +38,6 @@ resource "aws_lightsail_distribution" "tf-sample-lightsail-distribution" {
     protocol_policy = ""
     region_name     = ""
   }
-  
+
   tags = {}
 }

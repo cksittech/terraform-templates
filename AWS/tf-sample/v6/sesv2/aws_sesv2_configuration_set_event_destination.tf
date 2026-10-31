@@ -2,11 +2,11 @@ resource "aws_sesv2_configuration_set_event_destination" "tf-sample-sesv2-config
   configuration_set_name = ""
   event_destination_name = ""
   region                 = ""
-  
+
   event_destination {
     enabled              = false
     matching_event_types = []
-    
+
     cloud_watch_destination {
       dimension_configuration {
         default_dimension_value = ""

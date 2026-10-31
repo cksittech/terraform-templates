@@ -12,7 +12,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   staging                         = false
   wait_for_deployment             = false
   web_acl_id                      = ""
-  
+
   cache_tag_config {
     header_name = ""
   }
@@ -42,12 +42,12 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
     trusted_key_groups         = []
     trusted_signers            = []
     viewer_protocol_policy     = ""
-    
+
     forwarded_values {
       headers                 = []
       query_string            = false
       query_string_cache_keys = []
-      
+
       cookies {
         forward           = ""
         whitelisted_names = []
@@ -89,12 +89,12 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
     trusted_key_groups         = []
     trusted_signers            = []
     viewer_protocol_policy     = ""
-    
+
     forwarded_values {
       headers                 = []
       query_string            = false
       query_string_cache_keys = []
-      
+
       cookies {
         forward           = ""
         whitelisted_names = []
@@ -121,7 +121,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
     origin_id                   = ""
     origin_path                 = ""
     response_completion_timeout = 0
-    
+
     custom_header {
       name  = ""
       value = ""
@@ -134,7 +134,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
       origin_protocol_policy   = ""
       origin_read_timeout      = 0
       origin_ssl_protocols     = []
-      
+
       origin_mtls_config {
         client_certificate_arn = ""
       }
@@ -155,7 +155,7 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   }
   origin_group {
     origin_id = ""
-    
+
     failover_criteria {
       status_codes = []
     }
@@ -178,13 +178,13 @@ resource "aws_cloudfront_distribution" "tf-sample-cloudfront-distribution" {
   }
   viewer_mtls_config {
     mode = ""
-    
+
     trust_store_config {
       advertise_trust_store_ca_names = false
       ignore_certificate_expiry      = false
       trust_store_id                 = ""
     }
   }
-  
+
   tags = {}
 }

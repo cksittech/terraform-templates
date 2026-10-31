@@ -3,6 +3,6 @@ resource "aws_iam_instance_profile" "tf-sample-iam-instance-profile" {
   name_prefix = ""
   path        = ""
   role        = ""
-  
+
   tags = {}
 }

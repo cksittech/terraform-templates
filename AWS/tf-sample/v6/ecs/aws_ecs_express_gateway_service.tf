@@ -12,13 +12,13 @@ resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-servic
   service_name            = ""
   task_role_arn           = ""
   wait_for_steady_state   = false
-  
+
   primary_container {
     aws_logs_configuration = []
     command                = []
     container_port         = 0
     image                  = ""
-    
+
     environment {
       name  = ""
       value = ""
@@ -31,6 +31,6 @@ resource "aws_ecs_express_gateway_service" "tf-sample-ecs-express-gateway-servic
       value_from = ""
     }
   }
-  
+
   tags = {}
 }

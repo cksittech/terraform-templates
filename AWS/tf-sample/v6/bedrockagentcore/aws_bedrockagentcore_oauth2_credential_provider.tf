@@ -2,7 +2,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
   credential_provider_vendor = ""
   name                       = ""
   region                     = ""
-  
+
   oauth2_provider_config {
     atlassian_oauth2_provider_config {
       client_credentials_wo_version = 0
@@ -11,7 +11,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -25,14 +25,14 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
       }
       oauth_discovery {
         discovery_url = ""
-        
+
         authorization_server_metadata {
           authorization_endpoint      = ""
           issuer                      = ""
@@ -43,7 +43,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       }
       on_behalf_of_token_exchange_config {
         grant_type = ""
-        
+
         token_exchange_grant_type_config {
           actor_token_content = ""
           actor_token_scopes  = []
@@ -63,7 +63,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       }
       private_endpoint_override {
         domain = ""
-        
+
         private_endpoint {
           managed_vpc_resource {
             endpoint_ip_address_type = ""
@@ -81,7 +81,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
         additional_header_claims  = {}
         additional_payload_claims = {}
         signing_algorithm         = ""
-        
+
         private_key_source {
           kms_key_source {
             kms_key_arn = ""
@@ -96,7 +96,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -109,7 +109,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -125,7 +125,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret_wo              = ""
       issuer                        = ""
       token_endpoint                = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -138,7 +138,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -154,7 +154,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       tenant_id                     = ""
       tenant_id_wo                  = ""
       tenant_id_wo_version          = 0
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -167,7 +167,7 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
@@ -180,13 +180,13 @@ resource "aws_bedrockagentcore_oauth2_credential_provider" "tf-sample-bedrockage
       client_secret                 = ""
       client_secret_source          = ""
       client_secret_wo              = ""
-      
+
       client_secret_config {
         json_key  = ""
         secret_id = ""
       }
     }
   }
-  
+
   tags = {}
 }

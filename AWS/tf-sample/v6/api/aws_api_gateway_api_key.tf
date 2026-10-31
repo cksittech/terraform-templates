@@ -5,6 +5,6 @@ resource "aws_api_gateway_api_key" "tf-sample-api-gateway-api-key" {
   name        = ""
   region      = ""
   value       = ""
-  
+
   tags = {}
 }

@@ -3,11 +3,11 @@ resource "aws_api_gateway_usage_plan" "tf-sample-api-gateway-usage-plan" {
   name         = ""
   product_code = ""
   region       = ""
-  
+
   api_stages {
     api_id = ""
     stage  = ""
-    
+
     throttle {
       burst_limit = 0
       path        = ""
@@ -23,6 +23,6 @@ resource "aws_api_gateway_usage_plan" "tf-sample-api-gateway-usage-plan" {
     burst_limit = 0
     rate_limit  = 0
   }
-  
+
   tags = {}
 }

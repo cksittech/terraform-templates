@@ -4,7 +4,7 @@ resource "aws_batch_job_queue" "tf-sample-batch-job-queue" {
   region                = ""
   scheduling_policy_arn = ""
   state                 = ""
-  
+
   compute_environment_order {
     compute_environment = ""
     order               = 0
@@ -15,6 +15,6 @@ resource "aws_batch_job_queue" "tf-sample-batch-job-queue" {
     reason           = ""
     state            = ""
   }
-  
+
   tags = {}
 }

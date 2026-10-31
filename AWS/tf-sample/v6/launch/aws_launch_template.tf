@@ -17,12 +17,12 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   update_default_version               = false
   user_data                            = ""
   vpc_security_group_ids               = []
-  
+
   block_device_mappings {
     device_name  = ""
     no_device    = ""
     virtual_name = ""
-    
+
     ebs {
       delete_on_termination      = ""
       encrypted                  = ""
@@ -37,7 +37,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   }
   capacity_reservation_specification {
     capacity_reservation_preference = ""
-    
+
     capacity_reservation_target {
       capacity_reservation_id                 = ""
       capacity_reservation_resource_group_arn = ""
@@ -63,7 +63,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   }
   instance_market_options {
     market_type = ""
-    
+
     spot_options {
       block_duration_minutes         = 0
       instance_interruption_behavior = ""
@@ -88,7 +88,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     on_demand_max_price_percentage_over_lowest_price        = 0
     require_hibernate_support                               = false
     spot_max_price_percentage_over_lowest_price             = 0
-    
+
     accelerator_count {
       max = 0
       min = 0
@@ -164,7 +164,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     private_ip_address           = ""
     security_groups              = []
     subnet_id                    = ""
-    
+
     connection_tracking_specification {
       tcp_established_timeout = 0
       udp_stream_timeout      = 0
@@ -172,7 +172,7 @@ resource "aws_launch_template" "tf-sample-launch-template" {
     }
     ena_srd_specification {
       ena_srd_enabled = false
-      
+
       ena_srd_udp_specification {
         ena_srd_udp_enabled = false
       }
@@ -209,6 +209,6 @@ resource "aws_launch_template" "tf-sample-launch-template" {
   tag_specifications {
     resource_type = ""
   }
-  
+
   tags = {}
 }

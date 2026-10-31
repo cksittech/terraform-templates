@@ -14,7 +14,7 @@ resource "aws_ec2_client_vpn_endpoint" "tf-sample-ec2-client-vpn-endpoint" {
   transport_protocol            = ""
   vpc_id                        = ""
   vpn_port                      = 0
-  
+
   authentication_options {
     active_directory_id            = ""
     root_certificate_chain_arn     = ""
@@ -43,6 +43,6 @@ resource "aws_ec2_client_vpn_endpoint" "tf-sample-ec2-client-vpn-endpoint" {
     availability_zones    = []
     transit_gateway_id    = ""
   }
-  
+
   tags = {}
 }

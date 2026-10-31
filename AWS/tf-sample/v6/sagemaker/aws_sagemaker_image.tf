@@ -4,6 +4,6 @@ resource "aws_sagemaker_image" "tf-sample-sagemaker-image" {
   image_name   = ""
   region       = ""
   role_arn     = ""
-  
+
   tags = {}
 }

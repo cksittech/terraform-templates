@@ -5,6 +5,6 @@ resource "aws_networkmanager_connection" "tf-sample-networkmanager-connection" {
   device_id           = ""
   global_network_id   = ""
   link_id             = ""
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_iam_user" "tf-sample-iam-user" {
   name                 = ""
   path                 = ""
   permissions_boundary = ""
-  
+
   tags = {}
 }

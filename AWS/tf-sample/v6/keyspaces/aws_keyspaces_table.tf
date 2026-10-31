@@ -3,7 +3,7 @@ resource "aws_keyspaces_table" "tf-sample-keyspaces-table" {
   keyspace_name        = ""
   region               = ""
   table_name           = ""
-  
+
   capacity_specification {
     read_capacity_units  = 0
     throughput_mode      = ""
@@ -41,6 +41,6 @@ resource "aws_keyspaces_table" "tf-sample-keyspaces-table" {
   ttl {
     status = ""
   }
-  
+
   tags = {}
 }

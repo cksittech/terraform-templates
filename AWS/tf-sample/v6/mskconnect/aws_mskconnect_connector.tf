@@ -5,13 +5,13 @@ resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
   name                       = ""
   region                     = ""
   service_execution_role_arn = ""
-  
+
   capacity {
     autoscaling {
       max_worker_count = 0
       mcu_count        = 0
       min_worker_count = 0
-      
+
       scale_in_policy {
         cpu_utilization_percentage = 0
       }
@@ -27,7 +27,7 @@ resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
   kafka_cluster {
     apache_kafka_cluster {
       bootstrap_servers = ""
-      
+
       vpc {
         security_groups = []
         subnets         = []
@@ -65,6 +65,6 @@ resource "aws_mskconnect_connector" "tf-sample-mskconnect-connector" {
   worker_configuration {
     revision = 0
   }
-  
+
   tags = {}
 }

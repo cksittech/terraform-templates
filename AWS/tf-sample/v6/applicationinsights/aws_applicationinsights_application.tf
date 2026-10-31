@@ -7,6 +7,6 @@ resource "aws_applicationinsights_application" "tf-sample-applicationinsights-ap
   ops_item_sns_topic_arn = ""
   region                 = ""
   resource_group_name    = ""
-  
+
   tags = {}
 }

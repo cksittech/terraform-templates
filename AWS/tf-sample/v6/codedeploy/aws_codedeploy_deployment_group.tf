@@ -7,7 +7,7 @@ resource "aws_codedeploy_deployment_group" "tf-sample-codedeploy-deployment-grou
   region                      = ""
   service_role_arn            = ""
   termination_hook_enabled    = false
-  
+
   alarm_configuration {
     alarms                    = []
     enabled                   = false
@@ -79,6 +79,6 @@ resource "aws_codedeploy_deployment_group" "tf-sample-codedeploy-deployment-grou
     trigger_name       = ""
     trigger_target_arn = ""
   }
-  
+
   tags = {}
 }

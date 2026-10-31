@@ -6,7 +6,7 @@ resource "aws_transfer_access" "tf-sample-transfer-access" {
   region              = ""
   role                = ""
   server_id           = ""
-  
+
   home_directory_mappings {
     entry  = ""
     target = ""

@@ -1,7 +1,7 @@
 resource "aws_lakeformation_resource_lf_tag" "tf-sample-lakeformation-resource-lf-tag" {
   catalog_id = ""
   region     = ""
-  
+
   database {
     catalog_id = ""
     name       = ""
@@ -22,7 +22,7 @@ resource "aws_lakeformation_resource_lf_tag" "tf-sample-lakeformation-resource-l
     column_names  = []
     database_name = ""
     name          = ""
-    
+
     column_wildcard {
       excluded_column_names = []
     }

@@ -13,7 +13,7 @@ resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
   subnet_ids                 = []
   vpc_endpoint_type          = ""
   vpc_id                     = ""
-  
+
   dns_options {
     dns_record_ip_type                             = ""
     private_dns_only_for_inbound_resolver_endpoint = false
@@ -25,6 +25,6 @@ resource "aws_vpc_endpoint" "tf-sample-vpc-endpoint" {
     ipv6      = ""
     subnet_id = ""
   }
-  
+
   tags = {}
 }

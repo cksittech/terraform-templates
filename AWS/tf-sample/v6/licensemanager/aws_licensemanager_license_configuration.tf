@@ -6,6 +6,6 @@ resource "aws_licensemanager_license_configuration" "tf-sample-licensemanager-li
   license_rules            = []
   name                     = ""
   region                   = ""
-  
+
   tags = {}
 }

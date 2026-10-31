@@ -17,7 +17,7 @@ resource "aws_glue_job" "tf-sample-glue-job" {
   security_configuration    = ""
   timeout                   = 0
   worker_type               = ""
-  
+
   command {
     name            = ""
     python_version  = ""
@@ -40,6 +40,6 @@ resource "aws_glue_job" "tf-sample-glue-job" {
     provider       = ""
     repository     = ""
   }
-  
+
   tags = {}
 }

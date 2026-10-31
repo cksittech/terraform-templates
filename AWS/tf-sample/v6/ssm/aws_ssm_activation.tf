@@ -5,6 +5,6 @@ resource "aws_ssm_activation" "tf-sample-ssm-activation" {
   name               = ""
   region             = ""
   registration_limit = 0
-  
+
   tags = {}
 }

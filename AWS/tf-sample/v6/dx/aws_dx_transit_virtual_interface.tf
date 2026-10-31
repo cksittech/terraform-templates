@@ -15,6 +15,6 @@ resource "aws_dx_transit_virtual_interface" "tf-sample-dx-transit-virtual-interf
   region                           = ""
   sitelink_enabled                 = false
   vlan                             = 0
-  
+
   tags = {}
 }

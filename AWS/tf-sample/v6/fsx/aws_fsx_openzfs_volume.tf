@@ -10,7 +10,7 @@ resource "aws_fsx_openzfs_volume" "tf-sample-fsx-openzfs-volume" {
   storage_capacity_quota_gib       = 0
   storage_capacity_reservation_gib = 0
   volume_type                      = ""
-  
+
   nfs_exports {
     client_configurations {
       clients = ""
@@ -26,6 +26,6 @@ resource "aws_fsx_openzfs_volume" "tf-sample-fsx-openzfs-volume" {
     storage_capacity_quota_gib = 0
     type                       = ""
   }
-  
+
   tags = {}
 }

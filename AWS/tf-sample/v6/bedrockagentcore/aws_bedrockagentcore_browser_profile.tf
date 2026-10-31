@@ -2,6 +2,6 @@ resource "aws_bedrockagentcore_browser_profile" "tf-sample-bedrockagentcore-brow
   description = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

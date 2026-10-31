@@ -69,7 +69,7 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   username                              = ""
   vpc_security_group_ids                = []
   warning_event_categories              = []
-  
+
   blue_green_update {
     enabled = false
   }
@@ -87,6 +87,6 @@ resource "aws_db_instance" "tf-sample-db-instance" {
     source_engine         = ""
     source_engine_version = ""
   }
-  
+
   tags = {}
 }

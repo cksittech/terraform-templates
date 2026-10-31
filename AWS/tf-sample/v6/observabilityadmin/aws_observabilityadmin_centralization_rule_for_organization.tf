@@ -1,12 +1,12 @@
 resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sample-observabilityadmin-centralization-rule-for-organization" {
   region    = ""
   rule_name = ""
-  
+
   rule {
     destination {
       account = ""
       region  = ""
-      
+
       destination_logs_configuration {
         backup_configuration {
           kms_key_arn = ""
@@ -35,7 +35,7 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
     source {
       regions = []
       scope   = ""
-      
+
       source_logs_configuration {
         data_source_selection_criteria = ""
         encrypted_log_group_strategy   = ""
@@ -46,6 +46,6 @@ resource "aws_observabilityadmin_centralization_rule_for_organization" "tf-sampl
       }
     }
   }
-  
+
   tags = {}
 }

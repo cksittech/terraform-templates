@@ -5,12 +5,12 @@ resource "aws_media_convert_queue" "tf-sample-media-convert-queue" {
   pricing_plan    = ""
   region          = ""
   status          = ""
-  
+
   reservation_plan_settings {
     commitment     = ""
     renewal_type   = ""
     reserved_slots = 0
   }
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "aws_redshift_cluster_snapshot" "tf-sample-redshift-cluster-snapshot" {
   manual_snapshot_retention_period = 0
   region                           = ""
   snapshot_identifier              = ""
-  
+
   tags = {}
 }

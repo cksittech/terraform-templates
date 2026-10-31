@@ -6,6 +6,6 @@ resource "aws_kms_replica_key" "tf-sample-kms-replica-key" {
   policy                             = ""
   primary_key_arn                    = ""
   region                             = ""
-  
+
   tags = {}
 }

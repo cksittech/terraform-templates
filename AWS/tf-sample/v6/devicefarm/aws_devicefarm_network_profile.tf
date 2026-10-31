@@ -12,6 +12,6 @@ resource "aws_devicefarm_network_profile" "tf-sample-devicefarm-network-profile"
   uplink_delay_ms         = 0
   uplink_jitter_ms        = 0
   uplink_loss_percent     = 0
-  
+
   tags = {}
 }

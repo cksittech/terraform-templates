@@ -4,7 +4,7 @@ resource "aws_evidently_launch" "tf-sample-evidently-launch" {
   project            = ""
   randomization_salt = ""
   region             = ""
-  
+
   groups {
     description = ""
     feature     = ""
@@ -24,7 +24,7 @@ resource "aws_evidently_launch" "tf-sample-evidently-launch" {
     steps {
       group_weights = {}
       start_time    = ""
-      
+
       segment_overrides {
         evaluation_order = 0
         segment          = ""
@@ -32,6 +32,6 @@ resource "aws_evidently_launch" "tf-sample-evidently-launch" {
       }
     }
   }
-  
+
   tags = {}
 }

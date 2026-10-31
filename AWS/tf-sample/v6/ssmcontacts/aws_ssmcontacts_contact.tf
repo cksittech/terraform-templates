@@ -3,6 +3,6 @@ resource "aws_ssmcontacts_contact" "tf-sample-ssmcontacts-contact" {
   display_name = ""
   region       = ""
   type         = ""
-  
+
   tags = {}
 }

@@ -13,7 +13,7 @@ resource "aws_flow_log" "tf-sample-flow-log" {
   transit_gateway_attachment_id = ""
   transit_gateway_id            = ""
   vpc_id                        = ""
-  
+
   destination_options {
     file_format                = ""
     hive_compatible_partitions = false
@@ -23,6 +23,6 @@ resource "aws_flow_log" "tf-sample-flow-log" {
     resource_type = ""
     tag_keys      = []
   }
-  
+
   tags = {}
 }

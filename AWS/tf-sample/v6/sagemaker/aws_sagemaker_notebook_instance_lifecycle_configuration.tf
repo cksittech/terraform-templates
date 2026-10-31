@@ -3,6 +3,6 @@ resource "aws_sagemaker_notebook_instance_lifecycle_configuration" "tf-sample-sa
   on_create = ""
   on_start  = ""
   region    = ""
-  
+
   tags = {}
 }

@@ -11,7 +11,7 @@ resource "aws_acm_certificate" "tf-sample-acm-certificate" {
   region                    = ""
   subject_alternative_names = []
   validation_method         = ""
-  
+
   options {
     certificate_transparency_logging_preference = ""
     export                                      = ""
@@ -20,6 +20,6 @@ resource "aws_acm_certificate" "tf-sample-acm-certificate" {
     domain_name       = ""
     validation_domain = ""
   }
-  
+
   tags = {}
 }

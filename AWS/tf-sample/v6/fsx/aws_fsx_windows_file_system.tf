@@ -18,7 +18,7 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
   subnet_ids                        = []
   throughput_capacity               = 0
   weekly_maintenance_start_time     = ""
-  
+
   audit_log_configuration {
     audit_log_destination             = ""
     file_access_audit_log_level       = ""
@@ -39,6 +39,6 @@ resource "aws_fsx_windows_file_system" "tf-sample-fsx-windows-file-system" {
     password_wo_version                    = 0
     username                               = ""
   }
-  
+
   tags = {}
 }

@@ -14,7 +14,7 @@ resource "aws_grafana_workspace" "tf-sample-grafana-workspace" {
   region                    = ""
   role_arn                  = ""
   stack_set_name            = ""
-  
+
   network_access_control {
     prefix_list_ids = []
     vpce_ids        = []
@@ -23,6 +23,6 @@ resource "aws_grafana_workspace" "tf-sample-grafana-workspace" {
     security_group_ids = []
     subnet_ids         = []
   }
-  
+
   tags = {}
 }

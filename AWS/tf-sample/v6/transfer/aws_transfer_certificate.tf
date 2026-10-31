@@ -5,6 +5,6 @@ resource "aws_transfer_certificate" "tf-sample-transfer-certificate" {
   private_key       = ""
   region            = ""
   usage             = ""
-  
+
   tags = {}
 }

@@ -5,12 +5,12 @@ resource "aws_sagemaker_feature_group" "tf-sample-sagemaker-feature-group" {
   record_identifier_feature_name = ""
   region                         = ""
   role_arn                       = ""
-  
+
   feature_definition {
     collection_type = ""
     feature_name    = ""
     feature_type    = ""
-    
+
     collection_config {
       vector_config {
         dimension = 0
@@ -20,7 +20,7 @@ resource "aws_sagemaker_feature_group" "tf-sample-sagemaker-feature-group" {
   offline_store_config {
     disable_glue_table_creation = false
     table_format                = ""
-    
+
     data_catalog_config {
       catalog    = ""
       database   = ""
@@ -35,7 +35,7 @@ resource "aws_sagemaker_feature_group" "tf-sample-sagemaker-feature-group" {
   online_store_config {
     enable_online_store = false
     storage_type        = ""
-    
+
     security_config {
       kms_key_id = ""
     }
@@ -49,6 +49,6 @@ resource "aws_sagemaker_feature_group" "tf-sample-sagemaker-feature-group" {
     provisioned_write_capacity_units = 0
     throughput_mode                  = ""
   }
-  
+
   tags = {}
 }

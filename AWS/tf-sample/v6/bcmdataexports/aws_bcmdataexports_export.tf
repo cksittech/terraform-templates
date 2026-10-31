@@ -1,9 +1,8 @@
 resource "aws_bcmdataexports_export" "tf-sample-bcmdataexports-export" {
-  
   export {
     description = ""
     name        = ""
-    
+
     data_query {
       query_statement      = ""
       table_configurations = {}
@@ -14,7 +13,7 @@ resource "aws_bcmdataexports_export" "tf-sample-bcmdataexports-export" {
         s3_bucket_owner = ""
         s3_prefix       = ""
         s3_region       = ""
-        
+
         s3_output_configurations {
           compression = ""
           format      = ""
@@ -27,6 +26,6 @@ resource "aws_bcmdataexports_export" "tf-sample-bcmdataexports-export" {
       frequency = ""
     }
   }
-  
+
   tags = {}
 }

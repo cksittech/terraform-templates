@@ -17,6 +17,6 @@ resource "aws_amplify_branch" "tf-sample-amplify-branch" {
   region                        = ""
   stage                         = ""
   ttl                           = ""
-  
+
   tags = {}
 }

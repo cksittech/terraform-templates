@@ -6,7 +6,7 @@ resource "aws_cloudformation_stack_instances" "tf-sample-cloudformation-stack-in
   regions             = []
   retain_stacks       = false
   stack_set_name      = ""
-  
+
   deployment_targets {
     account_filter_type     = ""
     accounts                = []

@@ -3,6 +3,6 @@ resource "aws_rds_reserved_instance" "tf-sample-rds-reserved-instance" {
   offering_id    = ""
   region         = ""
   reservation_id = ""
-  
+
   tags = {}
 }

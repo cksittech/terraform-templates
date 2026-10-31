@@ -6,7 +6,7 @@ resource "aws_route53domains_registered_domain" "tf-sample-route53domains-regist
   registrant_privacy = false
   tech_privacy       = false
   transfer_lock      = false
-  
+
   admin_contact {
     address_line_1    = ""
     address_line_2    = ""
@@ -75,6 +75,6 @@ resource "aws_route53domains_registered_domain" "tf-sample-route53domains-regist
     state             = ""
     zip_code          = ""
   }
-  
+
   tags = {}
 }

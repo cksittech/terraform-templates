@@ -3,7 +3,7 @@ resource "aws_sagemaker_workteam" "tf-sample-sagemaker-workteam" {
   region         = ""
   workforce_name = ""
   workteam_name  = ""
-  
+
   member_definition {
     cognito_member_definition {
       client_id  = ""
@@ -25,6 +25,6 @@ resource "aws_sagemaker_workteam" "tf-sample-sagemaker-workteam" {
       }
     }
   }
-  
+
   tags = {}
 }

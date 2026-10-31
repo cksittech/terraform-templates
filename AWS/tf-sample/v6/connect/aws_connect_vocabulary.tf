@@ -4,6 +4,6 @@ resource "aws_connect_vocabulary" "tf-sample-connect-vocabulary" {
   language_code = ""
   name          = ""
   region        = ""
-  
+
   tags = {}
 }

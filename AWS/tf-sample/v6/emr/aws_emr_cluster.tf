@@ -23,7 +23,7 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
   termination_protection            = false
   unhealthy_node_replacement        = false
   visible_to_all_users              = false
-  
+
   auto_termination_policy {
     idle_timeout = 0
   }
@@ -36,13 +36,13 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
     name                      = ""
     target_on_demand_capacity = 0
     target_spot_capacity      = 0
-    
+
     instance_type_configs {
       bid_price                                  = ""
       bid_price_as_percentage_of_on_demand_price = 0
       instance_type                              = ""
       weighted_capacity                          = 0
-      
+
       configurations {
         classification = ""
         properties     = {}
@@ -72,7 +72,7 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
     instance_count     = 0
     instance_type      = ""
     name               = ""
-    
+
     ebs_config {
       iops                 = 0
       size                 = 0
@@ -103,13 +103,13 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
     name                      = ""
     target_on_demand_capacity = 0
     target_spot_capacity      = 0
-    
+
     instance_type_configs {
       bid_price                                  = ""
       bid_price_as_percentage_of_on_demand_price = 0
       instance_type                              = ""
       weighted_capacity                          = 0
-      
+
       configurations {
         classification = ""
         properties     = {}
@@ -138,7 +138,7 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
     instance_count = 0
     instance_type  = ""
     name           = ""
-    
+
     ebs_config {
       iops                 = 0
       size                 = 0
@@ -147,6 +147,6 @@ resource "aws_emr_cluster" "tf-sample-emr-cluster" {
       volumes_per_instance = 0
     }
   }
-  
+
   tags = {}
 }

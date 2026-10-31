@@ -5,7 +5,7 @@ resource "aws_auditmanager_control" "tf-sample-auditmanager-control" {
   name                     = ""
   region                   = ""
   testing_information      = ""
-  
+
   control_mapping_sources {
     source_description   = ""
     source_frequency     = ""
@@ -15,6 +15,6 @@ resource "aws_auditmanager_control" "tf-sample-auditmanager-control" {
     source_type          = ""
     troubleshooting_text = ""
   }
-  
+
   tags = {}
 }

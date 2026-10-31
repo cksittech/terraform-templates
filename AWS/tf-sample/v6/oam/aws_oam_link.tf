@@ -3,7 +3,7 @@ resource "aws_oam_link" "tf-sample-oam-link" {
   region          = ""
   resource_types  = []
   sink_identifier = ""
-  
+
   link_configuration {
     log_group_configuration {
       filter = ""
@@ -12,6 +12,6 @@ resource "aws_oam_link" "tf-sample-oam-link" {
       filter = ""
     }
   }
-  
+
   tags = {}
 }

@@ -5,6 +5,6 @@ resource "aws_opensearchserverless_collection_group" "tf-sample-opensearchserver
   name             = ""
   region           = ""
   standby_replicas = ""
-  
+
   tags = {}
 }

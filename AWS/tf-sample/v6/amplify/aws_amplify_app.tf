@@ -17,7 +17,7 @@ resource "aws_amplify_app" "tf-sample-amplify-app" {
   platform                      = ""
   region                        = ""
   repository                    = ""
-  
+
   auto_branch_creation_config {
     basic_auth_credentials        = ""
     build_spec                    = ""
@@ -42,6 +42,6 @@ resource "aws_amplify_app" "tf-sample-amplify-app" {
   job_config {
     build_compute_type = ""
   }
-  
+
   tags = {}
 }

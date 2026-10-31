@@ -6,10 +6,10 @@ resource "aws_s3vectors_index" "tf-sample-s3vectors-index" {
   index_name               = ""
   region                   = ""
   vector_bucket_name       = ""
-  
+
   metadata_configuration {
     non_filterable_metadata_keys = []
   }
-  
+
   tags = {}
 }

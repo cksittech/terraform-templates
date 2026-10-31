@@ -5,7 +5,7 @@ resource "aws_bedrock_model_invocation_job" "tf-sample-bedrock-model-invocation-
   role_arn                  = ""
   skip_destroy              = false
   timeout_duration_in_hours = 0
-  
+
   input_data_config {
     s3_input_data_config {
       s3_bucket_owner = ""

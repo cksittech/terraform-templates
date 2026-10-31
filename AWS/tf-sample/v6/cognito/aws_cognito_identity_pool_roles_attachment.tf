@@ -2,12 +2,12 @@ resource "aws_cognito_identity_pool_roles_attachment" "tf-sample-cognito-identit
   identity_pool_id = ""
   region           = ""
   roles            = {}
-  
+
   role_mapping {
     ambiguous_role_resolution = ""
     identity_provider         = ""
     type                      = ""
-    
+
     mapping_rule {
       claim      = ""
       match_type = ""

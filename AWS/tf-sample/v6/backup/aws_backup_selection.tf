@@ -5,7 +5,7 @@ resource "aws_backup_selection" "tf-sample-backup-selection" {
   plan_id       = ""
   region        = ""
   resources     = []
-  
+
   condition {
     string_equals {
       key   = ""

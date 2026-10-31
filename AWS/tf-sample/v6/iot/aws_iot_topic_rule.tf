@@ -5,7 +5,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
   region      = ""
   sql         = ""
   sql_version = ""
-  
+
   cloudwatch_alarm {
     alarm_name   = ""
     role_arn     = ""
@@ -39,7 +39,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
   }
   dynamodbv2 {
     role_arn = ""
-    
+
     put_item {
       table_name = ""
     }
@@ -85,7 +85,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
     }
     dynamodbv2 {
       role_arn = ""
-      
+
       put_item {
         table_name = ""
       }
@@ -106,7 +106,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
     http {
       confirmation_url = ""
       url              = ""
-      
+
       http_header {
         key   = ""
         value = ""
@@ -129,7 +129,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
       key               = ""
       partition         = ""
       topic             = ""
-      
+
       header {
         key   = ""
         value = ""
@@ -173,7 +173,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
       database_name = ""
       role_arn      = ""
       table_name    = ""
-      
+
       dimension {
         name  = ""
         value = ""
@@ -193,7 +193,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
   http {
     confirmation_url = ""
     url              = ""
-    
+
     http_header {
       key   = ""
       value = ""
@@ -216,7 +216,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
     key               = ""
     partition         = ""
     topic             = ""
-    
+
     header {
       key   = ""
       value = ""
@@ -260,7 +260,7 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
     database_name = ""
     role_arn      = ""
     table_name    = ""
-    
+
     dimension {
       name  = ""
       value = ""
@@ -270,6 +270,6 @@ resource "aws_iot_topic_rule" "tf-sample-iot-topic-rule" {
       value = ""
     }
   }
-  
+
   tags = {}
 }

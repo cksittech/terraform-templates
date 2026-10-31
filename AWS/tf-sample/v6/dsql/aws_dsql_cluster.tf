@@ -3,11 +3,11 @@ resource "aws_dsql_cluster" "tf-sample-dsql-cluster" {
   force_destroy               = false
   kms_encryption_key          = ""
   region                      = ""
-  
+
   multi_region_properties {
     clusters       = []
     witness_region = ""
   }
-  
+
   tags = {}
 }

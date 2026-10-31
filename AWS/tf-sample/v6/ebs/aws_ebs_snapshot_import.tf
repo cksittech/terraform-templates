@@ -7,7 +7,7 @@ resource "aws_ebs_snapshot_import" "tf-sample-ebs-snapshot-import" {
   role_name              = ""
   storage_tier           = ""
   temporary_restore_days = 0
-  
+
   client_data {
     comment      = ""
     upload_end   = ""
@@ -18,12 +18,12 @@ resource "aws_ebs_snapshot_import" "tf-sample-ebs-snapshot-import" {
     description = ""
     format      = ""
     url         = ""
-    
+
     user_bucket {
       s3_bucket = ""
       s3_key    = ""
     }
   }
-  
+
   tags = {}
 }

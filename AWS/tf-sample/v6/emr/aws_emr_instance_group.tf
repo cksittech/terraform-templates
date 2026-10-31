@@ -8,7 +8,7 @@ resource "aws_emr_instance_group" "tf-sample-emr-instance-group" {
   instance_type       = ""
   name                = ""
   region              = ""
-  
+
   ebs_config {
     iops                 = 0
     size                 = 0

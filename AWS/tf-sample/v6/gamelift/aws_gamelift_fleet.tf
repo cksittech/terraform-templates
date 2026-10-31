@@ -9,7 +9,7 @@ resource "aws_gamelift_fleet" "tf-sample-gamelift-fleet" {
   new_game_session_protection_policy = ""
   region                             = ""
   script_id                          = ""
-  
+
   certificate_configuration {
     certificate_type = ""
   }
@@ -26,13 +26,13 @@ resource "aws_gamelift_fleet" "tf-sample-gamelift-fleet" {
   runtime_configuration {
     game_session_activation_timeout_seconds = 0
     max_concurrent_game_session_activations = 0
-    
+
     server_process {
       concurrent_executions = 0
       launch_path           = ""
       parameters            = ""
     }
   }
-  
+
   tags = {}
 }

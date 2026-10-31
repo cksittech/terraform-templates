@@ -4,11 +4,11 @@ resource "aws_kendra_thesaurus" "tf-sample-kendra-thesaurus" {
   name        = ""
   region      = ""
   role_arn    = ""
-  
+
   source_s3_path {
     bucket = ""
     key    = ""
   }
-  
+
   tags = {}
 }

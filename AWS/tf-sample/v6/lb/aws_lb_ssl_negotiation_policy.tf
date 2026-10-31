@@ -4,7 +4,7 @@ resource "aws_lb_ssl_negotiation_policy" "tf-sample-lb-ssl-negotiation-policy" {
   name          = ""
   region        = ""
   triggers      = {}
-  
+
   attribute {
     name  = ""
     value = ""

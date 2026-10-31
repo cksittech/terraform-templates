@@ -4,7 +4,7 @@ resource "aws_cloudwatch_event_connection" "tf-sample-cloudwatch-event-connectio
   kms_key_identifier = ""
   name               = ""
   region             = ""
-  
+
   auth_parameters {
     api_key {
       key   = ""
@@ -39,7 +39,7 @@ resource "aws_cloudwatch_event_connection" "tf-sample-cloudwatch-event-connectio
     oauth {
       authorization_endpoint = ""
       http_method            = ""
-      
+
       client_parameters {
         client_id     = ""
         client_secret = ""

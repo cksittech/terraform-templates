@@ -3,6 +3,6 @@ resource "aws_evidently_segment" "tf-sample-evidently-segment" {
   name        = ""
   pattern     = ""
   region      = ""
-  
+
   tags = {}
 }

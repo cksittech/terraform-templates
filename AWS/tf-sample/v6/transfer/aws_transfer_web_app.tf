@@ -3,7 +3,7 @@ resource "aws_transfer_web_app" "tf-sample-transfer-web-app" {
   region                  = ""
   web_app_endpoint_policy = ""
   web_app_units           = []
-  
+
   endpoint_details {
     vpc {
       security_group_ids = []
@@ -17,6 +17,6 @@ resource "aws_transfer_web_app" "tf-sample-transfer-web-app" {
       role         = ""
     }
   }
-  
+
   tags = {}
 }

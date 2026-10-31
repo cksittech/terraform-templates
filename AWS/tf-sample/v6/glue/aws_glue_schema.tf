@@ -6,6 +6,6 @@ resource "aws_glue_schema" "tf-sample-glue-schema" {
   registry_arn      = ""
   schema_definition = ""
   schema_name       = ""
-  
+
   tags = {}
 }

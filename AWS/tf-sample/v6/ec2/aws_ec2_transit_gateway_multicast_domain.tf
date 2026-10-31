@@ -4,6 +4,6 @@ resource "aws_ec2_transit_gateway_multicast_domain" "tf-sample-ec2-transit-gatew
   region                          = ""
   static_sources_support          = ""
   transit_gateway_id              = ""
-  
+
   tags = {}
 }

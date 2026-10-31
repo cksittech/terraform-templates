@@ -3,22 +3,22 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
   name        = ""
   region      = ""
   role_arn    = ""
-  
+
   knowledge_base_configuration {
     type = ""
-    
+
     kendra_knowledge_base_configuration {
       kendra_index_arn = ""
     }
     managed_knowledge_base_configuration {
       embedding_model_arn  = ""
       embedding_model_type = ""
-      
+
       embedding_model_configuration {
         bedrock_embedding_model_configuration {
           dimensions          = 0
           embedding_data_type = ""
-          
+
           audio {
             segmentation_configuration {
               fixed_length_duration = 0
@@ -37,14 +37,14 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
     }
     sql_knowledge_base_configuration {
       type = ""
-      
+
       redshift_configuration {
         query_engine_configuration {
           type = ""
-          
+
           provisioned_configuration {
             cluster_identifier = ""
-            
+
             auth_configuration {
               database_user                = ""
               type                         = ""
@@ -53,7 +53,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
           }
           serverless_configuration {
             workgroup_arn = ""
-            
+
             auth_configuration {
               type                         = ""
               username_password_secret_arn = ""
@@ -62,7 +62,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
         }
         query_generation_configuration {
           execution_timeout_seconds = 0
-          
+
           generation_context {
             curated_query {
               natural_language = ""
@@ -72,7 +72,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
               description = ""
               inclusion   = ""
               name        = ""
-              
+
               column {
                 description = ""
                 inclusion   = ""
@@ -83,7 +83,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
         }
         storage_configuration {
           type = ""
-          
+
           aws_data_catalog_configuration {
             table_names = []
           }
@@ -95,12 +95,12 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
     }
     vector_knowledge_base_configuration {
       embedding_model_arn = ""
-      
+
       embedding_model_configuration {
         bedrock_embedding_model_configuration {
           dimensions          = 0
           embedding_data_type = ""
-          
+
           audio {
             segmentation_configuration {
               fixed_length_duration = 0
@@ -116,7 +116,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       supplemental_data_storage_configuration {
         storage_location {
           type = ""
-          
+
           s3_location {
             uri = ""
           }
@@ -126,7 +126,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
   }
   storage_configuration {
     type = ""
-    
+
     mongo_db_atlas_configuration {
       collection_name        = ""
       credentials_secret_arn = ""
@@ -135,7 +135,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       endpoint_service_name  = ""
       text_index_name        = ""
       vector_index_name      = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -144,7 +144,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
     }
     neptune_analytics_configuration {
       graph_arn = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -154,7 +154,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       domain_arn        = ""
       domain_endpoint   = ""
       vector_index_name = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -164,7 +164,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
     opensearch_serverless_configuration {
       collection_arn    = ""
       vector_index_name = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -175,7 +175,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       connection_string      = ""
       credentials_secret_arn = ""
       namespace              = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -186,7 +186,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       database_name          = ""
       resource_arn           = ""
       table_name             = ""
-      
+
       field_mapping {
         custom_metadata_field = ""
         metadata_field        = ""
@@ -199,7 +199,7 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       credentials_secret_arn = ""
       endpoint               = ""
       vector_index_name      = ""
-      
+
       field_mapping {
         metadata_field = ""
         text_field     = ""
@@ -212,6 +212,6 @@ resource "aws_bedrockagent_knowledge_base" "tf-sample-bedrockagent-knowledge-bas
       vector_bucket_arn = ""
     }
   }
-  
+
   tags = {}
 }

@@ -23,7 +23,7 @@ resource "aws_fsx_lustre_file_system" "tf-sample-fsx-lustre-file-system" {
   subnet_ids                        = []
   throughput_capacity               = 0
   weekly_maintenance_start_time     = ""
-  
+
   data_read_cache_configuration {
     size        = 0
     sizing_mode = ""
@@ -40,6 +40,6 @@ resource "aws_fsx_lustre_file_system" "tf-sample-fsx-lustre-file-system" {
     no_squash_nids = []
     root_squash    = ""
   }
-  
+
   tags = {}
 }

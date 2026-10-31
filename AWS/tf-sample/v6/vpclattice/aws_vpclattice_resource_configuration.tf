@@ -9,7 +9,7 @@ resource "aws_vpclattice_resource_configuration" "tf-sample-vpclattice-resource-
   resource_configuration_group_id                = ""
   resource_gateway_identifier                    = ""
   type                                           = ""
-  
+
   resource_configuration_definition {
     arn_resource {
     }
@@ -24,6 +24,6 @@ resource "aws_vpclattice_resource_configuration" "tf-sample-vpclattice-resource-
       ip_address = ""
     }
   }
-  
+
   tags = {}
 }

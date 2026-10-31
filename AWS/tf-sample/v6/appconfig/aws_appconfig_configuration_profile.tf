@@ -7,11 +7,11 @@ resource "aws_appconfig_configuration_profile" "tf-sample-appconfig-configuratio
   region             = ""
   retrieval_role_arn = ""
   type               = ""
-  
+
   validator {
     content = ""
     type    = ""
   }
-  
+
   tags = {}
 }

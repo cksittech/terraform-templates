@@ -5,6 +5,6 @@ resource "aws_serverlessapplicationrepository_cloudformation_stack" "tf-sample-s
   parameters       = {}
   region           = ""
   semantic_version = ""
-  
+
   tags = {}
 }

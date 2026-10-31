@@ -3,6 +3,6 @@ resource "aws_lightsail_bucket" "tf-sample-lightsail-bucket" {
   force_delete = false
   name         = ""
   region       = ""
-  
+
   tags = {}
 }

@@ -15,7 +15,7 @@ resource "aws_ami" "tf-sample-ami" {
   tpm_support         = ""
   uefi_data           = ""
   virtualization_type = ""
-  
+
   ebs_block_device {
     delete_on_termination = false
     device_name           = ""
@@ -31,6 +31,6 @@ resource "aws_ami" "tf-sample-ami" {
     device_name  = ""
     virtual_name = ""
   }
-  
+
   tags = {}
 }

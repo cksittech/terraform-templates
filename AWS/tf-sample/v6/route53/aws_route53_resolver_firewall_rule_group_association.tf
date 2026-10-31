@@ -5,6 +5,6 @@ resource "aws_route53_resolver_firewall_rule_group_association" "tf-sample-route
   priority               = 0
   region                 = ""
   vpc_id                 = ""
-  
+
   tags = {}
 }

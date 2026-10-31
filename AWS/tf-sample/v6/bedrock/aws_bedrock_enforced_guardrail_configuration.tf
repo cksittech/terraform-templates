@@ -2,7 +2,7 @@ resource "aws_bedrock_enforced_guardrail_configuration" "tf-sample-bedrock-enfor
   guardrail_arn     = ""
   guardrail_version = ""
   region            = ""
-  
+
   model_enforcement {
     excluded_models = []
     included_models = []

@@ -6,7 +6,7 @@ resource "aws_lexv2models_bot_locale" "tf-sample-lexv2models-bot-locale" {
   n_lu_intent_confidence_threshold = 0
   name                             = ""
   region                           = ""
-  
+
   voice_settings {
     engine   = ""
     voice_id = ""

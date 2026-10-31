@@ -5,6 +5,6 @@ resource "aws_db_proxy_endpoint" "tf-sample-db-proxy-endpoint" {
   target_role            = ""
   vpc_security_group_ids = []
   vpc_subnet_ids         = []
-  
+
   tags = {}
 }

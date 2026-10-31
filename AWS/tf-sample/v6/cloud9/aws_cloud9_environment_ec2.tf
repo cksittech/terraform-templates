@@ -8,6 +8,6 @@ resource "aws_cloud9_environment_ec2" "tf-sample-cloud9-environment-ec2" {
   owner_arn                   = ""
   region                      = ""
   subnet_id                   = ""
-  
+
   tags = {}
 }

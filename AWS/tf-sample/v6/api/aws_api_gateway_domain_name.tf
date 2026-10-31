@@ -13,7 +13,7 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
   regional_certificate_name              = ""
   routing_mode                           = ""
   security_policy                        = ""
-  
+
   endpoint_configuration {
     ip_address_type = ""
     types           = []
@@ -22,6 +22,6 @@ resource "aws_api_gateway_domain_name" "tf-sample-api-gateway-domain-name" {
     truststore_uri     = ""
     truststore_version = ""
   }
-  
+
   tags = {}
 }

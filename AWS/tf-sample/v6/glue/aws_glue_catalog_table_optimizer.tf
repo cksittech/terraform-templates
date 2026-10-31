@@ -4,11 +4,11 @@ resource "aws_glue_catalog_table_optimizer" "tf-sample-glue-catalog-table-optimi
   region        = ""
   table_name    = ""
   type          = ""
-  
+
   configuration {
     enabled  = false
     role_arn = ""
-    
+
     compaction_configuration {
       iceberg_configuration {
         delete_file_threshold = 0

@@ -2,6 +2,6 @@ resource "aws_notifications_notification_configuration" "tf-sample-notifications
   aggregation_duration = ""
   description          = ""
   name                 = ""
-  
+
   tags = {}
 }

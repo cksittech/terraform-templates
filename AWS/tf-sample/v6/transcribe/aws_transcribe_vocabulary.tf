@@ -4,6 +4,6 @@ resource "aws_transcribe_vocabulary" "tf-sample-transcribe-vocabulary" {
   region              = ""
   vocabulary_file_uri = ""
   vocabulary_name     = ""
-  
+
   tags = {}
 }

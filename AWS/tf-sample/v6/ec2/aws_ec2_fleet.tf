@@ -11,7 +11,7 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
   type                                = ""
   valid_from                          = ""
   valid_until                         = ""
-  
+
   fleet_instance_set {
     instance_ids  = []
     instance_type = ""
@@ -31,7 +31,7 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
       priority          = 0
       subnet_id         = ""
       weighted_capacity = 0
-      
+
       instance_requirements {
         accelerator_manufacturers                               = []
         accelerator_names                                       = []
@@ -48,7 +48,7 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
         on_demand_max_price_percentage_over_lowest_price        = 0
         require_hibernate_support                               = false
         spot_max_price_percentage_over_lowest_price             = 0
-        
+
         accelerator_count {
           max = 0
           min = 0
@@ -94,7 +94,7 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
     min_target_capacity      = 0
     single_availability_zone = false
     single_instance_type     = false
-    
+
     capacity_reservation_options {
       usage_strategy = ""
     }
@@ -107,7 +107,7 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
     min_target_capacity            = 0
     single_availability_zone       = false
     single_instance_type           = false
-    
+
     maintenance_strategies {
       capacity_rebalance {
         replacement_strategy = ""
@@ -122,6 +122,6 @@ resource "aws_ec2_fleet" "tf-sample-ec2-fleet" {
     target_capacity_unit_type    = ""
     total_target_capacity        = 0
   }
-  
+
   tags = {}
 }

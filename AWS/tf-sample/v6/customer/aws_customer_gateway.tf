@@ -6,6 +6,6 @@ resource "aws_customer_gateway" "tf-sample-customer-gateway" {
   ip_address       = ""
   region           = ""
   type             = ""
-  
+
   tags = {}
 }

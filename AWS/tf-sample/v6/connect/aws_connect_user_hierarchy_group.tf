@@ -3,6 +3,6 @@ resource "aws_connect_user_hierarchy_group" "tf-sample-connect-user-hierarchy-gr
   name            = ""
   parent_group_id = ""
   region          = ""
-  
+
   tags = {}
 }

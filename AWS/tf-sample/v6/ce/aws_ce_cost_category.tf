@@ -3,11 +3,11 @@ resource "aws_ce_cost_category" "tf-sample-ce-cost-category" {
   effective_start = ""
   name            = ""
   rule_version    = ""
-  
+
   rule {
     type  = ""
     value = ""
-    
+
     inherited_value {
       dimension_key  = ""
       dimension_name = ""
@@ -238,12 +238,12 @@ resource "aws_ce_cost_category" "tf-sample-ce-cost-category" {
     method  = ""
     source  = ""
     targets = []
-    
+
     parameter {
       type   = ""
       values = []
     }
   }
-  
+
   tags = {}
 }

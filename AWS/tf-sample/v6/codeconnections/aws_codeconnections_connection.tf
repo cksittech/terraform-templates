@@ -3,6 +3,6 @@ resource "aws_codeconnections_connection" "tf-sample-codeconnections-connection"
   name          = ""
   provider_type = ""
   region        = ""
-  
+
   tags = {}
 }

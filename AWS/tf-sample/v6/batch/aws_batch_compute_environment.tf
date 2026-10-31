@@ -5,7 +5,7 @@ resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
   service_role = ""
   state        = ""
   type         = ""
-  
+
   compute_resources {
     allocation_strategy = ""
     bid_percentage      = 0
@@ -21,7 +21,7 @@ resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
     spot_iam_fleet_role = ""
     subnets             = []
     type                = ""
-    
+
     ec2_configuration {
       image_id_override        = ""
       image_kubernetes_version = ""
@@ -41,6 +41,6 @@ resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
     job_execution_timeout_minutes = 0
     terminate_jobs_on_update      = false
   }
-  
+
   tags = {}
 }

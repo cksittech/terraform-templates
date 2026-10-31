@@ -6,6 +6,6 @@ resource "aws_dx_lag" "tf-sample-dx-lag" {
   name                  = ""
   provider_name         = ""
   region                = ""
-  
+
   tags = {}
 }

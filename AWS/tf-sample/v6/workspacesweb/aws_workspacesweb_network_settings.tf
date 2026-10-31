@@ -3,6 +3,6 @@ resource "aws_workspacesweb_network_settings" "tf-sample-workspacesweb-network-s
   security_group_ids = []
   subnet_ids         = []
   vpc_id             = ""
-  
+
   tags = {}
 }

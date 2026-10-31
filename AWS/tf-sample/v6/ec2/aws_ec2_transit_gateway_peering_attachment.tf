@@ -4,10 +4,10 @@ resource "aws_ec2_transit_gateway_peering_attachment" "tf-sample-ec2-transit-gat
   peer_transit_gateway_id = ""
   region                  = ""
   transit_gateway_id      = ""
-  
+
   options {
     dynamic_routing = ""
   }
-  
+
   tags = {}
 }

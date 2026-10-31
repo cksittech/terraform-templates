@@ -8,27 +8,27 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   region                = ""
   timeout_seconds       = 0
   truncation            = []
-  
+
   authorizer_configuration {
     custom_jwt_authorizer {
       allowed_audience = []
       allowed_clients  = []
       allowed_scopes   = []
       discovery_url    = ""
-      
+
       allowed_workload_configuration {
         workload_identities = []
-        
+
         hosting_environment {
         }
       }
       custom_claim {
         inbound_token_claim_name       = ""
         inbound_token_claim_value_type = ""
-        
+
         authorizing_claim_match_value {
           claim_match_operator = ""
-          
+
           claim_match_value {
             match_value_string      = ""
             match_value_string_list = []
@@ -49,7 +49,7 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
       }
       private_endpoint_overrides {
         domain = ""
-        
+
         private_endpoint {
           managed_vpc_resource {
             endpoint_ip_address_type = ""
@@ -68,7 +68,7 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   environment {
     agentcore_runtime_environment {
       lifecycle_configuration = []
-      
+
       filesystem_configuration {
         efs_access_point {
           access_point_arn = ""
@@ -84,7 +84,7 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
       }
       network_configuration {
         network_mode = ""
-        
+
         network_mode_config {
           security_groups = []
           subnets         = []
@@ -101,7 +101,7 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
     agentcore_memory_configuration {
       actor_id       = ""
       messages_count = 0
-      
+
       retrieval_config {
         map_block_key   = ""
         relevance_score = 0
@@ -156,14 +156,14 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   }
   skill {
     path = ""
-    
+
     aws_skills {
       paths = []
     }
     git {
       path = ""
       url  = ""
-      
+
       auth {
         credential_arn = ""
         username       = ""
@@ -179,7 +179,7 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
   tool {
     name = ""
     type = ""
-    
+
     config {
       agentcore_browser {
         browser_arn = ""
@@ -189,11 +189,11 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
       }
       agentcore_gateway {
         gateway_arn = ""
-        
+
         outbound_auth {
           aws_iam = false
           none    = false
-          
+
           oauth {
             custom_parameters  = {}
             default_return_url = ""
@@ -213,6 +213,6 @@ resource "aws_bedrockagentcore_harness" "tf-sample-bedrockagentcore-harness" {
       }
     }
   }
-  
+
   tags = {}
 }

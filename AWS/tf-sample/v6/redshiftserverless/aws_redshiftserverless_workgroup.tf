@@ -10,7 +10,7 @@ resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgr
   subnet_ids           = []
   track_name           = ""
   workgroup_name       = ""
-  
+
   config_parameter {
     parameter_key   = ""
     parameter_value = ""
@@ -19,6 +19,6 @@ resource "aws_redshiftserverless_workgroup" "tf-sample-redshiftserverless-workgr
     enabled = false
     level   = 0
   }
-  
+
   tags = {}
 }

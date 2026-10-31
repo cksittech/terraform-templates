@@ -6,6 +6,6 @@ resource "aws_vpc_dhcp_options" "tf-sample-vpc-dhcp-options" {
   netbios_node_type                 = ""
   ntp_servers                       = []
   region                            = ""
-  
+
   tags = {}
 }

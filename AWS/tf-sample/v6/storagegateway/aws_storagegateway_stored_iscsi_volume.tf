@@ -8,6 +8,6 @@ resource "aws_storagegateway_stored_iscsi_volume" "tf-sample-storagegateway-stor
   region                 = ""
   snapshot_id            = ""
   target_name            = ""
-  
+
   tags = {}
 }

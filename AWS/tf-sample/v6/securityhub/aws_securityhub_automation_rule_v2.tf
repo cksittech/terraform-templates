@@ -4,10 +4,10 @@ resource "aws_securityhub_automation_rule_v2" "tf-sample-securityhub-automation-
   rule_name   = ""
   rule_order  = 0
   rule_status = ""
-  
+
   action {
     type = ""
-    
+
     external_integration_configuration {
       connector_arn = ""
     }
@@ -20,6 +20,6 @@ resource "aws_securityhub_automation_rule_v2" "tf-sample-securityhub-automation-
   criteria {
     ocsf_finding_criteria_json = ""
   }
-  
+
   tags = {}
 }

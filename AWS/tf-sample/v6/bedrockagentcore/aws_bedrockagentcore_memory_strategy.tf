@@ -5,10 +5,10 @@ resource "aws_bedrockagentcore_memory_strategy" "tf-sample-bedrockagentcore-memo
   namespace_templates = []
   region              = ""
   type                = ""
-  
+
   configuration {
     type = ""
-    
+
     consolidation {
       append_to_prompt = ""
       model_id         = ""
@@ -24,7 +24,7 @@ resource "aws_bedrockagentcore_memory_strategy" "tf-sample-bedrockagentcore-memo
     }
     self_managed_configuration {
       historical_context_window_size = 0
-      
+
       invocation_configuration {
         payload_delivery_bucket_name = ""
         topic_arn                    = ""
@@ -47,12 +47,12 @@ resource "aws_bedrockagentcore_memory_strategy" "tf-sample-bedrockagentcore-memo
       extraction_type = ""
       key             = ""
       type            = ""
-      
+
       extraction_config {
         llm_extraction_config {
           definition                 = ""
           llm_extraction_instruction = ""
-          
+
           validation {
             number_validation {
               max_value = 0

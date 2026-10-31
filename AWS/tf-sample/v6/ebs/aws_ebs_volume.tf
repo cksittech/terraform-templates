@@ -12,6 +12,6 @@ resource "aws_ebs_volume" "tf-sample-ebs-volume" {
   throughput                 = 0
   type                       = ""
   volume_initialization_rate = 0
-  
+
   tags = {}
 }

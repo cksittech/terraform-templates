@@ -5,7 +5,7 @@ resource "aws_elastictranscoder_pipeline" "tf-sample-elastictranscoder-pipeline"
   output_bucket   = ""
   region          = ""
   role            = ""
-  
+
   content_config {
     bucket        = ""
     storage_class = ""

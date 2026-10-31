@@ -4,6 +4,6 @@ resource "aws_lightsail_key_pair" "tf-sample-lightsail-key-pair" {
   pgp_key     = ""
   public_key  = ""
   region      = ""
-  
+
   tags = {}
 }

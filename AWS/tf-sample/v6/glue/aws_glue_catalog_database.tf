@@ -5,10 +5,10 @@ resource "aws_glue_catalog_database" "tf-sample-glue-catalog-database" {
   name         = ""
   parameters   = {}
   region       = ""
-  
+
   create_table_default_permission {
     permissions = []
-    
+
     principal {
       data_lake_principal_identifier = ""
     }
@@ -22,6 +22,6 @@ resource "aws_glue_catalog_database" "tf-sample-glue-catalog-database" {
     database_name = ""
     region        = ""
   }
-  
+
   tags = {}
 }

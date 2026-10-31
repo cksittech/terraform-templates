@@ -1,6 +1,6 @@
 resource "aws_codegurureviewer_repository_association" "tf-sample-codegurureviewer-repository-association" {
   region = ""
-  
+
   kms_key_details {
     encryption_option = ""
     kms_key_id        = ""
@@ -24,6 +24,6 @@ resource "aws_codegurureviewer_repository_association" "tf-sample-codegurureview
       name        = ""
     }
   }
-  
+
   tags = {}
 }

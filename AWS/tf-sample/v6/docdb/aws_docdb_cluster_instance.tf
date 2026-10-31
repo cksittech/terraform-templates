@@ -15,6 +15,6 @@ resource "aws_docdb_cluster_instance" "tf-sample-docdb-cluster-instance" {
   preferred_maintenance_window    = ""
   promotion_tier                  = 0
   region                          = ""
-  
+
   tags = {}
 }

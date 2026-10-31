@@ -1,7 +1,7 @@
 resource "aws_glue_data_catalog_encryption_settings" "tf-sample-glue-data-catalog-encryption-settings" {
   catalog_id = ""
   region     = ""
-  
+
   data_catalog_encryption_settings {
     connection_password_encryption {
       aws_kms_key_id                       = ""

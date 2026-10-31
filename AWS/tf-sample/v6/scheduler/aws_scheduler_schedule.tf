@@ -11,7 +11,7 @@ resource "aws_scheduler_schedule" "tf-sample-scheduler-schedule" {
   schedule_expression_timezone = ""
   start_date                   = ""
   state                        = ""
-  
+
   flexible_time_window {
     maximum_window_in_minutes = 0
     mode                      = ""
@@ -19,7 +19,7 @@ resource "aws_scheduler_schedule" "tf-sample-scheduler-schedule" {
   target {
     input    = ""
     role_arn = ""
-    
+
     dead_letter_config {
     }
     ecs_parameters {
@@ -32,7 +32,7 @@ resource "aws_scheduler_schedule" "tf-sample-scheduler-schedule" {
       reference_id            = ""
       task_count              = 0
       task_definition_arn     = ""
-      
+
       capacity_provider_strategy {
         base              = 0
         capacity_provider = ""

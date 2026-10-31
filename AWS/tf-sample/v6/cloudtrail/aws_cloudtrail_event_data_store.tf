@@ -8,10 +8,10 @@ resource "aws_cloudtrail_event_data_store" "tf-sample-cloudtrail-event-data-stor
   retention_period               = 0
   suspend                        = ""
   termination_protection_enabled = false
-  
+
   advanced_event_selector {
     name = ""
-    
+
     field_selector {
       ends_with       = []
       equals          = []
@@ -22,6 +22,6 @@ resource "aws_cloudtrail_event_data_store" "tf-sample-cloudtrail-event-data-stor
       starts_with     = []
     }
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "aws_appmesh_virtual_service" "tf-sample-appmesh-virtual-service" {
   mesh_owner = ""
   name       = ""
   region     = ""
-  
+
   spec {
     provider {
       virtual_node {
@@ -14,6 +14,6 @@ resource "aws_appmesh_virtual_service" "tf-sample-appmesh-virtual-service" {
       }
     }
   }
-  
+
   tags = {}
 }

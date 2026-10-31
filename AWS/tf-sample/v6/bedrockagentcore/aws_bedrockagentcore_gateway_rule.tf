@@ -3,7 +3,7 @@ resource "aws_bedrockagentcore_gateway_rule" "tf-sample-bedrockagentcore-gateway
   gateway_identifier = ""
   priority           = 0
   region             = ""
-  
+
   action {
     configuration_bundle {
       static_override {
@@ -16,7 +16,7 @@ resource "aws_bedrockagentcore_gateway_rule" "tf-sample-bedrockagentcore-gateway
           metadata    = {}
           name        = ""
           weight      = 0
-          
+
           configuration_bundle {
             bundle_arn     = ""
             bundle_version = ""

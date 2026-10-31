@@ -1,18 +1,18 @@
 resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-schedule" {
   name   = ""
   region = ""
-  
+
   monitoring_schedule_config {
     monitoring_job_definition_name = ""
     monitoring_type                = ""
-    
+
     monitoring_job_definition {
       environment = {}
       role_arn    = ""
-      
+
       baseline {
         baselining_job_name = ""
-        
+
         constraints_resource {
           s3_uri = ""
         }
@@ -40,7 +40,7 @@ resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-sch
           s3_data_distribution_type        = ""
           s3_input_mode                    = ""
           start_time_offset                = ""
-          
+
           dataset_format {
             csv {
               header = false
@@ -66,7 +66,7 @@ resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-sch
       }
       monitoring_output_config {
         kms_key_id = ""
-        
+
         monitoring_outputs {
           s3_output {
             local_path     = ""
@@ -86,7 +86,7 @@ resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-sch
       network_config {
         enable_inter_container_traffic_encryption = false
         enable_network_isolation                  = false
-        
+
         vpc_config {
           security_group_ids = []
           subnets            = []
@@ -100,6 +100,6 @@ resource "aws_sagemaker_monitoring_schedule" "tf-sample-sagemaker-monitoring-sch
       schedule_expression = ""
     }
   }
-  
+
   tags = {}
 }

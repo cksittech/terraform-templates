@@ -7,6 +7,6 @@ resource "aws_rolesanywhere_profile" "tf-sample-rolesanywhere-profile" {
   require_instance_properties = false
   role_arns                   = []
   session_policy              = ""
-  
+
   tags = {}
 }

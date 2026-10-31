@@ -4,13 +4,13 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
   description                 = ""
   name                        = ""
   region                      = ""
-  
+
   variant {
     additional_model_request_fields = ""
     model_id                        = ""
     name                            = ""
     template_type                   = ""
-    
+
     gen_ai_resource {
       agent {
         agent_identifier = ""
@@ -35,10 +35,10 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
         }
         message {
           role = ""
-          
+
           content {
             text = ""
-            
+
             cache_point {
               type = ""
             }
@@ -46,7 +46,7 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
         }
         system {
           text = ""
-          
+
           cache_point {
             type = ""
           }
@@ -59,7 +59,7 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
             tool_spec {
               description = ""
               name        = ""
-              
+
               input_schema {
                 json = ""
               }
@@ -78,7 +78,7 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
       }
       text {
         text = ""
-        
+
         cache_point {
           type = ""
         }
@@ -88,6 +88,6 @@ resource "aws_bedrockagent_prompt" "tf-sample-bedrockagent-prompt" {
       }
     }
   }
-  
+
   tags = {}
 }

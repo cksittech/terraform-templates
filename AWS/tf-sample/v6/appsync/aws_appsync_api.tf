@@ -2,11 +2,11 @@ resource "aws_appsync_api" "tf-sample-appsync-api" {
   name          = ""
   owner_contact = ""
   region        = ""
-  
+
   event_config {
     auth_provider {
       auth_type = ""
-      
+
       cognito_config {
         app_id_client_regex = ""
         aws_region          = ""
@@ -38,6 +38,6 @@ resource "aws_appsync_api" "tf-sample-appsync-api" {
       log_level                = ""
     }
   }
-  
+
   tags = {}
 }

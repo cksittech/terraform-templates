@@ -8,7 +8,7 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
   name_prefix                = ""
   region                     = ""
   sampling_percentage        = 0
-  
+
   s3_job_definition {
     bucket_criteria {
       excludes {
@@ -20,7 +20,7 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
           }
           tag_criterion {
             comparator = ""
-            
+
             tag_values {
               key   = ""
               value = ""
@@ -37,7 +37,7 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
           }
           tag_criterion {
             comparator = ""
-            
+
             tag_values {
               key   = ""
               value = ""
@@ -62,7 +62,7 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
             comparator = ""
             key        = ""
             target     = ""
-            
+
             tag_values {
               key   = ""
               value = ""
@@ -81,7 +81,7 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
             comparator = ""
             key        = ""
             target     = ""
-            
+
             tag_values {
               key   = ""
               value = ""
@@ -96,6 +96,6 @@ resource "aws_macie2_classification_job" "tf-sample-macie2-classification-job" {
     monthly_schedule = 0
     weekly_schedule  = ""
   }
-  
+
   tags = {}
 }

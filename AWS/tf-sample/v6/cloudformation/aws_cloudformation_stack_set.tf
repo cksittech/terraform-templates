@@ -10,7 +10,7 @@ resource "aws_cloudformation_stack_set" "tf-sample-cloudformation-stack-set" {
   region                  = ""
   template_body           = ""
   template_url            = ""
-  
+
   auto_deployment {
     depends_on_stack_sets            = []
     enabled                          = false
@@ -27,6 +27,6 @@ resource "aws_cloudformation_stack_set" "tf-sample-cloudformation-stack-set" {
     region_concurrency_type      = ""
     region_order                 = []
   }
-  
+
   tags = {}
 }

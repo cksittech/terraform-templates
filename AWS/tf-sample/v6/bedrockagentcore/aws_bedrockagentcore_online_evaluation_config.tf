@@ -5,7 +5,7 @@ resource "aws_bedrockagentcore_online_evaluation_config" "tf-sample-bedrockagent
   execution_status              = ""
   online_evaluation_config_name = ""
   region                        = ""
-  
+
   data_source_config {
     cloudwatch_logs {
       log_group_names = []
@@ -19,7 +19,7 @@ resource "aws_bedrockagentcore_online_evaluation_config" "tf-sample-bedrockagent
     filter {
       key      = ""
       operator = ""
-      
+
       value {
         boolean_value = false
         double_value  = 0
@@ -33,6 +33,6 @@ resource "aws_bedrockagentcore_online_evaluation_config" "tf-sample-bedrockagent
       session_timeout_minutes = 0
     }
   }
-  
+
   tags = {}
 }

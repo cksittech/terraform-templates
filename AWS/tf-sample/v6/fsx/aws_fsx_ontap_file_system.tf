@@ -17,11 +17,11 @@ resource "aws_fsx_ontap_file_system" "tf-sample-fsx-ontap-file-system" {
   throughput_capacity               = 0
   throughput_capacity_per_ha_pair   = 0
   weekly_maintenance_start_time     = ""
-  
+
   disk_iops_configuration {
     iops = 0
     mode = ""
   }
-  
+
   tags = {}
 }

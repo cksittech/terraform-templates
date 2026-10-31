@@ -4,7 +4,7 @@ resource "aws_resiliencehubv2_policy" "tf-sample-resiliencehubv2-policy" {
   name            = ""
   region          = ""
   sharing_enabled = false
-  
+
   availability_slo {
     target = 0
   }
@@ -21,6 +21,6 @@ resource "aws_resiliencehubv2_policy" "tf-sample-resiliencehubv2-policy" {
     rpo_in_minutes             = 0
     rto_in_minutes             = 0
   }
-  
+
   tags = {}
 }

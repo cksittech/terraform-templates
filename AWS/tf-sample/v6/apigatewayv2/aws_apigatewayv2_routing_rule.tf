@@ -2,7 +2,7 @@ resource "aws_apigatewayv2_routing_rule" "tf-sample-apigatewayv2-routing-rule" {
   domain_name = ""
   priority    = 0
   region      = ""
-  
+
   action {
     invoke_api {
       api_id          = ""

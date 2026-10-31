@@ -7,7 +7,7 @@ resource "aws_athena_database" "tf-sample-athena-database" {
   properties            = {}
   region                = ""
   workgroup             = ""
-  
+
   acl_configuration {
     s3_acl_option = ""
   }

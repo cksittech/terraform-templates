@@ -8,7 +8,7 @@ resource "aws_eks_addon" "tf-sample-eks-addon" {
   resolve_conflicts_on_create = ""
   resolve_conflicts_on_update = ""
   service_account_role_arn    = ""
-  
+
   namespace_config {
     namespace = ""
   }
@@ -16,6 +16,6 @@ resource "aws_eks_addon" "tf-sample-eks-addon" {
     role_arn        = ""
     service_account = ""
   }
-  
+
   tags = {}
 }

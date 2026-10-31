@@ -7,12 +7,12 @@ resource "aws_fsx_file_cache" "tf-sample-fsx-file-cache" {
   security_group_ids                        = []
   storage_capacity                          = 0
   subnet_ids                                = []
-  
+
   data_repository_association {
     data_repository_path           = ""
     data_repository_subdirectories = []
     file_cache_path                = ""
-    
+
     nfs {
       dns_ips = []
       version = ""
@@ -22,11 +22,11 @@ resource "aws_fsx_file_cache" "tf-sample-fsx-file-cache" {
     deployment_type               = ""
     per_unit_storage_throughput   = 0
     weekly_maintenance_start_time = ""
-    
+
     metadata_configuration {
       storage_capacity = 0
     }
   }
-  
+
   tags = {}
 }

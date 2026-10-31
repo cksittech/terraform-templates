@@ -4,6 +4,6 @@ resource "aws_devopsagent_agent_space" "tf-sample-devopsagent-agent-space" {
   locale      = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

@@ -3,14 +3,14 @@ resource "aws_mailmanager_traffic_policy" "tf-sample-mailmanager-traffic-policy"
   max_message_size_bytes = 0
   name                   = ""
   region                 = ""
-  
+
   policy_statement {
     action = ""
-    
+
     condition {
       boolean_expression {
         operator = ""
-        
+
         evaluate {
           analysis {
             analyzer     = ""
@@ -25,7 +25,7 @@ resource "aws_mailmanager_traffic_policy" "tf-sample-mailmanager-traffic-policy"
       ip_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
         }
@@ -33,7 +33,7 @@ resource "aws_mailmanager_traffic_policy" "tf-sample-mailmanager-traffic-policy"
       ipv6_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
         }
@@ -41,10 +41,10 @@ resource "aws_mailmanager_traffic_policy" "tf-sample-mailmanager-traffic-policy"
       string_expression {
         operator = ""
         values   = []
-        
+
         evaluate {
           attribute = ""
-          
+
           analysis {
             analyzer     = ""
             result_field = ""
@@ -54,13 +54,13 @@ resource "aws_mailmanager_traffic_policy" "tf-sample-mailmanager-traffic-policy"
       tls_expression {
         operator = ""
         value    = ""
-        
+
         evaluate {
           attribute = ""
         }
       }
     }
   }
-  
+
   tags = {}
 }

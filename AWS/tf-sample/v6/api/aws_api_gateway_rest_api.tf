@@ -13,12 +13,12 @@ resource "aws_api_gateway_rest_api" "tf-sample-api-gateway-rest-api" {
   put_rest_api_mode            = ""
   region                       = ""
   security_policy              = ""
-  
+
   endpoint_configuration {
     ip_address_type  = ""
     types            = []
     vpc_endpoint_ids = []
   }
-  
+
   tags = {}
 }

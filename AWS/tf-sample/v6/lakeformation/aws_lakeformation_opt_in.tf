@@ -1,6 +1,6 @@
 resource "aws_lakeformation_opt_in" "tf-sample-lakeformation-opt-in" {
   region = ""
-  
+
   condition {
   }
   principal {
@@ -50,7 +50,7 @@ resource "aws_lakeformation_opt_in" "tf-sample-lakeformation-opt-in" {
       column_names  = []
       database_name = ""
       name          = ""
-      
+
       column_wildcard {
         excluded_column_names = []
       }

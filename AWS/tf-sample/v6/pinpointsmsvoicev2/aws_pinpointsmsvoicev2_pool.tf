@@ -10,6 +10,6 @@ resource "aws_pinpointsmsvoicev2_pool" "tf-sample-pinpointsmsvoicev2-pool" {
   two_way_channel_arn           = ""
   two_way_channel_role          = ""
   two_way_enabled               = false
-  
+
   tags = {}
 }

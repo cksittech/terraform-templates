@@ -2,7 +2,7 @@ resource "aws_networkfirewall_logging_configuration" "tf-sample-networkfirewall-
   enable_monitoring_dashboard = false
   firewall_arn                = ""
   region                      = ""
-  
+
   logging_configuration {
     log_destination_config {
       log_destination      = {}

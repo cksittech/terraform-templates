@@ -4,6 +4,6 @@ resource "aws_bedrockagent_agent_alias" "tf-sample-bedrockagent-agent-alias" {
   description           = ""
   region                = ""
   routing_configuration = []
-  
+
   tags = {}
 }

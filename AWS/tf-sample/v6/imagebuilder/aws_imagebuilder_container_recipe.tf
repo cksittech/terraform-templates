@@ -10,10 +10,10 @@ resource "aws_imagebuilder_container_recipe" "tf-sample-imagebuilder-container-r
   region                   = ""
   version                  = ""
   working_directory        = ""
-  
+
   component {
     component_arn = ""
-    
+
     parameter {
       name  = ""
       value = ""
@@ -21,12 +21,12 @@ resource "aws_imagebuilder_container_recipe" "tf-sample-imagebuilder-container-r
   }
   instance_configuration {
     image = ""
-    
+
     block_device_mapping {
       device_name  = ""
       no_device    = false
       virtual_name = ""
-      
+
       ebs {
         delete_on_termination = ""
         encrypted             = ""
@@ -43,6 +43,6 @@ resource "aws_imagebuilder_container_recipe" "tf-sample-imagebuilder-container-r
     repository_name = ""
     service         = ""
   }
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "aws_lambdacore_network_connector" "tf-sample-lambdacore-network-connec
   name          = ""
   operator_role = ""
   region        = ""
-  
+
   configuration {
     vpc_egress_configuration {
       associated_compute_resource_types = []

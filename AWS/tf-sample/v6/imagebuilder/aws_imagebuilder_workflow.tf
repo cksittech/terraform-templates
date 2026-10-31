@@ -8,6 +8,6 @@ resource "aws_imagebuilder_workflow" "tf-sample-imagebuilder-workflow" {
   type               = ""
   uri                = ""
   version            = ""
-  
+
   tags = {}
 }

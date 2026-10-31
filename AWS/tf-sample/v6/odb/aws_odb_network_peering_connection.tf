@@ -5,6 +5,6 @@ resource "aws_odb_network_peering_connection" "tf-sample-odb-network-peering-con
   peer_network_cidrs = []
   peer_network_id    = ""
   region             = ""
-  
+
   tags = {}
 }

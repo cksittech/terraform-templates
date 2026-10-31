@@ -1,6 +1,6 @@
 resource "aws_route53_records_exclusive" "tf-sample-route53-records-exclusive" {
   zone_id = ""
-  
+
   resource_record_set {
     failover                   = ""
     health_check_id            = ""
@@ -12,7 +12,7 @@ resource "aws_route53_records_exclusive" "tf-sample-route53-records-exclusive" {
     ttl                        = 0
     type                       = ""
     weight                     = 0
-    
+
     alias_target {
       dns_name               = ""
       evaluate_target_health = false
@@ -31,7 +31,7 @@ resource "aws_route53_records_exclusive" "tf-sample-route53-records-exclusive" {
       aws_region       = ""
       bias             = 0
       local_zone_group = ""
-      
+
       coordinates {
         latitude  = ""
         longitude = ""

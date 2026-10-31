@@ -5,6 +5,6 @@ resource "aws_guardduty_ipset" "tf-sample-guardduty-ipset" {
   location    = ""
   name        = ""
   region      = ""
-  
+
   tags = {}
 }

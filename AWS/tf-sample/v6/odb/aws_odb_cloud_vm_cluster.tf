@@ -19,12 +19,12 @@ resource "aws_odb_cloud_vm_cluster" "tf-sample-odb-cloud-vm-cluster" {
   scan_listener_port_tcp           = 0
   ssh_public_keys                  = []
   timezone                         = ""
-  
+
   data_collection_options {
     is_diagnostics_events_enabled = false
     is_health_monitoring_enabled  = false
     is_incident_logs_enabled      = false
   }
-  
+
   tags = {}
 }

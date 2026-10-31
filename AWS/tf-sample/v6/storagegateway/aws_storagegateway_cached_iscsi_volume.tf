@@ -8,6 +8,6 @@ resource "aws_storagegateway_cached_iscsi_volume" "tf-sample-storagegateway-cach
   source_volume_arn    = ""
   target_name          = ""
   volume_size_in_bytes = 0
-  
+
   tags = {}
 }

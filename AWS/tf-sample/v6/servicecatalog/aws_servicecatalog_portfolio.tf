@@ -3,6 +3,6 @@ resource "aws_servicecatalog_portfolio" "tf-sample-servicecatalog-portfolio" {
   name          = ""
   provider_name = ""
   region        = ""
-  
+
   tags = {}
 }

@@ -7,7 +7,7 @@ resource "aws_globalaccelerator_endpoint_group" "tf-sample-globalaccelerator-end
   listener_arn                  = ""
   threshold_count               = 0
   traffic_dial_percentage       = 0
-  
+
   endpoint_configuration {
     attachment_arn                 = ""
     client_ip_preservation_enabled = false

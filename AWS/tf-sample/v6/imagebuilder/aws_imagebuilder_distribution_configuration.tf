@@ -2,18 +2,18 @@ resource "aws_imagebuilder_distribution_configuration" "tf-sample-imagebuilder-d
   description = ""
   name        = ""
   region      = ""
-  
+
   distribution {
     license_configuration_arns = []
     region                     = ""
-    
+
     ami_distribution_configuration {
       ami_tags           = {}
       description        = ""
       kms_key_id         = ""
       name               = ""
       target_account_ids = []
-      
+
       launch_permission {
         organization_arns        = []
         organizational_unit_arns = []
@@ -24,7 +24,7 @@ resource "aws_imagebuilder_distribution_configuration" "tf-sample-imagebuilder-d
     container_distribution_configuration {
       container_tags = []
       description    = ""
-      
+
       target_repository {
         repository_name = ""
         service         = ""
@@ -34,7 +34,7 @@ resource "aws_imagebuilder_distribution_configuration" "tf-sample-imagebuilder-d
       account_id            = ""
       enabled               = false
       max_parallel_launches = 0
-      
+
       launch_template {
         launch_template_id      = ""
         launch_template_name    = ""
@@ -61,6 +61,6 @@ resource "aws_imagebuilder_distribution_configuration" "tf-sample-imagebuilder-d
       parameter_name = ""
     }
   }
-  
+
   tags = {}
 }

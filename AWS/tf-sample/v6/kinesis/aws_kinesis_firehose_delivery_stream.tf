@@ -4,7 +4,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
   name           = ""
   region         = ""
   version_id     = ""
-  
+
   elasticsearch_configuration {
     buffering_interval    = 0
     buffering_size        = 0
@@ -16,7 +16,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     role_arn              = ""
     s3_backup_mode        = ""
     type_name             = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -24,10 +24,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -43,7 +43,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -68,7 +68,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     prefix              = ""
     role_arn            = ""
     s3_backup_mode      = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -76,7 +76,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     data_format_conversion_configuration {
       enabled = false
-      
+
       input_format_configuration {
         deserializer {
           hive_json_ser_de {
@@ -128,10 +128,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -147,7 +147,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -164,7 +164,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     role_arn           = ""
     s3_backup_mode     = ""
     url                = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -172,10 +172,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -184,7 +184,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     request_configuration {
       content_encoding = ""
-      
+
       common_attributes {
         name  = ""
         value = ""
@@ -199,7 +199,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -220,7 +220,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     retry_duration     = 0
     role_arn           = ""
     s3_backup_mode     = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -234,10 +234,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -253,7 +253,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -269,7 +269,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     msk_cluster_arn     = ""
     read_from_timestamp = ""
     topic_name          = ""
-    
+
     authentication_configuration {
       connectivity = ""
       role_arn     = ""
@@ -286,7 +286,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     role_arn              = ""
     s3_backup_mode        = ""
     type_name             = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -297,10 +297,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -316,7 +316,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -337,7 +337,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     retry_duration      = 0
     role_arn            = ""
     s3_backup_mode      = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -345,10 +345,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -364,7 +364,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -387,7 +387,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     role_arn           = ""
     s3_backup_mode     = ""
     username           = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -395,10 +395,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -414,7 +414,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -430,7 +430,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -464,7 +464,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     schema               = ""
     table                = ""
     user                 = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -472,10 +472,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -491,7 +491,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -520,7 +520,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     hec_token                  = ""
     retry_duration             = 0
     s3_backup_mode             = ""
-    
+
     cloudwatch_logging_options {
       enabled         = false
       log_group_name  = ""
@@ -528,10 +528,10 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
     }
     processing_configuration {
       enabled = false
-      
+
       processors {
         type = ""
-        
+
         parameters {
           parameter_name  = ""
           parameter_value = ""
@@ -547,7 +547,7 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       kms_key_arn         = ""
       prefix              = ""
       role_arn            = ""
-      
+
       cloudwatch_logging_options {
         enabled         = false
         log_group_name  = ""
@@ -560,6 +560,6 @@ resource "aws_kinesis_firehose_delivery_stream" "tf-sample-kinesis-firehose-deli
       secret_arn = ""
     }
   }
-  
+
   tags = {}
 }

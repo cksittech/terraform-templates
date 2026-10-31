@@ -3,6 +3,6 @@ resource "aws_route_table" "tf-sample-route-table" {
   region           = ""
   route            = []
   vpc_id           = ""
-  
+
   tags = {}
 }

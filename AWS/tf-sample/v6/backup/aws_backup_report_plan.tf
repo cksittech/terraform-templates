@@ -2,7 +2,7 @@ resource "aws_backup_report_plan" "tf-sample-backup-report-plan" {
   description = ""
   name        = ""
   region      = ""
-  
+
   report_delivery_channel {
     formats        = []
     s3_bucket_name = ""
@@ -16,6 +16,6 @@ resource "aws_backup_report_plan" "tf-sample-backup-report-plan" {
     regions              = []
     report_template      = ""
   }
-  
+
   tags = {}
 }

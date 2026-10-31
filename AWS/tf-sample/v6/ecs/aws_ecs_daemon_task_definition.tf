@@ -5,7 +5,7 @@ resource "aws_ecs_daemon_task_definition" "tf-sample-ecs-daemon-task-definition"
   memory             = ""
   region             = ""
   task_role_arn      = ""
-  
+
   container_definition {
     command                  = []
     cpu                      = 0
@@ -23,7 +23,7 @@ resource "aws_ecs_daemon_task_definition" "tf-sample-ecs-daemon-task-definition"
     stop_timeout             = 0
     user                     = ""
     working_directory        = ""
-    
+
     depends_on {
       condition      = ""
       container_name = ""
@@ -49,7 +49,7 @@ resource "aws_ecs_daemon_task_definition" "tf-sample-ecs-daemon-task-definition"
     }
     linux_parameters {
       init_process_enabled = false
-      
+
       capabilities {
         add  = []
         drop = []
@@ -68,7 +68,7 @@ resource "aws_ecs_daemon_task_definition" "tf-sample-ecs-daemon-task-definition"
     log_configuration {
       log_driver = ""
       options    = {}
-      
+
       secret_option {
         name       = ""
         value_from = ""
@@ -103,11 +103,11 @@ resource "aws_ecs_daemon_task_definition" "tf-sample-ecs-daemon-task-definition"
   }
   volume {
     name = ""
-    
+
     host {
       source_path = ""
     }
   }
-  
+
   tags = {}
 }

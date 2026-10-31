@@ -8,7 +8,7 @@ resource "aws_ec2_traffic_mirror_filter_rule" "tf-sample-ec2-traffic-mirror-filt
   source_cidr_block        = ""
   traffic_direction        = ""
   traffic_mirror_filter_id = ""
-  
+
   destination_port_range {
     from_port = 0
     to_port   = 0

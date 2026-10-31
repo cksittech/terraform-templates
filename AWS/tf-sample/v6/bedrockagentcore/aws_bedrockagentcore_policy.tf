@@ -4,7 +4,7 @@ resource "aws_bedrockagentcore_policy" "tf-sample-bedrockagentcore-policy" {
   policy_engine_id = ""
   region           = ""
   validation_mode  = ""
-  
+
   definition {
     cedar {
       statement = ""

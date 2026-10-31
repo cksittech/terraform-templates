@@ -4,11 +4,11 @@ resource "aws_cloudwatchomni_access_grant" "tf-sample-cloudwatchomni-access-gran
   permission = ""
   region     = ""
   space_id   = ""
-  
+
   principal {
     principal_id   = ""
     principal_type = ""
-    
+
     principal_attribute {
       key   = ""
       value = ""
@@ -16,12 +16,12 @@ resource "aws_cloudwatchomni_access_grant" "tf-sample-cloudwatchomni-access-gran
   }
   scoped_action {
     actions = []
-    
+
     resource {
       resource_arns = []
       resource_type = ""
       signal_types  = []
-      
+
       row_scope_group {
         row_scope {
           field    = ""
@@ -31,6 +31,6 @@ resource "aws_cloudwatchomni_access_grant" "tf-sample-cloudwatchomni-access-gran
       }
     }
   }
-  
+
   tags = {}
 }

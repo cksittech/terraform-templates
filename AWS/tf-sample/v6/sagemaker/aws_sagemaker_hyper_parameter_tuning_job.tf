@@ -1,7 +1,7 @@
 resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-parameter-tuning-job" {
   name   = ""
   region = ""
-  
+
   autotune {
     mode = ""
   }
@@ -9,7 +9,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
     random_seed                      = 0
     strategy                         = ""
     training_job_early_stopping_type = ""
-    
+
     objective {
       metric_name = ""
       type        = ""
@@ -49,7 +49,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
     }
     tuning_job_completion_criteria {
       target_objective_metric_value = 0
-      
+
       best_objective_not_improving {
         max_number_of_training_jobs_not_improving = 0
       }
@@ -67,12 +67,12 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
     retry_strategy                            = []
     role_arn                                  = ""
     static_hyper_parameters                   = {}
-    
+
     algorithm_specification {
       algorithm_name      = ""
       training_image      = ""
       training_input_mode = ""
-      
+
       metric_definitions {
         name  = ""
         regex = ""
@@ -110,7 +110,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       instance_type       = ""
       volume_kms_key_id   = ""
       volume_size_in_gb   = 0
-      
+
       instance_configs {
         instance_count    = 0
         instance_type     = ""
@@ -123,7 +123,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       content_type        = ""
       input_mode          = ""
       record_wrapper_type = ""
-      
+
       data_source {
         file_system_data_source {
           directory_path          = ""
@@ -137,7 +137,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
           s3_data_distribution_type = ""
           s3_data_type              = ""
           s3_uri                    = ""
-          
+
           hub_access_config {
             hub_content_arn = ""
           }
@@ -162,7 +162,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       training_plan_arn            = ""
       volume_kms_key_id            = ""
       volume_size_in_gb            = 0
-      
+
       instance_groups {
         instance_count      = 0
         instance_group_name = ""
@@ -170,7 +170,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       }
       instance_placement_config {
         enable_multiple_jobs = false
-        
+
         placement_specifications {
           instance_count  = 0
           ultra_server_id = ""
@@ -200,12 +200,12 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
     retry_strategy                            = []
     role_arn                                  = ""
     static_hyper_parameters                   = {}
-    
+
     algorithm_specification {
       algorithm_name      = ""
       training_image      = ""
       training_input_mode = ""
-      
+
       metric_definitions {
         name  = ""
         regex = ""
@@ -243,7 +243,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       instance_type       = ""
       volume_kms_key_id   = ""
       volume_size_in_gb   = 0
-      
+
       instance_configs {
         instance_count    = 0
         instance_type     = ""
@@ -256,7 +256,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       content_type        = ""
       input_mode          = ""
       record_wrapper_type = ""
-      
+
       data_source {
         file_system_data_source {
           directory_path          = ""
@@ -270,7 +270,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
           s3_data_distribution_type = ""
           s3_data_type              = ""
           s3_uri                    = ""
-          
+
           hub_access_config {
             hub_content_arn = ""
           }
@@ -295,7 +295,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       training_plan_arn            = ""
       volume_kms_key_id            = ""
       volume_size_in_gb            = 0
-      
+
       instance_groups {
         instance_count      = 0
         instance_group_name = ""
@@ -303,7 +303,7 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
       }
       instance_placement_config {
         enable_multiple_jobs = false
-        
+
         placement_specifications {
           instance_count  = 0
           ultra_server_id = ""
@@ -326,11 +326,11 @@ resource "aws_sagemaker_hyper_parameter_tuning_job" "tf-sample-sagemaker-hyper-p
   }
   warm_start_config {
     warm_start_type = ""
-    
+
     parent_hyper_parameter_tuning_jobs {
       name = ""
     }
   }
-  
+
   tags = {}
 }

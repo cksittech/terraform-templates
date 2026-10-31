@@ -5,7 +5,7 @@ resource "aws_elastictranscoder_preset" "tf-sample-elastictranscoder-preset" {
   region              = ""
   type                = ""
   video_codec_options = {}
-  
+
   audio {
     audio_packing_mode = ""
     bit_rate           = ""

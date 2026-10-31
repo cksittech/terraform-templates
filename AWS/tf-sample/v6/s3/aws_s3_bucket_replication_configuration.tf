@@ -3,12 +3,12 @@ resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replicat
   region = ""
   role   = ""
   token  = ""
-  
+
   rule {
     id       = ""
     priority = 0
     status   = ""
-    
+
     delete_marker_replication {
       status = ""
     }
@@ -16,7 +16,7 @@ resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replicat
       account       = ""
       bucket        = ""
       storage_class = ""
-      
+
       access_control_translation {
         owner = ""
       }
@@ -25,14 +25,14 @@ resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replicat
       }
       metrics {
         status = ""
-        
+
         event_threshold {
           minutes = 0
         }
       }
       replication_time {
         status = ""
-        
+
         time {
           minutes = 0
         }
@@ -43,7 +43,7 @@ resource "aws_s3_bucket_replication_configuration" "tf-sample-s3-bucket-replicat
     }
     filter {
       prefix = ""
-      
+
       and {
         prefix = ""
       }

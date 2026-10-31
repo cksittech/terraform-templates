@@ -4,7 +4,7 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
   name               = ""
   name_prefix        = ""
   region             = ""
-  
+
   async_inference_config {
     client_config {
       max_concurrent_invocations_per_instance = 0
@@ -13,7 +13,7 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
       kms_key_id      = ""
       s3_failure_path = ""
       s3_output_path  = ""
-      
+
       notification_config {
         error_topic                   = ""
         include_inference_response_in = []
@@ -26,7 +26,7 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
     enable_capture              = false
     initial_sampling_percentage = 0
     kms_key_id                  = ""
-    
+
     capture_content_type_header {
       csv_content_types  = []
       json_content_types = []
@@ -47,7 +47,7 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
     model_name                                        = ""
     variant_name                                      = ""
     volume_size_in_gb                                 = 0
-    
+
     capacity_reservation_config {
       capacity_reservation_preference = ""
       ml_reservation_arn              = ""
@@ -82,7 +82,7 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
     model_name                                        = ""
     variant_name                                      = ""
     volume_size_in_gb                                 = 0
-    
+
     capacity_reservation_config {
       capacity_reservation_preference = ""
       ml_reservation_arn              = ""
@@ -105,6 +105,6 @@ resource "aws_sagemaker_endpoint_configuration" "tf-sample-sagemaker-endpoint-co
       provisioned_concurrency = 0
     }
   }
-  
+
   tags = {}
 }

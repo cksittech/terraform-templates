@@ -10,10 +10,10 @@ resource "aws_budgets_budget" "tf-sample-budgets-budget" {
   time_period_end   = ""
   time_period_start = ""
   time_unit         = ""
-  
+
   auto_adjust_data {
     auto_adjust_type = ""
-    
+
     historical_options {
       budget_adjustment_period = 0
     }
@@ -269,6 +269,6 @@ resource "aws_budgets_budget" "tf-sample-budgets-budget" {
     start_time = ""
     unit       = ""
   }
-  
+
   tags = {}
 }

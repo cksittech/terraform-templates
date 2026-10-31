@@ -16,6 +16,6 @@ resource "aws_dx_private_virtual_interface" "tf-sample-dx-private-virtual-interf
   sitelink_enabled                 = false
   vlan                             = 0
   vpn_gateway_id                   = ""
-  
+
   tags = {}
 }

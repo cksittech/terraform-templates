@@ -7,7 +7,7 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   region                        = ""
   role_arn                      = ""
   version                       = ""
-  
+
   access_config {
     authentication_mode                         = ""
     bootstrap_cluster_creator_admin_permissions = false
@@ -22,14 +22,14 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   }
   encryption_config {
     resources = []
-    
+
     provider {
       key_arn = ""
     }
   }
   kube_api_server_config {
     event_ttl = ""
-    
+
     service_node_port_range {
       max_port = 0
       min_port = 0
@@ -47,7 +47,7 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
     node_resources_fit {
       scoring_strategy {
         type = ""
-        
+
         resource {
           name   = ""
           weight = 0
@@ -58,7 +58,7 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   kubernetes_network_config {
     ip_family         = ""
     service_ipv4_cidr = ""
-    
+
     elastic_load_balancing {
       enabled = false
     }
@@ -67,7 +67,7 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
     control_plane_instance_type = ""
     etcd_instance_type          = ""
     outpost_arns                = []
-    
+
     control_plane_placement {
       group_name   = ""
       spread_level = ""
@@ -103,6 +103,6 @@ resource "aws_eks_cluster" "tf-sample-eks-cluster" {
   zonal_shift_config {
     enabled = false
   }
-  
+
   tags = {}
 }

@@ -5,11 +5,11 @@ resource "aws_acmpca_certificate_authority" "tf-sample-acmpca-certificate-author
   region                          = ""
   type                            = ""
   usage_mode                      = ""
-  
+
   certificate_authority_configuration {
     key_algorithm     = ""
     signing_algorithm = ""
-    
+
     subject {
       common_name                  = ""
       country                      = ""
@@ -40,6 +40,6 @@ resource "aws_acmpca_certificate_authority" "tf-sample-acmpca-certificate-author
       ocsp_custom_cname = ""
     }
   }
-  
+
   tags = {}
 }

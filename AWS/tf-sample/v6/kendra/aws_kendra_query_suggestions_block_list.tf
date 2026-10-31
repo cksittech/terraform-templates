@@ -4,11 +4,11 @@ resource "aws_kendra_query_suggestions_block_list" "tf-sample-kendra-query-sugge
   name        = ""
   region      = ""
   role_arn    = ""
-  
+
   source_s3_path {
     bucket = ""
     key    = ""
   }
-  
+
   tags = {}
 }

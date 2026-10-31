@@ -20,6 +20,6 @@ resource "aws_subnet" "tf-sample-subnet" {
   private_dns_hostname_type_on_launch            = ""
   region                                         = ""
   vpc_id                                         = ""
-  
+
   tags = {}
 }

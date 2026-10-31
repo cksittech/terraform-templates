@@ -14,7 +14,7 @@ resource "aws_launch_configuration" "tf-sample-launch-configuration" {
   spot_price                  = ""
   user_data                   = ""
   user_data_base64            = ""
-  
+
   ebs_block_device {
     delete_on_termination = false
     device_name           = ""

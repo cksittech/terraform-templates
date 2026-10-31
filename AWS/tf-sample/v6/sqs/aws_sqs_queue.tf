@@ -17,6 +17,6 @@ resource "aws_sqs_queue" "tf-sample-sqs-queue" {
   region                            = ""
   sqs_managed_sse_enabled           = false
   visibility_timeout_seconds        = 0
-  
+
   tags = {}
 }

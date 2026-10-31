@@ -11,10 +11,10 @@ resource "aws_lex_bot" "tf-sample-lex-bot" {
   process_behavior                = ""
   region                          = ""
   voice_id                        = ""
-  
+
   abort_statement {
     response_card = ""
-    
+
     message {
       content      = ""
       content_type = ""
@@ -24,7 +24,7 @@ resource "aws_lex_bot" "tf-sample-lex-bot" {
   clarification_prompt {
     max_attempts  = 0
     response_card = ""
-    
+
     message {
       content      = ""
       content_type = ""

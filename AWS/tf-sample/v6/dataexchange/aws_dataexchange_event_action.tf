@@ -1,6 +1,6 @@
 resource "aws_dataexchange_event_action" "tf-sample-dataexchange-event-action" {
   region = ""
-  
+
   action {
     export_revision_to_s3 {
       encryption {

@@ -7,6 +7,6 @@ resource "aws_rds_cluster_snapshot_copy" "tf-sample-rds-cluster-snapshot-copy" {
   shared_accounts                       = []
   source_db_cluster_snapshot_identifier = ""
   target_db_cluster_snapshot_identifier = ""
-  
+
   tags = {}
 }

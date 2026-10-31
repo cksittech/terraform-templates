@@ -4,7 +4,7 @@ resource "aws_signer_signing_profile" "tf-sample-signer-signing-profile" {
   platform_id        = ""
   region             = ""
   signing_parameters = {}
-  
+
   signature_validity_period {
     type  = ""
     value = 0
@@ -12,6 +12,6 @@ resource "aws_signer_signing_profile" "tf-sample-signer-signing-profile" {
   signing_material {
     certificate_arn = ""
   }
-  
+
   tags = {}
 }

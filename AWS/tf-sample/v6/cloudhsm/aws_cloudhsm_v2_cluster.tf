@@ -4,6 +4,6 @@ resource "aws_cloudhsm_v2_cluster" "tf-sample-cloudhsm-v2-cluster" {
   region                   = ""
   source_backup_identifier = ""
   subnet_ids               = []
-  
+
   tags = {}
 }

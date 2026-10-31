@@ -8,13 +8,13 @@ resource "aws_comprehend_document_classifier" "tf-sample-comprehend-document-cla
   version_name         = ""
   version_name_prefix  = ""
   volume_kms_key_id    = ""
-  
+
   input_data_config {
     data_format     = ""
     label_delimiter = ""
     s3_uri          = ""
     test_s3_uri     = ""
-    
+
     augmented_manifests {
       annotation_data_s3_uri  = ""
       attribute_names         = []
@@ -32,6 +32,6 @@ resource "aws_comprehend_document_classifier" "tf-sample-comprehend-document-cla
     security_group_ids = []
     subnets            = []
   }
-  
+
   tags = {}
 }

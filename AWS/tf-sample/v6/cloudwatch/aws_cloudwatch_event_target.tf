@@ -7,7 +7,7 @@ resource "aws_cloudwatch_event_target" "tf-sample-cloudwatch-event-target" {
   role_arn       = ""
   rule           = ""
   target_id      = ""
-  
+
   appsync_target {
     graphql_operation = ""
   }
@@ -28,7 +28,7 @@ resource "aws_cloudwatch_event_target" "tf-sample-cloudwatch-event-target" {
     propagate_tags          = ""
     task_count              = 0
     task_definition_arn     = ""
-    
+
     capacity_provider_strategy {
       base              = 0
       capacity_provider = ""

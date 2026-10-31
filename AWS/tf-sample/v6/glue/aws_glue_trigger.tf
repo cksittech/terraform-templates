@@ -7,14 +7,14 @@ resource "aws_glue_trigger" "tf-sample-glue-trigger" {
   start_on_creation = false
   type              = ""
   workflow_name     = ""
-  
+
   actions {
     arguments              = {}
     crawler_name           = ""
     job_name               = ""
     security_configuration = ""
     timeout                = 0
-    
+
     notification_property {
       notify_delay_after = 0
     }
@@ -25,7 +25,7 @@ resource "aws_glue_trigger" "tf-sample-glue-trigger" {
   }
   predicate {
     logical = ""
-    
+
     conditions {
       crawl_state      = ""
       crawler_name     = ""
@@ -34,6 +34,6 @@ resource "aws_glue_trigger" "tf-sample-glue-trigger" {
       state            = ""
     }
   }
-  
+
   tags = {}
 }

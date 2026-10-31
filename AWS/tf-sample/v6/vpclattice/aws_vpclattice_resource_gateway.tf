@@ -7,6 +7,6 @@ resource "aws_vpclattice_resource_gateway" "tf-sample-vpclattice-resource-gatewa
   security_group_ids             = []
   subnet_ids                     = []
   vpc_id                         = ""
-  
+
   tags = {}
 }

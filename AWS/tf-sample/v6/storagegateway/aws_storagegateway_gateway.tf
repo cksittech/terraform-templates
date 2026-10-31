@@ -14,7 +14,7 @@ resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
   smb_guest_password                          = ""
   smb_security_strategy                       = ""
   tape_drive_type                             = ""
-  
+
   maintenance_start_time {
     day_of_month   = ""
     day_of_week    = ""
@@ -29,6 +29,6 @@ resource "aws_storagegateway_gateway" "tf-sample-storagegateway-gateway" {
     timeout_in_seconds  = 0
     username            = ""
   }
-  
+
   tags = {}
 }

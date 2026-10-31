@@ -10,6 +10,6 @@ resource "aws_connect_instance" "tf-sample-connect-instance" {
   multi_party_conference_enabled   = false
   outbound_calls_enabled           = false
   region                           = ""
-  
+
   tags = {}
 }

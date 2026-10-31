@@ -5,7 +5,7 @@ resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
   name_prefix = ""
   position    = 0
   region      = ""
-  
+
   finding_criteria {
     criterion {
       eq             = []
@@ -18,6 +18,6 @@ resource "aws_macie2_findings_filter" "tf-sample-macie2-findings-filter" {
       neq            = []
     }
   }
-  
+
   tags = {}
 }

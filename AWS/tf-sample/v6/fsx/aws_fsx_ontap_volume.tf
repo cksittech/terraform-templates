@@ -15,7 +15,7 @@ resource "aws_fsx_ontap_volume" "tf-sample-fsx-ontap-volume" {
   storage_virtual_machine_id           = ""
   volume_style                         = ""
   volume_type                          = ""
-  
+
   aggregate_configuration {
     aggregates                 = []
     constituents_per_aggregate = 0
@@ -25,7 +25,7 @@ resource "aws_fsx_ontap_volume" "tf-sample-fsx-ontap-volume" {
     privileged_delete          = ""
     snaplock_type              = ""
     volume_append_mode_enabled = false
-    
+
     autocommit_period {
       type  = ""
       value = 0
@@ -49,6 +49,6 @@ resource "aws_fsx_ontap_volume" "tf-sample-fsx-ontap-volume" {
     cooling_period = 0
     name           = ""
   }
-  
+
   tags = {}
 }

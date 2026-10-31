@@ -12,7 +12,7 @@ resource "aws_m2_environment" "tf-sample-m2-environment" {
   region                                  = ""
   security_group_ids                      = []
   subnet_ids                              = []
-  
+
   high_availability_config {
     desired_capacity = 0
   }
@@ -26,6 +26,6 @@ resource "aws_m2_environment" "tf-sample-m2-environment" {
       mount_point    = ""
     }
   }
-  
+
   tags = {}
 }

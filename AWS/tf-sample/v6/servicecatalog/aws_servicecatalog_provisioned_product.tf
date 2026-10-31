@@ -11,7 +11,7 @@ resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-prov
   provisioning_artifact_name = ""
   region                     = ""
   retain_physical_resources  = false
-  
+
   provisioning_parameters {
     key                = ""
     use_previous_value = false
@@ -25,6 +25,6 @@ resource "aws_servicecatalog_provisioned_product" "tf-sample-servicecatalog-prov
     max_concurrency_percentage   = 0
     regions                      = []
   }
-  
+
   tags = {}
 }

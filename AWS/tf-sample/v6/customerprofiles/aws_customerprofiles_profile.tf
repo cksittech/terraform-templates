@@ -18,7 +18,7 @@ resource "aws_customerprofiles_profile" "tf-sample-customerprofiles-profile" {
   personal_email_address = ""
   phone_number           = ""
   region                 = ""
-  
+
   address {
     address_1   = ""
     address_2   = ""

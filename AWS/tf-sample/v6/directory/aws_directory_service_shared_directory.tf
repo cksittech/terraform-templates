@@ -3,7 +3,7 @@ resource "aws_directory_service_shared_directory" "tf-sample-directory-service-s
   method       = ""
   notes        = ""
   region       = ""
-  
+
   target {
     id   = ""
     type = ""

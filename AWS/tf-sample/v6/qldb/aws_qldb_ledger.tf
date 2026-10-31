@@ -4,6 +4,6 @@ resource "aws_qldb_ledger" "tf-sample-qldb-ledger" {
   name                = ""
   permissions_mode    = ""
   region              = ""
-  
+
   tags = {}
 }

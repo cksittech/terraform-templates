@@ -2,7 +2,7 @@ resource "aws_cognito_risk_configuration" "tf-sample-cognito-risk-configuration"
   client_id    = ""
   region       = ""
   user_pool_id = ""
-  
+
   account_takeover_risk_configuration {
     actions {
       high_action {
@@ -22,7 +22,7 @@ resource "aws_cognito_risk_configuration" "tf-sample-cognito-risk-configuration"
       from       = ""
       reply_to   = ""
       source_arn = ""
-      
+
       block_email {
         html_body = ""
         subject   = ""
@@ -42,7 +42,7 @@ resource "aws_cognito_risk_configuration" "tf-sample-cognito-risk-configuration"
   }
   compromised_credentials_risk_configuration {
     event_filter = []
-    
+
     actions {
       event_action = ""
     }

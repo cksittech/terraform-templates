@@ -4,6 +4,6 @@ resource "aws_placement_group" "tf-sample-placement-group" {
   region          = ""
   spread_level    = ""
   strategy        = ""
-  
+
   tags = {}
 }

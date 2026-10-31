@@ -5,11 +5,11 @@ resource "aws_codestarnotifications_notification_rule" "tf-sample-codestarnotifi
   region         = ""
   resource       = ""
   status         = ""
-  
+
   target {
     address = ""
     type    = ""
   }
-  
+
   tags = {}
 }

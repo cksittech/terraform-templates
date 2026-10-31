@@ -5,6 +5,6 @@ resource "aws_kinesis_video_stream" "tf-sample-kinesis-video-stream" {
   media_type              = ""
   name                    = ""
   region                  = ""
-  
+
   tags = {}
 }

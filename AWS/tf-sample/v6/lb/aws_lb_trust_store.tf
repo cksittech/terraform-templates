@@ -5,6 +5,6 @@ resource "aws_lb_trust_store" "tf-sample-lb-trust-store" {
   name                                     = ""
   name_prefix                              = ""
   region                                   = ""
-  
+
   tags = {}
 }

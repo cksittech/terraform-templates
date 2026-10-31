@@ -3,15 +3,15 @@ resource "aws_networkfirewall_container_association" "tf-sample-networkfirewall-
   description                = ""
   region                     = ""
   type                       = ""
-  
+
   container_monitoring_configuration {
     cluster_arn = ""
-    
+
     attribute_filter {
       key   = ""
       value = ""
     }
   }
-  
+
   tags = {}
 }

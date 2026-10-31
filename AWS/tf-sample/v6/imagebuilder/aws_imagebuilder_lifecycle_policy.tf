@@ -5,11 +5,11 @@ resource "aws_imagebuilder_lifecycle_policy" "tf-sample-imagebuilder-lifecycle-p
   region         = ""
   resource_type  = ""
   status         = ""
-  
+
   policy_detail {
     action {
       type = ""
-      
+
       include_resources {
         amis       = false
         containers = false
@@ -18,13 +18,13 @@ resource "aws_imagebuilder_lifecycle_policy" "tf-sample-imagebuilder-lifecycle-p
     }
     exclusion_rules {
       tag_map = {}
-      
+
       amis {
         is_public       = false
         regions         = []
         shared_accounts = []
         tag_map         = {}
-        
+
         last_launched {
           unit  = ""
           value = 0
@@ -40,12 +40,12 @@ resource "aws_imagebuilder_lifecycle_policy" "tf-sample-imagebuilder-lifecycle-p
   }
   resource_selection {
     tag_map = {}
-    
+
     recipe {
       name             = ""
       semantic_version = ""
     }
   }
-  
+
   tags = {}
 }

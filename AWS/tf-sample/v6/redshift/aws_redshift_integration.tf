@@ -6,6 +6,6 @@ resource "aws_redshift_integration" "tf-sample-redshift-integration" {
   region                        = ""
   source_arn                    = ""
   target_arn                    = ""
-  
+
   tags = {}
 }

@@ -40,10 +40,10 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
   volume_tags                          = {}
   vpc_security_group_ids               = []
   wait_for_fulfillment                 = false
-  
+
   capacity_reservation_specification {
     capacity_reservation_preference = ""
-    
+
     capacity_reservation_target {
       capacity_reservation_id                 = ""
       capacity_reservation_resource_group_arn = ""
@@ -114,6 +114,6 @@ resource "aws_spot_instance_request" "tf-sample-spot-instance-request" {
     private_ip_address_count = 0
     secondary_subnet_id      = ""
   }
-  
+
   tags = {}
 }

@@ -12,6 +12,6 @@ resource "aws_redshiftserverless_namespace" "tf-sample-redshiftserverless-namesp
   manage_admin_password            = false
   namespace_name                   = ""
   region                           = ""
-  
+
   tags = {}
 }

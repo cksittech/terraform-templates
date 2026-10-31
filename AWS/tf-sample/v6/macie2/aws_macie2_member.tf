@@ -6,6 +6,6 @@ resource "aws_macie2_member" "tf-sample-macie2-member" {
   invite                                = false
   region                                = ""
   status                                = ""
-  
+
   tags = {}
 }

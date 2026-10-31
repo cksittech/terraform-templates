@@ -9,7 +9,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
   region                                    = ""
   role_arn                                  = ""
   training_job_name                         = ""
-  
+
   algorithm_specification {
     algorithm_name                       = ""
     container_arguments                  = []
@@ -17,14 +17,14 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     enable_sagemaker_metrics_time_series = false
     training_image                       = ""
     training_input_mode                  = ""
-    
+
     metric_definitions {
       name  = ""
       regex = ""
     }
     training_image_config {
       training_repository_access_mode = ""
-      
+
       training_repository_auth_config {
         training_repository_credentials_provider_arn = ""
       }
@@ -38,7 +38,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     hook_parameters = {}
     local_path      = ""
     s3_output_path  = ""
-    
+
     collection_configurations {
       collection_name       = ""
       collection_parameters = {}
@@ -68,7 +68,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     content_type        = ""
     input_mode          = ""
     record_wrapper_type = ""
-    
+
     data_source {
       file_system_data_source {
         directory_path          = ""
@@ -82,7 +82,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
         s3_data_distribution_type = ""
         s3_data_type              = ""
         s3_uri                    = ""
-        
+
         hub_access_config {
           hub_content_arn = ""
         }
@@ -134,7 +134,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     training_plan_arn            = ""
     volume_kms_key_id            = ""
     volume_size_in_gb            = 0
-    
+
     instance_groups {
       instance_count      = 0
       instance_group_name = ""
@@ -142,7 +142,7 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     }
     instance_placement_config {
       enable_multiple_jobs = false
-      
+
       placement_specifications {
         instance_count  = 0
         ultra_server_id = ""
@@ -177,6 +177,6 @@ resource "aws_sagemaker_training_job" "tf-sample-sagemaker-training-job" {
     security_group_ids = []
     subnets            = []
   }
-  
+
   tags = {}
 }

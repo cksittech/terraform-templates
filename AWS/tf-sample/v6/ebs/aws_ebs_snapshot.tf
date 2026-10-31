@@ -6,6 +6,6 @@ resource "aws_ebs_snapshot" "tf-sample-ebs-snapshot" {
   storage_tier           = ""
   temporary_restore_days = 0
   volume_id              = ""
-  
+
   tags = {}
 }

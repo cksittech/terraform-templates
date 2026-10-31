@@ -41,7 +41,7 @@ resource "aws_odb_autonomous_database" "tf-sample-odb-autonomous-database" {
   standby_allowlisted_ips                     = []
   standby_allowlisted_ips_source              = ""
   time_of_auto_refresh_start                  = ""
-  
+
   admin_password_source {
     customer_managed_aws_secret {
       external_id_type = ""
@@ -112,6 +112,6 @@ resource "aws_odb_autonomous_database" "tf-sample-odb-autonomous-database" {
   transportable_tablespace {
     tts_bundle_url = ""
   }
-  
+
   tags = {}
 }
