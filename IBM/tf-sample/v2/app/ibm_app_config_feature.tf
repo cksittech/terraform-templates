@@ -10,7 +10,7 @@ resource "ibm_app_config_feature" "tf-sample-app-config-feature" {
   name               = ""
   rollout_percentage = 0
   type               = ""
-  
+
   collections {
     collection_id = ""
     deleted       = false
@@ -19,11 +19,11 @@ resource "ibm_app_config_feature" "tf-sample-app-config-feature" {
     order              = 0
     rollout_percentage = 0
     value              = ""
-    
+
     rules {
       segments = []
     }
   }
-  
+
   tags = {}
 }

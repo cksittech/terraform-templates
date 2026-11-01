@@ -1,7 +1,7 @@
 resource "ibm_cis_dns_records_batch" "tf-sample-cis-dns-records-batch" {
   cis_id    = ""
   domain_id = ""
-  
+
   deletes {
     id = ""
   }

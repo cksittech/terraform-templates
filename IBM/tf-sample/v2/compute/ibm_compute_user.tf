@@ -15,6 +15,6 @@ resource "ibm_compute_user" "tf-sample-compute-user" {
   timezone     = ""
   user_status  = ""
   username     = ""
-  
+
   tags = {}
 }

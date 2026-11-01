@@ -4,7 +4,7 @@ resource "ibm_en_destination_msteams" "tf-sample-en-destination-msteams" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       url = ""

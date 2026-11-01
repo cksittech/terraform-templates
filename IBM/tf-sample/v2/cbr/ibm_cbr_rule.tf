@@ -2,7 +2,7 @@ resource "ibm_cbr_rule" "tf-sample-cbr-rule" {
   description      = ""
   enforcement_mode = ""
   x_correlation_id = ""
-  
+
   contexts {
     attributes {
       name  = ""

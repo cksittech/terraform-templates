@@ -2,10 +2,10 @@ resource "ibm_cis_ruleset" "tf-sample-cis-ruleset" {
   cis_id     = ""
   domain_id  = ""
   ruleset_id = ""
-  
+
   rulesets {
     description = ""
-    
+
     rules {
       action      = ""
       description = ""
@@ -13,18 +13,18 @@ resource "ibm_cis_ruleset" "tf-sample-cis-ruleset" {
       expression  = ""
       id          = ""
       ref         = ""
-      
+
       action_parameters {
         id       = ""
         phases   = []
         products = []
         ruleset  = ""
         rulesets = []
-        
+
         overrides {
           action  = ""
           enabled = false
-          
+
           categories {
             action   = ""
             category = ""

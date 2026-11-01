@@ -12,12 +12,12 @@ resource "ibm_is_image" "tf-sample-is-image" {
   operating_system          = ""
   resource_group            = ""
   source_volume             = ""
-  
+
   allowed_use {
     api_version       = ""
     bare_metal_server = ""
     instance          = ""
   }
-  
+
   tags = {}
 }

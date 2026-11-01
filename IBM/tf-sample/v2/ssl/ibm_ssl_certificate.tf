@@ -11,7 +11,7 @@ resource "ibm_ssl_certificate" "tf-sample-ssl-certificate" {
   ssl_type                                         = ""
   technical_contact_same_as_org_address_flag       = false
   validity_months                                  = 0
-  
+
   administrative_contact {
     admin_email_address     = ""
     admin_fax_number        = ""
@@ -20,7 +20,7 @@ resource "ibm_ssl_certificate" "tf-sample-ssl-certificate" {
     admin_organization_name = ""
     admin_phone_number      = ""
     admin_title             = ""
-    
+
     admin_address {
       admin_address_line1 = ""
       admin_address_line2 = ""
@@ -38,7 +38,7 @@ resource "ibm_ssl_certificate" "tf-sample-ssl-certificate" {
     billing_organization_name = ""
     billing_phone_number      = ""
     billing_title             = ""
-    
+
     billing_address {
       billing_address_line1 = ""
       billing_address_line2 = ""
@@ -52,7 +52,7 @@ resource "ibm_ssl_certificate" "tf-sample-ssl-certificate" {
     org_fax_number        = ""
     org_organization_name = ""
     org_phone_number      = ""
-    
+
     org_address {
       org_address_line1 = ""
       org_address_line2 = ""
@@ -70,7 +70,7 @@ resource "ibm_ssl_certificate" "tf-sample-ssl-certificate" {
     tech_organization_name = ""
     tech_phone_number      = ""
     tech_title             = ""
-    
+
     tech_address {
       tech_address_line1 = ""
       tech_address_line2 = ""

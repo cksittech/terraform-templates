@@ -13,7 +13,7 @@ resource "ibm_cos_bucket" "tf-sample-cos-bucket" {
   satellite_location_id = ""
   single_site_location  = ""
   storage_class         = ""
-  
+
   activity_tracking {
     activity_tracker_crn = ""
     management_events    = false

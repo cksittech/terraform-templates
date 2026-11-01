@@ -23,7 +23,7 @@ resource "ibm_dl_gateway_action" "tf-sample-dl-gateway-action" {
   resource_group              = ""
   speed_mbps                  = 0
   type                        = ""
-  
+
   as_prepends {
     id                = ""
     length            = 0
@@ -44,6 +44,6 @@ resource "ibm_dl_gateway_action" "tf-sample-dl-gateway-action" {
     le     = 0
     prefix = ""
   }
-  
+
   tags = {}
 }

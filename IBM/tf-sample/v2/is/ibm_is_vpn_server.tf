@@ -12,12 +12,12 @@ resource "ibm_is_vpn_server" "tf-sample-is-vpn-server" {
   resource_type          = ""
   security_groups        = []
   subnets                = []
-  
+
   client_authentication {
     client_ca_crn     = ""
     identity_provider = ""
     method            = ""
   }
-  
+
   tags = {}
 }

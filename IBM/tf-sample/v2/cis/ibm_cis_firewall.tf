@@ -2,11 +2,11 @@ resource "ibm_cis_firewall" "tf-sample-cis-firewall" {
   cis_id        = ""
   domain_id     = ""
   firewall_type = ""
-  
+
   access_rule {
     mode  = ""
     notes = ""
-    
+
     configuration {
       target = ""
       value  = ""
@@ -17,7 +17,7 @@ resource "ibm_cis_firewall" "tf-sample-cis-firewall" {
     paused      = false
     priority    = 0
     urls        = []
-    
+
     configurations {
       target = ""
       value  = ""
@@ -27,7 +27,7 @@ resource "ibm_cis_firewall" "tf-sample-cis-firewall" {
     description = ""
     mode        = ""
     paused      = false
-    
+
     configuration {
       target = ""
       value  = ""

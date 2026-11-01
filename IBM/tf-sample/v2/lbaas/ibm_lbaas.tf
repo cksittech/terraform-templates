@@ -6,7 +6,7 @@ resource "ibm_lbaas" "tf-sample-lbaas" {
   type                      = ""
   use_system_public_ip_pool = false
   wait_time_minutes         = 0
-  
+
   protocols {
     backend_port          = 0
     backend_protocol      = ""

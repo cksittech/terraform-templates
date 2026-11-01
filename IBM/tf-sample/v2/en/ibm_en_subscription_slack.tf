@@ -4,11 +4,11 @@ resource "ibm_en_subscription_slack" "tf-sample-en-subscription-slack" {
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     attachment_color         = ""
     template_id_notification = ""
-    
+
     channels {
       id        = ""
       operation = ""

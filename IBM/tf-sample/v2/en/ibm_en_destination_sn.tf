@@ -4,7 +4,7 @@ resource "ibm_en_destination_sn" "tf-sample-en-destination-sn" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       client_id     = ""

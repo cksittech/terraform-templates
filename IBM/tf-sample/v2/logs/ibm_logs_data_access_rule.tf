@@ -5,7 +5,7 @@ resource "ibm_logs_data_access_rule" "tf-sample-logs-data-access-rule" {
   endpoint_type      = ""
   instance_id        = ""
   region             = ""
-  
+
   filters {
     entity_type = ""
     expression  = ""

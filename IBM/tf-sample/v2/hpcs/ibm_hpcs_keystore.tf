@@ -29,7 +29,7 @@ resource "ibm_hpcs_keystore" "tf-sample-hpcs-keystore" {
   region                            = ""
   type                              = ""
   uko_vault                         = ""
-  
+
   vault {
     id = ""
   }

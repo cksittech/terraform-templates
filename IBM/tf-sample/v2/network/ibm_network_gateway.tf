@@ -2,7 +2,7 @@ resource "ibm_network_gateway" "tf-sample-network-gateway" {
   name                    = ""
   post_install_script_uri = ""
   ssh_key_ids             = []
-  
+
   members {
     datacenter              = ""
     disk_key_names          = []
@@ -26,7 +26,7 @@ resource "ibm_network_gateway" "tf-sample-network-gateway" {
     tcp_monitoring          = false
     unbonded_network        = false
     user_metadata           = ""
-    
+
     storage_groups {
       array_size            = 0
       array_type_id         = 0

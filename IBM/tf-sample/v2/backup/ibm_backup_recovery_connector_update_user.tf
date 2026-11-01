@@ -35,7 +35,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
   sid                              = ""
   tenant_id                        = ""
   username                         = ""
-  
+
   ad_user_info {
     group_sids       = []
     groups           = []
@@ -82,7 +82,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
     tenant_id   = ""
     tenant_name = ""
     tenant_type = ""
-    
+
     cluster_identifiers {
       cluster_id             = 0
       cluster_incarnation_id = 0
@@ -119,7 +119,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
       is_free_trial            = false
       quantity                 = 0
       start_date               = ""
-      
+
       tiering {
         backend_tiering  = false
         frontend_tiering = false
@@ -132,7 +132,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
       is_free_trial = false
       quantity      = 0
       start_date    = ""
-      
+
       tiering {
         backend_tiering  = false
         frontend_tiering = false
@@ -192,7 +192,7 @@ resource "ibm_backup_recovery_connector_update_user" "tf-sample-backup-recovery-
     tenant_id               = ""
     tenant_name             = ""
     tenant_type             = ""
-    
+
     cluster_identifiers {
       cluster_id             = 0
       cluster_incarnation_id = 0

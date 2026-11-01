@@ -3,7 +3,7 @@ resource "ibm_iam_access_group_dynamic_rule" "tf-sample-iam-access-group-dynamic
   expiration        = 0
   identity_provider = ""
   name              = ""
-  
+
   conditions {
     claim    = ""
     operator = ""

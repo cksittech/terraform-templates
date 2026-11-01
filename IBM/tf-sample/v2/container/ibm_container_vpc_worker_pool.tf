@@ -16,7 +16,7 @@ resource "ibm_container_vpc_worker_pool" "tf-sample-container-vpc-worker-pool" {
   vpc_id            = ""
   worker_count      = 0
   worker_pool_name  = ""
-  
+
   taints {
     effect = ""
     key    = ""

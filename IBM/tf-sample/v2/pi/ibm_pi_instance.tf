@@ -40,10 +40,10 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_virtual_cores_assigned                 = 0
   pi_virtual_optical_device                 = ""
   pi_volume_ids                             = []
-  
+
   pi_default_trusted_profile {
     autolink = false
-    
+
     target {
       crn  = ""
       id   = ""

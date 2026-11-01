@@ -5,7 +5,7 @@ resource "ibm_enterprise_account" "tf-sample-enterprise-account" {
   name                  = ""
   owner_iam_id          = ""
   parent                = ""
-  
+
   options {
     create_iam_service_id_with_apikey_and_owner_policies = false
   }

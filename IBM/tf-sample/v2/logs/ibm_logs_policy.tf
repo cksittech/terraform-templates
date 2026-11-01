@@ -7,7 +7,7 @@ resource "ibm_logs_policy" "tf-sample-logs-policy" {
   name                  = ""
   priority              = ""
   region                = ""
-  
+
   application_rule {
     name         = ""
     rule_type_id = ""

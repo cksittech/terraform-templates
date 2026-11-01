@@ -5,6 +5,6 @@ resource "ibm_compute_reserved_capacity" "tf-sample-compute-reserved-capacity" {
   instances    = 0
   name         = ""
   pod          = ""
-  
+
   tags = {}
 }

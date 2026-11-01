@@ -29,7 +29,7 @@ resource "ibm_container_vpc_cluster" "tf-sample-container-vpc-cluster" {
   wait_till                           = ""
   worker_count                        = 0
   worker_labels                       = {}
-  
+
   kms_config {
     account_id       = ""
     crk_id           = ""
@@ -46,6 +46,6 @@ resource "ibm_container_vpc_cluster" "tf-sample-container-vpc-cluster" {
     name      = ""
     subnet_id = ""
   }
-  
+
   tags = {}
 }

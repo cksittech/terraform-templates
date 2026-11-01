@@ -10,11 +10,11 @@ resource "ibm_cloudant" "tf-sample-cloudant" {
   plan                = ""
   resource_group_id   = ""
   service_endpoints   = ""
-  
+
   cors_config {
     allow_credentials = false
     origins           = []
   }
-  
+
   tags = {}
 }

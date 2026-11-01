@@ -4,7 +4,7 @@ resource "ibm_is_network_acl" "tf-sample-is-network-acl" {
   name                    = ""
   resource_group          = ""
   vpc                     = ""
-  
+
   rules {
     action          = ""
     code            = 0
@@ -19,6 +19,6 @@ resource "ibm_is_network_acl" "tf-sample-is-network-acl" {
     source_port_min = 0
     type            = 0
   }
-  
+
   tags = {}
 }

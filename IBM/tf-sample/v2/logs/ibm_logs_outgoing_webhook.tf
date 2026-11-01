@@ -5,7 +5,7 @@ resource "ibm_logs_outgoing_webhook" "tf-sample-logs-outgoing-webhook" {
   region        = ""
   type          = ""
   url           = ""
-  
+
   ibm_event_notifications {
     endpoint_type                   = ""
     event_notifications_instance_id = ""

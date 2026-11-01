@@ -17,7 +17,7 @@ resource "ibm_en_destination_safari" "tf-sample-en-destination-safari" {
   instance_guid                = ""
   name                         = ""
   type                         = ""
-  
+
   config {
     params {
       cert_type         = ""

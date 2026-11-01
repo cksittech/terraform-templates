@@ -11,10 +11,10 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   priority      = ""
   region        = ""
   type          = ""
-  
+
   active_on {
     day_of_week = []
-    
+
     end_time {
       hours   = 0
       minutes = 0
@@ -26,16 +26,16 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   }
   flow {
     enforce_suppression = false
-    
+
     stages {
       timeframe_ms   = ""
       timeframe_type = ""
-      
+
       flow_stages_groups {
         groups {
           alerts_op = ""
           next_op   = ""
-          
+
           alert_defs {
             id  = ""
             not = false
@@ -52,17 +52,17 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     condition_type              = ""
     evaluation_delay_ms         = 0
     notification_payload_filter = []
-    
+
     anomaly_alert_settings {
       percentage_of_deviation = 0
     }
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -77,7 +77,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     rules {
       condition {
         minimum_threshold = 0
-        
+
         time_window {
           logs_time_window_specific_value = ""
         }
@@ -86,14 +86,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   }
   logs_immediate {
     notification_payload_filter = []
-    
+
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -108,14 +108,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   }
   logs_new_value {
     notification_payload_filter = []
-    
+
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -130,7 +130,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     rules {
       condition {
         keypath_to_track = ""
-        
+
         time_window {
           logs_new_value_time_window_specific_value = ""
         }
@@ -145,14 +145,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     ignore_infinity             = false
     notification_payload_filter = []
     numerator_alias             = ""
-    
+
     denominator {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -167,10 +167,10 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     numerator {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -185,7 +185,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     rules {
       condition {
         threshold = 0
-        
+
         time_window {
           logs_ratio_time_window_specific_value = ""
         }
@@ -203,14 +203,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     condition_type              = ""
     evaluation_delay_ms         = 0
     notification_payload_filter = []
-    
+
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -225,7 +225,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     rules {
       condition {
         threshold = 0
-        
+
         time_window {
           logs_time_window_specific_value = ""
         }
@@ -244,14 +244,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     evaluation_delay_ms         = 0
     ignore_infinity             = false
     notification_payload_filter = []
-    
+
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -281,14 +281,14 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     max_unique_count_per_group_by_key = ""
     notification_payload_filter       = []
     unique_count_keypath              = ""
-    
+
     logs_filter {
       simple_filter {
         lucene_query = ""
-        
+
         label_filters {
           severities = []
-          
+
           application_name {
             operation = ""
             value     = ""
@@ -303,7 +303,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
     rules {
       condition {
         max_unique_count = ""
-        
+
         time_window {
           logs_unique_value_time_window_specific_value = ""
         }
@@ -313,7 +313,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   metric_anomaly {
     condition_type      = ""
     evaluation_delay_ms = 0
-    
+
     anomaly_alert_settings {
       percentage_of_deviation = 0
     }
@@ -325,7 +325,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
         for_over_pct            = 0
         min_non_null_values_pct = 0
         threshold               = 0
-        
+
         of_the_last {
           metric_time_window_dynamic_duration = ""
           metric_time_window_specific_value   = ""
@@ -336,7 +336,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   metric_threshold {
     condition_type      = ""
     evaluation_delay_ms = 0
-    
+
     metric_filter {
       promql = ""
     }
@@ -348,7 +348,7 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
       condition {
         for_over_pct = 0
         threshold    = 0
-        
+
         of_the_last {
           metric_time_window_dynamic_duration = ""
           metric_time_window_specific_value   = ""
@@ -365,11 +365,11 @@ resource "ibm_logs_alert_definition" "tf-sample-logs-alert-definition" {
   }
   notification_group {
     group_by_keys = []
-    
+
     webhooks {
       minutes   = 0
       notify_on = ""
-      
+
       integration {
         integration_id = 0
       }

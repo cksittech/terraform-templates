@@ -24,7 +24,7 @@ resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
   template_uninstall_script_name      = ""
   template_values                     = ""
   x_github_token                      = ""
-  
+
   catalog_ref {
     dry_run          = false
     item_icon_url    = ""
@@ -58,6 +58,6 @@ resource "ibm_schematics_workspace" "tf-sample-schematics-workspace" {
   }
   template_values_metadata {
   }
-  
+
   tags = {}
 }

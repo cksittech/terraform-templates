@@ -9,7 +9,7 @@ resource "ibm_sm_service_credentials_secret" "tf-sample-sm-service-credentials-s
   secret_group_id         = ""
   ttl                     = ""
   version_custom_metadata = {}
-  
+
   rotation {
     auto_rotate = false
     interval    = 0
@@ -17,7 +17,7 @@ resource "ibm_sm_service_credentials_secret" "tf-sample-sm-service-credentials-s
   }
   source_service {
     parameters = {}
-    
+
     instance {
       crn = ""
     }

@@ -2,7 +2,7 @@ resource "ibm_is_reservation" "tf-sample-is-reservation" {
   affinity_policy = ""
   name            = ""
   zone            = ""
-  
+
   capacity {
     total = 0
   }

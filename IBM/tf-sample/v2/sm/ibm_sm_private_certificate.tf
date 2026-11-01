@@ -19,7 +19,7 @@ resource "ibm_sm_private_certificate" "tf-sample-sm-private-certificate" {
   ttl                     = ""
   uri_sans                = ""
   version_custom_metadata = {}
-  
+
   rotation {
     auto_rotate = false
     interval    = 0

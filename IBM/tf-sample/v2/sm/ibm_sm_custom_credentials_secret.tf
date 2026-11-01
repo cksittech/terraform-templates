@@ -10,7 +10,7 @@ resource "ibm_sm_custom_credentials_secret" "tf-sample-sm-custom-credentials-sec
   secret_group_id         = ""
   ttl                     = ""
   version_custom_metadata = {}
-  
+
   parameters {
     boolean_values = {}
     integer_values = {}

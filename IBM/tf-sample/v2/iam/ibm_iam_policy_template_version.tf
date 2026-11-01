@@ -3,14 +3,14 @@ resource "ibm_iam_policy_template_version" "tf-sample-iam-policy-template-versio
   description = ""
   name        = ""
   template_id = ""
-  
+
   policy {
     description   = ""
     pattern       = ""
     roles         = []
     rule_operator = ""
     type          = ""
-    
+
     resource {
       attributes {
         key      = ""
@@ -31,7 +31,7 @@ resource "ibm_iam_policy_template_version" "tf-sample-iam-policy-template-versio
       key      = ""
       operator = ""
       value    = []
-      
+
       conditions {
         key      = ""
         operator = ""

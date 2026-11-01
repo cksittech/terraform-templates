@@ -8,15 +8,15 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
   name               = ""
   object_id          = ""
   product_id         = ""
-  
+
   metadata {
     rc_compatible = false
-    
+
     deployment {
       location     = ""
       location_url = ""
       target_crn   = ""
-      
+
       broker {
         guid = ""
         name = ""
@@ -30,7 +30,7 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
       plan_updateable       = false
       rc_provisionable      = false
       service_key_supported = false
-      
+
       parameters {
         description    = ""
         displayname    = ""
@@ -46,7 +46,7 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
         type           = ""
         validation_url = ""
         value          = []
-        
+
         associations {
           location {
             show_for = []
@@ -106,7 +106,7 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
         options {
           displayname = ""
           value       = ""
-          
+
           i18n {
             de {
               description = ""
@@ -164,6 +164,6 @@ resource "ibm_onboarding_catalog_deployment" "tf-sample-onboarding-catalog-deplo
       long_description = ""
     }
   }
-  
+
   tags = {}
 }

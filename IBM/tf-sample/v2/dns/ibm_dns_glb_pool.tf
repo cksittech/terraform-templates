@@ -8,7 +8,7 @@ resource "ibm_dns_glb_pool" "tf-sample-dns-glb-pool" {
   monitor                   = ""
   name                      = ""
   notification_channel      = ""
-  
+
   origins {
     address     = ""
     description = ""

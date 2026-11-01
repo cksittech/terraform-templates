@@ -13,7 +13,7 @@ resource "ibm_iam_account_settings" "tf-sample-iam-account-settings" {
   session_invalidation_in_seconds            = ""
   system_access_token_expiration_in_seconds  = ""
   system_refresh_token_expiration_in_seconds = ""
-  
+
   restrict_user_domains {
     invitation_email_allow_patterns = []
     realm_id                        = ""

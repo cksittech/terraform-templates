@@ -11,6 +11,6 @@ resource "ibm_is_subnet" "tf-sample-is-subnet" {
   total_ipv4_address_count = 0
   vpc                      = ""
   zone                     = ""
-  
+
   tags = {}
 }

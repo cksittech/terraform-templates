@@ -1,7 +1,7 @@
 resource "ibm_cd_toolchain_tool_githubconsolidated" "tf-sample-cd-toolchain-tool-githubconsolidated" {
   name         = ""
   toolchain_id = ""
-  
+
   initialization {
     auto_init        = false
     blind_connection = false

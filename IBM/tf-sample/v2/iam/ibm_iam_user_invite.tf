@@ -1,7 +1,7 @@
 resource "ibm_iam_user_invite" "tf-sample-iam-user-invite" {
   access_groups = []
   users         = []
-  
+
   classic_infra_roles {
     permission_set = ""
     permissions    = []
@@ -9,7 +9,7 @@ resource "ibm_iam_user_invite" "tf-sample-iam-user-invite" {
   cloud_foundry_roles {
     org_roles         = []
     organization_guid = ""
-    
+
     spaces {
       space_guid  = ""
       space_roles = []
@@ -18,7 +18,7 @@ resource "ibm_iam_user_invite" "tf-sample-iam-user-invite" {
   iam_policy {
     account_management = false
     roles              = []
-    
+
     resources {
       attributes           = {}
       region               = ""

@@ -12,7 +12,7 @@ resource "ibm_code_engine_build" "tf-sample-code-engine-build" {
   strategy_spec_file = ""
   strategy_type      = ""
   timeout            = 0
-  
+
   run_build_params {
     key       = ""
     name      = ""

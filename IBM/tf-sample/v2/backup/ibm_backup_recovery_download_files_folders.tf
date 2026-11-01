@@ -7,7 +7,7 @@ resource "ibm_backup_recovery_download_files_folders" "tf-sample-backup-recovery
   region                 = ""
   service_name           = ""
   x_ibm_tenant_id        = ""
-  
+
   documents {
     is_directory = false
     item_id      = ""

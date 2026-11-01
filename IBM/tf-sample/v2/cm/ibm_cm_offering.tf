@@ -24,7 +24,7 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
   share_with_ibm         = false
   short_description      = ""
   short_description_i18n = {}
-  
+
   features {
     description      = ""
     description_i18n = {}
@@ -43,7 +43,7 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
     thumbnail_url = ""
     type          = ""
     url           = ""
-    
+
     url_proxy {
       sha = ""
       url = ""
@@ -53,6 +53,6 @@ resource "ibm_cm_offering" "tf-sample-cm-offering" {
     id   = ""
     name = ""
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "ibm_sm_custom_credentials_configuration" "tf-sample-sm-custom-credenti
   name          = ""
   region        = ""
   task_timeout  = ""
-  
+
   code_engine {
     job_name   = ""
     project_id = ""

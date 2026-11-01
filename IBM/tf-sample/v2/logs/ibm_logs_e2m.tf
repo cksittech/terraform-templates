@@ -5,7 +5,7 @@ resource "ibm_logs_e2m" "tf-sample-logs-e2m" {
   name          = ""
   region        = ""
   type          = ""
-  
+
   logs_query {
     alias                   = ""
     applicationname_filters = []
@@ -16,12 +16,12 @@ resource "ibm_logs_e2m" "tf-sample-logs-e2m" {
   metric_fields {
     source_field            = ""
     target_base_metric_name = ""
-    
+
     aggregations {
       agg_type           = ""
       enabled            = false
       target_metric_name = ""
-      
+
       histogram {
         buckets = []
       }

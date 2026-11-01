@@ -4,7 +4,7 @@ resource "ibm_en_subscription_ce" "tf-sample-en-subscription-ce" {
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     template_id_notification = ""
   }

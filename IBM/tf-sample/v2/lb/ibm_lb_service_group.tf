@@ -5,6 +5,6 @@ resource "ibm_lb_service_group" "tf-sample-lb-service-group" {
   routing_method   = ""
   routing_type     = ""
   timeout          = 0
-  
+
   tags = {}
 }

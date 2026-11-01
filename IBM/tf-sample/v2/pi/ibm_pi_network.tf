@@ -10,7 +10,7 @@ resource "ibm_pi_network" "tf-sample-pi-network" {
   pi_network_name      = ""
   pi_network_type      = ""
   pi_user_tags         = []
-  
+
   pi_ipaddress_range {
     pi_ending_ip_address   = ""
     pi_starting_ip_address = ""

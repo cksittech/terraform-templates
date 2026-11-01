@@ -6,7 +6,7 @@ resource "ibm_cis_alert" "tf-sample-cis-alert" {
   enabled     = false
   filters     = ""
   name        = ""
-  
+
   mechanisms {
     email    = []
     webhooks = []

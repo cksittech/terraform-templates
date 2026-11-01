@@ -3,6 +3,6 @@ resource "ibm_network_vlan" "tf-sample-network-vlan" {
   name            = ""
   router_hostname = ""
   type            = ""
-  
+
   tags = {}
 }

@@ -9,12 +9,12 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
   source_type       = ""
   targets_ini       = ""
   x_github_token    = ""
-  
+
   action_inputs {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -38,7 +38,7 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -66,7 +66,7 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -90,7 +90,7 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -114,7 +114,7 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -136,7 +136,7 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
   }
   source {
     source_type = ""
-    
+
     catalog {
       catalog_name        = ""
       offering_id         = ""
@@ -160,6 +160,6 @@ resource "ibm_schematics_action" "tf-sample-schematics-action" {
     set_by = ""
     state  = ""
   }
-  
+
   tags = {}
 }

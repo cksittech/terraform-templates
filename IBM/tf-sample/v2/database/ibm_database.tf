@@ -21,7 +21,7 @@ resource "ibm_database" "tf-sample-database" {
   skip_initial_backup                  = false
   version                              = ""
   version_upgrade_skip_backup          = false
-  
+
   allowlist {
     address     = ""
     description = ""
@@ -50,7 +50,7 @@ resource "ibm_database" "tf-sample-database" {
   }
   group {
     group_id = ""
-    
+
     cpu {
       allocation_count = 0
     }
@@ -78,6 +78,6 @@ resource "ibm_database" "tf-sample-database" {
     role     = ""
     type     = ""
   }
-  
+
   tags = {}
 }

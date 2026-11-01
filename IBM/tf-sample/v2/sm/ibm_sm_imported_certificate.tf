@@ -11,7 +11,7 @@ resource "ibm_sm_imported_certificate" "tf-sample-sm-imported-certificate" {
   region                  = ""
   secret_group_id         = ""
   version_custom_metadata = {}
-  
+
   managed_csr {
     alt_names             = ""
     client_flag           = false

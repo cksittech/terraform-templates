@@ -4,7 +4,7 @@ resource "ibm_en_subscription_email" "tf-sample-en-subscription-email" {
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     add_notification_payload = false
     from_name                = ""

@@ -13,7 +13,7 @@ resource "ibm_cd_tekton_pipeline_trigger" "tf-sample-cd-tekton-pipeline-trigger"
   pipeline_id              = ""
   timezone                 = ""
   type                     = ""
-  
+
   secret {
     algorithm = ""
     key_name  = ""
@@ -23,7 +23,7 @@ resource "ibm_cd_tekton_pipeline_trigger" "tf-sample-cd-tekton-pipeline-trigger"
   }
   source {
     type = ""
-    
+
     properties {
       branch  = ""
       pattern = ""
@@ -33,6 +33,6 @@ resource "ibm_cd_tekton_pipeline_trigger" "tf-sample-cd-tekton-pipeline-trigger"
   worker {
     id = ""
   }
-  
+
   tags = {}
 }

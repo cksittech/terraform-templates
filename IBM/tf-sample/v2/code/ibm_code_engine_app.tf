@@ -20,7 +20,7 @@ resource "ibm_code_engine_app" "tf-sample-code-engine-app" {
   scale_memory_limit                 = ""
   scale_min_instances                = 0
   scale_request_timeout              = 0
-  
+
   probe_liveness {
     failure_threshold = 0
     initial_delay     = 0

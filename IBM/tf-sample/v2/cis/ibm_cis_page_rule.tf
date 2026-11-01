@@ -3,7 +3,7 @@ resource "ibm_cis_page_rule" "tf-sample-cis-page-rule" {
   domain_id = ""
   priority  = 0
   status    = ""
-  
+
   actions {
     css         = ""
     html        = ""
@@ -15,7 +15,7 @@ resource "ibm_cis_page_rule" "tf-sample-cis-page-rule" {
   }
   targets {
     target = ""
-    
+
     constraint {
       operator = ""
       value    = ""

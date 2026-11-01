@@ -4,6 +4,6 @@ resource "ibm_app_config_environment" "tf-sample-app-config-environment" {
   environment_id = ""
   guid           = ""
   name           = ""
-  
+
   tags = {}
 }

@@ -14,7 +14,7 @@ resource "ibm_db2" "tf-sample-db2" {
   service                      = ""
   service_endpoints            = ""
   subscription_id              = ""
-  
+
   allowlist_config {
     ip_addresses {
       address     = ""
@@ -207,12 +207,12 @@ resource "ibm_db2" "tf-sample-db2" {
     name     = ""
     password = ""
     role     = ""
-    
+
     authentication {
       method    = ""
       policy_id = ""
     }
   }
-  
+
   tags = {}
 }

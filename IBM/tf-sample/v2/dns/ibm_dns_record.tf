@@ -15,6 +15,6 @@ resource "ibm_dns_record" "tf-sample-dns-record" {
   ttl                = 0
   type               = ""
   weight             = 0
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "ibm_pi_network_interface" "tf-sample-pi-network-interface" {
   pi_name              = ""
   pi_network_id        = ""
   pi_user_tags         = []
-  
+
   instance {
   }
 }

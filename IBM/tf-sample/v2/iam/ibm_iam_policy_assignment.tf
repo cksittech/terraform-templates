@@ -3,7 +3,7 @@ resource "ibm_iam_policy_assignment" "tf-sample-iam-policy-assignment" {
   target           = {}
   template_version = ""
   version          = ""
-  
+
   templates {
     id      = ""
     version = ""

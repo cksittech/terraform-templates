@@ -3,6 +3,6 @@ resource "ibm_app_config_collection" "tf-sample-app-config-collection" {
   description   = ""
   guid          = ""
   name          = ""
-  
+
   tags = {}
 }

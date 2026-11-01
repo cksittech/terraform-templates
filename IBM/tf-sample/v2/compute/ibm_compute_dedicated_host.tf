@@ -6,6 +6,6 @@ resource "ibm_compute_dedicated_host" "tf-sample-compute-dedicated-host" {
   hourly_billing    = false
   router_hostname   = ""
   wait_time_minutes = 0
-  
+
   tags = {}
 }

@@ -6,6 +6,6 @@ resource "ibm_is_private_path_service_gateway" "tf-sample-is-private-path-servic
   resource_group        = ""
   service_endpoints     = []
   zonal_affinity        = false
-  
+
   tags = {}
 }

@@ -26,7 +26,7 @@ resource "ibm_container_cluster" "tf-sample-container-cluster" {
   update_all_workers         = false
   wait_for_worker_update     = false
   wait_till                  = ""
-  
+
   kms_config {
     account_id       = ""
     crk_id           = ""
@@ -47,6 +47,6 @@ resource "ibm_container_cluster" "tf-sample-container-cluster" {
     id      = ""
     version = ""
   }
-  
+
   tags = {}
 }

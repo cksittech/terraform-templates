@@ -8,10 +8,10 @@ resource "ibm_onboarding_catalog_plan" "tf-sample-onboarding-catalog-plan" {
   object_id          = ""
   pricing_tags       = []
   product_id         = ""
-  
+
   metadata {
     rc_compatible = false
-    
+
     other {
       resource_controller {
         subscription_provider_id = ""
@@ -37,7 +37,7 @@ resource "ibm_onboarding_catalog_plan" "tf-sample-onboarding-catalog-plan" {
     ui {
       hidden             = false
       side_by_side_index = 0
-      
+
       strings {
         en {
           bullets {
@@ -79,6 +79,6 @@ resource "ibm_onboarding_catalog_plan" "tf-sample-onboarding-catalog-plan" {
       long_description = ""
     }
   }
-  
+
   tags = {}
 }

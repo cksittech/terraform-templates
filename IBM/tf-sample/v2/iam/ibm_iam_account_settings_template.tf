@@ -4,7 +4,7 @@ resource "ibm_iam_account_settings_template" "tf-sample-iam-account-settings-tem
   description = ""
   name        = ""
   template_id = ""
-  
+
   account_settings {
     allowed_ip_addresses                       = ""
     max_sessions_per_identity                  = ""
@@ -16,10 +16,10 @@ resource "ibm_iam_account_settings_template" "tf-sample-iam-account-settings-tem
     session_invalidation_in_seconds            = ""
     system_access_token_expiration_in_seconds  = ""
     system_refresh_token_expiration_in_seconds = ""
-    
+
     restrict_user_domains {
       account_sufficient = false
-      
+
       restrictions {
         invitation_email_allow_patterns = []
         realm_id                        = ""

@@ -11,10 +11,10 @@ resource "ibm_is_vpn_gateway_connection" "tf-sample-is-vpn-gateway-connection" {
   routing_protocol   = ""
   timeout            = 0
   vpn_gateway        = ""
-  
+
   local {
     cidrs = []
-    
+
     ike_identities {
       type  = ""
       value = ""
@@ -25,7 +25,7 @@ resource "ibm_is_vpn_gateway_connection" "tf-sample-is-vpn-gateway-connection" {
     asn     = 0
     cidrs   = []
     fqdn    = ""
-    
+
     ike_identity {
       type  = ""
       value = ""

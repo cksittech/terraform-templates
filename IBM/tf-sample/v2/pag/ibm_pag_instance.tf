@@ -7,6 +7,6 @@ resource "ibm_pag_instance" "tf-sample-pag-instance" {
   resource_group_id = ""
   service           = ""
   service_endpoints = ""
-  
+
   tags = {}
 }

@@ -6,6 +6,6 @@ resource "ibm_container_bind_service" "tf-sample-container-bind-service" {
   role                  = ""
   service_instance_id   = ""
   service_instance_name = ""
-  
+
   tags = {}
 }

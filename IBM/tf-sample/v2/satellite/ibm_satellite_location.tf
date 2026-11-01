@@ -10,7 +10,7 @@ resource "ibm_satellite_location" "tf-sample-satellite-location" {
   resource_group_id  = ""
   service_subnet     = ""
   zones              = []
-  
+
   cos_config {
     bucket   = ""
     endpoint = ""
@@ -20,6 +20,6 @@ resource "ibm_satellite_location" "tf-sample-satellite-location" {
     access_key_id     = ""
     secret_access_key = ""
   }
-  
+
   tags = {}
 }

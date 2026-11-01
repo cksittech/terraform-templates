@@ -4,6 +4,6 @@ resource "ibm_cis" "tf-sample-cis" {
   parameters        = {}
   plan              = ""
   resource_group_id = ""
-  
+
   tags = {}
 }

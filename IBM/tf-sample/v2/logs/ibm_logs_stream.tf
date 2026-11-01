@@ -6,7 +6,7 @@ resource "ibm_logs_stream" "tf-sample-logs-stream" {
   is_active        = false
   name             = ""
   region           = ""
-  
+
   ibm_event_streams {
     brokers = ""
     topic   = ""

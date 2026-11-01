@@ -9,7 +9,7 @@ resource "ibm_compute_autoscale_group" "tf-sample-compute-autoscale-group" {
   regional_group       = ""
   termination_policy   = ""
   virtual_server_id    = 0
-  
+
   virtual_guest_member_template {
     block_storage_ids          = []
     cores                      = 0
@@ -50,12 +50,12 @@ resource "ibm_compute_autoscale_group" "tf-sample-compute-autoscale-group" {
     ssh_key_ids                = []
     transient                  = false
     user_metadata              = ""
-    
+
     bulk_vms {
       domain   = ""
       hostname = ""
     }
   }
-  
+
   tags = {}
 }

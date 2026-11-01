@@ -7,7 +7,7 @@ resource "ibm_cis_origin_pool" "tf-sample-cis-origin-pool" {
   monitor            = ""
   name               = ""
   notification_email = ""
-  
+
   origins {
     address = ""
     enabled = false

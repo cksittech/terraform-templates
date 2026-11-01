@@ -4,7 +4,7 @@ resource "ibm_en_destination_pagerduty" "tf-sample-en-destination-pagerduty" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       routing_key = ""

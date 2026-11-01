@@ -4,7 +4,7 @@ resource "ibm_is_backup_policy" "tf-sample-is-backup-policy" {
   match_user_tags     = []
   name                = ""
   resource_group      = ""
-  
+
   scope {
     crn = ""
   }

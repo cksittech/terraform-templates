@@ -5,7 +5,7 @@ resource "ibm_ipsec_vpn" "tf-sample-ipsec-vpn" {
   preshared_key      = ""
   remote_subnet_id   = 0
   service_subnet_id  = 0
-  
+
   address_translation {
     internal_ip_adress = ""
     notes              = ""

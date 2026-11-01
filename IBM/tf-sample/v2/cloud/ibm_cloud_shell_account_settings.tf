@@ -4,7 +4,7 @@ resource "ibm_cloud_shell_account_settings" "tf-sample-cloud-shell-account-setti
   default_enable_new_regions  = false
   enabled                     = false
   rev                         = ""
-  
+
   features {
     enabled = false
     key     = ""

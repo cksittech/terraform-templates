@@ -4,11 +4,11 @@ resource "ibm_iam_access_group_template_version" "tf-sample-iam-access-group-tem
   name           = ""
   template_id    = ""
   transaction_id = ""
-  
+
   group {
     description = ""
     name        = ""
-    
+
     action_controls {
       access {
         add = false
@@ -23,7 +23,7 @@ resource "ibm_iam_access_group_template_version" "tf-sample-iam-access-group-tem
         expiration = 0
         name       = ""
         realm_name = ""
-        
+
         action_controls {
           remove = false
         }
@@ -37,7 +37,7 @@ resource "ibm_iam_access_group_template_version" "tf-sample-iam-access-group-tem
     members {
       services = []
       users    = []
-      
+
       action_controls {
         add    = false
         remove = false

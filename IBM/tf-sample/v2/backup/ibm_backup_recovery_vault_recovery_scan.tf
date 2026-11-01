@@ -5,7 +5,7 @@ resource "ibm_backup_recovery_vault_recovery_scan" "tf-sample-backup-recovery-va
   region          = ""
   service_name    = ""
   x_ibm_tenant_id = ""
-  
+
   recovery_scan_request_params {
     vault_id = 0
   }

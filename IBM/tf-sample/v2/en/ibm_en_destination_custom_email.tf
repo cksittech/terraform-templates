@@ -6,7 +6,7 @@ resource "ibm_en_destination_custom_email" "tf-sample-en-destination-custom-emai
   name                  = ""
   type                  = ""
   verification_type     = ""
-  
+
   config {
     params {
       domain = ""

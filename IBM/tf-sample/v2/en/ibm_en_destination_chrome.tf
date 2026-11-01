@@ -4,7 +4,7 @@ resource "ibm_en_destination_chrome" "tf-sample-en-destination-chrome" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       api_key     = ""

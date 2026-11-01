@@ -5,6 +5,6 @@ resource "ibm_is_public_gateway" "tf-sample-is-public-gateway" {
   resource_group = ""
   vpc            = ""
   zone           = ""
-  
+
   tags = {}
 }

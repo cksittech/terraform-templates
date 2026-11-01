@@ -3,12 +3,12 @@ resource "ibm_app_config_segment" "tf-sample-app-config-segment" {
   guid        = ""
   name        = ""
   segment_id  = ""
-  
+
   rules {
     attribute_name = ""
     operator       = ""
     values         = []
   }
-  
+
   tags = {}
 }

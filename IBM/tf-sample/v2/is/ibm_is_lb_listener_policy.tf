@@ -4,7 +4,7 @@ resource "ibm_is_lb_listener_policy" "tf-sample-is-lb-listener-policy" {
   listener = ""
   name     = ""
   priority = 0
-  
+
   rules {
     condition = ""
     field     = ""
@@ -16,7 +16,7 @@ resource "ibm_is_lb_listener_policy" "tf-sample-is-lb-listener-policy" {
     id               = ""
     uri              = ""
     url              = ""
-    
+
     listener {
       id = ""
     }

@@ -11,7 +11,7 @@ resource "ibm_iam_authorization_policy" "tf-sample-iam-authorization-policy" {
   target_resource_type        = ""
   target_service_name         = ""
   transaction_id              = ""
-  
+
   resource_attributes {
     name     = ""
     operator = ""

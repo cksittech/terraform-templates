@@ -4,7 +4,7 @@ resource "ibm_en_destination_android" "tf-sample-en-destination-android" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       client_email = ""

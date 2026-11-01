@@ -3,7 +3,7 @@ resource "ibm_en_event_streams_template" "tf-sample-en-event-streams-template" {
   instance_guid = ""
   name          = ""
   type          = ""
-  
+
   params {
     body = ""
   }

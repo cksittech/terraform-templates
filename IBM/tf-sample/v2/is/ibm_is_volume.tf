@@ -11,12 +11,12 @@ resource "ibm_is_volume" "tf-sample-is-volume" {
   source_snapshot      = ""
   source_snapshot_crn  = ""
   zone                 = ""
-  
+
   allowed_use {
     api_version       = ""
     bare_metal_server = ""
     instance          = ""
   }
-  
+
   tags = {}
 }

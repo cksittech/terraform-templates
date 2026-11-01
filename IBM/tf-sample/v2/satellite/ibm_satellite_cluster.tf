@@ -19,10 +19,10 @@ resource "ibm_satellite_cluster" "tf-sample-satellite-cluster" {
   service_subnet                  = ""
   wait_for_worker_update          = false
   worker_count                    = 0
-  
+
   zones {
     id = ""
   }
-  
+
   tags = {}
 }

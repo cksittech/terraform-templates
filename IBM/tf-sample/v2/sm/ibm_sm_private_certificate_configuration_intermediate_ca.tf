@@ -31,12 +31,12 @@ resource "ibm_sm_private_certificate_configuration_intermediate_ca" "tf-sample-s
   ttl                               = ""
   uri_sans                          = ""
   use_csr_values                    = false
-  
+
   crypto_key {
     allow_generate_key = false
     id                 = ""
     label              = ""
-    
+
     provider {
       instance_crn                  = ""
       pin_iam_credentials_secret_id = ""

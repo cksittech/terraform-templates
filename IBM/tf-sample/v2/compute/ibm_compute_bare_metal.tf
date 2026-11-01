@@ -37,13 +37,13 @@ resource "ibm_compute_bare_metal" "tf-sample-compute-bare-metal" {
   tcp_monitoring            = false
   unbonded_network          = false
   user_metadata             = ""
-  
+
   storage_groups {
     array_size            = 0
     array_type_id         = 0
     hard_drives           = []
     partition_template_id = 0
   }
-  
+
   tags = {}
 }

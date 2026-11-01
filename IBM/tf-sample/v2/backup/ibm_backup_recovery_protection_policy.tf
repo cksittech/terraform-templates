@@ -10,13 +10,13 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
   template_id     = ""
   version         = 0
   x_ibm_tenant_id = ""
-  
+
   backup_policy {
     bmr {
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -26,7 +26,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       }
       schedule {
         unit = ""
-        
+
         day_schedule {
           frequency = 0
         }
@@ -47,7 +47,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -60,7 +60,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -70,7 +70,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       }
       schedule {
         unit = ""
-        
+
         hour_schedule {
           frequency = 0
         }
@@ -83,7 +83,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       full {
         schedule {
           unit = ""
-          
+
           day_schedule {
             frequency = 0
           }
@@ -104,7 +104,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -114,7 +114,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         }
         schedule {
           unit = ""
-          
+
           day_schedule {
             frequency = 0
           }
@@ -134,7 +134,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       incremental {
         schedule {
           unit = ""
-          
+
           day_schedule {
             frequency = 0
           }
@@ -160,13 +160,13 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       primary_backup_target {
         target_type               = ""
         use_default_backup_target = false
-        
+
         archival_target_settings {
           target_id = 0
-          
+
           tier_settings {
             cloud_platform = ""
-            
+
             aws_tiering {
               tiers {
                 move_after      = 0
@@ -197,7 +197,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -214,7 +214,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -224,7 +224,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       }
       schedule {
         unit = ""
-        
+
         day_schedule {
           frequency = 0
         }
@@ -251,7 +251,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
   blackout_window {
     config_id = ""
     day       = ""
-    
+
     end_time {
       hour      = 0
       minute    = 0
@@ -265,22 +265,22 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
   }
   cascaded_targets_config {
     source_cluster_id = 0
-    
+
     remote_targets {
       archival_targets {
         backup_run_type     = ""
         config_id           = ""
         copy_on_run_success = false
         target_id           = 0
-        
+
         extended_retention {
           config_id = ""
           run_type  = ""
-          
+
           retention {
             duration = 0
             unit     = ""
-            
+
             data_lock_config {
               duration                       = 0
               enable_worm_on_external_target = false
@@ -296,7 +296,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         log_retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -307,7 +307,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -325,7 +325,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         }
         tier_settings {
           cloud_platform = ""
-          
+
           aws_tiering {
             tiers {
               move_after      = 0
@@ -356,11 +356,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         backup_run_type     = ""
         config_id           = ""
         copy_on_run_success = false
-        
+
         log_retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -371,7 +371,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -389,12 +389,12 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         }
         target {
           id = 0
-          
+
           aws_params {
             region    = 0
             subnet_id = 0
             vpc_id    = 0
-            
+
             custom_tag_list {
             }
           }
@@ -417,11 +417,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         backup_run_type     = ""
         config_id           = ""
         copy_on_run_success = false
-        
+
         log_retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -435,7 +435,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -457,7 +457,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         config_id           = ""
         copy_on_run_success = false
         target_type         = ""
-        
+
         aws_target_config {
           region    = 0
           source_id = 0
@@ -469,7 +469,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         log_retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -483,7 +483,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -506,11 +506,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         copy_on_run_success = false
         target_id           = 0
         target_type         = ""
-        
+
         log_retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -521,7 +521,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -543,11 +543,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
   extended_retention {
     config_id = ""
     run_type  = ""
-    
+
     retention {
       duration = 0
       unit     = ""
-      
+
       data_lock_config {
         duration                       = 0
         enable_worm_on_external_target = false
@@ -566,15 +566,15 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       config_id           = ""
       copy_on_run_success = false
       target_id           = 0
-      
+
       extended_retention {
         config_id = ""
         run_type  = ""
-        
+
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -590,7 +590,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       log_retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -601,7 +601,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -619,7 +619,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       }
       tier_settings {
         cloud_platform = ""
-        
+
         aws_tiering {
           tiers {
             move_after      = 0
@@ -650,11 +650,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       backup_run_type     = ""
       config_id           = ""
       copy_on_run_success = false
-      
+
       log_retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -665,7 +665,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -683,12 +683,12 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       }
       target {
         id = 0
-        
+
         aws_params {
           region    = 0
           subnet_id = 0
           vpc_id    = 0
-          
+
           custom_tag_list {
           }
         }
@@ -711,11 +711,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       backup_run_type     = ""
       config_id           = ""
       copy_on_run_success = false
-      
+
       log_retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -729,7 +729,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -751,7 +751,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       config_id           = ""
       copy_on_run_success = false
       target_type         = ""
-      
+
       aws_target_config {
         region    = 0
         source_id = 0
@@ -763,7 +763,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       log_retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -777,7 +777,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -800,11 +800,11 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       copy_on_run_success = false
       target_id           = 0
       target_type         = ""
-      
+
       log_retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false
@@ -815,7 +815,7 @@ resource "ibm_backup_recovery_protection_policy" "tf-sample-backup-recovery-prot
       retention {
         duration = 0
         unit     = ""
-        
+
         data_lock_config {
           duration                       = 0
           enable_worm_on_external_target = false

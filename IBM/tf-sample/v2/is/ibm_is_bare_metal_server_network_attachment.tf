@@ -6,7 +6,7 @@ resource "ibm_is_bare_metal_server_network_attachment" "tf-sample-is-bare-metal-
   interface_type    = ""
   name              = ""
   vlan              = 0
-  
+
   virtual_network_interface {
     allow_ip_spoofing             = false
     auto_delete                   = false
@@ -17,7 +17,7 @@ resource "ibm_is_bare_metal_server_network_attachment" "tf-sample-is-bare-metal-
     resource_group                = ""
     security_groups               = []
     subnet                        = ""
-    
+
     ips {
       reserved_ip = ""
     }

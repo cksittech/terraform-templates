@@ -3,11 +3,11 @@ resource "ibm_is_instance_reinitialize" "tf-sample-is-instance-reinitialize" {
   instance_id = ""
   keys        = []
   user_data   = ""
-  
+
   boot_volume_attachment {
     delete_volume_on_instance_delete = false
     name                             = ""
-    
+
     volume {
       bandwidth      = 0
       capacity       = 0
@@ -16,7 +16,7 @@ resource "ibm_is_instance_reinitialize" "tf-sample-is-instance-reinitialize" {
       name           = ""
       resource_group = ""
       user_tags      = []
-      
+
       allowed_use {
         api_version       = ""
         bare_metal_server = ""
@@ -35,7 +35,7 @@ resource "ibm_is_instance_reinitialize" "tf-sample-is-instance-reinitialize" {
   }
   default_trusted_profile {
     auto_link = false
-    
+
     target {
       crn = ""
       id  = ""

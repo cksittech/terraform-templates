@@ -15,7 +15,7 @@ resource "ibm_tg_connection" "tf-sample-tg-connection" {
   remote_gateway_ip     = ""
   remote_tunnel_ip      = ""
   zone                  = ""
-  
+
   tunnels {
     local_bgp_asn     = 0
     local_gateway_ip  = ""

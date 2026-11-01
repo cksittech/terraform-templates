@@ -4,11 +4,11 @@ resource "ibm_cbr_zone" "tf-sample-cbr-zone" {
   name             = ""
   transaction_id   = ""
   x_correlation_id = ""
-  
+
   addresses {
     type  = ""
     value = ""
-    
+
     ref {
       account_id       = ""
       location         = ""

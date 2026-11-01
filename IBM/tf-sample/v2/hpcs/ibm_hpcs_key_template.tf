@@ -4,7 +4,7 @@ resource "ibm_hpcs_key_template" "tf-sample-hpcs-key-template" {
   name        = ""
   region      = ""
   uko_vault   = ""
-  
+
   key {
     activation_date = ""
     algorithm       = ""

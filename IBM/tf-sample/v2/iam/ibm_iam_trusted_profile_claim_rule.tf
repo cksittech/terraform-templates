@@ -5,7 +5,7 @@ resource "ibm_iam_trusted_profile_claim_rule" "tf-sample-iam-trusted-profile-cla
   profile_id = ""
   realm_name = ""
   type       = ""
-  
+
   conditions {
     claim    = ""
     operator = ""

@@ -25,7 +25,7 @@ resource "ibm_dl_gateway" "tf-sample-dl-gateway" {
   speed_mbps                  = 0
   type                        = ""
   vlan                        = 0
-  
+
   as_prepends {
     id                = ""
     length            = 0
@@ -52,6 +52,6 @@ resource "ibm_dl_gateway" "tf-sample-dl-gateway" {
     primary_cak  = ""
     window_size  = 0
   }
-  
+
   tags = {}
 }

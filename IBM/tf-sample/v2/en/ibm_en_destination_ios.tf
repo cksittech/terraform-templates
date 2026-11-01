@@ -6,7 +6,7 @@ resource "ibm_en_destination_ios" "tf-sample-en-destination-ios" {
   instance_guid            = ""
   name                     = ""
   type                     = ""
-  
+
   config {
     params {
       bundle_id  = ""

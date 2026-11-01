@@ -3,7 +3,7 @@ resource "ibm_iam_action_control_template_version" "tf-sample-iam-action-control
   committed                  = false
   description                = ""
   name                       = ""
-  
+
   action_control {
     actions      = []
     description  = ""

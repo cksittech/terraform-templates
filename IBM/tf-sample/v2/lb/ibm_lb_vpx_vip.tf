@@ -7,6 +7,6 @@ resource "ibm_lb_vpx_vip" "tf-sample-lb-vpx-vip" {
   source_port             = 0
   type                    = ""
   virtual_ip_address      = ""
-  
+
   tags = {}
 }

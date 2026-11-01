@@ -15,7 +15,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
   region             = ""
   service_name       = ""
   x_ibm_tenant_id    = ""
-  
+
   advanced_configs {
     key   = ""
     value = ""
@@ -25,7 +25,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
     raise_object_level_failure_alert                    = false
     raise_object_level_failure_alert_after_each_attempt = false
     raise_object_level_failure_alert_after_last_attempt = false
-    
+
     alert_targets {
       email_address  = ""
       language       = ""
@@ -42,12 +42,12 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
     perform_source_side_deduplication = false
     snapshot_timeout_seconds          = 0
     volume_backup_failure             = false
-    
+
     exclude_params {
       label_combination_method = ""
       label_filter_entity_type = ""
       objects                  = []
-      
+
       label_vector {
         key   = ""
         value = ""
@@ -58,7 +58,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         kind              = ""
         name              = ""
         version           = ""
-        
+
         resource_list {
           entity_id = 0
           name      = ""
@@ -69,7 +69,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       label_combination_method = ""
       label_filter_entity_type = ""
       objects                  = []
-      
+
       label_vector {
         key   = ""
         value = ""
@@ -80,7 +80,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         kind              = ""
         name              = ""
         version           = ""
-        
+
         resource_list {
           entity_id = 0
           name      = ""
@@ -93,12 +93,12 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       fail_backup_on_hook_failure = false
       id                          = 0
       included_resources          = []
-      
+
       exclude_params {
         label_combination_method = ""
         label_filter_entity_type = ""
         objects                  = []
-        
+
         label_vector {
           key   = ""
           value = ""
@@ -109,7 +109,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
           kind              = ""
           name              = ""
           version           = ""
-          
+
           resource_list {
             entity_id = 0
             name      = ""
@@ -123,7 +123,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         label_combination_method = ""
         label_filter_entity_type = ""
         objects                  = []
-        
+
         label_vector {
           key   = ""
           value = ""
@@ -134,7 +134,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
           kind              = ""
           name              = ""
           version           = ""
-          
+
           resource_list {
             entity_id = 0
             name      = ""
@@ -148,7 +148,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       }
       quiesce_groups {
         quiesce_mode = ""
-        
+
         quiesce_rules {
           pod_selector_labels {
             key   = ""
@@ -177,7 +177,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
   }
   mssql_params {
     protection_type = ""
-    
+
     file_protection_type_params {
       aag_backup_preference_type        = ""
       backup_system_dbs                 = false
@@ -187,7 +187,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       perform_source_side_deduplication = false
       use_aag_preferences_from_server   = false
       user_db_backup_preference_type    = ""
-      
+
       additional_host_params {
         disable_source_side_deduplication = false
         host_id                           = 0
@@ -233,7 +233,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       use_aag_preferences_from_server = false
       user_db_backup_preference_type  = ""
       with_clause                     = ""
-      
+
       advanced_settings {
         cloned_db_backup_status              = ""
         db_backup_if_not_online_status       = ""
@@ -275,7 +275,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       log_backup_with_clause           = ""
       use_aag_preferences_from_server  = false
       user_db_backup_preference_type   = ""
-      
+
       additional_host_params {
         enable_system_backup = false
         host_id              = 0
@@ -320,7 +320,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
   }
   physical_params {
     protection_type = ""
-    
+
     file_protection_type_params {
       allow_parallel_runs               = false
       cobmr_backup                      = false
@@ -333,7 +333,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       perform_brick_based_deduplication = false
       perform_source_side_deduplication = false
       quiesce                           = false
-      
+
       indexing_policy {
         enable_indexing = false
         exclude_paths   = []
@@ -346,7 +346,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
         metadata_file_path                         = ""
         nested_volume_types_to_skip                = []
         uses_path_level_skip_nested_volume_setting = false
-        
+
         file_paths {
           excluded_paths      = []
           included_path       = ""
@@ -381,7 +381,7 @@ resource "ibm_backup_recovery_protection_group" "tf-sample-backup-recovery-prote
       incremental_backup_after_restart  = false
       perform_source_side_deduplication = false
       quiesce                           = false
-      
+
       indexing_policy {
         enable_indexing = false
         exclude_paths   = []

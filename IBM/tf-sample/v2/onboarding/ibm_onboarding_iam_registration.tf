@@ -7,12 +7,12 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
   product_id               = ""
   service_type             = ""
   supported_action_control = []
-  
+
   actions {
     api_types = []
     id        = ""
     roles     = []
-    
+
     description {
       de      = ""
       default = ""
@@ -62,7 +62,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
   }
   supported_anonymous_accesses {
     roles = []
-    
+
     attributes {
       account_id            = ""
       additional_properties = {}
@@ -71,7 +71,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
   }
   supported_attributes {
     key = ""
-    
+
     description {
       de      = ""
       default = ""
@@ -106,7 +106,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
       operators                              = []
       policy_types                           = []
       supported_patterns                     = []
-      
+
       resource_hierarchy {
         key {
           key   = ""
@@ -119,10 +119,10 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
     }
     ui {
       input_type = ""
-      
+
       input_details {
         type = ""
-        
+
         gst {
           input_option_label  = ""
           label_property_name = ""
@@ -135,7 +135,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
         }
         values {
           value = ""
-          
+
           display_name {
             de      = ""
             default = ""
@@ -155,7 +155,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
   }
   supported_authorization_subjects {
     roles = []
-    
+
     attributes {
       resource_type = ""
       service_name  = ""
@@ -165,7 +165,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
     environment_attributes {
       key    = ""
       values = []
-      
+
       options {
         hidden = false
       }
@@ -174,7 +174,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
       api_types {
         enforcement_method = []
         name               = ""
-        
+
         description {
           de      = ""
           default = ""
@@ -207,7 +207,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
       }
       defaults {
         enforcement_method = []
-        
+
         event_publishing {
           state = ""
         }
@@ -221,7 +221,7 @@ resource "ibm_onboarding_iam_registration" "tf-sample-onboarding-iam-registratio
   }
   supported_roles {
     id = ""
-    
+
     description {
       de      = ""
       default = ""

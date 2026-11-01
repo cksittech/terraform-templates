@@ -6,7 +6,7 @@ resource "ibm_schematics_agent" "tf-sample-schematics-agent" {
   run_destroy_resources = 0
   schematics_location   = ""
   version               = ""
-  
+
   agent_infrastructure {
     cluster_id             = ""
     cluster_resource_group = ""
@@ -19,7 +19,7 @@ resource "ibm_schematics_agent" "tf-sample-schematics-agent" {
     name        = ""
     use_default = false
     value       = ""
-    
+
     metadata {
       aliases         = []
       cloud_data_type = ""
@@ -49,6 +49,6 @@ resource "ibm_schematics_agent" "tf-sample-schematics-agent" {
   user_state {
     state = ""
   }
-  
+
   tags = {}
 }

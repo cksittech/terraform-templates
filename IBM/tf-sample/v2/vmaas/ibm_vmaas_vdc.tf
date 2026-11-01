@@ -6,14 +6,14 @@ resource "ibm_vmaas_vdc" "tf-sample-vmaas-vdc" {
   ram                       = 0
   rhel_byol                 = false
   windows_byol              = false
-  
+
   director_site {
     id = ""
-    
+
     pvdc {
       compute_ha_enabled = false
       id                 = ""
-      
+
       provider_type {
         name = ""
       }

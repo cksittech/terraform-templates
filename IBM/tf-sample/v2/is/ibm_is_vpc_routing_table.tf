@@ -8,6 +8,6 @@ resource "ibm_is_vpc_routing_table" "tf-sample-is-vpc-routing-table" {
   route_transit_gateway_ingress    = false
   route_vpc_zone_ingress           = false
   vpc                              = ""
-  
+
   tags = {}
 }

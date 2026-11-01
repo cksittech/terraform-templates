@@ -10,7 +10,7 @@ resource "ibm_is_bare_metal_server_network_interface" "tf-sample-is-bare-metal-s
   security_groups           = []
   subnet                    = ""
   vlan                      = 0
-  
+
   primary_ip {
     address     = ""
     auto_delete = false

@@ -5,7 +5,7 @@ resource "ibm_is_virtual_endpoint_gateway" "tf-sample-is-virtual-endpoint-gatewa
   resource_group              = ""
   security_groups             = []
   vpc                         = ""
-  
+
   ips {
     id     = ""
     name   = ""
@@ -16,6 +16,6 @@ resource "ibm_is_virtual_endpoint_gateway" "tf-sample-is-virtual-endpoint-gatewa
     name          = ""
     resource_type = ""
   }
-  
+
   tags = {}
 }

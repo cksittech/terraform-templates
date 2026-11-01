@@ -4,7 +4,7 @@ resource "ibm_is_share_mount_target" "tf-sample-is-share-mount-target" {
   share              = ""
   transit_encryption = ""
   vpc                = ""
-  
+
   virtual_network_interface {
     auto_delete                   = false
     id                            = ""
@@ -13,7 +13,7 @@ resource "ibm_is_share_mount_target" "tf-sample-is-share-mount-target" {
     resource_group                = ""
     security_groups               = []
     subnet                        = ""
-    
+
     primary_ip {
       address     = ""
       auto_delete = false

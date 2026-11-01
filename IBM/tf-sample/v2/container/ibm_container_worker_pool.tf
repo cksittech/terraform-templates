@@ -11,7 +11,7 @@ resource "ibm_container_worker_pool" "tf-sample-container-worker-pool" {
   resource_group_id = ""
   size_per_zone     = 0
   worker_pool_name  = ""
-  
+
   taints {
     effect = ""
     key    = ""

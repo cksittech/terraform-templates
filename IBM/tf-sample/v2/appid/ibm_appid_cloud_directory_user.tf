@@ -7,7 +7,7 @@ resource "ibm_appid_cloud_directory_user" "tf-sample-appid-cloud-directory-user"
   status         = ""
   tenant_id      = ""
   user_name      = ""
-  
+
   email {
     primary = false
     value   = ""

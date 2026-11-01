@@ -6,7 +6,7 @@ resource "ibm_iam_user_policy" "tf-sample-iam-user-policy" {
   roles              = []
   rule_operator      = ""
   transaction_id     = ""
-  
+
   resource_attributes {
     name     = ""
     operator = ""
@@ -32,13 +32,13 @@ resource "ibm_iam_user_policy" "tf-sample-iam-user-policy" {
     key      = ""
     operator = ""
     value    = []
-    
+
     conditions {
       key      = ""
       operator = ""
       value    = []
     }
   }
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "ibm_backup_recovery_manager_update_cluster_upgrades" "tf-sample-backup
   target_version                        = ""
   time_stamp_to_upgrade_at_msecs        = 0
   type                                  = ""
-  
+
   auth_headers {
     key   = ""
     value = ""
@@ -22,7 +22,7 @@ resource "ibm_backup_recovery_manager_update_cluster_upgrades" "tf-sample-backup
     ignore_pre_checks_failure = false
     package_url               = ""
     target_version            = ""
-    
+
     auth_headers {
       key   = ""
       value = ""

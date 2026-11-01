@@ -13,7 +13,7 @@ resource "ibm_sm_iam_credentials_secret" "tf-sample-sm-iam-credentials-secret" {
   service_id              = ""
   ttl                     = ""
   version_custom_metadata = {}
-  
+
   rotation {
     auto_rotate = false
     interval    = 0

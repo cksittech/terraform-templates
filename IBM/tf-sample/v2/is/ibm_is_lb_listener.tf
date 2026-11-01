@@ -9,7 +9,7 @@ resource "ibm_is_lb_listener" "tf-sample-is-lb-listener" {
   port_max                = 0
   port_min                = 0
   protocol                = ""
-  
+
   client_authentication {
     certificate_authority       = ""
     certificate_revocation_list = ""
@@ -17,7 +17,7 @@ resource "ibm_is_lb_listener" "tf-sample-is-lb-listener" {
   https_redirect {
     http_status_code = 0
     uri              = ""
-    
+
     listener {
       id = ""
     }

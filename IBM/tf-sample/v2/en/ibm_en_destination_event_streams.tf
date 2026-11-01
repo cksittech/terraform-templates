@@ -4,7 +4,7 @@ resource "ibm_en_destination_event_streams" "tf-sample-en-destination-event-stre
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       crn      = ""

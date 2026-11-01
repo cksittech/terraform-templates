@@ -6,7 +6,7 @@ resource "ibm_is_bare_metal_server_network_interface_allow_float" "tf-sample-is-
   security_groups           = []
   subnet                    = ""
   vlan                      = 0
-  
+
   primary_ip {
     address     = ""
     auto_delete = false

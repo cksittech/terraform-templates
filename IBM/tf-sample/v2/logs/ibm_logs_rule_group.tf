@@ -6,7 +6,7 @@ resource "ibm_logs_rule_group" "tf-sample-logs-rule-group" {
   name          = ""
   order         = 0
   region        = ""
-  
+
   rule_matchers {
     application_name {
       value = ""
@@ -22,7 +22,7 @@ resource "ibm_logs_rule_group" "tf-sample-logs-rule-group" {
     enabled = false
     id      = ""
     order   = 0
-    
+
     rules {
       description  = ""
       enabled      = false
@@ -30,7 +30,7 @@ resource "ibm_logs_rule_group" "tf-sample-logs-rule-group" {
       name         = ""
       order        = 0
       source_field = ""
-      
+
       parameters {
         allow_parameters {
           keep_blocked_logs = false

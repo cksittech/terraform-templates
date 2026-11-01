@@ -3,7 +3,7 @@ resource "ibm_iam_trusted_profile_link" "tf-sample-iam-trusted-profile-link" {
   is_cross_account = false
   name             = ""
   profile_id       = ""
-  
+
   link {
     component_name = ""
     component_type = ""

@@ -4,7 +4,7 @@ resource "ibm_en_subscription_custom_email" "tf-sample-en-subscription-custom-em
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     add_notification_payload = false
     from_email               = ""

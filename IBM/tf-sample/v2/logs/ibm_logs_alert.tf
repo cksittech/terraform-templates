@@ -7,11 +7,11 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
   notification_payload_filters = []
   region                       = ""
   severity                     = ""
-  
+
   active_when {
     timeframes {
       days_of_week = []
-      
+
       range {
         end {
           hours   = 0
@@ -29,7 +29,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
   condition {
     flow {
       enforce_suppression = false
-      
+
       parameters {
         cardinality_fields = []
         group_by           = []
@@ -37,7 +37,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -62,10 +62,10 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
       stages {
         groups {
           next_op = ""
-          
+
           alerts {
             op = ""
-            
+
             values {
               id  = ""
               not = false
@@ -87,7 +87,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -118,7 +118,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -143,7 +143,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
     }
     more_than {
       evaluation_window = ""
-      
+
       parameters {
         cardinality_fields = []
         group_by           = []
@@ -151,7 +151,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -182,7 +182,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -213,7 +213,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -244,7 +244,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
         relative_timeframe = ""
         threshold          = 0
         timeframe          = ""
-        
+
         metric_alert_parameters {
           arithmetic_operator          = ""
           arithmetic_operator_modifier = 0
@@ -278,7 +278,7 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
     filter_type = ""
     severities  = []
     text        = ""
-    
+
     metadata {
       applications = []
       subsystems   = []
@@ -303,12 +303,12 @@ resource "ibm_logs_alert" "tf-sample-logs-alert" {
   }
   notification_groups {
     group_by_fields = []
-    
+
     notifications {
       integration_id              = 0
       notify_on                   = ""
       retriggering_period_seconds = 0
-      
+
       recipients {
         emails = []
       }

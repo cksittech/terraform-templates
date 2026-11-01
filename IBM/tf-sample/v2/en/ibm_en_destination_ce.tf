@@ -4,7 +4,7 @@ resource "ibm_en_destination_ce" "tf-sample-en-destination-ce" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       custom_headers    = {}

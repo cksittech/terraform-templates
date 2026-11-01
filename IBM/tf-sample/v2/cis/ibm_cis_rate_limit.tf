@@ -5,11 +5,11 @@ resource "ibm_cis_rate_limit" "tf-sample-cis-rate-limit" {
   domain_id   = ""
   period      = 0
   threshold   = 0
-  
+
   action {
     mode    = ""
     timeout = 0
-    
+
     response {
       body         = ""
       content_type = ""
@@ -31,7 +31,7 @@ resource "ibm_cis_rate_limit" "tf-sample-cis-rate-limit" {
     response {
       origin_traffic = false
       status         = []
-      
+
       headers {
         name  = ""
         op    = ""

@@ -5,7 +5,7 @@ resource "ibm_dns_custom_resolver_forwarding_rule" "tf-sample-dns-custom-resolve
   match       = ""
   resolver_id = ""
   type        = ""
-  
+
   views {
     description = ""
     expression  = ""

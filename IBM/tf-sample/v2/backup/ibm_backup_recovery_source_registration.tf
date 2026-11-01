@@ -11,7 +11,7 @@ resource "ibm_backup_recovery_source_registration" "tf-sample-backup-recovery-so
   region                    = ""
   service_name              = ""
   x_ibm_tenant_id           = ""
-  
+
   advanced_configs {
     key   = ""
     value = ""
@@ -37,7 +37,7 @@ resource "ibm_backup_recovery_source_registration" "tf-sample-backup-recovery-so
     velero_aws_plugin_image_location           = ""
     velero_image_location                      = ""
     velero_openshift_plugin_image_location     = ""
-    
+
     auto_protect_config {
       error_message             = ""
       is_default_auto_protected = false

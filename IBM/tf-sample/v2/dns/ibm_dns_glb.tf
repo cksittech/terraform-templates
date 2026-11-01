@@ -7,7 +7,7 @@ resource "ibm_dns_glb" "tf-sample-dns-glb" {
   name          = ""
   ttl           = 0
   zone_id       = ""
-  
+
   az_pools {
     availability_zone = ""
     pools             = []

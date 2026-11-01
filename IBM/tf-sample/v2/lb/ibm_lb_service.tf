@@ -5,6 +5,6 @@ resource "ibm_lb_service" "tf-sample-lb-service" {
   port              = 0
   service_group_id  = 0
   weight            = 0
-  
+
   tags = {}
 }

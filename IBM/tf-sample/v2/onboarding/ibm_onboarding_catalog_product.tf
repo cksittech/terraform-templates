@@ -6,21 +6,21 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
   name       = ""
   object_id  = ""
   product_id = ""
-  
+
   images {
     image = ""
   }
   metadata {
     rc_compatible = false
-    
+
     other {
       product_code      = ""
       product_code_type = ""
-      
+
       composite {
         composite_kind = ""
         composite_tag  = ""
-        
+
         children {
           id   = ""
           kind = ""
@@ -36,15 +36,15 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
           status_url   = ""
           support_type = ""
           url          = ""
-          
+
           support_details {
             contact = ""
             type    = ""
-            
+
             availability {
               always_available = false
               timezone         = ""
-              
+
               times {
                 day        = 0
                 end_time   = ""
@@ -58,7 +58,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
           }
           support_escalation {
             contact = ""
-            
+
             escalation_wait_time {
               type  = ""
               value = 0
@@ -79,7 +79,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
       rc_provisionable                  = false
       service_key_supported             = false
       unique_api_key                    = false
-      
+
       parameters {
         description    = ""
         displayname    = ""
@@ -95,7 +95,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
         type           = ""
         validation_url = ""
         value          = []
-        
+
         associations {
           location {
             show_for = []
@@ -155,7 +155,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
         options {
           displayname = ""
           value       = ""
-          
+
           i18n {
             de {
               description = ""
@@ -207,7 +207,7 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
       hidden                      = false
       primary_offering_id         = ""
       side_by_side_index          = 0
-      
+
       strings {
         en {
           bullets {
@@ -249,6 +249,6 @@ resource "ibm_onboarding_catalog_product" "tf-sample-onboarding-catalog-product"
       long_description = ""
     }
   }
-  
+
   tags = {}
 }

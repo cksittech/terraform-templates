@@ -4,7 +4,7 @@ resource "ibm_en_subscription_sms" "tf-sample-en-subscription-sms" {
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     invited = []
   }

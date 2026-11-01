@@ -25,7 +25,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   vpc                               = ""
   wait_before_delete                = false
   zone                              = ""
-  
+
   availability {
     class = ""
   }
@@ -44,7 +44,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     snapshot           = ""
     snapshot_crn       = ""
     volume_id          = ""
-    
+
     allowed_use {
       api_version       = ""
       bare_metal_server = ""
@@ -58,12 +58,12 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   }
   cluster_network_attachments {
     name = ""
-    
+
     cluster_network_interface {
       auto_delete = false
       id          = ""
       name        = ""
-      
+
       primary_ip {
         address     = ""
         auto_delete = false
@@ -83,7 +83,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   }
   network_attachments {
     name = ""
-    
+
     virtual_network_interface {
       allow_ip_spoofing             = false
       auto_delete                   = false
@@ -94,7 +94,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
       resource_group                = ""
       security_groups               = []
       subnet                        = ""
-      
+
       ips {
         reserved_ip = ""
       }
@@ -111,7 +111,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     name              = ""
     security_groups   = []
     subnet            = ""
-    
+
     primary_ip {
       address     = ""
       auto_delete = false
@@ -121,7 +121,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   }
   primary_network_attachment {
     name = ""
-    
+
     virtual_network_interface {
       allow_ip_spoofing             = false
       auto_delete                   = false
@@ -132,7 +132,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
       resource_group                = ""
       security_groups               = []
       subnet                        = ""
-      
+
       ips {
         reserved_ip = ""
       }
@@ -149,7 +149,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     name              = ""
     security_groups   = []
     subnet            = ""
-    
+
     primary_ip {
       address     = ""
       auto_delete = false
@@ -159,7 +159,7 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
   }
   reservation_affinity {
     policy = ""
-    
+
     pool {
       id = ""
     }
@@ -178,13 +178,13 @@ resource "ibm_is_instance" "tf-sample-is-instance" {
     volume_profile                   = ""
     volume_source_snapshot           = ""
     volume_tags                      = []
-    
+
     allowed_use {
       api_version       = ""
       bare_metal_server = ""
       instance          = ""
     }
   }
-  
+
   tags = {}
 }

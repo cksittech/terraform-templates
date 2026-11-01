@@ -12,13 +12,13 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
   proxy_protocol                      = ""
   session_persistence_app_cookie_name = ""
   session_persistence_type            = ""
-  
+
   client_authentication {
     certificate_instance = ""
   }
   failsafe_policy {
     action = ""
-    
+
     target {
       href = ""
       id   = ""
@@ -28,7 +28,7 @@ resource "ibm_is_lb_pool" "tf-sample-is-lb-pool" {
     request {
       body   = ""
       method = ""
-      
+
       headers {
         field = ""
         value = ""

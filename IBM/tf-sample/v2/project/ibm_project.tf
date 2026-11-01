@@ -1,12 +1,12 @@
 resource "ibm_project" "tf-sample-project" {
   location       = ""
   resource_group = ""
-  
+
   configs {
     container_state      = ""
     container_state_code = ""
     state_code           = ""
-    
+
     approved_version {
       container_state = ""
     }
@@ -21,7 +21,7 @@ resource "ibm_project" "tf-sample-project" {
     destroy_on_delete  = false
     monitoring_enabled = false
     name               = ""
-    
+
     store {
       config_directory = ""
       token            = ""

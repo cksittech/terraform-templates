@@ -5,7 +5,7 @@ resource "ibm_is_instance_network_interface" "tf-sample-is-instance-network-inte
   name              = ""
   security_groups   = []
   subnet            = ""
-  
+
   primary_ip {
     address     = ""
     auto_delete = false

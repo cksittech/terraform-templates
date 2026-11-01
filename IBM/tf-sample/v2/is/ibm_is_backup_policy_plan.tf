@@ -5,7 +5,7 @@ resource "ibm_is_backup_policy_plan" "tf-sample-is-backup-policy-plan" {
   copy_user_tags   = false
   cron_spec        = ""
   name             = ""
-  
+
   clone_policy {
     max_snapshots = 0
     zones         = []

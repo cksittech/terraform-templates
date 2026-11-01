@@ -1,11 +1,11 @@
 resource "ibm_project_environment" "tf-sample-project-environment" {
   project_id = ""
-  
+
   definition {
     description = ""
     inputs      = {}
     name        = ""
-    
+
     authorizations {
       api_key            = ""
       method             = ""

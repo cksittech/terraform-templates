@@ -10,12 +10,12 @@ resource "ibm_hpcs" "tf-sample-hpcs" {
   signature_server_url = ""
   signature_threshold  = 0
   units                = 0
-  
+
   admins {
     key   = ""
     name  = ""
     token = ""
   }
-  
+
   tags = {}
 }

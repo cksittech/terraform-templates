@@ -8,6 +8,6 @@ resource "ibm_is_instance_group" "tf-sample-is-instance-group" {
   name               = ""
   resource_group     = ""
   subnets            = []
-  
+
   tags = {}
 }

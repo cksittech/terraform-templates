@@ -13,7 +13,7 @@ resource "ibm_code_engine_function" "tf-sample-code-engine-function" {
   scale_down_delay                   = 0
   scale_max_execution_time           = 0
   scale_memory_limit                 = ""
-  
+
   run_env_variables {
     key       = ""
     name      = ""

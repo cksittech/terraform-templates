@@ -6,7 +6,7 @@ resource "ibm_dns_custom_resolver" "tf-sample-dns-custom-resolver" {
   instance_id              = ""
   name                     = ""
   profile                  = ""
-  
+
   locations {
     enabled    = false
     subnet_crn = ""

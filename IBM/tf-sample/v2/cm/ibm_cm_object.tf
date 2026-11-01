@@ -8,6 +8,6 @@ resource "ibm_cm_object" "tf-sample-cm-object" {
   parent_id              = ""
   short_description      = ""
   short_description_i18n = {}
-  
+
   tags = {}
 }

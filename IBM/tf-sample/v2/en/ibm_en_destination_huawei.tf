@@ -4,7 +4,7 @@ resource "ibm_en_destination_huawei" "tf-sample-en-destination-huawei" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       client_id     = ""

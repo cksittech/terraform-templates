@@ -2,7 +2,7 @@ resource "ibm_cis_ruleset_rule" "tf-sample-cis-ruleset-rule" {
   cis_id     = ""
   domain_id  = ""
   ruleset_id = ""
-  
+
   rule {
     action          = ""
     categories      = []
@@ -14,7 +14,7 @@ resource "ibm_cis_ruleset_rule" "tf-sample-cis-ruleset-rule" {
     logging         = {}
     ref             = ""
     version         = ""
-    
+
     action_parameters {
       id       = ""
       phases   = []
@@ -22,11 +22,11 @@ resource "ibm_cis_ruleset_rule" "tf-sample-cis-ruleset-rule" {
       ruleset  = ""
       rulesets = []
       version  = ""
-      
+
       overrides {
         action  = ""
         enabled = false
-        
+
         categories {
           action   = ""
           category = ""

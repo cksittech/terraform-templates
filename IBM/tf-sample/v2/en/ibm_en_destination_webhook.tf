@@ -5,7 +5,7 @@ resource "ibm_en_destination_webhook" "tf-sample-en-destination-webhook" {
   name                  = ""
   test_destination      = false
   type                  = ""
-  
+
   config {
     params {
       custom_headers    = {}

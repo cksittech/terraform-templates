@@ -3,7 +3,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
   instance_id = ""
   labels      = []
   version     = ""
-  
+
   import {
     parameters {
       description  = ""
@@ -17,21 +17,21 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
     operator    = ""
     property    = ""
     value       = ""
-    
+
     all {
       required_config {
         description = ""
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -44,7 +44,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -64,7 +64,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -77,7 +77,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -90,7 +90,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -110,7 +110,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -136,7 +136,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -156,7 +156,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -183,7 +183,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -203,7 +203,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -216,7 +216,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -229,7 +229,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -249,7 +249,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -275,7 +275,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -295,7 +295,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -316,7 +316,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -330,7 +330,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -343,7 +343,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -363,7 +363,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -376,7 +376,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -389,7 +389,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -409,7 +409,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -435,7 +435,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -455,7 +455,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -482,7 +482,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -502,7 +502,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -515,7 +515,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -528,7 +528,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -548,7 +548,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -574,7 +574,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -594,7 +594,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -615,7 +615,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -628,14 +628,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -648,7 +648,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -668,7 +668,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -694,7 +694,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -714,7 +714,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -734,7 +734,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -748,7 +748,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -761,7 +761,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -781,7 +781,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -807,7 +807,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -827,7 +827,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -847,7 +847,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -860,7 +860,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -873,7 +873,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -893,7 +893,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -906,7 +906,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -919,7 +919,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -939,7 +939,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -965,7 +965,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -985,7 +985,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1012,7 +1012,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1032,7 +1032,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1045,7 +1045,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1058,7 +1058,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1078,7 +1078,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1104,7 +1104,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1124,7 +1124,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1146,7 +1146,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1159,7 +1159,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1179,7 +1179,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1205,7 +1205,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1225,7 +1225,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1245,7 +1245,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -1259,7 +1259,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1272,7 +1272,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1292,7 +1292,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1318,7 +1318,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1338,7 +1338,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1358,7 +1358,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -1371,7 +1371,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -1384,7 +1384,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1404,7 +1404,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1417,7 +1417,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1430,7 +1430,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1450,7 +1450,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1476,7 +1476,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1496,7 +1496,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1523,7 +1523,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1543,7 +1543,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1556,7 +1556,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1569,7 +1569,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1589,7 +1589,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1615,7 +1615,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1635,7 +1635,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1658,7 +1658,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -1671,7 +1671,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1691,7 +1691,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1704,7 +1704,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1717,7 +1717,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1737,7 +1737,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1763,7 +1763,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1783,7 +1783,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1810,7 +1810,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1830,7 +1830,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1843,7 +1843,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -1856,7 +1856,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1876,7 +1876,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1902,7 +1902,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1922,7 +1922,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -1943,7 +1943,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -1957,7 +1957,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -1970,7 +1970,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -1990,7 +1990,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2003,7 +2003,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2016,7 +2016,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2036,7 +2036,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2062,7 +2062,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2082,7 +2082,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2109,7 +2109,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2129,7 +2129,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2142,7 +2142,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2155,7 +2155,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2175,7 +2175,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2201,7 +2201,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2221,7 +2221,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2242,7 +2242,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -2255,14 +2255,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2275,7 +2275,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2295,7 +2295,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2321,7 +2321,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2341,7 +2341,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2361,7 +2361,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -2375,7 +2375,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2388,7 +2388,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2408,7 +2408,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2434,7 +2434,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2454,7 +2454,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2474,7 +2474,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -2487,7 +2487,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -2500,7 +2500,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2520,7 +2520,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2533,7 +2533,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2546,7 +2546,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2566,7 +2566,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2592,7 +2592,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2612,7 +2612,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2639,7 +2639,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2659,7 +2659,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -2672,7 +2672,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2685,7 +2685,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2705,7 +2705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2731,7 +2731,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2751,7 +2751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2773,7 +2773,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2786,7 +2786,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2806,7 +2806,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2832,7 +2832,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2852,7 +2852,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2872,7 +2872,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -2886,7 +2886,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -2899,7 +2899,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2919,7 +2919,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2945,7 +2945,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2965,7 +2965,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -2985,7 +2985,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -2998,7 +2998,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -3011,7 +3011,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3031,7 +3031,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3044,7 +3044,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3057,7 +3057,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3077,7 +3077,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3103,7 +3103,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3123,7 +3123,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3150,7 +3150,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3170,7 +3170,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3183,7 +3183,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3196,7 +3196,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3216,7 +3216,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3242,7 +3242,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3262,7 +3262,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3285,7 +3285,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         resource_kind        = ""
         service_display_name = ""
         service_name         = ""
-        
+
         additional_target_attributes {
           name     = ""
           operator = ""
@@ -3299,14 +3299,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -3319,7 +3319,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3339,7 +3339,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3352,7 +3352,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3365,7 +3365,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3385,7 +3385,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3411,7 +3411,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3431,7 +3431,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3458,7 +3458,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3478,7 +3478,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3491,7 +3491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3504,7 +3504,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3524,7 +3524,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3550,7 +3550,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3570,7 +3570,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3591,7 +3591,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -3605,7 +3605,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -3618,7 +3618,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3638,7 +3638,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3651,7 +3651,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3664,7 +3664,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3684,7 +3684,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3710,7 +3710,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3730,7 +3730,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3757,7 +3757,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3777,7 +3777,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -3790,7 +3790,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3803,7 +3803,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3823,7 +3823,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3849,7 +3849,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3869,7 +3869,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3890,7 +3890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -3903,14 +3903,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -3923,7 +3923,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3943,7 +3943,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3969,7 +3969,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -3989,7 +3989,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4009,7 +4009,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -4023,7 +4023,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4036,7 +4036,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4056,7 +4056,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4082,7 +4082,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4102,7 +4102,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4122,7 +4122,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -4135,7 +4135,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -4148,7 +4148,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4168,7 +4168,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4181,7 +4181,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4194,7 +4194,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4214,7 +4214,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4240,7 +4240,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4260,7 +4260,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4287,7 +4287,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4307,7 +4307,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4320,7 +4320,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4333,7 +4333,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4353,7 +4353,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4379,7 +4379,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4399,7 +4399,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4421,7 +4421,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4434,7 +4434,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4454,7 +4454,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4480,7 +4480,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4500,7 +4500,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4520,7 +4520,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -4534,7 +4534,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4547,7 +4547,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4567,7 +4567,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4593,7 +4593,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4613,7 +4613,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4633,7 +4633,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -4646,7 +4646,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -4659,7 +4659,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4679,7 +4679,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4692,7 +4692,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4705,7 +4705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4725,7 +4725,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4751,7 +4751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4771,7 +4771,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4798,7 +4798,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4818,7 +4818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4831,7 +4831,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4844,7 +4844,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4864,7 +4864,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4890,7 +4890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4910,7 +4910,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -4933,7 +4933,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -4946,7 +4946,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4966,7 +4966,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -4979,7 +4979,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -4992,7 +4992,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5012,7 +5012,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5038,7 +5038,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5058,7 +5058,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5085,7 +5085,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5105,7 +5105,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5118,7 +5118,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5131,7 +5131,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5151,7 +5151,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5177,7 +5177,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5197,7 +5197,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5218,7 +5218,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -5232,7 +5232,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -5245,7 +5245,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5265,7 +5265,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5278,7 +5278,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5291,7 +5291,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5311,7 +5311,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5337,7 +5337,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5357,7 +5357,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5384,7 +5384,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5404,7 +5404,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5417,7 +5417,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5430,7 +5430,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5450,7 +5450,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5476,7 +5476,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5496,7 +5496,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5517,7 +5517,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -5530,14 +5530,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5550,7 +5550,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5570,7 +5570,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5596,7 +5596,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5616,7 +5616,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5636,7 +5636,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -5650,7 +5650,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5663,7 +5663,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5683,7 +5683,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5709,7 +5709,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5729,7 +5729,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5749,7 +5749,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -5762,7 +5762,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -5775,7 +5775,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5795,7 +5795,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5808,7 +5808,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5821,7 +5821,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5841,7 +5841,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5867,7 +5867,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5887,7 +5887,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5914,7 +5914,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5934,7 +5934,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -5947,7 +5947,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -5960,7 +5960,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -5980,7 +5980,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6006,7 +6006,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6026,7 +6026,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6048,7 +6048,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6061,7 +6061,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6081,7 +6081,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6107,7 +6107,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6127,7 +6127,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6147,7 +6147,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -6161,7 +6161,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6174,7 +6174,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6194,7 +6194,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6220,7 +6220,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6240,7 +6240,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6260,7 +6260,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -6273,7 +6273,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -6286,7 +6286,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6306,7 +6306,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6319,7 +6319,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6332,7 +6332,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6352,7 +6352,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6378,7 +6378,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6398,7 +6398,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6425,7 +6425,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6445,7 +6445,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6458,7 +6458,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6471,7 +6471,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6491,7 +6491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6517,7 +6517,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6537,7 +6537,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6560,7 +6560,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         resource_kind        = ""
         service_display_name = ""
         service_name         = ""
-        
+
         additional_target_attributes {
           name     = ""
           operator = ""
@@ -6573,21 +6573,21 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
       operator    = ""
       property    = ""
       value       = ""
-      
+
       all {
         required_config {
           description = ""
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6600,7 +6600,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6620,7 +6620,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6646,7 +6646,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6666,7 +6666,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6686,7 +6686,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -6700,7 +6700,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6713,7 +6713,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6733,7 +6733,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6759,7 +6759,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6779,7 +6779,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6799,7 +6799,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -6812,7 +6812,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -6825,7 +6825,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6845,7 +6845,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6858,7 +6858,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -6871,7 +6871,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6891,7 +6891,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6917,7 +6917,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6937,7 +6937,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -6964,7 +6964,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6984,7 +6984,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -6997,7 +6997,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7010,7 +7010,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7030,7 +7030,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7056,7 +7056,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7076,7 +7076,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7098,7 +7098,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7111,7 +7111,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7131,7 +7131,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7157,7 +7157,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7177,7 +7177,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7197,7 +7197,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -7211,7 +7211,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7224,7 +7224,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7244,7 +7244,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7270,7 +7270,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7290,7 +7290,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7310,7 +7310,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -7323,7 +7323,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -7336,7 +7336,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7356,7 +7356,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7369,7 +7369,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7382,7 +7382,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7402,7 +7402,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7428,7 +7428,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7448,7 +7448,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7475,7 +7475,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7495,7 +7495,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7508,7 +7508,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7521,7 +7521,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7541,7 +7541,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7567,7 +7567,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7587,7 +7587,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7609,7 +7609,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -7623,14 +7623,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7643,7 +7643,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7663,7 +7663,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7689,7 +7689,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7709,7 +7709,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7729,7 +7729,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -7743,7 +7743,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7756,7 +7756,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7776,7 +7776,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7802,7 +7802,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7822,7 +7822,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7842,7 +7842,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -7855,7 +7855,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -7868,7 +7868,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7888,7 +7888,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -7901,7 +7901,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -7914,7 +7914,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7934,7 +7934,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7960,7 +7960,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -7980,7 +7980,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8007,7 +8007,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8027,7 +8027,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8040,7 +8040,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8053,7 +8053,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8073,7 +8073,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8099,7 +8099,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8119,7 +8119,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8141,7 +8141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8154,7 +8154,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8174,7 +8174,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8200,7 +8200,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8220,7 +8220,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8240,7 +8240,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -8254,7 +8254,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8267,7 +8267,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8287,7 +8287,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8313,7 +8313,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8333,7 +8333,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8353,7 +8353,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -8366,7 +8366,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -8379,7 +8379,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8399,7 +8399,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8412,7 +8412,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8425,7 +8425,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8445,7 +8445,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8471,7 +8471,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8491,7 +8491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8518,7 +8518,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8538,7 +8538,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8551,7 +8551,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8564,7 +8564,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8584,7 +8584,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8610,7 +8610,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8630,7 +8630,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8652,7 +8652,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -8665,14 +8665,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -8685,7 +8685,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8705,7 +8705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8718,7 +8718,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8731,7 +8731,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8751,7 +8751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8777,7 +8777,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8797,7 +8797,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8824,7 +8824,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8844,7 +8844,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -8857,7 +8857,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -8870,7 +8870,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8890,7 +8890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8916,7 +8916,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8936,7 +8936,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -8957,7 +8957,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -8971,7 +8971,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -8984,7 +8984,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9004,7 +9004,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9017,7 +9017,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9030,7 +9030,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9050,7 +9050,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9076,7 +9076,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9096,7 +9096,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9123,7 +9123,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9143,7 +9143,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9156,7 +9156,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9169,7 +9169,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9189,7 +9189,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9215,7 +9215,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9235,7 +9235,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9256,7 +9256,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -9269,14 +9269,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9289,7 +9289,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9309,7 +9309,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9335,7 +9335,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9355,7 +9355,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9375,7 +9375,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -9389,7 +9389,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9402,7 +9402,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9422,7 +9422,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9448,7 +9448,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9468,7 +9468,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9488,7 +9488,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -9501,7 +9501,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -9514,7 +9514,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9534,7 +9534,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9547,7 +9547,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9560,7 +9560,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9580,7 +9580,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9606,7 +9606,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9626,7 +9626,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9653,7 +9653,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9673,7 +9673,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -9686,7 +9686,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9699,7 +9699,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9719,7 +9719,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9745,7 +9745,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9765,7 +9765,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9787,7 +9787,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9800,7 +9800,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9820,7 +9820,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9846,7 +9846,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9866,7 +9866,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9886,7 +9886,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -9900,7 +9900,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -9913,7 +9913,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9933,7 +9933,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9959,7 +9959,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9979,7 +9979,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -9999,7 +9999,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -10012,7 +10012,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -10025,7 +10025,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10045,7 +10045,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10058,7 +10058,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10071,7 +10071,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10091,7 +10091,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10117,7 +10117,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10137,7 +10137,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10164,7 +10164,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10184,7 +10184,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10197,7 +10197,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10210,7 +10210,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10230,7 +10230,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10256,7 +10256,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10276,7 +10276,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10299,7 +10299,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -10312,7 +10312,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10332,7 +10332,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10345,7 +10345,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10358,7 +10358,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10378,7 +10378,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10404,7 +10404,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10424,7 +10424,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10451,7 +10451,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10471,7 +10471,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10484,7 +10484,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10497,7 +10497,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10517,7 +10517,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10543,7 +10543,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10563,7 +10563,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10584,7 +10584,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -10598,7 +10598,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -10611,7 +10611,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10631,7 +10631,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10644,7 +10644,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10657,7 +10657,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10677,7 +10677,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10703,7 +10703,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10723,7 +10723,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10750,7 +10750,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10770,7 +10770,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -10783,7 +10783,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10796,7 +10796,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10816,7 +10816,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10842,7 +10842,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10862,7 +10862,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10883,7 +10883,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -10896,14 +10896,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -10916,7 +10916,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10936,7 +10936,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10962,7 +10962,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -10982,7 +10982,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11002,7 +11002,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -11016,7 +11016,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11029,7 +11029,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11049,7 +11049,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11075,7 +11075,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11095,7 +11095,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11115,7 +11115,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -11128,7 +11128,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -11141,7 +11141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11161,7 +11161,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11174,7 +11174,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11187,7 +11187,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11207,7 +11207,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11233,7 +11233,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11253,7 +11253,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11280,7 +11280,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11300,7 +11300,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11313,7 +11313,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11326,7 +11326,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11346,7 +11346,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11372,7 +11372,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11392,7 +11392,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11414,7 +11414,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11427,7 +11427,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11447,7 +11447,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11473,7 +11473,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11493,7 +11493,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11513,7 +11513,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -11527,7 +11527,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11540,7 +11540,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11560,7 +11560,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11586,7 +11586,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11606,7 +11606,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11626,7 +11626,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -11639,7 +11639,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -11652,7 +11652,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11672,7 +11672,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11685,7 +11685,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11698,7 +11698,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11718,7 +11718,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11744,7 +11744,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11764,7 +11764,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11791,7 +11791,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11811,7 +11811,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -11824,7 +11824,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11837,7 +11837,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11857,7 +11857,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11883,7 +11883,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11903,7 +11903,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11927,14 +11927,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -11947,7 +11947,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11967,7 +11967,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -11993,7 +11993,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12013,7 +12013,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12033,7 +12033,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -12047,7 +12047,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12060,7 +12060,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12080,7 +12080,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12106,7 +12106,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12126,7 +12126,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12146,7 +12146,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -12159,7 +12159,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -12172,7 +12172,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12192,7 +12192,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12205,7 +12205,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12218,7 +12218,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12238,7 +12238,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12264,7 +12264,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12284,7 +12284,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12311,7 +12311,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12331,7 +12331,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12344,7 +12344,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12357,7 +12357,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12377,7 +12377,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12403,7 +12403,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12423,7 +12423,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12445,7 +12445,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12458,7 +12458,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12478,7 +12478,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12504,7 +12504,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12524,7 +12524,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12544,7 +12544,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -12558,7 +12558,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12571,7 +12571,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12591,7 +12591,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12617,7 +12617,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12637,7 +12637,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12657,7 +12657,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -12670,7 +12670,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -12683,7 +12683,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12703,7 +12703,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12716,7 +12716,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12729,7 +12729,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12749,7 +12749,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12775,7 +12775,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12795,7 +12795,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12822,7 +12822,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12842,7 +12842,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -12855,7 +12855,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12868,7 +12868,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12888,7 +12888,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12914,7 +12914,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12934,7 +12934,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -12956,7 +12956,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -12970,14 +12970,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -12990,7 +12990,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13010,7 +13010,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13036,7 +13036,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13056,7 +13056,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13076,7 +13076,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -13090,7 +13090,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13103,7 +13103,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13123,7 +13123,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13149,7 +13149,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13169,7 +13169,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13189,7 +13189,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -13202,7 +13202,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -13215,7 +13215,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13235,7 +13235,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13248,7 +13248,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13261,7 +13261,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13281,7 +13281,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13307,7 +13307,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13327,7 +13327,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13354,7 +13354,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13374,7 +13374,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13387,7 +13387,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13400,7 +13400,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13420,7 +13420,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13446,7 +13446,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13466,7 +13466,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13488,7 +13488,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13501,7 +13501,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13521,7 +13521,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13547,7 +13547,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13567,7 +13567,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13587,7 +13587,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -13601,7 +13601,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13614,7 +13614,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13634,7 +13634,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13660,7 +13660,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13680,7 +13680,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13700,7 +13700,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -13713,7 +13713,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -13726,7 +13726,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13746,7 +13746,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13759,7 +13759,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13772,7 +13772,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13792,7 +13792,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13818,7 +13818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13838,7 +13838,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13865,7 +13865,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13885,7 +13885,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -13898,7 +13898,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -13911,7 +13911,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13931,7 +13931,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13957,7 +13957,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13977,7 +13977,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -13999,7 +13999,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -14012,14 +14012,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -14032,7 +14032,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14052,7 +14052,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14065,7 +14065,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14078,7 +14078,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14098,7 +14098,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14124,7 +14124,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14144,7 +14144,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14171,7 +14171,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14191,7 +14191,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14204,7 +14204,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14217,7 +14217,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14237,7 +14237,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14263,7 +14263,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14283,7 +14283,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14304,7 +14304,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -14318,7 +14318,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -14331,7 +14331,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14351,7 +14351,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14364,7 +14364,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14377,7 +14377,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14397,7 +14397,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14423,7 +14423,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14443,7 +14443,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14470,7 +14470,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14490,7 +14490,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14503,7 +14503,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14516,7 +14516,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14536,7 +14536,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14562,7 +14562,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14582,7 +14582,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14603,7 +14603,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -14616,14 +14616,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14636,7 +14636,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14656,7 +14656,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14682,7 +14682,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14702,7 +14702,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14722,7 +14722,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -14736,7 +14736,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14749,7 +14749,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14769,7 +14769,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14795,7 +14795,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14815,7 +14815,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14835,7 +14835,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -14848,7 +14848,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -14861,7 +14861,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14881,7 +14881,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -14894,7 +14894,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -14907,7 +14907,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14927,7 +14927,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14953,7 +14953,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -14973,7 +14973,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15000,7 +15000,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15020,7 +15020,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15033,7 +15033,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15046,7 +15046,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15066,7 +15066,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15092,7 +15092,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15112,7 +15112,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15134,7 +15134,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15147,7 +15147,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15167,7 +15167,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15193,7 +15193,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15213,7 +15213,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15233,7 +15233,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -15247,7 +15247,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15260,7 +15260,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15280,7 +15280,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15306,7 +15306,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15326,7 +15326,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15346,7 +15346,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -15359,7 +15359,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -15372,7 +15372,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15392,7 +15392,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15405,7 +15405,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15418,7 +15418,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15438,7 +15438,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15464,7 +15464,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15484,7 +15484,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15511,7 +15511,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15531,7 +15531,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15544,7 +15544,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15557,7 +15557,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15577,7 +15577,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15603,7 +15603,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15623,7 +15623,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15646,7 +15646,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -15659,7 +15659,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15679,7 +15679,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15692,7 +15692,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15705,7 +15705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15725,7 +15725,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15751,7 +15751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15771,7 +15771,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15798,7 +15798,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15818,7 +15818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15831,7 +15831,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -15844,7 +15844,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15864,7 +15864,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15890,7 +15890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15910,7 +15910,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -15931,7 +15931,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -15945,7 +15945,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -15958,7 +15958,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15978,7 +15978,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -15991,7 +15991,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16004,7 +16004,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16024,7 +16024,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16050,7 +16050,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16070,7 +16070,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16097,7 +16097,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16117,7 +16117,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16130,7 +16130,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16143,7 +16143,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16163,7 +16163,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16189,7 +16189,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16209,7 +16209,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16230,7 +16230,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -16243,14 +16243,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16263,7 +16263,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16283,7 +16283,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16309,7 +16309,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16329,7 +16329,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16349,7 +16349,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -16363,7 +16363,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16376,7 +16376,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16396,7 +16396,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16422,7 +16422,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16442,7 +16442,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16462,7 +16462,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -16475,7 +16475,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -16488,7 +16488,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16508,7 +16508,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16521,7 +16521,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16534,7 +16534,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16554,7 +16554,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16580,7 +16580,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16600,7 +16600,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16627,7 +16627,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16647,7 +16647,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -16660,7 +16660,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16673,7 +16673,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16693,7 +16693,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16719,7 +16719,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16739,7 +16739,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16761,7 +16761,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16774,7 +16774,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16794,7 +16794,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16820,7 +16820,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16840,7 +16840,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16860,7 +16860,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -16874,7 +16874,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -16887,7 +16887,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16907,7 +16907,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16933,7 +16933,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16953,7 +16953,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -16973,7 +16973,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -16986,7 +16986,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -16999,7 +16999,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17019,7 +17019,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17032,7 +17032,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17045,7 +17045,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17065,7 +17065,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17091,7 +17091,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17111,7 +17111,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17138,7 +17138,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17158,7 +17158,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17171,7 +17171,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17184,7 +17184,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17204,7 +17204,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17230,7 +17230,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17250,7 +17250,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17275,14 +17275,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -17295,7 +17295,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17315,7 +17315,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17328,7 +17328,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17341,7 +17341,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17361,7 +17361,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17387,7 +17387,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17407,7 +17407,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17434,7 +17434,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17454,7 +17454,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17467,7 +17467,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17480,7 +17480,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17500,7 +17500,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17526,7 +17526,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17546,7 +17546,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17567,7 +17567,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -17581,7 +17581,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -17594,7 +17594,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17614,7 +17614,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17627,7 +17627,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17640,7 +17640,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17660,7 +17660,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17686,7 +17686,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17706,7 +17706,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17733,7 +17733,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17753,7 +17753,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -17766,7 +17766,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17779,7 +17779,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17799,7 +17799,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17825,7 +17825,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17845,7 +17845,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17866,7 +17866,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -17879,14 +17879,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -17899,7 +17899,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17919,7 +17919,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17945,7 +17945,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17965,7 +17965,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -17985,7 +17985,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -17999,7 +17999,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18012,7 +18012,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18032,7 +18032,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18058,7 +18058,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18078,7 +18078,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18098,7 +18098,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -18111,7 +18111,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -18124,7 +18124,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18144,7 +18144,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18157,7 +18157,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18170,7 +18170,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18190,7 +18190,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18216,7 +18216,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18236,7 +18236,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18263,7 +18263,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18283,7 +18283,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18296,7 +18296,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18309,7 +18309,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18329,7 +18329,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18355,7 +18355,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18375,7 +18375,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18397,7 +18397,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18410,7 +18410,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18430,7 +18430,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18456,7 +18456,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18476,7 +18476,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18496,7 +18496,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -18510,7 +18510,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18523,7 +18523,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18543,7 +18543,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18569,7 +18569,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18589,7 +18589,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18609,7 +18609,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -18622,7 +18622,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -18635,7 +18635,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18655,7 +18655,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18668,7 +18668,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18681,7 +18681,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18701,7 +18701,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18727,7 +18727,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18747,7 +18747,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18774,7 +18774,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18794,7 +18794,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18807,7 +18807,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18820,7 +18820,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18840,7 +18840,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18866,7 +18866,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18886,7 +18886,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18909,7 +18909,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -18922,7 +18922,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18942,7 +18942,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -18955,7 +18955,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -18968,7 +18968,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -18988,7 +18988,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19014,7 +19014,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19034,7 +19034,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19061,7 +19061,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19081,7 +19081,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19094,7 +19094,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19107,7 +19107,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19127,7 +19127,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19153,7 +19153,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19173,7 +19173,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19194,7 +19194,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -19208,7 +19208,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -19221,7 +19221,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19241,7 +19241,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19254,7 +19254,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19267,7 +19267,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19287,7 +19287,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19313,7 +19313,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19333,7 +19333,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19360,7 +19360,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19380,7 +19380,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19393,7 +19393,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19406,7 +19406,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19426,7 +19426,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19452,7 +19452,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19472,7 +19472,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19493,7 +19493,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -19506,14 +19506,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19526,7 +19526,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19546,7 +19546,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19572,7 +19572,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19592,7 +19592,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19612,7 +19612,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -19626,7 +19626,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19639,7 +19639,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19659,7 +19659,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19685,7 +19685,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19705,7 +19705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19725,7 +19725,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -19738,7 +19738,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -19751,7 +19751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19771,7 +19771,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19784,7 +19784,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19797,7 +19797,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19817,7 +19817,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19843,7 +19843,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19863,7 +19863,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19890,7 +19890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19910,7 +19910,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -19923,7 +19923,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -19936,7 +19936,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19956,7 +19956,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -19982,7 +19982,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20002,7 +20002,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20024,7 +20024,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20037,7 +20037,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20057,7 +20057,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20083,7 +20083,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20103,7 +20103,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20123,7 +20123,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -20137,7 +20137,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20150,7 +20150,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20170,7 +20170,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20196,7 +20196,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20216,7 +20216,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20236,7 +20236,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -20249,7 +20249,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -20262,7 +20262,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20282,7 +20282,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20295,7 +20295,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20308,7 +20308,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20328,7 +20328,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20354,7 +20354,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20374,7 +20374,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20401,7 +20401,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20421,7 +20421,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20434,7 +20434,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20447,7 +20447,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20467,7 +20467,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20493,7 +20493,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20513,7 +20513,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20536,7 +20536,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         resource_kind        = ""
         service_display_name = ""
         service_name         = ""
-        
+
         additional_target_attributes {
           name     = ""
           operator = ""
@@ -20550,14 +20550,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -20570,7 +20570,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20590,7 +20590,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20603,7 +20603,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20616,7 +20616,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20636,7 +20636,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20662,7 +20662,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20682,7 +20682,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20709,7 +20709,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20729,7 +20729,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20742,7 +20742,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20755,7 +20755,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20775,7 +20775,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20801,7 +20801,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20821,7 +20821,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20842,7 +20842,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -20856,7 +20856,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -20869,7 +20869,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20889,7 +20889,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -20902,7 +20902,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -20915,7 +20915,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20935,7 +20935,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20961,7 +20961,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -20981,7 +20981,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21008,7 +21008,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21028,7 +21028,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21041,7 +21041,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21054,7 +21054,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21074,7 +21074,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21100,7 +21100,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21120,7 +21120,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21141,7 +21141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -21154,14 +21154,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21174,7 +21174,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21194,7 +21194,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21220,7 +21220,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21240,7 +21240,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21260,7 +21260,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -21274,7 +21274,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21287,7 +21287,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21307,7 +21307,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21333,7 +21333,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21353,7 +21353,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21373,7 +21373,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -21386,7 +21386,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -21399,7 +21399,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21419,7 +21419,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21432,7 +21432,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21445,7 +21445,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21465,7 +21465,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21491,7 +21491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21511,7 +21511,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21538,7 +21538,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21558,7 +21558,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21571,7 +21571,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21584,7 +21584,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21604,7 +21604,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21630,7 +21630,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21650,7 +21650,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21672,7 +21672,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21685,7 +21685,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21705,7 +21705,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21731,7 +21731,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21751,7 +21751,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21771,7 +21771,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -21785,7 +21785,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21798,7 +21798,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21818,7 +21818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21844,7 +21844,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21864,7 +21864,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21884,7 +21884,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -21897,7 +21897,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -21910,7 +21910,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21930,7 +21930,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -21943,7 +21943,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -21956,7 +21956,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -21976,7 +21976,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22002,7 +22002,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22022,7 +22022,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22049,7 +22049,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22069,7 +22069,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22082,7 +22082,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22095,7 +22095,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22115,7 +22115,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22141,7 +22141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22161,7 +22161,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22184,7 +22184,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -22197,7 +22197,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22217,7 +22217,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22230,7 +22230,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22243,7 +22243,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22263,7 +22263,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22289,7 +22289,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22309,7 +22309,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22336,7 +22336,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22356,7 +22356,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22369,7 +22369,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22382,7 +22382,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22402,7 +22402,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22428,7 +22428,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22448,7 +22448,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22469,7 +22469,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -22483,7 +22483,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -22496,7 +22496,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22516,7 +22516,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22529,7 +22529,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22542,7 +22542,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22562,7 +22562,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22588,7 +22588,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22608,7 +22608,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22635,7 +22635,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22655,7 +22655,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -22668,7 +22668,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22681,7 +22681,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22701,7 +22701,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22727,7 +22727,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22747,7 +22747,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22768,7 +22768,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -22781,14 +22781,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22801,7 +22801,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22821,7 +22821,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22847,7 +22847,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22867,7 +22867,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22887,7 +22887,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -22901,7 +22901,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -22914,7 +22914,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22934,7 +22934,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22960,7 +22960,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -22980,7 +22980,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23000,7 +23000,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -23013,7 +23013,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -23026,7 +23026,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23046,7 +23046,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23059,7 +23059,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23072,7 +23072,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23092,7 +23092,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23118,7 +23118,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23138,7 +23138,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23165,7 +23165,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23185,7 +23185,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23198,7 +23198,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23211,7 +23211,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23231,7 +23231,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23257,7 +23257,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23277,7 +23277,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23299,7 +23299,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23312,7 +23312,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23332,7 +23332,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23358,7 +23358,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23378,7 +23378,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23398,7 +23398,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -23412,7 +23412,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23425,7 +23425,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23445,7 +23445,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23471,7 +23471,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23491,7 +23491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23511,7 +23511,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -23524,7 +23524,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -23537,7 +23537,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23557,7 +23557,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23570,7 +23570,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23583,7 +23583,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23603,7 +23603,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23629,7 +23629,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23649,7 +23649,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23676,7 +23676,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23696,7 +23696,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -23709,7 +23709,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23722,7 +23722,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23742,7 +23742,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23768,7 +23768,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23788,7 +23788,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23811,7 +23811,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         resource_kind        = ""
         service_display_name = ""
         service_name         = ""
-        
+
         additional_target_attributes {
           name     = ""
           operator = ""
@@ -23824,21 +23824,21 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
       operator    = ""
       property    = ""
       value       = ""
-      
+
       all {
         required_config {
           description = ""
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23851,7 +23851,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23871,7 +23871,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23897,7 +23897,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23917,7 +23917,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23937,7 +23937,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -23951,7 +23951,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -23964,7 +23964,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -23984,7 +23984,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24010,7 +24010,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24030,7 +24030,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24050,7 +24050,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -24063,7 +24063,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -24076,7 +24076,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24096,7 +24096,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24109,7 +24109,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24122,7 +24122,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24142,7 +24142,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24168,7 +24168,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24188,7 +24188,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24215,7 +24215,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24235,7 +24235,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24248,7 +24248,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24261,7 +24261,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24281,7 +24281,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24307,7 +24307,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24327,7 +24327,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24349,7 +24349,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24362,7 +24362,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24382,7 +24382,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24408,7 +24408,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24428,7 +24428,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24448,7 +24448,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -24462,7 +24462,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24475,7 +24475,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24495,7 +24495,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24521,7 +24521,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24541,7 +24541,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24561,7 +24561,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -24574,7 +24574,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -24587,7 +24587,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24607,7 +24607,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24620,7 +24620,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24633,7 +24633,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24653,7 +24653,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24679,7 +24679,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24699,7 +24699,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24726,7 +24726,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24746,7 +24746,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -24759,7 +24759,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24772,7 +24772,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24792,7 +24792,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24818,7 +24818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24838,7 +24838,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24860,7 +24860,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -24874,14 +24874,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -24894,7 +24894,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24914,7 +24914,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24940,7 +24940,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24960,7 +24960,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -24980,7 +24980,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -24994,7 +24994,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25007,7 +25007,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25027,7 +25027,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25053,7 +25053,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25073,7 +25073,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25093,7 +25093,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -25106,7 +25106,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -25119,7 +25119,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25139,7 +25139,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25152,7 +25152,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25165,7 +25165,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25185,7 +25185,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25211,7 +25211,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25231,7 +25231,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25258,7 +25258,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25278,7 +25278,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25291,7 +25291,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25304,7 +25304,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25324,7 +25324,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25350,7 +25350,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25370,7 +25370,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25392,7 +25392,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25405,7 +25405,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25425,7 +25425,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25451,7 +25451,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25471,7 +25471,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25491,7 +25491,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -25505,7 +25505,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25518,7 +25518,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25538,7 +25538,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25564,7 +25564,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25584,7 +25584,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25604,7 +25604,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -25617,7 +25617,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -25630,7 +25630,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25650,7 +25650,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25663,7 +25663,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25676,7 +25676,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25696,7 +25696,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25722,7 +25722,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25742,7 +25742,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25769,7 +25769,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25789,7 +25789,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25802,7 +25802,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25815,7 +25815,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25835,7 +25835,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25861,7 +25861,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25881,7 +25881,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -25903,7 +25903,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -25916,14 +25916,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -25936,7 +25936,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25956,7 +25956,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -25969,7 +25969,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -25982,7 +25982,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26002,7 +26002,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26028,7 +26028,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26048,7 +26048,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26075,7 +26075,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26095,7 +26095,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26108,7 +26108,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26121,7 +26121,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26141,7 +26141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26167,7 +26167,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26187,7 +26187,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26208,7 +26208,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -26222,7 +26222,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -26235,7 +26235,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26255,7 +26255,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26268,7 +26268,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26281,7 +26281,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26301,7 +26301,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26327,7 +26327,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26347,7 +26347,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26374,7 +26374,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26394,7 +26394,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26407,7 +26407,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26420,7 +26420,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26440,7 +26440,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26466,7 +26466,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26486,7 +26486,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26507,7 +26507,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -26520,14 +26520,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26540,7 +26540,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26560,7 +26560,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26586,7 +26586,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26606,7 +26606,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26626,7 +26626,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -26640,7 +26640,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26653,7 +26653,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26673,7 +26673,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26699,7 +26699,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26719,7 +26719,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26739,7 +26739,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -26752,7 +26752,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -26765,7 +26765,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26785,7 +26785,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26798,7 +26798,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26811,7 +26811,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26831,7 +26831,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26857,7 +26857,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26877,7 +26877,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26904,7 +26904,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26924,7 +26924,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -26937,7 +26937,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -26950,7 +26950,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26970,7 +26970,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -26996,7 +26996,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27016,7 +27016,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27038,7 +27038,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27051,7 +27051,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27071,7 +27071,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27097,7 +27097,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27117,7 +27117,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27137,7 +27137,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -27151,7 +27151,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27164,7 +27164,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27184,7 +27184,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27210,7 +27210,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27230,7 +27230,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27250,7 +27250,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -27263,7 +27263,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -27276,7 +27276,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27296,7 +27296,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27309,7 +27309,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27322,7 +27322,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27342,7 +27342,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27368,7 +27368,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27388,7 +27388,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27415,7 +27415,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27435,7 +27435,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27448,7 +27448,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27461,7 +27461,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27481,7 +27481,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27507,7 +27507,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27527,7 +27527,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27550,7 +27550,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -27563,7 +27563,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27583,7 +27583,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27596,7 +27596,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27609,7 +27609,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27629,7 +27629,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27655,7 +27655,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27675,7 +27675,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27702,7 +27702,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27722,7 +27722,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27735,7 +27735,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27748,7 +27748,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27768,7 +27768,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27794,7 +27794,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27814,7 +27814,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27835,7 +27835,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -27849,7 +27849,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -27862,7 +27862,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27882,7 +27882,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -27895,7 +27895,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -27908,7 +27908,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27928,7 +27928,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27954,7 +27954,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -27974,7 +27974,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28001,7 +28001,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28021,7 +28021,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28034,7 +28034,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28047,7 +28047,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28067,7 +28067,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28093,7 +28093,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28113,7 +28113,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28134,7 +28134,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -28147,14 +28147,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28167,7 +28167,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28187,7 +28187,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28213,7 +28213,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28233,7 +28233,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28253,7 +28253,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -28267,7 +28267,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28280,7 +28280,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28300,7 +28300,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28326,7 +28326,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28346,7 +28346,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28366,7 +28366,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -28379,7 +28379,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -28392,7 +28392,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28412,7 +28412,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28425,7 +28425,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28438,7 +28438,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28458,7 +28458,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28484,7 +28484,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28504,7 +28504,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28531,7 +28531,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28551,7 +28551,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28564,7 +28564,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28577,7 +28577,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28597,7 +28597,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28623,7 +28623,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28643,7 +28643,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28665,7 +28665,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28678,7 +28678,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28698,7 +28698,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28724,7 +28724,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28744,7 +28744,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28764,7 +28764,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -28778,7 +28778,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28791,7 +28791,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28811,7 +28811,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28837,7 +28837,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28857,7 +28857,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28877,7 +28877,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -28890,7 +28890,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -28903,7 +28903,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28923,7 +28923,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -28936,7 +28936,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -28949,7 +28949,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28969,7 +28969,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -28995,7 +28995,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29015,7 +29015,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29042,7 +29042,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29062,7 +29062,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29075,7 +29075,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29088,7 +29088,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29108,7 +29108,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29134,7 +29134,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29154,7 +29154,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29178,14 +29178,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29198,7 +29198,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29218,7 +29218,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29244,7 +29244,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29264,7 +29264,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29284,7 +29284,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -29298,7 +29298,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29311,7 +29311,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29331,7 +29331,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29357,7 +29357,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29377,7 +29377,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29397,7 +29397,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -29410,7 +29410,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -29423,7 +29423,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29443,7 +29443,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29456,7 +29456,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29469,7 +29469,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29489,7 +29489,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29515,7 +29515,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29535,7 +29535,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29562,7 +29562,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29582,7 +29582,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29595,7 +29595,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29608,7 +29608,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29628,7 +29628,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29654,7 +29654,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29674,7 +29674,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29696,7 +29696,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29709,7 +29709,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29729,7 +29729,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29755,7 +29755,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29775,7 +29775,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29795,7 +29795,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -29809,7 +29809,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29822,7 +29822,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29842,7 +29842,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29868,7 +29868,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29888,7 +29888,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -29908,7 +29908,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -29921,7 +29921,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -29934,7 +29934,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29954,7 +29954,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -29967,7 +29967,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -29980,7 +29980,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30000,7 +30000,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30026,7 +30026,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30046,7 +30046,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30073,7 +30073,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30093,7 +30093,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30106,7 +30106,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30119,7 +30119,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30139,7 +30139,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30165,7 +30165,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30185,7 +30185,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30207,7 +30207,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -30221,14 +30221,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30241,7 +30241,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30261,7 +30261,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30287,7 +30287,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30307,7 +30307,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30327,7 +30327,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -30341,7 +30341,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30354,7 +30354,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30374,7 +30374,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30400,7 +30400,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30420,7 +30420,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30440,7 +30440,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -30453,7 +30453,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -30466,7 +30466,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30486,7 +30486,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30499,7 +30499,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30512,7 +30512,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30532,7 +30532,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30558,7 +30558,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30578,7 +30578,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30605,7 +30605,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30625,7 +30625,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30638,7 +30638,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30651,7 +30651,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30671,7 +30671,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30697,7 +30697,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30717,7 +30717,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30739,7 +30739,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30752,7 +30752,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30772,7 +30772,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30798,7 +30798,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30818,7 +30818,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30838,7 +30838,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -30852,7 +30852,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -30865,7 +30865,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30885,7 +30885,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30911,7 +30911,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30931,7 +30931,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -30951,7 +30951,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -30964,7 +30964,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -30977,7 +30977,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -30997,7 +30997,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31010,7 +31010,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31023,7 +31023,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31043,7 +31043,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31069,7 +31069,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31089,7 +31089,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31116,7 +31116,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31136,7 +31136,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31149,7 +31149,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31162,7 +31162,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31182,7 +31182,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31208,7 +31208,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31228,7 +31228,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31250,7 +31250,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           resource_kind        = ""
           service_display_name = ""
           service_name         = ""
-          
+
           additional_target_attributes {
             name     = ""
             operator = ""
@@ -31263,14 +31263,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
         operator    = ""
         property    = ""
         value       = ""
-        
+
         all {
           required_config {
             description = ""
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -31283,7 +31283,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31303,7 +31303,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31316,7 +31316,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31329,7 +31329,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31349,7 +31349,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31375,7 +31375,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31395,7 +31395,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31422,7 +31422,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31442,7 +31442,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31455,7 +31455,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31468,7 +31468,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31488,7 +31488,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31514,7 +31514,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31534,7 +31534,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31555,7 +31555,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -31569,7 +31569,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -31582,7 +31582,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31602,7 +31602,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31615,7 +31615,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31628,7 +31628,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31648,7 +31648,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31674,7 +31674,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31694,7 +31694,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31721,7 +31721,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31741,7 +31741,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -31754,7 +31754,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31767,7 +31767,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31787,7 +31787,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31813,7 +31813,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31833,7 +31833,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31854,7 +31854,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -31867,14 +31867,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -31887,7 +31887,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31907,7 +31907,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31933,7 +31933,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31953,7 +31953,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -31973,7 +31973,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -31987,7 +31987,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32000,7 +32000,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32020,7 +32020,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32046,7 +32046,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32066,7 +32066,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32086,7 +32086,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -32099,7 +32099,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -32112,7 +32112,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32132,7 +32132,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32145,7 +32145,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32158,7 +32158,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32178,7 +32178,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32204,7 +32204,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32224,7 +32224,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32251,7 +32251,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32271,7 +32271,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32284,7 +32284,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32297,7 +32297,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32317,7 +32317,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32343,7 +32343,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32363,7 +32363,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32385,7 +32385,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32398,7 +32398,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32418,7 +32418,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32444,7 +32444,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32464,7 +32464,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32484,7 +32484,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -32498,7 +32498,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32511,7 +32511,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32531,7 +32531,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32557,7 +32557,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32577,7 +32577,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32597,7 +32597,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -32610,7 +32610,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -32623,7 +32623,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32643,7 +32643,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32656,7 +32656,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32669,7 +32669,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32689,7 +32689,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32715,7 +32715,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32735,7 +32735,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32762,7 +32762,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32782,7 +32782,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32795,7 +32795,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32808,7 +32808,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32828,7 +32828,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32854,7 +32854,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32874,7 +32874,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32897,7 +32897,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -32910,7 +32910,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32930,7 +32930,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -32943,7 +32943,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -32956,7 +32956,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -32976,7 +32976,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33002,7 +33002,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33022,7 +33022,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33049,7 +33049,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33069,7 +33069,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33082,7 +33082,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33095,7 +33095,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33115,7 +33115,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33141,7 +33141,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33161,7 +33161,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33182,7 +33182,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -33196,7 +33196,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -33209,7 +33209,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33229,7 +33229,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33242,7 +33242,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33255,7 +33255,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33275,7 +33275,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33301,7 +33301,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33321,7 +33321,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33348,7 +33348,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33368,7 +33368,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33381,7 +33381,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33394,7 +33394,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33414,7 +33414,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33440,7 +33440,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33460,7 +33460,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33481,7 +33481,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             resource_kind        = ""
             service_display_name = ""
             service_name         = ""
-            
+
             additional_target_attributes {
               name     = ""
               operator = ""
@@ -33494,14 +33494,14 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
           operator    = ""
           property    = ""
           value       = ""
-          
+
           all {
             required_config {
               description = ""
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33514,7 +33514,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33534,7 +33534,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33560,7 +33560,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33580,7 +33580,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33600,7 +33600,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -33614,7 +33614,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33627,7 +33627,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33647,7 +33647,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33673,7 +33673,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33693,7 +33693,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33713,7 +33713,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -33726,7 +33726,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -33739,7 +33739,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33759,7 +33759,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33772,7 +33772,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33785,7 +33785,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33805,7 +33805,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33831,7 +33831,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33851,7 +33851,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33878,7 +33878,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33898,7 +33898,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -33911,7 +33911,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -33924,7 +33924,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33944,7 +33944,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33970,7 +33970,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -33990,7 +33990,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34012,7 +34012,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -34025,7 +34025,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34045,7 +34045,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34071,7 +34071,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34091,7 +34091,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34111,7 +34111,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -34125,7 +34125,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -34138,7 +34138,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34158,7 +34158,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34184,7 +34184,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34204,7 +34204,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34224,7 +34224,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               resource_kind        = ""
               service_display_name = ""
               service_name         = ""
-              
+
               additional_target_attributes {
                 name     = ""
                 operator = ""
@@ -34237,7 +34237,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
             operator    = ""
             property    = ""
             value       = ""
-            
+
             all {
               required_config {
                 description = ""
@@ -34250,7 +34250,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -34270,7 +34270,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -34283,7 +34283,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -34296,7 +34296,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34316,7 +34316,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34342,7 +34342,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34362,7 +34362,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34389,7 +34389,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -34409,7 +34409,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                 resource_kind        = ""
                 service_display_name = ""
                 service_name         = ""
-                
+
                 additional_target_attributes {
                   name     = ""
                   operator = ""
@@ -34422,7 +34422,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
               operator    = ""
               property    = ""
               value       = ""
-              
+
               all {
                 required_config {
                   description = ""
@@ -34435,7 +34435,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34455,7 +34455,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34481,7 +34481,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34501,7 +34501,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
                   resource_kind        = ""
                   service_display_name = ""
                   service_name         = ""
-                  
+
                   additional_target_attributes {
                     name     = ""
                     operator = ""
@@ -34526,7 +34526,7 @@ resource "ibm_scc_rule" "tf-sample-scc-rule" {
     resource_kind        = ""
     service_display_name = ""
     service_name         = ""
-    
+
     additional_target_attributes {
       name     = ""
       operator = ""

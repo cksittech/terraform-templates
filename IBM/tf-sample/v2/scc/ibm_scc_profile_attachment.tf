@@ -5,7 +5,7 @@ resource "ibm_scc_profile_attachment" "tf-sample-scc-profile-attachment" {
   profile_id  = ""
   schedule    = ""
   status      = ""
-  
+
   attachment_parameters {
     assessment_id          = ""
     assessment_type        = ""
@@ -16,7 +16,7 @@ resource "ibm_scc_profile_attachment" "tf-sample-scc-profile-attachment" {
   }
   notifications {
     enabled = false
-    
+
     controls {
       failed_control_ids = []
       threshold_limit    = 0
@@ -25,7 +25,7 @@ resource "ibm_scc_profile_attachment" "tf-sample-scc-profile-attachment" {
   scope {
     environment = ""
     id          = ""
-    
+
     properties {
       name  = ""
       value = ""

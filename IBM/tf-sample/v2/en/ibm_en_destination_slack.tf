@@ -4,7 +4,7 @@ resource "ibm_en_destination_slack" "tf-sample-en-destination-slack" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       token = ""

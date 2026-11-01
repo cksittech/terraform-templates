@@ -14,7 +14,7 @@ resource "ibm_is_share" "tf-sample-is-share" {
   source_share                     = ""
   source_share_crn                 = ""
   zone                             = ""
-  
+
   initial_owner {
     gid = 0
     uid = 0
@@ -24,7 +24,7 @@ resource "ibm_is_share" "tf-sample-is-share" {
     name               = ""
     transit_encryption = ""
     vpc                = ""
-    
+
     virtual_network_interface {
       auto_delete                   = false
       id                            = ""
@@ -33,7 +33,7 @@ resource "ibm_is_share" "tf-sample-is-share" {
       resource_group                = ""
       security_groups               = []
       subnet                        = ""
-      
+
       primary_ip {
         address     = ""
         auto_delete = false
@@ -53,13 +53,13 @@ resource "ibm_is_share" "tf-sample-is-share" {
     profile               = ""
     replication_cron_spec = ""
     zone                  = ""
-    
+
     mount_targets {
       access_protocol    = ""
       name               = ""
       transit_encryption = ""
       vpc                = ""
-      
+
       virtual_network_interface {
         auto_delete                   = false
         id                            = ""
@@ -68,7 +68,7 @@ resource "ibm_is_share" "tf-sample-is-share" {
         resource_group                = ""
         security_groups               = []
         subnet                        = ""
-        
+
         primary_ip {
           address     = ""
           auto_delete = false
@@ -82,6 +82,6 @@ resource "ibm_is_share" "tf-sample-is-share" {
     crn = ""
     id  = ""
   }
-  
+
   tags = {}
 }

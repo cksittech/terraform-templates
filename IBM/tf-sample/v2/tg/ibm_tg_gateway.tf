@@ -6,6 +6,6 @@ resource "ibm_tg_gateway" "tf-sample-tg-gateway" {
   redundancy_group               = ""
   redundancy_group_id            = ""
   resource_group                 = ""
-  
+
   tags = {}
 }

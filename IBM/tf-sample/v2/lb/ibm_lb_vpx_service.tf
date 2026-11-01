@@ -7,6 +7,6 @@ resource "ibm_lb_vpx_service" "tf-sample-lb-vpx-service" {
   usip                   = ""
   vip_id                 = ""
   weight                 = 0
-  
+
   tags = {}
 }

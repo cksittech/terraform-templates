@@ -3,6 +3,6 @@ resource "ibm_resource_key" "tf-sample-resource-key" {
   parameters           = {}
   resource_instance_id = ""
   role                 = ""
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "ibm_is_ssh_key" "tf-sample-is-ssh-key" {
   public_key     = ""
   resource_group = ""
   type           = ""
-  
+
   tags = {}
 }

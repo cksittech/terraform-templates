@@ -3,7 +3,7 @@ resource "ibm_kms_key_policies" "tf-sample-kms-key-policies" {
   endpoint_type = ""
   instance_id   = ""
   key_id        = ""
-  
+
   dual_auth_delete {
     enabled = false
   }

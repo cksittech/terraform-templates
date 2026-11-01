@@ -5,7 +5,7 @@ resource "ibm_backup_recovery_vault_failover" "tf-sample-backup-recovery-vault-f
   region          = ""
   service_name    = ""
   x_ibm_tenant_id = ""
-  
+
   failover_request_params {
     vault_id = 0
   }

@@ -4,7 +4,7 @@ resource "ibm_en_destination_firefox" "tf-sample-en-destination-firefox" {
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       pre_prod    = false

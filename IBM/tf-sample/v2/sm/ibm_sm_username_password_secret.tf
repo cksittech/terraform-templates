@@ -11,7 +11,7 @@ resource "ibm_sm_username_password_secret" "tf-sample-sm-username-password-secre
   secret_group_id         = ""
   username                = ""
   version_custom_metadata = {}
-  
+
   password_generation_policy {
     include_digits    = false
     include_symbols   = false

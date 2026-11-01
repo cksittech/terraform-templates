@@ -14,7 +14,7 @@ resource "ibm_sm_public_certificate" "tf-sample-sm-public-certificate" {
   region                  = ""
   secret_group_id         = ""
   version_custom_metadata = {}
-  
+
   akamai {
     config {
       access_token  = ""

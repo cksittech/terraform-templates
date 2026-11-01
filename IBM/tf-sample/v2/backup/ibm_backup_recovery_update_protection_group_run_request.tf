@@ -5,20 +5,20 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
   region          = ""
   service_name    = ""
   x_ibm_tenant_id = ""
-  
+
   update_protection_group_run_params {
     run_id = ""
-    
+
     archival_snapshot_config {
       new_snapshot_config {
         archival_target_type       = ""
         copy_only_fully_successful = false
         id                         = 0
-        
+
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false
@@ -47,11 +47,11 @@ resource "ibm_backup_recovery_update_protection_group_run_request" "tf-sample-ba
     replication_snapshot_config {
       new_snapshot_config {
         id = 0
-        
+
         retention {
           duration = 0
           unit     = ""
-          
+
           data_lock_config {
             duration                       = 0
             enable_worm_on_external_target = false

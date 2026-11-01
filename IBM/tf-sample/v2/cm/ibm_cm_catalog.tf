@@ -9,14 +9,14 @@ resource "ibm_cm_catalog" "tf-sample-cm-catalog" {
   resource_group_id      = ""
   short_description      = ""
   short_description_i18n = {}
-  
+
   catalog_filters {
     include_all = false
-    
+
     category_filters {
       category_name = ""
       include       = false
-      
+
       filter {
         filter_terms = []
       }
@@ -41,12 +41,12 @@ resource "ibm_cm_catalog" "tf-sample-cm-catalog" {
     label      = ""
     name       = ""
     project_id = ""
-    
+
     trusted_profile {
       target_service_id  = ""
       trusted_profile_id = ""
     }
   }
-  
+
   tags = {}
 }

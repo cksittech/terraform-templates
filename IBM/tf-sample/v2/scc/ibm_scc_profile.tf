@@ -4,7 +4,7 @@ resource "ibm_scc_profile" "tf-sample-scc-profile" {
   profile_name        = ""
   profile_type        = ""
   profile_version     = ""
-  
+
   controls {
     control_id         = ""
     control_library_id = ""

@@ -6,7 +6,7 @@ resource "ibm_iam_access_group_policy" "tf-sample-iam-access-group-policy" {
   roles              = []
   rule_operator      = ""
   transaction_id     = ""
-  
+
   resource_attributes {
     name     = ""
     operator = ""
@@ -32,13 +32,13 @@ resource "ibm_iam_access_group_policy" "tf-sample-iam-access-group-policy" {
     key      = ""
     operator = ""
     value    = []
-    
+
     conditions {
       key      = ""
       operator = ""
       value    = []
     }
   }
-  
+
   tags = {}
 }

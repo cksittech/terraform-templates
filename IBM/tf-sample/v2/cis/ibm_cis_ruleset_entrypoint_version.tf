@@ -2,10 +2,10 @@ resource "ibm_cis_ruleset_entrypoint_version" "tf-sample-cis-ruleset-entrypoint-
   cis_id    = ""
   domain_id = ""
   phase     = ""
-  
+
   rulesets {
     description = ""
-    
+
     rules {
       action      = ""
       description = ""
@@ -13,18 +13,18 @@ resource "ibm_cis_ruleset_entrypoint_version" "tf-sample-cis-ruleset-entrypoint-
       expression  = ""
       id          = ""
       ref         = ""
-      
+
       action_parameters {
         id       = ""
         phases   = []
         products = []
         ruleset  = ""
         rulesets = []
-        
+
         overrides {
           action  = ""
           enabled = false
-          
+
           categories {
             action   = ""
             category = ""

@@ -15,6 +15,6 @@ resource "ibm_app" "tf-sample-app" {
   service_instance_guid      = []
   space_guid                 = ""
   wait_time_minutes          = 0
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "ibm_cm_validation" "tf-sample-cm-validation" {
   region                  = ""
   revalidate_if_validated = false
   version_locator         = ""
-  
+
   environment_variables {
     name   = ""
     secure = false

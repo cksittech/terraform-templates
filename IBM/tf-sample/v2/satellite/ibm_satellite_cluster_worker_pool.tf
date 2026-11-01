@@ -10,7 +10,7 @@ resource "ibm_satellite_cluster_worker_pool" "tf-sample-satellite-cluster-worker
   resource_group_id  = ""
   worker_count       = 0
   worker_pool_labels = {}
-  
+
   zones {
     id = ""
   }

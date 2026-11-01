@@ -7,6 +7,6 @@ resource "ibm_dl_provider_gateway" "tf-sample-dl-provider-gateway" {
   port                = ""
   speed_mbps          = 0
   vlan                = 0
-  
+
   tags = {}
 }

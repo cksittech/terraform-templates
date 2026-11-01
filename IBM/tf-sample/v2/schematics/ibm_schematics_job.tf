@@ -5,24 +5,24 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
   command_options   = []
   command_parameter = ""
   location          = ""
-  
+
   bastion {
     host = ""
     name = ""
   }
   data {
     job_type = ""
-    
+
     action_job_data {
       action_name            = ""
       materialized_inventory = ""
       updated_at             = ""
-      
+
       inputs {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -59,7 +59,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -83,7 +83,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -108,19 +108,19 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
       flow_id    = ""
       flow_name  = ""
       updated_at = ""
-      
+
       workitems {
         command_object_id   = ""
         command_object_name = ""
         layers              = ""
         source_type         = ""
         updated_at          = ""
-        
+
         inputs {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -152,7 +152,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -176,7 +176,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -198,7 +198,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         }
         source {
           source_type = ""
-          
+
           catalog {
             catalog_name        = ""
             offering_id         = ""
@@ -229,12 +229,12 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
       flow_name      = ""
       updated_at     = ""
       workspace_name = ""
-      
+
       inputs {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -258,7 +258,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -282,7 +282,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         link  = ""
         name  = ""
         value = ""
-        
+
         metadata {
           aliases       = []
           default_value = ""
@@ -307,12 +307,12 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
         template_id   = ""
         template_name = ""
         updated_at    = ""
-        
+
         inputs {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -336,7 +336,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -360,7 +360,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
           link  = ""
           name  = ""
           value = ""
-          
+
           metadata {
             aliases       = []
             default_value = ""
@@ -387,7 +387,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -411,7 +411,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
     link  = ""
     name  = ""
     value = ""
-    
+
     metadata {
       aliases       = []
       default_value = ""
@@ -437,12 +437,12 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
     job_type          = ""
     log_analyzed_till = ""
     log_start_at      = ""
-    
+
     action_job {
       play_count   = 0
       target_count = 0
       task_count   = 0
-      
+
       recap {
         changed     = 0
         failed      = 0
@@ -456,7 +456,7 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
       workitems_completed = 0
       workitems_failed    = 0
       workitems_pending   = 0
-      
+
       workitems {
         job_id            = ""
         log_url           = ""
@@ -489,6 +489,6 @@ resource "ibm_schematics_job" "tf-sample-schematics-job" {
       resources_modify  = 0
     }
   }
-  
+
   tags = {}
 }

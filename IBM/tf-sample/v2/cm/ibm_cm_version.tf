@@ -21,7 +21,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
   working_directory = ""
   x_auth_token      = ""
   zipurl            = ""
-  
+
   flavor {
     index      = 0
     label      = ""
@@ -31,7 +31,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
   iam_permissions {
     role_crns    = []
     service_name = ""
-    
+
     resources {
       description = ""
       name        = ""
@@ -40,7 +40,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
   }
   import_metadata {
     minimum_provisioned_size = 0
-    
+
     file {
       size = 0
     }
@@ -91,7 +91,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
     architecture_diagrams {
       description      = ""
       description_i18n = {}
-      
+
       diagram {
         api_url       = ""
         caption       = ""
@@ -99,7 +99,7 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
         thumbnail_url = ""
         type          = ""
         url           = ""
-        
+
         url_proxy {
           sha = ""
           url = ""
@@ -120,6 +120,6 @@ resource "ibm_cm_version" "tf-sample-cm-version" {
       title_i18n       = {}
     }
   }
-  
+
   tags = {}
 }

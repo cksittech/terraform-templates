@@ -1,12 +1,12 @@
 resource "ibm_project_config" "tf-sample-project-config" {
   project_id = ""
-  
+
   approved_version {
     container_state = ""
   }
   config_error {
     message = ""
-    
+
     details {
     }
   }
@@ -18,7 +18,7 @@ resource "ibm_project_config" "tf-sample-project-config" {
     name           = ""
     resource_crns  = []
     settings       = {}
-    
+
     authorizations {
       api_key            = ""
       method             = ""

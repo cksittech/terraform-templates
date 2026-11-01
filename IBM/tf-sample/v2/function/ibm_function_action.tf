@@ -4,7 +4,7 @@ resource "ibm_function_action" "tf-sample-function-action" {
   publish                  = false
   user_defined_annotations = ""
   user_defined_parameters  = ""
-  
+
   exec {
     code       = ""
     code_path  = ""

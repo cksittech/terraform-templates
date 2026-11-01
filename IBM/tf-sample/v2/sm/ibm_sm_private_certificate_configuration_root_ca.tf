@@ -28,12 +28,12 @@ resource "ibm_sm_private_certificate_configuration_root_ca" "tf-sample-sm-privat
   street_address                    = []
   ttl                               = ""
   uri_sans                          = ""
-  
+
   crypto_key {
     allow_generate_key = false
     id                 = ""
     label              = ""
-    
+
     provider {
       instance_crn                  = ""
       pin_iam_credentials_secret_id = ""

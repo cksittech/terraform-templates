@@ -2,14 +2,14 @@ resource "ibm_iam_policy_template" "tf-sample-iam-policy-template" {
   committed   = false
   description = ""
   name        = ""
-  
+
   policy {
     description   = ""
     pattern       = ""
     roles         = []
     rule_operator = ""
     type          = ""
-    
+
     resource {
       attributes {
         key      = ""
@@ -30,7 +30,7 @@ resource "ibm_iam_policy_template" "tf-sample-iam-policy-template" {
       key      = ""
       operator = ""
       value    = []
-      
+
       conditions {
         key      = ""
         operator = ""

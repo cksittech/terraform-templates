@@ -5,7 +5,7 @@ resource "ibm_logs_view" "tf-sample-logs-view" {
   name          = ""
   region        = ""
   tier          = ""
-  
+
   filters {
     filters {
       name            = ""

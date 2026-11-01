@@ -3,7 +3,7 @@ resource "ibm_atracker_target" "tf-sample-atracker-target" {
   name        = ""
   region      = ""
   target_type = ""
-  
+
   appconfig_endpoint {
     target_crn = ""
   }

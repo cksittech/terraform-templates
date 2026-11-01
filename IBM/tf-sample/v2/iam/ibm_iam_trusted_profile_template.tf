@@ -4,7 +4,7 @@ resource "ibm_iam_trusted_profile_template" "tf-sample-iam-trusted-profile-templ
   description = ""
   name        = ""
   template_id = ""
-  
+
   policy_template_references {
     id      = ""
     version = ""
@@ -12,7 +12,7 @@ resource "ibm_iam_trusted_profile_template" "tf-sample-iam-trusted-profile-templ
   profile {
     description = ""
     name        = ""
-    
+
     identities {
       accounts    = []
       description = ""
@@ -25,7 +25,7 @@ resource "ibm_iam_trusted_profile_template" "tf-sample-iam-trusted-profile-templ
       name       = ""
       realm_name = ""
       type       = ""
-      
+
       conditions {
         claim    = ""
         operator = ""

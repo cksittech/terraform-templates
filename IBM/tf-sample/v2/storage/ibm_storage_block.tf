@@ -10,6 +10,6 @@ resource "ibm_storage_block" "tf-sample-storage-block" {
   os_format_type            = ""
   snapshot_capacity         = 0
   type                      = ""
-  
+
   tags = {}
 }

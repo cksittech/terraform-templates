@@ -3,7 +3,7 @@ resource "ibm_iam_idp" "tf-sample-iam-idp" {
   active     = false
   name       = ""
   type       = ""
-  
+
   properties {
     idp {
       entity_id            = ""

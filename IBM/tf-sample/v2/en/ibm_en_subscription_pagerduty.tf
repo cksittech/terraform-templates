@@ -4,7 +4,7 @@ resource "ibm_en_subscription_pagerduty" "tf-sample-en-subscription-pagerduty" {
   instance_guid  = ""
   name           = ""
   topic_id       = ""
-  
+
   attributes {
     template_id_notification = ""
   }

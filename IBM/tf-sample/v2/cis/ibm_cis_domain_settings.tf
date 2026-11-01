@@ -38,7 +38,7 @@ resource "ibm_cis_domain_settings" "tf-sample-cis-domain-settings" {
   true_client_ip_header          = ""
   waf                            = ""
   websockets                     = ""
-  
+
   minify {
     css  = ""
     html = ""

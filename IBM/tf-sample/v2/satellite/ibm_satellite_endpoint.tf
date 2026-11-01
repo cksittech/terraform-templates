@@ -12,7 +12,7 @@ resource "ibm_satellite_endpoint" "tf-sample-satellite-endpoint" {
   server_protocol    = ""
   sni                = ""
   timeout            = 0
-  
+
   certs {
     client {
       cert {

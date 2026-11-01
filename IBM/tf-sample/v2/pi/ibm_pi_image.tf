@@ -17,7 +17,7 @@ resource "ibm_pi_image" "tf-sample-pi-image" {
   pi_image_storage_type      = ""
   pi_source_checksum         = false
   pi_user_tags               = []
-  
+
   pi_image_import_details {
     license_type = ""
     product      = ""

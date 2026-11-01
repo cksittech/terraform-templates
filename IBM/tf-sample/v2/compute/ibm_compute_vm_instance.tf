@@ -41,11 +41,11 @@ resource "ibm_compute_vm_instance" "tf-sample-compute-vm-instance" {
   ssh_key_ids                    = []
   transient                      = false
   user_metadata                  = ""
-  
+
   bulk_vms {
     domain   = ""
     hostname = ""
   }
-  
+
   tags = {}
 }

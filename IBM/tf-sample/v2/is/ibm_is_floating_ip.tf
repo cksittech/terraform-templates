@@ -4,6 +4,6 @@ resource "ibm_is_floating_ip" "tf-sample-is-floating-ip" {
   resource_group = ""
   target         = ""
   zone           = ""
-  
+
   tags = {}
 }

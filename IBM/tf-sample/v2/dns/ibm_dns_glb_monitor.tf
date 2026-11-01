@@ -12,7 +12,7 @@ resource "ibm_dns_glb_monitor" "tf-sample-dns-glb-monitor" {
   retries        = 0
   timeout        = 0
   type           = ""
-  
+
   headers {
     name  = ""
     value = []

@@ -6,7 +6,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
   name                = ""
   region              = ""
   relative_time_frame = ""
-  
+
   absolute_time_frame {
     from = ""
     to   = ""
@@ -16,11 +16,11 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
     href    = ""
     id      = ""
     name    = ""
-    
+
     source {
       logs {
         message_template = ""
-        
+
         label_fields {
           keypath = []
           scope   = ""
@@ -60,7 +60,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
       metrics {
         labels           = []
         message_template = ""
-        
+
         promql_query {
           value = ""
         }
@@ -76,7 +76,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
   filters {
     collapsed = false
     enabled   = false
-    
+
     source {
       logs {
         observation_field {
@@ -104,7 +104,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
       }
       metrics {
         label = ""
-        
+
         operator {
           equals {
             selection {
@@ -137,13 +137,13 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
   layout {
     sections {
       href = ""
-      
+
       id {
         value = ""
       }
       rows {
         href = ""
-        
+
         appearance {
           height = 0
         }
@@ -156,7 +156,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
           href        = ""
           title       = ""
           updated_at  = ""
-          
+
           definition {
             bar_chart {
               color_scheme        = ""
@@ -166,7 +166,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               scale_type          = ""
               sort_by             = ""
               unit                = ""
-              
+
               colors_by {
                 aggregation {
                 }
@@ -179,7 +179,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 dataprime {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   dataprime_query {
                     text = ""
                   }
@@ -210,7 +210,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     metrics {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -262,7 +262,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     percentile {
                       percent = 0
-                      
+
                       observation_field {
                         keypath = []
                         scope   = ""
@@ -314,10 +314,10 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 metrics {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   filters {
                     label = ""
-                    
+
                     operator {
                       equals {
                         selection {
@@ -359,7 +359,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               data_mode_type   = ""
               results_per_page = 0
               row_style        = ""
-              
+
               columns {
                 field = ""
                 width = 0
@@ -400,7 +400,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     metrics {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -452,7 +452,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                       id         = ""
                       is_visible = false
                       name       = ""
-                      
+
                       aggregation {
                         average {
                           observation_field {
@@ -482,7 +482,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                         }
                         percentile {
                           percent = 0
-                          
+
                           observation_field {
                             keypath = []
                             scope   = ""
@@ -508,7 +508,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 metrics {
                   filters {
                     label = ""
-                    
+
                     operator {
                       equals {
                         selection {
@@ -542,7 +542,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               show_outer_arc = false
               threshold_by   = ""
               unit           = ""
-              
+
               query {
                 dataprime {
                   dataprime_query {
@@ -575,7 +575,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     metrics {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -651,7 +651,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     percentile {
                       percent = 0
-                      
+
                       observation_field {
                         keypath = []
                         scope   = ""
@@ -670,10 +670,10 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 }
                 metrics {
                   aggregation = ""
-                  
+
                   filters {
                     label = ""
-                    
+
                     operator {
                       equals {
                         selection {
@@ -712,7 +712,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               scale_type          = ""
               sort_by             = ""
               unit                = ""
-              
+
               colors_by {
                 aggregation {
                 }
@@ -725,7 +725,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 dataprime {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   dataprime_query {
                     text = ""
                   }
@@ -756,7 +756,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     metrics {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -808,7 +808,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     percentile {
                       percent = 0
-                      
+
                       observation_field {
                         keypath = []
                         scope   = ""
@@ -860,10 +860,10 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 metrics {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   filters {
                     label = ""
-                    
+
                     operator {
                       equals {
                         selection {
@@ -901,7 +901,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
             }
             line_chart {
               stacked_line = ""
-              
+
               legend {
                 columns        = []
                 group_by_query = false
@@ -917,7 +917,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 series_count_limit   = ""
                 series_name_template = ""
                 unit                 = ""
-                
+
                 query {
                   dataprime {
                     dataprime_query {
@@ -950,7 +950,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                       }
                       metrics {
                         label = ""
-                        
+
                         operator {
                           equals {
                             selection {
@@ -974,7 +974,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                   }
                   logs {
                     group_by = []
-                    
+
                     aggregations {
                       average {
                         observation_field {
@@ -1004,7 +1004,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                       }
                       percentile {
                         percent = 0
-                        
+
                         observation_field {
                           keypath = []
                           scope   = ""
@@ -1052,7 +1052,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                   metrics {
                     filters {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -1099,7 +1099,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
               min_slice_percentage = 0
               show_legend          = false
               unit                 = ""
-              
+
               label_definition {
                 is_visible      = false
                 label_source    = ""
@@ -1111,7 +1111,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 dataprime {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   dataprime_query {
                     text = ""
                   }
@@ -1142,7 +1142,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     metrics {
                       label = ""
-                      
+
                       operator {
                         equals {
                           selection {
@@ -1194,7 +1194,7 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                     }
                     percentile {
                       percent = 0
-                      
+
                       observation_field {
                         keypath = []
                         scope   = ""
@@ -1246,10 +1246,10 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
                 metrics {
                   group_names        = []
                   stacked_group_name = ""
-                  
+
                   filters {
                     label = ""
-                    
+
                     operator {
                       equals {
                         selection {
@@ -1292,11 +1292,11 @@ resource "ibm_logs_dashboard" "tf-sample-logs-dashboard" {
   variables {
     display_name = ""
     name         = ""
-    
+
     definition {
       multi_select {
         values_order_direction = ""
-        
+
         selection {
           all {
           }

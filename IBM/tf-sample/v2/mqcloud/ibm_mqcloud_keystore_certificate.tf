@@ -3,7 +3,7 @@ resource "ibm_mqcloud_keystore_certificate" "tf-sample-mqcloud-keystore-certific
   label                 = ""
   queue_manager_id      = ""
   service_instance_guid = ""
-  
+
   config {
     ams {
       channels {

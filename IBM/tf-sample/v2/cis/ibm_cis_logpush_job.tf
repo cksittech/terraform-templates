@@ -10,7 +10,7 @@ resource "ibm_cis_logpush_job" "tf-sample-cis-logpush-job" {
   logpull_options     = ""
   name                = ""
   ownership_challenge = ""
-  
+
   ibmcl {
     api_key     = ""
     instance_id = ""

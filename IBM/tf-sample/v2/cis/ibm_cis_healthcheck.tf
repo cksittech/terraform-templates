@@ -12,7 +12,7 @@ resource "ibm_cis_healthcheck" "tf-sample-cis-healthcheck" {
   retries          = 0
   timeout          = 0
   type             = ""
-  
+
   headers {
     header = ""
     values = []

@@ -6,6 +6,6 @@ resource "ibm_subnet" "tf-sample-subnet" {
   private     = false
   type        = ""
   vlan_id     = 0
-  
+
   tags = {}
 }

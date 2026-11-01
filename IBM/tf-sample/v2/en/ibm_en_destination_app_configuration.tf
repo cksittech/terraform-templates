@@ -4,7 +4,7 @@ resource "ibm_en_destination_app_configuration" "tf-sample-en-destination-app-co
   instance_guid         = ""
   name                  = ""
   type                  = ""
-  
+
   config {
     params {
       crn            = ""

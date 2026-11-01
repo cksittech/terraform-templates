@@ -8,7 +8,7 @@ resource "ibm_is_virtual_network_interface" "tf-sample-is-virtual-network-interf
   resource_group                = ""
   security_groups               = []
   subnet                        = ""
-  
+
   ips {
     reserved_ip = ""
   }
@@ -18,6 +18,6 @@ resource "ibm_is_virtual_network_interface" "tf-sample-is-virtual-network-interf
     name        = ""
     reserved_ip = ""
   }
-  
+
   tags = {}
 }

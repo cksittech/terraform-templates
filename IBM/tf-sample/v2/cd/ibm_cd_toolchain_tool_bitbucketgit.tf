@@ -1,7 +1,7 @@
 resource "ibm_cd_toolchain_tool_bitbucketgit" "tf-sample-cd-toolchain-tool-bitbucketgit" {
   name         = ""
   toolchain_id = ""
-  
+
   initialization {
     git_id          = ""
     owner_id        = ""

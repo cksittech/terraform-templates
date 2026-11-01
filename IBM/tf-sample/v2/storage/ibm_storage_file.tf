@@ -10,7 +10,7 @@ resource "ibm_storage_file" "tf-sample-storage-file" {
   notes                     = ""
   snapshot_capacity         = 0
   type                      = ""
-  
+
   snapshot_schedule {
     day_of_week     = ""
     enable          = false
@@ -19,6 +19,6 @@ resource "ibm_storage_file" "tf-sample-storage-file" {
     retention_count = 0
     schedule_type   = ""
   }
-  
+
   tags = {}
 }
