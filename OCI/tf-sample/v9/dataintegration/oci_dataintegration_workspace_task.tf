@@ -11,13 +11,13 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
   operation           = ""
   parallel_load_limit = 0
   workspace_id        = ""
-  
+
   auth_config {
     key                       = ""
     model_type                = ""
     model_version             = ""
     resource_principal_source = ""
-    
+
     parent_ref {
       parent      = ""
       root_doc_id = ""
@@ -28,16 +28,16 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     method_type     = ""
     model_type      = ""
     request_headers = {}
-    
+
     config_values {
       config_param_values {
         request_payload {
           parameter_value = ""
-          
+
           ref_value {
             key        = ""
             model_type = ""
-            
+
             config_values {
               config_param_values {
                 data_param {
@@ -60,10 +60,10 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
   config_provider_delegate {
     bindings {
       key = ""
-      
+
       parameter_values {
         simple_value = ""
-        
+
         root_object_value {
           key           = ""
           model_type    = ""
@@ -78,16 +78,16 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     method_type     = ""
     model_type      = ""
     request_headers = {}
-    
+
     config_values {
       config_param_values {
         request_payload {
           parameter_value = ""
-          
+
           ref_value {
             key        = ""
             model_type = ""
-            
+
             config_values {
               config_param_values {
                 data_param {
@@ -116,7 +116,7 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     name          = ""
     object_status = 0
     port_type     = ""
-    
+
     config_values {
       config_param_values {
         int_value         = 0
@@ -139,13 +139,13 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
   op_config_values {
     config_param_values {
       key = ""
-      
+
       config_param_value {
         int_value       = 0
         object_value    = ""
         parameter_value = ""
         string_value    = ""
-        
+
         ref_value {
           key           = ""
           model_type    = ""
@@ -175,7 +175,7 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     name          = ""
     object_status = 0
     port_type     = ""
-    
+
     config_values {
       config_param_values {
         int_value         = 0
@@ -210,17 +210,17 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     type                      = ""
     type_name                 = ""
     used_for                  = ""
-    
+
     config_values {
       config_param_values {
         key = ""
-        
+
         config_param_value {
           int_value       = 0
           object_value    = ""
           parameter_value = ""
           string_value    = ""
-          
+
           ref_value {
             key           = ""
             model_type    = ""
@@ -255,12 +255,12 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     method_type     = ""
     model_type      = ""
     request_headers = {}
-    
+
     config_values {
       config_param_values {
         poll_condition {
           parameter_value = ""
-          
+
           ref_value {
             expr_string = ""
             key         = ""
@@ -282,12 +282,12 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
         }
         request_payload {
           parameter_value = ""
-          
+
           ref_value {
             key        = ""
             model_type = ""
             name       = ""
-            
+
             config_values {
               config_param_values {
                 data_param {
@@ -323,7 +323,7 @@ resource "oci_dataintegration_workspace_task" "tf-sample-dataintegration-workspa
     name          = ""
     object_status = 0
     type          = ""
-    
+
     config_values {
       config_param_values {
         length {

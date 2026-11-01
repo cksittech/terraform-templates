@@ -9,7 +9,7 @@ resource "oci_identity_domains_smtp_credential" "tf-sample-identity-domains-smtp
   resource_type_schema_version = ""
   schemas                      = []
   status                       = ""
-  
+
   tags {
     key   = ""
     value = ""

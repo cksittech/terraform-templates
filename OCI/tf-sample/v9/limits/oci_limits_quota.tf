@@ -5,7 +5,7 @@ resource "oci_limits_quota" "tf-sample-limits-quota" {
   freeform_tags  = {}
   name           = ""
   statements     = []
-  
+
   locks {
     message             = ""
     related_resource_id = ""

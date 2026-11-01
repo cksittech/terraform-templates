@@ -8,7 +8,7 @@ resource "oci_cloud_guard_data_mask_rule" "tf-sample-cloud-guard-data-mask-rule"
   freeform_tags         = {}
   iam_group_id          = ""
   state                 = ""
-  
+
   target_selected {
     kind   = ""
     values = []

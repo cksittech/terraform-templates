@@ -4,7 +4,7 @@ resource "oci_generative_ai_hosted_application" "tf-sample-generative-ai-hosted-
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   environment_variables {
     name  = ""
     type  = ""
@@ -12,7 +12,7 @@ resource "oci_generative_ai_hosted_application" "tf-sample-generative-ai-hosted-
   }
   inbound_auth_config {
     inbound_auth_config_type = ""
-    
+
     idcs_config {
       audience   = ""
       domain_url = ""

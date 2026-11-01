@@ -14,7 +14,7 @@ resource "oci_blockchain_blockchain_platform" "tf-sample-blockchain-blockchain-p
   platform_version     = ""
   storage_size_in_tbs  = 0
   total_ocpu_capacity  = 0
-  
+
   replicas {
     ca_count      = 0
     console_count = 0

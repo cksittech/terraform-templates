@@ -26,7 +26,7 @@ resource "oci_golden_gate_deployment" "tf-sample-golden-gate-deployment" {
   state                                = ""
   subnet_id                            = ""
   subscription_id                      = ""
-  
+
   backup_schedule {
     bucket                     = ""
     compartment_id             = ""
@@ -60,7 +60,7 @@ resource "oci_golden_gate_deployment" "tf-sample-golden-gate-deployment" {
     key_secret_id      = ""
     ogg_version        = ""
     password_secret_id = ""
-    
+
     group_to_roles_mapping {
       administrator_group_id = ""
       operator_group_id      = ""

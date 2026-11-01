@@ -13,11 +13,11 @@ resource "oci_objectstorage_bucket" "tf-sample-objectstorage-bucket" {
   object_events_enabled = false
   storage_tier          = ""
   versioning            = ""
-  
+
   retention_rules {
     display_name     = ""
     time_rule_locked = ""
-    
+
     duration {
       time_amount = ""
       time_unit   = ""

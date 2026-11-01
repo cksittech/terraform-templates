@@ -11,7 +11,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
   quantity_per_subnet = 0
   ssh_public_key      = ""
   subnet_ids          = []
-  
+
   initial_node_labels {
     key   = ""
     value = ""
@@ -24,7 +24,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
     kms_key_id                          = ""
     nsg_ids                             = []
     size                                = 0
-    
+
     node_pool_pod_network_option_details {
       cni_type          = ""
       max_pods_per_node = 0
@@ -37,7 +37,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
       fault_domains           = []
       host_group_id           = ""
       subnet_id               = ""
-      
+
       preemptible_node_config {
         preemption_action {
           is_preserve_boot_volume = false
@@ -72,7 +72,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
   secondary_vnics {
     display_name = ""
     nic_index    = 0
-    
+
     create_vnic_details {
       application_resources  = []
       assign_ipv6ip          = false
@@ -85,7 +85,7 @@ resource "oci_containerengine_node_pool" "tf-sample-containerengine-node-pool" {
       security_attributes    = {}
       skip_source_dest_check = false
       subnet_id              = ""
-      
+
       ipv6address_ipv6subnet_cidr_pair_details {
         ipv6address     = ""
         ipv6subnet_cidr = ""

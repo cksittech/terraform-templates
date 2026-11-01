@@ -9,7 +9,7 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
   seller_id      = ""
   source_type    = ""
   tenant_id      = ""
-  
+
   additional_details {
     key   = ""
     value = ""
@@ -19,7 +19,7 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
     currency                 = ""
     is_auto_renew            = false
     partner_registration_url = ""
-    
+
     billing_details {
       billing_model    = ""
       has_gov_sku      = false
@@ -27,11 +27,11 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
       pricing_plan_key = ""
       rate_allocation  = 0
       sku              = ""
-      
+
       meters {
         name            = ""
         rate_allocation = 0
-        
+
         extended_metadata {
           key   = ""
           value = ""
@@ -44,7 +44,7 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
       plan_duration     = ""
       plan_name         = ""
       plan_type         = ""
-      
+
       dimensions {
         dimension_billing_frequency = ""
         dimension_description       = ""
@@ -52,7 +52,7 @@ resource "oci_self_subscription" "tf-sample-self-subscription" {
         dimension_name              = ""
         included_quantity           = 0
         metric_type                 = ""
-        
+
         rates {
           currency = ""
           rate     = 0

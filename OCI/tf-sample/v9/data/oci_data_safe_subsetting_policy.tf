@@ -16,7 +16,7 @@ resource "oci_data_safe_subsetting_policy" "tf-sample-data-safe-subsetting-polic
   tablespace                     = ""
   target_id                      = ""
   unrelated_tables_action        = ""
-  
+
   schema_source {
     schema_source           = ""
     schemas_for_subsetting  = []

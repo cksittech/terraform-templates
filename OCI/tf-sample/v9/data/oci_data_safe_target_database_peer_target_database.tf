@@ -3,7 +3,7 @@ resource "oci_data_safe_target_database_peer_target_database" "tf-sample-data-sa
   description              = ""
   display_name             = ""
   target_database_id       = ""
-  
+
   database_details {
     autonomous_database_id = ""
     database_type          = ""

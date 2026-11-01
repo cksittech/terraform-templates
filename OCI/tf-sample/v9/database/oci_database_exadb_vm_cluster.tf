@@ -27,7 +27,7 @@ resource "oci_database_exadb_vm_cluster" "tf-sample-database-exadb-vm-cluster" {
   tde_key_store_type           = ""
   time_zone                    = ""
   unregister_pkcs_trigger      = 0
-  
+
   data_collection_options {
     is_diagnostics_events_enabled = false
     is_health_monitoring_enabled  = false

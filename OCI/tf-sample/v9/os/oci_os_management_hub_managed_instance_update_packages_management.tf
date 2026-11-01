@@ -2,7 +2,7 @@ resource "oci_os_management_hub_managed_instance_update_packages_management" "tf
   managed_instance_id = ""
   package_names       = []
   update_types        = []
-  
+
   work_request_details {
     description  = ""
     display_name = ""

@@ -22,7 +22,7 @@ resource "oci_monitoring_alarm" "tf-sample-monitoring-alarm" {
   resource_group                                = ""
   rule_name                                     = ""
   severity                                      = ""
-  
+
   overrides {
     body             = ""
     pending_duration = ""

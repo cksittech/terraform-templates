@@ -89,13 +89,13 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   use_latest_available_backup_time_stamp         = false
   vault_id                                       = ""
   whitelisted_ips                                = []
-  
+
   autonomous_database_maintenance_window {
     availability_domain                    = ""
     is_maintenance_window_change_scheduled = false
     maintenance_end_time                   = ""
     maintenance_start_time                 = ""
-    
+
     day_of_week {
       name = ""
     }
@@ -146,7 +146,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
     is_maintenance_window_change_scheduled = false
     maintenance_end_time                   = ""
     maintenance_start_time                 = ""
-    
+
     day_of_week {
       name = ""
     }
@@ -154,7 +154,7 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
   scheduled_operations {
     scheduled_start_time = ""
     scheduled_stop_time  = ""
-    
+
     day_of_week {
       name = ""
     }

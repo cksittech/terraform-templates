@@ -16,7 +16,7 @@ resource "oci_dataflow_sql_endpoint" "tf-sample-dataflow-sql-endpoint" {
   spark_advanced_configurations = {}
   sql_endpoint_version          = ""
   state                         = ""
-  
+
   driver_shape_config {
     memory_in_gbs = 0
     ocpus         = 0
@@ -31,7 +31,7 @@ resource "oci_dataflow_sql_endpoint" "tf-sample-dataflow-sql-endpoint" {
     nsg_ids          = []
     subnet_id        = ""
     vcn_id           = ""
-    
+
     access_control_rules {
       ip_notation = ""
       value       = ""

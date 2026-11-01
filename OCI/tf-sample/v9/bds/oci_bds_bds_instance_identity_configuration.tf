@@ -8,7 +8,7 @@ resource "oci_bds_bds_instance_identity_configuration" "tf-sample-bds-bds-instan
   identity_domain_id                           = ""
   refresh_confidential_application_trigger     = ""
   refresh_upst_token_exchange_keytab_trigger   = ""
-  
+
   iam_user_sync_configuration_details {
     is_posix_attributes_addition_required = false
   }

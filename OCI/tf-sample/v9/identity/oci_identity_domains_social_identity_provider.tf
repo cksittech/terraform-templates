@@ -31,7 +31,7 @@ resource "oci_identity_domains_social_identity_provider" "tf-sample-identity-dom
   show_on_login                      = false
   social_jit_provisioning_enabled    = false
   status                             = ""
-  
+
   jit_prov_assigned_groups {
     value = ""
   }

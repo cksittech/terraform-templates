@@ -5,10 +5,10 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
   display_name       = ""
   domain             = ""
   freeform_tags      = {}
-  
+
   origin_groups {
     label = ""
-    
+
     origin_group {
       origin = ""
       weight = 0
@@ -19,7 +19,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
     https_port = 0
     label      = ""
     uri        = ""
-    
+
     custom_headers {
       name  = ""
       value = ""
@@ -38,7 +38,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
     is_sni_enabled                = false
     tls_protocols                 = []
     websocket_path_prefixes       = []
-    
+
     health_checks {
       expected_response_code_group   = []
       expected_response_text         = ""
@@ -62,7 +62,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
   waf_config {
     origin        = ""
     origin_groups = []
-    
+
     access_rules {
       action                       = ""
       block_action                 = ""
@@ -78,7 +78,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
       name                         = ""
       redirect_response_code       = ""
       redirect_url                 = ""
-      
+
       criteria {
         condition         = ""
         is_case_sensitive = false
@@ -103,7 +103,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
       is_client_caching_enabled = false
       key                       = ""
       name                      = ""
-      
+
       criteria {
         condition = ""
         value     = ""
@@ -121,7 +121,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
     custom_protection_rules {
       action = ""
       id     = ""
-      
+
       exclusions {
         exclusions = []
         target     = ""
@@ -135,7 +135,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
       is_enabled                              = false
       max_address_count                       = 0
       max_address_count_expiration_in_seconds = 0
-      
+
       challenge_settings {
         block_action                 = ""
         block_error_page_code        = ""
@@ -157,7 +157,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
       is_enabled                              = false
       is_nat_enabled                          = false
       recording_period_in_seconds             = 0
-      
+
       challenge_settings {
         block_action                 = ""
         block_error_page_code        = ""
@@ -181,7 +181,7 @@ resource "oci_waas_waas_policy" "tf-sample-waas-waas-policy" {
       failure_threshold            = 0
       is_enabled                   = false
       is_nat_enabled               = false
-      
+
       challenge_settings {
         block_action                 = ""
         block_error_page_code        = ""

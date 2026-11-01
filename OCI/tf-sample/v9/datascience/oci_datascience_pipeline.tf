@@ -7,7 +7,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
   freeform_tags                = {}
   parameters                   = {}
   project_id                   = ""
-  
+
   configuration_details {
     command_line_arguments     = ""
     environment_variables      = {}
@@ -19,7 +19,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
     block_storage_size_in_gbs_parameterized = ""
     shape_name                              = ""
     subnet_id                               = ""
-    
+
     shape_config_details {
       cpu_baseline                = ""
       memory_in_gbs               = 0
@@ -49,7 +49,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
     step_name            = ""
     step_run_name        = ""
     step_type            = ""
-    
+
     step_configuration_details {
       command_line_arguments     = ""
       environment_variables      = {}
@@ -70,7 +70,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
       logs_bucket_uri      = ""
       num_executors        = 0
       warehouse_bucket_uri = ""
-      
+
       driver_shape_config_details {
         memory_in_gbs               = 0
         memory_in_gbs_parameterized = ""
@@ -89,7 +89,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
       block_storage_size_in_gbs_parameterized = ""
       shape_name                              = ""
       subnet_id                               = ""
-      
+
       shape_config_details {
         cpu_baseline                = ""
         memory_in_gbs               = 0
@@ -100,7 +100,7 @@ resource "oci_datascience_pipeline" "tf-sample-datascience-pipeline" {
     }
     step_parameters {
       parameter_type = ""
-      
+
       output {
         output_file           = ""
         output_parameter_type = ""

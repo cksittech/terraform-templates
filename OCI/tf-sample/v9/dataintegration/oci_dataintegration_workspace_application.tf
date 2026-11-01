@@ -11,7 +11,7 @@ resource "oci_dataintegration_workspace_application" "tf-sample-dataintegration-
   object_status = 0
   state         = ""
   workspace_id  = ""
-  
+
   registry_metadata {
     aggregator_key   = ""
     is_favorite      = false

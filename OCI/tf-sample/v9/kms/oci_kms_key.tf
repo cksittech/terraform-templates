@@ -9,7 +9,7 @@ resource "oci_kms_key" "tf-sample-kms-key" {
   protection_mode          = ""
   restore_trigger          = false
   time_of_deletion         = ""
-  
+
   auto_key_rotation_details {
     last_rotation_message     = ""
     last_rotation_status      = ""

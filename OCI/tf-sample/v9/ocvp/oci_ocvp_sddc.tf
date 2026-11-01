@@ -11,7 +11,7 @@ resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
   reserving_hcx_on_premise_license_keys = []
   ssh_authorized_keys                   = ""
   vmware_software_version               = ""
-  
+
   initial_configuration {
     initial_cluster_configurations {
       capacity_reservation_id                = ""
@@ -28,7 +28,7 @@ resource "oci_ocvp_sddc" "tf-sample-ocvp-sddc" {
       is_shielded_instance_enabled           = false
       vsphere_type                           = ""
       workload_network_cidr                  = ""
-      
+
       cluster_byol_allocation_details {
         firewall_byol_allocation_id = ""
         vsan_byol_allocation_id     = ""

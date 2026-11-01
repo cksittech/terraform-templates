@@ -6,7 +6,7 @@ resource "oci_data_safe_database_security_config_management" "tf-sample-data-saf
   freeform_tags   = {}
   refresh_trigger = false
   target_id       = ""
-  
+
   sql_firewall_config {
     exclude_job              = ""
     status                   = ""

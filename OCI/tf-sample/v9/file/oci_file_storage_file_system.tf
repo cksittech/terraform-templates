@@ -11,7 +11,7 @@ resource "oci_file_storage_file_system" "tf-sample-file-storage-file-system" {
   is_lock_override              = false
   kms_key_id                    = ""
   source_snapshot_id            = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""

@@ -7,12 +7,12 @@ resource "oci_marketplace_publication" "tf-sample-marketplace-publication" {
   long_description          = ""
   name                      = ""
   short_description         = ""
-  
+
   package_details {
     image_id        = ""
     package_type    = ""
     package_version = ""
-    
+
     eula {
       eula_type    = ""
       license_text = ""

@@ -12,7 +12,7 @@ resource "oci_database_exascale_db_storage_vault" "tf-sample-database-exascale-d
   is_autoscale_enabled              = false
   subscription_id                   = ""
   time_zone                         = ""
-  
+
   high_capacity_database_storage {
     total_size_in_gbs = 0
   }

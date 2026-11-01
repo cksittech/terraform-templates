@@ -5,7 +5,7 @@ resource "oci_database_tools_database_tools_database_api_gateway_config" "tf-sam
   freeform_tags   = {}
   metadata_source = ""
   type            = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""

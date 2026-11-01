@@ -7,7 +7,7 @@ resource "oci_devops_deployment" "tf-sample-devops-deployment" {
   freeform_tags                 = {}
   previous_deployment_id        = ""
   trigger_new_devops_deployment = false
-  
+
   deploy_artifact_override_arguments {
     items {
       deploy_artifact_id = ""

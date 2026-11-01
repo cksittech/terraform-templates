@@ -4,7 +4,7 @@ resource "oci_generative_ai_semantic_store" "tf-sample-generative-ai-semantic-st
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   data_source {
     connection_type          = ""
     enrichment_connection_id = ""
@@ -16,7 +16,7 @@ resource "oci_generative_ai_semantic_store" "tf-sample-generative-ai-semantic-st
   }
   schemas {
     connection_type = ""
-    
+
     schemas {
       name = ""
     }

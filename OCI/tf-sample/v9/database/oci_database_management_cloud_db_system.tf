@@ -4,7 +4,7 @@ resource "oci_database_management_cloud_db_system" "tf-sample-database-managemen
   defined_tags           = {}
   display_name           = ""
   freeform_tags          = {}
-  
+
   database_management_config {
     is_enabled = false
     metadata   = ""

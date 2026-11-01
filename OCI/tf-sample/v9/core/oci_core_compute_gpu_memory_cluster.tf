@@ -9,7 +9,7 @@ resource "oci_core_compute_gpu_memory_cluster" "tf-sample-core-compute-gpu-memor
   instance_configuration_id = ""
   private_ip_ids            = []
   size                      = ""
-  
+
   gpu_memory_cluster_scale_config {
     is_downsize_enabled = false
     is_upsize_enabled   = false

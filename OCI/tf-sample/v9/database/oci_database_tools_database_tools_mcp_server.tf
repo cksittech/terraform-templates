@@ -10,7 +10,7 @@ resource "oci_database_tools_database_tools_mcp_server" "tf-sample-database-tool
   refresh_token_expiry_in_seconds = 0
   runtime_identity                = ""
   type                            = ""
-  
+
   custom_roles {
     description  = ""
     display_name = ""
@@ -23,7 +23,7 @@ resource "oci_database_tools_database_tools_mcp_server" "tf-sample-database-tool
   }
   storage {
     type = ""
-    
+
     bucket {
       bucket    = ""
       namespace = ""

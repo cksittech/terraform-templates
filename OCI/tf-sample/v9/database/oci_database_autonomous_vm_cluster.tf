@@ -19,7 +19,7 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
   time_zone                             = ""
   total_container_databases             = 0
   vm_cluster_network_id                 = ""
-  
+
   maintenance_window_details {
     custom_action_timeout_in_mins    = 0
     hours_of_day                     = []
@@ -30,7 +30,7 @@ resource "oci_database_autonomous_vm_cluster" "tf-sample-database-autonomous-vm-
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }

@@ -4,7 +4,7 @@ resource "oci_generative_ai_hosted_deployment" "tf-sample-generative-ai-hosted-d
   display_name          = ""
   freeform_tags         = {}
   hosted_application_id = ""
-  
+
   active_artifact {
     artifact_type                  = ""
     container_uri                  = ""

@@ -6,7 +6,7 @@ resource "oci_identity_domains_my_api_key" "tf-sample-identity-domains-my-api-ke
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   tags {
     key   = ""
     value = ""

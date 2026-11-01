@@ -12,7 +12,7 @@ resource "oci_file_storage_mount_target" "tf-sample-file-storage-mount-target" {
   requested_throughput = ""
   security_attributes  = {}
   subnet_id            = ""
-  
+
   kerberos {
     backup_key_tab_secret_version  = 0
     current_key_tab_secret_version = 0

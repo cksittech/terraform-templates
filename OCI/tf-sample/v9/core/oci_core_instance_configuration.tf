@@ -5,7 +5,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
   freeform_tags  = {}
   instance_id    = ""
   source         = ""
-  
+
   gmc_configs {
     availability_domain       = ""
     compartment_id            = ""
@@ -14,7 +14,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
     freeform_tags             = {}
     instance_configuration_id = ""
     size                      = ""
-    
+
     gpu_memory_cluster_scale_config {
       is_downsize_enabled = false
       is_upsize_enabled   = false
@@ -23,10 +23,10 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
   }
   instance_details {
     instance_type = ""
-    
+
     block_volumes {
       volume_id = ""
-      
+
       attach_details {
         device                              = ""
         display_name                        = ""
@@ -50,7 +50,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         size_in_gbs                = ""
         vpus_per_gb                = ""
         xrc_kms_key_id             = ""
-        
+
         autotune_policies {
           autotune_type   = ""
           max_vpus_per_gb = ""
@@ -85,12 +85,12 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
       preferred_maintenance_action        = ""
       security_attributes                 = {}
       shape                               = ""
-      
+
       agent_config {
         are_all_plugins_disabled = false
         is_management_disabled   = false
         is_monitoring_disabled   = false
-        
+
         plugins_config {
           desired_state = ""
           name          = ""
@@ -115,7 +115,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         skip_source_dest_check    = false
         subnet_cidr               = ""
         subnet_id                 = ""
-        
+
         ipv6address_ipv6subnet_cidr_pair_details {
           ipv6address     = ""
           ipv6id          = ""
@@ -178,7 +178,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         image_id                = ""
         kms_key_id              = ""
         source_type             = ""
-        
+
         instance_source_image_filter_details {
           compartment_id           = ""
           defined_tags_filter      = {}
@@ -190,7 +190,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
     options {
       block_volumes {
         volume_id = ""
-        
+
         attach_details {
           device                              = ""
           display_name                        = ""
@@ -214,7 +214,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
           size_in_gbs                = ""
           vpus_per_gb                = ""
           xrc_kms_key_id             = ""
-          
+
           autotune_policies {
             autotune_type   = ""
             max_vpus_per_gb = ""
@@ -249,12 +249,12 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         preferred_maintenance_action        = ""
         security_attributes                 = {}
         shape                               = ""
-        
+
         agent_config {
           are_all_plugins_disabled = false
           is_management_disabled   = false
           is_monitoring_disabled   = false
-          
+
           plugins_config {
             desired_state = ""
             name          = ""
@@ -279,7 +279,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
           skip_source_dest_check    = false
           subnet_cidr               = ""
           subnet_id                 = ""
-          
+
           ipv6address_ipv6subnet_cidr_pair_details {
             ipv6address     = ""
             ipv6id          = ""
@@ -342,7 +342,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
           image_id                = ""
           kms_key_id              = ""
           source_type             = ""
-          
+
           instance_source_image_filter_details {
             compartment_id           = ""
             defined_tags_filter      = {}
@@ -354,7 +354,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
       secondary_vnics {
         display_name = ""
         nic_index    = 0
-        
+
         create_vnic_details {
           assign_ipv6ip             = false
           assign_private_dns_record = false
@@ -370,7 +370,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
           skip_source_dest_check    = false
           subnet_cidr               = ""
           subnet_id                 = ""
-          
+
           ipv6address_ipv6subnet_cidr_pair_details {
             ipv6address     = ""
             ipv6id          = ""
@@ -382,7 +382,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
     secondary_vnics {
       display_name = ""
       nic_index    = 0
-      
+
       create_vnic_details {
         assign_ipv6ip             = false
         assign_private_dns_record = false
@@ -398,7 +398,7 @@ resource "oci_core_instance_configuration" "tf-sample-core-instance-configuratio
         skip_source_dest_check    = false
         subnet_cidr               = ""
         subnet_id                 = ""
-        
+
         ipv6address_ipv6subnet_cidr_pair_details {
           ipv6address     = ""
           ipv6id          = ""

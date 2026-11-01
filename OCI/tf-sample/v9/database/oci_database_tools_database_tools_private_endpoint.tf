@@ -9,7 +9,7 @@ resource "oci_database_tools_database_tools_private_endpoint" "tf-sample-databas
   private_endpoint_ip = ""
   security_attributes = {}
   subnet_id           = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""

@@ -8,7 +8,7 @@ resource "oci_log_analytics_namespace_scheduled_task" "tf-sample-log-analytics-n
   namespace       = ""
   saved_search_id = ""
   task_type       = ""
-  
+
   action {
     compartment_id_in_subtree = false
     data_type                 = ""
@@ -17,18 +17,18 @@ resource "oci_log_analytics_namespace_scheduled_task" "tf-sample-log-analytics-n
     query_string              = ""
     saved_search_id           = ""
     type                      = ""
-    
+
     metric_extraction {
       compartment_id = ""
       metric_name    = ""
       namespace      = ""
       resource_group = ""
-      
+
       metric_collections {
         metric_name             = ""
         metric_query_field_name = ""
         query_table_name        = ""
-        
+
         dimensions {
           dimension_name   = ""
           query_field_name = ""
@@ -37,7 +37,7 @@ resource "oci_log_analytics_namespace_scheduled_task" "tf-sample-log-analytics-n
     }
     template_details {
       template_id = ""
-      
+
       template_params {
         key_field   = ""
         value_field = ""

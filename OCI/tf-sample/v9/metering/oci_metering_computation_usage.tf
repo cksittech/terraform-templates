@@ -8,7 +8,7 @@ resource "oci_metering_computation_usage" "tf-sample-metering-computation-usage"
   tenant_id            = ""
   time_usage_ended     = ""
   time_usage_started   = ""
-  
+
   forecast {
     forecast_type         = ""
     time_forecast_ended   = ""

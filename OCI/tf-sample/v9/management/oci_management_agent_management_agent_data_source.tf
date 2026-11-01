@@ -12,7 +12,7 @@ resource "oci_management_agent_management_agent_data_source" "tf-sample-manageme
   schedule_mins                = 0
   type                         = ""
   url                          = ""
-  
+
   metric_dimensions {
     name  = ""
     value = ""

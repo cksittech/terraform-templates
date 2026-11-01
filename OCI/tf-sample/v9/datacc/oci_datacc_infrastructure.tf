@@ -24,7 +24,7 @@ resource "oci_datacc_infrastructure" "tf-sample-datacc-infrastructure" {
   shape                            = ""
   system_model                     = ""
   vlan_id                          = ""
-  
+
   contacts {
     email                    = ""
     is_contact_mos_validated = false

@@ -4,7 +4,7 @@ resource "oci_database_key_store" "tf-sample-database-key-store" {
   defined_tags            = {}
   display_name            = ""
   freeform_tags           = {}
-  
+
   type_details {
     admin_username = ""
     connection_ips = []

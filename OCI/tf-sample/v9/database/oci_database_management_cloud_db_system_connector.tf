@@ -5,10 +5,10 @@ resource "oci_database_management_cloud_db_system_connector" "tf-sample-database
   defined_tags       = {}
   display_name       = ""
   freeform_tags      = {}
-  
+
   connection_info {
     component_type = ""
-    
+
     connection_credentials {
       credential_name    = ""
       credential_type    = ""

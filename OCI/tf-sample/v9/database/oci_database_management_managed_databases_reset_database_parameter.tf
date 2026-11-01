@@ -2,7 +2,7 @@ resource "oci_database_management_managed_databases_reset_database_parameter" "t
   managed_database_id = ""
   parameters          = []
   scope               = ""
-  
+
   credentials {
     password  = ""
     role      = ""

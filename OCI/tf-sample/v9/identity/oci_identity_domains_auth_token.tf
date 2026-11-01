@@ -9,7 +9,7 @@ resource "oci_identity_domains_auth_token" "tf-sample-identity-domains-auth-toke
   resource_type_schema_version = ""
   schemas                      = []
   status                       = ""
-  
+
   tags {
     key   = ""
     value = ""

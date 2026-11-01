@@ -17,7 +17,7 @@ resource "oci_cloud_bridge_asset_source" "tf-sample-cloud-bridge-asset-source" {
   system_tags                      = {}
   type                             = ""
   vcenter_endpoint                 = ""
-  
+
   discovery_credentials {
     secret_id = ""
     type      = ""

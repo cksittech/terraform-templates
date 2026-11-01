@@ -5,13 +5,13 @@ resource "oci_core_compute_capacity_reservation" "tf-sample-core-compute-capacit
   display_name           = ""
   freeform_tags          = {}
   is_default_reservation = false
-  
+
   instance_reservation_configs {
     cluster_placement_group_id = ""
     fault_domain               = ""
     instance_shape             = ""
     reserved_count             = ""
-    
+
     cluster_config {
       hpc_island_id     = ""
       network_block_ids = []

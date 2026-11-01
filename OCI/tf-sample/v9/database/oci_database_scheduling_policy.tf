@@ -4,7 +4,7 @@ resource "oci_database_scheduling_policy" "tf-sample-database-scheduling-policy"
   defined_tags   = {}
   display_name   = ""
   freeform_tags  = {}
-  
+
   cadence_start_month {
     name = ""
   }

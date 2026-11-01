@@ -62,7 +62,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   show_in_my_apps                   = false
   terms_of_service_url              = ""
   trust_scope                       = ""
-  
+
   alias_apps {
     value = ""
   }
@@ -157,7 +157,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   }
   urnietfparamsscimschemasoracleidcsextensiondbcs_app {
     domain_name = ""
-    
+
     domain_app {
       value = ""
     }
@@ -165,7 +165,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
   urnietfparamsscimschemasoracleidcsextensionenterprise_app_app {
     allow_authz_decision_ttl = 0
     deny_authz_decision_ttl  = 0
-    
+
     allow_authz_policy {
       value = ""
     }
@@ -184,7 +184,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
     reveal_password_on_form          = false
     user_name_form_expression        = ""
     user_name_form_template          = ""
-    
+
     form_fill_url_match {
       form_url            = ""
       form_url_match_type = ""
@@ -199,7 +199,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
     sync_from_template               = false
     user_name_form_expression        = ""
     user_name_form_template          = ""
-    
+
     form_fill_url_match {
       form_url            = ""
       form_url_match_type = ""
@@ -221,7 +221,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
     enable_sync                             = false
     enable_sync_summary_report_notification = false
     is_authoritative                        = false
-    
+
     bundle_configuration_properties {
       confidential = false
       display_name = ""
@@ -282,7 +282,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
     response_format_delimiter          = ""
     secret_key                         = ""
     type_of_radius_app                 = ""
-    
+
     group_membership_to_return {
       value = ""
     }
@@ -313,7 +313,7 @@ resource "oci_identity_domains_app" "tf-sample-identity-domains-app" {
     signature_hash_algorithm          = ""
     signing_certificate               = ""
     succinct_id                       = ""
-    
+
     group_assertion_attributes {
       condition  = ""
       format     = ""

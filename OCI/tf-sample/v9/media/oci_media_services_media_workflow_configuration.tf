@@ -5,7 +5,7 @@ resource "oci_media_services_media_workflow_configuration" "tf-sample-media-serv
   freeform_tags    = {}
   is_lock_override = false
   parameters       = ""
-  
+
   locks {
     compartment_id      = ""
     message             = ""

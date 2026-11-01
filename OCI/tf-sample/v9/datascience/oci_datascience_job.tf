@@ -9,13 +9,13 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
   freeform_tags                = {}
   job_artifact                 = ""
   project_id                   = ""
-  
+
   job_configuration_details {
     command_line_arguments     = ""
     environment_variables      = {}
     job_type                   = ""
     maximum_runtime_in_minutes = ""
-    
+
     startup_probe_details {
       command                  = []
       failure_threshold        = 0
@@ -38,7 +38,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
     job_infrastructure_type   = ""
     shape_name                = ""
     subnet_id                 = ""
-    
+
     job_shape_config_details {
       cpu_baseline  = ""
       memory_in_gbs = 0
@@ -66,7 +66,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
     job_node_type              = ""
     maximum_runtime_in_minutes = ""
     startup_order              = ""
-    
+
     job_network_configuration {
       job_network_type = ""
       subnet_id        = ""
@@ -75,13 +75,13 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
       minimum_success_replicas = 0
       name                     = ""
       replicas                 = 0
-      
+
       job_configuration_details {
         command_line_arguments     = ""
         environment_variables      = {}
         job_type                   = ""
         maximum_runtime_in_minutes = ""
-        
+
         startup_probe_details {
           command                  = []
           failure_threshold        = 0
@@ -104,7 +104,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
         job_infrastructure_type   = ""
         shape_name                = ""
         subnet_id                 = ""
-        
+
         job_shape_config_details {
           cpu_baseline  = ""
           memory_in_gbs = 0

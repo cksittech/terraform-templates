@@ -5,7 +5,7 @@ resource "oci_disaster_recovery_automatic_dr_configuration" "tf-sample-disaster-
   display_name                  = ""
   dr_protection_group_id        = ""
   freeform_tags                 = {}
-  
+
   members {
     is_auto_failover_enabled   = false
     is_auto_switchover_enabled = false

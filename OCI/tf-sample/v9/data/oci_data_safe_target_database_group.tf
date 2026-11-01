@@ -4,7 +4,7 @@ resource "oci_data_safe_target_database_group" "tf-sample-data-safe-target-datab
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   matching_criteria {
     exclude {
       target_database_ids = []
@@ -15,7 +15,7 @@ resource "oci_data_safe_target_database_group" "tf-sample-data-safe-target-datab
       freeform_tags_in    = {}
       system_tags         = {}
       target_database_ids = []
-      
+
       compartments {
         id                 = ""
         is_include_subtree = false

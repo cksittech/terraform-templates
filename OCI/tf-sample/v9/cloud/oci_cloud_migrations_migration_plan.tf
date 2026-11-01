@@ -5,7 +5,7 @@ resource "oci_cloud_migrations_migration_plan" "tf-sample-cloud-migrations-migra
   freeform_tags            = {}
   migration_id             = ""
   source_migration_plan_id = ""
-  
+
   strategies {
     adjustment_multiplier = 0
     metric_time_window    = ""

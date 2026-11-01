@@ -7,7 +7,7 @@ resource "oci_file_storage_filesystem_snapshot_policy" "tf-sample-file-storage-f
   is_lock_override    = false
   policy_prefix       = ""
   state               = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""
@@ -24,7 +24,7 @@ resource "oci_file_storage_filesystem_snapshot_policy" "tf-sample-file-storage-f
     schedule_prefix               = ""
     time_schedule_start           = ""
     time_zone                     = ""
-    
+
     lock_duration_details {
       cool_off_duration = 0
       lock_duration     = 0

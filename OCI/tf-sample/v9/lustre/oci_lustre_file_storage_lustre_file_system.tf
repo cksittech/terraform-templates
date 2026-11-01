@@ -14,7 +14,7 @@ resource "oci_lustre_file_storage_lustre_file_system" "tf-sample-lustre-file-sto
   performance_tier             = ""
   subnet_id                    = ""
   system_tags                  = {}
-  
+
   date_time_details {
     date = ""
     time = ""

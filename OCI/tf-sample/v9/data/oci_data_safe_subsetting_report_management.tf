@@ -9,7 +9,7 @@ resource "oci_data_safe_subsetting_report_management" "tf-sample-data-safe-subse
   subsetting_policy_id     = ""
   tablespace               = ""
   target_id                = ""
-  
+
   target_credentials {
     password  = ""
     user_name = ""

@@ -4,7 +4,7 @@ resource "oci_ocvp_management_appliance" "tf-sample-ocvp-management-appliance" {
   freeform_tags   = {}
   public_ssh_keys = ""
   sddc_id         = ""
-  
+
   configuration {
     is_log_ingestion_enabled      = false
     is_metrics_collection_enabled = false

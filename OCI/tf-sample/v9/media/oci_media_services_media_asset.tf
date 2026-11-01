@@ -16,7 +16,7 @@ resource "oci_media_services_media_asset" "tf-sample-media-services-media-asset"
   source_media_workflow_id      = ""
   source_media_workflow_version = ""
   type                          = ""
-  
+
   locks {
     compartment_id      = ""
     message             = ""

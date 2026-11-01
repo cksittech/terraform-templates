@@ -4,7 +4,7 @@ resource "oci_generative_ai_hosted_application_iam" "tf-sample-generative-ai-hos
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   environment_variables {
     name  = ""
     type  = ""

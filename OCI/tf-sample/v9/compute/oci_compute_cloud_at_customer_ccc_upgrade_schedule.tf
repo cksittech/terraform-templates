@@ -4,7 +4,7 @@ resource "oci_compute_cloud_at_customer_ccc_upgrade_schedule" "tf-sample-compute
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   events {
     description                = ""
     schedule_event_duration    = ""

@@ -6,12 +6,12 @@ resource "oci_batch_batch_context" "tf-sample-batch-batch-context" {
   entitlements   = {}
   freeform_tags  = {}
   state          = ""
-  
+
   fleets {
     max_concurrent_tasks = 0
     name                 = ""
     type                 = ""
-    
+
     shape {
       disk_size_in_gbs = 0
       memory_in_gbs    = 0

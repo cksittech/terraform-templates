@@ -13,7 +13,7 @@ resource "oci_identity_domains_rule" "tf-sample-identity-domains-rule" {
   resource_type_schema_version = ""
   rule_groovy                  = ""
   schemas                      = []
-  
+
   condition_group {
     type  = ""
     value = ""

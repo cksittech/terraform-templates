@@ -13,7 +13,7 @@ resource "oci_load_balancer_load_balancer" "tf-sample-load-balancer-load-balance
   security_attributes          = {}
   shape                        = ""
   subnet_ids                   = []
-  
+
   reserved_ips {
     id = ""
   }

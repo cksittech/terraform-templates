@@ -12,7 +12,7 @@ resource "oci_opsi_news_report" "tf-sample-opsi-news-report" {
   ons_topic_id                    = ""
   status                          = ""
   tag_filters                     = []
-  
+
   content_types {
     actionable_insights_resources                  = []
     capacity_planning_resources                    = []

@@ -10,7 +10,7 @@ resource "oci_identity_domains_customer_secret_key" "tf-sample-identity-domains-
   resource_type_schema_version = ""
   schemas                      = []
   status                       = ""
-  
+
   tags {
     key   = ""
     value = ""

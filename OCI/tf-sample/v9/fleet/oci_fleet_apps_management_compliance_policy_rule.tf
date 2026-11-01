@@ -6,7 +6,7 @@ resource "oci_fleet_apps_management_compliance_policy_rule" "tf-sample-fleet-app
   grace_period         = ""
   patch_type_id        = []
   severity             = []
-  
+
   patch_selection {
     days_since_release = 0
     patch_level        = ""

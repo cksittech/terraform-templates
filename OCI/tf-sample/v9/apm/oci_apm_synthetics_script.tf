@@ -6,7 +6,7 @@ resource "oci_apm_synthetics_script" "tf-sample-apm-synthetics-script" {
   defined_tags      = {}
   display_name      = ""
   freeform_tags     = {}
-  
+
   parameters {
     is_secret   = false
     param_name  = ""

@@ -5,7 +5,7 @@ resource "oci_file_storage_snapshot" "tf-sample-file-storage-snapshot" {
   freeform_tags    = {}
   is_lock_override = false
   name             = ""
-  
+
   lock_duration_details {
     cool_off_duration = 0
     lock_duration     = 0

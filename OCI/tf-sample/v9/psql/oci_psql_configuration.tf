@@ -11,7 +11,7 @@ resource "oci_psql_configuration" "tf-sample-psql-configuration" {
   is_flexible                 = false
   shape                       = ""
   system_tags                 = {}
-  
+
   db_configuration_overrides {
     items {
       config_key             = ""

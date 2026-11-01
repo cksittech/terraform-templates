@@ -22,12 +22,12 @@ resource "oci_core_instance" "tf-sample-core-instance" {
   shape                                   = ""
   state                                   = ""
   update_operation_constraint             = ""
-  
+
   agent_config {
     are_all_plugins_disabled = false
     is_management_disabled   = false
     is_monitoring_disabled   = false
-    
+
     plugins_config {
       desired_state = ""
       name          = ""
@@ -53,7 +53,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     subnet_cidr               = ""
     subnet_id                 = ""
     vlan_id                   = ""
-    
+
     ipv6address_ipv6subnet_cidr_pair_details {
       ipv6address     = ""
       ipv6id          = ""
@@ -83,7 +83,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     type                                = ""
     use_chap                            = false
     volume_id                           = ""
-    
+
     launch_create_volume_details {
       compartment_id       = ""
       display_name         = ""
@@ -138,7 +138,7 @@ resource "oci_core_instance" "tf-sample-core-instance" {
     kms_key_id                      = ""
     source_id                       = ""
     source_type                     = ""
-    
+
     instance_source_image_filter_details {
       compartment_id           = ""
       defined_tags_filter      = {}

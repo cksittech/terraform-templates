@@ -12,7 +12,7 @@ resource "oci_log_analytics_log_analytics_entity" "tf-sample-log-analytics-log-a
   source_id            = ""
   time_last_discovered = ""
   timezone_region      = ""
-  
+
   metadata {
     items {
       name  = ""

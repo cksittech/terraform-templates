@@ -3,7 +3,7 @@ resource "oci_bastion_session" "tf-sample-bastion-session" {
   display_name           = ""
   key_type               = ""
   session_ttl_in_seconds = 0
-  
+
   key_details {
     public_key_content = ""
   }

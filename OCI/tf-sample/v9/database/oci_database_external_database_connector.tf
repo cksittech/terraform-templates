@@ -5,7 +5,7 @@ resource "oci_database_external_database_connector" "tf-sample-database-external
   display_name         = ""
   external_database_id = ""
   freeform_tags        = {}
-  
+
   connection_credentials {
     credential_name = ""
     credential_type = ""

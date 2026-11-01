@@ -12,7 +12,7 @@ resource "oci_database_tools_runtime_database_tools_connection_property_set" "tf
   object_storage_namespace                      = ""
   print_server_type                             = ""
   property_set_key                              = ""
-  
+
   identity_provider {
     configs = {}
     type    = ""

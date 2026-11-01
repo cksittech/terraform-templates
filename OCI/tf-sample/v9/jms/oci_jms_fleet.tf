@@ -5,7 +5,7 @@ resource "oci_jms_fleet" "tf-sample-jms-fleet" {
   display_name                 = ""
   freeform_tags                = {}
   is_advanced_features_enabled = false
-  
+
   inventory_log {
     log_group_id = ""
     log_id       = ""

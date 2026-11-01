@@ -12,7 +12,7 @@ resource "oci_identity_domains_security_question_setting" "tf-sample-identity-do
   resource_type_schema_version = ""
   schemas                      = []
   security_question_setting_id = ""
-  
+
   tags {
     key   = ""
     value = ""

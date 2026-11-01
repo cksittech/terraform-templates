@@ -1,7 +1,7 @@
 resource "oci_load_balancer_rule_set" "tf-sample-load-balancer-rule-set" {
   load_balancer_id = ""
   name             = ""
-  
+
   items {
     action                         = ""
     allowed_methods                = []
@@ -15,7 +15,7 @@ resource "oci_load_balancer_rule_set" "tf-sample-load-balancer-rule-set" {
     status_code                    = 0
     suffix                         = ""
     value                          = ""
-    
+
     conditions {
       attribute_name  = ""
       attribute_value = ""

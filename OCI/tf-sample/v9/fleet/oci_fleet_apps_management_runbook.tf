@@ -10,16 +10,16 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
   operation             = ""
   os_type               = ""
   platform              = ""
-  
+
   runbook_version {
     is_latest = false
     version   = ""
-    
+
     execution_workflow_details {
       workflow {
         group_name = ""
         type       = ""
-        
+
         steps {
           group_name = ""
           step_name  = ""
@@ -31,11 +31,11 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
     groups {
       name = ""
       type = ""
-      
+
       properties {
         action_on_failure = ""
         pre_condition     = ""
-        
+
         notification_preferences {
           should_notify_on_pause        = false
           should_notify_on_task_failure = false
@@ -49,11 +49,11 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
           condition = ""
           host      = ""
           kind      = ""
-          
+
           previous_task_instance_details {
             resource_id   = ""
             resource_type = ""
-            
+
             output_variable_details {
               output_variable_name = ""
               step_name            = ""
@@ -64,11 +64,11 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
     }
     rollback_workflow_details {
       scope = ""
-      
+
       workflow {
         group_name = ""
         type       = ""
-        
+
         steps {
           group_name = ""
           step_name  = ""
@@ -79,10 +79,10 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
     }
     tasks {
       step_name = ""
-      
+
       output_variable_mappings {
         name = ""
-        
+
         output_variable_details {
           output_variable_name = ""
           step_name            = ""
@@ -91,7 +91,7 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
       step_properties {
         action_on_failure = ""
         pre_condition     = ""
-        
+
         notification_preferences {
           should_notify_on_pause        = false
           should_notify_on_task_failure = false
@@ -105,11 +105,11 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
           condition = ""
           host      = ""
           kind      = ""
-          
+
           previous_task_instance_details {
             resource_id   = ""
             resource_type = ""
-            
+
             output_variable_details {
               output_variable_name = ""
               step_name            = ""
@@ -127,7 +127,7 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
         platform                   = ""
         scope                      = ""
         task_record_id             = ""
-        
+
         execution_details {
           catalog_id                      = ""
           command                         = ""
@@ -138,7 +138,7 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
           is_locked                       = false
           is_read_output_variable_enabled = false
           target_compartment_id           = ""
-          
+
           content {
             bucket      = ""
             catalog_id  = ""
@@ -153,7 +153,7 @@ resource "oci_fleet_apps_management_runbook" "tf-sample-fleet-apps-management-ru
           }
           variables {
             output_variables = []
-            
+
             input_variables {
               description = ""
               name        = ""

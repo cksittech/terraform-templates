@@ -12,7 +12,7 @@ resource "oci_capacity_management_occ_capacity_request" "tf-sample-capacity-mana
   region                          = ""
   request_state                   = ""
   request_type                    = ""
-  
+
   details {
     actual_handover_quantity   = ""
     availability_domain        = ""
@@ -24,7 +24,7 @@ resource "oci_capacity_management_occ_capacity_request" "tf-sample-capacity-mana
     resource_type              = ""
     source_workload_type       = ""
     workload_type              = ""
-    
+
     associated_occ_handover_resource_block_list {
       handover_quantity              = ""
       occ_handover_resource_block_id = ""

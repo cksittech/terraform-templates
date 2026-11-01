@@ -8,7 +8,7 @@ resource "oci_dns_zone" "tf-sample-dns-zone" {
   scope           = ""
   view_id         = ""
   zone_type       = ""
-  
+
   external_downstreams {
     address     = ""
     port        = 0

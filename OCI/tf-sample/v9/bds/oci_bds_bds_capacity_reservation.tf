@@ -3,7 +3,7 @@ resource "oci_bds_bds_capacity_reservation" "tf-sample-bds-bds-capacity-reservat
   defined_tags   = {}
   display_name   = ""
   freeform_tags  = {}
-  
+
   compute_capacity_reservations {
     domain1reservation_id = ""
     domain2reservation_id = ""

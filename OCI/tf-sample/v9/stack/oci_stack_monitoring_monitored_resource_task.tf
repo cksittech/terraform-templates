@@ -3,7 +3,7 @@ resource "oci_stack_monitoring_monitored_resource_task" "tf-sample-stack-monitor
   defined_tags   = {}
   freeform_tags  = {}
   name           = ""
-  
+
   task_details {
     agent_id                                      = ""
     availability_proxy_metric_collection_interval = 0
@@ -23,13 +23,13 @@ resource "oci_stack_monitoring_monitored_resource_task" "tf-sample-stack-monitor
     should_use_metrics_flow_for_status            = false
     source                                        = ""
     type                                          = ""
-    
+
     receiver_properties {
       listener_port = 0
     }
     resource_types_configuration {
       resource_type = ""
-      
+
       availability_metrics_config {
         collection_interval_in_seconds = 0
         metrics                        = []
@@ -38,7 +38,7 @@ resource "oci_stack_monitoring_monitored_resource_task" "tf-sample-stack-monitor
         collector_types                   = []
         metric_upload_interval_in_seconds = 0
         telemetry_resource_group          = ""
-        
+
         collectd_resource_name_config {
           exclude_properties = []
           include_properties = []

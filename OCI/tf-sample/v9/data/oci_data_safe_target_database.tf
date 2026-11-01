@@ -5,7 +5,7 @@ resource "oci_data_safe_target_database" "tf-sample-data-safe-target-database" {
   display_name              = ""
   freeform_tags             = {}
   manage_privileges_trigger = 0
-  
+
   connection_option {
     connection_type              = ""
     datasafe_private_endpoint_id = ""
@@ -31,7 +31,7 @@ resource "oci_data_safe_target_database" "tf-sample-data-safe-target-database" {
     dataguard_association_id = ""
     description              = ""
     display_name             = ""
-    
+
     database_details {
       autonomous_database_id = ""
       database_type          = ""

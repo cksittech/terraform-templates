@@ -11,7 +11,7 @@ resource "oci_core_boot_volume" "tf-sample-core-boot-volume" {
   size_in_gbs                   = ""
   vpus_per_gb                   = ""
   xrc_kms_key_id                = ""
-  
+
   autotune_policies {
     autotune_type   = ""
     max_vpus_per_gb = ""

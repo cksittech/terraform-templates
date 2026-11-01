@@ -9,7 +9,7 @@ resource "oci_database_autonomous_exadata_infrastructure" "tf-sample-database-au
   nsg_ids        = []
   shape          = ""
   subnet_id      = ""
-  
+
   maintenance_window_details {
     custom_action_timeout_in_mins    = 0
     hours_of_day                     = []
@@ -20,7 +20,7 @@ resource "oci_database_autonomous_exadata_infrastructure" "tf-sample-database-au
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }

@@ -8,7 +8,7 @@ resource "oci_database_tools_database_tools_sql_report" "tf-sample-database-tool
   purpose        = ""
   source         = ""
   type           = ""
-  
+
   columns {
     description = ""
     name        = ""

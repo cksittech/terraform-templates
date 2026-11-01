@@ -5,7 +5,7 @@ resource "oci_management_agent_named_credential" "tf-sample-management-agent-nam
   management_agent_id = ""
   name                = ""
   type                = ""
-  
+
   properties {
     name           = ""
     value          = ""

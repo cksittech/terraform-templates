@@ -8,7 +8,7 @@ resource "oci_identity_domains_my_request" "tf-sample-identity-domains-my-reques
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   approval_details {
   }
   requesting {

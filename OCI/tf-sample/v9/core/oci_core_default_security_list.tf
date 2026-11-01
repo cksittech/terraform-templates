@@ -4,14 +4,14 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
   display_name               = ""
   freeform_tags              = {}
   manage_default_resource_id = ""
-  
+
   egress_security_rules {
     description      = ""
     destination      = ""
     destination_type = ""
     protocol         = ""
     stateless        = false
-    
+
     icmp_options {
       code = 0
       type = 0
@@ -19,7 +19,7 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
     tcp_options {
       max = 0
       min = 0
-      
+
       source_port_range {
         max = 0
         min = 0
@@ -28,7 +28,7 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
     udp_options {
       max = 0
       min = 0
-      
+
       source_port_range {
         max = 0
         min = 0
@@ -41,7 +41,7 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
     source      = ""
     source_type = ""
     stateless   = false
-    
+
     icmp_options {
       code = 0
       type = 0
@@ -49,7 +49,7 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
     tcp_options {
       max = 0
       min = 0
-      
+
       source_port_range {
         max = 0
         min = 0
@@ -58,7 +58,7 @@ resource "oci_core_default_security_list" "tf-sample-core-default-security-list"
     udp_options {
       max = 0
       min = 0
-      
+
       source_port_range {
         max = 0
         min = 0

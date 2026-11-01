@@ -4,7 +4,7 @@ resource "oci_network_firewall_network_firewall_policy_nat_rule" "tf-sample-netw
   name                       = ""
   network_firewall_policy_id = ""
   type                       = ""
-  
+
   condition {
     destination_address = []
     service             = ""

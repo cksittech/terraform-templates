@@ -6,7 +6,7 @@ resource "oci_data_safe_alert_policy" "tf-sample-data-safe-alert-policy" {
   display_name      = ""
   freeform_tags     = {}
   severity          = ""
-  
+
   alert_policy_rule_details {
     description  = ""
     display_name = ""

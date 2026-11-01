@@ -6,10 +6,10 @@ resource "oci_cloud_guard_detector_recipe" "tf-sample-cloud-guard-detector-recip
   display_name              = ""
   freeform_tags             = {}
   source_detector_recipe_id = ""
-  
+
   detector_rules {
     detector_rule_id = ""
-    
+
     details {
       condition      = ""
       data_source_id = ""
@@ -18,14 +18,14 @@ resource "oci_cloud_guard_detector_recipe" "tf-sample-cloud-guard-detector-recip
       labels         = []
       recommendation = ""
       risk_level     = ""
-      
+
       configurations {
         allowed_values_data_type = ""
         config_key               = ""
         data_type                = ""
         name                     = ""
         value                    = ""
-        
+
         additional_properties {
           key           = ""
           property_type = ""

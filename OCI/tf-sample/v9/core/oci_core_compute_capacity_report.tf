@@ -1,11 +1,11 @@
 resource "oci_core_compute_capacity_report" "tf-sample-core-compute-capacity-report" {
   availability_domain = ""
   compartment_id      = ""
-  
+
   shape_availabilities {
     fault_domain   = ""
     instance_shape = ""
-    
+
     instance_shape_config {
       baseline_ocpu_utilization = ""
       memory_in_gbs             = 0

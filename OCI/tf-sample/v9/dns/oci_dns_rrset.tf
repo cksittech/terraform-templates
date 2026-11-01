@@ -3,7 +3,7 @@ resource "oci_dns_rrset" "tf-sample-dns-rrset" {
   rtype           = ""
   view_id         = ""
   zone_name_or_id = ""
-  
+
   items {
     domain = ""
     rdata  = ""

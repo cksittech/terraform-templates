@@ -5,7 +5,7 @@ resource "oci_oci_product_catalog_internal_product" "tf-sample-oci-product-catal
   is_excluded          = false
   name                 = ""
   service_name         = ""
-  
+
   limits {
     public_limit_name   = ""
     public_service_name = ""

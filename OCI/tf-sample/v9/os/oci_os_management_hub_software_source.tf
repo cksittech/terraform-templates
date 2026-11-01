@@ -22,7 +22,7 @@ resource "oci_os_management_hub_software_source" "tf-sample-os-management-hub-so
   software_source_type         = ""
   software_source_version      = ""
   url                          = ""
-  
+
   custom_software_source_filter {
     module_stream_profile_filters {
       filter_type  = ""

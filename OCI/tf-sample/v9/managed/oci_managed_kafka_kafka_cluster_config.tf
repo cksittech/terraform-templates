@@ -3,7 +3,7 @@ resource "oci_managed_kafka_kafka_cluster_config" "tf-sample-managed-kafka-kafka
   defined_tags   = {}
   display_name   = ""
   freeform_tags  = {}
-  
+
   latest_config {
     config_id      = ""
     properties     = {}

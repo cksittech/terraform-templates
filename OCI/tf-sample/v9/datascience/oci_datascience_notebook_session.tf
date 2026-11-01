@@ -5,14 +5,14 @@ resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-sess
   freeform_tags  = {}
   project_id     = ""
   state          = ""
-  
+
   notebook_session_config_details {
     block_storage_size_in_gbs = 0
     capacity_reservation_id   = ""
     private_endpoint_id       = ""
     shape                     = ""
     subnet_id                 = ""
-    
+
     notebook_session_shape_config_details {
       cpu_baseline  = ""
       memory_in_gbs = 0
@@ -25,7 +25,7 @@ resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-sess
     private_endpoint_id       = ""
     shape                     = ""
     subnet_id                 = ""
-    
+
     notebook_session_shape_config_details {
       cpu_baseline  = ""
       memory_in_gbs = 0
@@ -34,7 +34,7 @@ resource "oci_datascience_notebook_session" "tf-sample-datascience-notebook-sess
   }
   notebook_session_runtime_config_details {
     custom_environment_variables = {}
-    
+
     notebook_session_git_config_details {
       notebook_session_git_repo_config_collection {
         url = ""

@@ -8,7 +8,7 @@ resource "oci_identity_domains_approval_workflow" "tf-sample-identity-domains-ap
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   approval_workflow_steps {
     ocid  = ""
     type  = ""

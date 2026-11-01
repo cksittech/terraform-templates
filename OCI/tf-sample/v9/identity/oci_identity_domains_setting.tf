@@ -41,7 +41,7 @@ resource "oci_identity_domains_setting" "tf-sample-identity-domains-setting" {
   sub_mapping_attr                                           = ""
   terms_of_use_url                                           = ""
   timezone                                                   = ""
-  
+
   certificate_validation {
     crl_check_on_ocsp_failure_enabled     = false
     crl_enabled                           = false

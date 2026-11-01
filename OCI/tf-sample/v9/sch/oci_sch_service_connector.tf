@@ -5,13 +5,13 @@ resource "oci_sch_service_connector" "tf-sample-sch-service-connector" {
   display_name   = ""
   freeform_tags  = {}
   state          = ""
-  
+
   source {
     config_map  = ""
     kind        = ""
     plugin_name = ""
     stream_id   = ""
-    
+
     cursor {
       kind = ""
     }
@@ -22,13 +22,13 @@ resource "oci_sch_service_connector" "tf-sample-sch-service-connector" {
     }
     monitoring_sources {
       compartment_id = ""
-      
+
       namespace_details {
         kind = ""
-        
+
         namespaces {
           namespace = ""
-          
+
           metrics {
             kind = ""
           }
@@ -55,10 +55,10 @@ resource "oci_sch_service_connector" "tf-sample-sch-service-connector" {
     object_name_prefix         = ""
     stream_id                  = ""
     topic_id                   = ""
-    
+
     dimensions {
       name = ""
-      
+
       dimension_value {
         kind  = ""
         path  = ""

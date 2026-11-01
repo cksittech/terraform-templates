@@ -6,7 +6,7 @@ resource "oci_psql_backup" "tf-sample-psql-backup" {
   display_name     = ""
   freeform_tags    = {}
   retention_period = 0
-  
+
   source_backup_details {
     source_backup_id = ""
     source_region    = ""

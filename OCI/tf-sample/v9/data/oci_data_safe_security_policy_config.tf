@@ -5,7 +5,7 @@ resource "oci_data_safe_security_policy_config" "tf-sample-data-safe-security-po
   display_name       = ""
   freeform_tags      = {}
   security_policy_id = ""
-  
+
   firewall_config {
     exclude_job              = ""
     status                   = ""

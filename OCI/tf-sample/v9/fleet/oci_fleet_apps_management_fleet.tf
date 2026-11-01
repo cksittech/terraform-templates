@@ -8,16 +8,16 @@ resource "oci_fleet_apps_management_fleet" "tf-sample-fleet-apps-management-flee
   is_target_auto_confirm = false
   parent_fleet_id        = ""
   products               = []
-  
+
   credentials {
     compartment_id = ""
     display_name   = ""
-    
+
     entity_specifics {
       credential_level = ""
       resource_id      = ""
       target           = ""
-      
+
       variables {
         name  = ""
         value = ""
@@ -48,7 +48,7 @@ resource "oci_fleet_apps_management_fleet" "tf-sample-fleet-apps-management-flee
   notification_preferences {
     compartment_id = ""
     topic_id       = ""
-    
+
     preferences {
       on_job_canceled            = false
       on_job_failure             = false
@@ -61,7 +61,7 @@ resource "oci_fleet_apps_management_fleet" "tf-sample-fleet-apps-management-flee
       on_task_pause              = false
       on_task_success            = false
       on_topology_modification   = false
-      
+
       upcoming_schedule {
         notify_before        = ""
         on_upcoming_schedule = false
@@ -77,17 +77,17 @@ resource "oci_fleet_apps_management_fleet" "tf-sample-fleet-apps-management-flee
   }
   resource_selection {
     resource_selection_type = ""
-    
+
     rule_selection_criteria {
       match_condition = ""
-      
+
       rules {
         basis                     = ""
         compartment_id            = ""
         compartment_id_in_subtree = false
         match_condition           = ""
         resource_compartment_id   = ""
-        
+
         conditions {
           attr_group = ""
           attr_key   = ""

@@ -9,7 +9,7 @@ resource "oci_core_volume_backup" "tf-sample-core-volume-backup" {
   kms_key_id                      = ""
   type                            = ""
   volume_id                       = ""
-  
+
   retention_period {
     retention_time_amount = 0
     retention_time_unit   = ""

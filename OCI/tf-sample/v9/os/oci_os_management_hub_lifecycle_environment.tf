@@ -8,7 +8,7 @@ resource "oci_os_management_hub_lifecycle_environment" "tf-sample-os-management-
   location       = ""
   os_family      = ""
   vendor_name    = ""
-  
+
   stages {
     compartment_id = ""
     defined_tags   = {}

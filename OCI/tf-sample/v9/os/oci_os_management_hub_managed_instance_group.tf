@@ -11,7 +11,7 @@ resource "oci_os_management_hub_managed_instance_group" "tf-sample-os-management
   os_family             = ""
   software_source_ids   = []
   vendor_name           = ""
-  
+
   autonomous_settings {
     is_data_collection_authorized = false
   }

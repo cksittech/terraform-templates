@@ -6,7 +6,7 @@ resource "oci_adm_remediation_recipe" "tf-sample-adm-remediation-recipe" {
   is_run_triggered_on_kb_change = false
   knowledge_base_id             = ""
   state                         = ""
-  
+
   detect_configuration {
     exclusions                   = []
     max_permissible_cvss_v2score = 0

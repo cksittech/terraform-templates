@@ -5,7 +5,7 @@ resource "oci_certificates_management_certificate" "tf-sample-certificates-manag
   description            = ""
   freeform_tags          = {}
   name                   = ""
-  
+
   certificate_config {
     cert_chain_pem                  = ""
     certificate_pem                 = ""
@@ -19,7 +19,7 @@ resource "oci_certificates_management_certificate" "tf-sample-certificates-manag
     signature_algorithm             = ""
     stage                           = ""
     version_name                    = ""
-    
+
     subject {
       common_name                  = ""
       country                      = ""

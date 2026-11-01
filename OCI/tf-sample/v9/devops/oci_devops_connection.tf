@@ -9,7 +9,7 @@ resource "oci_devops_connection" "tf-sample-devops-connection" {
   freeform_tags   = {}
   project_id      = ""
   username        = ""
-  
+
   tls_verify_config {
     ca_certificate_bundle_id = ""
     tls_verify_mode          = ""

@@ -12,7 +12,7 @@ resource "oci_database_tools_database_tools_mcp_toolset" "tf-sample-database-too
   tool_name                       = ""
   type                            = ""
   version                         = 0
-  
+
   locks {
     message             = ""
     related_resource_id = ""

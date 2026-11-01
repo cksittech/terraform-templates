@@ -8,7 +8,7 @@ resource "oci_core_network_security_group_security_rule" "tf-sample-core-network
   source                    = ""
   source_type               = ""
   stateless                 = false
-  
+
   icmp_options {
     code = 0
     type = 0

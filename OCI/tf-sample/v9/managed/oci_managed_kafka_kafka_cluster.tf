@@ -9,7 +9,7 @@ resource "oci_managed_kafka_kafka_cluster" "tf-sample-managed-kafka-kafka-cluste
   display_name              = ""
   freeform_tags             = {}
   kafka_version             = ""
-  
+
   access_subnets {
     subnets = []
   }

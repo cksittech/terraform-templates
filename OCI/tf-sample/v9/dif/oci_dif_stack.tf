@@ -9,7 +9,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
   services                 = []
   stack_templates          = []
   subnet_id                = ""
-  
+
   adb {
     admin_password_id            = ""
     artifact_object_storage_path = ""
@@ -22,7 +22,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     is_public                    = false
     subnet_id                    = ""
     tools_public_access          = ""
-    
+
     db_credentials {
       secret_id = ""
       user_name = ""
@@ -44,13 +44,13 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     private_endpoint_id          = ""
     spark_version                = ""
     warehouse_bucket_instance_id = ""
-    
+
     connections {
       subnet_id = ""
-      
+
       connection_details {
         domain_names = []
-        
+
         dif_dependencies {
           service_instance_id = ""
           service_type        = ""
@@ -72,7 +72,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     instance_id  = ""
     oci_region   = ""
     unit_count   = 0
-    
+
     endpoints {
       endpoint_name                 = ""
       is_content_moderation_enabled = false
@@ -86,12 +86,12 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     password_secret_id           = ""
     public_subnet_id             = ""
     subnet_id                    = ""
-    
+
     connections {
       connection_id      = ""
       connection_name    = ""
       gg_admin_secret_id = ""
-      
+
       dif_dependencies {
         service_instance_id = ""
         service_type        = ""
@@ -129,7 +129,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     instance_id                  = ""
     manifest_object_storage_path = ""
     namespace_name               = ""
-    
+
     component_value_overrides {
       component_name  = ""
       value_overrides = {}
@@ -137,7 +137,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     secrets {
       secret_name                  = ""
       template_object_storage_path = ""
-      
+
       secret_data {
         key       = ""
         secret_id = ""
@@ -150,7 +150,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     instance_id                  = ""
     manifest_object_storage_path = ""
     namespace_name               = ""
-    
+
     component_value_overrides {
       component_name  = ""
       value_overrides = {}
@@ -158,7 +158,7 @@ resource "oci_dif_stack" "tf-sample-dif-stack" {
     secrets {
       secret_name                  = ""
       template_object_storage_path = ""
-      
+
       secret_data {
         key       = ""
         secret_id = ""

@@ -6,10 +6,10 @@ resource "oci_iot_digital_twin_adapter" "tf-sample-iot-digital-twin-adapter" {
   display_name                = ""
   freeform_tags               = {}
   iot_domain_id               = ""
-  
+
   inbound_envelope {
     reference_endpoint = ""
-    
+
     envelope_mapping {
       content_root  = ""
       target        = ""
@@ -26,7 +26,7 @@ resource "oci_iot_digital_twin_adapter" "tf-sample-iot-digital-twin-adapter" {
     description     = ""
     payload_mapping = {}
     target          = ""
-    
+
     reference_payload {
       data        = {}
       data_format = ""

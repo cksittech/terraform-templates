@@ -4,7 +4,7 @@ resource "oci_fleet_apps_management_task_record" "tf-sample-fleet-apps-managemen
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   details {
     is_apply_subject_task    = false
     is_discovery_output_task = false
@@ -12,7 +12,7 @@ resource "oci_fleet_apps_management_task_record" "tf-sample-fleet-apps-managemen
     os_type                  = ""
     platform                 = ""
     scope                    = ""
-    
+
     execution_details {
       catalog_id                      = ""
       command                         = ""
@@ -24,7 +24,7 @@ resource "oci_fleet_apps_management_task_record" "tf-sample-fleet-apps-managemen
       is_read_output_variable_enabled = false
       system_variables                = []
       target_compartment_id           = ""
-      
+
       content {
         bucket      = ""
         catalog_id  = ""
@@ -39,7 +39,7 @@ resource "oci_fleet_apps_management_task_record" "tf-sample-fleet-apps-managemen
       }
       variables {
         output_variables = []
-        
+
         input_variables {
           description = ""
           name        = ""

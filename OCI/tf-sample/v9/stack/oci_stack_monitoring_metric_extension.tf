@@ -6,7 +6,7 @@ resource "oci_stack_monitoring_metric_extension" "tf-sample-stack-monitoring-met
   name                   = ""
   publish_trigger        = false
   resource_type          = ""
-  
+
   metric_list {
     compute_expression = ""
     data_type          = ""
@@ -32,7 +32,7 @@ resource "oci_stack_monitoring_metric_extension" "tf-sample-stack-monitoring-met
     sql_type                  = ""
     starts_with               = ""
     url                       = ""
-    
+
     in_param_details {
       in_param_position = 0
       in_param_value    = ""

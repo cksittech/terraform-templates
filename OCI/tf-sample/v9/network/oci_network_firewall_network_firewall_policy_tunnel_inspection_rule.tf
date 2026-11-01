@@ -4,7 +4,7 @@ resource "oci_network_firewall_network_firewall_policy_tunnel_inspection_rule" "
   name                       = ""
   network_firewall_policy_id = ""
   protocol                   = ""
-  
+
   condition {
     destination_address = []
     source_address      = []

@@ -11,7 +11,7 @@ resource "oci_database_database" "tf-sample-database-database" {
   source             = ""
   vault_id           = ""
   vm_cluster_id      = ""
-  
+
   database {
     admin_password                        = ""
     backup_id                             = ""
@@ -46,7 +46,7 @@ resource "oci_database_database" "tf-sample-database-database" {
     transport_type                        = ""
     vault_id                              = ""
     vm_cluster_id                         = ""
-    
+
     auto_failover_configuration {
       failover_targets      = []
       managed_auto_failover = ""
@@ -59,7 +59,7 @@ resource "oci_database_database" "tf-sample-database-database" {
       backup_deletion_policy    = ""
       recovery_window_in_days   = 0
       run_immediate_full_backup = false
-      
+
       backup_destination_details {
         backup_retention_policy_on_terminate = ""
         dbrs_policy_id                       = ""
@@ -71,7 +71,7 @@ resource "oci_database_database" "tf-sample-database-database" {
         type                                 = ""
         vpc_password                         = ""
         vpc_user                             = ""
-        
+
         tde_wallet_backup_destination {
           backup_destination_id   = ""
           backup_destination_type = ""
@@ -88,7 +88,7 @@ resource "oci_database_database" "tf-sample-database-database" {
     }
     managed_software_update_details {
       is_enrolled = false
-      
+
       maintenance_details {
         time_of_last_readiness_check    = ""
         time_of_status_update           = ""
@@ -102,7 +102,7 @@ resource "oci_database_database" "tf-sample-database-database" {
         days_of_week = []
         hour_of_day  = 0
         update_mode  = ""
-        
+
         version_scheme_details {
           major_version      = ""
           source             = ""
@@ -129,7 +129,7 @@ resource "oci_database_database" "tf-sample-database-database" {
   }
   managed_software_update_details {
     is_enrolled = false
-    
+
     maintenance_details {
       time_of_last_readiness_check    = ""
       time_of_status_update           = ""
@@ -143,7 +143,7 @@ resource "oci_database_database" "tf-sample-database-database" {
       days_of_week = []
       hour_of_day  = 0
       update_mode  = ""
-      
+
       version_scheme_details {
         major_version      = ""
         source             = ""

@@ -2,7 +2,7 @@ resource "oci_resource_analytics_resource_analytics_instance_oac_management" "tf
   attachment_type                = ""
   enable_oac                     = false
   resource_analytics_instance_id = ""
-  
+
   attachment_details {
     capacity_type  = ""
     capacity_value = 0
@@ -10,7 +10,7 @@ resource "oci_resource_analytics_resource_analytics_instance_oac_management" "tf
     license_model  = ""
     nsg_ids        = []
     subnet_id      = ""
-    
+
     network_details {
       nsg_ids   = []
       subnet_id = ""

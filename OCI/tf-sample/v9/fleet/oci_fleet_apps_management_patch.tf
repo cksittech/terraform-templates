@@ -6,10 +6,10 @@ resource "oci_fleet_apps_management_patch" "tf-sample-fleet-apps-management-patc
   name           = ""
   severity       = ""
   time_released  = ""
-  
+
   artifact_details {
     category = ""
-    
+
     artifact {
       content {
         bucket      = ""
@@ -22,7 +22,7 @@ resource "oci_fleet_apps_management_patch" "tf-sample-fleet-apps-management-patc
     artifacts {
       architecture = ""
       os_type      = ""
-      
+
       content {
         bucket      = ""
         checksum    = ""

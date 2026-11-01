@@ -6,7 +6,7 @@ resource "oci_waf_network_address_list" "tf-sample-waf-network-address-list" {
   freeform_tags  = {}
   system_tags    = {}
   type           = ""
-  
+
   vcn_addresses {
     addresses = ""
     vcn_id    = ""

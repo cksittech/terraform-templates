@@ -7,7 +7,7 @@ resource "oci_identity_domains_approval_workflow_assignment" "tf-sample-identity
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   approval_workflow {
     ocid  = ""
     type  = ""

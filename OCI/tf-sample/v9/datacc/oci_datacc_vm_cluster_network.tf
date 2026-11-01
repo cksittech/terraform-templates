@@ -10,7 +10,7 @@ resource "oci_datacc_vm_cluster_network" "tf-sample-datacc-vm-cluster-network" {
   listener_port_ssl = 0
   node_count        = 0
   ntp_servers       = []
-  
+
   scans {
     hostname = ""
     ips      = []
@@ -22,7 +22,7 @@ resource "oci_datacc_vm_cluster_network" "tf-sample-datacc-vm-cluster-network" {
     network_type = ""
     prefix       = ""
     vlan_id      = ""
-    
+
     nodes {
       hostname     = ""
       ip           = ""

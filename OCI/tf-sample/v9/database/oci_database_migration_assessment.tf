@@ -12,7 +12,7 @@ resource "oci_database_migration_assessment" "tf-sample-database-migration-asses
   freeform_tags                    = {}
   migration_scope                  = ""
   network_speed_megabit_per_second = ""
-  
+
   exclude_objects {
     is_omit_excluded_table_from_replication = false
     object                                  = ""

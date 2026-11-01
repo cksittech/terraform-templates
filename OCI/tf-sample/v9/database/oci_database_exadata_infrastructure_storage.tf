@@ -18,7 +18,7 @@ resource "oci_database_exadata_infrastructure_storage" "tf-sample-database-exada
   shape                       = ""
   storage_count               = 0
   time_zone                   = ""
-  
+
   contacts {
     email                    = ""
     is_contact_mos_validated = false
@@ -31,7 +31,7 @@ resource "oci_database_exadata_infrastructure_storage" "tf-sample-database-exada
     lead_time_in_weeks = 0
     preference         = ""
     weeks_of_month     = []
-    
+
     days_of_week {
       name = ""
     }

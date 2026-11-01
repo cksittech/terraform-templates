@@ -8,12 +8,12 @@ resource "oci_cluster_placement_groups_cluster_placement_group" "tf-sample-clust
   name                         = ""
   opc_dry_run                  = false
   state                        = ""
-  
+
   capabilities {
     items {
       name    = ""
       service = ""
-      
+
       additional_details {
         cluster_placement_group_count = 0
         memory_in_gbs                 = 0

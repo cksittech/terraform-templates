@@ -2,7 +2,7 @@ resource "oci_data_safe_sensitive_data_model_referential_relation" "tf-sample-da
   is_sensitive            = false
   relation_type           = ""
   sensitive_data_model_id = ""
-  
+
   child {
     app_name           = ""
     column_group       = []

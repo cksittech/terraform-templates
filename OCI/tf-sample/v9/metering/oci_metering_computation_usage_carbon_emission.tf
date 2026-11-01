@@ -9,7 +9,7 @@ resource "oci_metering_computation_usage_carbon_emission" "tf-sample-metering-co
   time_usage_ended             = ""
   time_usage_started           = ""
   usage_carbon_emission_filter = ""
-  
+
   group_by_tag {
     key       = ""
     namespace = ""

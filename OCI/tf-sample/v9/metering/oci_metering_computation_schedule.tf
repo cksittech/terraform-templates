@@ -8,7 +8,7 @@ resource "oci_metering_computation_schedule" "tf-sample-metering-computation-sch
   saved_report_id      = ""
   schedule_recurrences = ""
   time_scheduled       = ""
-  
+
   query_properties {
     compartment_depth    = 0
     filter               = ""
@@ -16,7 +16,7 @@ resource "oci_metering_computation_schedule" "tf-sample-metering-computation-sch
     group_by             = []
     is_aggregate_by_time = false
     query_type           = ""
-    
+
     date_range {
       date_range_type         = ""
       dynamic_date_range_type = ""

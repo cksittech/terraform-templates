@@ -2,12 +2,12 @@ resource "oci_fleet_apps_management_fleet_credential" "tf-sample-fleet-apps-mana
   compartment_id = ""
   display_name   = ""
   fleet_id       = ""
-  
+
   entity_specifics {
     credential_level = ""
     resource_id      = ""
     target           = ""
-    
+
     variables {
       name  = ""
       value = ""

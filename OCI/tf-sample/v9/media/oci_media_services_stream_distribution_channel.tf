@@ -4,7 +4,7 @@ resource "oci_media_services_stream_distribution_channel" "tf-sample-media-servi
   display_name     = ""
   freeform_tags    = {}
   is_lock_override = false
-  
+
   locks {
     compartment_id      = ""
     message             = ""

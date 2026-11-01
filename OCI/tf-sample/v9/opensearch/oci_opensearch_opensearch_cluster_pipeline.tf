@@ -15,7 +15,7 @@ resource "oci_opensearch_opensearch_cluster_pipeline" "tf-sample-opensearch-open
   subnet_id                       = ""
   vcn_compartment_id              = ""
   vcn_id                          = ""
-  
+
   reverse_connection_endpoints {
     customer_fqdn = ""
     customer_ip   = ""

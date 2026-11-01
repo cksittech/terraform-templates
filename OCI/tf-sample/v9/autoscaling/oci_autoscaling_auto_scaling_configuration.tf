@@ -5,7 +5,7 @@ resource "oci_autoscaling_auto_scaling_configuration" "tf-sample-autoscaling-aut
   display_name         = ""
   freeform_tags        = {}
   is_enabled           = false
-  
+
   auto_scaling_resources {
     id   = ""
     type = ""
@@ -14,7 +14,7 @@ resource "oci_autoscaling_auto_scaling_configuration" "tf-sample-autoscaling-aut
     display_name = ""
     is_enabled   = false
     policy_type  = ""
-    
+
     capacity {
       initial = 0
       max     = 0
@@ -31,7 +31,7 @@ resource "oci_autoscaling_auto_scaling_configuration" "tf-sample-autoscaling-aut
     }
     rules {
       display_name = ""
-      
+
       action {
         type  = ""
         value = 0
@@ -44,7 +44,7 @@ resource "oci_autoscaling_auto_scaling_configuration" "tf-sample-autoscaling-aut
         pending_duration      = ""
         query                 = ""
         resource_group        = ""
-        
+
         threshold {
           operator = ""
           value    = 0

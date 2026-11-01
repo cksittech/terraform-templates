@@ -25,7 +25,7 @@ resource "oci_log_analytics_log_analytics_object_collection_rule" "tf-sample-log
   stream_cursor_type           = ""
   stream_id                    = ""
   timezone                     = ""
-  
+
   overrides {
     match_type     = ""
     match_value    = ""

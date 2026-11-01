@@ -13,7 +13,7 @@ resource "oci_network_load_balancer_network_load_balancer" "tf-sample-network-lo
   security_attributes            = {}
   subnet_id                      = ""
   subnet_ipv6cidr                = ""
-  
+
   reserved_ips {
     id = ""
   }

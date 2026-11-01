@@ -44,7 +44,7 @@ resource "oci_identity_domains_identity_provider" "tf-sample-identity-domains-id
   type                                            = ""
   user_mapping_method                             = ""
   user_mapping_store_attribute                    = ""
-  
+
   correlation_policy {
     display = ""
     type    = ""
@@ -86,7 +86,7 @@ resource "oci_identity_domains_identity_provider" "tf-sample-identity-domains-id
     service_provider_name              = ""
     social_jit_provisioning_enabled    = false
     status                             = ""
-    
+
     jit_prov_assigned_groups {
       display = ""
       value   = ""

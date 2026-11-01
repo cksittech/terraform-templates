@@ -11,7 +11,7 @@ resource "oci_identity_domains_cloud_gate" "tf-sample-identity-domains-cloud-gat
   resource_type_schema_version = ""
   schemas                      = []
   type                         = ""
-  
+
   tags {
     key   = ""
     value = ""

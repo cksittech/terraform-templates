@@ -100,7 +100,7 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   vault_id                                    = ""
   wallet_secret_id                            = ""
   workspace_url                               = ""
-  
+
   additional_attributes {
     name  = ""
     value = ""
@@ -114,7 +114,7 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
     path                      = ""
     should_overwrite_existing = false
     storage_account           = ""
-    
+
     configuration {
       access_key_id                    = ""
       authentication_type              = ""

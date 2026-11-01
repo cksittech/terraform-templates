@@ -5,7 +5,7 @@ resource "oci_nosql_table" "tf-sample-nosql-table" {
   freeform_tags       = {}
   is_auto_reclaimable = false
   name                = ""
-  
+
   table_limits {
     capacity_mode      = ""
     max_read_units     = 0

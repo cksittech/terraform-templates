@@ -9,14 +9,14 @@ resource "oci_opsi_exadata_insight" "tf-sample-opsi-exadata-insight" {
   freeform_tags                        = {}
   is_auto_sync_enabled                 = false
   status                               = ""
-  
+
   member_vm_cluster_details {
     compartment_id           = ""
     dbm_private_endpoint_id  = ""
     opsi_private_endpoint_id = ""
     vm_cluster_type          = ""
     vmcluster_id             = ""
-    
+
     member_autonomous_details {
       compartment_id               = ""
       database_id                  = ""
@@ -29,7 +29,7 @@ resource "oci_opsi_exadata_insight" "tf-sample-opsi-exadata-insight" {
       management_agent_id          = ""
       opsi_private_endpoint_id     = ""
       system_tags                  = {}
-      
+
       connection_credential_details {
         credential_source_name = ""
         credential_type        = ""
@@ -68,7 +68,7 @@ resource "oci_opsi_exadata_insight" "tf-sample-opsi-exadata-insight" {
       opsi_private_endpoint_id = ""
       service_name             = ""
       system_tags              = {}
-      
+
       connection_credential_details {
         credential_source_name = ""
         credential_type        = ""
@@ -83,7 +83,7 @@ resource "oci_opsi_exadata_insight" "tf-sample-opsi-exadata-insight" {
         port         = 0
         protocol     = ""
         service_name = ""
-        
+
         hosts {
           host_ip = ""
           port    = 0

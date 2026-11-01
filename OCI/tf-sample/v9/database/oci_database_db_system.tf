@@ -40,7 +40,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
   subnet_id                       = ""
   subscription_id                 = ""
   time_zone                       = ""
-  
+
   data_collection_options {
     is_diagnostics_events_enabled = false
     is_health_monitoring_enabled  = false
@@ -54,7 +54,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
     display_name                = ""
     freeform_tags               = {}
     is_unified_auditing_enabled = false
-    
+
     database {
       admin_password                        = ""
       backup_id                             = ""
@@ -83,7 +83,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
       time_stamp_for_point_in_time_recovery = ""
       transport_type                        = ""
       vault_id                              = ""
-      
+
       db_backup_config {
         auto_backup_enabled       = false
         auto_backup_window        = ""
@@ -92,7 +92,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
         backup_deletion_policy    = ""
         recovery_window_in_days   = 0
         run_immediate_full_backup = false
-        
+
         backup_destination_details {
           backup_retention_policy_on_terminate = ""
           dbrs_policy_id                       = ""
@@ -119,7 +119,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }

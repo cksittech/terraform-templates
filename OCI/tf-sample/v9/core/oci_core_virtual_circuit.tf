@@ -18,7 +18,7 @@ resource "oci_core_virtual_circuit" "tf-sample-core-virtual-circuit" {
   routing_policy            = []
   traffic_mode              = ""
   type                      = ""
-  
+
   cross_connect_mappings {
     bgp_md5auth_key                         = ""
     cross_connect_or_cross_connect_group_id = ""

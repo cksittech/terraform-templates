@@ -5,7 +5,7 @@ resource "oci_dns_resolver" "tf-sample-dns-resolver" {
   freeform_tags  = {}
   resolver_id    = ""
   scope          = ""
-  
+
   attached_views {
     view_id = ""
   }

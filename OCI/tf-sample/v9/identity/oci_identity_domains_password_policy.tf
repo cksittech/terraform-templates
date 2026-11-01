@@ -42,7 +42,7 @@ resource "oci_identity_domains_password_policy" "tf-sample-identity-domains-pass
   schemas                          = []
   starts_with_alphabet             = false
   user_name_disallowed             = false
-  
+
   groups {
     value = ""
   }

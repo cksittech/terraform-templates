@@ -31,7 +31,7 @@ resource "oci_database_migration_connection" "tf-sample-database-migration-conne
   username             = ""
   vault_id             = ""
   wallet               = ""
-  
+
   additional_attributes {
     name  = ""
     value = ""

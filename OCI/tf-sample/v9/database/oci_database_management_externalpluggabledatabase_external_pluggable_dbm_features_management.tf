@@ -2,10 +2,10 @@ resource "oci_database_management_externalpluggabledatabase_external_pluggable_d
   enable_external_pluggable_dbm_feature = false
   external_pluggable_database_id        = ""
   feature                               = ""
-  
+
   feature_details {
     feature = ""
-    
+
     connector_details {
       connector_type        = ""
       database_connector_id = ""

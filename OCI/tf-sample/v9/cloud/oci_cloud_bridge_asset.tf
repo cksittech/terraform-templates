@@ -11,7 +11,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
   freeform_tags       = {}
   inventory_id        = ""
   source_key          = ""
-  
+
   attached_ebs_volumes_cost {
     amount        = 0
     currency_code = ""
@@ -26,7 +26,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
     throughput              = 0
     volume_key              = ""
     volume_type             = ""
-    
+
     attachments {
       device                   = ""
       instance_key             = ""
@@ -68,7 +68,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
     tpm_support                                = ""
     virtualization_type                        = ""
     vpc_key                                    = ""
-    
+
     network_interfaces {
       description           = ""
       interface_type        = ""
@@ -81,7 +81,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
       owner_key             = ""
       status                = ""
       subnet_key            = ""
-      
+
       association {
         carrier_ip        = ""
         customer_owned_ip = ""
@@ -101,7 +101,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
         is_primary         = false
         private_dns_name   = ""
         private_ip_address = ""
-        
+
         association {
           carrier_ip        = ""
           customer_owned_ip = ""
@@ -166,7 +166,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
     primary_ip                 = ""
     storage_provisioned_in_mbs = ""
     threads_per_core_count     = 0
-    
+
     disks {
       boot_order      = 0
       is_cbt_enabled  = false
@@ -228,7 +228,7 @@ resource "oci_cloud_bridge_asset" "tf-sample-cloud-bridge-asset" {
     is_disks_uuid_enabled             = false
     path                              = ""
     vmware_tools_status               = ""
-    
+
     customer_tags {
       description = ""
       name        = ""

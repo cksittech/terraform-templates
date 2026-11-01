@@ -11,7 +11,7 @@ resource "oci_identity_domains_policy" "tf-sample-identity-domains-policy" {
   policy_groovy                = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   policy_type {
     value = ""
   }

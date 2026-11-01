@@ -11,7 +11,7 @@ resource "oci_identity_domains_oauth2client_credential" "tf-sample-identity-doma
   resource_type_schema_version = ""
   schemas                      = []
   status                       = ""
-  
+
   scopes {
     audience = ""
     scope    = ""

@@ -5,7 +5,7 @@ resource "oci_ai_vision_stream_group" "tf-sample-ai-vision-stream-group" {
   freeform_tags     = {}
   is_enabled        = false
   stream_source_ids = []
-  
+
   stream_overlaps {
     overlapping_streams = []
   }

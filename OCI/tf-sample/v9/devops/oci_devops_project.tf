@@ -4,7 +4,7 @@ resource "oci_devops_project" "tf-sample-devops-project" {
   description    = ""
   freeform_tags  = {}
   name           = ""
-  
+
   notification_config {
     topic_id = ""
   }

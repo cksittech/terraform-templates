@@ -6,7 +6,7 @@ resource "oci_database_tools_database_tools_identity" "tf-sample-database-tools-
   display_name                 = ""
   freeform_tags                = {}
   type                         = ""
-  
+
   locks {
     message = ""
     type    = ""

@@ -2,7 +2,7 @@ resource "oci_os_management_hub_dynamic_set_install_packages_management" "tf-sam
   dynamic_set_id    = ""
   managed_instances = []
   package_names     = []
-  
+
   work_request_details {
     description  = ""
     display_name = ""

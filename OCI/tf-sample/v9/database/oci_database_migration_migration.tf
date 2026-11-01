@@ -12,7 +12,7 @@ resource "oci_database_migration_migration" "tf-sample-database-migration-migrat
   source_standby_database_connection_id   = ""
   target_database_connection_id           = ""
   type                                    = ""
-  
+
   advanced_parameters {
     data_type = ""
     name      = ""
@@ -29,7 +29,7 @@ resource "oci_database_migration_migration" "tf-sample-database-migration-migrat
     secret_access_key              = ""
     shared_storage_mount_target_id = ""
     type                           = ""
-    
+
     object_storage_bucket {
       bucket    = ""
       namespace = ""
@@ -54,7 +54,7 @@ resource "oci_database_migration_migration" "tf-sample-database-migration-migrat
   }
   ggs_details {
     acceptable_lag = 0
-    
+
     extract {
       long_trans_duration = 0
       performance_profile = ""
@@ -69,7 +69,7 @@ resource "oci_database_migration_migration" "tf-sample-database-migration-migrat
     key_id         = ""
     url            = ""
     vault_id       = ""
-    
+
     extract {
       long_trans_duration = 0
       performance_profile = ""
@@ -97,7 +97,7 @@ resource "oci_database_migration_migration" "tf-sample-database-migration-migrat
     is_tz_utc                  = false
     job_mode                   = ""
     primary_key_compatibility  = ""
-    
+
     data_pump_parameters {
       estimate                  = ""
       exclude_parameters        = []

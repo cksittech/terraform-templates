@@ -10,7 +10,7 @@ resource "oci_identity_domains_identity_proofing_provider" "tf-sample-identity-d
   resource_type_schema_version        = ""
   schemas                             = []
   status                              = ""
-  
+
   claim_mapping {
     attr_match       = ""
     verifiable_claim = ""

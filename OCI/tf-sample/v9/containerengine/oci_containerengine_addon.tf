@@ -4,7 +4,7 @@ resource "oci_containerengine_addon" "tf-sample-containerengine-addon" {
   override_existing                = false
   remove_addon_resources_on_delete = false
   version                          = ""
-  
+
   configurations {
     key   = ""
     value = ""

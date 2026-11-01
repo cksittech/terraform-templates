@@ -5,7 +5,7 @@ resource "oci_apm_synthetics_dedicated_vantage_point" "tf-sample-apm-synthetics-
   freeform_tags = {}
   region        = ""
   status        = ""
-  
+
   dvp_stack_details {
     dvp_stack_id   = ""
     dvp_stack_type = ""

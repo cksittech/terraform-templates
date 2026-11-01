@@ -8,13 +8,13 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
   instance_hostname_formatter     = ""
   size                            = 0
   state                           = ""
-  
+
   lifecycle_management {
     lifecycle_actions {
       pre_termination {
         is_enabled = false
         timeout    = 0
-        
+
         on_timeout {
           preserve_block_volume_mode = ""
           preserve_boot_volume_mode  = ""
@@ -33,11 +33,11 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
     compute_cluster_id  = ""
     fault_domains       = []
     primary_subnet_id   = ""
-    
+
     primary_vnic_subnets {
       is_assign_ipv6ip = false
       subnet_id        = ""
-      
+
       ipv6address_ipv6subnet_cidr_pair_details {
         ipv6subnet_cidr = ""
       }
@@ -46,7 +46,7 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
       display_name     = ""
       is_assign_ipv6ip = false
       subnet_id        = ""
-      
+
       ipv6address_ipv6subnet_cidr_pair_details {
         ipv6subnet_cidr = ""
       }

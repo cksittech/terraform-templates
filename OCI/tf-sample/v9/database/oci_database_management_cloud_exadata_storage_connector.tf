@@ -5,7 +5,7 @@ resource "oci_database_management_cloud_exadata_storage_connector" "tf-sample-da
   display_name      = ""
   freeform_tags     = {}
   storage_server_id = ""
-  
+
   credential_info {
     password                 = ""
     ssl_trust_store_location = ""

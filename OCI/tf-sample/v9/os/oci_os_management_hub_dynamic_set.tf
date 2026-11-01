@@ -5,7 +5,7 @@ resource "oci_os_management_hub_dynamic_set" "tf-sample-os-management-hub-dynami
   display_name   = ""
   freeform_tags  = {}
   match_type     = ""
-  
+
   matching_rule {
     architectures              = []
     display_names              = []
@@ -16,7 +16,7 @@ resource "oci_os_management_hub_dynamic_set" "tf-sample-os-management-hub-dynami
     os_families                = []
     os_names                   = []
     statuses                   = []
-    
+
     tags {
       key       = ""
       namespace = ""

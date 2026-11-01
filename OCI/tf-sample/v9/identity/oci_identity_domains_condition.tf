@@ -13,7 +13,7 @@ resource "oci_identity_domains_condition" "tf-sample-identity-domains-condition"
   operator                     = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   tags {
     key   = ""
     value = ""

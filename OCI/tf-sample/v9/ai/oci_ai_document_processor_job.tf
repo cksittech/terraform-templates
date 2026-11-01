@@ -1,12 +1,12 @@
 resource "oci_ai_document_processor_job" "tf-sample-ai-document-processor-job" {
   compartment_id = ""
   display_name   = ""
-  
+
   input_location {
     data        = ""
     page_range  = []
     source_type = ""
-    
+
     object_locations {
       bucket     = ""
       namespace  = ""
@@ -25,7 +25,7 @@ resource "oci_ai_document_processor_job" "tf-sample-ai-document-processor-job" {
     language              = ""
     model_id              = ""
     processor_type        = ""
-    
+
     features {
       feature_type             = ""
       generate_searchable_pdf  = false

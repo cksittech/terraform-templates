@@ -27,7 +27,7 @@ resource "oci_database_cloud_autonomous_vm_cluster" "tf-sample-database-cloud-au
   time_updated                          = ""
   total_container_databases             = 0
   unregister_pkcs_trigger               = 0
-  
+
   maintenance_window_details {
     custom_action_timeout_in_mins    = 0
     hours_of_day                     = []
@@ -38,7 +38,7 @@ resource "oci_database_cloud_autonomous_vm_cluster" "tf-sample-database-cloud-au
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }

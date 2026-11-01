@@ -13,7 +13,7 @@ resource "oci_core_volume" "tf-sample-core-volume" {
   volume_backup_id               = ""
   vpus_per_gb                    = ""
   xrc_kms_key_id                 = ""
-  
+
   autotune_policies {
     autotune_type   = ""
     max_vpus_per_gb = ""

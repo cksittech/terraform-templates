@@ -5,7 +5,7 @@ resource "oci_core_default_dhcp_options" "tf-sample-core-default-dhcp-options" {
   domain_name_type           = ""
   freeform_tags              = {}
   manage_default_resource_id = ""
-  
+
   options {
     custom_dns_servers  = []
     search_domain_names = []

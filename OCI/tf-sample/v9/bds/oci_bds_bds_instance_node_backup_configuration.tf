@@ -5,7 +5,7 @@ resource "oci_bds_bds_instance_node_backup_configuration" "tf-sample-bds-bds-ins
   number_of_backups_to_retain = 0
   schedule                    = ""
   timezone                    = ""
-  
+
   level_type_details {
     level_type     = ""
     node_host_name = ""

@@ -6,7 +6,7 @@ resource "oci_identity_tag" "tf-sample-identity-tag" {
   is_retired       = false
   name             = ""
   tag_namespace_id = ""
-  
+
   validator {
     validator_type = ""
     values         = []

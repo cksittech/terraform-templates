@@ -7,7 +7,7 @@ resource "oci_monitoring_alarm_suppression" "tf-sample-monitoring-alarm-suppress
   level               = ""
   time_suppress_from  = ""
   time_suppress_until = ""
-  
+
   alarm_suppression_target {
     alarm_id                  = ""
     compartment_id            = ""

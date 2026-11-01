@@ -14,7 +14,7 @@ resource "oci_objectstorage_object" "tf-sample-objectstorage-object" {
   opc_sse_kms_key_id         = ""
   source                     = ""
   storage_tier               = ""
-  
+
   source_uri_details {
     bucket                                = ""
     destination_object_if_match_etag      = ""

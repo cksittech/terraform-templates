@@ -8,7 +8,7 @@ resource "oci_network_load_balancer_network_load_balancers_backend_sets_unified"
   name                                        = ""
   network_load_balancer_id                    = ""
   policy                                      = ""
-  
+
   backends {
     ip_address = ""
     is_backup  = false
@@ -30,7 +30,7 @@ resource "oci_network_load_balancer_network_load_balancers_backend_sets_unified"
     return_code         = 0
     timeout_in_millis   = 0
     url_path            = ""
-    
+
     dns {
       domain_name        = ""
       query_class        = ""

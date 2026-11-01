@@ -8,7 +8,7 @@ resource "oci_core_volume_group_backup" "tf-sample-core-volume-group-backup" {
   is_retention_lock_enabled       = false
   type                            = ""
   volume_group_id                 = ""
-  
+
   retention_period {
     retention_time_amount = 0
     retention_time_unit   = ""

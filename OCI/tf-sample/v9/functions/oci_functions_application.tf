@@ -9,10 +9,10 @@ resource "oci_functions_application" "tf-sample-functions-application" {
   shape                      = ""
   subnet_ids                 = []
   syslog_url                 = ""
-  
+
   image_policy_config {
     is_policy_enabled = false
-    
+
     key_details {
       kms_key_id = ""
     }

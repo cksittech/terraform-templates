@@ -6,7 +6,7 @@ resource "oci_database_backup_destination" "tf-sample-database-backup-destinatio
   freeform_tags     = {}
   type              = ""
   vpc_users         = []
-  
+
   mount_type_details {
     local_mount_point_path = ""
     mount_type             = ""

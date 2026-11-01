@@ -13,7 +13,7 @@ resource "oci_data_safe_sensitive_data_model" "tf-sample-data-safe-sensitive-dat
   sensitive_type_group_ids_for_discovery    = []
   sensitive_type_ids_for_discovery          = []
   target_id                                 = ""
-  
+
   tables_for_discovery {
     schema_name = ""
     table_names = []

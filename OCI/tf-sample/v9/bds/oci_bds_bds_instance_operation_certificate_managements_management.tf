@@ -6,7 +6,7 @@ resource "oci_bds_bds_instance_operation_certificate_managements_management" "tf
   root_certificate                        = ""
   server_key_password                     = ""
   services                                = []
-  
+
   host_cert_details {
     certificate = ""
     host_name   = ""

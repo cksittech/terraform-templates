@@ -10,7 +10,7 @@ resource "oci_opsi_opsi_configuration" "tf-sample-opsi-opsi-configuration" {
   opsi_config_field               = []
   opsi_config_type                = ""
   system_tags                     = {}
-  
+
   config_items {
     config_item_type = ""
     name             = ""

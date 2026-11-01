@@ -4,7 +4,7 @@ resource "oci_database_management_managed_database_group" "tf-sample-database-ma
   description    = ""
   freeform_tags  = {}
   name           = ""
-  
+
   managed_databases {
     compartment_id = ""
     id             = ""

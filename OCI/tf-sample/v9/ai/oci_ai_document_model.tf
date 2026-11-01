@@ -12,7 +12,7 @@ resource "oci_ai_document_model" "tf-sample-ai-document-model" {
   model_type                 = ""
   model_version              = ""
   project_id                 = ""
-  
+
   component_models {
     model_id = ""
   }

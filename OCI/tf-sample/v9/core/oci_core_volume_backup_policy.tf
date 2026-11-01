@@ -4,7 +4,7 @@ resource "oci_core_volume_backup_policy" "tf-sample-core-volume-backup-policy" {
   destination_region = ""
   display_name       = ""
   freeform_tags      = {}
-  
+
   schedules {
     backup_type                 = ""
     day_of_month                = 0
@@ -18,7 +18,7 @@ resource "oci_core_volume_backup_policy" "tf-sample-core-volume-backup-policy" {
     period                      = ""
     retention_seconds           = 0
     time_zone                   = ""
-    
+
     retention_period {
       retention_time_amount = 0
       retention_time_unit   = ""

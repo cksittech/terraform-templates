@@ -8,7 +8,7 @@ resource "oci_load_balancer_listener" "tf-sample-load-balancer-listener" {
   protocol                 = ""
   routing_policy_name      = ""
   rule_set_names           = []
-  
+
   connection_configuration {
     backend_tcp_proxy_protocol_options = []
     backend_tcp_proxy_protocol_version = 0

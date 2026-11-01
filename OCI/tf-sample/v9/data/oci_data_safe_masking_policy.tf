@@ -13,7 +13,7 @@ resource "oci_data_safe_masking_policy" "tf-sample-data-safe-masking-policy" {
   post_masking_script                  = ""
   pre_masking_script                   = ""
   recompile                            = ""
-  
+
   column_source {
     column_source           = ""
     sensitive_data_model_id = ""

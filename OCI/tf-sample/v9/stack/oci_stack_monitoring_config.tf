@@ -10,7 +10,7 @@ resource "oci_stack_monitoring_config" "tf-sample-stack-monitoring-config" {
   policy_names          = []
   resource_type         = ""
   version               = ""
-  
+
   additional_configurations {
     properties_map = {}
   }

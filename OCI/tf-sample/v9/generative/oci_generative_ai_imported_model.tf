@@ -7,7 +7,7 @@ resource "oci_generative_ai_imported_model" "tf-sample-generative-ai-imported-mo
   freeform_tags  = {}
   vendor         = ""
   version        = ""
-  
+
   data_source {
     access_token = ""
     branch       = ""

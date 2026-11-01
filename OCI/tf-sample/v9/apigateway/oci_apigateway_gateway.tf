@@ -9,7 +9,7 @@ resource "oci_apigateway_gateway" "tf-sample-apigateway-gateway" {
   is_lock_override           = false
   network_security_group_ids = []
   subnet_id                  = ""
-  
+
   ca_bundles {
     ca_bundle_id             = ""
     certificate_authority_id = ""
@@ -35,7 +35,7 @@ resource "oci_apigateway_gateway" "tf-sample-apigateway-gateway" {
     read_timeout_in_ms                   = 0
     send_timeout_in_ms                   = 0
     type                                 = ""
-    
+
     servers {
       host = ""
       port = 0

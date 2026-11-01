@@ -5,12 +5,12 @@ resource "oci_ai_vision_stream_job" "tf-sample-ai-vision-stream-job" {
   freeform_tags    = {}
   state            = ""
   stream_source_id = ""
-  
+
   features {
     feature_type            = ""
     max_results             = 0
     should_return_landmarks = false
-    
+
     tracking_types {
       biometric_store_compartment_id = ""
       biometric_store_id             = ""

@@ -18,7 +18,7 @@ resource "oci_apm_config_config" "tf-sample-apm-config-config" {
   process_filter                    = []
   run_as_user                       = ""
   service_name                      = ""
-  
+
   config {
     config_map {
       body         = ""

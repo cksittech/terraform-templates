@@ -8,10 +8,10 @@ resource "oci_vault_secret" "tf-sample-vault-secret" {
   metadata               = {}
   secret_name            = ""
   vault_id               = ""
-  
+
   replication_config {
     is_write_forward_enabled = false
-    
+
     replication_targets {
       target_key_id   = ""
       target_region   = ""
@@ -21,7 +21,7 @@ resource "oci_vault_secret" "tf-sample-vault-secret" {
   rotation_config {
     is_scheduled_rotation_enabled = false
     rotation_interval             = ""
-    
+
     target_system_details {
       adb_id             = ""
       function_id        = ""

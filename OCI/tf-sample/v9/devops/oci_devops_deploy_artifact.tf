@@ -6,7 +6,7 @@ resource "oci_devops_deploy_artifact" "tf-sample-devops-deploy-artifact" {
   display_name               = ""
   freeform_tags              = {}
   project_id                 = ""
-  
+
   deploy_artifact_source {
     base64encoded_content       = ""
     chart_url                   = ""
@@ -17,7 +17,7 @@ resource "oci_devops_deploy_artifact" "tf-sample-devops-deploy-artifact" {
     image_digest                = ""
     image_uri                   = ""
     repository_id               = ""
-    
+
     helm_verification_key_source {
       current_public_key           = ""
       previous_public_key          = ""

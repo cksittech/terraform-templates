@@ -20,7 +20,7 @@ resource "oci_desktops_desktop_pool" "tf-sample-desktops-desktop-pool" {
   time_start_scheduled     = ""
   time_stop_scheduled      = ""
   use_dedicated_vm_host    = ""
-  
+
   availability_policy {
     start_schedule {
       cron_expression = ""

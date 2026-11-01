@@ -24,7 +24,7 @@ resource "oci_identity_domains_identity_propagation_trust" "tf-sample-identity-d
   subject_mapping_attribute    = ""
   subject_type                 = ""
   type                         = ""
-  
+
   ca_cert_chain {
     intermediate_cas = []
     root_cas         = []

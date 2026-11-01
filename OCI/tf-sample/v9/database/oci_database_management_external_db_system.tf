@@ -4,7 +4,7 @@ resource "oci_database_management_external_db_system" "tf-sample-database-manage
   defined_tags           = {}
   display_name           = ""
   freeform_tags          = {}
-  
+
   database_management_config {
     license_model = ""
   }

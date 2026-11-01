@@ -8,7 +8,7 @@ resource "oci_core_ipsec" "tf-sample-core-ipsec" {
   drg_id                    = ""
   freeform_tags             = {}
   static_routes             = []
-  
+
   tunnel_configuration {
     associated_virtual_circuits = []
     drg_route_table_id          = ""

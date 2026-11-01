@@ -4,7 +4,7 @@ resource "oci_fleet_apps_management_platform_configuration" "tf-sample-fleet-app
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   config_category_details {
     components                                 = []
     config_category                            = ""
@@ -14,7 +14,7 @@ resource "oci_fleet_apps_management_platform_configuration" "tf-sample-fleet-app
     is_softlink                                = false
     link_product_id                            = ""
     versions                                   = []
-    
+
     compatible_products {
       display_name = ""
       id           = ""
@@ -35,7 +35,7 @@ resource "oci_fleet_apps_management_platform_configuration" "tf-sample-fleet-app
       components   = []
       sub_category = ""
       versions     = []
-      
+
       credentials {
         display_name = ""
         id           = ""

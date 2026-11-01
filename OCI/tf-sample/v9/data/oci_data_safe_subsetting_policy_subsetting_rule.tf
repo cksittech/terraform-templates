@@ -5,7 +5,7 @@ resource "oci_data_safe_subsetting_policy_subsetting_rule" "tf-sample-data-safe-
   related_tables_propagation = ""
   rule_combination_mode      = ""
   subsetting_policy_id       = ""
-  
+
   scope {
     object      = ""
     schema_name = ""

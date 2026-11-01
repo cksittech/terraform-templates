@@ -6,7 +6,7 @@ resource "oci_mysql_mysql_configuration" "tf-sample-mysql-mysql-configuration" {
   freeform_tags           = {}
   parent_configuration_id = ""
   shape_name              = ""
-  
+
   options {
     name  = ""
     value = ""

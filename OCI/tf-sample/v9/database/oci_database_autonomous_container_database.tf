@@ -45,10 +45,10 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   vault_id                                          = ""
   version_preference                                = ""
   vm_failover_reservation                           = 0
-  
+
   backup_config {
     recovery_window_in_days = 0
-    
+
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
       id                                   = ""
@@ -80,7 +80,7 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }
@@ -90,7 +90,7 @@ resource "oci_database_autonomous_container_database" "tf-sample-database-autono
   }
   peer_autonomous_container_database_backup_config {
     recovery_window_in_days = 0
-    
+
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
       id                                   = ""

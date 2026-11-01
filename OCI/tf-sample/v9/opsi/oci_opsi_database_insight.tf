@@ -20,7 +20,7 @@ resource "oci_opsi_database_insight" "tf-sample-opsi-database-insight" {
   service_name                         = ""
   status                               = ""
   system_tags                          = {}
-  
+
   connection_credential_details {
     credential_source_name = ""
     credential_type        = ""
@@ -34,7 +34,7 @@ resource "oci_opsi_database_insight" "tf-sample-opsi-database-insight" {
     port         = 0
     protocol     = ""
     service_name = ""
-    
+
     hosts {
       host_ip = ""
       port    = 0

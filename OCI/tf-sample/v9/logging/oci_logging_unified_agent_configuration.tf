@@ -5,23 +5,23 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
   display_name   = ""
   freeform_tags  = {}
   is_enabled     = false
-  
+
   group_association {
     group_list = []
   }
   service_configuration {
     configuration_type = ""
-    
+
     application_configurations {
       source_type = ""
-      
+
       destination {
         compartment_id    = ""
         metrics_namespace = ""
       }
       source {
         name = ""
-        
+
         scrape_targets {
           k8s_namespace  = ""
           name           = ""
@@ -35,7 +35,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
         name        = ""
         paths       = []
         source_type = ""
-        
+
         advanced_options {
           is_read_from_head = false
         }
@@ -67,7 +67,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
           time_type                  = ""
           timeout_in_milliseconds    = 0
           types                      = {}
-          
+
           nested_parser {
             field_time_key   = ""
             is_keep_time_key = false
@@ -99,7 +99,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
     }
     destination {
       log_object_id = ""
-      
+
       operational_metrics_configuration {
         destination {
           compartment_id = ""
@@ -107,7 +107,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
         source {
           metrics = []
           type    = ""
-          
+
           record_input {
             namespace      = ""
             resource_group = ""
@@ -121,7 +121,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
       name          = ""
       paths         = []
       source_type   = ""
-      
+
       advanced_options {
         is_read_from_head = false
       }
@@ -153,7 +153,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
         time_type                  = ""
         timeout_in_milliseconds    = 0
         types                      = {}
-        
+
         nested_parser {
           field_time_key   = ""
           is_keep_time_key = false
@@ -195,7 +195,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
       replace_invalid_sequence     = false
       reserve_data                 = false
       reserve_time                 = false
-      
+
       allow_list {
         key     = ""
         pattern = ""
@@ -236,7 +236,7 @@ resource "oci_logging_unified_agent_configuration" "tf-sample-logging-unified-ag
         time_type                  = ""
         timeout_in_milliseconds    = 0
         types                      = {}
-        
+
         nested_parser {
           field_time_key   = ""
           is_keep_time_key = false

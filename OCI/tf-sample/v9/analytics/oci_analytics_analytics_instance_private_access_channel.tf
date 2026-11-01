@@ -4,7 +4,7 @@ resource "oci_analytics_analytics_instance_private_access_channel" "tf-sample-an
   network_security_group_ids = []
   subnet_id                  = ""
   vcn_id                     = ""
-  
+
   private_source_dns_zones {
     description = ""
     dns_zone    = ""

@@ -21,7 +21,7 @@ resource "oci_dataflow_invoke_run" "tf-sample-dataflow-invoke-run" {
   spark_version           = ""
   type                    = ""
   warehouse_bucket_uri    = ""
-  
+
   application_log_config {
     log_group_id = ""
     log_id       = ""

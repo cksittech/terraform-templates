@@ -9,7 +9,7 @@ resource "oci_data_safe_registration_policy" "tf-sample-data-safe-registration-p
   opc_dry_run           = false
   resource_id           = ""
   x_cluster_id          = ""
-  
+
   connection_option {
     connection_type = ""
     identifiers     = []

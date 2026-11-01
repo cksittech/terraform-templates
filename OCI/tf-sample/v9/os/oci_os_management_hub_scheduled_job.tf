@@ -17,14 +17,14 @@ resource "oci_os_management_hub_scheduled_job" "tf-sample-os-management-hub-sche
   schedule_type                  = ""
   time_next_execution            = ""
   work_request_id                = ""
-  
+
   operations {
     operation_type         = ""
     package_names          = []
     reboot_timeout_in_mins = 0
     software_source_ids    = []
     windows_update_names   = []
-    
+
     install_snap_details {
       channel   = ""
       is_signed = false

@@ -13,7 +13,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
   kms_key_version_id          = ""
   source                      = ""
   vm_cluster_id               = ""
-  
+
   database {
     admin_password                        = ""
     backup_id                             = ""
@@ -36,7 +36,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
     time_stamp_for_point_in_time_recovery = ""
     vault_id                              = ""
     vm_cluster_id                         = ""
-    
+
     db_backup_config {
       auto_backup_enabled       = false
       auto_backup_window        = ""
@@ -45,7 +45,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
       backup_deletion_policy    = ""
       recovery_window_in_days   = 0
       run_immediate_full_backup = false
-      
+
       backup_destination_details {
         backup_retention_policy_on_terminate = ""
         dbrs_policy_id                       = ""
@@ -56,7 +56,7 @@ resource "oci_database_db_home" "tf-sample-database-db-home" {
         type                                 = ""
         vpc_password                         = ""
         vpc_user                             = ""
-        
+
         tde_wallet_backup_destination {
           backup_destination_id   = ""
           backup_destination_type = ""

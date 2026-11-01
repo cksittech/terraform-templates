@@ -6,13 +6,13 @@ resource "oci_mysql_blue_green_deployment" "tf-sample-mysql-blue-green-deploymen
   freeform_tags                     = {}
   source_db_system_id               = ""
   switchover_trigger                = 0
-  
+
   channel_details {
     applier_username = ""
     source_password  = ""
     source_username  = ""
     ssl_mode         = ""
-    
+
     ssl_ca_certificate {
       certificate_type = ""
       contents         = ""

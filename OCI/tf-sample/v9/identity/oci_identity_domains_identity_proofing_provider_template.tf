@@ -9,7 +9,7 @@ resource "oci_identity_domains_identity_proofing_provider_template" "tf-sample-i
   schemas                                      = []
   service_type                                 = []
   verification_url                             = ""
-  
+
   configuration {
     name        = ""
     sensitivity = false

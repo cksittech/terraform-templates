@@ -2,7 +2,7 @@ resource "oci_os_management_hub_managed_instance_install_windows_updates_managem
   managed_instance_id  = ""
   windows_update_name  = []
   windows_update_types = []
-  
+
   work_request_details {
     description  = ""
     display_name = ""

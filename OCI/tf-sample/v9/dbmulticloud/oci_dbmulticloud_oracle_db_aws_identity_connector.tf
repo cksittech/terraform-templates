@@ -9,7 +9,7 @@ resource "oci_dbmulticloud_oracle_db_aws_identity_connector" "tf-sample-dbmultic
   issuer_url               = ""
   oidc_scope               = ""
   resource_id              = ""
-  
+
   service_role_details {
     role_arn                 = ""
     service_private_endpoint = ""

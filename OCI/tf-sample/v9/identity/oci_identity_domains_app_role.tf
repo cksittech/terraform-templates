@@ -14,7 +14,7 @@ resource "oci_identity_domains_app_role" "tf-sample-identity-domains-app-role" {
   public                       = false
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   app {
     value = ""
   }

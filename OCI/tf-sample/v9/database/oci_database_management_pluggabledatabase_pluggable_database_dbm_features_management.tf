@@ -3,13 +3,13 @@ resource "oci_database_management_pluggabledatabase_pluggable_database_dbm_featu
   feature                               = ""
   modify_pluggable_database_dbm_feature = false
   pluggable_database_id                 = ""
-  
+
   feature_details {
     can_enable_all_current_pdbs       = false
     feature                           = ""
     is_auto_enable_pluggable_database = false
     management_type                   = ""
-    
+
     connector_details {
       connector_type        = ""
       database_connector_id = ""

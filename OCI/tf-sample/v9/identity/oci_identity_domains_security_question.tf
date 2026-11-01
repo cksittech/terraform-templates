@@ -9,7 +9,7 @@ resource "oci_identity_domains_security_question" "tf-sample-identity-domains-se
   resource_type_schema_version = ""
   schemas                      = []
   type                         = ""
-  
+
   question_text {
     default = false
     locale  = ""

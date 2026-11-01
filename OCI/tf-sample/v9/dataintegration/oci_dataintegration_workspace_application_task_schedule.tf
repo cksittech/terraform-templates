@@ -21,7 +21,7 @@ resource "oci_dataintegration_workspace_application_task_schedule" "tf-sample-da
   retry_delay_unit         = ""
   start_time_millis        = ""
   workspace_id             = ""
-  
+
   parent_ref {
     parent      = ""
     root_doc_id = ""
@@ -44,7 +44,7 @@ resource "oci_dataintegration_workspace_application_task_schedule" "tf-sample-da
     object_status                  = 0
     object_version                 = 0
     timezone                       = ""
-    
+
     frequency_details {
       custom_expression = ""
       day_of_week       = ""
@@ -53,7 +53,7 @@ resource "oci_dataintegration_workspace_application_task_schedule" "tf-sample-da
       interval          = 0
       model_type        = ""
       week_of_month     = ""
-      
+
       time {
         hour   = 0
         minute = 0
@@ -73,7 +73,7 @@ resource "oci_dataintegration_workspace_application_task_schedule" "tf-sample-da
       time_updated     = ""
       updated_by       = ""
       updated_by_name  = ""
-      
+
       aggregator {
         description = ""
         identifier  = ""

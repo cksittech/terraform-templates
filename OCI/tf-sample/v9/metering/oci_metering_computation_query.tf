@@ -1,10 +1,10 @@
 resource "oci_metering_computation_query" "tf-sample-metering-computation-query" {
   compartment_id = ""
-  
+
   query_definition {
     display_name = ""
     version      = 0
-    
+
     cost_analysis_ui {
       graph               = ""
       is_cumulative_graph = false
@@ -20,7 +20,7 @@ resource "oci_metering_computation_query" "tf-sample-metering-computation-query"
       tenant_id            = ""
       time_usage_ended     = ""
       time_usage_started   = ""
-      
+
       forecast {
         forecast_type         = ""
         time_forecast_ended   = ""

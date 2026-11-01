@@ -2,7 +2,7 @@ resource "oci_os_management_hub_managed_instance_group_install_packages_manageme
   is_latest                 = false
   managed_instance_group_id = ""
   package_names             = []
-  
+
   work_request_details {
     description  = ""
     display_name = ""

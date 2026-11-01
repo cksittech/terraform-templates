@@ -9,7 +9,7 @@ resource "oci_mysql_mysql_backup" "tf-sample-mysql-mysql-backup" {
   retention_in_days = 0
   soft_delete       = ""
   validate_trigger  = 0
-  
+
   db_system_snapshot_summary {
     display_name = ""
     id           = ""

@@ -7,7 +7,7 @@ resource "oci_cloud_migrations_migration" "tf-sample-cloud-migrations-migration"
   migration_type          = ""
   replication_schedule_id = ""
   security_attributes     = {}
-  
+
   migration_config {
     subnet_id = ""
   }

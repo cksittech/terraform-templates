@@ -11,7 +11,7 @@ resource "oci_network_firewall_network_firewall" "tf-sample-network-firewall-net
   security_attributes        = {}
   shape                      = ""
   subnet_id                  = ""
-  
+
   nat_configuration {
     must_enable_private_nat = false
   }

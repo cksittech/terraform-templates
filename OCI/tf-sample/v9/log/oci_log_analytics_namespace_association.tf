@@ -5,11 +5,11 @@ resource "oci_log_analytics_namespace_association" "tf-sample-log-analytics-name
   log_group_id      = ""
   namespace         = ""
   source_name       = ""
-  
+
   association_properties {
     name  = ""
     value = ""
-    
+
     patterns {
       id    = ""
       value = ""

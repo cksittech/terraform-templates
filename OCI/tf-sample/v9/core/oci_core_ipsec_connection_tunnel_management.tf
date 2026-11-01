@@ -7,7 +7,7 @@ resource "oci_core_ipsec_connection_tunnel_management" "tf-sample-core-ipsec-con
   routing                 = ""
   shared_secret           = ""
   tunnel_id               = ""
-  
+
   bgp_session_info {
     customer_bgp_asn        = ""
     customer_interface_ip   = ""

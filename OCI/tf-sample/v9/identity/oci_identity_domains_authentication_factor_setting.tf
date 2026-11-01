@@ -20,7 +20,7 @@ resource "oci_identity_domains_authentication_factor_setting" "tf-sample-identit
   totp_enabled                      = false
   user_enrollment_disabled_factors  = []
   yubico_otp_enabled                = false
-  
+
   bypass_code_settings {
     help_desk_code_expiry_in_mins   = 0
     help_desk_generation_enabled    = false

@@ -7,7 +7,7 @@ resource "oci_containerengine_cluster" "tf-sample-containerengine-cluster" {
   name               = ""
   type               = ""
   vcn_id             = ""
-  
+
   cluster_pod_network_options {
     cni_type = ""
   }
@@ -19,7 +19,7 @@ resource "oci_containerengine_cluster" "tf-sample-containerengine-cluster" {
   }
   image_policy_config {
     is_policy_enabled = false
-    
+
     key_details {
       kms_key_id = ""
     }
@@ -27,7 +27,7 @@ resource "oci_containerengine_cluster" "tf-sample-containerengine-cluster" {
   options {
     ip_families           = []
     service_lb_subnet_ids = []
-    
+
     add_ons {
       is_kubernetes_dashboard_enabled = false
       is_tiller_enabled               = false
@@ -53,7 +53,7 @@ resource "oci_containerengine_cluster" "tf-sample-containerengine-cluster" {
       signing_algorithms              = []
       username_claim                  = ""
       username_prefix                 = ""
-      
+
       required_claims {
         key   = ""
         value = ""

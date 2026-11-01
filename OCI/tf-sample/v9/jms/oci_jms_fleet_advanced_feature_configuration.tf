@@ -2,13 +2,13 @@ resource "oci_jms_fleet_advanced_feature_configuration" "tf-sample-jms-fleet-adv
   analytic_bucket_name = ""
   analytic_namespace   = ""
   fleet_id             = ""
-  
+
   advanced_usage_tracking {
     is_enabled = false
   }
   crypto_event_analysis {
     is_enabled = false
-    
+
     summarized_events_log {
       log_group_id = ""
       log_id       = ""
@@ -22,13 +22,13 @@ resource "oci_jms_fleet_advanced_feature_configuration" "tf-sample-jms-fleet-adv
   }
   lcm {
     is_enabled = false
-    
+
     post_installation_actions {
       add_logging_handler                          = false
       disabled_tls_versions                        = []
       global_logging_level                         = ""
       should_replace_certificates_operating_system = false
-      
+
       minimum_key_size_settings {
         certpath {
           key_size = 0

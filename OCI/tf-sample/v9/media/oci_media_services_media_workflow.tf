@@ -6,7 +6,7 @@ resource "oci_media_services_media_workflow" "tf-sample-media-services-media-wor
   is_lock_override                 = false
   media_workflow_configuration_ids = []
   parameters                       = ""
-  
+
   locks {
     compartment_id      = ""
     message             = ""

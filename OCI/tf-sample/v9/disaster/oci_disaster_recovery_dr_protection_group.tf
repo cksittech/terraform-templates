@@ -4,7 +4,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
   disassociate_trigger = 0
   display_name         = ""
   freeform_tags        = {}
-  
+
   association {
     peer_id     = ""
     peer_region = ""
@@ -38,7 +38,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
     password_vault_secret_id                       = ""
     peer_cluster_id                                = ""
     peer_db_system_id                              = ""
-    
+
     backend_set_mappings {
       destination_backend_set_name   = ""
       is_backend_set_for_non_movable = false
@@ -67,7 +67,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
     }
     block_volume_operations {
       block_volume_id = ""
-      
+
       attachment_details {
         volume_attachment_reference_instance_id = ""
       }
@@ -110,7 +110,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
       export_path     = ""
       mount_point     = ""
       mount_target_id = ""
-      
+
       mount_details {
         mount_target_id = ""
       }
@@ -137,7 +137,7 @@ resource "oci_disaster_recovery_dr_protection_group" "tf-sample-disaster-recover
     }
     source_volume_to_destination_encryption_key_mappings {
       source_volume_id = ""
-      
+
       destination_encryption_key {
         encryption_key_id = ""
         vault_id          = ""

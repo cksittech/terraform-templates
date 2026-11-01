@@ -8,7 +8,7 @@ resource "oci_stack_monitoring_monitored_resource_type" "tf-sample-stack-monitor
   name              = ""
   resource_category = ""
   source_type       = ""
-  
+
   metadata {
     agent_properties            = []
     format                      = ""
@@ -17,7 +17,7 @@ resource "oci_stack_monitoring_monitored_resource_type" "tf-sample-stack-monitor
     valid_properties_for_update = []
     valid_property_values       = {}
     valid_sub_resource_types    = []
-    
+
     unique_property_sets {
       properties = []
     }

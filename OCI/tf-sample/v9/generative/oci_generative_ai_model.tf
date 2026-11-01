@@ -7,10 +7,10 @@ resource "oci_generative_ai_model" "tf-sample-generative-ai-model" {
   freeform_tags  = {}
   vendor         = ""
   version        = ""
-  
+
   fine_tune_details {
     dedicated_ai_cluster_id = ""
-    
+
     training_config {
       early_stopping_patience             = 0
       early_stopping_threshold            = 0

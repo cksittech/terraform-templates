@@ -3,7 +3,7 @@ resource "oci_osp_gateway_subscription" "tf-sample-osp-gateway-subscription" {
   email           = ""
   osp_home_region = ""
   subscription_id = ""
-  
+
   subscription {
     account_type                    = ""
     bill_to_cust_account_id         = ""
@@ -23,7 +23,7 @@ resource "oci_osp_gateway_subscription" "tf-sample-osp-gateway-subscription" {
     time_start                      = ""
     upgrade_state                   = ""
     upgrade_state_details           = ""
-    
+
     billing_address {
       address_key           = ""
       city                  = ""

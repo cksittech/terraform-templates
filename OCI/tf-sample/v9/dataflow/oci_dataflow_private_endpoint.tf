@@ -8,7 +8,7 @@ resource "oci_dataflow_private_endpoint" "tf-sample-dataflow-private-endpoint" {
   max_host_count = 0
   nsg_ids        = []
   subnet_id      = ""
-  
+
   scan_details {
     fqdn = ""
     port = ""

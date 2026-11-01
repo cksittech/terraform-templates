@@ -6,7 +6,7 @@ resource "oci_media_services_stream_packaging_config" "tf-sample-media-services-
   is_lock_override        = false
   segment_time_in_seconds = 0
   stream_packaging_format = ""
-  
+
   encryption {
     algorithm  = ""
     kms_key_id = ""

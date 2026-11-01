@@ -12,7 +12,7 @@ resource "oci_database_pluggable_database" "tf-sample-database-pluggable-databas
   should_create_pdb_backup           = false
   should_pdb_admin_account_be_locked = false
   tde_wallet_password                = ""
-  
+
   pdb_creation_type_details {
     creation_type                            = ""
     dblink_user_password                     = ""
@@ -21,7 +21,7 @@ resource "oci_database_pluggable_database" "tf-sample-database-pluggable-databas
     source_container_database_admin_password = ""
     source_pluggable_database_id             = ""
     source_pluggable_database_snapshot_id    = ""
-    
+
     refreshable_clone_details {
       is_refreshable_clone = false
     }

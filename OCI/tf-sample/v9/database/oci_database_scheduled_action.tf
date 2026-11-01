@@ -6,7 +6,7 @@ resource "oci_database_scheduled_action" "tf-sample-database-scheduled-action" {
   freeform_tags        = {}
   scheduling_plan_id   = ""
   scheduling_window_id = ""
-  
+
   action_members {
     estimated_time_in_mins = 0
     member_id              = ""

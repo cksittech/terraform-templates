@@ -6,7 +6,7 @@ resource "oci_batch_batch_task_environment" "tf-sample-batch-batch-task-environm
   freeform_tags     = {}
   image_url         = ""
   working_directory = ""
-  
+
   security_context {
     fs_group     = 0
     run_as_group = 0

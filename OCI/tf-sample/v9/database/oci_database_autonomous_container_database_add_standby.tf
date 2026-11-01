@@ -9,10 +9,10 @@ resource "oci_database_autonomous_container_database_add_standby" "tf-sample-dat
   peer_db_unique_name                               = ""
   protection_mode                                   = ""
   standby_maintenance_buffer_in_days                = 0
-  
+
   peer_autonomous_container_database_backup_config {
     recovery_window_in_days = 0
-    
+
     backup_destination_details {
       backup_retention_policy_on_terminate = ""
       dbrs_policy_id                       = ""

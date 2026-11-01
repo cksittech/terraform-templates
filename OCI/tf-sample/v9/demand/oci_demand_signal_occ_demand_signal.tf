@@ -5,11 +5,11 @@ resource "oci_demand_signal_occ_demand_signal" "tf-sample-demand-signal-occ-dema
   freeform_tags        = {}
   is_active            = false
   occ_demand_signal_id = ""
-  
+
   occ_demand_signals {
     resource_type = ""
     units         = ""
-    
+
     values {
       comments      = ""
       time_expected = ""

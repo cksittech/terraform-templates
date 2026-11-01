@@ -5,7 +5,7 @@ resource "oci_cloud_guard_data_source" "tf-sample-cloud-guard-data-source" {
   display_name              = ""
   freeform_tags             = {}
   status                    = ""
-  
+
   data_source_details {
     additional_entities_count = 0
     data_source_feed_provider = ""
@@ -17,7 +17,7 @@ resource "oci_cloud_guard_data_source" "tf-sample-cloud-guard-data-source" {
     query                     = ""
     regions                   = []
     threshold                 = 0
-    
+
     logging_query_details {
       key_entities_count = 0
       logging_query_type = ""

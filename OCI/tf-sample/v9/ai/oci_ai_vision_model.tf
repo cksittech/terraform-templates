@@ -9,7 +9,7 @@ resource "oci_ai_vision_model" "tf-sample-ai-vision-model" {
   model_type                     = ""
   model_version                  = ""
   project_id                     = ""
-  
+
   testing_dataset {
     bucket         = ""
     dataset_id     = ""

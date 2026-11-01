@@ -12,7 +12,7 @@ resource "oci_identity_domains_cloud_gate_server" "tf-sample-identity-domains-cl
   resource_type_schema_version = ""
   schemas                      = []
   ssl                          = false
-  
+
   cloud_gate {
     value = ""
   }

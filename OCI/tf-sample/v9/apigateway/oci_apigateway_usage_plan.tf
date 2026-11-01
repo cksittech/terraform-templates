@@ -4,11 +4,11 @@ resource "oci_apigateway_usage_plan" "tf-sample-apigateway-usage-plan" {
   display_name     = ""
   freeform_tags    = {}
   is_lock_override = false
-  
+
   entitlements {
     description = ""
     name        = ""
-    
+
     quota {
       operation_on_breach = ""
       reset_policy        = ""

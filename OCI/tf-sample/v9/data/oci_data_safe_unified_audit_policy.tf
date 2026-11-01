@@ -7,7 +7,7 @@ resource "oci_data_safe_unified_audit_policy" "tf-sample-data-safe-unified-audit
   security_policy_id                 = ""
   status                             = ""
   unified_audit_policy_definition_id = ""
-  
+
   conditions {
     attribute_set_id = ""
     entity_selection = ""

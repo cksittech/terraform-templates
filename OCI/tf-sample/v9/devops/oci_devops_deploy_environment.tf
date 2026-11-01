@@ -8,7 +8,7 @@ resource "oci_devops_deploy_environment" "tf-sample-devops-deploy-environment" {
   function_id             = ""
   project_id              = ""
   security_attributes     = {}
-  
+
   compute_instance_group_selectors {
     items {
       compute_instance_ids = []

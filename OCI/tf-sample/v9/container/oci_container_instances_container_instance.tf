@@ -9,7 +9,7 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
   graceful_shutdown_timeout_in_seconds = ""
   shape                                = ""
   state                                = ""
-  
+
   containers {
     arguments                      = []
     command                        = []
@@ -20,7 +20,7 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
     image_url                      = ""
     is_resource_principal_disabled = false
     working_directory              = ""
-    
+
     health_checks {
       failure_action           = ""
       failure_threshold        = 0
@@ -34,7 +34,7 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
       status_details           = ""
       success_threshold        = 0
       timeout_in_seconds       = 0
-      
+
       headers {
         name  = ""
         value = ""
@@ -50,7 +50,7 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
       run_as_group                   = 0
       run_as_user                    = 0
       security_context_type          = ""
-      
+
       capabilities {
         add_capabilities  = []
         drop_capabilities = []
@@ -101,7 +101,7 @@ resource "oci_container_instances_container_instance" "tf-sample-container-insta
     name          = ""
     subnet_id     = ""
     volume_type   = ""
-    
+
     configs {
       data      = ""
       file_name = ""

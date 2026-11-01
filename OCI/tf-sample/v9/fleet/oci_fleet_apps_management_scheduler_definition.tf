@@ -4,7 +4,7 @@ resource "oci_fleet_apps_management_scheduler_definition" "tf-sample-fleet-apps-
   description    = ""
   display_name   = ""
   freeform_tags  = {}
-  
+
   action_groups {
     display_name         = ""
     fleet_id             = ""
@@ -16,15 +16,15 @@ resource "oci_fleet_apps_management_scheduler_definition" "tf-sample-fleet-apps-
   run_books {
     runbook_id           = ""
     runbook_version_name = ""
-    
+
     input_parameters {
       step_name = ""
-      
+
       arguments {
         kind  = ""
         name  = ""
         value = ""
-        
+
         content {
           bucket      = ""
           checksum    = ""

@@ -12,7 +12,7 @@ resource "oci_apm_traces_scheduled_query" "tf-sample-apm-traces-scheduled-query"
   scheduled_query_retention_period_in_ms     = ""
   scheduled_query_schedule                   = ""
   scheduled_query_text                       = ""
-  
+
   scheduled_query_processing_configuration {
     custom_metric {
       compartment                  = ""

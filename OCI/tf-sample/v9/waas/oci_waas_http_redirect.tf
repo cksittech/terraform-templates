@@ -5,7 +5,7 @@ resource "oci_waas_http_redirect" "tf-sample-waas-http-redirect" {
   domain         = ""
   freeform_tags  = {}
   response_code  = 0
-  
+
   target {
     host     = ""
     path     = ""

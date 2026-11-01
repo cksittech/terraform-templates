@@ -11,7 +11,7 @@ resource "oci_log_analytics_namespace_lookup" "tf-sample-log-analytics-namespace
   namespace            = ""
   register_lookup_file = ""
   type                 = ""
-  
+
   categories {
     description  = ""
     display_name = ""

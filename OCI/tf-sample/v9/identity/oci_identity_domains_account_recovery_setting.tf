@@ -11,7 +11,7 @@ resource "oci_identity_domains_account_recovery_setting" "tf-sample-identity-dom
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   tags {
     key   = ""
     value = ""

@@ -4,7 +4,7 @@ resource "oci_vn_monitoring_path_analysi" "tf-sample-vn-monitoring-path-analysi"
   path_analyzer_test_id = ""
   protocol              = 0
   type                  = ""
-  
+
   destination_endpoint {
     address                  = ""
     instance_id              = ""

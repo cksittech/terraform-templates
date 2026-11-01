@@ -52,7 +52,7 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
   upgrade_major_version_trigger            = 0
   vcn_compartment_id                       = ""
   vcn_id                                   = ""
-  
+
   certificate_config {
     cluster_certificate_mode             = ""
     dashboard_certificate_mode           = ""
@@ -69,7 +69,7 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
   }
   outbound_cluster_config {
     is_enabled = false
-    
+
     outbound_clusters {
       display_name        = ""
       is_skip_unavailable = false
@@ -84,7 +84,7 @@ resource "oci_opensearch_opensearch_cluster" "tf-sample-opensearch-opensearch-cl
   security_master_user_auth_details {
     user_details {
       username = ""
-      
+
       password_details {
         plain_password  = ""
         source_type     = ""

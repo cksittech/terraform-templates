@@ -11,7 +11,7 @@ resource "oci_database_cloud_exadata_infrastructure" "tf-sample-database-cloud-e
   storage_count              = 0
   storage_server_type        = ""
   subscription_id            = ""
-  
+
   customer_contacts {
     email = ""
   }
@@ -28,7 +28,7 @@ resource "oci_database_cloud_exadata_infrastructure" "tf-sample-database-cloud-e
     preference                       = ""
     skip_ru                          = []
     weeks_of_month                   = []
-    
+
     days_of_week {
       name = ""
     }

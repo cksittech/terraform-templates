@@ -12,7 +12,7 @@ resource "oci_identity_domains_identity_setting" "tf-sample-identity-domains-ide
   return_inactive_over_locked_message     = false
   schemas                                 = []
   user_allowed_to_set_recovery_email      = false
-  
+
   my_profile {
     allow_end_users_to_change_their_password          = false
     allow_end_users_to_link_their_support_account     = false

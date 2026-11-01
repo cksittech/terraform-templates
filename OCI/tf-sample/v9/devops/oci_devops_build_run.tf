@@ -3,7 +3,7 @@ resource "oci_devops_build_run" "tf-sample-devops-build-run" {
   defined_tags      = {}
   display_name      = ""
   freeform_tags     = {}
-  
+
   build_run_arguments {
     items {
       name  = ""

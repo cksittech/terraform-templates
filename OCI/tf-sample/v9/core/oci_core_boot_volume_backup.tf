@@ -9,7 +9,7 @@ resource "oci_core_boot_volume_backup" "tf-sample-core-boot-volume-backup" {
   is_retention_lock_enabled       = false
   kms_key_id                      = ""
   type                            = ""
-  
+
   retention_period {
     retention_time_amount = 0
     retention_time_unit   = ""

@@ -11,12 +11,12 @@ resource "oci_resource_scheduler_schedule" "tf-sample-resource-scheduler-schedul
   state              = ""
   time_ends          = ""
   time_starts        = ""
-  
+
   resource_filters {
     attribute                         = ""
     condition                         = ""
     should_include_child_compartments = false
-    
+
     value {
       namespace = ""
       tag_key   = ""
@@ -26,7 +26,7 @@ resource "oci_resource_scheduler_schedule" "tf-sample-resource-scheduler-schedul
   resources {
     id       = ""
     metadata = {}
-    
+
     parameters {
       parameter_type = ""
       value          = []

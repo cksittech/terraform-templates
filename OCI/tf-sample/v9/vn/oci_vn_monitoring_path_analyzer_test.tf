@@ -4,7 +4,7 @@ resource "oci_vn_monitoring_path_analyzer_test" "tf-sample-vn-monitoring-path-an
   display_name   = ""
   freeform_tags  = {}
   protocol       = 0
-  
+
   destination_endpoint {
     address                  = ""
     instance_id              = ""

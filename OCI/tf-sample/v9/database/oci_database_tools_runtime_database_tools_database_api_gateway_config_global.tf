@@ -9,10 +9,10 @@ resource "oci_database_tools_runtime_database_tools_database_api_gateway_config_
   pool_route                                    = ""
   pool_routing_header                           = ""
   type                                          = ""
-  
+
   certificate_bundle {
     type = ""
-    
+
     certificate_private_key {
       format = ""
       path   = ""

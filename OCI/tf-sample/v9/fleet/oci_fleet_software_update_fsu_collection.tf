@@ -6,17 +6,17 @@ resource "oci_fleet_software_update_fsu_collection" "tf-sample-fleet-software-up
   service_type         = ""
   source_major_version = ""
   type                 = ""
-  
+
   components {
     component_type       = ""
     source_major_version = ""
-    
+
     fleet_discovery {
       fsu_discovery_id = ""
       query            = ""
       strategy         = ""
       targets          = []
-      
+
       filters {
         entity_type      = ""
         exadata_releases = []
@@ -25,7 +25,7 @@ resource "oci_fleet_software_update_fsu_collection" "tf-sample-fleet-software-up
         operator         = ""
         type             = ""
         versions         = []
-        
+
         tags {
           key       = ""
           namespace = ""
@@ -39,7 +39,7 @@ resource "oci_fleet_software_update_fsu_collection" "tf-sample-fleet-software-up
     query            = ""
     strategy         = ""
     targets          = []
-    
+
     filters {
       entity_type      = ""
       exadata_releases = []
@@ -49,7 +49,7 @@ resource "oci_fleet_software_update_fsu_collection" "tf-sample-fleet-software-up
       operator         = ""
       type             = ""
       versions         = []
-      
+
       tags {
         key       = ""
         namespace = ""

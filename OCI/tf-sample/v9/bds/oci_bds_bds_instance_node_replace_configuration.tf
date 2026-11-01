@@ -5,7 +5,7 @@ resource "oci_bds_bds_instance_node_replace_configuration" "tf-sample-bds-bds-in
   duration_in_minutes    = 0
   metric_type            = ""
   secret_id              = ""
-  
+
   level_type_details {
     level_type     = ""
     node_host_name = ""

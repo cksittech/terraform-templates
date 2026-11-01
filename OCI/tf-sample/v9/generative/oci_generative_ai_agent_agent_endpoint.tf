@@ -10,7 +10,7 @@ resource "oci_generative_ai_agent_agent_endpoint" "tf-sample-generative-ai-agent
   should_enable_multi_language = false
   should_enable_session        = false
   should_enable_trace          = false
-  
+
   content_moderation_config {
     should_enable_on_input  = false
     should_enable_on_output = false
@@ -33,7 +33,7 @@ resource "oci_generative_ai_agent_agent_endpoint" "tf-sample-generative-ai-agent
   }
   output_config {
     retention_period_in_minutes = 0
-    
+
     output_location {
       bucket               = ""
       namespace            = ""
@@ -43,7 +43,7 @@ resource "oci_generative_ai_agent_agent_endpoint" "tf-sample-generative-ai-agent
   }
   provisioned_capacity_config {
     provisioned_capacity_id = ""
-    
+
     platform_runtime_config {
       platform_runtime_config_type = ""
       version                      = ""

@@ -5,7 +5,7 @@ resource "oci_media_services_stream_cdn_config" "tf-sample-media-services-stream
   freeform_tags           = {}
   is_enabled              = false
   is_lock_override        = false
-  
+
   config {
     edge_hostname                  = ""
     edge_path_prefix               = ""

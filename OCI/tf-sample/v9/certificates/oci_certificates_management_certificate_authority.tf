@@ -6,14 +6,14 @@ resource "oci_certificates_management_certificate_authority" "tf-sample-certific
   freeform_tags            = {}
   kms_key_id               = ""
   name                     = ""
-  
+
   certificate_authority_config {
     certificate_pem                 = ""
     config_type                     = ""
     issuer_certificate_authority_id = ""
     signing_algorithm               = ""
     version_name                    = ""
-    
+
     action_details {
       action_type     = ""
       certificate_pem = ""
@@ -47,7 +47,7 @@ resource "oci_certificates_management_certificate_authority" "tf-sample-certific
     leaf_certificate_max_validity_duration      = ""
     path_length_constraint                      = 0
     rule_type                                   = ""
-    
+
     name_constraint {
       excluded_subtree {
         type  = ""
@@ -61,7 +61,7 @@ resource "oci_certificates_management_certificate_authority" "tf-sample-certific
   }
   certificate_revocation_list_details {
     custom_formatted_urls = []
-    
+
     object_storage_config {
       object_storage_bucket_name        = ""
       object_storage_namespace          = ""

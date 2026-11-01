@@ -5,10 +5,10 @@ resource "oci_database_management_external_db_system_connector" "tf-sample-datab
   display_name          = ""
   external_db_system_id = ""
   freeform_tags         = {}
-  
+
   connection_info {
     component_type = ""
-    
+
     connection_credentials {
       credential_name    = ""
       credential_type    = ""

@@ -13,7 +13,7 @@ resource "oci_identity_domains_notification_setting" "tf-sample-identity-domains
   send_notifications_to_secondary_email                                            = false
   test_mode_enabled                                                                = false
   test_recipients                                                                  = []
-  
+
   event_settings {
     enabled  = false
     event_id = ""

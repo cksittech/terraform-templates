@@ -6,7 +6,7 @@ resource "oci_service_catalog_private_application" "tf-sample-service-catalog-pr
   logo_file_base64encoded = ""
   long_description        = ""
   short_description       = ""
-  
+
   package_details {
     package_type           = ""
     version                = ""

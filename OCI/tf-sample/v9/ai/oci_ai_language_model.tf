@@ -5,12 +5,12 @@ resource "oci_ai_language_model" "tf-sample-ai-language-model" {
   display_name   = ""
   freeform_tags  = {}
   project_id     = ""
-  
+
   model_details {
     language_code = ""
     model_type    = ""
     version       = ""
-    
+
     classification_mode {
       classification_mode = ""
       version             = ""
@@ -18,11 +18,11 @@ resource "oci_ai_language_model" "tf-sample-ai-language-model" {
   }
   test_strategy {
     strategy_type = ""
-    
+
     testing_dataset {
       dataset_id   = ""
       dataset_type = ""
-      
+
       location_details {
         bucket        = ""
         location_type = ""
@@ -33,7 +33,7 @@ resource "oci_ai_language_model" "tf-sample-ai-language-model" {
     validation_dataset {
       dataset_id   = ""
       dataset_type = ""
-      
+
       location_details {
         bucket        = ""
         location_type = ""
@@ -45,7 +45,7 @@ resource "oci_ai_language_model" "tf-sample-ai-language-model" {
   training_dataset {
     dataset_id   = ""
     dataset_type = ""
-    
+
     location_details {
       bucket        = ""
       location_type = ""

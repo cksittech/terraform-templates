@@ -8,7 +8,7 @@ resource "oci_jms_fleet_agent_configuration" "tf-sample-jms-fleet-agent-configur
   java_usage_tracker_processing_frequency_in_minutes = 0
   jre_scan_frequency_in_minutes                      = 0
   work_request_validity_period_in_days               = 0
-  
+
   linux_configuration {
     exclude_paths = []
     include_paths = []

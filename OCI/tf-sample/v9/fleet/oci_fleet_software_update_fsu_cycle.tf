@@ -9,7 +9,7 @@ resource "oci_fleet_software_update_fsu_cycle" "tf-sample-fleet-software-update-
   is_keep_placement            = false
   max_drain_timeout_in_seconds = 0
   type                         = ""
-  
+
   apply_action_schedule {
     time_to_start = ""
     type          = ""
@@ -29,12 +29,12 @@ resource "oci_fleet_software_update_fsu_cycle" "tf-sample-fleet-software-update-
     software_image_id = ""
     type              = ""
     version           = ""
-    
+
     components {
       component_type  = ""
       home_policy     = ""
       new_home_prefix = ""
-      
+
       goal_version_details {
         goal_software_image_id = ""
         goal_type              = ""

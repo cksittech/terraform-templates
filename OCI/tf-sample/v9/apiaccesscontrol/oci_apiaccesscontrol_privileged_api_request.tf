@@ -11,7 +11,7 @@ resource "oci_apiaccesscontrol_privileged_api_request" "tf-sample-apiaccesscontr
   sub_resource_name_list           = []
   ticket_numbers                   = []
   time_requested_for_future_access = ""
-  
+
   privileged_operation_list {
     api_name        = ""
     attribute_names = []

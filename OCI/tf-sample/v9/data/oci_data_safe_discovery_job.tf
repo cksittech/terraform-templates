@@ -12,7 +12,7 @@ resource "oci_data_safe_discovery_job" "tf-sample-data-safe-discovery-job" {
   sensitive_data_model_id                   = ""
   sensitive_type_group_ids_for_discovery    = []
   sensitive_type_ids_for_discovery          = []
-  
+
   tables_for_discovery {
     schema_name = ""
     table_names = []

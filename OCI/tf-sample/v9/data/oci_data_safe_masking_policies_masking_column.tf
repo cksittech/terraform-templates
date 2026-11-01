@@ -7,11 +7,11 @@ resource "oci_data_safe_masking_policies_masking_column" "tf-sample-data-safe-ma
   object_type          = ""
   schema_name          = ""
   sensitive_type_id    = ""
-  
+
   masking_formats {
     condition   = ""
     description = ""
-    
+
     format_entries {
       column_name               = ""
       description               = ""

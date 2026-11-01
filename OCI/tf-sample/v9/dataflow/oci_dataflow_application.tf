@@ -24,7 +24,7 @@ resource "oci_dataflow_application" "tf-sample-dataflow-application" {
   terminate_runs_on_deletion = false
   type                       = ""
   warehouse_bucket_uri       = ""
-  
+
   application_log_config {
     log_group_id = ""
     log_id       = ""

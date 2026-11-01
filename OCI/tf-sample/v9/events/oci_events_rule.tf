@@ -6,7 +6,7 @@ resource "oci_events_rule" "tf-sample-events-rule" {
   display_name   = ""
   freeform_tags  = {}
   is_enabled     = false
-  
+
   actions {
     action {
       action_type = ""

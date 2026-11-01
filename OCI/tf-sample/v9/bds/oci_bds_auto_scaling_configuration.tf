@@ -5,16 +5,16 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
   is_enabled             = false
   node_type              = ""
   secret_id              = ""
-  
+
   policy {
     policy_type = ""
-    
+
     rules {
       action = ""
-      
+
       metric {
         metric_type = ""
-        
+
         threshold {
           duration_in_minutes = 0
           operator            = ""
@@ -26,16 +26,16 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
   policy_details {
     policy_type = ""
     timezone    = ""
-    
+
     scale_down_config {
       memory_step_size    = 0
       min_memory_per_node = 0
       min_ocpus_per_node  = 0
       ocpu_step_size      = 0
-      
+
       metric {
         metric_type = ""
-        
+
         threshold {
           duration_in_minutes = 0
           operator            = ""
@@ -46,10 +46,10 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
     scale_in_config {
       min_node_count = 0
       step_size      = 0
-      
+
       metric {
         metric_type = ""
-        
+
         threshold {
           duration_in_minutes = 0
           operator            = ""
@@ -60,10 +60,10 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
     scale_out_config {
       max_node_count = 0
       step_size      = 0
-      
+
       metric {
         metric_type = ""
-        
+
         threshold {
           duration_in_minutes = 0
           operator            = ""
@@ -76,10 +76,10 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
       max_ocpus_per_node  = 0
       memory_step_size    = 0
       ocpu_step_size      = 0
-      
+
       metric {
         metric_type = ""
-        
+
         threshold {
           duration_in_minutes = 0
           operator            = ""
@@ -89,7 +89,7 @@ resource "oci_bds_auto_scaling_configuration" "tf-sample-bds-auto-scaling-config
     }
     schedule_details {
       schedule_type = ""
-      
+
       time_and_horizontal_scaling_config {
         target_node_count = 0
         time_recurrence   = ""

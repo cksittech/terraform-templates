@@ -5,7 +5,7 @@ resource "oci_optimizer_profile" "tf-sample-optimizer-profile" {
   description                  = ""
   freeform_tags                = {}
   name                         = ""
-  
+
   levels_configuration {
     items {
       level             = ""

@@ -4,12 +4,12 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
   display_name   = ""
   freeform_tags  = {}
   system_tags    = {}
-  
+
   actions {
     code = 0
     name = ""
     type = ""
-    
+
     body {
       template = ""
       text     = ""
@@ -22,7 +22,7 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
   }
   request_access_control {
     default_action_name = ""
-    
+
     rules {
       action_name        = ""
       condition          = ""
@@ -34,7 +34,7 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
   request_protection {
     body_inspection_size_limit_exceeded_action_name = ""
     body_inspection_size_limit_in_bytes             = 0
-    
+
     rules {
       action_name                = ""
       condition                  = ""
@@ -42,13 +42,13 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
       is_body_inspection_enabled = false
       name                       = ""
       type                       = ""
-      
+
       protection_capabilities {
         action_name                    = ""
         collaborative_action_threshold = 0
         key                            = ""
         version                        = 0
-        
+
         collaborative_weights {
           key    = ""
           weight = 0
@@ -75,7 +75,7 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
       condition_language = ""
       name               = ""
       type               = ""
-      
+
       configurations {
         action_duration_in_seconds = 0
         period_in_seconds          = 0
@@ -100,13 +100,13 @@ resource "oci_waf_web_app_firewall_policy" "tf-sample-waf-web-app-firewall-polic
       is_body_inspection_enabled = false
       name                       = ""
       type                       = ""
-      
+
       protection_capabilities {
         action_name                    = ""
         collaborative_action_threshold = 0
         key                            = ""
         version                        = 0
-        
+
         collaborative_weights {
           key    = ""
           weight = 0

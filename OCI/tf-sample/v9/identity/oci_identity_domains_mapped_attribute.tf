@@ -11,7 +11,7 @@ resource "oci_identity_domains_mapped_attribute" "tf-sample-identity-domains-map
   ref_resource_type            = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   attribute_mappings {
     applies_to_actions            = []
     idcs_attribute_name           = ""

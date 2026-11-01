@@ -39,11 +39,11 @@ resource "oci_database_cloud_vm_cluster" "tf-sample-database-cloud-vm-cluster" {
   vm_backup_storage_type          = ""
   vm_cluster_type                 = ""
   vm_file_system_storage_type     = ""
-  
+
   cloud_automation_update_details {
     is_early_adoption_enabled = false
     is_freeze_period_enabled  = false
-    
+
     apply_update_time_preference {
       apply_update_preferred_end_time   = ""
       apply_update_preferred_start_time = ""

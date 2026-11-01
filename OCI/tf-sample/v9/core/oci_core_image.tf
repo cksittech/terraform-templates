@@ -5,7 +5,7 @@ resource "oci_core_image" "tf-sample-core-image" {
   freeform_tags  = {}
   instance_id    = ""
   launch_mode    = ""
-  
+
   image_source_details {
     bucket_name              = ""
     namespace_name           = ""

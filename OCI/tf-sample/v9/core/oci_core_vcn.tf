@@ -10,7 +10,7 @@ resource "oci_core_vcn" "tf-sample-core-vcn" {
   is_ipv6enabled                   = false
   is_oracle_gua_allocation_enabled = false
   security_attributes              = {}
-  
+
   byoipv6cidr_details {
     byoipv6range_id = ""
     ipv6cidr_block  = ""

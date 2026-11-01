@@ -3,7 +3,7 @@ resource "oci_load_balancer_backend_set" "tf-sample-load-balancer-backend-set" {
   load_balancer_id        = ""
   name                    = ""
   policy                  = ""
-  
+
   health_checker {
     interval_ms         = 0
     is_force_plain_text = false

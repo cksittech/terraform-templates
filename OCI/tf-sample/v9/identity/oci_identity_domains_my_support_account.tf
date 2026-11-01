@@ -5,7 +5,7 @@ resource "oci_identity_domains_my_support_account" "tf-sample-identity-domains-m
   resource_type_schema_version = ""
   schemas                      = []
   token                        = ""
-  
+
   tags {
     key   = ""
     value = ""

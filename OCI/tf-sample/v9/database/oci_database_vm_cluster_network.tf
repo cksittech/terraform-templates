@@ -8,7 +8,7 @@ resource "oci_database_vm_cluster_network" "tf-sample-database-vm-cluster-networ
   freeform_tags               = {}
   ntp                         = []
   validate_vm_cluster_network = false
-  
+
   dr_scans {
     hostname                   = ""
     ips                        = []
@@ -28,7 +28,7 @@ resource "oci_database_vm_cluster_network" "tf-sample-database-vm-cluster-networ
     netmask      = ""
     network_type = ""
     vlan_id      = ""
-    
+
     nodes {
       db_server_id = ""
       hostname     = ""

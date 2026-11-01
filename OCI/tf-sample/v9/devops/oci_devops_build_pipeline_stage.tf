@@ -11,7 +11,7 @@ resource "oci_devops_build_pipeline_stage" "tf-sample-devops-build-pipeline-stag
   is_pass_all_parameters_enabled     = false
   primary_build_source               = ""
   stage_execution_timeout_in_seconds = 0
-  
+
   build_pipeline_stage_predecessor_collection {
     items {
       id = ""

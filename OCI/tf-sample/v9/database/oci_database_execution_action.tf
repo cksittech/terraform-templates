@@ -5,7 +5,7 @@ resource "oci_database_execution_action" "tf-sample-database-execution-action" {
   defined_tags        = {}
   execution_window_id = ""
   freeform_tags       = {}
-  
+
   action_members {
     estimated_time_in_mins   = 0
     member_id                = ""

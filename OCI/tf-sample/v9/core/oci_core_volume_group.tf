@@ -9,7 +9,7 @@ resource "oci_core_volume_group" "tf-sample-core-volume-group" {
   volume_group_replicas_deletion = false
   volume_ids                     = []
   xrc_kms_key_id                 = ""
-  
+
   source_details {
     type                    = ""
     volume_group_backup_id  = ""

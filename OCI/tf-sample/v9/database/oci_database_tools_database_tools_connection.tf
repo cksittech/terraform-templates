@@ -12,10 +12,10 @@ resource "oci_database_tools_database_tools_connection" "tf-sample-database-tool
   type                = ""
   url                 = ""
   user_name           = ""
-  
+
   key_stores {
     key_store_type = ""
-    
+
     key_store_content {
       secret_id  = ""
       value_type = ""
@@ -35,7 +35,7 @@ resource "oci_database_tools_database_tools_connection" "tf-sample-database-tool
     proxy_authentication_type = ""
     roles                     = []
     user_name                 = ""
-    
+
     user_password {
       secret_id  = ""
       value_type = ""

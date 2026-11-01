@@ -11,7 +11,7 @@ resource "oci_core_drg_attachment" "tf-sample-core-drg-attachment" {
   remove_export_drg_route_distribution_trigger = false
   route_table_id                               = ""
   vcn_id                                       = ""
-  
+
   network_details {
     id             = ""
     route_table_id = ""

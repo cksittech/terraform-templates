@@ -9,7 +9,7 @@ resource "oci_apiaccesscontrol_privileged_api_control" "tf-sample-apiaccesscontr
   number_of_approvers    = 0
   resource_type          = ""
   resources              = []
-  
+
   approver_group_level_list {
     group_id    = []
     group_level = 0

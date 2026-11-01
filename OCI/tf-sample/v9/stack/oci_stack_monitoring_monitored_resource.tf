@@ -11,11 +11,11 @@ resource "oci_stack_monitoring_monitored_resource" "tf-sample-stack-monitoring-m
   name                 = ""
   resource_time_zone   = ""
   type                 = ""
-  
+
   additional_aliases {
     name   = ""
     source = ""
-    
+
     credential {
       name    = ""
       service = ""
@@ -29,7 +29,7 @@ resource "oci_stack_monitoring_monitored_resource" "tf-sample-stack-monitoring-m
     name            = ""
     source          = ""
     type            = ""
-    
+
     properties {
       name  = ""
       value = ""
@@ -38,7 +38,7 @@ resource "oci_stack_monitoring_monitored_resource" "tf-sample-stack-monitoring-m
   aliases {
     name   = ""
     source = ""
-    
+
     credential {
       name    = ""
       service = ""
@@ -52,7 +52,7 @@ resource "oci_stack_monitoring_monitored_resource" "tf-sample-stack-monitoring-m
     name            = ""
     source          = ""
     type            = ""
-    
+
     properties {
       name  = ""
       value = ""

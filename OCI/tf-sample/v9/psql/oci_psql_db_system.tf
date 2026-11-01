@@ -16,10 +16,10 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   state                            = ""
   system_type                      = ""
   upgrade_options                  = []
-  
+
   credentials {
     username = ""
-    
+
     password_details {
       password       = ""
       password_type  = ""
@@ -34,7 +34,7 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   }
   kerberos_auth_details {
     kind = ""
-    
+
     backup_credentials {
       keytab_secret_id      = ""
       keytab_secret_version = ""
@@ -48,14 +48,14 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   }
   management_policy {
     maintenance_window_start = ""
-    
+
     backup_policy {
       backup_start      = ""
       days_of_the_month = []
       days_of_the_week  = []
       kind              = ""
       retention_days    = 0
-      
+
       copy_policy {
         compartment_id   = ""
         kms_key_ids      = []
@@ -76,7 +76,7 @@ resource "oci_psql_db_system" "tf-sample-psql-db-system" {
   }
   odsp_insight_details {
     kind = ""
-    
+
     odsp_insight_list {
       insight_type             = ""
       retention_period_in_days = 0

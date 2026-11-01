@@ -8,7 +8,7 @@ resource "oci_network_load_balancer_backend_set" "tf-sample-network-load-balance
   name                                        = ""
   network_load_balancer_id                    = ""
   policy                                      = ""
-  
+
   health_checker {
     interval_in_millis  = 0
     port                = 0
@@ -20,7 +20,7 @@ resource "oci_network_load_balancer_backend_set" "tf-sample-network-load-balance
     return_code         = 0
     timeout_in_millis   = 0
     url_path            = ""
-    
+
     dns {
       domain_name        = ""
       query_class        = ""

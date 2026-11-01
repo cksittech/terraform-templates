@@ -11,7 +11,7 @@ resource "oci_identity_domains_cloud_gate_mapping" "tf-sample-identity-domains-c
   resource_prefix              = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   cloud_gate {
     value = ""
   }

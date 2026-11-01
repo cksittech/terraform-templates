@@ -6,10 +6,10 @@ resource "oci_data_labeling_service_dataset" "tf-sample-data-labeling-service-da
   display_name          = ""
   freeform_tags         = {}
   labeling_instructions = ""
-  
+
   dataset_format_details {
     format_type = ""
-    
+
     text_file_type_metadata {
       column_delimiter = ""
       column_index     = 0

@@ -6,7 +6,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
   display_name   = ""
   freeform_tags  = {}
   metadata       = {}
-  
+
   tool_config {
     agent_endpoint_id             = ""
     dialect                       = ""
@@ -16,7 +16,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     should_enable_sql_execution   = false
     subnet_id                     = ""
     tool_config_type              = ""
-    
+
     api_schema {
       api_schema_input_location_type = ""
       bucket                         = ""
@@ -38,7 +38,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     embedding_llm_customization {
       instruction          = ""
       llm_hyper_parameters = {}
-      
+
       llm_selection {
         endpoint_id        = ""
         llm_selection_type = ""
@@ -53,7 +53,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     generation_llm_customization {
       instruction          = ""
       llm_hyper_parameters = {}
-      
+
       llm_selection {
         endpoint_id        = ""
         llm_selection_type = ""
@@ -63,7 +63,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     http_endpoint_auth_config {
       http_endpoint_auth_sources {
         http_endpoint_auth_scope = ""
-        
+
         http_endpoint_auth_scope_config {
           client_id                            = ""
           http_endpoint_auth_scope_config_type = ""
@@ -88,7 +88,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     reasoning_llm_customization {
       instruction          = ""
       llm_hyper_parameters = {}
-      
+
       llm_selection {
         endpoint_id        = ""
         llm_selection_type = ""
@@ -98,7 +98,7 @@ resource "oci_generative_ai_agent_tool" "tf-sample-generative-ai-agent-tool" {
     reranking_llm_customization {
       instruction          = ""
       llm_hyper_parameters = {}
-      
+
       llm_selection {
         endpoint_id        = ""
         llm_selection_type = ""

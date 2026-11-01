@@ -9,7 +9,7 @@ resource "oci_golden_gate_pipeline" "tf-sample-golden-gate-pipeline" {
   license_model           = ""
   recipe_type             = ""
   subnet_id               = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""
@@ -19,7 +19,7 @@ resource "oci_golden_gate_pipeline" "tf-sample-golden-gate-pipeline" {
   process_options {
     should_restart_on_failure   = ""
     start_using_default_mapping = ""
-    
+
     initial_data_load {
       action_on_existing_table = ""
       adb_wallet_path          = ""

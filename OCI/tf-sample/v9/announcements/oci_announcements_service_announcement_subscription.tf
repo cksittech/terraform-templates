@@ -7,7 +7,7 @@ resource "oci_announcements_service_announcement_subscription" "tf-sample-announ
   ons_topic_id        = ""
   preferred_language  = ""
   preferred_time_zone = ""
-  
+
   filter_groups {
     filters {
       type  = ""

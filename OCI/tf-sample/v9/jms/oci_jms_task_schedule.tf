@@ -1,13 +1,13 @@
 resource "oci_jms_task_schedule" "tf-sample-jms-task-schedule" {
   execution_recurrences = ""
   fleet_id              = ""
-  
+
   task_details {
     task_type = ""
-    
+
     add_installation_site_task_request {
       post_installation_actions = []
-      
+
       installation_sites {
         artifact_content_type = ""
         force_install         = false
@@ -20,7 +20,7 @@ resource "oci_jms_task_schedule" "tf-sample-jms-task-schedule" {
     crypto_task_request {
       recording_duration_in_minutes = 0
       waiting_period_in_minutes     = 0
-      
+
       targets {
         application_installation_key = ""
         application_key              = ""
@@ -56,7 +56,7 @@ resource "oci_jms_task_schedule" "tf-sample-jms-task-schedule" {
       recording_duration_in_minutes = 0
       recording_size_in_mb          = 0
       waiting_period_in_minutes     = 0
-      
+
       targets {
         application_installation_key = ""
         application_key              = ""
@@ -68,7 +68,7 @@ resource "oci_jms_task_schedule" "tf-sample-jms-task-schedule" {
     performance_tuning_task_request {
       recording_duration_in_minutes = 0
       waiting_period_in_minutes     = 0
-      
+
       targets {
         application_installation_key = ""
         application_key              = ""

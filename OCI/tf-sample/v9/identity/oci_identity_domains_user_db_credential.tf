@@ -10,7 +10,7 @@ resource "oci_identity_domains_user_db_credential" "tf-sample-identity-domains-u
   resource_type_schema_version = ""
   schemas                      = []
   status                       = ""
-  
+
   tags {
     key   = ""
     value = ""

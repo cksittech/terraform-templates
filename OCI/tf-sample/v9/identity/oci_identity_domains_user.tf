@@ -20,7 +20,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   title                        = ""
   user_name                    = ""
   user_type                    = ""
-  
+
   addresses {
     country        = ""
     formatted      = ""
@@ -85,7 +85,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
     division        = ""
     employee_number = ""
     organization    = ""
-    
+
     manager {
       value = ""
     }
@@ -103,7 +103,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   }
   urnietfparamsscimschemasoracleidcsextensionadaptive_user {
     risk_level = ""
-    
+
     risk_scores {
       last_update_timestamp = ""
       risk_level            = ""
@@ -141,7 +141,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
     preferred_authentication_factor = ""
     preferred_authentication_method = ""
     preferred_third_party_vendor    = ""
-    
+
     bypass_codes {
       value = ""
     }
@@ -167,7 +167,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   urnietfparamsscimschemasoracleidcsextensionpasswordless_user {
     factor_method = ""
     factor_type   = ""
-    
+
     factor_identifier {
       display = ""
       value   = ""
@@ -193,7 +193,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   urnietfparamsscimschemasoracleidcsextensionself_registration_user {
     consent_granted = false
     user_token      = ""
-    
+
     self_registration_profile {
       display = ""
       value   = ""
@@ -215,7 +215,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
   }
   urnietfparamsscimschemasoracleidcsextensionuser_state_user {
     max_concurrent_sessions = 0
-    
+
     locked {
       expired   = false
       lock_date = ""
@@ -241,7 +241,7 @@ resource "oci_identity_domains_user" "tf-sample-identity-domains-user" {
     service_user                               = false
     user_flow_controlled_by_external_client    = false
     user_provider                              = ""
-    
+
     delegated_authentication_target_app {
       display = ""
       type    = ""

@@ -3,7 +3,7 @@ resource "oci_bds_bds_instance_os_patch_action" "tf-sample-bds-bds-instance-os-p
   cluster_admin_password = ""
   is_dry_run             = false
   os_patch_version       = ""
-  
+
   patching_configs {
     batch_size                          = 0
     patching_config_strategy            = ""

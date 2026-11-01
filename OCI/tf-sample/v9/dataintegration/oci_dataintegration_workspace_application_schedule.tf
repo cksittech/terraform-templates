@@ -10,7 +10,7 @@ resource "oci_dataintegration_workspace_application_schedule" "tf-sample-dataint
   object_version                 = 0
   timezone                       = ""
   workspace_id                   = ""
-  
+
   frequency_details {
     custom_expression = ""
     day_of_week       = ""
@@ -19,7 +19,7 @@ resource "oci_dataintegration_workspace_application_schedule" "tf-sample-dataint
     interval          = 0
     model_type        = ""
     week_of_month     = ""
-    
+
     time {
       hour   = 0
       minute = 0

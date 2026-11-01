@@ -14,7 +14,7 @@ resource "oci_datascience_model" "tf-sample-datascience-model" {
   project_id                   = ""
   state                        = ""
   version_label                = ""
-  
+
   backup_setting {
     backup_region              = ""
     customer_notification_type = ""

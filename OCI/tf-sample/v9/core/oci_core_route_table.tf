@@ -4,7 +4,7 @@ resource "oci_core_route_table" "tf-sample-core-route-table" {
   display_name   = ""
   freeform_tags  = {}
   vcn_id         = ""
-  
+
   route_rules {
     description       = ""
     destination       = ""

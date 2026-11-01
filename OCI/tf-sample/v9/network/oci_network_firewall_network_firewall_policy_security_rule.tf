@@ -5,7 +5,7 @@ resource "oci_network_firewall_network_firewall_policy_security_rule" "tf-sample
   name                       = ""
   network_firewall_policy_id = ""
   priority_order             = ""
-  
+
   condition {
     application         = []
     destination_address = []

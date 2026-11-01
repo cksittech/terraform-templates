@@ -9,7 +9,7 @@ resource "oci_resource_analytics_resource_analytics_instance" "tf-sample-resourc
   license_model          = ""
   nsg_ids                = []
   subnet_id              = ""
-  
+
   adw_admin_password {
     password      = ""
     password_type = ""

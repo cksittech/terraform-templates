@@ -23,7 +23,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
   remove_nodes                = []
   secret_id                   = ""
   state                       = ""
-  
+
   bds_capacity_reservation_configurations {
     bds_capacity_reservation_id = ""
     display_name                = ""
@@ -40,7 +40,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_nodes          = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0
@@ -52,7 +52,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_nodes          = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0
@@ -64,7 +64,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_kafka_nodes    = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0
@@ -76,7 +76,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_nodes          = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0
@@ -98,7 +98,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_nodes          = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0
@@ -110,7 +110,7 @@ resource "oci_bds_bds_instance" "tf-sample-bds-bds-instance" {
     number_of_nodes          = 0
     shape                    = ""
     subnet_id                = ""
-    
+
     shape_config {
       memory_in_gbs = 0
       nvmes         = 0

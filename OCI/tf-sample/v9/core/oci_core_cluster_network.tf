@@ -3,7 +3,7 @@ resource "oci_core_cluster_network" "tf-sample-core-cluster-network" {
   defined_tags   = {}
   display_name   = ""
   freeform_tags  = {}
-  
+
   cluster_configuration {
     hpc_island_id     = ""
     network_block_ids = []
@@ -19,11 +19,11 @@ resource "oci_core_cluster_network" "tf-sample-core-cluster-network" {
     availability_domain  = ""
     placement_constraint = ""
     primary_subnet_id    = ""
-    
+
     primary_vnic_subnets {
       is_assign_ipv6ip = false
       subnet_id        = ""
-      
+
       ipv6address_ipv6subnet_cidr_pair_details {
         ipv6subnet_cidr = ""
       }
@@ -32,7 +32,7 @@ resource "oci_core_cluster_network" "tf-sample-core-cluster-network" {
       display_name     = ""
       is_assign_ipv6ip = false
       subnet_id        = ""
-      
+
       ipv6address_ipv6subnet_cidr_pair_details {
         ipv6subnet_cidr = ""
       }

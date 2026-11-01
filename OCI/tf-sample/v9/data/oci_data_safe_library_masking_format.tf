@@ -5,7 +5,7 @@ resource "oci_data_safe_library_masking_format" "tf-sample-data-safe-library-mas
   display_name       = ""
   freeform_tags      = {}
   sensitive_type_ids = []
-  
+
   format_entries {
     column_name               = ""
     description               = ""

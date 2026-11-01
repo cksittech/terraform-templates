@@ -19,7 +19,7 @@ resource "oci_ocvp_cluster" "tf-sample-ocvp-cluster" {
   sddc_id                                = ""
   vmware_software_version                = ""
   workload_network_cidr                  = ""
-  
+
   cluster_byol_allocation_details {
     firewall_byol_allocation_id = ""
     vsan_byol_allocation_id     = ""

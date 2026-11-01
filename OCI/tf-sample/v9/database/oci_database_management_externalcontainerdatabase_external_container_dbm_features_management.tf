@@ -3,13 +3,13 @@ resource "oci_database_management_externalcontainerdatabase_external_container_d
   enable_external_container_dbm_feature = false
   external_container_database_id        = ""
   feature                               = ""
-  
+
   feature_details {
     can_enable_all_current_pdbs       = false
     feature                           = ""
     is_auto_enable_pluggable_database = false
     license_model                     = ""
-    
+
     connector_details {
       connector_type        = ""
       database_connector_id = ""

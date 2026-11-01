@@ -7,7 +7,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
   opc_parent_rpt_url = ""
   project_id         = ""
   state              = ""
-  
+
   category_log_details {
     access {
       log_group_id = ""
@@ -20,7 +20,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
   }
   model_deployment_configuration_details {
     deployment_type = ""
-    
+
     environment_configuration_details {
       cmd                            = []
       default_environment_variables  = {}
@@ -33,7 +33,7 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       image_signature_id             = ""
       predict_api_specification      = ""
       server_port                    = 0
-      
+
       custom_http_endpoints {
         endpoint_uri_suffix = ""
         http_methods        = []
@@ -44,13 +44,13 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       compute_target_id      = ""
       infrastructure_type    = ""
       maximum_bandwidth_mbps = 0
-      
+
       instance_configuration {
         instance_shape_name = ""
         network_access_type = ""
         private_endpoint_id = ""
         subnet_id           = ""
-        
+
         model_deployment_instance_shape_config_details {
           cpu_baseline  = ""
           memory_in_gbs = 0
@@ -73,17 +73,17 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
         instance_count       = 0
         is_enabled           = false
         policy_type          = ""
-        
+
         auto_scaling_policies {
           auto_scaling_policy_type = ""
           initial_instance_count   = 0
           maximum_instance_count   = 0
           minimum_instance_count   = 0
-          
+
           rules {
             metric_expression_rule_type = ""
             metric_type                 = ""
-            
+
             scale_configuration {
               metric_namespace                  = ""
               query                             = ""
@@ -122,13 +122,13 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       bandwidth_mbps         = 0
       maximum_bandwidth_mbps = 0
       model_id               = ""
-      
+
       instance_configuration {
         instance_shape_name = ""
         network_access_type = ""
         private_endpoint_id = ""
         subnet_id           = ""
-        
+
         model_deployment_instance_shape_config_details {
           cpu_baseline  = ""
           memory_in_gbs = 0
@@ -140,17 +140,17 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
         instance_count       = 0
         is_enabled           = false
         policy_type          = ""
-        
+
         auto_scaling_policies {
           auto_scaling_policy_type = ""
           initial_instance_count   = 0
           maximum_instance_count   = 0
           minimum_instance_count   = 0
-          
+
           rules {
             metric_expression_rule_type = ""
             metric_type                 = ""
-            
+
             scale_in_configuration {
               instance_count_adjustment  = 0
               pending_duration           = ""

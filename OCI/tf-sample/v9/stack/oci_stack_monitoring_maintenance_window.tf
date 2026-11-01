@@ -4,7 +4,7 @@ resource "oci_stack_monitoring_maintenance_window" "tf-sample-stack-monitoring-m
   description    = ""
   freeform_tags  = {}
   name           = ""
-  
+
   resources {
     are_members_included = false
     resource_id          = ""

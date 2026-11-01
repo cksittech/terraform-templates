@@ -6,7 +6,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
   gateway_id       = ""
   is_lock_override = false
   path_prefix      = ""
-  
+
   locks {
     message = ""
     type    = ""
@@ -34,13 +34,13 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         token_header                = ""
         token_query_param           = ""
         type                        = ""
-        
+
         public_keys {
           is_ssl_verify_disabled      = false
           max_cache_duration_in_hours = 0
           type                        = ""
           uri                         = ""
-          
+
           keys {
             alg     = ""
             e       = ""
@@ -66,7 +66,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
           use_cookies_for_intermediate_steps = false
           use_cookies_for_session            = false
           use_pkce                           = false
-          
+
           client_details {
             client_id                    = ""
             client_secret_id             = ""
@@ -76,7 +76,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
           response_header_transformations {
             filter_headers {
               type = ""
-              
+
               items {
                 name = ""
               }
@@ -105,11 +105,11 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
           max_cache_duration_in_hours = 0
           type                        = ""
           uri                         = ""
-          
+
           additional_validation_policy {
             audiences = []
             issuers   = []
-            
+
             verify_claims {
               is_required = false
               key         = ""
@@ -166,13 +166,13 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
             token_header                = ""
             token_query_param           = ""
             type                        = ""
-            
+
             public_keys {
               is_ssl_verify_disabled      = false
               max_cache_duration_in_hours = 0
               type                        = ""
               uri                         = ""
-              
+
               keys {
                 alg     = ""
                 e       = ""
@@ -198,7 +198,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
               use_cookies_for_intermediate_steps = false
               use_cookies_for_session            = false
               use_pkce                           = false
-              
+
               client_details {
                 client_id                    = ""
                 client_secret_id             = ""
@@ -208,7 +208,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
               response_header_transformations {
                 filter_headers {
                   type = ""
-                  
+
                   items {
                     name = ""
                   }
@@ -237,11 +237,11 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
               max_cache_duration_in_hours = 0
               type                        = ""
               uri                         = ""
-              
+
               additional_validation_policy {
                 audiences = []
                 issuers   = []
-                
+
                 verify_claims {
                   is_required = false
                   key         = ""
@@ -304,7 +304,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
     routes {
       methods = []
       path    = ""
-      
+
       backend {
         allowed_post_logout_uris   = []
         body                       = ""
@@ -317,7 +317,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         status                     = 0
         type                       = ""
         url                        = ""
-        
+
         headers {
           name  = ""
           value = ""
@@ -363,7 +363,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         body_validation {
           required        = false
           validation_mode = ""
-          
+
           content {
             media_type      = ""
             validation_type = ""
@@ -380,7 +380,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         header_transformations {
           filter_headers {
             type = ""
-            
+
             items {
               name = ""
             }
@@ -401,7 +401,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         }
         header_validations {
           validation_mode = ""
-          
+
           headers {
             name     = ""
             required = false
@@ -410,7 +410,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         query_parameter_transformations {
           filter_query_parameters {
             type = ""
-            
+
             items {
               name = ""
             }
@@ -431,7 +431,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         }
         query_parameter_validations {
           validation_mode = ""
-          
+
           parameters {
             name     = ""
             required = false
@@ -448,7 +448,7 @@ resource "oci_apigateway_deployment" "tf-sample-apigateway-deployment" {
         header_transformations {
           filter_headers {
             type = ""
-            
+
             items {
               name = ""
             }

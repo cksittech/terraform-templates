@@ -9,7 +9,7 @@ resource "oci_identity_domains_network_perimeter" "tf-sample-identity-domains-ne
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   ip_addresses {
     type    = ""
     value   = ""

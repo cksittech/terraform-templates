@@ -5,7 +5,7 @@ resource "oci_cloud_migrations_target_asset" "tf-sample-cloud-migrations-target-
   ms_license                 = ""
   preferred_shape_type       = ""
   type                       = ""
-  
+
   recommended_spec {
   }
   test_spec {
@@ -23,12 +23,12 @@ resource "oci_cloud_migrations_target_asset" "tf-sample-cloud-migrations-target-
     ipxe_script                         = ""
     is_pv_encryption_in_transit_enabled = false
     shape                               = ""
-    
+
     agent_config {
       are_all_plugins_disabled = false
       is_management_disabled   = false
       is_monitoring_disabled   = false
-      
+
       plugins_config {
         desired_state = ""
         name          = ""

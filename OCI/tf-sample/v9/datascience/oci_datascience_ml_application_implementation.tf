@@ -7,7 +7,7 @@ resource "oci_datascience_ml_application_implementation" "tf-sample-datascience-
   ml_application_package         = {}
   name                           = ""
   opc_ml_app_package_args        = {}
-  
+
   logging {
     aggregated_instance_view_log {
       enable_logging = false

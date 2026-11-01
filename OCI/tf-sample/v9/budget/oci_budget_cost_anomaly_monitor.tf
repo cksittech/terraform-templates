@@ -5,7 +5,7 @@ resource "oci_budget_cost_anomaly_monitor" "tf-sample-budget-cost-anomaly-monito
   freeform_tags          = {}
   name                   = ""
   target_resource_filter = ""
-  
+
   cost_alert_subscription_map {
     cost_alert_subscription_id = ""
     operator                   = ""

@@ -46,7 +46,7 @@ resource "oci_devops_deploy_stage" "tf-sample-devops-deploy-stage" {
   timeout_in_seconds                                           = 0
   traffic_shift_target                                         = ""
   values_artifact_ids                                          = []
-  
+
   approval_policy {
     approval_policy_type         = ""
     number_of_approvals_required = 0
@@ -70,7 +70,7 @@ resource "oci_devops_deploy_stage" "tf-sample-devops-deploy-stage" {
     compartment_id        = ""
     container_config_type = ""
     shape_name            = ""
-    
+
     network_channel {
       network_channel_type = ""
       nsg_ids              = []

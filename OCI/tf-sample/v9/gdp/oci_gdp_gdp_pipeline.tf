@@ -16,7 +16,7 @@ resource "oci_gdp_gdp_pipeline" "tf-sample-gdp-gdp-pipeline" {
   pipeline_type                           = ""
   service_log_group_id                    = ""
   state                                   = ""
-  
+
   bucket_details {
     bucket_type = ""
     id          = ""

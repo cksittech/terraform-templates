@@ -4,13 +4,13 @@ resource "oci_database_management_database_dbm_features_management" "tf-sample-d
   enable_database_dbm_feature = false
   feature                     = ""
   modify_database_dbm_feature = false
-  
+
   feature_details {
     can_enable_all_current_pdbs       = false
     feature                           = ""
     is_auto_enable_pluggable_database = false
     management_type                   = ""
-    
+
     connector_details {
       connector_type        = ""
       database_connector_id = ""

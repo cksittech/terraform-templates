@@ -12,7 +12,7 @@ resource "oci_fleet_apps_management_catalog_item" "tf-sample-fleet-apps-manageme
   short_description          = ""
   time_released              = ""
   version_description        = ""
-  
+
   catalog_source_payload {
     access_uri                       = ""
     branch_name                      = ""

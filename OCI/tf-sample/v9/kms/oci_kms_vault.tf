@@ -6,11 +6,11 @@ resource "oci_kms_vault" "tf-sample-kms-vault" {
   restore_trigger  = false
   time_of_deletion = ""
   vault_type       = ""
-  
+
   external_key_manager_metadata {
     external_vault_endpoint_url = ""
     private_endpoint_id         = ""
-    
+
     oauth_metadata {
       client_app_id         = ""
       client_app_secret     = ""

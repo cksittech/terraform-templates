@@ -10,7 +10,7 @@ resource "oci_demand_signal_occ_metric_alarm" "tf-sample-demand-signal-occ-metri
   subscribers    = []
   threshold      = 0
   threshold_type = ""
-  
+
   resource_configuration {
     compute_hw_generation     = ""
     hw_generation             = ""

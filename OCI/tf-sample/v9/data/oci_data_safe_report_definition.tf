@@ -5,7 +5,7 @@ resource "oci_data_safe_report_definition" "tf-sample-data-safe-report-definitio
   display_name   = ""
   freeform_tags  = {}
   parent_id      = ""
-  
+
   column_filters {
     expressions = []
     field_name  = ""

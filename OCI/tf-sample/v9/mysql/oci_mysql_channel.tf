@@ -5,7 +5,7 @@ resource "oci_mysql_channel" "tf-sample-mysql-channel" {
   display_name   = ""
   freeform_tags  = {}
   is_enabled     = false
-  
+
   source {
     hostname                   = ""
     must_use_ipv6on_dual_stack = false
@@ -14,7 +14,7 @@ resource "oci_mysql_channel" "tf-sample-mysql-channel" {
     source_type                = ""
     ssl_mode                   = ""
     username                   = ""
-    
+
     anonymous_transactions_handling {
       last_configured_log_filename = ""
       last_configured_log_offset   = ""
@@ -33,7 +33,7 @@ resource "oci_mysql_channel" "tf-sample-mysql-channel" {
     delay_in_seconds                    = 0
     tables_without_primary_key_handling = ""
     target_type                         = ""
-    
+
     filters {
       type  = ""
       value = ""

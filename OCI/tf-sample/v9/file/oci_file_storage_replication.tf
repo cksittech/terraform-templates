@@ -7,7 +7,7 @@ resource "oci_file_storage_replication" "tf-sample-file-storage-replication" {
   replication_interval = ""
   source_id            = ""
   target_id            = ""
-  
+
   locks {
     message             = ""
     related_resource_id = ""

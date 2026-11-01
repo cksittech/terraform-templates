@@ -24,7 +24,7 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
   shape                              = ""
   state                              = ""
   system_tags                        = {}
-  
+
   alternate_custom_endpoints {
     certificate_secret_id = ""
     hostname              = ""
@@ -39,14 +39,14 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
     allowlisted_http_ips           = []
     is_integration_vcn_allowlisted = false
     network_endpoint_type          = ""
-    
+
     allowlisted_http_vcns {
       allowlisted_ips = []
       id              = ""
     }
     design_time {
       allowlisted_http_ips = []
-      
+
       allowlisted_http_vcns {
         allowlisted_ips = []
         id              = ""
@@ -54,7 +54,7 @@ resource "oci_integration_integration_instance" "tf-sample-integration-integrati
     }
     runtime {
       allowlisted_http_ips = []
-      
+
       allowlisted_http_vcns {
         allowlisted_ips = []
         id              = ""

@@ -39,7 +39,7 @@ resource "oci_database_data_guard_association" "tf-sample-database-data-guard-as
   subscription_id                  = ""
   time_zone                        = ""
   transport_type                   = ""
-  
+
   data_collection_options {
     is_diagnostics_events_enabled = false
     is_health_monitoring_enabled  = false

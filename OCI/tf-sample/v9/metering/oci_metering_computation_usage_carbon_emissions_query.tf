@@ -1,10 +1,10 @@
 resource "oci_metering_computation_usage_carbon_emissions_query" "tf-sample-metering-computation-usage-carbon-emissions-query" {
   compartment_id = ""
-  
+
   query_definition {
     display_name = ""
     version      = 0
-    
+
     cost_analysis_ui {
       graph               = ""
       is_cumulative_graph = false
@@ -21,7 +21,7 @@ resource "oci_metering_computation_usage_carbon_emissions_query" "tf-sample-mete
       time_usage_ended                    = ""
       time_usage_started                  = ""
       usage_carbon_emissions_query_filter = ""
-      
+
       group_by_tag {
         key       = ""
         namespace = ""

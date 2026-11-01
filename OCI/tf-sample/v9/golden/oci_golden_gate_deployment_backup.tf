@@ -9,7 +9,7 @@ resource "oci_golden_gate_deployment_backup" "tf-sample-golden-gate-deployment-b
   is_metadata_only = false
   namespace        = ""
   object           = ""
-  
+
   locks {
     message = ""
     type    = ""

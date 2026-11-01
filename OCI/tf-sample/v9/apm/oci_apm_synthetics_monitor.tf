@@ -15,7 +15,7 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
   status                     = ""
   target                     = ""
   timeout_in_seconds         = 0
-  
+
   availability_configuration {
     max_allowed_failures_per_interval = 0
     min_allowed_runs_per_interval     = 0
@@ -45,7 +45,7 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
     upload_file_size_in_bytes         = 0
     verify_response_codes             = []
     verify_response_content           = ""
-    
+
     client_certificate_details {
       client_certificate {
         content   = ""
@@ -58,7 +58,7 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
     }
     database_authentication_details {
       username = ""
-      
+
       password {
         password        = ""
         password_type   = ""
@@ -75,7 +75,7 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
     }
     ftp_basic_authentication_details {
       username = ""
-      
+
       password {
         password        = ""
         password_type   = ""
@@ -97,7 +97,7 @@ resource "oci_apm_synthetics_monitor" "tf-sample-apm-synthetics-monitor" {
       auth_user_name         = ""
       auth_user_password     = ""
       oauth_scheme           = ""
-      
+
       auth_headers {
         header_name  = ""
         header_value = ""

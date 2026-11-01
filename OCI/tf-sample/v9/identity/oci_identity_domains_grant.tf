@@ -8,7 +8,7 @@ resource "oci_identity_domains_grant" "tf-sample-identity-domains-grant" {
   ocid                          = ""
   resource_type_schema_version  = ""
   schemas                       = []
-  
+
   app {
     value = ""
   }

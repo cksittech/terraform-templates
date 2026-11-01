@@ -18,7 +18,7 @@ resource "oci_identity_domains_self_registration_profile" "tf-sample-identity-do
   resource_type_schema_version         = ""
   schemas                              = []
   show_on_login_page                   = false
-  
+
   after_submit_text {
     default = false
     locale  = ""

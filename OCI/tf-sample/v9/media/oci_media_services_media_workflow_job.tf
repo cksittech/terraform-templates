@@ -9,7 +9,7 @@ resource "oci_media_services_media_workflow_job" "tf-sample-media-services-media
   media_workflow_name              = ""
   parameters                       = ""
   workflow_identifier_type         = ""
-  
+
   locks {
     compartment_id      = ""
     message             = ""

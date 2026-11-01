@@ -7,7 +7,7 @@ resource "oci_dataintegration_workspace_project" "tf-sample-dataintegration-work
   object_status = 0
   project_key   = ""
   workspace_id  = ""
-  
+
   registry_metadata {
     aggregator_key   = ""
     is_favorite      = false

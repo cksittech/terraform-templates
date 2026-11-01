@@ -6,7 +6,7 @@ resource "oci_capacity_management_occ_customer_group" "tf-sample-capacity-manage
   freeform_tags     = {}
   lifecycle_details = ""
   status            = ""
-  
+
   customers_list {
     description  = ""
     display_name = ""

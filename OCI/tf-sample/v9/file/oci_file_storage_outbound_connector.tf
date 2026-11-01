@@ -11,7 +11,7 @@ resource "oci_file_storage_outbound_connector" "tf-sample-file-storage-outbound-
   password_secret_version            = 0
   trusted_certificate_secret_id      = ""
   trusted_certificate_secret_version = 0
-  
+
   endpoints {
     hostname = ""
     port     = ""

@@ -11,7 +11,7 @@ resource "oci_recovery_protected_database" "tf-sample-recovery-protected-databas
   password             = ""
   protection_policy_id = ""
   subscription_id      = ""
-  
+
   recovery_service_subnets {
     recovery_service_subnet_id = ""
   }

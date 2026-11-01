@@ -7,7 +7,7 @@ resource "oci_cloud_migrations_migration_asset" "tf-sample-cloud-migrations-migr
   replication_compartment_id = ""
   replication_schedule_id    = ""
   snap_shot_bucket_name      = ""
-  
+
   replication_location_detail {
     metadata                  = {}
     replication_location_type = ""

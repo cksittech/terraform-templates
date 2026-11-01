@@ -5,14 +5,14 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
   display_name   = ""
   freeform_tags  = {}
   project_id     = ""
-  
+
   action {
     action_type = ""
-    
+
     action_details {
       http_action_type                = ""
       ml_application_instance_view_id = ""
-      
+
       create_job_run_details {
         compartment_id = ""
         defined_tags   = {}
@@ -20,7 +20,7 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
         freeform_tags  = {}
         job_id         = ""
         project_id     = ""
-        
+
         job_configuration_override_details {
           command_line_arguments     = ""
           environment_variables      = {}
@@ -50,7 +50,7 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
         pipeline_id    = ""
         project_id     = ""
         system_tags    = {}
-        
+
         configuration_override_details {
           command_line_arguments     = ""
           environment_variables      = {}
@@ -65,7 +65,7 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
         }
         step_override_details {
           step_name = ""
-          
+
           step_configuration_details {
             command_line_arguments     = ""
             environment_variables      = {}
@@ -83,7 +83,7 @@ resource "oci_datascience_schedule" "tf-sample-datascience-schedule" {
       }
       trigger_ml_application_instance_view_flow_details {
         trigger_name = ""
-        
+
         parameters {
           name  = ""
           value = ""

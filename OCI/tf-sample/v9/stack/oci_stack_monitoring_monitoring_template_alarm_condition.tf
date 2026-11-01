@@ -7,7 +7,7 @@ resource "oci_stack_monitoring_monitoring_template_alarm_condition" "tf-sample-s
   monitoring_template_id = ""
   namespace              = ""
   resource_type          = ""
-  
+
   conditions {
     body               = ""
     query              = ""

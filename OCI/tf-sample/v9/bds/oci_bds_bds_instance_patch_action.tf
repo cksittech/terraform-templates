@@ -2,7 +2,7 @@ resource "oci_bds_bds_instance_patch_action" "tf-sample-bds-bds-instance-patch-a
   bds_instance_id        = ""
   cluster_admin_password = ""
   version                = ""
-  
+
   patching_config {
     batch_size                          = 0
     patching_config_strategy            = ""

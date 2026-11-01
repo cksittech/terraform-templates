@@ -12,7 +12,7 @@ resource "oci_objectstorage_private_endpoint" "tf-sample-objectstorage-private-e
   security_attributes = {}
   state               = ""
   subnet_id           = ""
-  
+
   access_targets {
     bucket         = ""
     compartment_id = ""

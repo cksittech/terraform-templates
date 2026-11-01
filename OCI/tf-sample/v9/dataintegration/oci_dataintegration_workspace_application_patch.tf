@@ -9,7 +9,7 @@ resource "oci_dataintegration_workspace_application_patch" "tf-sample-dataintegr
   object_status   = 0
   patch_type      = ""
   workspace_id    = ""
-  
+
   registry_metadata {
     aggregator_key   = ""
     is_favorite      = false

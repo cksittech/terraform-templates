@@ -27,7 +27,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
   shutdown_type           = ""
   state                   = ""
   subnet_id               = ""
-  
+
   backup_policy {
     defined_tags      = {}
     freeform_tags     = {}
@@ -35,7 +35,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     retention_in_days = 0
     soft_delete       = ""
     window_start_time = ""
-    
+
     copy_policies {
       backup_copy_retention_in_days = 0
       copy_to_region                = ""
@@ -73,7 +73,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     version_preference        = ""
     version_track_preference  = ""
     window_start_time         = ""
-    
+
     maintenance_disabled_windows {
       time_end   = ""
       time_start = ""
@@ -84,7 +84,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     is_enabled                   = false
     read_endpoint_hostname_label = ""
     read_endpoint_ip_address     = ""
-    
+
     read_endpoint_ipv6address_ipv6subnet_cidr_pair_details {
       ipv6address     = ""
       ipv6subnet_cidr = ""
@@ -105,13 +105,13 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     region         = ""
     source_type    = ""
     source_url     = ""
-    
+
     channel {
       applier_username = ""
       source_password  = ""
       source_username  = ""
       ssl_mode         = ""
-      
+
       ssl_ca_certificate {
         certificate_type = ""
         contents         = ""
@@ -122,7 +122,7 @@ resource "oci_mysql_mysql_db_system" "tf-sample-mysql-mysql-db-system" {
     logs {
       destination = ""
       log_types   = []
-      
+
       destination_configurations {
         key   = ""
         value = ""

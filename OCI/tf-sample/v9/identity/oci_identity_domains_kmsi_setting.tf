@@ -15,7 +15,7 @@ resource "oci_identity_domains_kmsi_setting" "tf-sample-identity-domains-kmsi-se
   schemas                      = []
   token_validity_in_days       = 0
   tou_prompt_disabled          = false
-  
+
   tags {
     key   = ""
     value = ""

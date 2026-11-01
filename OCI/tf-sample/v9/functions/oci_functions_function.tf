@@ -8,7 +8,7 @@ resource "oci_functions_function" "tf-sample-functions-function" {
   image_digest                     = ""
   memory_in_mbs                    = ""
   timeout_in_seconds               = 0
-  
+
   failure_destination {
     channel_id = ""
     kind       = ""
@@ -26,7 +26,7 @@ resource "oci_functions_function" "tf-sample-functions-function" {
     image_digest   = ""
     pbf_listing_id = ""
     source_type    = ""
-    
+
     archive_source_details {
       archive_file        = ""
       archive_source_type = ""

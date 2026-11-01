@@ -9,7 +9,7 @@ resource "oci_identity_domains_dynamic_resource_group" "tf-sample-identity-domai
   ocid                         = ""
   resource_type_schema_version = ""
   schemas                      = []
-  
+
   tags {
     key   = ""
     value = ""

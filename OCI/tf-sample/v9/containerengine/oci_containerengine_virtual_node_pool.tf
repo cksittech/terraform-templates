@@ -6,7 +6,7 @@ resource "oci_containerengine_virtual_node_pool" "tf-sample-containerengine-virt
   freeform_tags  = {}
   nsg_ids        = []
   size           = 0
-  
+
   initial_virtual_node_labels {
     key   = ""
     value = ""
