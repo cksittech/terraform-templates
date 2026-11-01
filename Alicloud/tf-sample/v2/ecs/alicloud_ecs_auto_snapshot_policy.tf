@@ -8,7 +8,7 @@ resource "alicloud_ecs_auto_snapshot_policy" "tf-sample-ecs-auto-snapshot-policy
   retention_days                  = 0
   target_copy_regions             = []
   time_points                     = []
-  
+
   copy_encryption_configuration {
     encrypted  = false
     kms_key_id = ""
@@ -17,6 +17,6 @@ resource "alicloud_ecs_auto_snapshot_policy" "tf-sample-ecs-auto-snapshot-policy
     tag_key   = ""
     tag_value = ""
   }
-  
+
   tags = {}
 }

@@ -36,11 +36,11 @@ resource "alicloud_db_readonly_instance" "tf-sample-db-readonly-instance" {
   vswitch_id                         = ""
   whitelist_network_type             = ""
   zone_id                            = ""
-  
+
   parameters {
     name  = ""
     value = ""
   }
-  
+
   tags = {}
 }

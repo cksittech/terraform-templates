@@ -9,6 +9,6 @@ resource "alicloud_cas_certificate" "tf-sample-cas-certificate" {
   resource_group_id   = ""
   sign_cert           = ""
   sign_private_key    = ""
-  
+
   tags = {}
 }

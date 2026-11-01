@@ -8,14 +8,14 @@ resource "alicloud_cms_metric_rule_template" "tf-sample-cms-metric-rule-template
   notify_level              = ""
   silence_time              = 0
   webhook                   = ""
-  
+
   alert_templates {
     category    = ""
     metric_name = ""
     namespace   = ""
     rule_name   = ""
     webhook     = ""
-    
+
     escalations {
       critical {
         comparison_operator = ""

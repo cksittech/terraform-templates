@@ -12,6 +12,6 @@ resource "alicloud_vpc_ipam_ipam_pool" "tf-sample-vpc-ipam-ipam-pool" {
   pool_region_id                     = ""
   resource_group_id                  = ""
   source_ipam_pool_id                = ""
-  
+
   tags = {}
 }

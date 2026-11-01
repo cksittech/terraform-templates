@@ -6,7 +6,7 @@ resource "alicloud_ros_stack_instances" "tf-sample-ros-stack-instances" {
   region_ids            = []
   stack_group_name      = ""
   timeout_in_minutes    = 0
-  
+
   deployment_targets {
     account_ids   = []
     rd_folder_ids = []

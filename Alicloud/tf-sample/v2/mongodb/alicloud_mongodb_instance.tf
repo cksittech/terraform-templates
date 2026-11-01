@@ -48,7 +48,7 @@ resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
   vpc_id                                      = ""
   vswitch_id                                  = ""
   zone_id                                     = ""
-  
+
   parameters {
     name  = ""
     value = ""
@@ -58,6 +58,6 @@ resource "alicloud_mongodb_instance" "tf-sample-mongodb-instance" {
     security_ip_group_name      = ""
     security_ip_list            = ""
   }
-  
+
   tags = {}
 }

@@ -6,6 +6,6 @@ resource "alicloud_live_domain" "tf-sample-live-domain" {
   resource_group_id = ""
   scope             = ""
   status            = ""
-  
+
   tags = {}
 }

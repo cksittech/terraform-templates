@@ -7,7 +7,7 @@ resource "alicloud_gpdb_db_instance_plan" "tf-sample-gpdb-db-instance-plan" {
   plan_start_date       = ""
   plan_type             = ""
   status                = ""
-  
+
   plan_config {
     pause {
       execute_time   = ""

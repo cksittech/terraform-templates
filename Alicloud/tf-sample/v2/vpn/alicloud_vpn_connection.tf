@@ -10,7 +10,7 @@ resource "alicloud_vpn_connection" "tf-sample-vpn-connection" {
   remote_subnet        = []
   vpn_connection_name  = ""
   vpn_gateway_id       = ""
-  
+
   bgp_config {
     enable       = false
     local_asn    = ""
@@ -46,7 +46,7 @@ resource "alicloud_vpn_connection" "tf-sample-vpn-connection" {
     enable_dpd           = false
     enable_nat_traversal = false
     role                 = ""
-    
+
     tunnel_bgp_config {
       local_asn    = ""
       local_bgp_ip = ""
@@ -70,6 +70,6 @@ resource "alicloud_vpn_connection" "tf-sample-vpn-connection" {
       ipsec_pfs      = ""
     }
   }
-  
+
   tags = {}
 }

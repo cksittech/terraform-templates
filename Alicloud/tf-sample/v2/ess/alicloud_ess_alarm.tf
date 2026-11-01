@@ -15,7 +15,7 @@ resource "alicloud_ess_alarm" "tf-sample-ess-alarm" {
   scaling_group_id           = ""
   statistics                 = ""
   threshold                  = ""
-  
+
   expressions {
     comparison_operator = ""
     metric_name         = ""

@@ -3,7 +3,7 @@ resource "alicloud_imp_app_template" "tf-sample-imp-app-template" {
   component_list    = []
   integration_mode  = ""
   scene             = ""
-  
+
   config_list {
     key   = ""
     value = ""

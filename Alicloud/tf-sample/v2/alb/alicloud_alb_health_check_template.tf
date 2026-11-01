@@ -13,6 +13,6 @@ resource "alicloud_alb_health_check_template" "tf-sample-alb-health-check-templa
   healthy_threshold          = 0
   resource_group_id          = ""
   unhealthy_threshold        = 0
-  
+
   tags = {}
 }

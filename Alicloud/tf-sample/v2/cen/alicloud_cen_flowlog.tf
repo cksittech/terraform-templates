@@ -9,6 +9,6 @@ resource "alicloud_cen_flowlog" "tf-sample-cen-flowlog" {
   status                       = ""
   transit_router_attachment_id = ""
   transit_router_id            = ""
-  
+
   tags = {}
 }

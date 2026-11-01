@@ -23,7 +23,7 @@ resource "alicloud_cddc_dedicated_propre_host" "tf-sample-cddc-dedicated-propre-
   user_data_encoded          = false
   vpc_id                     = ""
   vswitch_id                 = ""
-  
+
   ecs_class_list {
     data_disk_performance_level   = ""
     disk_capacity                 = 0
@@ -34,6 +34,6 @@ resource "alicloud_cddc_dedicated_propre_host" "tf-sample-cddc-dedicated-propre-
     sys_disk_type                 = ""
     system_disk_performance_level = ""
   }
-  
+
   tags = {}
 }

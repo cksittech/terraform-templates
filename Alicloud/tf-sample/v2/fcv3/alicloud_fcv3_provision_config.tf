@@ -4,7 +4,7 @@ resource "alicloud_fcv3_provision_config" "tf-sample-fcv3-provision-config" {
   function_name       = ""
   qualifier           = ""
   target              = 0
-  
+
   scheduled_actions {
     end_time            = ""
     name                = ""

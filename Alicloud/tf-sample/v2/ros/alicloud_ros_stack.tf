@@ -17,11 +17,11 @@ resource "alicloud_ros_stack" "tf-sample-ros-stack" {
   template_version                = ""
   timeout_in_minutes              = 0
   use_previous_parameters         = false
-  
+
   parameters {
     parameter_key   = ""
     parameter_value = ""
   }
-  
+
   tags = {}
 }

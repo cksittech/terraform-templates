@@ -9,7 +9,7 @@ resource "alicloud_pai_workspace_datasetversion" "tf-sample-pai-workspace-datase
   source_id        = ""
   source_type      = ""
   uri              = ""
-  
+
   labels {
     key   = ""
     value = ""

@@ -24,7 +24,7 @@ resource "alicloud_alikafka_instance" "tf-sample-alikafka-instance" {
   vswitch_id                  = ""
   vswitch_ids                 = []
   zone_id                     = ""
-  
+
   confluent_config {
     connect_cu               = 0
     connect_replica          = 0
@@ -49,6 +49,6 @@ resource "alicloud_alikafka_instance" "tf-sample-alikafka-instance" {
     reserved_publish_capacity   = 0
     reserved_subscribe_capacity = 0
   }
-  
+
   tags = {}
 }

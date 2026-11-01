@@ -3,11 +3,11 @@ resource "alicloud_agentloop_context_store" "tf-sample-agentloop-context-store" 
   context_store_name = ""
   context_type       = ""
   description        = ""
-  
+
   config {
     metadata_field = {}
     service_names  = []
-    
+
     source {
       agent_space = ""
       start_time  = ""

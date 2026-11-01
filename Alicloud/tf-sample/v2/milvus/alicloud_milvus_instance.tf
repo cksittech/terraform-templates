@@ -19,14 +19,14 @@ resource "alicloud_milvus_instance" "tf-sample-milvus-instance" {
   resource_group_id     = ""
   vpc_id                = ""
   zone_id               = ""
-  
+
   components {
     cu_num         = 0
     cu_type        = ""
     disk_size_type = ""
     replica        = 0
     type           = ""
-    
+
     data_disk {
       enabled           = false
       performance_level = ""
@@ -38,6 +38,6 @@ resource "alicloud_milvus_instance" "tf-sample-milvus-instance" {
     vsw_id  = ""
     zone_id = ""
   }
-  
+
   tags = {}
 }

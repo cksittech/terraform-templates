@@ -42,7 +42,7 @@ resource "alicloud_launch_template" "tf-sample-launch-template" {
   vpc_id                        = ""
   vswitch_id                    = ""
   zone_id                       = ""
-  
+
   data_disks {
     category             = ""
     delete_with_instance = false
@@ -77,6 +77,6 @@ resource "alicloud_launch_template" "tf-sample-launch-template" {
     performance_level    = ""
     size                 = 0
   }
-  
+
   tags = {}
 }

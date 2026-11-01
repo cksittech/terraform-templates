@@ -12,7 +12,7 @@ resource "alicloud_alb_listener" "tf-sample-alb-listener" {
   request_timeout                              = 0
   security_policy_id                           = ""
   status                                       = ""
-  
+
   access_log_tracing_config {
     tracing_enabled = false
     tracing_sample  = 0
@@ -26,7 +26,7 @@ resource "alicloud_alb_listener" "tf-sample-alb-listener" {
   }
   default_actions {
     type = ""
-    
+
     forward_group_config {
       server_group_tuples {
         server_group_id = ""
@@ -56,6 +56,6 @@ resource "alicloud_alb_listener" "tf-sample-alb-listener" {
     x_forwarded_for_slb_id_enabled                    = false
     x_forwarded_for_slb_port_enabled                  = false
   }
-  
+
   tags = {}
 }

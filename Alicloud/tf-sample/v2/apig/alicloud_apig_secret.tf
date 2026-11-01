@@ -4,7 +4,7 @@ resource "alicloud_apig_secret" "tf-sample-apig-secret" {
   name          = ""
   secret_data   = ""
   secret_source = ""
-  
+
   kms_config {
     kms_instance_id = ""
     kms_key_id      = ""

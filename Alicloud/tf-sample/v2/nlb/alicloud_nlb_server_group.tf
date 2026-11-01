@@ -11,7 +11,7 @@ resource "alicloud_nlb_server_group" "tf-sample-nlb-server-group" {
   server_group_name          = ""
   server_group_type          = ""
   vpc_id                     = ""
-  
+
   health_check {
     health_check_connect_port    = 0
     health_check_connect_timeout = 0
@@ -28,6 +28,6 @@ resource "alicloud_nlb_server_group" "tf-sample-nlb-server-group" {
     http_check_method            = ""
     unhealthy_threshold          = 0
   }
-  
+
   tags = {}
 }

@@ -11,6 +11,6 @@ resource "alicloud_arms_prometheus" "tf-sample-arms-prometheus" {
   sub_clusters_json   = ""
   vpc_id              = ""
   vswitch_id          = ""
-  
+
   tags = {}
 }

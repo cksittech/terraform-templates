@@ -3,6 +3,6 @@ resource "alicloud_ros_template" "tf-sample-ros-template" {
   template_body = ""
   template_name = ""
   template_url  = ""
-  
+
   tags = {}
 }

@@ -18,12 +18,12 @@ resource "alicloud_nlb_listener" "tf-sample-nlb-listener" {
   server_group_id        = ""
   start_port             = 0
   status                 = ""
-  
+
   proxy_protocol_config {
     proxy_protocol_config_private_link_ep_id_enabled  = false
     proxy_protocol_config_private_link_eps_id_enabled = false
     proxy_protocol_config_vpc_id_enabled              = false
   }
-  
+
   tags = {}
 }

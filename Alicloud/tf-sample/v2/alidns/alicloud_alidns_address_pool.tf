@@ -3,7 +3,7 @@ resource "alicloud_alidns_address_pool" "tf-sample-alidns-address-pool" {
   instance_id       = ""
   lba_strategy      = ""
   type              = ""
-  
+
   address {
     address        = ""
     attribute_info = ""

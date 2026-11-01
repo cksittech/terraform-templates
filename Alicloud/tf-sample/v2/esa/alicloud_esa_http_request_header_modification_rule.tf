@@ -5,7 +5,7 @@ resource "alicloud_esa_http_request_header_modification_rule" "tf-sample-esa-htt
   sequence     = 0
   site_id      = ""
   site_version = 0
-  
+
   request_header_modification {
     name      = ""
     operation = ""

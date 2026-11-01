@@ -33,7 +33,7 @@ resource "alicloud_ess_eci_scaling_configuration" "tf-sample-ess-eci-scaling-con
   spot_price_limit                 = 0
   spot_strategy                    = ""
   termination_grace_period_seconds = 0
-  
+
   acr_registry_infos {
     domains       = []
     instance_id   = ""
@@ -76,7 +76,7 @@ resource "alicloud_ess_eci_scaling_configuration" "tf-sample-ess-eci-scaling-con
     stdin                                       = false
     tty                                         = false
     working_dir                                 = ""
-    
+
     environment_vars {
       field_ref_field_path = ""
       key                  = ""
@@ -120,7 +120,7 @@ resource "alicloud_ess_eci_scaling_configuration" "tf-sample-ess-eci-scaling-con
     security_context_read_only_root_file_system = false
     security_context_run_as_user                = 0
     working_dir                                 = ""
-    
+
     environment_vars {
       field_ref_field_path = ""
       key                  = ""
@@ -159,13 +159,13 @@ resource "alicloud_ess_eci_scaling_configuration" "tf-sample-ess-eci-scaling-con
     nfs_volume_read_only            = false
     nfs_volume_server               = ""
     type                            = ""
-    
+
     config_file_volume_config_file_to_paths {
       content = ""
       mode    = 0
       path    = ""
     }
   }
-  
+
   tags = {}
 }

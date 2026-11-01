@@ -8,7 +8,7 @@ resource "alicloud_hbr_ots_backup_plan" "tf-sample-hbr-ots-backup-plan" {
   ots_backup_plan_name    = ""
   retention               = ""
   vault_id                = ""
-  
+
   ots_detail {
     table_names = []
   }

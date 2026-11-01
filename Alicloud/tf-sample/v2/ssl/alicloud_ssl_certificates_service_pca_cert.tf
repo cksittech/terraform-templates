@@ -21,6 +21,6 @@ resource "alicloud_ssl_certificates_service_pca_cert" "tf-sample-ssl-certificate
   status            = ""
   upload_flag       = 0
   years             = 0
-  
+
   tags = {}
 }

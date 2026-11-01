@@ -9,6 +9,6 @@ resource "alicloud_oos_patch_baseline" "tf-sample-oos-patch-baseline" {
   rejected_patches_action              = ""
   resource_group_id                    = ""
   sources                              = []
-  
+
   tags = {}
 }

@@ -11,7 +11,7 @@ resource "alicloud_hbr_policy_binding" "tf-sample-hbr-policy-binding" {
   source                     = ""
   source_type                = ""
   speed_limit                = ""
-  
+
   advanced_options {
     oss_detail {
       ignore_archive_object    = false

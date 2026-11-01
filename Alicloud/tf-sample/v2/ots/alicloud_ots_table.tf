@@ -9,7 +9,7 @@ resource "alicloud_ots_table" "tf-sample-ots-table" {
   sse_role_arn                  = ""
   table_name                    = ""
   time_to_live                  = 0
-  
+
   defined_column {
     name = ""
     type = ""

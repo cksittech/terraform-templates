@@ -5,7 +5,7 @@ resource "alicloud_arms_synthetic_task" "tf-sample-arms-synthetic-task" {
   status              = ""
   synthetic_task_name = ""
   task_type           = 0
-  
+
   available_assertions {
     expect   = ""
     operator = ""
@@ -18,10 +18,10 @@ resource "alicloud_arms_synthetic_task" "tf-sample-arms-synthetic-task" {
     monitor_samples   = 0
     trace_client_type = 0
     xtrace_region     = ""
-    
+
     custom_host {
       select_type = 0
-      
+
       hosts {
         domain  = ""
         ip_type = 0
@@ -40,7 +40,7 @@ resource "alicloud_arms_synthetic_task" "tf-sample-arms-synthetic-task" {
       request_headers = {}
       target_url      = ""
       timeout         = 0
-      
+
       request_body {
         content = ""
         type    = ""
@@ -129,6 +129,6 @@ resource "alicloud_arms_synthetic_task" "tf-sample-arms-synthetic-task" {
     client_type   = 0
     operator_code = ""
   }
-  
+
   tags = {}
 }

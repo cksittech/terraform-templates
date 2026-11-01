@@ -10,7 +10,7 @@ resource "alicloud_ga_listener" "tf-sample-ga-listener" {
   proxy_protocol     = false
   request_timeout    = 0
   security_policy_id = ""
-  
+
   certificates {
     id = ""
   }

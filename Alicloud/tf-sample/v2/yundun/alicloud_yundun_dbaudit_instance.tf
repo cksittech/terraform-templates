@@ -4,6 +4,6 @@ resource "alicloud_yundun_dbaudit_instance" "tf-sample-yundun-dbaudit-instance" 
   plan_code         = ""
   resource_group_id = ""
   vswitch_id        = ""
-  
+
   tags = {}
 }

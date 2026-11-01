@@ -39,7 +39,7 @@ resource "alicloud_ecs_instance_set" "tf-sample-ecs-instance-set" {
   unique_suffix                       = false
   vswitch_id                          = ""
   zone_id                             = ""
-  
+
   data_disks {
     auto_snapshot_policy_id = ""
     disk_category           = ""
@@ -62,6 +62,6 @@ resource "alicloud_ecs_instance_set" "tf-sample-ecs-instance-set" {
     security_group_id      = ""
     vswitch_id             = ""
   }
-  
+
   tags = {}
 }

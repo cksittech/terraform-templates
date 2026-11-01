@@ -17,7 +17,7 @@ resource "alicloud_log_oss_shipper" "tf-sample-log-oss-shipper" {
   project_name              = ""
   role_arn                  = ""
   shipper_name              = ""
-  
+
   parquet_config {
     name = ""
     type = ""

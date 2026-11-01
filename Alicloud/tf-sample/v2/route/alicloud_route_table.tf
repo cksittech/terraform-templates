@@ -4,6 +4,6 @@ resource "alicloud_route_table" "tf-sample-route-table" {
   route_propagation_enable = false
   route_table_name         = ""
   vpc_id                   = ""
-  
+
   tags = {}
 }

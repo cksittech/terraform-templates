@@ -7,10 +7,10 @@ resource "alicloud_cloud_firewall_address_book" "tf-sample-cloud-firewall-addres
   group_type        = ""
   lang              = ""
   tag_relation      = ""
-  
+
   asset_region_resource_types {
     asset_region_id = ""
-    
+
     resource_type {
       ipv4 {
         ai_gateway_eip          = false

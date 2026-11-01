@@ -7,7 +7,7 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
   rule_name      = ""
   rule_status    = 0
   template_id    = 0
-  
+
   config {
     abroad_regions       = ""
     auto_update          = false
@@ -27,7 +27,7 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
     throttle_type        = ""
     ua                   = ""
     url                  = ""
-    
+
     account_identifiers {
       decode_type = ""
       key         = ""
@@ -52,7 +52,7 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
       target    = ""
       threshold = 0
       ttl       = 0
-      
+
       status {
         code  = 0
         count = 0
@@ -62,14 +62,14 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
     time_config {
       time_scope = ""
       time_zone  = 0
-      
+
       time_periods {
         end   = 0
         start = 0
       }
       week_time_periods {
         day = ""
-        
+
         day_periods {
           end   = 0
           start = 0
@@ -79,7 +79,7 @@ resource "alicloud_wafv3_defense_rule" "tf-sample-wafv3-defense-rule" {
     waf_base_config {
       rule_batch_operation_config = ""
       rule_type                   = ""
-      
+
       rule_detail {
         rule_action = ""
         rule_id     = ""

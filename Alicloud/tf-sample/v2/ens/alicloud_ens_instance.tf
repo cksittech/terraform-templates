@@ -35,7 +35,7 @@ resource "alicloud_ens_instance" "tf-sample-ens-instance" {
   unique_suffix              = false
   user_data                  = ""
   vswitch_id                 = ""
-  
+
   data_disk {
     category       = ""
     encrypt_key_id = ""
@@ -46,6 +46,6 @@ resource "alicloud_ens_instance" "tf-sample-ens-instance" {
     category = ""
     size     = 0
   }
-  
+
   tags = {}
 }

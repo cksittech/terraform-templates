@@ -4,7 +4,7 @@ resource "alicloud_cms_prometheus_view" "tf-sample-cms-prometheus-view" {
   prometheus_view_name  = ""
   version               = ""
   workspace             = ""
-  
+
   prometheus_instances {
     prometheus_instance_id = ""
     region_id              = ""

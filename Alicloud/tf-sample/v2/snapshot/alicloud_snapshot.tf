@@ -7,6 +7,6 @@ resource "alicloud_snapshot" "tf-sample-snapshot" {
   retention_days    = 0
   snapshot_name     = ""
   wait_until        = ""
-  
+
   tags = {}
 }

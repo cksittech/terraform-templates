@@ -10,7 +10,7 @@ resource "alicloud_apig_service" "tf-sample-apig-service" {
   resource_group_id       = ""
   service_name            = ""
   source_type             = ""
-  
+
   health_check_config {
     enable              = false
     expected_statuses   = []

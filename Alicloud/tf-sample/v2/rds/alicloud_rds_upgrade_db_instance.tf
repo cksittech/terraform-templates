@@ -51,7 +51,7 @@ resource "alicloud_rds_upgrade_db_instance" "tf-sample-rds-upgrade-db-instance" 
   vswitch_id                  = ""
   zone_id                     = ""
   zone_id_slave_1             = ""
-  
+
   parameters {
     name  = ""
     value = ""

@@ -14,7 +14,7 @@ resource "alicloud_yundun_bastionhost_instance" "tf-sample-yundun-bastionhost-in
   slave_vswitch_id     = ""
   storage              = ""
   vswitch_id           = ""
-  
+
   ad_auth_server {
     account        = ""
     base_dn        = ""
@@ -43,6 +43,6 @@ resource "alicloud_yundun_bastionhost_instance" "tf-sample-yundun-bastionhost-in
     server             = ""
     standby_server     = ""
   }
-  
+
   tags = {}
 }

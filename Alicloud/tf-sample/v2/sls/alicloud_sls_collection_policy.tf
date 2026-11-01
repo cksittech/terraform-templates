@@ -4,7 +4,7 @@ resource "alicloud_sls_collection_policy" "tf-sample-sls-collection-policy" {
   enabled            = false
   policy_name        = ""
   product_code       = ""
-  
+
   centralize_config {
     dest_logstore = ""
     dest_project  = ""

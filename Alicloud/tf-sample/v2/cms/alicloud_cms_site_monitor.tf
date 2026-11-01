@@ -5,7 +5,7 @@ resource "alicloud_cms_site_monitor" "tf-sample-cms-site-monitor" {
   status      = ""
   task_name   = ""
   task_type   = ""
-  
+
   custom_schedule {
     days       = []
     end_hour   = 0
@@ -44,7 +44,7 @@ resource "alicloud_cms_site_monitor" "tf-sample-cms-site-monitor" {
     response_format      = ""
     timeout              = 0
     user_name            = ""
-    
+
     assertions {
       operator = ""
       target   = ""

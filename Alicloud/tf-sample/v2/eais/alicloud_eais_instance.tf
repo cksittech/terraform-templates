@@ -7,11 +7,11 @@ resource "alicloud_eais_instance" "tf-sample-eais-instance" {
   security_group_id = ""
   status            = ""
   vswitch_id        = ""
-  
+
   environment_var {
     key   = ""
     value = ""
   }
-  
+
   tags = {}
 }

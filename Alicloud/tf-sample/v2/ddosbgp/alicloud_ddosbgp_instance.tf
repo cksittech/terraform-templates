@@ -8,6 +8,6 @@ resource "alicloud_ddosbgp_instance" "tf-sample-ddosbgp-instance" {
   period            = 0
   resource_group_id = ""
   type              = ""
-  
+
   tags = {}
 }

@@ -6,6 +6,6 @@ resource "alicloud_eipanycast_anycast_eip_address" "tf-sample-eipanycast-anycast
   payment_type             = ""
   resource_group_id        = ""
   service_location         = ""
-  
+
   tags = {}
 }

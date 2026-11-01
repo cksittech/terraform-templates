@@ -15,7 +15,7 @@ resource "alicloud_nlb_load_balancer" "tf-sample-nlb-load-balancer" {
   resource_group_id              = ""
   security_group_ids             = []
   vpc_id                         = ""
-  
+
   deletion_protection_config {
     enabled = false
     reason  = ""
@@ -33,6 +33,6 @@ resource "alicloud_nlb_load_balancer" "tf-sample-nlb-load-balancer" {
     vswitch_id           = ""
     zone_id              = ""
   }
-  
+
   tags = {}
 }

@@ -7,6 +7,6 @@ resource "alicloud_ecs_snapshot" "tf-sample-ecs-snapshot" {
   retention_days    = 0
   snapshot_name     = ""
   wait_until        = ""
-  
+
   tags = {}
 }

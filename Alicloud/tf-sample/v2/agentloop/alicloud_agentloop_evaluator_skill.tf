@@ -5,7 +5,7 @@ resource "alicloud_agentloop_evaluator_skill" "tf-sample-agentloop-evaluator-ski
   enable       = false
   name         = ""
   skill_name   = ""
-  
+
   files {
     content = ""
     name    = ""

@@ -16,7 +16,7 @@ resource "alicloud_ecd_policy_group" "tf-sample-ecd-policy-group" {
   watermark              = ""
   watermark_transparency = ""
   watermark_type         = ""
-  
+
   authorize_access_policy_rules {
     cidr_ip     = ""
     description = ""

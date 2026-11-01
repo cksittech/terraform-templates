@@ -4,6 +4,6 @@ resource "alicloud_ram_policy" "tf-sample-ram-policy" {
   policy_document = ""
   policy_name     = ""
   rotate_strategy = ""
-  
+
   tags = {}
 }

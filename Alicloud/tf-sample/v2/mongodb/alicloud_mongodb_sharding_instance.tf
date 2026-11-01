@@ -44,7 +44,7 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
   vpc_id                                      = ""
   vswitch_id                                  = ""
   zone_id                                     = ""
-  
+
   config_server_list {
     node_class   = ""
     node_storage = 0
@@ -66,6 +66,6 @@ resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instan
     node_storage      = 0
     readonly_replicas = 0
   }
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "alicloud_havip" "tf-sample-havip" {
   ip_address        = ""
   resource_group_id = ""
   vswitch_id        = ""
-  
+
   tags = {}
 }

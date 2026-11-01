@@ -57,7 +57,7 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
   update_nodes                             = false
   user_data                                = ""
   vswitch_ids                              = []
-  
+
   auto_mode {
     enabled = false
   }
@@ -137,7 +137,7 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     server_tls_bootstrap            = false
     system_reserved                 = {}
     topology_manager_policy         = ""
-    
+
     reserved_memory {
       limits    = {}
       numa_node = 0
@@ -157,7 +157,7 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     auto_vul_fix    = false
     enable          = false
     max_unavailable = 0
-    
+
     auto_repair_policy {
       restart_node = false
     }
@@ -211,6 +211,6 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     runtime_version    = ""
     use_replace        = false
   }
-  
+
   tags = {}
 }

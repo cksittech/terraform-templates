@@ -38,6 +38,6 @@ resource "alicloud_dts_subscription_job" "tf-sample-dts-subscription-job" {
   subscription_instance_vswitch_id   = ""
   sync_architecture                  = ""
   synchronization_direction          = ""
-  
+
   tags = {}
 }

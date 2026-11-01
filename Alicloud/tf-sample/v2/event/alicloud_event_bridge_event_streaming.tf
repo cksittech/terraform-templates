@@ -7,6 +7,6 @@ resource "alicloud_event_bridge_event_streaming" "tf-sample-event-bridge-event-s
   source               = ""
   status               = ""
   transforms           = ""
-  
+
   tags = {}
 }

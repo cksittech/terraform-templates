@@ -13,7 +13,7 @@ resource "alicloud_rocketmq_instance" "tf-sample-rocketmq-instance" {
   series_code            = ""
   service_code           = ""
   sub_series_code        = ""
-  
+
   acl_info {
     acl_types             = []
     default_vpc_auth_free = false
@@ -27,7 +27,7 @@ resource "alicloud_rocketmq_instance" "tf-sample-rocketmq-instance" {
     vpc_info {
       security_group_ids = ""
       vpc_id             = ""
-      
+
       vswitches {
         vswitch_id = ""
       }
@@ -45,6 +45,6 @@ resource "alicloud_rocketmq_instance" "tf-sample-rocketmq-instance" {
   software {
     maintain_time = ""
   }
-  
+
   tags = {}
 }

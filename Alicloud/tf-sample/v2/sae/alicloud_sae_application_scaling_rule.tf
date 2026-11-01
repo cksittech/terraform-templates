@@ -5,11 +5,11 @@ resource "alicloud_sae_application_scaling_rule" "tf-sample-sae-application-scal
   scaling_rule_enable      = false
   scaling_rule_name        = ""
   scaling_rule_type        = ""
-  
+
   scaling_rule_metric {
     max_replicas = 0
     min_replicas = 0
-    
+
     metrics {
       metric_target_average_utilization = 0
       metric_type                       = ""
@@ -33,7 +33,7 @@ resource "alicloud_sae_application_scaling_rule" "tf-sample-sae-application-scal
     begin_date = ""
     end_date   = ""
     period     = ""
-    
+
     schedules {
       at_time         = ""
       max_replicas    = 0

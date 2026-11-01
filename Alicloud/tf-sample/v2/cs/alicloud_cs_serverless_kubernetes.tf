@@ -19,7 +19,7 @@ resource "alicloud_cs_serverless_kubernetes" "tf-sample-cs-serverless-kubernetes
   vpc_id                         = ""
   vswitch_ids                    = []
   zone_id                        = ""
-  
+
   addons {
     config   = ""
     disabled = false
@@ -42,6 +42,6 @@ resource "alicloud_cs_serverless_kubernetes" "tf-sample-cs-serverless-kubernetes
       enabled = false
     }
   }
-  
+
   tags = {}
 }

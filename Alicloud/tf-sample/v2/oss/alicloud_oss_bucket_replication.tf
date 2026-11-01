@@ -3,7 +3,7 @@ resource "alicloud_oss_bucket_replication" "tf-sample-oss-bucket-replication" {
   bucket                        = ""
   historical_object_replication = ""
   sync_role                     = ""
-  
+
   destination {
     bucket        = ""
     location      = ""

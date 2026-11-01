@@ -16,7 +16,7 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
   max_count                    = 0
   resource_group_id            = ""
   security_group_id            = ""
-  
+
   additional_packages {
     name    = ""
     version = ""
@@ -56,7 +56,7 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
       period_unit          = ""
       spot_price_limit     = 0
       spot_strategy        = ""
-      
+
       system_disk {
         category = ""
         level    = ""
@@ -87,7 +87,7 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
     ram_role              = ""
     reserved_node_pool_id = ""
     vswitch_ids           = []
-    
+
     compute_nodes {
       auto_renew           = false
       auto_renew_period    = 0
@@ -100,7 +100,7 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
       period_unit          = ""
       spot_price_limit     = 0
       spot_strategy        = ""
-      
+
       system_disk {
         category = ""
         level    = ""
@@ -119,6 +119,6 @@ resource "alicloud_ehpc_cluster_v2" "tf-sample-ehpc-cluster-v2" {
     nas_directory       = ""
     protocol_type       = ""
   }
-  
+
   tags = {}
 }

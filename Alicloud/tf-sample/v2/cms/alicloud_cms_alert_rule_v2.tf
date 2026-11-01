@@ -5,7 +5,7 @@ resource "alicloud_cms_alert_rule_v2" "tf-sample-cms-alert-rule-v2" {
   enabled          = false
   labels           = {}
   workspace        = ""
-  
+
   action_integration_config {
     actions = []
     enabled = false
@@ -23,7 +23,7 @@ resource "alicloud_cms_alert_rule_v2" "tf-sample-cms-alert-rule-v2" {
     type           = ""
     yoy_time_unit  = ""
     yoy_time_value = 0
-    
+
     compare_list {
       aggregate      = ""
       operator       = ""
@@ -49,7 +49,7 @@ resource "alicloud_cms_alert_rule_v2" "tf-sample-cms-alert-rule-v2" {
     silence_time_secs = 0
     type              = ""
     utc_offset        = ""
-    
+
     channels {
       identifiers = []
       type        = ""
@@ -64,7 +64,7 @@ resource "alicloud_cms_alert_rule_v2" "tf-sample-cms-alert-rule-v2" {
     metric_set                 = ""
     service_id_list            = []
     type                       = ""
-    
+
     entity_fields {
       field = ""
       value = ""

@@ -14,7 +14,7 @@ resource "alicloud_bastionhost_instance" "tf-sample-bastionhost-instance" {
   slave_vswitch_id     = ""
   storage              = ""
   vswitch_id           = ""
-  
+
   ad_auth_server {
     account        = ""
     base_dn        = ""
@@ -43,6 +43,6 @@ resource "alicloud_bastionhost_instance" "tf-sample-bastionhost-instance" {
     server             = ""
     standby_server     = ""
   }
-  
+
   tags = {}
 }

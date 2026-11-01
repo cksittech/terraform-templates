@@ -31,7 +31,7 @@ resource "alicloud_rds_custom" "tf-sample-rds-custom" {
   support_case                  = ""
   vswitch_id                    = ""
   zone_id                       = ""
-  
+
   data_disk {
     category          = ""
     performance_level = ""
@@ -41,6 +41,6 @@ resource "alicloud_rds_custom" "tf-sample-rds-custom" {
     category = ""
     size     = ""
   }
-  
+
   tags = {}
 }

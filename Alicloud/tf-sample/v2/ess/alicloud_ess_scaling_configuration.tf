@@ -47,7 +47,7 @@ resource "alicloud_ess_scaling_configuration" "tf-sample-ess-scaling-configurati
   system_disk_provisioned_iops           = 0
   system_disk_size                       = 0
   user_data                              = ""
-  
+
   custom_priorities {
     instance_type = ""
     vswitch_id    = ""
@@ -108,6 +108,6 @@ resource "alicloud_ess_scaling_configuration" "tf-sample-ess-scaling-configurati
     instance_type = ""
     price_limit   = 0
   }
-  
+
   tags = {}
 }

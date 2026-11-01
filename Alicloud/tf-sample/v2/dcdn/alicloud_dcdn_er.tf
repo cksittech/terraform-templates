@@ -1,7 +1,7 @@
 resource "alicloud_dcdn_er" "tf-sample-dcdn-er" {
   description = ""
   er_name     = ""
-  
+
   env_conf {
     preset_canary_anhui {
       allowed_hosts = []

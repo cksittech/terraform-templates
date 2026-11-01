@@ -9,7 +9,7 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
   release_version      = ""
   resource_group_id    = ""
   security_mode        = ""
-  
+
   application_configs {
     application_name   = ""
     config_description = ""
@@ -26,7 +26,7 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
     script_args             = ""
     script_name             = ""
     script_path             = ""
-    
+
     node_selector {
       node_group_ids   = []
       node_group_names = []
@@ -60,7 +60,7 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
     spot_strategy                 = ""
     vswitch_ids                   = []
     with_public_ip                = false
-    
+
     ack_config {
       ack_instance_id   = ""
       limit_cpu         = 0
@@ -72,7 +72,7 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
       pre_start_command = []
       request_cpu       = 0
       request_memory    = 0
-      
+
       custom_annotations {
         key   = ""
         value = ""
@@ -119,19 +119,19 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
         min_adjustment_value = 0
         rule_name            = ""
         trigger_type         = ""
-        
+
         metrics_trigger {
           condition_logic_operator = ""
           cool_down_interval       = 0
           evaluation_count         = 0
           time_window              = 0
-          
+
           conditions {
             comparison_operator = ""
             metric_name         = ""
             statistics          = ""
             threshold           = 0
-            
+
             tags {
               key   = ""
               value = ""
@@ -194,6 +194,6 @@ resource "alicloud_emrv2_cluster" "tf-sample-emrv2-cluster" {
     payment_duration         = 0
     payment_duration_unit    = ""
   }
-  
+
   tags = {}
 }

@@ -2,14 +2,14 @@ resource "alicloud_eflo_experiment_plan_template" "tf-sample-eflo-experiment-pla
   privacy_level        = ""
   template_description = ""
   template_name        = ""
-  
+
   template_pipeline {
     pipeline_order = 0
     scene          = ""
     setting_params = {}
     workload_id    = 0
     workload_name  = ""
-    
+
     env_params {
       cpu_per_worker     = 0
       cuda_version       = ""

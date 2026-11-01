@@ -3,13 +3,13 @@ resource "alicloud_sls_oss_export_sink" "tf-sample-sls-oss-export-sink" {
   display_name = ""
   job_name     = ""
   project      = ""
-  
+
   configuration {
     from_time = 0
     logstore  = ""
     role_arn  = ""
     to_time   = 0
-    
+
     sink {
       bucket           = ""
       buffer_interval  = ""

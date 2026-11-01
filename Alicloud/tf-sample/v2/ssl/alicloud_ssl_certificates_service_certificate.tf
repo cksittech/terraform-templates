@@ -9,6 +9,6 @@ resource "alicloud_ssl_certificates_service_certificate" "tf-sample-ssl-certific
   resource_group_id   = ""
   sign_cert           = ""
   sign_private_key    = ""
-  
+
   tags = {}
 }

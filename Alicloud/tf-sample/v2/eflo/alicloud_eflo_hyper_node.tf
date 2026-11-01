@@ -16,7 +16,7 @@ resource "alicloud_eflo_hyper_node" "tf-sample-eflo-hyper-node" {
   vpc_id            = ""
   vswitch_id        = ""
   zone_id           = ""
-  
+
   data_disk {
     bursting_enabled  = false
     category          = ""
@@ -25,6 +25,6 @@ resource "alicloud_eflo_hyper_node" "tf-sample-eflo-hyper-node" {
     provisioned_iops  = 0
     size              = 0
   }
-  
+
   tags = {}
 }

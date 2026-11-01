@@ -2,7 +2,7 @@ resource "alicloud_eflo_resource" "tf-sample-eflo-resource" {
   cluster_desc = ""
   cluster_id   = ""
   cluster_name = ""
-  
+
   machine_types {
     bond_num     = 0
     cpu_info     = ""

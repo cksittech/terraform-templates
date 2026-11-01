@@ -18,6 +18,6 @@ resource "alicloud_dts_instance" "tf-sample-dts-instance" {
   synchronization_direction        = ""
   type                             = ""
   used_time                        = 0
-  
+
   tags = {}
 }

@@ -9,7 +9,7 @@ resource "alicloud_cms_metric_rule_black_list" "tf-sample-cms-metric-rule-black-
   namespace                   = ""
   scope_type                  = ""
   scope_value                 = []
-  
+
   metrics {
     metric_name = ""
     resource    = ""

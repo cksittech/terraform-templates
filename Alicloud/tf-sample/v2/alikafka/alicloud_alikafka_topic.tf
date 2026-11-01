@@ -6,6 +6,6 @@ resource "alicloud_alikafka_topic" "tf-sample-alikafka-topic" {
   partition_num = 0
   remark        = ""
   topic         = ""
-  
+
   tags = {}
 }

@@ -11,12 +11,12 @@ resource "alicloud_message_service_queue" "tf-sample-message-service-queue" {
   sse_algorithm            = ""
   sse_type                 = ""
   visibility_timeout       = 0
-  
+
   dlq_policy {
     dead_letter_target_queue = ""
     enabled                  = false
     max_receive_count        = 0
   }
-  
+
   tags = {}
 }

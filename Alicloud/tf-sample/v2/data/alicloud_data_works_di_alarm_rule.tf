@@ -4,10 +4,10 @@ resource "alicloud_data_works_di_alarm_rule" "tf-sample-data-works-di-alarm-rule
   di_job_id          = 0
   enabled            = false
   metric_type        = ""
-  
+
   notification_settings {
     inhibition_interval = 0
-    
+
     notification_channels {
       channels = []
       severity = ""

@@ -8,7 +8,7 @@ resource "alicloud_ess_instance_refresh" "tf-sample-ess-instance-refresh" {
   scaling_group_id                              = ""
   skip_matching                                 = false
   status                                        = ""
-  
+
   checkpoints {
     percentage = 0
   }
@@ -17,7 +17,7 @@ resource "alicloud_ess_instance_refresh" "tf-sample-ess-instance-refresh" {
     commands = []
     image    = ""
     name     = ""
-    
+
     environment_vars {
       field_ref_field_path = ""
       key                  = ""

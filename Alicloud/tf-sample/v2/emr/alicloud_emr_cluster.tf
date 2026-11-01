@@ -20,7 +20,7 @@ resource "alicloud_emr_cluster" "tf-sample-emr-cluster" {
   user_defined_emr_ecs_role = ""
   vswitch_id                = ""
   zone_id                   = ""
-  
+
   bootstrap_action {
     arg                     = ""
     execution_fail_strategy = ""
@@ -69,6 +69,6 @@ resource "alicloud_emr_cluster" "tf-sample-emr-cluster" {
     refresh_host_config     = false
     service_name            = ""
   }
-  
+
   tags = {}
 }

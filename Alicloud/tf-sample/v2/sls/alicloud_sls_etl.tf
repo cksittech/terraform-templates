@@ -3,7 +3,7 @@ resource "alicloud_sls_etl" "tf-sample-sls-etl" {
   display_name = ""
   job_name     = ""
   project      = ""
-  
+
   configuration {
     from_time  = 0
     lang       = ""
@@ -12,7 +12,7 @@ resource "alicloud_sls_etl" "tf-sample-sls-etl" {
     role_arn   = ""
     script     = ""
     to_time    = 0
-    
+
     sink {
       datasets = []
       endpoint = ""

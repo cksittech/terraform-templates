@@ -6,7 +6,7 @@ resource "alicloud_oss_bucket" "tf-sample-oss-bucket" {
   redundancy_type                          = ""
   resource_group_id                        = ""
   storage_class                            = ""
-  
+
   access_monitor {
     status = ""
   }
@@ -21,7 +21,7 @@ resource "alicloud_oss_bucket" "tf-sample-oss-bucket" {
     enabled = false
     id      = ""
     prefix  = ""
-    
+
     abort_multipart_upload {
       created_before_date = ""
       days                = 0
@@ -35,10 +35,10 @@ resource "alicloud_oss_bucket" "tf-sample-oss-bucket" {
     filter {
       object_size_greater_than = 0
       object_size_less_than    = 0
-      
+
       not {
         prefix = ""
-        
+
         tag {
           key   = ""
           value = ""
@@ -85,6 +85,6 @@ resource "alicloud_oss_bucket" "tf-sample-oss-bucket" {
     error_document = ""
     index_document = ""
   }
-  
+
   tags = {}
 }

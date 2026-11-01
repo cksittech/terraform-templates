@@ -10,7 +10,7 @@ resource "alicloud_pai_workspace_model" "tf-sample-pai-workspace-model" {
   origin            = ""
   task              = ""
   workspace_id      = ""
-  
+
   labels {
     key   = ""
     value = ""

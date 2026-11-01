@@ -3,6 +3,6 @@ resource "alicloud_ons_topic" "tf-sample-ons-topic" {
   message_type = 0
   remark       = ""
   topic_name   = ""
-  
+
   tags = {}
 }

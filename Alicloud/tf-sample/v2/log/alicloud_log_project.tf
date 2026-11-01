@@ -3,6 +3,6 @@ resource "alicloud_log_project" "tf-sample-log-project" {
   policy            = ""
   project_name      = ""
   resource_group_id = ""
-  
+
   tags = {}
 }

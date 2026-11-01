@@ -22,7 +22,7 @@ resource "alicloud_log_etl" "tf-sample-log-etl" {
   status                                   = ""
   to_time                                  = 0
   version                                  = 0
-  
+
   etl_sinks {
     access_key_id                   = ""
     access_key_secret               = ""

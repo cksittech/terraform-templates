@@ -5,7 +5,7 @@ resource "alicloud_vpc_route_entry" "tf-sample-vpc-route-entry" {
   nexthop_type           = ""
   route_entry_name       = ""
   route_table_id         = ""
-  
+
   next_hops {
     nexthop_id   = ""
     nexthop_type = ""

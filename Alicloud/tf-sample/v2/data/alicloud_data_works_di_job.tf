@@ -5,13 +5,13 @@ resource "alicloud_data_works_di_job" "tf-sample-data-works-di-job" {
   migration_type               = ""
   project_id                   = 0
   source_data_source_type      = ""
-  
+
   destination_data_source_settings {
     data_source_name = ""
   }
   job_settings {
     channel_settings = ""
-    
+
     column_data_type_settings {
       destination_data_type = ""
       source_data_type      = ""
@@ -45,7 +45,7 @@ resource "alicloud_data_works_di_job" "tf-sample-data-works-di-job" {
   }
   source_data_source_settings {
     data_source_name = ""
-    
+
     data_source_properties {
       encoding = ""
       timezone = ""

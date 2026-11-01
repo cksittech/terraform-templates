@@ -39,7 +39,7 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
   vpc_id                      = ""
   vswitch_id                  = ""
   zone_id                     = ""
-  
+
   ip_whitelist {
     ip_group_attribute = ""
     ip_group_name      = ""
@@ -49,6 +49,6 @@ resource "alicloud_gpdb_instance" "tf-sample-gpdb-instance" {
     name  = ""
     value = ""
   }
-  
+
   tags = {}
 }

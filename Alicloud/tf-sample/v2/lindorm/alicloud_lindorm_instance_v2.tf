@@ -18,10 +18,10 @@ resource "alicloud_lindorm_instance_v2" "tf-sample-lindorm-instance-v2" {
   vpc_id              = ""
   vswitch_id          = ""
   zone_id             = ""
-  
+
   engine_list {
     engine_type = ""
-    
+
     node_group {
       node_count          = 0
       node_disk_size      = 0

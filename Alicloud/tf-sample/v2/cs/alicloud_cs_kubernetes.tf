@@ -42,7 +42,7 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
   timezone                       = ""
   user_ca                        = ""
   version                        = ""
-  
+
   addons {
     config   = ""
     disabled = false
@@ -57,6 +57,6 @@ resource "alicloud_cs_kubernetes" "tf-sample-cs-kubernetes" {
     name    = ""
     version = ""
   }
-  
+
   tags = {}
 }

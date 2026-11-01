@@ -20,6 +20,6 @@ resource "alicloud_express_connect_virtual_border_router" "tf-sample-express-con
   vbr_owner_id               = ""
   virtual_border_router_name = ""
   vlan_id                    = 0
-  
+
   tags = {}
 }

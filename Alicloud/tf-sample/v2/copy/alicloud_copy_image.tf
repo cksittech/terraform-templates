@@ -7,6 +7,6 @@ resource "alicloud_copy_image" "tf-sample-copy-image" {
   kms_key_id           = ""
   source_image_id      = ""
   source_region_id     = ""
-  
+
   tags = {}
 }

@@ -3,6 +3,6 @@ resource "alicloud_cen_instance" "tf-sample-cen-instance" {
   description       = ""
   protection_level  = ""
   resource_group_id = ""
-  
+
   tags = {}
 }

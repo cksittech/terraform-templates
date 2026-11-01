@@ -15,6 +15,6 @@ resource "alicloud_rds_custom_disk" "tf-sample-rds-custom-disk" {
   snapshot_id          = ""
   type                 = ""
   zone_id              = ""
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "alicloud_sls_scheduled_sql" "tf-sample-sls-scheduled-sql" {
   project            = ""
   scheduled_sql_name = ""
   status             = ""
-  
+
   schedule {
     cron_expression = ""
     delay           = 0

@@ -18,6 +18,6 @@ resource "alicloud_mse_cluster" "tf-sample-mse-cluster" {
   version_code              = ""
   vpc_id                    = ""
   vswitch_id                = ""
-  
+
   tags = {}
 }

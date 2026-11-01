@@ -7,7 +7,7 @@ resource "alicloud_sls_logtail_config" "tf-sample-sls-logtail-config" {
   logtail_config_name = ""
   output_type         = ""
   project_name        = ""
-  
+
   output_detail {
     endpoint      = ""
     logstore_name = ""

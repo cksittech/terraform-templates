@@ -3,11 +3,11 @@ resource "alicloud_express_connect_router_express_connect_router" "tf-sample-exp
   description       = ""
   ecr_name          = ""
   resource_group_id = ""
-  
+
   regions {
     region_id    = ""
     transit_mode = ""
   }
-  
+
   tags = {}
 }

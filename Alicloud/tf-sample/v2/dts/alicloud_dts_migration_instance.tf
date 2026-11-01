@@ -8,6 +8,6 @@ resource "alicloud_dts_migration_instance" "tf-sample-dts-migration-instance" {
   source_endpoint_engine_name      = ""
   source_endpoint_region           = ""
   sync_architecture                = ""
-  
+
   tags = {}
 }

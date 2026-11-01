@@ -3,6 +3,6 @@ resource "alicloud_pai_service" "tf-sample-pai-service" {
   service_config = ""
   status         = ""
   workspace_id   = ""
-  
+
   tags = {}
 }

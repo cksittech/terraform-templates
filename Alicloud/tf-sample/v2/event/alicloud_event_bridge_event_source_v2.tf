@@ -3,7 +3,7 @@ resource "alicloud_event_bridge_event_source_v2" "tf-sample-event-bridge-event-s
   event_bus_name         = ""
   event_source_name      = ""
   linked_external_source = false
-  
+
   source_http_event_parameters {
     ip              = []
     method          = []

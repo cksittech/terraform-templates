@@ -15,6 +15,6 @@ resource "alicloud_ssl_certificates_service_pca_certificate" "tf-sample-ssl-cert
   resource_group_id   = ""
   state               = ""
   years               = 0
-  
+
   tags = {}
 }

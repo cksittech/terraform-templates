@@ -7,7 +7,7 @@ resource "alicloud_sae_ingress" "tf-sample-sae-ingress" {
   load_balance_type = ""
   namespace_id      = ""
   slb_id            = ""
-  
+
   default_rule {
     app_id         = ""
     app_name       = ""

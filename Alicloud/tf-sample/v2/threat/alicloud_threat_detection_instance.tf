@@ -32,7 +32,7 @@ resource "alicloud_threat_detection_instance" "tf-sample-threat-detection-instan
   version_code                     = ""
   vul_count                        = ""
   vul_switch                       = ""
-  
+
   post_pay_module_switch_obj {
     agentless       = 0
     anti_ransomware = 0

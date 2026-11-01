@@ -4,7 +4,7 @@ resource "alicloud_realtime_compute_job" "tf-sample-realtime-compute-job" {
   resource_id         = ""
   resource_queue_name = ""
   stop_strategy       = ""
-  
+
   local_variables {
     name  = ""
     value = ""

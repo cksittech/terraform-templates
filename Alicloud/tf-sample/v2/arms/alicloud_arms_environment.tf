@@ -7,6 +7,6 @@ resource "alicloud_arms_environment" "tf-sample-arms-environment" {
   environment_type     = ""
   managed_type         = ""
   resource_group_id    = ""
-  
+
   tags = {}
 }

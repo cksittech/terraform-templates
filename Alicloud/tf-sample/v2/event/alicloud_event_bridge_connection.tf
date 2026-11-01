@@ -1,10 +1,10 @@
 resource "alicloud_event_bridge_connection" "tf-sample-event-bridge-connection" {
   connection_name = ""
   description     = ""
-  
+
   auth_parameters {
     authorization_type = ""
-    
+
     api_key_auth_parameters {
       api_key_name  = ""
       api_key_value = ""
@@ -16,7 +16,7 @@ resource "alicloud_event_bridge_connection" "tf-sample-event-bridge-connection" 
     oauth_parameters {
       authorization_endpoint = ""
       http_method            = ""
-      
+
       client_parameters {
         client_id     = ""
         client_secret = ""

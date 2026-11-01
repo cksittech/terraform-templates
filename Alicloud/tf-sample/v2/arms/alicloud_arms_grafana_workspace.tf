@@ -11,6 +11,6 @@ resource "alicloud_arms_grafana_workspace" "tf-sample-arms-grafana-workspace" {
   password                  = ""
   pricing_cycle             = ""
   resource_group_id         = ""
-  
+
   tags = {}
 }

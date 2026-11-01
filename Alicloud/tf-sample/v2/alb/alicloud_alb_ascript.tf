@@ -6,7 +6,7 @@ resource "alicloud_alb_ascript" "tf-sample-alb-ascript" {
   listener_id           = ""
   position              = ""
   script_content        = ""
-  
+
   ext_attributes {
     attribute_key   = ""
     attribute_value = ""

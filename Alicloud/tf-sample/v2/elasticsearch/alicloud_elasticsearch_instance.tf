@@ -26,7 +26,7 @@ resource "alicloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
   version                          = ""
   vswitch_id                       = ""
   zone_count                       = 0
-  
+
   client_node_configuration {
     amount    = 0
     disk      = 0
@@ -59,6 +59,6 @@ resource "alicloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
     disk_type       = ""
     spec            = ""
   }
-  
+
   tags = {}
 }

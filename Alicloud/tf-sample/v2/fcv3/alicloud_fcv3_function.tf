@@ -17,7 +17,7 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
   session_affinity        = ""
   session_affinity_config = ""
   timeout                 = 0
-  
+
   code {
     checksum        = ""
     oss_bucket_name = ""
@@ -29,7 +29,7 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
     entrypoint = []
     image      = ""
     port       = 0
-    
+
     health_check_config {
       failure_threshold     = 0
       http_get_url          = ""
@@ -57,7 +57,7 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
   custom_dns {
     name_servers = []
     searches     = []
-    
+
     dns_options {
       name  = ""
       value = ""
@@ -67,7 +67,7 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
     args    = []
     command = []
     port    = 0
-    
+
     health_check_config {
       failure_threshold     = 0
       http_get_url          = ""
@@ -106,7 +106,7 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
   nas_config {
     group_id = 0
     user_id  = 0
-    
+
     mount_points {
       enable_tls  = false
       mount_dir   = ""
@@ -127,6 +127,6 @@ resource "alicloud_fcv3_function" "tf-sample-fcv3-function" {
     vpc_id            = ""
     vswitch_ids       = []
   }
-  
+
   tags = {}
 }

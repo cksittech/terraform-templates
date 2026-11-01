@@ -12,7 +12,7 @@ resource "alicloud_rds_ai_instance" "tf-sample-rds-ai-instance" {
   server_key                    = ""
   ssl_enabled                   = 0
   status                        = ""
-  
+
   auth_config_list {
     name  = ""
     value = ""

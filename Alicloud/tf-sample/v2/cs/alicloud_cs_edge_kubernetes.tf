@@ -30,7 +30,7 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
   worker_instance_types          = []
   worker_number                  = 0
   worker_vswitch_ids             = []
-  
+
   addons {
     config   = ""
     disabled = false
@@ -52,6 +52,6 @@ resource "alicloud_cs_edge_kubernetes" "tf-sample-cs-edge-kubernetes" {
     size                    = ""
     snapshot_id             = ""
   }
-  
+
   tags = {}
 }

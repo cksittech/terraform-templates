@@ -9,11 +9,11 @@ resource "alicloud_sls_metric_store" "tf-sample-sls-metric-store" {
   project_name          = ""
   shard_count           = 0
   ttl                   = 0
-  
+
   encrypt_conf {
     enable       = false
     encrypt_type = ""
-    
+
     user_cmk_info {
       cmk_key_id = ""
       region_id  = ""

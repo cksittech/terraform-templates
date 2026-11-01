@@ -18,7 +18,7 @@ resource "alicloud_auto_provisioning_group" "tf-sample-auto-provisioning-group" 
   total_target_capacity               = ""
   valid_from                          = ""
   valid_until                         = ""
-  
+
   launch_template_config {
     instance_type     = ""
     max_price         = ""

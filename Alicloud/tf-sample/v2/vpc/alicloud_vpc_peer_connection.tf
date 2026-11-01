@@ -11,6 +11,6 @@ resource "alicloud_vpc_peer_connection" "tf-sample-vpc-peer-connection" {
   resource_group_id    = ""
   status               = ""
   vpc_id               = ""
-  
+
   tags = {}
 }

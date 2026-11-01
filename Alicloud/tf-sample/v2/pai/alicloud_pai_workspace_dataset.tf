@@ -11,7 +11,7 @@ resource "alicloud_pai_workspace_dataset" "tf-sample-pai-workspace-dataset" {
   uri              = ""
   user_id          = ""
   workspace_id     = ""
-  
+
   labels {
     key   = ""
     value = ""

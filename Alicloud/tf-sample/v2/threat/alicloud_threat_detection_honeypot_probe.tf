@@ -9,10 +9,10 @@ resource "alicloud_threat_detection_honeypot_probe" "tf-sample-threat-detection-
   service_ip_list = []
   uuid            = ""
   vpc_id          = ""
-  
+
   honeypot_bind_list {
     honeypot_id = ""
-    
+
     bind_port_list {
       bind_port   = false
       end_port    = 0

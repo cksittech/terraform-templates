@@ -18,7 +18,7 @@ resource "alicloud_fc_function" "tf-sample-fc-function" {
   runtime                = ""
   service                = ""
   timeout                = 0
-  
+
   custom_container_config {
     args    = ""
     command = ""

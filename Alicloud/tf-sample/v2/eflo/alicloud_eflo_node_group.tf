@@ -12,11 +12,11 @@ resource "alicloud_eflo_node_group" "tf-sample-eflo-node-group" {
   vpd_subnets              = []
   vswitch_zone_id          = ""
   zone_id                  = ""
-  
+
   ip_allocation_policy {
     bond_policy {
       bond_default_subnet = ""
-      
+
       bonds {
         name   = ""
         subnet = ""
@@ -24,7 +24,7 @@ resource "alicloud_eflo_node_group" "tf-sample-eflo-node-group" {
     }
     machine_type_policy {
       machine_type = ""
-      
+
       bonds {
         name   = ""
         subnet = ""
@@ -32,7 +32,7 @@ resource "alicloud_eflo_node_group" "tf-sample-eflo-node-group" {
     }
     node_policy {
       node_id = ""
-      
+
       bonds {
         name   = ""
         subnet = ""

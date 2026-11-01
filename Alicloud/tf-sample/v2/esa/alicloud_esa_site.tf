@@ -29,7 +29,7 @@ resource "alicloud_esa_site" "tf-sample-esa-site" {
   site_version                            = 0
   tag_name                                = ""
   version_management                      = false
-  
+
   site_waf_settings {
     add_bot_protection_headers {
       enable = false
@@ -66,6 +66,6 @@ resource "alicloud_esa_site" "tf-sample-esa-site" {
       value = ""
     }
   }
-  
+
   tags = {}
 }

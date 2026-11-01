@@ -37,7 +37,7 @@ resource "alicloud_ess_scaling_group" "tf-sample-ess-scaling-group" {
   spot_instance_remedy                                      = false
   stop_instance_timeout                                     = 0
   vswitch_ids                                               = []
-  
+
   alb_server_group {
     alb_server_group_id = ""
     port                = 0
@@ -48,6 +48,6 @@ resource "alicloud_ess_scaling_group" "tf-sample-ess-scaling-group" {
     spot_price_limit  = 0
     weighted_capacity = 0
   }
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "alicloud_image_import" "tf-sample-image-import" {
   license_type = ""
   os_type      = ""
   platform     = ""
-  
+
   disk_device_mapping {
     device          = ""
     disk_image_size = 0

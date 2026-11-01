@@ -7,6 +7,6 @@ resource "alicloud_oos_secret_parameter" "tf-sample-oos-secret-parameter" {
   secret_parameter_name = ""
   type                  = ""
   value                 = ""
-  
+
   tags = {}
 }

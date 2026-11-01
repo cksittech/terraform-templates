@@ -54,7 +54,7 @@ resource "alicloud_ehpc_cluster" "tf-sample-ehpc-cluster" {
   without_agent            = false
   without_elastic_ip       = false
   zone_id                  = ""
-  
+
   additional_volumes {
     job_queue           = ""
     local_directory     = ""
@@ -65,7 +65,7 @@ resource "alicloud_ehpc_cluster" "tf-sample-ehpc-cluster" {
     volume_mountpoint   = ""
     volume_protocol     = ""
     volume_type         = ""
-    
+
     roles {
       name = ""
     }

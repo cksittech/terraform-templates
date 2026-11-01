@@ -7,7 +7,7 @@ resource "alicloud_gwlb_server_group" "tf-sample-gwlb-server-group" {
   server_group_name    = ""
   server_group_type    = ""
   vpc_id               = ""
-  
+
   connection_drain_config {
     connection_drain_enabled = false
     connection_drain_timeout = 0
@@ -29,6 +29,6 @@ resource "alicloud_gwlb_server_group" "tf-sample-gwlb-server-group" {
     server_ip   = ""
     server_type = ""
   }
-  
+
   tags = {}
 }

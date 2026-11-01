@@ -13,7 +13,7 @@ resource "alicloud_image" "tf-sample-image" {
   platform             = ""
   resource_group_id    = ""
   snapshot_id          = ""
-  
+
   disk_device_mapping {
     device      = ""
     disk_type   = ""
@@ -23,6 +23,6 @@ resource "alicloud_image" "tf-sample-image" {
   features {
     nvme_support = ""
   }
-  
+
   tags = {}
 }

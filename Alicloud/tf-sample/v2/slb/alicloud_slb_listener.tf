@@ -39,7 +39,7 @@ resource "alicloud_slb_listener" "tf-sample-slb-listener" {
   sticky_session_type          = ""
   tls_cipher_policy            = ""
   unhealthy_threshold          = 0
-  
+
   x_forwarded_for {
     retrive_slb_id    = false
     retrive_slb_ip    = false

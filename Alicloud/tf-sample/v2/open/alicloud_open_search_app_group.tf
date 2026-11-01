@@ -6,7 +6,7 @@ resource "alicloud_open_search_app_group" "tf-sample-open-search-app-group" {
   order_type      = ""
   payment_type    = ""
   type            = ""
-  
+
   order {
     auto_renew    = false
     duration      = 0

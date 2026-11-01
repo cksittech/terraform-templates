@@ -23,7 +23,7 @@ resource "alicloud_log_oss_export" "tf-sample-log-oss-export" {
   role_arn             = ""
   suffix               = ""
   time_zone            = ""
-  
+
   config_columns {
     name = ""
     type = ""

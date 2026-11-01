@@ -3,6 +3,6 @@ resource "alicloud_ecs_dedicated_host_cluster" "tf-sample-ecs-dedicated-host-clu
   description                 = ""
   dry_run                     = false
   zone_id                     = ""
-  
+
   tags = {}
 }

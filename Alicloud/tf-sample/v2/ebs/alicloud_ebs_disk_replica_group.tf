@@ -12,6 +12,6 @@ resource "alicloud_ebs_disk_replica_group" "tf-sample-ebs-disk-replica-group" {
   source_region_id        = ""
   source_zone_id          = ""
   status                  = ""
-  
+
   tags = {}
 }

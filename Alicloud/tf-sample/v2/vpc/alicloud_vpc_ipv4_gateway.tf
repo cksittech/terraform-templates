@@ -6,6 +6,6 @@ resource "alicloud_vpc_ipv4_gateway" "tf-sample-vpc-ipv4-gateway" {
   ipv4_gateway_name        = ""
   resource_group_id        = ""
   vpc_id                   = ""
-  
+
   tags = {}
 }

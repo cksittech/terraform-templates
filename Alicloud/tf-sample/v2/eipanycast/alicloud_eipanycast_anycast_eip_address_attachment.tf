@@ -5,7 +5,7 @@ resource "alicloud_eipanycast_anycast_eip_address_attachment" "tf-sample-eipanyc
   bind_instance_region_id = ""
   bind_instance_type      = ""
   private_ip_address      = ""
-  
+
   pop_locations {
     pop_location = ""
   }

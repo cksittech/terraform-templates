@@ -8,6 +8,6 @@ resource "alicloud_subnet" "tf-sample-subnet" {
   vpc_ipv6_cidr_block  = ""
   vswitch_name         = ""
   zone_id              = ""
-  
+
   tags = {}
 }

@@ -19,7 +19,7 @@ resource "alicloud_ess_scaling_rule" "tf-sample-ess-scaling-rule" {
   scaling_rule_name           = ""
   scaling_rule_type           = ""
   target_value                = 0
-  
+
   alarm_dimension {
     dimension_key   = ""
     dimension_value = ""
@@ -29,7 +29,7 @@ resource "alicloud_ess_scaling_rule" "tf-sample-ess-scaling-rule" {
     id          = ""
     metric_name = ""
     statistic   = ""
-    
+
     dimensions {
       dimension_key   = ""
       dimension_value = ""

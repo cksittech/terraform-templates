@@ -7,7 +7,7 @@ resource "alicloud_arms_prometheus_alert_rule" "tf-sample-arms-prometheus-alert-
   notify_type                = ""
   prometheus_alert_rule_name = ""
   type                       = ""
-  
+
   annotations {
     name  = ""
     value = ""

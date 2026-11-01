@@ -16,6 +16,6 @@ resource "alicloud_ga_bandwidth_package" "tf-sample-ga-bandwidth-package" {
   renewal_status            = ""
   resource_group_id         = ""
   type                      = ""
-  
+
   tags = {}
 }

@@ -10,7 +10,7 @@ resource "alicloud_graph_database_db_instance" "tf-sample-graph-database-db-inst
   vpc_id                   = ""
   vswitch_id               = ""
   zone_id                  = ""
-  
+
   db_instance_ip_array {
     db_instance_ip_array_attribute = ""
     db_instance_ip_array_name      = ""

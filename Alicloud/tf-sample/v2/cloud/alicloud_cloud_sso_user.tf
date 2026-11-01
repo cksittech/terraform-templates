@@ -9,6 +9,6 @@ resource "alicloud_cloud_sso_user" "tf-sample-cloud-sso-user" {
   password                    = ""
   status                      = ""
   user_name                   = ""
-  
+
   tags = {}
 }

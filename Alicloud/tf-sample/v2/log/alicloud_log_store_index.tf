@@ -5,7 +5,7 @@ resource "alicloud_log_store_index" "tf-sample-log-store-index" {
   logstore              = ""
   max_text_len          = 0
   project               = ""
-  
+
   field_search {
     alias            = ""
     case_sensitive   = false
@@ -14,7 +14,7 @@ resource "alicloud_log_store_index" "tf-sample-log-store-index" {
     name             = ""
     token            = ""
     type             = ""
-    
+
     json_keys {
       alias     = ""
       doc_value = false

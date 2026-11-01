@@ -79,7 +79,7 @@ resource "alicloud_instance" "tf-sample-instance" {
   volume_tags                         = {}
   vpc_id                              = ""
   vswitch_id                          = ""
-  
+
   cpu_options {
     accelerators     = []
     core_count       = 0
@@ -117,6 +117,6 @@ resource "alicloud_instance" "tf-sample-instance" {
     source_dest_check              = false
     vswitch_id                     = ""
   }
-  
+
   tags = {}
 }

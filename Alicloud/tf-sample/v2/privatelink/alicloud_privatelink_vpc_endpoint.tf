@@ -14,6 +14,6 @@ resource "alicloud_privatelink_vpc_endpoint" "tf-sample-privatelink-vpc-endpoint
   vpc_endpoint_name             = ""
   vpc_id                        = ""
   zone_private_ip_address_count = 0
-  
+
   tags = {}
 }

@@ -17,6 +17,6 @@ resource "alicloud_ecd_desktop" "tf-sample-ecd-desktop" {
   stopped_mode       = ""
   user_assign_mode   = ""
   user_disk_size_gib = 0
-  
+
   tags = {}
 }

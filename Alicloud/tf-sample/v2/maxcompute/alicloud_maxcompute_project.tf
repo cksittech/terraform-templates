@@ -6,7 +6,7 @@ resource "alicloud_maxcompute_project" "tf-sample-maxcompute-project" {
   project_name     = ""
   status           = ""
   three_tier_model = false
-  
+
   ip_white_list {
     ip_list     = ""
     vpc_ip_list = ""
@@ -19,7 +19,7 @@ resource "alicloud_maxcompute_project" "tf-sample-maxcompute-project" {
     sql_metering_max = ""
     timezone         = ""
     type_system      = ""
-    
+
     encryption {
       algorithm = ""
       enable    = false
@@ -37,12 +37,12 @@ resource "alicloud_maxcompute_project" "tf-sample-maxcompute-project" {
     object_creator_has_grant_permission  = false
     using_acl                            = false
     using_policy                         = false
-    
+
     project_protection {
       exception_policy = ""
       protected        = false
     }
   }
-  
+
   tags = {}
 }

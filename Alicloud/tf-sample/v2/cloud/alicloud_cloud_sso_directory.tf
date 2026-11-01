@@ -3,7 +3,7 @@ resource "alicloud_cloud_sso_directory" "tf-sample-cloud-sso-directory" {
   directory_name                 = ""
   mfa_authentication_status      = ""
   scim_synchronization_status    = ""
-  
+
   login_preference {
     allow_user_to_get_credentials = false
     login_network_masks           = ""

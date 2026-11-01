@@ -17,7 +17,7 @@ resource "alicloud_fcv2_function" "tf-sample-fcv2-function" {
   runtime                = ""
   service_name           = ""
   timeout                = 0
-  
+
   code {
     oss_bucket_name = ""
     oss_object_name = ""
@@ -33,7 +33,7 @@ resource "alicloud_fcv2_function" "tf-sample-fcv2-function" {
   custom_dns {
     name_servers = []
     searches     = []
-    
+
     dns_options {
       name  = ""
       value = ""

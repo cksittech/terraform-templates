@@ -5,7 +5,7 @@ resource "alicloud_ens_load_balancer" "tf-sample-ens-load-balancer" {
   network_id         = ""
   payment_type       = ""
   vswitch_id         = ""
-  
+
   backend_servers {
     ip        = ""
     port      = 0

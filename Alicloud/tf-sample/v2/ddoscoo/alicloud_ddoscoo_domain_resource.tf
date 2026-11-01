@@ -22,7 +22,7 @@ resource "alicloud_ddoscoo_domain_resource" "tf-sample-ddoscoo-domain-resource" 
   ssl_protocols        = ""
   tls13_custom_ciphers = []
   white_list           = []
-  
+
   proxy_types {
     proxy_ports = []
     proxy_type  = ""

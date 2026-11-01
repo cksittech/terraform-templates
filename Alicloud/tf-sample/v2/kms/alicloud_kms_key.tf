@@ -12,6 +12,6 @@ resource "alicloud_kms_key" "tf-sample-kms-key" {
   protection_level                = ""
   rotation_interval               = ""
   status                          = ""
-  
+
   tags = {}
 }

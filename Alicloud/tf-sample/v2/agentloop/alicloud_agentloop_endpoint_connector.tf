@@ -7,11 +7,11 @@ resource "alicloud_agentloop_endpoint_connector" "tf-sample-agentloop-endpoint-c
   name        = ""
   properties  = {}
   type        = ""
-  
+
   headers {
     key   = ""
     value = ""
   }
-  
+
   tags = {}
 }

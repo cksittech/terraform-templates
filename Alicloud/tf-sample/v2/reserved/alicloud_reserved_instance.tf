@@ -12,6 +12,6 @@ resource "alicloud_reserved_instance" "tf-sample-reserved-instance" {
   resource_group_id      = ""
   scope                  = ""
   zone_id                = ""
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "alicloud_eci_image_cache" "tf-sample-eci-image-cache" {
   security_group_id = ""
   vswitch_id        = ""
   zone_id           = ""
-  
+
   image_registry_credential {
     password  = ""
     server    = ""

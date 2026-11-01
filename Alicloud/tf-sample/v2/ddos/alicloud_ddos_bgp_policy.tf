@@ -1,7 +1,7 @@
 resource "alicloud_ddos_bgp_policy" "tf-sample-ddos-bgp-policy" {
   policy_name = ""
   type        = ""
-  
+
   content {
     black_ip_list_expire_at     = 0
     enable_defense              = false
@@ -12,7 +12,7 @@ resource "alicloud_ddos_bgp_policy" "tf-sample-ddos-bgp-policy" {
     region_block_country_list   = []
     region_block_province_list  = []
     whiten_gfbr_nets            = false
-    
+
     finger_print_rule_list {
       dst_port_end         = 0
       dst_port_start       = 0
@@ -35,7 +35,7 @@ resource "alicloud_ddos_bgp_policy" "tf-sample-ddos-bgp-policy" {
       method   = ""
       name     = ""
       priority = 0
-      
+
       condition_list {
         arg      = ""
         depth    = 0

@@ -17,7 +17,7 @@ resource "alicloud_api_gateway_instance" "tf-sample-api-gateway-instance" {
   user_vpc_id             = ""
   vpc_slb_intranet_enable = false
   zone_id                 = ""
-  
+
   to_connect_vpc_ip_block {
     cidr_block = ""
     customized = false

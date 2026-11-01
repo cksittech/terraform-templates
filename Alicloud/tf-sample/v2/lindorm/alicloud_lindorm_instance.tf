@@ -40,6 +40,6 @@ resource "alicloud_lindorm_instance" "tf-sample-lindorm-instance" {
   vpc_id                           = ""
   vswitch_id                       = ""
   zone_id                          = ""
-  
+
   tags = {}
 }

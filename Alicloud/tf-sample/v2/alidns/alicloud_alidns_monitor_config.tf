@@ -6,7 +6,7 @@ resource "alicloud_alidns_monitor_config" "tf-sample-alidns-monitor-config" {
   monitor_extend_info = ""
   protocol_type       = ""
   timeout             = 0
-  
+
   isp_city_node {
     city_code = ""
     isp_code  = ""

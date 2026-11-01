@@ -3,7 +3,7 @@ resource "alicloud_network_acl" "tf-sample-network-acl" {
   network_acl_name      = ""
   source_network_acl_id = ""
   vpc_id                = ""
-  
+
   egress_acl_entries {
     description            = ""
     destination_cidr_ip    = ""
@@ -28,6 +28,6 @@ resource "alicloud_network_acl" "tf-sample-network-acl" {
     resource_id   = ""
     resource_type = ""
   }
-  
+
   tags = {}
 }

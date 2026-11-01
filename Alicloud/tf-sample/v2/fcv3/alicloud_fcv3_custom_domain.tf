@@ -2,7 +2,7 @@ resource "alicloud_fcv3_custom_domain" "tf-sample-fcv3-custom-domain" {
   certificate_id     = ""
   custom_domain_name = ""
   protocol           = ""
-  
+
   auth_config {
     auth_info = ""
     auth_type = ""
@@ -26,7 +26,7 @@ resource "alicloud_fcv3_custom_domain" "tf-sample-fcv3-custom-domain" {
       methods       = []
       path          = ""
       qualifier     = ""
-      
+
       rewrite_config {
         equal_rules {
           match       = ""

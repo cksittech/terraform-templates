@@ -7,6 +7,6 @@ resource "alicloud_resource_manager_account" "tf-sample-resource-manager-account
   payer_account_id     = ""
   resell_account_type  = ""
   type                 = ""
-  
+
   tags = {}
 }

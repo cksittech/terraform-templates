@@ -8,6 +8,6 @@ resource "alicloud_vpn_gateway_enhanced_vpn_gateway" "tf-sample-vpn-gateway-enha
   vpn_gateway_name             = ""
   vpn_type                     = ""
   vswitch_id                   = ""
-  
+
   tags = {}
 }

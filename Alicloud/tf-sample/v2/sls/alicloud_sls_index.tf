@@ -6,7 +6,7 @@ resource "alicloud_sls_index" "tf-sample-sls-index" {
   logstore_name         = ""
   max_text_len          = 0
   project_name          = ""
-  
+
   line {
     case_sensitive = false
     chn            = false

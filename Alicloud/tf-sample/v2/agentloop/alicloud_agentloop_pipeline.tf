@@ -2,10 +2,10 @@ resource "alicloud_agentloop_pipeline" "tf-sample-agentloop-pipeline" {
   agent_space   = ""
   description   = ""
   pipeline_name = ""
-  
+
   execute_policy {
     mode = ""
-    
+
     run_once {
       from_time = 0
       to_time   = 0
@@ -24,13 +24,13 @@ resource "alicloud_agentloop_pipeline" "tf-sample-agentloop-pipeline" {
   }
   sink {
     type = ""
-    
+
     condition {
       match_mode = ""
-      
+
       default_sink {
         type = ""
-        
+
         dataset {
           agent_space = ""
           dataset     = ""
@@ -39,10 +39,10 @@ resource "alicloud_agentloop_pipeline" "tf-sample-agentloop-pipeline" {
       routes {
         expression = ""
         id         = ""
-        
+
         sink {
           type = ""
-          
+
           dataset {
             agent_space = ""
             dataset     = ""
@@ -57,7 +57,7 @@ resource "alicloud_agentloop_pipeline" "tf-sample-agentloop-pipeline" {
   }
   source {
     type = ""
-    
+
     dataset {
       dataset = ""
       filter  = ""

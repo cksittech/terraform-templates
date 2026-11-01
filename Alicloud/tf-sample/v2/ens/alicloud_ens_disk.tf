@@ -7,6 +7,6 @@ resource "alicloud_ens_disk" "tf-sample-ens-disk" {
   payment_type  = ""
   size          = 0
   snapshot_id   = ""
-  
+
   tags = {}
 }

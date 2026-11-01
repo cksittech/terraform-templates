@@ -22,7 +22,7 @@ resource "alicloud_polardb_application" "tf-sample-polardb-application" {
   vpc_id                 = ""
   vswitch_id             = ""
   zone_id                = ""
-  
+
   components {
     component_class   = ""
     component_replica = 0

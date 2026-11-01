@@ -22,6 +22,6 @@ resource "alicloud_ecs_disk" "tf-sample-ecs-disk" {
   storage_set_partition_number = 0
   type                         = ""
   zone_id                      = ""
-  
+
   tags = {}
 }

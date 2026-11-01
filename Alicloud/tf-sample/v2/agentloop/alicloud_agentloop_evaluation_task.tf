@@ -8,7 +8,7 @@ resource "alicloud_agentloop_evaluation_task" "tf-sample-agentloop-evaluation-ta
   status      = ""
   task_mode   = ""
   task_name   = ""
-  
+
   evaluators {
     config           = {}
     evaluator_ref    = ""
@@ -33,6 +33,6 @@ resource "alicloud_agentloop_evaluation_task" "tf-sample-agentloop-evaluation-ta
       interval_value     = 0
     }
   }
-  
+
   tags = {}
 }

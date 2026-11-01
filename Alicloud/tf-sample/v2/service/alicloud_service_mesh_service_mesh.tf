@@ -7,7 +7,7 @@ resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-me
   prometheus_url        = ""
   service_mesh_name     = ""
   version               = ""
-  
+
   extra_configuration {
     cr_aggregation_enabled = false
   }
@@ -23,7 +23,7 @@ resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-me
     outbound_traffic_policy = ""
     telemetry               = false
     tracing                 = false
-    
+
     access_log {
       enabled           = false
       gateway_enabled   = false
@@ -48,7 +48,7 @@ resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-me
       integrate_clb             = false
       kiali_arms_auth_tokens    = ""
       kiali_service_annotations = ""
-      
+
       open_id_config {
         client_id     = ""
         client_secret = ""
@@ -91,7 +91,7 @@ resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-me
       limit_memory                  = ""
       request_cpu                   = ""
       request_memory                = ""
-      
+
       init_cni_configuration {
         enabled            = false
         exclude_namespaces = ""
@@ -102,6 +102,6 @@ resource "alicloud_service_mesh_service_mesh" "tf-sample-service-mesh-service-me
     vpc_id        = ""
     vswitche_list = []
   }
-  
+
   tags = {}
 }

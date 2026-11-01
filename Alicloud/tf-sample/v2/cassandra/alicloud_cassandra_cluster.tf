@@ -19,6 +19,6 @@ resource "alicloud_cassandra_cluster" "tf-sample-cassandra-cluster" {
   security_groups     = []
   vswitch_id          = ""
   zone_id             = ""
-  
+
   tags = {}
 }

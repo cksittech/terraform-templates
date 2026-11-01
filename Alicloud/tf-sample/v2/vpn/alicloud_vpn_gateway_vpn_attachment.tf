@@ -10,7 +10,7 @@ resource "alicloud_vpn_gateway_vpn_attachment" "tf-sample-vpn-gateway-vpn-attach
   resource_group_id    = ""
   tunnel_bandwidth     = ""
   vpn_attachment_name  = ""
-  
+
   bgp_config {
     enable       = false
     local_asn    = 0
@@ -48,7 +48,7 @@ resource "alicloud_vpn_gateway_vpn_attachment" "tf-sample-vpn-gateway-vpn-attach
     enable_nat_traversal = false
     role                 = ""
     tunnel_index         = 0
-    
+
     tunnel_bgp_config {
       local_asn    = 0
       local_bgp_ip = ""
@@ -72,6 +72,6 @@ resource "alicloud_vpn_gateway_vpn_attachment" "tf-sample-vpn-gateway-vpn-attach
       ipsec_pfs      = ""
     }
   }
-  
+
   tags = {}
 }

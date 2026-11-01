@@ -10,7 +10,7 @@ resource "alicloud_realtime_compute_vvp_instance" "tf-sample-realtime-compute-vv
   vswitch_ids           = []
   vvp_instance_name     = ""
   zone_id               = ""
-  
+
   resource_spec {
     cpu       = 0
     memory_gb = 0
@@ -20,6 +20,6 @@ resource "alicloud_realtime_compute_vvp_instance" "tf-sample-realtime-compute-vv
       bucket = ""
     }
   }
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "alicloud_alb_security_policy" "tf-sample-alb-security-policy" {
   resource_group_id    = ""
   security_policy_name = ""
   tls_versions         = []
-  
+
   tags = {}
 }

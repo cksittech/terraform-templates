@@ -7,6 +7,6 @@ resource "alicloud_message_service_topic" "tf-sample-message-service-topic" {
   sse_type         = ""
   topic_name       = ""
   topic_type       = ""
-  
+
   tags = {}
 }

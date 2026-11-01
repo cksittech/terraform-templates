@@ -3,7 +3,7 @@ resource "alicloud_dcdn_ipa_domain" "tf-sample-dcdn-ipa-domain" {
   resource_group_id = ""
   scope             = ""
   status            = ""
-  
+
   sources {
     content  = ""
     port     = 0

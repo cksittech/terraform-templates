@@ -7,7 +7,7 @@ resource "alicloud_vpn_ipsec_server" "tf-sample-vpn-ipsec-server" {
   psk                = ""
   psk_enabled        = false
   vpn_gateway_id     = ""
-  
+
   ike_config {
     ike_auth_alg = ""
     ike_enc_alg  = ""

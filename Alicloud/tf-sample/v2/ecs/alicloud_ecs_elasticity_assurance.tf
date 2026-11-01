@@ -13,6 +13,6 @@ resource "alicloud_ecs_elasticity_assurance" "tf-sample-ecs-elasticity-assurance
   resource_group_id                   = ""
   start_time                          = ""
   zone_ids                            = []
-  
+
   tags = {}
 }

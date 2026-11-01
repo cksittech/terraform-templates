@@ -21,6 +21,6 @@ resource "alicloud_eip" "tf-sample-eip" {
   resource_group_id                  = ""
   security_protection_types          = []
   zone                               = ""
-  
+
   tags = {}
 }

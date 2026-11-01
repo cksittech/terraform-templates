@@ -19,7 +19,7 @@ resource "alicloud_schedulerx_job" "tf-sample-schedulerx-job" {
   template              = ""
   timezone              = ""
   x_attrs               = ""
-  
+
   job_monitor_info {
     contact_info {
       ding       = ""

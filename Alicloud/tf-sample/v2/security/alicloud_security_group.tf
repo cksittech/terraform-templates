@@ -5,6 +5,6 @@ resource "alicloud_security_group" "tf-sample-security-group" {
   security_group_name = ""
   security_group_type = ""
   vpc_id              = ""
-  
+
   tags = {}
 }

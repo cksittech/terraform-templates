@@ -3,10 +3,10 @@ resource "alicloud_apig_route" "tf-sample-apig-route" {
   domain_ids  = []
   http_api_id = ""
   route_name  = ""
-  
+
   backend {
     scene = ""
-    
+
     services {
       port       = 0
       protocol   = ""
@@ -21,7 +21,7 @@ resource "alicloud_apig_route" "tf-sample-apig-route" {
   match {
     ignore_uri_case = false
     methods         = []
-    
+
     headers {
       name  = ""
       type  = ""

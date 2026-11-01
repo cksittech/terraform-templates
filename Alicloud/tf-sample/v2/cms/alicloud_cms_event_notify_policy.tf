@@ -3,11 +3,11 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
   enabled     = false
   name        = ""
   workspace   = ""
-  
+
   notify_strategy {
     description                  = ""
     ignore_restored_notification = false
-    
+
     custom_template_entries {
       template_uuid = ""
     }
@@ -20,7 +20,7 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
     routes {
       digital_employee_name = ""
       enable_rca            = false
-      
+
       channels {
         channel_type         = ""
         enabled_sub_channels = []
@@ -35,7 +35,7 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
       filter_setting {
         expression = ""
         relation   = ""
-        
+
         conditions {
           field = ""
           op    = ""
@@ -47,7 +47,7 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
   response_plan {
     auto_recover_seconds = 0
     escalation_id        = []
-    
+
     pushing_setting {
       alert_action_ids   = []
       restore_action_ids = []
@@ -59,11 +59,11 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
   }
   subscription {
     subscribe_legacy_event = false
-    
+
     filter_setting {
       expression = ""
       relation   = ""
-      
+
       conditions {
         field = ""
         op    = ""
@@ -72,11 +72,11 @@ resource "alicloud_cms_event_notify_policy" "tf-sample-cms-event-notify-policy" 
     }
     workspace_filter_setting {
       workspace_uuids = []
-      
+
       tag_selector {
         expression = ""
         relation   = ""
-        
+
         conditions {
           field = ""
           op    = ""

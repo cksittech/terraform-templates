@@ -4,11 +4,11 @@ resource "alicloud_alb_rule" "tf-sample-alb-rule" {
   listener_id = ""
   priority    = 0
   rule_name   = ""
-  
+
   rule_actions {
     order = 0
     type  = ""
-    
+
     cors_config {
       allow_credentials = ""
       allow_headers     = []
@@ -59,7 +59,7 @@ resource "alicloud_alb_rule" "tf-sample-alb-rule" {
     }
     traffic_mirror_config {
       target_type = ""
-      
+
       mirror_group_config {
         server_group_tuples {
           server_group_id = ""
@@ -69,7 +69,7 @@ resource "alicloud_alb_rule" "tf-sample-alb-rule" {
   }
   rule_conditions {
     type = ""
-    
+
     cookie_config {
       values {
         key   = ""

@@ -61,7 +61,7 @@ resource "alicloud_rds_ddr_instance" "tf-sample-rds-ddr-instance" {
   vswitch_id                         = ""
   whitelist_network_type             = ""
   zone_id                            = ""
-  
+
   parameters {
     name  = ""
     value = ""
@@ -76,6 +76,6 @@ resource "alicloud_rds_ddr_instance" "tf-sample-rds-ddr-instance" {
     type        = ""
     user        = ""
   }
-  
+
   tags = {}
 }

@@ -12,10 +12,10 @@ resource "alicloud_apig_domain" "tf-sample-apig-domain" {
   resource_group_id  = ""
   tls_max            = ""
   tls_min            = ""
-  
+
   tls_cipher_suites_config {
     config_type = ""
-    
+
     tls_cipher_suite {
       name             = ""
       support_versions = []

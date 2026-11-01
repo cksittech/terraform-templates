@@ -13,6 +13,6 @@ resource "alicloud_dbfs_instance" "tf-sample-dbfs-instance" {
   snapshot_id             = ""
   used_scene              = ""
   zone_id                 = ""
-  
+
   tags = {}
 }

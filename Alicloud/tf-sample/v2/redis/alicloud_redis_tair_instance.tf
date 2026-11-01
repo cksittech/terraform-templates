@@ -48,6 +48,6 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   vpc_id                                         = ""
   vswitch_id                                     = ""
   zone_id                                        = ""
-  
+
   tags = {}
 }

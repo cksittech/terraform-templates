@@ -11,6 +11,6 @@ resource "alicloud_cddc_dedicated_host" "tf-sample-cddc-dedicated-host" {
   used_time               = 0
   vswitch_id              = ""
   zone_id                 = ""
-  
+
   tags = {}
 }

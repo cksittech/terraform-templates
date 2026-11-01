@@ -20,7 +20,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
   termination_grace_period_seconds = 0
   vswitch_id                       = ""
   zone_id                          = ""
-  
+
   acr_registry_info {
     domains       = []
     instance_id   = ""
@@ -38,11 +38,11 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
     memory                          = 0
     name                            = ""
     working_dir                     = ""
-    
+
     environment_vars {
       key   = ""
       value = ""
-      
+
       field_ref {
         field_path = ""
       }
@@ -53,7 +53,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
       period_seconds        = 0
       success_threshold     = 0
       timeout_seconds       = 0
-      
+
       exec {
         commands = []
       }
@@ -76,7 +76,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
       period_seconds        = 0
       success_threshold     = 0
       timeout_seconds       = 0
-      
+
       exec {
         commands = []
       }
@@ -92,7 +92,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
     security_context {
       privileged  = false
       run_as_user = 0
-      
+
       capability {
         add = []
       }
@@ -106,7 +106,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
   dns_config {
     name_servers = []
     searches     = []
-    
+
     options {
       name  = ""
       value = ""
@@ -131,11 +131,11 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
     memory            = 0
     name              = ""
     working_dir       = ""
-    
+
     environment_vars {
       key   = ""
       value = ""
-      
+
       field_ref {
         field_path = ""
       }
@@ -146,7 +146,7 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
     }
     security_context {
       run_as_user = 0
-      
+
       capability {
         add = []
       }
@@ -174,12 +174,12 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
     nfs_volume_read_only = false
     nfs_volume_server    = ""
     type                 = ""
-    
+
     config_file_volume_config_file_to_paths {
       content = ""
       path    = ""
     }
   }
-  
+
   tags = {}
 }

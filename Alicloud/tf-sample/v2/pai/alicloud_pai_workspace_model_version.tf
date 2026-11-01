@@ -13,7 +13,7 @@ resource "alicloud_pai_workspace_model_version" "tf-sample-pai-workspace-model-v
   uri                 = ""
   version_description = ""
   version_name        = ""
-  
+
   labels {
     key   = ""
     value = ""

@@ -4,10 +4,10 @@ resource "alicloud_ebs_enterprise_snapshot_policy" "tf-sample-ebs-enterprise-sna
   resource_group_id               = ""
   status                          = ""
   target_type                     = ""
-  
+
   cross_region_copy_info {
     enabled = false
-    
+
     regions {
       region_id   = ""
       retain_days = 0
@@ -23,7 +23,7 @@ resource "alicloud_ebs_enterprise_snapshot_policy" "tf-sample-ebs-enterprise-sna
   }
   special_retain_rules {
     enabled = false
-    
+
     rules {
       special_period_unit = ""
       time_interval       = 0
@@ -33,6 +33,6 @@ resource "alicloud_ebs_enterprise_snapshot_policy" "tf-sample-ebs-enterprise-sna
   storage_rule {
     enable_immediate_access = false
   }
-  
+
   tags = {}
 }

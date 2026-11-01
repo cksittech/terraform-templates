@@ -15,6 +15,6 @@ resource "alicloud_ddoscoo_instance" "tf-sample-ddoscoo-instance" {
   product_plan      = ""
   product_type      = ""
   service_bandwidth = ""
-  
+
   tags = {}
 }

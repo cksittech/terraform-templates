@@ -23,7 +23,7 @@ resource "alicloud_hbr_restore_job" "tf-sample-hbr-restore-job" {
   target_time             = ""
   udm_detail              = ""
   vault_id                = ""
-  
+
   ots_detail {
     overwrite_existing = false
   }

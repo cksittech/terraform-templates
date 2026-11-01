@@ -12,6 +12,6 @@ resource "alicloud_cen_transit_router_peer_attachment" "tf-sample-cen-transit-ro
   transit_router_attachment_description = ""
   transit_router_id                     = ""
   transit_router_peer_attachment_name   = ""
-  
+
   tags = {}
 }

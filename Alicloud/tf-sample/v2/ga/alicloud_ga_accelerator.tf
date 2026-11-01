@@ -14,10 +14,10 @@ resource "alicloud_ga_accelerator" "tf-sample-ga-accelerator" {
   renewal_status         = ""
   resource_group_id      = ""
   spec                   = ""
-  
+
   ip_set_config {
     access_mode = ""
   }
-  
+
   tags = {}
 }

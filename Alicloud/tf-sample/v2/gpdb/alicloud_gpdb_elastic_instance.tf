@@ -16,6 +16,6 @@ resource "alicloud_gpdb_elastic_instance" "tf-sample-gpdb-elastic-instance" {
   storage_size            = 0
   vswitch_id              = ""
   zone_id                 = ""
-  
+
   tags = {}
 }

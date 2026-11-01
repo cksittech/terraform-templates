@@ -4,13 +4,13 @@ resource "alicloud_event_bridge_rule" "tf-sample-event-bridge-rule" {
   filter_pattern = ""
   rule_name      = ""
   status         = ""
-  
+
   targets {
     endpoint            = ""
     push_retry_strategy = ""
     target_id           = ""
     type                = ""
-    
+
     dead_letter_queue {
     }
     param_list {

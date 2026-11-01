@@ -4,7 +4,7 @@ resource "alicloud_cms_event_rule" "tf-sample-cms-event-rule" {
   rule_name    = ""
   silence_time = 0
   status       = ""
-  
+
   contact_parameters {
     contact_group_name    = ""
     contact_parameters_id = ""

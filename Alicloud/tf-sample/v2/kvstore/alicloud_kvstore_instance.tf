@@ -58,6 +58,6 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   vpc_auth_mode               = ""
   vswitch_id                  = ""
   zone_id                     = ""
-  
+
   tags = {}
 }

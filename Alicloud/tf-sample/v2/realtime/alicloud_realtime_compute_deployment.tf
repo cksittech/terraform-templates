@@ -7,10 +7,10 @@ resource "alicloud_realtime_compute_deployment" "tf-sample-realtime-compute-depl
   labels          = {}
   namespace       = ""
   resource_id     = ""
-  
+
   artifact {
     kind = ""
-    
+
     jar_artifact {
       additional_dependencies = []
       entry_class             = ""
@@ -32,10 +32,10 @@ resource "alicloud_realtime_compute_deployment" "tf-sample-realtime-compute-depl
   }
   batch_resource_setting {
     max_slot = 0
-    
+
     basic_resource_setting {
       parallelism = 0
-      
+
       jobmanager_resource_setting_spec {
         cpu    = 0
         memory = ""
@@ -57,7 +57,7 @@ resource "alicloud_realtime_compute_deployment" "tf-sample-realtime-compute-depl
   logging {
     log4j2_configuration_template = ""
     logging_profile               = ""
-    
+
     log4j_loggers {
       logger_level = ""
       logger_name  = ""
@@ -69,10 +69,10 @@ resource "alicloud_realtime_compute_deployment" "tf-sample-realtime-compute-depl
   }
   streaming_resource_setting {
     resource_setting_mode = ""
-    
+
     basic_resource_setting {
       parallelism = 0
-      
+
       jobmanager_resource_setting_spec {
         cpu    = 0
         memory = ""
@@ -84,7 +84,7 @@ resource "alicloud_realtime_compute_deployment" "tf-sample-realtime-compute-depl
     }
     expert_resource_setting {
       resource_plan = ""
-      
+
       jobmanager_resource_setting_spec {
         cpu    = 0
         memory = ""

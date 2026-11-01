@@ -11,11 +11,11 @@ resource "alicloud_selectdb_db_instance" "tf-sample-selectdb-db-instance" {
   vpc_id                  = ""
   vswitch_id              = ""
   zone_id                 = ""
-  
+
   desired_security_ip_lists {
     group_name       = ""
     security_ip_list = ""
   }
-  
+
   tags = {}
 }

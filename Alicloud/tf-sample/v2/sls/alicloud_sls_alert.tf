@@ -4,7 +4,7 @@ resource "alicloud_sls_alert" "tf-sample-sls-alert" {
   display_name = ""
   project_name = ""
   status       = ""
-  
+
   configuration {
     auto_annotation  = false
     dashboard        = ""
@@ -15,7 +15,7 @@ resource "alicloud_sls_alert" "tf-sample-sls-alert" {
     threshold        = 0
     type             = ""
     version          = ""
-    
+
     annotations {
       key   = ""
       value = ""
@@ -58,7 +58,7 @@ resource "alicloud_sls_alert" "tf-sample-sls-alert" {
     }
     severity_configurations {
       severity = 0
-      
+
       eval_condition {
         condition       = ""
         count_condition = ""

@@ -13,6 +13,6 @@ resource "alicloud_ecs_image_pipeline" "tf-sample-ecs-image-pipeline" {
   system_disk_size           = 0
   to_region_id               = []
   vswitch_id                 = ""
-  
+
   tags = {}
 }

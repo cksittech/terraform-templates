@@ -16,6 +16,6 @@ resource "alicloud_network_interface" "tf-sample-network-interface" {
   security_group_ids                 = []
   source_dest_check                  = false
   vswitch_id                         = ""
-  
+
   tags = {}
 }

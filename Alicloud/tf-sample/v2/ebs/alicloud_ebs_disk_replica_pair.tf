@@ -14,6 +14,6 @@ resource "alicloud_ebs_disk_replica_pair" "tf-sample-ebs-disk-replica-pair" {
   reverse_replicate      = false
   rpo                    = 0
   source_zone_id         = ""
-  
+
   tags = {}
 }

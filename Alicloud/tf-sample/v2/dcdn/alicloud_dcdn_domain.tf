@@ -15,7 +15,7 @@ resource "alicloud_dcdn_domain" "tf-sample-dcdn-domain" {
   ssl_pub           = ""
   status            = ""
   top_level_domain  = ""
-  
+
   sources {
     content  = ""
     port     = 0
@@ -23,6 +23,6 @@ resource "alicloud_dcdn_domain" "tf-sample-dcdn-domain" {
     type     = ""
     weight   = ""
   }
-  
+
   tags = {}
 }

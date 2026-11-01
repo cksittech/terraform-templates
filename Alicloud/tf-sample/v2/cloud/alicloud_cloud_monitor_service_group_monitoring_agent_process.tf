@@ -2,7 +2,7 @@ resource "alicloud_cloud_monitor_service_group_monitoring_agent_process" "tf-sam
   group_id                      = ""
   match_express_filter_relation = ""
   process_name                  = ""
-  
+
   alert_config {
     comparison_operator = ""
     effective_interval  = ""
@@ -12,7 +12,7 @@ resource "alicloud_cloud_monitor_service_group_monitoring_agent_process" "tf-sam
     threshold           = ""
     times               = ""
     webhook             = ""
-    
+
     target_list {
       json_params    = ""
       level          = ""

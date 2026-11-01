@@ -7,7 +7,7 @@ resource "alicloud_quotas_template_quota" "tf-sample-quotas-template-quota" {
   product_code      = ""
   quota_action_code = ""
   quota_category    = ""
-  
+
   dimensions {
     key   = ""
     value = ""

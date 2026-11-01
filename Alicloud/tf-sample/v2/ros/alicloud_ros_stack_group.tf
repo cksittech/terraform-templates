@@ -10,7 +10,7 @@ resource "alicloud_ros_stack_group" "tf-sample-ros-stack-group" {
   template_id              = ""
   template_url             = ""
   template_version         = ""
-  
+
   auto_deployment {
     enabled                          = false
     retain_stacks_on_account_removal = false
@@ -19,6 +19,6 @@ resource "alicloud_ros_stack_group" "tf-sample-ros-stack-group" {
     parameter_key   = ""
     parameter_value = ""
   }
-  
+
   tags = {}
 }

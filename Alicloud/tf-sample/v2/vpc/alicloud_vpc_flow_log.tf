@@ -11,6 +11,6 @@ resource "alicloud_vpc_flow_log" "tf-sample-vpc-flow-log" {
   status               = ""
   traffic_path         = []
   traffic_type         = ""
-  
+
   tags = {}
 }

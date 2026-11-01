@@ -28,6 +28,6 @@ resource "alicloud_amqp_instance" "tf-sample-amqp-instance" {
   tracing_storage_time   = 0
   vpc_id                 = ""
   vswitch_ids            = []
-  
+
   tags = {}
 }

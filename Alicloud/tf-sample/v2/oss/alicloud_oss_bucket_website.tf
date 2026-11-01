@@ -1,6 +1,6 @@
 resource "alicloud_oss_bucket_website" "tf-sample-oss-bucket-website" {
   bucket = ""
-  
+
   error_document {
     http_status = 0
     key         = ""
@@ -13,12 +13,12 @@ resource "alicloud_oss_bucket_website" "tf-sample-oss-bucket-website" {
   routing_rules {
     routing_rule {
       rule_number = 0
-      
+
       condition {
         http_error_code_returned_equals = ""
         key_prefix_equals               = ""
         key_suffix_equals               = ""
-        
+
         include_headers {
           ends_with   = ""
           equals      = ""
@@ -62,7 +62,7 @@ resource "alicloud_oss_bucket_website" "tf-sample-oss-bucket-website" {
         replace_key_prefix_with           = ""
         replace_key_with                  = ""
         transparent_mirror_response_codes = ""
-        
+
         mirror_auth {
           access_key_id     = ""
           access_key_secret = ""
@@ -73,7 +73,7 @@ resource "alicloud_oss_bucket_website" "tf-sample-oss-bucket-website" {
           pass     = []
           pass_all = false
           remove   = []
-          
+
           set {
             key   = ""
             value = ""

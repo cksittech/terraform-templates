@@ -85,7 +85,7 @@ resource "alicloud_db_instance" "tf-sample-db-instance" {
   zone_id                        = ""
   zone_id_slave_a                = ""
   zone_id_slave_b                = ""
-  
+
   babelfish_config {
     babelfish_enabled    = ""
     master_user_password = ""
@@ -112,6 +112,6 @@ resource "alicloud_db_instance" "tf-sample-db-instance" {
     min_capacity = 0
     switch_force = false
   }
-  
+
   tags = {}
 }

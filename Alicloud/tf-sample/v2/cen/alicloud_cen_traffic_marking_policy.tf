@@ -6,7 +6,7 @@ resource "alicloud_cen_traffic_marking_policy" "tf-sample-cen-traffic-marking-po
   priority                    = 0
   traffic_marking_policy_name = ""
   transit_router_id           = ""
-  
+
   traffic_match_rules {
     address_family                 = ""
     dst_cidr                       = ""

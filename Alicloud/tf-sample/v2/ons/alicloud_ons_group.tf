@@ -4,6 +4,6 @@ resource "alicloud_ons_group" "tf-sample-ons-group" {
   instance_id = ""
   read_enable = false
   remark      = ""
-  
+
   tags = {}
 }

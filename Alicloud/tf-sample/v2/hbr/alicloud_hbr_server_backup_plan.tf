@@ -7,7 +7,7 @@ resource "alicloud_hbr_server_backup_plan" "tf-sample-hbr-server-backup-plan" {
   instance_id                 = ""
   retention                   = 0
   schedule                    = ""
-  
+
   detail {
     app_consistent        = false
     destination_region_id = ""

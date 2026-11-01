@@ -3,7 +3,7 @@ resource "alicloud_ros_template_scratch" "tf-sample-ros-template-scratch" {
   execution_mode        = ""
   logical_id_strategy   = ""
   template_scratch_type = ""
-  
+
   preference_parameters {
     parameter_key   = ""
     parameter_value = ""

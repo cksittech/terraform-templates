@@ -10,6 +10,6 @@ resource "alicloud_mse_gateway" "tf-sample-mse-gateway" {
   spec                      = ""
   vpc_id                    = ""
   vswitch_id                = ""
-  
+
   tags = {}
 }

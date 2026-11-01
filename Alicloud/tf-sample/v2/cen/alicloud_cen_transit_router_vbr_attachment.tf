@@ -9,6 +9,6 @@ resource "alicloud_cen_transit_router_vbr_attachment" "tf-sample-cen-transit-rou
   transit_router_id                     = ""
   vbr_id                                = ""
   vbr_owner_id                          = ""
-  
+
   tags = {}
 }

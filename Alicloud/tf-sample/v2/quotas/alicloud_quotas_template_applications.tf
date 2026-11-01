@@ -9,7 +9,7 @@ resource "alicloud_quotas_template_applications" "tf-sample-quotas-template-appl
   quota_action_code = ""
   quota_category    = ""
   reason            = ""
-  
+
   dimensions {
     key   = ""
     value = ""

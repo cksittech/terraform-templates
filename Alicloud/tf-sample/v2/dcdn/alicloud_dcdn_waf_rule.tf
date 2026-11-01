@@ -12,7 +12,7 @@ resource "alicloud_dcdn_waf_rule" "tf-sample-dcdn-waf-rule" {
   scenes            = []
   status            = ""
   waf_group_ids     = ""
-  
+
   conditions {
     key      = ""
     op_value = ""
@@ -25,7 +25,7 @@ resource "alicloud_dcdn_waf_rule" "tf-sample-dcdn-waf-rule" {
     target    = ""
     threshold = 0
     ttl       = 0
-    
+
     status {
       code  = ""
       count = 0

@@ -18,7 +18,7 @@ resource "alicloud_alidns_gtm_instance" "tf-sample-alidns-gtm-instance" {
   sms_notification_count  = 0
   strategy_mode           = ""
   ttl                     = 0
-  
+
   alert_config {
     dingtalk_notice = false
     email_notice    = false

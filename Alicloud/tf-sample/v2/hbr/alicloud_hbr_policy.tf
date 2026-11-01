@@ -2,7 +2,7 @@ resource "alicloud_hbr_policy" "tf-sample-hbr-policy" {
   policy_description = ""
   policy_name        = ""
   policy_type        = ""
-  
+
   rules {
     archive_days          = 0
     backup_type           = ""
@@ -13,7 +13,7 @@ resource "alicloud_hbr_policy" "tf-sample-hbr-policy" {
     rule_type             = ""
     schedule              = ""
     vault_id              = ""
-    
+
     data_source_filters {
       source_type = ""
     }

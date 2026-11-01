@@ -9,7 +9,7 @@ resource "alicloud_polardb_dynamo_table" "tf-sample-polardb-dynamo-table" {
   read_capacity  = 0
   table_name     = ""
   write_capacity = 0
-  
+
   attribute {
     name = ""
     type = ""

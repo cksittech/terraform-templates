@@ -17,13 +17,13 @@ resource "alicloud_kms_instance" "tf-sample-kms-instance" {
   vpc_num                     = 0
   vswitch_ids                 = []
   zone_ids                    = []
-  
+
   bind_vpcs {
     region_id    = ""
     vpc_id       = ""
     vpc_owner_id = ""
     vswitch_id   = ""
   }
-  
+
   tags = {}
 }

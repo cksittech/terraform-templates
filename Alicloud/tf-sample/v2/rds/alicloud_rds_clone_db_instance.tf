@@ -57,7 +57,7 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
   zone_id                     = ""
   zone_id_slave_a             = ""
   zone_id_slave_b             = ""
-  
+
   parameters {
     name  = ""
     value = ""
@@ -78,6 +78,6 @@ resource "alicloud_rds_clone_db_instance" "tf-sample-rds-clone-db-instance" {
     min_capacity = 0
     switch_force = false
   }
-  
+
   tags = {}
 }

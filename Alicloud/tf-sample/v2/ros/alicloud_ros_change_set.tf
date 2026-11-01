@@ -16,7 +16,7 @@ resource "alicloud_ros_change_set" "tf-sample-ros-change-set" {
   template_url                    = ""
   timeout_in_minutes              = 0
   use_previous_parameters         = false
-  
+
   parameters {
     parameter_key   = ""
     parameter_value = ""

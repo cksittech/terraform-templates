@@ -5,7 +5,7 @@ resource "alicloud_apig_gateway" "tf-sample-apig-gateway" {
   payment_type      = ""
   resource_group_id = ""
   spec              = ""
-  
+
   log_config {
     sls {
       enable = false
@@ -27,6 +27,6 @@ resource "alicloud_apig_gateway" "tf-sample-apig-gateway" {
     vswitch_id = ""
     zone_id    = ""
   }
-  
+
   tags = {}
 }

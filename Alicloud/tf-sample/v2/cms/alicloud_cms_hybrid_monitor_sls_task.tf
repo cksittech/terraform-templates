@@ -4,7 +4,7 @@ resource "alicloud_cms_hybrid_monitor_sls_task" "tf-sample-cms-hybrid-monitor-sl
   description         = ""
   namespace           = ""
   task_name           = ""
-  
+
   attach_labels {
     name  = ""
     value = ""
@@ -16,7 +16,7 @@ resource "alicloud_cms_hybrid_monitor_sls_task" "tf-sample-cms-hybrid-monitor-sl
     }
     filter {
       relation = ""
-      
+
       filters {
         operator     = ""
         sls_key_name = ""

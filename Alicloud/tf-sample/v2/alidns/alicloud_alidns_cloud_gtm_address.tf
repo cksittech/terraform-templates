@@ -7,7 +7,7 @@ resource "alicloud_alidns_cloud_gtm_address" "tf-sample-alidns-cloud-gtm-address
   name                    = ""
   remark                  = ""
   type                    = ""
-  
+
   health_tasks {
     port        = 0
     template_id = ""

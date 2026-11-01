@@ -8,7 +8,7 @@ resource "alicloud_esa_record" "tf-sample-esa-record" {
   site_id     = ""
   source_type = ""
   ttl         = 0
-  
+
   auth_conf {
     access_key = ""
     auth_type  = ""

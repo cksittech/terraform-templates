@@ -26,6 +26,6 @@ resource "alicloud_adb_cluster" "tf-sample-adb-cluster" {
   vpc_id                   = ""
   vswitch_id               = ""
   zone_id                  = ""
-  
+
   tags = {}
 }

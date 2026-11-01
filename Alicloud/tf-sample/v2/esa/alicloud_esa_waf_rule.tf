@@ -3,7 +3,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
   ruleset_id   = 0
   site_id      = ""
   site_version = 0
-  
+
   config {
     action       = ""
     expression   = ""
@@ -14,7 +14,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     status       = ""
     type         = ""
     value        = ""
-    
+
     actions {
       bypass {
         custom_rules  = []
@@ -36,7 +36,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     app_sdk {
       custom_sign_status = ""
       feature_abnormal   = []
-      
+
       custom_sign {
         key   = ""
         value = ""
@@ -46,7 +46,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
       action           = ""
       attack_type      = 0
       protection_level = 0
-      
+
       managed_rules {
         action = ""
         id     = 0
@@ -57,18 +57,18 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
       interval = 0
       on_hit   = false
       ttl      = 0
-      
+
       characteristics {
         logic = ""
-        
+
         criteria {
           logic      = ""
           match_type = ""
-          
+
           criteria {
             logic      = ""
             match_type = ""
-            
+
             criteria {
               match_type = ""
             }
@@ -80,7 +80,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
         managed_rules_blocked  = 0
         request                = 0
         traffic                = ""
-        
+
         response_status {
           code  = 0
           count = 0
@@ -94,14 +94,14 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     timer {
       scopes = ""
       zone   = 0
-      
+
       periods {
         end   = ""
         start = ""
       }
       weekly_periods {
         days = ""
-        
+
         daily_periods {
           end   = ""
           start = ""
@@ -116,7 +116,7 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     mode          = ""
     name          = ""
     target        = ""
-    
+
     actions {
       response {
         code = 0
@@ -126,15 +126,15 @@ resource "alicloud_esa_waf_rule" "tf-sample-esa-waf-rule" {
     match {
       logic      = ""
       match_type = ""
-      
+
       criteria {
         logic      = ""
         match_type = ""
-        
+
         criteria {
           logic      = ""
           match_type = ""
-          
+
           criteria {
             match_type = ""
           }

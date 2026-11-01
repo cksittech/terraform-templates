@@ -9,13 +9,13 @@ resource "alicloud_cms_alarm" "tf-sample-cms-alarm" {
   project            = ""
   silence_time       = 0
   webhook            = ""
-  
+
   composite_expression {
     expression_list_join = ""
     expression_raw       = ""
     level                = ""
     times                = 0
-    
+
     expression_list {
       comparison_operator = ""
       metric_name         = ""
@@ -53,6 +53,6 @@ resource "alicloud_cms_alarm" "tf-sample-cms-alarm" {
     level       = ""
     target_id   = ""
   }
-  
+
   tags = {}
 }

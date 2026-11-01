@@ -10,7 +10,7 @@ resource "alicloud_ehpc_queue" "tf-sample-ehpc-queue" {
   min_count        = 0
   queue_name       = ""
   vswitch_ids      = []
-  
+
   compute_nodes {
     auto_renew           = false
     auto_renew_period    = 0
@@ -23,7 +23,7 @@ resource "alicloud_ehpc_queue" "tf-sample-ehpc-queue" {
     period_unit          = ""
     spot_price_limit     = 0
     spot_strategy        = ""
-    
+
     system_disk {
       category = ""
       level    = ""

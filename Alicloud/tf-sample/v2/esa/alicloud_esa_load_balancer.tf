@@ -10,7 +10,7 @@ resource "alicloud_esa_load_balancer" "tf-sample-esa-load-balancer" {
   steering_policy    = ""
   sub_region_pools   = ""
   ttl                = 0
-  
+
   adaptive_routing {
     failover_across_pools = false
   }
@@ -39,7 +39,7 @@ resource "alicloud_esa_load_balancer" "tf-sample-esa-load-balancer" {
     rule_name   = ""
     sequence    = 0
     terminates  = false
-    
+
     fixed_response {
       content_type = ""
       location     = ""

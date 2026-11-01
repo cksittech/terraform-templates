@@ -17,6 +17,6 @@ resource "alicloud_slb_load_balancer" "tf-sample-slb-load-balancer" {
   slave_zone_id                  = ""
   status                         = ""
   vswitch_id                     = ""
-  
+
   tags = {}
 }

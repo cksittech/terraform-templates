@@ -16,11 +16,11 @@ resource "alicloud_nat_gateway" "tf-sample-nat-gateway" {
   specification        = ""
   vpc_id               = ""
   vswitch_id           = ""
-  
+
   access_mode {
     mode_value  = ""
     tunnel_type = ""
   }
-  
+
   tags = {}
 }

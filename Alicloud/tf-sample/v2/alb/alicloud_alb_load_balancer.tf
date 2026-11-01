@@ -10,7 +10,7 @@ resource "alicloud_alb_load_balancer" "tf-sample-alb-load-balancer" {
   load_balancer_name          = ""
   resource_group_id           = ""
   vpc_id                      = ""
-  
+
   access_log_config {
     log_project = ""
     log_store   = ""
@@ -32,6 +32,6 @@ resource "alicloud_alb_load_balancer" "tf-sample-alb-load-balancer" {
     vswitch_id       = ""
     zone_id          = ""
   }
-  
+
   tags = {}
 }

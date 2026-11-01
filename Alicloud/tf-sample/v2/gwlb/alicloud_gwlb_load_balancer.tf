@@ -4,11 +4,11 @@ resource "alicloud_gwlb_load_balancer" "tf-sample-gwlb-load-balancer" {
   load_balancer_name = ""
   resource_group_id  = ""
   vpc_id             = ""
-  
+
   zone_mappings {
     vswitch_id = ""
     zone_id    = ""
   }
-  
+
   tags = {}
 }

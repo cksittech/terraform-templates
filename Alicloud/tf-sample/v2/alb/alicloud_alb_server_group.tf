@@ -11,7 +11,7 @@ resource "alicloud_alb_server_group" "tf-sample-alb-server-group" {
   service_name               = ""
   upstream_keepalive_enabled = false
   vpc_id                     = ""
-  
+
   connection_drain_config {
     connection_drain_enabled = false
     connection_drain_timeout = 0
@@ -53,6 +53,6 @@ resource "alicloud_alb_server_group" "tf-sample-alb-server-group" {
     type  = ""
     value = ""
   }
-  
+
   tags = {}
 }

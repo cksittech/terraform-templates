@@ -13,11 +13,11 @@ resource "alicloud_ssl_certificates_service_instance" "tf-sample-ssl-certificate
   product_type        = ""
   resource_group_id   = ""
   validation_method   = ""
-  
+
   parameter {
     code  = ""
     value = ""
   }
-  
+
   tags = {}
 }

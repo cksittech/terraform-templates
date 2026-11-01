@@ -4,6 +4,6 @@ resource "alicloud_ram_role" "tf-sample-ram-role" {
   force                       = false
   max_session_duration        = 0
   role_name                   = ""
-  
+
   tags = {}
 }

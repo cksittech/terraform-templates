@@ -15,6 +15,6 @@ resource "alicloud_vpn_gateway" "tf-sample-vpn-gateway" {
   vpn_gateway_name             = ""
   vpn_type                     = ""
   vswitch_id                   = ""
-  
+
   tags = {}
 }

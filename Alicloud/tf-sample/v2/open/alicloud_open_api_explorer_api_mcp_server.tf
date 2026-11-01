@@ -11,7 +11,7 @@ resource "alicloud_open_api_explorer_api_mcp_server" "tf-sample-open-api-explore
   public_access               = ""
   system_tools                = []
   vpc_whitelists              = []
-  
+
   additional_api_descriptions {
     api_name             = ""
     api_override_json    = ""
@@ -19,7 +19,7 @@ resource "alicloud_open_api_explorer_api_mcp_server" "tf-sample-open-api-explore
     enable_output_schema = false
     execute_cli_command  = false
     product              = ""
-    
+
     const_parameters {
       key   = ""
       value = ""
@@ -34,7 +34,7 @@ resource "alicloud_open_api_explorer_api_mcp_server" "tf-sample-open-api-explore
     content     = ""
     description = ""
     name        = ""
-    
+
     arguments {
       description = ""
       name        = ""

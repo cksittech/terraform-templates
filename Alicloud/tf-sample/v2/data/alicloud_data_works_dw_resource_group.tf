@@ -9,6 +9,6 @@ resource "alicloud_data_works_dw_resource_group" "tf-sample-data-works-dw-resour
   resource_group_id     = ""
   resource_group_name   = ""
   specification         = 0
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "alicloud_wafv3_domain" "tf-sample-wafv3-domain" {
   domain                             = ""
   instance_id                        = ""
   resource_manager_resource_group_id = ""
-  
+
   listen {
     cert_id             = ""
     cipher_suite        = 0
@@ -41,12 +41,12 @@ resource "alicloud_wafv3_domain" "tf-sample-wafv3-domain" {
     sni_host                     = ""
     write_timeout                = 0
     xff_proto                    = false
-    
+
     request_headers {
       key   = ""
       value = ""
     }
   }
-  
+
   tags = {}
 }

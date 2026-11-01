@@ -4,7 +4,7 @@ resource "alicloud_api_gateway_group" "tf-sample-api-gateway-group" {
   instance_id         = ""
   name                = ""
   vpc_intranet_enable = false
-  
+
   user_log_config {
     jwt_claims       = ""
     query_string     = ""

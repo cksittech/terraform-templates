@@ -6,6 +6,6 @@ resource "alicloud_slb_server_certificate" "tf-sample-slb-server-certificate" {
   private_key                    = ""
   resource_group_id              = ""
   server_certificate             = ""
-  
+
   tags = {}
 }

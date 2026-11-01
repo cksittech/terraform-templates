@@ -16,12 +16,12 @@ resource "alicloud_hologram_instance" "tf-sample-hologram-instance" {
   status             = ""
   storage_size       = 0
   zone_id            = ""
-  
+
   endpoints {
     type       = ""
     vpc_id     = ""
     vswitch_id = ""
   }
-  
+
   tags = {}
 }

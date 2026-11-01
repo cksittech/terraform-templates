@@ -8,10 +8,10 @@ resource "alicloud_cen_transit_router_vpn_attachment" "tf-sample-cen-transit-rou
   transit_router_vpn_attachment_name    = ""
   vpn_id                                = ""
   vpn_owner_id                          = ""
-  
+
   zone {
     zone_id = ""
   }
-  
+
   tags = {}
 }

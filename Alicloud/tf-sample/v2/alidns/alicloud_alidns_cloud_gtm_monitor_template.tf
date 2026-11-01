@@ -8,7 +8,7 @@ resource "alicloud_alidns_cloud_gtm_monitor_template" "tf-sample-alidns-cloud-gt
   protocol         = ""
   remark           = ""
   timeout          = ""
-  
+
   isp_city_nodes {
     city_code = ""
     isp_code  = ""

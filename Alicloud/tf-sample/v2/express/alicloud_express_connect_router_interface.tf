@@ -23,6 +23,6 @@ resource "alicloud_express_connect_router_interface" "tf-sample-express-connect-
   router_type                 = ""
   spec                        = ""
   status                      = ""
-  
+
   tags = {}
 }

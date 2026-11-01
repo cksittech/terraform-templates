@@ -7,6 +7,6 @@ resource "alicloud_hbr_vault" "tf-sample-hbr-vault" {
   vault_storage_class = ""
   vault_type          = ""
   worm_enabled        = false
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "alicloud_nas_access_point" "tf-sample-nas-access-point" {
   root_path         = ""
   vpc_id            = ""
   vswitch_id        = ""
-  
+
   posix_user {
     posix_group_id = 0
     posix_user_id  = 0

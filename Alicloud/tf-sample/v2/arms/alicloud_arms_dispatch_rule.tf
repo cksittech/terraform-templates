@@ -2,7 +2,7 @@ resource "alicloud_arms_dispatch_rule" "tf-sample-arms-dispatch-rule" {
   dispatch_rule_name = ""
   dispatch_type      = ""
   is_recover         = false
-  
+
   group_rules {
     group_interval  = 0
     group_wait_time = 0
@@ -22,7 +22,7 @@ resource "alicloud_arms_dispatch_rule" "tf-sample-arms-dispatch-rule" {
     notify_channels   = []
     notify_end_time   = ""
     notify_start_time = ""
-    
+
     notify_objects {
       name             = ""
       notify_object_id = ""

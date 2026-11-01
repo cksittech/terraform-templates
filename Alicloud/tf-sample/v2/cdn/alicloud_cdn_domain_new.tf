@@ -6,7 +6,7 @@ resource "alicloud_cdn_domain_new" "tf-sample-cdn-domain-new" {
   resource_group_id = ""
   scope             = ""
   status            = ""
-  
+
   certificate_config {
     cert_id                   = ""
     cert_name                 = ""
@@ -23,6 +23,6 @@ resource "alicloud_cdn_domain_new" "tf-sample-cdn-domain-new" {
     type     = ""
     weight   = 0
   }
-  
+
   tags = {}
 }

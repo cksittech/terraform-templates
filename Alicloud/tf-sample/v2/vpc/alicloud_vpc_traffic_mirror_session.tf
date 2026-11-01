@@ -11,6 +11,6 @@ resource "alicloud_vpc_traffic_mirror_session" "tf-sample-vpc-traffic-mirror-ses
   traffic_mirror_target_id           = ""
   traffic_mirror_target_type         = ""
   virtual_network_id                 = 0
-  
+
   tags = {}
 }

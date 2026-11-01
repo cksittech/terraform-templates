@@ -14,7 +14,7 @@ resource "alicloud_alidns_access_strategy" "tf-sample-alidns-access-strategy" {
   lang                            = ""
   strategy_mode                   = ""
   strategy_name                   = ""
-  
+
   default_addr_pools {
     addr_pool_id = ""
     lba_weight   = 0

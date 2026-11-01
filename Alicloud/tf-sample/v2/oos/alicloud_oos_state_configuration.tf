@@ -8,6 +8,6 @@ resource "alicloud_oos_state_configuration" "tf-sample-oos-state-configuration" 
   targets             = ""
   template_name       = ""
   template_version    = ""
-  
+
   tags = {}
 }

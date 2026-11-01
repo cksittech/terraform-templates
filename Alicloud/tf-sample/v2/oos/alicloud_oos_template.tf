@@ -4,6 +4,6 @@ resource "alicloud_oos_template" "tf-sample-oos-template" {
   resource_group_id      = ""
   template_name          = ""
   version_name           = ""
-  
+
   tags = {}
 }

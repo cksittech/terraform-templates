@@ -14,7 +14,7 @@ resource "alicloud_waf_domain" "tf-sample-waf-domain" {
   resource_group_id = ""
   source_ips        = []
   write_time        = 0
-  
+
   log_headers {
     key   = ""
     value = ""

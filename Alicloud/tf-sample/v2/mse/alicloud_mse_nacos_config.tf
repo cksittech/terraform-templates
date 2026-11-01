@@ -9,6 +9,6 @@ resource "alicloud_mse_nacos_config" "tf-sample-mse-nacos-config" {
   instance_id     = ""
   namespace_id    = ""
   type            = ""
-  
+
   tags = {}
 }

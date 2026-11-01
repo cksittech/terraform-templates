@@ -2,7 +2,7 @@ resource "alicloud_cloud_firewall_user_alarm_config" "tf-sample-cloud-firewall-u
   alarm_lang          = ""
   lang                = ""
   use_default_contact = ""
-  
+
   alarm_config {
     alarm_hour     = ""
     alarm_notify   = ""

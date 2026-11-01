@@ -8,6 +8,6 @@ resource "alicloud_vswitch" "tf-sample-vswitch" {
   vpc_ipv6_cidr_block  = ""
   vswitch_name         = ""
   zone_id              = ""
-  
+
   tags = {}
 }

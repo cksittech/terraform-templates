@@ -4,6 +4,6 @@ resource "alicloud_key_pair" "tf-sample-key-pair" {
   key_pair_name     = ""
   public_key        = ""
   resource_group_id = ""
-  
+
   tags = {}
 }

@@ -11,7 +11,7 @@ resource "alicloud_log_alert" "tf-sample-log-alert" {
   threshold         = 0
   type              = ""
   version           = ""
-  
+
   annotations {
     key   = ""
     value = ""

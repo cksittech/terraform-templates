@@ -3,7 +3,7 @@ resource "alicloud_oss_bucket_inventory" "tf-sample-oss-bucket-inventory" {
   included_object_versions = ""
   inventory_id             = ""
   is_enabled               = false
-  
+
   destination {
     oss_bucket_destination {
       account_id = ""
@@ -11,10 +11,10 @@ resource "alicloud_oss_bucket_inventory" "tf-sample-oss-bucket-inventory" {
       format     = ""
       prefix     = ""
       role_arn   = ""
-      
+
       encryption {
         sseoss = ""
-        
+
         ssekms {
           key_id = ""
         }
@@ -31,7 +31,7 @@ resource "alicloud_oss_bucket_inventory" "tf-sample-oss-bucket-inventory" {
   }
   incremental_inventory {
     is_enabled = false
-    
+
     optional_fields {
       field = []
     }

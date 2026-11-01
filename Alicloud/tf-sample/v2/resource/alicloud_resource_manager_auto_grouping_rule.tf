@@ -10,7 +10,7 @@ resource "alicloud_resource_manager_auto_grouping_rule" "tf-sample-resource-mana
   rule_desc                        = ""
   rule_name                        = ""
   rule_type                        = ""
-  
+
   rule_contents {
     auto_grouping_scope_condition   = ""
     target_resource_group_condition = ""

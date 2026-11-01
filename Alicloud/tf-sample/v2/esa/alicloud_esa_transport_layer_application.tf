@@ -4,7 +4,7 @@ resource "alicloud_esa_transport_layer_application" "tf-sample-esa-transport-lay
   ipv6                      = ""
   record_name               = ""
   site_id                   = ""
-  
+
   rules {
     client_ip_pass_through_mode = ""
     comment                     = ""

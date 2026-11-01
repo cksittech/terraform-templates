@@ -45,7 +45,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
   vswitch_id                           = ""
   war_start_options                    = ""
   web_container                        = ""
-  
+
   config_map_mount_desc_v2 {
     config_map_id = ""
     key           = ""
@@ -58,7 +58,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
   kafka_configs {
     kafka_endpoint    = ""
     kafka_instance_id = ""
-    
+
     kafka_configs {
       kafka_topic = ""
       log_dir     = ""
@@ -70,7 +70,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
     initial_delay_seconds = 0
     period_seconds        = 0
     timeout_seconds       = 0
-    
+
     exec {
       command = []
     }
@@ -112,7 +112,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
     enable       = false
     namespace_id = ""
     service_name = ""
-    
+
     port_protocols {
       port     = 0
       protocol = ""
@@ -124,7 +124,7 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
     period_seconds        = 0
     success_threshold     = 0
     timeout_seconds       = 0
-    
+
     exec {
       command = []
     }
@@ -148,13 +148,13 @@ resource "alicloud_sae_application" "tf-sample-sae-application" {
   }
   update_strategy_v2 {
     type = ""
-    
+
     batch_update {
       batch           = 0
       batch_wait_time = 0
       release_type    = ""
     }
   }
-  
+
   tags = {}
 }

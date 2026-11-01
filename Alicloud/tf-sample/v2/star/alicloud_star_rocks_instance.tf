@@ -15,7 +15,7 @@ resource "alicloud_star_rocks_instance" "tf-sample-star-rocks-instance" {
   run_mode                = ""
   version                 = ""
   vpc_id                  = ""
-  
+
   backend_node_groups {
     cu                          = 0
     disk_number                 = 0
@@ -50,6 +50,6 @@ resource "alicloud_star_rocks_instance" "tf-sample-star-rocks-instance" {
     vswitch_id = ""
     zone_id    = ""
   }
-  
+
   tags = {}
 }

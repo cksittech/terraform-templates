@@ -7,10 +7,10 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
   nimiz_vswitches          = []
   open_eni_jumbo_frame     = false
   resource_group_id        = ""
-  
+
   components {
     component_type = ""
-    
+
     component_config {
       basic_args = ""
       node_units = []
@@ -22,11 +22,11 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
     vpc_id            = ""
     vswitch_id        = ""
     vswitch_zone_id   = ""
-    
+
     ip_allocation_policy {
       bond_policy {
         bond_default_subnet = ""
-        
+
         bonds {
           name   = ""
           subnet = ""
@@ -34,7 +34,7 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
       }
       machine_type_policy {
         machine_type = ""
-        
+
         bonds {
           name   = ""
           subnet = ""
@@ -42,7 +42,7 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
       }
       node_policy {
         node_id = ""
-        
+
         bonds {
           name   = ""
           subnet = ""
@@ -56,7 +56,7 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
       monitor_vpc_id     = ""
       monitor_vswitch_id = ""
       vpd_cidr           = ""
-      
+
       vpd_subnets {
         subnet_cidr = ""
         subnet_type = ""
@@ -75,7 +75,7 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
     node_group_name        = ""
     user_data              = ""
     zone_id                = ""
-    
+
     nodes {
       hostname       = ""
       login_password = ""
@@ -84,6 +84,6 @@ resource "alicloud_eflo_cluster" "tf-sample-eflo-cluster" {
       vswitch_id     = ""
     }
   }
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "alicloud_scdn_domain" "tf-sample-scdn-domain" {
   force_set         = ""
   resource_group_id = ""
   status            = ""
-  
+
   cert_infos {
     cert_name    = ""
     cert_type    = ""

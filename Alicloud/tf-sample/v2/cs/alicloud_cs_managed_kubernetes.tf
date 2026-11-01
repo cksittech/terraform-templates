@@ -32,7 +32,7 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
   version                        = ""
   vswitch_ids                    = []
   zone_ids                       = []
-  
+
   addons {
     config   = ""
     disabled = false
@@ -75,6 +75,6 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
   upgrade_policy {
     control_plane_only = false
   }
-  
+
   tags = {}
 }

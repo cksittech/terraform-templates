@@ -14,7 +14,7 @@ resource "alicloud_ga_endpoint_group" "tf-sample-ga-endpoint-group" {
   name                          = ""
   threshold_count               = 0
   traffic_percentage            = 0
-  
+
   endpoint_configurations {
     enable_clientip_preservation = false
     enable_proxy_protocol        = false
@@ -29,6 +29,6 @@ resource "alicloud_ga_endpoint_group" "tf-sample-ga-endpoint-group" {
     endpoint_port = 0
     listener_port = 0
   }
-  
+
   tags = {}
 }

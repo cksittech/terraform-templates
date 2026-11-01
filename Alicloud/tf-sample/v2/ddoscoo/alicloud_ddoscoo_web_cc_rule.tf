@@ -1,10 +1,10 @@
 resource "alicloud_ddoscoo_web_cc_rule" "tf-sample-ddoscoo-web-cc-rule" {
   domain = ""
   name   = ""
-  
+
   rule_detail {
     action = ""
-    
+
     condition {
       content      = ""
       field        = ""

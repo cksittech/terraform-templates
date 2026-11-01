@@ -3,7 +3,7 @@ resource "alicloud_ots_search_index" "tf-sample-ots-search-index" {
   instance_name = ""
   table_name    = ""
   time_to_live  = 0
-  
+
   schema {
     field_schema {
       analyzer            = ""

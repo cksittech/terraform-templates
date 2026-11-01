@@ -7,6 +7,6 @@ resource "alicloud_data_works_project" "tf-sample-data-works-project" {
   project_name            = ""
   resource_group_id       = ""
   status                  = ""
-  
+
   tags = {}
 }

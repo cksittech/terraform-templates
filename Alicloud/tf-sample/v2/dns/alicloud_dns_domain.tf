@@ -4,6 +4,6 @@ resource "alicloud_dns_domain" "tf-sample-dns-domain" {
   lang              = ""
   remark            = ""
   resource_group_id = ""
-  
+
   tags = {}
 }

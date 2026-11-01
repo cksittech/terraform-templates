@@ -14,6 +14,6 @@ resource "alicloud_kms_secret" "tf-sample-kms-secret" {
   secret_type                   = ""
   version_id                    = ""
   version_stages                = []
-  
+
   tags = {}
 }

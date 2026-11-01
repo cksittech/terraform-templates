@@ -76,7 +76,7 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
   vpc_id                                      = ""
   vswitch_id                                  = ""
   zone_id                                     = ""
-  
+
   db_cluster_ip_array {
     db_cluster_ip_array_name = ""
     modify_mode              = ""
@@ -86,6 +86,6 @@ resource "alicloud_polardb_cluster" "tf-sample-polardb-cluster" {
     name  = ""
     value = ""
   }
-  
+
   tags = {}
 }

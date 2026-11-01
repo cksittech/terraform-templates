@@ -20,6 +20,6 @@ resource "alicloud_live_caster" "tf-sample-live-caster" {
   urgent_image_url          = ""
   urgent_live_stream_url    = ""
   urgent_material_id        = ""
-  
+
   tags = {}
 }

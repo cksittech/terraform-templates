@@ -15,7 +15,7 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
   vpc_id                 = ""
   vswitch_id             = ""
   zone_id                = ""
-  
+
   nfs_acl {
     enabled = false
   }
@@ -34,6 +34,6 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
     reject_unencrypted_access = false
     super_admin_sid           = ""
   }
-  
+
   tags = {}
 }
