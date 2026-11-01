@@ -37,7 +37,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   resource_labels                          = {}
   skip_node_pool_refresh                   = false
   subnetwork                               = ""
-  
+
   addons_config {
     agent_sandbox_config {
       enabled = false
@@ -89,7 +89,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     }
     ray_operator_config {
       enabled = false
-      
+
       ray_cluster_logging_config {
         enabled = false
       }
@@ -127,7 +127,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     autoscaling_profile           = ""
     default_compute_class_enabled = false
     enabled                       = false
-    
+
     auto_provisioning_defaults {
       boot_disk_kms_key = ""
       disk_size         = 0
@@ -136,7 +136,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       min_cpu_platform  = ""
       oauth_scopes      = []
       service_account   = ""
-      
+
       management {
         auto_repair  = false
         auto_upgrade = false
@@ -149,10 +149,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         max_surge       = 0
         max_unavailable = 0
         strategy        = ""
-        
+
         blue_green_settings {
           node_pool_soak_duration = ""
-          
+
           standard_rollout_policy {
             batch_node_count    = 0
             batch_percentage    = 0
@@ -220,7 +220,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     services_ipv4_cidr_block      = ""
     services_secondary_range_name = ""
     stack_type                    = ""
-    
+
     additional_ip_ranges_config {
       pod_ipv4_range_names = []
       status               = ""
@@ -254,7 +254,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       end_time       = ""
       exclusion_name = ""
       start_time     = ""
-      
+
       exclusion_options {
         end_time_behavior = ""
         scope             = ""
@@ -263,7 +263,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     recurring_maintenance_window {
       recurrence      = ""
       window_duration = ""
-      
+
       delay_until {
         day   = 0
         month = 0
@@ -292,7 +292,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   master_authorized_networks_config {
     gcp_public_cidrs_access_enabled      = false
     private_endpoint_enforcement_enabled = false
-    
+
     cidr_blocks {
       cidr_block   = ""
       display_name = ""
@@ -303,14 +303,14 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   monitoring_config {
     enable_components = []
-    
+
     advanced_datapath_observability_config {
       enable_metrics = false
       enable_relay   = false
     }
     managed_prometheus {
       enabled = false
-      
+
       auto_monitoring_config {
         scope = ""
       }
@@ -347,7 +347,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     service_account             = ""
     spot                        = false
     storage_pools               = []
-    
+
     advanced_machine_features {
       enable_nested_virtualization = false
       performance_monitoring_unit  = ""
@@ -366,10 +366,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     containerd_config {
       private_registry_access_config {
         enabled = false
-        
+
         certificate_authority_domain_config {
           fqdns = []
-          
+
           gcp_secret_manager_certificate_config {
             secret_uri = ""
           }
@@ -377,13 +377,13 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
       registry_hosts {
         server = ""
-        
+
         hosts {
           capabilities  = []
           dial_timeout  = ""
           host          = ""
           override_path = false
-          
+
           ca {
             gcp_secret_manager_secret_uri = ""
           }
@@ -419,7 +419,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       count              = 0
       gpu_partition_size = ""
       type               = ""
-      
+
       gpu_driver_installation_config {
         gpu_driver_version = ""
       }
@@ -449,7 +449,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       shutdown_grace_period_critical_pods_seconds = 0
       shutdown_grace_period_seconds               = 0
       single_process_oom_kill                     = false
-      
+
       crash_loop_back_off {
         max_container_restart_period = ""
       }
@@ -490,7 +490,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       sysctls                      = {}
       transparent_hugepage_defrag  = ""
       transparent_hugepage_enabled = ""
-      
+
       accurate_time_config {
         enable_ptp_kvm_time_sync = false
       }
@@ -510,7 +510,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
       swap_config {
         enabled = false
-        
+
         boot_disk_profile {
           swap_size_gib     = 0
           swap_size_percent = 0
@@ -552,7 +552,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     }
     sole_tenant_config {
       min_node_cpus = 0
-      
+
       node_affinity {
         key      = ""
         operator = ""
@@ -586,7 +586,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     node_count                = 0
     node_locations            = []
     version                   = ""
-    
+
     autoscaling {
       location_policy      = ""
       max_node_count       = 0
@@ -614,7 +614,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       pod_ipv4_cidr_block         = ""
       pod_range                   = ""
       subnetwork                  = ""
-      
+
       additional_node_network_configs {
         network    = ""
         subnetwork = ""
@@ -655,7 +655,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       service_account             = ""
       spot                        = false
       storage_pools               = []
-      
+
       advanced_machine_features {
         enable_nested_virtualization = false
         performance_monitoring_unit  = ""
@@ -674,10 +674,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       containerd_config {
         private_registry_access_config {
           enabled = false
-          
+
           certificate_authority_domain_config {
             fqdns = []
-            
+
             gcp_secret_manager_certificate_config {
               secret_uri = ""
             }
@@ -685,13 +685,13 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         }
         registry_hosts {
           server = ""
-          
+
           hosts {
             capabilities  = []
             dial_timeout  = ""
             host          = ""
             override_path = false
-            
+
             ca {
               gcp_secret_manager_secret_uri = ""
             }
@@ -727,7 +727,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         count              = 0
         gpu_partition_size = ""
         type               = ""
-        
+
         gpu_driver_installation_config {
           gpu_driver_version = ""
         }
@@ -757,7 +757,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         shutdown_grace_period_critical_pods_seconds = 0
         shutdown_grace_period_seconds               = 0
         single_process_oom_kill                     = false
-        
+
         crash_loop_back_off {
           max_container_restart_period = ""
         }
@@ -798,7 +798,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         sysctls                      = {}
         transparent_hugepage_defrag  = ""
         transparent_hugepage_enabled = ""
-        
+
         accurate_time_config {
           enable_ptp_kvm_time_sync = false
         }
@@ -818,7 +818,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         }
         swap_config {
           enabled = false
-          
+
           boot_disk_profile {
             swap_size_gib     = 0
             swap_size_percent = 0
@@ -860,7 +860,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       }
       sole_tenant_config {
         min_node_cpus = 0
-        
+
         node_affinity {
           key      = ""
           operator = ""
@@ -899,10 +899,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
       max_surge       = 0
       max_unavailable = 0
       strategy        = ""
-      
+
       blue_green_settings {
         node_pool_soak_duration = ""
-        
+
         standard_rollout_policy {
           batch_node_count    = 0
           batch_percentage    = 0
@@ -913,10 +913,10 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   node_pool_auto_config {
     resource_manager_tags = {}
-    
+
     linux_node_config {
       cgroup_mode = ""
-      
+
       node_kernel_module_loading {
         policy = ""
       }
@@ -931,14 +931,14 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     node_config_defaults {
       insecure_kubelet_readonly_port_enabled = ""
       logging_variant                        = ""
-      
+
       containerd_config {
         private_registry_access_config {
           enabled = false
-          
+
           certificate_authority_domain_config {
             fqdns = []
-            
+
             gcp_secret_manager_certificate_config {
               secret_uri = ""
             }
@@ -946,13 +946,13 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
         }
         registry_hosts {
           server = ""
-          
+
           hosts {
             capabilities  = []
             dial_timeout  = ""
             host          = ""
             override_path = false
-            
+
             ca {
               gcp_secret_manager_secret_uri = ""
             }
@@ -983,7 +983,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     pubsub {
       enabled = false
       topic   = ""
-      
+
       filter {
         event_type = []
       }
@@ -997,7 +997,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
     enable_private_nodes        = false
     master_ipv4_cidr_block      = ""
     private_endpoint_subnetwork = ""
-    
+
     master_global_access_config {
       enabled = false
     }
@@ -1012,7 +1012,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   resource_usage_export_config {
     enable_network_egress_metering       = false
     enable_resource_consumption_metering = false
-    
+
     bigquery_destination {
       dataset_id = ""
     }
@@ -1025,7 +1025,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   secret_manager_config {
     enabled = false
-    
+
     rotation_config {
       enabled           = false
       rotation_interval = ""
@@ -1033,7 +1033,7 @@ resource "google_container_cluster" "tf-sample-container-cluster" {
   }
   secret_sync_config {
     enabled = false
-    
+
     rotation_config {
       enabled           = false
       rotation_interval = ""

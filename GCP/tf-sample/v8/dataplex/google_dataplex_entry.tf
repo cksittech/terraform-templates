@@ -7,10 +7,10 @@ resource "google_dataplex_entry" "tf-sample-dataplex-entry" {
   location             = ""
   parent_entry         = ""
   project              = ""
-  
+
   aspects {
     aspect_key = ""
-    
+
     aspect {
       data = ""
     }
@@ -24,7 +24,7 @@ resource "google_dataplex_entry" "tf-sample-dataplex-entry" {
     resource     = ""
     system       = ""
     update_time  = ""
-    
+
     ancestors {
       name = ""
       type = ""

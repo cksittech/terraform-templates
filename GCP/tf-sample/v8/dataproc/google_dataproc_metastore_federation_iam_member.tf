@@ -4,7 +4,7 @@ resource "google_dataproc_metastore_federation_iam_member" "tf-sample-dataproc-m
   member        = ""
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

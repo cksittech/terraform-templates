@@ -2,7 +2,7 @@ resource "google_healthcare_dataset_iam_member" "tf-sample-healthcare-dataset-ia
   dataset_id = ""
   member     = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

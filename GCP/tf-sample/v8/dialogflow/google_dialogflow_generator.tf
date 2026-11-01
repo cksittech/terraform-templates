@@ -7,12 +7,12 @@ resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
   published_model = ""
   tools           = []
   trigger_event   = ""
-  
+
   agent_coaching_context {
     output_language_code = ""
     overarching_guidance = ""
     version              = ""
-    
+
     instructions {
       agent_action     = ""
       condition        = ""
@@ -34,10 +34,10 @@ resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
   summarization_context {
     output_language_code = ""
     version              = ""
-    
+
     few_shot_examples {
       extra_info = {}
-      
+
       conversation_context {
         message_entries {
           create_time   = ""
@@ -60,7 +60,7 @@ resource "google_dialogflow_generator" "tf-sample-dialogflow-generator" {
           }
           tool_call_result {
             action = ""
-            
+
             error {
               message   = ""
               retryable = false

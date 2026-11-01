@@ -5,7 +5,7 @@ resource "google_compute_organization_security_policy_rule" "tf-sample-compute-o
   policy_id       = ""
   preview         = false
   priority        = 0
-  
+
   header_action {
     request_headers_to_adds {
       header_name  = ""
@@ -15,7 +15,7 @@ resource "google_compute_organization_security_policy_rule" "tf-sample-compute-o
   match {
     description    = ""
     versioned_expr = ""
-    
+
     config {
       src_ip_ranges = []
     }
@@ -27,7 +27,7 @@ resource "google_compute_organization_security_policy_rule" "tf-sample-compute-o
     exclusion {
       target_rule_ids = []
       target_rule_set = ""
-      
+
       request_cookie {
         operator = ""
         value    = ""

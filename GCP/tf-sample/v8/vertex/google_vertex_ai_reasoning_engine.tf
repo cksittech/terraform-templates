@@ -5,16 +5,16 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
   labels          = {}
   project         = ""
   region          = ""
-  
+
   context_spec {
     memory_bank_config {
       disable_memory_revisions = false
-      
+
       customization_configs {
         disable_natural_language_memories = false
         enable_third_person_memories      = false
         scope_keys                        = []
-        
+
         consolidation_config {
           revisions_per_candidate_count = 0
         }
@@ -23,15 +23,15 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
             events {
               content {
                 role = ""
-                
+
                 parts {
                   text    = ""
                   thought = false
-                  
+
                   audio_transcription {
                     speaker_label = ""
                     text          = ""
-                    
+
                     words {
                       end_offset   = ""
                       start_offset = ""
@@ -76,7 +76,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
           }
           generated_memories {
             fact = ""
-            
+
             topics {
               custom_memory_topic_label = ""
               managed_memory_topic      = ""
@@ -95,7 +95,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       }
       generation_config {
         model = ""
-        
+
         generation_trigger_config {
           generation_rule {
             event_count         = 0
@@ -110,7 +110,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       }
       structured_memory_configs {
         scope_keys = []
-        
+
         schema_configs {
           id            = ""
           memory_schema = ""
@@ -119,7 +119,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       ttl_config {
         default_ttl                 = ""
         memory_revision_default_ttl = ""
-        
+
         granular_ttl_config {
           create_ttl           = ""
           generate_created_ttl = ""
@@ -136,7 +136,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
     class_methods   = ""
     identity_type   = ""
     service_account = ""
-    
+
     build_spec {
       service_account = ""
       worker_pool     = ""
@@ -150,7 +150,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       max_instances         = 0
       min_instances         = 0
       resource_limits       = {}
-      
+
       agent_gateway_config {
         agent_to_anywhere_config {
           agent_gateway = ""
@@ -165,7 +165,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       }
       psc_interface_config {
         network_attachment = ""
-        
+
         dns_peering_configs {
           domain         = ""
           target_network = ""
@@ -174,7 +174,7 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
       }
       secret_env {
         name = ""
-        
+
         secret_ref {
           secret  = ""
           version = ""

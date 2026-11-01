@@ -2,7 +2,7 @@ resource "google_compute_firewall_policy_iam_member" "tf-sample-compute-firewall
   member = ""
   name   = ""
   role   = ""
-  
+
   condition {
     description = ""
     expression  = ""

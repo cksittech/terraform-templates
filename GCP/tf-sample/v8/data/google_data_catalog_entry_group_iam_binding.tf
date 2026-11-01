@@ -4,7 +4,7 @@ resource "google_data_catalog_entry_group_iam_binding" "tf-sample-data-catalog-e
   project     = ""
   region      = ""
   role        = ""
-  
+
   condition {
     description = ""
     expression  = ""

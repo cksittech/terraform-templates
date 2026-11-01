@@ -8,7 +8,7 @@ resource "google_eventarc_google_api_source" "tf-sample-eventarc-google-api-sour
   labels               = {}
   location             = ""
   project              = ""
-  
+
   logging_config {
     log_severity = ""
   }

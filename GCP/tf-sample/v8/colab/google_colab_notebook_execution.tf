@@ -10,7 +10,7 @@ resource "google_colab_notebook_execution" "tf-sample-colab-notebook-execution" 
   notebook_runtime_template_resource_name = ""
   project                                 = ""
   service_account                         = ""
-  
+
   custom_environment_spec {
     machine_spec {
       accelerator_count = 0

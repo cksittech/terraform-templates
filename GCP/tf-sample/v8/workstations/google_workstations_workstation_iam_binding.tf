@@ -6,7 +6,7 @@ resource "google_workstations_workstation_iam_binding" "tf-sample-workstations-w
   workstation_cluster_id = ""
   workstation_config_id  = ""
   workstation_id         = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -8,7 +8,7 @@ resource "google_vertex_ai_index_endpoint_deployed_index" "tf-sample-vertex-ai-i
   index_endpoint        = ""
   region                = ""
   reserved_ip_ranges    = []
-  
+
   automatic_resources {
     max_replica_count = 0
     min_replica_count = 0
@@ -16,7 +16,7 @@ resource "google_vertex_ai_index_endpoint_deployed_index" "tf-sample-vertex-ai-i
   dedicated_resources {
     max_replica_count = 0
     min_replica_count = 0
-    
+
     machine_spec {
       machine_type = ""
     }

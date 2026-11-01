@@ -10,7 +10,7 @@ resource "google_secret_manager_secret" "tf-sample-secret-manager-secret" {
   ttl                 = ""
   version_aliases     = {}
   version_destroy_ttl = ""
-  
+
   replication {
     auto {
       customer_managed_encryption {
@@ -20,7 +20,7 @@ resource "google_secret_manager_secret" "tf-sample-secret-manager-secret" {
     user_managed {
       replicas {
         location = ""
-        
+
         customer_managed_encryption {
           kms_key_name = ""
         }
@@ -34,6 +34,6 @@ resource "google_secret_manager_secret" "tf-sample-secret-manager-secret" {
   topics {
     name = ""
   }
-  
+
   tags = {}
 }

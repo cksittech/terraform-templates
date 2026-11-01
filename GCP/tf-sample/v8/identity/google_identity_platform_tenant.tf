@@ -5,7 +5,7 @@ resource "google_identity_platform_tenant" "tf-sample-identity-platform-tenant" 
   display_name             = ""
   enable_email_link_signin = false
   project                  = ""
-  
+
   client {
     permissions {
       disabled_user_deletion = false

@@ -4,7 +4,7 @@ resource "google_managed_kafka_acl" "tf-sample-managed-kafka-acl" {
   deletion_policy = ""
   location        = ""
   project         = ""
-  
+
   acl_entries {
     host            = ""
     operation       = ""

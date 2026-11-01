@@ -5,7 +5,7 @@ resource "google_certificate_manager_trust_config" "tf-sample-certificate-manage
   location        = ""
   name            = ""
   project         = ""
-  
+
   allowlisted_certificates {
     pem_certificate = ""
   }

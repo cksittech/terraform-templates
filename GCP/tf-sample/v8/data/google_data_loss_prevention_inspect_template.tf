@@ -5,17 +5,17 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
   display_name                          = ""
   parent                                = ""
   template_id                           = ""
-  
+
   inspect_config {
     content_options    = []
     exclude_info_types = false
     include_quote      = false
     min_likelihood     = ""
-    
+
     custom_info_types {
       exclusion_type = ""
       likelihood     = ""
-      
+
       dictionary {
         cloud_storage_path {
           path = ""
@@ -27,7 +27,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
       info_type {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -48,7 +48,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
     info_types {
       name    = ""
       version = ""
-      
+
       sensitivity_score {
         score = ""
       }
@@ -56,14 +56,14 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
     limits {
       max_findings_per_item    = 0
       max_findings_per_request = 0
-      
+
       max_findings_per_info_type {
         max_findings = 0
-        
+
         info_type {
           name    = ""
           version = ""
-          
+
           sensitivity_score {
             score = ""
           }
@@ -72,7 +72,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
     }
     min_likelihood_per_info_type {
       min_likelihood = ""
-      
+
       info_type {
         name    = ""
         version = ""
@@ -82,7 +82,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
       info_types {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -90,7 +90,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
       rules {
         exclusion_rule {
           matching_type = ""
-          
+
           dictionary {
             cloud_storage_path {
               path = ""
@@ -113,7 +113,7 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }

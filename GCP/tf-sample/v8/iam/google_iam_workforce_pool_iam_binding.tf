@@ -3,7 +3,7 @@ resource "google_iam_workforce_pool_iam_binding" "tf-sample-iam-workforce-pool-i
   members           = []
   role              = ""
   workforce_pool_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

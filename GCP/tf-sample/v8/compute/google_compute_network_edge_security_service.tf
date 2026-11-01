@@ -5,7 +5,7 @@ resource "google_compute_network_edge_security_service" "tf-sample-compute-netwo
   project         = ""
   region          = ""
   security_policy = ""
-  
+
   params {
     resource_manager_tags = {}
   }

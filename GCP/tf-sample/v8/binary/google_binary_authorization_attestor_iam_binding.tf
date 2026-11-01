@@ -3,7 +3,7 @@ resource "google_binary_authorization_attestor_iam_binding" "tf-sample-binary-au
   members  = []
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

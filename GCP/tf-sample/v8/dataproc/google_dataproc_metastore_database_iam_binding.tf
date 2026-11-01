@@ -5,7 +5,7 @@ resource "google_dataproc_metastore_database_iam_binding" "tf-sample-dataproc-me
   project    = ""
   role       = ""
   service_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

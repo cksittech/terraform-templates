@@ -5,7 +5,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
   project             = ""
   region              = ""
   wait_for_completion = false
-  
+
   hadoop_config {
     archive_uris      = []
     args              = []
@@ -14,7 +14,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     main_class        = ""
     main_jar_file_uri = ""
     properties        = {}
-    
+
     logging_config {
       driver_log_levels = {}
     }
@@ -34,7 +34,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     query_file_uri      = ""
     query_list          = []
     script_variables    = {}
-    
+
     logging_config {
       driver_log_levels = {}
     }
@@ -49,7 +49,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     properties          = {}
     query_file_uri      = ""
     query_list          = []
-    
+
     logging_config {
       driver_log_levels = {}
     }
@@ -62,7 +62,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     main_python_file_uri = ""
     properties           = {}
     python_file_uris     = []
-    
+
     logging_config {
       driver_log_levels = {}
     }
@@ -82,7 +82,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     main_class        = ""
     main_jar_file_uri = ""
     properties        = {}
-    
+
     logging_config {
       driver_log_levels = {}
     }
@@ -93,7 +93,7 @@ resource "google_dataproc_job" "tf-sample-dataproc-job" {
     query_file_uri   = ""
     query_list       = []
     script_variables = {}
-    
+
     logging_config {
       driver_log_levels = {}
     }

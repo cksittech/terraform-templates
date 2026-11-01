@@ -5,12 +5,12 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
   project         = ""
   region          = ""
   type            = ""
-  
+
   advanced_options_config {
     json_parsing            = ""
     log_level               = ""
     user_ip_request_headers = []
-    
+
     json_custom_config {
       content_types = []
     }
@@ -23,10 +23,10 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
     description = ""
     preview     = false
     priority    = 0
-    
+
     match {
       versioned_expr = ""
-      
+
       config {
         src_ip_ranges = []
       }
@@ -42,7 +42,7 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
       src_ip_ranges    = []
       src_ports        = []
       src_region_codes = []
-      
+
       user_defined_fields {
         name   = ""
         values = []
@@ -52,7 +52,7 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
       exclusion {
         target_rule_ids = []
         target_rule_set = ""
-        
+
         request_body {
           operator = ""
           value    = ""
@@ -81,7 +81,7 @@ resource "google_compute_region_security_policy" "tf-sample-compute-region-secur
       enforce_on_key      = ""
       enforce_on_key_name = ""
       exceed_action       = ""
-      
+
       ban_threshold {
         count        = 0
         interval_sec = 0

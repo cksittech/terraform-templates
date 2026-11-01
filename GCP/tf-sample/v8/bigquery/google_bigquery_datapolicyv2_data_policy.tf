@@ -6,7 +6,7 @@ resource "google_bigquery_datapolicyv2_data_policy" "tf-sample-bigquery-datapoli
   grantees         = []
   location         = ""
   project          = ""
-  
+
   data_governance_tag {
     key   = ""
     value = ""

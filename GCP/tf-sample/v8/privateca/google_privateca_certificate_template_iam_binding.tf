@@ -4,7 +4,7 @@ resource "google_privateca_certificate_template_iam_binding" "tf-sample-privatec
   members              = []
   project              = ""
   role                 = ""
-  
+
   condition {
     description = ""
     expression  = ""

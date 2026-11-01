@@ -13,13 +13,13 @@ resource "google_bigquery_routine" "tf-sample-bigquery-routine" {
   routine_id           = ""
   routine_type         = ""
   security_mode        = ""
-  
+
   arguments {
     argument_kind = ""
     data_type     = ""
     mode          = ""
     name          = ""
-    
+
     table_type {
       columns {
         name = ""

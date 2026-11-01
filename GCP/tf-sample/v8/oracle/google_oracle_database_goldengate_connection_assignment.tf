@@ -6,7 +6,7 @@ resource "google_oracle_database_goldengate_connection_assignment" "tf-sample-or
   labels                              = {}
   location                            = ""
   project                             = ""
-  
+
   properties {
     goldengate_connection = ""
     goldengate_deployment = ""

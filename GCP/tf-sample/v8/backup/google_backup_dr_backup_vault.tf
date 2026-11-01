@@ -15,7 +15,7 @@ resource "google_backup_dr_backup_vault" "tf-sample-backup-dr-backup-vault" {
   labels                                     = {}
   location                                   = ""
   project                                    = ""
-  
+
   encryption_config {
     kms_key_name = ""
   }

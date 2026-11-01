@@ -4,14 +4,14 @@ resource "google_composer_environment" "tf-sample-composer-environment" {
   name            = ""
   project         = ""
   region          = ""
-  
+
   config {
     enable_private_builds_only = false
     enable_private_environment = false
     environment_size           = ""
     node_count                 = 0
     resilience_mode            = ""
-    
+
     data_retention_config {
       airflow_metadata_retention_config {
         retention_days = 0
@@ -35,7 +35,7 @@ resource "google_composer_environment" "tf-sample-composer-environment" {
     }
     master_authorized_networks_config {
       enabled = false
-      
+
       cidr_blocks {
         cidr_block   = ""
         display_name = ""
@@ -52,7 +52,7 @@ resource "google_composer_environment" "tf-sample-composer-environment" {
       service_account                   = ""
       subnetwork                        = ""
       zone                              = ""
-      
+
       ip_allocation_policy {
         cluster_ipv4_cidr_block       = ""
         cluster_secondary_range_name  = ""
@@ -87,7 +87,7 @@ resource "google_composer_environment" "tf-sample-composer-environment" {
       python_version           = ""
       scheduler_count          = 0
       web_server_plugins_mode  = ""
-      
+
       cloud_data_lineage_integration {
         enabled = false
       }

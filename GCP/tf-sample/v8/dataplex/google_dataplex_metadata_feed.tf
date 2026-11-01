@@ -5,7 +5,7 @@ resource "google_dataplex_metadata_feed" "tf-sample-dataplex-metadata-feed" {
   metadata_feed_id = ""
   project          = ""
   pubsub_topic     = ""
-  
+
   filters {
     aspect_types = []
     change_types = []

@@ -8,7 +8,7 @@ resource "google_biglake_hive_table" "tf-sample-biglake-hive-table" {
   project            = ""
   view_expanded_text = ""
   view_original_text = ""
-  
+
   partition_keys {
     comment = ""
     name    = ""
@@ -23,7 +23,7 @@ resource "google_biglake_hive_table" "tf-sample-biglake-hive-table" {
     output_format      = ""
     parameters         = {}
     stored_as_sub_dirs = false
-    
+
     columns {
       comment = ""
       name    = ""
@@ -40,7 +40,7 @@ resource "google_biglake_hive_table" "tf-sample-biglake-hive-table" {
     }
     skewed_info {
       skewed_col_names = []
-      
+
       skewed_col_values {
         values = []
       }

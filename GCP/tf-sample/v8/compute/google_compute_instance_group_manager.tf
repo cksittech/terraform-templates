@@ -12,7 +12,7 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
   wait_for_instances             = false
   wait_for_instances_status      = ""
   zone                           = ""
-  
+
   all_instances_config {
     labels   = {}
     metadata = {}
@@ -25,7 +25,7 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
     default_action_on_failure = ""
     force_update_on_repair    = ""
     on_failed_health_check    = ""
-    
+
     on_repair {
       allow_changing_zone = ""
     }
@@ -69,7 +69,7 @@ resource "google_compute_instance_group_manager" "tf-sample-compute-instance-gro
   version {
     instance_template = ""
     name              = ""
-    
+
     target_size {
       fixed   = 0
       percent = 0

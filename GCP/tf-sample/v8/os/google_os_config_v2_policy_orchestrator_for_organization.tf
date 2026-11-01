@@ -6,18 +6,18 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
   organization_id        = ""
   policy_orchestrator_id = ""
   state                  = ""
-  
+
   orchestrated_resource {
     id = ""
-    
+
     os_policy_assignment_v1_payload {
       description = ""
       etag        = ""
       name        = ""
-      
+
       instance_filter {
         all = false
-        
+
         exclusion_labels {
           labels = {}
         }
@@ -34,7 +34,7 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
         description                   = ""
         id                            = ""
         mode                          = ""
-        
+
         resource_groups {
           inventory_filters {
             os_short_name = ""
@@ -42,18 +42,18 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
           }
           resources {
             id = ""
-            
+
             exec {
               enforce {
                 args             = []
                 interpreter      = ""
                 output_file_path = ""
                 script           = ""
-                
+
                 file {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -70,11 +70,11 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
                 interpreter      = ""
                 output_file_path = ""
                 script           = ""
-                
+
                 file {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -92,11 +92,11 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
               path        = ""
               permissions = ""
               state       = ""
-              
+
               file {
                 allow_insecure = false
                 local_path     = ""
-                
+
                 gcs {
                   bucket     = ""
                   generation = ""
@@ -110,17 +110,17 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
             }
             pkg {
               desired_state = ""
-              
+
               apt {
                 name = ""
               }
               deb {
                 pull_deps = false
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -137,11 +137,11 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
               }
               msi {
                 properties = []
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -155,11 +155,11 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
               }
               rpm {
                 pull_deps = false
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -208,7 +208,7 @@ resource "google_os_config_v2_policy_orchestrator_for_organization" "tf-sample-o
       }
       rollout {
         min_wait_duration = ""
-        
+
         disruption_budget {
           fixed   = 0
           percent = 0

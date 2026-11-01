@@ -12,10 +12,10 @@ resource "google_compute_route" "tf-sample-compute-route" {
   next_hop_vpn_tunnel    = ""
   priority               = 0
   project                = ""
-  
+
   params {
     resource_manager_tags = {}
   }
-  
+
   tags = {}
 }

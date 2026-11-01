@@ -7,14 +7,14 @@ resource "google_compute_router" "tf-sample-compute-router" {
   network                       = ""
   project                       = ""
   region                        = ""
-  
+
   bgp {
     advertise_mode     = ""
     advertised_groups  = []
     asn                = 0
     identifier_range   = ""
     keepalive_interval = 0
-    
+
     advertised_ip_ranges {
       description = ""
       range       = ""

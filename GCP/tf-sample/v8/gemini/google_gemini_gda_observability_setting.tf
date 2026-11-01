@@ -4,7 +4,7 @@ resource "google_gemini_gda_observability_setting" "tf-sample-gemini-gda-observa
   labels                       = {}
   location                     = ""
   project                      = ""
-  
+
   conversational_analytics_setting {
     feedback_enabled = false
     logging_enabled  = false

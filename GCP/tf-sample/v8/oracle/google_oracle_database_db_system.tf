@@ -9,7 +9,7 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
   odb_network         = ""
   odb_subnet          = ""
   project             = ""
-  
+
   properties {
     compute_count                = 0
     compute_model                = ""
@@ -25,7 +25,7 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
     reco_storage_size_gb         = 0
     shape                        = ""
     ssh_public_keys              = []
-    
+
     data_collection_options {
       is_diagnostics_events_enabled = false
       is_incident_logs_enabled      = false
@@ -34,7 +34,7 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
       db_version                  = ""
       display_name                = ""
       is_unified_auditing_enabled = false
-      
+
       database {
         admin_password          = ""
         character_set           = ""
@@ -47,10 +47,10 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
         pluggable_database_id   = ""
         pluggable_database_name = ""
         tde_wallet_password     = ""
-        
+
         properties {
           db_version = ""
-          
+
           database_management_config {
           }
           db_backup_config {
@@ -60,7 +60,7 @@ resource "google_oracle_database_db_system" "tf-sample-oracle-database-db-system
             auto_incremental_backup_window = ""
             backup_deletion_policy         = ""
             retention_period_days          = 0
-            
+
             backup_destination_details {
               type = ""
             }

@@ -7,7 +7,7 @@ resource "google_vertex_ai_semantic_governance_policy" "tf-sample-vertex-ai-sema
   project                       = ""
   region                        = ""
   semantic_governance_policy_id = ""
-  
+
   agent_response_customization {
     denial_message = ""
   }

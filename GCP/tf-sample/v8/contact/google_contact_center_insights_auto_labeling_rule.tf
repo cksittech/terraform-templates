@@ -8,7 +8,7 @@ resource "google_contact_center_insights_auto_labeling_rule" "tf-sample-contact-
   label_key_type        = ""
   location              = ""
   project               = ""
-  
+
   conditions {
     condition = ""
     value     = ""

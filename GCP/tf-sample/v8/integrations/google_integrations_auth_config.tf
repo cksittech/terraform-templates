@@ -7,7 +7,7 @@ resource "google_integrations_auth_config" "tf-sample-integrations-auth-config" 
   override_valid_time          = ""
   project                      = ""
   visibility                   = ""
-  
+
   client_certificate {
     encrypted_private_key = ""
     passphrase            = ""
@@ -15,7 +15,7 @@ resource "google_integrations_auth_config" "tf-sample-integrations-auth-config" 
   }
   decrypted_credential {
     credential_type = ""
-    
+
     auth_token {
       token = ""
       type  = ""
@@ -38,7 +38,7 @@ resource "google_integrations_auth_config" "tf-sample-integrations-auth-config" 
       request_type   = ""
       scope          = ""
       token_endpoint = ""
-      
+
       token_params {
         entries {
           key {

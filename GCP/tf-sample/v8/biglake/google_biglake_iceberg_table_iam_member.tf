@@ -5,7 +5,7 @@ resource "google_biglake_iceberg_table_iam_member" "tf-sample-biglake-iceberg-ta
   namespace = ""
   project   = ""
   role      = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -5,7 +5,7 @@ resource "google_gemini_repository_group_iam_binding" "tf-sample-gemini-reposito
   project               = ""
   repository_group_id   = ""
   role                  = ""
-  
+
   condition {
     description = ""
     expression  = ""

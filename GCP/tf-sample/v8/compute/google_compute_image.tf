@@ -11,7 +11,7 @@ resource "google_compute_image" "tf-sample-compute-image" {
   source_image      = ""
   source_snapshot   = ""
   storage_locations = []
-  
+
   guest_os_features {
     type = ""
   }

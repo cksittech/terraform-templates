@@ -6,7 +6,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   project         = ""
   timeout         = ""
   tool_id         = ""
-  
+
   agent_tool {
     agent       = ""
     description = ""
@@ -15,7 +15,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   client_function {
     description = ""
     name        = ""
-    
+
     parameters {
       additional_properties = ""
       any_of                = ""
@@ -63,20 +63,20 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     description               = ""
     filter_parameter_behavior = ""
     name                      = ""
-    
+
     boost_specs {
       data_stores = []
-      
+
       spec {
         condition_boost_specs {
           boost     = 0
           condition = ""
-          
+
           boost_control_spec {
             attribute_type     = ""
             field_name         = ""
             interpolation_type = ""
-            
+
             control_points {
               attribute_value = ""
               boost_amount    = 0
@@ -87,7 +87,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     }
     data_store_source {
       filter = ""
-      
+
       data_store {
         name = ""
       }
@@ -95,10 +95,10 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     engine_source {
       engine = ""
       filter = ""
-      
+
       data_store_sources {
         filter = ""
-        
+
         data_store {
           name = ""
         }
@@ -106,7 +106,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     }
     modality_configs {
       modality_type = ""
-      
+
       grounding_config {
         disabled        = false
         grounding_level = 0
@@ -114,7 +114,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
       rewriter_config {
         disabled = false
         prompt   = ""
-        
+
         model_settings {
           model          = ""
           temperature    = 0
@@ -128,7 +128,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
       summarization_config {
         disabled = false
         prompt   = ""
-        
+
         model_settings {
           model          = ""
           temperature    = 0
@@ -149,7 +149,7 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     exclude_domains   = []
     name              = ""
     preferred_domains = []
-    
+
     prompt_config {
       text_prompt  = ""
       voice_prompt = ""
@@ -158,14 +158,14 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
   python_function {
     name        = ""
     python_code = ""
-    
+
     service_directory_config {
       service = ""
     }
   }
   tool_fake_config {
     enable_fake_mode = false
-    
+
     code_block {
       python_code = ""
     }
@@ -175,12 +175,12 @@ resource "google_ces_tool" "tf-sample-ces-tool" {
     name        = ""
     ui_config   = ""
     widget_type = ""
-    
+
     data_mapping {
       field_mappings   = {}
       mode             = ""
       source_tool_name = ""
-      
+
       python_function {
         name        = ""
         python_code = ""

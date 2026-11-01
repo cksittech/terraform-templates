@@ -11,7 +11,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
   project               = ""
   run_execution_token   = ""
   start_execution_token = ""
-  
+
   binary_authorization {
     breakglass_justification = ""
     policy                   = ""
@@ -23,7 +23,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
     labels          = {}
     parallelism     = 0
     task_count      = 0
-    
+
     template {
       encryption_key                = ""
       execution_environment         = ""
@@ -31,7 +31,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       max_retries                   = 0
       service_account               = ""
       timeout                       = ""
-      
+
       containers {
         args             = []
         command          = []
@@ -40,11 +40,11 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
         name             = ""
         sandbox_launcher = false
         working_dir      = ""
-        
+
         env {
           name  = ""
           value = ""
-          
+
           value_source {
             secret_key_ref {
               secret  = ""
@@ -64,7 +64,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
           initial_delay_seconds = 0
           period_seconds        = 0
           timeout_seconds       = 0
-          
+
           grpc {
             port    = 0
             service = ""
@@ -72,7 +72,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
           http_get {
             path = ""
             port = 0
-            
+
             http_headers {
               name  = ""
               value = ""
@@ -93,7 +93,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       }
       volumes {
         name = ""
-        
+
         cloud_sql_instance {
           instances = []
         }
@@ -114,7 +114,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
         secret {
           default_mode = 0
           secret       = ""
-          
+
           items {
             mode    = 0
             path    = ""
@@ -125,7 +125,7 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       vpc_access {
         connector = ""
         egress    = ""
-        
+
         network_interfaces {
           network    = ""
           subnetwork = ""
@@ -133,6 +133,6 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       }
     }
   }
-  
+
   tags = {}
 }

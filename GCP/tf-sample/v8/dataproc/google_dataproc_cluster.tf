@@ -5,28 +5,28 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
   name                          = ""
   project                       = ""
   region                        = ""
-  
+
   cluster_config {
     cluster_tier   = ""
     cluster_type   = ""
     engine         = ""
     staging_bucket = ""
     temp_bucket    = ""
-    
+
     autoscaling_config {
       policy_uri = ""
     }
     auxiliary_node_groups {
       node_group_id = ""
-      
+
       node_group {
         roles = []
-        
+
         node_group_config {
           machine_type     = ""
           min_cpu_platform = ""
           num_instances    = 0
-          
+
           accelerators {
             accelerator_count = 0
             accelerator_type  = ""
@@ -63,7 +63,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
       service_account_scopes = []
       subnetwork             = ""
       zone                   = ""
-      
+
       confidential_instance_config {
         confidential_instance_type = ""
       }
@@ -96,7 +96,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
       machine_type     = ""
       min_cpu_platform = ""
       num_instances    = 0
-      
+
       accelerators {
         accelerator_count = 0
         accelerator_type  = ""
@@ -108,7 +108,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
-        
+
         attached_disk_config {
           disk_size_gb           = 0
           provisioned_iops       = 0
@@ -120,7 +120,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         instance_selection_list {
           machine_types = []
           rank          = 0
-          
+
           disk_config {
             boot_disk_provisioned_iops       = 0
             boot_disk_provisioned_throughput = 0
@@ -128,7 +128,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -151,7 +151,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
     preemptible_worker_config {
       num_instances  = 0
       preemptibility = ""
-      
+
       disk_config {
         boot_disk_provisioned_iops       = 0
         boot_disk_provisioned_throughput = 0
@@ -159,7 +159,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
-        
+
         attached_disk_config {
           disk_size_gb           = 0
           provisioned_iops       = 0
@@ -171,7 +171,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         instance_selection_list {
           machine_types = []
           rank          = 0
-          
+
           disk_config {
             boot_disk_provisioned_iops       = 0
             boot_disk_provisioned_throughput = 0
@@ -179,7 +179,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -233,7 +233,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
       min_cpu_platform  = ""
       min_num_instances = 0
       num_instances     = 0
-      
+
       accelerators {
         accelerator_count = 0
         accelerator_type  = ""
@@ -245,7 +245,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         boot_disk_type                   = ""
         local_ssd_interface              = ""
         num_local_ssds                   = 0
-        
+
         attached_disk_config {
           disk_size_gb           = 0
           provisioned_iops       = 0
@@ -257,7 +257,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
         instance_selection_list {
           machine_types = []
           rank          = 0
-          
+
           disk_config {
             boot_disk_provisioned_iops       = 0
             boot_disk_provisioned_throughput = 0
@@ -265,7 +265,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -285,7 +285,7 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
   }
   virtual_cluster_config {
     staging_bucket = ""
-    
+
     auxiliary_services_config {
       metastore_config {
         dataproc_metastore_service = ""
@@ -296,17 +296,17 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
     }
     kubernetes_cluster_config {
       kubernetes_namespace = ""
-      
+
       gke_cluster_config {
         gke_cluster_target = ""
-        
+
         node_pool_target {
           node_pool = ""
           roles     = []
-          
+
           node_pool_config {
             locations = []
-            
+
             autoscaling {
               max_node_count = 0
               min_node_count = 0

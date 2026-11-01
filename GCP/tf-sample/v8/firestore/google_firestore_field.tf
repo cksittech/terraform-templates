@@ -5,7 +5,7 @@ resource "google_firestore_field" "tf-sample-firestore-field" {
   field           = ""
   project         = ""
   skip_wait       = false
-  
+
   index_config {
     indexes {
       array_config = ""

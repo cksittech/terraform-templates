@@ -4,7 +4,7 @@ resource "google_dataplex_datascan_iam_member" "tf-sample-dataplex-datascan-iam-
   member       = ""
   project      = ""
   role         = ""
-  
+
   condition {
     description = ""
     expression  = ""

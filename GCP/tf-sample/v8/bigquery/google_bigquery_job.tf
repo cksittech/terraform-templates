@@ -4,11 +4,11 @@ resource "google_bigquery_job" "tf-sample-bigquery-job" {
   labels         = {}
   location       = ""
   project        = ""
-  
+
   copy {
     create_disposition = ""
     write_disposition  = ""
-    
+
     destination_encryption_configuration {
       kms_key_name = ""
     }
@@ -30,7 +30,7 @@ resource "google_bigquery_job" "tf-sample-bigquery-job" {
     field_delimiter        = ""
     print_header           = false
     use_avro_logical_types = false
-    
+
     source_model {
       dataset_id = ""
       model_id   = ""
@@ -60,7 +60,7 @@ resource "google_bigquery_job" "tf-sample-bigquery-job" {
     source_format         = ""
     source_uris           = []
     write_disposition     = ""
-    
+
     destination_encryption_configuration {
       kms_key_name = ""
     }
@@ -92,7 +92,7 @@ resource "google_bigquery_job" "tf-sample-bigquery-job" {
     use_legacy_sql        = false
     use_query_cache       = false
     write_disposition     = ""
-    
+
     connection_properties {
       key   = ""
       value = ""

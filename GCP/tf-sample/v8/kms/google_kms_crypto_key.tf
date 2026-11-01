@@ -9,7 +9,7 @@ resource "google_kms_crypto_key" "tf-sample-kms-crypto-key" {
   purpose                       = ""
   rotation_period               = ""
   skip_initial_version_creation = false
-  
+
   version_template {
     algorithm        = ""
     protection_level = ""

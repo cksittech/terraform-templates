@@ -6,7 +6,7 @@ resource "google_compute_security_policy_rule" "tf-sample-compute-security-polic
   priority        = 0
   project         = ""
   security_policy = ""
-  
+
   header_action {
     request_headers_to_adds {
       header_name  = ""
@@ -15,7 +15,7 @@ resource "google_compute_security_policy_rule" "tf-sample-compute-security-polic
   }
   match {
     versioned_expr = ""
-    
+
     config {
       src_ip_ranges = []
     }
@@ -33,7 +33,7 @@ resource "google_compute_security_policy_rule" "tf-sample-compute-security-polic
     exclusion {
       target_rule_ids = []
       target_rule_set = ""
-      
+
       request_body {
         operator = ""
         value    = ""
@@ -62,7 +62,7 @@ resource "google_compute_security_policy_rule" "tf-sample-compute-security-polic
     enforce_on_key      = ""
     enforce_on_key_name = ""
     exceed_action       = ""
-    
+
     ban_threshold {
       count        = 0
       interval_sec = 0

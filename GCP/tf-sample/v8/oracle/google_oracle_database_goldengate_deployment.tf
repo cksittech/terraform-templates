@@ -8,7 +8,7 @@ resource "google_oracle_database_goldengate_deployment" "tf-sample-oracle-databa
   odb_network              = ""
   odb_subnet               = ""
   project                  = ""
-  
+
   properties {
     cpu_core_count          = 0
     deployment_type         = ""
@@ -16,7 +16,7 @@ resource "google_oracle_database_goldengate_deployment" "tf-sample-oracle-databa
     environment_type        = ""
     is_auto_scaling_enabled = false
     license_model           = ""
-    
+
     backup_schedule {
     }
     deployment_diagnostic_data {
@@ -38,7 +38,7 @@ resource "google_oracle_database_goldengate_deployment" "tf-sample-oracle-databa
       admin_username                = ""
       deployment                    = ""
       ogg_version                   = ""
-      
+
       group_roles_mapping {
       }
     }

@@ -4,7 +4,7 @@ resource "google_cloudfunctions2_function_iam_binding" "tf-sample-cloudfunctions
   members        = []
   project        = ""
   role           = ""
-  
+
   condition {
     description = ""
     expression  = ""

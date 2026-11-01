@@ -10,7 +10,7 @@ resource "google_privateca_certificate" "tf-sample-privateca-certificate" {
   pool                      = ""
   project                   = ""
   requested_not_before_time = ""
-  
+
   config {
     public_key {
       format = ""
@@ -39,11 +39,11 @@ resource "google_privateca_certificate" "tf-sample-privateca-certificate" {
     }
     x509_config {
       aia_ocsp_servers = []
-      
+
       additional_extensions {
         critical = false
         value    = ""
-        
+
         object_id {
           object_id_path = []
         }

@@ -6,7 +6,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   labels          = {}
   location        = ""
   project         = ""
-  
+
   data {
     entity   = ""
     resource = ""
@@ -21,7 +21,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
     storage_config {
       exclude_patterns = []
       include_patterns = []
-      
+
       csv_options {
         delimiter               = ""
         encoding                = ""
@@ -43,7 +43,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
     catalog_publishing_enabled = false
     row_filter                 = ""
     sampling_percent           = 0
-    
+
     exclude_fields {
       field_names = []
     }
@@ -62,7 +62,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
     filter                     = ""
     row_filter                 = ""
     sampling_percent           = 0
-    
+
     post_scan_actions {
       bigquery_export {
         results_table = ""
@@ -89,7 +89,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       name        = ""
       suspended   = false
       threshold   = 0
-      
+
       non_null_expectation {
       }
       range_expectation {
@@ -122,7 +122,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       }
       template_reference {
         name = ""
-        
+
         values {
           name  = ""
           value = ""
@@ -143,7 +143,7 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   }
   execution_spec {
     field = ""
-    
+
     trigger {
       on_demand {
       }

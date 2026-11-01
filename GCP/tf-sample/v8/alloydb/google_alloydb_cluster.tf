@@ -12,13 +12,13 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
   project                          = ""
   skip_await_major_version_upgrade = false
   subscription_type                = ""
-  
+
   automated_backup_policy {
     backup_window = ""
     enabled       = false
     labels        = {}
     location      = ""
-    
+
     encryption_config {
       kms_key_name = ""
     }
@@ -30,7 +30,7 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
     }
     weekly_schedule {
       days_of_week = []
-      
+
       start_times {
         hours   = 0
         minutes = 0
@@ -42,7 +42,7 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
   continuous_backup_config {
     enabled              = false
     recovery_window_days = 0
-    
+
     encryption_config {
       kms_key_name = ""
     }
@@ -62,7 +62,7 @@ resource "google_alloydb_cluster" "tf-sample-alloydb-cluster" {
   maintenance_update_policy {
     maintenance_windows {
       day = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0

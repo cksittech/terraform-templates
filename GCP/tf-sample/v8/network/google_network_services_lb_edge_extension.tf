@@ -7,10 +7,10 @@ resource "google_network_services_lb_edge_extension" "tf-sample-network-services
   location              = ""
   name                  = ""
   project               = ""
-  
+
   extension_chains {
     name = ""
-    
+
     extensions {
       fail_open          = false
       forward_attributes = []

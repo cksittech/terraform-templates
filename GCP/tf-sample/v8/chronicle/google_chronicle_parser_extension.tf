@@ -7,7 +7,7 @@ resource "google_chronicle_parser_extension" "tf-sample-chronicle-parser-extensi
   log_type           = ""
   project            = ""
   validation_skipped = false
-  
+
   dynamic_parsing {
     opted_fields {
       path         = ""
@@ -17,7 +17,7 @@ resource "google_chronicle_parser_extension" "tf-sample-chronicle-parser-extensi
   field_extractors {
     append_repeated_fields = false
     log_format             = ""
-    
+
     extractors {
       destination_path   = ""
       field_path         = ""

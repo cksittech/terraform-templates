@@ -4,7 +4,7 @@ resource "google_iap_web_region_forwarding_rule_service_iam_member" "tf-sample-i
   project                             = ""
   region                              = ""
   role                                = ""
-  
+
   condition {
     description = ""
     expression  = ""

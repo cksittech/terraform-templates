@@ -3,7 +3,7 @@ resource "google_compute_network_firewall_policy_iam_binding" "tf-sample-compute
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

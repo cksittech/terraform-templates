@@ -5,7 +5,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
   location        = ""
   name            = ""
   project         = ""
-  
+
   encryption_config {
     kms_key = ""
   }
@@ -13,7 +13,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
     labels                = {}
     prerequisite_step_ids = []
     step_id               = ""
-    
+
     hadoop_job {
       archive_uris      = []
       args              = []
@@ -22,7 +22,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       main_class        = ""
       main_jar_file_uri = ""
       properties        = {}
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -33,7 +33,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       properties          = {}
       query_file_uri      = ""
       script_variables    = {}
-      
+
       query_list {
         queries = []
       }
@@ -44,7 +44,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       properties          = {}
       query_file_uri      = ""
       script_variables    = {}
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -58,7 +58,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       output_format       = ""
       properties          = {}
       query_file_uri      = ""
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -74,7 +74,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       main_python_file_uri = ""
       properties           = {}
       python_file_uris     = []
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -91,7 +91,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       main_class        = ""
       main_jar_file_uri = ""
       properties        = {}
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -102,7 +102,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       file_uris       = []
       main_r_file_uri = ""
       properties      = {}
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -112,7 +112,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
       properties       = {}
       query_file_uri   = ""
       script_variables = {}
-      
+
       logging_config {
         driver_log_levels = {}
       }
@@ -125,7 +125,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
     description = ""
     fields      = []
     name        = ""
-    
+
     validation {
       regex {
         regexes = []
@@ -143,11 +143,11 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
     managed_cluster {
       cluster_name = ""
       labels       = {}
-      
+
       config {
         staging_bucket = ""
         temp_bucket    = ""
-        
+
         autoscaling_config {
           policy = ""
         }
@@ -166,7 +166,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
           service_account_scopes     = []
           subnetwork                 = ""
           zone                       = ""
-          
+
           node_group_affinity {
             node_group = ""
           }
@@ -196,7 +196,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
           min_cpu_platform = ""
           num_instances    = 0
           preemptibility   = ""
-          
+
           accelerators {
             accelerator_count = 0
             accelerator_type  = ""
@@ -208,7 +208,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -220,7 +220,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             instance_selection_list {
               machine_types = []
               rank          = 0
-              
+
               disk_config {
                 boot_disk_provisioned_iops       = 0
                 boot_disk_provisioned_throughput = 0
@@ -228,7 +228,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 boot_disk_type                   = ""
                 local_ssd_interface              = ""
                 num_local_ssds                   = 0
-                
+
                 attached_disk_config {
                   disk_size_gb           = 0
                   provisioned_iops       = 0
@@ -245,7 +245,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
           min_cpu_platform = ""
           num_instances    = 0
           preemptibility   = ""
-          
+
           accelerators {
             accelerator_count = 0
             accelerator_type  = ""
@@ -257,7 +257,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -269,7 +269,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             instance_selection_list {
               machine_types = []
               rank          = 0
-              
+
               disk_config {
                 boot_disk_provisioned_iops       = 0
                 boot_disk_provisioned_throughput = 0
@@ -277,7 +277,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 boot_disk_type                   = ""
                 local_ssd_interface              = ""
                 num_local_ssds                   = 0
-                
+
                 attached_disk_config {
                   disk_size_gb           = 0
                   provisioned_iops       = 0
@@ -322,7 +322,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
           min_cpu_platform = ""
           num_instances    = 0
           preemptibility   = ""
-          
+
           accelerators {
             accelerator_count = 0
             accelerator_type  = ""
@@ -334,7 +334,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             boot_disk_type                   = ""
             local_ssd_interface              = ""
             num_local_ssds                   = 0
-            
+
             attached_disk_config {
               disk_size_gb           = 0
               provisioned_iops       = 0
@@ -346,7 +346,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             instance_selection_list {
               machine_types = []
               rank          = 0
-              
+
               disk_config {
                 boot_disk_provisioned_iops       = 0
                 boot_disk_provisioned_throughput = 0
@@ -354,7 +354,7 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
                 boot_disk_type                   = ""
                 local_ssd_interface              = ""
                 num_local_ssds                   = 0
-                
+
                 attached_disk_config {
                   disk_size_gb           = 0
                   provisioned_iops       = 0

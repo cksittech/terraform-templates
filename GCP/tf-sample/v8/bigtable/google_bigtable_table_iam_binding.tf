@@ -4,7 +4,7 @@ resource "google_bigtable_table_iam_binding" "tf-sample-bigtable-table-iam-bindi
   project       = ""
   role          = ""
   table         = ""
-  
+
   condition {
     description = ""
     expression  = ""

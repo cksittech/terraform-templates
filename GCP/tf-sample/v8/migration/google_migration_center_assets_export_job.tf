@@ -5,7 +5,7 @@ resource "google_migration_center_assets_export_job" "tf-sample-migration-center
   location             = ""
   project              = ""
   show_hidden          = false
-  
+
   condition {
     filter = ""
   }

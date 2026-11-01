@@ -7,7 +7,7 @@ resource "google_network_services_multicast_domain_activation" "tf-sample-networ
   multicast_domain               = ""
   multicast_domain_activation_id = ""
   project                        = ""
-  
+
   traffic_spec {
     aggr_egress_pps           = ""
     aggr_ingress_pps          = ""

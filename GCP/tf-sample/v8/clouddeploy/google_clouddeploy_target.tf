@@ -8,13 +8,13 @@ resource "google_clouddeploy_target" "tf-sample-clouddeploy-target" {
   name              = ""
   project           = ""
   require_approval  = false
-  
+
   anthos_cluster {
     membership = ""
   }
   associated_entities {
     entity_id = ""
-    
+
     anthos_clusters {
       membership = ""
     }
@@ -34,7 +34,7 @@ resource "google_clouddeploy_target" "tf-sample-clouddeploy-target" {
     usages            = []
     verbose           = false
     worker_pool       = ""
-    
+
     default_pool {
       artifact_storage = ""
       service_account  = ""

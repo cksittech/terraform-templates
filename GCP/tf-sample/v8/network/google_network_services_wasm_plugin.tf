@@ -6,7 +6,7 @@ resource "google_network_services_wasm_plugin" "tf-sample-network-services-wasm-
   main_version_id = ""
   name            = ""
   project         = ""
-  
+
   log_config {
     enable        = false
     min_log_level = ""

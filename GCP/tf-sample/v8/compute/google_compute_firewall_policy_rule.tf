@@ -11,7 +11,7 @@ resource "google_compute_firewall_policy_rule" "tf-sample-compute-firewall-polic
   target_resources        = []
   target_service_accounts = []
   tls_inspect             = false
-  
+
   match {
     dest_address_groups       = []
     dest_fqdns                = []
@@ -26,7 +26,7 @@ resource "google_compute_firewall_policy_rule" "tf-sample-compute-firewall-polic
     src_networks              = []
     src_region_codes          = []
     src_threat_intelligences  = []
-    
+
     layer4_configs {
       ip_protocol = ""
       ports       = []

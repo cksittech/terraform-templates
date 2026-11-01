@@ -4,11 +4,11 @@ resource "google_vertex_ai_online_evaluator" "tf-sample-vertex-ai-online-evaluat
   display_name    = ""
   project         = ""
   region          = ""
-  
+
   cloud_observability {
     log_view   = ""
     trace_view = ""
-    
+
     open_telemetry {
       semconv_version = ""
     }
@@ -62,7 +62,7 @@ resource "google_vertex_ai_online_evaluator" "tf-sample-vertex-ai-online-evaluat
   }
   config {
     max_evaluated_samples_per_run = ""
-    
+
     random_sampling {
       percentage = 0
     }

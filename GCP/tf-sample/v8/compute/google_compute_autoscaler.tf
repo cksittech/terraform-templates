@@ -5,14 +5,14 @@ resource "google_compute_autoscaler" "tf-sample-compute-autoscaler" {
   project         = ""
   target          = ""
   zone            = ""
-  
+
   autoscaling_policy {
     cooldown_period      = 0
     max_replicas         = 0
     min_replicas         = 0
     mode                 = ""
     stabilization_period = 0
-    
+
     cpu_utilization {
       predictive_method = ""
       target            = 0
@@ -29,7 +29,7 @@ resource "google_compute_autoscaler" "tf-sample-compute-autoscaler" {
     }
     scale_in_control {
       time_window_sec = 0
-      
+
       max_scaled_in_replicas {
         fixed   = 0
         percent = 0

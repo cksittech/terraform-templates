@@ -8,7 +8,7 @@ resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
   project                                   = ""
   release_channel                           = ""
   target_version                            = ""
-  
+
   authorization {
     admin_users {
       username = ""
@@ -34,7 +34,7 @@ resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
   maintenance_policy {
     maintenance_exclusions {
       id = ""
-      
+
       window {
         end_time   = ""
         start_time = ""
@@ -43,7 +43,7 @@ resource "google_edgecontainer_cluster" "tf-sample-edgecontainer-cluster" {
     window {
       recurring_window {
         recurrence = ""
-        
+
         window {
           end_time   = ""
           start_time = ""

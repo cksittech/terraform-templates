@@ -10,7 +10,7 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   project                      = ""
   retain_acked_messages        = false
   topic                        = ""
-  
+
   bigquery_config {
     drop_unknown_fields   = false
     service_account_email = ""
@@ -24,7 +24,7 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
     service_account_email = ""
     table                 = ""
     write_metadata        = false
-    
+
     column_family_mapping {
       delimited_key {
         delimiter  = ""
@@ -43,7 +43,7 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
     max_duration             = ""
     max_messages             = 0
     service_account_email    = ""
-    
+
     avro_config {
       use_topic_schema = false
       write_metadata   = false
@@ -60,11 +60,11 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   }
   message_transforms {
     disabled = false
-    
+
     ai_inference {
       endpoint              = ""
       service_account_email = ""
-      
+
       unstructured_inference {
         parameters = {}
       }
@@ -77,7 +77,7 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
   push_config {
     attributes    = {}
     push_endpoint = ""
-    
+
     no_wrapper {
       write_metadata = false
     }
@@ -90,6 +90,6 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
     maximum_backoff = ""
     minimum_backoff = ""
   }
-  
+
   tags = {}
 }

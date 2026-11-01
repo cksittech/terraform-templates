@@ -13,7 +13,7 @@ resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-sea
   model_configs              = {}
   procurement_contact_emails = []
   project                    = ""
-  
+
   common_config {
     company_name = ""
   }
@@ -21,7 +21,7 @@ resource "google_discovery_engine_search_engine" "tf-sample-discovery-engine-sea
     cloud_knowledge_graph_types    = []
     enable_cloud_knowledge_graph   = false
     enable_private_knowledge_graph = false
-    
+
     feature_config {
       disable_private_kg_auto_complete       = false
       disable_private_kg_enrichment          = false

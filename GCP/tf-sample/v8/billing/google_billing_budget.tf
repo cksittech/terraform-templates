@@ -3,7 +3,7 @@ resource "google_billing_budget" "tf-sample-billing-budget" {
   deletion_policy = ""
   display_name    = ""
   ownership_scope = ""
-  
+
   all_updates_rule {
     disable_default_iam_recipients   = false
     enable_project_level_recipients  = false
@@ -13,7 +13,7 @@ resource "google_billing_budget" "tf-sample-billing-budget" {
   }
   amount {
     last_period_amount = false
-    
+
     specified_amount {
       currency_code = ""
       nanos         = 0
@@ -29,7 +29,7 @@ resource "google_billing_budget" "tf-sample-billing-budget" {
     resource_ancestors     = []
     services               = []
     subaccounts            = []
-    
+
     custom_period {
       end_date {
         day   = 0

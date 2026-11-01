@@ -24,7 +24,7 @@ resource "google_compute_router_peer" "tf-sample-compute-router-peer" {
   router_appliance_instance          = ""
   zero_advertised_route_priority     = false
   zero_custom_learned_route_priority = false
-  
+
   advertised_ip_ranges {
     description = ""
     range       = ""

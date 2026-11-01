@@ -9,12 +9,12 @@ resource "google_firestore_index" "tf-sample-firestore-index" {
   query_scope     = ""
   skip_wait       = false
   unique          = false
-  
+
   fields {
     array_config = ""
     field_path   = ""
     order        = ""
-    
+
     search_config {
       geo_spec {
         geo_json_indexing_disabled = false
@@ -28,7 +28,7 @@ resource "google_firestore_index" "tf-sample-firestore-index" {
     }
     vector_config {
       dimension = 0
-      
+
       flat {
       }
     }

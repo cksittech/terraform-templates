@@ -18,7 +18,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   service_lb_policy               = ""
   session_affinity                = ""
   timeout_sec                     = 0
-  
+
   backend {
     balancing_mode               = ""
     capacity_scaler              = 0
@@ -32,7 +32,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     max_rate_per_endpoint        = 0
     max_rate_per_instance        = 0
     max_utilization              = 0
-    
+
     custom_metrics {
       dry_run         = false
       max_utilization = 0
@@ -47,7 +47,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     negative_caching             = false
     serve_while_stale            = 0
     signed_url_cache_max_age_sec = 0
-    
+
     cache_key_policy {
       include_host           = false
       include_named_cookies  = []
@@ -76,11 +76,11 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   consistent_hash {
     http_header_name  = ""
     minimum_ring_size = 0
-    
+
     http_cookie {
       name = ""
       path = ""
-      
+
       ttl {
         nanos   = 0
         seconds = 0
@@ -98,10 +98,10 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   }
   ha_policy {
     fast_ip_move = ""
-    
+
     leader {
       backend_group = ""
-      
+
       network_endpoint {
         instance = ""
       }
@@ -117,7 +117,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     optional_fields = []
     optional_mode   = ""
     sample_rate     = 0
-    
+
     request_headers {
       header_name = ""
     }
@@ -141,7 +141,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     success_rate_minimum_hosts            = 0
     success_rate_request_volume           = 0
     success_rate_stdev_factor             = 0
-    
+
     base_ejection_time {
       nanos   = 0
       seconds = 0
@@ -157,7 +157,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
   strong_session_affinity_cookie {
     name = ""
     path = ""
-    
+
     ttl {
       nanos   = 0
       seconds = 0
@@ -167,7 +167,7 @@ resource "google_compute_region_backend_service" "tf-sample-compute-region-backe
     authentication_config = ""
     identity              = ""
     sni                   = ""
-    
+
     subject_alt_names {
       dns_name                    = ""
       uniform_resource_identifier = ""

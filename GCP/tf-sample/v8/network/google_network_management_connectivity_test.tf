@@ -8,7 +8,7 @@ resource "google_network_management_connectivity_test" "tf-sample-network-manage
   protocol               = ""
   related_projects       = []
   round_trip             = false
-  
+
   destination {
     cloud_sql_instance = ""
     forwarding_rule    = ""
@@ -33,7 +33,7 @@ resource "google_network_management_connectivity_test" "tf-sample-network-manage
     network_type       = ""
     port               = 0
     project_id         = ""
-    
+
     app_engine_version {
       uri = ""
     }

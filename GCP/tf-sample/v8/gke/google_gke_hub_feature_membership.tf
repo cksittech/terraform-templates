@@ -5,22 +5,22 @@ resource "google_gke_hub_feature_membership" "tf-sample-gke-hub-feature-membersh
   membership          = ""
   membership_location = ""
   project             = ""
-  
+
   configmanagement {
     management = ""
     version    = ""
-    
+
     config_sync {
       enabled                           = false
       metrics_gcp_service_account_email = ""
       prevent_drift                     = false
       source_format                     = ""
       stop_syncing                      = false
-      
+
       deployment_overrides {
         deployment_name      = ""
         deployment_namespace = ""
-        
+
         containers {
           container_name = ""
           cpu_limit      = ""
@@ -60,7 +60,7 @@ resource "google_gke_hub_feature_membership" "tf-sample-gke-hub-feature-membersh
       mutation_enabled           = false
       referential_rules_enabled  = false
       template_library_installed = false
-      
+
       monitoring {
         backends = []
       }
@@ -71,7 +71,7 @@ resource "google_gke_hub_feature_membership" "tf-sample-gke-hub-feature-membersh
   }
   policycontroller {
     version = ""
-    
+
     policy_controller_hub_config {
       audit_interval_seconds     = 0
       constraint_violation_limit = 0
@@ -80,12 +80,12 @@ resource "google_gke_hub_feature_membership" "tf-sample-gke-hub-feature-membersh
       log_denies_enabled         = false
       mutation_enabled           = false
       referential_rules_enabled  = false
-      
+
       deployment_configs {
         component_name = ""
         pod_affinity   = ""
         replica_count  = 0
-        
+
         container_resources {
           limits {
             cpu    = ""

@@ -8,17 +8,17 @@ resource "google_discovery_engine_control" "tf-sample-discovery-engine-control" 
   project         = ""
   solution_type   = ""
   use_cases       = []
-  
+
   boost_action {
     data_store  = ""
     filter      = ""
     fixed_boost = 0
-    
+
     interpolation_boost_spec {
       attribute_type     = ""
       field_name         = ""
       interpolation_type = ""
-      
+
       control_point {
         attribute_value = ""
         boost_amount    = 0
@@ -27,7 +27,7 @@ resource "google_discovery_engine_control" "tf-sample-discovery-engine-control" 
   }
   conditions {
     query_regex = ""
-    
+
     active_time_range {
       end_time   = ""
       start_time = ""
@@ -43,7 +43,7 @@ resource "google_discovery_engine_control" "tf-sample-discovery-engine-control" 
   }
   promote_action {
     data_store = ""
-    
+
     search_link_promotion {
       description = ""
       document    = ""

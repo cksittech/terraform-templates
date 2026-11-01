@@ -9,7 +9,7 @@ resource "google_spanner_database" "tf-sample-spanner-database" {
   name                     = ""
   project                  = ""
   version_retention_period = ""
-  
+
   encryption_config {
     kms_key_name  = ""
     kms_key_names = []

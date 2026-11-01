@@ -10,7 +10,7 @@ resource "google_vpc_access_connector" "tf-sample-vpc-access-connector" {
   network         = ""
   project         = ""
   region          = ""
-  
+
   subnet {
     name       = ""
     project_id = ""

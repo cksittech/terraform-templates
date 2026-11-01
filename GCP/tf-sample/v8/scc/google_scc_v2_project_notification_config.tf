@@ -6,7 +6,7 @@ resource "google_scc_v2_project_notification_config" "tf-sample-scc-v2-project-n
   location                       = ""
   project                        = ""
   pubsub_topic                   = ""
-  
+
   streaming_config {
     filter = ""
   }

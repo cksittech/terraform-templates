@@ -8,7 +8,7 @@ resource "google_iam_workload_identity_pool_provider" "tf-sample-iam-workload-id
   project                            = ""
   workload_identity_pool_id          = ""
   workload_identity_pool_provider_id = ""
-  
+
   aws {
     account_id = ""
   }

@@ -19,7 +19,7 @@ resource "google_compute_vpn_tunnel" "tf-sample-compute-vpn-tunnel" {
   target_vpn_gateway              = ""
   vpn_gateway                     = ""
   vpn_gateway_interface           = 0
-  
+
   cipher_suite {
     phase1 {
       dh         = []

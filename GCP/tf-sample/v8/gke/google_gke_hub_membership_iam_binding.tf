@@ -4,7 +4,7 @@ resource "google_gke_hub_membership_iam_binding" "tf-sample-gke-hub-membership-i
   membership_id = ""
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

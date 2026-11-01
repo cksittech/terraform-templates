@@ -4,7 +4,7 @@ resource "google_beyondcorp_security_gateway_iam_member" "tf-sample-beyondcorp-s
   project             = ""
   role                = ""
   security_gateway_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

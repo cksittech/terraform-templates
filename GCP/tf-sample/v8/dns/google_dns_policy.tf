@@ -5,7 +5,7 @@ resource "google_dns_policy" "tf-sample-dns-policy" {
   enable_logging            = false
   name                      = ""
   project                   = ""
-  
+
   alternative_name_server_config {
     outbound_endpoints {
       name = ""

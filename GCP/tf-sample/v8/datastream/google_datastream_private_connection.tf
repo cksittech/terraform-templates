@@ -6,7 +6,7 @@ resource "google_datastream_private_connection" "tf-sample-datastream-private-co
   location                  = ""
   private_connection_id     = ""
   project                   = ""
-  
+
   psc_interface_config {
     network_attachment = ""
   }

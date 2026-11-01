@@ -6,7 +6,7 @@ resource "google_certificate_manager_certificate" "tf-sample-certificate-manager
   name            = ""
   project         = ""
   scope           = ""
-  
+
   managed {
     dns_authorizations = []
     domains            = []

@@ -7,7 +7,7 @@ resource "google_dns_managed_zone" "tf-sample-dns-managed-zone" {
   name            = ""
   project         = ""
   visibility      = ""
-  
+
   cloud_logging_config {
     enable_logging = false
   }
@@ -15,7 +15,7 @@ resource "google_dns_managed_zone" "tf-sample-dns-managed-zone" {
     kind          = ""
     non_existence = ""
     state         = ""
-    
+
     default_key_specs {
       algorithm  = ""
       key_length = 0

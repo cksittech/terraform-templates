@@ -2,7 +2,7 @@ resource "google_app_engine_service_split_traffic" "tf-sample-app-engine-service
   migrate_traffic = false
   project         = ""
   service         = ""
-  
+
   split {
     allocations = {}
     shard_by    = ""

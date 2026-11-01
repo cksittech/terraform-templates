@@ -4,7 +4,7 @@ resource "google_firestore_change_stream" "tf-sample-firestore-change-stream" {
   name             = ""
   project          = ""
   retention_period = ""
-  
+
   collection_group_scope {
     collection_group_id = ""
   }

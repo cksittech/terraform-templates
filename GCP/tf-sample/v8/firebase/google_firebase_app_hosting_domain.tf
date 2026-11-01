@@ -4,7 +4,7 @@ resource "google_firebase_app_hosting_domain" "tf-sample-firebase-app-hosting-do
   domain_id       = ""
   location        = ""
   project         = ""
-  
+
   serve {
     redirect {
       status = ""

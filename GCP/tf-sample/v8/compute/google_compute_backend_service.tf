@@ -22,7 +22,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   service_lb_policy                             = ""
   session_affinity                              = ""
   timeout_sec                                   = 0
-  
+
   backend {
     balancing_mode               = ""
     capacity_scaler              = 0
@@ -36,7 +36,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     max_rate_per_instance        = 0
     max_utilization              = 0
     preference                   = ""
-    
+
     custom_metrics {
       dry_run         = false
       max_utilization = 0
@@ -52,7 +52,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     request_coalescing           = false
     serve_while_stale            = 0
     signed_url_cache_max_age_sec = 0
-    
+
     bypass_cache_on_request_headers {
       header_name = ""
     }
@@ -80,11 +80,11 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   consistent_hash {
     http_header_name  = ""
     minimum_ring_size = 0
-    
+
     http_cookie {
       name = ""
       path = ""
-      
+
       ttl {
         nanos   = 0
         seconds = 0
@@ -118,7 +118,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     optional_fields = []
     optional_mode   = ""
     sample_rate     = 0
-    
+
     request_headers {
       header_name = ""
     }
@@ -140,7 +140,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     success_rate_minimum_hosts            = 0
     success_rate_request_volume           = 0
     success_rate_stdev_factor             = 0
-    
+
     base_ejection_time {
       nanos   = 0
       seconds = 0
@@ -156,7 +156,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   security_settings {
     client_tls_policy = ""
     subject_alt_names = []
-    
+
     aws_v4_authentication {
       access_key         = ""
       access_key_id      = ""
@@ -167,7 +167,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
   strong_session_affinity_cookie {
     name = ""
     path = ""
-    
+
     ttl {
       nanos   = 0
       seconds = 0
@@ -177,7 +177,7 @@ resource "google_compute_backend_service" "tf-sample-compute-backend-service" {
     authentication_config = ""
     identity              = ""
     sni                   = ""
-    
+
     subject_alt_names {
       dns_name                    = ""
       uniform_resource_identifier = ""

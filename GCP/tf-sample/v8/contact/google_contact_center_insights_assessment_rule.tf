@@ -5,7 +5,7 @@ resource "google_contact_center_insights_assessment_rule" "tf-sample-contact-cen
   display_name       = ""
   location           = ""
   project            = ""
-  
+
   sample_rule {
     conversation_filter = ""
     dimension           = ""

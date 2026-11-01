@@ -3,7 +3,7 @@ resource "google_apigee_datastore" "tf-sample-apigee-datastore" {
   display_name    = ""
   org_id          = ""
   target_type     = ""
-  
+
   datastore_config {
     bucket_name  = ""
     dataset_name = ""

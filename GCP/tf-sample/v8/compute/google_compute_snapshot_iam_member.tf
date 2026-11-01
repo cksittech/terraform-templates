@@ -3,7 +3,7 @@ resource "google_compute_snapshot_iam_member" "tf-sample-compute-snapshot-iam-me
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

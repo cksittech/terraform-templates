@@ -7,10 +7,10 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
   location        = ""
   name            = ""
   project         = ""
-  
+
   gateway {
     capacity = ""
-    
+
     ip_range_reservations {
       ip_range = ""
     }
@@ -35,7 +35,7 @@ resource "google_network_connectivity_spoke" "tf-sample-network-connectivity-spo
     include_export_ranges      = []
     include_import_ranges      = []
     site_to_site_data_transfer = false
-    
+
     instances {
       ip_address      = ""
       virtual_machine = ""

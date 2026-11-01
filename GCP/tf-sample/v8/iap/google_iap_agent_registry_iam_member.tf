@@ -3,7 +3,7 @@ resource "google_iap_agent_registry_iam_member" "tf-sample-iap-agent-registry-ia
   member   = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

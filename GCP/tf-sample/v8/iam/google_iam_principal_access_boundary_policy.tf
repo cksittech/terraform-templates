@@ -5,10 +5,10 @@ resource "google_iam_principal_access_boundary_policy" "tf-sample-iam-principal-
   location                            = ""
   organization                        = ""
   principal_access_boundary_policy_id = ""
-  
+
   details {
     enforcement_version = ""
-    
+
     rules {
       description = ""
       effect      = ""

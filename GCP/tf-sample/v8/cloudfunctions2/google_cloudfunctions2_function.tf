@@ -6,7 +6,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
   location        = ""
   name            = ""
   project         = ""
-  
+
   build_config {
     docker_repository     = ""
     entry_point           = ""
@@ -14,7 +14,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
     runtime               = ""
     service_account       = ""
     worker_pool           = ""
-    
+
     automatic_update_policy {
     }
     on_deploy_update_policy {
@@ -42,7 +42,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
     retry_policy          = ""
     service_account_email = ""
     trigger_region        = ""
-    
+
     event_filters {
       attribute = ""
       operator  = ""
@@ -64,7 +64,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
     timeout_seconds                  = 0
     vpc_connector                    = ""
     vpc_connector_egress_settings    = ""
-    
+
     direct_vpc_network_interface {
       network    = ""
       subnetwork = ""
@@ -79,7 +79,7 @@ resource "google_cloudfunctions2_function" "tf-sample-cloudfunctions2-function" 
       mount_path = ""
       project_id = ""
       secret     = ""
-      
+
       versions {
         path    = ""
         version = ""

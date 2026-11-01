@@ -5,15 +5,15 @@ resource "google_clouddomains_registration" "tf-sample-clouddomains-registration
   labels          = {}
   location        = ""
   project         = ""
-  
+
   contact_settings {
     privacy = ""
-    
+
     admin_contact {
       email        = ""
       fax_number   = ""
       phone_number = ""
-      
+
       postal_address {
         address_lines       = []
         administrative_area = ""
@@ -28,7 +28,7 @@ resource "google_clouddomains_registration" "tf-sample-clouddomains-registration
       email        = ""
       fax_number   = ""
       phone_number = ""
-      
+
       postal_address {
         address_lines       = []
         administrative_area = ""
@@ -43,7 +43,7 @@ resource "google_clouddomains_registration" "tf-sample-clouddomains-registration
       email        = ""
       fax_number   = ""
       phone_number = ""
-      
+
       postal_address {
         address_lines       = []
         administrative_area = ""
@@ -58,7 +58,7 @@ resource "google_clouddomains_registration" "tf-sample-clouddomains-registration
   dns_settings {
     custom_dns {
       name_servers = []
-      
+
       ds_records {
         algorithm   = ""
         digest      = ""

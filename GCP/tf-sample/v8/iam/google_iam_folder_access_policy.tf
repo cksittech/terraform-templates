@@ -5,14 +5,14 @@ resource "google_iam_folder_access_policy" "tf-sample-iam-folder-access-policy" 
   display_name     = ""
   folder           = ""
   location         = ""
-  
+
   details {
     rules {
       description         = ""
       effect              = ""
       excluded_principals = []
       principals          = []
-      
+
       conditions {
         expression = ""
         service    = ""

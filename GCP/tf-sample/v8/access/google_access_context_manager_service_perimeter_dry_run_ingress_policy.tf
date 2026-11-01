@@ -2,15 +2,15 @@ resource "google_access_context_manager_service_perimeter_dry_run_ingress_policy
   deletion_policy = ""
   perimeter       = ""
   title           = ""
-  
+
   ingress_from {
     identities    = []
     identity_type = ""
-    
+
     sources {
       access_level = ""
       resource     = ""
-      
+
       psc_endpoint {
         forwarding_rule = ""
       }
@@ -19,10 +19,10 @@ resource "google_access_context_manager_service_perimeter_dry_run_ingress_policy
   ingress_to {
     resources = []
     roles     = []
-    
+
     operations {
       service_name = ""
-      
+
       method_selectors {
         method     = ""
         permission = ""

@@ -8,11 +8,11 @@ resource "google_backup_dr_backup_plan" "tf-sample-backup-dr-backup-plan" {
   max_custom_on_demand_retention_days = 0
   project                             = ""
   resource_type                       = ""
-  
+
   backup_rules {
     backup_retention_days = 0
     rule_id               = ""
-    
+
     standard_schedule {
       days_of_month    = []
       days_of_week     = []
@@ -20,7 +20,7 @@ resource "google_backup_dr_backup_plan" "tf-sample-backup-dr-backup-plan" {
       months           = []
       recurrence_type  = ""
       time_zone        = ""
-      
+
       backup_window {
         end_hour_of_day   = 0
         start_hour_of_day = 0

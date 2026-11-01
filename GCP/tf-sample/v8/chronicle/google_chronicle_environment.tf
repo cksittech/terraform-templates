@@ -16,7 +16,7 @@ resource "google_chronicle_environment" "tf-sample-chronicle-environment" {
   project                 = ""
   retention_duration      = 0
   weight                  = 0
-  
+
   dynamic_parameters {
     dynamic_parameter_id = 0
     value                = ""

@@ -8,13 +8,13 @@ resource "google_dataform_repository" "tf-sample-dataform-repository" {
   project                                    = ""
   region                                     = ""
   service_account                            = ""
-  
+
   git_remote_settings {
     authentication_token_secret_version = ""
     default_branch                      = ""
     git_repository_link                 = ""
     url                                 = ""
-    
+
     ssh_authentication_config {
       host_public_key                 = ""
       user_private_key_secret_version = ""

@@ -5,12 +5,12 @@ resource "google_kms_ekm_connection" "tf-sample-kms-ekm-connection" {
   location            = ""
   name                = ""
   project             = ""
-  
+
   service_resolvers {
     endpoint_filter           = ""
     hostname                  = ""
     service_directory_service = ""
-    
+
     server_certificates {
       raw_der                       = ""
       subject_alternative_dns_names = []

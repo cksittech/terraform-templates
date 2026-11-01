@@ -4,16 +4,16 @@ resource "google_scc_management_organization_security_health_analytics_custom_mo
   enablement_state = ""
   location         = ""
   organization     = ""
-  
+
   custom_config {
     description    = ""
     recommendation = ""
     severity       = ""
-    
+
     custom_output {
       properties {
         name = ""
-        
+
         value_expression {
           description = ""
           expression  = ""

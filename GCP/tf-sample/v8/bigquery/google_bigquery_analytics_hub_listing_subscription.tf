@@ -4,14 +4,14 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
   listing_id       = ""
   location         = ""
   project          = ""
-  
+
   destination_dataset {
     description       = ""
     friendly_name     = ""
     labels            = {}
     location          = ""
     replica_locations = []
-    
+
     dataset_reference {
       dataset_id = ""
       project_id = ""
@@ -28,7 +28,7 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
       message_retention_duration   = ""
       name                         = ""
       retain_acked_messages        = false
-      
+
       bigquery_config {
         drop_unknown_fields   = false
         service_account_email = ""
@@ -46,7 +46,7 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
         max_duration             = ""
         max_messages             = ""
         service_account_email    = ""
-        
+
         avro_config {
           use_topic_schema = false
           write_metadata   = false
@@ -62,7 +62,7 @@ resource "google_bigquery_analytics_hub_listing_subscription" "tf-sample-bigquer
       push_config {
         attributes    = {}
         push_endpoint = ""
-        
+
         no_wrapper {
           write_metadata = false
         }

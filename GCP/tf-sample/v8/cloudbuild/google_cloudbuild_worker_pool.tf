@@ -5,7 +5,7 @@ resource "google_cloudbuild_worker_pool" "tf-sample-cloudbuild-worker-pool" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   network_config {
     peered_network          = ""
     peered_network_ip_range = ""

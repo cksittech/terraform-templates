@@ -5,7 +5,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
   project         = ""
   service_account = ""
   status          = ""
-  
+
   event_stream {
     event_stream_expiration_time = ""
     event_stream_start_time      = ""
@@ -43,7 +43,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
       delete_objects_unique_in_sink              = false
       overwrite_objects_already_existing_in_sink = false
       overwrite_when                             = ""
-      
+
       metadata_options {
         acl            = ""
         gid            = ""
@@ -59,7 +59,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
   }
   schedule {
     repeat_interval = ""
-    
+
     schedule_end_date {
       day   = 0
       month = 0
@@ -80,13 +80,13 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
   transfer_spec {
     sink_agent_pool_name   = ""
     source_agent_pool_name = ""
-    
+
     aws_s3_compatible_data_source {
       bucket_name = ""
       endpoint    = ""
       path        = ""
       region      = ""
-      
+
       s3_metadata {
         auth_method   = ""
         list_api      = ""
@@ -101,7 +101,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
       managed_private_network = false
       path                    = ""
       role_arn                = ""
-      
+
       aws_access_key {
         access_key_id     = ""
         secret_access_key = ""
@@ -113,7 +113,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
       path                    = ""
       private_network_service = ""
       storage_account         = ""
-      
+
       azure_credentials {
         sas_token = ""
       }
@@ -158,7 +158,7 @@ resource "google_storage_transfer_job" "tf-sample-storage-transfer-job" {
       delete_objects_unique_in_sink              = false
       overwrite_objects_already_existing_in_sink = false
       overwrite_when                             = ""
-      
+
       metadata_options {
         acl            = ""
         gid            = ""

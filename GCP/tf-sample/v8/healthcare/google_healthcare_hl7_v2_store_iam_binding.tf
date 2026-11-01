@@ -2,7 +2,7 @@ resource "google_healthcare_hl7_v2_store_iam_binding" "tf-sample-healthcare-hl7-
   hl7_v2_store_id = ""
   members         = []
   role            = ""
-  
+
   condition {
     description = ""
     expression  = ""

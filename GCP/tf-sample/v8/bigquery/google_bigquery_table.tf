@@ -16,7 +16,7 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
   schema                       = ""
   table_id                     = ""
   table_metadata_view          = ""
-  
+
   biglake_configuration {
     connection_id = ""
     file_format   = ""
@@ -29,12 +29,12 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
   external_catalog_table_options {
     connection_id = ""
     parameters    = {}
-    
+
     storage_descriptor {
       input_format  = ""
       location_uri  = ""
       output_format = ""
-      
+
       serde_info {
         name                  = ""
         parameters            = {}
@@ -57,7 +57,7 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
     schema                    = ""
     source_format             = ""
     source_uris               = []
-    
+
     avro_options {
       use_avro_logical_types = false
     }
@@ -65,13 +65,13 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
       ignore_unspecified_column_families = false
       output_column_families_as_json     = false
       read_rowkey_as_string              = false
-      
+
       column_family {
         encoding         = ""
         family_id        = ""
         only_read_latest = false
         type             = ""
-        
+
         column {
           encoding          = ""
           field_name        = ""
@@ -116,7 +116,7 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
   }
   range_partitioning {
     field = ""
-    
+
     range {
       end      = 0
       interval = 0
@@ -129,7 +129,7 @@ resource "google_bigquery_table" "tf-sample-bigquery-table" {
   table_constraints {
     foreign_keys {
       name = ""
-      
+
       column_references {
         referenced_column  = ""
         referencing_column = ""

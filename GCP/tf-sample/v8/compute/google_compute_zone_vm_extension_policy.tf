@@ -5,7 +5,7 @@ resource "google_compute_zone_vm_extension_policy" "tf-sample-compute-zone-vm-ex
   priority        = 0
   project         = ""
   zone            = ""
-  
+
   extension_policies {
     extension_name = ""
     pinned_version = ""

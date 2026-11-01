@@ -16,7 +16,7 @@ resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
   type                          = ""
   version                       = ""
   zone                          = ""
-  
+
   accelerators {
     accelerator_type = ""
     state            = ""
@@ -32,7 +32,7 @@ resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
     maintenance_window {
       recurring_time_window {
         recurrence = ""
-        
+
         window {
           end_time   = ""
           start_time = ""
@@ -44,12 +44,12 @@ resource "google_data_fusion_instance" "tf-sample-data-fusion-instance" {
     connection_type = ""
     ip_allocation   = ""
     network         = ""
-    
+
     private_service_connect_config {
       network_attachment     = ""
       unreachable_cidr_block = ""
     }
   }
-  
+
   tags = {}
 }

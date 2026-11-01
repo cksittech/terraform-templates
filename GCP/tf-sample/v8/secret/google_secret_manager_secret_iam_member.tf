@@ -3,7 +3,7 @@ resource "google_secret_manager_secret_iam_member" "tf-sample-secret-manager-sec
   project   = ""
   role      = ""
   secret_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

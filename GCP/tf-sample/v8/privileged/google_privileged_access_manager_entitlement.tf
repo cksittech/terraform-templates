@@ -4,7 +4,7 @@ resource "google_privileged_access_manager_entitlement" "tf-sample-privileged-ac
   location             = ""
   max_request_duration = ""
   parent               = ""
-  
+
   additional_notification_targets {
     admin_email_recipients     = []
     requester_email_recipients = []
@@ -12,11 +12,11 @@ resource "google_privileged_access_manager_entitlement" "tf-sample-privileged-ac
   approval_workflow {
     manual_approvals {
       require_approver_justification = false
-      
+
       steps {
         approvals_needed          = 0
         approver_email_recipients = []
-        
+
         approvers {
           principals = []
         }
@@ -30,7 +30,7 @@ resource "google_privileged_access_manager_entitlement" "tf-sample-privileged-ac
     gcp_iam_access {
       resource      = ""
       resource_type = ""
-      
+
       role_bindings {
         condition_expression = ""
         role                 = ""

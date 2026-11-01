@@ -6,7 +6,7 @@ resource "google_compute_reservation" "tf-sample-compute-reservation" {
   project                       = ""
   specific_reservation_required = false
   zone                          = ""
-  
+
   delete_after_duration {
     nanos   = 0
     seconds = ""
@@ -19,7 +19,7 @@ resource "google_compute_reservation" "tf-sample-compute-reservation" {
   }
   share_settings {
     share_type = ""
-    
+
     project_map {
       id         = ""
       project_id = ""
@@ -28,11 +28,11 @@ resource "google_compute_reservation" "tf-sample-compute-reservation" {
   specific_reservation {
     count                    = 0
     source_instance_template = ""
-    
+
     instance_properties {
       machine_type     = ""
       min_cpu_platform = ""
-      
+
       guest_accelerators {
         accelerator_count = 0
         accelerator_type  = ""

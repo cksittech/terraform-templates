@@ -15,7 +15,7 @@ resource "google_compute_service_attachment" "tf-sample-compute-service-attachme
   send_propagated_connection_limit_if_zero = false
   show_nat_ips                             = false
   target_service                           = ""
-  
+
   consumer_accept_lists {
     connection_limit  = 0
     endpoint_url      = ""

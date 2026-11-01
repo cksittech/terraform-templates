@@ -4,13 +4,13 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
   duration            = ""
   patch_deployment_id = ""
   project             = ""
-  
+
   instance_filter {
     all                    = false
     instance_name_prefixes = []
     instances              = []
     zones                  = []
-    
+
     group_labels {
       labels = {}
     }
@@ -22,7 +22,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
     mig_instances_allowed = false
     reboot_config         = ""
     skip_unpatchable_vms  = false
-    
+
     apt {
       excludes           = []
       exclusive_packages = []
@@ -36,7 +36,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
         allowed_success_codes = []
         interpreter           = ""
         local_path            = ""
-        
+
         gcs_object {
           bucket            = ""
           generation_number = ""
@@ -47,7 +47,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
         allowed_success_codes = []
         interpreter           = ""
         local_path            = ""
-        
+
         gcs_object {
           bucket            = ""
           generation_number = ""
@@ -60,7 +60,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
         allowed_success_codes = []
         interpreter           = ""
         local_path            = ""
-        
+
         gcs_object {
           bucket            = ""
           generation_number = ""
@@ -71,7 +71,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
         allowed_success_codes = []
         interpreter           = ""
         local_path            = ""
-        
+
         gcs_object {
           bucket            = ""
           generation_number = ""
@@ -102,10 +102,10 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
   recurring_schedule {
     end_time   = ""
     start_time = ""
-    
+
     monthly {
       month_day = 0
-      
+
       week_day_of_month {
         day_of_week  = ""
         day_offset   = 0
@@ -128,7 +128,7 @@ resource "google_os_config_patch_deployment" "tf-sample-os-config-patch-deployme
   }
   rollout {
     mode = ""
-    
+
     disruption_budget {
       fixed      = 0
       percentage = 0

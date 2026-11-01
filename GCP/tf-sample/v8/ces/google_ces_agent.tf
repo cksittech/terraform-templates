@@ -10,7 +10,7 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
   location        = ""
   project         = ""
   tools           = []
-  
+
   after_agent_callbacks {
     description                 = ""
     disabled                    = false
@@ -61,12 +61,12 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
       input_variable_mapping  = {}
       output_variable_mapping = {}
       streaming_enabled       = false
-      
+
       agent_card {
         description = ""
         name        = ""
         version     = ""
-        
+
         skills {
           description  = ""
           examples     = []
@@ -121,7 +121,7 @@ resource "google_ces_agent" "tf-sample-ces-agent" {
   transfer_rules {
     child_agent = ""
     direction   = ""
-    
+
     deterministic_transfer {
       expression_condition {
         expression = ""

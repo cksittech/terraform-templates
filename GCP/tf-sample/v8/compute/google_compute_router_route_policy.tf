@@ -5,10 +5,10 @@ resource "google_compute_router_route_policy" "tf-sample-compute-router-route-po
   region          = ""
   router          = ""
   type            = ""
-  
+
   terms {
     priority = 0
-    
+
     actions {
       description = ""
       expression  = ""

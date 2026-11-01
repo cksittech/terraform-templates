@@ -17,7 +17,7 @@ resource "google_storage_bucket_object" "tf-sample-storage-bucket-object" {
   source_md5hash           = ""
   storage_class            = ""
   temporary_hold           = false
-  
+
   contexts {
     custom {
       key   = ""

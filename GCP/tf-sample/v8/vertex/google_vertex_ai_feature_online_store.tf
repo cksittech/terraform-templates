@@ -5,11 +5,11 @@ resource "google_vertex_ai_feature_online_store" "tf-sample-vertex-ai-feature-on
   name            = ""
   project         = ""
   region          = ""
-  
+
   bigtable {
     enable_direct_bigtable_access = false
     zone                          = ""
-    
+
     auto_scaling {
       cpu_utilization_target = 0
       max_node_count         = 0

@@ -12,10 +12,10 @@ resource "google_ces_app" "tf-sample-ces-app" {
   project             = ""
   root_agent          = ""
   tool_execution_mode = ""
-  
+
   audio_processing_config {
     inactivity_timeout = ""
-    
+
     ambient_sound_config {
       gcs_uri                = ""
       prebuilt_ambient_sound = ""
@@ -44,7 +44,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
     disable_barge_in_control = false
     disable_dtmf             = false
     profile_id               = ""
-    
+
     persona_property {
       persona = ""
     }
@@ -52,7 +52,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
       modality         = ""
       theme            = ""
       web_widget_title = ""
-      
+
       security_settings {
         allowed_origins      = []
         enable_origin_check  = false
@@ -68,7 +68,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
   }
   error_handling_settings {
     error_handling_strategy = ""
-    
+
     end_session_config {
       escalate_session = false
     }
@@ -80,7 +80,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
   evaluation_metrics_thresholds {
     golden_hallucination_metric_behavior   = ""
     scenario_hallucination_metric_behavior = ""
-    
+
     golden_evaluation_metrics_thresholds {
       expectation_level_metrics_thresholds {
         tool_invocation_parameter_correctness_threshold = 0
@@ -138,7 +138,7 @@ resource "google_ces_app" "tf-sample-ces-app" {
   variable_declarations {
     description = ""
     name        = ""
-    
+
     schema {
       additional_properties = ""
       any_of                = ""

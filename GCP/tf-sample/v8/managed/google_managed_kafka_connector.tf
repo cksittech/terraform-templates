@@ -5,7 +5,7 @@ resource "google_managed_kafka_connector" "tf-sample-managed-kafka-connector" {
   deletion_policy = ""
   location        = ""
   project         = ""
-  
+
   task_restart_policy {
     maximum_backoff = ""
     minimum_backoff = ""

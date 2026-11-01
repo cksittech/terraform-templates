@@ -5,7 +5,7 @@ resource "google_compute_region_network_firewall_policy_with_rules" "tf-sample-c
   policy_type     = ""
   project         = ""
   region          = ""
-  
+
   rule {
     action                  = ""
     description             = ""
@@ -19,7 +19,7 @@ resource "google_compute_region_network_firewall_policy_with_rules" "tf-sample-c
     target_service_accounts = []
     target_type             = ""
     tls_inspect             = false
-    
+
     match {
       dest_address_groups       = []
       dest_fqdns                = []
@@ -31,7 +31,7 @@ resource "google_compute_region_network_firewall_policy_with_rules" "tf-sample-c
       src_ip_ranges             = []
       src_region_codes          = []
       src_threat_intelligences  = []
-      
+
       layer4_config {
         ip_protocol = ""
         ports       = []

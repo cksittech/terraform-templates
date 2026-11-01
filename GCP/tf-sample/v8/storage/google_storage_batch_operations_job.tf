@@ -4,11 +4,11 @@ resource "google_storage_batch_operations_job" "tf-sample-storage-batch-operatio
   description       = ""
   job_id            = ""
   project           = ""
-  
+
   bucket_list {
     buckets {
       bucket = ""
-      
+
       manifest {
         manifest_location = ""
       }

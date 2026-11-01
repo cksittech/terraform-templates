@@ -13,6 +13,6 @@ resource "google_workflows_workflow" "tf-sample-workflows-workflow" {
   service_account         = ""
   source_contents         = ""
   user_env_vars           = {}
-  
+
   tags = {}
 }

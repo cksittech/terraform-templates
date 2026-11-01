@@ -6,7 +6,7 @@ resource "google_firebase_app_hosting_build" "tf-sample-firebase-app-hosting-bui
   labels       = {}
   location     = ""
   project      = ""
-  
+
   source {
     codebase {
       branch = ""

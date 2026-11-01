@@ -5,7 +5,7 @@ resource "google_beyondcorp_security_gateway_application" "tf-sample-beyondcorp-
   project             = ""
   schema              = ""
   security_gateway_id = ""
-  
+
   endpoint_matchers {
     hostname = ""
     ports    = []
@@ -28,10 +28,10 @@ resource "google_beyondcorp_security_gateway_application" "tf-sample-beyondcorp-
       client_ip              = false
       gateway_identity       = ""
       metadata_headers       = {}
-      
+
       contextual_headers {
         output_type = ""
-        
+
         device_info {
           output_type = ""
         }

@@ -6,10 +6,10 @@ resource "google_vector_search_data_object" "tf-sample-vector-search-data-object
   etag            = ""
   location        = ""
   project         = ""
-  
+
   vectors {
     field_name = ""
-    
+
     dense {
       values = []
     }

@@ -6,7 +6,7 @@ resource "google_gke_hub_rollout_sequence" "tf-sample-gke-hub-rollout-sequence" 
   min_node_version          = ""
   project                   = ""
   rollout_sequence_id       = ""
-  
+
   auto_upgrade_config {
     rollout_creation_scope {
       upgrade_types = []
@@ -18,7 +18,7 @@ resource "google_gke_hub_rollout_sequence" "tf-sample-gke-hub-rollout-sequence" 
   stages {
     fleet_projects = []
     soak_duration  = ""
-    
+
     cluster_selector {
       label_selector = ""
     }

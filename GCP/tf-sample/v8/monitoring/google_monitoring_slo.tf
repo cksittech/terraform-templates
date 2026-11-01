@@ -8,12 +8,12 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
   service             = ""
   slo_id              = ""
   user_labels         = {}
-  
+
   basic_sli {
     location = []
     method   = []
     version  = []
-    
+
     availability {
       enabled = false
     }
@@ -24,7 +24,7 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
   request_based_sli {
     distribution_cut {
       distribution_filter = ""
-      
+
       range {
         max = 0
         min = 0
@@ -39,15 +39,15 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
   windows_based_sli {
     good_bad_metric_filter = ""
     window_period          = ""
-    
+
     good_total_ratio_threshold {
       threshold = 0
-      
+
       basic_sli_performance {
         location = []
         method   = []
         version  = []
-        
+
         availability {
           enabled = false
         }
@@ -58,7 +58,7 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
       performance {
         distribution_cut {
           distribution_filter = ""
-          
+
           range {
             max = 0
             min = 0
@@ -73,7 +73,7 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
     }
     metric_mean_in_range {
       time_series = ""
-      
+
       range {
         max = 0
         min = 0
@@ -81,7 +81,7 @@ resource "google_monitoring_slo" "tf-sample-monitoring-slo" {
     }
     metric_sum_in_range {
       time_series = ""
-      
+
       range {
         max = 0
         min = 0

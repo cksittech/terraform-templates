@@ -7,7 +7,7 @@ resource "google_spanner_instance_partition" "tf-sample-spanner-instance-partiti
   node_count       = 0
   processing_units = 0
   project          = ""
-  
+
   autoscaling_config {
     autoscaling_limits {
       max_nodes            = 0

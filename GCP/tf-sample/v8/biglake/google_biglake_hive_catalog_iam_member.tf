@@ -3,7 +3,7 @@ resource "google_biglake_hive_catalog_iam_member" "tf-sample-biglake-hive-catalo
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

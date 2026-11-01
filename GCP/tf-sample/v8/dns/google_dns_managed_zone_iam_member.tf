@@ -3,7 +3,7 @@ resource "google_dns_managed_zone_iam_member" "tf-sample-dns-managed-zone-iam-me
   member       = ""
   project      = ""
   role         = ""
-  
+
   condition {
     description = ""
     expression  = ""

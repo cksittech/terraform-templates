@@ -14,10 +14,10 @@ resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
   remote_location      = ""
   requested_features   = []
   requested_link_count = 0
-  
+
   macsec {
     fail_open = false
-    
+
     pre_shared_keys {
       name       = ""
       start_time = ""

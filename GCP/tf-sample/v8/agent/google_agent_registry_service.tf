@@ -5,7 +5,7 @@ resource "google_agent_registry_service" "tf-sample-agent-registry-service" {
   location        = ""
   project         = ""
   service_id      = ""
-  
+
   agent_spec {
     content = ""
     type    = ""

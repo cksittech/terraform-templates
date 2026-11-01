@@ -6,7 +6,7 @@ resource "google_biglake_iceberg_table" "tf-sample-biglake-iceberg-table" {
   namespace       = ""
   project         = ""
   properties      = {}
-  
+
   partition_spec {
     fields {
       name      = ""
@@ -17,7 +17,7 @@ resource "google_biglake_iceberg_table" "tf-sample-biglake-iceberg-table" {
   schema {
     identifier_field_ids = []
     type                 = ""
-    
+
     fields {
       doc      = ""
       id       = 0

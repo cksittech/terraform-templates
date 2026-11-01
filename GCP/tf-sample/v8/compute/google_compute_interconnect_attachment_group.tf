@@ -4,7 +4,7 @@ resource "google_compute_interconnect_attachment_group" "tf-sample-compute-inter
   interconnect_group = ""
   name               = ""
   project            = ""
-  
+
   attachments {
     attachment = ""
     name       = ""

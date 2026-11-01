@@ -12,7 +12,7 @@ resource "google_dataproc_gdc_spark_application" "tf-sample-dataproc-gdc-spark-a
   serviceinstance         = ""
   spark_application_id    = ""
   version                 = ""
-  
+
   pyspark_application_config {
     archive_uris         = []
     args                 = []
@@ -39,7 +39,7 @@ resource "google_dataproc_gdc_spark_application" "tf-sample-dataproc-gdc-spark-a
     jar_file_uris    = []
     query_file_uri   = ""
     script_variables = {}
-    
+
     query_list {
       queries = []
     }

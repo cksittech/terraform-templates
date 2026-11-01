@@ -16,10 +16,10 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   server_ca_pool              = ""
   shard_count                 = 0
   transit_encryption_mode     = ""
-  
+
   automated_backup_config {
     retention = ""
-    
+
     fixed_frequency_schedule {
       start_time {
         hours = 0
@@ -28,7 +28,7 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   }
   cross_cluster_replication_config {
     cluster_role = ""
-    
+
     primary_cluster {
       cluster = ""
     }
@@ -42,7 +42,7 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   maintenance_policy {
     weekly_maintenance_window {
       day = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0
@@ -56,7 +56,7 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
   }
   persistence_config {
     mode = ""
-    
+
     aof_config {
       append_fsync = ""
     }

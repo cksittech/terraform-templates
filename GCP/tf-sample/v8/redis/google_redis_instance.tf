@@ -22,13 +22,13 @@ resource "google_redis_instance" "tf-sample-redis-instance" {
   secondary_ip_range      = ""
   tier                    = ""
   transit_encryption_mode = ""
-  
+
   maintenance_policy {
     description = ""
-    
+
     weekly_maintenance_window {
       day = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0

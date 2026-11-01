@@ -8,7 +8,7 @@ resource "google_dataplex_data_product" "tf-sample-dataplex-data-product" {
   location        = ""
   owner_emails    = []
   project         = ""
-  
+
   access_approval_config {
     approver_emails = []
   }
@@ -17,7 +17,7 @@ resource "google_dataplex_data_product" "tf-sample-dataplex-data-product" {
     display_name = ""
     group_id     = ""
     id           = ""
-    
+
     principal {
       google_group    = ""
       service_account = ""

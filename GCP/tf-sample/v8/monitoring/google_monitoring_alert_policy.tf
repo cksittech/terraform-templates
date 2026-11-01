@@ -7,11 +7,11 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
   project               = ""
   severity              = ""
   user_labels           = {}
-  
+
   alert_strategy {
     auto_close           = ""
     notification_prompts = []
-    
+
     notification_channel_strategy {
       notification_channel_names = []
       renotify_interval          = ""
@@ -22,11 +22,11 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
   }
   conditions {
     display_name = ""
-    
+
     condition_absent {
       duration = ""
       filter   = ""
-      
+
       aggregations {
         alignment_period     = ""
         cross_series_reducer = ""
@@ -46,7 +46,7 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
       duration                = ""
       evaluation_missing_data = ""
       query                   = ""
-      
+
       trigger {
         count   = 0
         percent = 0
@@ -63,13 +63,13 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
     }
     condition_sql {
       query = ""
-      
+
       boolean_test {
         column = ""
       }
       daily {
         periodicity = 0
-        
+
         execution_time {
           hours   = 0
           minutes = 0
@@ -96,7 +96,7 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
       evaluation_missing_data = ""
       filter                  = ""
       threshold_value         = 0
-      
+
       aggregations {
         alignment_period     = ""
         cross_series_reducer = ""
@@ -122,7 +122,7 @@ resource "google_monitoring_alert_policy" "tf-sample-monitoring-alert-policy" {
     content   = ""
     mime_type = ""
     subject   = ""
-    
+
     links {
       display_name = ""
       url          = ""

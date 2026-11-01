@@ -6,11 +6,11 @@ resource "google_network_security_server_tls_policy" "tf-sample-network-security
   location        = ""
   name            = ""
   project         = ""
-  
+
   mtls_policy {
     client_validation_mode         = ""
     client_validation_trust_config = ""
-    
+
     client_validation_ca {
       certificate_provider_instance {
         plugin_instance = ""

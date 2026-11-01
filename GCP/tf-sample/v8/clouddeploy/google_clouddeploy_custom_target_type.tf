@@ -6,14 +6,14 @@ resource "google_clouddeploy_custom_target_type" "tf-sample-clouddeploy-custom-t
   location        = ""
   name            = ""
   project         = ""
-  
+
   custom_actions {
     deploy_action = ""
     render_action = ""
-    
+
     include_skaffold_modules {
       configs = []
-      
+
       git {
         path = ""
         ref  = ""

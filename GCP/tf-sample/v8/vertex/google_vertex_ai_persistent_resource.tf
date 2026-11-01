@@ -7,13 +7,13 @@ resource "google_vertex_ai_persistent_resource" "tf-sample-vertex-ai-persistent-
   network            = ""
   project            = ""
   reserved_ip_ranges = []
-  
+
   encryption_spec {
     kms_key_name = ""
   }
   psc_interface_config {
     network_attachment = ""
-    
+
     dns_peering_configs {
       domain         = ""
       target_network = ""
@@ -23,7 +23,7 @@ resource "google_vertex_ai_persistent_resource" "tf-sample-vertex-ai-persistent-
   resource_pools {
     id            = ""
     replica_count = ""
-    
+
     autoscaling_spec {
       max_replica_count = ""
       min_replica_count = ""

@@ -7,7 +7,7 @@ resource "google_artifact_registry_rule" "tf-sample-artifact-registry-rule" {
   project         = ""
   repository_id   = ""
   rule_id         = ""
-  
+
   condition {
     description = ""
     expression  = ""

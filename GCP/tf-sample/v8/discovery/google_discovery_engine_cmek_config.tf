@@ -5,7 +5,7 @@ resource "google_discovery_engine_cmek_config" "tf-sample-discovery-engine-cmek-
   location        = ""
   project         = ""
   set_default     = false
-  
+
   single_region_keys {
     kms_key = ""
   }

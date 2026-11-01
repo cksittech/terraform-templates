@@ -8,7 +8,7 @@ resource "google_container_azure_node_pool" "tf-sample-container-azure-node-pool
   project                 = ""
   subnet_id               = ""
   version                 = ""
-  
+
   autoscaling {
     max_node_count = 0
     min_node_count = 0
@@ -16,7 +16,7 @@ resource "google_container_azure_node_pool" "tf-sample-container-azure-node-pool
   config {
     labels  = {}
     vm_size = ""
-    
+
     proxy_config {
       resource_group_id = ""
       secret_id         = ""

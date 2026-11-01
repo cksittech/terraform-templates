@@ -4,7 +4,7 @@ resource "google_dataproc_batch" "tf-sample-dataproc-batch" {
   labels          = {}
   location        = ""
   project         = ""
-  
+
   environment_config {
     execution_config {
       kms_key         = ""
@@ -14,14 +14,14 @@ resource "google_dataproc_batch" "tf-sample-dataproc-batch" {
       staging_bucket  = ""
       subnetwork_uri  = ""
       ttl             = ""
-      
+
       authentication_config {
         user_workload_authentication_type = ""
       }
     }
     peripherals_config {
       metastore_service = ""
-      
+
       spark_history_server_config {
         dataproc_cluster = ""
       }
@@ -40,7 +40,7 @@ resource "google_dataproc_batch" "tf-sample-dataproc-batch" {
     container_image = ""
     properties      = {}
     version         = ""
-    
+
     autotuning_config {
       scenarios = []
     }

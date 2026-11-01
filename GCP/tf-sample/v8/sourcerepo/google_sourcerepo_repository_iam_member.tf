@@ -3,7 +3,7 @@ resource "google_sourcerepo_repository_iam_member" "tf-sample-sourcerepo-reposit
   project    = ""
   repository = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

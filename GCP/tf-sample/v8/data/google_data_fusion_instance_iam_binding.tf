@@ -4,7 +4,7 @@ resource "google_data_fusion_instance_iam_binding" "tf-sample-data-fusion-instan
   project = ""
   region  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

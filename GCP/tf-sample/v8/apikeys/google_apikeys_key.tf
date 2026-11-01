@@ -5,7 +5,7 @@ resource "google_apikeys_key" "tf-sample-apikeys-key" {
   name                  = ""
   project               = ""
   service_account_email = ""
-  
+
   restrictions {
     android_key_restrictions {
       allowed_applications {

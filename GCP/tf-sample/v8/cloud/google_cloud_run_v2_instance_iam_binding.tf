@@ -4,7 +4,7 @@ resource "google_cloud_run_v2_instance_iam_binding" "tf-sample-cloud-run-v2-inst
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

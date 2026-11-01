@@ -6,7 +6,7 @@ resource "google_dataplex_asset_iam_binding" "tf-sample-dataplex-asset-iam-bindi
   members       = []
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

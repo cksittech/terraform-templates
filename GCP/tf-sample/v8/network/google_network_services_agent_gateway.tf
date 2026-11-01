@@ -7,7 +7,7 @@ resource "google_network_services_agent_gateway" "tf-sample-network-services-age
   name                        = ""
   project                     = ""
   registries                  = []
-  
+
   google_managed {
     governed_access_path = ""
   }

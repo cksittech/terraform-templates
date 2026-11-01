@@ -11,7 +11,7 @@ resource "google_bigquery_data_transfer_config" "tf-sample-bigquery-data-transfe
   project                   = ""
   schedule                  = ""
   service_account_name      = ""
-  
+
   email_preferences {
     enable_failure_email = false
   }

@@ -14,7 +14,7 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
   project                         = ""
   resource_tags                   = {}
   storage_billing_model           = ""
-  
+
   access {
     domain         = ""
     group_by_email = ""
@@ -22,7 +22,7 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
     role           = ""
     special_group  = ""
     user_by_email  = ""
-    
+
     condition {
       description = ""
       expression  = ""
@@ -31,7 +31,7 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
     }
     dataset {
       target_types = []
-      
+
       dataset {
         dataset_id = ""
         project_id = ""

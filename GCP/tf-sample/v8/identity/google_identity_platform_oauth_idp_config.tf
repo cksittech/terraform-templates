@@ -7,7 +7,7 @@ resource "google_identity_platform_oauth_idp_config" "tf-sample-identity-platfor
   issuer          = ""
   name            = ""
   project         = ""
-  
+
   response_type {
     code     = false
     id_token = false

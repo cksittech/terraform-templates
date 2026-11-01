@@ -3,7 +3,7 @@ resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" 
   display_name    = ""
   labels          = {}
   project         = ""
-  
+
   android_settings {
     allow_all_package_names = false
     allowed_package_names   = []
@@ -30,7 +30,7 @@ resource "google_recaptcha_enterprise_key" "tf-sample-recaptcha-enterprise-key" 
     allowed_domains               = []
     challenge_security_preference = ""
     integration_type              = ""
-    
+
     challenge_settings {
       action_settings {
         action          = ""

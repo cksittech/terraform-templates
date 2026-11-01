@@ -8,7 +8,7 @@ resource "google_logging_organization_sink" "tf-sample-logging-organization-sink
   intercept_children = false
   name               = ""
   org_id             = ""
-  
+
   bigquery_options {
     use_partitioned_tables = false
   }

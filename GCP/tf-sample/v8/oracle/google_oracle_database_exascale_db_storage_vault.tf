@@ -8,10 +8,10 @@ resource "google_oracle_database_exascale_db_storage_vault" "tf-sample-oracle-da
   labels                       = {}
   location                     = ""
   project                      = ""
-  
+
   properties {
     additional_flash_cache_percent = 0
-    
+
     exascale_db_storage_details {
       total_size_gbs = 0
     }

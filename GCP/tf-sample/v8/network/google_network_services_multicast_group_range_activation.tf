@@ -7,7 +7,7 @@ resource "google_network_services_multicast_group_range_activation" "tf-sample-n
   multicast_group_range               = ""
   multicast_group_range_activation_id = ""
   project                             = ""
-  
+
   log_config {
     enabled = false
   }

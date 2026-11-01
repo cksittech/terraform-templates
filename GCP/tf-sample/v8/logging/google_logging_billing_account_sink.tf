@@ -6,7 +6,7 @@ resource "google_logging_billing_account_sink" "tf-sample-logging-billing-accoun
   disabled        = false
   filter          = ""
   name            = ""
-  
+
   bigquery_options {
     use_partitioned_tables = false
   }

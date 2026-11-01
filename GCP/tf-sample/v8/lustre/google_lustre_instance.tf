@@ -13,12 +13,12 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
   placement_policy            = ""
   project                     = ""
   target_version              = ""
-  
+
   access_rules_options {
     default_squash_gid  = 0
     default_squash_mode = ""
     default_squash_uid  = 0
-    
+
     access_rules {
       ip_address_ranges = []
       name              = ""
@@ -49,7 +49,7 @@ resource "google_lustre_instance" "tf-sample-lustre-instance" {
     }
     weekly_maintenance_windows {
       day_of_week = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0

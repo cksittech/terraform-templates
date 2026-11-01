@@ -2,7 +2,7 @@ resource "google_access_context_manager_access_policy_iam_binding" "tf-sample-ac
   members = []
   name    = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

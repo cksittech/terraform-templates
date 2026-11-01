@@ -3,7 +3,7 @@ resource "google_endpoints_service_consumers_iam_binding" "tf-sample-endpoints-s
   members          = []
   role             = ""
   service_name     = ""
-  
+
   condition {
     description = ""
     expression  = ""

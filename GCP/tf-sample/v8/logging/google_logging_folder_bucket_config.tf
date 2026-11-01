@@ -5,7 +5,7 @@ resource "google_logging_folder_bucket_config" "tf-sample-logging-folder-bucket-
   folder          = ""
   location        = ""
   retention_days  = 0
-  
+
   cmek_settings {
     kms_key_name = ""
   }

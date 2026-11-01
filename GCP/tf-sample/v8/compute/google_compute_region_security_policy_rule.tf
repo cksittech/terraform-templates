@@ -7,10 +7,10 @@ resource "google_compute_region_security_policy_rule" "tf-sample-compute-region-
   project         = ""
   region          = ""
   security_policy = ""
-  
+
   match {
     versioned_expr = ""
-    
+
     config {
       src_ip_ranges = []
     }
@@ -26,7 +26,7 @@ resource "google_compute_region_security_policy_rule" "tf-sample-compute-region-
     src_ip_ranges    = []
     src_ports        = []
     src_region_codes = []
-    
+
     user_defined_fields {
       name   = ""
       values = []
@@ -36,7 +36,7 @@ resource "google_compute_region_security_policy_rule" "tf-sample-compute-region-
     exclusion {
       target_rule_ids = []
       target_rule_set = ""
-      
+
       request_body {
         operator = ""
         value    = ""
@@ -65,7 +65,7 @@ resource "google_compute_region_security_policy_rule" "tf-sample-compute-region-
     enforce_on_key      = ""
     enforce_on_key_name = ""
     exceed_action       = ""
-    
+
     ban_threshold {
       count        = 0
       interval_sec = 0

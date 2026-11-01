@@ -4,7 +4,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
   location                   = ""
   name                       = ""
   project                    = ""
-  
+
   metadata {
     annotations = {}
     labels      = {}
@@ -22,18 +22,18 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
       node_selector         = {}
       service_account_name  = ""
       timeout_seconds       = 0
-      
+
       containers {
         args             = []
         command          = []
         image            = ""
         name             = ""
         sandbox_launcher = false
-        
+
         env {
           name  = ""
           value = ""
-          
+
           value_from {
             secret_key_ref {
               key  = ""
@@ -46,7 +46,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
           initial_delay_seconds = 0
           period_seconds        = 0
           timeout_seconds       = 0
-          
+
           grpc {
             port    = 0
             service = ""
@@ -54,7 +54,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
           http_get {
             path = ""
             port = 0
-            
+
             http_headers {
               name  = ""
               value = ""
@@ -71,7 +71,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
           period_seconds    = 0
           success_threshold = 0
           timeout_seconds   = 0
-          
+
           grpc {
             port    = 0
             service = ""
@@ -90,7 +90,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
           initial_delay_seconds = 0
           period_seconds        = 0
           timeout_seconds       = 0
-          
+
           grpc {
             port    = 0
             service = ""
@@ -98,7 +98,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
           http_get {
             path = ""
             port = 0
-            
+
             http_headers {
               name  = ""
               value = ""
@@ -116,7 +116,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
       }
       volumes {
         name = ""
-        
+
         csi {
           driver            = ""
           read_only         = false
@@ -134,7 +134,7 @@ resource "google_cloud_run_service" "tf-sample-cloud-run-service" {
         secret {
           default_mode = 0
           secret_name  = ""
-          
+
           items {
             key  = ""
             mode = 0

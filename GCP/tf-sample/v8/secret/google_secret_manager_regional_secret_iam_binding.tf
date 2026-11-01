@@ -4,7 +4,7 @@ resource "google_secret_manager_regional_secret_iam_binding" "tf-sample-secret-m
   project   = ""
   role      = ""
   secret_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

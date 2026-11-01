@@ -6,17 +6,17 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
   policy_orchestrator_id = ""
   project                = ""
   state                  = ""
-  
+
   orchestrated_resource {
     id = ""
-    
+
     os_policy_assignment_v1_payload {
       description = ""
       name        = ""
-      
+
       instance_filter {
         all = false
-        
+
         exclusion_labels {
           labels = {}
         }
@@ -33,7 +33,7 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
         description                   = ""
         id                            = ""
         mode                          = ""
-        
+
         resource_groups {
           inventory_filters {
             os_short_name = ""
@@ -41,18 +41,18 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
           }
           resources {
             id = ""
-            
+
             exec {
               enforce {
                 args             = []
                 interpreter      = ""
                 output_file_path = ""
                 script           = ""
-                
+
                 file {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -69,11 +69,11 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
                 interpreter      = ""
                 output_file_path = ""
                 script           = ""
-                
+
                 file {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -91,11 +91,11 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
               path        = ""
               permissions = ""
               state       = ""
-              
+
               file {
                 allow_insecure = false
                 local_path     = ""
-                
+
                 gcs {
                   bucket     = ""
                   generation = ""
@@ -109,17 +109,17 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
             }
             pkg {
               desired_state = ""
-              
+
               apt {
                 name = ""
               }
               deb {
                 pull_deps = false
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -136,11 +136,11 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
               }
               msi {
                 properties = []
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -154,11 +154,11 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
               }
               rpm {
                 pull_deps = false
-                
+
                 source {
                   allow_insecure = false
                   local_path     = ""
-                  
+
                   gcs {
                     bucket     = ""
                     generation = ""
@@ -207,7 +207,7 @@ resource "google_os_config_v2_policy_orchestrator" "tf-sample-os-config-v2-polic
       }
       rollout {
         min_wait_duration = ""
-        
+
         disruption_budget {
           fixed   = 0
           percent = 0

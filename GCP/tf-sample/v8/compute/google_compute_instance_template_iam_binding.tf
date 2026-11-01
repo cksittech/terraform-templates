@@ -3,7 +3,7 @@ resource "google_compute_instance_template_iam_binding" "tf-sample-compute-insta
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

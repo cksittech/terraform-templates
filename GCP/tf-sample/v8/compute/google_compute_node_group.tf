@@ -7,7 +7,7 @@ resource "google_compute_node_group" "tf-sample-compute-node-group" {
   node_template      = ""
   project            = ""
   zone               = ""
-  
+
   autoscaling_policy {
     max_nodes = 0
     min_nodes = 0
@@ -18,7 +18,7 @@ resource "google_compute_node_group" "tf-sample-compute-node-group" {
   }
   share_settings {
     share_type = ""
-    
+
     project_map {
       id         = ""
       project_id = ""

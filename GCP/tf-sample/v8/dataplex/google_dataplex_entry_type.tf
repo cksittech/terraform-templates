@@ -9,7 +9,7 @@ resource "google_dataplex_entry_type" "tf-sample-dataplex-entry-type" {
   project         = ""
   system          = ""
   type_aliases    = []
-  
+
   required_aspects {
     type = ""
   }

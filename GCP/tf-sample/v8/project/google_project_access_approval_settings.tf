@@ -3,7 +3,7 @@ resource "google_project_access_approval_settings" "tf-sample-project-access-app
   deletion_policy     = ""
   notification_emails = []
   project_id          = ""
-  
+
   enrolled_services {
     cloud_product    = ""
     enrollment_level = ""

@@ -8,7 +8,7 @@ resource "google_compute_health_check" "tf-sample-compute-health-check" {
   source_regions      = []
   timeout_sec         = 0
   unhealthy_threshold = 0
-  
+
   grpc_health_check {
     grpc_service_name  = ""
     port               = 0

@@ -19,7 +19,7 @@ resource "google_compute_subnetwork" "tf-sample-compute-subnetwork" {
   role                             = ""
   send_secondary_ip_range_if_empty = false
   stack_type                       = ""
-  
+
   log_config {
     aggregation_interval = ""
     filter_expr          = ""

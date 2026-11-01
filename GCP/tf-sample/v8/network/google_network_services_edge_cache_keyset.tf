@@ -4,7 +4,7 @@ resource "google_network_services_edge_cache_keyset" "tf-sample-network-services
   labels          = {}
   name            = ""
   project         = ""
-  
+
   public_key {
     id      = ""
     managed = false

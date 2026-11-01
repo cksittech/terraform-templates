@@ -4,7 +4,7 @@ resource "google_compute_instance_iam_member" "tf-sample-compute-instance-iam-me
   project       = ""
   role          = ""
   zone          = ""
-  
+
   condition {
     description = ""
     expression  = ""

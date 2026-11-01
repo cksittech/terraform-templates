@@ -4,7 +4,7 @@ resource "google_document_ai_warehouse_document_schema" "tf-sample-document-ai-w
   document_is_folder = false
   location           = ""
   project_number     = ""
-  
+
   property_definitions {
     display_name         = ""
     is_filterable        = false
@@ -14,7 +14,7 @@ resource "google_document_ai_warehouse_document_schema" "tf-sample-document-ai-w
     is_searchable        = false
     name                 = ""
     retrieval_importance = ""
-    
+
     date_time_type_options {
     }
     enum_type_options {
@@ -37,7 +37,7 @@ resource "google_document_ai_warehouse_document_schema" "tf-sample-document-ai-w
         is_searchable        = false
         name                 = ""
         retrieval_importance = ""
-        
+
         date_time_type_options {
         }
         enum_type_options {

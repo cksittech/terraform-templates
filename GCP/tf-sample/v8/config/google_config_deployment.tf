@@ -12,10 +12,10 @@ resource "google_config_deployment" "tf-sample-config-deployment" {
   service_account           = ""
   tf_version_constraint     = ""
   worker_pool               = ""
-  
+
   terraform_blueprint {
     gcs_source = ""
-    
+
     git_source {
       directory = ""
       ref       = ""

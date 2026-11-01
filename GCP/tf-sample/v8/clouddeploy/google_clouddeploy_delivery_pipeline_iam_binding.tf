@@ -4,7 +4,7 @@ resource "google_clouddeploy_delivery_pipeline_iam_binding" "tf-sample-clouddepl
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

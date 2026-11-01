@@ -5,7 +5,7 @@ resource "google_biglake_iceberg_table_iam_binding" "tf-sample-biglake-iceberg-t
   namespace = ""
   project   = ""
   role      = ""
-  
+
   condition {
     description = ""
     expression  = ""

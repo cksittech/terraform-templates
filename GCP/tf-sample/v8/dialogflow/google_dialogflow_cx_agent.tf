@@ -14,7 +14,7 @@ resource "google_dialogflow_cx_agent" "tf-sample-dialogflow-cx-agent" {
   start_playbook                 = ""
   supported_language_codes       = []
   time_zone                      = ""
-  
+
   advanced_settings {
     audio_export_gcs_destination {
       uri = ""

@@ -8,7 +8,7 @@ resource "google_vmwareengine_external_access_rule" "tf-sample-vmwareengine-exte
   parent            = ""
   priority          = 0
   source_ports      = []
-  
+
   destination_ip_ranges {
     external_address = ""
     ip_address_range = ""

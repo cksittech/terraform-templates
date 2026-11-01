@@ -2,7 +2,7 @@ resource "google_data_catalog_policy_tag_iam_binding" "tf-sample-data-catalog-po
   members    = []
   policy_tag = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

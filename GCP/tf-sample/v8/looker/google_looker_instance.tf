@@ -12,7 +12,7 @@ resource "google_looker_instance" "tf-sample-looker-instance" {
   public_ip_enabled         = false
   region                    = ""
   reserved_range            = ""
-  
+
   admin_settings {
     allowed_email_domains = []
   }
@@ -46,7 +46,7 @@ resource "google_looker_instance" "tf-sample-looker-instance" {
   }
   maintenance_window {
     day_of_week = ""
-    
+
     start_time {
       hours   = 0
       minutes = 0
@@ -61,7 +61,7 @@ resource "google_looker_instance" "tf-sample-looker-instance" {
   periodic_export_config {
     gcs_uri = ""
     kms_key = ""
-    
+
     start_time {
       hours   = 0
       minutes = 0
@@ -71,7 +71,7 @@ resource "google_looker_instance" "tf-sample-looker-instance" {
   }
   psc_config {
     allowed_vpcs = []
-    
+
     service_attachments {
       local_fqdn                    = ""
       target_service_attachment_uri = ""

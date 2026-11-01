@@ -13,7 +13,7 @@ resource "google_privateca_certificate_authority" "tf-sample-privateca-certifica
   project                                = ""
   skip_grace_period                      = false
   type                                   = ""
-  
+
   config {
     subject_config {
       subject {
@@ -38,11 +38,11 @@ resource "google_privateca_certificate_authority" "tf-sample-privateca-certifica
     }
     x509_config {
       aia_ocsp_servers = []
-      
+
       additional_extensions {
         critical = false
         value    = ""
-        
+
         object_id {
           object_id_path = []
         }
@@ -99,7 +99,7 @@ resource "google_privateca_certificate_authority" "tf-sample-privateca-certifica
   }
   subordinate_config {
     certificate_authority = ""
-    
+
     pem_issuer_chain {
       pem_certificates = []
     }

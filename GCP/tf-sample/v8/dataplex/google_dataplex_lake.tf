@@ -6,7 +6,7 @@ resource "google_dataplex_lake" "tf-sample-dataplex-lake" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   metastore {
     service = ""
   }

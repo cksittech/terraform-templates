@@ -4,7 +4,7 @@ resource "google_spanner_database_iam_binding" "tf-sample-spanner-database-iam-b
   members  = []
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

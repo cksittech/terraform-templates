@@ -8,7 +8,7 @@ resource "google_bigquery_dataset_access" "tf-sample-bigquery-dataset-access" {
   role            = ""
   special_group   = ""
   user_by_email   = ""
-  
+
   condition {
     description = ""
     expression  = ""
@@ -17,7 +17,7 @@ resource "google_bigquery_dataset_access" "tf-sample-bigquery-dataset-access" {
   }
   dataset {
     target_types = []
-    
+
     dataset {
       dataset_id = ""
       project_id = ""

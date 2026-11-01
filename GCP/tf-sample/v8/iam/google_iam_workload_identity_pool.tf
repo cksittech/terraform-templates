@@ -6,7 +6,7 @@ resource "google_iam_workload_identity_pool" "tf-sample-iam-workload-identity-po
   mode                      = ""
   project                   = ""
   workload_identity_pool_id = ""
-  
+
   attestation_rules {
     google_cloud_resource = ""
   }
@@ -21,7 +21,7 @@ resource "google_iam_workload_identity_pool" "tf-sample-iam-workload-identity-po
     additional_trust_bundles {
       trust_default_shared_ca = false
       trust_domain            = ""
-      
+
       trust_anchors {
         pem_certificate = ""
       }

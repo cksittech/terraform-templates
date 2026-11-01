@@ -6,20 +6,20 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
   instance        = ""
   location        = ""
   project         = ""
-  
+
   details {
     asset_namespace  = ""
     feed_source_type = ""
     labels           = {}
     log_type         = ""
-    
+
     amazon_kinesis_firehose_settings {
     }
     amazon_s3_settings {
       s3_uri                 = ""
       source_deletion_option = ""
       source_type            = ""
-      
+
       authentication {
         access_key_id     = ""
         client_id         = ""
@@ -33,7 +33,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       max_lookback_days      = 0
       s3_uri                 = ""
       source_deletion_option = ""
-      
+
       authentication {
         access_key_secret_auth {
           access_key_id     = ""
@@ -50,7 +50,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       queue                  = ""
       region                 = ""
       source_deletion_option = ""
-      
+
       authentication {
         additional_s3_access_key_secret_auth {
           access_key_id     = ""
@@ -67,7 +67,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       queue                  = ""
       s3_uri                 = ""
       source_deletion_option = ""
-      
+
       authentication {
         aws_iam_role_auth {
           aws_iam_role_arn = ""
@@ -105,7 +105,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     aws_iam_settings {
       api_type = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -115,7 +115,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       auth_endpoint = ""
       hostname      = ""
       tenant_id     = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -127,7 +127,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       retrieve_devices = false
       retrieve_groups  = false
       tenant_id        = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -137,7 +137,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       auth_endpoint = ""
       hostname      = ""
       tenant_id     = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -147,7 +147,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       azure_uri              = ""
       source_deletion_option = ""
       source_type            = ""
-      
+
       authentication {
         sas_token  = ""
         shared_key = ""
@@ -157,11 +157,11 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       azure_uri              = ""
       max_lookback_days      = 0
       source_deletion_option = ""
-      
+
       authentication {
         access_key = ""
         sas_token  = ""
-        
+
         azure_v2_workload_identity_federation {
           client_id  = ""
           subject_id = ""
@@ -181,7 +181,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       auth_endpoint = ""
       hostname      = ""
       tenant_id     = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -189,7 +189,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     cloud_passage_settings {
       event_types = []
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -198,7 +198,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     cortex_xdr_settings {
       endpoint = ""
       hostname = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -209,7 +209,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     crowdstrike_alerts_settings {
       hostname       = ""
       ingestion_type = ""
-      
+
       authentication {
         client_id      = ""
         client_secret  = ""
@@ -219,7 +219,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     crowdstrike_detects_settings {
       hostname       = ""
       ingestion_type = ""
-      
+
       authentication {
         client_id      = ""
         client_secret  = ""
@@ -228,7 +228,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     dummy_log_type_settings {
       api_endpoint = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -238,7 +238,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     duo_auth_settings {
       hostname = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -246,7 +246,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     duo_user_context_settings {
       hostname = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -255,7 +255,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     fox_it_stix_settings {
       collection       = ""
       poll_service_uri = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -278,7 +278,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     google_cloud_identity_device_users_settings {
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -291,10 +291,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     google_cloud_identity_devices_settings {
       api_version = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -335,7 +335,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     mandiant_ioc_settings {
       start_time = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -347,7 +347,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       auth_endpoint = ""
       hostname      = ""
       tenant_id     = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -358,7 +358,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       hostname        = ""
       subscription_id = ""
       tenant_id       = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -366,7 +366,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     mimecast_mail_settings {
       hostname = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -384,7 +384,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       content_type = ""
       feedname     = ""
       hostname     = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -396,7 +396,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       content_category = ""
       content_types    = []
       hostname         = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -409,7 +409,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       content_type  = ""
       hostname      = ""
       tenant_id     = ""
-      
+
       authentication {
         client_id     = ""
         client_secret = ""
@@ -417,7 +417,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     okta_settings {
       hostname = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -428,7 +428,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     okta_user_context_settings {
       hostname                   = ""
       manager_id_reference_field = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -439,7 +439,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     pan_ioc_settings {
       feed    = ""
       feed_id = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -449,7 +449,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     pan_prisma_cloud_settings {
       hostname = ""
-      
+
       authentication {
         password = ""
         user     = ""
@@ -463,7 +463,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     proofpoint_on_demand_settings {
       cluster_id = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -477,7 +477,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     qualys_scan_settings {
       api_type = ""
       hostname = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -485,7 +485,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     qualys_vm_settings {
       hostname = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -494,7 +494,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     rapid7_insight_settings {
       endpoint = ""
       hostname = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -519,10 +519,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     salesforce_settings {
       hostname = ""
-      
+
       oauth_jwt_credentials {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -544,7 +544,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       hostname                = ""
       initial_start_time      = ""
       is_alert_api_subscribed = false
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -555,7 +555,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     service_now_cmdb_settings {
       feedname = ""
       hostname = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -565,7 +565,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       source_deletion_option = ""
       source_type            = ""
       uri                    = ""
-      
+
       authentication {
         password               = ""
         private_key            = ""
@@ -583,7 +583,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     thinkst_canary_settings {
       hostname = ""
-      
+
       authentication {
         header_key_values {
           key   = ""
@@ -594,7 +594,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     threat_connect_ioc_settings {
       hostname = ""
       owners   = []
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -606,7 +606,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
       owners    = []
       schedule  = 0
       tql_query = ""
-      
+
       authentication {
         secret = ""
         user   = ""
@@ -614,7 +614,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     trellix_hx_alerts_settings {
       endpoint = ""
-      
+
       authentication {
         msso {
           api_endpoint = ""
@@ -630,7 +630,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     trellix_hx_bulk_acqs_settings {
       endpoint = ""
-      
+
       authentication {
         msso {
           api_endpoint = ""
@@ -646,7 +646,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     trellix_hx_hosts_settings {
       endpoint = ""
-      
+
       authentication {
         msso {
           api_endpoint = ""
@@ -665,7 +665,7 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     workday_settings {
       hostname  = ""
       tenant_id = ""
-      
+
       authentication {
         client_id      = ""
         client_secret  = ""
@@ -678,10 +678,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     workspace_activity_settings {
       applications          = []
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -694,10 +694,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     workspace_alerts_settings {
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -710,10 +710,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     workspace_chrome_os_settings {
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -726,10 +726,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     workspace_groups_settings {
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -742,10 +742,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     workspace_mobile_settings {
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -758,10 +758,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     }
     workspace_privileges_settings {
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""
@@ -775,10 +775,10 @@ resource "google_chronicle_feed" "tf-sample-chronicle-feed" {
     workspace_users_settings {
       projection_type       = ""
       workspace_customer_id = ""
-      
+
       authentication {
         token_endpoint = ""
-        
+
         claims {
           audience = ""
           issuer   = ""

@@ -8,7 +8,7 @@ resource "google_gkeonprem_vmware_admin_cluster" "tf-sample-gkeonprem-vmware-adm
   name                         = ""
   on_prem_version              = ""
   project                      = ""
-  
+
   addon_node {
     auto_resize_config {
       enabled = false
@@ -55,7 +55,7 @@ resource "google_gkeonprem_vmware_admin_cluster" "tf-sample-gkeonprem-vmware-adm
     pod_address_cidr_blocks     = []
     service_address_cidr_blocks = []
     vcenter_network             = ""
-    
+
     dhcp_ip_config {
       enabled = false
     }
@@ -63,7 +63,7 @@ resource "google_gkeonprem_vmware_admin_cluster" "tf-sample-gkeonprem-vmware-adm
       control_plane_ip_block {
         gateway = ""
         netmask = ""
-        
+
         ips {
           hostname = ""
           ip       = ""
@@ -79,7 +79,7 @@ resource "google_gkeonprem_vmware_admin_cluster" "tf-sample-gkeonprem-vmware-adm
       ip_blocks {
         gateway = ""
         netmask = ""
-        
+
         ips {
           hostname = ""
           ip       = ""

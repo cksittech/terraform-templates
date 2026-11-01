@@ -6,7 +6,7 @@ resource "google_network_security_client_tls_policy" "tf-sample-network-security
   name            = ""
   project         = ""
   sni             = ""
-  
+
   client_certificate {
     certificate_provider_instance {
       plugin_instance = ""

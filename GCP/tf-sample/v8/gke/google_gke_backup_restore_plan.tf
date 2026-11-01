@@ -7,18 +7,18 @@ resource "google_gke_backup_restore_plan" "tf-sample-gke-backup-restore-plan" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   restore_config {
     all_namespaces                   = false
     cluster_resource_conflict_policy = ""
     namespaced_resource_restore_mode = ""
     no_namespaces                    = false
     volume_data_restore_policy       = ""
-    
+
     cluster_resource_restore_scope {
       all_group_kinds = false
       no_group_kinds  = false
-      
+
       excluded_group_kinds {
         resource_group = ""
         resource_kind  = ""
@@ -54,7 +54,7 @@ resource "google_gke_backup_restore_plan" "tf-sample-gke-backup-restore-plan" {
     }
     transformation_rules {
       description = ""
-      
+
       field_actions {
         from_path = ""
         op        = ""
@@ -64,7 +64,7 @@ resource "google_gke_backup_restore_plan" "tf-sample-gke-backup-restore-plan" {
       resource_filter {
         json_path  = ""
         namespaces = []
-        
+
         group_kinds {
           resource_group = ""
           resource_kind  = ""

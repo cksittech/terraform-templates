@@ -16,18 +16,18 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
   project                          = ""
   restart_policy                   = ""
   service_account                  = ""
-  
+
   containers {
     args        = []
     command     = []
     image       = ""
     name        = ""
     working_dir = ""
-    
+
     env {
       name  = ""
       value = ""
-      
+
       value_source {
         secret_key_ref {
           secret  = ""
@@ -40,7 +40,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
       initial_delay_seconds = 0
       period_seconds        = 0
       timeout_seconds       = 0
-      
+
       grpc {
         port    = 0
         service = ""
@@ -48,7 +48,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
       http_get {
         path = ""
         port = 0
-        
+
         http_headers {
           name  = ""
           value = ""
@@ -67,7 +67,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
       initial_delay_seconds = 0
       period_seconds        = 0
       timeout_seconds       = 0
-      
+
       grpc {
         port    = 0
         service = ""
@@ -75,7 +75,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
       http_get {
         path = ""
         port = 0
-        
+
         http_headers {
           name  = ""
           value = ""
@@ -93,7 +93,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
   }
   volumes {
     name = ""
-    
+
     cloud_sql_instance {
       instances = []
     }
@@ -114,7 +114,7 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
     secret {
       default_mode = 0
       secret       = ""
-      
+
       items {
         mode    = 0
         path    = ""

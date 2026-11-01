@@ -4,7 +4,7 @@ resource "google_cloud_tasks_queue" "tf-sample-cloud-tasks-queue" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   app_engine_routing_override {
     instance = ""
     service  = ""
@@ -12,7 +12,7 @@ resource "google_cloud_tasks_queue" "tf-sample-cloud-tasks-queue" {
   }
   http_target {
     http_method = ""
-    
+
     header_overrides {
       header {
         key   = ""
@@ -32,7 +32,7 @@ resource "google_cloud_tasks_queue" "tf-sample-cloud-tasks-queue" {
       port                      = ""
       scheme                    = ""
       uri_override_enforce_mode = ""
-      
+
       path_override {
         path = ""
       }

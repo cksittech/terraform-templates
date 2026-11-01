@@ -2,7 +2,7 @@ resource "google_firebase_app_hosting_traffic" "tf-sample-firebase-app-hosting-t
   backend  = ""
   location = ""
   project  = ""
-  
+
   rollout_policy {
     codebase_branch = ""
     disabled        = false

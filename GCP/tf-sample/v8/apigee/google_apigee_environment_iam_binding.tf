@@ -3,7 +3,7 @@ resource "google_apigee_environment_iam_binding" "tf-sample-apigee-environment-i
   members = []
   org_id  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

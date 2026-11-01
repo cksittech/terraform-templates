@@ -6,7 +6,7 @@ resource "google_discovery_engine_recommendation_engine" "tf-sample-discovery-en
   industry_vertical = ""
   location          = ""
   project           = ""
-  
+
   common_config {
     company_name = ""
   }
@@ -14,7 +14,7 @@ resource "google_discovery_engine_recommendation_engine" "tf-sample-discovery-en
     optimization_objective = ""
     training_state         = ""
     type                   = ""
-    
+
     engine_features_config {
       most_popular_config {
         time_window_days = 0

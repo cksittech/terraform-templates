@@ -2,7 +2,7 @@ resource "google_healthcare_dicom_store_iam_member" "tf-sample-healthcare-dicom-
   dicom_store_id = ""
   member         = ""
   role           = ""
-  
+
   condition {
     description = ""
     expression  = ""

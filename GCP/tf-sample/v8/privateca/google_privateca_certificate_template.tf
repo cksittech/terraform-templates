@@ -6,11 +6,11 @@ resource "google_privateca_certificate_template" "tf-sample-privateca-certificat
   maximum_lifetime = ""
   name             = ""
   project          = ""
-  
+
   identity_constraints {
     allow_subject_alt_names_passthrough = false
     allow_subject_passthrough           = false
-    
+
     cel_expression {
       description = ""
       expression  = ""
@@ -20,18 +20,18 @@ resource "google_privateca_certificate_template" "tf-sample-privateca-certificat
   }
   passthrough_extensions {
     known_extensions = []
-    
+
     additional_extensions {
       object_id_path = []
     }
   }
   predefined_values {
     aia_ocsp_servers = []
-    
+
     additional_extensions {
       critical = false
       value    = ""
-      
+
       object_id {
         object_id_path = []
       }

@@ -7,11 +7,11 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
   labels          = {}
   location        = ""
   project         = ""
-  
+
   data_analytics_agent {
     published_context {
       system_instruction = ""
-      
+
       datasource_references {
         bq {
           property_graph_references {
@@ -23,12 +23,12 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
             dataset_id = ""
             project_id = ""
             table_id   = ""
-            
+
             schema {
               description  = ""
               display_name = ""
               synonyms     = []
-              
+
               fields {
                 category     = ""
                 description  = ""
@@ -52,7 +52,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
             explore             = ""
             looker_instance_uri = ""
             lookml_model        = ""
-            
+
             private_looker_instance_info {
               looker_instance_id     = ""
               service_directory_name = ""
@@ -61,7 +61,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
               description  = ""
               display_name = ""
               synonyms     = []
-              
+
               fields {
                 category     = ""
                 description  = ""
@@ -89,7 +89,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       example_queries {
         natural_language_question = ""
         sql_query                 = ""
-        
+
         parameters {
           data_type   = ""
           description = ""
@@ -103,7 +103,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       }
       looker_golden_queries {
         natural_language_questions = []
-        
+
         looker_query {
           client_id = ""
           explore   = ""
@@ -112,7 +112,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
           model     = ""
           query_id  = ""
           sorts     = []
-          
+
           filters {
             field = ""
             value = ""
@@ -121,7 +121,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       }
       options {
         model = ""
-        
+
         analysis {
           python {
             enabled = false
@@ -134,7 +134,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       schema_relationships {
         confidence_score = 0
         sources          = []
-        
+
         left_schema_paths {
           paths     = []
           table_fqn = ""
@@ -147,7 +147,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       user_functions {
         bq_routines {
           description = ""
-          
+
           routine_reference {
             dataset_id = ""
             project_id = ""
@@ -158,7 +158,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
     }
     staging_context {
       system_instruction = ""
-      
+
       datasource_references {
         bq {
           property_graph_references {
@@ -170,12 +170,12 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
             dataset_id = ""
             project_id = ""
             table_id   = ""
-            
+
             schema {
               description  = ""
               display_name = ""
               synonyms     = []
-              
+
               fields {
                 category     = ""
                 description  = ""
@@ -199,7 +199,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
             explore             = ""
             looker_instance_uri = ""
             lookml_model        = ""
-            
+
             private_looker_instance_info {
               looker_instance_id     = ""
               service_directory_name = ""
@@ -208,7 +208,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
               description  = ""
               display_name = ""
               synonyms     = []
-              
+
               fields {
                 category     = ""
                 description  = ""
@@ -236,7 +236,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       example_queries {
         natural_language_question = ""
         sql_query                 = ""
-        
+
         parameters {
           data_type   = ""
           description = ""
@@ -250,7 +250,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       }
       looker_golden_queries {
         natural_language_questions = []
-        
+
         looker_query {
           client_id = ""
           explore   = ""
@@ -259,7 +259,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
           model     = ""
           query_id  = ""
           sorts     = []
-          
+
           filters {
             field = ""
             value = ""
@@ -268,7 +268,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       }
       options {
         model = ""
-        
+
         analysis {
           python {
             enabled = false
@@ -281,7 +281,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       schema_relationships {
         confidence_score = 0
         sources          = []
-        
+
         left_schema_paths {
           paths     = []
           table_fqn = ""
@@ -294,7 +294,7 @@ resource "google_gemini_data_analytics_data_agent" "tf-sample-gemini-data-analyt
       user_functions {
         bq_routines {
           description = ""
-          
+
           routine_reference {
             dataset_id = ""
             project_id = ""

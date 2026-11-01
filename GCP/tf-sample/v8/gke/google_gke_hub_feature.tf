@@ -4,18 +4,18 @@ resource "google_gke_hub_feature" "tf-sample-gke-hub-feature" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   fleet_default_member_config {
     configmanagement {
       management = ""
       version    = ""
-      
+
       config_sync {
         enabled                           = false
         metrics_gcp_service_account_email = ""
         prevent_drift                     = false
         source_format                     = ""
-        
+
         git {
           gcp_service_account_email = ""
           https_proxy               = ""
@@ -40,7 +40,7 @@ resource "google_gke_hub_feature" "tf-sample-gke-hub-feature" {
     }
     policycontroller {
       version = ""
-      
+
       policy_controller_hub_config {
         audit_interval_seconds     = 0
         constraint_violation_limit = 0
@@ -49,12 +49,12 @@ resource "google_gke_hub_feature" "tf-sample-gke-hub-feature" {
         log_denies_enabled         = false
         mutation_enabled           = false
         referential_rules_enabled  = false
-        
+
         deployment_configs {
           component     = ""
           pod_affinity  = ""
           replica_count = 0
-          
+
           container_resources {
             limits {
               cpu    = ""
@@ -90,7 +90,7 @@ resource "google_gke_hub_feature" "tf-sample-gke-hub-feature" {
   spec {
     clusterupgrade {
       upstream_fleets = []
-      
+
       gke_upgrade_overrides {
         post_conditions {
           soaking = ""

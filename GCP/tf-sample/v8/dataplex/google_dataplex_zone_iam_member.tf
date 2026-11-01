@@ -5,7 +5,7 @@ resource "google_dataplex_zone_iam_member" "tf-sample-dataplex-zone-iam-member" 
   member        = ""
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -8,13 +8,13 @@ resource "google_dataplex_zone" "tf-sample-dataplex-zone" {
   name            = ""
   project         = ""
   type            = ""
-  
+
   discovery_spec {
     enabled          = false
     exclude_patterns = []
     include_patterns = []
     schedule         = ""
-    
+
     csv_options {
       delimiter              = ""
       disable_type_inference = false

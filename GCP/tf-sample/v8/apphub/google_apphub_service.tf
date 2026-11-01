@@ -7,7 +7,7 @@ resource "google_apphub_service" "tf-sample-apphub-service" {
   location           = ""
   project            = ""
   service_id         = ""
-  
+
   attributes {
     business_owners {
       display_name = ""

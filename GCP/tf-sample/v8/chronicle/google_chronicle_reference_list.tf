@@ -5,7 +5,7 @@ resource "google_chronicle_reference_list" "tf-sample-chronicle-reference-list" 
   project           = ""
   reference_list_id = ""
   syntax_type       = ""
-  
+
   entries {
     value = ""
   }

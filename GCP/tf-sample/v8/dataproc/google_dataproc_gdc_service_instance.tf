@@ -6,7 +6,7 @@ resource "google_dataproc_gdc_service_instance" "tf-sample-dataproc-gdc-service-
   project             = ""
   service_account     = ""
   service_instance_id = ""
-  
+
   gdce_cluster {
     gdce_cluster = ""
   }

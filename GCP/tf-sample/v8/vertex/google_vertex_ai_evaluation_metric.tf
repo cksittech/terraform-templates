@@ -8,7 +8,7 @@ resource "google_vertex_ai_evaluation_metric" "tf-sample-vertex-ai-evaluation-me
   metric               = ""
   project              = ""
   region               = ""
-  
+
   encryption_spec {
     kms_key_name = ""
   }

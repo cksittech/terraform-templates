@@ -4,7 +4,7 @@ resource "google_iap_app_engine_service_iam_binding" "tf-sample-iap-app-engine-s
   project = ""
   role    = ""
   service = ""
-  
+
   condition {
     description = ""
     expression  = ""

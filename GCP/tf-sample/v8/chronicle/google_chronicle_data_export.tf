@@ -7,7 +7,7 @@ resource "google_chronicle_data_export" "tf-sample-chronicle-data-export" {
   namespaces        = []
   project           = ""
   start_time        = ""
-  
+
   ingestion_labels {
     key   = ""
     value = ""

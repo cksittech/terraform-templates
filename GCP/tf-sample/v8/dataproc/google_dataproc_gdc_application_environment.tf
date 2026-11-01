@@ -8,7 +8,7 @@ resource "google_dataproc_gdc_application_environment" "tf-sample-dataproc-gdc-a
   namespace                  = ""
   project                    = ""
   serviceinstance            = ""
-  
+
   spark_application_environment_config {
     default_properties = {}
     default_version    = ""

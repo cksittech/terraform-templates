@@ -5,7 +5,7 @@ resource "google_blockchain_node_engine_blockchain_nodes" "tf-sample-blockchain-
   labels             = {}
   location           = ""
   project            = ""
-  
+
   ethereum_details {
     api_enable_admin = false
     api_enable_debug = false
@@ -13,7 +13,7 @@ resource "google_blockchain_node_engine_blockchain_nodes" "tf-sample-blockchain-
     execution_client = ""
     network          = ""
     node_type        = ""
-    
+
     geth_details {
       garbage_collection_mode = ""
     }

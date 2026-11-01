@@ -7,7 +7,7 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
   guardrail_id    = ""
   location        = ""
   project         = ""
-  
+
   action {
     generative_answer {
       prompt = ""
@@ -61,7 +61,7 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
     max_conversation_messages = 0
     policy_scope              = ""
     prompt                    = ""
-    
+
     model_settings {
       model          = ""
       temperature    = 0
@@ -70,14 +70,14 @@ resource "google_ces_guardrail" "tf-sample-ces-guardrail" {
   }
   llm_prompt_security {
     fail_open = false
-    
+
     custom_policy {
       allow_short_utterance     = false
       fail_open                 = false
       max_conversation_messages = 0
       policy_scope              = ""
       prompt                    = ""
-      
+
       model_settings {
         model          = ""
         temperature    = 0

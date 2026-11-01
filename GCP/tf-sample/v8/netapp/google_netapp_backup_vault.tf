@@ -8,7 +8,7 @@ resource "google_netapp_backup_vault" "tf-sample-netapp-backup-vault" {
   location          = ""
   name              = ""
   project           = ""
-  
+
   backup_retention_policy {
     backup_minimum_enforced_retention_days = 0
     daily_backup_immutable                 = false

@@ -5,7 +5,7 @@ resource "google_managed_kafka_cluster" "tf-sample-managed-kafka-cluster" {
   labels          = {}
   location        = ""
   project         = ""
-  
+
   broker_capacity_config {
     disk_size_gib = ""
   }
@@ -15,7 +15,7 @@ resource "google_managed_kafka_cluster" "tf-sample-managed-kafka-cluster" {
   }
   gcp_config {
     kms_key = ""
-    
+
     access_config {
       network_configs {
         subnet = ""
@@ -30,7 +30,7 @@ resource "google_managed_kafka_cluster" "tf-sample-managed-kafka-cluster" {
   }
   tls_config {
     ssl_principal_mapping_rules = ""
-    
+
     trust_config {
       cas_configs {
         ca_pool = ""

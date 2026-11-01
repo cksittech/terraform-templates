@@ -22,7 +22,7 @@ resource "google_compute_router_nat" "tf-sample-compute-router-nat" {
   tcp_transitory_idle_timeout_sec      = 0
   type                                 = ""
   udp_idle_timeout_sec                 = 0
-  
+
   log_config {
     enable = false
     filter = ""
@@ -34,7 +34,7 @@ resource "google_compute_router_nat" "tf-sample-compute-router-nat" {
     description = ""
     match       = ""
     rule_number = 0
-    
+
     action {
       source_nat_active_ips    = []
       source_nat_active_ranges = []

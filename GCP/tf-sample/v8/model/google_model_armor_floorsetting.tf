@@ -3,7 +3,7 @@ resource "google_model_armor_floorsetting" "tf-sample-model-armor-floorsetting" 
   integrated_services              = []
   location                         = ""
   parent                           = ""
-  
+
   ai_platform_floor_setting {
     enable_cloud_logging = false
     inspect_and_block    = false

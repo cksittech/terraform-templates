@@ -7,7 +7,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
   deletion_policy            = ""
   location                   = ""
   request_id                 = ""
-  
+
   compute_instance_restore_properties {
     can_ip_forward             = false
     deletion_protection        = false
@@ -19,7 +19,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
     name                       = ""
     private_ipv6_google_access = ""
     resource_policies          = []
-    
+
     advanced_machine_features {
       enable_nested_virtualization = false
       enable_uefi_networking       = false
@@ -48,7 +48,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
       saved_state    = ""
       source         = ""
       type           = ""
-      
+
       disk_encryption_key {
         kms_key_name            = ""
         kms_key_service_account = ""
@@ -97,7 +97,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
       queue_count                 = 0
       stack_type                  = ""
       subnetwork                  = ""
-      
+
       access_configs {
         external_ip                 = ""
         external_ipv6               = ""
@@ -140,7 +140,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
       preemptible                 = false
       provisioning_model          = ""
       termination_time            = ""
-      
+
       local_ssd_recovery_timeout {
         nanos   = 0
         seconds = 0
@@ -187,7 +187,7 @@ resource "google_backup_dr_restore_workload" "tf-sample-backup-dr-restore-worklo
     size_gb                     = 0
     storage_pool                = ""
     type                        = ""
-    
+
     disk_encryption_key {
       kms_key_name            = ""
       kms_key_service_account = ""

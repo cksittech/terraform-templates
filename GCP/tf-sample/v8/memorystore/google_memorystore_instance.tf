@@ -18,10 +18,10 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   server_ca_pool              = ""
   shard_count                 = 0
   transit_encryption_mode     = ""
-  
+
   automated_backup_config {
     retention = ""
-    
+
     fixed_frequency_schedule {
       start_time {
         hours = 0
@@ -30,7 +30,7 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   }
   cross_instance_replication_config {
     instance_role = ""
-    
+
     primary_instance {
       instance = ""
     }
@@ -48,7 +48,7 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   maintenance_policy {
     weekly_maintenance_window {
       day = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0
@@ -62,7 +62,7 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
   }
   persistence_config {
     mode = ""
-    
+
     aof_config {
       append_fsync = ""
     }

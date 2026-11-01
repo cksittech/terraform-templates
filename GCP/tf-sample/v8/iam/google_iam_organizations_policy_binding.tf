@@ -7,7 +7,7 @@ resource "google_iam_organizations_policy_binding" "tf-sample-iam-organizations-
   policy            = ""
   policy_binding_id = ""
   policy_kind       = ""
-  
+
   condition {
     description = ""
     expression  = ""

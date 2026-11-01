@@ -7,7 +7,7 @@ resource "google_bigtable_table" "tf-sample-bigtable-table" {
   project                 = ""
   row_key_schema          = ""
   split_keys              = []
-  
+
   automated_backup_policy {
     frequency        = ""
     locations        = []

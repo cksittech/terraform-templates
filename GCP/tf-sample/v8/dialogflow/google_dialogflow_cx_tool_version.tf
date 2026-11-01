@@ -2,11 +2,11 @@ resource "google_dialogflow_cx_tool_version" "tf-sample-dialogflow-cx-tool-versi
   deletion_policy = ""
   display_name    = ""
   parent          = ""
-  
+
   tool {
     description  = ""
     display_name = ""
-    
+
     data_store_spec {
       data_store_connections {
         data_store               = ""
@@ -22,7 +22,7 @@ resource "google_dialogflow_cx_tool_version" "tf-sample-dialogflow-cx-tool-versi
     }
     open_api_spec {
       text_schema = ""
-      
+
       authentication {
         api_key_config {
           api_key                    = ""

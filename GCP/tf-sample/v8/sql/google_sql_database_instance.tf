@@ -20,7 +20,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   root_password_wo                                 = ""
   root_password_wo_version                         = ""
   switch_transaction_logs_to_cloud_storage_enabled = false
-  
+
   clone {
     allocated_ip_range            = ""
     database_names                = []
@@ -84,7 +84,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     tier                             = ""
     time_zone                        = ""
     user_labels                      = {}
-    
+
     active_directory_config {
       admin_credential_secret_name = ""
       dns_servers                  = []
@@ -102,7 +102,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       point_in_time_recovery_enabled = false
       start_time                     = ""
       transaction_log_retention_days = 0
-      
+
       backup_retention_settings {
         retained_backups = 0
         retention_unit   = ""
@@ -110,7 +110,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     }
     connection_pool_config {
       connection_pooling_enabled = false
-      
+
       flags {
         name  = ""
         value = ""
@@ -154,7 +154,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       server_ca_pool                                = ""
       server_certificate_rotation_mode              = ""
       ssl_mode                                      = ""
-      
+
       authorized_networks {
         expiration_time = ""
         name            = ""
@@ -167,7 +167,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
         psc_auto_dns_enabled               = false
         psc_enabled                        = false
         psc_write_endpoint_dns_enabled     = false
-        
+
         psc_auto_connections {
           consumer_network            = ""
           consumer_service_project_id = ""
@@ -199,7 +199,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
       min_node_count             = 0
       scale_in_cooldown_seconds  = 0
       scale_out_cooldown_seconds = 0
-      
+
       target_metrics {
         metric       = ""
         target_value = 0

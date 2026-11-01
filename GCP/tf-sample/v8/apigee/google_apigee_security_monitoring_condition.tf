@@ -4,7 +4,7 @@ resource "google_apigee_security_monitoring_condition" "tf-sample-apigee-securit
   org_id          = ""
   profile         = ""
   scope           = ""
-  
+
   include_all_resources {
   }
 }

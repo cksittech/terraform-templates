@@ -8,7 +8,7 @@ resource "google_discovery_engine_license_config" "tf-sample-discovery-engine-li
   project               = ""
   subscription_term     = ""
   subscription_tier     = ""
-  
+
   end_date {
     day   = 0
     month = 0

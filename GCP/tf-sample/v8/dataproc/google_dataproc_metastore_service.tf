@@ -10,7 +10,7 @@ resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-servi
   release_channel     = ""
   service_id          = ""
   tier                = ""
-  
+
   encryption_config {
     kms_key = ""
   }
@@ -18,7 +18,7 @@ resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-servi
     config_overrides  = {}
     endpoint_protocol = ""
     version           = ""
-    
+
     auxiliary_versions {
       config_overrides = {}
       key              = ""
@@ -27,7 +27,7 @@ resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-servi
     kerberos_config {
       krb5_config_gcs_uri = ""
       principal           = ""
-      
+
       keytab {
         cloud_secret = ""
       }
@@ -50,10 +50,10 @@ resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-servi
   scaling_config {
     instance_size  = ""
     scaling_factor = 0
-    
+
     autoscaling_config {
       autoscaling_enabled = false
-      
+
       limit_config {
         max_scaling_factor = 0
         min_scaling_factor = 0
@@ -69,6 +69,6 @@ resource "google_dataproc_metastore_service" "tf-sample-dataproc-metastore-servi
   telemetry_config {
     log_format = ""
   }
-  
+
   tags = {}
 }

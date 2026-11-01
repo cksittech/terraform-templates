@@ -9,7 +9,7 @@ resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
   project           = ""
   service_account   = ""
   suspended         = false
-  
+
   rules {
     advance_rollout_rule {
       id            = ""
@@ -26,7 +26,7 @@ resource "google_clouddeploy_automation" "tf-sample-clouddeploy-automation" {
       id     = ""
       jobs   = []
       phases = []
-      
+
       repair_phases {
         retry {
           attempts     = ""

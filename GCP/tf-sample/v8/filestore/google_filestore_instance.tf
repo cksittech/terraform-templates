@@ -11,7 +11,7 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
   project                     = ""
   protocol                    = ""
   tier                        = ""
-  
+
   directory_services {
     ldap {
       domain    = ""
@@ -25,7 +25,7 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
     name                   = ""
     source_backup          = ""
     source_backupdr_backup = ""
-    
+
     nfs_export_options {
       access_mode = ""
       anon_gid    = 0
@@ -37,7 +37,7 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
   }
   initial_replication {
     role = ""
-    
+
     replicas {
       peer_instance = ""
     }
@@ -47,7 +47,7 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
     modes             = []
     network           = ""
     reserved_ip_range = ""
-    
+
     psc_config {
       endpoint_project = ""
     }
@@ -60,6 +60,6 @@ resource "google_filestore_instance" "tf-sample-filestore-instance" {
       max_iops_per_tb = 0
     }
   }
-  
+
   tags = {}
 }

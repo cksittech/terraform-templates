@@ -6,7 +6,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
   labels                    = {}
   location                  = ""
   project                   = ""
-  
+
   bigquery_profile {
   }
   forward_ssh_connectivity {
@@ -26,7 +26,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
     replica_set                    = ""
     secret_manager_stored_password = ""
     username                       = ""
-    
+
     host_addresses {
       hostname = ""
       port     = 0
@@ -49,7 +49,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
     port                           = 0
     secret_manager_stored_password = ""
     username                       = ""
-    
+
     ssl_config {
       ca_certificate     = ""
       client_certificate = ""
@@ -72,7 +72,7 @@ resource "google_datastream_connection_profile" "tf-sample-datastream-connection
     port                           = 0
     secret_manager_stored_password = ""
     username                       = ""
-    
+
     ssl_config {
       server_and_client_verification {
         ca_certificate     = ""

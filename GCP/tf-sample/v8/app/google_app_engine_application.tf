@@ -5,7 +5,7 @@ resource "google_app_engine_application" "tf-sample-app-engine-application" {
   project        = ""
   serving_status = ""
   ssl_policy     = ""
-  
+
   feature_settings {
     split_health_checks = false
   }

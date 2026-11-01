@@ -7,7 +7,7 @@ resource "google_dataplex_task" "tf-sample-dataplex-task" {
   location        = ""
   project         = ""
   task_id         = ""
-  
+
   execution_spec {
     args                       = {}
     kms_key                    = ""
@@ -19,7 +19,7 @@ resource "google_dataplex_task" "tf-sample-dataplex-task" {
     archive_uris = []
     file_uris    = []
     notebook     = ""
-    
+
     infrastructure_spec {
       batch {
         executors_count     = 0
@@ -46,7 +46,7 @@ resource "google_dataplex_task" "tf-sample-dataplex-task" {
     python_script_file = ""
     sql_script         = ""
     sql_script_file    = ""
-    
+
     infrastructure_spec {
       batch {
         executors_count     = 0

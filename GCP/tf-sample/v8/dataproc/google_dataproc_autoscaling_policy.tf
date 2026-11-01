@@ -3,10 +3,10 @@ resource "google_dataproc_autoscaling_policy" "tf-sample-dataproc-autoscaling-po
   location        = ""
   policy_id       = ""
   project         = ""
-  
+
   basic_algorithm {
     cooldown_period = ""
-    
+
     yarn_config {
       graceful_decommission_timeout  = ""
       scale_down_factor              = 0

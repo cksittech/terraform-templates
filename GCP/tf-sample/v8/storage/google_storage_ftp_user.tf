@@ -6,7 +6,7 @@ resource "google_storage_ftp_user" "tf-sample-storage-ftp-user" {
   project                  = ""
   server_id                = ""
   user_id                  = ""
-  
+
   storage_directory_mappings {
     bucket        = ""
     bucket_prefix = ""

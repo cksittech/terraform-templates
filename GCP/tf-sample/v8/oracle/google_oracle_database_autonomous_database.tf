@@ -12,7 +12,7 @@ resource "google_oracle_database_autonomous_database" "tf-sample-oracle-database
   odb_network            = ""
   odb_subnet             = ""
   project                = ""
-  
+
   properties {
     backup_retention_period_days    = 0
     character_set                   = ""
@@ -34,7 +34,7 @@ resource "google_oracle_database_autonomous_database" "tf-sample-oracle-database
     private_endpoint_label          = ""
     secret_id                       = ""
     vault_id                        = ""
-    
+
     customer_contacts {
       email = ""
     }

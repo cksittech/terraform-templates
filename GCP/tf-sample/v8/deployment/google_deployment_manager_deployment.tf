@@ -6,7 +6,7 @@ resource "google_deployment_manager_deployment" "tf-sample-deployment-manager-de
   name            = ""
   preview         = false
   project         = ""
-  
+
   labels {
     key   = ""
     value = ""

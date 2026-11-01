@@ -9,7 +9,7 @@ resource "google_sql_user" "tf-sample-sql-user" {
   password_wo_version = 0
   project             = ""
   type                = ""
-  
+
   password_policy {
     allowed_failed_attempts      = 0
     enable_failed_attempts_check = false

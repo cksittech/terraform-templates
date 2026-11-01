@@ -10,7 +10,7 @@ resource "google_workstations_workstation_cluster" "tf-sample-workstations-works
   workstation_authorization_url = ""
   workstation_cluster_id        = ""
   workstation_launch_url        = ""
-  
+
   domain_config {
     domain = ""
   }
@@ -18,6 +18,6 @@ resource "google_workstations_workstation_cluster" "tf-sample-workstations-works
     allowed_projects        = []
     enable_private_endpoint = false
   }
-  
+
   tags = {}
 }

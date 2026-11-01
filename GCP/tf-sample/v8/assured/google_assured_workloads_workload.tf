@@ -11,7 +11,7 @@ resource "google_assured_workloads_workload" "tf-sample-assured-workloads-worklo
   partner_services_billing_account = ""
   provisioned_resources_parent     = ""
   violation_notifications_enabled  = false
-  
+
   kms_settings {
     next_rotation_time = ""
     rotation_period    = ""

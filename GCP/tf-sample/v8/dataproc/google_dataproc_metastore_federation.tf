@@ -6,12 +6,12 @@ resource "google_dataproc_metastore_federation" "tf-sample-dataproc-metastore-fe
   location            = ""
   project             = ""
   version             = ""
-  
+
   backend_metastores {
     metastore_type = ""
     name           = ""
     rank           = ""
   }
-  
+
   tags = {}
 }

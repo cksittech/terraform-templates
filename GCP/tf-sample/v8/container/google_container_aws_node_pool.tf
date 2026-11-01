@@ -7,7 +7,7 @@ resource "google_container_aws_node_pool" "tf-sample-container-aws-node-pool" {
   project         = ""
   subnet_id       = ""
   version         = ""
-  
+
   autoscaling {
     max_node_count = 0
     min_node_count = 0
@@ -17,7 +17,7 @@ resource "google_container_aws_node_pool" "tf-sample-container-aws-node-pool" {
     instance_type        = ""
     labels               = {}
     security_group_ids   = []
-    
+
     autoscaling_metrics_collection {
       granularity = ""
       metrics     = []

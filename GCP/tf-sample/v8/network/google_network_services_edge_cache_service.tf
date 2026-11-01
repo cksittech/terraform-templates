@@ -10,7 +10,7 @@ resource "google_network_services_edge_cache_service" "tf-sample-network-service
   project               = ""
   require_tls           = false
   ssl_policy            = ""
-  
+
   log_config {
     enable      = false
     sample_rate = 0
@@ -24,12 +24,12 @@ resource "google_network_services_edge_cache_service" "tf-sample-network-service
     path_matcher {
       description = ""
       name        = ""
-      
+
       route_rule {
         description = ""
         origin      = ""
         priority    = ""
-        
+
         header_action {
           request_header_to_add {
             header_name  = ""
@@ -53,7 +53,7 @@ resource "google_network_services_edge_cache_service" "tf-sample-network-service
           ignore_case         = false
           path_template_match = ""
           prefix_match        = ""
-          
+
           header_match {
             exact_match   = ""
             header_name   = ""
@@ -70,7 +70,7 @@ resource "google_network_services_edge_cache_service" "tf-sample-network-service
         }
         route_action {
           compression_mode = ""
-          
+
           cdn_policy {
             cache_mode                            = ""
             client_ttl                            = ""
@@ -81,7 +81,7 @@ resource "google_network_services_edge_cache_service" "tf-sample-network-service
             signed_request_keyset                 = ""
             signed_request_maximum_expiration_ttl = ""
             signed_request_mode                   = ""
-            
+
             add_signatures {
               actions               = []
               copied_parameters     = []

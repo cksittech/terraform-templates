@@ -3,11 +3,11 @@ resource "google_vertex_ai_deployment_resource_pool" "tf-sample-vertex-ai-deploy
   name            = ""
   project         = ""
   region          = ""
-  
+
   dedicated_resources {
     max_replica_count = 0
     min_replica_count = 0
-    
+
     autoscaling_metric_specs {
       metric_name = ""
       target      = 0

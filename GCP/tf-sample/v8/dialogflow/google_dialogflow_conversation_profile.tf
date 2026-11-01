@@ -6,7 +6,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
   project           = ""
   security_settings = ""
   time_zone         = ""
-  
+
   automated_agent_config {
     agent       = ""
     session_ttl = ""
@@ -16,14 +16,14 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
       disable_high_latency_features_sync_delivery = false
       generators                                  = []
       group_suggestion_responses                  = false
-      
+
       feature_configs {
         disable_agent_query_logging            = false
         enable_conversation_augmented_query    = false
         enable_event_based_suggestion          = false
         enable_query_suggestion_only           = false
         enable_query_suggestion_when_no_answer = false
-        
+
         conversation_model_config {
           baseline_model_version = ""
           model                  = ""
@@ -34,7 +34,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
         query_config {
           confidence_threshold = 0
           max_results          = 0
-          
+
           context_filter_settings {
             drop_handoff_messages       = false
             drop_ivr_messages           = false
@@ -42,7 +42,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
           }
           dialogflow_query_source {
             agent = ""
-            
+
             human_agent_side_config {
               agent = ""
             }
@@ -70,14 +70,14 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
       disable_high_latency_features_sync_delivery = false
       generators                                  = []
       group_suggestion_responses                  = false
-      
+
       feature_configs {
         disable_agent_query_logging            = false
         enable_conversation_augmented_query    = false
         enable_event_based_suggestion          = false
         enable_query_suggestion_only           = false
         enable_query_suggestion_when_no_answer = false
-        
+
         conversation_model_config {
           baseline_model_version = ""
           model                  = ""
@@ -88,7 +88,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
         query_config {
           confidence_threshold = 0
           max_results          = 0
-          
+
           context_filter_settings {
             drop_handoff_messages       = false
             drop_ivr_messages           = false
@@ -96,7 +96,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
           }
           dialogflow_query_source {
             agent = ""
-            
+
             human_agent_side_config {
               agent = ""
             }
@@ -152,7 +152,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
     speech_model_variant          = ""
     use_gemini_asr                = false
     use_timeout_based_endpointing = false
-    
+
     gemini_asr_config {
       end_of_speech_sensitivity   = ""
       model_id                    = ""
@@ -166,7 +166,7 @@ resource "google_dialogflow_conversation_profile" "tf-sample-dialogflow-conversa
     pitch              = 0
     speaking_rate      = 0
     volume_gain_db     = 0
-    
+
     voice {
       name        = ""
       ssml_gender = ""

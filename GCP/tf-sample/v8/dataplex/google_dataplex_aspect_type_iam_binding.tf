@@ -4,7 +4,7 @@ resource "google_dataplex_aspect_type_iam_binding" "tf-sample-dataplex-aspect-ty
   members        = []
   project        = ""
   role           = ""
-  
+
   condition {
     description = ""
     expression  = ""

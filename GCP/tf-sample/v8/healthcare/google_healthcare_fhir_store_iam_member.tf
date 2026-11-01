@@ -2,7 +2,7 @@ resource "google_healthcare_fhir_store_iam_member" "tf-sample-healthcare-fhir-st
   fhir_store_id = ""
   member        = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

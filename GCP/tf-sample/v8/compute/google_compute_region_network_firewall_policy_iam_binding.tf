@@ -4,7 +4,7 @@ resource "google_compute_region_network_firewall_policy_iam_binding" "tf-sample-
   project = ""
   region  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

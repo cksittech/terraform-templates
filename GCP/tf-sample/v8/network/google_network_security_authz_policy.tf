@@ -7,7 +7,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
   name            = ""
   policy_profile  = ""
   project         = ""
-  
+
   custom_provider {
     authz_extension {
       resources = []
@@ -18,7 +18,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
   }
   http_rules {
     when = ""
-    
+
     from {
       not_sources {
         ip_blocks {
@@ -27,7 +27,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
         }
         principals {
           principal_selector = ""
-          
+
           principal {
             contains    = ""
             exact       = ""
@@ -56,7 +56,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
         }
         principals {
           principal_selector = ""
-          
+
           principal {
             contains    = ""
             exact       = ""
@@ -82,11 +82,11 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
     to {
       not_operations {
         methods = []
-        
+
         header_set {
           headers {
             name = ""
-            
+
             value {
               contains    = ""
               exact       = ""
@@ -113,11 +113,11 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
       }
       operations {
         methods = []
-        
+
         header_set {
           headers {
             name = ""
-            
+
             value {
               contains    = ""
               exact       = ""
@@ -136,10 +136,10 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
         }
         mcp {
           base_protocol_methods_option = ""
-          
+
           methods {
             name = ""
-            
+
             params {
               contains    = ""
               exact       = ""
@@ -161,7 +161,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
   }
   network_rules {
     when = ""
-    
+
     from {
       not_sources {
         ip_blocks {
@@ -170,7 +170,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
         }
         principals {
           principal_selector = ""
-          
+
           principal {
             exact       = ""
             ignore_case = false
@@ -196,7 +196,7 @@ resource "google_network_security_authz_policy" "tf-sample-network-security-auth
         }
         principals {
           principal_selector = ""
-          
+
           principal {
             exact       = ""
             ignore_case = false

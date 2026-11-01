@@ -5,7 +5,7 @@ resource "google_managed_kafka_connect_cluster" "tf-sample-managed-kafka-connect
   labels             = {}
   location           = ""
   project            = ""
-  
+
   capacity_config {
     memory_bytes = ""
     vcpu_count   = ""

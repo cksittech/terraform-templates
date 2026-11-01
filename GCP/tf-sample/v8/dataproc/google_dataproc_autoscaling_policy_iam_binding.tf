@@ -4,7 +4,7 @@ resource "google_dataproc_autoscaling_policy_iam_binding" "tf-sample-dataproc-au
   policy_id = ""
   project   = ""
   role      = ""
-  
+
   condition {
     description = ""
     expression  = ""

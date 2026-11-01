@@ -7,13 +7,13 @@ resource "google_oracle_database_cloud_exadata_infrastructure" "tf-sample-oracle
   labels                          = {}
   location                        = ""
   project                         = ""
-  
+
   properties {
     compute_count         = 0
     shape                 = ""
     storage_count         = 0
     total_storage_size_gb = 0
-    
+
     customer_contacts {
       email = ""
     }

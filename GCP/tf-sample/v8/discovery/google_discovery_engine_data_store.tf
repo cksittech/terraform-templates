@@ -11,7 +11,7 @@ resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-s
   project                      = ""
   skip_default_schema_creation = false
   solution_types               = []
-  
+
   advanced_site_search_config {
     disable_automatic_refresh = false
     disable_initial_index     = false
@@ -42,7 +42,7 @@ resource "google_discovery_engine_data_store" "tf-sample-discovery-engine-data-s
     }
     parsing_config_overrides {
       file_type = ""
-      
+
       digital_parsing_config {
       }
       layout_parsing_config {

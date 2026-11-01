@@ -8,7 +8,7 @@ resource "google_network_connectivity_policy_based_route" "tf-sample-network-con
   next_hop_other_routes = ""
   priority              = 0
   project               = ""
-  
+
   filter {
     dest_range       = ""
     ip_protocol      = ""

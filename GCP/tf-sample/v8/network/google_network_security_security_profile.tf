@@ -6,7 +6,7 @@ resource "google_network_security_security_profile" "tf-sample-network-security-
   name            = ""
   parent          = ""
   type            = ""
-  
+
   custom_intercept_profile {
     intercept_endpoint_group = ""
   }
@@ -37,12 +37,12 @@ resource "google_network_security_security_profile" "tf-sample-network-security-
   }
   wildfire_analysis_profile {
     wildfire_realtime_lookup = false
-    
+
     wildfire_inline_cloud_analysis_rules {
       action              = ""
       direction           = ""
       file_selection_mode = ""
-      
+
       custom_file_types {
         file_types = []
       }
@@ -68,7 +68,7 @@ resource "google_network_security_security_profile" "tf-sample-network-security-
     wildfire_submission_rules {
       direction           = ""
       file_selection_mode = ""
-      
+
       custom_file_types {
         file_types = []
       }

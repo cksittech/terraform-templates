@@ -10,7 +10,7 @@ resource "google_network_services_multicast_group_range" "tf-sample-network-serv
   project                  = ""
   require_explicit_accept  = false
   reserved_internal_range  = ""
-  
+
   log_config {
     enabled = false
   }

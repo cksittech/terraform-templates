@@ -6,7 +6,7 @@ resource "google_compute_instant_snapshot" "tf-sample-compute-instant-snapshot" 
   project         = ""
   source_disk     = ""
   zone            = ""
-  
+
   params {
     resource_manager_tags = {}
   }

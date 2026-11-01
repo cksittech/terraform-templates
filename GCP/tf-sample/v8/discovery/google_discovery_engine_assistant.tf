@@ -8,7 +8,7 @@ resource "google_discovery_engine_assistant" "tf-sample-discovery-engine-assista
   location           = ""
   project            = ""
   web_grounding_type = ""
-  
+
   customer_policy {
     banned_phrases {
       ignore_diacritics = false
@@ -23,7 +23,7 @@ resource "google_discovery_engine_assistant" "tf-sample-discovery-engine-assista
   }
   generation_config {
     default_language = ""
-    
+
     system_instruction {
       additional_system_instruction = ""
     }

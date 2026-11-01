@@ -3,7 +3,7 @@ resource "google_network_connectivity_hub_iam_member" "tf-sample-network-connect
   member  = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

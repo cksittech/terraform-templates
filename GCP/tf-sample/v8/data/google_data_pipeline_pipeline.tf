@@ -8,7 +8,7 @@ resource "google_data_pipeline_pipeline" "tf-sample-data-pipeline-pipeline" {
   scheduler_service_account_email = ""
   state                           = ""
   type                            = ""
-  
+
   schedule_info {
     schedule  = ""
     time_zone = ""
@@ -18,7 +18,7 @@ resource "google_data_pipeline_pipeline" "tf-sample-data-pipeline-pipeline" {
       location      = ""
       project_id    = ""
       validate_only = false
-      
+
       launch_parameter {
         container_spec_gcs_path = ""
         job_name                = ""
@@ -26,7 +26,7 @@ resource "google_data_pipeline_pipeline" "tf-sample-data-pipeline-pipeline" {
         parameters              = {}
         transform_name_mappings = {}
         update                  = false
-        
+
         environment {
           additional_experiments  = []
           additional_user_labels  = {}
@@ -52,13 +52,13 @@ resource "google_data_pipeline_pipeline" "tf-sample-data-pipeline-pipeline" {
       location      = ""
       project_id    = ""
       validate_only = false
-      
+
       launch_parameters {
         job_name               = ""
         parameters             = {}
         transform_name_mapping = {}
         update                 = false
-        
+
         environment {
           additional_experiments     = []
           additional_user_labels     = {}

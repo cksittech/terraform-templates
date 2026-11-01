@@ -4,7 +4,7 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
   language_code           = ""
   parent                  = ""
   transition_route_groups = []
-  
+
   advanced_settings {
     dtmf_settings {
       enabled      = false
@@ -16,14 +16,14 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
     return_partial_responses = false
     tag                      = ""
     webhook                  = ""
-    
+
     conditional_cases {
       cases = ""
     }
     messages {
       channel = ""
       payload = ""
-      
+
       conversation_success {
         metadata = ""
       }
@@ -53,19 +53,19 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
     event       = ""
     target_flow = ""
     target_page = ""
-    
+
     trigger_fulfillment {
       return_partial_responses = false
       tag                      = ""
       webhook                  = ""
-      
+
       conditional_cases {
         cases = ""
       }
       messages {
         channel = ""
         payload = ""
-        
+
         conversation_success {
           metadata = ""
         }
@@ -100,7 +100,7 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
       is_list       = false
       redact        = false
       required      = false
-      
+
       advanced_settings {
         dtmf_settings {
           enabled      = false
@@ -113,14 +113,14 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
           return_partial_responses = false
           tag                      = ""
           webhook                  = ""
-          
+
           conditional_cases {
             cases = ""
           }
           messages {
             channel = ""
             payload = ""
-            
+
             conversation_success {
               metadata = ""
             }
@@ -150,19 +150,19 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
           event       = ""
           target_flow = ""
           target_page = ""
-          
+
           trigger_fulfillment {
             return_partial_responses = false
             tag                      = ""
             webhook                  = ""
-            
+
             conditional_cases {
               cases = ""
             }
             messages {
               channel = ""
               payload = ""
-              
+
               conversation_success {
                 metadata = ""
               }
@@ -196,7 +196,7 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
     enabled     = false
     target_flow = ""
     target_page = ""
-    
+
     data_store_connections {
       data_store               = ""
       data_store_type          = ""
@@ -207,7 +207,7 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
       return_partial_responses   = false
       tag                        = ""
       webhook                    = ""
-      
+
       advanced_settings {
         dtmf_settings {
           enabled                      = false
@@ -234,7 +234,7 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
       messages {
         channel = ""
         payload = ""
-        
+
         conversation_success {
           metadata = ""
         }
@@ -268,19 +268,19 @@ resource "google_dialogflow_cx_page" "tf-sample-dialogflow-cx-page" {
     intent      = ""
     target_flow = ""
     target_page = ""
-    
+
     trigger_fulfillment {
       return_partial_responses = false
       tag                      = ""
       webhook                  = ""
-      
+
       conditional_cases {
         cases = ""
       }
       messages {
         channel = ""
         payload = ""
-        
+
         conversation_success {
           metadata = ""
         }

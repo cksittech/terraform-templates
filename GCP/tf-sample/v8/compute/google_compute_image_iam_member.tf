@@ -3,7 +3,7 @@ resource "google_compute_image_iam_member" "tf-sample-compute-image-iam-member" 
   member  = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -5,7 +5,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
   name            = ""
   project         = ""
   region          = ""
-  
+
   default_route_action {
     cors_policy {
       allow_credentials    = false
@@ -24,7 +24,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
       }
       delay {
         percentage = 0
-        
+
         fixed_delay {
           nanos   = 0
           seconds = ""
@@ -38,7 +38,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     retry_policy {
       num_retries      = 0
       retry_conditions = []
-      
+
       per_try_timeout {
         nanos   = 0
         seconds = ""
@@ -55,11 +55,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     weighted_backend_services {
       backend_service = ""
       weight          = 0
-      
+
       header_action {
         request_headers_to_remove  = []
         response_headers_to_remove = []
-        
+
         request_headers_to_add {
           header_name  = ""
           header_value = ""
@@ -84,7 +84,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
   header_action {
     request_headers_to_remove  = []
     response_headers_to_remove = []
-    
+
     request_headers_to_add {
       header_name  = ""
       header_value = ""
@@ -105,7 +105,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     default_service = ""
     description     = ""
     name            = ""
-    
+
     default_route_action {
       cors_policy {
         allow_credentials    = false
@@ -124,7 +124,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         }
         delay {
           percentage = 0
-          
+
           fixed_delay {
             nanos   = 0
             seconds = ""
@@ -142,7 +142,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
       retry_policy {
         num_retries      = 0
         retry_conditions = []
-        
+
         per_try_timeout {
           nanos   = 0
           seconds = ""
@@ -160,11 +160,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
       weighted_backend_services {
         backend_service = ""
         weight          = 0
-        
+
         header_action {
           request_headers_to_remove  = []
           response_headers_to_remove = []
-          
+
           request_headers_to_add {
             header_name  = ""
             header_value = ""
@@ -189,7 +189,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     header_action {
       request_headers_to_remove  = []
       response_headers_to_remove = []
-      
+
       request_headers_to_add {
         header_name  = ""
         header_value = ""
@@ -204,7 +204,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     path_rule {
       paths   = []
       service = ""
-      
+
       route_action {
         cors_policy {
           allow_credentials    = false
@@ -223,7 +223,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
           }
           delay {
             percentage = 0
-            
+
             fixed_delay {
               nanos   = 0
               seconds = ""
@@ -237,7 +237,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         retry_policy {
           num_retries      = 0
           retry_conditions = []
-          
+
           per_try_timeout {
             nanos   = 0
             seconds = ""
@@ -254,11 +254,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         weighted_backend_services {
           backend_service = ""
           weight          = 0
-          
+
           header_action {
             request_headers_to_remove  = []
             response_headers_to_remove = []
-            
+
             request_headers_to_add {
               header_name  = ""
               header_value = ""
@@ -284,11 +284,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
     route_rules {
       priority = 0
       service  = ""
-      
+
       header_action {
         request_headers_to_remove  = []
         response_headers_to_remove = []
-        
+
         request_headers_to_add {
           header_name  = ""
           header_value = ""
@@ -306,7 +306,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         path_template_match = ""
         prefix_match        = ""
         regex_match         = ""
-        
+
         header_matches {
           exact_match   = ""
           header_name   = ""
@@ -315,7 +315,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
           present_match = false
           regex_match   = ""
           suffix_match  = ""
-          
+
           range_match {
             range_end   = 0
             range_start = 0
@@ -323,7 +323,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         }
         metadata_filters {
           filter_match_criteria = ""
-          
+
           filter_labels {
             name  = ""
             value = ""
@@ -354,7 +354,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
           }
           delay {
             percentage = 0
-            
+
             fixed_delay {
               nanos   = 0
               seconds = ""
@@ -368,7 +368,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         retry_policy {
           num_retries      = 0
           retry_conditions = []
-          
+
           per_try_timeout {
             nanos   = 0
             seconds = ""
@@ -382,7 +382,7 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
           host_rewrite          = ""
           path_prefix_rewrite   = ""
           path_template_rewrite = ""
-          
+
           regex_rewrite {
             path_pattern      = ""
             path_substitution = ""
@@ -391,11 +391,11 @@ resource "google_compute_region_url_map" "tf-sample-compute-region-url-map" {
         weighted_backend_services {
           backend_service = ""
           weight          = 0
-          
+
           header_action {
             request_headers_to_remove  = []
             response_headers_to_remove = []
-            
+
             request_headers_to_add {
               header_name  = ""
               header_value = ""

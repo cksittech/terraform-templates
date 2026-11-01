@@ -4,7 +4,7 @@ resource "google_agent_identity_auth_provider_iam_member" "tf-sample-agent-ident
   member           = ""
   project          = ""
   role             = ""
-  
+
   condition {
     description = ""
     expression  = ""

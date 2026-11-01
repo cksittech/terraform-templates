@@ -4,7 +4,7 @@ resource "google_data_catalog_tag_template_iam_binding" "tf-sample-data-catalog-
   region       = ""
   role         = ""
   tag_template = ""
-  
+
   condition {
     description = ""
     expression  = ""

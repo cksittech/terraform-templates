@@ -11,10 +11,10 @@ resource "google_colab_schedule" "tf-sample-colab-schedule" {
   max_run_count                   = ""
   project                         = ""
   start_time                      = ""
-  
+
   create_notebook_execution_job_request {
     parent = ""
-    
+
     notebook_execution_job {
       display_name                            = ""
       execution_timeout                       = ""
@@ -24,7 +24,7 @@ resource "google_colab_schedule" "tf-sample-colab-schedule" {
       labels                                  = {}
       notebook_runtime_template_resource_name = ""
       service_account                         = ""
-      
+
       custom_environment_spec {
         machine_spec {
           accelerator_count  = 0
@@ -32,7 +32,7 @@ resource "google_colab_schedule" "tf-sample-colab-schedule" {
           gpu_partition_size = ""
           machine_type       = ""
           tpu_topology       = ""
-          
+
           reservation_affinity {
             key                       = ""
             reservation_affinity_type = ""
@@ -67,7 +67,7 @@ resource "google_colab_schedule" "tf-sample-colab-schedule" {
   }
   create_pipeline_job_request {
     parent = ""
-    
+
     pipeline_job {
       display_name          = ""
       labels                = {}
@@ -77,13 +77,13 @@ resource "google_colab_schedule" "tf-sample-colab-schedule" {
       reserved_ip_ranges    = []
       service_account       = ""
       template_uri          = ""
-      
+
       encryption_spec {
         kms_key_name = ""
       }
       psc_interface_config {
         network_attachment = ""
-        
+
         dns_peering_configs {
           domain         = ""
           target_network = ""

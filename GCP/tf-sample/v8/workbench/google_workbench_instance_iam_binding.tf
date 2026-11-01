@@ -4,7 +4,7 @@ resource "google_workbench_instance_iam_binding" "tf-sample-workbench-instance-i
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

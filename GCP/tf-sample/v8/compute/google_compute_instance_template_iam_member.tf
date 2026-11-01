@@ -3,7 +3,7 @@ resource "google_compute_instance_template_iam_member" "tf-sample-compute-instan
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

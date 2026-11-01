@@ -15,11 +15,11 @@ resource "google_bigquery_analytics_hub_listing" "tf-sample-bigquery-analytics-h
   primary_contact                     = ""
   project                             = ""
   request_access                      = ""
-  
+
   bigquery_dataset {
     dataset           = ""
     replica_locations = []
-    
+
     selected_resources {
       routine = ""
       table   = ""

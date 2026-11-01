@@ -9,7 +9,7 @@ resource "google_alloydb_backup" "tf-sample-alloydb-backup" {
   location        = ""
   project         = ""
   type            = ""
-  
+
   encryption_config {
     kms_key_name = ""
   }

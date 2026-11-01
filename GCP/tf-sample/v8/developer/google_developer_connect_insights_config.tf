@@ -6,10 +6,10 @@ resource "google_developer_connect_insights_config" "tf-sample-developer-connect
   labels              = {}
   location            = ""
   project             = ""
-  
+
   artifact_configs {
     uri = ""
-    
+
     google_artifact_analysis {
       project_id = ""
     }

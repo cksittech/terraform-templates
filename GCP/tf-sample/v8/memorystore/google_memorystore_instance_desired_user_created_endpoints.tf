@@ -3,7 +3,7 @@ resource "google_memorystore_instance_desired_user_created_endpoints" "tf-sample
   name            = ""
   project         = ""
   region          = ""
-  
+
   desired_user_created_endpoints {
     connections {
       psc_connection {

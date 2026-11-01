@@ -17,7 +17,7 @@ resource "google_app_engine_flexible_app_version" "tf-sample-app-engine-flexible
   service_account              = ""
   serving_status               = ""
   version_id                   = ""
-  
+
   api_config {
     auth_fail_action = ""
     login            = ""
@@ -34,7 +34,7 @@ resource "google_app_engine_flexible_app_version" "tf-sample-app-engine-flexible
     min_idle_instances      = 0
     min_pending_latency     = ""
     min_total_instances     = 0
-    
+
     cpu_utilization {
       aggregation_window_length = ""
       target_utilization        = 0
@@ -93,7 +93,7 @@ resource "google_app_engine_flexible_app_version" "tf-sample-app-engine-flexible
     redirect_http_response_code = ""
     security_level              = ""
     url_regex                   = ""
-    
+
     script {
       script_path = ""
     }
@@ -139,7 +139,7 @@ resource "google_app_engine_flexible_app_version" "tf-sample-app-engine-flexible
     cpu       = 0
     disk_gb   = 0
     memory_gb = 0
-    
+
     volumes {
       name        = ""
       size_gb     = 0

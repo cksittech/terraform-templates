@@ -5,7 +5,7 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
   message_retention_duration = ""
   name                       = ""
   project                    = ""
-  
+
   ingestion_data_source_settings {
     aws_kinesis {
       aws_role_arn        = ""
@@ -32,7 +32,7 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
       bucket                     = ""
       match_glob                 = ""
       minimum_object_create_time = ""
-      
+
       avro_format {
       }
       pubsub_avro_format {
@@ -58,11 +58,11 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
   }
   message_transforms {
     disabled = false
-    
+
     ai_inference {
       endpoint              = ""
       service_account_email = ""
-      
+
       unstructured_inference {
         parameters = {}
       }
@@ -78,6 +78,6 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
     last_revision_id  = ""
     schema            = ""
   }
-  
+
   tags = {}
 }

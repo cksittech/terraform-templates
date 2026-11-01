@@ -5,7 +5,7 @@ resource "google_agent_registry_binding" "tf-sample-agent-registry-binding" {
   display_name    = ""
   location        = ""
   project         = ""
-  
+
   auth_provider_binding {
     auth_provider = ""
     continue_uri  = ""

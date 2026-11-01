@@ -9,7 +9,7 @@ resource "google_compute_backend_bucket" "tf-sample-compute-backend-bucket" {
   load_balancing_scheme   = ""
   name                    = ""
   project                 = ""
-  
+
   cdn_policy {
     cache_mode                   = ""
     client_ttl                   = 0
@@ -19,7 +19,7 @@ resource "google_compute_backend_bucket" "tf-sample-compute-backend-bucket" {
     request_coalescing           = false
     serve_while_stale            = 0
     signed_url_cache_max_age_sec = 0
-    
+
     bypass_cache_on_request_headers {
       header_name = ""
     }

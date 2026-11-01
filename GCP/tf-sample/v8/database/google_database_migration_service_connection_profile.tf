@@ -6,14 +6,14 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
   location              = ""
   project               = ""
   role                  = ""
-  
+
   alloydb {
     cluster_id = ""
-    
+
     settings {
       labels      = {}
       vpc_network = ""
-      
+
       initial_user {
         password = ""
         user     = ""
@@ -22,7 +22,7 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
         database_flags = {}
         id             = ""
         labels         = {}
-        
+
         machine_config {
           cpu_count = 0
         }
@@ -46,12 +46,12 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
       tier                      = ""
       user_labels               = {}
       zone                      = ""
-      
+
       ip_config {
         enable_ipv4     = false
         private_network = ""
         require_ssl     = false
-        
+
         authorized_networks {
           expire_time = ""
           label       = ""
@@ -67,7 +67,7 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
     password     = ""
     port         = 0
     username     = ""
-    
+
     ssl {
       ca_certificate     = ""
       client_certificate = ""
@@ -81,7 +81,7 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
     password         = ""
     port             = 0
     username         = ""
-    
+
     forward_ssh_connectivity {
       hostname    = ""
       password    = ""
@@ -108,7 +108,7 @@ resource "google_database_migration_service_connection_profile" "tf-sample-datab
     password           = ""
     port               = 0
     username           = ""
-    
+
     private_connectivity {
       private_connection = ""
     }

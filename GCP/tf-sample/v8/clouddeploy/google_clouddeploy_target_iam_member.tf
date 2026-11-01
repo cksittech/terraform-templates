@@ -4,7 +4,7 @@ resource "google_clouddeploy_target_iam_member" "tf-sample-clouddeploy-target-ia
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

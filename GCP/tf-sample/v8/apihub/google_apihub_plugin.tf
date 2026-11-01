@@ -6,7 +6,7 @@ resource "google_apihub_plugin" "tf-sample-apihub-plugin" {
   plugin_category = ""
   plugin_id       = ""
   project         = ""
-  
+
   actions_config {
     description  = ""
     display_name = ""
@@ -20,7 +20,7 @@ resource "google_apihub_plugin" "tf-sample-apihub-plugin" {
       required         = false
       validation_regex = ""
       value_type       = ""
-      
+
       enum_options {
         description  = ""
         display_name = ""
@@ -34,7 +34,7 @@ resource "google_apihub_plugin" "tf-sample-apihub-plugin" {
     }
     auth_config_template {
       supported_auth_types = []
-      
+
       service_account {
         service_account = ""
       }

@@ -3,7 +3,7 @@ resource "google_iap_web_forwarding_rule_service_iam_binding" "tf-sample-iap-web
   members                      = []
   project                      = ""
   role                         = ""
-  
+
   condition {
     description = ""
     expression  = ""

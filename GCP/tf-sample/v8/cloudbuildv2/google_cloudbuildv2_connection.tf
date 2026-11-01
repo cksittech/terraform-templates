@@ -5,11 +5,11 @@ resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   bitbucket_cloud_config {
     webhook_secret_secret_version = ""
     workspace                     = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -21,7 +21,7 @@ resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
     host_uri                      = ""
     ssl_ca                        = ""
     webhook_secret_secret_version = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -34,7 +34,7 @@ resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
   }
   github_config {
     app_installation_id = 0
-    
+
     authorizer_credential {
       oauth_token_secret_version = ""
     }
@@ -47,7 +47,7 @@ resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
     private_key_secret_version    = ""
     ssl_ca                        = ""
     webhook_secret_secret_version = ""
-    
+
     service_directory_config {
       service = ""
     }
@@ -56,7 +56,7 @@ resource "google_cloudbuildv2_connection" "tf-sample-cloudbuildv2-connection" {
     host_uri                      = ""
     ssl_ca                        = ""
     webhook_secret_secret_version = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }

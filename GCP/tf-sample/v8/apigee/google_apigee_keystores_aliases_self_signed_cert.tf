@@ -7,7 +7,7 @@ resource "google_apigee_keystores_aliases_self_signed_cert" "tf-sample-apigee-ke
   keystore              = ""
   org_id                = ""
   sig_alg               = ""
-  
+
   subject {
     common_name  = ""
     country_code = ""

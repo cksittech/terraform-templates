@@ -4,7 +4,7 @@ resource "google_artifact_registry_repository_iam_binding" "tf-sample-artifact-r
   project    = ""
   repository = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -6,7 +6,7 @@ resource "google_storage_ftp_server" "tf-sample-storage-ftp-server" {
   location        = ""
   project         = ""
   server_id       = ""
-  
+
   external_config {
     allowed_cidr_blocks = []
   }

@@ -7,7 +7,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
   location                 = ""
   name                     = ""
   project                  = ""
-  
+
   binary_authorization {
     evaluation_mode = ""
   }
@@ -23,7 +23,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
       node_pool_config {
         labels           = {}
         operating_system = ""
-        
+
         node_configs {
           labels  = {}
           node_ip = ""
@@ -39,7 +39,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
   load_balancer {
     bgp_lb_config {
       asn = 0
-      
+
       address_pools {
         addresses       = []
         avoid_buggy_ips = false
@@ -55,7 +55,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
         node_pool_config {
           labels           = {}
           operating_system = ""
-          
+
           kubelet_config {
             registry_burst                 = 0
             registry_pull_qps              = 0
@@ -87,7 +87,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
         node_pool_config {
           labels           = {}
           operating_system = ""
-          
+
           node_configs {
             labels  = {}
             node_ip = ""
@@ -113,7 +113,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
   }
   network_config {
     advanced_networking = false
-    
+
     island_mode_cidr {
       pod_address_cidr_blocks     = []
       service_address_cidr_blocks = []
@@ -153,7 +153,7 @@ resource "google_gkeonprem_bare_metal_cluster" "tf-sample-gkeonprem-bare-metal-c
     }
     lvp_share_config {
       shared_path_pv_count = 0
-      
+
       lvp_config {
         path          = ""
         storage_class = ""

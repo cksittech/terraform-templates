@@ -8,13 +8,13 @@ resource "google_cloud_scheduler_job" "tf-sample-cloud-scheduler-job" {
   region           = ""
   schedule         = ""
   time_zone        = ""
-  
+
   app_engine_http_target {
     body         = ""
     headers      = {}
     http_method  = ""
     relative_uri = ""
-    
+
     app_engine_routing {
       instance = ""
       service  = ""
@@ -26,7 +26,7 @@ resource "google_cloud_scheduler_job" "tf-sample-cloud-scheduler-job" {
     headers     = {}
     http_method = ""
     uri         = ""
-    
+
     oauth_token {
       scope                 = ""
       service_account_email = ""

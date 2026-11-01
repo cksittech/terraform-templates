@@ -10,7 +10,7 @@ resource "google_storage_insights_dataset_config" "tf-sample-storage-insights-da
   organization_scope                  = false
   project                             = ""
   retention_period_days               = 0
-  
+
   exclude_cloud_storage_buckets {
     cloud_storage_buckets {
       bucket_name         = ""

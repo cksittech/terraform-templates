@@ -8,7 +8,7 @@ resource "google_compute_region_commitment" "tf-sample-compute-region-commitment
   project               = ""
   region                = ""
   type                  = ""
-  
+
   license_resource {
     amount            = ""
     cores_per_license = ""

@@ -6,12 +6,12 @@ resource "google_chronicle_data_access_scope" "tf-sample-chronicle-data-access-s
   instance             = ""
   location             = ""
   project              = ""
-  
+
   allowed_data_access_labels {
     asset_namespace   = ""
     data_access_label = ""
     log_type          = ""
-    
+
     ingestion_label {
       ingestion_label_key   = ""
       ingestion_label_value = ""
@@ -21,7 +21,7 @@ resource "google_chronicle_data_access_scope" "tf-sample-chronicle-data-access-s
     asset_namespace   = ""
     data_access_label = ""
     log_type          = ""
-    
+
     ingestion_label {
       ingestion_label_key   = ""
       ingestion_label_value = ""

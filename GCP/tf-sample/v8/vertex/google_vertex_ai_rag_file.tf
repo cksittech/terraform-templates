@@ -4,7 +4,7 @@ resource "google_vertex_ai_rag_file" "tf-sample-vertex-ai-rag-file" {
   project                        = ""
   rag_corpus                     = ""
   region                         = ""
-  
+
   gcs_source {
     uris = []
   }

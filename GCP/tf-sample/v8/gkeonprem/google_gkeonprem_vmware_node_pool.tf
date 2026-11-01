@@ -7,7 +7,7 @@ resource "google_gkeonprem_vmware_node_pool" "tf-sample-gkeonprem-vmware-node-po
   on_prem_version = ""
   project         = ""
   vmware_cluster  = ""
-  
+
   config {
     boot_disk_size_gb    = 0
     cpus                 = 0
@@ -17,7 +17,7 @@ resource "google_gkeonprem_vmware_node_pool" "tf-sample-gkeonprem-vmware-node-po
     labels               = {}
     memory_mb            = 0
     replicas             = 0
-    
+
     taints {
       effect = ""
       key    = ""
@@ -26,7 +26,7 @@ resource "google_gkeonprem_vmware_node_pool" "tf-sample-gkeonprem-vmware-node-po
     vsphere_config {
       datastore   = ""
       host_groups = []
-      
+
       tags {
         category = ""
         tag      = ""

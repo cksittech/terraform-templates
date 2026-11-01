@@ -6,18 +6,18 @@ resource "google_dns_record_set" "tf-sample-dns-record-set" {
   rrdatas         = []
   ttl             = 0
   type            = ""
-  
+
   routing_policy {
     enable_geo_fencing = false
     health_check       = ""
-    
+
     geo {
       location = ""
       rrdatas  = []
-      
+
       health_checked_targets {
         external_endpoints = []
-        
+
         internal_load_balancers {
           ip_address         = ""
           ip_protocol        = ""
@@ -32,14 +32,14 @@ resource "google_dns_record_set" "tf-sample-dns-record-set" {
     primary_backup {
       enable_geo_fencing_for_backups = false
       trickle_ratio                  = 0
-      
+
       backup_geo {
         location = ""
         rrdatas  = []
-        
+
         health_checked_targets {
           external_endpoints = []
-          
+
           internal_load_balancers {
             ip_address         = ""
             ip_protocol        = ""
@@ -53,7 +53,7 @@ resource "google_dns_record_set" "tf-sample-dns-record-set" {
       }
       primary {
         external_endpoints = []
-        
+
         internal_load_balancers {
           ip_address         = ""
           ip_protocol        = ""
@@ -68,10 +68,10 @@ resource "google_dns_record_set" "tf-sample-dns-record-set" {
     wrr {
       rrdatas = []
       weight  = 0
-      
+
       health_checked_targets {
         external_endpoints = []
-        
+
         internal_load_balancers {
           ip_address         = ""
           ip_protocol        = ""

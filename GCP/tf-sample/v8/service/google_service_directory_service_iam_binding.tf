@@ -2,7 +2,7 @@ resource "google_service_directory_service_iam_binding" "tf-sample-service-direc
   members = []
   name    = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

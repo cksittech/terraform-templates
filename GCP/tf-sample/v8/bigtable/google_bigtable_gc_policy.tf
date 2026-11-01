@@ -7,7 +7,7 @@ resource "google_bigtable_gc_policy" "tf-sample-bigtable-gc-policy" {
   mode            = ""
   project         = ""
   table           = ""
-  
+
   max_age {
     duration = ""
   }

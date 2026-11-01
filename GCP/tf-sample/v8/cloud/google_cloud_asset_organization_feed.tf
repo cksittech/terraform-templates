@@ -6,7 +6,7 @@ resource "google_cloud_asset_organization_feed" "tf-sample-cloud-asset-organizat
   deletion_policy = ""
   feed_id         = ""
   org_id          = ""
-  
+
   condition {
     description = ""
     expression  = ""

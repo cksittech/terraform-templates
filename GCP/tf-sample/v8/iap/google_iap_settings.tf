@@ -1,10 +1,10 @@
 resource "google_iap_settings" "tf-sample-iap-settings" {
   deletion_policy = ""
   name            = ""
-  
+
   access_settings {
     identity_sources = []
-    
+
     allowed_domains_settings {
       domains = []
       enable  = false
@@ -29,7 +29,7 @@ resource "google_iap_settings" "tf-sample-iap-settings" {
     }
     workforce_identity_settings {
       workforce_pools = []
-      
+
       oauth2 {
         client_id     = ""
         client_secret = ""
@@ -38,7 +38,7 @@ resource "google_iap_settings" "tf-sample-iap-settings" {
   }
   application_settings {
     cookie_domain = ""
-    
+
     access_denied_page_settings {
       access_denied_page_uri               = ""
       generate_troubleshooting_uri         = false

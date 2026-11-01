@@ -7,12 +7,12 @@ resource "google_eventarc_pipeline" "tf-sample-eventarc-pipeline" {
   location        = ""
   pipeline_id     = ""
   project         = ""
-  
+
   destinations {
     message_bus = ""
     topic       = ""
     workflow    = ""
-    
+
     authentication_config {
       google_oidc {
         audience        = ""

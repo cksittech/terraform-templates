@@ -18,7 +18,7 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
   storage_pool       = ""
   throughput_mibps   = 0
   unix_permissions   = ""
-  
+
   backup_config {
     backup_policies          = []
     backup_vault             = ""
@@ -36,7 +36,7 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
     peer_svm_name               = ""
     peer_volume_name            = ""
     peering_command_expiry_time = ""
-    
+
     cache_config {
       cifs_change_notify_enabled = false
     }
@@ -80,7 +80,7 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
   }
   snapshot_policy {
     enabled = false
-    
+
     daily_schedule {
       hour              = 0
       minute            = 0

@@ -2,7 +2,7 @@ resource "google_service_directory_namespace_iam_member" "tf-sample-service-dire
   member = ""
   name   = ""
   role   = ""
-  
+
   condition {
     description = ""
     expression  = ""

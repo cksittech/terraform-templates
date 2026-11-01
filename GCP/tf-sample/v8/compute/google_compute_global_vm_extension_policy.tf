@@ -4,7 +4,7 @@ resource "google_compute_global_vm_extension_policy" "tf-sample-compute-global-v
   name            = ""
   priority        = 0
   project         = ""
-  
+
   extension_policies {
     extension_name = ""
     pinned_version = ""

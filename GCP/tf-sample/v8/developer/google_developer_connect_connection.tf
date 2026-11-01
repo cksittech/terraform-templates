@@ -7,11 +7,11 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
   labels          = {}
   location        = ""
   project         = ""
-  
+
   bitbucket_cloud_config {
     webhook_secret_secret_version = ""
     workspace                     = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -23,7 +23,7 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
     host_uri                      = ""
     ssl_ca_certificate            = ""
     webhook_secret_secret_version = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -40,7 +40,7 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
   github_config {
     app_installation_id = ""
     github_app          = ""
-    
+
     authorizer_credential {
       oauth_token_secret_version = ""
     }
@@ -52,14 +52,14 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
     private_key_secret_version    = ""
     ssl_ca_certificate            = ""
     webhook_secret_secret_version = ""
-    
+
     service_directory_config {
       service = ""
     }
   }
   gitlab_config {
     webhook_secret_secret_version = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -71,7 +71,7 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
     host_uri                      = ""
     ssl_ca_certificate            = ""
     webhook_secret_secret_version = ""
-    
+
     authorizer_credential {
       user_token_secret_version = ""
     }
@@ -85,7 +85,7 @@ resource "google_developer_connect_connection" "tf-sample-developer-connect-conn
   http_config {
     host_uri           = ""
     ssl_ca_certificate = ""
-    
+
     basic_authentication {
       password_secret_version = ""
       username                = ""

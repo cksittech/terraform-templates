@@ -10,7 +10,7 @@ resource "google_compute_snapshot" "tf-sample-compute-snapshot" {
   source_instant_snapshot = ""
   storage_locations       = []
   zone                    = ""
-  
+
   params {
     resource_manager_tags = {}
   }

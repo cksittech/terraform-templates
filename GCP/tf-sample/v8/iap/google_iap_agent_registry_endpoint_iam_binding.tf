@@ -4,7 +4,7 @@ resource "google_iap_agent_registry_endpoint_iam_binding" "tf-sample-iap-agent-r
   members     = []
   project     = ""
   role        = ""
-  
+
   condition {
     description = ""
     expression  = ""

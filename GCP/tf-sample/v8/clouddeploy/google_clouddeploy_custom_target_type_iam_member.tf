@@ -4,7 +4,7 @@ resource "google_clouddeploy_custom_target_type_iam_member" "tf-sample-clouddepl
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

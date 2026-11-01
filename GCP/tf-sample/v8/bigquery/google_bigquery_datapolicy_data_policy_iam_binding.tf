@@ -4,7 +4,7 @@ resource "google_bigquery_datapolicy_data_policy_iam_binding" "tf-sample-bigquer
   members        = []
   project        = ""
   role           = ""
-  
+
   condition {
     description = ""
     expression  = ""

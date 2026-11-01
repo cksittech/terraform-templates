@@ -25,7 +25,7 @@ resource "google_compute_forwarding_rule" "tf-sample-compute-forwarding-rule" {
   source_ip_ranges        = []
   subnetwork              = ""
   target                  = ""
-  
+
   service_directory_registrations {
     namespace = ""
     service   = ""

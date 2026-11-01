@@ -8,7 +8,7 @@ resource "google_logging_metric" "tf-sample-logging-metric" {
   name             = ""
   project          = ""
   value_extractor  = ""
-  
+
   bucket_options {
     explicit_buckets {
       bounds = []
@@ -29,7 +29,7 @@ resource "google_logging_metric" "tf-sample-logging-metric" {
     metric_kind  = ""
     unit         = ""
     value_type   = ""
-    
+
     labels {
       description = ""
       key         = ""

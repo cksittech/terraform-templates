@@ -4,7 +4,7 @@ resource "google_data_loss_prevention_stored_info_type" "tf-sample-data-loss-pre
   display_name        = ""
   parent              = ""
   stored_info_type_id = ""
-  
+
   dictionary {
     cloud_storage_path {
       path = ""

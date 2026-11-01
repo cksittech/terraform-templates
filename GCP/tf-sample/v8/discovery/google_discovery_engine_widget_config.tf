@@ -4,7 +4,7 @@ resource "google_discovery_engine_widget_config" "tf-sample-discovery-engine-wid
   location         = ""
   project          = ""
   widget_config_id = ""
-  
+
   access_settings {
     allow_public_access              = false
     allowlisted_domains              = []
@@ -16,7 +16,7 @@ resource "google_discovery_engine_widget_config" "tf-sample-discovery-engine-wid
     shortcuts {
       destination_uri = ""
       title           = ""
-      
+
       icon {
         url = ""
       }
@@ -40,10 +40,10 @@ resource "google_discovery_engine_widget_config" "tf-sample-discovery-engine-wid
     interaction_type                  = ""
     result_description_type           = ""
     source_admin_display_name_enabled = false
-    
+
     data_store_ui_configs {
       name = ""
-      
+
       facet_field {
         display_name = ""
         field        = ""

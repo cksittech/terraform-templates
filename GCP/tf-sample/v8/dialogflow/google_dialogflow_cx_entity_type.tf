@@ -7,7 +7,7 @@ resource "google_dialogflow_cx_entity_type" "tf-sample-dialogflow-cx-entity-type
   language_code           = ""
   parent                  = ""
   redact                  = false
-  
+
   entities {
     synonyms = []
     value    = ""

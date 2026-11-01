@@ -3,7 +3,7 @@ resource "google_pubsub_schema_iam_member" "tf-sample-pubsub-schema-iam-member" 
   project = ""
   role    = ""
   schema  = ""
-  
+
   condition {
     description = ""
     expression  = ""

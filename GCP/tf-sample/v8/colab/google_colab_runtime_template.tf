@@ -7,7 +7,7 @@ resource "google_colab_runtime_template" "tf-sample-colab-runtime-template" {
   name            = ""
   network_tags    = []
   project         = ""
-  
+
   data_persistent_disk_spec {
     disk_size_gb = ""
     disk_type    = ""

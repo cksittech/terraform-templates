@@ -5,7 +5,7 @@ resource "google_discovery_engine_search_engine_iam_binding" "tf-sample-discover
   members       = []
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

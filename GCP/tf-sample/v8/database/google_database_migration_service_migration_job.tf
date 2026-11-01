@@ -12,7 +12,7 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
   source           = ""
   stop_on_warnings = false
   type             = ""
-  
+
   dump_flags {
     dump_flags {
       name  = ""
@@ -22,7 +22,7 @@ resource "google_database_migration_service_migration_job" "tf-sample-database-m
   objects_config {
     source_objects_config {
       objects_selection_type = ""
-      
+
       object_configs {
         object_identifier {
           database = ""

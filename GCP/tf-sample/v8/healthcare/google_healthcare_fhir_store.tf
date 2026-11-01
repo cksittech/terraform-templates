@@ -10,7 +10,7 @@ resource "google_healthcare_fhir_store" "tf-sample-healthcare-fhir-store" {
   labels                              = {}
   name                                = ""
   version                             = ""
-  
+
   notification_configs {
     pubsub_topic                     = ""
     send_full_resource               = false
@@ -18,14 +18,14 @@ resource "google_healthcare_fhir_store" "tf-sample-healthcare-fhir-store" {
   }
   stream_configs {
     resource_types = []
-    
+
     bigquery_destination {
       dataset_uri = ""
-      
+
       schema_config {
         recursive_structure_depth = 0
         schema_type               = ""
-        
+
         last_updated_partition_config {
           expiration_ms = ""
           type          = ""

@@ -10,13 +10,13 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
   model_description        = ""
   project                  = ""
   role                     = ""
-  
+
   artifact_examples {
     resource {
       display_label     = ""
       model_description = ""
       use_rag           = false
-      
+
       bigquery_resource {
         bigquery_dataset    = ""
         bigquery_table      = ""
@@ -48,13 +48,13 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
     document_generation_options {
       export_format = ""
-      
+
       document_examples {
         resource {
           display_label     = ""
           model_description = ""
           use_rag           = false
-          
+
           bigquery_resource {
             bigquery_dataset    = ""
             bigquery_table      = ""
@@ -86,13 +86,13 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
     slide_generation_options {
       export_format = ""
-      
+
       slide_examples {
         resource {
           display_label     = ""
           model_description = ""
           use_rag           = false
-          
+
           bigquery_resource {
             bigquery_dataset    = ""
             bigquery_table      = ""
@@ -119,15 +119,15 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
     visualization_options {
       visualization_mode = ""
-      
+
       visualization_examples {
         visualization_type = ""
-        
+
         resource {
           display_label     = ""
           model_description = ""
           use_rag           = false
-          
+
           bigquery_resource {
             bigquery_dataset    = ""
             bigquery_table      = ""
@@ -155,7 +155,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
   }
   external_data_sources {
     enabled = false
-    
+
     air_quality {
     }
     bureau_labor_statistics {
@@ -190,7 +190,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     display_label     = ""
     model_description = ""
     use_rag           = false
-    
+
     bigquery_resource {
       bigquery_dataset    = ""
       bigquery_table      = ""
@@ -217,7 +217,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     content     = ""
     description = ""
     skill_id    = ""
-    
+
     references {
       content      = ""
       reference_id = ""
@@ -226,7 +226,7 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
   tables {
     description = ""
     name        = ""
-    
+
     columns {
       data_type   = ""
       description = ""

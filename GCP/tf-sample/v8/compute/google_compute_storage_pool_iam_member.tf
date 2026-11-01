@@ -4,7 +4,7 @@ resource "google_compute_storage_pool_iam_member" "tf-sample-compute-storage-poo
   project = ""
   role    = ""
   zone    = ""
-  
+
   condition {
     description = ""
     expression  = ""

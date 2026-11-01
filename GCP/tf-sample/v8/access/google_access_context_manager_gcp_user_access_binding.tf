@@ -4,7 +4,7 @@ resource "google_access_context_manager_gcp_user_access_binding" "tf-sample-acce
   dry_run_access_levels = []
   group_key             = ""
   organization_id       = ""
-  
+
   principal {
     federated_principal            = ""
     service_account                = ""
@@ -13,7 +13,7 @@ resource "google_access_context_manager_gcp_user_access_binding" "tf-sample-acce
   scoped_access_settings {
     active_settings {
       access_levels = []
-      
+
       session_settings {
         max_inactivity         = ""
         session_length         = ""

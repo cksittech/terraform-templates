@@ -13,7 +13,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
   running_timeout         = ""
   workstation_cluster_id  = ""
   workstation_config_id   = ""
-  
+
   allowed_ports {
     first = 0
     last  = 0
@@ -32,7 +32,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
   }
   ephemeral_directories {
     mount_path = ""
-    
+
     gce_pd {
       disk_type       = ""
       read_only       = false
@@ -52,7 +52,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
       service_account              = ""
       service_account_scopes       = []
       vm_tags                      = {}
-      
+
       accelerators {
         count = 0
         type  = ""
@@ -63,7 +63,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
         id                           = ""
         machine_type                 = ""
         pool_size                    = 0
-        
+
         accelerators {
           count = 0
           type  = ""
@@ -81,7 +81,7 @@ resource "google_workstations_workstation_config" "tf-sample-workstations-workst
   }
   persistent_directories {
     mount_path = ""
-    
+
     gce_hd {
       archive_timeout = ""
       reclaim_policy  = ""

@@ -6,7 +6,7 @@ resource "google_dataplex_asset_iam_member" "tf-sample-dataplex-asset-iam-member
   member        = ""
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -5,7 +5,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
   location          = ""
   parent            = ""
   status            = ""
-  
+
   actions {
     export_data {
       profile_table {
@@ -23,11 +23,11 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       detail_of_message = ""
       event             = ""
       topic             = ""
-      
+
       pubsub_condition {
         expressions {
           logical_operator = ""
-          
+
           conditions {
             minimum_risk_score        = ""
             minimum_sensitivity_score = ""
@@ -44,7 +44,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
     tag_resources {
       lower_data_risk_to_low     = false
       profile_generations_to_tag = []
-      
+
       tag_conditions {
         sensitivity_score {
           score = ""
@@ -57,7 +57,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
   }
   org_config {
     project_id = ""
-    
+
     location {
       folder_id       = ""
       organization_id = ""
@@ -73,7 +73,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
     big_query_target {
       cadence {
         refresh_frequency = ""
-        
+
         inspect_template_modified_cadence {
           frequency = ""
         }
@@ -89,7 +89,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       conditions {
         created_after   = ""
         type_collection = ""
-        
+
         or_conditions {
           min_age       = ""
           min_row_count = 0
@@ -148,7 +148,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       }
       generation_cadence {
         refresh_frequency = ""
-        
+
         inspect_template_modified_cadence {
           frequency = ""
         }
@@ -162,7 +162,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       conditions {
         created_after = ""
         min_age       = ""
-        
+
         cloud_storage_conditions {
           included_bucket_attributes = []
           included_object_attributes = []
@@ -196,7 +196,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       }
       generation_cadence {
         refresh_frequency = ""
-        
+
         inspect_template_modified_cadence {
           frequency = ""
         }
@@ -205,7 +205,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
     other_cloud_target {
       conditions {
         min_age = ""
-        
+
         amazon_s3_bucket_conditions {
           bucket_types           = []
           object_storage_classes = []
@@ -222,7 +222,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
             patterns {
               amazon_s3_bucket_regex {
                 bucket_name_regex = ""
-                
+
                 aws_account_regex {
                   account_id_regex = ""
                 }
@@ -235,7 +235,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
         single_resource {
           amazon_s3_bucket {
             bucket_name = ""
-            
+
             aws_account {
               account_id = ""
             }
@@ -244,7 +244,7 @@ resource "google_data_loss_prevention_discovery_config" "tf-sample-data-loss-pre
       }
       generation_cadence {
         refresh_frequency = ""
-        
+
         inspect_template_modified_cadence {
           frequency = ""
         }

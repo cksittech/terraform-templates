@@ -3,7 +3,7 @@ resource "google_dialogflow_cx_tool" "tf-sample-dialogflow-cx-tool" {
   description     = ""
   display_name    = ""
   parent          = ""
-  
+
   data_store_spec {
     data_store_connections {
       data_store               = ""
@@ -19,7 +19,7 @@ resource "google_dialogflow_cx_tool" "tf-sample-dialogflow-cx-tool" {
   }
   open_api_spec {
     text_schema = ""
-    
+
     authentication {
       api_key_config {
         api_key                    = ""

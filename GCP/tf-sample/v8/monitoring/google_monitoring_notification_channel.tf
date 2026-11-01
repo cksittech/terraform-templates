@@ -8,7 +8,7 @@ resource "google_monitoring_notification_channel" "tf-sample-monitoring-notifica
   project         = ""
   type            = ""
   user_labels     = {}
-  
+
   sensitive_labels {
     auth_token             = ""
     auth_token_wo          = ""

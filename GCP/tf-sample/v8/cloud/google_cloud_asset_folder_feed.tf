@@ -6,7 +6,7 @@ resource "google_cloud_asset_folder_feed" "tf-sample-cloud-asset-folder-feed" {
   deletion_policy = ""
   feed_id         = ""
   folder          = ""
-  
+
   condition {
     description = ""
     expression  = ""

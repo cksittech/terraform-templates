@@ -8,7 +8,7 @@ resource "google_apigee_environment" "tf-sample-apigee-environment" {
   name              = ""
   org_id            = ""
   type              = ""
-  
+
   client_ip_resolution_config {
     header_index_algorithm {
       ip_header_index = 0

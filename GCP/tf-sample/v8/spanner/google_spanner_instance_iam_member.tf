@@ -3,7 +3,7 @@ resource "google_spanner_instance_iam_member" "tf-sample-spanner-instance-iam-me
   member   = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -15,7 +15,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
   region                     = ""
   resource_manager_tags      = {}
   resource_policies          = []
-  
+
   advanced_machine_features {
     enable_nested_virtualization = false
     enable_uefi_networking       = false
@@ -49,7 +49,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     source_snapshot        = ""
     storage_pool           = ""
     type                   = ""
-    
+
     disk_encryption_key {
       kms_key_self_link       = ""
       kms_key_service_account = ""
@@ -86,7 +86,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     subnetwork                  = ""
     subnetwork_project          = ""
     vlan                        = 0
-    
+
     access_config {
       nat_ip       = ""
       network_tier = ""
@@ -104,7 +104,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
   }
   reservation_affinity {
     type = ""
-    
+
     specific_reservation {
       key    = ""
       values = []
@@ -120,7 +120,7 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     preemptible                 = false
     provisioning_model          = ""
     termination_time            = ""
-    
+
     local_ssd_recovery_timeout {
       nanos   = 0
       seconds = 0
@@ -155,6 +155,6 @@ resource "google_compute_region_instance_template" "tf-sample-compute-region-ins
     identity                     = ""
     identity_certificate_enabled = false
   }
-  
+
   tags = {}
 }

@@ -8,13 +8,13 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
   odb_network              = ""
   odb_subnet               = ""
   project                  = ""
-  
+
   properties {
     connection_type = ""
     description     = ""
     display_name    = ""
     routing_method  = ""
-    
+
     amazon_kinesis_connection_properties {
       access_key_id            = ""
       aws_region               = ""
@@ -77,7 +77,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       ssl_server_certificate_file = ""
       technology_type             = ""
       username                    = ""
-      
+
       additional_attributes {
         key   = ""
         value = ""
@@ -124,10 +124,10 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
     }
     iceberg_connection_properties {
       technology_type = ""
-      
+
       catalog {
         catalog_type = ""
-        
+
         glue_iceberg_catalog {
           glue_id = ""
         }
@@ -149,7 +149,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       }
       storage {
         storage_type = ""
-        
+
         amazon_s3_iceberg_storage {
           access_key_id            = ""
           bucket                   = ""
@@ -214,7 +214,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       trust_store_password_secret_version = ""
       use_resource_principal              = false
       username                            = ""
-      
+
       bootstrap_servers {
         host               = ""
         port               = 0
@@ -255,7 +255,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       ssl_ca_file                            = ""
       technology_type                        = ""
       username                               = ""
-      
+
       additional_attributes {
         key   = ""
         value = ""
@@ -289,7 +289,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       ssl_mode                = ""
       technology_type         = ""
       username                = ""
-      
+
       additional_attributes {
         key   = ""
         value = ""
@@ -352,7 +352,7 @@ resource "google_oracle_database_goldengate_connection" "tf-sample-oracle-databa
       ssl_mode                = ""
       technology_type         = ""
       username                = ""
-      
+
       additional_attributes {
         key   = ""
         value = ""

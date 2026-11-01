@@ -2,17 +2,17 @@ resource "google_org_policy_policy" "tf-sample-org-policy-policy" {
   deletion_policy = ""
   name            = ""
   parent          = ""
-  
+
   dry_run_spec {
     inherit_from_parent = false
     reset               = false
-    
+
     rules {
       allow_all  = ""
       deny_all   = ""
       enforce    = ""
       parameters = ""
-      
+
       condition {
         description = ""
         expression  = ""
@@ -28,13 +28,13 @@ resource "google_org_policy_policy" "tf-sample-org-policy-policy" {
   spec {
     inherit_from_parent = false
     reset               = false
-    
+
     rules {
       allow_all  = ""
       deny_all   = ""
       enforce    = ""
       parameters = ""
-      
+
       condition {
         description = ""
         expression  = ""

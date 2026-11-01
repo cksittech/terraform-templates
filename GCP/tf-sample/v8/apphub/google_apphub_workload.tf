@@ -7,7 +7,7 @@ resource "google_apphub_workload" "tf-sample-apphub-workload" {
   location            = ""
   project             = ""
   workload_id         = ""
-  
+
   attributes {
     business_owners {
       display_name = ""

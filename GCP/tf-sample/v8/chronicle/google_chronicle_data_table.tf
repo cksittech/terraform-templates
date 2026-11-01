@@ -6,7 +6,7 @@ resource "google_chronicle_data_table" "tf-sample-chronicle-data-table" {
   location         = ""
   project          = ""
   row_time_to_live = ""
-  
+
   column_info {
     column_index       = 0
     column_type        = ""

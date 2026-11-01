@@ -8,7 +8,7 @@ resource "google_compute_region_network_endpoint_group" "tf-sample-compute-regio
   psc_target_service    = ""
   region                = ""
   subnetwork            = ""
-  
+
   app_engine {
     service  = ""
     url_mask = ""

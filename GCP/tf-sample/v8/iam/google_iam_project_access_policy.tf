@@ -5,14 +5,14 @@ resource "google_iam_project_access_policy" "tf-sample-iam-project-access-policy
   display_name     = ""
   location         = ""
   project          = ""
-  
+
   details {
     rules {
       description         = ""
       effect              = ""
       excluded_principals = []
       principals          = []
-      
+
       conditions {
         expression = ""
         service    = ""

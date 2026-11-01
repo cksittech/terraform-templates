@@ -12,10 +12,10 @@ resource "google_firestore_database" "tf-sample-firestore-database" {
   project                             = ""
   realtime_updates_mode               = ""
   type                                = ""
-  
+
   cmek_config {
     kms_key_name = ""
   }
-  
+
   tags = {}
 }

@@ -10,10 +10,10 @@ resource "google_alloydb_instance" "tf-sample-alloydb-instance" {
   instance_id       = ""
   instance_type     = ""
   labels            = {}
-  
+
   client_connection_config {
     require_connectors = false
-    
+
     ssl_config {
       ssl_mode = ""
     }
@@ -30,14 +30,14 @@ resource "google_alloydb_instance" "tf-sample-alloydb-instance" {
     allocated_ip_range_override = ""
     enable_outbound_public_ip   = false
     enable_public_ip            = false
-    
+
     authorized_external_networks {
       cidr_range = ""
     }
   }
   psc_instance_config {
     allowed_consumer_projects = []
-    
+
     psc_auto_connections {
       consumer_network = ""
       consumer_project = ""

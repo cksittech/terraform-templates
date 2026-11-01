@@ -6,7 +6,7 @@ resource "google_container_analysis_note" "tf-sample-container-analysis-note" {
   project            = ""
   related_note_names = []
   short_description  = ""
-  
+
   attestation_authority {
     hint {
       human_readable_name = ""

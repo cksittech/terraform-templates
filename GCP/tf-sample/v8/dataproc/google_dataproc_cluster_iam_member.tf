@@ -4,7 +4,7 @@ resource "google_dataproc_cluster_iam_member" "tf-sample-dataproc-cluster-iam-me
   project = ""
   region  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

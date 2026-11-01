@@ -9,7 +9,7 @@ resource "google_edgecontainer_vpn_connection" "tf-sample-edgecontainer-vpn-conn
   project                  = ""
   router                   = ""
   vpc                      = ""
-  
+
   vpc_project {
     project_id = ""
   }

@@ -3,7 +3,7 @@ resource "google_healthcare_consent_store_iam_member" "tf-sample-healthcare-cons
   dataset          = ""
   member           = ""
   role             = ""
-  
+
   condition {
     description = ""
     expression  = ""

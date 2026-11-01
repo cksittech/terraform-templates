@@ -3,10 +3,10 @@ resource "google_beyondcorp_security_gateway" "tf-sample-beyondcorp-security-gat
   display_name        = ""
   project             = ""
   security_gateway_id = ""
-  
+
   hubs {
     region = ""
-    
+
     internet_gateway {
     }
   }
@@ -17,10 +17,10 @@ resource "google_beyondcorp_security_gateway" "tf-sample-beyondcorp-security-gat
     client_ip              = false
     gateway_identity       = ""
     metadata_headers       = {}
-    
+
     contextual_headers {
       output_type = ""
-      
+
       device_info {
         output_type = ""
       }

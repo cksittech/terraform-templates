@@ -4,7 +4,7 @@ resource "google_compute_subnetwork_iam_binding" "tf-sample-compute-subnetwork-i
   region     = ""
   role       = ""
   subnetwork = ""
-  
+
   condition {
     description = ""
     expression  = ""

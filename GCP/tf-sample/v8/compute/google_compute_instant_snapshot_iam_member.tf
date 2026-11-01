@@ -4,7 +4,7 @@ resource "google_compute_instant_snapshot_iam_member" "tf-sample-compute-instant
   project = ""
   role    = ""
   zone    = ""
-  
+
   condition {
     description = ""
     expression  = ""

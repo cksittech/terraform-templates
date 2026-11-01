@@ -3,7 +3,7 @@ resource "google_biglake_iceberg_catalog_iam_member" "tf-sample-biglake-iceberg-
   name    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

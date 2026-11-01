@@ -4,7 +4,7 @@ resource "google_vertex_ai_rag_corpus" "tf-sample-vertex-ai-rag-corpus" {
   display_name    = ""
   project         = ""
   region          = ""
-  
+
   encryption_spec {
     kms_key_name = ""
   }

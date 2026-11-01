@@ -3,7 +3,7 @@ resource "google_integrations_client" "tf-sample-integrations-client" {
   deletion_policy            = ""
   location                   = ""
   project                    = ""
-  
+
   cloud_kms_config {
     key            = ""
     key_version    = ""

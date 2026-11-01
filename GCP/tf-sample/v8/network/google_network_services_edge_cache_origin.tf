@@ -10,7 +10,7 @@ resource "google_network_services_edge_cache_origin" "tf-sample-network-services
   project          = ""
   protocol         = ""
   retry_conditions = []
-  
+
   aws_v4_authentication {
     access_key_id             = ""
     origin_region             = ""

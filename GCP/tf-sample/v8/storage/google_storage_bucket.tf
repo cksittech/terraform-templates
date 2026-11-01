@@ -12,7 +12,7 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
   rpo                         = ""
   storage_class               = ""
   uniform_bucket_level_access = false
-  
+
   autoclass {
     enabled                = false
     terminal_storage_class = ""
@@ -28,7 +28,7 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
   }
   encryption {
     default_kms_key_name = ""
-    
+
     customer_managed_encryption_enforcement_config {
       restriction_mode = ""
     }
@@ -46,7 +46,7 @@ resource "google_storage_bucket" "tf-sample-storage-bucket" {
     allow_all_service_agent_access = false
     allow_cross_org_vpcs           = false
     mode                           = ""
-    
+
     public_network_source {
       allowed_ip_cidr_ranges = []
     }

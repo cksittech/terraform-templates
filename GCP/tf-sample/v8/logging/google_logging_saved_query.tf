@@ -6,12 +6,12 @@ resource "google_logging_saved_query" "tf-sample-logging-saved-query" {
   name            = ""
   parent          = ""
   visibility      = ""
-  
+
   logging_query {
     filter              = ""
     summary_field_end   = 0
     summary_field_start = 0
-    
+
     summary_fields {
       field = ""
     }

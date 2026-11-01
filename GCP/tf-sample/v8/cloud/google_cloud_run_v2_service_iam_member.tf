@@ -4,7 +4,7 @@ resource "google_cloud_run_v2_service_iam_member" "tf-sample-cloud-run-v2-servic
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -7,6 +7,6 @@ resource "google_project" "tf-sample-project" {
   name                = ""
   org_id              = ""
   project_id          = ""
-  
+
   tags = {}
 }

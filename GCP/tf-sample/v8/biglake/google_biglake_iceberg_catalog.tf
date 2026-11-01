@@ -7,11 +7,11 @@ resource "google_biglake_iceberg_catalog" "tf-sample-biglake-iceberg-catalog" {
   name             = ""
   primary_location = ""
   project          = ""
-  
+
   federated_catalog_options {
     secret_name            = ""
     service_directory_name = ""
-    
+
     glue_catalog_info {
       aws_region   = ""
       aws_role_arn = ""

@@ -4,7 +4,7 @@ resource "google_gke_backup_backup_plan_iam_binding" "tf-sample-gke-backup-backu
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

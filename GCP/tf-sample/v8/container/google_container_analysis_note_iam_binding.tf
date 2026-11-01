@@ -3,7 +3,7 @@ resource "google_container_analysis_note_iam_binding" "tf-sample-container-analy
   note    = ""
   project = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

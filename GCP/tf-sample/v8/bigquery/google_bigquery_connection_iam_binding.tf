@@ -4,7 +4,7 @@ resource "google_bigquery_connection_iam_binding" "tf-sample-bigquery-connection
   members       = []
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

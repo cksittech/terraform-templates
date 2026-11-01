@@ -8,15 +8,15 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
   location                        = ""
   project                         = ""
   stream_id                       = ""
-  
+
   backfill_all {
     mongodb_excluded_objects {
       databases {
         database = ""
-        
+
         collections {
           collection = ""
-          
+
           fields {
             field = ""
           }
@@ -26,10 +26,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     mysql_excluded_objects {
       mysql_databases {
         database = ""
-        
+
         mysql_tables {
           table = ""
-          
+
           mysql_columns {
             collation        = ""
             column           = ""
@@ -44,10 +44,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     oracle_excluded_objects {
       oracle_schemas {
         schema = ""
-        
+
         oracle_tables {
           table = ""
-          
+
           oracle_columns {
             column    = ""
             data_type = ""
@@ -58,10 +58,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     postgresql_excluded_objects {
       postgresql_schemas {
         schema = ""
-        
+
         postgresql_tables {
           table = ""
-          
+
           postgresql_columns {
             column           = ""
             data_type        = ""
@@ -75,7 +75,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     salesforce_excluded_objects {
       objects {
         object_name = ""
-        
+
         fields {
           name = ""
         }
@@ -84,10 +84,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     spanner_excluded_objects {
       schemas {
         schema = ""
-        
+
         tables {
           table = ""
-          
+
           columns {
             column = ""
           }
@@ -97,10 +97,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     sql_server_excluded_objects {
       schemas {
         schema = ""
-        
+
         tables {
           table = ""
-          
+
           columns {
             column    = ""
             data_type = ""
@@ -113,10 +113,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
   }
   destination_config {
     destination_connection_profile = ""
-    
+
     bigquery_destination_config {
       data_freshness = ""
-      
+
       append_only {
       }
       blmt_config {
@@ -133,7 +133,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       }
       source_hierarchy_datasets {
         project_id = ""
-        
+
         dataset_template {
           dataset_id_prefix = ""
           kms_key_name      = ""
@@ -145,7 +145,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       file_rotation_interval = ""
       file_rotation_mb       = 0
       path                   = ""
-      
+
       avro_file_format {
       }
       json_file_format {
@@ -161,7 +161,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       }
       bigquery_partitioning {
         require_partition_filter = false
-        
+
         ingestion_time_partition {
           partitioning_time_granularity = ""
         }
@@ -211,17 +211,17 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
   }
   source_config {
     source_connection_profile = ""
-    
+
     mongodb_source_config {
       max_concurrent_backfill_tasks = 0
-      
+
       exclude_objects {
         databases {
           database = ""
-          
+
           collections {
             collection = ""
-            
+
             fields {
               field = ""
             }
@@ -231,10 +231,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         databases {
           database = ""
-          
+
           collections {
             collection = ""
-            
+
             fields {
               field = ""
             }
@@ -245,16 +245,16 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     mysql_source_config {
       max_concurrent_backfill_tasks = 0
       max_concurrent_cdc_tasks      = 0
-      
+
       binary_log_position {
       }
       exclude_objects {
         mysql_databases {
           database = ""
-          
+
           mysql_tables {
             table = ""
-            
+
             mysql_columns {
               collation        = ""
               column           = ""
@@ -271,10 +271,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         mysql_databases {
           database = ""
-          
+
           mysql_tables {
             table = ""
-            
+
             mysql_columns {
               collation        = ""
               column           = ""
@@ -290,16 +290,16 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     oracle_source_config {
       max_concurrent_backfill_tasks = 0
       max_concurrent_cdc_tasks      = 0
-      
+
       drop_large_objects {
       }
       exclude_objects {
         oracle_schemas {
           schema = ""
-          
+
           oracle_tables {
             table = ""
-            
+
             oracle_columns {
               column    = ""
               data_type = ""
@@ -310,10 +310,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         oracle_schemas {
           schema = ""
-          
+
           oracle_tables {
             table = ""
-            
+
             oracle_columns {
               column    = ""
               data_type = ""
@@ -328,14 +328,14 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       max_concurrent_backfill_tasks = 0
       publication                   = ""
       replication_slot              = ""
-      
+
       exclude_objects {
         postgresql_schemas {
           schema = ""
-          
+
           postgresql_tables {
             table = ""
-            
+
             postgresql_columns {
               column           = ""
               data_type        = ""
@@ -349,10 +349,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         postgresql_schemas {
           schema = ""
-          
+
           postgresql_tables {
             table = ""
-            
+
             postgresql_columns {
               column           = ""
               data_type        = ""
@@ -366,11 +366,11 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     }
     salesforce_source_config {
       polling_interval = ""
-      
+
       exclude_objects {
         objects {
           object_name = ""
-          
+
           fields {
             name = ""
           }
@@ -379,7 +379,7 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         objects {
           object_name = ""
-          
+
           fields {
             name = ""
           }
@@ -393,14 +393,14 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       max_concurrent_backfill_tasks = 0
       max_concurrent_cdc_tasks      = 0
       spanner_rpc_priority          = ""
-      
+
       exclude_objects {
         schemas {
           schema = ""
-          
+
           tables {
             table = ""
-            
+
             columns {
               column = ""
             }
@@ -410,10 +410,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         schemas {
           schema = ""
-          
+
           tables {
             table = ""
-            
+
             columns {
               column = ""
             }
@@ -424,16 +424,16 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
     sql_server_source_config {
       max_concurrent_backfill_tasks = 0
       max_concurrent_cdc_tasks      = 0
-      
+
       change_tables {
       }
       exclude_objects {
         schemas {
           schema = ""
-          
+
           tables {
             table = ""
-            
+
             columns {
               column    = ""
               data_type = ""
@@ -444,10 +444,10 @@ resource "google_datastream_stream" "tf-sample-datastream-stream" {
       include_objects {
         schemas {
           schema = ""
-          
+
           tables {
             table = ""
-            
+
             columns {
               column    = ""
               data_type = ""

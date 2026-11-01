@@ -6,7 +6,7 @@ resource "google_database_migration_service_private_connection" "tf-sample-datab
   location                  = ""
   private_connection_id     = ""
   project                   = ""
-  
+
   psc_interface_config {
     network_attachment = ""
   }

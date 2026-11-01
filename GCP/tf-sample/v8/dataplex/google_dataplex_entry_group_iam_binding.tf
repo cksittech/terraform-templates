@@ -4,7 +4,7 @@ resource "google_dataplex_entry_group_iam_binding" "tf-sample-dataplex-entry-gro
   members        = []
   project        = ""
   role           = ""
-  
+
   condition {
     description = ""
     expression  = ""

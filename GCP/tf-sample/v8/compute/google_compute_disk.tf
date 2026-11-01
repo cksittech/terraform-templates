@@ -22,7 +22,7 @@ resource "google_compute_disk" "tf-sample-compute-disk" {
   storage_pool                          = ""
   type                                  = ""
   zone                                  = ""
-  
+
   async_primary_disk {
     disk = ""
   }

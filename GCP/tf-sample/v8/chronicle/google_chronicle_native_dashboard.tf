@@ -8,11 +8,11 @@ resource "google_chronicle_native_dashboard" "tf-sample-chronicle-native-dashboa
   location        = ""
   project         = ""
   type            = ""
-  
+
   charts {
     dashboard_chart = ""
     filters_ids     = []
-    
+
     chart_layout {
       span_x  = 0
       span_y  = 0
@@ -29,7 +29,7 @@ resource "google_chronicle_native_dashboard" "tf-sample-chronicle-native-dashboa
     is_mandatory                          = false
     is_standard_time_range_filter         = false
     is_standard_time_range_filter_enabled = false
-    
+
     filter_operator_and_field_values {
       field_values    = []
       filter_operator = ""

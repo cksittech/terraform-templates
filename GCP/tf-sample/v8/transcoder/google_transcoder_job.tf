@@ -4,7 +4,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
   location        = ""
   project         = ""
   template_id     = ""
-  
+
   config {
     ad_breaks {
       start_time_offset = ""
@@ -16,7 +16,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
     }
     elementary_streams {
       key = ""
-      
+
       audio_stream {
         bitrate_bps       = 0
         channel_count     = 0
@@ -39,7 +39,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
           vbv_fullness_bits = 0
           vbv_size_bits     = 0
           width_pixels      = 0
-          
+
           hlg {
           }
           sdr {
@@ -49,7 +49,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
     }
     encryptions {
       id = ""
-      
+
       aes128 {
       }
       drm_systems {
@@ -86,7 +86,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
       encryption_id      = ""
       file_name          = ""
       key                = ""
-      
+
       segment_settings {
         segment_duration = ""
       }
@@ -100,7 +100,7 @@ resource "google_transcoder_job" "tf-sample-transcoder-job" {
           end_time_offset   = ""
           fade_type         = ""
           start_time_offset = ""
-          
+
           xy {
             x = 0
             y = 0

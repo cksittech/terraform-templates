@@ -6,7 +6,7 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
   kms_key_name    = ""
   location        = ""
   project         = ""
-  
+
   aws {
     access_role {
       iam_role_id = ""
@@ -29,7 +29,7 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
     database    = ""
     instance_id = ""
     type        = ""
-    
+
     credential {
       password            = ""
       password_wo         = ""
@@ -39,7 +39,7 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
   }
   configuration {
     connector_id = ""
-    
+
     asset {
       database              = ""
       google_cloud_resource = ""
@@ -47,7 +47,7 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
     authentication {
       username_password {
         username = ""
-        
+
         password {
           plaintext = ""
         }
@@ -65,7 +65,7 @@ resource "google_bigquery_connection" "tf-sample-bigquery-connection" {
   salesforce_data_cloud {
     instance_uri = ""
     tenant_id    = ""
-    
+
     cross_cloud_cache_options {
       enabled = false
     }

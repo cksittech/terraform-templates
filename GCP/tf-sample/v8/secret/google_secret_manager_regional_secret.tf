@@ -11,7 +11,7 @@ resource "google_secret_manager_regional_secret" "tf-sample-secret-manager-regio
   ttl                 = ""
   version_aliases     = {}
   version_destroy_ttl = ""
-  
+
   customer_managed_encryption {
     kms_key_name = ""
   }
@@ -22,6 +22,6 @@ resource "google_secret_manager_regional_secret" "tf-sample-secret-manager-regio
   topics {
     name = ""
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "google_chronicle_findings_refinement" "tf-sample-chronicle-findings-re
   project      = ""
   query        = ""
   type         = ""
-  
+
   outcome_filters {
     outcome_filter_operator = ""
     outcome_value           = ""

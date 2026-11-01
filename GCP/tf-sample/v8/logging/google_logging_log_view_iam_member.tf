@@ -5,7 +5,7 @@ resource "google_logging_log_view_iam_member" "tf-sample-logging-log-view-iam-me
   name     = ""
   parent   = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -4,7 +4,7 @@ resource "google_compute_managed_ssl_certificate" "tf-sample-compute-managed-ssl
   name            = ""
   project         = ""
   type            = ""
-  
+
   managed {
     domains = []
   }

@@ -4,7 +4,7 @@ resource "google_storage_insights_report_config" "tf-sample-storage-insights-rep
   force_destroy   = false
   location        = ""
   project         = ""
-  
+
   csv_options {
     delimiter        = ""
     header_required  = false
@@ -12,7 +12,7 @@ resource "google_storage_insights_report_config" "tf-sample-storage-insights-rep
   }
   frequency_options {
     frequency = ""
-    
+
     end_date {
       day   = 0
       month = 0
@@ -26,7 +26,7 @@ resource "google_storage_insights_report_config" "tf-sample-storage-insights-rep
   }
   object_metadata_report_options {
     metadata_fields = []
-    
+
     storage_destination_options {
       bucket           = ""
       destination_path = ""

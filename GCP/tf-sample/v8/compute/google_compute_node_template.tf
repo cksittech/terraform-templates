@@ -7,7 +7,7 @@ resource "google_compute_node_template" "tf-sample-compute-node-template" {
   node_type            = ""
   project              = ""
   region               = ""
-  
+
   accelerators {
     accelerator_count = 0
     accelerator_type  = ""

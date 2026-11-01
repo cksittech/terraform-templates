@@ -4,7 +4,7 @@ resource "google_dataproc_job_iam_binding" "tf-sample-dataproc-job-iam-binding" 
   project = ""
   region  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

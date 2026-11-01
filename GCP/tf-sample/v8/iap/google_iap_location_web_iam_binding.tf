@@ -3,7 +3,7 @@ resource "google_iap_location_web_iam_binding" "tf-sample-iap-location-web-iam-b
   members  = []
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

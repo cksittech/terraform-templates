@@ -14,17 +14,17 @@ resource "google_apigee_api_product" "tf-sample-apigee-api-product" {
   quota_time_unit     = ""
   scopes              = []
   space               = ""
-  
+
   attributes {
     name  = ""
     value = ""
   }
   graphql_operation_group {
     operation_config_type = ""
-    
+
     operation_configs {
       api_source = ""
-      
+
       attributes {
         name  = ""
         value = ""
@@ -45,7 +45,7 @@ resource "google_apigee_api_product" "tf-sample-apigee-api-product" {
       api_source = ""
       methods    = []
       service    = ""
-      
+
       attributes {
         name  = ""
         value = ""
@@ -59,10 +59,10 @@ resource "google_apigee_api_product" "tf-sample-apigee-api-product" {
   }
   operation_group {
     operation_config_type = ""
-    
+
     operation_configs {
       api_source = ""
-      
+
       attributes {
         name  = ""
         value = ""

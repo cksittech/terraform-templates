@@ -17,7 +17,7 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
   static_ip_enabled            = false
   sync_mode                    = ""
   tag                          = ""
-  
+
   action_config {
     action_params         = {}
     create_bap_connection = false
@@ -29,7 +29,7 @@ resource "google_discovery_engine_data_connector" "tf-sample-discovery-engine-da
   destination_configs {
     key    = ""
     params = ""
-    
+
     destinations {
       host = ""
       port = 0

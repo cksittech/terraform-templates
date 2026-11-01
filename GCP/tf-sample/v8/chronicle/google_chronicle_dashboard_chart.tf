@@ -4,7 +4,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
   location         = ""
   native_dashboard = ""
   project          = ""
-  
+
   chart_layout {
     span_x  = 0
     span_y  = 0
@@ -15,7 +15,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
     description  = ""
     display_name = ""
     tile_type    = ""
-    
+
     chart_datasource {
       data_sources = []
     }
@@ -23,11 +23,11 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       left_drill_downs {
         display_name = ""
         id           = ""
-        
+
         custom_settings {
           left_click_column = ""
           new_tab           = false
-          
+
           external_link {
             description = ""
             link        = ""
@@ -35,7 +35,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
           filter {
             dashboard_filters {
               dashboard_filter_id = ""
-              
+
               filter_operator_and_values {
                 field_values    = []
                 filter_operator = ""
@@ -53,10 +53,10 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       right_drill_downs {
         display_name = ""
         id           = ""
-        
+
         custom_settings {
           new_tab = false
-          
+
           external_link {
             description = ""
             link        = ""
@@ -64,7 +64,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
           filter {
             dashboard_filters {
               dashboard_filter_id = ""
-              
+
               filter_operator_and_values {
                 field_values    = []
                 filter_operator = ""
@@ -84,13 +84,13 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       grouping_type              = ""
       series_column              = []
       threshold_coloring_enabled = false
-      
+
       button {
         description = ""
         hyperlink   = ""
         label       = ""
         new_tab     = false
-        
+
         properties {
           button_style = ""
           color        = ""
@@ -102,7 +102,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       }
       google_maps_config {
         plot_mode = ""
-        
+
         data_settings {
           count_column     = ""
           latitude_column  = ""
@@ -134,7 +134,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       }
       markdown {
         content = ""
-        
+
         properties {
           background_color = ""
         }
@@ -150,7 +150,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
         show_background       = false
         show_symbol           = false
         stack                 = ""
-        
+
         area_style {
           color           = ""
           opacity         = 0
@@ -186,7 +186,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
         item_colors {
           colors {
             key = ""
-            
+
             value {
               color = ""
               label = ""
@@ -207,7 +207,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       }
       table_config {
         enable_text_wrap = false
-        
+
         column_render_type_settings {
           column_render_type = ""
           field              = ""
@@ -224,7 +224,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
       }
       visual_maps {
         visual_map_type = ""
-        
+
         pieces {
           color = ""
           label = ""
@@ -248,7 +248,7 @@ resource "google_chronicle_dashboard_chart" "tf-sample-chronicle-dashboard-chart
   }
   dashboard_query {
     query = ""
-    
+
     input {
       relative_time {
         start_time_val = ""

@@ -7,7 +7,7 @@ resource "google_cloud_quotas_quota_preference" "tf-sample-cloud-quotas-quota-pr
   parent               = ""
   quota_id             = ""
   service              = ""
-  
+
   quota_config {
     annotations     = {}
     preferred_value = ""

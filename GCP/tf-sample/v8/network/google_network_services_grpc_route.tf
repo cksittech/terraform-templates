@@ -8,11 +8,11 @@ resource "google_network_services_grpc_route" "tf-sample-network-services-grpc-r
   meshes          = []
   name            = ""
   project         = ""
-  
+
   rules {
     action {
       timeout = ""
-      
+
       destinations {
         service_name = ""
         weight       = 0

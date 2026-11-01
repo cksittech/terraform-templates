@@ -14,7 +14,7 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
   target_suspended_size            = 0
   wait_for_instances               = false
   wait_for_instances_status        = ""
-  
+
   all_instances_config {
     labels   = {}
     metadata = {}
@@ -29,7 +29,7 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
       min_cpu_platform = ""
       name             = ""
       rank             = 0
-      
+
       disks {
         architecture           = ""
         auto_delete            = false
@@ -48,7 +48,7 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
         source_image           = ""
         source_snapshot        = ""
         type                   = ""
-        
+
         disk_encryption_key {
           kms_key_self_link       = ""
           kms_key_service_account = ""
@@ -82,7 +82,7 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
     default_action_on_failure = ""
     force_update_on_repair    = ""
     on_failed_health_check    = ""
-    
+
     on_repair {
       allow_changing_zone = ""
     }
@@ -127,7 +127,7 @@ resource "google_compute_region_instance_group_manager" "tf-sample-compute-regio
   version {
     instance_template = ""
     name              = ""
-    
+
     target_size {
       fixed   = 0
       percent = 0

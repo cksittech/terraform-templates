@@ -4,7 +4,7 @@ resource "google_dataplex_data_product_iam_binding" "tf-sample-dataplex-data-pro
   members         = []
   project         = ""
   role            = ""
-  
+
   condition {
     description = ""
     expression  = ""

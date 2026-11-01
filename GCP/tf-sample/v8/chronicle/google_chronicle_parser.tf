@@ -7,14 +7,14 @@ resource "google_chronicle_parser" "tf-sample-chronicle-parser" {
   project                 = ""
   validated_on_empty_logs = false
   validation_skipped      = false
-  
+
   low_code {
     log = ""
-    
+
     field_extractors {
       append_repeated_fields = false
       log_format             = ""
-      
+
       extractors {
         destination_path   = ""
         field_path         = ""

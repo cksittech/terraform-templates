@@ -5,10 +5,10 @@ resource "google_dataplex_entry_link" "tf-sample-dataplex-entry-link" {
   entry_link_type = ""
   location        = ""
   project         = ""
-  
+
   aspects {
     aspect_key = ""
-    
+
     aspect {
       data = ""
     }

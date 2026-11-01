@@ -11,14 +11,14 @@ resource "google_memcache_instance" "tf-sample-memcache-instance" {
   region               = ""
   reserved_ip_range_id = []
   zones                = []
-  
+
   maintenance_policy {
     description = ""
-    
+
     weekly_maintenance_window {
       day      = ""
       duration = ""
-      
+
       start_time {
         hours   = 0
         minutes = 0

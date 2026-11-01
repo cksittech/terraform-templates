@@ -3,16 +3,16 @@ resource "google_scc_organization_custom_module" "tf-sample-scc-organization-cus
   display_name     = ""
   enablement_state = ""
   organization     = ""
-  
+
   custom_config {
     description    = ""
     recommendation = ""
     severity       = ""
-    
+
     custom_output {
       properties {
         name = ""
-        
+
         value_expression {
           description = ""
           expression  = ""

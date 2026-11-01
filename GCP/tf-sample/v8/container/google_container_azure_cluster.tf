@@ -8,7 +8,7 @@ resource "google_container_azure_cluster" "tf-sample-container-azure-cluster" {
   name              = ""
   project           = ""
   resource_group_id = ""
-  
+
   authorization {
     admin_groups {
       group = ""
@@ -25,7 +25,7 @@ resource "google_container_azure_cluster" "tf-sample-container-azure-cluster" {
     subnet_id = ""
     version   = ""
     vm_size   = ""
-    
+
     database_encryption {
       key_id = ""
     }

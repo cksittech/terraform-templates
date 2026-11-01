@@ -12,7 +12,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
   project            = ""
   service_account    = ""
   substitutions      = {}
-  
+
   approval_config {
     approval_required = false
   }
@@ -20,7 +20,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
     bitbucket_server_config_resource = ""
     project_key                      = ""
     repo_slug                        = ""
-    
+
     pull_request {
       branch          = ""
       comment_control = ""
@@ -38,10 +38,10 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
     queue_ttl     = ""
     substitutions = {}
     timeout       = ""
-    
+
     artifacts {
       images = []
-      
+
       maven_artifacts {
         artifact_id = ""
         group_id    = ""
@@ -80,7 +80,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
       source_provenance_hash  = []
       substitution_option     = ""
       worker_pool             = ""
-      
+
       volumes {
         name = ""
         path = ""
@@ -121,7 +121,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
       timeout          = ""
       timing           = ""
       wait_for         = []
-      
+
       volumes {
         name = ""
         path = ""
@@ -130,7 +130,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
   }
   developer_connect_event_config {
     git_repository_link = ""
-    
+
     pull_request {
       branch          = ""
       comment_control = ""
@@ -155,7 +155,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
     enterprise_config_resource_name = ""
     name                            = ""
     owner                           = ""
-    
+
     pull_request {
       branch          = ""
       comment_control = ""
@@ -173,7 +173,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
   }
   repository_event_config {
     repository = ""
-    
+
     pull_request {
       branch          = ""
       comment_control = ""
@@ -205,6 +205,6 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
   webhook_config {
     secret = ""
   }
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "google_endpoints_service_iam_binding" "tf-sample-endpoints-service-iam
   members      = []
   role         = ""
   service_name = ""
-  
+
   condition {
     description = ""
     expression  = ""

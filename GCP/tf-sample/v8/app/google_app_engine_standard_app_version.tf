@@ -14,14 +14,14 @@ resource "google_app_engine_standard_app_version" "tf-sample-app-engine-standard
   service_account             = ""
   threadsafe                  = false
   version_id                  = ""
-  
+
   automatic_scaling {
     max_concurrent_requests = 0
     max_idle_instances      = 0
     max_pending_latency     = ""
     min_idle_instances      = 0
     min_pending_latency     = ""
-    
+
     standard_scheduler_settings {
       max_instances                 = 0
       min_instances                 = 0
@@ -53,7 +53,7 @@ resource "google_app_engine_standard_app_version" "tf-sample-app-engine-standard
     redirect_http_response_code = ""
     security_level              = ""
     url_regex                   = ""
-    
+
     script {
       script_path = ""
     }

@@ -7,10 +7,10 @@ resource "google_eventarc_trigger" "tf-sample-eventarc-trigger" {
   name                    = ""
   project                 = ""
   service_account         = ""
-  
+
   destination {
     workflow = ""
-    
+
     cloud_run_service {
       path    = ""
       region  = ""

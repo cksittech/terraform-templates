@@ -7,7 +7,7 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
   parent                     = ""
   security_settings          = ""
   timeout                    = ""
-  
+
   generic_web_service {
     allowed_ca_certs                     = []
     http_method                          = ""
@@ -18,7 +18,7 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
     service_agent_auth                   = ""
     uri                                  = ""
     webhook_type                         = ""
-    
+
     oauth_config {
       client_id                        = ""
       client_secret                    = ""
@@ -36,7 +36,7 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
   }
   service_directory {
     service = ""
-    
+
     generic_web_service {
       allowed_ca_certs                     = []
       http_method                          = ""
@@ -47,7 +47,7 @@ resource "google_dialogflow_cx_webhook" "tf-sample-dialogflow-cx-webhook" {
       service_agent_auth                   = ""
       uri                                  = ""
       webhook_type                         = ""
-      
+
       oauth_config {
         client_id                        = ""
         client_secret                    = ""

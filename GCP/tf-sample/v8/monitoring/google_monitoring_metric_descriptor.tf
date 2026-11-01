@@ -8,7 +8,7 @@ resource "google_monitoring_metric_descriptor" "tf-sample-monitoring-metric-desc
   type            = ""
   unit            = ""
   value_type      = ""
-  
+
   labels {
     description = ""
     key         = ""

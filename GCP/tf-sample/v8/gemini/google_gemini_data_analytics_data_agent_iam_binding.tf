@@ -4,7 +4,7 @@ resource "google_gemini_data_analytics_data_agent_iam_binding" "tf-sample-gemini
   members       = []
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

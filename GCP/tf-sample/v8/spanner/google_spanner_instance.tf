@@ -11,7 +11,7 @@ resource "google_spanner_instance" "tf-sample-spanner-instance" {
   num_nodes                    = 0
   processing_units             = 0
   project                      = ""
-  
+
   autoscaling_config {
     asymmetric_autoscaling_options {
       overrides {
@@ -19,7 +19,7 @@ resource "google_spanner_instance" "tf-sample-spanner-instance" {
         autoscaling_target_total_cpu_utilization_percent         = 0
         disable_high_priority_cpu_autoscaling                    = false
         disable_total_cpu_autoscaling                            = false
-        
+
         autoscaling_limits {
           max_nodes            = 0
           max_processing_units = 0

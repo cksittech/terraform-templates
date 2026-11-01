@@ -2,7 +2,7 @@ resource "google_identity_platform_config" "tf-sample-identity-platform-config" 
   authorized_domains         = []
   autodelete_anonymous_users = false
   project                    = ""
-  
+
   blocking_functions {
     forward_inbound_credentials {
       access_token  = false
@@ -23,10 +23,10 @@ resource "google_identity_platform_config" "tf-sample-identity-platform-config" 
   mfa {
     enabled_providers = []
     state             = ""
-    
+
     provider_configs {
       state = ""
-      
+
       totp_provider_config {
         adjacent_intervals = 0
       }
@@ -50,7 +50,7 @@ resource "google_identity_platform_config" "tf-sample-identity-platform-config" 
   }
   sign_in {
     allow_duplicate_emails = false
-    
+
     anonymous {
       enabled = false
     }

@@ -27,13 +27,13 @@ resource "google_cloudfunctions_function" "tf-sample-cloudfunctions-function" {
   trigger_http                  = false
   vpc_connector                 = ""
   vpc_connector_egress_settings = ""
-  
+
   automatic_update_policy {
   }
   event_trigger {
     event_type = ""
     resource   = ""
-    
+
     failure_policy {
       retry = false
     }
@@ -50,7 +50,7 @@ resource "google_cloudfunctions_function" "tf-sample-cloudfunctions-function" {
     mount_path = ""
     project_id = ""
     secret     = ""
-    
+
     versions {
       path    = ""
       version = ""

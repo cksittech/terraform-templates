@@ -3,7 +3,7 @@ resource "google_redis_cluster_user_created_connections" "tf-sample-redis-cluste
   name            = ""
   project         = ""
   region          = ""
-  
+
   cluster_endpoints {
     connections {
       psc_connection {

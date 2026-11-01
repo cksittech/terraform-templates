@@ -5,7 +5,7 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
   name            = ""
   project         = ""
   tier            = ""
-  
+
   encryption_spec {
     cloud_kms_key = ""
   }
@@ -13,7 +13,7 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
     allow_requester_specified_not_before_time = false
     backdate_duration                         = ""
     maximum_lifetime                          = ""
-    
+
     allowed_issuance_modes {
       allow_config_based_issuance = false
       allow_csr_based_issuance    = false
@@ -29,11 +29,11 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
     }
     baseline_values {
       aia_ocsp_servers = []
-      
+
       additional_extensions {
         critical = false
         value    = ""
-        
+
         object_id {
           object_id_path = []
         }
@@ -86,7 +86,7 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
     identity_constraints {
       allow_subject_alt_names_passthrough = false
       allow_subject_passthrough           = false
-      
+
       cel_expression {
         description = ""
         expression  = ""

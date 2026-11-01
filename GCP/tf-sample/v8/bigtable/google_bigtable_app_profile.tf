@@ -8,7 +8,7 @@ resource "google_bigtable_app_profile" "tf-sample-bigtable-app-profile" {
   multi_cluster_routing_use_any     = false
   project                           = ""
   row_affinity                      = false
-  
+
   data_boost_isolation_read_only {
     compute_billing_owner = ""
   }
@@ -18,7 +18,7 @@ resource "google_bigtable_app_profile" "tf-sample-bigtable-app-profile" {
   }
   standard_isolation {
     priority = ""
-    
+
     memory_config {
     }
   }

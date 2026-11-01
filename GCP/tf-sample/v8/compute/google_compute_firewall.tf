@@ -13,7 +13,7 @@ resource "google_compute_firewall" "tf-sample-compute-firewall" {
   source_tags             = []
   target_service_accounts = []
   target_tags             = []
-  
+
   allow {
     ports    = []
     protocol = ""

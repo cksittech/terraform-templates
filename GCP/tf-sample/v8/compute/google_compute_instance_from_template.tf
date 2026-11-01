@@ -18,7 +18,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
   resource_policies          = []
   source_instance_template   = ""
   zone                       = ""
-  
+
   advanced_machine_features {
     enable_nested_virtualization = false
     enable_uefi_networking       = false
@@ -49,7 +49,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     kms_key_self_link               = ""
     mode                            = ""
     source                          = ""
-    
+
     initialize_params {
       architecture                = ""
       enable_confidential_compute = false
@@ -64,7 +64,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
       snapshot                    = ""
       storage_pool                = ""
       type                        = ""
-      
+
       source_image_encryption_key {
         kms_key_self_link       = ""
         kms_key_service_account = ""
@@ -106,7 +106,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     subnetwork                  = ""
     subnetwork_project          = ""
     vlan                        = 0
-    
+
     access_config {
       nat_ip                 = ""
       network_tier           = ""
@@ -132,7 +132,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
   }
   reservation_affinity {
     type = ""
-    
+
     specific_reservation {
       key    = ""
       values = []
@@ -148,7 +148,7 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     preemptible                 = false
     provisioning_model          = ""
     termination_time            = ""
-    
+
     local_ssd_recovery_timeout {
       nanos   = 0
       seconds = 0
@@ -188,6 +188,6 @@ resource "google_compute_instance_from_template" "tf-sample-compute-instance-fro
     identity                     = ""
     identity_certificate_enabled = false
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "google_bigquery_dataset_iam_member" "tf-sample-bigquery-dataset-iam-me
   member     = ""
   project    = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

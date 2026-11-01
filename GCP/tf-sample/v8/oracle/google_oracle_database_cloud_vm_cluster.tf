@@ -14,7 +14,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
   odb_network               = ""
   odb_subnet                = ""
   project                   = ""
-  
+
   properties {
     cluster_name                = ""
     cpu_core_count              = 0
@@ -35,7 +35,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
     ssh_public_keys             = []
     vm_backup_storage_type      = ""
     vm_file_system_storage_type = ""
-    
+
     diagnostics_data_collection_options {
       diagnostics_events_enabled = false
       health_monitoring_enabled  = false

@@ -3,7 +3,7 @@ resource "google_chronicle_big_query_export" "tf-sample-chronicle-big-query-expo
   instance                 = ""
   location                 = ""
   project                  = ""
-  
+
   entity_graph_settings {
     enabled        = false
     retention_days = 0

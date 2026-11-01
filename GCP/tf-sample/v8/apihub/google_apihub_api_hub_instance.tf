@@ -4,7 +4,7 @@ resource "google_apihub_api_hub_instance" "tf-sample-apihub-api-hub-instance" {
   labels              = {}
   location            = ""
   project             = ""
-  
+
   config {
     cmek_key_name   = ""
     disable_search  = false

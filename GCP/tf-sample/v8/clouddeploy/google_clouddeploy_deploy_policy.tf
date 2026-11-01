@@ -7,16 +7,16 @@ resource "google_clouddeploy_deploy_policy" "tf-sample-clouddeploy-deploy-policy
   name            = ""
   project         = ""
   suspended       = false
-  
+
   rules {
     rollout_restriction {
       actions  = []
       id       = ""
       invokers = []
-      
+
       time_windows {
         time_zone = ""
-        
+
         one_time_windows {
           end_date {
             day   = 0
@@ -43,7 +43,7 @@ resource "google_clouddeploy_deploy_policy" "tf-sample-clouddeploy-deploy-policy
         }
         weekly_windows {
           days_of_week = []
-          
+
           end_time {
             hours   = 0
             minutes = 0

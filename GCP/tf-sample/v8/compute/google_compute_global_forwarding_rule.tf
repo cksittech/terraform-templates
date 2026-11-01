@@ -17,10 +17,10 @@ resource "google_compute_global_forwarding_rule" "tf-sample-compute-global-forwa
   source_ip_ranges                                             = []
   subnetwork                                                   = ""
   target                                                       = ""
-  
+
   metadata_filters {
     filter_match_criteria = ""
-    
+
     filter_labels {
       name  = ""
       value = ""

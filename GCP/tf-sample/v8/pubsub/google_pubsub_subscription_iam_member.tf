@@ -3,7 +3,7 @@ resource "google_pubsub_subscription_iam_member" "tf-sample-pubsub-subscription-
   project      = ""
   role         = ""
   subscription = ""
-  
+
   condition {
     description = ""
     expression  = ""

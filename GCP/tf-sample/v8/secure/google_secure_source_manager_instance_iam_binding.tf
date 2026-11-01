@@ -4,7 +4,7 @@ resource "google_secure_source_manager_instance_iam_binding" "tf-sample-secure-s
   members     = []
   project     = ""
   role        = ""
-  
+
   condition {
     description = ""
     expression  = ""

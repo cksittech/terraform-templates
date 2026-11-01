@@ -4,17 +4,17 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
   location              = ""
   project               = ""
   publisher_model_name  = ""
-  
+
   deploy_config {
     fast_tryout_enabled = false
     system_labels       = {}
-    
+
     dedicated_resources {
       max_replica_count      = 0
       min_replica_count      = 0
       required_replica_count = 0
       spot                   = false
-      
+
       autoscaling_metric_specs {
         metric_name = ""
         target      = 0
@@ -25,7 +25,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
         machine_type             = ""
         multihost_gpu_node_count = 0
         tpu_topology             = ""
-        
+
         reservation_affinity {
           key                       = ""
           reservation_affinity_type = ""
@@ -37,11 +37,11 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
   endpoint_config {
     dedicated_endpoint_enabled = false
     endpoint_display_name      = ""
-    
+
     private_service_connect_config {
       enable_private_service_connect = false
       project_allowlist              = []
-      
+
       psc_automation_configs {
         network    = ""
         project_id = ""
@@ -53,7 +53,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
     hugging_face_access_token  = ""
     hugging_face_cache_enabled = false
     model_display_name         = ""
-    
+
     container_spec {
       args                  = []
       command               = []
@@ -62,7 +62,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
       image_uri             = ""
       predict_route         = ""
       shared_memory_size_mb = ""
-      
+
       env {
         name  = ""
         value = ""
@@ -76,7 +76,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
         period_seconds        = 0
         success_threshold     = 0
         timeout_seconds       = 0
-        
+
         exec {
           command = []
         }
@@ -89,7 +89,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
           path   = ""
           port   = 0
           scheme = ""
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -106,7 +106,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
         period_seconds        = 0
         success_threshold     = 0
         timeout_seconds       = 0
-        
+
         exec {
           command = []
         }
@@ -119,7 +119,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
           path   = ""
           port   = 0
           scheme = ""
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -139,7 +139,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
         period_seconds        = 0
         success_threshold     = 0
         timeout_seconds       = 0
-        
+
         exec {
           command = []
         }
@@ -152,7 +152,7 @@ resource "google_vertex_ai_endpoint_with_model_garden_deployment" "tf-sample-ver
           path   = ""
           port   = 0
           scheme = ""
-          
+
           http_headers {
             name  = ""
             value = ""

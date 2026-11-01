@@ -7,7 +7,7 @@ resource "google_network_connectivity_service_connection_policy" "tf-sample-netw
   network         = ""
   project         = ""
   service_class   = ""
-  
+
   psc_config {
     allowed_google_producers_resource_hierarchy_level = []
     limit                                             = ""

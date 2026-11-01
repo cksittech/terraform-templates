@@ -11,7 +11,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
   node_locations            = []
   project                   = ""
   version                   = ""
-  
+
   autoscaling {
     location_policy      = ""
     max_node_count       = 0
@@ -39,7 +39,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     pod_ipv4_cidr_block         = ""
     pod_range                   = ""
     subnetwork                  = ""
-    
+
     additional_node_network_configs {
       network    = ""
       subnetwork = ""
@@ -80,7 +80,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     service_account             = ""
     spot                        = false
     storage_pools               = []
-    
+
     advanced_machine_features {
       enable_nested_virtualization = false
       performance_monitoring_unit  = ""
@@ -99,10 +99,10 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     containerd_config {
       private_registry_access_config {
         enabled = false
-        
+
         certificate_authority_domain_config {
           fqdns = []
-          
+
           gcp_secret_manager_certificate_config {
             secret_uri = ""
           }
@@ -110,13 +110,13 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       }
       registry_hosts {
         server = ""
-        
+
         hosts {
           capabilities  = []
           dial_timeout  = ""
           host          = ""
           override_path = false
-          
+
           ca {
             gcp_secret_manager_secret_uri = ""
           }
@@ -152,7 +152,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       count              = 0
       gpu_partition_size = ""
       type               = ""
-      
+
       gpu_driver_installation_config {
         gpu_driver_version = ""
       }
@@ -182,7 +182,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       shutdown_grace_period_critical_pods_seconds = 0
       shutdown_grace_period_seconds               = 0
       single_process_oom_kill                     = false
-      
+
       crash_loop_back_off {
         max_container_restart_period = ""
       }
@@ -223,7 +223,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       sysctls                      = {}
       transparent_hugepage_defrag  = ""
       transparent_hugepage_enabled = ""
-      
+
       accurate_time_config {
         enable_ptp_kvm_time_sync = false
       }
@@ -243,7 +243,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
       }
       swap_config {
         enabled = false
-        
+
         boot_disk_profile {
           swap_size_gib     = 0
           swap_size_percent = 0
@@ -285,7 +285,7 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     }
     sole_tenant_config {
       min_node_cpus = 0
-      
+
       node_affinity {
         key      = ""
         operator = ""
@@ -324,10 +324,10 @@ resource "google_container_node_pool" "tf-sample-container-node-pool" {
     max_surge       = 0
     max_unavailable = 0
     strategy        = ""
-    
+
     blue_green_settings {
       node_pool_soak_duration = ""
-      
+
       standard_rollout_policy {
         batch_node_count    = 0
         batch_percentage    = 0

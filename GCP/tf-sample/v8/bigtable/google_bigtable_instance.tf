@@ -7,7 +7,7 @@ resource "google_bigtable_instance" "tf-sample-bigtable-instance" {
   labels              = {}
   name                = ""
   project             = ""
-  
+
   cluster {
     cluster_id          = ""
     kms_key_name        = ""
@@ -15,7 +15,7 @@ resource "google_bigtable_instance" "tf-sample-bigtable-instance" {
     num_nodes           = 0
     storage_type        = ""
     zone                = ""
-    
+
     autoscaling_config {
       cpu_target     = 0
       max_nodes      = 0
@@ -23,6 +23,6 @@ resource "google_bigtable_instance" "tf-sample-bigtable-instance" {
       storage_target = 0
     }
   }
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "google_container_aws_cluster" "tf-sample-container-aws-cluster" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   authorization {
     admin_groups {
       group = ""
@@ -24,7 +24,7 @@ resource "google_container_aws_cluster" "tf-sample-container-aws-cluster" {
     security_group_ids   = []
     subnet_ids           = []
     version              = ""
-    
+
     aws_services_authentication {
       role_arn          = ""
       role_session_name = ""

@@ -4,7 +4,7 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
   location        = ""
   project         = ""
   template_id     = ""
-  
+
   filter_config {
     malicious_uri_filter_settings {
       filter_enforcement = ""
@@ -39,7 +39,7 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
     log_sanitize_operations                  = false
     log_template_operations                  = false
     modalities                               = []
-    
+
     filter_version_selector {
       alias   = ""
       version = ""

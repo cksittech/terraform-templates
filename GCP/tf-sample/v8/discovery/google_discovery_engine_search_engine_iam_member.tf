@@ -5,7 +5,7 @@ resource "google_discovery_engine_search_engine_iam_member" "tf-sample-discovery
   member        = ""
   project       = ""
   role          = ""
-  
+
   condition {
     description = ""
     expression  = ""

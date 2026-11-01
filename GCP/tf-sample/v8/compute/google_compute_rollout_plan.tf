@@ -4,14 +4,14 @@ resource "google_compute_rollout_plan" "tf-sample-compute-rollout-plan" {
   location_scope  = ""
   name            = ""
   project         = ""
-  
+
   waves {
     display_name = ""
-    
+
     orchestration_options {
       max_concurrent_locations              = 0
       max_concurrent_resources_per_location = 0
-      
+
       delays {
         delimiter = ""
         duration  = ""
@@ -30,7 +30,7 @@ resource "google_compute_rollout_plan" "tf-sample-compute-rollout-plan" {
     }
     validation {
       type = ""
-      
+
       time_based_validation_metadata {
         wait_duration = ""
       }

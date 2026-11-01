@@ -12,10 +12,10 @@ resource "google_vector_search_index" "tf-sample-vector-search-index" {
   project         = ""
   skip_wait       = false
   store_fields    = []
-  
+
   dedicated_infrastructure {
     mode = ""
-    
+
     autoscaling_spec {
       max_replica_count = 0
       min_replica_count = 0

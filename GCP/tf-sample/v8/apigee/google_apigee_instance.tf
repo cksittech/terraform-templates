@@ -9,7 +9,7 @@ resource "google_apigee_instance" "tf-sample-apigee-instance" {
   name                     = ""
   org_id                   = ""
   peering_cidr_range       = ""
-  
+
   access_logging_config {
     enabled = false
     filter  = ""

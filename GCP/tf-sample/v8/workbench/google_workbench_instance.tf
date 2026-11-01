@@ -11,14 +11,14 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
   location                    = ""
   name                        = ""
   project                     = ""
-  
+
   gce_setup {
     disable_public_ip    = false
     enable_ip_forwarding = false
     machine_type         = ""
     metadata             = {}
     min_cpu_platform     = ""
-    
+
     accelerator_configs {
       core_count = ""
       type       = ""
@@ -47,7 +47,7 @@ resource "google_workbench_instance" "tf-sample-workbench-instance" {
       network  = ""
       nic_type = ""
       subnet   = ""
-      
+
       access_configs {
         external_ip = ""
       }

@@ -9,11 +9,11 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   mode                   = ""
   project                = ""
   repository_id          = ""
-  
+
   cleanup_policies {
     action = ""
     id     = ""
-    
+
     condition {
       newer_than            = ""
       older_than            = ""
@@ -37,7 +37,7 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   remote_repository_config {
     description                 = ""
     disable_upstream_validation = false
-    
+
     apt_repository {
       public_repository {
         repository_base = ""
@@ -49,14 +49,14 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
     }
     docker_repository {
       public_repository = ""
-      
+
       custom_repository {
         uri = ""
       }
     }
     maven_repository {
       public_repository = ""
-      
+
       custom_repository {
         uri = ""
       }
@@ -65,14 +65,14 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
     }
     npm_repository {
       public_repository = ""
-      
+
       custom_repository {
         uri = ""
       }
     }
     python_repository {
       public_repository = ""
-      
+
       custom_repository {
         uri = ""
       }

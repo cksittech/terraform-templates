@@ -4,7 +4,7 @@ resource "google_dataplex_glossary_iam_binding" "tf-sample-dataplex-glossary-iam
   members     = []
   project     = ""
   role        = ""
-  
+
   condition {
     description = ""
     expression  = ""

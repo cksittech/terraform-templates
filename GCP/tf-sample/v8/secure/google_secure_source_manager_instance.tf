@@ -5,12 +5,12 @@ resource "google_secure_source_manager_instance" "tf-sample-secure-source-manage
   labels          = {}
   location        = ""
   project         = ""
-  
+
   private_config {
     ca_pool              = ""
     is_private           = false
     psc_allowed_projects = []
-    
+
     custom_host_config {
       api      = ""
       git_http = ""

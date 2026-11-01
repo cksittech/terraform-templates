@@ -4,7 +4,7 @@ resource "google_colab_runtime_template_iam_binding" "tf-sample-colab-runtime-te
   project          = ""
   role             = ""
   runtime_template = ""
-  
+
   condition {
     description = ""
     expression  = ""

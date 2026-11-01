@@ -4,7 +4,7 @@ resource "google_network_security_address_group_iam_member" "tf-sample-network-s
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

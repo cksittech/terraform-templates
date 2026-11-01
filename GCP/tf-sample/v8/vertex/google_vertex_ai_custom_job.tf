@@ -4,7 +4,7 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
   labels          = {}
   project         = ""
   region          = ""
-  
+
   encryption_spec {
     kms_key_name = ""
   }
@@ -15,13 +15,13 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
     reserved_ip_ranges      = []
     service_account         = ""
     tensorboard             = ""
-    
+
     base_output_directory {
       output_uri_prefix = ""
     }
     psc_interface_config {
       network_attachment = ""
-      
+
       dns_peering_configs {
         domain         = ""
         target_network = ""
@@ -37,12 +37,12 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
     }
     worker_pool_specs {
       replica_count = 0
-      
+
       container_spec {
         args      = []
         command   = []
         image_uri = ""
-        
+
         env {
           name  = ""
           value = ""
@@ -63,7 +63,7 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
         accelerator_type  = ""
         machine_type      = ""
         tpu_topology      = ""
-        
+
         reservation_affinity {
           key                       = ""
           reservation_affinity_type = ""
@@ -80,7 +80,7 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
         executor_image_uri = ""
         package_uris       = []
         python_module      = ""
-        
+
         env {
           name  = ""
           value = ""

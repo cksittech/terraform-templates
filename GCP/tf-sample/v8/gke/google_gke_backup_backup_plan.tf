@@ -7,13 +7,13 @@ resource "google_gke_backup_backup_plan" "tf-sample-gke-backup-backup-plan" {
   location        = ""
   name            = ""
   project         = ""
-  
+
   backup_config {
     all_namespaces      = false
     include_secrets     = false
     include_volume_data = false
     permissive_mode     = false
-    
+
     encryption_key {
       gcp_kms_encryption_key = ""
     }
@@ -36,14 +36,14 @@ resource "google_gke_backup_backup_plan" "tf-sample-gke-backup-backup-plan" {
   backup_schedule {
     cron_schedule = ""
     paused        = false
-    
+
     rpo_config {
       target_rpo_minutes = 0
-      
+
       exclusion_windows {
         daily    = false
         duration = ""
-        
+
         days_of_week {
           days_of_week = []
         }

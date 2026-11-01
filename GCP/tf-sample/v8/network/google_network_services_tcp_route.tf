@@ -6,12 +6,12 @@ resource "google_network_services_tcp_route" "tf-sample-network-services-tcp-rou
   meshes          = []
   name            = ""
   project         = ""
-  
+
   rules {
     action {
       idle_timeout         = ""
       original_destination = false
-      
+
       destinations {
         service_name = ""
         weight       = 0

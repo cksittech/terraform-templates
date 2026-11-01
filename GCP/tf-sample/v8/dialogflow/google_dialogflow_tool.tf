@@ -7,15 +7,15 @@ resource "google_dialogflow_tool" "tf-sample-dialogflow-tool" {
   project                         = ""
   tool_id                         = ""
   tool_key                        = ""
-  
+
   connector_spec {
     name = ""
-    
+
     actions {
       connection_action_id = ""
       input_fields         = []
       output_fields        = []
-      
+
       entity_operation {
         entity_id = ""
         operation = ""
@@ -29,7 +29,7 @@ resource "google_dialogflow_tool" "tf-sample-dialogflow-tool" {
   }
   open_api_spec {
     text_schema = ""
-    
+
     authentication {
       api_key_config {
         api_key                    = ""

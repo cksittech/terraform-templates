@@ -6,7 +6,7 @@ resource "google_developer_connect_account_connector" "tf-sample-developer-conne
   labels               = {}
   location             = ""
   project              = ""
-  
+
   custom_oauth_config {
     auth_uri           = ""
     client_id          = ""
@@ -17,7 +17,7 @@ resource "google_developer_connect_account_connector" "tf-sample-developer-conne
     scopes             = []
     ssl_ca_certificate = ""
     token_uri          = ""
-    
+
     service_directory_config {
       service = ""
     }

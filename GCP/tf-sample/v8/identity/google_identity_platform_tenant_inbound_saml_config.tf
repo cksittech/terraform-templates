@@ -5,12 +5,12 @@ resource "google_identity_platform_tenant_inbound_saml_config" "tf-sample-identi
   name            = ""
   project         = ""
   tenant          = ""
-  
+
   idp_config {
     idp_entity_id = ""
     sign_request  = false
     sso_url       = ""
-    
+
     idp_certificates {
       x509_certificate = ""
     }

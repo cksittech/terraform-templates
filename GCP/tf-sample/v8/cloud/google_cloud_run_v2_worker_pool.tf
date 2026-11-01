@@ -10,7 +10,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
   location            = ""
   name                = ""
   project             = ""
-  
+
   binary_authorization {
     breakglass_justification = ""
     policy                   = ""
@@ -38,7 +38,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
     labels                           = {}
     revision                         = ""
     service_account                  = ""
-    
+
     containers {
       args             = []
       command          = []
@@ -47,11 +47,11 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
       name             = ""
       sandbox_launcher = false
       working_dir      = ""
-      
+
       env {
         name  = ""
         value = ""
-        
+
         value_source {
           secret_key_ref {
             secret  = ""
@@ -64,7 +64,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
         initial_delay_seconds = 0
         period_seconds        = 0
         timeout_seconds       = 0
-        
+
         grpc {
           port    = 0
           service = ""
@@ -72,7 +72,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
         http_get {
           path = ""
           port = 0
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -90,7 +90,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
         initial_delay_seconds = 0
         period_seconds        = 0
         timeout_seconds       = 0
-        
+
         grpc {
           port    = 0
           service = ""
@@ -98,7 +98,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
         http_get {
           path = ""
           port = 0
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -119,7 +119,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
     }
     volumes {
       name = ""
-      
+
       cloud_sql_instance {
         instances = []
       }
@@ -140,7 +140,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
       secret {
         default_mode = 0
         secret       = ""
-        
+
         items {
           mode    = 0
           path    = ""
@@ -151,7 +151,7 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
     vpc_access {
       connector = ""
       egress    = ""
-      
+
       network_interfaces {
         network    = ""
         subnetwork = ""

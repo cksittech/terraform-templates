@@ -4,7 +4,7 @@ resource "google_compute_region_disk_iam_member" "tf-sample-compute-region-disk-
   project = ""
   region  = ""
   role    = ""
-  
+
   condition {
     description = ""
     expression  = ""

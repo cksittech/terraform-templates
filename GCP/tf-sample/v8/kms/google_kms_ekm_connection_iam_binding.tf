@@ -4,7 +4,7 @@ resource "google_kms_ekm_connection_iam_binding" "tf-sample-kms-ekm-connection-i
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

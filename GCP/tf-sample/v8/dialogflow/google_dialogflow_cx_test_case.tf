@@ -3,16 +3,16 @@ resource "google_dialogflow_cx_test_case" "tf-sample-dialogflow-cx-test-case" {
   display_name    = ""
   notes           = ""
   parent          = ""
-  
+
   test_case_conversation_turns {
     user_input {
       enable_sentiment_analysis = false
       injected_parameters       = ""
       is_webhook_enabled        = false
-      
+
       input {
         language_code = ""
-        
+
         dtmf {
           digits       = ""
           finish_digit = ""
@@ -27,7 +27,7 @@ resource "google_dialogflow_cx_test_case" "tf-sample-dialogflow-cx-test-case" {
     }
     virtual_agent_output {
       session_parameters = ""
-      
+
       current_page {
         name = ""
       }
@@ -44,6 +44,6 @@ resource "google_dialogflow_cx_test_case" "tf-sample-dialogflow-cx-test-case" {
     page                = ""
     tracking_parameters = []
   }
-  
+
   tags = {}
 }

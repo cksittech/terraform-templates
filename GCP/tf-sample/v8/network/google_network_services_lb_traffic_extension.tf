@@ -7,10 +7,10 @@ resource "google_network_services_lb_traffic_extension" "tf-sample-network-servi
   location              = ""
   name                  = ""
   project               = ""
-  
+
   extension_chains {
     name = ""
-    
+
     extensions {
       authority          = ""
       fail_open          = false

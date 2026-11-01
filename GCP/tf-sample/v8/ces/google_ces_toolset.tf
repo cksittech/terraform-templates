@@ -8,10 +8,10 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
   project         = ""
   timeout         = ""
   toolset_id      = ""
-  
+
   connector_toolset {
     connection = ""
-    
+
     auth_config {
       oauth2_auth_code_config {
         oauth_token = ""
@@ -26,7 +26,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
       connection_action_id = ""
       input_fields         = []
       output_fields        = []
-      
+
       entity_operation {
         entity_id = ""
         operation = ""
@@ -36,7 +36,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
   mcp_toolset {
     custom_headers = {}
     server_address = ""
-    
+
     api_authentication {
       api_key_config {
         api_key_secret_version = ""
@@ -78,7 +78,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
   open_api_toolset {
     ignore_unknown_fields = false
     open_api_schema       = ""
-    
+
     api_authentication {
       api_key_config {
         api_key_secret_version = ""
@@ -114,7 +114,7 @@ resource "google_ces_toolset" "tf-sample-ces-toolset" {
   }
   tool_fake_config {
     enable_fake_mode = false
-    
+
     code_block {
       python_code = ""
     }

@@ -13,7 +13,7 @@ resource "google_network_connectivity_internal_range" "tf-sample-network-connect
   project             = ""
   target_cidr_range   = []
   usage               = ""
-  
+
   allocation_options {
     allocation_strategy                = ""
     first_available_ranges_lookup_size = 0

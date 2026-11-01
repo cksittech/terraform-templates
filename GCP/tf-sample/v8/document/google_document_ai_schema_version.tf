@@ -5,17 +5,17 @@ resource "google_document_ai_schema_version" "tf-sample-document-ai-schema-versi
   location        = ""
   project         = ""
   schema_id       = ""
-  
+
   schema {
     description     = ""
     display_name    = ""
     document_prompt = ""
-    
+
     entity_types {
       base_types   = []
       display_name = ""
       name         = ""
-      
+
       enum_values {
         values = []
       }

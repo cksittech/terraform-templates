@@ -5,14 +5,14 @@ resource "google_iam_organization_access_policy" "tf-sample-iam-organization-acc
   display_name     = ""
   location         = ""
   organization     = ""
-  
+
   details {
     rules {
       description         = ""
       effect              = ""
       excluded_principals = []
       principals          = []
-      
+
       conditions {
         expression = ""
         service    = ""

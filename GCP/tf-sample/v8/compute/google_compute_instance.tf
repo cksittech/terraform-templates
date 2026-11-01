@@ -17,7 +17,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
   project                    = ""
   resource_policies          = []
   zone                       = ""
-  
+
   advanced_machine_features {
     enable_nested_virtualization = false
     enable_uefi_networking       = false
@@ -48,7 +48,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     kms_key_self_link               = ""
     mode                            = ""
     source                          = ""
-    
+
     initialize_params {
       architecture                = ""
       enable_confidential_compute = false
@@ -63,7 +63,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
       snapshot                    = ""
       storage_pool                = ""
       type                        = ""
-      
+
       source_image_encryption_key {
         kms_key_self_link       = ""
         kms_key_service_account = ""
@@ -105,7 +105,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     subnetwork                  = ""
     subnetwork_project          = ""
     vlan                        = 0
-    
+
     access_config {
       nat_ip                 = ""
       network_tier           = ""
@@ -131,7 +131,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
   }
   reservation_affinity {
     type = ""
-    
+
     specific_reservation {
       key    = ""
       values = []
@@ -147,7 +147,7 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     preemptible                 = false
     provisioning_model          = ""
     termination_time            = ""
-    
+
     local_ssd_recovery_timeout {
       nanos   = 0
       seconds = 0
@@ -187,6 +187,6 @@ resource "google_compute_instance" "tf-sample-compute-instance" {
     identity                     = ""
     identity_certificate_enabled = false
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "google_spanner_backup_schedule" "tf-sample-spanner-backup-schedule" {
   name               = ""
   project            = ""
   retention_duration = ""
-  
+
   encryption_config {
     encryption_type = ""
     kms_key_name    = ""

@@ -8,11 +8,11 @@ resource "google_monitoring_uptime_check_config" "tf-sample-monitoring-uptime-ch
   selected_regions   = []
   timeout            = ""
   user_labels        = {}
-  
+
   content_matchers {
     content = ""
     matcher = ""
-    
+
     json_path_matcher {
       json_matcher = ""
       json_path    = ""
@@ -29,7 +29,7 @@ resource "google_monitoring_uptime_check_config" "tf-sample-monitoring-uptime-ch
     request_method      = ""
     use_ssl             = false
     validate_ssl        = false
-    
+
     accepted_response_status_codes {
       status_class = ""
       status_value = 0
@@ -62,7 +62,7 @@ resource "google_monitoring_uptime_check_config" "tf-sample-monitoring-uptime-ch
   }
   tcp_check {
     port = 0
-    
+
     ping_config {
       pings_count = 0
     }

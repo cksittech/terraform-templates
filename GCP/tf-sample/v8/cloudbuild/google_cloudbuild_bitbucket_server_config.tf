@@ -8,7 +8,7 @@ resource "google_cloudbuild_bitbucket_server_config" "tf-sample-cloudbuild-bitbu
   project         = ""
   ssl_ca          = ""
   username        = ""
-  
+
   connected_repositories {
     project_key = ""
     repo_slug   = ""

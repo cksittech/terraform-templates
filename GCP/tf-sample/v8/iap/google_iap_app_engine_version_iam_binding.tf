@@ -5,7 +5,7 @@ resource "google_iap_app_engine_version_iam_binding" "tf-sample-iap-app-engine-v
   role       = ""
   service    = ""
   version_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

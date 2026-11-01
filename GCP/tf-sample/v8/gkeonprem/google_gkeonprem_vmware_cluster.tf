@@ -12,7 +12,7 @@ resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" 
   project                  = ""
   skip_validations         = []
   vm_tracking_enabled      = false
-  
+
   anti_affinity_groups {
     aag_config_disabled = false
   }
@@ -28,7 +28,7 @@ resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" 
     cpus     = 0
     memory   = 0
     replicas = 0
-    
+
     auto_resize_config {
       enabled = false
     }
@@ -67,12 +67,12 @@ resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" 
     pod_address_cidr_blocks     = []
     service_address_cidr_blocks = []
     vcenter_network             = ""
-    
+
     control_plane_v2_config {
       control_plane_ip_block {
         gateway = ""
         netmask = ""
-        
+
         ips {
           hostname = ""
           ip       = ""
@@ -91,7 +91,7 @@ resource "google_gkeonprem_vmware_cluster" "tf-sample-gkeonprem-vmware-cluster" 
       ip_blocks {
         gateway = ""
         netmask = ""
-        
+
         ips {
           hostname = ""
           ip       = ""

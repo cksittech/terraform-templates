@@ -16,7 +16,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
   name                 = ""
   project              = ""
   ssh_enabled          = false
-  
+
   binary_authorization {
     breakglass_justification = ""
     policy                   = ""
@@ -53,7 +53,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
     service_account                  = ""
     session_affinity                 = false
     timeout                          = ""
-    
+
     containers {
       args             = []
       base_image_uri   = ""
@@ -63,11 +63,11 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
       name             = ""
       sandbox_launcher = false
       working_dir      = ""
-      
+
       env {
         name  = ""
         value = ""
-        
+
         value_source {
           secret_key_ref {
             secret  = ""
@@ -80,7 +80,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         initial_delay_seconds = 0
         period_seconds        = 0
         timeout_seconds       = 0
-        
+
         grpc {
           port    = 0
           service = ""
@@ -88,7 +88,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         http_get {
           path = ""
           port = 0
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -107,7 +107,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         period_seconds    = 0
         success_threshold = 0
         timeout_seconds   = 0
-        
+
         grpc {
           port    = 0
           service = ""
@@ -127,7 +127,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         initial_delay_seconds = 0
         period_seconds        = 0
         timeout_seconds       = 0
-        
+
         grpc {
           port    = 0
           service = ""
@@ -135,7 +135,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         http_get {
           path = ""
           port = 0
-          
+
           http_headers {
             name  = ""
             value = ""
@@ -161,7 +161,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
         image       = ""
         name        = ""
         working_dir = ""
-        
+
         env {
           name  = ""
           value = ""
@@ -181,7 +181,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
     }
     volumes {
       name = ""
-      
+
       cloud_sql_instance {
         instances = []
       }
@@ -202,7 +202,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
       secret {
         default_mode = 0
         secret       = ""
-        
+
         items {
           mode    = 0
           path    = ""
@@ -213,7 +213,7 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
     vpc_access {
       connector = ""
       egress    = ""
-      
+
       network_interfaces {
         network    = ""
         subnetwork = ""
@@ -231,6 +231,6 @@ resource "google_cloud_run_v2_service" "tf-sample-cloud-run-v2-service" {
     tag      = ""
     type     = ""
   }
-  
+
   tags = {}
 }

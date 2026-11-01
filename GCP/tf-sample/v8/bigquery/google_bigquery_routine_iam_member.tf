@@ -4,7 +4,7 @@ resource "google_bigquery_routine_iam_member" "tf-sample-bigquery-routine-iam-me
   project    = ""
   role       = ""
   routine_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

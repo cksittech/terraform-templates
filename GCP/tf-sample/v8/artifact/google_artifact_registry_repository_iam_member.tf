@@ -4,7 +4,7 @@ resource "google_artifact_registry_repository_iam_member" "tf-sample-artifact-re
   project    = ""
   repository = ""
   role       = ""
-  
+
   condition {
     description = ""
     expression  = ""

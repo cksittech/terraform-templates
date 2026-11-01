@@ -4,7 +4,7 @@ resource "google_eventarc_pipeline_iam_member" "tf-sample-eventarc-pipeline-iam-
   pipeline_id = ""
   project     = ""
   role        = ""
-  
+
   condition {
     description = ""
     expression  = ""

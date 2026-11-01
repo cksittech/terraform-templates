@@ -4,7 +4,7 @@ resource "google_data_catalog_taxonomy_iam_member" "tf-sample-data-catalog-taxon
   region   = ""
   role     = ""
   taxonomy = ""
-  
+
   condition {
     description = ""
     expression  = ""

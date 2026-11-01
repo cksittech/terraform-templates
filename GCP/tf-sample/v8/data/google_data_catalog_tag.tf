@@ -3,7 +3,7 @@ resource "google_data_catalog_tag" "tf-sample-data-catalog-tag" {
   deletion_policy = ""
   parent          = ""
   template        = ""
-  
+
   fields {
     bool_value      = false
     double_value    = 0

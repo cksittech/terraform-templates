@@ -7,11 +7,11 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
   meshes          = []
   name            = ""
   project         = ""
-  
+
   rules {
     action {
       timeout = ""
-      
+
       cors_policy {
         allow_credentials    = false
         allow_headers        = []
@@ -76,7 +76,7 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
       ignore_case     = false
       prefix_match    = ""
       regex_match     = ""
-      
+
       headers {
         exact_match   = ""
         header        = ""
@@ -85,7 +85,7 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
         present_match = false
         regex_match   = ""
         suffix_match  = ""
-        
+
         range_match {
           end   = 0
           start = 0

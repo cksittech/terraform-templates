@@ -7,14 +7,14 @@ resource "google_ces_example" "tf-sample-ces-example" {
   example_id      = ""
   location        = ""
   project         = ""
-  
+
   messages {
     role = ""
-    
+
     chunks {
       text              = ""
       updated_variables = ""
-      
+
       agent_transfer {
         target_agent = ""
       }
@@ -31,7 +31,7 @@ resource "google_ces_example" "tf-sample-ces-example" {
         args = ""
         id   = ""
         tool = ""
-        
+
         toolset_tool {
           tool_id = ""
           toolset = ""
@@ -41,7 +41,7 @@ resource "google_ces_example" "tf-sample-ces-example" {
         id       = ""
         response = ""
         tool     = ""
-        
+
         toolset_tool {
           tool_id = ""
           toolset = ""

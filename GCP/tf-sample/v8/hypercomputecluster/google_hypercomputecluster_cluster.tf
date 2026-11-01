@@ -5,10 +5,10 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
   labels          = {}
   location        = ""
   project         = ""
-  
+
   compute_resources {
     id = ""
-    
+
     config {
       new_flex_start_instances {
         machine_type = ""
@@ -31,7 +31,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
   }
   network_resources {
     id = ""
-    
+
     config {
       existing_network {
         network    = ""
@@ -48,7 +48,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
       default_partition   = ""
       epilog_bash_scripts = []
       prolog_bash_scripts = []
-      
+
       login_nodes {
         count             = ""
         enable_os_login   = false
@@ -57,7 +57,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
         machine_type      = ""
         startup_script    = ""
         zone              = ""
-        
+
         boot_disk {
           size_gb = ""
           type    = ""
@@ -72,11 +72,11 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
         id                     = ""
         max_dynamic_node_count = ""
         static_node_count      = ""
-        
+
         compute_instance {
           labels         = {}
           startup_script = ""
-          
+
           boot_disk {
             size_gb = ""
             type    = ""
@@ -95,7 +95,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
   }
   storage_resources {
     id = ""
-    
+
     config {
       existing_bucket {
         bucket = ""
@@ -109,7 +109,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
       new_bucket {
         bucket        = ""
         storage_class = ""
-        
+
         autoclass {
           enabled                = false
           terminal_storage_class = ""
@@ -123,7 +123,7 @@ resource "google_hypercomputecluster_cluster" "tf-sample-hypercomputecluster-clu
         filestore   = ""
         protocol    = ""
         tier        = ""
-        
+
         file_shares {
           capacity_gb = ""
           file_share  = ""

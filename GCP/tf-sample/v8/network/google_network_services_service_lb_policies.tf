@@ -6,7 +6,7 @@ resource "google_network_services_service_lb_policies" "tf-sample-network-servic
   location                 = ""
   name                     = ""
   project                  = ""
-  
+
   auto_capacity_drain {
     enable = false
   }

@@ -9,7 +9,7 @@ resource "google_secure_source_manager_hook" "tf-sample-secure-source-manager-ho
   sensitive_query_string = ""
   service_account_auth   = false
   target_uri             = ""
-  
+
   push_option {
     branch_filter = ""
   }

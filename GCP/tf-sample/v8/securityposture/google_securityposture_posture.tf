@@ -5,15 +5,15 @@ resource "google_securityposture_posture" "tf-sample-securityposture-posture" {
   parent          = ""
   posture_id      = ""
   state           = ""
-  
+
   policy_sets {
     description   = ""
     policy_set_id = ""
-    
+
     policies {
       description = ""
       policy_id   = ""
-      
+
       compliance_standards {
         control  = ""
         standard = ""
@@ -21,12 +21,12 @@ resource "google_securityposture_posture" "tf-sample-securityposture-posture" {
       constraint {
         org_policy_constraint {
           canned_constraint_id = ""
-          
+
           policy_rules {
             allow_all = false
             deny_all  = false
             enforce   = false
-            
+
             condition {
               description = ""
               expression  = ""
@@ -53,7 +53,7 @@ resource "google_securityposture_posture" "tf-sample-securityposture-posture" {
             allow_all = false
             deny_all  = false
             enforce   = false
-            
+
             condition {
               description = ""
               expression  = ""
@@ -69,16 +69,16 @@ resource "google_securityposture_posture" "tf-sample-securityposture-posture" {
         security_health_analytics_custom_module {
           display_name            = ""
           module_enablement_state = ""
-          
+
           config {
             description    = ""
             recommendation = ""
             severity       = ""
-            
+
             custom_output {
               properties {
                 name = ""
-                
+
                 value_expression {
                   description = ""
                   expression  = ""

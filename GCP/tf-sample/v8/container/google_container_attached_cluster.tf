@@ -7,7 +7,7 @@ resource "google_container_attached_cluster" "tf-sample-container-attached-clust
   name             = ""
   platform_version = ""
   project          = ""
-  
+
   authorization {
     admin_groups = []
     admin_users  = []

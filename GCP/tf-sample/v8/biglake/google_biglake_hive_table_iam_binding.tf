@@ -5,7 +5,7 @@ resource "google_biglake_hive_table_iam_binding" "tf-sample-biglake-hive-table-i
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

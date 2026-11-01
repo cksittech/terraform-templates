@@ -5,7 +5,7 @@ resource "google_compute_vpn_gateway" "tf-sample-compute-vpn-gateway" {
   network         = ""
   project         = ""
   region          = ""
-  
+
   params {
     resource_manager_tags = {}
   }

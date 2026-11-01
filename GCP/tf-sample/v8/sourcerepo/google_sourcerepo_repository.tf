@@ -3,7 +3,7 @@ resource "google_sourcerepo_repository" "tf-sample-sourcerepo-repository" {
   deletion_policy              = ""
   name                         = ""
   project                      = ""
-  
+
   pubsub_configs {
     message_format        = ""
     service_account_email = ""

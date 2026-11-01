@@ -3,7 +3,7 @@ resource "google_iam_workload_identity_pool_iam_member" "tf-sample-iam-workload-
   project                   = ""
   role                      = ""
   workload_identity_pool_id = ""
-  
+
   condition {
     description = ""
     expression  = ""

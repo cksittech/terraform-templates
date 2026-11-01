@@ -4,7 +4,7 @@ resource "google_compute_network_firewall_policy_with_rules" "tf-sample-compute-
   name            = ""
   policy_type     = ""
   project         = ""
-  
+
   rule {
     action                  = ""
     description             = ""
@@ -16,7 +16,7 @@ resource "google_compute_network_firewall_policy_with_rules" "tf-sample-compute-
     security_profile_group  = ""
     target_service_accounts = []
     tls_inspect             = false
-    
+
     match {
       dest_address_groups       = []
       dest_fqdns                = []
@@ -28,7 +28,7 @@ resource "google_compute_network_firewall_policy_with_rules" "tf-sample-compute-
       src_ip_ranges             = []
       src_region_codes          = []
       src_threat_intelligences  = []
-      
+
       layer4_config {
         ip_protocol = ""
         ports       = []

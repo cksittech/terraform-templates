@@ -9,7 +9,7 @@ resource "google_dialogflow_cx_intent" "tf-sample-dialogflow-cx-intent" {
   language_code              = ""
   parent                     = ""
   priority                   = 0
-  
+
   parameters {
     entity_type = ""
     id          = ""
@@ -18,7 +18,7 @@ resource "google_dialogflow_cx_intent" "tf-sample-dialogflow-cx-intent" {
   }
   training_phrases {
     repeat_count = 0
-    
+
     parts {
       parameter_id = ""
       text         = ""

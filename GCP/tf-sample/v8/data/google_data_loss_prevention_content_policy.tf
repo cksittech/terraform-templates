@@ -2,7 +2,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
   deletion_policy = ""
   display_name    = ""
   parent          = ""
-  
+
   default_action {
     return_verdict = ""
   }
@@ -17,11 +17,11 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
     exclude_info_types = false
     include_quote      = false
     min_likelihood     = ""
-    
+
     custom_info_types {
       exclusion_type = ""
       likelihood     = ""
-      
+
       detection_rules {
         hotword_rule {
           hotword_regex {
@@ -49,7 +49,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
       file_label_info_type {
         google_drive_label {
           label_id = ""
-          
+
           label_fields_to_match {
             id    = ""
             value = ""
@@ -62,7 +62,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
       info_type {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -87,7 +87,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
     info_types {
       name    = ""
       version = ""
-      
+
       sensitivity_score {
         score = ""
       }
@@ -95,14 +95,14 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
     limits {
       max_findings_per_item    = 0
       max_findings_per_request = 0
-      
+
       max_findings_per_info_type {
         max_findings = 0
-        
+
         info_type {
           name    = ""
           version = ""
-          
+
           sensitivity_score {
             score = ""
           }
@@ -111,11 +111,11 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
     }
     min_likelihood_per_info_type {
       min_likelihood = ""
-      
+
       info_type {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -125,7 +125,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
       info_types {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -134,7 +134,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
         adjustment_rule {
           adjust_by_image_findings {
             min_likelihood = ""
-            
+
             image_containment_type {
               encloses {
               }
@@ -146,7 +146,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -155,11 +155,11 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
           adjust_by_matching_info_types {
             matching_type  = ""
             min_likelihood = ""
-            
+
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -171,7 +171,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
         }
         exclusion_rule {
           matching_type = ""
-          
+
           dictionary {
             cloud_storage_path {
               path = ""
@@ -202,7 +202,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -212,7 +212,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -254,7 +254,7 @@ resource "google_data_loss_prevention_content_policy" "tf-sample-data-loss-preve
     conditions {
       info_type_condition {
         min_count = 0
-        
+
         any_info_type {
         }
         info_types {

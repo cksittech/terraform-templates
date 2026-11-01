@@ -4,7 +4,7 @@ resource "google_compute_resource_policy" "tf-sample-compute-resource-policy" {
   name            = ""
   project         = ""
   region          = ""
-  
+
   disk_consistency_group_policy {
     enabled = false
   }
@@ -18,7 +18,7 @@ resource "google_compute_resource_policy" "tf-sample-compute-resource-policy" {
     expiration_time = ""
     start_time      = ""
     time_zone       = ""
-    
+
     vm_start_schedule {
       schedule = ""
     }

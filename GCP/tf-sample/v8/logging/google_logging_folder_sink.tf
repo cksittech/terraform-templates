@@ -8,7 +8,7 @@ resource "google_logging_folder_sink" "tf-sample-logging-folder-sink" {
   include_children   = false
   intercept_children = false
   name               = ""
-  
+
   bigquery_options {
     use_partitioned_tables = false
   }

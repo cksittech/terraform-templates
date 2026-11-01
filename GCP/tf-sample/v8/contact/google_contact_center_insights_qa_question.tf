@@ -9,7 +9,7 @@ resource "google_contact_center_insights_qa_question" "tf-sample-contact-center-
   question_body       = ""
   question_type       = ""
   revision            = ""
-  
+
   answer_choices {
     bool_value = false
     key        = ""
@@ -33,6 +33,6 @@ resource "google_contact_center_insights_qa_question" "tf-sample-contact-center-
     total_valid_label_count     = ""
     tuning_error                = ""
   }
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "google_compute_storage_pool_iam_binding" "tf-sample-compute-storage-po
   project = ""
   role    = ""
   zone    = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -9,17 +9,17 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
   project                  = ""
   service_account          = ""
   suspended                = false
-  
+
   auth_config {
     auth_key  = ""
     auth_type = ""
-    
+
     additional_variable {
       boolean_value = false
       integer_value = 0
       key           = ""
       string_value  = ""
-      
+
       encryption_key_value {
         kms_key_name = ""
         type         = ""
@@ -33,14 +33,14 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
       client_id   = ""
       enable_pkce = false
       scopes      = []
-      
+
       client_secret {
         secret_version = ""
       }
     }
     oauth2_client_credentials {
       client_id = ""
-      
+
       client_secret {
         secret_version = ""
       }
@@ -58,7 +58,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     ssh_public_key {
       cert_type = ""
       username  = ""
-      
+
       ssh_client_cert {
         secret_version = ""
       }
@@ -68,7 +68,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     }
     user_password {
       username = ""
-      
+
       password {
         secret_version = ""
       }
@@ -79,7 +79,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     integer_value = 0
     key           = ""
     string_value  = ""
-    
+
     encryption_key_value {
       kms_key_name = ""
       type         = ""
@@ -90,7 +90,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
   }
   destination_config {
     key = ""
-    
+
     destination {
       host               = ""
       port               = 0
@@ -99,13 +99,13 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
   }
   eventing_config {
     enrichment_enabled = false
-    
+
     additional_variable {
       boolean_value = false
       integer_value = 0
       key           = ""
       string_value  = ""
-      
+
       encryption_key_value {
         kms_key_name = ""
         type         = ""
@@ -117,13 +117,13 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     auth_config {
       auth_key  = ""
       auth_type = ""
-      
+
       additional_variable {
         boolean_value = false
         integer_value = 0
         key           = ""
         string_value  = ""
-        
+
         encryption_key_value {
           kms_key_name = ""
           type         = ""
@@ -134,7 +134,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
       }
       user_password {
         username = ""
-        
+
         password {
           secret_version = ""
         }
@@ -142,7 +142,7 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     }
     registration_destination_config {
       key = ""
-      
+
       destination {
         host               = ""
         port               = 0
@@ -168,13 +168,13 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     trust_model      = ""
     type             = ""
     use_ssl          = false
-    
+
     additional_variable {
       boolean_value = false
       integer_value = 0
       key           = ""
       string_value  = ""
-      
+
       encryption_key_value {
         kms_key_name = ""
         type         = ""

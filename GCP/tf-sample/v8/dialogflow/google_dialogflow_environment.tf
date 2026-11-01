@@ -5,11 +5,11 @@ resource "google_dialogflow_environment" "tf-sample-dialogflow-environment" {
   environmentid   = ""
   location        = ""
   project         = ""
-  
+
   fulfillment {
     display_name = ""
     name         = ""
-    
+
     features {
       type = ""
     }
@@ -24,14 +24,14 @@ resource "google_dialogflow_environment" "tf-sample-dialogflow-environment" {
     enable_text_to_speech = false
     output_audio_encoding = ""
     sample_rate_hertz     = 0
-    
+
     synthesize_speech_configs {
       effects_profile_id = []
       language           = ""
       pitch              = 0
       speaking_rate      = 0
       volume_gain_db     = 0
-      
+
       voice {
         name        = ""
         ssml_gender = ""

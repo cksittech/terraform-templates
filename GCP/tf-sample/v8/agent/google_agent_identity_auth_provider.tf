@@ -8,7 +8,7 @@ resource "google_agent_identity_auth_provider" "tf-sample-agent-identity-auth-pr
   location         = ""
   project          = ""
   workload_ids     = []
-  
+
   auth_provider_type_params {
     api_key {
       api_key = ""

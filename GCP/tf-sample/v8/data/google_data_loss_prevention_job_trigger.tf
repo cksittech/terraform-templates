@@ -5,15 +5,15 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
   parent          = ""
   status          = ""
   trigger_id      = ""
-  
+
   inspect_job {
     inspect_template_name = ""
-    
+
     actions {
       deidentify {
         cloud_storage_output    = ""
         file_types_to_transform = []
-        
+
         transformation_config {
           deidentify_template            = ""
           image_redact_template          = ""
@@ -41,7 +41,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
       save_findings {
         output_config {
           output_schema = ""
-          
+
           storage_path {
             path = ""
           }
@@ -57,11 +57,11 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
       exclude_info_types = false
       include_quote      = false
       min_likelihood     = ""
-      
+
       custom_info_types {
         exclusion_type = ""
         likelihood     = ""
-        
+
         dictionary {
           cloud_storage_path {
             path = ""
@@ -73,7 +73,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         info_type {
           name    = ""
           version = ""
-          
+
           sensitivity_score {
             score = ""
           }
@@ -94,7 +94,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
       info_types {
         name    = ""
         version = ""
-        
+
         sensitivity_score {
           score = ""
         }
@@ -102,14 +102,14 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
       limits {
         max_findings_per_item    = 0
         max_findings_per_request = 0
-        
+
         max_findings_per_info_type {
           max_findings = 0
-          
+
           info_type {
             name    = ""
             version = ""
-            
+
             sensitivity_score {
               score = ""
             }
@@ -120,7 +120,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         info_types {
           name    = ""
           version = ""
-          
+
           sensitivity_score {
             score = ""
           }
@@ -128,7 +128,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         rules {
           exclusion_rule {
             matching_type = ""
-            
+
             dictionary {
               cloud_storage_path {
                 path = ""
@@ -151,7 +151,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
               info_types {
                 name    = ""
                 version = ""
-                
+
                 sensitivity_score {
                   score = ""
                 }
@@ -184,7 +184,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         rows_limit         = 0
         rows_limit_percent = 0
         sample_method      = ""
-        
+
         excluded_fields {
           name = ""
         }
@@ -206,10 +206,10 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         file_types                   = []
         files_limit_percent          = 0
         sample_method                = ""
-        
+
         file_set {
           url = ""
-          
+
           regex_file_set {
             bucket_name   = ""
             exclude_regex = []
@@ -230,7 +230,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         description                 = ""
         labels                      = {}
         required_finding_label_keys = []
-        
+
         table_options {
           identifying_fields {
             name = ""
@@ -241,7 +241,7 @@ resource "google_data_loss_prevention_job_trigger" "tf-sample-data-loss-preventi
         enable_auto_population_of_timespan_config = false
         end_time                                  = ""
         start_time                                = ""
-        
+
         timestamp_field {
           name = ""
         }

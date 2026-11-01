@@ -18,7 +18,7 @@ resource "google_compute_region_disk" "tf-sample-compute-region-disk" {
   snapshot                              = ""
   source_disk                           = ""
   type                                  = ""
-  
+
   async_primary_disk {
     disk = ""
   }

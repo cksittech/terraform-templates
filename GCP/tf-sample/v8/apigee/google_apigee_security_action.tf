@@ -8,7 +8,7 @@ resource "google_apigee_security_action" "tf-sample-apigee-security-action" {
   security_action_id = ""
   state              = ""
   ttl                = ""
-  
+
   allow {
   }
   condition_config {

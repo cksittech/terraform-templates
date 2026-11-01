@@ -4,7 +4,7 @@ resource "google_vertex_ai_featurestore_entitytype" "tf-sample-vertex-ai-feature
   featurestore    = ""
   labels          = {}
   name            = ""
-  
+
   monitoring_config {
     categorical_threshold_config {
       value = 0

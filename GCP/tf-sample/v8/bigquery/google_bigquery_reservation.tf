@@ -10,7 +10,7 @@ resource "google_bigquery_reservation" "tf-sample-bigquery-reservation" {
   reservation_group  = ""
   secondary_location = ""
   slot_capacity      = 0
-  
+
   autoscale {
     max_slots = 0
   }

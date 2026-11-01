@@ -7,12 +7,12 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
   name            = ""
   project         = ""
   suspended       = false
-  
+
   serial_pipeline {
     stages {
       profiles  = []
       target_id = ""
-      
+
       deploy_parameters {
         match_target_labels = {}
         values              = {}
@@ -22,14 +22,14 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
           canary_deployment {
             percentages = []
             verify      = false
-            
+
             analysis {
               duration = ""
-              
+
               custom_checks {
                 frequency = ""
                 id        = ""
-                
+
                 task {
                   container {
                     args    = []
@@ -70,14 +70,14 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
               phase_id   = ""
               profiles   = []
               verify     = false
-              
+
               analysis {
                 duration = ""
-                
+
                 custom_checks {
                   frequency = ""
                   id        = ""
-                  
+
                   task {
                     container {
                       args    = []
@@ -128,7 +128,7 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
                 route_update_wait_time  = ""
                 service                 = ""
                 stable_cutback_duration = ""
-                
+
                 route_destinations {
                   destination_ids   = []
                   propagate_service = false
@@ -145,14 +145,14 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
         }
         standard {
           verify = false
-          
+
           analysis {
             duration = ""
-            
+
             custom_checks {
               frequency = ""
               id        = ""
-              
+
               task {
                 container {
                   args    = []
@@ -172,7 +172,7 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
           }
           postdeploy {
             actions = []
-            
+
             tasks {
               container {
                 args    = []
@@ -184,7 +184,7 @@ resource "google_clouddeploy_delivery_pipeline" "tf-sample-clouddeploy-delivery-
           }
           predeploy {
             actions = []
-            
+
             tasks {
               container {
                 args    = []

@@ -4,7 +4,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
   display_name    = ""
   parent          = ""
   template_id     = ""
-  
+
   deidentify_config {
     image_transformations {
       transforms {
@@ -21,7 +21,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
           info_types {
             name    = ""
             version = ""
-            
+
             sensitivity_score {
               score = ""
             }
@@ -34,14 +34,14 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
         info_types {
           name    = ""
           version = ""
-          
+
           sensitivity_score {
             score = ""
           }
         }
         primitive_transformation {
           replace_with_info_type_config = false
-          
+
           bucketing_config {
             buckets {
               max {
@@ -50,7 +50,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -69,7 +69,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -88,7 +88,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -107,7 +107,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             masking_character = ""
             number_to_mask    = 0
             reverse_order     = false
-            
+
             characters_to_ignore {
               characters_to_skip          = ""
               common_characters_to_ignore = ""
@@ -132,7 +132,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             surrogate_info_type {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -156,7 +156,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             common_alphabet = ""
             custom_alphabet = ""
             radix           = 0
-            
+
             context {
               name = ""
             }
@@ -175,7 +175,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             surrogate_info_type {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -184,7 +184,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
           date_shift_config {
             lower_bound_days = 0
             upper_bound_days = 0
-            
+
             context {
               name = ""
             }
@@ -203,7 +203,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
           }
           fixed_size_bucketing_config {
             bucket_size = 0
-            
+
             lower_bound {
               float_value   = 0
               integer_value = ""
@@ -223,7 +223,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               integer_value     = 0
               string_value      = ""
               timestamp_value   = ""
-              
+
               date_value {
                 day   = 0
                 month = 0
@@ -253,11 +253,11 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
         condition {
           expressions {
             logical_operator = ""
-            
+
             conditions {
               conditions {
                 operator = ""
-                
+
                 field {
                   name = ""
                 }
@@ -268,7 +268,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                   integer_value     = ""
                   string_value      = ""
                   timestamp_value   = ""
-                  
+
                   date_value {
                     day   = 0
                     month = 0
@@ -293,7 +293,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             info_types {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -307,7 +307,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                     integer_value     = ""
                     string_value      = ""
                     timestamp_value   = ""
-                    
+
                     date_value {
                       day   = 0
                       month = 0
@@ -326,7 +326,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                     integer_value     = ""
                     string_value      = ""
                     timestamp_value   = ""
-                    
+
                     date_value {
                       day   = 0
                       month = 0
@@ -345,7 +345,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                     integer_value     = ""
                     string_value      = ""
                     timestamp_value   = ""
-                    
+
                     date_value {
                       day   = 0
                       month = 0
@@ -364,7 +364,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 masking_character = ""
                 number_to_mask    = 0
                 reverse_order     = false
-                
+
                 characters_to_ignore {
                   characters_to_skip          = ""
                   common_characters_to_ignore = ""
@@ -389,7 +389,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 surrogate_info_type {
                   name    = ""
                   version = ""
-                  
+
                   sensitivity_score {
                     score = ""
                   }
@@ -413,7 +413,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 common_alphabet = ""
                 custom_alphabet = ""
                 radix           = 0
-                
+
                 context {
                   name = ""
                 }
@@ -432,7 +432,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 surrogate_info_type {
                   name    = ""
                   version = ""
-                  
+
                   sensitivity_score {
                     score = ""
                   }
@@ -441,7 +441,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               date_shift_config {
                 lower_bound_days = 0
                 upper_bound_days = 0
-                
+
                 context {
                   name = ""
                 }
@@ -460,7 +460,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               }
               fixed_size_bucketing_config {
                 bucket_size = 0
-                
+
                 lower_bound {
                   float_value   = 0
                   integer_value = ""
@@ -480,7 +480,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                   integer_value     = ""
                   string_value      = ""
                   timestamp_value   = ""
-                  
+
                   date_value {
                     day   = 0
                     month = 0
@@ -517,7 +517,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -537,7 +537,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -557,7 +557,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                 integer_value     = ""
                 string_value      = ""
                 timestamp_value   = ""
-                
+
                 date_value {
                   day   = 0
                   month = 0
@@ -576,7 +576,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             masking_character = ""
             number_to_mask    = 0
             reverse_order     = false
-            
+
             characters_to_ignore {
               characters_to_skip          = ""
               common_characters_to_ignore = ""
@@ -601,7 +601,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             surrogate_info_type {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -625,7 +625,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             common_alphabet = ""
             custom_alphabet = ""
             radix           = 0
-            
+
             context {
               name = ""
             }
@@ -644,7 +644,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
             surrogate_info_type {
               name    = ""
               version = ""
-              
+
               sensitivity_score {
                 score = ""
               }
@@ -653,7 +653,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
           date_shift_config {
             lower_bound_days = 0
             upper_bound_days = 0
-            
+
             context {
               name = ""
             }
@@ -672,7 +672,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
           }
           fixed_size_bucketing_config {
             bucket_size = 0
-            
+
             lower_bound {
               boolean_value     = false
               day_of_week_value = ""
@@ -680,7 +680,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               integer_value     = ""
               string_value      = ""
               timestamp_value   = ""
-              
+
               date_value {
                 day   = 0
                 month = 0
@@ -700,7 +700,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               integer_value     = ""
               string_value      = ""
               timestamp_value   = ""
-              
+
               date_value {
                 day   = 0
                 month = 0
@@ -724,7 +724,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
               integer_value     = ""
               string_value      = ""
               timestamp_value   = ""
-              
+
               date_value {
                 day   = 0
                 month = 0
@@ -752,11 +752,11 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
         condition {
           expressions {
             logical_operator = ""
-            
+
             conditions {
               conditions {
                 operator = ""
-                
+
                 field {
                   name = ""
                 }
@@ -767,7 +767,7 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
                   integer_value     = ""
                   string_value      = ""
                   timestamp_value   = ""
-                  
+
                   date_value {
                     day   = 0
                     month = 0

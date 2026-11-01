@@ -4,7 +4,7 @@ resource "google_bigtable_table_iam_member" "tf-sample-bigtable-table-iam-member
   project       = ""
   role          = ""
   table         = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -3,7 +3,7 @@ resource "google_pubsub_topic_iam_member" "tf-sample-pubsub-topic-iam-member" {
   project = ""
   role    = ""
   topic   = ""
-  
+
   condition {
     description = ""
     expression  = ""

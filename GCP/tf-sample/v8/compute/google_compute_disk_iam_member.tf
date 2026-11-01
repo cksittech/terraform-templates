@@ -4,7 +4,7 @@ resource "google_compute_disk_iam_member" "tf-sample-compute-disk-iam-member" {
   project = ""
   role    = ""
   zone    = ""
-  
+
   condition {
     description = ""
     expression  = ""

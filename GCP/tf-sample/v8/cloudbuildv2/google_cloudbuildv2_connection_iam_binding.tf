@@ -4,7 +4,7 @@ resource "google_cloudbuildv2_connection_iam_binding" "tf-sample-cloudbuildv2-co
   name     = ""
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

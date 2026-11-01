@@ -9,7 +9,7 @@ resource "google_oracle_database_exadb_vm_cluster" "tf-sample-oracle-database-ex
   odb_network         = ""
   odb_subnet          = ""
   project             = ""
-  
+
   properties {
     additional_ecpu_count_per_node = 0
     cluster_name                   = ""
@@ -22,7 +22,7 @@ resource "google_oracle_database_exadb_vm_cluster" "tf-sample-oracle-database-ex
     scan_listener_port_tcp         = 0
     shape_attribute                = ""
     ssh_public_keys                = []
-    
+
     data_collection_options {
       is_diagnostics_events_enabled = false
       is_health_monitoring_enabled  = false

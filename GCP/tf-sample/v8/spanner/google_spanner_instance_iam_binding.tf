@@ -3,7 +3,7 @@ resource "google_spanner_instance_iam_binding" "tf-sample-spanner-instance-iam-b
   members  = []
   project  = ""
   role     = ""
-  
+
   condition {
     description = ""
     expression  = ""

@@ -5,10 +5,10 @@ resource "google_compute_wire_group" "tf-sample-compute-wire-group" {
   description        = ""
   name               = ""
   project            = ""
-  
+
   endpoints {
     endpoint = ""
-    
+
     interconnects {
       interconnect      = ""
       interconnect_name = ""

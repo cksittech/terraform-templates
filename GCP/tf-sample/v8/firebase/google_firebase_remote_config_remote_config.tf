@@ -1,6 +1,6 @@
 resource "google_firebase_remote_config_remote_config" "tf-sample-firebase-remote-config-remote-config" {
   project = ""
-  
+
   conditions {
     expression = ""
     name       = ""
@@ -9,12 +9,12 @@ resource "google_firebase_remote_config_remote_config" "tf-sample-firebase-remot
   parameter_groups {
     description          = ""
     parameter_group_name = ""
-    
+
     parameters {
       description    = ""
       parameter_name = ""
       value_type     = ""
-      
+
       conditional_values {
         condition_name     = ""
         use_in_app_default = false
@@ -30,7 +30,7 @@ resource "google_firebase_remote_config_remote_config" "tf-sample-firebase-remot
     description    = ""
     parameter_name = ""
     value_type     = ""
-    
+
     conditional_values {
       condition_name     = ""
       use_in_app_default = false

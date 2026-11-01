@@ -9,11 +9,11 @@ resource "google_network_services_agent_connectivity_template" "tf-sample-networ
   labels                         = {}
   location                       = ""
   project                        = ""
-  
+
   egress_network_config {
     network_attachment = ""
     vpc_egress         = ""
-    
+
     dns_peering_config {
       domains        = []
       target_network = ""
