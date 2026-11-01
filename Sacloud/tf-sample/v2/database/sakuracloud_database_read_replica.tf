@@ -5,7 +5,7 @@ resource "sakuracloud_database_read_replica" "tf-sample-database-read-replica" {
   name             = ""
   replica_password = ""
   zone             = ""
-  
+
   disk {
     encryption_algorithm = ""
     kms_key_id           = ""
@@ -17,6 +17,6 @@ resource "sakuracloud_database_read_replica" "tf-sample-database-read-replica" {
     source_ranges = []
     switch_id     = ""
   }
-  
+
   tags = {}
 }

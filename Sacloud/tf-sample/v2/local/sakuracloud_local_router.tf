@@ -2,7 +2,7 @@ resource "sakuracloud_local_router" "tf-sample-local-router" {
   description = ""
   icon_id     = ""
   name        = ""
-  
+
   network_interface {
     ip_addresses = []
     netmask      = 0
@@ -24,6 +24,6 @@ resource "sakuracloud_local_router" "tf-sample-local-router" {
     code     = ""
     zone_id  = ""
   }
-  
+
   tags = {}
 }

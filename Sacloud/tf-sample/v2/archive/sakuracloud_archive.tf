@@ -10,6 +10,6 @@ resource "sakuracloud_archive" "tf-sample-archive" {
   source_disk_id      = ""
   source_shared_key   = ""
   zone                = ""
-  
+
   tags = {}
 }

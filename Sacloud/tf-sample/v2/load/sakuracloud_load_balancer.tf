@@ -4,7 +4,7 @@ resource "sakuracloud_load_balancer" "tf-sample-load-balancer" {
   name        = ""
   plan        = ""
   zone        = ""
-  
+
   network_interface {
     gateway      = ""
     ip_addresses = []
@@ -18,7 +18,7 @@ resource "sakuracloud_load_balancer" "tf-sample-load-balancer" {
     port         = 0
     sorry_server = ""
     vip          = ""
-    
+
     server {
       enabled    = false
       ip_address = ""
@@ -27,6 +27,6 @@ resource "sakuracloud_load_balancer" "tf-sample-load-balancer" {
       status     = ""
     }
   }
-  
+
   tags = {}
 }

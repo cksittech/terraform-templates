@@ -6,6 +6,6 @@ resource "sakuracloud_internet" "tf-sample-internet" {
   name        = ""
   netmask     = 0
   zone        = ""
-  
+
   tags = {}
 }

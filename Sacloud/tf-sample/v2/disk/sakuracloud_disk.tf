@@ -11,6 +11,6 @@ resource "sakuracloud_disk" "tf-sample-disk" {
   source_archive_id    = ""
   source_disk_id       = ""
   zone                 = ""
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "sakuracloud_switch" "tf-sample-switch" {
   icon_id     = ""
   name        = ""
   zone        = ""
-  
+
   tags = {}
 }

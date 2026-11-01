@@ -4,12 +4,12 @@ resource "sakuracloud_container_registry" "tf-sample-container-registry" {
   name            = ""
   subdomain_label = ""
   virtual_domain  = ""
-  
+
   user {
     name       = ""
     password   = ""
     permission = ""
   }
-  
+
   tags = {}
 }

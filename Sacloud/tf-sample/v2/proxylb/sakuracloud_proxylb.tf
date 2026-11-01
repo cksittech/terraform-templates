@@ -10,14 +10,14 @@ resource "sakuracloud_proxylb" "tf-sample-proxylb" {
   sticky_session          = false
   timeout                 = 0
   vip_failover            = false
-  
+
   bind_port {
     port              = 0
     proxy_mode        = ""
     redirect_to_https = false
     ssl_policy        = ""
     support_http2     = false
-    
+
     response_header {
       header = ""
       value  = ""
@@ -27,7 +27,7 @@ resource "sakuracloud_proxylb" "tf-sample-proxylb" {
     intermediate_cert = ""
     private_key       = ""
     server_cert       = ""
-    
+
     additional_certificate {
       intermediate_cert = ""
       private_key       = ""
@@ -73,6 +73,6 @@ resource "sakuracloud_proxylb" "tf-sample-proxylb" {
     port   = 0
     server = ""
   }
-  
+
   tags = {}
 }

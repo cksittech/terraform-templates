@@ -2,7 +2,7 @@ resource "sakuracloud_dns" "tf-sample-dns" {
   description = ""
   icon_id     = ""
   zone        = ""
-  
+
   monitoring_suite {
     enabled = false
   }
@@ -15,6 +15,6 @@ resource "sakuracloud_dns" "tf-sample-dns" {
     value    = ""
     weight   = 0
   }
-  
+
   tags = {}
 }

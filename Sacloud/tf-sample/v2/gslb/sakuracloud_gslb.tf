@@ -4,7 +4,7 @@ resource "sakuracloud_gslb" "tf-sample-gslb" {
   name         = ""
   sorry_server = ""
   weighted     = false
-  
+
   health_check {
     delay_loop  = 0
     host_header = ""
@@ -21,6 +21,6 @@ resource "sakuracloud_gslb" "tf-sample-gslb" {
     ip_address = ""
     weight     = 0
   }
-  
+
   tags = {}
 }

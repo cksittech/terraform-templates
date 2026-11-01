@@ -4,12 +4,12 @@ resource "sakuracloud_apprun_application" "tf-sample-apprun-application" {
   name            = ""
   port            = 0
   timeout_seconds = 0
-  
+
   components {
     max_cpu    = ""
     max_memory = ""
     name       = ""
-    
+
     deploy_source {
       container_registry {
         image    = ""
@@ -26,7 +26,7 @@ resource "sakuracloud_apprun_application" "tf-sample-apprun-application" {
       http_get {
         path = ""
         port = 0
-        
+
         headers {
           name  = ""
           value = ""
@@ -36,7 +36,7 @@ resource "sakuracloud_apprun_application" "tf-sample-apprun-application" {
   }
   packet_filter {
     enabled = false
-    
+
     settings {
       from_ip               = ""
       from_ip_prefix_length = 0

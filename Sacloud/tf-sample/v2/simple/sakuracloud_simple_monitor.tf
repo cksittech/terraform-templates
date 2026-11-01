@@ -12,7 +12,7 @@ resource "sakuracloud_simple_monitor" "tf-sample-simple-monitor" {
   retry_interval       = 0
   target               = ""
   timeout              = 0
-  
+
   health_check {
     community       = ""
     contains_string = ""
@@ -36,6 +36,6 @@ resource "sakuracloud_simple_monitor" "tf-sample-simple-monitor" {
   monitoring_suite {
     enabled = false
   }
-  
+
   tags = {}
 }

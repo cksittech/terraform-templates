@@ -3,6 +3,6 @@ resource "sakuracloud_note" "tf-sample-note" {
   content = ""
   icon_id = ""
   name    = ""
-  
+
   tags = {}
 }

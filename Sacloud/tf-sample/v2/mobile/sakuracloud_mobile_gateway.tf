@@ -6,7 +6,7 @@ resource "sakuracloud_mobile_gateway" "tf-sample-mobile-gateway" {
   internet_connection        = false
   name                       = ""
   zone                       = ""
-  
+
   private_network_interface {
     ip_address = ""
     netmask    = 0
@@ -32,6 +32,6 @@ resource "sakuracloud_mobile_gateway" "tf-sample-mobile-gateway" {
     quota                = 0
     slack_webhook        = ""
   }
-  
+
   tags = {}
 }

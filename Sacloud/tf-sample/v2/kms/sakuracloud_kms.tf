@@ -3,6 +3,6 @@ resource "sakuracloud_kms" "tf-sample-kms" {
   key_origin  = ""
   name        = ""
   plain_key   = ""
-  
+
   tags = {}
 }

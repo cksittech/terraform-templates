@@ -7,6 +7,6 @@ resource "sakuracloud_enhanced_db" "tf-sample-enhanced-db" {
   name             = ""
   password         = ""
   region           = ""
-  
+
   tags = {}
 }

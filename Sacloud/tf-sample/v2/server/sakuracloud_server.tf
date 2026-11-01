@@ -15,7 +15,7 @@ resource "sakuracloud_server" "tf-sample-server" {
   private_host_id  = ""
   user_data        = ""
   zone             = ""
-  
+
   disk_edit_parameter {
     change_partition_uuid = false
     disable_pw_auth       = false
@@ -27,7 +27,7 @@ resource "sakuracloud_server" "tf-sample-server" {
     password              = ""
     ssh_key_ids           = []
     ssh_keys              = []
-    
+
     note {
       api_key_id = ""
       id         = ""
@@ -39,6 +39,6 @@ resource "sakuracloud_server" "tf-sample-server" {
     upstream         = ""
     user_ip_address  = ""
   }
-  
+
   tags = {}
 }

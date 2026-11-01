@@ -7,7 +7,7 @@ resource "sakuracloud_webaccel" "tf-sample-webaccel" {
   onetime_url_secrets = []
   request_protocol    = ""
   vary_support        = false
-  
+
   cors_rules {
     allow_all       = false
     allowed_origins = []

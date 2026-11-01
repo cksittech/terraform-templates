@@ -8,6 +8,6 @@ resource "sakuracloud_cdrom" "tf-sample-cdrom" {
   name              = ""
   size              = 0
   zone              = ""
-  
+
   tags = {}
 }

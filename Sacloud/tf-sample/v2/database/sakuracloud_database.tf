@@ -11,7 +11,7 @@ resource "sakuracloud_database" "tf-sample-database" {
   replica_user     = ""
   username         = ""
   zone             = ""
-  
+
   backup {
     time     = ""
     weekdays = []
@@ -36,6 +36,6 @@ resource "sakuracloud_database" "tf-sample-database" {
     source_ranges = []
     switch_id     = ""
   }
-  
+
   tags = {}
 }

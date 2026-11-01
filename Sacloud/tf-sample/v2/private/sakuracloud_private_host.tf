@@ -4,6 +4,6 @@ resource "sakuracloud_private_host" "tf-sample-private-host" {
   icon_id     = ""
   name        = ""
   zone        = ""
-  
+
   tags = {}
 }

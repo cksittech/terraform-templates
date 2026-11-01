@@ -7,6 +7,6 @@ resource "sakuracloud_sim" "tf-sample-sim" {
   imei        = ""
   name        = ""
   passcode    = ""
-  
+
   tags = {}
 }

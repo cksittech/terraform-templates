@@ -7,7 +7,7 @@ resource "sakuracloud_vpc_router" "tf-sample-vpc-router" {
   syslog_host         = ""
   version             = 0
   zone                = ""
-  
+
   dhcp_server {
     dns_servers     = []
     interface_index = 0
@@ -25,7 +25,7 @@ resource "sakuracloud_vpc_router" "tf-sample-vpc-router" {
   firewall {
     direction       = ""
     interface_index = 0
-    
+
     expression {
       allow               = false
       description         = ""
@@ -85,13 +85,13 @@ resource "sakuracloud_vpc_router" "tf-sample-vpc-router" {
     dh_group        = ""
     encryption_algo = ""
     hash_algo       = ""
-    
+
     esp {
       lifetime = 0
     }
     ike {
       lifetime = 0
-      
+
       dpd {
         interval = 0
         timeout  = 0
@@ -113,13 +113,13 @@ resource "sakuracloud_vpc_router" "tf-sample-vpc-router" {
   }
   wire_guard {
     ip_address = ""
-    
+
     peer {
       ip_address = ""
       name       = ""
       public_key = ""
     }
   }
-  
+
   tags = {}
 }

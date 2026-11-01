@@ -7,7 +7,7 @@ resource "sakuracloud_auto_scale" "tf-sample-auto-scale" {
   name         = ""
   trigger_type = ""
   zones        = []
-  
+
   cpu_threshold_scaling {
     down          = 0
     server_prefix = ""
@@ -24,6 +24,6 @@ resource "sakuracloud_auto_scale" "tf-sample-auto-scale" {
     hour         = 0
     minute       = 0
   }
-  
+
   tags = {}
 }
