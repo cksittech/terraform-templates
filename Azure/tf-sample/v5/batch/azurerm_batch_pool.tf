@@ -12,7 +12,7 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
   stop_pending_resize_operation  = false
   target_node_communication_mode = ""
   vm_size                        = ""
-  
+
   auto_scale {
     evaluation_interval = ""
     formula             = ""
@@ -88,13 +88,13 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     public_address_provisioning_type = ""
     public_ips                       = []
     subnet_id                        = ""
-    
+
     endpoint_configuration {
       backend_port        = 0
       frontend_port_range = ""
       name                = ""
       protocol            = ""
-      
+
       network_security_group_rules {
         access                = ""
         priority              = 0
@@ -117,12 +117,12 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     common_environment_properties = {}
     task_retry_maximum            = 0
     wait_for_success              = false
-    
+
     container {
       image_name        = ""
       run_options       = ""
       working_directory = ""
-      
+
       registry {
         password                  = ""
         registry_server           = ""
@@ -141,7 +141,7 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     }
     user_identity {
       user_name = ""
-      
+
       auto_user {
         elevation_level = ""
         scope           = ""
@@ -162,7 +162,7 @@ resource "azurerm_batch_pool" "tf-sample-batch-pool" {
     elevation_level = ""
     name            = ""
     password        = ""
-    
+
     linux_user_configuration {
       gid             = 0
       ssh_private_key = ""

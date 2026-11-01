@@ -17,6 +17,6 @@ resource "azurerm_bot_channels_registration" "tf-sample-bot-channels-registratio
   resource_group_name                     = ""
   sku                                     = ""
   streaming_endpoint_enabled              = false
-  
+
   tags = {}
 }

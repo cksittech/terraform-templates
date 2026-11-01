@@ -6,6 +6,6 @@ resource "azurerm_log_analytics_saved_search" "tf-sample-log-analytics-saved-sea
   log_analytics_workspace_id = ""
   name                       = ""
   query                      = ""
-  
+
   tags = {}
 }

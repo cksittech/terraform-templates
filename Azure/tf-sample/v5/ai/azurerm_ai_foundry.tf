@@ -11,7 +11,7 @@ resource "azurerm_ai_foundry" "tf-sample-ai-foundry" {
   public_network_access          = ""
   resource_group_name            = ""
   storage_account_id             = ""
-  
+
   encryption {
     key_id                    = ""
     key_vault_id              = ""
@@ -24,6 +24,6 @@ resource "azurerm_ai_foundry" "tf-sample-ai-foundry" {
   managed_network {
     isolation_mode = ""
   }
-  
+
   tags = {}
 }

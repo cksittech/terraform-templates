@@ -4,7 +4,7 @@ resource "azurerm_maps_account" "tf-sample-maps-account" {
   name                         = ""
   resource_group_name          = ""
   sku_name                     = ""
-  
+
   cors {
     allowed_origins = []
   }
@@ -16,6 +16,6 @@ resource "azurerm_maps_account" "tf-sample-maps-account" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

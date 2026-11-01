@@ -12,7 +12,7 @@ resource "azurerm_shared_image_version" "tf-sample-shared-image-version" {
   replication_mode                         = ""
   resource_group_name                      = ""
   storage_account_id                       = ""
-  
+
   target_region {
     disk_encryption_set_id      = ""
     exclude_from_latest_enabled = false
@@ -22,7 +22,7 @@ resource "azurerm_shared_image_version" "tf-sample-shared-image-version" {
   }
   uefi {
     signature_template_names = []
-    
+
     additional_signatures {
       db {
         type          = ""
@@ -42,6 +42,6 @@ resource "azurerm_shared_image_version" "tf-sample-shared-image-version" {
       }
     }
   }
-  
+
   tags = {}
 }

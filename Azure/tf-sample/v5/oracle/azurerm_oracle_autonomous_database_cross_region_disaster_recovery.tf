@@ -6,6 +6,6 @@ resource "azurerm_oracle_autonomous_database_cross_region_disaster_recovery" "tf
   resource_group_name                 = ""
   source_autonomous_database_id       = ""
   subnet_id                           = ""
-  
+
   tags = {}
 }

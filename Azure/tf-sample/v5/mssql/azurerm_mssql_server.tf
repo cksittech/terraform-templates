@@ -14,7 +14,7 @@ resource "azurerm_mssql_server" "tf-sample-mssql-server" {
   resource_group_name                          = ""
   transparent_data_encryption_key_vault_key_id = ""
   version                                      = ""
-  
+
   azuread_administrator {
     azuread_authentication_only = false
     login_username              = ""
@@ -25,6 +25,6 @@ resource "azurerm_mssql_server" "tf-sample-mssql-server" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

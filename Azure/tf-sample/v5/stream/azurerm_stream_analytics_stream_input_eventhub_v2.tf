@@ -8,7 +8,7 @@ resource "azurerm_stream_analytics_stream_input_eventhub_v2" "tf-sample-stream-a
   shared_access_policy_key     = ""
   shared_access_policy_name    = ""
   stream_analytics_job_id      = ""
-  
+
   serialization {
     encoding        = ""
     field_delimiter = ""

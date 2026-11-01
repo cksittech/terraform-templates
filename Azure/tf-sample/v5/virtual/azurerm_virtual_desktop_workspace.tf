@@ -5,6 +5,6 @@ resource "azurerm_virtual_desktop_workspace" "tf-sample-virtual-desktop-workspac
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""
-  
+
   tags = {}
 }

@@ -17,7 +17,7 @@ resource "azurerm_api_management_authorization_server" "tf-sample-api-management
   resource_owner_username      = ""
   support_state                = false
   token_endpoint               = ""
-  
+
   token_body_parameter {
     name  = ""
     value = ""

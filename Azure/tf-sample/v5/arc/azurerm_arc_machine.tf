@@ -3,10 +3,10 @@ resource "azurerm_arc_machine" "tf-sample-arc-machine" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

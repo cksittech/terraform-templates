@@ -4,7 +4,7 @@ resource "azurerm_monitor_autoscale_setting" "tf-sample-monitor-autoscale-settin
   name                = ""
   resource_group_name = ""
   target_resource_id  = ""
-  
+
   notification {
     email {
       custom_emails                         = []
@@ -22,7 +22,7 @@ resource "azurerm_monitor_autoscale_setting" "tf-sample-monitor-autoscale-settin
   }
   profile {
     name = ""
-    
+
     capacity {
       default = 0
       maximum = 0
@@ -51,7 +51,7 @@ resource "azurerm_monitor_autoscale_setting" "tf-sample-monitor-autoscale-settin
         time_aggregation         = ""
         time_grain               = ""
         time_window              = ""
-        
+
         dimensions {
           name     = ""
           operator = ""
@@ -66,6 +66,6 @@ resource "azurerm_monitor_autoscale_setting" "tf-sample-monitor-autoscale-settin
       }
     }
   }
-  
+
   tags = {}
 }

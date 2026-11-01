@@ -5,7 +5,7 @@ resource "azurerm_cognitive_deployment" "tf-sample-cognitive-deployment" {
   rai_policy_name            = ""
   spillover_deployment_name  = ""
   version_upgrade_option     = ""
-  
+
   model {
     format  = ""
     name    = ""

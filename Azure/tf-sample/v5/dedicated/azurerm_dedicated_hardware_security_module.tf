@@ -5,7 +5,7 @@ resource "azurerm_dedicated_hardware_security_module" "tf-sample-dedicated-hardw
   sku_name            = ""
   stamp_id            = ""
   zones               = []
-  
+
   management_network_profile {
     network_interface_private_ip_addresses = []
     subnet_id                              = ""
@@ -14,6 +14,6 @@ resource "azurerm_dedicated_hardware_security_module" "tf-sample-dedicated-hardw
     network_interface_private_ip_addresses = []
     subnet_id                              = ""
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "azurerm_logic_app_integration_account_partner" "tf-sample-logic-app-in
   metadata                 = ""
   name                     = ""
   resource_group_name      = ""
-  
+
   business_identity {
     qualifier = ""
     value     = ""

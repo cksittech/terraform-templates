@@ -3,10 +3,10 @@ resource "azurerm_load_test" "tf-sample-load-test" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   encryption {
     key_url = ""
-    
+
     identity {
       identity_id = ""
       type        = ""
@@ -16,6 +16,6 @@ resource "azurerm_load_test" "tf-sample-load-test" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

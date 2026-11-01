@@ -5,7 +5,7 @@ resource "azurerm_data_protection_backup_instance_kubernetes_cluster" "tf-sample
   name                         = ""
   snapshot_resource_group_name = ""
   vault_id                     = ""
-  
+
   backup_datasource_parameters {
     cluster_scoped_resources_enabled = false
     excluded_namespaces              = []

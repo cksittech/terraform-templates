@@ -36,7 +36,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   vnet_subnet_id                = ""
   workload_runtime              = ""
   zones                         = []
-  
+
   kubelet_config {
     allowed_unsafe_sysctls    = []
     container_log_max_files   = 0
@@ -53,7 +53,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
     swap_file_size_mb            = 0
     transparent_huge_page        = ""
     transparent_huge_page_defrag = ""
-    
+
     sysctl_config {
       fs_aio_max_nr                      = 0
       fs_file_max                        = 0
@@ -89,7 +89,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   node_network_profile {
     application_security_group_ids = []
     node_public_ip_tags            = {}
-    
+
     allowed_host_ports {
       port_end   = 0
       port_start = 0
@@ -106,6 +106,6 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
   windows_profile {
     outbound_nat_enabled = false
   }
-  
+
   tags = {}
 }

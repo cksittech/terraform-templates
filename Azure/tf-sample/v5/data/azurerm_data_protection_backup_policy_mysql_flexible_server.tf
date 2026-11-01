@@ -3,7 +3,7 @@ resource "azurerm_data_protection_backup_policy_mysql_flexible_server" "tf-sampl
   name                            = ""
   time_zone                       = ""
   vault_id                        = ""
-  
+
   default_retention_rule {
     life_cycle {
       data_store_type = ""
@@ -13,7 +13,7 @@ resource "azurerm_data_protection_backup_policy_mysql_flexible_server" "tf-sampl
   retention_rule {
     name     = ""
     priority = 0
-    
+
     criteria {
       absolute_criteria      = ""
       days_of_week           = []

@@ -15,7 +15,7 @@ resource "azurerm_sentinel_threat_intelligence_indicator" "tf-sample-sentinel-th
   validate_from_utc   = ""
   validate_until_utc  = ""
   workspace_id        = ""
-  
+
   external_reference {
     description = ""
     hashes      = {}
@@ -30,6 +30,6 @@ resource "azurerm_sentinel_threat_intelligence_indicator" "tf-sample-sentinel-th
   kill_chain_phase {
     name = ""
   }
-  
+
   tags = {}
 }

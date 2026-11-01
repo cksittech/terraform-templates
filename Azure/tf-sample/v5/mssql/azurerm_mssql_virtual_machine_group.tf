@@ -4,7 +4,7 @@ resource "azurerm_mssql_virtual_machine_group" "tf-sample-mssql-virtual-machine-
   resource_group_name = ""
   sql_image_offer     = ""
   sql_image_sku       = ""
-  
+
   wsfc_domain_profile {
     cluster_bootstrap_account_name = ""
     cluster_operator_account_name  = ""
@@ -15,6 +15,6 @@ resource "azurerm_mssql_virtual_machine_group" "tf-sample-mssql-virtual-machine-
     storage_account_primary_key    = ""
     storage_account_url            = ""
   }
-  
+
   tags = {}
 }

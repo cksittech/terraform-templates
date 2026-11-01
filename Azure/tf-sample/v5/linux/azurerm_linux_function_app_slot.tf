@@ -24,7 +24,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
   virtual_network_subnet_id                      = ""
   vnet_image_pull_enabled                        = false
   webdeploy_publish_basic_authentication_enabled = false
-  
+
   auth_settings {
     additional_login_parameters    = {}
     allowed_external_redirect_urls = []
@@ -35,7 +35,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
     token_refresh_extension_hours  = 0
     token_store_enabled            = false
     unauthenticated_client_action  = ""
-    
+
     active_directory {
       allowed_audiences          = []
       client_id                  = ""
@@ -85,7 +85,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
     require_https                           = false
     runtime_version                         = ""
     unauthenticated_action                  = ""
-    
+
     active_directory_v2 {
       allowed_applications                 = []
       allowed_audiences                    = []
@@ -159,7 +159,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
     enabled             = false
     name                = ""
     storage_account_url = ""
-    
+
     schedule {
       frequency_interval       = 0
       frequency_unit           = ""
@@ -210,7 +210,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
     vnet_route_all_enabled                        = false
     websockets_enabled                            = false
     worker_count                                  = 0
-    
+
     app_service_logs {
       disk_quota_mb         = 0
       retention_period_days = 0
@@ -223,7 +223,7 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
       python_version              = ""
       use_custom_runtime          = false
       use_dotnet_isolated_runtime = false
-      
+
       docker {
         image_name        = ""
         image_tag         = ""
@@ -265,6 +265,6 @@ resource "azurerm_linux_function_app_slot" "tf-sample-linux-function-app-slot" {
     share_name   = ""
     type         = ""
   }
-  
+
   tags = {}
 }

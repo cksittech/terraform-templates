@@ -16,7 +16,7 @@ resource "azurerm_data_factory_linked_service_sftp" "tf-sample-data-factory-link
   private_key_path           = ""
   skip_host_key_validation   = false
   username                   = ""
-  
+
   key_vault_password {
     linked_service_name = ""
     secret_name         = ""

@@ -11,7 +11,7 @@ resource "azurerm_static_web_app" "tf-sample-static-web-app" {
   resource_group_name                = ""
   sku_size                           = ""
   sku_tier                           = ""
-  
+
   basic_auth {
     environments = ""
     password     = ""
@@ -20,6 +20,6 @@ resource "azurerm_static_web_app" "tf-sample-static-web-app" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

@@ -2,12 +2,12 @@ resource "azurerm_firewall_policy_rule_collection_group" "tf-sample-firewall-pol
   firewall_policy_id = ""
   name               = ""
   priority           = 0
-  
+
   application_rule_collection {
     action   = ""
     name     = ""
     priority = 0
-    
+
     rule {
       description           = ""
       destination_addresses = []
@@ -19,7 +19,7 @@ resource "azurerm_firewall_policy_rule_collection_group" "tf-sample-firewall-pol
       source_ip_groups      = []
       terminate_tls         = false
       web_categories        = []
-      
+
       http_headers {
         name  = ""
         value = ""
@@ -34,7 +34,7 @@ resource "azurerm_firewall_policy_rule_collection_group" "tf-sample-firewall-pol
     action   = ""
     name     = ""
     priority = 0
-    
+
     rule {
       description         = ""
       destination_address = ""
@@ -52,7 +52,7 @@ resource "azurerm_firewall_policy_rule_collection_group" "tf-sample-firewall-pol
     action   = ""
     name     = ""
     priority = 0
-    
+
     rule {
       description           = ""
       destination_addresses = []

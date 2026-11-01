@@ -9,7 +9,7 @@ resource "azurerm_logic_app_workflow" "tf-sample-logic-app-workflow" {
   workflow_parameters                = {}
   workflow_schema                    = ""
   workflow_version                   = ""
-  
+
   access_control {
     action {
       allowed_caller_ip_address_range = []
@@ -19,10 +19,10 @@ resource "azurerm_logic_app_workflow" "tf-sample-logic-app-workflow" {
     }
     trigger {
       allowed_caller_ip_address_range = []
-      
+
       open_authentication_policy {
         name = ""
-        
+
         claim {
           name  = ""
           value = ""
@@ -37,6 +37,6 @@ resource "azurerm_logic_app_workflow" "tf-sample-logic-app-workflow" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

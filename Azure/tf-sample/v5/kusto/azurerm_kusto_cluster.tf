@@ -14,7 +14,7 @@ resource "azurerm_kusto_cluster" "tf-sample-kusto-cluster" {
   streaming_ingestion_enabled        = false
   trusted_external_tenants           = []
   zones                              = []
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -31,6 +31,6 @@ resource "azurerm_kusto_cluster" "tf-sample-kusto-cluster" {
     capacity = 0
     name     = ""
   }
-  
+
   tags = {}
 }

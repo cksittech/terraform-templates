@@ -17,7 +17,7 @@ resource "azurerm_redis_cache" "tf-sample-redis-cache" {
   subnet_id                          = ""
   tenant_settings                    = {}
   zones                              = []
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -45,6 +45,6 @@ resource "azurerm_redis_cache" "tf-sample-redis-cache" {
     rdb_storage_connection_string           = ""
     storage_account_subscription_id         = ""
   }
-  
+
   tags = {}
 }

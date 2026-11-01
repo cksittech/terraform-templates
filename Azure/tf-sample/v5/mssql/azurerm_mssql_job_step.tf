@@ -10,7 +10,7 @@ resource "azurerm_mssql_job_step" "tf-sample-mssql-job-step" {
   retry_interval_backoff_multiplier = 0
   sql_script                        = ""
   timeout_seconds                   = 0
-  
+
   output_target {
     job_credential_id = ""
     mssql_database_id = ""

@@ -7,6 +7,6 @@ resource "azurerm_system_center_virtual_machine_manager_server" "tf-sample-syste
   port                = 0
   resource_group_name = ""
   username            = ""
-  
+
   tags = {}
 }

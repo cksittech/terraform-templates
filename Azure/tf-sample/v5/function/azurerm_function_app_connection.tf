@@ -4,7 +4,7 @@ resource "azurerm_function_app_connection" "tf-sample-function-app-connection" {
   name               = ""
   target_resource_id = ""
   vnet_solution      = ""
-  
+
   authentication {
     certificate     = ""
     client_id       = ""

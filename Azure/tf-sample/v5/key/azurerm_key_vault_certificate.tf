@@ -1,7 +1,7 @@
 resource "azurerm_key_vault_certificate" "tf-sample-key-vault-certificate" {
   key_vault_id = ""
   name         = ""
-  
+
   certificate {
     contents = ""
     password = ""
@@ -34,7 +34,7 @@ resource "azurerm_key_vault_certificate" "tf-sample-key-vault-certificate" {
       key_usage          = []
       subject            = ""
       validity_in_months = 0
-      
+
       subject_alternative_names {
         dns_names = []
         emails    = []
@@ -42,6 +42,6 @@ resource "azurerm_key_vault_certificate" "tf-sample-key-vault-certificate" {
       }
     }
   }
-  
+
   tags = {}
 }

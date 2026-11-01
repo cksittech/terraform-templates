@@ -7,10 +7,10 @@ resource "azurerm_oracle_exascale_database_storage_vault" "tf-sample-oracle-exas
   resource_group_name               = ""
   time_zone                         = ""
   zones                             = []
-  
+
   high_capacity_database_storage {
     total_size_in_gb = 0
   }
-  
+
   tags = {}
 }

@@ -11,7 +11,7 @@ resource "azurerm_resource_deployment_script_azure_power_shell" "tf-sample-resou
   supporting_script_uris = []
   timeout                = ""
   version                = ""
-  
+
   container {
     container_group_name = ""
   }
@@ -28,6 +28,6 @@ resource "azurerm_resource_deployment_script_azure_power_shell" "tf-sample-resou
     key  = ""
     name = ""
   }
-  
+
   tags = {}
 }

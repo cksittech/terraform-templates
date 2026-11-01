@@ -6,7 +6,7 @@ resource "azurerm_spring_cloud_build_deployment" "tf-sample-spring-cloud-build-d
   instance_count                         = 0
   name                                   = ""
   spring_cloud_app_id                    = ""
-  
+
   quota {
     cpu    = ""
     memory = ""

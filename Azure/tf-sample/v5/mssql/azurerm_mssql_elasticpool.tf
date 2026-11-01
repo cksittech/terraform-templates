@@ -10,7 +10,7 @@ resource "azurerm_mssql_elasticpool" "tf-sample-mssql-elasticpool" {
   resource_group_name             = ""
   server_name                     = ""
   zone_redundant                  = false
-  
+
   per_database_settings {
     max_capacity = 0
     min_capacity = 0
@@ -21,6 +21,6 @@ resource "azurerm_mssql_elasticpool" "tf-sample-mssql-elasticpool" {
     name     = ""
     tier     = ""
   }
-  
+
   tags = {}
 }

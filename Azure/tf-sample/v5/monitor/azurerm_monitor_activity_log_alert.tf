@@ -5,7 +5,7 @@ resource "azurerm_monitor_activity_log_alert" "tf-sample-monitor-activity-log-al
   name                = ""
   resource_group_name = ""
   scopes              = []
-  
+
   action {
     action_group_id    = ""
     webhook_properties = {}
@@ -31,7 +31,7 @@ resource "azurerm_monitor_activity_log_alert" "tf-sample-monitor-activity-log-al
     statuses                = []
     sub_status              = ""
     sub_statuses            = []
-    
+
     resource_health {
       current  = []
       previous = []
@@ -43,6 +43,6 @@ resource "azurerm_monitor_activity_log_alert" "tf-sample-monitor-activity-log-al
       services  = []
     }
   }
-  
+
   tags = {}
 }

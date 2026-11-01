@@ -8,6 +8,6 @@ resource "azurerm_automation_watcher" "tf-sample-automation-watcher" {
   script_name                    = ""
   script_parameters              = {}
   script_run_on                  = ""
-  
+
   tags = {}
 }

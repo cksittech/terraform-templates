@@ -5,7 +5,7 @@ resource "azurerm_monitor_data_collection_rule" "tf-sample-monitor-data-collecti
   location                    = ""
   name                        = ""
   resource_group_name         = ""
-  
+
   data_flow {
     built_in_transform = ""
     destinations       = []
@@ -38,7 +38,7 @@ resource "azurerm_monitor_data_collection_rule" "tf-sample-monitor-data-collecti
       format        = ""
       name          = ""
       streams       = []
-      
+
       settings {
         text {
           record_start_timestamp_format = ""
@@ -58,7 +58,7 @@ resource "azurerm_monitor_data_collection_rule" "tf-sample-monitor-data-collecti
     prometheus_forwarder {
       name    = ""
       streams = []
-      
+
       label_include_filter {
         label = ""
         value = ""
@@ -122,12 +122,12 @@ resource "azurerm_monitor_data_collection_rule" "tf-sample-monitor-data-collecti
   }
   stream_declaration {
     stream_name = ""
-    
+
     column {
       name = ""
       type = ""
     }
   }
-  
+
   tags = {}
 }

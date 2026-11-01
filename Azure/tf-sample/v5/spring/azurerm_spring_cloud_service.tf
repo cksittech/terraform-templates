@@ -9,12 +9,12 @@ resource "azurerm_spring_cloud_service" "tf-sample-spring-cloud-service" {
   sku_name                           = ""
   sku_tier                           = ""
   zone_redundant                     = false
-  
+
   config_server_git_setting {
     label        = ""
     search_paths = []
     uri          = ""
-    
+
     http_basic_auth {
       password = ""
       username = ""
@@ -25,7 +25,7 @@ resource "azurerm_spring_cloud_service" "tf-sample-spring-cloud-service" {
       pattern      = []
       search_paths = []
       uri          = ""
-      
+
       http_basic_auth {
         password = ""
         username = ""
@@ -71,6 +71,6 @@ resource "azurerm_spring_cloud_service" "tf-sample-spring-cloud-service" {
     connection_string = ""
     sample_rate       = 0
   }
-  
+
   tags = {}
 }

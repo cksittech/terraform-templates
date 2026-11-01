@@ -4,7 +4,7 @@ resource "azurerm_spring_cloud_connection" "tf-sample-spring-cloud-connection" {
   spring_cloud_id    = ""
   target_resource_id = ""
   vnet_solution      = ""
-  
+
   authentication {
     certificate     = ""
     client_id       = ""

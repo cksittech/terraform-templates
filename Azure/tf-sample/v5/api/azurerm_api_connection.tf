@@ -4,6 +4,6 @@ resource "azurerm_api_connection" "tf-sample-api-connection" {
   name                = ""
   parameter_values    = {}
   resource_group_name = ""
-  
+
   tags = {}
 }

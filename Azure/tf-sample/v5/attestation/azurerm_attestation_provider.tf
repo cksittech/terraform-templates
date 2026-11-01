@@ -7,6 +7,6 @@ resource "azurerm_attestation_provider" "tf-sample-attestation-provider" {
   sev_snp_policy_base64           = ""
   sgx_enclave_policy_base64       = ""
   tpm_policy_base64               = ""
-  
+
   tags = {}
 }

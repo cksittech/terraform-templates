@@ -6,7 +6,7 @@ resource "azurerm_active_directory_domain_service" "tf-sample-active-directory-d
   name                      = ""
   resource_group_name       = ""
   sku                       = ""
-  
+
   initial_replica_set {
     subnet_id = ""
   }
@@ -30,6 +30,6 @@ resource "azurerm_active_directory_domain_service" "tf-sample-active-directory-d
     sync_on_prem_passwords          = false
     tls_v1_enabled                  = false
   }
-  
+
   tags = {}
 }

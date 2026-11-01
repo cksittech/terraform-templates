@@ -7,6 +7,6 @@ resource "azurerm_machine_learning_datastore_blobstorage" "tf-sample-machine-lea
   shared_access_signature    = ""
   storage_container_id       = ""
   workspace_id               = ""
-  
+
   tags = {}
 }

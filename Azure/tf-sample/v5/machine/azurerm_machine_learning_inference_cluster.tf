@@ -5,7 +5,7 @@ resource "azurerm_machine_learning_inference_cluster" "tf-sample-machine-learnin
   location                      = ""
   machine_learning_workspace_id = ""
   name                          = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -17,6 +17,6 @@ resource "azurerm_machine_learning_inference_cluster" "tf-sample-machine-learnin
     leaf_domain_label         = ""
     overwrite_existing_domain = false
   }
-  
+
   tags = {}
 }

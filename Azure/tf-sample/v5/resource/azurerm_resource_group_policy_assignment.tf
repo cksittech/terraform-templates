@@ -9,7 +9,7 @@ resource "azurerm_resource_group_policy_assignment" "tf-sample-resource-group-po
   parameters           = ""
   policy_definition_id = ""
   resource_group_id    = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -20,7 +20,7 @@ resource "azurerm_resource_group_policy_assignment" "tf-sample-resource-group-po
   }
   overrides {
     value = ""
-    
+
     selectors {
       in     = []
       kind   = ""
@@ -29,7 +29,7 @@ resource "azurerm_resource_group_policy_assignment" "tf-sample-resource-group-po
   }
   resource_selectors {
     name = ""
-    
+
     selectors {
       in     = []
       kind   = ""

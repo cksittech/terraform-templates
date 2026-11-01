@@ -10,7 +10,7 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
   upgrade_mode                      = ""
   vm_image                          = ""
   vmss_zonal_upgrade_mode           = ""
-  
+
   azure_active_directory {
     client_application_id  = ""
     cluster_application_id = ""
@@ -23,7 +23,7 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
   }
   certificate_common_names {
     x509_store_name = ""
-    
+
     common_names {
       certificate_common_name       = ""
       certificate_issuer_thumbprint = ""
@@ -61,7 +61,7 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
     name                        = ""
     placement_properties        = {}
     reverse_proxy_endpoint_port = 0
-    
+
     application_ports {
       end_port   = 0
       start_port = 0
@@ -78,7 +78,7 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
   }
   reverse_proxy_certificate_common_names {
     x509_store_name = ""
-    
+
     common_names {
       certificate_common_name       = ""
       certificate_issuer_thumbprint = ""
@@ -92,7 +92,7 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
     upgrade_domain_timeout            = ""
     upgrade_replica_set_check_timeout = ""
     upgrade_timeout                   = ""
-    
+
     delta_health_policy {
       max_delta_unhealthy_applications_percent         = 0
       max_delta_unhealthy_nodes_percent                = 0
@@ -103,6 +103,6 @@ resource "azurerm_service_fabric_cluster" "tf-sample-service-fabric-cluster" {
       max_unhealthy_nodes_percent        = 0
     }
   }
-  
+
   tags = {}
 }

@@ -7,6 +7,6 @@ resource "azurerm_notification_hub_namespace" "tf-sample-notification-hub-namesp
   resource_group_name     = ""
   sku_name                = ""
   zone_redundancy_enabled = false
-  
+
   tags = {}
 }

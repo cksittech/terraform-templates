@@ -5,7 +5,7 @@ resource "azurerm_image" "tf-sample-image" {
   resource_group_name       = ""
   source_virtual_machine_id = ""
   zone_resilient            = false
-  
+
   data_disk {
     blob_uri               = ""
     caching                = ""
@@ -25,6 +25,6 @@ resource "azurerm_image" "tf-sample-image" {
     size_gb                = 0
     storage_type           = ""
   }
-  
+
   tags = {}
 }

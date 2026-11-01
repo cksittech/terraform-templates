@@ -1,6 +1,6 @@
 resource "azurerm_storage_blob_inventory_policy" "tf-sample-storage-blob-inventory-policy" {
   storage_account_id = ""
-  
+
   rules {
     format                 = ""
     name                   = ""
@@ -8,7 +8,7 @@ resource "azurerm_storage_blob_inventory_policy" "tf-sample-storage-blob-invento
     schema_fields          = []
     scope                  = ""
     storage_container_name = ""
-    
+
     filter {
       blob_types            = []
       created_within_days   = 0

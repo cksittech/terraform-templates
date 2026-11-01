@@ -4,7 +4,7 @@ resource "azurerm_network_manager_verifier_workspace_reachability_analysis_inten
   name                    = ""
   source_resource_id      = ""
   verifier_workspace_id   = ""
-  
+
   ip_traffic {
     destination_ips   = []
     destination_ports = []

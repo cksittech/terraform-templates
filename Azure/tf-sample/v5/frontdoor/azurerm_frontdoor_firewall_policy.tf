@@ -6,7 +6,7 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
   name                              = ""
   redirect_url                      = ""
   resource_group_name               = ""
-  
+
   custom_rule {
     action                         = ""
     enabled                        = false
@@ -15,7 +15,7 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
     rate_limit_duration_in_minutes = 0
     rate_limit_threshold           = 0
     type                           = ""
-    
+
     match_condition {
       match_values       = []
       match_variable     = ""
@@ -28,7 +28,7 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
   managed_rule {
     type    = ""
     version = ""
-    
+
     exclusion {
       match_variable = ""
       operator       = ""
@@ -36,7 +36,7 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
     }
     override {
       rule_group_name = ""
-      
+
       exclusion {
         match_variable = ""
         operator       = ""
@@ -46,7 +46,7 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
         action  = ""
         enabled = false
         rule_id = ""
-        
+
         exclusion {
           match_variable = ""
           operator       = ""
@@ -55,6 +55,6 @@ resource "azurerm_frontdoor_firewall_policy" "tf-sample-frontdoor-firewall-polic
       }
     }
   }
-  
+
   tags = {}
 }

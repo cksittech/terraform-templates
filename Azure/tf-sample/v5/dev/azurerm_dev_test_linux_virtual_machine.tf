@@ -13,7 +13,7 @@ resource "azurerm_dev_test_linux_virtual_machine" "tf-sample-dev-test-linux-virt
   ssh_key                    = ""
   storage_type               = ""
   username                   = ""
-  
+
   gallery_image_reference {
     offer     = ""
     publisher = ""
@@ -24,6 +24,6 @@ resource "azurerm_dev_test_linux_virtual_machine" "tf-sample-dev-test-linux-virt
     backend_port = 0
     protocol     = ""
   }
-  
+
   tags = {}
 }

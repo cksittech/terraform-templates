@@ -8,7 +8,7 @@ resource "azurerm_arc_kubernetes_cluster_extension" "tf-sample-arc-kubernetes-cl
   release_train                    = ""
   target_namespace                 = ""
   version                          = ""
-  
+
   identity {
     type = ""
   }

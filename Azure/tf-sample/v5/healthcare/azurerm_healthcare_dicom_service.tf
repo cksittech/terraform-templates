@@ -5,7 +5,7 @@ resource "azurerm_healthcare_dicom_service" "tf-sample-healthcare-dicom-service"
   name                          = ""
   public_network_access_enabled = false
   workspace_id                  = ""
-  
+
   cors {
     allow_credentials  = false
     allowed_headers    = []
@@ -21,6 +21,6 @@ resource "azurerm_healthcare_dicom_service" "tf-sample-healthcare-dicom-service"
     file_system_name   = ""
     storage_account_id = ""
   }
-  
+
   tags = {}
 }

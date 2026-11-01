@@ -4,12 +4,12 @@ resource "azurerm_data_protection_backup_policy_disk" "tf-sample-data-protection
   name                            = ""
   time_zone                       = ""
   vault_id                        = ""
-  
+
   retention_rule {
     duration = ""
     name     = ""
     priority = 0
-    
+
     criteria {
       absolute_criteria = ""
     }

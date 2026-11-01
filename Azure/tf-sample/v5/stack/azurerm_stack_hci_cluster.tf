@@ -5,10 +5,10 @@ resource "azurerm_stack_hci_cluster" "tf-sample-stack-hci-cluster" {
   name                        = ""
   resource_group_name         = ""
   tenant_id                   = ""
-  
+
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

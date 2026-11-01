@@ -7,7 +7,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   name                              = ""
   resource_group_name               = ""
   zones                             = []
-  
+
   autoscale_configuration {
     max_capacity = 0
     min_capacity = 0
@@ -43,7 +43,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     sni_name                             = ""
     sni_validation_enabled               = false
     trusted_root_certificate_names       = []
-    
+
     connection_draining {
       drain_timeout_sec = 0
       enabled           = false
@@ -84,7 +84,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     require_sni                    = false
     ssl_certificate_name           = ""
     ssl_profile_name               = ""
-    
+
     custom_error_configuration {
       custom_error_page_url = ""
       status_code           = ""
@@ -105,7 +105,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   }
   private_link_configuration {
     name = ""
-    
+
     ip_configuration {
       name                          = ""
       primary                       = false
@@ -126,7 +126,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     proxy_protocol_header_enabled             = false
     timeout                                   = 0
     unhealthy_threshold                       = 0
-    
+
     match {
       body        = ""
       status_code = []
@@ -153,11 +153,11 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
   }
   rewrite_rule_set {
     name = ""
-    
+
     rewrite_rule {
       name          = ""
       rule_sequence = 0
-      
+
       condition {
         ignore_case = false
         negate      = false
@@ -211,7 +211,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     trusted_client_certificate_names     = []
     verify_client_certificate_issuer_dn  = false
     verify_client_certificate_revocation = ""
-    
+
     ssl_policy {
       cipher_suites        = []
       disabled_protocols   = []
@@ -235,7 +235,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     default_redirect_configuration_name = ""
     default_rewrite_rule_set_name       = ""
     name                                = ""
-    
+
     path_rule {
       backend_address_pool_name   = ""
       backend_http_settings_name  = ""
@@ -254,7 +254,7 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
     request_body_check       = false
     rule_set_type            = ""
     rule_set_version         = ""
-    
+
     disabled_rule_group {
       rule_group_name = ""
       rules           = []
@@ -265,6 +265,6 @@ resource "azurerm_application_gateway" "tf-sample-application-gateway" {
       selector_match_operator = ""
     }
   }
-  
+
   tags = {}
 }

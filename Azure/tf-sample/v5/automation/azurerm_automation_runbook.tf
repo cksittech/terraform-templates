@@ -11,15 +11,15 @@ resource "azurerm_automation_runbook" "tf-sample-automation-runbook" {
   resource_group_name      = ""
   runbook_type             = ""
   runtime_environment_name = ""
-  
+
   draft {
     edit_mode_enabled = false
     output_types      = []
-    
+
     content_link {
       uri     = ""
       version = ""
-      
+
       hash {
         algorithm = ""
         value     = ""
@@ -36,12 +36,12 @@ resource "azurerm_automation_runbook" "tf-sample-automation-runbook" {
   publish_content_link {
     uri     = ""
     version = ""
-    
+
     hash {
       algorithm = ""
       value     = ""
     }
   }
-  
+
   tags = {}
 }

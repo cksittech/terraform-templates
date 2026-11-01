@@ -6,14 +6,14 @@ resource "azurerm_vpn_site" "tf-sample-vpn-site" {
   name                = ""
   resource_group_name = ""
   virtual_wan_id      = ""
-  
+
   link {
     fqdn          = ""
     ip_address    = ""
     name          = ""
     provider_name = ""
     speed_in_mbps = 0
-    
+
     bgp {
       asn             = 0
       peering_address = ""
@@ -26,6 +26,6 @@ resource "azurerm_vpn_site" "tf-sample-vpn-site" {
       optimize_endpoint_enabled = false
     }
   }
-  
+
   tags = {}
 }

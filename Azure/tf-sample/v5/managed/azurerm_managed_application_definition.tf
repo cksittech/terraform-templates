@@ -9,11 +9,11 @@ resource "azurerm_managed_application_definition" "tf-sample-managed-application
   package_enabled      = false
   package_file_uri     = ""
   resource_group_name  = ""
-  
+
   authorization {
     role_definition_id   = ""
     service_principal_id = ""
   }
-  
+
   tags = {}
 }

@@ -10,7 +10,7 @@ resource "azurerm_traffic_manager_nested_endpoint" "tf-sample-traffic-manager-ne
   profile_id                            = ""
   target_resource_id                    = ""
   weight                                = 0
-  
+
   custom_header {
     name  = ""
     value = ""

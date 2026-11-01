@@ -6,22 +6,22 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
   replica_timeout_in_seconds   = 0
   resource_group_name          = ""
   workload_profile_name        = ""
-  
+
   event_trigger_config {
     parallelism              = 0
     replica_completion_count = 0
-    
+
     scale {
       max_executions              = 0
       min_executions              = 0
       polling_interval_in_seconds = 0
-      
+
       rules {
         custom_rule_type = ""
         identity_id      = ""
         metadata         = {}
         name             = ""
-        
+
         authentication {
           secret_name       = ""
           trigger_parameter = ""
@@ -62,7 +62,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
       image   = ""
       memory  = ""
       name    = ""
-      
+
       env {
         name        = ""
         secret_name = ""
@@ -77,7 +77,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
         port                    = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -93,7 +93,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
         success_count_threshold = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -108,7 +108,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
         port                    = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -127,7 +127,7 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
       image   = ""
       memory  = ""
       name    = ""
-      
+
       env {
         name        = ""
         secret_name = ""
@@ -146,6 +146,6 @@ resource "azurerm_container_app_job" "tf-sample-container-app-job" {
       storage_type  = ""
     }
   }
-  
+
   tags = {}
 }

@@ -8,11 +8,11 @@ resource "azurerm_synapse_sql_pool" "tf-sample-synapse-sql-pool" {
   sku_name                  = ""
   storage_account_type      = ""
   synapse_workspace_id      = ""
-  
+
   restore {
     point_in_time      = ""
     source_database_id = ""
   }
-  
+
   tags = {}
 }

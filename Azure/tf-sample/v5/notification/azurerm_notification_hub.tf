@@ -3,7 +3,7 @@ resource "azurerm_notification_hub" "tf-sample-notification-hub" {
   name                = ""
   namespace_name      = ""
   resource_group_name = ""
-  
+
   apns_credential {
     application_mode = ""
     bundle_id        = ""
@@ -19,6 +19,6 @@ resource "azurerm_notification_hub" "tf-sample-notification-hub" {
   gcm_credential {
     api_key = ""
   }
-  
+
   tags = {}
 }

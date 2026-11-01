@@ -3,6 +3,6 @@ resource "azurerm_monitor_private_link_scope" "tf-sample-monitor-private-link-sc
   name                  = ""
   query_access_mode     = ""
   resource_group_name   = ""
-  
+
   tags = {}
 }

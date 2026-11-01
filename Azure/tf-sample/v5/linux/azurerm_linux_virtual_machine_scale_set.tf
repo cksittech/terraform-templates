@@ -34,7 +34,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
   vtpm_enabled                                      = false
   zone_balance                                      = false
   zones                                             = []
-  
+
   additional_capabilities {
     ultra_ssd_enabled = false
   }
@@ -77,7 +77,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
     settings                   = ""
     type                       = ""
     type_handler_version       = ""
-    
+
     protected_settings_from_key_vault {
       secret_url      = ""
       source_vault_id = ""
@@ -102,7 +102,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
     name                           = ""
     network_security_group_id      = ""
     primary                        = false
-    
+
     ip_configuration {
       application_gateway_backend_address_pool_ids = []
       application_security_group_ids               = []
@@ -112,14 +112,14 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
       primary                                      = false
       subnet_id                                    = ""
       version                                      = ""
-      
+
       public_ip_address {
         domain_name_label       = ""
         idle_timeout_in_minutes = 0
         name                    = ""
         public_ip_prefix_id     = ""
         version                 = ""
-        
+
         ip_tag {
           tag  = ""
           type = ""
@@ -135,7 +135,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
     security_encryption_type         = ""
     storage_account_type             = ""
     write_accelerator_enabled        = false
-    
+
     diff_disk_settings {
       option    = ""
       placement = ""
@@ -161,7 +161,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
   }
   secret {
     key_vault_id = ""
-    
+
     certificate {
       url = ""
     }
@@ -180,6 +180,6 @@ resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-mach
     enabled = false
     timeout = ""
   }
-  
+
   tags = {}
 }

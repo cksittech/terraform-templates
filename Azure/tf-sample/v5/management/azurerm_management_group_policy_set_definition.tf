@@ -6,7 +6,7 @@ resource "azurerm_management_group_policy_set_definition" "tf-sample-management-
   name                = ""
   parameters          = ""
   policy_type         = ""
-  
+
   policy_definition_group {
     additional_metadata_resource_id = ""
     category                        = ""

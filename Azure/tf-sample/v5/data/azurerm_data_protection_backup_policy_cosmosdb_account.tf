@@ -4,7 +4,7 @@ resource "azurerm_data_protection_backup_policy_cosmosdb_account" "tf-sample-dat
   data_protection_backup_vault_id = ""
   default_retention_duration      = ""
   name                            = ""
-  
+
   monthly_retention_rule {
     days_of_week   = []
     duration       = ""

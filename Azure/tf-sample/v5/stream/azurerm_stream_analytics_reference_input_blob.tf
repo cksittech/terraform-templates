@@ -9,7 +9,7 @@ resource "azurerm_stream_analytics_reference_input_blob" "tf-sample-stream-analy
   storage_container_name    = ""
   stream_analytics_job_name = ""
   time_format               = ""
-  
+
   serialization {
     encoding        = ""
     field_delimiter = ""

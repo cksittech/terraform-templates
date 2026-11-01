@@ -8,6 +8,6 @@ resource "azurerm_dev_center_network_connection" "tf-sample-dev-center-network-c
   organization_unit   = ""
   resource_group_name = ""
   subnet_id           = ""
-  
+
   tags = {}
 }

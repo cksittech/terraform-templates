@@ -5,7 +5,7 @@ resource "azurerm_virtual_machine_packet_capture" "tf-sample-virtual-machine-pac
   name                                = ""
   network_watcher_id                  = ""
   virtual_machine_id                  = ""
-  
+
   filter {
     local_ip_address  = ""
     local_port        = ""

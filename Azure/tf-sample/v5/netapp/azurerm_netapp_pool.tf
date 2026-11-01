@@ -9,6 +9,6 @@ resource "azurerm_netapp_pool" "tf-sample-netapp-pool" {
   resource_group_name     = ""
   service_level           = ""
   size_in_tb              = 0
-  
+
   tags = {}
 }

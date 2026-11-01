@@ -19,7 +19,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
   virtual_network_subnet_id                      = ""
   webdeploy_publish_basic_authentication_enabled = false
   zip_deploy_file                                = ""
-  
+
   auth_settings {
     additional_login_parameters    = {}
     allowed_external_redirect_urls = []
@@ -30,7 +30,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
     token_refresh_extension_hours  = 0
     token_store_enabled            = false
     unauthenticated_client_action  = ""
-    
+
     active_directory {
       allowed_audiences          = []
       client_id                  = ""
@@ -80,7 +80,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
     require_https                           = false
     runtime_version                         = ""
     unauthenticated_action                  = ""
-    
+
     active_directory_v2 {
       allowed_applications                 = []
       allowed_audiences                    = []
@@ -154,7 +154,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
     enabled             = false
     name                = ""
     storage_account_url = ""
-    
+
     schedule {
       frequency_interval       = 0
       frequency_unit           = ""
@@ -175,10 +175,10 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
   logs {
     detailed_error_messages = false
     failed_request_tracing  = false
-    
+
     application_logs {
       file_system_level = ""
-      
+
       azure_blob_storage {
         level             = ""
         retention_in_days = 0
@@ -223,7 +223,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
     vnet_route_all_enabled                        = false
     websockets_enabled                            = false
     worker_count                                  = 0
-    
+
     application_stack {
       current_stack                = ""
       docker_image_name            = ""
@@ -243,7 +243,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
       action {
         action_type                    = ""
         minimum_process_execution_time = ""
-        
+
         custom_action {
           executable = ""
           parameters = ""
@@ -251,7 +251,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
       }
       trigger {
         private_memory_kb = 0
-        
+
         requests {
           count    = 0
           interval = ""
@@ -310,7 +310,7 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
       physical_path = ""
       preload       = false
       virtual_path  = ""
-      
+
       virtual_directory {
         physical_path = ""
         virtual_path  = ""
@@ -329,6 +329,6 @@ resource "azurerm_windows_web_app" "tf-sample-windows-web-app" {
     share_name   = ""
     type         = ""
   }
-  
+
   tags = {}
 }

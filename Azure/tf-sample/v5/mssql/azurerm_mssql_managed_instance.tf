@@ -23,7 +23,7 @@ resource "azurerm_mssql_managed_instance" "tf-sample-mssql-managed-instance" {
   timezone_id                    = ""
   vcores                         = 0
   zone_redundant_enabled         = false
-  
+
   azure_active_directory_administrator {
     azuread_authentication_only_enabled = false
     login_username                      = ""
@@ -35,6 +35,6 @@ resource "azurerm_mssql_managed_instance" "tf-sample-mssql-managed-instance" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

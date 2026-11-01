@@ -9,7 +9,7 @@ resource "azurerm_stream_analytics_output_servicebus_topic" "tf-sample-stream-an
   stream_analytics_job_name = ""
   system_property_columns   = {}
   topic_name                = ""
-  
+
   serialization {
     encoding        = ""
     field_delimiter = ""

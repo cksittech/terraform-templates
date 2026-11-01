@@ -12,13 +12,13 @@ resource "azurerm_key_vault" "tf-sample-key-vault" {
   sku_name                        = ""
   soft_delete_retention_days      = 0
   tenant_id                       = ""
-  
+
   network_acls {
     bypass                     = ""
     default_action             = ""
     ip_rules                   = []
     virtual_network_subnet_ids = []
   }
-  
+
   tags = {}
 }

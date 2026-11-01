@@ -5,7 +5,7 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
   resource_group_name = ""
   tier                = ""
   tls_min_version     = ""
-  
+
   component_version {
     hbase = ""
   }
@@ -58,7 +58,7 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
   private_link_configuration {
     group_id = ""
     name     = ""
-    
+
     ip_configuration {
       name                         = ""
       primary                      = false
@@ -75,7 +75,7 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -90,11 +90,11 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
       username              = ""
       virtual_network_id    = ""
       vm_size               = ""
-      
+
       autoscale {
         recurrence {
           timezone = ""
-          
+
           schedule {
             days                  = []
             target_instance_count = 0
@@ -115,7 +115,7 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -144,6 +144,6 @@ resource "azurerm_hdinsight_hbase_cluster" "tf-sample-hdinsight-hbase-cluster" {
     storage_account_id        = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

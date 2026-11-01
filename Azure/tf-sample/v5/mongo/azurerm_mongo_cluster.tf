@@ -18,7 +18,7 @@ resource "azurerm_mongo_cluster" "tf-sample-mongo-cluster" {
   storage_size_in_gb               = 0
   storage_type                     = ""
   version                          = ""
-  
+
   customer_managed_key {
     key_vault_key_id          = ""
     user_assigned_identity_id = ""
@@ -31,6 +31,6 @@ resource "azurerm_mongo_cluster" "tf-sample-mongo-cluster" {
     point_in_time_utc = ""
     source_id         = ""
   }
-  
+
   tags = {}
 }

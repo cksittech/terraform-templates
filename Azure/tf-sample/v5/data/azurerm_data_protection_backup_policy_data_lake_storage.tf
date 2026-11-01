@@ -4,7 +4,7 @@ resource "azurerm_data_protection_backup_policy_data_lake_storage" "tf-sample-da
   default_retention_duration      = ""
   name                            = ""
   time_zone                       = ""
-  
+
   retention_rule {
     absolute_criteria      = ""
     days_of_week           = []

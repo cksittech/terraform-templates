@@ -8,7 +8,7 @@ resource "azurerm_data_factory_dataset_postgresql" "tf-sample-data-factory-datas
   name                  = ""
   parameters            = {}
   table_name            = ""
-  
+
   schema_column {
     description = ""
     name        = ""

@@ -7,7 +7,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
   tier                          = ""
   tls_min_version               = ""
   zones                         = []
-  
+
   component_version {
     spark = ""
   }
@@ -60,7 +60,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
   private_link_configuration {
     group_id = ""
     name     = ""
-    
+
     ip_configuration {
       name                         = ""
       primary                      = false
@@ -77,7 +77,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -92,7 +92,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
       username              = ""
       virtual_network_id    = ""
       vm_size               = ""
-      
+
       autoscale {
         capacity {
           max_instance_count = 0
@@ -100,7 +100,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
         }
         recurrence {
           timezone = ""
-          
+
           schedule {
             days                  = []
             target_instance_count = 0
@@ -121,7 +121,7 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -150,6 +150,6 @@ resource "azurerm_hdinsight_spark_cluster" "tf-sample-hdinsight-spark-cluster" {
     storage_account_id        = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

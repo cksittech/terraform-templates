@@ -5,12 +5,12 @@ resource "azurerm_stack_hci_logical_network" "tf-sample-stack-hci-logical-networ
   name                = ""
   resource_group_name = ""
   virtual_switch_name = ""
-  
+
   subnet {
     address_prefix       = ""
     ip_allocation_method = ""
     vlan_id              = 0
-    
+
     ip_pool {
       end   = ""
       start = ""
@@ -21,6 +21,6 @@ resource "azurerm_stack_hci_logical_network" "tf-sample-stack-hci-logical-networ
       next_hop_ip_address = ""
     }
   }
-  
+
   tags = {}
 }

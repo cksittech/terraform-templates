@@ -10,11 +10,11 @@ resource "azurerm_virtual_machine_extension" "tf-sample-virtual-machine-extensio
   type                        = ""
   type_handler_version        = ""
   virtual_machine_id          = ""
-  
+
   protected_settings_from_key_vault {
     secret_url      = ""
     source_vault_id = ""
   }
-  
+
   tags = {}
 }

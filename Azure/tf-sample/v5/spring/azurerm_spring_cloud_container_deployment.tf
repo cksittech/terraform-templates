@@ -10,7 +10,7 @@ resource "azurerm_spring_cloud_container_deployment" "tf-sample-spring-cloud-con
   name                                   = ""
   server                                 = ""
   spring_cloud_app_id                    = ""
-  
+
   quota {
     cpu    = ""
     memory = ""

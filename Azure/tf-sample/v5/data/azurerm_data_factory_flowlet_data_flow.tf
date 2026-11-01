@@ -6,11 +6,11 @@ resource "azurerm_data_factory_flowlet_data_flow" "tf-sample-data-factory-flowle
   name            = ""
   script          = ""
   script_lines    = []
-  
+
   sink {
     description = ""
     name        = ""
-    
+
     dataset {
       name       = ""
       parameters = {}
@@ -36,7 +36,7 @@ resource "azurerm_data_factory_flowlet_data_flow" "tf-sample-data-factory-flowle
   source {
     description = ""
     name        = ""
-    
+
     dataset {
       name       = ""
       parameters = {}
@@ -62,7 +62,7 @@ resource "azurerm_data_factory_flowlet_data_flow" "tf-sample-data-factory-flowle
   transformation {
     description = ""
     name        = ""
-    
+
     dataset {
       name       = ""
       parameters = {}

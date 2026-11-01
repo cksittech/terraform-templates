@@ -4,7 +4,7 @@ resource "azurerm_logic_app_integration_account_certificate" "tf-sample-logic-ap
   name                     = ""
   public_certificate       = ""
   resource_group_name      = ""
-  
+
   key_vault_key {
     key_name     = ""
     key_vault_id = ""

@@ -19,6 +19,6 @@ resource "azurerm_bot_service_azure_bot" "tf-sample-bot-service-azure-bot" {
   resource_group_name                   = ""
   sku                                   = ""
   streaming_endpoint_enabled            = false
-  
+
   tags = {}
 }

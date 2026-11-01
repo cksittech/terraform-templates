@@ -2,7 +2,7 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   custom_rules {
     action               = ""
     enabled              = false
@@ -12,13 +12,13 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
     rate_limit_duration  = ""
     rate_limit_threshold = 0
     rule_type            = ""
-    
+
     match_conditions {
       match_values       = []
       negation_condition = false
       operator           = ""
       transforms         = []
-      
+
       match_variables {
         selector      = ""
         variable_name = ""
@@ -30,11 +30,11 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
       match_variable          = ""
       selector                = ""
       selector_match_operator = ""
-      
+
       excluded_rule_set {
         type    = ""
         version = ""
-        
+
         rule_group {
           excluded_rules  = []
           rule_group_name = ""
@@ -44,10 +44,10 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
     managed_rule_set {
       type    = ""
       version = ""
-      
+
       rule_group_override {
         rule_group_name = ""
-        
+
         rule {
           action  = ""
           enabled = false
@@ -66,10 +66,10 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
     request_body_check                        = false
     request_body_enforcement                  = false
     request_body_inspect_limit_in_kb          = 0
-    
+
     log_scrubbing {
       enabled = false
-      
+
       rule {
         enabled                 = false
         match_variable          = ""
@@ -78,6 +78,6 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
       }
     }
   }
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "azurerm_chaos_studio_experiment" "tf-sample-chaos-studio-experiment" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -13,10 +13,10 @@ resource "azurerm_chaos_studio_experiment" "tf-sample-chaos-studio-experiment" {
   }
   steps {
     name = ""
-    
+
     branch {
       name = ""
-      
+
       actions {
         action_type   = ""
         duration      = ""

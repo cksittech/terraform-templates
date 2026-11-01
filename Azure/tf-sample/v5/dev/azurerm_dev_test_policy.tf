@@ -7,6 +7,6 @@ resource "azurerm_dev_test_policy" "tf-sample-dev-test-policy" {
   policy_set_name     = ""
   resource_group_name = ""
   threshold           = ""
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "azurerm_netapp_volume_group_oracle" "tf-sample-netapp-volume-group-ora
   location               = ""
   name                   = ""
   resource_group_name    = ""
-  
+
   volume {
     capacity_pool_id              = ""
     encryption_key_source         = ""
@@ -23,7 +23,7 @@ resource "azurerm_netapp_volume_group_oracle" "tf-sample-netapp-volume-group-ora
     volume_path                   = ""
     volume_spec_name              = ""
     zone                          = ""
-    
+
     data_protection_replication {
       endpoint_type             = ""
       remote_volume_location    = ""

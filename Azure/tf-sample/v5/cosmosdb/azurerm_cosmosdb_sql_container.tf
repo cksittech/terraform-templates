@@ -9,7 +9,7 @@ resource "azurerm_cosmosdb_sql_container" "tf-sample-cosmosdb-sql-container" {
   partition_key_version  = 0
   resource_group_name    = ""
   throughput             = 0
-  
+
   autoscale_settings {
     max_throughput = 0
   }
@@ -20,7 +20,7 @@ resource "azurerm_cosmosdb_sql_container" "tf-sample-cosmosdb-sql-container" {
   }
   indexing_policy {
     indexing_mode = ""
-    
+
     composite_index {
       index {
         order = ""

@@ -11,7 +11,7 @@ resource "azurerm_data_factory_trigger_tumbling_window" "tf-sample-data-factory-
   max_concurrency       = 0
   name                  = ""
   start_time            = ""
-  
+
   pipeline {
     name       = ""
     parameters = {}

@@ -4,7 +4,7 @@ resource "azurerm_role_definition" "tf-sample-role-definition" {
   name               = ""
   role_definition_id = ""
   scope              = ""
-  
+
   permissions {
     actions          = []
     data_actions     = []

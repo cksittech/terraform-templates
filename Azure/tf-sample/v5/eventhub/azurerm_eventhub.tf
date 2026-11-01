@@ -4,14 +4,14 @@ resource "azurerm_eventhub" "tf-sample-eventhub" {
   namespace_id      = ""
   partition_count   = 0
   status            = ""
-  
+
   capture_description {
     enabled             = false
     encoding            = ""
     interval_in_seconds = 0
     size_limit_in_bytes = 0
     skip_empty_archives = false
-    
+
     destination {
       archive_name_format         = ""
       blob_container_name         = ""

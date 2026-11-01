@@ -4,7 +4,7 @@ resource "azurerm_dynatrace_monitor" "tf-sample-dynatrace-monitor" {
   monitoring_enabled       = false
   name                     = ""
   resource_group_name      = ""
-  
+
   environment_properties {
     environment_info {
       environment_id = ""
@@ -25,6 +25,6 @@ resource "azurerm_dynatrace_monitor" "tf-sample-dynatrace-monitor" {
     last_name    = ""
     phone_number = ""
   }
-  
+
   tags = {}
 }

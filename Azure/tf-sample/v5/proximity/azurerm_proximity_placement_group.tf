@@ -4,6 +4,6 @@ resource "azurerm_proximity_placement_group" "tf-sample-proximity-placement-grou
   name                = ""
   resource_group_name = ""
   zone                = ""
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "azurerm_managed_lustre_file_system" "tf-sample-managed-lustre-file-sys
   storage_capacity_in_tb = 0
   subnet_id              = ""
   zones                  = []
-  
+
   encryption_key {
     key_url         = ""
     source_vault_id = ""
@@ -30,6 +30,6 @@ resource "azurerm_managed_lustre_file_system" "tf-sample-managed-lustre-file-sys
     squash_gid     = 0
     squash_uid     = 0
   }
-  
+
   tags = {}
 }

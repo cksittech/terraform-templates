@@ -4,7 +4,7 @@ resource "azurerm_dev_center_project_environment_type" "tf-sample-dev-center-pro
   dev_center_project_id         = ""
   location                      = ""
   name                          = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -13,6 +13,6 @@ resource "azurerm_dev_center_project_environment_type" "tf-sample-dev-center-pro
     roles   = []
     user_id = ""
   }
-  
+
   tags = {}
 }

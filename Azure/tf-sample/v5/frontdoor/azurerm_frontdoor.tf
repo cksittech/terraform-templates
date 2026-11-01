@@ -3,12 +3,12 @@ resource "azurerm_frontdoor" "tf-sample-frontdoor" {
   load_balancer_enabled = false
   name                  = ""
   resource_group_name   = ""
-  
+
   backend_pool {
     health_probe_name   = ""
     load_balancing_name = ""
     name                = ""
-    
+
     backend {
       address     = ""
       enabled     = false
@@ -50,7 +50,7 @@ resource "azurerm_frontdoor" "tf-sample-frontdoor" {
     frontend_endpoints = []
     name               = ""
     patterns_to_match  = []
-    
+
     forwarding_configuration {
       backend_pool_name                     = ""
       cache_duration                        = ""
@@ -70,6 +70,6 @@ resource "azurerm_frontdoor" "tf-sample-frontdoor" {
       redirect_type       = ""
     }
   }
-  
+
   tags = {}
 }

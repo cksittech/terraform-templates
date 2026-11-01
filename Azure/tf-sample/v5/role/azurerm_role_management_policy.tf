@@ -1,7 +1,7 @@
 resource "azurerm_role_management_policy" "tf-sample-role-management-policy" {
   role_definition_id = ""
   scope              = ""
-  
+
   activation_rules {
     maximum_duration                                   = ""
     require_approval                                   = false
@@ -9,7 +9,7 @@ resource "azurerm_role_management_policy" "tf-sample-role-management-policy" {
     require_multifactor_authentication                 = false
     require_ticket_info                                = false
     required_conditional_access_authentication_context = ""
-    
+
     approval_stage {
       primary_approver {
         object_id = ""

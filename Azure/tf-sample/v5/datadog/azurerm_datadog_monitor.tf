@@ -4,7 +4,7 @@ resource "azurerm_datadog_monitor" "tf-sample-datadog-monitor" {
   name                = ""
   resource_group_name = ""
   sku_name            = ""
-  
+
   datadog_organization {
     api_key           = ""
     application_key   = ""
@@ -21,6 +21,6 @@ resource "azurerm_datadog_monitor" "tf-sample-datadog-monitor" {
     name         = ""
     phone_number = ""
   }
-  
+
   tags = {}
 }

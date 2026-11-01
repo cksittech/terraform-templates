@@ -4,7 +4,7 @@ resource "azurerm_data_share" "tf-sample-data-share" {
   kind        = ""
   name        = ""
   terms       = ""
-  
+
   snapshot_schedule {
     name       = ""
     recurrence = ""

@@ -8,7 +8,7 @@ resource "azurerm_eventgrid_topic" "tf-sample-eventgrid-topic" {
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -26,6 +26,6 @@ resource "azurerm_eventgrid_topic" "tf-sample-eventgrid-topic" {
     subject      = ""
     topic        = ""
   }
-  
+
   tags = {}
 }

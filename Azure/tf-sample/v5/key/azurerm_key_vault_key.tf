@@ -7,7 +7,7 @@ resource "azurerm_key_vault_key" "tf-sample-key-vault-key" {
   key_vault_id    = ""
   name            = ""
   not_before_date = ""
-  
+
   release_policy {
     immutable = false
     json      = ""
@@ -15,12 +15,12 @@ resource "azurerm_key_vault_key" "tf-sample-key-vault-key" {
   rotation_policy {
     expire_after         = ""
     notify_before_expiry = ""
-    
+
     automatic {
       time_after_creation = ""
       time_before_expiry  = ""
     }
   }
-  
+
   tags = {}
 }

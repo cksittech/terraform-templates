@@ -6,7 +6,7 @@ resource "azurerm_dev_test_schedule" "tf-sample-dev-test-schedule" {
   status              = ""
   task_type           = ""
   time_zone_id        = ""
-  
+
   daily_recurrence {
     time = ""
   }
@@ -22,6 +22,6 @@ resource "azurerm_dev_test_schedule" "tf-sample-dev-test-schedule" {
     time      = ""
     week_days = []
   }
-  
+
   tags = {}
 }

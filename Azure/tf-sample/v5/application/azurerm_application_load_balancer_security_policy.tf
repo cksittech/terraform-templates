@@ -3,6 +3,6 @@ resource "azurerm_application_load_balancer_security_policy" "tf-sample-applicat
   location                           = ""
   name                               = ""
   web_application_firewall_policy_id = ""
-  
+
   tags = {}
 }

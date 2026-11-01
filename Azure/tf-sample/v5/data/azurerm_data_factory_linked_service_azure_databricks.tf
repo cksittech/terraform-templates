@@ -10,7 +10,7 @@ resource "azurerm_data_factory_linked_service_azure_databricks" "tf-sample-data-
   msi_workspace_id         = ""
   name                     = ""
   parameters               = {}
-  
+
   instance_pool {
     cluster_version       = ""
     instance_pool_id      = ""

@@ -4,6 +4,6 @@ resource "azurerm_dns_ptr_record" "tf-sample-dns-ptr-record" {
   resource_group_name = ""
   ttl                 = 0
   zone_name           = ""
-  
+
   tags = {}
 }

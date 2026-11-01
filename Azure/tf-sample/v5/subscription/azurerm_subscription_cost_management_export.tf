@@ -6,7 +6,7 @@ resource "azurerm_subscription_cost_management_export" "tf-sample-subscription-c
   recurrence_period_start_date = ""
   recurrence_type              = ""
   subscription_id              = ""
-  
+
   export_data_options {
     time_frame = ""
     type       = ""

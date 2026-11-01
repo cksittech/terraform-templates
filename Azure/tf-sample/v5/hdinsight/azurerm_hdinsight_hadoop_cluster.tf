@@ -5,7 +5,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
   resource_group_name = ""
   tier                = ""
   tls_min_version     = ""
-  
+
   component_version {
     hadoop = ""
   }
@@ -58,7 +58,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
   private_link_configuration {
     group_id = ""
     name     = ""
-    
+
     ip_configuration {
       name                         = ""
       primary                      = false
@@ -71,7 +71,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
     edge_node {
       target_instance_count = 0
       vm_size               = ""
-      
+
       https_endpoints {
         access_modes         = []
         destination_port     = 0
@@ -97,7 +97,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -112,7 +112,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
       username              = ""
       virtual_network_id    = ""
       vm_size               = ""
-      
+
       autoscale {
         capacity {
           max_instance_count = 0
@@ -120,7 +120,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
         }
         recurrence {
           timezone = ""
-          
+
           schedule {
             days                  = []
             target_instance_count = 0
@@ -141,7 +141,7 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -170,6 +170,6 @@ resource "azurerm_hdinsight_hadoop_cluster" "tf-sample-hdinsight-hadoop-cluster"
     storage_account_id        = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

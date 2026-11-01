@@ -7,7 +7,7 @@ resource "azurerm_extended_location_custom_location" "tf-sample-extended-locatio
   name                  = ""
   namespace             = ""
   resource_group_name   = ""
-  
+
   authentication {
     type  = ""
     value = ""

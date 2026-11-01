@@ -8,7 +8,7 @@ resource "azurerm_sentinel_automation_rule" "tf-sample-sentinel-automation-rule"
   order                      = 0
   triggers_on                = ""
   triggers_when              = ""
-  
+
   action_incident {
     classification         = ""
     classification_comment = ""

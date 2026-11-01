@@ -5,7 +5,7 @@ resource "azurerm_api_management_logger" "tf-sample-api-management-logger" {
   name                = ""
   resource_group_name = ""
   resource_id         = ""
-  
+
   application_insights {
     connection_string   = ""
     identity_client_id  = ""

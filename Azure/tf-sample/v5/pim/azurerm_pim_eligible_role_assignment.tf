@@ -5,10 +5,10 @@ resource "azurerm_pim_eligible_role_assignment" "tf-sample-pim-eligible-role-ass
   principal_id       = ""
   role_definition_id = ""
   scope              = ""
-  
+
   schedule {
     start_date_time = ""
-    
+
     expiration {
       duration_days  = 0
       duration_hours = 0

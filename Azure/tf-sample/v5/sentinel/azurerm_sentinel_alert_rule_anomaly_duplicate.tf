@@ -4,7 +4,7 @@ resource "azurerm_sentinel_alert_rule_anomaly_duplicate" "tf-sample-sentinel-ale
   enabled                    = false
   log_analytics_workspace_id = ""
   mode                       = ""
-  
+
   multi_select_observation {
     name   = ""
     values = []

@@ -12,11 +12,11 @@ resource "azurerm_cdn_endpoint" "tf-sample-cdn-endpoint" {
   profile_name                  = ""
   querystring_caching_behaviour = ""
   resource_group_name           = ""
-  
+
   delivery_rule {
     name  = ""
     order = 0
-    
+
     cache_expiration_action {
       behavior = ""
       duration = ""
@@ -175,6 +175,6 @@ resource "azurerm_cdn_endpoint" "tf-sample-cdn-endpoint" {
     https_port = 0
     name       = ""
   }
-  
+
   tags = {}
 }

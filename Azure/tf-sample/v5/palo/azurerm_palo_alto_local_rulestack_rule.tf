@@ -14,7 +14,7 @@ resource "azurerm_palo_alto_local_rulestack_rule" "tf-sample-palo-alto-local-rul
   protocol                  = ""
   protocol_ports            = []
   rulestack_id              = ""
-  
+
   category {
     custom_urls = []
     feeds       = []
@@ -32,6 +32,6 @@ resource "azurerm_palo_alto_local_rulestack_rule" "tf-sample-palo-alto-local-rul
     feeds                           = []
     local_rulestack_prefix_list_ids = []
   }
-  
+
   tags = {}
 }

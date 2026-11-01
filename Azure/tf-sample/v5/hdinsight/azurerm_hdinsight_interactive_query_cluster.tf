@@ -6,7 +6,7 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
   resource_group_name           = ""
   tier                          = ""
   tls_min_version               = ""
-  
+
   component_version {
     interactive_hive = ""
   }
@@ -59,7 +59,7 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
   private_link_configuration {
     group_id = ""
     name     = ""
-    
+
     ip_configuration {
       name                         = ""
       primary                      = false
@@ -76,7 +76,7 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -91,11 +91,11 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
       username              = ""
       virtual_network_id    = ""
       vm_size               = ""
-      
+
       autoscale {
         recurrence {
           timezone = ""
-          
+
           schedule {
             days                  = []
             target_instance_count = 0
@@ -116,7 +116,7 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -145,6 +145,6 @@ resource "azurerm_hdinsight_interactive_query_cluster" "tf-sample-hdinsight-inte
     storage_account_id        = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

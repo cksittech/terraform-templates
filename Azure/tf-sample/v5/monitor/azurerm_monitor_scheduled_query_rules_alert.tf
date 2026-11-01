@@ -13,7 +13,7 @@ resource "azurerm_monitor_scheduled_query_rules_alert" "tf-sample-monitor-schedu
   severity                = 0
   throttling              = 0
   time_window             = 0
-  
+
   action {
     action_group           = []
     custom_webhook_payload = ""
@@ -22,7 +22,7 @@ resource "azurerm_monitor_scheduled_query_rules_alert" "tf-sample-monitor-schedu
   trigger {
     operator  = ""
     threshold = 0
-    
+
     metric_trigger {
       metric_column       = ""
       metric_trigger_type = ""
@@ -30,6 +30,6 @@ resource "azurerm_monitor_scheduled_query_rules_alert" "tf-sample-monitor-schedu
       threshold           = 0
     }
   }
-  
+
   tags = {}
 }

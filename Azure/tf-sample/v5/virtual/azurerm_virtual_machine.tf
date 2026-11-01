@@ -11,7 +11,7 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
   resource_group_name              = ""
   vm_size                          = ""
   zones                            = []
-  
+
   additional_capabilities {
     ultra_ssd_enabled = false
   }
@@ -31,7 +31,7 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
   }
   os_profile_linux_config {
     disable_password_authentication = false
-    
+
     ssh_keys {
       key_data = ""
       path     = ""
@@ -39,7 +39,7 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
   }
   os_profile_secrets {
     source_vault_id = ""
-    
+
     vault_certificates {
       certificate_store = ""
       certificate_url   = ""
@@ -49,7 +49,7 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
     enable_automatic_upgrades = false
     provision_vm_agent        = false
     timezone                  = ""
-    
+
     additional_unattend_config {
       component    = ""
       content      = ""
@@ -96,6 +96,6 @@ resource "azurerm_virtual_machine" "tf-sample-virtual-machine" {
     vhd_uri                   = ""
     write_accelerator_enabled = false
   }
-  
+
   tags = {}
 }

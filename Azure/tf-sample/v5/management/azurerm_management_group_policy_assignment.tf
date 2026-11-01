@@ -9,7 +9,7 @@ resource "azurerm_management_group_policy_assignment" "tf-sample-management-grou
   not_scopes           = []
   parameters           = ""
   policy_definition_id = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -20,7 +20,7 @@ resource "azurerm_management_group_policy_assignment" "tf-sample-management-grou
   }
   overrides {
     value = ""
-    
+
     selectors {
       in     = []
       kind   = ""
@@ -29,7 +29,7 @@ resource "azurerm_management_group_policy_assignment" "tf-sample-management-grou
   }
   resource_selectors {
     name = ""
-    
+
     selectors {
       in     = []
       kind   = ""

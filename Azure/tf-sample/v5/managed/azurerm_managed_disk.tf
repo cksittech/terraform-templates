@@ -32,7 +32,7 @@ resource "azurerm_managed_disk" "tf-sample-managed-disk" {
   trusted_launch_enabled            = false
   upload_size_bytes                 = 0
   zone                              = ""
-  
+
   encryption_settings {
     disk_encryption_key {
       secret_url      = ""
@@ -43,6 +43,6 @@ resource "azurerm_managed_disk" "tf-sample-managed-disk" {
       source_vault_id = ""
     }
   }
-  
+
   tags = {}
 }

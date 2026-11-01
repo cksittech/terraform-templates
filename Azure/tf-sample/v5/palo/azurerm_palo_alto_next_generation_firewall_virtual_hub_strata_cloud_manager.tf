@@ -5,11 +5,11 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_ma
   plan_id                          = ""
   resource_group_name              = ""
   strata_cloud_manager_tenant_name = ""
-  
+
   destination_nat {
     name     = ""
     protocol = ""
-    
+
     backend_config {
       port              = 0
       public_ip_address = ""
@@ -34,6 +34,6 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_ma
     trusted_address_ranges       = []
     virtual_hub_id               = ""
   }
-  
+
   tags = {}
 }

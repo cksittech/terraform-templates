@@ -11,7 +11,7 @@ resource "azurerm_web_pubsub_socketio" "tf-sample-web-pubsub-socketio" {
   resource_group_name                  = ""
   service_mode                         = ""
   tls_client_cert_enabled              = false
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -20,6 +20,6 @@ resource "azurerm_web_pubsub_socketio" "tf-sample-web-pubsub-socketio" {
     capacity = 0
     name     = ""
   }
-  
+
   tags = {}
 }

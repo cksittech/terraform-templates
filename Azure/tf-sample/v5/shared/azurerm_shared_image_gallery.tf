@@ -3,10 +3,10 @@ resource "azurerm_shared_image_gallery" "tf-sample-shared-image-gallery" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   sharing {
     permission = ""
-    
+
     community_gallery {
       eula            = ""
       prefix          = ""
@@ -14,6 +14,6 @@ resource "azurerm_shared_image_gallery" "tf-sample-shared-image-gallery" {
       publisher_uri   = ""
     }
   }
-  
+
   tags = {}
 }

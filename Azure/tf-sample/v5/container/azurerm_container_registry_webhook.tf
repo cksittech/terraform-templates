@@ -8,6 +8,6 @@ resource "azurerm_container_registry_webhook" "tf-sample-container-registry-webh
   scope               = ""
   service_uri         = ""
   status              = ""
-  
+
   tags = {}
 }

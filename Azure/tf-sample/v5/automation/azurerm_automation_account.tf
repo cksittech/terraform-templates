@@ -5,7 +5,7 @@ resource "azurerm_automation_account" "tf-sample-automation-account" {
   public_network_access_enabled = false
   resource_group_name           = ""
   sku_name                      = ""
-  
+
   encryption {
     key_vault_key_id          = ""
     user_assigned_identity_id = ""
@@ -14,6 +14,6 @@ resource "azurerm_automation_account" "tf-sample-automation-account" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

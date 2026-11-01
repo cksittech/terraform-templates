@@ -5,7 +5,7 @@ resource "azurerm_security_center_automation" "tf-sample-security-center-automat
   name                = ""
   resource_group_name = ""
   scopes              = []
-  
+
   action {
     connection_string = ""
     resource_id       = ""
@@ -14,7 +14,7 @@ resource "azurerm_security_center_automation" "tf-sample-security-center-automat
   }
   source {
     event_source = ""
-    
+
     rule_set {
       rule {
         expected_value = ""
@@ -24,6 +24,6 @@ resource "azurerm_security_center_automation" "tf-sample-security-center-automat
       }
     }
   }
-  
+
   tags = {}
 }

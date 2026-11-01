@@ -7,7 +7,7 @@ resource "azurerm_data_factory" "tf-sample-data-factory" {
   public_network_enabled           = false
   purview_id                       = ""
   resource_group_name              = ""
-  
+
   github_configuration {
     account_name       = ""
     branch_name        = ""
@@ -34,6 +34,6 @@ resource "azurerm_data_factory" "tf-sample-data-factory" {
     root_folder        = ""
     tenant_id          = ""
   }
-  
+
   tags = {}
 }

@@ -25,11 +25,11 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
   sftp_enabled                      = false
   shared_access_key_enabled         = false
   table_encryption_key_type         = ""
-  
+
   azure_files_authentication {
     default_share_level_permission = ""
     directory_type                 = ""
-    
+
     active_directory {
       domain_guid         = ""
       domain_name         = ""
@@ -45,7 +45,7 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
     default_service_version       = ""
     last_access_time_enabled      = false
     versioning_enabled            = false
-    
+
     container_delete_retention_policy {
       days = 0
     }
@@ -86,7 +86,7 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
     default_action             = ""
     ip_rules                   = []
     virtual_network_subnet_ids = []
-    
+
     private_link_access {
       endpoint_resource_id = ""
       endpoint_tenant_id   = ""
@@ -120,6 +120,6 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
       versions                        = []
     }
   }
-  
+
   tags = {}
 }

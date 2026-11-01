@@ -6,10 +6,10 @@ resource "azurerm_maintenance_configuration" "tf-sample-maintenance-configuratio
   resource_group_name      = ""
   scope                    = ""
   visibility               = ""
-  
+
   install_patches {
     reboot = ""
-    
+
     linux {
       classifications_to_include    = []
       package_names_mask_to_exclude = []
@@ -28,6 +28,6 @@ resource "azurerm_maintenance_configuration" "tf-sample-maintenance-configuratio
     start_date_time      = ""
     time_zone            = ""
   }
-  
+
   tags = {}
 }

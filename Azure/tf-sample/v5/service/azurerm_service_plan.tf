@@ -10,6 +10,6 @@ resource "azurerm_service_plan" "tf-sample-service-plan" {
   sku_name                        = ""
   worker_count                    = 0
   zone_balancing_enabled          = false
-  
+
   tags = {}
 }

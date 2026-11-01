@@ -10,7 +10,7 @@ resource "azurerm_monitor_metric_alert" "tf-sample-monitor-metric-alert" {
   target_resource_location = ""
   target_resource_type     = ""
   window_size              = ""
-  
+
   action {
     action_group_id    = ""
     webhook_properties = {}
@@ -27,7 +27,7 @@ resource "azurerm_monitor_metric_alert" "tf-sample-monitor-metric-alert" {
     operator               = ""
     skip_metric_validation = false
     threshold              = 0
-    
+
     dimension {
       name     = ""
       operator = ""
@@ -44,13 +44,13 @@ resource "azurerm_monitor_metric_alert" "tf-sample-monitor-metric-alert" {
     metric_namespace         = ""
     operator                 = ""
     skip_metric_validation   = false
-    
+
     dimension {
       name     = ""
       operator = ""
       values   = []
     }
   }
-  
+
   tags = {}
 }

@@ -7,7 +7,7 @@ resource "azurerm_data_factory_linked_service_odata" "tf-sample-data-factory-lin
   name                     = ""
   parameters               = {}
   url                      = ""
-  
+
   basic_authentication {
     password = ""
     username = ""

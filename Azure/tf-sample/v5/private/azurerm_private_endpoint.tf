@@ -5,7 +5,7 @@ resource "azurerm_private_endpoint" "tf-sample-private-endpoint" {
   name                          = ""
   resource_group_name           = ""
   subnet_id                     = ""
-  
+
   ip_configuration {
     member_name        = ""
     name               = ""
@@ -24,6 +24,6 @@ resource "azurerm_private_endpoint" "tf-sample-private-endpoint" {
     request_message                   = ""
     subresource_names                 = []
   }
-  
+
   tags = {}
 }

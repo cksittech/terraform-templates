@@ -5,7 +5,7 @@ resource "azurerm_netapp_volume_group_sap_hana" "tf-sample-netapp-volume-group-s
   location               = ""
   name                   = ""
   resource_group_name    = ""
-  
+
   volume {
     capacity_pool_id              = ""
     encryption_key_source         = ""
@@ -23,7 +23,7 @@ resource "azurerm_netapp_volume_group_sap_hana" "tf-sample-netapp-volume-group-s
     volume_path                   = ""
     volume_spec_name              = ""
     zone                          = ""
-    
+
     data_protection_replication {
       endpoint_type             = ""
       remote_volume_location    = ""

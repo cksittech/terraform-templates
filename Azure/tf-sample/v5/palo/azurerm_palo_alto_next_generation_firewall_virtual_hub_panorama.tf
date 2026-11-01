@@ -5,11 +5,11 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_panorama" "tf-s
   panorama_base64_config = ""
   plan_id                = ""
   resource_group_name    = ""
-  
+
   destination_nat {
     name     = ""
     protocol = ""
-    
+
     backend_config {
       port              = 0
       public_ip_address = ""
@@ -30,6 +30,6 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_panorama" "tf-s
     trusted_address_ranges       = []
     virtual_hub_id               = ""
   }
-  
+
   tags = {}
 }

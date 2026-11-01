@@ -4,7 +4,7 @@ resource "azurerm_monitor_alert_processing_rule_suppression" "tf-sample-monitor-
   name                = ""
   resource_group_name = ""
   scopes              = []
-  
+
   condition {
     alert_context {
       operator = ""
@@ -55,7 +55,7 @@ resource "azurerm_monitor_alert_processing_rule_suppression" "tf-sample-monitor-
     effective_from  = ""
     effective_until = ""
     time_zone       = ""
-    
+
     recurrence {
       daily {
         end_time   = ""
@@ -73,6 +73,6 @@ resource "azurerm_monitor_alert_processing_rule_suppression" "tf-sample-monitor-
       }
     }
   }
-  
+
   tags = {}
 }

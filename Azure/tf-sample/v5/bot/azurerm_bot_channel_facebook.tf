@@ -4,7 +4,7 @@ resource "azurerm_bot_channel_facebook" "tf-sample-bot-channel-facebook" {
   facebook_application_secret = ""
   location                    = ""
   resource_group_name         = ""
-  
+
   page {
     access_token = ""
     id           = ""

@@ -7,7 +7,7 @@ resource "azurerm_monitor_alert_prometheus_rule_group" "tf-sample-monitor-alert-
   resource_group_name = ""
   rule_group_enabled  = false
   scopes              = []
-  
+
   rule {
     alert       = ""
     annotations = {}
@@ -17,7 +17,7 @@ resource "azurerm_monitor_alert_prometheus_rule_group" "tf-sample-monitor-alert-
     labels      = {}
     record      = ""
     severity    = 0
-    
+
     action {
       action_group_id   = ""
       action_properties = {}
@@ -27,6 +27,6 @@ resource "azurerm_monitor_alert_prometheus_rule_group" "tf-sample-monitor-alert-
       time_to_resolve = ""
     }
   }
-  
+
   tags = {}
 }

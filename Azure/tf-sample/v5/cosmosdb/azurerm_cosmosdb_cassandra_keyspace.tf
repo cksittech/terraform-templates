@@ -3,7 +3,7 @@ resource "azurerm_cosmosdb_cassandra_keyspace" "tf-sample-cosmosdb-cassandra-key
   name                = ""
   resource_group_name = ""
   throughput          = 0
-  
+
   autoscale_settings {
     max_throughput = 0
   }

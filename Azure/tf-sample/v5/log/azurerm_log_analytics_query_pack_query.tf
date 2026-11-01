@@ -8,6 +8,6 @@ resource "azurerm_log_analytics_query_pack_query" "tf-sample-log-analytics-query
   query_pack_id            = ""
   resource_types           = []
   solutions                = []
-  
+
   tags = {}
 }

@@ -5,10 +5,10 @@ resource "azurerm_arc_resource_bridge_appliance" "tf-sample-arc-resource-bridge-
   name                    = ""
   public_key_base64       = ""
   resource_group_name     = ""
-  
+
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

@@ -11,7 +11,7 @@ resource "azurerm_eventgrid_system_topic_event_subscription" "tf-sample-eventgri
   service_bus_queue_id                 = ""
   service_bus_topic_id                 = ""
   system_topic                         = ""
-  
+
   advanced_filter {
     bool_equals {
       key   = ""

@@ -24,7 +24,7 @@ resource "azurerm_shared_image" "tf-sample-shared-image" {
   specialized                         = false
   trusted_launch_enabled              = false
   trusted_launch_supported            = false
-  
+
   identifier {
     offer     = ""
     publisher = ""
@@ -35,6 +35,6 @@ resource "azurerm_shared_image" "tf-sample-shared-image" {
     product   = ""
     publisher = ""
   }
-  
+
   tags = {}
 }

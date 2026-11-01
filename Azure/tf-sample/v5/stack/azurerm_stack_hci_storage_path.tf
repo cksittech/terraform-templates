@@ -4,6 +4,6 @@ resource "azurerm_stack_hci_storage_path" "tf-sample-stack-hci-storage-path" {
   name                = ""
   path                = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

@@ -10,7 +10,7 @@ resource "azurerm_firewall" "tf-sample-firewall" {
   sku_tier            = ""
   threat_intel_mode   = ""
   zones               = []
-  
+
   ip_configuration {
     name                 = ""
     public_ip_address_id = ""
@@ -25,6 +25,6 @@ resource "azurerm_firewall" "tf-sample-firewall" {
     public_ip_count = 0
     virtual_hub_id  = ""
   }
-  
+
   tags = {}
 }

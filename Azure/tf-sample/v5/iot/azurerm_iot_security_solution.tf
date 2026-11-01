@@ -11,7 +11,7 @@ resource "azurerm_iot_security_solution" "tf-sample-iot-security-solution" {
   query_for_resources        = ""
   query_subscription_ids     = []
   resource_group_name        = ""
-  
+
   additional_workspace {
     data_types   = []
     workspace_id = ""
@@ -34,6 +34,6 @@ resource "azurerm_iot_security_solution" "tf-sample-iot-security-solution" {
     shared_credentials               = false
     vulnerable_tls_cipher_suite      = false
   }
-  
+
   tags = {}
 }

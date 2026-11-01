@@ -8,6 +8,6 @@ resource "azurerm_app_configuration_key" "tf-sample-app-configuration-key" {
   type                   = ""
   value                  = ""
   vault_key_reference    = ""
-  
+
   tags = {}
 }

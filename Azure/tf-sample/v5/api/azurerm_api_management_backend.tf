@@ -7,18 +7,18 @@ resource "azurerm_api_management_backend" "tf-sample-api-management-backend" {
   resource_id         = ""
   title               = ""
   url                 = ""
-  
+
   circuit_breaker_rule {
     accept_retry_after_enabled = false
     name                       = ""
     trip_duration              = ""
-    
+
     failure_condition {
       count             = 0
       error_reasons     = []
       interval_duration = ""
       percentage        = 0
-      
+
       status_code_range {
         max = 0
         min = 0
@@ -29,7 +29,7 @@ resource "azurerm_api_management_backend" "tf-sample-api-management-backend" {
     certificate = []
     header      = {}
     query       = {}
-    
+
     authorization {
       parameter = ""
       scheme    = ""
@@ -46,7 +46,7 @@ resource "azurerm_api_management_backend" "tf-sample-api-management-backend" {
     management_endpoints             = []
     max_partition_resolution_retries = 0
     server_certificate_thumbprints   = []
-    
+
     server_x509_name {
       issuer_certificate_thumbprint = ""
       name                          = ""

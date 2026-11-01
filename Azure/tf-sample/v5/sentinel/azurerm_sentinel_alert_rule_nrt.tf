@@ -13,13 +13,13 @@ resource "azurerm_sentinel_alert_rule_nrt" "tf-sample-sentinel-alert-rule-nrt" {
   suppression_enabled         = false
   tactics                     = []
   techniques                  = []
-  
+
   alert_details_override {
     description_format   = ""
     display_name_format  = ""
     severity_column_name = ""
     tactics_column_name  = ""
-    
+
     dynamic_property {
       name  = ""
       value = ""
@@ -27,7 +27,7 @@ resource "azurerm_sentinel_alert_rule_nrt" "tf-sample-sentinel-alert-rule-nrt" {
   }
   entity_mapping {
     entity_type = ""
-    
+
     field_mapping {
       column_name = ""
       identifier  = ""
@@ -38,7 +38,7 @@ resource "azurerm_sentinel_alert_rule_nrt" "tf-sample-sentinel-alert-rule-nrt" {
   }
   incident {
     create_incident_enabled = false
-    
+
     grouping {
       by_alert_details        = []
       by_custom_details       = []

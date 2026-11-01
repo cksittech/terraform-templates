@@ -6,6 +6,6 @@ resource "azurerm_virtual_wan" "tf-sample-virtual-wan" {
   office365_local_breakout_category = ""
   resource_group_name               = ""
   type                              = ""
-  
+
   tags = {}
 }

@@ -8,11 +8,11 @@ resource "azurerm_virtual_hub" "tf-sample-virtual-hub" {
   sku                                    = ""
   virtual_router_auto_scale_min_capacity = 0
   virtual_wan_id                         = ""
-  
+
   route {
     address_prefixes    = []
     next_hop_ip_address = ""
   }
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "azurerm_servicebus_namespace" "tf-sample-servicebus-namespace" {
   public_network_access_enabled = false
   resource_group_name           = ""
   sku                           = ""
-  
+
   customer_managed_key {
     identity_id                       = ""
     infrastructure_encryption_enabled = false
@@ -23,12 +23,12 @@ resource "azurerm_servicebus_namespace" "tf-sample-servicebus-namespace" {
     ip_rules                      = []
     public_network_access_enabled = false
     trusted_services_allowed      = false
-    
+
     network_rules {
       ignore_missing_vnet_service_endpoint = false
       subnet_id                            = ""
     }
   }
-  
+
   tags = {}
 }

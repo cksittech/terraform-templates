@@ -11,6 +11,6 @@ resource "azurerm_application_insights_web_test" "tf-sample-application-insights
   resource_group_name     = ""
   retry_enabled           = false
   timeout                 = 0
-  
+
   tags = {}
 }

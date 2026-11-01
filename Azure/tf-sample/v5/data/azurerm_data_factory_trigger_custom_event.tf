@@ -9,7 +9,7 @@ resource "azurerm_data_factory_trigger_custom_event" "tf-sample-data-factory-tri
   name                  = ""
   subject_begins_with   = ""
   subject_ends_with     = ""
-  
+
   pipeline {
     name       = ""
     parameters = {}

@@ -8,7 +8,7 @@ resource "azurerm_data_factory_dataset_mysql" "tf-sample-data-factory-dataset-my
   name                  = ""
   parameters            = {}
   table_name            = ""
-  
+
   schema_column {
     description = ""
     name        = ""

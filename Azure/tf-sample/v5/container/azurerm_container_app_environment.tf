@@ -11,7 +11,7 @@ resource "azurerm_container_app_environment" "tf-sample-container-app-environmen
   public_network_access                       = ""
   resource_group_name                         = ""
   zone_redundancy_enabled                     = false
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -22,6 +22,6 @@ resource "azurerm_container_app_environment" "tf-sample-container-app-environmen
     name                  = ""
     workload_profile_type = ""
   }
-  
+
   tags = {}
 }

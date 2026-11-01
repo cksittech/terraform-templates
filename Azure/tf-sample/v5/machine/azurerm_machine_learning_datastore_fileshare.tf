@@ -6,6 +6,6 @@ resource "azurerm_machine_learning_datastore_fileshare" "tf-sample-machine-learn
   shared_access_signature = ""
   storage_fileshare_id    = ""
   workspace_id            = ""
-  
+
   tags = {}
 }

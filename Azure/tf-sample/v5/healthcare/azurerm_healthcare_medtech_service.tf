@@ -6,11 +6,11 @@ resource "azurerm_healthcare_medtech_service" "tf-sample-healthcare-medtech-serv
   location                     = ""
   name                         = ""
   workspace_id                 = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

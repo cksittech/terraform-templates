@@ -8,7 +8,7 @@ resource "azurerm_private_link_service" "tf-sample-private-link-service" {
   proxy_protocol_enabled                      = false
   resource_group_name                         = ""
   visibility_subscription_ids                 = []
-  
+
   nat_ip_configuration {
     name                       = ""
     primary                    = false
@@ -16,6 +16,6 @@ resource "azurerm_private_link_service" "tf-sample-private-link-service" {
     private_ip_address_version = ""
     subnet_id                  = ""
   }
-  
+
   tags = {}
 }

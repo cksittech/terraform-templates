@@ -4,7 +4,7 @@ resource "azurerm_netapp_volume_bucket" "tf-sample-netapp-volume-bucket" {
   path                      = ""
   permissions               = ""
   volume_id                 = ""
-  
+
   file_system_nfs_user {
     group_id = 0
     user_id  = 0

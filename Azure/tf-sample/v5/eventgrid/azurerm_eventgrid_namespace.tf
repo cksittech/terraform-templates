@@ -5,7 +5,7 @@ resource "azurerm_eventgrid_namespace" "tf-sample-eventgrid-namespace" {
   public_network_access = ""
   resource_group_name   = ""
   sku                   = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -19,7 +19,7 @@ resource "azurerm_eventgrid_namespace" "tf-sample-eventgrid-namespace" {
     maximum_client_sessions_per_authentication_name = 0
     maximum_session_expiry_in_hours                 = 0
     route_topic_id                                  = ""
-    
+
     dynamic_routing_enrichment {
       key   = ""
       value = ""
@@ -29,6 +29,6 @@ resource "azurerm_eventgrid_namespace" "tf-sample-eventgrid-namespace" {
       value = ""
     }
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
   name                  = ""
   resource_group_name   = ""
   work_folder           = ""
-  
+
   azure_devops_organization {
     organization {
       parallelism = 0
@@ -14,7 +14,7 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
     }
     permission {
       kind = ""
-      
+
       administrator_account {
         groups = []
         users  = []
@@ -28,14 +28,14 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
   stateful_agent {
     grace_period_time_span = ""
     maximum_agent_lifetime = ""
-    
+
     automatic_resource_prediction {
       prediction_preference = ""
     }
     manual_resource_prediction {
       all_week_schedule = 0
       time_zone_name    = ""
-      
+
       friday_schedule {
         count = 0
         time  = ""
@@ -73,7 +73,7 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
     manual_resource_prediction {
       all_week_schedule = 0
       time_zone_name    = ""
-      
+
       friday_schedule {
         count = 0
         time  = ""
@@ -108,7 +108,7 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
     os_disk_storage_account_type = ""
     sku_name                     = ""
     subnet_id                    = ""
-    
+
     image {
       aliases               = []
       buffer                = ""
@@ -117,7 +117,7 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
     }
     security {
       interactive_logon_enabled = false
-      
+
       key_vault_management {
         certificate_store_location = ""
         certificate_store_name     = ""
@@ -132,6 +132,6 @@ resource "azurerm_managed_devops_pool" "tf-sample-managed-devops-pool" {
       storage_account_type = ""
     }
   }
-  
+
   tags = {}
 }

@@ -8,6 +8,6 @@ resource "azurerm_gallery_application" "tf-sample-gallery-application" {
   privacy_statement_uri = ""
   release_note_uri      = ""
   supported_os_type     = ""
-  
+
   tags = {}
 }

@@ -7,6 +7,6 @@ resource "azurerm_netapp_backup_policy" "tf-sample-netapp-backup-policy" {
   name                    = ""
   resource_group_name     = ""
   weekly_backups_to_keep  = 0
-  
+
   tags = {}
 }

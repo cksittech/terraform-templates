@@ -7,12 +7,12 @@ resource "azurerm_stack_hci_marketplace_gallery_image" "tf-sample-stack-hci-mark
   resource_group_name = ""
   storage_path_id     = ""
   version             = ""
-  
+
   identifier {
     offer     = ""
     publisher = ""
     sku       = ""
   }
-  
+
   tags = {}
 }

@@ -5,6 +5,6 @@ resource "azurerm_database_migration_project" "tf-sample-database-migration-proj
   service_name        = ""
   source_platform     = ""
   target_platform     = ""
-  
+
   tags = {}
 }

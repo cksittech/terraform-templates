@@ -6,11 +6,11 @@ resource "azurerm_disk_encryption_set" "tf-sample-disk-encryption-set" {
   location                  = ""
   name                      = ""
   resource_group_name       = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

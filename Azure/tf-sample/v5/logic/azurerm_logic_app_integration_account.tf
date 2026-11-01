@@ -4,6 +4,6 @@ resource "azurerm_logic_app_integration_account" "tf-sample-logic-app-integratio
   name                               = ""
   resource_group_name                = ""
   sku_name                           = ""
-  
+
   tags = {}
 }

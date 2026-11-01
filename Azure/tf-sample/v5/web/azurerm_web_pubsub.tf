@@ -8,7 +8,7 @@ resource "azurerm_web_pubsub" "tf-sample-web-pubsub" {
   resource_group_name           = ""
   sku                           = ""
   tls_client_cert_enabled       = false
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -19,6 +19,6 @@ resource "azurerm_web_pubsub" "tf-sample-web-pubsub" {
     http_request_logs_enabled = false
     messaging_logs_enabled    = false
   }
-  
+
   tags = {}
 }

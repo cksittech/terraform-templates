@@ -8,7 +8,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
   resource_group_name                   = ""
   sap_fqdn                              = ""
   sap_product                           = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -17,14 +17,14 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
     app_resource_group_name = ""
     high_availability_type  = ""
     secondary_ip_enabled    = false
-    
+
     application_server_configuration {
       instance_count = 0
       subnet_id      = ""
-      
+
       virtual_machine_configuration {
         virtual_machine_size = ""
-        
+
         image {
           offer     = ""
           publisher = ""
@@ -41,10 +41,10 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
     central_server_configuration {
       instance_count = 0
       subnet_id      = ""
-      
+
       virtual_machine_configuration {
         virtual_machine_size = ""
-        
+
         image {
           offer     = ""
           publisher = ""
@@ -62,7 +62,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
       database_type  = ""
       instance_count = 0
       subnet_id      = ""
-      
+
       disk_volume_configuration {
         number_of_disks = 0
         size_in_gb      = 0
@@ -71,7 +71,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
       }
       virtual_machine_configuration {
         virtual_machine_size = ""
-        
+
         image {
           offer     = ""
           publisher = ""
@@ -88,13 +88,13 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
     resource_names {
       application_server {
         availability_set_name = ""
-        
+
         virtual_machine {
           host_name               = ""
           network_interface_names = []
           os_disk_name            = ""
           virtual_machine_name    = ""
-          
+
           data_disk {
             names       = []
             volume_name = ""
@@ -103,7 +103,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
       }
       central_server {
         availability_set_name = ""
-        
+
         load_balancer {
           backend_pool_names              = []
           frontend_ip_configuration_names = []
@@ -115,7 +115,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
           network_interface_names = []
           os_disk_name            = ""
           virtual_machine_name    = ""
-          
+
           data_disk {
             names       = []
             volume_name = ""
@@ -124,7 +124,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
       }
       database_server {
         availability_set_name = ""
-        
+
         load_balancer {
           backend_pool_names              = []
           frontend_ip_configuration_names = []
@@ -136,7 +136,7 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
           network_interface_names = []
           os_disk_name            = ""
           virtual_machine_name    = ""
-          
+
           data_disk {
             names       = []
             volume_name = ""
@@ -153,6 +153,6 @@ resource "azurerm_workloads_sap_three_tier_virtual_instance" "tf-sample-workload
       storage_account_name = ""
     }
   }
-  
+
   tags = {}
 }

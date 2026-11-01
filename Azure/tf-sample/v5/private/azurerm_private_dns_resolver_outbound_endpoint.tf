@@ -3,6 +3,6 @@ resource "azurerm_private_dns_resolver_outbound_endpoint" "tf-sample-private-dns
   name                    = ""
   private_dns_resolver_id = ""
   subnet_id               = ""
-  
+
   tags = {}
 }

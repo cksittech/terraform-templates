@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "tf-sample-virtual-network" {
   private_endpoint_vnet_policies = ""
   resource_group_name            = ""
   subnet                         = []
-  
+
   ddos_protection_plan {
     enable = false
     id     = ""
@@ -21,6 +21,6 @@ resource "azurerm_virtual_network" "tf-sample-virtual-network" {
     id                     = ""
     number_of_ip_addresses = ""
   }
-  
+
   tags = {}
 }

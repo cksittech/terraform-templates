@@ -7,7 +7,7 @@ resource "azurerm_machine_learning_compute_instance" "tf-sample-machine-learning
   node_public_ip_enabled        = false
   subnet_resource_id            = ""
   virtual_machine_size          = ""
-  
+
   assign_to_user {
     object_id = ""
     tenant_id = ""
@@ -19,6 +19,6 @@ resource "azurerm_machine_learning_compute_instance" "tf-sample-machine-learning
   ssh {
     public_key = ""
   }
-  
+
   tags = {}
 }

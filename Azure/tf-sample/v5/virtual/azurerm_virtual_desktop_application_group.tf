@@ -7,6 +7,6 @@ resource "azurerm_virtual_desktop_application_group" "tf-sample-virtual-desktop-
   name                         = ""
   resource_group_name          = ""
   type                         = ""
-  
+
   tags = {}
 }

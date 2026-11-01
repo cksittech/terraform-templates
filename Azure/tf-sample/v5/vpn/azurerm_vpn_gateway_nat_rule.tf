@@ -4,7 +4,7 @@ resource "azurerm_vpn_gateway_nat_rule" "tf-sample-vpn-gateway-nat-rule" {
   name                = ""
   type                = ""
   vpn_gateway_id      = ""
-  
+
   external_mapping {
     address_space = ""
     port_range    = ""

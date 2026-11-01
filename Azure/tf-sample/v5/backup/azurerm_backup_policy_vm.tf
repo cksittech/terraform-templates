@@ -6,7 +6,7 @@ resource "azurerm_backup_policy_vm" "tf-sample-backup-policy-vm" {
   recovery_vault_name            = ""
   resource_group_name            = ""
   timezone                       = ""
-  
+
   backup {
     frequency     = ""
     hour_duration = 0

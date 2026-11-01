@@ -6,7 +6,7 @@ resource "azurerm_nginx_deployment" "tf-sample-nginx-deployment" {
   name                      = ""
   resource_group_name       = ""
   sku                       = ""
-  
+
   auto_scale_profile {
     max_capacity = 0
     min_capacity = 0
@@ -30,6 +30,6 @@ resource "azurerm_nginx_deployment" "tf-sample-nginx-deployment" {
   web_application_firewall {
     activation_state_enabled = false
   }
-  
+
   tags = {}
 }

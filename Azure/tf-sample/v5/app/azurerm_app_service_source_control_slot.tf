@@ -6,10 +6,10 @@ resource "azurerm_app_service_source_control_slot" "tf-sample-app-service-source
   use_local_git          = false
   use_manual_integration = false
   use_mercurial          = false
-  
+
   github_action_configuration {
     generate_workflow_file = false
-    
+
     code_configuration {
       runtime_stack   = ""
       runtime_version = ""

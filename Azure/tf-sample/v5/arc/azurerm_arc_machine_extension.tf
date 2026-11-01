@@ -9,6 +9,6 @@ resource "azurerm_arc_machine_extension" "tf-sample-arc-machine-extension" {
   settings                  = ""
   type                      = ""
   type_handler_version      = ""
-  
+
   tags = {}
 }

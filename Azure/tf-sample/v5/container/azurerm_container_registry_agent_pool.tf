@@ -6,6 +6,6 @@ resource "azurerm_container_registry_agent_pool" "tf-sample-container-registry-a
   resource_group_name       = ""
   tier                      = ""
   virtual_network_subnet_id = ""
-  
+
   tags = {}
 }

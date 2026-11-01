@@ -2,7 +2,7 @@ resource "azurerm_redhat_openshift_cluster" "tf-sample-redhat-openshift-cluster"
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   api_server_profile {
     visibility = ""
   }
@@ -31,14 +31,14 @@ resource "azurerm_redhat_openshift_cluster" "tf-sample-redhat-openshift-cluster"
     pod_cidr                                     = ""
     preconfigured_network_security_group_enabled = false
     service_cidr                                 = ""
-    
+
     load_balancer_profile {
       managed_outbound_ip_count = 0
     }
   }
   platform_workload_identity_profile {
     upgradeable_to = ""
-    
+
     platform_workload_identity {
       identity_id = ""
       name        = ""
@@ -56,6 +56,6 @@ resource "azurerm_redhat_openshift_cluster" "tf-sample-redhat-openshift-cluster"
     subnet_id                  = ""
     vm_size                    = ""
   }
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "azurerm_network_manager_connectivity_configuration" "tf-sample-network
   name                                    = ""
   network_manager_id                      = ""
   peering_enforcement_enabled             = false
-  
+
   applies_to_group {
     global_mesh_enabled = false
     group_connectivity  = ""

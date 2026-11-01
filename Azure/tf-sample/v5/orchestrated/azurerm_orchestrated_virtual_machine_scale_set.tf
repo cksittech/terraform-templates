@@ -21,7 +21,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
   user_data_base64              = ""
   zone_balance                  = false
   zones                         = []
-  
+
   additional_capabilities {
     ultra_ssd_enabled = false
   }
@@ -55,7 +55,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
     settings                                  = ""
     type                                      = ""
     type_handler_version                      = ""
-    
+
     protected_settings_from_key_vault {
       secret_url      = ""
       source_vault_id = ""
@@ -74,7 +74,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
     name                           = ""
     network_security_group_id      = ""
     primary                        = false
-    
+
     ip_configuration {
       application_gateway_backend_address_pool_ids = []
       application_security_group_ids               = []
@@ -83,7 +83,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
       primary                                      = false
       subnet_id                                    = ""
       version                                      = ""
-      
+
       public_ip_address {
         domain_name_label       = ""
         idle_timeout_in_minutes = 0
@@ -91,7 +91,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
         public_ip_prefix_id     = ""
         sku_name                = ""
         version                 = ""
-        
+
         ip_tag {
           tag  = ""
           type = ""
@@ -105,7 +105,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
     disk_size_gb              = 0
     storage_account_type      = ""
     write_accelerator_enabled = false
-    
+
     diff_disk_settings {
       option    = ""
       placement = ""
@@ -113,7 +113,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
   }
   os_profile {
     custom_data = ""
-    
+
     linux_configuration {
       admin_password                  = ""
       admin_username                  = ""
@@ -122,14 +122,14 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
       patch_assessment_mode           = ""
       patch_mode                      = ""
       provision_vm_agent              = false
-      
+
       admin_ssh_key {
         public_key = ""
         username   = ""
       }
       secret {
         key_vault_id = ""
-        
+
         certificate {
           url = ""
         }
@@ -145,14 +145,14 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
       patch_mode                = ""
       provision_vm_agent        = false
       timezone                  = ""
-      
+
       additional_unattend_content {
         content = ""
         setting = ""
       }
       secret {
         key_vault_id = ""
-        
+
         certificate {
           store = ""
           url   = ""
@@ -184,7 +184,7 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
   }
   sku_profile {
     allocation_strategy = ""
-    
+
     virtual_machine_size {
       name = ""
       rank = 0
@@ -200,6 +200,6 @@ resource "azurerm_orchestrated_virtual_machine_scale_set" "tf-sample-orchestrate
     enabled = false
     timeout = ""
   }
-  
+
   tags = {}
 }

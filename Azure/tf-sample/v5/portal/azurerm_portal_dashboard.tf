@@ -3,6 +3,6 @@ resource "azurerm_portal_dashboard" "tf-sample-portal-dashboard" {
   location             = ""
   name                 = ""
   resource_group_name  = ""
-  
+
   tags = {}
 }

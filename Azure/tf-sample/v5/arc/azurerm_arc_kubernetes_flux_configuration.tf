@@ -4,7 +4,7 @@ resource "azurerm_arc_kubernetes_flux_configuration" "tf-sample-arc-kubernetes-f
   name                              = ""
   namespace                         = ""
   scope                             = ""
-  
+
   blob_storage {
     account_key              = ""
     container_id             = ""
@@ -12,7 +12,7 @@ resource "azurerm_arc_kubernetes_flux_configuration" "tf-sample-arc-kubernetes-f
     sas_token                = ""
     sync_interval_in_seconds = 0
     timeout_in_seconds       = 0
-    
+
     service_principal {
       client_certificate_base64     = ""
       client_certificate_password   = ""

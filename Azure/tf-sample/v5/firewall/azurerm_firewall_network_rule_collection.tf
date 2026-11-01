@@ -4,7 +4,7 @@ resource "azurerm_firewall_network_rule_collection" "tf-sample-firewall-network-
   name                = ""
   priority            = 0
   resource_group_name = ""
-  
+
   rule {
     description           = ""
     destination_addresses = []

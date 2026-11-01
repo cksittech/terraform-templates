@@ -3,6 +3,6 @@ resource "azurerm_ssh_public_key" "tf-sample-ssh-public-key" {
   name                = ""
   public_key          = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

@@ -2,6 +2,6 @@ resource "azurerm_network_security_perimeter" "tf-sample-network-security-perime
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

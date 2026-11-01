@@ -6,6 +6,6 @@ resource "azurerm_dedicated_host" "tf-sample-dedicated-host" {
   name                    = ""
   platform_fault_domain   = 0
   sku_name                = ""
-  
+
   tags = {}
 }

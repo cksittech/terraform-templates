@@ -7,6 +7,6 @@ resource "azurerm_app_service_certificate" "tf-sample-app-service-certificate" {
   password            = ""
   pfx_blob            = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

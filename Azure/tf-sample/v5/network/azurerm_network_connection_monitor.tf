@@ -4,7 +4,7 @@ resource "azurerm_network_connection_monitor" "tf-sample-network-connection-moni
   network_watcher_id            = ""
   notes                         = ""
   output_workspace_resource_ids = []
-  
+
   endpoint {
     address               = ""
     coverage_level        = ""
@@ -13,10 +13,10 @@ resource "azurerm_network_connection_monitor" "tf-sample-network-connection-moni
     name                  = ""
     target_resource_id    = ""
     target_resource_type  = ""
-    
+
     filter {
       type = ""
-      
+
       item {
         address = ""
         type    = ""
@@ -28,14 +28,14 @@ resource "azurerm_network_connection_monitor" "tf-sample-network-connection-moni
     preferred_ip_version      = ""
     protocol                  = ""
     test_frequency_in_seconds = 0
-    
+
     http_configuration {
       method                   = ""
       path                     = ""
       port                     = 0
       prefer_https             = false
       valid_status_code_ranges = []
-      
+
       request_header {
         name  = ""
         value = ""
@@ -61,6 +61,6 @@ resource "azurerm_network_connection_monitor" "tf-sample-network-connection-moni
     source_endpoints         = []
     test_configuration_names = []
   }
-  
+
   tags = {}
 }

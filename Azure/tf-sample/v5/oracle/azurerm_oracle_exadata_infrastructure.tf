@@ -10,7 +10,7 @@ resource "azurerm_oracle_exadata_infrastructure" "tf-sample-oracle-exadata-infra
   storage_count        = 0
   storage_server_type  = ""
   zones                = []
-  
+
   maintenance_window {
     days_of_week       = []
     hours_of_day       = []
@@ -20,6 +20,6 @@ resource "azurerm_oracle_exadata_infrastructure" "tf-sample-oracle-exadata-infra
     preference         = ""
     weeks_of_month     = []
   }
-  
+
   tags = {}
 }

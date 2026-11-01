@@ -3,7 +3,7 @@ resource "azurerm_mssql_virtual_machine_availability_group_listener" "tf-sample-
   name                         = ""
   port                         = 0
   sql_virtual_machine_group_id = ""
-  
+
   load_balancer_configuration {
     load_balancer_id        = ""
     private_ip_address      = ""

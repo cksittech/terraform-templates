@@ -14,7 +14,7 @@ resource "azurerm_synapse_workspace" "tf-sample-synapse-workspace" {
   sql_administrator_login_password     = ""
   sql_identity_control_enabled         = false
   storage_data_lake_gen2_filesystem_id = ""
-  
+
   azure_devops_repo {
     account_name    = ""
     branch_name     = ""
@@ -41,6 +41,6 @@ resource "azurerm_synapse_workspace" "tf-sample-synapse-workspace" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

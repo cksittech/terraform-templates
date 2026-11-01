@@ -8,7 +8,7 @@ resource "azurerm_recovery_services_vault" "tf-sample-recovery-services-vault" {
   resource_group_name                = ""
   sku                                = ""
   storage_mode_type                  = ""
-  
+
   encryption {
     infrastructure_encryption_enabled = false
     key_id                            = ""
@@ -26,6 +26,6 @@ resource "azurerm_recovery_services_vault" "tf-sample-recovery-services-vault" {
     alerts_for_critical_operation_failures_enabled = false
     email_notifications_for_site_recovery_enabled  = false
   }
-  
+
   tags = {}
 }

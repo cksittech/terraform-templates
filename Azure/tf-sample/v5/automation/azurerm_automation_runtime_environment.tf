@@ -6,6 +6,6 @@ resource "azurerm_automation_runtime_environment" "tf-sample-automation-runtime-
   runtime_default_packages = {}
   runtime_language         = ""
   runtime_version          = ""
-  
+
   tags = {}
 }

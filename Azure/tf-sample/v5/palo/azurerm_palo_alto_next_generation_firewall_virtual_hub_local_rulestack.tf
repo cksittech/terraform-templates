@@ -4,11 +4,11 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack
   plan_id              = ""
   resource_group_name  = ""
   rulestack_id         = ""
-  
+
   destination_nat {
     name     = ""
     protocol = ""
-    
+
     backend_config {
       port              = 0
       public_ip_address = ""
@@ -29,6 +29,6 @@ resource "azurerm_palo_alto_next_generation_firewall_virtual_hub_local_rulestack
     trusted_address_ranges       = []
     virtual_hub_id               = ""
   }
-  
+
   tags = {}
 }

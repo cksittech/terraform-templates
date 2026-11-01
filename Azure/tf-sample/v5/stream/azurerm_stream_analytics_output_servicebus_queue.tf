@@ -9,7 +9,7 @@ resource "azurerm_stream_analytics_output_servicebus_queue" "tf-sample-stream-an
   shared_access_policy_name = ""
   stream_analytics_job_name = ""
   system_property_columns   = {}
-  
+
   serialization {
     encoding        = ""
     field_delimiter = ""

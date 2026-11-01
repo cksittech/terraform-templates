@@ -8,7 +8,7 @@ resource "azurerm_new_relic_monitor" "tf-sample-new-relic-monitor" {
   organization_id         = ""
   resource_group_name     = ""
   user_id                 = ""
-  
+
   identity {
     type = ""
   }

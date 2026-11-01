@@ -8,6 +8,6 @@ resource "azurerm_machine_learning_datastore_datalake_gen2" "tf-sample-machine-l
   storage_container_id  = ""
   tenant_id             = ""
   workspace_id          = ""
-  
+
   tags = {}
 }

@@ -12,7 +12,7 @@ resource "azurerm_dev_test_windows_virtual_machine" "tf-sample-dev-test-windows-
   size                       = ""
   storage_type               = ""
   username                   = ""
-  
+
   gallery_image_reference {
     offer     = ""
     publisher = ""
@@ -23,6 +23,6 @@ resource "azurerm_dev_test_windows_virtual_machine" "tf-sample-dev-test-windows-
     backend_port = 0
     protocol     = ""
   }
-  
+
   tags = {}
 }

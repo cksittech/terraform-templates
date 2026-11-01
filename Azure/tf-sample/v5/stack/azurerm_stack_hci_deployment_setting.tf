@@ -2,7 +2,7 @@ resource "azurerm_stack_hci_deployment_setting" "tf-sample-stack-hci-deployment-
   arc_resource_ids     = []
   stack_hci_cluster_id = ""
   version              = ""
-  
+
   scale_unit {
     active_directory_organizational_unit_path = ""
     bitlocker_boot_volume_enabled             = false
@@ -21,7 +21,7 @@ resource "azurerm_stack_hci_deployment_setting" "tf-sample-stack-hci-deployment-
     smb_signing_enabled                       = false
     streaming_data_client_enabled             = false
     wdac_enabled                              = false
-    
+
     cluster {
       azure_service_endpoint = ""
       cloud_account_name     = ""
@@ -32,7 +32,7 @@ resource "azurerm_stack_hci_deployment_setting" "tf-sample-stack-hci-deployment-
     host_network {
       storage_auto_ip_enabled                 = false
       storage_connectivity_switchless_enabled = false
-      
+
       intent {
         adapter                                       = []
         adapter_property_override_enabled             = false
@@ -40,7 +40,7 @@ resource "azurerm_stack_hci_deployment_setting" "tf-sample-stack-hci-deployment-
         qos_policy_override_enabled                   = false
         traffic_type                                  = []
         virtual_switch_configuration_override_enabled = false
-        
+
         adapter_property_override {
           jumbo_packet              = ""
           network_direct            = ""
@@ -67,7 +67,7 @@ resource "azurerm_stack_hci_deployment_setting" "tf-sample-stack-hci-deployment-
       dns_server   = []
       gateway      = ""
       subnet_mask  = ""
-      
+
       ip_pool {
         ending_address   = ""
         starting_address = ""

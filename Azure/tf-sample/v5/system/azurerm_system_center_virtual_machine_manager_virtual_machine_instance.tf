@@ -2,7 +2,7 @@ resource "azurerm_system_center_virtual_machine_manager_virtual_machine_instance
   custom_location_id                                         = ""
   scoped_resource_id                                         = ""
   system_center_virtual_machine_manager_availability_set_ids = []
-  
+
   hardware {
     cpu_count                       = 0
     dynamic_memory_max_in_mb        = 0

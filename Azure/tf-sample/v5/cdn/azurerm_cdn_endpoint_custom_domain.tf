@@ -2,7 +2,7 @@ resource "azurerm_cdn_endpoint_custom_domain" "tf-sample-cdn-endpoint-custom-dom
   cdn_endpoint_id = ""
   host_name       = ""
   name            = ""
-  
+
   cdn_managed_https {
     certificate_type = ""
     protocol_type    = ""

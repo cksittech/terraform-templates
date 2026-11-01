@@ -26,7 +26,7 @@ resource "azurerm_oracle_cloud_vm_cluster" "tf-sample-oracle-cloud-vm-cluster" {
   time_zone                       = ""
   virtual_network_id              = ""
   zone_id                         = ""
-  
+
   data_collection_options {
     diagnostics_events_enabled = false
     health_monitoring_enabled  = false
@@ -36,6 +36,6 @@ resource "azurerm_oracle_cloud_vm_cluster" "tf-sample-oracle-cloud-vm-cluster" {
     mount_point = ""
     size_in_gb  = 0
   }
-  
+
   tags = {}
 }

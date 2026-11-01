@@ -6,7 +6,7 @@ resource "azurerm_logic_app_action_http" "tf-sample-logic-app-action-http" {
   name         = ""
   queries      = {}
   uri          = ""
-  
+
   run_after {
     action_name   = ""
     action_result = ""

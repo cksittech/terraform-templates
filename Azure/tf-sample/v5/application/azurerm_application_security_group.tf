@@ -2,6 +2,6 @@ resource "azurerm_application_security_group" "tf-sample-application-security-gr
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "azurerm_kubernetes_automatic_cluster" "tf-sample-kubernetes-automatic-
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   api_server_access {
     authorized_ip_ranges = []
     subnet_id            = ""
@@ -24,7 +24,7 @@ resource "azurerm_kubernetes_automatic_cluster" "tf-sample-kubernetes-automatic-
     internal_ingress_gateway_enabled = false
     proxy_redirect_mechanism         = ""
     revisions                        = []
-    
+
     certificate_authority {
       certificate_chain_object_name = ""
       certificate_object_name       = ""
@@ -38,6 +38,6 @@ resource "azurerm_kubernetes_automatic_cluster" "tf-sample-kubernetes-automatic-
     dns_zone_ids             = []
     istio_enabled            = false
   }
-  
+
   tags = {}
 }

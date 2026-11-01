@@ -4,11 +4,11 @@ resource "azurerm_cognitive_account_project" "tf-sample-cognitive-account-projec
   display_name         = ""
   location             = ""
   name                 = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

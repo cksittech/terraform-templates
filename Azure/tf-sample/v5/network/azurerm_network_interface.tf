@@ -9,7 +9,7 @@ resource "azurerm_network_interface" "tf-sample-network-interface" {
   location                       = ""
   name                           = ""
   resource_group_name            = ""
-  
+
   ip_configuration {
     gateway_load_balancer_frontend_ip_configuration_id = ""
     name                                               = ""
@@ -20,6 +20,6 @@ resource "azurerm_network_interface" "tf-sample-network-interface" {
     public_ip_address_id                               = ""
     subnet_id                                          = ""
   }
-  
+
   tags = {}
 }

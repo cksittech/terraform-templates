@@ -8,7 +8,7 @@ resource "azurerm_kusto_attached_database_configuration" "tf-sample-kusto-attach
   location                            = ""
   name                                = ""
   resource_group_name                 = ""
-  
+
   sharing {
     external_tables_to_exclude    = []
     external_tables_to_include    = []

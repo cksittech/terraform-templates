@@ -14,6 +14,6 @@ resource "azurerm_bot_web_app" "tf-sample-bot-web-app" {
   name                                    = ""
   resource_group_name                     = ""
   sku                                     = ""
-  
+
   tags = {}
 }

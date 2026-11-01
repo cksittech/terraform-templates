@@ -16,7 +16,7 @@ resource "azurerm_data_factory_dataset_delimited_text" "tf-sample-data-factory-d
   parameters            = {}
   quote_character       = ""
   row_delimiter         = ""
-  
+
   azure_blob_fs_location {
     dynamic_file_system_enabled = false
     dynamic_filename_enabled    = false

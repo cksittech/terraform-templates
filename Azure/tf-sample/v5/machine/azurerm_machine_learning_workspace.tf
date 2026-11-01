@@ -17,7 +17,7 @@ resource "azurerm_machine_learning_workspace" "tf-sample-machine-learning-worksp
   storage_account_access_type     = ""
   storage_account_id              = ""
   v1_legacy_mode_enabled          = false
-  
+
   encryption {
     key_id                    = ""
     key_vault_id              = ""
@@ -40,6 +40,6 @@ resource "azurerm_machine_learning_workspace" "tf-sample-machine-learning-worksp
     public_ip_enabled = false
     subnet_id         = ""
   }
-  
+
   tags = {}
 }

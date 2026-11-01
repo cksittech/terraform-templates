@@ -10,7 +10,7 @@ resource "azurerm_data_factory_trigger_blob_event" "tf-sample-data-factory-trigg
   ignore_empty_blobs    = false
   name                  = ""
   storage_account_id    = ""
-  
+
   pipeline {
     name       = ""
     parameters = {}

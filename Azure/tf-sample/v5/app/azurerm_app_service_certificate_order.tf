@@ -8,6 +8,6 @@ resource "azurerm_app_service_certificate_order" "tf-sample-app-service-certific
   product_type        = ""
   resource_group_name = ""
   validity_in_years   = 0
-  
+
   tags = {}
 }

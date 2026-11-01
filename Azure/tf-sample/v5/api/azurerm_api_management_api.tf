@@ -16,7 +16,7 @@ resource "azurerm_api_management_api" "tf-sample-api-management-api" {
   version               = ""
   version_description   = ""
   version_set_id        = ""
-  
+
   contact {
     email = ""
     name  = ""
@@ -25,7 +25,7 @@ resource "azurerm_api_management_api" "tf-sample-api-management-api" {
   import {
     content_format = ""
     content_value  = ""
-    
+
     wsdl_selector {
       endpoint_name = ""
       service_name  = ""

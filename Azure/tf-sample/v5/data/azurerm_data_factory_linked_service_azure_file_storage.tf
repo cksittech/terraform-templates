@@ -11,7 +11,7 @@ resource "azurerm_data_factory_linked_service_azure_file_storage" "tf-sample-dat
   parameters               = {}
   password                 = ""
   user_id                  = ""
-  
+
   key_vault_password {
     linked_service_name = ""
     secret_name         = ""

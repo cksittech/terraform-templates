@@ -9,13 +9,13 @@ resource "azurerm_express_route_circuit_peering" "tf-sample-express-route-circui
   secondary_peer_address_prefix = ""
   shared_key                    = ""
   vlan_id                       = 0
-  
+
   ipv6 {
     enabled                       = false
     primary_peer_address_prefix   = ""
     route_filter_id               = ""
     secondary_peer_address_prefix = ""
-    
+
     microsoft_peering {
       advertised_communities     = []
       advertised_public_prefixes = []

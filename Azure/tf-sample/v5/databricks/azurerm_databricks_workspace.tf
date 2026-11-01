@@ -14,7 +14,7 @@ resource "azurerm_databricks_workspace" "tf-sample-databricks-workspace" {
   public_network_access_enabled                       = false
   resource_group_name                                 = ""
   sku                                                 = ""
-  
+
   custom_parameters {
     machine_learning_workspace_id                        = ""
     nat_gateway_name                                     = ""
@@ -35,6 +35,6 @@ resource "azurerm_databricks_workspace" "tf-sample-databricks-workspace" {
     compliance_security_profile_standards = []
     enhanced_security_monitoring_enabled  = false
   }
-  
+
   tags = {}
 }

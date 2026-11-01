@@ -4,7 +4,7 @@ resource "azurerm_kubernetes_flux_configuration" "tf-sample-kubernetes-flux-conf
   name                              = ""
   namespace                         = ""
   scope                             = ""
-  
+
   blob_storage {
     account_key              = ""
     container_id             = ""
@@ -12,7 +12,7 @@ resource "azurerm_kubernetes_flux_configuration" "tf-sample-kubernetes-flux-conf
     sas_token                = ""
     sync_interval_in_seconds = 0
     timeout_in_seconds       = 0
-    
+
     managed_identity {
       client_id = ""
     }
@@ -59,10 +59,10 @@ resource "azurerm_kubernetes_flux_configuration" "tf-sample-kubernetes-flux-conf
     sync_interval_in_seconds   = 0
     timeout_in_seconds         = 0
     wait                       = false
-    
+
     post_build {
       substitute = {}
-      
+
       substitute_from {
         kind     = ""
         name     = ""

@@ -20,7 +20,7 @@ resource "azurerm_virtual_network_gateway_connection" "tf-sample-virtual-network
   type                               = ""
   use_policy_based_traffic_selectors = false
   virtual_network_gateway_id         = ""
-  
+
   custom_bgp_addresses {
     primary   = ""
     secondary = ""
@@ -39,6 +39,6 @@ resource "azurerm_virtual_network_gateway_connection" "tf-sample-virtual-network
     local_address_cidrs  = []
     remote_address_cidrs = []
   }
-  
+
   tags = {}
 }

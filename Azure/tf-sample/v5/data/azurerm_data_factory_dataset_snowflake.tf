@@ -9,7 +9,7 @@ resource "azurerm_data_factory_dataset_snowflake" "tf-sample-data-factory-datase
   parameters            = {}
   schema_name           = ""
   table_name            = ""
-  
+
   schema_column {
     name      = ""
     precision = 0

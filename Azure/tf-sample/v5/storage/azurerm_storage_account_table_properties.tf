@@ -1,6 +1,6 @@
 resource "azurerm_storage_account_table_properties" "tf-sample-storage-account-table-properties" {
   storage_account_id = ""
-  
+
   cors_rule {
     allowed_headers    = []
     allowed_methods    = []

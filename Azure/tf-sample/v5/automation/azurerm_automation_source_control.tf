@@ -8,7 +8,7 @@ resource "azurerm_automation_source_control" "tf-sample-automation-source-contro
   publish_runbook_enabled = false
   repository_url          = ""
   source_control_type     = ""
-  
+
   security {
     refresh_token = ""
     token         = ""

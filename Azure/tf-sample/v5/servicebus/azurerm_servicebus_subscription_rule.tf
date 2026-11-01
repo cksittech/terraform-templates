@@ -4,7 +4,7 @@ resource "azurerm_servicebus_subscription_rule" "tf-sample-servicebus-subscripti
   name            = ""
   sql_filter      = ""
   subscription_id = ""
-  
+
   correlation_filter {
     content_type        = ""
     correlation_id      = ""

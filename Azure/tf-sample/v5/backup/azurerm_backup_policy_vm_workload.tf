@@ -3,10 +3,10 @@ resource "azurerm_backup_policy_vm_workload" "tf-sample-backup-policy-vm-workloa
   recovery_vault_name = ""
   resource_group_name = ""
   workload_type       = ""
-  
+
   protection_policy {
     policy_type = ""
-    
+
     backup {
       frequency            = ""
       frequency_in_minutes = 0

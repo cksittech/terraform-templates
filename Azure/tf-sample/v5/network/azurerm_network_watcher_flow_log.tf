@@ -7,7 +7,7 @@ resource "azurerm_network_watcher_flow_log" "tf-sample-network-watcher-flow-log"
   storage_account_id   = ""
   target_resource_id   = ""
   version              = 0
-  
+
   retention_policy {
     days    = 0
     enabled = false
@@ -19,6 +19,6 @@ resource "azurerm_network_watcher_flow_log" "tf-sample-network-watcher-flow-log"
     workspace_region      = ""
     workspace_resource_id = ""
   }
-  
+
   tags = {}
 }

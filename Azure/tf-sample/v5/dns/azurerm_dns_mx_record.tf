@@ -3,11 +3,11 @@ resource "azurerm_dns_mx_record" "tf-sample-dns-mx-record" {
   resource_group_name = ""
   ttl                 = 0
   zone_name           = ""
-  
+
   record {
     exchange   = ""
     preference = ""
   }
-  
+
   tags = {}
 }

@@ -7,7 +7,7 @@ resource "azurerm_logic_app_integration_account_agreement" "tf-sample-logic-app-
   metadata                 = {}
   name                     = ""
   resource_group_name      = ""
-  
+
   guest_identity {
     qualifier = ""
     value     = ""

@@ -6,10 +6,10 @@ resource "azurerm_subscription_cost_management_view" "tf-sample-subscription-cos
   report_type     = ""
   subscription_id = ""
   timeframe       = ""
-  
+
   dataset {
     granularity = ""
-    
+
     aggregation {
       column_name = ""
       name        = ""

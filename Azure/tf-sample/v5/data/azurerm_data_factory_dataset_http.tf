@@ -10,7 +10,7 @@ resource "azurerm_data_factory_dataset_http" "tf-sample-data-factory-dataset-htt
   relative_url          = ""
   request_body          = ""
   request_method        = ""
-  
+
   schema_column {
     description = ""
     name        = ""

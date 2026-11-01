@@ -10,7 +10,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
   request_body_check_enabled                = false
   resource_group_name                       = ""
   sku_name                                  = ""
-  
+
   custom_rule {
     action                         = ""
     enabled                        = false
@@ -19,7 +19,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
     rate_limit_duration_in_minutes = 0
     rate_limit_threshold           = 0
     type                           = ""
-    
+
     match_condition {
       match_values       = []
       match_variable     = ""
@@ -31,7 +31,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
   }
   log_scrubbing {
     enabled = false
-    
+
     scrubbing_rule {
       enabled        = false
       match_variable = ""
@@ -43,7 +43,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
     action  = ""
     type    = ""
     version = ""
-    
+
     exclusion {
       match_variable = ""
       operator       = ""
@@ -51,7 +51,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
     }
     override {
       rule_group_name = ""
-      
+
       exclusion {
         match_variable = ""
         operator       = ""
@@ -61,7 +61,7 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
         action  = ""
         enabled = false
         rule_id = ""
-        
+
         exclusion {
           match_variable = ""
           operator       = ""
@@ -70,6 +70,6 @@ resource "azurerm_cdn_frontdoor_firewall_policy" "tf-sample-cdn-frontdoor-firewa
       }
     }
   }
-  
+
   tags = {}
 }

@@ -5,7 +5,7 @@ resource "azurerm_lb" "tf-sample-lb" {
   resource_group_name = ""
   sku                 = ""
   sku_tier            = ""
-  
+
   frontend_ip_configuration {
     gateway_load_balancer_frontend_ip_configuration_id = ""
     name                                               = ""
@@ -17,6 +17,6 @@ resource "azurerm_lb" "tf-sample-lb" {
     subnet_id                                          = ""
     zones                                              = []
   }
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "azurerm_virtual_desktop_scaling_plan" "tf-sample-virtual-desktop-scali
   name                = ""
   resource_group_name = ""
   time_zone           = ""
-  
+
   host_pool {
     hostpool_id          = ""
     scaling_plan_enabled = false
@@ -31,6 +31,6 @@ resource "azurerm_virtual_desktop_scaling_plan" "tf-sample-virtual-desktop-scali
     ramp_up_minimum_hosts_percent        = 0
     ramp_up_start_time                   = ""
   }
-  
+
   tags = {}
 }

@@ -11,11 +11,11 @@ resource "azurerm_api_management_api_diagnostic" "tf-sample-api-management-api-d
   resource_group_name       = ""
   sampling_percentage       = 0
   verbosity                 = ""
-  
+
   backend_request {
     body_bytes     = 0
     headers_to_log = []
-    
+
     data_masking {
       headers {
         mode  = ""
@@ -30,7 +30,7 @@ resource "azurerm_api_management_api_diagnostic" "tf-sample-api-management-api-d
   backend_response {
     body_bytes     = 0
     headers_to_log = []
-    
+
     data_masking {
       headers {
         mode  = ""
@@ -45,7 +45,7 @@ resource "azurerm_api_management_api_diagnostic" "tf-sample-api-management-api-d
   frontend_request {
     body_bytes     = 0
     headers_to_log = []
-    
+
     data_masking {
       headers {
         mode  = ""
@@ -60,7 +60,7 @@ resource "azurerm_api_management_api_diagnostic" "tf-sample-api-management-api-d
   frontend_response {
     body_bytes     = 0
     headers_to_log = []
-    
+
     data_masking {
       headers {
         mode  = ""

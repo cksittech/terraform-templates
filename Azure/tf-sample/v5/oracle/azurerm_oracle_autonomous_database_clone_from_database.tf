@@ -23,6 +23,6 @@ resource "azurerm_oracle_autonomous_database_clone_from_database" "tf-sample-ora
   source_autonomous_database_id    = ""
   subnet_id                        = ""
   virtual_network_id               = ""
-  
+
   tags = {}
 }

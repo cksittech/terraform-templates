@@ -20,13 +20,13 @@ resource "azurerm_oracle_autonomous_database" "tf-sample-oracle-autonomous-datab
   resource_group_name              = ""
   subnet_id                        = ""
   virtual_network_id               = ""
-  
+
   long_term_backup_schedule {
     enabled                  = false
     repeat_cadence           = ""
     retention_period_in_days = 0
     time_of_backup           = ""
   }
-  
+
   tags = {}
 }

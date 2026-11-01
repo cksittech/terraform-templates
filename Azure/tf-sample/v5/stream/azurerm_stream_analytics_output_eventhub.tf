@@ -9,7 +9,7 @@ resource "azurerm_stream_analytics_output_eventhub" "tf-sample-stream-analytics-
   shared_access_policy_key  = ""
   shared_access_policy_name = ""
   stream_analytics_job_name = ""
-  
+
   serialization {
     encoding        = ""
     field_delimiter = ""

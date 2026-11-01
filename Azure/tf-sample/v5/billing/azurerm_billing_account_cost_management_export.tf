@@ -6,7 +6,7 @@ resource "azurerm_billing_account_cost_management_export" "tf-sample-billing-acc
   recurrence_period_end_date   = ""
   recurrence_period_start_date = ""
   recurrence_type              = ""
-  
+
   export_data_options {
     time_frame = ""
     type       = ""

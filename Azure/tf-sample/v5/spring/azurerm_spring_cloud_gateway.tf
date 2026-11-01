@@ -8,7 +8,7 @@ resource "azurerm_spring_cloud_gateway" "tf-sample-spring-cloud-gateway" {
   public_network_access_enabled            = false
   sensitive_environment_variables          = {}
   spring_cloud_service_id                  = ""
-  
+
   api_metadata {
     description       = ""
     documentation_url = ""

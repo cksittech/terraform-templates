@@ -3,6 +3,6 @@ resource "azurerm_container_app_environment_managed_certificate" "tf-sample-cont
   domain_control_validation    = ""
   name                         = ""
   subject_name                 = ""
-  
+
   tags = {}
 }

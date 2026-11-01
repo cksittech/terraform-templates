@@ -8,12 +8,12 @@ resource "azurerm_monitor_smart_detector_alert_rule" "tf-sample-monitor-smart-de
   scope_resource_ids  = []
   severity            = ""
   throttling_duration = ""
-  
+
   action_group {
     email_subject   = ""
     ids             = []
     webhook_payload = ""
   }
-  
+
   tags = {}
 }

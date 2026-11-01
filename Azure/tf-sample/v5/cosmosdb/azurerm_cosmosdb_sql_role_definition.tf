@@ -5,7 +5,7 @@ resource "azurerm_cosmosdb_sql_role_definition" "tf-sample-cosmosdb-sql-role-def
   resource_group_name = ""
   role_definition_id  = ""
   type                = ""
-  
+
   permissions {
     data_actions = []
   }

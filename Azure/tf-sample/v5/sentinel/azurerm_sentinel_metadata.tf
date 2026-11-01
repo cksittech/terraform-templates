@@ -16,7 +16,7 @@ resource "azurerm_sentinel_metadata" "tf-sample-sentinel-metadata" {
   threat_analysis_techniques = []
   version                    = ""
   workspace_id               = ""
-  
+
   author {
     email = ""
     link  = ""

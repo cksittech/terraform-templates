@@ -3,6 +3,6 @@ resource "azurerm_cdn_profile" "tf-sample-cdn-profile" {
   name                = ""
   resource_group_name = ""
   sku                 = ""
-  
+
   tags = {}
 }

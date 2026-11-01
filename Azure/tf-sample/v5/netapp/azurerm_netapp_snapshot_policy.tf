@@ -4,7 +4,7 @@ resource "azurerm_netapp_snapshot_policy" "tf-sample-netapp-snapshot-policy" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   daily_schedule {
     hour              = 0
     minute            = 0
@@ -26,6 +26,6 @@ resource "azurerm_netapp_snapshot_policy" "tf-sample-netapp-snapshot-policy" {
     minute            = 0
     snapshots_to_keep = 0
   }
-  
+
   tags = {}
 }

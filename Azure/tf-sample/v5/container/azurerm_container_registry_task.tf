@@ -6,7 +6,7 @@ resource "azurerm_container_registry_task" "tf-sample-container-registry-task" {
   log_template          = ""
   name                  = ""
   timeout_in_seconds    = 0
-  
+
   agent_setting {
     cpu = 0
   }
@@ -71,7 +71,7 @@ resource "azurerm_container_registry_task" "tf-sample-container-registry-task" {
     name           = ""
     repository_url = ""
     source_type    = ""
-    
+
     authentication {
       expire_in_seconds = 0
       refresh_token     = ""
@@ -85,6 +85,6 @@ resource "azurerm_container_registry_task" "tf-sample-container-registry-task" {
     name     = ""
     schedule = ""
   }
-  
+
   tags = {}
 }

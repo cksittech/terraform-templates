@@ -4,7 +4,7 @@ resource "azurerm_monitor_aad_diagnostic_setting" "tf-sample-monitor-aad-diagnos
   log_analytics_workspace_id     = ""
   name                           = ""
   storage_account_id             = ""
-  
+
   enabled_log {
     category = ""
   }

@@ -6,7 +6,7 @@ resource "azurerm_spring_cloud_customized_accelerator" "tf-sample-spring-cloud-c
   icon_url                    = ""
   name                        = ""
   spring_cloud_accelerator_id = ""
-  
+
   git_repository {
     branch              = ""
     ca_certificate_id   = ""
@@ -15,7 +15,7 @@ resource "azurerm_spring_cloud_customized_accelerator" "tf-sample-spring-cloud-c
     interval_in_seconds = 0
     path                = ""
     url                 = ""
-    
+
     basic_auth {
       password = ""
       username = ""

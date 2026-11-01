@@ -9,7 +9,7 @@ resource "azurerm_machine_learning_compute_cluster" "tf-sample-machine-learning-
   subnet_resource_id            = ""
   vm_priority                   = ""
   vm_size                       = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -24,6 +24,6 @@ resource "azurerm_machine_learning_compute_cluster" "tf-sample-machine-learning-
     admin_username = ""
     key_value      = ""
   }
-  
+
   tags = {}
 }

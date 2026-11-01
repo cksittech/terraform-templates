@@ -12,7 +12,7 @@ resource "azurerm_data_factory_linked_service_azure_sql_database" "tf-sample-dat
   service_principal_key    = ""
   tenant_id                = ""
   use_managed_identity     = false
-  
+
   key_vault_connection_string {
     linked_service_name = ""
     secret_name         = ""

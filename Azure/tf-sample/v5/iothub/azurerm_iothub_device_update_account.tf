@@ -4,11 +4,11 @@ resource "azurerm_iothub_device_update_account" "tf-sample-iothub-device-update-
   public_network_access_enabled = false
   resource_group_name           = ""
   sku                           = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

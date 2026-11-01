@@ -6,7 +6,7 @@ resource "azurerm_resource_group_cost_management_export" "tf-sample-resource-gro
   recurrence_period_start_date = ""
   recurrence_type              = ""
   resource_group_id            = ""
-  
+
   export_data_options {
     time_frame = ""
     type       = ""

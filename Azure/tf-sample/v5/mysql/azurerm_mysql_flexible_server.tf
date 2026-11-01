@@ -18,7 +18,7 @@ resource "azurerm_mysql_flexible_server" "tf-sample-mysql-flexible-server" {
   source_server_id                  = ""
   version                           = ""
   zone                              = ""
-  
+
   customer_managed_key {
     geo_backup_key_vault_key_id          = ""
     geo_backup_user_assigned_identity_id = ""
@@ -45,6 +45,6 @@ resource "azurerm_mysql_flexible_server" "tf-sample-mysql-flexible-server" {
     log_on_disk_enabled = false
     size_gb             = 0
   }
-  
+
   tags = {}
 }

@@ -9,7 +9,7 @@ resource "azurerm_cdn_frontdoor_origin" "tf-sample-cdn-frontdoor-origin" {
   origin_host_header             = ""
   priority                       = 0
   weight                         = 0
-  
+
   private_link {
     location               = ""
     private_link_target_id = ""

@@ -12,10 +12,10 @@ resource "azurerm_subnet" "tf-sample-subnet" {
   service_endpoint_policy_ids                   = []
   sharing_scope                                 = ""
   virtual_network_name                          = ""
-  
+
   delegation {
     name = ""
-    
+
     service_delegation {
       actions = []
       name    = ""

@@ -5,6 +5,6 @@ resource "azurerm_nat_gateway" "tf-sample-nat-gateway" {
   resource_group_name     = ""
   sku_name                = ""
   zones                   = []
-  
+
   tags = {}
 }

@@ -5,11 +5,11 @@ resource "azurerm_elastic_san" "tf-sample-elastic-san" {
   name                 = ""
   resource_group_name  = ""
   zones                = []
-  
+
   sku {
     name = ""
     tier = ""
   }
-  
+
   tags = {}
 }

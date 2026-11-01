@@ -9,7 +9,7 @@ resource "azurerm_data_factory_linked_service_sql_managed_instance" "tf-sample-d
   service_principal_id     = ""
   service_principal_key    = ""
   tenant                   = ""
-  
+
   key_vault_connection_string {
     linked_service_name = ""
     secret_name         = ""

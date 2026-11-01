@@ -12,7 +12,7 @@ resource "azurerm_cdn_frontdoor_route" "tf-sample-cdn-frontdoor-route" {
   name                            = ""
   patterns_to_match               = []
   supported_protocols             = []
-  
+
   cache {
     compression_enabled           = false
     content_types_to_compress     = []

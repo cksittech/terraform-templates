@@ -8,7 +8,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
   sku                               = ""
   sql_redirect_allowed              = false
   threat_intelligence_mode          = ""
-  
+
   dns {
     proxy_enabled = false
     servers       = []
@@ -29,7 +29,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
     default_log_analytics_workspace_id = ""
     enabled                            = false
     retention_in_days                  = 0
-    
+
     log_analytics_workspace {
       firewall_location = ""
       id                = ""
@@ -38,7 +38,7 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
   intrusion_detection {
     mode           = ""
     private_ranges = []
-    
+
     signature_overrides {
       id    = ""
       state = ""
@@ -62,6 +62,6 @@ resource "azurerm_firewall_policy" "tf-sample-firewall-policy" {
     key_vault_secret_id = ""
     name                = ""
   }
-  
+
   tags = {}
 }

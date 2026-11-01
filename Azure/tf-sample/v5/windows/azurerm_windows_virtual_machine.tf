@@ -38,7 +38,7 @@ resource "azurerm_windows_virtual_machine" "tf-sample-windows-virtual-machine" {
   virtual_machine_scale_set_id                           = ""
   vtpm_enabled                                           = false
   zone                                                   = ""
-  
+
   additional_capabilities {
     hibernation_enabled = false
     ultra_ssd_enabled   = false
@@ -71,7 +71,7 @@ resource "azurerm_windows_virtual_machine" "tf-sample-windows-virtual-machine" {
     security_encryption_type         = ""
     storage_account_type             = ""
     write_accelerator_enabled        = false
-    
+
     diff_disk_settings {
       option    = ""
       placement = ""
@@ -87,7 +87,7 @@ resource "azurerm_windows_virtual_machine" "tf-sample-windows-virtual-machine" {
   }
   secret {
     key_vault_id = ""
-    
+
     certificate {
       store = ""
       url   = ""
@@ -107,6 +107,6 @@ resource "azurerm_windows_virtual_machine" "tf-sample-windows-virtual-machine" {
     certificate_url = ""
     protocol        = ""
   }
-  
+
   tags = {}
 }

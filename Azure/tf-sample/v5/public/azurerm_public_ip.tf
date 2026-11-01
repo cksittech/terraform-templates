@@ -16,6 +16,6 @@ resource "azurerm_public_ip" "tf-sample-public-ip" {
   sku                     = ""
   sku_tier                = ""
   zones                   = []
-  
+
   tags = {}
 }

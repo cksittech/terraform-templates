@@ -11,11 +11,11 @@ resource "azurerm_eventhub_namespace" "tf-sample-eventhub-namespace" {
   public_network_access_enabled = false
   resource_group_name           = ""
   sku                           = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

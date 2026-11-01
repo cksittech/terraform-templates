@@ -7,16 +7,16 @@ resource "azurerm_point_to_site_vpn_gateway" "tf-sample-point-to-site-vpn-gatewa
   scale_unit                          = 0
   virtual_hub_id                      = ""
   vpn_server_configuration_id         = ""
-  
+
   connection_configuration {
     internet_security_enabled = false
     name                      = ""
-    
+
     route {
       associated_route_table_id = ""
       inbound_route_map_id      = ""
       outbound_route_map_id     = ""
-      
+
       propagated_route_table {
         ids    = []
         labels = []
@@ -26,6 +26,6 @@ resource "azurerm_point_to_site_vpn_gateway" "tf-sample-point-to-site-vpn-gatewa
       address_prefixes = []
     }
   }
-  
+
   tags = {}
 }

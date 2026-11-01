@@ -3,6 +3,6 @@ resource "azurerm_relay_namespace" "tf-sample-relay-namespace" {
   name                = ""
   resource_group_name = ""
   sku_name            = ""
-  
+
   tags = {}
 }

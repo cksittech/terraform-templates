@@ -21,7 +21,7 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
   version                                  = ""
   virtual_network_subnet_id                = ""
   vnet_content_share_enabled               = false
-  
+
   connection_string {
     name  = ""
     type  = ""
@@ -51,7 +51,7 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
     use_32_bit_worker_process         = false
     vnet_route_all_enabled            = false
     websockets_enabled                = false
-    
+
     cors {
       allowed_origins     = []
       support_credentials = false
@@ -77,6 +77,6 @@ resource "azurerm_logic_app_standard" "tf-sample-logic-app-standard" {
       virtual_network_subnet_id = ""
     }
   }
-  
+
   tags = {}
 }

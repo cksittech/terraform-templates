@@ -5,7 +5,7 @@ resource "azurerm_iothub_dps" "tf-sample-iothub-dps" {
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""
-  
+
   ip_filter_rule {
     action  = ""
     ip_mask = ""
@@ -22,6 +22,6 @@ resource "azurerm_iothub_dps" "tf-sample-iothub-dps" {
     capacity = 0
     name     = ""
   }
-  
+
   tags = {}
 }

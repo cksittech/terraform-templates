@@ -19,7 +19,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
   vnet_image_pull_enabled                        = false
   webdeploy_publish_basic_authentication_enabled = false
   zip_deploy_file                                = ""
-  
+
   auth_settings {
     additional_login_parameters    = {}
     allowed_external_redirect_urls = []
@@ -30,7 +30,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     token_refresh_extension_hours  = 0
     token_store_enabled            = false
     unauthenticated_client_action  = ""
-    
+
     active_directory {
       allowed_audiences          = []
       client_id                  = ""
@@ -80,7 +80,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     require_https                           = false
     runtime_version                         = ""
     unauthenticated_action                  = ""
-    
+
     active_directory_v2 {
       allowed_applications                 = []
       allowed_audiences                    = []
@@ -154,7 +154,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     enabled             = false
     name                = ""
     storage_account_url = ""
-    
+
     schedule {
       frequency_interval       = 0
       frequency_unit           = ""
@@ -175,10 +175,10 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
   logs {
     detailed_error_messages = false
     failed_request_tracing  = false
-    
+
     application_logs {
       file_system_level = ""
-      
+
       azure_blob_storage {
         level             = ""
         retention_in_days = 0
@@ -223,7 +223,7 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     vnet_route_all_enabled                        = false
     websockets_enabled                            = false
     worker_count                                  = 0
-    
+
     application_stack {
       docker_image_name        = ""
       docker_registry_password = ""
@@ -306,6 +306,6 @@ resource "azurerm_linux_web_app" "tf-sample-linux-web-app" {
     share_name   = ""
     type         = ""
   }
-  
+
   tags = {}
 }

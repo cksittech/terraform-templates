@@ -8,7 +8,7 @@ resource "azurerm_cosmosdb_gremlin_graph" "tf-sample-cosmosdb-gremlin-graph" {
   partition_key_version  = 0
   resource_group_name    = ""
   throughput             = 0
-  
+
   autoscale_settings {
     max_throughput = 0
   }
@@ -22,7 +22,7 @@ resource "azurerm_cosmosdb_gremlin_graph" "tf-sample-cosmosdb-gremlin-graph" {
     excluded_paths = []
     included_paths = []
     indexing_mode  = ""
-    
+
     composite_index {
       index {
         order = ""

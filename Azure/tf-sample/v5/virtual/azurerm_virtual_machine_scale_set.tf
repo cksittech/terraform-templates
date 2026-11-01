@@ -12,7 +12,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
   single_placement_group       = false
   upgrade_policy_mode          = ""
   zones                        = []
-  
+
   boot_diagnostics {
     enabled     = false
     storage_uri = ""
@@ -37,7 +37,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
     name                      = ""
     network_security_group_id = ""
     primary                   = false
-    
+
     dns_settings {
       dns_servers = []
     }
@@ -49,7 +49,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
       name                                         = ""
       primary                                      = false
       subnet_id                                    = ""
-      
+
       public_ip_address_configuration {
         domain_name_label = ""
         idle_timeout      = 0
@@ -65,7 +65,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
   }
   os_profile_linux_config {
     disable_password_authentication = false
-    
+
     ssh_keys {
       key_data = ""
       path     = ""
@@ -73,7 +73,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
   }
   os_profile_secrets {
     source_vault_id = ""
-    
+
     vault_certificates {
       certificate_store = ""
       certificate_url   = ""
@@ -82,7 +82,7 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
   os_profile_windows_config {
     enable_automatic_upgrades = false
     provision_vm_agent        = false
-    
+
     additional_unattend_config {
       component    = ""
       content      = ""
@@ -133,6 +133,6 @@ resource "azurerm_virtual_machine_scale_set" "tf-sample-virtual-machine-scale-se
     os_type           = ""
     vhd_containers    = []
   }
-  
+
   tags = {}
 }

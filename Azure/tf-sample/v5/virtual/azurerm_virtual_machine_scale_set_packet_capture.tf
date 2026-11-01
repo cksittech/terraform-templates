@@ -5,7 +5,7 @@ resource "azurerm_virtual_machine_scale_set_packet_capture" "tf-sample-virtual-m
   name                                = ""
   network_watcher_id                  = ""
   virtual_machine_scale_set_id        = ""
-  
+
   filter {
     local_ip_address  = ""
     local_port        = ""

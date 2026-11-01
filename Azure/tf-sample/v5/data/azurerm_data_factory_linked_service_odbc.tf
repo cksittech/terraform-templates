@@ -7,7 +7,7 @@ resource "azurerm_data_factory_linked_service_odbc" "tf-sample-data-factory-link
   integration_runtime_name = ""
   name                     = ""
   parameters               = {}
-  
+
   basic_authentication {
     password = ""
     username = ""

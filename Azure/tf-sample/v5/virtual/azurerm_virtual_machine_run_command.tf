@@ -6,7 +6,7 @@ resource "azurerm_virtual_machine_run_command" "tf-sample-virtual-machine-run-co
   run_as_password    = ""
   run_as_user        = ""
   virtual_machine_id = ""
-  
+
   error_blob_managed_identity {
     client_id = ""
     object_id = ""
@@ -27,12 +27,12 @@ resource "azurerm_virtual_machine_run_command" "tf-sample-virtual-machine-run-co
     command_id = ""
     script     = ""
     script_uri = ""
-    
+
     script_uri_managed_identity {
       client_id = ""
       object_id = ""
     }
   }
-  
+
   tags = {}
 }

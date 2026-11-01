@@ -8,7 +8,7 @@ resource "azurerm_data_factory_dataset_json" "tf-sample-data-factory-dataset-jso
   linked_service_name   = ""
   name                  = ""
   parameters            = {}
-  
+
   azure_blob_storage_location {
     container                 = ""
     dynamic_container_enabled = false

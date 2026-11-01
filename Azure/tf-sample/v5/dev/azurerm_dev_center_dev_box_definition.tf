@@ -5,6 +5,6 @@ resource "azurerm_dev_center_dev_box_definition" "tf-sample-dev-center-dev-box-d
   location                  = ""
   name                      = ""
   sku_name                  = ""
-  
+
   tags = {}
 }

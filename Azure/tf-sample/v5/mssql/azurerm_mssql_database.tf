@@ -28,7 +28,7 @@ resource "azurerm_mssql_database" "tf-sample-mssql-database" {
   transparent_data_encryption_key_automatic_rotation_enabled = false
   transparent_data_encryption_key_vault_key_id               = ""
   zone_redundant                                             = false
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -61,6 +61,6 @@ resource "azurerm_mssql_database" "tf-sample-mssql-database" {
     storage_account_access_key   = ""
     storage_endpoint             = ""
   }
-  
+
   tags = {}
 }

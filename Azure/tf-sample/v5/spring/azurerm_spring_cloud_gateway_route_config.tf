@@ -6,7 +6,7 @@ resource "azurerm_spring_cloud_gateway_route_config" "tf-sample-spring-cloud-gat
   spring_cloud_app_id     = ""
   spring_cloud_gateway_id = ""
   sso_validation_enabled  = false
-  
+
   open_api {
     uri = ""
   }

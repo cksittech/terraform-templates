@@ -13,11 +13,11 @@ resource "azurerm_search_service" "tf-sample-search-service" {
   resource_group_name                      = ""
   semantic_search_sku                      = ""
   sku                                      = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

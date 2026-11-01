@@ -3,6 +3,6 @@ resource "azurerm_healthbot" "tf-sample-healthbot" {
   name                = ""
   resource_group_name = ""
   sku_name            = ""
-  
+
   tags = {}
 }

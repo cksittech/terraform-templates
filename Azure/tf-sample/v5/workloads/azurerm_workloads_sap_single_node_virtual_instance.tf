@@ -8,7 +8,7 @@ resource "azurerm_workloads_sap_single_node_virtual_instance" "tf-sample-workloa
   resource_group_name                   = ""
   sap_fqdn                              = ""
   sap_product                           = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -18,7 +18,7 @@ resource "azurerm_workloads_sap_single_node_virtual_instance" "tf-sample-workloa
     database_type           = ""
     secondary_ip_enabled    = false
     subnet_id               = ""
-    
+
     disk_volume_configuration {
       number_of_disks = 0
       size_in_gb      = 0
@@ -27,7 +27,7 @@ resource "azurerm_workloads_sap_single_node_virtual_instance" "tf-sample-workloa
     }
     virtual_machine_configuration {
       virtual_machine_size = ""
-      
+
       image {
         offer     = ""
         publisher = ""
@@ -45,13 +45,13 @@ resource "azurerm_workloads_sap_single_node_virtual_instance" "tf-sample-workloa
       network_interface_names = []
       os_disk_name            = ""
       virtual_machine_name    = ""
-      
+
       data_disk {
         names       = []
         volume_name = ""
       }
     }
   }
-  
+
   tags = {}
 }

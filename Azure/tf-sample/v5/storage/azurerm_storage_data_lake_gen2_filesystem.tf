@@ -5,7 +5,7 @@ resource "azurerm_storage_data_lake_gen2_filesystem" "tf-sample-storage-data-lak
   owner                    = ""
   properties               = {}
   storage_account_id       = ""
-  
+
   ace {
     id          = ""
     permissions = ""

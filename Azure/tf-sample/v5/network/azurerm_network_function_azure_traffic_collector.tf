@@ -2,6 +2,6 @@ resource "azurerm_network_function_azure_traffic_collector" "tf-sample-network-f
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   tags = {}
 }

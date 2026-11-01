@@ -7,7 +7,7 @@ resource "azurerm_monitor_diagnostic_setting" "tf-sample-monitor-diagnostic-sett
   partner_solution_id            = ""
   storage_account_id             = ""
   target_resource_id             = ""
-  
+
   enabled_log {
     category       = ""
     category_group = ""

@@ -5,6 +5,6 @@ resource "azurerm_powerbi_embedded" "tf-sample-powerbi-embedded" {
   name                = ""
   resource_group_name = ""
   sku_name            = ""
-  
+
   tags = {}
 }

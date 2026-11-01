@@ -13,7 +13,7 @@ resource "azurerm_servicebus_subscription" "tf-sample-servicebus-subscription" {
   requires_session                          = false
   status                                    = ""
   topic_id                                  = ""
-  
+
   client_scoped_subscription {
     client_id                               = ""
     is_client_scoped_subscription_shareable = false

@@ -4,7 +4,7 @@ resource "azurerm_firewall_application_rule_collection" "tf-sample-firewall-appl
   name                = ""
   priority            = 0
   resource_group_name = ""
-  
+
   rule {
     description      = ""
     fqdn_tags        = []
@@ -12,7 +12,7 @@ resource "azurerm_firewall_application_rule_collection" "tf-sample-firewall-appl
     source_addresses = []
     source_ip_groups = []
     target_fqdns     = []
-    
+
     protocol {
       port = 0
       type = ""

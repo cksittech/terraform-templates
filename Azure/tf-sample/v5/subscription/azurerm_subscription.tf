@@ -4,6 +4,6 @@ resource "azurerm_subscription" "tf-sample-subscription" {
   subscription_id   = ""
   subscription_name = ""
   workload          = ""
-  
+
   tags = {}
 }

@@ -9,7 +9,7 @@ resource "azurerm_data_factory_integration_runtime_azure_ssis" "tf-sample-data-f
   name                             = ""
   node_size                        = ""
   number_of_nodes                  = 0
-  
+
   catalog_info {
     administrator_login    = ""
     administrator_password = ""
@@ -29,12 +29,12 @@ resource "azurerm_data_factory_integration_runtime_azure_ssis" "tf-sample-data-f
   express_custom_setup {
     environment        = {}
     powershell_version = ""
-    
+
     command_key {
       password    = ""
       target_name = ""
       user_name   = ""
-      
+
       key_vault_password {
         linked_service_name = ""
         parameters          = {}
@@ -45,7 +45,7 @@ resource "azurerm_data_factory_integration_runtime_azure_ssis" "tf-sample-data-f
     component {
       license = ""
       name    = ""
-      
+
       key_vault_license {
         linked_service_name = ""
         parameters          = {}

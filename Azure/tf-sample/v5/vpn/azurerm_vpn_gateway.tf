@@ -6,11 +6,11 @@ resource "azurerm_vpn_gateway" "tf-sample-vpn-gateway" {
   routing_preference                    = ""
   scale_unit                            = 0
   virtual_hub_id                        = ""
-  
+
   bgp_settings {
     asn         = 0
     peer_weight = 0
-    
+
     instance_0_bgp_peering_address {
       custom_ips = []
     }
@@ -18,6 +18,6 @@ resource "azurerm_vpn_gateway" "tf-sample-vpn-gateway" {
       custom_ips = []
     }
   }
-  
+
   tags = {}
 }

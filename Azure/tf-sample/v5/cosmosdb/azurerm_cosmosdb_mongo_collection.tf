@@ -7,7 +7,7 @@ resource "azurerm_cosmosdb_mongo_collection" "tf-sample-cosmosdb-mongo-collectio
   resource_group_name    = ""
   shard_key              = ""
   throughput             = 0
-  
+
   autoscale_settings {
     max_throughput = 0
   }

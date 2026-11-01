@@ -28,7 +28,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   sku_tier                            = ""
   support_plan                        = ""
   workload_identity_enabled           = false
-  
+
   aci_connector_linux {
     subnet_name = ""
   }
@@ -104,7 +104,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     vnet_subnet_id                = ""
     workload_runtime              = ""
     zones                         = []
-    
+
     kubelet_config {
       allowed_unsafe_sysctls    = []
       container_log_max_files   = 0
@@ -121,7 +121,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
       swap_file_size_mb            = 0
       transparent_huge_page        = ""
       transparent_huge_page_defrag = ""
-      
+
       sysctl_config {
         fs_aio_max_nr                      = 0
         fs_file_max                        = 0
@@ -157,7 +157,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     node_network_profile {
       application_security_group_ids = []
       node_public_ip_tags            = {}
-      
+
       allowed_host_ports {
         port_end   = 0
         port_start = 0
@@ -202,7 +202,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   }
   linux_profile {
     admin_username = ""
-    
+
     ssh_key {
       key_data = ""
     }
@@ -227,7 +227,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     start_time   = ""
     utc_offset   = ""
     week_index   = ""
-    
+
     not_allowed {
       end   = ""
       start = ""
@@ -243,7 +243,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     start_time   = ""
     utc_offset   = ""
     week_index   = ""
-    
+
     not_allowed {
       end   = ""
       start = ""
@@ -270,7 +270,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     pod_cidrs           = []
     service_cidr        = ""
     service_cidrs       = []
-    
+
     advanced_networking {
       observability_enabled = false
       security_enabled      = false
@@ -303,7 +303,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     internal_ingress_gateway_enabled = false
     mode                             = ""
     revisions                        = []
-    
+
     certificate_authority {
       cert_chain_object_name = ""
       cert_object_name       = ""
@@ -334,7 +334,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     admin_password = ""
     admin_username = ""
     license        = ""
-    
+
     gmsa {
       dns_server  = ""
       root_domain = ""
@@ -344,6 +344,6 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     keda_enabled                    = false
     vertical_pod_autoscaler_enabled = false
   }
-  
+
   tags = {}
 }

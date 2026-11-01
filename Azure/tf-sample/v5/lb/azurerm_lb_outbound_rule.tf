@@ -6,7 +6,7 @@ resource "azurerm_lb_outbound_rule" "tf-sample-lb-outbound-rule" {
   name                     = ""
   protocol                 = ""
   tcp_reset_enabled        = false
-  
+
   frontend_ip_configuration {
     name = ""
   }

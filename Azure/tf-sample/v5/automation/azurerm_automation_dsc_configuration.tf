@@ -6,6 +6,6 @@ resource "azurerm_automation_dsc_configuration" "tf-sample-automation-dsc-config
   log_verbose             = false
   name                    = ""
   resource_group_name     = ""
-  
+
   tags = {}
 }

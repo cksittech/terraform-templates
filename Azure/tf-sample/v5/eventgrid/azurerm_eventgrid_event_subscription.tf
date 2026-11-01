@@ -10,7 +10,7 @@ resource "azurerm_eventgrid_event_subscription" "tf-sample-eventgrid-event-subsc
   scope                                = ""
   service_bus_queue_id                 = ""
   service_bus_topic_id                 = ""
-  
+
   advanced_filter {
     bool_equals {
       key   = ""

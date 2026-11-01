@@ -6,7 +6,7 @@ resource "azurerm_application_insights_workbook_template" "tf-sample-application
   priority            = 0
   resource_group_name = ""
   template_data       = ""
-  
+
   galleries {
     category      = ""
     name          = ""
@@ -14,6 +14,6 @@ resource "azurerm_application_insights_workbook_template" "tf-sample-application
     resource_type = ""
     type          = ""
   }
-  
+
   tags = {}
 }

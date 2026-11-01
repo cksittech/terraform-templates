@@ -1,7 +1,7 @@
 resource "azurerm_dns_zone" "tf-sample-dns-zone" {
   name                = ""
   resource_group_name = ""
-  
+
   soa_record {
     email         = ""
     expire_time   = 0
@@ -11,6 +11,6 @@ resource "azurerm_dns_zone" "tf-sample-dns-zone" {
     serial_number = 0
     ttl           = 0
   }
-  
+
   tags = {}
 }

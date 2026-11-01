@@ -11,6 +11,6 @@ resource "azurerm_stack_hci_virtual_hard_disk" "tf-sample-stack-hci-virtual-hard
   physical_sector_in_bytes = 0
   resource_group_name      = ""
   storage_path_id          = ""
-  
+
   tags = {}
 }

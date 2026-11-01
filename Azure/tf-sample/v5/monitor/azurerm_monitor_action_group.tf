@@ -4,7 +4,7 @@ resource "azurerm_monitor_action_group" "tf-sample-monitor-action-group" {
   name                = ""
   resource_group_name = ""
   short_name          = ""
-  
+
   arm_role_receiver {
     name                    = ""
     role_id                 = ""
@@ -70,13 +70,13 @@ resource "azurerm_monitor_action_group" "tf-sample-monitor-action-group" {
     name                    = ""
     service_uri             = ""
     use_common_alert_schema = false
-    
+
     aad_auth {
       identifier_uri = ""
       object_id      = ""
       tenant_id      = ""
     }
   }
-  
+
   tags = {}
 }

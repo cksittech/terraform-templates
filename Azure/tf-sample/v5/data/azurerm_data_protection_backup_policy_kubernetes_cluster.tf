@@ -4,7 +4,7 @@ resource "azurerm_data_protection_backup_policy_kubernetes_cluster" "tf-sample-d
   resource_group_name             = ""
   time_zone                       = ""
   vault_name                      = ""
-  
+
   default_retention_rule {
     life_cycle {
       data_store_type = ""
@@ -14,7 +14,7 @@ resource "azurerm_data_protection_backup_policy_kubernetes_cluster" "tf-sample-d
   retention_rule {
     name     = ""
     priority = 0
-    
+
     criteria {
       absolute_criteria      = ""
       days_of_week           = []

@@ -24,7 +24,7 @@ resource "azurerm_postgresql_flexible_server" "tf-sample-postgresql-flexible-ser
   storage_type                      = ""
   version                           = ""
   zone                              = ""
-  
+
   authentication {
     active_directory_auth_enabled = false
     password_auth_enabled         = false
@@ -53,6 +53,6 @@ resource "azurerm_postgresql_flexible_server" "tf-sample-postgresql-flexible-ser
     start_hour   = 0
     start_minute = 0
   }
-  
+
   tags = {}
 }

@@ -2,7 +2,7 @@ resource "azurerm_netapp_account" "tf-sample-netapp-account" {
   location            = ""
   name                = ""
   resource_group_name = ""
-  
+
   active_directory {
     aes_encryption_enabled            = false
     dns_servers                       = []
@@ -23,6 +23,6 @@ resource "azurerm_netapp_account" "tf-sample-netapp-account" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

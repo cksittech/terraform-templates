@@ -3,7 +3,7 @@ resource "azurerm_fluid_relay_server" "tf-sample-fluid-relay-server" {
   name                = ""
   resource_group_name = ""
   storage_sku         = ""
-  
+
   customer_managed_key {
     key_vault_key_id          = ""
     user_assigned_identity_id = ""
@@ -12,6 +12,6 @@ resource "azurerm_fluid_relay_server" "tf-sample-fluid-relay-server" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

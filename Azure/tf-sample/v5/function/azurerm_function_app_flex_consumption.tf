@@ -23,7 +23,7 @@ resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-co
   virtual_network_subnet_id                      = ""
   webdeploy_publish_basic_authentication_enabled = false
   zip_deploy_file                                = ""
-  
+
   always_ready {
     instance_count = 0
     name           = ""
@@ -38,7 +38,7 @@ resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-co
     token_refresh_extension_hours  = 0
     token_store_enabled            = false
     unauthenticated_client_action  = ""
-    
+
     active_directory {
       allowed_audiences          = []
       client_id                  = ""
@@ -88,7 +88,7 @@ resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-co
     require_https                           = false
     runtime_version                         = ""
     unauthenticated_action                  = ""
-    
+
     active_directory_v2 {
       allowed_applications                 = []
       allowed_audiences                    = []
@@ -194,7 +194,7 @@ resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-co
     vnet_route_all_enabled                        = false
     websockets_enabled                            = false
     worker_count                                  = 0
-    
+
     app_service_logs {
       disk_quota_mb         = 0
       retention_period_days = 0
@@ -228,6 +228,6 @@ resource "azurerm_function_app_flex_consumption" "tf-sample-function-app-flex-co
     app_setting_names       = []
     connection_string_names = []
   }
-  
+
   tags = {}
 }

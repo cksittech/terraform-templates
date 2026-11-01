@@ -4,7 +4,7 @@ resource "azurerm_consumption_budget_subscription" "tf-sample-consumption-budget
   name            = ""
   subscription_id = ""
   time_grain      = ""
-  
+
   filter {
     dimension {
       name     = ""

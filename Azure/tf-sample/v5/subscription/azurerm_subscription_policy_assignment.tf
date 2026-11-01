@@ -9,7 +9,7 @@ resource "azurerm_subscription_policy_assignment" "tf-sample-subscription-policy
   parameters           = ""
   policy_definition_id = ""
   subscription_id      = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -20,7 +20,7 @@ resource "azurerm_subscription_policy_assignment" "tf-sample-subscription-policy
   }
   overrides {
     value = ""
-    
+
     selectors {
       in     = []
       kind   = ""
@@ -29,7 +29,7 @@ resource "azurerm_subscription_policy_assignment" "tf-sample-subscription-policy
   }
   resource_selectors {
     name = ""
-    
+
     selectors {
       in     = []
       kind   = ""

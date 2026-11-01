@@ -11,7 +11,7 @@ resource "azurerm_data_factory_trigger_schedule" "tf-sample-data-factory-trigger
   pipeline_parameters = {}
   start_time          = ""
   time_zone           = ""
-  
+
   pipeline {
     name       = ""
     parameters = {}
@@ -21,7 +21,7 @@ resource "azurerm_data_factory_trigger_schedule" "tf-sample-data-factory-trigger
     days_of_week  = []
     hours         = []
     minutes       = []
-    
+
     monthly {
       week    = 0
       weekday = ""

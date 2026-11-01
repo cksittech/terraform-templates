@@ -5,7 +5,7 @@ resource "azurerm_virtual_network_gateway_nat_rule" "tf-sample-virtual-network-g
   resource_group_name        = ""
   type                       = ""
   virtual_network_gateway_id = ""
-  
+
   external_mapping {
     address_space = ""
     port_range    = ""

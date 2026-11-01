@@ -4,7 +4,7 @@ resource "azurerm_cosmosdb_cassandra_table" "tf-sample-cosmosdb-cassandra-table"
   default_ttl            = 0
   name                   = ""
   throughput             = 0
-  
+
   autoscale_settings {
     max_throughput = 0
   }

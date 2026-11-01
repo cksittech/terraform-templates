@@ -11,10 +11,10 @@ resource "azurerm_cosmosdb_cassandra_cluster" "tf-sample-cosmosdb-cassandra-clus
   repair_enabled                   = false
   resource_group_name              = ""
   version                          = ""
-  
+
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

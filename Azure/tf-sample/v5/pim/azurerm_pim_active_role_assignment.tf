@@ -3,10 +3,10 @@ resource "azurerm_pim_active_role_assignment" "tf-sample-pim-active-role-assignm
   principal_id       = ""
   role_definition_id = ""
   scope              = ""
-  
+
   schedule {
     start_date_time = ""
-    
+
     expiration {
       duration_days  = 0
       duration_hours = 0

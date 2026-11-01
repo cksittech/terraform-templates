@@ -9,7 +9,7 @@ resource "azurerm_batch_account" "tf-sample-batch-account" {
   storage_account_authentication_mode = ""
   storage_account_id                  = ""
   storage_account_node_identity       = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -21,7 +21,7 @@ resource "azurerm_batch_account" "tf-sample-batch-account" {
   network_profile {
     account_access {
       default_action = ""
-      
+
       ip_rule {
         action   = ""
         ip_range = ""
@@ -29,13 +29,13 @@ resource "azurerm_batch_account" "tf-sample-batch-account" {
     }
     node_management_access {
       default_action = ""
-      
+
       ip_rule {
         action   = ""
         ip_range = ""
       }
     }
   }
-  
+
   tags = {}
 }

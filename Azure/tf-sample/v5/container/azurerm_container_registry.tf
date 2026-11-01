@@ -17,7 +17,7 @@ resource "azurerm_container_registry" "tf-sample-container-registry" {
   role_assignment_mode                         = ""
   sku                                          = ""
   zone_redundancy_enabled                      = false
-  
+
   georeplications {
     global_endpoint_routing_enabled = false
     location                        = ""
@@ -27,6 +27,6 @@ resource "azurerm_container_registry" "tf-sample-container-registry" {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

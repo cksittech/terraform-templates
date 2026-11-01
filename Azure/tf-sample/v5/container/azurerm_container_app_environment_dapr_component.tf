@@ -6,7 +6,7 @@ resource "azurerm_container_app_environment_dapr_component" "tf-sample-container
   name                         = ""
   scopes                       = []
   version                      = ""
-  
+
   metadata {
     name        = ""
     secret_name = ""

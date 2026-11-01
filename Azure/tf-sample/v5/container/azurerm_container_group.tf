@@ -14,7 +14,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
   sku                                 = ""
   subnet_ids                          = []
   zones                               = []
-  
+
   container {
     commands                     = []
     cpu                          = 0
@@ -25,7 +25,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
     memory_limit                 = 0
     name                         = ""
     secure_environment_variables = {}
-    
+
     liveness_probe {
       exec                  = []
       failure_threshold     = 0
@@ -33,7 +33,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
       period_seconds        = 0
       success_threshold     = 0
       timeout_seconds       = 0
-      
+
       http_get {
         http_headers = {}
         path         = ""
@@ -52,7 +52,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
       period_seconds        = 0
       success_threshold     = 0
       timeout_seconds       = 0
-      
+
       http_get {
         http_headers = {}
         path         = ""
@@ -72,7 +72,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
       share_name           = ""
       storage_account_key  = ""
       storage_account_name = ""
-      
+
       git_repo {
         directory = ""
         revision  = ""
@@ -109,7 +109,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
     image                        = ""
     name                         = ""
     secure_environment_variables = {}
-    
+
     security {
       privilege_enabled = false
     }
@@ -122,7 +122,7 @@ resource "azurerm_container_group" "tf-sample-container-group" {
       share_name           = ""
       storage_account_key  = ""
       storage_account_name = ""
-      
+
       git_repo {
         directory = ""
         revision  = ""
@@ -130,6 +130,6 @@ resource "azurerm_container_group" "tf-sample-container-group" {
       }
     }
   }
-  
+
   tags = {}
 }

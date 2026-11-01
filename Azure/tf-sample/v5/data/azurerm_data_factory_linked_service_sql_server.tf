@@ -8,7 +8,7 @@ resource "azurerm_data_factory_linked_service_sql_server" "tf-sample-data-factor
   name                     = ""
   parameters               = {}
   user_name                = ""
-  
+
   key_vault_connection_string {
     linked_service_name = ""
     secret_name         = ""

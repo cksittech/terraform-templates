@@ -6,6 +6,6 @@ resource "azurerm_management_group_template_deployment" "tf-sample-management-gr
   parameters_content       = ""
   template_content         = ""
   template_spec_version_id = ""
-  
+
   tags = {}
 }

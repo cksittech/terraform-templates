@@ -13,7 +13,7 @@ resource "azurerm_synapse_spark_pool" "tf-sample-synapse-spark-pool" {
   spark_log_folder                    = ""
   spark_version                       = ""
   synapse_workspace_id                = ""
-  
+
   auto_pause {
     delay_in_minutes = 0
   }
@@ -29,6 +29,6 @@ resource "azurerm_synapse_spark_pool" "tf-sample-synapse-spark-pool" {
     content  = ""
     filename = ""
   }
-  
+
   tags = {}
 }

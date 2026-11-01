@@ -8,7 +8,7 @@ resource "azurerm_kubernetes_cluster_extension" "tf-sample-kubernetes-cluster-ex
   release_train                    = ""
   target_namespace                 = ""
   version                          = ""
-  
+
   plan {
     name           = ""
     product        = ""

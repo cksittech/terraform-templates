@@ -1,12 +1,12 @@
 resource "azurerm_cdn_frontdoor_batch_rule_set" "tf-sample-cdn-frontdoor-batch-rule-set" {
   cdn_frontdoor_profile_id = ""
   name                     = ""
-  
+
   rule {
     behaviour_on_match = ""
     name               = ""
     order              = 0
-    
+
     actions {
       modify_request_header {
         header_name  = ""

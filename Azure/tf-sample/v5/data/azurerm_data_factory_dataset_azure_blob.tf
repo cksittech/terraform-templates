@@ -11,7 +11,7 @@ resource "azurerm_data_factory_dataset_azure_blob" "tf-sample-data-factory-datas
   name                     = ""
   parameters               = {}
   path                     = ""
-  
+
   schema_column {
     description = ""
     name        = ""

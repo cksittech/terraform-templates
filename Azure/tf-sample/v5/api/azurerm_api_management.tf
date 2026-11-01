@@ -13,14 +13,14 @@ resource "azurerm_api_management" "tf-sample-api-management" {
   sku_name                      = ""
   virtual_network_type          = ""
   zones                         = []
-  
+
   additional_location {
     capacity             = 0
     gateway_disabled     = false
     location             = ""
     public_ip_address_id = ""
     zones                = []
-    
+
     virtual_network_configuration {
       subnet_id = ""
     }
@@ -110,7 +110,7 @@ resource "azurerm_api_management" "tf-sample-api-management" {
   }
   sign_up {
     enabled = false
-    
+
     terms_of_service {
       consent_required = false
       enabled          = false
@@ -123,6 +123,6 @@ resource "azurerm_api_management" "tf-sample-api-management" {
   virtual_network_configuration {
     subnet_id = ""
   }
-  
+
   tags = {}
 }

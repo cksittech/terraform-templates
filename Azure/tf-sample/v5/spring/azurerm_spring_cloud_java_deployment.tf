@@ -5,7 +5,7 @@ resource "azurerm_spring_cloud_java_deployment" "tf-sample-spring-cloud-java-dep
   name                  = ""
   runtime_version       = ""
   spring_cloud_app_id   = ""
-  
+
   quota {
     cpu    = ""
     memory = ""

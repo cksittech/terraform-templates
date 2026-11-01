@@ -7,7 +7,7 @@ resource "azurerm_healthcare_fhir_service" "tf-sample-healthcare-fhir-service" {
   name                                      = ""
   resource_group_name                       = ""
   workspace_id                              = ""
-  
+
   authentication {
     audience            = ""
     authority           = ""
@@ -29,6 +29,6 @@ resource "azurerm_healthcare_fhir_service" "tf-sample-healthcare-fhir-service" {
     image_name   = ""
     login_server = ""
   }
-  
+
   tags = {}
 }

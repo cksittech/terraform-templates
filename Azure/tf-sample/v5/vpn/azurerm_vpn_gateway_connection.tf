@@ -3,12 +3,12 @@ resource "azurerm_vpn_gateway_connection" "tf-sample-vpn-gateway-connection" {
   name                      = ""
   remote_vpn_site_id        = ""
   vpn_gateway_id            = ""
-  
+
   routing {
     associated_route_table = ""
     inbound_route_map_id   = ""
     outbound_route_map_id  = ""
-    
+
     propagated_route_table {
       labels          = []
       route_table_ids = []
@@ -33,7 +33,7 @@ resource "azurerm_vpn_gateway_connection" "tf-sample-vpn-gateway-connection" {
     route_weight                          = 0
     shared_key                            = ""
     vpn_site_link_id                      = ""
-    
+
     custom_bgp_address {
       ip_address          = ""
       ip_configuration_id = ""

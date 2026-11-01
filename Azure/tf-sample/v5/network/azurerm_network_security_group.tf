@@ -3,6 +3,6 @@ resource "azurerm_network_security_group" "tf-sample-network-security-group" {
   name                = ""
   resource_group_name = ""
   security_rule       = []
-  
+
   tags = {}
 }

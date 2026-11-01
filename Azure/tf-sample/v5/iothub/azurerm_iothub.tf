@@ -10,11 +10,11 @@ resource "azurerm_iothub" "tf-sample-iothub" {
   public_network_access_enabled = false
   resource_group_name           = ""
   route                         = []
-  
+
   cloud_to_device {
     default_ttl        = ""
     max_delivery_count = 0
-    
+
     feedback {
       lock_duration      = ""
       max_delivery_count = 0
@@ -45,7 +45,7 @@ resource "azurerm_iothub" "tf-sample-iothub" {
   network_rule_set {
     apply_to_builtin_eventhub_endpoint = false
     default_action                     = ""
-    
+
     ip_rule {
       action  = ""
       ip_mask = ""
@@ -56,6 +56,6 @@ resource "azurerm_iothub" "tf-sample-iothub" {
     capacity = 0
     name     = ""
   }
-  
+
   tags = {}
 }

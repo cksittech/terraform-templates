@@ -4,6 +4,6 @@ resource "azurerm_route_table" "tf-sample-route-table" {
   name                          = ""
   resource_group_name           = ""
   route                         = []
-  
+
   tags = {}
 }

@@ -6,6 +6,6 @@ resource "azurerm_network_manager_ipam_pool" "tf-sample-network-manager-ipam-poo
   name               = ""
   network_manager_id = ""
   parent_pool_name   = ""
-  
+
   tags = {}
 }

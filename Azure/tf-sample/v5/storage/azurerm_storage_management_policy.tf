@@ -1,10 +1,10 @@
 resource "azurerm_storage_management_policy" "tf-sample-storage-management-policy" {
   storage_account_id = ""
-  
+
   rule {
     enabled = false
     name    = ""
-    
+
     actions {
       base_blob {
         auto_tier_to_hot_from_cool_enabled                             = false
@@ -40,7 +40,7 @@ resource "azurerm_storage_management_policy" "tf-sample-storage-management-polic
     filters {
       blob_types   = []
       prefix_match = []
-      
+
       match_blob_index_tag {
         name      = ""
         operation = ""

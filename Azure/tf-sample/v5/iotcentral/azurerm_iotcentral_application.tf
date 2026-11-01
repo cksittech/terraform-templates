@@ -7,10 +7,10 @@ resource "azurerm_iotcentral_application" "tf-sample-iotcentral-application" {
   sku                           = ""
   sub_domain                    = ""
   template                      = ""
-  
+
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

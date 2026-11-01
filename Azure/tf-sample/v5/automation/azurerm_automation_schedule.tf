@@ -10,7 +10,7 @@ resource "azurerm_automation_schedule" "tf-sample-automation-schedule" {
   start_time              = ""
   timezone                = ""
   week_days               = []
-  
+
   monthly_occurrence {
     day        = ""
     occurrence = 0

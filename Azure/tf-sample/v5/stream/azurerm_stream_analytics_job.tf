@@ -14,7 +14,7 @@ resource "azurerm_stream_analytics_job" "tf-sample-stream-analytics-job" {
   streaming_units                          = 0
   transformation_query                     = ""
   type                                     = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -24,6 +24,6 @@ resource "azurerm_stream_analytics_job" "tf-sample-stream-analytics-job" {
     account_name        = ""
     authentication_mode = ""
   }
-  
+
   tags = {}
 }

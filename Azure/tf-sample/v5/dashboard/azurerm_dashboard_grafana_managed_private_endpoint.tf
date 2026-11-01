@@ -7,6 +7,6 @@ resource "azurerm_dashboard_grafana_managed_private_endpoint" "tf-sample-dashboa
   private_link_resource_region = ""
   private_link_service_url     = ""
   request_message              = ""
-  
+
   tags = {}
 }

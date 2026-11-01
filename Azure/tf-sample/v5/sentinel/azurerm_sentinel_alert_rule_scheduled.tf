@@ -17,13 +17,13 @@ resource "azurerm_sentinel_alert_rule_scheduled" "tf-sample-sentinel-alert-rule-
   techniques                  = []
   trigger_operator            = ""
   trigger_threshold           = 0
-  
+
   alert_details_override {
     description_format   = ""
     display_name_format  = ""
     severity_column_name = ""
     tactics_column_name  = ""
-    
+
     dynamic_property {
       name  = ""
       value = ""
@@ -31,7 +31,7 @@ resource "azurerm_sentinel_alert_rule_scheduled" "tf-sample-sentinel-alert-rule-
   }
   entity_mapping {
     entity_type = ""
-    
+
     field_mapping {
       column_name = ""
       identifier  = ""
@@ -42,7 +42,7 @@ resource "azurerm_sentinel_alert_rule_scheduled" "tf-sample-sentinel-alert-rule-
   }
   incident {
     create_incident_enabled = false
-    
+
     grouping {
       by_alert_details        = []
       by_custom_details       = []

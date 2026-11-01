@@ -4,6 +4,6 @@ resource "azurerm_key_vault_managed_storage_account_sas_token_definition" "tf-sa
   sas_template_uri           = ""
   sas_type                   = ""
   validity_period            = ""
-  
+
   tags = {}
 }

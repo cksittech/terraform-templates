@@ -10,11 +10,11 @@ resource "azurerm_key_vault_managed_hardware_security_module" "tf-sample-key-vau
   sku_name                                  = ""
   soft_delete_retention_days                = 0
   tenant_id                                 = ""
-  
+
   network_acls {
     bypass         = ""
     default_action = ""
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "azurerm_site_recovery_replication_recovery_plan" "tf-sample-site-recov
   recovery_vault_id         = ""
   source_recovery_fabric_id = ""
   target_recovery_fabric_id = ""
-  
+
   azure_to_azure_settings {
     primary_edge_zone  = ""
     primary_zone       = ""
@@ -12,7 +12,7 @@ resource "azurerm_site_recovery_replication_recovery_plan" "tf-sample-site-recov
   }
   boot_recovery_group {
     replicated_protected_items = []
-    
+
     post_action {
       fabric_location           = ""
       fail_over_directions      = []

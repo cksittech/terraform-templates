@@ -18,11 +18,11 @@ resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
   type                                  = ""
   virtual_wan_traffic_enabled           = false
   vpn_type                              = ""
-  
+
   bgp_settings {
     asn         = 0
     peer_weight = 0
-    
+
     peering_addresses {
       apipa_addresses       = []
       ip_configuration_name = ""
@@ -41,7 +41,7 @@ resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
     is_default = false
     name       = ""
     priority   = 0
-    
+
     policy_member {
       name  = ""
       type  = ""
@@ -57,7 +57,7 @@ resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
     radius_server_secret  = ""
     vpn_auth_types        = []
     vpn_client_protocols  = []
-    
+
     ipsec_policy {
       dh_group                  = ""
       ike_encryption            = ""
@@ -87,6 +87,6 @@ resource "azurerm_virtual_network_gateway" "tf-sample-virtual-network-gateway" {
       policy_group_names = []
     }
   }
-  
+
   tags = {}
 }

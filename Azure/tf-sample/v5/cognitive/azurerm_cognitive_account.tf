@@ -18,7 +18,7 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
   qna_runtime_endpoint                         = ""
   resource_group_name                          = ""
   sku_name                                     = ""
-  
+
   customer_managed_key {
     identity_client_id = ""
     key_vault_key_id   = ""
@@ -31,7 +31,7 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
     bypass         = ""
     default_action = ""
     ip_rules       = []
-    
+
     virtual_network_rules {
       ignore_missing_vnet_service_endpoint = false
       subnet_id                            = ""
@@ -45,6 +45,6 @@ resource "azurerm_cognitive_account" "tf-sample-cognitive-account" {
     identity_client_id = ""
     storage_account_id = ""
   }
-  
+
   tags = {}
 }

@@ -5,6 +5,6 @@ resource "azurerm_monitor_data_collection_endpoint" "tf-sample-monitor-data-coll
   name                          = ""
   public_network_access_enabled = false
   resource_group_name           = ""
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "azurerm_app_service_connection" "tf-sample-app-service-connection" {
   name               = ""
   target_resource_id = ""
   vnet_solution      = ""
-  
+
   authentication {
     certificate     = ""
     client_id       = ""

@@ -8,7 +8,7 @@ resource "azurerm_healthcare_service" "tf-sample-healthcare-service" {
   name                                      = ""
   public_network_access_enabled             = false
   resource_group_name                       = ""
-  
+
   authentication_configuration {
     audience            = ""
     authority           = ""
@@ -24,6 +24,6 @@ resource "azurerm_healthcare_service" "tf-sample-healthcare-service" {
   identity {
     type = ""
   }
-  
+
   tags = {}
 }

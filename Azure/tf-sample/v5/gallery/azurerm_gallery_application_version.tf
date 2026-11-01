@@ -7,7 +7,7 @@ resource "azurerm_gallery_application_version" "tf-sample-gallery-application-ve
   location               = ""
   name                   = ""
   package_file           = ""
-  
+
   manage_action {
     install = ""
     remove  = ""
@@ -23,6 +23,6 @@ resource "azurerm_gallery_application_version" "tf-sample-gallery-application-ve
     regional_replica_count = 0
     storage_account_type   = ""
   }
-  
+
   tags = {}
 }

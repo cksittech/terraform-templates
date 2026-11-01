@@ -3,13 +3,13 @@ resource "azurerm_iothub_device_update_instance" "tf-sample-iothub-device-update
   diagnostic_enabled       = false
   iothub_id                = ""
   name                     = ""
-  
+
   diagnostic_storage_account {
     connection_string            = ""
     connection_string_wo         = ""
     connection_string_wo_version = 0
     id                           = ""
   }
-  
+
   tags = {}
 }

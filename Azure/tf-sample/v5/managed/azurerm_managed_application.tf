@@ -6,7 +6,7 @@ resource "azurerm_managed_application" "tf-sample-managed-application" {
   name                        = ""
   parameter_values            = ""
   resource_group_name         = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -18,6 +18,6 @@ resource "azurerm_managed_application" "tf-sample-managed-application" {
     publisher      = ""
     version        = ""
   }
-  
+
   tags = {}
 }

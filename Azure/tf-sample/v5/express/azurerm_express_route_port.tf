@@ -6,7 +6,7 @@ resource "azurerm_express_route_port" "tf-sample-express-route-port" {
   name                = ""
   peering_location    = ""
   resource_group_name = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
@@ -25,6 +25,6 @@ resource "azurerm_express_route_port" "tf-sample-express-route-port" {
     macsec_ckn_keyvault_secret_id = ""
     macsec_sci_enabled            = false
   }
-  
+
   tags = {}
 }

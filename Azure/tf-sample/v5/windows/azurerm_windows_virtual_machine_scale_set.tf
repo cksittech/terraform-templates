@@ -36,7 +36,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
   vtpm_enabled                                      = false
   zone_balance                                      = false
   zones                                             = []
-  
+
   additional_capabilities {
     ultra_ssd_enabled = false
   }
@@ -79,7 +79,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
     settings                   = ""
     type                       = ""
     type_handler_version       = ""
-    
+
     protected_settings_from_key_vault {
       secret_url      = ""
       source_vault_id = ""
@@ -104,7 +104,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
     name                           = ""
     network_security_group_id      = ""
     primary                        = false
-    
+
     ip_configuration {
       application_gateway_backend_address_pool_ids = []
       application_security_group_ids               = []
@@ -114,14 +114,14 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
       primary                                      = false
       subnet_id                                    = ""
       version                                      = ""
-      
+
       public_ip_address {
         domain_name_label       = ""
         idle_timeout_in_minutes = 0
         name                    = ""
         public_ip_prefix_id     = ""
         version                 = ""
-        
+
         ip_tag {
           tag  = ""
           type = ""
@@ -137,7 +137,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
     security_encryption_type         = ""
     storage_account_type             = ""
     write_accelerator_enabled        = false
-    
+
     diff_disk_settings {
       option    = ""
       placement = ""
@@ -163,7 +163,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
   }
   secret {
     key_vault_id = ""
-    
+
     certificate {
       store = ""
       url   = ""
@@ -187,6 +187,6 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
     certificate_url = ""
     protocol        = ""
   }
-  
+
   tags = {}
 }

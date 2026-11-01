@@ -7,6 +7,6 @@ resource "azurerm_key_vault_secret" "tf-sample-key-vault-secret" {
   value            = ""
   value_wo         = ""
   value_wo_version = 0
-  
+
   tags = {}
 }

@@ -4,7 +4,7 @@ resource "azurerm_private_dns_resolver_forwarding_rule" "tf-sample-private-dns-r
   enabled                   = false
   metadata                  = {}
   name                      = ""
-  
+
   target_dns_servers {
     ip_address = ""
     port       = 0

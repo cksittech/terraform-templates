@@ -27,7 +27,7 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
   unix_permissions                                     = ""
   volume_path                                          = ""
   zone                                                 = ""
-  
+
   cool_access {
     coolness_period_in_days = 0
     retrieval_policy        = ""
@@ -64,6 +64,6 @@ resource "azurerm_netapp_volume" "tf-sample-netapp-volume" {
     unix_read_only                 = false
     unix_read_write                = false
   }
-  
+
   tags = {}
 }

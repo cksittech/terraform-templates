@@ -36,7 +36,7 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
   virtual_machine_scale_set_id                           = ""
   vtpm_enabled                                           = false
   zone                                                   = ""
-  
+
   additional_capabilities {
     hibernation_enabled = false
     ultra_ssd_enabled   = false
@@ -69,7 +69,7 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
     security_encryption_type         = ""
     storage_account_type             = ""
     write_accelerator_enabled        = false
-    
+
     diff_disk_settings {
       option    = ""
       placement = ""
@@ -85,7 +85,7 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
   }
   secret {
     key_vault_id = ""
-    
+
     certificate {
       url = ""
     }
@@ -100,6 +100,6 @@ resource "azurerm_linux_virtual_machine" "tf-sample-linux-virtual-machine" {
     enabled = false
     timeout = ""
   }
-  
+
   tags = {}
 }

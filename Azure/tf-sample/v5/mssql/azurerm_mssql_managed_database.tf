@@ -1,8 +1,9 @@
 resource "azurerm_mssql_managed_database" "tf-sample-mssql-managed-database" {
   managed_instance_id       = ""
   name                      = ""
+  recover_database_id       = ""
   short_term_retention_days = 0
-  
+
   long_term_retention_policy {
     monthly_retention = ""
     week_of_year      = 0
@@ -13,6 +14,6 @@ resource "azurerm_mssql_managed_database" "tf-sample-mssql-managed-database" {
     restore_point_in_time = ""
     source_database_id    = ""
   }
-  
+
   tags = {}
 }

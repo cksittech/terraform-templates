@@ -5,7 +5,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
   resource_group_name          = ""
   revision_mode                = ""
   workload_profile_name        = ""
-  
+
   dapr {
     app_id       = ""
     app_port     = 0
@@ -22,7 +22,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     external_enabled           = false
     target_port                = 0
     transport                  = ""
-    
+
     cors {
       allow_credentials_enabled = false
       allowed_headers           = []
@@ -63,12 +63,12 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     polling_interval_in_seconds      = 0
     revision_suffix                  = ""
     termination_grace_period_seconds = 0
-    
+
     azure_queue_scale_rule {
       name         = ""
       queue_length = 0
       queue_name   = ""
-      
+
       authentication {
         secret_name       = ""
         trigger_parameter = ""
@@ -81,7 +81,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
       image   = ""
       memory  = ""
       name    = ""
-      
+
       env {
         name        = ""
         secret_name = ""
@@ -96,7 +96,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
         port                    = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -112,7 +112,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
         success_count_threshold = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -127,7 +127,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
         port                    = 0
         timeout                 = 0
         transport               = ""
-        
+
         header {
           name  = ""
           value = ""
@@ -144,7 +144,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
       identity_id      = ""
       metadata         = {}
       name             = ""
-      
+
       authentication {
         secret_name       = ""
         trigger_parameter = ""
@@ -153,7 +153,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     http_scale_rule {
       concurrent_requests = ""
       name                = ""
-      
+
       authentication {
         secret_name       = ""
         trigger_parameter = ""
@@ -166,7 +166,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
       image   = ""
       memory  = ""
       name    = ""
-      
+
       env {
         name        = ""
         secret_name = ""
@@ -181,7 +181,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     tcp_scale_rule {
       concurrent_requests = ""
       name                = ""
-      
+
       authentication {
         secret_name       = ""
         trigger_parameter = ""
@@ -194,6 +194,6 @@ resource "azurerm_container_app" "tf-sample-container-app" {
       storage_type  = ""
     }
   }
-  
+
   tags = {}
 }

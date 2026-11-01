@@ -10,7 +10,7 @@ resource "azurerm_container_connected_registry" "tf-sample-container-connected-r
   sync_schedule         = ""
   sync_token_id         = ""
   sync_window           = ""
-  
+
   notification {
     action = ""
     digest = ""

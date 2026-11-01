@@ -4,7 +4,7 @@ resource "azurerm_vpn_server_configuration" "tf-sample-vpn-server-configuration"
   resource_group_name      = ""
   vpn_authentication_types = []
   vpn_protocols            = []
-  
+
   azure_active_directory_authentication {
     audience = ""
     issuer   = ""
@@ -43,6 +43,6 @@ resource "azurerm_vpn_server_configuration" "tf-sample-vpn-server-configuration"
       public_cert_data = ""
     }
   }
-  
+
   tags = {}
 }

@@ -7,11 +7,11 @@ resource "azurerm_mssql_virtual_machine" "tf-sample-mssql-virtual-machine" {
   sql_license_type                 = ""
   sql_virtual_machine_group_id     = ""
   virtual_machine_id               = ""
-  
+
   assessment {
     enabled         = false
     run_immediately = false
-    
+
     schedule {
       day_of_week        = ""
       monthly_occurrence = 0
@@ -25,7 +25,7 @@ resource "azurerm_mssql_virtual_machine" "tf-sample-mssql-virtual-machine" {
     storage_account_access_key      = ""
     storage_blob_endpoint           = ""
     system_databases_backup_enabled = false
-    
+
     manual_schedule {
       days_of_week                    = []
       full_backup_frequency           = ""
@@ -58,7 +58,7 @@ resource "azurerm_mssql_virtual_machine" "tf-sample-mssql-virtual-machine" {
     disk_type                      = ""
     storage_workload_type          = ""
     system_db_on_data_disk_enabled = false
-    
+
     data_settings {
       default_file_path = ""
       luns              = []
@@ -82,6 +82,6 @@ resource "azurerm_mssql_virtual_machine" "tf-sample-mssql-virtual-machine" {
     cluster_operator_account_password  = ""
     sql_service_account_password       = ""
   }
-  
+
   tags = {}
 }

@@ -13,12 +13,12 @@ resource "azurerm_bastion_host" "tf-sample-bastion-host" {
   tunneling_enabled         = false
   virtual_network_id        = ""
   zones                     = []
-  
+
   ip_configuration {
     name                 = ""
     public_ip_address_id = ""
     subnet_id            = ""
   }
-  
+
   tags = {}
 }

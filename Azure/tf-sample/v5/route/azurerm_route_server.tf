@@ -7,6 +7,6 @@ resource "azurerm_route_server" "tf-sample-route-server" {
   resource_group_name              = ""
   sku                              = ""
   subnet_id                        = ""
-  
+
   tags = {}
 }

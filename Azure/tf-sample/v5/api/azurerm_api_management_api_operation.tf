@@ -7,10 +7,10 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
   operation_id        = ""
   resource_group_name = ""
   url_template        = ""
-  
+
   request {
     description = ""
-    
+
     header {
       default_value = ""
       description   = ""
@@ -20,7 +20,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
       type          = ""
       type_name     = ""
       values        = []
-      
+
       example {
         description    = ""
         external_value = ""
@@ -38,7 +38,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
       type          = ""
       type_name     = ""
       values        = []
-      
+
       example {
         description    = ""
         external_value = ""
@@ -51,7 +51,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
       content_type = ""
       schema_id    = ""
       type_name    = ""
-      
+
       example {
         description    = ""
         external_value = ""
@@ -68,7 +68,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
         type          = ""
         type_name     = ""
         values        = []
-        
+
         example {
           description    = ""
           external_value = ""
@@ -82,7 +82,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
   response {
     description = ""
     status_code = 0
-    
+
     header {
       default_value = ""
       description   = ""
@@ -92,7 +92,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
       type          = ""
       type_name     = ""
       values        = []
-      
+
       example {
         description    = ""
         external_value = ""
@@ -105,7 +105,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
       content_type = ""
       schema_id    = ""
       type_name    = ""
-      
+
       example {
         description    = ""
         external_value = ""
@@ -122,7 +122,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
         type          = ""
         type_name     = ""
         values        = []
-        
+
         example {
           description    = ""
           external_value = ""
@@ -142,7 +142,7 @@ resource "azurerm_api_management_api_operation" "tf-sample-api-management-api-op
     type          = ""
     type_name     = ""
     values        = []
-    
+
     example {
       description    = ""
       external_value = ""

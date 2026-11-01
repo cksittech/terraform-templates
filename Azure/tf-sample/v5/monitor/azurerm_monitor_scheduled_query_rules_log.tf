@@ -6,16 +6,16 @@ resource "azurerm_monitor_scheduled_query_rules_log" "tf-sample-monitor-schedule
   location                = ""
   name                    = ""
   resource_group_name     = ""
-  
+
   criteria {
     metric_name = ""
-    
+
     dimension {
       name     = ""
       operator = ""
       values   = []
     }
   }
-  
+
   tags = {}
 }

@@ -6,7 +6,7 @@ resource "azurerm_log_analytics_workspace_table_custom_log" "tf-sample-log-analy
   retention_in_days       = 0
   total_retention_in_days = 0
   workspace_id            = ""
-  
+
   column {
     description  = ""
     display_name = ""

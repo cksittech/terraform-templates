@@ -22,7 +22,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
   partition_merge_enabled               = false
   public_network_access_enabled         = false
   resource_group_name                   = ""
-  
+
   analytical_storage {
     schema_type = ""
   }
@@ -64,7 +64,7 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
     restore_timestamp_in_utc   = ""
     source_cosmosdb_account_id = ""
     tables_to_restore          = []
-    
+
     database {
       collection_names = []
       name             = ""
@@ -78,6 +78,6 @@ resource "azurerm_cosmosdb_account" "tf-sample-cosmosdb-account" {
     id                                   = ""
     ignore_missing_vnet_service_endpoint = false
   }
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "azurerm_network_manager_admin_rule" "tf-sample-network-manager-admin-r
   priority                 = 0
   protocol                 = ""
   source_port_ranges       = []
-  
+
   destination {
     address_prefix      = ""
     address_prefix_type = ""

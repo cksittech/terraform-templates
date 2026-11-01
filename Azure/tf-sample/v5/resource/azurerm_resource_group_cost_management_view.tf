@@ -6,10 +6,10 @@ resource "azurerm_resource_group_cost_management_view" "tf-sample-resource-group
   report_type       = ""
   resource_group_id = ""
   timeframe         = ""
-  
+
   dataset {
     granularity = ""
-    
+
     aggregation {
       column_name = ""
       name        = ""

@@ -11,7 +11,7 @@ resource "azurerm_signalr_service" "tf-sample-signalr-service" {
   serverless_connection_timeout_in_seconds = 0
   service_mode                             = ""
   tls_client_cert_enabled                  = false
-  
+
   cors {
     allowed_origins = []
   }
@@ -36,6 +36,6 @@ resource "azurerm_signalr_service" "tf-sample-signalr-service" {
     url_template              = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

@@ -10,7 +10,7 @@ resource "azurerm_dashboard_grafana" "tf-sample-dashboard-grafana" {
   sku                                    = ""
   sku_size                               = ""
   zone_redundancy_enabled                = false
-  
+
   azure_monitor_workspace_integrations {
     resource_id = ""
   }
@@ -28,6 +28,6 @@ resource "azurerm_dashboard_grafana" "tf-sample-dashboard-grafana" {
     user                      = ""
     verification_skip_enabled = false
   }
-  
+
   tags = {}
 }

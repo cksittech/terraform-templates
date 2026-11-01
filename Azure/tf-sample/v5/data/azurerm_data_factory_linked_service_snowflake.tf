@@ -7,7 +7,7 @@ resource "azurerm_data_factory_linked_service_snowflake" "tf-sample-data-factory
   integration_runtime_name = ""
   name                     = ""
   parameters               = {}
-  
+
   key_vault_password {
     linked_service_name = ""
     secret_name         = ""

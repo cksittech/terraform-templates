@@ -13,6 +13,6 @@ resource "azurerm_application_insights" "tf-sample-application-insights" {
   retention_in_days                    = 0
   sampling_percentage                  = 0
   workspace_id                         = ""
-  
+
   tags = {}
 }

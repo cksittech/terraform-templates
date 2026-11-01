@@ -5,6 +5,6 @@ resource "azurerm_dns_aaaa_record" "tf-sample-dns-aaaa-record" {
   target_resource_id  = ""
   ttl                 = 0
   zone_name           = ""
-  
+
   tags = {}
 }

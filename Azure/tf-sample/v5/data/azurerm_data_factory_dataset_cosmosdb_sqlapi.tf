@@ -8,7 +8,7 @@ resource "azurerm_data_factory_dataset_cosmosdb_sqlapi" "tf-sample-data-factory-
   linked_service_name   = ""
   name                  = ""
   parameters            = {}
-  
+
   schema_column {
     description = ""
     name        = ""

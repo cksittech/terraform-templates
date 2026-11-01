@@ -12,7 +12,7 @@ resource "azurerm_service_fabric_managed_cluster" "tf-sample-service-fabric-mana
   subnet_id              = ""
   upgrade_wave           = ""
   username               = ""
-  
+
   authentication {
     active_directory {
       client_application_id  = ""
@@ -54,16 +54,16 @@ resource "azurerm_service_fabric_managed_cluster" "tf-sample-service-fabric-mana
     vm_image_version                  = ""
     vm_instance_count                 = 0
     vm_size                           = ""
-    
+
     vm_secrets {
       vault_id = ""
-      
+
       certificates {
         store = ""
         url   = ""
       }
     }
   }
-  
+
   tags = {}
 }

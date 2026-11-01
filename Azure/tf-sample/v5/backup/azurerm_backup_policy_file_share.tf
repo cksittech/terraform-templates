@@ -5,11 +5,11 @@ resource "azurerm_backup_policy_file_share" "tf-sample-backup-policy-file-share"
   resource_group_name        = ""
   snapshot_retention_in_days = 0
   timezone                   = ""
-  
+
   backup {
     frequency = ""
     time      = ""
-    
+
     hourly {
       interval        = 0
       start_time      = ""

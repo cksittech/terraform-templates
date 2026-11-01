@@ -13,11 +13,11 @@ resource "azurerm_log_analytics_workspace" "tf-sample-log-analytics-workspace" {
   resource_group_name                     = ""
   retention_in_days                       = 0
   sku                                     = ""
-  
+
   identity {
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

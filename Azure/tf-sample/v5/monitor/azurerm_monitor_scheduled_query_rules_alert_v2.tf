@@ -15,7 +15,7 @@ resource "azurerm_monitor_scheduled_query_rules_alert_v2" "tf-sample-monitor-sch
   target_resource_types             = []
   window_duration                   = ""
   workspace_alerts_storage_enabled  = false
-  
+
   action {
     action_groups     = []
     custom_properties = {}
@@ -28,7 +28,7 @@ resource "azurerm_monitor_scheduled_query_rules_alert_v2" "tf-sample-monitor-sch
     resource_id_column      = ""
     threshold               = 0
     time_aggregation_method = ""
-    
+
     dimension {
       name     = ""
       operator = ""
@@ -43,6 +43,6 @@ resource "azurerm_monitor_scheduled_query_rules_alert_v2" "tf-sample-monitor-sch
     identity_ids = []
     type         = ""
   }
-  
+
   tags = {}
 }

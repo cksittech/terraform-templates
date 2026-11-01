@@ -6,7 +6,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
   resource_group_name           = ""
   tier                          = ""
   tls_min_version               = ""
-  
+
   component_version {
     kafka = ""
   }
@@ -59,7 +59,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
   private_link_configuration {
     group_id = ""
     name     = ""
-    
+
     ip_configuration {
       name                         = ""
       primary                      = false
@@ -80,7 +80,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -93,7 +93,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
       subnet_id          = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -109,7 +109,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
       username                 = ""
       virtual_network_id       = ""
       vm_size                  = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -123,7 +123,7 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
       username           = ""
       virtual_network_id = ""
       vm_size            = ""
-      
+
       script_actions {
         name       = ""
         parameters = ""
@@ -152,6 +152,6 @@ resource "azurerm_hdinsight_kafka_cluster" "tf-sample-hdinsight-kafka-cluster" {
     storage_account_id        = ""
     user_assigned_identity_id = ""
   }
-  
+
   tags = {}
 }

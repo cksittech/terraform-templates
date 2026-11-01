@@ -10,11 +10,11 @@ resource "azurerm_express_route_circuit" "tf-sample-express-route-circuit" {
   rate_limiting_enabled    = false
   resource_group_name      = ""
   service_provider_name    = ""
-  
+
   sku {
     family = ""
     tier   = ""
   }
-  
+
   tags = {}
 }

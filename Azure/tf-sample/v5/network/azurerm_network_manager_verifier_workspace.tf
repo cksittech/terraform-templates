@@ -3,6 +3,6 @@ resource "azurerm_network_manager_verifier_workspace" "tf-sample-network-manager
   location           = ""
   name               = ""
   network_manager_id = ""
-  
+
   tags = {}
 }

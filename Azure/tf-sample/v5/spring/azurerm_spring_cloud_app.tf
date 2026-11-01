@@ -7,7 +7,7 @@ resource "azurerm_spring_cloud_app" "tf-sample-spring-cloud-app" {
   resource_group_name     = ""
   service_name            = ""
   tls_enabled             = false
-  
+
   custom_persistent_disk {
     mount_options     = []
     mount_path        = ""

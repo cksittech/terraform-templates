@@ -6,7 +6,7 @@ resource "azurerm_spring_cloud_api_portal" "tf-sample-spring-cloud-api-portal" {
   name                          = ""
   public_network_access_enabled = false
   spring_cloud_service_id       = ""
-  
+
   sso {
     client_id     = ""
     client_secret = ""
