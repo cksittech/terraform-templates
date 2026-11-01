@@ -7,7 +7,7 @@ resource "tencentcloud_sqlserver_config_instance_ro_group" "tf-sample-sqlserver-
   read_only_group_id       = ""
   read_only_group_name     = ""
   read_only_max_delay_time = 0
-  
+
   weight_pairs {
     read_only_instance_id = ""
     read_only_weight      = 0

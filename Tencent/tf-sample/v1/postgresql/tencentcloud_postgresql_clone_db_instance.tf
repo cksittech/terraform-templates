@@ -15,12 +15,12 @@ resource "tencentcloud_postgresql_clone_db_instance" "tf-sample-postgresql-clone
   subnet_id            = ""
   sync_mode            = ""
   vpc_id               = ""
-  
+
   db_node_set {
     dedicated_cluster_id = ""
     role                 = ""
     zone                 = ""
   }
-  
+
   tags = {}
 }

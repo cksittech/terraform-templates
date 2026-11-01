@@ -1,10 +1,10 @@
 resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
   job_id = ""
-  
+
   dynamic_objects {
     advanced_objects = []
     mode             = ""
-    
+
     databases {
       db_mode         = ""
       db_name         = ""
@@ -22,7 +22,7 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
       trigger_mode    = ""
       triggers        = []
       view_mode       = ""
-      
+
       tables {
         column_mode      = ""
         filter_condition = ""
@@ -30,7 +30,7 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
         table_edit_mode  = ""
         table_name       = ""
         tmp_tables       = []
-        
+
         columns {
           column_name     = ""
           new_column_name = ""
@@ -43,10 +43,10 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
     }
     databases_op_filter {
       db_name = ""
-      
+
       op_filter {
         op_types = []
-        
+
         ddl_options {
           ddl_object = ""
           ddl_value  = []
@@ -54,10 +54,10 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
       }
       tables {
         table_name = ""
-        
+
         op_filter {
           op_types = []
-          
+
           ddl_options {
             ddl_object = ""
             ddl_value  = []
@@ -66,10 +66,10 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
       }
       views {
         view_name = ""
-        
+
         op_filter {
           op_types = []
-          
+
           ddl_options {
             ddl_object = ""
             ddl_value  = []
@@ -85,7 +85,7 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
     filter_checkpoint        = false
     op_types                 = []
     start_position           = ""
-    
+
     conflict_handle_option {
       condition_column               = ""
       condition_operator             = ""
@@ -99,7 +99,7 @@ resource "tencentcloud_dts_sync_job_config" "tf-sample-dts-sync-job-config" {
       data_type      = ""
       ddl_topic_name = ""
       topic_type     = ""
-      
+
       data_option {
         key   = ""
         value = ""

@@ -6,7 +6,7 @@ resource "tencentcloud_cos_batch" "tf-sample-cos-batch" {
   role_arn              = ""
   status                = ""
   uin                   = ""
-  
+
   manifest {
     location {
       etag              = ""
@@ -35,7 +35,7 @@ resource "tencentcloud_cos_batch" "tf-sample-cos-batch" {
       target_key_prefix           = ""
       target_resource             = ""
       unmodified_since_constraint = 0
-      
+
       access_control_grants {
         display_name    = ""
         identifier      = ""
@@ -49,7 +49,7 @@ resource "tencentcloud_cos_batch" "tf-sample-cos-batch" {
         content_type        = ""
         http_expires_date   = ""
         sse_algorithm       = ""
-        
+
         user_metadata {
           key   = ""
           value = ""

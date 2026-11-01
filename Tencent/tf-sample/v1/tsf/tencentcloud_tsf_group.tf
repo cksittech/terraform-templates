@@ -5,6 +5,6 @@ resource "tencentcloud_tsf_group" "tf-sample-tsf-group" {
   group_desc     = ""
   group_name     = ""
   namespace_id   = ""
-  
+
   tags = {}
 }

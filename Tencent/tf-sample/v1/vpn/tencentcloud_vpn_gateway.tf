@@ -10,6 +10,6 @@ resource "tencentcloud_vpn_gateway" "tf-sample-vpn-gateway" {
   type               = ""
   vpc_id             = ""
   zone               = ""
-  
+
   tags = {}
 }

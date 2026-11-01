@@ -26,6 +26,6 @@ resource "tencentcloud_redis_instance" "tf-sample-redis-instance" {
   vpc_id             = ""
   wait_switch        = 0
   wan_address_switch = ""
-  
+
   tags = {}
 }

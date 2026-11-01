@@ -19,6 +19,6 @@ resource "tencentcloud_sqlserver_readonly_instance" "tf-sample-sqlserver-readonl
   time_zone                        = ""
   voucher_ids                      = []
   vpc_id                           = ""
-  
+
   tags = {}
 }

@@ -1,7 +1,7 @@
 resource "tencentcloud_ci_media_transcode_template" "tf-sample-ci-media-transcode-template" {
   bucket = ""
   name   = ""
-  
+
   audio {
     bitrate         = ""
     channels        = ""
@@ -16,7 +16,7 @@ resource "tencentcloud_ci_media_transcode_template" "tf-sample-ci-media-transcod
     audio_source = ""
     mix_mode     = ""
     replace      = ""
-    
+
     effect_config {
       bgm_fade_time       = ""
       enable_bgm_fade     = ""
@@ -28,7 +28,7 @@ resource "tencentcloud_ci_media_transcode_template" "tf-sample-ci-media-transcod
   }
   container {
     format = ""
-    
+
     clip_config {
       duration = ""
     }
@@ -47,7 +47,7 @@ resource "tencentcloud_ci_media_transcode_template" "tf-sample-ci-media-transcod
     is_hdr2_sdr              = ""
     reso_adj_method          = ""
     video_bitrate_adj_method = ""
-    
+
     hls_encrypt {
       is_hls_encrypt = ""
       uri_key        = ""

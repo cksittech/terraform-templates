@@ -12,7 +12,7 @@ resource "tencentcloud_tsf_task" "tf-sample-tsf-task" {
   task_name        = ""
   task_type        = ""
   time_out         = 0
-  
+
   advance_settings {
     sub_task_concurrency = 0
   }

@@ -7,6 +7,6 @@ resource "tencentcloud_image" "tf-sample-image" {
   instance_id       = ""
   snapshot_ids      = []
   sysprep           = false
-  
+
   tags = {}
 }

@@ -4,6 +4,6 @@ resource "tencentcloud_ssl_certificate" "tf-sample-ssl-certificate" {
   name       = ""
   project_id = 0
   type       = ""
-  
+
   tags = {}
 }

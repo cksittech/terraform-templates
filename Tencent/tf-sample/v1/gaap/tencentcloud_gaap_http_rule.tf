@@ -13,7 +13,7 @@ resource "tencentcloud_gaap_http_rule" "tf-sample-gaap-http-rule" {
   scheduler                 = ""
   sni                       = ""
   sni_switch                = ""
-  
+
   realservers {
     id     = ""
     ip     = ""

@@ -16,7 +16,7 @@ resource "tencentcloud_vdb_instance" "tf-sample-vdb-instance" {
   subnet_id          = ""
   vpc_id             = ""
   worker_node_num    = 0
-  
+
   resource_tags {
     tag_key   = ""
     tag_value = ""

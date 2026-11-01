@@ -4,7 +4,7 @@ resource "tencentcloud_cynosdb_cluster_databases" "tf-sample-cynosdb-cluster-dat
   collate_rule  = ""
   db_name       = ""
   description   = ""
-  
+
   user_host_privileges {
     db_host      = ""
     db_privilege = ""

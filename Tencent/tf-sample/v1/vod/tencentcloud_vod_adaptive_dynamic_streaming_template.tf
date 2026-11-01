@@ -7,11 +7,11 @@ resource "tencentcloud_vod_adaptive_dynamic_streaming_template" "tf-sample-vod-a
   name                            = ""
   segment_type                    = ""
   sub_app_id                      = 0
-  
+
   stream_info {
     remove_audio = false
     remove_video = false
-    
+
     audio {
       audio_channel = ""
       bitrate       = 0

@@ -10,6 +10,6 @@ resource "tencentcloud_cos_bucket_object" "tf-sample-cos-bucket-object" {
   key                 = ""
   source              = ""
   storage_class       = ""
-  
+
   tags = {}
 }

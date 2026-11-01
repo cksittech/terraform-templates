@@ -8,7 +8,7 @@ resource "tencentcloud_cls_kafka_recharge" "tf-sample-cls-kafka-recharge" {
   server_addr         = ""
   topic_id            = ""
   user_kafka_topics   = ""
-  
+
   log_recharge_rule {
     default_time_src      = 0
     default_time_switch   = false

@@ -1,5 +1,4 @@
 resource "tencentcloud_wedata_lineage_attachment" "tf-sample-wedata-lineage-attachment" {
-  
   relations {
     processes {
       lineage_node_id  = ""
@@ -7,7 +6,7 @@ resource "tencentcloud_wedata_lineage_attachment" "tf-sample-wedata-lineage-atta
       process_id       = ""
       process_sub_type = ""
       process_type     = ""
-      
+
       process_properties {
         name  = ""
         value = ""
@@ -22,7 +21,7 @@ resource "tencentcloud_wedata_lineage_attachment" "tf-sample-wedata-lineage-atta
       resource_type      = ""
       resource_unique_id = ""
       update_time        = ""
-      
+
       resource_properties {
         name  = ""
         value = ""
@@ -37,7 +36,7 @@ resource "tencentcloud_wedata_lineage_attachment" "tf-sample-wedata-lineage-atta
       resource_type      = ""
       resource_unique_id = ""
       update_time        = ""
-      
+
       resource_properties {
         name  = ""
         value = ""

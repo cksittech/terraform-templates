@@ -3,7 +3,7 @@ resource "tencentcloud_css_record_template" "tf-sample-css-record-template" {
   is_delay_live    = 0
   remove_watermark = false
   template_name    = ""
-  
+
   aac_param {
     class_id        = 0
     enable          = 0

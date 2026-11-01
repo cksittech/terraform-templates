@@ -7,7 +7,7 @@ resource "tencentcloud_scf_provisioned_concurrency_config" "tf-sample-scf-provis
   qualifier                           = ""
   tracking_target                     = 0
   version_provisioned_concurrency_num = 0
-  
+
   trigger_actions {
     provisioned_type                    = ""
     trigger_cron_config                 = ""

@@ -26,7 +26,7 @@ resource "tencentcloud_mysql_clone_instance" "tf-sample-mysql-clone-instance" {
   uniq_vpc_id             = ""
   volume                  = 0
   zone                    = ""
-  
+
   cluster_topology {
     read_only_nodes {
       is_random_zone = ""

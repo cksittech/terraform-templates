@@ -5,7 +5,7 @@ resource "tencentcloud_tsf_lane_rule" "tf-sample-tsf-lane-rule" {
   remark                = ""
   rule_name             = ""
   rule_tag_relationship = ""
-  
+
   rule_tag_list {
     create_time  = 0
     lane_rule_id = ""

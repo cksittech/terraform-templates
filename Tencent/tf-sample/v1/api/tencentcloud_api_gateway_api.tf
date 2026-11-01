@@ -51,7 +51,7 @@ resource "tencentcloud_api_gateway_api" "tf-sample-api-gateway-api" {
   test_limit                                            = 0
   token_timeout                                         = 0
   user_type                                             = ""
-  
+
   constant_parameters {
     default_value = ""
     desc          = ""

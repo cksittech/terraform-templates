@@ -2,7 +2,7 @@ resource "tencentcloud_monitor_alarm_notice" "tf-sample-monitor-alarm-notice" {
   name            = ""
   notice_language = ""
   notice_type     = ""
-  
+
   cls_notices {
     enable     = 0
     log_set_id = ""

@@ -9,7 +9,7 @@ resource "tencentcloud_tcr_instance" "tf-sample-tcr-instance" {
   name                                    = ""
   open_public_operation                   = false
   registry_charge_type                    = 0
-  
+
   replications {
     region_id   = 0
     region_name = ""
@@ -19,6 +19,6 @@ resource "tencentcloud_tcr_instance" "tf-sample-tcr-instance" {
     cidr_block  = ""
     description = ""
   }
-  
+
   tags = {}
 }

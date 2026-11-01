@@ -8,6 +8,6 @@ resource "tencentcloud_nat_gateway" "tf-sample-nat-gateway" {
   subnet_id                               = ""
   vpc_id                                  = ""
   zone                                    = ""
-  
+
   tags = {}
 }

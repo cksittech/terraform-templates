@@ -4,7 +4,7 @@ resource "tencentcloud_mongodb_audit_log_file" "tf-sample-mongodb-audit-log-file
   order       = ""
   order_by    = ""
   start_time  = ""
-  
+
   filter {
     affect_rows = 0
     atype       = []

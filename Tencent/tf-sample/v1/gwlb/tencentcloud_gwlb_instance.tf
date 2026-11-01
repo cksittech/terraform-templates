@@ -3,7 +3,7 @@ resource "tencentcloud_gwlb_instance" "tf-sample-gwlb-instance" {
   load_balancer_name = ""
   subnet_id          = ""
   vpc_id             = ""
-  
+
   tags {
     tag_key   = ""
     tag_value = ""

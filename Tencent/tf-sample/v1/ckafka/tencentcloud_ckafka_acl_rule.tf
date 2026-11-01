@@ -5,7 +5,7 @@ resource "tencentcloud_ckafka_acl_rule" "tf-sample-ckafka-acl-rule" {
   pattern_type  = ""
   resource_type = ""
   rule_name     = ""
-  
+
   rule_list {
     host            = ""
     operation       = ""

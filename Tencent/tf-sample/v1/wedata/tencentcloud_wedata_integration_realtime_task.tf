@@ -4,7 +4,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
   sync_type   = 0
   task_mode   = ""
   task_name   = ""
-  
+
   task_info {
     app_id                  = ""
     create_time             = ""
@@ -40,7 +40,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
     task_group_id           = ""
     update_time             = ""
     workflow_id             = ""
-    
+
     config {
       name  = ""
       value = ""
@@ -56,7 +56,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
     mappings {
       sink_id   = ""
       source_id = ""
-      
+
       ext_config {
         name  = ""
         value = ""
@@ -72,7 +72,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
         name    = ""
         type    = ""
         value   = ""
-        
+
         properties {
           name  = ""
           value = ""
@@ -94,7 +94,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
       project_id       = ""
       task_id          = ""
       update_time      = ""
-      
+
       config {
         name  = ""
         value = ""
@@ -106,7 +106,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
       node_mapping {
         sink_id   = ""
         source_id = ""
-        
+
         ext_config {
           name  = ""
           value = ""
@@ -122,7 +122,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
           name    = ""
           type    = ""
           value   = ""
-          
+
           properties {
             name  = ""
             value = ""
@@ -136,7 +136,7 @@ resource "tencentcloud_wedata_integration_realtime_task" "tf-sample-wedata-integ
         name    = ""
         type    = ""
         value   = ""
-        
+
         properties {
           name  = ""
           value = ""

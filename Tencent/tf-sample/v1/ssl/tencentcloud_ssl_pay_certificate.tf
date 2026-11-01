@@ -5,7 +5,7 @@ resource "tencentcloud_ssl_pay_certificate" "tf-sample-ssl-pay-certificate" {
   product_id     = 0
   project_id     = 0
   time_span      = 0
-  
+
   information {
     admin_email           = ""
     admin_first_name      = ""

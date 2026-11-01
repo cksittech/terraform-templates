@@ -6,7 +6,7 @@ resource "tencentcloud_cvm_chc_config" "tf-sample-cvm-chc-config" {
   device_type               = ""
   instance_name             = ""
   password                  = ""
-  
+
   bmc_virtual_private_cloud {
     as_vpc_gateway       = false
     ipv6_address_count   = 0

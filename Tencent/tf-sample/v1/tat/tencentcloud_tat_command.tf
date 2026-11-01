@@ -10,7 +10,7 @@ resource "tencentcloud_tat_command" "tf-sample-tat-command" {
   timeout               = 0
   username              = ""
   working_directory     = ""
-  
+
   tags {
     key   = ""
     value = ""

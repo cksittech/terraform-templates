@@ -2,14 +2,14 @@ resource "tencentcloud_mps_flow" "tf-sample-mps-flow" {
   event_id      = ""
   flow_name     = ""
   max_bandwidth = 0
-  
+
   input_group {
     allow_ip_list = []
     description   = ""
     fail_over     = ""
     input_name    = ""
     protocol      = ""
-    
+
     hls_pull_settings {
       source_addresses {
         url = ""
@@ -43,7 +43,7 @@ resource "tencentcloud_mps_flow" "tf-sample-mps-flow" {
       peer_latency      = 0
       recv_latency      = 0
       stream_id         = ""
-      
+
       source_addresses {
         ip   = ""
         port = 0

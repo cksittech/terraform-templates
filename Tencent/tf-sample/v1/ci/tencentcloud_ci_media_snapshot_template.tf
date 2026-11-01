@@ -1,7 +1,7 @@
 resource "tencentcloud_ci_media_snapshot_template" "tf-sample-ci-media-snapshot-template" {
   bucket = ""
   name   = ""
-  
+
   snapshot {
     black_level           = ""
     ci_param              = ""
@@ -15,7 +15,7 @@ resource "tencentcloud_ci_media_snapshot_template" "tf-sample-ci-media-snapshot-
     start                 = ""
     time_interval         = ""
     width                 = ""
-    
+
     sprite_snapshot_config {
       cell_height = ""
       cell_width  = ""

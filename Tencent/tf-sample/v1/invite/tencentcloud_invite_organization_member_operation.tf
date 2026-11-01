@@ -8,7 +8,7 @@ resource "tencentcloud_invite_organization_member_operation" "tf-sample-invite-o
   policy_type        = ""
   relation_auth_name = ""
   remark             = ""
-  
+
   auth_file {
     name = ""
     url  = ""

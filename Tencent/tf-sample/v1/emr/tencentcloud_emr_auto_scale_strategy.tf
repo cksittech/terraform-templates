@@ -1,7 +1,7 @@
 resource "tencentcloud_emr_auto_scale_strategy" "tf-sample-emr-auto-scale-strategy" {
   instance_id   = ""
   strategy_type = 0
-  
+
   load_auto_scale_strategy {
     calm_down_time        = 0
     config_group_assigned = ""
@@ -17,14 +17,14 @@ resource "tencentcloud_emr_auto_scale_strategy" "tf-sample-emr-auto-scale-strate
     strategy_name         = ""
     strategy_status       = 0
     yarn_node_label       = ""
-    
+
     load_metrics_conditions {
       load_metrics {
         load_metrics      = ""
         metric_id         = 0
         statistic_period  = 0
         trigger_threshold = 0
-        
+
         conditions {
           compare_method = 0
           threshold      = 0
@@ -54,11 +54,11 @@ resource "tencentcloud_emr_auto_scale_strategy" "tf-sample-emr-auto-scale-strate
     strategy_name         = ""
     strategy_status       = 0
     terminate_policy      = ""
-    
+
     repeat_strategy {
       expire      = ""
       repeat_type = ""
-      
+
       day_repeat {
         execute_at_time_of_day = ""
         step                   = 0

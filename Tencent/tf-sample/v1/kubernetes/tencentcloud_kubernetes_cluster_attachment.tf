@@ -8,7 +8,7 @@ resource "tencentcloud_kubernetes_cluster_attachment" "tf-sample-kubernetes-clus
   password        = ""
   security_groups = []
   unschedulable   = 0
-  
+
   worker_config {
     desired_pod_num       = 0
     docker_graph_path     = ""
@@ -16,7 +16,7 @@ resource "tencentcloud_kubernetes_cluster_attachment" "tf-sample-kubernetes-clus
     mount_target          = ""
     pre_start_user_script = ""
     user_script           = ""
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""
@@ -40,7 +40,7 @@ resource "tencentcloud_kubernetes_cluster_attachment" "tf-sample-kubernetes-clus
   }
   worker_config_overrides {
     desired_pod_num = 0
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""

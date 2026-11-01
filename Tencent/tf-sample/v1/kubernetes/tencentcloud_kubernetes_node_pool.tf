@@ -24,7 +24,7 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
   vpc_id                    = ""
   wait_node_ready           = false
   zones                     = []
-  
+
   annotations {
     name  = ""
     value = ""
@@ -55,7 +55,7 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
     spot_max_price                          = ""
     system_disk_size                        = 0
     system_disk_type                        = ""
-    
+
     data_disk {
       delete_with_instance   = false
       disk_size              = 0
@@ -73,7 +73,7 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
     mount_target          = ""
     pre_start_user_script = ""
     user_data             = ""
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""
@@ -95,6 +95,6 @@ resource "tencentcloud_kubernetes_node_pool" "tf-sample-kubernetes-node-pool" {
     key    = ""
     value  = ""
   }
-  
+
   tags = {}
 }

@@ -13,7 +13,7 @@ resource "tencentcloud_tem_workload" "tf-sample-tem-workload" {
   repo_type          = 0
   security_group_ids = []
   tcr_instance_id    = ""
-  
+
   deploy_strategy_conf {
     batch_interval       = 0
     beta_batch_num       = 0

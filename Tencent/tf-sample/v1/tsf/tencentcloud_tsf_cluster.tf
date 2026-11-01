@@ -16,6 +16,6 @@ resource "tencentcloud_tsf_cluster" "tf-sample-tsf-cluster" {
   tsf_region_id           = ""
   tsf_zone_id             = ""
   vpc_id                  = ""
-  
+
   tags = {}
 }

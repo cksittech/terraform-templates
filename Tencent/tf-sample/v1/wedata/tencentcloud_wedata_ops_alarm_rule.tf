@@ -6,18 +6,18 @@ resource "tencentcloud_wedata_ops_alarm_rule" "tf-sample-wedata-ops-alarm-rule" 
   monitor_object_ids  = []
   monitor_object_type = 0
   project_id          = ""
-  
+
   alarm_groups {
     alarm_escalation_interval      = 0
     alarm_escalation_recipient_ids = []
     alarm_recipient_ids            = []
     alarm_recipient_type           = 0
     alarm_ways                     = []
-    
+
     notification_fatigue {
       notify_count    = 0
       notify_interval = 0
-      
+
       quiet_intervals {
         days_of_week = []
         end_time     = ""
@@ -32,7 +32,7 @@ resource "tencentcloud_wedata_ops_alarm_rule" "tf-sample-wedata-ops-alarm-rule" 
   alarm_rule_detail {
     data_backfill_or_rerun_trigger = 0
     trigger                        = 0
-    
+
     data_backfill_or_rerun_time_out_ext_info {
       hour               = 0
       min                = 0

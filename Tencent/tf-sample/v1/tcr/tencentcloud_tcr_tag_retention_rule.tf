@@ -3,7 +3,7 @@ resource "tencentcloud_tcr_tag_retention_rule" "tf-sample-tcr-tag-retention-rule
   disabled       = false
   namespace_name = ""
   registry_id    = ""
-  
+
   advanced_rule_items {
     repository_filter {
       decoration = ""

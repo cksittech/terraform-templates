@@ -9,10 +9,10 @@ resource "tencentcloud_monitor_alarm_policy" "tf-sample-monitor-alarm-policy" {
   policy_name          = ""
   project_id           = 0
   remark               = ""
-  
+
   conditions {
     is_union_rule = 0
-    
+
     rules {
       continue_period  = 0
       description      = ""
@@ -24,7 +24,7 @@ resource "tencentcloud_monitor_alarm_policy" "tf-sample-monitor-alarm-policy" {
       rule_type        = ""
       unit             = ""
       value            = ""
-      
+
       filter {
         dimensions = ""
         type       = ""
@@ -42,7 +42,7 @@ resource "tencentcloud_monitor_alarm_policy" "tf-sample-monitor-alarm-policy" {
     rule_type        = ""
     unit             = ""
     value            = ""
-    
+
     filter {
       dimensions = ""
       type       = ""

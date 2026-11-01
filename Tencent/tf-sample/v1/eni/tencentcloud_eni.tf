@@ -5,12 +5,12 @@ resource "tencentcloud_eni" "tf-sample-eni" {
   orderly_security_groups = []
   subnet_id               = ""
   vpc_id                  = ""
-  
+
   ipv4s {
     description = ""
     ip          = ""
     primary     = false
   }
-  
+
   tags = {}
 }

@@ -15,10 +15,10 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   specific_config_mainland     = ""
   specific_config_overseas     = ""
   video_seek_switch            = ""
-  
+
   authentication {
     switch = ""
-    
+
     type_a {
       backup_secret_key = ""
       expire_time       = 0
@@ -54,7 +54,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   auto_guard {
     switch = ""
-    
+
     filter_rules {
       filter_type = ""
       rule_paths  = []
@@ -75,7 +75,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     counter_measure  = ""
     metric           = ""
     switch           = ""
-    
+
     statistic_item {
       alert_percentage = 0
       alert_switch     = ""
@@ -91,14 +91,14 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   cache_key {
     full_url_cache = ""
     ignore_case    = ""
-    
+
     key_rules {
       full_url_cache = ""
       ignore_case    = ""
       rule_paths     = []
       rule_tag       = ""
       rule_type      = ""
-      
+
       query_string {
         action = ""
         switch = ""
@@ -114,7 +114,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   compression {
     switch = ""
-    
+
     compression_rules {
       algorithms      = []
       compress        = false
@@ -127,7 +127,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   downstream_capping {
     switch = ""
-    
+
     capping_rules {
       kbps_threshold = 0
       rule_paths     = []
@@ -136,7 +136,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   error_page {
     switch = ""
-    
+
     page_rules {
       redirect_code = 0
       redirect_url  = ""
@@ -145,7 +145,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   geo_blocker {
     switch = ""
-    
+
     block_rules {
       block_type = ""
       districts  = []
@@ -163,7 +163,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     spdy_switch          = ""
     tls_versions         = []
     verify_client        = ""
-    
+
     client_certificate_config {
       certificate_content = ""
     }
@@ -196,7 +196,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     filters     = []
     return_code = 0
     switch      = ""
-    
+
     filter_rules {
       filter_type = ""
       filters     = []
@@ -210,7 +210,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   max_age {
     switch = ""
-    
+
     max_age_rules {
       follow_origin    = ""
       max_age_contents = []
@@ -228,7 +228,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
     origin_pull_protocol = ""
     origin_type          = ""
     server_name          = ""
-    
+
     path_rules {
       forward_uri = ""
       full_match  = false
@@ -272,7 +272,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   range_origin_pull {
     switch = ""
-    
+
     range_rules {
       rule_paths = []
       rule_type  = ""
@@ -281,7 +281,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   referer {
     switch = ""
-    
+
     referer_rules {
       allow_empty  = false
       referer_type = ""
@@ -292,7 +292,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   request_header {
     switch = ""
-    
+
     header_rules {
       header_mode  = ""
       header_name  = ""
@@ -303,7 +303,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   response_header {
     switch = ""
-    
+
     header_rules {
       header_mode  = ""
       header_name  = ""
@@ -328,7 +328,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   status_code_cache {
     switch = ""
-    
+
     cache_rules {
       cache_time  = 0
       status_code = ""
@@ -336,7 +336,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   url_redirect {
     switch = ""
-    
+
     path_rules {
       full_match           = false
       pattern              = ""
@@ -347,7 +347,7 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
   }
   user_agent_filter {
     switch = ""
-    
+
     filter_rules {
       filter_type = ""
       rule_paths  = []
@@ -355,6 +355,6 @@ resource "tencentcloud_cdn_domain" "tf-sample-cdn-domain" {
       user_agents = []
     }
   }
-  
+
   tags = {}
 }

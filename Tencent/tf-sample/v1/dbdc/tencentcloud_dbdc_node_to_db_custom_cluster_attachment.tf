@@ -4,7 +4,7 @@ resource "tencentcloud_dbdc_node_to_db_custom_cluster_attachment" "tf-sample-dbd
   host_name_type = 0
   image_id       = ""
   node_id        = ""
-  
+
   labels {
     key   = ""
     value = ""

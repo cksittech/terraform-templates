@@ -1,7 +1,7 @@
 resource "tencentcloud_dcdb_account_privileges" "tf-sample-dcdb-account-privileges" {
   global_privileges = []
   instance_id       = ""
-  
+
   account {
     host = ""
     user = ""

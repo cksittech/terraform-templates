@@ -6,7 +6,7 @@ resource "tencentcloud_dbbrain_sql_filter" "tf-sample-dbbrain-sql-filter" {
   product         = ""
   sql_type        = ""
   status          = ""
-  
+
   session_token {
     password = ""
     user     = ""

@@ -9,11 +9,11 @@ resource "tencentcloud_mariadb_hour_db_instance" "tf-sample-mariadb-hour-db-inst
   vip           = ""
   vpc_id        = ""
   zones         = []
-  
+
   init_params {
     param = ""
     value = ""
   }
-  
+
   tags = {}
 }

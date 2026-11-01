@@ -13,7 +13,7 @@ resource "tencentcloud_waf_clb_domain" "tf-sample-waf-clb-domain" {
   note            = ""
   region          = ""
   status          = 0
-  
+
   load_balancer_set {
     listener_id          = ""
     listener_name        = ""

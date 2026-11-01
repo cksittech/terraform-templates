@@ -4,13 +4,13 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
   datasource_connection_type = ""
   network_connection_desc    = ""
   network_connection_type    = 0
-  
+
   datasource_connection_config {
     click_house {
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -22,7 +22,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -44,7 +44,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       kerberos_enable   = false
       meta_store_url    = ""
       type              = ""
-      
+
       kerberos_info {
         key_tab           = ""
         krb5_conf         = ""
@@ -60,7 +60,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
         db_name       = ""
         instance_id   = ""
         instance_name = ""
-        
+
         location {
           subnet_cidr_block = ""
           subnet_id         = ""
@@ -71,7 +71,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
     }
     kafka {
       instance_id = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -83,7 +83,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -103,7 +103,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -115,7 +115,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -128,7 +128,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""
@@ -143,7 +143,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       instance_id             = ""
       instance_name           = ""
       meta_store_url          = ""
-      
+
       tcc_connection {
         clb_ip            = ""
         clb_port          = ""
@@ -157,7 +157,7 @@ resource "tencentcloud_dlc_datasource_house_attachment" "tf-sample-dlc-datasourc
       db_name       = ""
       instance_id   = ""
       instance_name = ""
-      
+
       location {
         subnet_cidr_block = ""
         subnet_id         = ""

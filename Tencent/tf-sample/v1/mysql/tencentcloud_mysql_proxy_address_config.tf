@@ -15,11 +15,11 @@ resource "tencentcloud_mysql_proxy_address_config" "tf-sample-mysql-proxy-addres
   read_only              = false
   trans_split            = false
   weight_mode            = ""
-  
+
   proxy_allocation {
     region = ""
     zone   = ""
-    
+
     proxy_instance {
       instance_id = ""
       weight      = 0

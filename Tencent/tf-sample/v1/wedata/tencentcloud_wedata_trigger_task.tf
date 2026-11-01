@@ -2,7 +2,7 @@ resource "tencentcloud_wedata_trigger_task" "tf-sample-wedata-trigger-task" {
   delete_mode    = false
   operate_inform = false
   project_id     = ""
-  
+
   trigger_task_base_attribute {
     owner_uin        = ""
     task_description = ""
@@ -25,7 +25,7 @@ resource "tencentcloud_wedata_trigger_task" "tf-sample-wedata-trigger-task" {
     target_service_name = ""
     target_service_type = ""
     yarn_queue          = ""
-    
+
     task_ext_configuration_list {
       param_key   = ""
       param_value = ""
@@ -42,7 +42,7 @@ resource "tencentcloud_wedata_trigger_task" "tf-sample-wedata-trigger-task" {
     retry_wait_minute               = 0
     run_priority_type               = 0
     wait_execution_total_ttl_minute = 0
-    
+
     param_task_in_list {
       from_param_key = ""
       from_task_id   = ""

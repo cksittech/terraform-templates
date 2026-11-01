@@ -11,11 +11,11 @@ resource "tencentcloud_vpn_ssl_server" "tf-sample-vpn-ssl-server" {
   ssl_vpn_server_name   = ""
   sso_enabled           = false
   vpn_gateway_id        = ""
-  
+
   dns_servers {
     primary_dns   = ""
     secondary_dns = ""
   }
-  
+
   tags = {}
 }

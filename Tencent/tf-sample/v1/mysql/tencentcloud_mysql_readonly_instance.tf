@@ -23,7 +23,7 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
   vpc_id             = ""
   wait_switch        = 0
   zone               = ""
-  
+
   cluster_topology {
     read_only_nodes {
       is_random_zone = false
@@ -35,6 +35,6 @@ resource "tencentcloud_mysql_readonly_instance" "tf-sample-mysql-readonly-instan
       zone    = ""
     }
   }
-  
+
   tags = {}
 }

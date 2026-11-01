@@ -4,7 +4,7 @@ resource "tencentcloud_clb_attachment" "tf-sample-clb-attachment" {
   listener_id = ""
   rule_id     = ""
   url         = ""
-  
+
   targets {
     eni_ip      = ""
     instance_id = ""

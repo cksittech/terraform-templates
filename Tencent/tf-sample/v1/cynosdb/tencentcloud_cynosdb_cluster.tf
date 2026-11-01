@@ -35,7 +35,7 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
   subnet_id                    = ""
   sync_way                     = ""
   vpc_id                       = ""
-  
+
   instance_init_infos {
     cpu            = 0
     device_type    = ""
@@ -52,6 +52,6 @@ resource "tencentcloud_cynosdb_cluster" "tf-sample-cynosdb-cluster" {
     name          = ""
     old_value     = ""
   }
-  
+
   tags = {}
 }

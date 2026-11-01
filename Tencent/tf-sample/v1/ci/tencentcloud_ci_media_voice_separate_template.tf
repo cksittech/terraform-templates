@@ -2,7 +2,7 @@ resource "tencentcloud_ci_media_voice_separate_template" "tf-sample-ci-media-voi
   audio_mode = ""
   bucket     = ""
   name       = ""
-  
+
   audio_config {
     bitrate    = ""
     channels   = ""

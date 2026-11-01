@@ -20,7 +20,7 @@ resource "tencentcloud_dcdb_db_instance" "tf-sample-dcdb-db-instance" {
   voucher_ids        = []
   vpc_id             = ""
   zones              = []
-  
+
   init_params {
     param = ""
     value = ""

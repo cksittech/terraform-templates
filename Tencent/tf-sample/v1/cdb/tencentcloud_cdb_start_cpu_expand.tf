@@ -2,7 +2,7 @@ resource "tencentcloud_cdb_start_cpu_expand" "tf-sample-cdb-start-cpu-expand" {
   expand_cpu  = 0
   instance_id = ""
   type        = ""
-  
+
   auto_strategy {
     expand_second_period = 0
     expand_threshold     = 0

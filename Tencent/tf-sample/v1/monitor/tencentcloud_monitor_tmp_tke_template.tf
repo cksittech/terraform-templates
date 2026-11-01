@@ -1,5 +1,4 @@
 resource "tencentcloud_monitor_tmp_tke_template" "tf-sample-monitor-tmp-tke-template" {
-  
   template {
     describe    = ""
     is_default  = false
@@ -8,7 +7,7 @@ resource "tencentcloud_monitor_tmp_tke_template" "tf-sample-monitor-tmp-tke-temp
     template_id = ""
     update_time = ""
     version     = ""
-    
+
     pod_monitors {
       config      = ""
       name        = ""

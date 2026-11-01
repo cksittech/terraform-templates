@@ -1,7 +1,7 @@
 resource "tencentcloud_emr_boot_script" "tf-sample-emr-boot-script" {
   boot_type   = ""
   instance_id = ""
-  
+
   pre_executed_file_settings {
     app_id         = ""
     args           = ""

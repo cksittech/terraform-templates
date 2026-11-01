@@ -3,7 +3,7 @@ resource "tencentcloud_kubernetes_serverless_node_pool" "tf-sample-kubernetes-se
   labels             = {}
   name               = ""
   security_group_ids = []
-  
+
   serverless_nodes {
     display_name = ""
     subnet_id    = ""

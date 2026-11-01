@@ -6,11 +6,11 @@ resource "tencentcloud_waf_api_sec_sensitive_custom_event_rule" "tf-sample-waf-a
   rule_name     = ""
   source        = ""
   status        = 0
-  
+
   api_name_op {
     op    = ""
     value = []
-    
+
     api_name_method {
       api_name = ""
       method   = ""

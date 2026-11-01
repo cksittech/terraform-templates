@@ -31,7 +31,7 @@ resource "tencentcloud_as_scaling_config" "tf-sample-as-scaling-config" {
   system_disk_size                        = 0
   system_disk_type                        = ""
   user_data                               = ""
-  
+
   data_disk {
     delete_with_instance = false
     disk_size            = 0
@@ -46,6 +46,6 @@ resource "tencentcloud_as_scaling_config" "tf-sample-as-scaling-config" {
     instance_name       = ""
     instance_name_style = ""
   }
-  
+
   tags = {}
 }

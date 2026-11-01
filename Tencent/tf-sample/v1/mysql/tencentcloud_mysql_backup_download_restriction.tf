@@ -3,7 +3,7 @@ resource "tencentcloud_mysql_backup_download_restriction" "tf-sample-mysql-backu
   limit_ip              = []
   limit_type            = ""
   vpc_comparison_symbol = ""
-  
+
   limit_vpc {
     region   = ""
     vpc_list = []

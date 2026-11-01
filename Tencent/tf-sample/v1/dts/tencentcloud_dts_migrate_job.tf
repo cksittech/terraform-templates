@@ -3,14 +3,14 @@ resource "tencentcloud_dts_migrate_job" "tf-sample-dts-migrate-job" {
   expect_run_time               = ""
   run_mode                      = ""
   service_id                    = ""
-  
+
   dst_info {
     access_type   = ""
     database_type = ""
     node_type     = ""
     region        = ""
     supplier      = ""
-    
+
     extra_attr {
       key   = ""
       value = ""
@@ -43,14 +43,14 @@ resource "tencentcloud_dts_migrate_job" "tf-sample-dts-migrate-job" {
     is_migrate_account = false
     is_override_root   = false
     migrate_type       = ""
-    
+
     consistency {
       mode = ""
     }
     database_table {
       advanced_objects = []
       object_mode      = ""
-      
+
       databases {
         db_mode         = ""
         db_name         = ""
@@ -69,7 +69,7 @@ resource "tencentcloud_dts_migrate_job" "tf-sample-dts-migrate-job" {
         trigger_mode    = ""
         triggers        = []
         view_mode       = ""
-        
+
         roles {
           new_role_name = ""
           role_name     = ""
@@ -97,7 +97,7 @@ resource "tencentcloud_dts_migrate_job" "tf-sample-dts-migrate-job" {
     node_type     = ""
     region        = ""
     supplier      = ""
-    
+
     extra_attr {
       key   = ""
       value = ""

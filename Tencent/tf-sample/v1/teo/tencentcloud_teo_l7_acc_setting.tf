@@ -1,6 +1,6 @@
 resource "tencentcloud_teo_l7_acc_setting" "tf-sample-teo-l7-acc-setting" {
   zone_id = ""
-  
+
   zone_config {
     accelerate_mainland {
       switch = ""
@@ -23,7 +23,7 @@ resource "tencentcloud_teo_l7_acc_setting" "tf-sample-teo-l7-acc-setting" {
     cache_key {
       full_url_cache = ""
       ignore_case    = ""
-      
+
       query_string {
         action = ""
         switch = ""

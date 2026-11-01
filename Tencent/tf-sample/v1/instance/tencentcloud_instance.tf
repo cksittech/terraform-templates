@@ -59,7 +59,7 @@ resource "tencentcloud_instance" "tf-sample-instance" {
   user_data_raw                           = ""
   user_data_replace_on_change             = false
   vpc_id                                  = ""
-  
+
   cpu_topology {
     core_count      = 0
     thread_per_core = 0
@@ -76,6 +76,6 @@ resource "tencentcloud_instance" "tf-sample-instance" {
     kms_key_id                   = ""
     throughput_performance       = 0
   }
-  
+
   tags = {}
 }

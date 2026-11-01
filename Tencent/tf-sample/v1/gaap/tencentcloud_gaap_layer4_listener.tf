@@ -16,7 +16,7 @@ resource "tencentcloud_gaap_layer4_listener" "tf-sample-gaap-layer4-listener" {
   scheduler           = ""
   send_context        = ""
   unhealthy_threshold = 0
-  
+
   realserver_bind_set {
     id     = ""
     ip     = ""

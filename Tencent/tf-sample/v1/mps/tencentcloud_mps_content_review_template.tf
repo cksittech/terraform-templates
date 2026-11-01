@@ -1,7 +1,7 @@
 resource "tencentcloud_mps_content_review_template" "tf-sample-mps-content-review-template" {
   comment = ""
   name    = ""
-  
+
   political_configure {
     asr_review_info {
       block_confidence  = 0

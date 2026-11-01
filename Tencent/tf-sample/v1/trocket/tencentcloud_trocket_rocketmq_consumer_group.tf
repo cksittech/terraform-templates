@@ -5,6 +5,6 @@ resource "tencentcloud_trocket_rocketmq_consumer_group" "tf-sample-trocket-rocke
   instance_id             = ""
   max_retry_times         = 0
   remark                  = ""
-  
+
   tags = {}
 }

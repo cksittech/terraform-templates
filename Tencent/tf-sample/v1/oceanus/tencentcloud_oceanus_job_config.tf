@@ -16,7 +16,7 @@ resource "tencentcloud_oceanus_job_config" "tf-sample-oceanus-job-config" {
   remark              = ""
   task_manager_spec   = 0
   work_space_id       = ""
-  
+
   clazz_levels {
     clazz = ""
     level = ""
@@ -39,7 +39,7 @@ resource "tencentcloud_oceanus_job_config" "tf-sample-oceanus-job-config" {
       parallelism        = 0
       slot_sharing_group = ""
       state_ttl          = ""
-      
+
       configuration {
         key   = ""
         value = ""
@@ -48,7 +48,7 @@ resource "tencentcloud_oceanus_job_config" "tf-sample-oceanus-job-config" {
     slot_sharing_groups {
       description = ""
       name        = ""
-      
+
       spec {
         cpu             = 0
         heap_memory     = ""

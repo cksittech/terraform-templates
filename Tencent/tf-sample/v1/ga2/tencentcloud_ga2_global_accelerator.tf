@@ -4,6 +4,6 @@ resource "tencentcloud_ga2_global_accelerator" "tf-sample-ga2-global-accelerator
   description               = ""
   instance_charge_type      = ""
   name                      = ""
-  
+
   tags = {}
 }

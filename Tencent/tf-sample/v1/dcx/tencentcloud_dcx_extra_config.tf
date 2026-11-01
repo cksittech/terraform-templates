@@ -10,7 +10,7 @@ resource "tencentcloud_dcx_extra_config" "tf-sample-dcx-extra-config" {
   tencent_address          = ""
   tencent_backup_address   = ""
   vlan                     = 0
-  
+
   bfd_info {
     interval           = 0
     probe_failed_times = 0

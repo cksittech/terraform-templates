@@ -4,11 +4,11 @@ resource "tencentcloud_waf_api_sec_sensitive_white_rule" "tf-sample-waf-api-sec-
   rule_name   = ""
   status      = 0
   white_mode  = 0
-  
+
   api_name_op {
     op    = ""
     value = []
-    
+
     api_name_method {
       api_name = ""
       method   = ""

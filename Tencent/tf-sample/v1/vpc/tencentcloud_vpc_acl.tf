@@ -3,6 +3,6 @@ resource "tencentcloud_vpc_acl" "tf-sample-vpc-acl" {
   ingress = []
   name    = ""
   vpc_id  = ""
-  
+
   tags = {}
 }

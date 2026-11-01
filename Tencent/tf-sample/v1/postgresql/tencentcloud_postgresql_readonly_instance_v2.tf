@@ -17,6 +17,6 @@ resource "tencentcloud_postgresql_readonly_instance_v2" "tf-sample-postgresql-re
   voucher_ids           = []
   vpc_id                = ""
   zone                  = ""
-  
+
   tags = {}
 }

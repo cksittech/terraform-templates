@@ -5,6 +5,6 @@ resource "tencentcloud_tdmq_rabbitmq_user" "tf-sample-tdmq-rabbitmq-user" {
   max_connections = 0
   password        = ""
   user            = ""
-  
+
   tags = {}
 }

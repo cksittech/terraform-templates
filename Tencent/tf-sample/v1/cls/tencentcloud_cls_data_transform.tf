@@ -12,7 +12,7 @@ resource "tencentcloud_cls_data_transform" "tf-sample-cls-data-transform" {
   process_to_timestamp   = 0
   src_topic_id           = ""
   task_type              = 0
-  
+
   data_transform_sql_data_sources {
     alias_name  = ""
     data_source = 0

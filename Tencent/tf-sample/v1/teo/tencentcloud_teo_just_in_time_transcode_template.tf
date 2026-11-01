@@ -4,7 +4,7 @@ resource "tencentcloud_teo_just_in_time_transcode_template" "tf-sample-teo-just-
   template_name       = ""
   video_stream_switch = ""
   zone_id             = ""
-  
+
   audio_template {
     audio_channel = 0
     codec         = ""

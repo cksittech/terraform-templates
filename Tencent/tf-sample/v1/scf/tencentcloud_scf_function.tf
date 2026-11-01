@@ -22,7 +22,7 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
   timeout           = 0
   vpc_id            = ""
   zip_file          = ""
-  
+
   cfs_config {
     cfs_id           = ""
     local_mount_dir  = ""
@@ -46,7 +46,7 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
     instance_isolation_enabled = ""
     max_concurrency            = 0
     type                       = ""
-    
+
     mix_node_config {
       node_spec = ""
       num       = 0
@@ -74,6 +74,6 @@ resource "tencentcloud_scf_function" "tf-sample-scf-function" {
     trigger_desc = ""
     type         = ""
   }
-  
+
   tags = {}
 }

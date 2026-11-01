@@ -8,7 +8,7 @@ resource "tencentcloud_security_group_rule" "tf-sample-security-group-rule" {
   security_group_id = ""
   source_sgid       = ""
   type              = ""
-  
+
   address_template {
     group_id    = ""
     template_id = ""

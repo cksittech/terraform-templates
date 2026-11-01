@@ -7,7 +7,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
   job_name                      = ""
   run_mode                      = ""
   src_access_type               = ""
-  
+
   dst_info {
     account          = ""
     account_mode     = ""
@@ -39,7 +39,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
   objects {
     advanced_objects = []
     mode             = ""
-    
+
     databases {
       db_mode         = ""
       db_name         = ""
@@ -57,7 +57,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
       trigger_mode    = ""
       triggers        = []
       view_mode       = ""
-      
+
       tables {
         column_mode      = ""
         filter_condition = ""
@@ -65,7 +65,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
         table_edit_mode  = ""
         table_name       = ""
         tmp_tables       = []
-        
+
         columns {
           column_name     = ""
           new_column_name = ""
@@ -83,7 +83,7 @@ resource "tencentcloud_dts_sync_config" "tf-sample-dts-sync-config" {
     deal_of_exist_same_table = ""
     init_type                = ""
     op_types                 = []
-    
+
     conflict_handle_option {
       condition_column               = ""
       condition_operator             = ""

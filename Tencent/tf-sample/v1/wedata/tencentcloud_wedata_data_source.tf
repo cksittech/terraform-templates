@@ -6,7 +6,7 @@ resource "tencentcloud_wedata_data_source" "tf-sample-wedata-data-source" {
   prod_con_properties = ""
   project_id          = ""
   type                = ""
-  
+
   dev_file_upload {
     core_site   = ""
     hbase_site  = ""

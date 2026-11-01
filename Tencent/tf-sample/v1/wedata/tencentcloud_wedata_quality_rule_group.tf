@@ -1,6 +1,6 @@
 resource "tencentcloud_wedata_quality_rule_group" "tf-sample-wedata-quality-rule-group" {
   project_id = ""
-  
+
   rule_group_exec_strategy_bo_list {
     catalog_name        = ""
     cycle_step          = 0
@@ -27,7 +27,7 @@ resource "tencentcloud_wedata_quality_rule_group" "tf-sample-wedata-quality-rule
     table_name          = ""
     task_action         = ""
     trigger_types       = []
-    
+
     group_config {
       analysis_type          = ""
       base_db                = ""

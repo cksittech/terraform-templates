@@ -9,6 +9,6 @@ resource "tencentcloud_cam_user" "tf-sample-cam-user" {
   phone_num           = ""
   remark              = ""
   use_api             = false
-  
+
   tags = {}
 }

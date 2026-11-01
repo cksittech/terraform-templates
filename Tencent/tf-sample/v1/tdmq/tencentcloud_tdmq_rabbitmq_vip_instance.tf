@@ -13,7 +13,7 @@ resource "tencentcloud_tdmq_rabbitmq_vip_instance" "tf-sample-tdmq-rabbitmq-vip-
   time_span                             = 0
   vpc_id                                = ""
   zone_ids                              = []
-  
+
   resource_tags {
     tag_key   = ""
     tag_value = ""

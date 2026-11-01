@@ -17,6 +17,6 @@ resource "tencentcloud_cbs_storage" "tf-sample-cbs-storage" {
   storage_size           = 0
   storage_type           = ""
   throughput_performance = 0
-  
+
   tags = {}
 }

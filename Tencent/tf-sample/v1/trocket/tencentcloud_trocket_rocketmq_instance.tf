@@ -13,12 +13,12 @@ resource "tencentcloud_trocket_rocketmq_instance" "tf-sample-trocket-rocketmq-in
   time_span         = 0
   vpc_id            = ""
   zone_ids          = []
-  
+
   ip_rules {
     allow  = false
     ip     = ""
     remark = ""
   }
-  
+
   tags = {}
 }

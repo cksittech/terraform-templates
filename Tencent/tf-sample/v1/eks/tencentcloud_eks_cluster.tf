@@ -8,7 +8,7 @@ resource "tencentcloud_eks_cluster" "tf-sample-eks-cluster" {
   service_subnet_id   = ""
   subnet_ids          = []
   vpc_id              = ""
-  
+
   dns_servers {
     domain  = ""
     servers = []
@@ -23,6 +23,6 @@ resource "tencentcloud_eks_cluster" "tf-sample-eks-cluster" {
     extra_param       = ""
     security_policies = []
   }
-  
+
   tags = {}
 }

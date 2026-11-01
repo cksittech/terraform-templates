@@ -1,13 +1,13 @@
 resource "tencentcloud_monitor_tmp_tke_alert_policy" "tf-sample-monitor-tmp-tke-alert-policy" {
   instance_id = ""
-  
+
   alert_rule {
     cluster_id  = ""
     id          = ""
     name        = ""
     template_id = ""
     updated_at  = ""
-    
+
     notification {
       enabled               = false
       notify_way            = []
@@ -22,7 +22,7 @@ resource "tencentcloud_monitor_tmp_tke_alert_policy" "tf-sample-monitor-tmp-tke-
       time_range_start      = ""
       type                  = ""
       web_hook              = ""
-      
+
       alert_manager {
         cluster_id   = ""
         cluster_type = ""
@@ -36,7 +36,7 @@ resource "tencentcloud_monitor_tmp_tke_alert_policy" "tf-sample-monitor-tmp-tke-
       rule       = ""
       rule_state = 0
       template   = ""
-      
+
       annotations {
         name  = ""
         value = ""

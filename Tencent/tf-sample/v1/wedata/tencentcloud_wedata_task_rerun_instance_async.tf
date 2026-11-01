@@ -7,7 +7,7 @@ resource "tencentcloud_wedata_task_rerun_instance_async" "tf-sample-wedata-task-
   rerun_type                        = ""
   skip_event_listening              = false
   son_range_type                    = ""
-  
+
   redefine_param_list {
     k = ""
     v = ""

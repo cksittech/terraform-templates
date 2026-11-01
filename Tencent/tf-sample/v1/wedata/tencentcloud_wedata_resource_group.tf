@@ -6,10 +6,10 @@ resource "tencentcloud_wedata_resource_group" "tf-sample-wedata-resource-group" 
   resource_region       = ""
   subnet                = ""
   vpc_id                = ""
-  
+
   type {
     resource_group_type = ""
-    
+
     data_service {
       number        = 0
       specification = ""

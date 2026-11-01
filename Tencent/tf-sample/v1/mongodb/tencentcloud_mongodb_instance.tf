@@ -24,7 +24,7 @@ resource "tencentcloud_mongodb_instance" "tf-sample-mongodb-instance" {
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""
-  
+
   add_node_list {
     role = ""
     zone = ""
@@ -34,6 +34,6 @@ resource "tencentcloud_mongodb_instance" "tf-sample-mongodb-instance" {
     role      = ""
     zone      = ""
   }
-  
+
   tags = {}
 }

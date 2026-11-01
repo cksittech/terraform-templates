@@ -1,14 +1,14 @@
 resource "tencentcloud_ci_media_transcode_pro_template" "tf-sample-ci-media-transcode-pro-template" {
   bucket = ""
   name   = ""
-  
+
   audio {
     codec  = ""
     remove = ""
   }
   container {
     format = ""
-    
+
     clip_config {
       duration = ""
     }

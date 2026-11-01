@@ -2,7 +2,7 @@ resource "tencentcloud_dbbrain_modify_diag_db_instance_operation" "tf-sample-dbb
   instance_ids = []
   product      = ""
   regions      = ""
-  
+
   instance_confs {
     daily_inspection = ""
     overview_display = ""

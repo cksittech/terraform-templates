@@ -7,6 +7,6 @@ resource "tencentcloud_ssm_secret" "tf-sample-ssm-secret" {
   recovery_window_in_days = 0
   secret_name             = ""
   secret_type             = 0
-  
+
   tags = {}
 }

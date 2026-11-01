@@ -11,7 +11,7 @@ resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
   period               = 0
   storage_type         = ""
   topic_name           = ""
-  
+
   custom_kms_info {
     kms_key_id = ""
     kms_region = ""
@@ -19,7 +19,7 @@ resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
   extends {
     anonymous_access {
       operations = []
-      
+
       conditions {
         attributes      = ""
         condition_value = ""
@@ -27,6 +27,6 @@ resource "tencentcloud_cls_topic" "tf-sample-cls-topic" {
       }
     }
   }
-  
+
   tags = {}
 }

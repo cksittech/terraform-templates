@@ -3,7 +3,7 @@ resource "tencentcloud_bdrc_instance_copy_pair" "tf-sample-bdrc-instance-copy-pa
   instance_copy_pair_name  = ""
   protect_group_id         = ""
   recovery_point_objective = 0
-  
+
   create_target_instance_parameters {
     copy_pair_id               = ""
     disaster_recover_group_ids = []
@@ -17,7 +17,7 @@ resource "tencentcloud_bdrc_instance_copy_pair" "tf-sample-bdrc-instance-copy-pa
     spot_price                 = ""
     stopped_mode               = ""
     user_data                  = ""
-    
+
     data_disks {
       delete_with_instance = false
       disk_size            = 0

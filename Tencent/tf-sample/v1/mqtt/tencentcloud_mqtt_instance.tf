@@ -13,11 +13,11 @@ resource "tencentcloud_mqtt_instance" "tf-sample-mqtt-instance" {
   time_span                         = 0
   use_default_server_cert           = false
   x509_mode                         = ""
-  
+
   vpc_list {
     subnet_id = ""
     vpc_id    = ""
   }
-  
+
   tags = {}
 }

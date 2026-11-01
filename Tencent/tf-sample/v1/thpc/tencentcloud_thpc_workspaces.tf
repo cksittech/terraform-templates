@@ -11,7 +11,7 @@ resource "tencentcloud_thpc_workspaces" "tf-sample-thpc-workspaces" {
   space_name                = ""
   space_type                = ""
   user_data                 = ""
-  
+
   data_disks {
     burst_performance      = false
     delete_with_instance   = false

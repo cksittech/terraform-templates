@@ -5,7 +5,7 @@ resource "tencentcloud_tat_invoker" "tf-sample-tat-invoker" {
   parameters   = ""
   type         = ""
   username     = ""
-  
+
   schedule_settings {
     invoke_time = ""
     policy      = ""

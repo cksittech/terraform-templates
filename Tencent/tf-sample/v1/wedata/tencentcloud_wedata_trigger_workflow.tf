@@ -6,7 +6,7 @@ resource "tencentcloud_wedata_trigger_workflow" "tf-sample-wedata-trigger-workfl
   project_id         = ""
   workflow_desc      = ""
   workflow_name      = ""
-  
+
   general_task_params {
     type  = ""
     value = ""

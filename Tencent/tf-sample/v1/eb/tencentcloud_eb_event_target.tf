@@ -5,13 +5,13 @@ resource "tencentcloud_eb_event_target" "tf-sample-eb-event-target" {
   event_bus_id          = ""
   rule_id               = ""
   type                  = ""
-  
+
   target_description {
     resource_description = ""
-    
+
     ckafka_target_params {
       topic_name = ""
-      
+
       retry_policy {
         max_retry_attempts = 0
         retry_interval     = 0

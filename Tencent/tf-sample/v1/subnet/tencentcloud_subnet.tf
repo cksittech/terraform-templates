@@ -6,6 +6,6 @@ resource "tencentcloud_subnet" "tf-sample-subnet" {
   name              = ""
   route_table_id    = ""
   vpc_id            = ""
-  
+
   tags = {}
 }

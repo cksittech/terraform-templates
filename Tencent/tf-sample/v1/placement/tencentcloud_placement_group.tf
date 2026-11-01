@@ -4,6 +4,6 @@ resource "tencentcloud_placement_group" "tf-sample-placement-group" {
   partition_count = 0
   strategy        = ""
   type            = ""
-  
+
   tags = {}
 }

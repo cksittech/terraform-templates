@@ -7,7 +7,7 @@ resource "tencentcloud_mqtt_http_authenticator" "tf-sample-mqtt-http-authenticat
   read_timeout    = 0
   remark          = ""
   status          = ""
-  
+
   body {
     key   = ""
     value = ""

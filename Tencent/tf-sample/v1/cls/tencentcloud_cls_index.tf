@@ -3,7 +3,7 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
   metadata_flag           = 0
   status                  = false
   topic_id                = ""
-  
+
   rule {
     dynamic_index {
       status = false
@@ -15,10 +15,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
     }
     key_value {
       case_sensitive = false
-      
+
       key_values {
         key = ""
-        
+
         value {
           alias                     = ""
           contain_z_h               = false
@@ -26,10 +26,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
           sql_flag                  = false
           tokenizer                 = ""
           type                      = ""
-          
+
           child_node {
             key = ""
-            
+
             value {
               alias                     = ""
               contain_z_h               = false
@@ -37,10 +37,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
               sql_flag                  = false
               tokenizer                 = ""
               type                      = ""
-              
+
               child_node {
                 key = ""
-                
+
                 value {
                   alias                     = ""
                   contain_z_h               = false
@@ -48,10 +48,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                   sql_flag                  = false
                   tokenizer                 = ""
                   type                      = ""
-                  
+
                   child_node {
                     key = ""
-                    
+
                     value {
                       alias                     = ""
                       contain_z_h               = false
@@ -59,10 +59,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                       sql_flag                  = false
                       tokenizer                 = ""
                       type                      = ""
-                      
+
                       child_node {
                         key = ""
-                        
+
                         value {
                           alias                     = ""
                           contain_z_h               = false
@@ -70,10 +70,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                           sql_flag                  = false
                           tokenizer                 = ""
                           type                      = ""
-                          
+
                           child_node {
                             key = ""
-                            
+
                             value {
                               alias                     = ""
                               contain_z_h               = false
@@ -96,10 +96,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
     }
     tag {
       case_sensitive = false
-      
+
       key_values {
         key = ""
-        
+
         value {
           alias                     = ""
           contain_z_h               = false
@@ -107,10 +107,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
           sql_flag                  = false
           tokenizer                 = ""
           type                      = ""
-          
+
           child_node {
             key = ""
-            
+
             value {
               alias                     = ""
               contain_z_h               = false
@@ -118,10 +118,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
               sql_flag                  = false
               tokenizer                 = ""
               type                      = ""
-              
+
               child_node {
                 key = ""
-                
+
                 value {
                   alias                     = ""
                   contain_z_h               = false
@@ -129,10 +129,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                   sql_flag                  = false
                   tokenizer                 = ""
                   type                      = ""
-                  
+
                   child_node {
                     key = ""
-                    
+
                     value {
                       alias                     = ""
                       contain_z_h               = false
@@ -140,10 +140,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                       sql_flag                  = false
                       tokenizer                 = ""
                       type                      = ""
-                      
+
                       child_node {
                         key = ""
-                        
+
                         value {
                           alias                     = ""
                           contain_z_h               = false
@@ -151,10 +151,10 @@ resource "tencentcloud_cls_index" "tf-sample-cls-index" {
                           sql_flag                  = false
                           tokenizer                 = ""
                           type                      = ""
-                          
+
                           child_node {
                             key = ""
-                            
+
                             value {
                               alias                     = ""
                               contain_z_h               = false

@@ -8,6 +8,6 @@ resource "tencentcloud_organization_org_member" "tf-sample-organization-org-memb
   policy_type          = ""
   record_id            = 0
   remark               = ""
-  
+
   tags = {}
 }

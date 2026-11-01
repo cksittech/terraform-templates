@@ -13,7 +13,7 @@ resource "tencentcloud_cdwdoris_instance" "tf-sample-cdwdoris-instance" {
   user_vpc_id           = ""
   workload_group_status = ""
   zone                  = ""
-  
+
   be_spec {
     count     = 0
     disk_size = 0

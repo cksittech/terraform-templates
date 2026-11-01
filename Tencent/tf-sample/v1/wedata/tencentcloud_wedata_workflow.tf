@@ -7,7 +7,7 @@ resource "tencentcloud_wedata_workflow" "tf-sample-wedata-workflow" {
   workflow_desc      = ""
   workflow_name      = ""
   workflow_type      = ""
-  
+
   workflow_params {
     param_key   = ""
     param_value = ""

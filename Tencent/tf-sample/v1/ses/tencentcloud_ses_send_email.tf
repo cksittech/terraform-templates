@@ -7,7 +7,7 @@ resource "tencentcloud_ses_send_email" "tf-sample-ses-send-email" {
   subject            = ""
   trigger_type       = 0
   unsubscribe        = ""
-  
+
   attachments {
     content   = ""
     file_name = ""

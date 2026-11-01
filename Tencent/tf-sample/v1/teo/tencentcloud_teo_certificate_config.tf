@@ -2,10 +2,10 @@ resource "tencentcloud_teo_certificate_config" "tf-sample-teo-certificate-config
   host    = ""
   mode    = ""
   zone_id = ""
-  
+
   client_cert_info {
     switch = ""
-    
+
     cert_infos {
       cert_id = ""
     }
@@ -22,14 +22,14 @@ resource "tencentcloud_teo_certificate_config" "tf-sample-teo-certificate-config
   upstream_cert_info {
     upstream_certificate_verify {
       verification_mode = ""
-      
+
       custom_ca_certs {
         cert_id = ""
       }
     }
     upstream_mutual_tls {
       switch = ""
-      
+
       cert_infos {
         cert_id = ""
       }

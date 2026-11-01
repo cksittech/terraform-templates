@@ -4,7 +4,7 @@ resource "tencentcloud_wedata_sql_script" "tf-sample-wedata-sql-script" {
   project_id         = ""
   script_content     = ""
   script_name        = ""
-  
+
   script_config {
     advance_config    = ""
     compute_resource  = ""

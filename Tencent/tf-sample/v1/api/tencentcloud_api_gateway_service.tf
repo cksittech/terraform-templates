@@ -9,6 +9,6 @@ resource "tencentcloud_api_gateway_service" "tf-sample-api-gateway-service" {
   service_name  = ""
   test_limit    = 0
   uniq_vpc_id   = ""
-  
+
   tags = {}
 }

@@ -1,7 +1,7 @@
 resource "tencentcloud_kubernetes_cluster_scheduler_policy_config" "tf-sample-kubernetes-cluster-scheduler-policy-config" {
   cluster_id       = ""
   high_performance = false
-  
+
   client_connection {
     burst = 0
     qps   = 0
@@ -12,7 +12,7 @@ resource "tencentcloud_kubernetes_cluster_scheduler_policy_config" "tf-sample-ku
     preempt_verb       = ""
     prioritize_verb    = ""
     weight             = 0
-    
+
     extender_client_config {
       service {
         name      = ""
@@ -25,7 +25,7 @@ resource "tencentcloud_kubernetes_cluster_scheduler_policy_config" "tf-sample-ku
   }
   scheduler_policy_config {
     scheduler_name = ""
-    
+
     plugin_configs {
       args = ""
       name = ""

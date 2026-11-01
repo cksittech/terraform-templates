@@ -1,19 +1,19 @@
 resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-template" {
   template_name = ""
   zone_id       = ""
-  
+
   security_policy {
     bot_management {
       enabled = ""
-      
+
       basic_bot_settings {
         bot_intelligence {
           enabled = ""
-          
+
           bot_ratings {
             high_risk_bot_requests_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -44,7 +44,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
             }
             human_requests_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -75,7 +75,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
             }
             likely_bot_requests_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -106,7 +106,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
             }
             verified_bot_requests_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -139,11 +139,11 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         }
         ip_reputation {
           enabled = ""
-          
+
           ip_reputation_group {
             base_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -174,10 +174,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
             }
             bot_management_action_overrides {
               ids = []
-              
+
               action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -212,7 +212,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         known_bot_categories {
           base_action {
             name = ""
-            
+
             allow_action_parameters {
               max_delay_time = ""
               min_delay_time = ""
@@ -243,10 +243,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           }
           bot_management_action_overrides {
             ids = []
-            
+
             action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -280,7 +280,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         search_engine_bots {
           base_action {
             name = ""
-            
+
             allow_action_parameters {
               max_delay_time = ""
               min_delay_time = ""
@@ -311,10 +311,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           }
           bot_management_action_overrides {
             ids = []
-            
+
             action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -348,7 +348,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         source_idc {
           base_action {
             name = ""
-            
+
             allow_action_parameters {
               max_delay_time = ""
               min_delay_time = ""
@@ -379,10 +379,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           }
           bot_management_action_overrides {
             ids = []
-            
+
             action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -419,18 +419,18 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           condition = ""
           enabled   = ""
           name      = ""
-          
+
           action {
             bot_session_validation {
               issue_new_bot_session_cookie = ""
-              
+
               max_new_session_trigger_config {
                 max_new_session_count_interval  = ""
                 max_new_session_count_threshold = 0
               }
               session_expired_action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -461,7 +461,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
               }
               session_invalid_action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -492,10 +492,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
               }
               session_rate_control {
                 enabled = ""
-                
+
                 high_rate_session_action {
                   name = ""
-                  
+
                   allow_action_parameters {
                     max_delay_time = ""
                     min_delay_time = ""
@@ -526,7 +526,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
                 }
                 low_rate_session_action {
                   name = ""
-                  
+
                   allow_action_parameters {
                     max_delay_time = ""
                     min_delay_time = ""
@@ -557,7 +557,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
                 }
                 mid_rate_session_action {
                   name = ""
-                  
+
                   allow_action_parameters {
                     max_delay_time = ""
                     min_delay_time = ""
@@ -593,10 +593,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
               crypto_challenge_intensity    = ""
               max_challenge_count_interval  = ""
               max_challenge_count_threshold = 0
-              
+
               bot_client_action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -627,7 +627,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
               }
               challenge_not_finished_action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -658,7 +658,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
               }
               challenge_timeout_action {
                 name = ""
-                
+
                 allow_action_parameters {
                   max_delay_time = ""
                   min_delay_time = ""
@@ -698,15 +698,15 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           enabled     = ""
           name        = ""
           priority    = 0
-          
+
           device_profiles {
             client_type           = ""
             high_risk_min_score   = 0
             medium_risk_min_score = 0
-            
+
             high_risk_request_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -737,7 +737,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
             }
             medium_risk_request_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -769,7 +769,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           }
           invalid_attestation_action {
             name = ""
-            
+
             allow_action_parameters {
               max_delay_time = ""
               min_delay_time = ""
@@ -806,13 +806,13 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
           enabled   = ""
           name      = ""
           priority  = 0
-          
+
           action {
             weight = 0
-            
+
             security_action {
               name = ""
-              
+
               allow_action_parameters {
                 max_delay_time = ""
                 min_delay_time = ""
@@ -848,10 +848,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
     bot_management_lite {
       ai_crawler_detection {
         enabled = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -882,10 +882,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         name      = ""
         priority  = 0
         rule_type = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -944,7 +944,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         skip_option                        = ""
         skip_scope                         = ""
         web_security_modules_for_exception = []
-        
+
         request_fields_for_exception {
           condition    = ""
           scope        = ""
@@ -956,10 +956,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
       adaptive_frequency_control {
         enabled     = ""
         sensitivity = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -991,10 +991,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
       }
       bandwidth_abuse_defense {
         enabled = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -1026,10 +1026,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
       }
       client_filtering {
         enabled = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -1061,10 +1061,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
       }
       slow_attack_defense {
         enabled = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -1108,7 +1108,7 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
       detection_only    = ""
       enabled           = ""
       semantic_analysis = ""
-      
+
       auto_update {
         auto_update_to_latest_version = ""
         ruleset_version               = ""
@@ -1119,10 +1119,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         count_by        = ""
         counting_period = ""
         enabled         = ""
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""
@@ -1163,10 +1163,10 @@ resource "tencentcloud_teo_web_security_template" "tf-sample-teo-web-security-te
         max_request_threshold = 0
         name                  = ""
         priority              = 0
-        
+
         action {
           name = ""
-          
+
           allow_action_parameters {
             max_delay_time = ""
             min_delay_time = ""

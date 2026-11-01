@@ -7,7 +7,7 @@ resource "tencentcloud_tcm_access_log_config" "tf-sample-tcm-access-log-config" 
   format        = ""
   mesh_name     = ""
   template      = ""
-  
+
   cls {
     enable  = false
     log_set = ""
@@ -15,7 +15,7 @@ resource "tencentcloud_tcm_access_log_config" "tf-sample-tcm-access-log-config" 
   }
   selected_range {
     all = false
-    
+
     items {
       gateways  = []
       namespace = ""

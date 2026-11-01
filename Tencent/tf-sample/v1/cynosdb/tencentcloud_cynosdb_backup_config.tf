@@ -3,7 +3,7 @@ resource "tencentcloud_cynosdb_backup_config" "tf-sample-cynosdb-backup-config" 
   backup_time_end  = 0
   cluster_id       = ""
   reserve_duration = 0
-  
+
   logic_backup_config {
     logic_backup_enable        = ""
     logic_backup_time_beg      = 0
@@ -20,7 +20,7 @@ resource "tencentcloud_cynosdb_backup_config" "tf-sample-cynosdb-backup-config" 
     backup_trigger_strategy = ""
     backup_week_days        = []
     reserve_duration        = 0
-    
+
     auto_copy_vaults {
       vault_id     = ""
       vault_region = ""

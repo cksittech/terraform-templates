@@ -31,7 +31,7 @@ resource "tencentcloud_waf_saas_domain" "tf-sample-waf-saas-domain" {
   upstream_type       = 0
   weights             = []
   xff_reset           = 0
-  
+
   ports {
     port              = ""
     protocol          = ""

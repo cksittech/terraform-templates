@@ -3,7 +3,7 @@ resource "tencentcloud_mysql_privilege" "tf-sample-mysql-privilege" {
   account_name = ""
   global       = []
   mysql_id     = ""
-  
+
   column {
     column_name   = ""
     database_name = ""

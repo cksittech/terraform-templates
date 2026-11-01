@@ -3,7 +3,7 @@ resource "tencentcloud_dayu_ddos_policy" "tf-sample-dayu-ddos-policy" {
   name          = ""
   resource_type = ""
   white_ips     = []
-  
+
   drop_options {
     bad_conn_threshold = 0
     check_sync_conn    = false

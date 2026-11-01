@@ -4,7 +4,7 @@ resource "tencentcloud_postgresql_parameter_template" "tf-sample-postgresql-para
   delete_param_set     = []
   template_description = ""
   template_name        = ""
-  
+
   modify_param_entry_set {
     expected_value = ""
     name           = ""

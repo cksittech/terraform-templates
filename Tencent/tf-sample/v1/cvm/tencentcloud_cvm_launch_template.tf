@@ -15,15 +15,15 @@ resource "tencentcloud_cvm_launch_template" "tf-sample-cvm-launch-template" {
   launch_template_version_description = ""
   security_group_ids                  = []
   user_data                           = ""
-  
+
   action_timer {
     action_time  = ""
     timer_action = ""
-    
+
     externals {
       release_address    = false
       unsupport_networks = []
-      
+
       storage_block_attr {
         max_size = 0
         min_size = 0
@@ -58,7 +58,7 @@ resource "tencentcloud_cvm_launch_template" "tf-sample-cvm-launch-template" {
   }
   instance_market_options {
     market_type = ""
-    
+
     spot_options {
       max_price          = ""
       spot_instance_type = ""
@@ -87,7 +87,7 @@ resource "tencentcloud_cvm_launch_template" "tf-sample-cvm-launch-template" {
   }
   tag_specification {
     resource_type = ""
-    
+
     tags {
       key   = ""
       value = ""
@@ -100,6 +100,6 @@ resource "tencentcloud_cvm_launch_template" "tf-sample-cvm-launch-template" {
     subnet_id            = ""
     vpc_id               = ""
   }
-  
+
   tags = {}
 }

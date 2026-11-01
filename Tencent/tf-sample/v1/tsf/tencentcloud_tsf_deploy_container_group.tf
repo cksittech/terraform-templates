@@ -27,7 +27,7 @@ resource "tencentcloud_tsf_deploy_container_group" "tf-sample-tsf-deploy-contain
   update_ivl             = 0
   update_type            = 0
   volume_clean           = false
-  
+
   agent_profile_list {
     agent_type    = ""
     agent_version = ""
@@ -35,7 +35,7 @@ resource "tencentcloud_tsf_deploy_container_group" "tf-sample-tsf-deploy-contain
   envs {
     name  = ""
     value = ""
-    
+
     value_from {
       field_ref {
         field_path = ""
@@ -84,7 +84,7 @@ resource "tencentcloud_tsf_deploy_container_group" "tf-sample-tsf-deploy-contain
     open_session_affinity            = false
     session_affinity_timeout_seconds = 0
     subnet_id                        = ""
-    
+
     protocol_ports {
       node_port   = 0
       port        = 0

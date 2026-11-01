@@ -5,7 +5,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
   session_id      = ""
   task_type       = ""
   tasks_priority  = 0
-  
+
   ai_analysis_task {
     definition         = 0
     extended_parameter = ""
@@ -22,7 +22,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
   }
   input_info {
     type = ""
-    
+
     cos_input_info {
       bucket = ""
       object = ""
@@ -45,13 +45,13 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       output_object_path     = ""
       segment_object_name    = ""
       sub_stream_object_name = ""
-      
+
       add_on_subtitles {
         type = ""
-        
+
         subtitle {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -71,7 +71,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -89,21 +89,21 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -129,10 +129,10 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       end_time_offset    = 0
       output_object_path = ""
       start_time_offset  = 0
-      
+
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -149,7 +149,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       definition          = 0
       output_object_path  = ""
       web_vtt_object_name = ""
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -158,7 +158,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -174,7 +174,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
     sample_snapshot_task_set {
       definition         = 0
       output_object_path = ""
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -183,7 +183,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -201,21 +201,21 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -241,7 +241,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       ext_time_offset_set = []
       output_object_path  = ""
       time_offset_set     = []
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -250,7 +250,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -268,21 +268,21 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -309,11 +309,11 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       output_object_path  = ""
       segment_object_name = ""
       start_time_offset   = 0
-      
+
       head_tail_parameter {
         head_set {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -332,7 +332,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         }
         tail_set {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -367,7 +367,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -384,13 +384,13 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         remove_audio = 0
         remove_video = 0
         std_ext_info = ""
-        
+
         add_on_subtitles {
           type = ""
-          
+
           subtitle {
             type = ""
-            
+
             cos_input_info {
               bucket = ""
               object = ""
@@ -410,7 +410,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         }
         addon_audio_stream {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -463,7 +463,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         container    = ""
         remove_audio = 0
         remove_video = 0
-        
+
         audio_template {
           audio_channel = 0
           bitrate       = 0
@@ -492,21 +492,21 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -530,7 +530,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
   }
   output_storage {
     type = ""
-    
+
     cos_output_storage {
       bucket = ""
       region = ""
@@ -550,7 +550,7 @@ resource "tencentcloud_mps_process_media_operation" "tf-sample-mps-process-media
     notify_url  = ""
     queue_name  = ""
     topic_name  = ""
-    
+
     aws_sqa {
       s3_secret_id   = ""
       s3_secret_key  = ""

@@ -31,7 +31,7 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
   volume_size        = 0
   vpc_id             = ""
   wait_switch        = 0
-  
+
   cluster_topology {
     read_only_nodes {
       is_random_zone = false
@@ -43,6 +43,6 @@ resource "tencentcloud_mysql_instance" "tf-sample-mysql-instance" {
       zone    = ""
     }
   }
-  
+
   tags = {}
 }

@@ -12,6 +12,6 @@ resource "tencentcloud_cfs_file_system" "tf-sample-cfs-file-system" {
   storage_type      = ""
   subnet_id         = ""
   vpc_id            = ""
-  
+
   tags = {}
 }

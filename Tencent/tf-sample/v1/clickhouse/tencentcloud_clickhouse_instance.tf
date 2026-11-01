@@ -13,7 +13,7 @@ resource "tencentcloud_clickhouse_instance" "tf-sample-clickhouse-instance" {
   time_span           = 0
   vpc_id              = ""
   zone                = ""
-  
+
   common_spec {
     count     = 0
     disk_size = 0
@@ -28,6 +28,6 @@ resource "tencentcloud_clickhouse_instance" "tf-sample-clickhouse-instance" {
     secondary_subnet = ""
     secondary_zone   = ""
   }
-  
+
   tags = {}
 }

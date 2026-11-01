@@ -16,7 +16,7 @@ resource "tencentcloud_elasticsearch_logstash" "tf-sample-elasticsearch-logstash
   voucher_ids      = []
   vpc_id           = ""
   zone             = ""
-  
+
   multi_zone_infos {
     availability_zone = ""
     hidden            = false
@@ -28,6 +28,6 @@ resource "tencentcloud_elasticsearch_logstash" "tf-sample-elasticsearch-logstash
     time_start = ""
     time_zone  = ""
   }
-  
+
   tags = {}
 }

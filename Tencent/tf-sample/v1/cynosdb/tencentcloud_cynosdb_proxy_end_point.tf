@@ -17,7 +17,7 @@ resource "tencentcloud_cynosdb_proxy_end_point" "tf-sample-cynosdb-proxy-end-poi
   vip                      = ""
   vport                    = 0
   weight_mode              = ""
-  
+
   instance_weights {
     instance_id = ""
     weight      = 0

@@ -2,7 +2,7 @@ resource "tencentcloud_ckafka_connect_resource" "tf-sample-ckafka-connect-resour
   description   = ""
   resource_name = ""
   type          = ""
-  
+
   clickhouse_connect_param {
     is_update   = false
     password    = ""

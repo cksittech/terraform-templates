@@ -3,6 +3,6 @@ resource "tencentcloud_gaap_realserver" "tf-sample-gaap-realserver" {
   ip         = ""
   name       = ""
   project_id = 0
-  
+
   tags = {}
 }

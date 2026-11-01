@@ -18,6 +18,6 @@ resource "tencentcloud_mongodb_standby_instance" "tf-sample-mongodb-standby-inst
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""
-  
+
   tags = {}
 }

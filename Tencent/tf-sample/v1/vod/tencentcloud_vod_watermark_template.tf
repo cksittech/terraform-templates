@@ -6,7 +6,7 @@ resource "tencentcloud_vod_watermark_template" "tf-sample-vod-watermark-template
   type              = ""
   x_pos             = ""
   y_pos             = ""
-  
+
   image_template {
     height        = ""
     image_content = ""

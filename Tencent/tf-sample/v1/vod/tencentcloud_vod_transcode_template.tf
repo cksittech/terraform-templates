@@ -6,7 +6,7 @@ resource "tencentcloud_vod_transcode_template" "tf-sample-vod-transcode-template
   remove_video = 0
   segment_type = ""
   sub_app_id   = 0
-  
+
   audio_template {
     audio_channel = 0
     bitrate       = 0

@@ -5,7 +5,7 @@ resource "tencentcloud_cls_config" "tf-sample-cls-config" {
   output           = ""
   path             = ""
   user_define_rule = ""
-  
+
   exclude_paths {
     type  = ""
     value = ""
@@ -27,7 +27,7 @@ resource "tencentcloud_cls_config" "tf-sample-cls-config" {
     time_key                = ""
     un_match_log_key        = ""
     un_match_up_load_switch = false
-    
+
     filter_key_regex {
       key   = ""
       regex = ""

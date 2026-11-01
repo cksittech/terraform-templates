@@ -19,15 +19,15 @@ resource "tencentcloud_wedata_dq_rule" "tf-sample-wedata-dq-rule" {
   target_object_value          = ""
   target_table_id              = ""
   type                         = 0
-  
+
   compare_rule {
     cycle_step = 0
-    
+
     items {
       compare_type       = 0
       operator           = ""
       value_compute_type = 0
-      
+
       value_list {
         value      = ""
         value_type = 0
@@ -41,7 +41,7 @@ resource "tencentcloud_wedata_dq_rule" "tf-sample-wedata-dq-rule" {
       table_id      = ""
       table_key     = ""
       table_name    = ""
-      
+
       field_config {
         field_data_type = ""
         field_key       = ""

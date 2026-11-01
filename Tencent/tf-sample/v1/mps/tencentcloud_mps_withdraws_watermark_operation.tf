@@ -1,9 +1,9 @@
 resource "tencentcloud_mps_withdraws_watermark_operation" "tf-sample-mps-withdraws-watermark-operation" {
   session_context = ""
-  
+
   input_info {
     type = ""
-    
+
     cos_input_info {
       bucket = ""
       object = ""
@@ -28,7 +28,7 @@ resource "tencentcloud_mps_withdraws_watermark_operation" "tf-sample-mps-withdra
     notify_url  = ""
     queue_name  = ""
     topic_name  = ""
-    
+
     aws_sqs {
       s3_secret_id   = ""
       s3_secret_key  = ""

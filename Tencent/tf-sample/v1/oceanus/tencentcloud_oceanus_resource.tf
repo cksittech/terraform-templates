@@ -5,10 +5,10 @@ resource "tencentcloud_oceanus_resource" "tf-sample-oceanus-resource" {
   resource_config_remark = ""
   resource_type          = 0
   work_space_id          = ""
-  
+
   resource_loc {
     storage_type = 0
-    
+
     param {
       bucket = ""
       path   = ""

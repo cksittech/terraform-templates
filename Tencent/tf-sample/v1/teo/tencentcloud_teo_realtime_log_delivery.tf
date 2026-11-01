@@ -8,7 +8,7 @@ resource "tencentcloud_teo_realtime_log_delivery" "tf-sample-teo-realtime-log-de
   task_name       = ""
   task_type       = ""
   zone_id         = ""
-  
+
   cls {
     log_set_id     = ""
     log_set_region = ""
@@ -20,7 +20,7 @@ resource "tencentcloud_teo_realtime_log_delivery" "tf-sample-teo-realtime-log-de
     compress_type = ""
     protocol      = ""
     url           = ""
-    
+
     headers {
       name  = ""
       value = ""

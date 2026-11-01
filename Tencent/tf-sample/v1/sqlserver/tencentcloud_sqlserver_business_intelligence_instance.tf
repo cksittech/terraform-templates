@@ -13,7 +13,7 @@ resource "tencentcloud_sqlserver_business_intelligence_instance" "tf-sample-sqls
   vpc_id              = ""
   weekly              = []
   zone                = ""
-  
+
   resource_tags {
     tag_key   = ""
     tag_value = ""

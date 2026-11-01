@@ -3,7 +3,7 @@ resource "tencentcloud_cynosdb_account_privileges" "tf-sample-cynosdb-account-pr
   cluster_id        = ""
   global_privileges = []
   host              = ""
-  
+
   database_privileges {
     db         = ""
     privileges = []

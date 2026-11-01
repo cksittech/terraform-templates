@@ -10,7 +10,7 @@ resource "tencentcloud_tse_cngw_route" "tf-sample-tse-cngw-route" {
   route_name                 = ""
   service_id                 = ""
   strip_path                 = false
-  
+
   headers {
     key   = ""
     value = ""

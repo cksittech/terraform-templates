@@ -16,7 +16,7 @@ resource "tencentcloud_bi_datasource_cloud" "tf-sample-bi-datasource-cloud" {
   vip                       = ""
   vpc_id                    = ""
   vport                     = ""
-  
+
   service_type {
     instance_id = ""
     region      = ""

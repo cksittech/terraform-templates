@@ -9,7 +9,7 @@ resource "tencentcloud_mysql_proxy" "tf-sample-mysql-proxy" {
   upgrade_time          = ""
   vip                   = ""
   vport                 = 0
-  
+
   proxy_node_custom {
     cpu        = 0
     mem        = 0

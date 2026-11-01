@@ -7,7 +7,7 @@ resource "tencentcloud_cls_cos_recharge" "tf-sample-cls-cos-recharge" {
   name          = ""
   prefix        = ""
   topic_id      = ""
-  
+
   extract_rule_info {
     address                 = ""
     backtracking            = 0
@@ -25,7 +25,7 @@ resource "tencentcloud_cls_cos_recharge" "tf-sample-cls-cos-recharge" {
     time_key                = ""
     un_match_log_key        = ""
     un_match_up_load_switch = false
-    
+
     filter_key_regex {
       key   = ""
       regex = ""

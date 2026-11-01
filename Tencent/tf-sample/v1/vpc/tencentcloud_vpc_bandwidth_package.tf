@@ -6,6 +6,6 @@ resource "tencentcloud_vpc_bandwidth_package" "tf-sample-vpc-bandwidth-package" 
   network_type           = ""
   tag                    = {}
   time_span              = 0
-  
+
   tags = {}
 }

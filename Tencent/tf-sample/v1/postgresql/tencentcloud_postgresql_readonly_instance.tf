@@ -19,6 +19,6 @@ resource "tencentcloud_postgresql_readonly_instance" "tf-sample-postgresql-reado
   vpc_id                = ""
   wait_switch           = 0
   zone                  = ""
-  
+
   tags = {}
 }

@@ -8,7 +8,7 @@ resource "tencentcloud_cls_alarm" "tf-sample-cls-alarm" {
   name             = ""
   status           = false
   trigger_count    = 0
-  
+
   alarm_targets {
     end_time_offset   = 0
     logset_id         = ""
@@ -22,7 +22,7 @@ resource "tencentcloud_cls_alarm" "tf-sample-cls-alarm" {
     content = ""
     name    = ""
     type    = ""
-    
+
     config_info {
       key   = ""
       value = ""
@@ -47,6 +47,6 @@ resource "tencentcloud_cls_alarm" "tf-sample-cls-alarm" {
     alarm_level = 0
     condition   = ""
   }
-  
+
   tags = {}
 }

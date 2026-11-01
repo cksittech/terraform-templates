@@ -9,7 +9,7 @@ resource "tencentcloud_cls_splunk_deliver" "tf-sample-cls-splunk-deliver" {
   source          = ""
   source_type     = ""
   topic_id        = ""
-  
+
   external_role {
     external_id = ""
     role_arn    = ""

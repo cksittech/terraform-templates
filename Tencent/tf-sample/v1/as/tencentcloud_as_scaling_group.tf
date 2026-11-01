@@ -23,17 +23,17 @@ resource "tencentcloud_as_scaling_group" "tf-sample-as-scaling-group" {
   termination_policies                      = []
   vpc_id                                    = ""
   zones                                     = []
-  
+
   forward_balancer_ids {
     listener_id      = ""
     load_balancer_id = ""
     rule_id          = ""
-    
+
     target_attribute {
       port   = 0
       weight = 0
     }
   }
-  
+
   tags = {}
 }

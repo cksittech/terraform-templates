@@ -21,6 +21,6 @@ resource "tencentcloud_mysql_dr_instance" "tf-sample-mysql-dr-instance" {
   subnet_id          = ""
   volume_size        = 0
   vpc_id             = ""
-  
+
   tags = {}
 }

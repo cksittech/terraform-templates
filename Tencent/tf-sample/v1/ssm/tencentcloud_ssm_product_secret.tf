@@ -10,7 +10,7 @@ resource "tencentcloud_ssm_product_secret" "tf-sample-ssm-product-secret" {
   secret_name         = ""
   status              = ""
   user_name_prefix    = ""
-  
+
   privileges_list {
     column_name    = ""
     database       = ""
@@ -18,6 +18,6 @@ resource "tencentcloud_ssm_product_secret" "tf-sample-ssm-product-secret" {
     privileges     = []
     table_name     = ""
   }
-  
+
   tags = {}
 }

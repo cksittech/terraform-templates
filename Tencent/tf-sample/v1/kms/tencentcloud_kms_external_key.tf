@@ -8,6 +8,6 @@ resource "tencentcloud_kms_external_key" "tf-sample-kms-external-key" {
   pending_delete_window_in_days = 0
   valid_to                      = 0
   wrapping_algorithm            = ""
-  
+
   tags = {}
 }

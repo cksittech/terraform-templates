@@ -4,7 +4,7 @@ resource "tencentcloud_tse_cngw_group" "tf-sample-tse-cngw-group" {
   internet_max_bandwidth_out = 0
   name                       = ""
   subnet_id                  = ""
-  
+
   internet_config {
     description                = ""
     internet_address_version   = ""

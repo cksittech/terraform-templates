@@ -6,6 +6,6 @@ resource "tencentcloud_monitor_grafana_instance" "tf-sample-monitor-grafana-inst
   is_destroy            = false
   subnet_ids            = []
   vpc_id                = ""
-  
+
   tags = {}
 }

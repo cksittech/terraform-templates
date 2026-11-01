@@ -8,11 +8,11 @@ resource "tencentcloud_vpc_flow_log" "tf-sample-vpc-flow-log" {
   storage_type         = ""
   traffic_type         = ""
   vpc_id               = ""
-  
+
   flow_log_storage {
     storage_id    = ""
     storage_topic = ""
   }
-  
+
   tags = {}
 }

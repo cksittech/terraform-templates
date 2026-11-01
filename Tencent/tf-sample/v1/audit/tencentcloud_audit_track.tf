@@ -5,7 +5,7 @@ resource "tencentcloud_audit_track" "tf-sample-audit-track" {
   resource_type         = ""
   status                = 0
   track_for_all_members = 0
-  
+
   storage {
     compress           = 0
     storage_account_id = ""

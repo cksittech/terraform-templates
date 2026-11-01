@@ -4,7 +4,7 @@ resource "tencentcloud_antiddos_cc_precision_policy" "tf-sample-antiddos-cc-prec
   ip            = ""
   policy_action = ""
   protocol      = ""
-  
+
   policy_list {
     field_name     = ""
     field_type     = ""

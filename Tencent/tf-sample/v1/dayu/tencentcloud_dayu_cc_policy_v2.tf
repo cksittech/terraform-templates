@@ -1,7 +1,7 @@
 resource "tencentcloud_dayu_cc_policy_v2" "tf-sample-dayu-cc-policy-v2" {
   business    = ""
   resource_id = ""
-  
+
   cc_black_white_ips {
     black_white_ip = ""
     create_time    = ""
@@ -24,7 +24,7 @@ resource "tencentcloud_dayu_cc_policy_v2" "tf-sample-dayu-cc-policy-v2" {
     ip            = ""
     policy_action = ""
     protocol      = ""
-    
+
     policys {
       field_name     = ""
       field_type     = ""
@@ -36,7 +36,7 @@ resource "tencentcloud_dayu_cc_policy_v2" "tf-sample-dayu-cc-policy-v2" {
     domain   = ""
     level    = ""
     protocol = ""
-    
+
     policys {
       action           = ""
       cookie           = ""

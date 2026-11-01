@@ -2,7 +2,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
   comment    = ""
   name       = ""
   sub_app_id = 0
-  
+
   ai_analysis_task {
     definition = ""
   }
@@ -13,7 +13,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
     adaptive_dynamic_streaming_task_list {
       definition    = ""
       subtitle_list = []
-      
+
       watermark_list {
         definition        = ""
         end_time_offset   = 0
@@ -31,7 +31,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
       definition     = ""
       position_type  = ""
       position_value = 0
-      
+
       watermark_list {
         definition        = ""
         end_time_offset   = 0
@@ -45,7 +45,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
     }
     sample_snapshot_task_list {
       definition = ""
-      
+
       watermark_list {
         definition        = ""
         end_time_offset   = 0
@@ -58,7 +58,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
       definition           = ""
       ext_time_offset_list = []
       time_offset_list     = []
-      
+
       watermark_list {
         definition        = ""
         end_time_offset   = 0
@@ -71,7 +71,7 @@ resource "tencentcloud_vod_procedure_template" "tf-sample-vod-procedure-template
       definition        = ""
       end_time_offset   = 0
       start_time_offset = 0
-      
+
       copy_right_watermark {
         text = ""
       }

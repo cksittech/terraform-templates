@@ -20,7 +20,7 @@ resource "tencentcloud_css_pull_stream_task" "tf-sample-css-pull-stream-task" {
   to_url             = ""
   vod_loop_times     = 0
   vod_refresh_type   = ""
-  
+
   watermark_list {
     height      = 0
     location    = 0

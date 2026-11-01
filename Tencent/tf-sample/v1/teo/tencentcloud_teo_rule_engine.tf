@@ -2,12 +2,12 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
   rule_name = ""
   status    = ""
   zone_id   = ""
-  
+
   rules {
     actions {
       code_action {
         action = ""
-        
+
         parameters {
           name        = ""
           status_code = 0
@@ -16,7 +16,7 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
       }
       normal_action {
         action = ""
-        
+
         parameters {
           name   = ""
           values = []
@@ -24,7 +24,7 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
       }
       rewrite_action {
         action = ""
-        
+
         parameters {
           action = ""
           name   = ""
@@ -46,7 +46,7 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
         actions {
           code_action {
             action = ""
-            
+
             parameters {
               name        = ""
               status_code = 0
@@ -55,7 +55,7 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
           }
           normal_action {
             action = ""
-            
+
             parameters {
               name   = ""
               values = []
@@ -63,7 +63,7 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
           }
           rewrite_action {
             action = ""
-            
+
             parameters {
               action = ""
               name   = ""
@@ -83,6 +83,6 @@ resource "tencentcloud_teo_rule_engine" "tf-sample-teo-rule-engine" {
       }
     }
   }
-  
+
   tags = {}
 }

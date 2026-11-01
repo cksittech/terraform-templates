@@ -15,7 +15,7 @@ resource "tencentcloud_tsf_deploy_vm_group" "tf-sample-tsf-deploy-vm-group" {
   startup_parameters     = ""
   stop_script            = ""
   update_type            = 0
-  
+
   agent_profile_list {
     agent_type    = ""
     agent_version = ""

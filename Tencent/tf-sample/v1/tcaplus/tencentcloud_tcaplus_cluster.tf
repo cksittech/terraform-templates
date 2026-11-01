@@ -6,7 +6,7 @@ resource "tencentcloud_tcaplus_cluster" "tf-sample-tcaplus-cluster" {
   password                 = ""
   subnet_id                = ""
   vpc_id                   = ""
-  
+
   proxy_list {
     machine_num  = 0
     machine_type = ""

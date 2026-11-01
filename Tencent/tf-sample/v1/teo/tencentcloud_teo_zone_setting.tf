@@ -1,6 +1,6 @@
 resource "tencentcloud_teo_zone_setting" "tf-sample-teo-zone-setting" {
   zone_id = ""
-  
+
   cache {
     cache {
       cache_time = 0
@@ -16,7 +16,7 @@ resource "tencentcloud_teo_zone_setting" "tf-sample-teo-zone-setting" {
   cache_key {
     full_url_cache = ""
     ignore_case    = ""
-    
+
     query_string {
       action = ""
       switch = ""
@@ -43,7 +43,7 @@ resource "tencentcloud_teo_zone_setting" "tf-sample-teo-zone-setting" {
     http2         = ""
     ocsp_stapling = ""
     tls_version   = []
-    
+
     hsts {
       include_sub_domains = ""
       max_age             = 0

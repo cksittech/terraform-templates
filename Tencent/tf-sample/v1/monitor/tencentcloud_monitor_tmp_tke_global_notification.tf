@@ -1,6 +1,6 @@
 resource "tencentcloud_monitor_tmp_tke_global_notification" "tf-sample-monitor-tmp-tke-global-notification" {
   instance_id = ""
-  
+
   notification {
     enabled               = false
     notify_way            = []
@@ -15,7 +15,7 @@ resource "tencentcloud_monitor_tmp_tke_global_notification" "tf-sample-monitor-t
     time_range_start      = ""
     type                  = ""
     web_hook              = ""
-    
+
     alert_manager {
       cluster_id   = ""
       cluster_type = ""

@@ -11,6 +11,6 @@ resource "tencentcloud_captcha_info_international" "tf-sample-captcha-info-inter
   verify_domain            = ""
   verify_package           = ""
   verify_rank              = ""
-  
+
   tags = {}
 }

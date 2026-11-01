@@ -5,10 +5,10 @@ resource "tencentcloud_waf_ip_access_control_v2" "tf-sample-waf-ip-access-contro
   ip_list     = []
   job_type    = ""
   note        = ""
-  
+
   job_date_time {
     time_t_zone = ""
-    
+
     cron {
       days       = []
       end_time   = ""

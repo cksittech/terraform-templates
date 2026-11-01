@@ -2,10 +2,10 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
   schema_id = ""
   task_name = ""
   task_type = ""
-  
+
   source_resource {
     type = ""
-    
+
     click_house_param {
       cluster              = ""
       database             = ""
@@ -20,7 +20,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       type                 = ""
       uniq_vpc_id          = ""
       user_name            = ""
-      
+
       drop_cls {
         drop_cls_log_set            = ""
         drop_cls_owneruin           = ""
@@ -82,7 +82,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       service_vip               = ""
       uniq_vpc_id               = ""
       user_name                 = ""
-      
+
       drop_cls {
         drop_cls_log_set            = ""
         drop_cls_owneruin           = ""
@@ -95,7 +95,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         max_retry_attempts = 0
         retry_interval     = 0
         type               = ""
-        
+
         kafka_param {
           compression_type      = ""
           enable_toleration     = false
@@ -112,7 +112,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
           use_auto_create_topic = false
           use_table_mapping     = false
           zone_id               = 0
-          
+
           table_mappings {
             database = ""
             table    = ""
@@ -155,7 +155,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       use_auto_create_topic = false
       use_table_mapping     = false
       zone_id               = 0
-      
+
       table_mappings {
         database = ""
         table    = ""
@@ -213,7 +213,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       table                         = ""
       topic_regex                   = ""
       topic_replacement             = ""
-      
+
       data_target_record_mapping {
         allow_null     = false
         auto_increment = false
@@ -246,7 +246,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       resource                      = ""
       snapshot_mode                 = ""
       table                         = ""
-      
+
       data_target_record_mapping {
         allow_null     = false
         auto_increment = false
@@ -291,7 +291,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
   }
   target_resource {
     type = ""
-    
+
     click_house_param {
       cluster              = ""
       database             = ""
@@ -306,7 +306,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       type                 = ""
       uniq_vpc_id          = ""
       user_name            = ""
-      
+
       drop_cls {
         drop_cls_log_set            = ""
         drop_cls_owneruin           = ""
@@ -368,7 +368,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       service_vip               = ""
       uniq_vpc_id               = ""
       user_name                 = ""
-      
+
       drop_cls {
         drop_cls_log_set            = ""
         drop_cls_owneruin           = ""
@@ -381,7 +381,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         max_retry_attempts = 0
         retry_interval     = 0
         type               = ""
-        
+
         kafka_param {
           compression_type      = ""
           enable_toleration     = false
@@ -398,7 +398,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
           use_auto_create_topic = false
           use_table_mapping     = false
           zone_id               = 0
-          
+
           table_mappings {
             database = ""
             table    = ""
@@ -441,7 +441,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       use_auto_create_topic = false
       use_table_mapping     = false
       zone_id               = 0
-      
+
       table_mappings {
         database = ""
         table    = ""
@@ -499,7 +499,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       table                         = ""
       topic_regex                   = ""
       topic_replacement             = ""
-      
+
       data_target_record_mapping {
         allow_null     = false
         auto_increment = false
@@ -532,7 +532,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       resource                      = ""
       snapshot_mode                 = ""
       table                         = ""
-      
+
       data_target_record_mapping {
         allow_null     = false
         auto_increment = false
@@ -583,7 +583,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
     result          = ""
     source_type     = ""
     use_event_bus   = false
-    
+
     analyse_result {
       key   = ""
       type  = ""
@@ -594,7 +594,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       max_retry_attempts = 0
       retry_interval     = 0
       type               = ""
-      
+
       kafka_param {
         compression_type      = ""
         enable_toleration     = false
@@ -611,7 +611,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         use_auto_create_topic = false
         use_table_mapping     = false
         zone_id               = 0
-        
+
         table_mappings {
           database = ""
           table    = ""
@@ -647,7 +647,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
     output_format = ""
     result        = ""
     source_type   = ""
-    
+
     batch_analyse {
       format = ""
     }
@@ -656,7 +656,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       max_retry_attempts = 0
       retry_interval     = 0
       type               = ""
-      
+
       kafka_param {
         compression_type      = ""
         enable_toleration     = false
@@ -673,7 +673,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         use_auto_create_topic = false
         use_table_mapping     = false
         zone_id               = 0
-        
+
         table_mappings {
           database = ""
           table    = ""
@@ -695,7 +695,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
       analyse_json_result           = ""
       result                        = ""
       secondary_analyse_json_result = ""
-      
+
       analyse {
         format           = ""
         input_value      = ""
@@ -708,11 +708,11 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         original_value = ""
         scheme_type    = ""
         value          = ""
-        
+
         value_operate {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""
@@ -749,7 +749,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         value_operates {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""
@@ -790,11 +790,11 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         original_value = ""
         scheme_type    = ""
         value          = ""
-        
+
         value_operate {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""
@@ -831,7 +831,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         value_operates {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""
@@ -875,11 +875,11 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         original_value = ""
         scheme_type    = ""
         value          = ""
-        
+
         value_operate {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""
@@ -916,7 +916,7 @@ resource "tencentcloud_ckafka_datahub_task" "tf-sample-ckafka-datahub-task" {
         value_operates {
           result = ""
           type   = ""
-          
+
           date {
             format      = ""
             target_type = ""

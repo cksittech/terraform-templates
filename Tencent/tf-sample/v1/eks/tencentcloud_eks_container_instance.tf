@@ -18,7 +18,7 @@ resource "tencentcloud_eks_container_instance" "tf-sample-eks-container-instance
   security_groups       = []
   subnet_id             = ""
   vpc_id                = ""
-  
+
   cbs_volume {
     disk_id = ""
     name    = ""
@@ -32,7 +32,7 @@ resource "tencentcloud_eks_container_instance" "tf-sample-eks-container-instance
     memory      = 0
     name        = ""
     working_dir = ""
-    
+
     liveness_probe {
       exec_commands      = []
       failure_threshold  = 0
@@ -81,7 +81,7 @@ resource "tencentcloud_eks_container_instance" "tf-sample-eks-container-instance
     memory      = 0
     name        = ""
     working_dir = ""
-    
+
     volume_mount {
       mount_propagation = ""
       name              = ""

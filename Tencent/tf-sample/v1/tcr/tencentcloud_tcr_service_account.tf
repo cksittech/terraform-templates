@@ -6,11 +6,11 @@ resource "tencentcloud_tcr_service_account" "tf-sample-tcr-service-account" {
   name        = ""
   password    = ""
   registry_id = ""
-  
+
   permissions {
     actions  = []
     resource = ""
   }
-  
+
   tags = {}
 }

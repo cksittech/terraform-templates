@@ -5,7 +5,7 @@ resource "tencentcloud_apm_sample_config" "tf-sample-apm-sample-config" {
   sample_name    = ""
   sample_rate    = 0
   service_name   = ""
-  
+
   tags {
     key   = ""
     value = ""

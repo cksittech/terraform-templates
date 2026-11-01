@@ -25,7 +25,7 @@ resource "tencentcloud_clb_listener_rule" "tf-sample-clb-listener-rule" {
   session_expire_time        = 0
   target_type                = ""
   url                        = ""
-  
+
   multi_cert_info {
     cert_id_list = []
     ssl_mode     = ""

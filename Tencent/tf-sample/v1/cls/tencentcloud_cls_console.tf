@@ -9,7 +9,7 @@ resource "tencentcloud_cls_console" "tf-sample-cls-console" {
   remarks         = ""
   subnet_id       = ""
   vpc_id          = ""
-  
+
   access_control_rules {
     access_mode = ""
     action      = ""

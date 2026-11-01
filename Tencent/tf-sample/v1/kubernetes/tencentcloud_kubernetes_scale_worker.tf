@@ -9,7 +9,7 @@ resource "tencentcloud_kubernetes_scale_worker" "tf-sample-kubernetes-scale-work
   pre_start_user_script     = ""
   unschedulable             = 0
   user_script               = ""
-  
+
   data_disk {
     auto_format_and_mount = false
     disk_partition        = ""
@@ -58,7 +58,7 @@ resource "tencentcloud_kubernetes_scale_worker" "tf-sample-kubernetes-scale-work
     system_disk_size                        = 0
     system_disk_type                        = ""
     user_data                               = ""
-    
+
     data_disk {
       disk_size   = 0
       disk_type   = ""

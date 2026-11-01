@@ -29,7 +29,7 @@ resource "tencentcloud_vpn_connection" "tf-sample-vpn-connection" {
   route_type                 = ""
   vpc_id                     = ""
   vpn_gateway_id             = ""
-  
+
   bgp_config {
     local_bgp_ip  = ""
     remote_bgp_ip = ""
@@ -45,6 +45,6 @@ resource "tencentcloud_vpn_connection" "tf-sample-vpn-connection" {
     local_cidr_block  = ""
     remote_cidr_block = []
   }
-  
+
   tags = {}
 }

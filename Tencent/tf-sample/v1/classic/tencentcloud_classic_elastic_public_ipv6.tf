@@ -3,6 +3,6 @@ resource "tencentcloud_classic_elastic_public_ipv6" "tf-sample-classic-elastic-p
   internet_charge_type       = ""
   internet_max_bandwidth_out = 0
   ip6_address                = ""
-  
+
   tags = {}
 }

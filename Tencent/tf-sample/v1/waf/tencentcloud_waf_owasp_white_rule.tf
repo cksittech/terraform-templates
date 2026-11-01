@@ -6,10 +6,10 @@ resource "tencentcloud_waf_owasp_white_rule" "tf-sample-waf-owasp-white-rule" {
   name        = ""
   status      = 0
   type        = 0
-  
+
   job_date_time {
     time_t_zone = ""
-    
+
     cron {
       days       = []
       end_time   = ""

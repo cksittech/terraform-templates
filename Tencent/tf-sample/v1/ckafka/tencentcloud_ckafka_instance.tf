@@ -23,7 +23,7 @@ resource "tencentcloud_ckafka_instance" "tf-sample-ckafka-instance" {
   vpc_id                   = ""
   zone_id                  = 0
   zone_ids                 = []
-  
+
   config {
     auto_create_topic_enable   = false
     default_num_partitions     = 0

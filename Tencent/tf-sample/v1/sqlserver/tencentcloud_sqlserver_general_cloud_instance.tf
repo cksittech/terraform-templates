@@ -22,7 +22,7 @@ resource "tencentcloud_sqlserver_general_cloud_instance" "tf-sample-sqlserver-ge
   vpc_id               = ""
   weekly               = []
   zone                 = ""
-  
+
   resource_tags {
     tag_key   = ""
     tag_value = ""

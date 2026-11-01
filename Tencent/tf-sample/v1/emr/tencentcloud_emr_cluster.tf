@@ -14,10 +14,10 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
   time_span       = 0
   time_unit       = ""
   vpc_settings    = {}
-  
+
   multi_zone_setting {
     vpc_settings = {}
-    
+
     placement {
       zone = ""
     }
@@ -26,7 +26,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
       core_count   = 0
       master_count = 0
       task_count   = 0
-      
+
       common_resource_spec {
         cpu          = 0
         disk_size    = 0
@@ -35,7 +35,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
         root_size    = 0
         spec         = ""
         storage_type = 0
-        
+
         multi_disks {
           count     = 0
           disk_type = ""
@@ -50,7 +50,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
         root_size    = 0
         spec         = ""
         storage_type = 0
-        
+
         multi_disks {
           count     = 0
           disk_type = ""
@@ -65,7 +65,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
         root_size    = 0
         spec         = ""
         storage_type = 0
-        
+
         multi_disks {
           count     = 0
           disk_type = ""
@@ -80,7 +80,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
         root_size    = 0
         spec         = ""
         storage_type = 0
-        
+
         multi_disks {
           count     = 0
           disk_type = ""
@@ -108,7 +108,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
     core_count   = 0
     master_count = 0
     task_count   = 0
-    
+
     common_resource_spec {
       cpu          = 0
       disk_size    = 0
@@ -117,7 +117,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
       root_size    = 0
       spec         = ""
       storage_type = 0
-      
+
       multi_disks {
         count     = 0
         disk_type = ""
@@ -132,7 +132,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
       root_size    = 0
       spec         = ""
       storage_type = 0
-      
+
       multi_disks {
         count     = 0
         disk_type = ""
@@ -147,7 +147,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
       root_size    = 0
       spec         = ""
       storage_type = 0
-      
+
       multi_disks {
         count     = 0
         disk_type = ""
@@ -162,7 +162,7 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
       root_size    = 0
       spec         = ""
       storage_type = 0
-      
+
       multi_disks {
         count     = 0
         disk_type = ""
@@ -174,6 +174,6 @@ resource "tencentcloud_emr_cluster" "tf-sample-emr-cluster" {
     cvm_instance_ids = []
     node_flag        = ""
   }
-  
+
   tags = {}
 }

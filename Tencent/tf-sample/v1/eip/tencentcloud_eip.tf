@@ -11,6 +11,6 @@ resource "tencentcloud_eip" "tf-sample-eip" {
   name                       = ""
   prepaid_period             = 0
   type                       = ""
-  
+
   tags = {}
 }

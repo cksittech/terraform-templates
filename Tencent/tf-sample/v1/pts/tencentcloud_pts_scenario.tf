@@ -5,7 +5,7 @@ resource "tencentcloud_pts_scenario" "tf-sample-pts-scenario" {
   name        = ""
   project_id  = ""
   type        = ""
-  
+
   datasets {
     file_id        = ""
     head_lines     = []
@@ -39,7 +39,7 @@ resource "tencentcloud_pts_scenario" "tf-sample-pts-scenario" {
         graceful_stop_seconds   = 0
         iteration_count         = 0
         max_requests_per_second = 0
-        
+
         stages {
           duration_seconds     = 0
           target_virtual_users = 0
@@ -99,7 +99,7 @@ resource "tencentcloud_pts_scenario" "tf-sample-pts-scenario" {
       for         = ""
       metric      = ""
       value       = 0
-      
+
       label_filter {
         label_name  = ""
         label_value = ""

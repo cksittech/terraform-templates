@@ -9,7 +9,7 @@ resource "tencentcloud_waf_rate_limit" "tf-sample-waf-rate-limit" {
   priority       = 0
   quota_share    = false
   status         = 0
-  
+
   get_params_name {
     content = ""
     func    = ""

@@ -3,6 +3,6 @@ resource "tencentcloud_cam_role_by_name" "tf-sample-cam-role-by-name" {
   description   = ""
   document      = ""
   name          = ""
-  
+
   tags = {}
 }

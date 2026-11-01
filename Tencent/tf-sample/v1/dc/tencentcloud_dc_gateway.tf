@@ -8,6 +8,6 @@ resource "tencentcloud_dc_gateway" "tf-sample-dc-gateway" {
   network_instance_id = ""
   network_type        = ""
   zone                = ""
-  
+
   tags = {}
 }

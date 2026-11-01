@@ -18,7 +18,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
   security_group_ids          = []
   sg_ip                       = ""
   web_ui_version              = 0
-  
+
   depend_service {
     instance_id  = ""
     service_name = ""
@@ -66,7 +66,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
       common_resource_spec {
         _node_index   = ""
         instance_type = ""
-        
+
         data_disk {
           _disk_index = ""
           disk_size   = 0
@@ -84,7 +84,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
       core_resource_spec {
         _node_index   = ""
         instance_type = ""
-        
+
         data_disk {
           _disk_index = ""
           disk_size   = 0
@@ -102,7 +102,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
       master_resource_spec {
         _node_index   = ""
         instance_type = ""
-        
+
         data_disk {
           _disk_index = ""
           disk_size   = 0
@@ -120,7 +120,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
       router_resource_spec {
         _node_index   = ""
         instance_type = ""
-        
+
         data_disk {
           _disk_index = ""
           disk_size   = 0
@@ -138,7 +138,7 @@ resource "tencentcloud_emr_cluster_v2" "tf-sample-emr-cluster-v2" {
       task_resource_spec {
         _node_index   = ""
         instance_type = ""
-        
+
         data_disk {
           _disk_index = ""
           disk_size   = 0

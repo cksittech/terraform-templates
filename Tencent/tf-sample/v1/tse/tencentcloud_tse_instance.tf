@@ -12,17 +12,17 @@ resource "tencentcloud_tse_instance" "tf-sample-tse-instance" {
   subnet_id                     = ""
   trade_type                    = 0
   vpc_id                        = ""
-  
+
   engine_region_infos {
     engine_region = ""
     replica       = 0
-    
+
     vpc_infos {
       intranet_address = ""
       subnet_id        = ""
       vpc_id           = ""
     }
   }
-  
+
   tags = {}
 }

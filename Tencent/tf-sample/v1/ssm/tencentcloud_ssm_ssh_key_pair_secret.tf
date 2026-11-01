@@ -6,6 +6,6 @@ resource "tencentcloud_ssm_ssh_key_pair_secret" "tf-sample-ssm-ssh-key-pair-secr
   secret_name   = ""
   ssh_key_name  = ""
   status        = ""
-  
+
   tags = {}
 }

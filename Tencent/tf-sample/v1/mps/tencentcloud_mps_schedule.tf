@@ -2,24 +2,24 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
   output_dir    = ""
   resource_id   = ""
   schedule_name = ""
-  
+
   activities {
     activity_type   = ""
     reardrive_index = []
-    
+
     activity_para {
       adaptive_dynamic_streaming_task {
         definition             = 0
         output_object_path     = ""
         segment_object_name    = ""
         sub_stream_object_name = ""
-        
+
         add_on_subtitles {
           type = ""
-          
+
           subtitle {
             type = ""
-            
+
             cos_input_info {
               bucket = ""
               object = ""
@@ -39,7 +39,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         }
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -57,21 +57,21 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           start_time_offset = 0
           svg_content       = ""
           text_content      = ""
-          
+
           raw_parameter {
             coordinate_origin = ""
             type              = ""
             x_pos             = ""
             y_pos             = ""
-            
+
             image_template {
               height      = ""
               repeat_type = ""
               width       = ""
-              
+
               image_content {
                 type = ""
-                
+
                 cos_input_info {
                   bucket = ""
                   object = ""
@@ -107,10 +107,10 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         end_time_offset    = 0
         output_object_path = ""
         start_time_offset  = 0
-        
+
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -127,7 +127,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         definition          = 0
         output_object_path  = ""
         web_vtt_object_name = ""
-        
+
         object_number_format {
           increment     = 0
           initial_value = 0
@@ -136,7 +136,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         }
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -152,7 +152,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
       sample_snapshot_task {
         definition         = 0
         output_object_path = ""
-        
+
         object_number_format {
           increment     = 0
           initial_value = 0
@@ -161,7 +161,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         }
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -179,21 +179,21 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           start_time_offset = 0
           svg_content       = ""
           text_content      = ""
-          
+
           raw_parameter {
             coordinate_origin = ""
             type              = ""
             x_pos             = ""
             y_pos             = ""
-            
+
             image_template {
               height      = ""
               repeat_type = ""
               width       = ""
-              
+
               image_content {
                 type = ""
-                
+
                 cos_input_info {
                   bucket = ""
                   object = ""
@@ -218,7 +218,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         definition          = 0
         ext_time_offset_set = []
         output_object_path  = ""
-        
+
         object_number_format {
           increment     = 0
           initial_value = 0
@@ -227,7 +227,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         }
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -245,21 +245,21 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           start_time_offset = 0
           svg_content       = ""
           text_content      = ""
-          
+
           raw_parameter {
             coordinate_origin = ""
             type              = ""
             x_pos             = ""
             y_pos             = ""
-            
+
             image_template {
               height      = ""
               repeat_type = ""
               width       = ""
-              
+
               image_content {
                 type = ""
-                
+
                 cos_input_info {
                   bucket = ""
                   object = ""
@@ -286,11 +286,11 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         output_object_path  = ""
         segment_object_name = ""
         start_time_offset   = 0
-        
+
         head_tail_parameter {
           head_set {
             type = ""
-            
+
             cos_input_info {
               bucket = ""
               object = ""
@@ -309,7 +309,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           }
           tail_set {
             type = ""
-            
+
             cos_input_info {
               bucket = ""
               object = ""
@@ -344,7 +344,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
         }
         output_storage {
           type = ""
-          
+
           cos_output_storage {
             bucket = ""
             region = ""
@@ -361,13 +361,13 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           remove_audio = 0
           remove_video = 0
           std_ext_info = ""
-          
+
           add_on_subtitles {
             type = ""
-            
+
             subtitle {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -387,7 +387,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           }
           addon_audio_stream {
             type = ""
-            
+
             cos_input_info {
               bucket = ""
               object = ""
@@ -440,7 +440,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           container    = ""
           remove_audio = 0
           remove_video = 0
-          
+
           audio_template {
             audio_channel = 0
             bitrate       = 0
@@ -469,21 +469,21 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
           start_time_offset = 0
           svg_content       = ""
           text_content      = ""
-          
+
           raw_parameter {
             coordinate_origin = ""
             type              = ""
             x_pos             = ""
             y_pos             = ""
-            
+
             image_template {
               height      = ""
               repeat_type = ""
               width       = ""
-              
+
               image_content {
                 type = ""
-                
+
                 cos_input_info {
                   bucket = ""
                   object = ""
@@ -508,7 +508,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
   }
   output_storage {
     type = ""
-    
+
     cos_output_storage {
       bucket = ""
       region = ""
@@ -528,7 +528,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
     notify_url  = ""
     queue_name  = ""
     topic_name  = ""
-    
+
     aws_sqs {
       s3_secret_id   = ""
       s3_secret_key  = ""
@@ -538,7 +538,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
   }
   trigger {
     type = ""
-    
+
     aws_s3_file_upload_trigger {
       dir           = ""
       formats       = []
@@ -546,7 +546,7 @@ resource "tencentcloud_mps_schedule" "tf-sample-mps-schedule" {
       s3_region     = ""
       s3_secret_id  = ""
       s3_secret_key = ""
-      
+
       aws_sqs {
         s3_secret_id   = ""
         s3_secret_key  = ""

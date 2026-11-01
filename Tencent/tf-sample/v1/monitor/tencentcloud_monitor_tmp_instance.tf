@@ -5,6 +5,6 @@ resource "tencentcloud_monitor_tmp_instance" "tf-sample-monitor-tmp-instance" {
   subnet_id                        = ""
   vpc_id                           = ""
   zone                             = ""
-  
+
   tags = {}
 }

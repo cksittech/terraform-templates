@@ -4,7 +4,7 @@ resource "tencentcloud_dayu_ddos_policy_v2" "tf-sample-dayu-ddos-policy-v2" {
   ddos_level     = ""
   ddos_threshold = 0
   resource_id    = ""
-  
+
   acls {
     action           = ""
     d_port_end       = 0
@@ -74,7 +74,7 @@ resource "tencentcloud_dayu_ddos_policy_v2" "tf-sample-dayu-ddos-policy-v2" {
     offset      = 0
     open_status = 0
     verify      = ""
-    
+
     listeners {
       forward_protocol  = ""
       frontend_port     = 0

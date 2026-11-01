@@ -5,7 +5,7 @@ resource "tencentcloud_vpc_snapshot_policy" "tf-sample-vpc-snapshot-policy" {
   create_new_cos       = false
   keep_time            = 0
   snapshot_policy_name = ""
-  
+
   backup_policies {
     backup_day  = ""
     backup_time = ""

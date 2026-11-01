@@ -7,6 +7,6 @@ resource "tencentcloud_ccn" "tf-sample-ccn" {
   qos                    = ""
   route_ecmp_flag        = false
   route_overlap_flag     = false
-  
+
   tags = {}
 }

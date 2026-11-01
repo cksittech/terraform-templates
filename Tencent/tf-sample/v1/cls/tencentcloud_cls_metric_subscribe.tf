@@ -3,10 +3,10 @@ resource "tencentcloud_cls_metric_subscribe" "tf-sample-cls-metric-subscribe" {
   name      = ""
   namespace = ""
   topic_id  = ""
-  
+
   instance_info {
     instance_dimension = []
-    
+
     instances {
       values = []
     }
@@ -14,7 +14,7 @@ resource "tencentcloud_cls_metric_subscribe" "tf-sample-cls-metric-subscribe" {
   metrics {
     metric_name = ""
     periods     = []
-    
+
     metric_labels {
       key   = ""
       value = ""

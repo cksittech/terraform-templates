@@ -28,7 +28,7 @@ resource "tencentcloud_dlc_data_engine" "tf-sample-dlc-data-engine" {
   time_span              = 0
   time_unit              = ""
   tolerable_queue_time   = 0
-  
+
   crontab_resume_suspend_strategy {
     resume_time      = ""
     suspend_strategy = 0
@@ -43,7 +43,7 @@ resource "tencentcloud_dlc_data_engine" "tf-sample-dlc-data-engine" {
     executor_max_numbers = 0
     executor_nums        = 0
     executor_size        = ""
-    
+
     running_time_parameters {
       config_item  = ""
       config_value = ""

@@ -1,7 +1,7 @@
 resource "tencentcloud_scf_custom_domain" "tf-sample-scf-custom-domain" {
   domain   = ""
   protocol = ""
-  
+
   cert_config {
     certificate_id = ""
   }
@@ -10,7 +10,7 @@ resource "tencentcloud_scf_custom_domain" "tf-sample-scf-custom-domain" {
     namespace     = ""
     path_match    = ""
     qualifier     = ""
-    
+
     path_rewrite {
       path    = ""
       rewrite = ""

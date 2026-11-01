@@ -3,7 +3,7 @@ resource "tencentcloud_kubernetes_global_maintenance_window_and_exclusion" "tf-s
   duration         = 0
   maintenance_time = ""
   target_regions   = []
-  
+
   exclusions {
     end_at   = ""
     name     = ""

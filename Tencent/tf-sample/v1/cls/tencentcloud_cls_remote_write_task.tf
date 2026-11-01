@@ -10,7 +10,7 @@ resource "tencentcloud_cls_remote_write_task" "tf-sample-cls-remote-write-task" 
   topic_id             = ""
   virtual_gateway_type = 0
   vpc_id               = ""
-  
+
   auth_info {
     password = ""
     token    = ""

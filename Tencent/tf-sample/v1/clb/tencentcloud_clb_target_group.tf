@@ -11,7 +11,7 @@ resource "tencentcloud_clb_target_group" "tf-sample-clb-target-group" {
   type                = ""
   vpc_id              = ""
   weight              = 0
-  
+
   health_check {
     bad_limit         = 0
     extended_code     = ""
@@ -27,6 +27,6 @@ resource "tencentcloud_clb_target_group" "tf-sample-clb-target-group" {
     protocol          = ""
     timeout           = 0
   }
-  
+
   tags = {}
 }

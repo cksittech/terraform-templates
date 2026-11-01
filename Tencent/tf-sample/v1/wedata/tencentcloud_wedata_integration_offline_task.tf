@@ -8,7 +8,7 @@ resource "tencentcloud_wedata_integration_offline_task" "tf-sample-wedata-integr
   task_action = ""
   task_mode   = ""
   task_name   = ""
-  
+
   task_info {
     app_id                  = ""
     create_time             = ""
@@ -46,7 +46,7 @@ resource "tencentcloud_wedata_integration_offline_task" "tf-sample-wedata-integr
     task_mode               = ""
     update_time             = ""
     workflow_id             = ""
-    
+
     config {
       name  = ""
       value = ""
@@ -62,7 +62,7 @@ resource "tencentcloud_wedata_integration_offline_task" "tf-sample-wedata-integr
     mappings {
       sink_id   = ""
       source_id = ""
-      
+
       ext_config {
         name  = ""
         value = ""
@@ -78,7 +78,7 @@ resource "tencentcloud_wedata_integration_offline_task" "tf-sample-wedata-integr
         name    = ""
         type    = ""
         value   = ""
-        
+
         properties {
           name  = ""
           value = ""

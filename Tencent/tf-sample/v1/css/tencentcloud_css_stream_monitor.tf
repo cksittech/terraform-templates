@@ -8,7 +8,7 @@ resource "tencentcloud_css_stream_monitor" "tf-sample-css-stream-monitor" {
   check_stream_low_frame_rate = 0
   monitor_name                = ""
   ocr_language                = 0
-  
+
   input_list {
     description       = ""
     input_app         = ""

@@ -10,7 +10,7 @@ resource "tencentcloud_waf_log_post_ckafka_flow" "tf-sample-waf-log-post-ckafka-
   sasl_user     = ""
   topic         = ""
   vip_type      = 0
-  
+
   write_config {
     enable_body    = 0
     enable_bot     = 0

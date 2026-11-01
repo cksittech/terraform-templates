@@ -3,7 +3,7 @@ resource "tencentcloud_waf_bot_id_rule" "tf-sample-waf-bot-id-rule" {
   global_switch = 0
   protect_level = ""
   scene_id      = ""
-  
+
   data {
     action   = ""
     bot_id   = ""

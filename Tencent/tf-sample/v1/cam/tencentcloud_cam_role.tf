@@ -4,6 +4,6 @@ resource "tencentcloud_cam_role" "tf-sample-cam-role" {
   document         = ""
   name             = ""
   session_duration = 0
-  
+
   tags = {}
 }

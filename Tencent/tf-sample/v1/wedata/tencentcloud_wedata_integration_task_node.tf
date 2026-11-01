@@ -6,7 +6,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
   task_id          = ""
   task_mode        = 0
   task_type        = 0
-  
+
   node_info {
     app_id        = ""
     create_time   = ""
@@ -15,7 +15,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
     operator_uin  = ""
     owner_uin     = ""
     update_time   = ""
-    
+
     config {
       name  = ""
       value = ""
@@ -27,7 +27,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
     node_mapping {
       sink_id   = ""
       source_id = ""
-      
+
       ext_config {
         name  = ""
         value = ""
@@ -43,7 +43,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
         name    = ""
         type    = ""
         value   = ""
-        
+
         properties {
           name  = ""
           value = ""
@@ -57,7 +57,7 @@ resource "tencentcloud_wedata_integration_task_node" "tf-sample-wedata-integrati
       name    = ""
       type    = ""
       value   = ""
-      
+
       properties {
         name  = ""
         value = ""

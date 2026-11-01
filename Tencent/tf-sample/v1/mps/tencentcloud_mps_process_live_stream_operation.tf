@@ -4,7 +4,7 @@ resource "tencentcloud_mps_process_live_stream_operation" "tf-sample-mps-process
   session_context = ""
   session_id      = ""
   url             = ""
-  
+
   ai_analysis_task {
     definition         = 0
     extended_parameter = ""
@@ -21,7 +21,7 @@ resource "tencentcloud_mps_process_live_stream_operation" "tf-sample-mps-process
   }
   output_storage {
     type = ""
-    
+
     cos_output_storage {
       bucket = ""
       region = ""

@@ -10,7 +10,7 @@ resource "tencentcloud_kubernetes_cluster_release" "tf-sample-kubernetes-cluster
   namespace       = ""
   password        = ""
   username        = ""
-  
+
   values {
     raw_original = ""
     values_type  = ""

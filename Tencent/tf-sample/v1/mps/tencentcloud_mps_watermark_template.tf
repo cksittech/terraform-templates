@@ -5,7 +5,7 @@ resource "tencentcloud_mps_watermark_template" "tf-sample-mps-watermark-template
   type              = ""
   x_pos             = ""
   y_pos             = ""
-  
+
   image_template {
     height        = ""
     image_content = ""

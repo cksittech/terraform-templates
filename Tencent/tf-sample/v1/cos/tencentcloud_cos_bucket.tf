@@ -18,7 +18,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   multi_az                             = false
   replica_role                         = ""
   versioning_enable                    = false
-  
+
   cors_rules {
     allowed_headers = []
     allowed_methods = []
@@ -29,13 +29,13 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   intelligent_tiering_archiving_rule_list {
     rule_id = ""
     status  = ""
-    
+
     filter {
       prefix = ""
-      
+
       and {
         prefix = ""
-        
+
         tag {
           key   = ""
           value = ""
@@ -54,7 +54,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   lifecycle_rules {
     filter_prefix = ""
     id            = ""
-    
+
     abort_incomplete_multipart_upload {
       days_after_initiation = 0
     }
@@ -78,7 +78,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
   }
   object_lock_configuration {
     enabled = false
-    
+
     rule {
       days = 0
     }
@@ -108,16 +108,16 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
     prefix                            = ""
     priority                          = 0
     status                            = ""
-    
+
     delete_marker_replication {
       status = ""
     }
     filter {
       prefix = ""
-      
+
       and {
         prefix = ""
-        
+
         tag {
           key   = ""
           value = ""
@@ -136,7 +136,7 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
     index_document           = ""
     original_http_status     = ""
     redirect_all_requests_to = ""
-    
+
     routing_rules {
       rules {
         condition_error_code        = ""
@@ -147,6 +147,6 @@ resource "tencentcloud_cos_bucket" "tf-sample-cos-bucket" {
       }
     }
   }
-  
+
   tags = {}
 }

@@ -1,6 +1,6 @@
 resource "tencentcloud_dlc_meta_database" "tf-sample-dlc-meta-database" {
   datasource_connection_name = ""
-  
+
   govern_policy {
     govern_engine = ""
     rule_type     = ""
@@ -20,7 +20,7 @@ resource "tencentcloud_dlc_meta_database" "tf-sample-dlc-meta-database" {
     }
     policy {
       inherit = ""
-      
+
       change_table {
         data_retention_time = 0
       }
@@ -41,7 +41,7 @@ resource "tencentcloud_dlc_meta_database" "tf-sample-dlc-meta-database" {
         resource_group_name = ""
         resource_type       = ""
         status              = 0
-        
+
         favor {
           catalog   = ""
           data_base = ""
@@ -58,7 +58,7 @@ resource "tencentcloud_dlc_meta_database" "tf-sample-dlc-meta-database" {
       }
       written {
         written_enable = ""
-        
+
         advance_policy {
           before_days                    = 0
           compact_enable                 = ""
@@ -70,7 +70,7 @@ resource "tencentcloud_dlc_meta_database" "tf-sample-dlc-meta-database" {
           remove_orphan_interval_min     = 0
           retain_last                    = 0
           target_file_size_bytes         = 0
-          
+
           sort_orders {
             column         = ""
             null_order     = ""

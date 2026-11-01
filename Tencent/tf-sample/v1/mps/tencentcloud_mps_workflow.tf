@@ -2,7 +2,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
   output_dir    = ""
   task_priority = 0
   workflow_name = ""
-  
+
   ai_analysis_task {
     definition         = 0
     extended_parameter = ""
@@ -19,10 +19,10 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       output_object_path     = ""
       segment_object_name    = ""
       sub_stream_object_name = ""
-      
+
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -34,21 +34,21 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -67,10 +67,10 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       end_time_offset    = 0
       output_object_path = ""
       start_time_offset  = 0
-      
+
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -81,7 +81,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       definition          = 0
       output_object_path  = ""
       web_vtt_object_name = ""
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -90,7 +90,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -100,7 +100,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
     sample_snapshot_task_set {
       definition         = 0
       output_object_path = ""
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -109,7 +109,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -121,21 +121,21 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -154,7 +154,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       ext_time_offset_set = []
       output_object_path  = ""
       time_offset_set     = []
-      
+
       object_number_format {
         increment     = 0
         initial_value = 0
@@ -163,7 +163,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -175,21 +175,21 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -209,11 +209,11 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       output_object_path  = ""
       segment_object_name = ""
       start_time_offset   = 0
-      
+
       head_tail_parameter {
         head_set {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -225,7 +225,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         }
         tail_set {
           type = ""
-          
+
           cos_input_info {
             bucket = ""
             object = ""
@@ -253,7 +253,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
       }
       output_storage {
         type = ""
-        
+
         cos_output_storage {
           bucket = ""
           region = ""
@@ -263,7 +263,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         container    = ""
         remove_audio = 0
         remove_video = 0
-        
+
         audio_template {
           audio_channel  = 0
           bitrate        = 0
@@ -300,7 +300,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         container    = ""
         remove_audio = 0
         remove_video = 0
-        
+
         audio_template {
           audio_channel = 0
           bitrate       = 0
@@ -329,21 +329,21 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
         start_time_offset = 0
         svg_content       = ""
         text_content      = ""
-        
+
         raw_parameter {
           coordinate_origin = ""
           type              = ""
           x_pos             = ""
           y_pos             = ""
-          
+
           image_template {
             height      = ""
             repeat_type = ""
             width       = ""
-            
+
             image_content {
               type = ""
-              
+
               cos_input_info {
                 bucket = ""
                 object = ""
@@ -360,7 +360,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
   }
   output_storage {
     type = ""
-    
+
     cos_output_storage {
       bucket = ""
       region = ""
@@ -377,7 +377,7 @@ resource "tencentcloud_mps_workflow" "tf-sample-mps-workflow" {
   }
   trigger {
     type = ""
-    
+
     cos_file_upload_trigger {
       bucket  = ""
       dir     = ""

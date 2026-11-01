@@ -21,15 +21,15 @@ resource "tencentcloud_cynosdb_libra_db_instance" "tf-sample-cynosdb-libra-db-in
   time_unit          = ""
   vpc_id             = ""
   zone               = ""
-  
+
   objects {
     database_tables {
       migrate_db_mode = ""
-      
+
       databases {
         db_name            = ""
         migrate_table_mode = ""
-        
+
         tables {
           table_name = ""
         }

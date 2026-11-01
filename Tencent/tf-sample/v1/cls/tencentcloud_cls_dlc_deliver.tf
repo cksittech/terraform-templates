@@ -8,7 +8,7 @@ resource "tencentcloud_cls_dlc_deliver" "tf-sample-cls-dlc-deliver" {
   start_time       = 0
   status           = 0
   topic_id         = ""
-  
+
   dlc_info {
     field_infos {
       cls_field      = ""

@@ -5,7 +5,7 @@ resource "tencentcloud_gwlb_target_group" "tf-sample-gwlb-target-group" {
   schedule_algorithm = ""
   target_group_name  = ""
   vpc_id             = ""
-  
+
   health_check {
     health_num    = 0
     health_switch = false

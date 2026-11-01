@@ -6,7 +6,7 @@ resource "tencentcloud_csip_risk_center" "tf-sample-csip-risk-center" {
   self_defining_assets = []
   task_mode            = 0
   task_name            = ""
-  
+
   assets {
     asset         = ""
     asset_name    = ""

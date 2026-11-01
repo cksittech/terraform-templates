@@ -9,7 +9,7 @@ resource "tencentcloud_tse_cngw_gateway" "tf-sample-tse-cngw-gateway" {
   name                       = ""
   trade_type                 = 0
   type                       = ""
-  
+
   internet_config {
     description                = ""
     internet_address_version   = ""
@@ -28,6 +28,6 @@ resource "tencentcloud_tse_cngw_gateway" "tf-sample-tse-cngw-gateway" {
     subnet_id = ""
     vpc_id    = ""
   }
-  
+
   tags = {}
 }

@@ -3,7 +3,7 @@ resource "tencentcloud_private_dns_zone" "tf-sample-private-dns-zone" {
   dns_forward_status   = ""
   domain               = ""
   remark               = ""
-  
+
   account_vpc_set {
     region      = ""
     uin         = ""
@@ -13,6 +13,6 @@ resource "tencentcloud_private_dns_zone" "tf-sample-private-dns-zone" {
     region      = ""
     uniq_vpc_id = ""
   }
-  
+
   tags = {}
 }

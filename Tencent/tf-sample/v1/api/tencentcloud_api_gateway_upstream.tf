@@ -7,7 +7,7 @@ resource "tencentcloud_api_gateway_upstream" "tf-sample-api-gateway-upstream" {
   upstream_host        = ""
   upstream_name        = ""
   upstream_type        = ""
-  
+
   health_checker {
     active_check_http_path = ""
     active_check_interval  = 0
@@ -28,7 +28,7 @@ resource "tencentcloud_api_gateway_upstream" "tf-sample-api-gateway-upstream" {
     port         = 0
     service_name = ""
     weight       = 0
-    
+
     extra_labels {
       key   = ""
       value = ""
@@ -45,6 +45,6 @@ resource "tencentcloud_api_gateway_upstream" "tf-sample-api-gateway-upstream" {
     vm_instance_id      = ""
     weight              = 0
   }
-  
+
   tags = {}
 }

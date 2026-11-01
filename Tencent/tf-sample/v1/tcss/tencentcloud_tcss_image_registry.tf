@@ -10,7 +10,7 @@ resource "tencentcloud_tcss_image_registry" "tf-sample-tcss-image-registry" {
   speed_limit      = 0
   url              = ""
   username         = ""
-  
+
   conn_detect_config {
     quuid = ""
     uuid  = ""

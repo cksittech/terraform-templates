@@ -10,7 +10,7 @@ resource "tencentcloud_pts_file" "tf-sample-pts-file" {
   size           = 0
   tail_lines     = []
   type           = ""
-  
+
   file_infos {
     file_id    = ""
     name       = ""

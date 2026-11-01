@@ -3,17 +3,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
   rule_name   = ""
   status      = ""
   zone_id     = ""
-  
+
   branches {
     condition = ""
-    
+
     actions {
       name = ""
-      
+
       access_url_redirect_parameters {
         protocol    = ""
         status_code = 0
-        
+
         host_name {
           action = ""
           value  = ""
@@ -43,7 +43,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
         full_url_cache = ""
         ignore_case    = ""
         scheme         = ""
-        
+
         cookie {
           action = ""
           switch = ""
@@ -135,7 +135,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
         origin_protocol   = ""
         origin_type       = ""
         private_access    = ""
-        
+
         private_parameters {
           access_key_id     = ""
           region            = ""
@@ -196,7 +196,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
       }
       site_failover_parameters {
         site_failover_status_codes = []
-        
+
         site_failover_params {
           http_origin_port  = 0
           https_origin_port = 0
@@ -207,7 +207,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
           redirect_url      = ""
           response_page_id  = ""
           status_code       = 0
-          
+
           private_parameters {
             access_key_id     = ""
             region            = ""
@@ -289,17 +289,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
     }
     sub_rules {
       description = []
-      
+
       branches {
         condition = ""
-        
+
         actions {
           name = ""
-          
+
           access_url_redirect_parameters {
             protocol    = ""
             status_code = 0
-            
+
             host_name {
               action = ""
               value  = ""
@@ -329,7 +329,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
             full_url_cache = ""
             ignore_case    = ""
             scheme         = ""
-            
+
             cookie {
               action = ""
               switch = ""
@@ -421,7 +421,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
             origin_protocol   = ""
             origin_type       = ""
             private_access    = ""
-            
+
             private_parameters {
               access_key_id     = ""
               region            = ""
@@ -482,7 +482,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
           }
           site_failover_parameters {
             site_failover_status_codes = []
-            
+
             site_failover_params {
               http_origin_port  = 0
               https_origin_port = 0
@@ -493,7 +493,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
               redirect_url      = ""
               response_page_id  = ""
               status_code       = 0
-              
+
               private_parameters {
                 access_key_id     = ""
                 region            = ""
@@ -575,17 +575,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
         }
         sub_rules {
           description = []
-          
+
           branches {
             condition = ""
-            
+
             actions {
               name = ""
-              
+
               access_url_redirect_parameters {
                 protocol    = ""
                 status_code = 0
-                
+
                 host_name {
                   action = ""
                   value  = ""
@@ -615,7 +615,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                 full_url_cache = ""
                 ignore_case    = ""
                 scheme         = ""
-                
+
                 cookie {
                   action = ""
                   switch = ""
@@ -707,7 +707,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                 origin_protocol   = ""
                 origin_type       = ""
                 private_access    = ""
-                
+
                 private_parameters {
                   access_key_id     = ""
                   region            = ""
@@ -768,7 +768,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
               }
               site_failover_parameters {
                 site_failover_status_codes = []
-                
+
                 site_failover_params {
                   http_origin_port  = 0
                   https_origin_port = 0
@@ -779,7 +779,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                   redirect_url      = ""
                   response_page_id  = ""
                   status_code       = 0
-                  
+
                   private_parameters {
                     access_key_id     = ""
                     region            = ""
@@ -861,17 +861,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
             }
             sub_rules {
               description = []
-              
+
               branches {
                 condition = ""
-                
+
                 actions {
                   name = ""
-                  
+
                   access_url_redirect_parameters {
                     protocol    = ""
                     status_code = 0
-                    
+
                     host_name {
                       action = ""
                       value  = ""
@@ -901,7 +901,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                     full_url_cache = ""
                     ignore_case    = ""
                     scheme         = ""
-                    
+
                     cookie {
                       action = ""
                       switch = ""
@@ -993,7 +993,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                     origin_protocol   = ""
                     origin_type       = ""
                     private_access    = ""
-                    
+
                     private_parameters {
                       access_key_id     = ""
                       region            = ""
@@ -1054,7 +1054,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                   }
                   site_failover_parameters {
                     site_failover_status_codes = []
-                    
+
                     site_failover_params {
                       http_origin_port  = 0
                       https_origin_port = 0
@@ -1065,7 +1065,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                       redirect_url      = ""
                       response_page_id  = ""
                       status_code       = 0
-                      
+
                       private_parameters {
                         access_key_id     = ""
                         region            = ""
@@ -1147,17 +1147,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                 }
                 sub_rules {
                   description = []
-                  
+
                   branches {
                     condition = ""
-                    
+
                     actions {
                       name = ""
-                      
+
                       access_url_redirect_parameters {
                         protocol    = ""
                         status_code = 0
-                        
+
                         host_name {
                           action = ""
                           value  = ""
@@ -1187,7 +1187,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                         full_url_cache = ""
                         ignore_case    = ""
                         scheme         = ""
-                        
+
                         cookie {
                           action = ""
                           switch = ""
@@ -1279,7 +1279,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                         origin_protocol   = ""
                         origin_type       = ""
                         private_access    = ""
-                        
+
                         private_parameters {
                           access_key_id     = ""
                           region            = ""
@@ -1340,7 +1340,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                       }
                       site_failover_parameters {
                         site_failover_status_codes = []
-                        
+
                         site_failover_params {
                           http_origin_port  = 0
                           https_origin_port = 0
@@ -1351,7 +1351,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                           redirect_url      = ""
                           response_page_id  = ""
                           status_code       = 0
-                          
+
                           private_parameters {
                             access_key_id     = ""
                             region            = ""
@@ -1433,17 +1433,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                     }
                     sub_rules {
                       description = []
-                      
+
                       branches {
                         condition = ""
-                        
+
                         actions {
                           name = ""
-                          
+
                           access_url_redirect_parameters {
                             protocol    = ""
                             status_code = 0
-                            
+
                             host_name {
                               action = ""
                               value  = ""
@@ -1473,7 +1473,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                             full_url_cache = ""
                             ignore_case    = ""
                             scheme         = ""
-                            
+
                             cookie {
                               action = ""
                               switch = ""
@@ -1565,7 +1565,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                             origin_protocol   = ""
                             origin_type       = ""
                             private_access    = ""
-                            
+
                             private_parameters {
                               access_key_id     = ""
                               region            = ""
@@ -1626,7 +1626,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                           }
                           site_failover_parameters {
                             site_failover_status_codes = []
-                            
+
                             site_failover_params {
                               http_origin_port  = 0
                               https_origin_port = 0
@@ -1637,7 +1637,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                               redirect_url      = ""
                               response_page_id  = ""
                               status_code       = 0
-                              
+
                               private_parameters {
                                 access_key_id     = ""
                                 region            = ""
@@ -1719,17 +1719,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                         }
                         sub_rules {
                           description = []
-                          
+
                           branches {
                             condition = ""
-                            
+
                             actions {
                               name = ""
-                              
+
                               access_url_redirect_parameters {
                                 protocol    = ""
                                 status_code = 0
-                                
+
                                 host_name {
                                   action = ""
                                   value  = ""
@@ -1759,7 +1759,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                 full_url_cache = ""
                                 ignore_case    = ""
                                 scheme         = ""
-                                
+
                                 cookie {
                                   action = ""
                                   switch = ""
@@ -1851,7 +1851,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                 origin_protocol   = ""
                                 origin_type       = ""
                                 private_access    = ""
-                                
+
                                 private_parameters {
                                   access_key_id     = ""
                                   region            = ""
@@ -1912,7 +1912,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                               }
                               site_failover_parameters {
                                 site_failover_status_codes = []
-                                
+
                                 site_failover_params {
                                   http_origin_port  = 0
                                   https_origin_port = 0
@@ -1923,7 +1923,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                   redirect_url      = ""
                                   response_page_id  = ""
                                   status_code       = 0
-                                  
+
                                   private_parameters {
                                     access_key_id     = ""
                                     region            = ""
@@ -2005,17 +2005,17 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                             }
                             sub_rules {
                               description = []
-                              
+
                               branches {
                                 condition = ""
-                                
+
                                 actions {
                                   name = ""
-                                  
+
                                   access_url_redirect_parameters {
                                     protocol    = ""
                                     status_code = 0
-                                    
+
                                     host_name {
                                       action = ""
                                       value  = ""
@@ -2045,7 +2045,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                     full_url_cache = ""
                                     ignore_case    = ""
                                     scheme         = ""
-                                    
+
                                     cookie {
                                       action = ""
                                       switch = ""
@@ -2137,7 +2137,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                     origin_protocol   = ""
                                     origin_type       = ""
                                     private_access    = ""
-                                    
+
                                     private_parameters {
                                       access_key_id     = ""
                                       region            = ""
@@ -2198,7 +2198,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                   }
                                   site_failover_parameters {
                                     site_failover_status_codes = []
-                                    
+
                                     site_failover_params {
                                       http_origin_port  = 0
                                       https_origin_port = 0
@@ -2209,7 +2209,7 @@ resource "tencentcloud_teo_l7_acc_rule_v2" "tf-sample-teo-l7-acc-rule-v2" {
                                       redirect_url      = ""
                                       response_page_id  = ""
                                       status_code       = 0
-                                      
+
                                       private_parameters {
                                         access_key_id     = ""
                                         region            = ""

@@ -12,7 +12,7 @@ resource "tencentcloud_wedata_function" "tf-sample-wedata-function" {
   return_desc        = ""
   type               = ""
   usage              = ""
-  
+
   resource_list {
     id   = ""
     md5  = ""

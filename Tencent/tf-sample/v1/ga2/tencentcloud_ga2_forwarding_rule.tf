@@ -5,7 +5,7 @@ resource "tencentcloud_ga2_forwarding_rule" "tf-sample-ga2-forwarding-rule" {
   listener_id           = ""
   origin_host           = ""
   origin_sni            = ""
-  
+
   hide_response_headers {
     key   = ""
     value = ""

@@ -26,7 +26,7 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""
-  
+
   add_node_list {
     role = ""
     zone = ""
@@ -36,6 +36,6 @@ resource "tencentcloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-in
     role      = ""
     zone      = ""
   }
-  
+
   tags = {}
 }

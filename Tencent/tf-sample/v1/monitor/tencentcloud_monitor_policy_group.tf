@@ -4,7 +4,7 @@ resource "tencentcloud_monitor_policy_group" "tf-sample-monitor-policy-group" {
   policy_view_name = ""
   project_id       = 0
   remark           = ""
-  
+
   conditions {
     alarm_notify_period = 0
     alarm_notify_type   = 0

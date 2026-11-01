@@ -9,7 +9,7 @@ resource "tencentcloud_as_lifecycle_hook" "tf-sample-as-lifecycle-hook" {
   notification_target_type  = ""
   notification_topic_name   = ""
   scaling_group_id          = ""
-  
+
   lifecycle_command {
     command_id = ""
     parameters = ""

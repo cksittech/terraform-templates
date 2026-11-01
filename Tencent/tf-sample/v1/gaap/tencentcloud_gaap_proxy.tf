@@ -7,6 +7,6 @@ resource "tencentcloud_gaap_proxy" "tf-sample-gaap-proxy" {
   network_type      = ""
   project_id        = 0
   realserver_region = ""
-  
+
   tags = {}
 }

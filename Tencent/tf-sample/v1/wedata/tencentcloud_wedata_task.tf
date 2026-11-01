@@ -1,6 +1,6 @@
 resource "tencentcloud_wedata_task" "tf-sample-wedata-task" {
   project_id = ""
-  
+
   task_base_attribute {
     owner_uin        = ""
     task_description = ""
@@ -18,7 +18,7 @@ resource "tencentcloud_wedata_task" "tf-sample-wedata-task" {
     source_service_id = ""
     target_service_id = ""
     yarn_queue        = ""
-    
+
     task_ext_configuration_list {
       param_key   = ""
       param_value = ""
@@ -47,12 +47,12 @@ resource "tencentcloud_wedata_task" "tf-sample-wedata-task" {
     self_depend              = ""
     start_time               = ""
     wait_execution_total_ttl = ""
-    
+
     event_listener_list {
       event_broadcast_type = ""
       event_name           = ""
       event_sub_type       = ""
-      
+
       properties_list {
         param_key   = ""
         param_value = ""
@@ -83,7 +83,7 @@ resource "tencentcloud_wedata_task" "tf-sample-wedata-task" {
       offset                    = ""
       subordinate_cyclic_config = ""
       task_id                   = ""
-      
+
       dependency_strategy {
         polling_null_strategy                   = ""
         task_dependency_executing_strategies    = []

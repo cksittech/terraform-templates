@@ -46,7 +46,7 @@ resource "tencentcloud_apm_application_config" "tf-sample-apm-application-config
   url_exclude                           = ""
   url_long_segment_threshold            = 0
   url_number_segment_threshold          = 0
-  
+
   agent_operation_config_view {
     ignore_operation    = ""
     retention_operation = ""

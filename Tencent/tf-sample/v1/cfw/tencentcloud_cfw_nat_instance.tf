@@ -5,7 +5,7 @@ resource "tencentcloud_cfw_nat_instance" "tf-sample-cfw-nat-instance" {
   nat_gw_list  = []
   width        = 0
   zone_set     = []
-  
+
   new_mode_items {
     eips     = []
     vpc_list = []

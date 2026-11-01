@@ -4,7 +4,7 @@ resource "tencentcloud_mps_transcode_template" "tf-sample-mps-transcode-template
   name         = ""
   remove_audio = 0
   remove_video = 0
-  
+
   audio_template {
     audio_channel = 0
     bitrate       = 0

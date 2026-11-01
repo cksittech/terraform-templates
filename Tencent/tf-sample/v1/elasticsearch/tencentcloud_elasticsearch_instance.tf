@@ -22,7 +22,7 @@ resource "tencentcloud_elasticsearch_instance" "tf-sample-elasticsearch-instance
   subnet_id                 = ""
   version                   = ""
   vpc_id                    = ""
-  
+
   cos_backup {
     backup_time    = ""
     is_auto_backup = false
@@ -50,6 +50,6 @@ resource "tencentcloud_elasticsearch_instance" "tf-sample-elasticsearch-instance
     node_num  = 0
     node_type = ""
   }
-  
+
   tags = {}
 }

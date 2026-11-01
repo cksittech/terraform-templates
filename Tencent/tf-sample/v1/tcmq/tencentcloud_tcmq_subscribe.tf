@@ -7,6 +7,6 @@ resource "tencentcloud_tcmq_subscribe" "tf-sample-tcmq-subscribe" {
   protocol              = ""
   subscription_name     = ""
   topic_name            = ""
-  
+
   tags = {}
 }

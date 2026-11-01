@@ -17,11 +17,11 @@ resource "tencentcloud_mariadb_instance" "tf-sample-mariadb-instance" {
   voucher_ids        = []
   vpc_id             = ""
   zones              = []
-  
+
   init_params {
     param = ""
     value = ""
   }
-  
+
   tags = {}
 }

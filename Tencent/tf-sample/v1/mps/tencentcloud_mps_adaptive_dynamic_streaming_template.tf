@@ -6,11 +6,11 @@ resource "tencentcloud_mps_adaptive_dynamic_streaming_template" "tf-sample-mps-a
   name                            = ""
   pure_audio                      = 0
   segment_type                    = ""
-  
+
   stream_infos {
     remove_audio = 0
     remove_video = 0
-    
+
     audio {
       audio_channel = 0
       bitrate       = 0

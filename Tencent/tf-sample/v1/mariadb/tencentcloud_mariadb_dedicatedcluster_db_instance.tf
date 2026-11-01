@@ -9,6 +9,6 @@ resource "tencentcloud_mariadb_dedicatedcluster_db_instance" "tf-sample-mariadb-
   subnet_id     = ""
   vip           = ""
   vpc_id        = ""
-  
+
   tags = {}
 }

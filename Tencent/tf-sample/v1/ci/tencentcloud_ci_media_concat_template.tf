@@ -1,7 +1,7 @@
 resource "tencentcloud_ci_media_concat_template" "tf-sample-ci-media-concat-template" {
   bucket = ""
   name   = ""
-  
+
   concat_template {
     audio {
       bitrate    = ""
@@ -13,7 +13,7 @@ resource "tencentcloud_ci_media_concat_template" "tf-sample-ci-media-concat-temp
       audio_source = ""
       mix_mode     = ""
       replace      = ""
-      
+
       effect_config {
         bgm_fade_time       = ""
         enable_bgm_fade     = ""

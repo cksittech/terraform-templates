@@ -2,11 +2,11 @@ resource "tencentcloud_monitor_notice_content_tmpl" "tf-sample-monitor-notice-co
   monitor_type  = ""
   tmpl_language = ""
   tmpl_name     = ""
-  
+
   tmpl_contents {
     ding_ding_robot {
       matching_status = []
-      
+
       template {
         content_tmpl = ""
         title_tmpl   = ""
@@ -14,7 +14,7 @@ resource "tencentcloud_monitor_notice_content_tmpl" "tf-sample-monitor-notice-co
     }
     fei_shu_robot {
       matching_status = []
-      
+
       template {
         content_tmpl = ""
         title_tmpl   = ""
@@ -22,11 +22,11 @@ resource "tencentcloud_monitor_notice_content_tmpl" "tf-sample-monitor-notice-co
     }
     pager_duty_robot {
       matching_status = []
-      
+
       template {
         body       = ""
         title_tmpl = ""
-        
+
         headers {
           key    = ""
           values = []
@@ -35,7 +35,7 @@ resource "tencentcloud_monitor_notice_content_tmpl" "tf-sample-monitor-notice-co
     }
     qcloud_yehe {
       matching_status = []
-      
+
       template {
         andon {
           content_tmpl = ""
@@ -71,25 +71,25 @@ resource "tencentcloud_monitor_notice_content_tmpl" "tf-sample-monitor-notice-co
     }
     teams_robot {
       matching_status = []
-      
+
       template {
         content_tmpl = ""
       }
     }
     we_work_robot {
       matching_status = []
-      
+
       template {
         content_tmpl = ""
       }
     }
     webhook {
       matching_status = []
-      
+
       template {
         body              = ""
         body_content_type = ""
-        
+
         headers {
           key    = ""
           values = []

@@ -2,7 +2,7 @@ resource "tencentcloud_postgres_audit_log_file" "tf-sample-postgres-audit-log-fi
   end_time    = ""
   instance_id = ""
   start_time  = ""
-  
+
   filter {
     affect_rows = 0
     db_name     = []

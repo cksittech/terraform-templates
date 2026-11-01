@@ -4,6 +4,6 @@ resource "tencentcloud_rum_taw_instance" "tf-sample-rum-taw-instance" {
   data_retention_days = 0
   instance_desc       = ""
   instance_name       = ""
-  
+
   tags = {}
 }

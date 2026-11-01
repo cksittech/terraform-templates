@@ -6,7 +6,7 @@ resource "tencentcloud_tse_cngw_service" "tf-sample-tse-cngw-service" {
   retries       = 0
   timeout       = 0
   upstream_type = ""
-  
+
   upstream_info {
     algorithm                   = ""
     auto_scaling_cvm_port       = 0
@@ -26,7 +26,7 @@ resource "tencentcloud_tse_cngw_service" "tf-sample-tse-cngw-service" {
     source_id                   = ""
     source_name                 = ""
     source_type                 = ""
-    
+
     targets {
       host   = ""
       port   = 0
@@ -34,6 +34,6 @@ resource "tencentcloud_tse_cngw_service" "tf-sample-tse-cngw-service" {
       weight = 0
     }
   }
-  
+
   tags = {}
 }

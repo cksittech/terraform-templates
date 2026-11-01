@@ -10,7 +10,7 @@ resource "tencentcloud_kubernetes_cluster_master_attachment" "tf-sample-kubernet
   node_role                   = ""
   password                    = ""
   security_group_ids          = []
-  
+
   extra_args {
     etcd                    = []
     kube_api_server         = []
@@ -23,7 +23,7 @@ resource "tencentcloud_kubernetes_cluster_master_attachment" "tf-sample-kubernet
     mount_target       = ""
     unschedulable      = 0
     user_script        = ""
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""

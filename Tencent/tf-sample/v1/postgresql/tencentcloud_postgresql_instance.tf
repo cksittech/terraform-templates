@@ -29,12 +29,12 @@ resource "tencentcloud_postgresql_instance" "tf-sample-postgresql-instance" {
   voucher_ids                 = []
   vpc_id                      = ""
   wait_switch                 = 0
-  
+
   db_node_set {
     dedicated_cluster_id = ""
     role                 = ""
     zone                 = ""
   }
-  
+
   tags = {}
 }

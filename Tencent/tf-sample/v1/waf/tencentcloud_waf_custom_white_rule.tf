@@ -7,10 +7,10 @@ resource "tencentcloud_waf_custom_white_rule" "tf-sample-waf-custom-white-rule" 
   name        = ""
   sort_id     = ""
   status      = ""
-  
+
   job_date_time {
     time_t_zone = ""
-    
+
     cron {
       days       = []
       end_time   = ""

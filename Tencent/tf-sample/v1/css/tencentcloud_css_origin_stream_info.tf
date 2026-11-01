@@ -30,7 +30,7 @@ resource "tencentcloud_css_origin_stream_info" "tf-sample-css-origin-stream-info
   time_jitter                 = ""
   url_replace_rules           = []
   using_https                 = ""
-  
+
   customization_rules {
     cache                             = 0
     cache_status_code                 = []

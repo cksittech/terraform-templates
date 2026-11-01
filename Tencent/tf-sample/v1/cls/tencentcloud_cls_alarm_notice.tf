@@ -6,7 +6,7 @@ resource "tencentcloud_cls_alarm_notice" "tf-sample-cls-alarm-notice" {
   name                 = ""
   secure_detail_status = 0
   type                 = ""
-  
+
   deliver_config {
     region   = ""
     scope    = 0
@@ -26,12 +26,12 @@ resource "tencentcloud_cls_alarm_notice" "tf-sample-cls-alarm-notice" {
     interval = 0
     rule     = ""
     type     = 0
-    
+
     escalate_notices {
       escalate = false
       interval = 0
       type     = 0
-      
+
       notice_receivers {
         end_time          = ""
         index             = 0
@@ -85,6 +85,6 @@ resource "tencentcloud_cls_alarm_notice" "tf-sample-cls-alarm-notice" {
     user_ids          = []
     web_callback_id   = ""
   }
-  
+
   tags = {}
 }

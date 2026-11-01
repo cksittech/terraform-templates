@@ -10,12 +10,12 @@ resource "tencentcloud_lighthouse_instance" "tf-sample-lighthouse-instance" {
   period                           = 0
   renew_flag                       = ""
   zone                             = ""
-  
+
   containers {
     command         = ""
     container_image = ""
     container_name  = ""
-    
+
     envs {
       key   = ""
       value = ""

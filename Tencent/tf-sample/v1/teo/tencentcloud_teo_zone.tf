@@ -5,11 +5,11 @@ resource "tencentcloud_teo_zone" "tf-sample-teo-zone" {
   plan_id         = ""
   type            = ""
   zone_name       = ""
-  
+
   work_mode_infos {
     config_group_type = ""
     work_mode         = ""
   }
-  
+
   tags = {}
 }

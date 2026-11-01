@@ -10,7 +10,7 @@ resource "tencentcloud_cynosdb_proxy" "tf-sample-cynosdb-proxy" {
   security_group_ids       = []
   unique_subnet_id         = ""
   unique_vpc_id            = ""
-  
+
   proxy_zones {
     proxy_node_count = 0
     proxy_node_zone  = ""

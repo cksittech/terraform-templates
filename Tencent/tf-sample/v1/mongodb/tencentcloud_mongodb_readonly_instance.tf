@@ -27,6 +27,6 @@ resource "tencentcloud_mongodb_readonly_instance" "tf-sample-mongodb-readonly-in
   subnet_id              = ""
   volume                 = 0
   vpc_id                 = ""
-  
+
   tags = {}
 }

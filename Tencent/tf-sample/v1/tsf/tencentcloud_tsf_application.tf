@@ -9,10 +9,10 @@ resource "tencentcloud_tsf_application" "tf-sample-tsf-application" {
   microservice_type              = ""
   program_id                     = ""
   program_id_list                = []
-  
+
   service_config_list {
     name = ""
-    
+
     health_check {
       path = ""
     }

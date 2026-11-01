@@ -2,7 +2,7 @@ resource "tencentcloud_ci_media_video_montage_template" "tf-sample-ci-media-vide
   bucket   = ""
   duration = ""
   name     = ""
-  
+
   audio {
     bitrate    = ""
     channels   = ""
@@ -14,7 +14,7 @@ resource "tencentcloud_ci_media_video_montage_template" "tf-sample-ci-media-vide
     audio_source = ""
     mix_mode     = ""
     replace      = ""
-    
+
     effect_config {
       bgm_fade_time       = ""
       enable_bgm_fade     = ""

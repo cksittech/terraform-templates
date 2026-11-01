@@ -1,7 +1,7 @@
 resource "tencentcloud_waf_bot_scene_ucb_rule" "tf-sample-waf-bot-scene-ucb-rule" {
   domain   = ""
   scene_id = ""
-  
+
   rule {
     action        = ""
     addition_arg  = ""
@@ -21,14 +21,14 @@ resource "tencentcloud_waf_bot_scene_ucb_rule" "tf-sample-waf-bot-scene-ucb-rule
     scene_id      = ""
     valid_status  = 0
     valid_time    = 0
-    
+
     action_list {
       action     = ""
       proportion = 0
     }
     job_date_time {
       time_t_zone = ""
-      
+
       cron {
         days       = []
         end_time   = ""
@@ -48,7 +48,7 @@ resource "tencentcloud_waf_bot_scene_ucb_rule" "tf-sample-waf-bot-scene-ucb-rule
       op_arg   = []
       op_op    = ""
       op_value = 0
-      
+
       areas {
         city    = ""
         country = ""

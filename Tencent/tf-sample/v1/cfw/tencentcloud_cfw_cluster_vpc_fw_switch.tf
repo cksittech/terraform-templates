@@ -2,10 +2,10 @@ resource "tencentcloud_cfw_cluster_vpc_fw_switch" "tf-sample-cfw-cluster-vpc-fw-
   ccn_id       = ""
   routing_mode = 0
   switch_mode  = 0
-  
+
   interconnect_pairs {
     interconnect_mode = ""
-    
+
     group_a {
       access_cidr_list = []
       access_cidr_mode = 0

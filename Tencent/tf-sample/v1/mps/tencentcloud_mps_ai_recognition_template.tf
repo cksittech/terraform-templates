@@ -1,7 +1,7 @@
 resource "tencentcloud_mps_ai_recognition_template" "tf-sample-mps-ai-recognition-template" {
   comment = ""
   name    = ""
-  
+
   asr_full_text_configure {
     subtitle_format = ""
     switch          = ""

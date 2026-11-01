@@ -11,7 +11,7 @@ resource "tencentcloud_wedata_data_backfill_plan" "tf-sample-wedata-data-backfil
   skip_event_listening              = false
   task_ids                          = []
   time_zone                         = ""
-  
+
   data_backfill_range_list {
     end_date             = ""
     execution_end_time   = ""

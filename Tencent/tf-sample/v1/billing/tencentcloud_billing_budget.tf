@@ -8,7 +8,7 @@ resource "tencentcloud_billing_budget" "tf-sample-billing-budget" {
   period_begin = ""
   period_end   = ""
   plan_type    = ""
-  
+
   dimensions_range {
     action_types        = []
     business            = []
@@ -22,7 +22,7 @@ resource "tencentcloud_billing_budget" "tf-sample-billing-budget" {
     region_ids          = []
     tree_node_uniq_keys = []
     zone_ids            = []
-    
+
     tags {
       tag_key   = ""
       tag_value = []

@@ -27,7 +27,7 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
   vip_isp                      = ""
   vpc_id                       = ""
   zone_id                      = ""
-  
+
   exclusive_cluster {
     classical_cluster {
       cluster_id   = ""
@@ -49,6 +49,6 @@ resource "tencentcloud_clb_instance" "tf-sample-clb-instance" {
     ip        = ""
     subnet_id = ""
   }
-  
+
   tags = {}
 }

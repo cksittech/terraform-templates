@@ -21,6 +21,6 @@ resource "tencentcloud_sqlserver_basic_instance" "tf-sample-sqlserver-basic-inst
   time_zone              = ""
   voucher_ids            = []
   vpc_id                 = ""
-  
+
   tags = {}
 }

@@ -40,6 +40,6 @@ resource "tencentcloud_apm_instance" "tf-sample-apm-instance" {
   trace_duration                        = 0
   url_long_segment_threshold            = 0
   url_number_segment_threshold          = 0
-  
+
   tags = {}
 }

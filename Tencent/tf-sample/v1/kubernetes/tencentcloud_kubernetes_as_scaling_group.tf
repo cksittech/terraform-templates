@@ -3,7 +3,7 @@ resource "tencentcloud_kubernetes_as_scaling_group" "tf-sample-kubernetes-as-sca
   extra_args    = []
   labels        = {}
   unschedulable = 0
-  
+
   auto_scaling_config {
     configuration_name         = ""
     enhanced_monitor_service   = false
@@ -19,7 +19,7 @@ resource "tencentcloud_kubernetes_as_scaling_group" "tf-sample-kubernetes-as-sca
     security_group_ids         = []
     system_disk_size           = 0
     system_disk_type           = ""
-    
+
     data_disk {
       disk_size   = 0
       disk_type   = ""
@@ -39,12 +39,12 @@ resource "tencentcloud_kubernetes_as_scaling_group" "tf-sample-kubernetes-as-sca
     termination_policies = []
     vpc_id               = ""
     zones                = []
-    
+
     forward_balancer_ids {
       listener_id      = ""
       load_balancer_id = ""
       rule_id          = ""
-      
+
       target_attribute {
         port   = 0
         weight = 0

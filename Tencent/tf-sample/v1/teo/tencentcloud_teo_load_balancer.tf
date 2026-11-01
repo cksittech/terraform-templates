@@ -4,7 +4,7 @@ resource "tencentcloud_teo_load_balancer" "tf-sample-teo-load-balancer" {
   steering_policy = ""
   type            = ""
   zone_id         = ""
-  
+
   health_checker {
     critical_threshold = 0
     expected_codes     = []
@@ -18,7 +18,7 @@ resource "tencentcloud_teo_load_balancer" "tf-sample-teo-load-balancer" {
     send_context       = ""
     timeout            = 0
     type               = ""
-    
+
     headers {
       key   = ""
       value = ""

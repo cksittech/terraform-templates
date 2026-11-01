@@ -1,7 +1,7 @@
 resource "tencentcloud_tse_cngw_service_rate_limit" "tf-sample-tse-cngw-service-rate-limit" {
   gateway_id = ""
   name       = ""
-  
+
   limit_detail {
     enabled                 = false
     header                  = ""
@@ -13,7 +13,7 @@ resource "tencentcloud_tse_cngw_service_rate_limit" "tf-sample-tse-cngw-service-
     policy                  = ""
     rate_limit_response_url = ""
     response_type           = ""
-    
+
     external_redis {
       redis_host     = ""
       redis_password = ""
@@ -27,7 +27,7 @@ resource "tencentcloud_tse_cngw_service_rate_limit" "tf-sample-tse-cngw-service-
     rate_limit_response {
       body        = ""
       http_status = 0
-      
+
       headers {
         key   = ""
         value = ""

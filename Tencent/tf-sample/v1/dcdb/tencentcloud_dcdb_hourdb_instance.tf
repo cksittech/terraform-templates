@@ -16,7 +16,7 @@ resource "tencentcloud_dcdb_hourdb_instance" "tf-sample-dcdb-hourdb-instance" {
   vipv6             = ""
   vpc_id            = ""
   zones             = []
-  
+
   resource_tags {
     tag_key   = ""
     tag_value = ""

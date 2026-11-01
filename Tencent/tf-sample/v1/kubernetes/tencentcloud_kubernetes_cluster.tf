@@ -49,7 +49,7 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   upgrade_instances_follow_cluster = false
   vpc_cni_type                     = ""
   vpc_id                           = ""
-  
+
   auth_options {
     auto_create_discovery_anonymous_auth = false
     issuer                               = ""
@@ -76,7 +76,7 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
   exist_instance {
     desired_pod_numbers = []
     node_role           = ""
-    
+
     instances_para {
       enhanced_monitor_service  = false
       enhanced_security_service = false
@@ -84,14 +84,14 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
       key_ids                   = []
       password                  = ""
       security_group_ids        = []
-      
+
       master_config {
         desired_pod_number = 0
         docker_graph_path  = ""
         mount_target       = ""
         unschedulable      = 0
         user_script        = ""
-        
+
         data_disk {
           auto_format_and_mount = false
           disk_partition        = ""
@@ -157,7 +157,7 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     system_disk_size                        = 0
     system_disk_type                        = ""
     user_data                               = ""
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""
@@ -213,7 +213,7 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     system_disk_size                        = 0
     system_disk_type                        = ""
     user_data                               = ""
-    
+
     data_disk {
       auto_format_and_mount = false
       disk_partition        = ""
@@ -226,6 +226,6 @@ resource "tencentcloud_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
       snapshot_id           = ""
     }
   }
-  
+
   tags = {}
 }

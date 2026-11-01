@@ -7,7 +7,7 @@ resource "tencentcloud_sts_assume_role_operation" "tf-sample-sts-assume-role-ope
   serial_number     = ""
   source_identity   = ""
   token_code        = ""
-  
+
   tags {
     key   = ""
     value = ""

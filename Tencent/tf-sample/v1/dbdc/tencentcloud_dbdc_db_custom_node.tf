@@ -14,7 +14,7 @@ resource "tencentcloud_dbdc_db_custom_node" "tf-sample-dbdc-db-custom-node" {
   voucher_ids                = []
   vpc_id                     = ""
   zone                       = ""
-  
+
   data_disks {
     disk_size = 0
     disk_type = ""
@@ -28,6 +28,6 @@ resource "tencentcloud_dbdc_db_custom_node" "tf-sample-dbdc-db-custom-node" {
     disk_size = 0
     disk_type = ""
   }
-  
+
   tags = {}
 }

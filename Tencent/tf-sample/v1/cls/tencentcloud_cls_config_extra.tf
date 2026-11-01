@@ -11,7 +11,7 @@ resource "tencentcloud_cls_config_extra" "tf-sample-cls-config-extra" {
   topic_name       = ""
   type             = ""
   user_define_rule = ""
-  
+
   container_file {
     container         = ""
     exclude_labels    = []
@@ -20,7 +20,7 @@ resource "tencentcloud_cls_config_extra" "tf-sample-cls-config-extra" {
     include_labels    = []
     log_path          = ""
     namespace         = ""
-    
+
     workload {
       container = ""
       kind      = ""
@@ -34,7 +34,7 @@ resource "tencentcloud_cls_config_extra" "tf-sample-cls-config-extra" {
     exclude_namespace = ""
     include_labels    = []
     namespace         = ""
-    
+
     workloads {
       container = ""
       kind      = ""
@@ -56,7 +56,7 @@ resource "tencentcloud_cls_config_extra" "tf-sample-cls-config-extra" {
     time_key                = ""
     un_match_log_key        = ""
     un_match_up_load_switch = false
-    
+
     filter_key_regex {
       key   = ""
       regex = ""

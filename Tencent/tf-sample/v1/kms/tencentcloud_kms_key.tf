@@ -8,6 +8,6 @@ resource "tencentcloud_kms_key" "tf-sample-kms-key" {
   key_usage                     = ""
   pending_delete_window_in_days = 0
   rotate_days                   = 0
-  
+
   tags = {}
 }

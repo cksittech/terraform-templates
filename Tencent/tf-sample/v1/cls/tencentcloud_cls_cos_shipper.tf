@@ -11,13 +11,13 @@ resource "tencentcloud_cls_cos_shipper" "tf-sample-cls-cos-shipper" {
   storage_type  = ""
   time_zone     = ""
   topic_id      = ""
-  
+
   compress {
     format = ""
   }
   content {
     format = ""
-    
+
     csv {
       delimiter          = ""
       escape_char        = ""

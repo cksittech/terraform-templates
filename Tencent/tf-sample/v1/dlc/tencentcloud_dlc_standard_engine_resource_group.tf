@@ -23,7 +23,7 @@ resource "tencentcloud_dlc_standard_engine_resource_group" "tf-sample-dlc-standa
   size                       = 0
   spark_size                 = 0
   spark_spec_mode            = ""
-  
+
   dynamic_config_pairs {
     config_item  = ""
     config_value = ""

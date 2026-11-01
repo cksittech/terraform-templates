@@ -8,7 +8,7 @@ resource "tencentcloud_config_rule" "tf-sample-config-rule" {
   risk_level                 = 0
   rule_name                  = ""
   status                     = ""
-  
+
   input_parameter {
     parameter_key = ""
     type          = ""

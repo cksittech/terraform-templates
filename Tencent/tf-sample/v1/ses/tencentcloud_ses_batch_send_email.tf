@@ -6,7 +6,7 @@ resource "tencentcloud_ses_batch_send_email" "tf-sample-ses-batch-send-email" {
   subject            = ""
   task_type          = 0
   unsubscribe        = ""
-  
+
   attachments {
     content   = ""
     file_name = ""

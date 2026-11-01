@@ -2,7 +2,7 @@ resource "tencentcloud_dayu_l7_rule_v2" "tf-sample-dayu-l7-rule-v2" {
   resource_id   = ""
   resource_ip   = ""
   resource_type = ""
-  
+
   rule {
     cc_enable            = 0
     cert_type            = 0
@@ -14,7 +14,7 @@ resource "tencentcloud_dayu_l7_rule_v2" "tf-sample-dayu-l7-rule-v2" {
     protocol             = ""
     source_type          = 0
     ssl_id               = ""
-    
+
     source_list {
       source = ""
       weight = 0

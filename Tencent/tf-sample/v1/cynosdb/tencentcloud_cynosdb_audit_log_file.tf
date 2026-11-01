@@ -4,7 +4,7 @@ resource "tencentcloud_cynosdb_audit_log_file" "tf-sample-cynosdb-audit-log-file
   order       = ""
   order_by    = ""
   start_time  = ""
-  
+
   filter {
     affect_rows = 0
     db_name     = []

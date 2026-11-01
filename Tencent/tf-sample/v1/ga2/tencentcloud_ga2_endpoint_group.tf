@@ -2,7 +2,7 @@ resource "tencentcloud_ga2_endpoint_group" "tf-sample-ga2-endpoint-group" {
   endpoint_group_type   = ""
   global_accelerator_id = ""
   listener_id           = ""
-  
+
   endpoint_group_configuration {
     check_domain          = ""
     check_method          = ""
@@ -25,7 +25,7 @@ resource "tencentcloud_ga2_endpoint_group" "tf-sample-ga2-endpoint-group" {
     name                  = ""
     status_mask           = []
     unhealthy_threshold   = 0
-    
+
     endpoint_configurations {
       endpoint_service = ""
       endpoint_type    = ""

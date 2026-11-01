@@ -4,7 +4,7 @@ resource "tencentcloud_kubernetes_native_node_pool" "tf-sample-kubernetes-native
   name                = ""
   type                = ""
   unschedulable       = false
-  
+
   annotations {
     name  = ""
     value = ""
@@ -28,7 +28,7 @@ resource "tencentcloud_kubernetes_native_node_pool" "tf-sample-kubernetes-native
     runtime_root_dir         = ""
     security_group_ids       = []
     subnet_ids               = []
-    
+
     data_disks {
       auto_format_and_mount  = false
       disk_partition         = ""
@@ -73,7 +73,7 @@ resource "tencentcloud_kubernetes_native_node_pool" "tf-sample-kubernetes-native
   }
   tags {
     resource_type = ""
-    
+
     tags {
       key   = ""
       value = ""
