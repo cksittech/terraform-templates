@@ -46,10 +46,11 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       maximum_bandwidth_mbps = 0
 
       instance_configuration {
-        instance_shape_name = ""
-        network_access_type = ""
-        private_endpoint_id = ""
-        subnet_id           = ""
+        capacity_reservation_ids = []
+        instance_shape_name      = ""
+        network_access_type      = ""
+        private_endpoint_id      = ""
+        subnet_id                = ""
 
         model_deployment_instance_shape_config_details {
           cpu_baseline  = ""
@@ -119,15 +120,17 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
       }
     }
     model_configuration_details {
-      bandwidth_mbps         = 0
-      maximum_bandwidth_mbps = 0
-      model_id               = ""
+      bandwidth_mbps              = 0
+      maximum_bandwidth_mbps      = 0
+      model_artifact_signature_id = ""
+      model_id                    = ""
 
       instance_configuration {
-        instance_shape_name = ""
-        network_access_type = ""
-        private_endpoint_id = ""
-        subnet_id           = ""
+        capacity_reservation_ids = []
+        instance_shape_name      = ""
+        network_access_type      = ""
+        private_endpoint_id      = ""
+        subnet_id                = ""
 
         model_deployment_instance_shape_config_details {
           cpu_baseline  = ""
