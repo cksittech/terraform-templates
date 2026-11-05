@@ -33,4 +33,8 @@ resource "google_firestore_index" "tf-sample-firestore-index" {
       }
     }
   }
+  search_index_options {
+    text_language                     = ""
+    text_language_override_field_path = ""
+  }
 }

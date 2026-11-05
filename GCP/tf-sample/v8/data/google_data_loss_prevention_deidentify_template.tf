@@ -786,5 +786,11 @@ resource "google_data_loss_prevention_deidentify_template" "tf-sample-data-loss-
         }
       }
     }
+    transformation_error_handling {
+      leave_untransformed {
+      }
+      throw_error {
+      }
+    }
   }
 }

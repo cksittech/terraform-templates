@@ -14,6 +14,7 @@ resource "google_netapp_volume" "tf-sample-netapp-volume" {
   security_style     = ""
   share_name         = ""
   smb_settings       = []
+  snap_reserve       = 0
   snapshot_directory = false
   storage_pool       = ""
   throughput_mibps   = 0

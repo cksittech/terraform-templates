@@ -94,6 +94,13 @@ resource "google_privateca_ca_pool" "tf-sample-privateca-ca-pool" {
         title       = ""
       }
     }
+    passthrough_extensions {
+      known_extensions = []
+
+      additional_extensions {
+        object_id_path = []
+      }
+    }
   }
   publishing_options {
     encoding_format = ""

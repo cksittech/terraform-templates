@@ -18,6 +18,9 @@ resource "google_dataplex_data_product" "tf-sample-dataplex-data-product" {
     group_id     = ""
     id           = ""
 
+    default_iam_role_config {
+      role = ""
+    }
     principal {
       google_group    = ""
       service_account = ""

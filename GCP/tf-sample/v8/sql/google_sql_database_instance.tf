@@ -1,5 +1,6 @@
 resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   backupdr_backup                                  = ""
+  database_center_integration                      = ""
   database_version                                 = ""
   deletion_policy                                  = ""
   deletion_protection                              = false
@@ -21,6 +22,12 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
   root_password_wo_version                         = ""
   switch_transaction_logs_to_cloud_storage_enabled = false
 
+  blue_green_deployment {
+    active_environment           = ""
+    delete_old_source_on_destroy = false
+    deployment_name              = ""
+    target_database_version      = ""
+  }
   clone {
     allocated_ip_range            = ""
     database_names                = []

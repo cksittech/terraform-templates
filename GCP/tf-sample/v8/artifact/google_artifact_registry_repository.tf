@@ -1,14 +1,15 @@
 resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repository" {
-  cleanup_policy_dry_run = false
-  deletion_policy        = ""
-  description            = ""
-  format                 = ""
-  kms_key_name           = ""
-  labels                 = {}
-  location               = ""
-  mode                   = ""
-  project                = ""
-  repository_id          = ""
+  cleanup_policy_dry_run    = false
+  deletion_policy           = ""
+  description               = ""
+  disallow_unspecified_mode = false
+  format                    = ""
+  kms_key_name              = ""
+  labels                    = {}
+  location                  = ""
+  mode                      = ""
+  project                   = ""
+  repository_id             = ""
 
   cleanup_policies {
     action = ""
@@ -33,6 +34,10 @@ resource "google_artifact_registry_repository" "tf-sample-artifact-registry-repo
   maven_config {
     allow_snapshot_overwrites = false
     version_policy            = ""
+  }
+  platform_logs_config {
+    logging_state  = ""
+    severity_level = ""
   }
   remote_repository_config {
     description                 = ""

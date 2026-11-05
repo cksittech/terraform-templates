@@ -67,6 +67,10 @@ resource "google_pubsub_topic" "tf-sample-pubsub-topic" {
         parameters = {}
       }
     }
+    compression {
+      compression_algorithm = ""
+      compression_mode      = ""
+    }
     javascript_udf {
       code          = ""
       function_name = ""

@@ -167,6 +167,9 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
           subnetwork                 = ""
           zone                       = ""
 
+          multi_zone_config {
+            target_shape = ""
+          }
           node_group_affinity {
             node_group = ""
           }
@@ -239,6 +242,12 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
             }
           }
         }
+        master_flexible_config {
+          boot_disk_size_gb = 0
+          core_count        = 0
+          hardware_class    = ""
+          num_instances     = 0
+        }
         secondary_worker_config {
           image            = ""
           machine_type     = ""
@@ -291,6 +300,12 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
               standard_capacity_percent_above_base = 0
             }
           }
+        }
+        secondary_worker_flexible_config {
+          boot_disk_size_gb = 0
+          core_count        = 0
+          hardware_class    = ""
+          num_instances     = 0
         }
         security_config {
           kerberos_config {
@@ -364,6 +379,12 @@ resource "google_dataproc_workflow_template" "tf-sample-dataproc-workflow-templa
               }
             }
           }
+        }
+        worker_flexible_config {
+          boot_disk_size_gb = 0
+          core_count        = 0
+          hardware_class    = ""
+          num_instances     = 0
         }
       }
     }

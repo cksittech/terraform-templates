@@ -2,6 +2,7 @@ resource "google_storage_batch_operations_job" "tf-sample-storage-batch-operatio
   delete_protection = false
   deletion_policy   = ""
   description       = ""
+  dry_run           = false
   job_id            = ""
   project           = ""
 
@@ -19,6 +20,10 @@ resource "google_storage_batch_operations_job" "tf-sample-storage-batch-operatio
   }
   delete_object {
     permanent_object_deletion_enabled = false
+  }
+  logging_config {
+    log_action_states = []
+    log_actions       = []
   }
   put_metadata {
     cache_control       = ""

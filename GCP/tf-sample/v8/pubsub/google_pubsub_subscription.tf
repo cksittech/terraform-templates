@@ -69,6 +69,10 @@ resource "google_pubsub_subscription" "tf-sample-pubsub-subscription" {
         parameters = {}
       }
     }
+    compression {
+      compression_algorithm = ""
+      compression_mode      = ""
+    }
     javascript_udf {
       code          = ""
       function_name = ""

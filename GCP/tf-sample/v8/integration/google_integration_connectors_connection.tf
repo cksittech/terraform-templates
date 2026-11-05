@@ -1,4 +1,6 @@
 resource "google_integration_connectors_connection" "tf-sample-integration-connectors-connection" {
+  async_operations_enabled = false
+  auth_override_enabled    = false
   connector_version        = ""
   deletion_policy          = ""
   description              = ""
@@ -195,5 +197,9 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     private_server_certificate {
       secret_version = ""
     }
+  }
+  traffic_shaping_configs {
+    duration    = ""
+    quota_limit = ""
   }
 }

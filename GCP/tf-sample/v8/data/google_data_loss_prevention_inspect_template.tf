@@ -32,6 +32,10 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
           score = ""
         }
       }
+      metadata_key_value_expression {
+        key_regex   = ""
+        value_regex = ""
+      }
       regex {
         group_indexes = []
         pattern       = ""
@@ -107,6 +111,24 @@ resource "google_data_loss_prevention_inspect_template" "tf-sample-data-loss-pre
             proximity {
               window_after  = 0
               window_before = 0
+            }
+          }
+          exclude_by_image_findings {
+            image_containment_type {
+              encloses {
+              }
+              fully_inside {
+              }
+              overlaps {
+              }
+            }
+            info_types {
+              name    = ""
+              version = ""
+
+              sensitivity_score {
+                score = ""
+              }
             }
           }
           exclude_info_types {

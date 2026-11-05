@@ -23,6 +23,11 @@ resource "google_bigquery_data_transfer_config" "tf-sample-bigquery-data-transfe
     end_time                = ""
     start_time              = ""
   }
+  schedule_options_v2 {
+    event_driven_schedule {
+      pubsub_subscription = ""
+    }
+  }
   sensitive_params {
     secret_access_key            = ""
     secret_access_key_wo         = ""

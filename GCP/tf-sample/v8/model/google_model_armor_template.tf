@@ -6,6 +6,26 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
   template_id     = ""
 
   filter_config {
+    filter_rule_settings {
+      rule_sets {
+        filter_types = []
+
+        rules {
+          exclusion_rule {
+            matching_scope = ""
+
+            dictionary {
+              word_list {
+                words = []
+              }
+            }
+            regex {
+              pattern = ""
+            }
+          }
+        }
+      }
+    }
     malicious_uri_filter_settings {
       filter_enforcement = ""
     }
@@ -34,6 +54,7 @@ resource "google_model_armor_template" "tf-sample-model-armor-template" {
     custom_llm_response_safety_error_message = ""
     custom_prompt_safety_error_code          = 0
     custom_prompt_safety_error_message       = ""
+    data_residency_compliant                 = false
     enforcement_type                         = ""
     ignore_partial_invocation_failures       = false
     log_sanitize_operations                  = false

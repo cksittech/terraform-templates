@@ -12,4 +12,10 @@ resource "google_eventarc_google_api_source" "tf-sample-eventarc-google-api-sour
   logging_config {
     log_severity = ""
   }
+  organization_subscription {
+    enabled = false
+  }
+  project_subscriptions {
+    list = []
+  }
 }

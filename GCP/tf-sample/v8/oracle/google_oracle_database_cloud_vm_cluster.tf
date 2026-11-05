@@ -11,6 +11,7 @@ resource "google_oracle_database_cloud_vm_cluster" "tf-sample-oracle-database-cl
   labels                    = {}
   location                  = ""
   network                   = ""
+  odb_dns_zone              = ""
   odb_network               = ""
   odb_subnet                = ""
   project                   = ""

@@ -2,6 +2,7 @@ resource "google_bigquery_dataset" "tf-sample-bigquery-dataset" {
   dataset_id                      = ""
   default_collation               = ""
   default_partition_expiration_ms = 0
+  default_rounding_mode           = ""
   default_table_expiration_ms     = 0
   delete_contents_on_destroy      = false
   deletion_policy                 = ""

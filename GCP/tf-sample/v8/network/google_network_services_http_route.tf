@@ -10,7 +10,8 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
 
   rules {
     action {
-      timeout = ""
+      idle_timeout = ""
+      timeout      = ""
 
       cors_policy {
         allow_credentials    = false
@@ -25,6 +26,11 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
       destinations {
         service_name = ""
         weight       = 0
+      }
+      direct_response {
+        bytes_body  = ""
+        status      = 0
+        string_body = ""
       }
       fault_injection_policy {
         abort {
@@ -51,6 +57,8 @@ resource "google_network_services_http_route" "tf-sample-network-services-http-r
         set    = {}
       }
       request_mirror_policy {
+        mirror_percent = 0
+
         destination {
           service_name = ""
           weight       = 0

@@ -11,7 +11,8 @@ resource "google_network_services_grpc_route" "tf-sample-network-services-grpc-r
 
   rules {
     action {
-      timeout = ""
+      idle_timeout = ""
+      timeout      = ""
 
       destinations {
         service_name = ""
@@ -42,6 +43,7 @@ resource "google_network_services_grpc_route" "tf-sample-network-services-grpc-r
         case_sensitive = false
         grpc_method    = ""
         grpc_service   = ""
+        type           = ""
       }
     }
   }

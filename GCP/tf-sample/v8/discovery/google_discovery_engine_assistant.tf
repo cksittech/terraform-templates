@@ -1,13 +1,14 @@
 resource "google_discovery_engine_assistant" "tf-sample-discovery-engine-assistant" {
-  assistant_id       = ""
-  collection_id      = ""
-  deletion_policy    = ""
-  description        = ""
-  display_name       = ""
-  engine_id          = ""
-  location           = ""
-  project            = ""
-  web_grounding_type = ""
+  assistant_id                     = ""
+  collection_id                    = ""
+  default_web_grounding_toggle_off = false
+  deletion_policy                  = ""
+  description                      = ""
+  display_name                     = ""
+  engine_id                        = ""
+  location                         = ""
+  project                          = ""
+  web_grounding_type               = ""
 
   customer_policy {
     banned_phrases {

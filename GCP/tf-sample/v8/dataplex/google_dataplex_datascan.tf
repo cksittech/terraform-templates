@@ -37,10 +37,12 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
   }
   data_documentation_spec {
     catalog_publishing_enabled = false
+    generation_scopes          = []
     sql_dialect                = ""
   }
   data_profile_spec {
     catalog_publishing_enabled = false
+    mode                       = ""
     row_filter                 = ""
     sampling_percent           = 0
 
@@ -90,6 +92,10 @@ resource "google_dataplex_datascan" "tf-sample-dataplex-datascan" {
       suspended   = false
       threshold   = 0
 
+      debug_queries {
+        description   = ""
+        sql_statement = ""
+      }
       non_null_expectation {
       }
       range_expectation {
