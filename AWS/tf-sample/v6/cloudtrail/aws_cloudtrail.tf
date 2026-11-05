@@ -8,6 +8,7 @@ resource "aws_cloudtrail" "tf-sample-cloudtrail" {
   is_organization_trail         = false
   kms_key_id                    = ""
   name                          = ""
+  recursive_logging             = false
   region                        = ""
   s3_bucket_name                = ""
   s3_key_prefix                 = ""

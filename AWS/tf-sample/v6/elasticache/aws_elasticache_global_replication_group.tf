@@ -9,4 +9,6 @@ resource "aws_elasticache_global_replication_group" "tf-sample-elasticache-globa
   parameter_group_name                 = ""
   primary_replication_group_id         = ""
   region                               = ""
+
+  tags = {}
 }

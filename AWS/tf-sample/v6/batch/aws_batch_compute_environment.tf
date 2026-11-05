@@ -1,10 +1,11 @@
 resource "aws_batch_compute_environment" "tf-sample-batch-compute-environment" {
-  name         = ""
-  name_prefix  = ""
-  region       = ""
-  service_role = ""
-  state        = ""
-  type         = ""
+  name            = ""
+  name_prefix     = ""
+  region          = ""
+  service_role    = ""
+  state           = ""
+  type            = ""
+  unmanaged_vcpus = 0
 
   compute_resources {
     allocation_strategy = ""
