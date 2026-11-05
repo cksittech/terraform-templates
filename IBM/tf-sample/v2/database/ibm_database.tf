@@ -62,6 +62,7 @@ resource "ibm_database" "tf-sample-database" {
     }
     members {
       allocation_count = 0
+      member_zones     = []
     }
     memory {
       allocation_mb = 0
@@ -71,6 +72,13 @@ resource "ibm_database" "tf-sample-database" {
     database_name = ""
     name          = ""
     plugin_type   = ""
+  }
+  maintenance {
+    window {
+      days            = []
+      start_time      = ""
+      system_assigned = false
+    }
   }
   users {
     name     = ""

@@ -11,6 +11,7 @@ resource "ibm_pi_instance" "tf-sample-pi-instance" {
   pi_health_status                          = ""
   pi_ibmi_css                               = false
   pi_ibmi_pha                               = false
+  pi_ibmi_pha_fsm_count                     = 0
   pi_ibmi_rds_users                         = 0
   pi_image_id                               = ""
   pi_instance_name                          = ""
