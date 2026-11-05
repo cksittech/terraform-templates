@@ -14,6 +14,7 @@ resource "tencentcloud_teo_load_balancer" "tf-sample-teo-load-balancer" {
     method             = ""
     path               = ""
     port               = 0
+    probe_cluster      = ""
     recv_context       = ""
     send_context       = ""
     timeout            = 0
