@@ -22,6 +22,7 @@ REGISTRIES = {
     "alicloud": "aliyun/alicloud",
     "tencentcloud": "tencentcloudstack/tencentcloud",
     "sacloud": "sacloud/sakuracloud",
+    "keycloak": "keycloak/keycloak",
 }
 SCHEMA_PATH = Path("./schema.json")
 OUTPUT_DIR = Path("./output")
