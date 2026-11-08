@@ -16,6 +16,12 @@ resource "alicloud_nas_file_system" "tf-sample-nas-file-system" {
   vswitch_id             = ""
   zone_id                = ""
 
+  auto_upgrade_config {
+    capacity_used_ratio = 0
+    enabled             = false
+    step                = 0
+    time                = 0
+  }
   nfs_acl {
     enabled = false
   }

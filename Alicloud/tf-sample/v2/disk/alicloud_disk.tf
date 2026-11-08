@@ -9,6 +9,7 @@ resource "alicloud_disk" "tf-sample-disk" {
   dry_run                      = false
   encrypt_algorithm            = ""
   encrypted                    = false
+  force_delete                 = false
   instance_id                  = ""
   kms_key_id                   = ""
   multi_attach                 = ""

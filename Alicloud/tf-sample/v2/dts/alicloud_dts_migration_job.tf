@@ -1,5 +1,6 @@
 resource "alicloud_dts_migration_job" "tf-sample-dts-migration-job" {
   checkpoint                         = ""
+  data_check_configure               = ""
   data_initialization                = false
   data_synchronization               = false
   db_list                            = ""

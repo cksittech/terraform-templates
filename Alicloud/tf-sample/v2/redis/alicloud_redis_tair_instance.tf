@@ -2,6 +2,7 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   auto_renew                                     = ""
   auto_renew_period                              = ""
   backup_id                                      = ""
+  bandwidth_burst                                = false
   cluster_backup_id                              = ""
   config                                         = {}
   connection_string_prefix                       = ""
@@ -25,11 +26,14 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   param_semisync_repl_timeout                    = ""
   param_sentinel_compat_enable                   = ""
   password                                       = ""
+  password_wo                                    = ""
+  password_wo_version                            = 0
   payment_type                                   = ""
   period                                         = 0
   port                                           = 0
   read_only_count                                = 0
   recover_config_mode                            = ""
+  replica_count                                  = 0
   resource_group_id                              = ""
   role_arn                                       = ""
   secondary_zone_id                              = ""
@@ -38,6 +42,7 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   security_ips                                   = ""
   shard_count                                    = 0
   slave_read_only_count                          = 0
+  slave_replica_count                            = 0
   src_db_instance_id                             = ""
   ssl_enabled                                    = ""
   storage_performance_level                      = ""
@@ -48,6 +53,11 @@ resource "alicloud_redis_tair_instance" "tf-sample-redis-tair-instance" {
   vpc_id                                         = ""
   vswitch_id                                     = ""
   zone_id                                        = ""
+
+  additional_bandwidth {
+    bandwidth = 0
+    node_id   = ""
+  }
 
   tags = {}
 }

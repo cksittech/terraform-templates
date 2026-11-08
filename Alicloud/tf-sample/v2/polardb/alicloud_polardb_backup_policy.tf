@@ -1,5 +1,6 @@
 resource "alicloud_polardb_backup_policy" "tf-sample-polardb-backup-policy" {
   backup_frequency                                   = ""
+  backup_policy_level                                = ""
   backup_retention_period                            = ""
   backup_retention_policy_on_cluster_deletion        = ""
   data_level1_backup_frequency                       = ""
@@ -16,4 +17,20 @@ resource "alicloud_polardb_backup_policy" "tf-sample-polardb-backup-policy" {
   log_backup_retention_period                        = 0
   preferred_backup_period                            = []
   preferred_backup_time                              = ""
+
+  advanced_data_policies {
+    dest_region                = ""
+    dest_type                  = ""
+    dump_action                = ""
+    filter_key                 = ""
+    filter_type                = ""
+    filter_value               = ""
+    only_preserve_one_each_day = false
+    policy_id                  = ""
+    retention_type             = ""
+    retention_value            = ""
+    src_region                 = ""
+    src_type                   = ""
+    storage_class              = ""
+  }
 }

@@ -6,6 +6,7 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   backup_period               = []
   backup_time                 = ""
   bandwidth                   = 0
+  bandwidth_burst             = false
   business_info               = ""
   capacity                    = 0
   config                      = {}
@@ -33,6 +34,8 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   node_type                   = ""
   order_type                  = ""
   password                    = ""
+  password_wo                 = ""
+  password_wo_version         = 0
   payment_type                = ""
   period                      = ""
   port                        = 0
@@ -58,6 +61,11 @@ resource "alicloud_kvstore_instance" "tf-sample-kvstore-instance" {
   vpc_auth_mode               = ""
   vswitch_id                  = ""
   zone_id                     = ""
+
+  additional_bandwidth {
+    bandwidth = 0
+    node_id   = ""
+  }
 
   tags = {}
 }

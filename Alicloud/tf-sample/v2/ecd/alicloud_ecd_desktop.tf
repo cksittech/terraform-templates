@@ -18,5 +18,15 @@ resource "alicloud_ecd_desktop" "tf-sample-ecd-desktop" {
   user_assign_mode   = ""
   user_disk_size_gib = 0
 
+  desktop_timers {
+    allow_client_setting = false
+    cron_expression      = ""
+    enforce              = false
+    interval             = 0
+    operation_type       = ""
+    reset_type           = ""
+    timer_type           = ""
+  }
+
   tags = {}
 }

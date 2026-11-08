@@ -1,4 +1,6 @@
 resource "alicloud_esa_image_transform" "tf-sample-esa-image-transform" {
+  auto_avif    = ""
+  auto_webp    = ""
   enable       = ""
   rule         = ""
   rule_enable  = ""

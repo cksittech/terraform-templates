@@ -13,6 +13,8 @@ resource "alicloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
   kms_encryption_context           = {}
   order_action_type                = ""
   password                         = ""
+  password_wo                      = ""
+  password_wo_version              = 0
   payment_type                     = ""
   period                           = 0
   private_whitelist                = []
@@ -41,6 +43,13 @@ resource "alicloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
     performance_level = ""
     spec              = ""
   }
+  index_node_configuration {
+    amount            = 0
+    disk              = 0
+    disk_type         = ""
+    performance_level = ""
+    spec              = ""
+  }
   kibana_configuration {
     amount = 0
     disk   = 0
@@ -51,6 +60,13 @@ resource "alicloud_elasticsearch_instance" "tf-sample-elasticsearch-instance" {
     disk      = 0
     disk_type = ""
     spec      = ""
+  }
+  search_node_configuration {
+    amount            = 0
+    disk              = 0
+    disk_type         = ""
+    performance_level = ""
+    spec              = ""
   }
   warm_node_configuration {
     amount          = 0

@@ -1,21 +1,25 @@
 resource "alicloud_ecd_policy_group" "tf-sample-ecd-policy-group" {
-  camera_redirect        = ""
-  clipboard              = ""
-  domain_list            = ""
-  html_access            = ""
-  html_file_transfer     = ""
-  local_drive            = ""
-  policy_group_name      = ""
-  recording              = ""
-  recording_end_time     = ""
-  recording_expires      = 0
-  recording_fps          = 0
-  recording_start_time   = ""
-  usb_redirect           = ""
-  visual_quality         = ""
-  watermark              = ""
-  watermark_transparency = ""
-  watermark_type         = ""
+  camera_redirect                 = ""
+  clipboard                       = ""
+  domain_list                     = ""
+  end_user_apply_admin_coordinate = ""
+  end_user_group_coordinate       = ""
+  html_access                     = ""
+  html_file_transfer              = ""
+  internet_communication_protocol = ""
+  local_drive                     = ""
+  policy_group_name               = ""
+  recording                       = ""
+  recording_duration              = 0
+  recording_end_time              = ""
+  recording_expires               = 0
+  recording_fps                   = 0
+  recording_start_time            = ""
+  usb_redirect                    = ""
+  visual_quality                  = ""
+  watermark                       = ""
+  watermark_transparency          = ""
+  watermark_type                  = ""
 
   authorize_access_policy_rules {
     cidr_ip     = ""
@@ -29,5 +33,9 @@ resource "alicloud_ecd_policy_group" "tf-sample-ecd-policy-group" {
     port_range  = ""
     priority    = ""
     type        = ""
+  }
+  client_types {
+    client_type = ""
+    status      = ""
   }
 }

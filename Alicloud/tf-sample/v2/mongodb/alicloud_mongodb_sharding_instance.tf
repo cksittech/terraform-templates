@@ -1,5 +1,7 @@
 resource "alicloud_mongodb_sharding_instance" "tf-sample-mongodb-sharding-instance" {
   account_password                            = ""
+  account_password_wo                         = ""
+  account_password_wo_version                 = 0
   auto_renew                                  = false
   auto_renew_duration                         = 0
   backup_interval                             = ""

@@ -9,6 +9,7 @@ resource "alicloud_ecs_disk" "tf-sample-ecs-disk" {
   dry_run                      = false
   encrypt_algorithm            = ""
   encrypted                    = false
+  force_delete                 = false
   instance_id                  = ""
   kms_key_id                   = ""
   multi_attach                 = ""

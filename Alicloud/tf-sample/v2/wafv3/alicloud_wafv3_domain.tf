@@ -42,6 +42,11 @@ resource "alicloud_wafv3_domain" "tf-sample-wafv3-domain" {
     write_timeout                = 0
     xff_proto                    = false
 
+    backend_ports {
+      backend_port = 0
+      listen_port  = 0
+      protocol     = ""
+    }
     request_headers {
       key   = ""
       value = ""
