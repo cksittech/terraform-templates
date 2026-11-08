@@ -20,6 +20,7 @@ resource "azurerm_container_app" "tf-sample-container-app" {
     client_certificate_mode    = ""
     exposed_port               = 0
     external_enabled           = false
+    session_affinity_enabled   = false
     target_port                = 0
     transport                  = ""
 

@@ -188,6 +188,7 @@ resource "azurerm_kubernetes_cluster" "tf-sample-kubernetes-cluster" {
     subnet_id    = ""
   }
   key_management_service {
+    key_vault_id             = ""
     key_vault_key_id         = ""
     key_vault_network_access = ""
   }

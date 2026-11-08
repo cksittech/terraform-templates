@@ -1,6 +1,7 @@
 resource "azurerm_linux_virtual_machine_scale_set" "tf-sample-linux-virtual-machine-scale-set" {
   admin_password                                    = ""
   admin_username                                    = ""
+  automatic_zone_rebalancing_enabled                = false
   capacity_reservation_group_id                     = ""
   computer_name_prefix                              = ""
   custom_data                                       = ""

@@ -24,6 +24,7 @@ resource "azurerm_storage_account" "tf-sample-storage-account" {
   resource_group_name               = ""
   sftp_enabled                      = false
   shared_access_key_enabled         = false
+  smb_oauth_enabled                 = false
   table_encryption_key_type         = ""
 
   azure_files_authentication {

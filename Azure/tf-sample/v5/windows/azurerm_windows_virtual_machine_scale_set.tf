@@ -2,6 +2,7 @@ resource "azurerm_windows_virtual_machine_scale_set" "tf-sample-windows-virtual-
   admin_password                                    = ""
   admin_username                                    = ""
   automatic_updates_enabled                         = false
+  automatic_zone_rebalancing_enabled                = false
   capacity_reservation_group_id                     = ""
   computer_name_prefix                              = ""
   custom_data                                       = ""
