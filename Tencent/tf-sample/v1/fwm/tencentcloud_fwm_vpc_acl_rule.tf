@@ -1,0 +1,15 @@
+resource "tencentcloud_fwm_vpc_acl_rule" "tf-sample-fwm-vpc-acl-rule" {
+  belong_member_id  = ""
+  description       = ""
+  dest_content      = ""
+  dest_type         = ""
+  edge_id           = ""
+  fw_group_id       = ""
+  group_id          = ""
+  param_template_id = ""
+  port              = ""
+  protocol          = ""
+  rule_action       = ""
+  source_content    = ""
+  source_type       = ""
+}

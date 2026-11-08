@@ -10,6 +10,7 @@ resource "tencentcloud_teo_load_balancer" "tf-sample-teo-load-balancer" {
     expected_codes     = []
     follow_redirect    = ""
     health_threshold   = 0
+    host_header_policy = ""
     interval           = 0
     method             = ""
     path               = ""
