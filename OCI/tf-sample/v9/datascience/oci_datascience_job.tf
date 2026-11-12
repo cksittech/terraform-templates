@@ -1,14 +1,15 @@
 resource "oci_datascience_job" "tf-sample-datascience-job" {
-  artifact_content_disposition = ""
-  artifact_content_length      = ""
-  compartment_id               = ""
-  defined_tags                 = {}
-  delete_related_job_runs      = false
-  description                  = ""
-  display_name                 = ""
-  freeform_tags                = {}
-  job_artifact                 = ""
-  project_id                   = ""
+  artifact_content_disposition     = ""
+  artifact_content_length          = ""
+  compartment_id                   = ""
+  defined_tags                     = {}
+  delete_related_job_runs          = false
+  description                      = ""
+  display_name                     = ""
+  freeform_tags                    = {}
+  job_artifact                     = ""
+  job_run_retention_period_in_days = 0
+  project_id                       = ""
 
   job_configuration_details {
     command_line_arguments     = ""
@@ -34,6 +35,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
   }
   job_infrastructure_configuration_details {
     block_storage_size_in_gbs = 0
+    capacity_reservation_id   = ""
     compute_target_id         = ""
     job_infrastructure_type   = ""
     shape_name                = ""
@@ -43,6 +45,10 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
       cpu_baseline  = ""
       memory_in_gbs = 0
       ocpus         = 0
+    }
+    network_configuration {
+      network_type = ""
+      subnet_id    = ""
     }
     resource_configuration {
       resource_limit_configuration {
@@ -100,6 +106,7 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
       }
       job_infrastructure_configuration_details {
         block_storage_size_in_gbs = 0
+        capacity_reservation_id   = ""
         compute_target_id         = ""
         job_infrastructure_type   = ""
         shape_name                = ""
@@ -109,6 +116,10 @@ resource "oci_datascience_job" "tf-sample-datascience-job" {
           cpu_baseline  = ""
           memory_in_gbs = 0
           ocpus         = 0
+        }
+        network_configuration {
+          network_type = ""
+          subnet_id    = ""
         }
         resource_configuration {
           resource_limit_configuration {

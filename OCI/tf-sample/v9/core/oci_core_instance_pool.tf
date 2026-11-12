@@ -28,6 +28,31 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
     port             = 0
     vnic_selection   = ""
   }
+  override_policy {
+    override_statements {
+      override_options {
+        name = ""
+
+        override {
+          capacity_reservation_id = ""
+          shape                   = ""
+
+          shape_config_details {
+            baseline_ocpu_utilization = ""
+            local_volume_size_in_gbs  = 0
+            memory_in_gbs             = 0
+            nvmes                     = 0
+            ocpus                     = 0
+            resource_management       = ""
+            vcpus                     = 0
+          }
+        }
+      }
+      selector {
+        availability_domain = ""
+      }
+    }
+  }
   placement_configurations {
     availability_domain = ""
     compute_cluster_id  = ""

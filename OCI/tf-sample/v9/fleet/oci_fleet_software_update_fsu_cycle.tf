@@ -24,11 +24,12 @@ resource "oci_fleet_software_update_fsu_cycle" "tf-sample-fleet-software-update-
     log_collection_mode = ""
   }
   goal_version_details {
-    home_policy       = ""
-    new_home_prefix   = ""
-    software_image_id = ""
-    type              = ""
-    version           = ""
+    home_policy                   = ""
+    is_older_version_acknowledged = false
+    new_home_prefix               = ""
+    software_image_id             = ""
+    type                          = ""
+    version                       = ""
 
     components {
       component_type  = ""

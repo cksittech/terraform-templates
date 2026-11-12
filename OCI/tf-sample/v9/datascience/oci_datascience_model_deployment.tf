@@ -69,6 +69,10 @@ resource "oci_datascience_model_deployment" "tf-sample-datascience-model-deploym
           ocpus         = 0
         }
       }
+      network_configuration {
+        network_type = ""
+        subnet_id    = ""
+      }
       scaling_policy {
         cool_down_in_seconds = 0
         instance_count       = 0

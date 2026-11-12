@@ -10,12 +10,17 @@ resource "oci_datascience_compute_target" "tf-sample-datascience-compute-target"
     compute_type = ""
 
     instance_configuration {
-      boot_volume_size_in_gbs = 0
-      instance_shape          = ""
+      boot_volume_size_in_gbs  = 0
+      capacity_reservation_ids = []
+      instance_shape           = ""
 
       instance_shape_details {
         memory_in_gbs = 0
         ocpus         = 0
+      }
+      network_configuration_details {
+        network_type = ""
+        subnet_ids   = []
       }
     }
     scaling_policy {

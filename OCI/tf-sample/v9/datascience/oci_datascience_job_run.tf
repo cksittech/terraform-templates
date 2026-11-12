@@ -1,12 +1,13 @@
 resource "oci_datascience_job_run" "tf-sample-datascience-job-run" {
-  asynchronous       = false
-  compartment_id     = ""
-  defined_tags       = {}
-  display_name       = ""
-  freeform_tags      = {}
-  job_id             = ""
-  opc_parent_rpt_url = ""
-  project_id         = ""
+  asynchronous                              = false
+  compartment_id                            = ""
+  defined_tags                              = {}
+  display_name                              = ""
+  freeform_tags                             = {}
+  job_id                                    = ""
+  job_run_retention_period_in_days_override = 0
+  opc_parent_rpt_url                        = ""
+  project_id                                = ""
 
   job_configuration_override_details {
     command_line_arguments     = ""
@@ -32,14 +33,20 @@ resource "oci_datascience_job_run" "tf-sample-datascience-job-run" {
   }
   job_infrastructure_configuration_override_details {
     block_storage_size_in_gbs = 0
+    capacity_reservation_id   = ""
     compute_target_id         = ""
     job_infrastructure_type   = ""
     shape_name                = ""
     subnet_id                 = ""
 
     job_shape_config_details {
+      cpu_baseline  = ""
       memory_in_gbs = 0
       ocpus         = 0
+    }
+    network_configuration {
+      network_type = ""
+      subnet_id    = ""
     }
     resource_configuration {
       resource_limit_configuration {
@@ -97,14 +104,20 @@ resource "oci_datascience_job_run" "tf-sample-datascience-job-run" {
       }
       job_infrastructure_configuration_details {
         block_storage_size_in_gbs = 0
+        capacity_reservation_id   = ""
         compute_target_id         = ""
         job_infrastructure_type   = ""
         shape_name                = ""
         subnet_id                 = ""
 
         job_shape_config_details {
+          cpu_baseline  = ""
           memory_in_gbs = 0
           ocpus         = 0
+        }
+        network_configuration {
+          network_type = ""
+          subnet_id    = ""
         }
         resource_configuration {
           resource_limit_configuration {
@@ -119,5 +132,15 @@ resource "oci_datascience_job_run" "tf-sample-datascience-job-run" {
         }
       }
     }
+  }
+  job_storage_mount_configuration_override_details_list {
+    bucket                     = ""
+    destination_directory_name = ""
+    destination_path           = ""
+    export_id                  = ""
+    mount_target_id            = ""
+    namespace                  = ""
+    prefix                     = ""
+    storage_type               = ""
   }
 }
