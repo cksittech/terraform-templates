@@ -1,4 +1,5 @@
 resource "aws_elasticache_serverless_cache" "tf-sample-elasticache-serverless-cache" {
+  connection_type          = ""
   daily_snapshot_time      = ""
   description              = ""
   engine                   = ""
