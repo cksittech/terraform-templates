@@ -79,6 +79,9 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
         }
       }
     }
+    image_optimization_policy {
+      query_parameter_interpretation = ""
+    }
     max_stream_duration {
       nanos   = 0
       seconds = ""
@@ -232,6 +235,9 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
           }
         }
       }
+      image_optimization_policy {
+        query_parameter_interpretation = ""
+      }
       max_stream_duration {
         nanos   = 0
         seconds = ""
@@ -378,6 +384,9 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
               seconds = ""
             }
           }
+        }
+        image_optimization_policy {
+          query_parameter_interpretation = ""
         }
         max_stream_duration {
           nanos   = 0
@@ -562,6 +571,9 @@ resource "google_compute_url_map" "tf-sample-compute-url-map" {
               seconds = ""
             }
           }
+        }
+        image_optimization_policy {
+          query_parameter_interpretation = ""
         }
         max_stream_duration {
           nanos   = 0

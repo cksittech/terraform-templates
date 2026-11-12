@@ -19,8 +19,9 @@ resource "google_netapp_volume_replication" "tf-sample-netapp-volume-replication
     volume_id    = ""
 
     tiering_policy {
-      cooling_threshold_days = 0
-      tier_action            = ""
+      cooling_threshold_days       = 0
+      hot_tier_bypass_mode_enabled = false
+      tier_action                  = ""
     }
   }
 }

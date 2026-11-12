@@ -174,17 +174,19 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     }
   }
   mcp_data_sources {
-    api_key         = ""
-    api_key_header  = ""
-    api_key_name    = ""
-    client_id       = ""
-    client_secret   = ""
-    description     = ""
-    display_name    = ""
-    enabled         = false
-    oauth_token_url = ""
-    prompt          = ""
-    server_url      = ""
+    api_key           = ""
+    api_key_header    = ""
+    api_key_name      = ""
+    client_id         = ""
+    client_secret     = ""
+    description       = ""
+    display_name      = ""
+    enabled           = false
+    oauth_token_url   = ""
+    prompt            = ""
+    server_url        = ""
+    session_id_header = ""
+    task_id_header    = ""
   }
   resources {
     display_label     = ""

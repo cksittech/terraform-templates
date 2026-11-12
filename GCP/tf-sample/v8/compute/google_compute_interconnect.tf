@@ -1,4 +1,5 @@
 resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
+  aai_enabled          = false
   admin_enabled        = false
   customer_name        = ""
   deletion_policy      = ""
@@ -15,6 +16,22 @@ resource "google_compute_interconnect" "tf-sample-compute-interconnect" {
   requested_features   = []
   requested_link_count = 0
 
+  application_aware_interconnect {
+    profile_description = ""
+
+    bandwidth_percentage_policy {
+      bandwidth_percentage {
+        percentage    = 0
+        traffic_class = ""
+      }
+    }
+    shape_average_percentage {
+      percentage    = 0
+      traffic_class = ""
+    }
+    strict_priority_policy {
+    }
+  }
   macsec {
     fail_open = false
 

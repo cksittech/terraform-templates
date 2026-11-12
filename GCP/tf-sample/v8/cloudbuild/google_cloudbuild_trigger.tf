@@ -80,6 +80,7 @@ resource "google_cloudbuild_trigger" "tf-sample-cloudbuild-trigger" {
       source_provenance_hash  = []
       substitution_option     = ""
       worker_pool             = ""
+      worker_release          = ""
 
       volumes {
         name = ""

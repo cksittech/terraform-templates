@@ -25,6 +25,4 @@ resource "google_vertex_ai_feature_online_store" "tf-sample-vertex-ai-feature-on
   encryption_spec {
     kms_key_name = ""
   }
-  optimized {
-  }
 }

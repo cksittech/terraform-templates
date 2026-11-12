@@ -2,6 +2,7 @@ resource "google_storage_insights_report_config" "tf-sample-storage-insights-rep
   deletion_policy = ""
   display_name    = ""
   force_destroy   = false
+  labels          = {}
   location        = ""
   project         = ""
 

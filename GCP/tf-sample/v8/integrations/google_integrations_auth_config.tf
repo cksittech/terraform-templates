@@ -26,11 +26,42 @@ resource "google_integrations_auth_config" "tf-sample-integrations-auth-config" 
       secret      = ""
     }
     oauth2_authorization_code {
-      auth_endpoint  = ""
-      client_id      = ""
-      client_secret  = ""
-      scope          = ""
-      token_endpoint = ""
+      apply_reauth_policy = false
+      auth_endpoint       = ""
+      client_id           = ""
+      client_secret       = ""
+      request_type        = ""
+      scope               = ""
+      token_endpoint      = ""
+
+      auth_params {
+        entries {
+          key {
+            literal_value {
+              string_value = ""
+            }
+          }
+          value {
+            literal_value {
+              string_value = ""
+            }
+          }
+        }
+      }
+      token_params {
+        entries {
+          key {
+            literal_value {
+              string_value = ""
+            }
+          }
+          value {
+            literal_value {
+              string_value = ""
+            }
+          }
+        }
+      }
     }
     oauth2_client_credentials {
       client_id      = ""

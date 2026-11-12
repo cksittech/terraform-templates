@@ -74,6 +74,14 @@ resource "google_app_engine_standard_app_version" "tf-sample-app-engine-standard
   manual_scaling {
     instances = 0
   }
+  vpc_access {
+    vpc_egress = ""
+
+    network_interfaces {
+      network    = ""
+      subnetwork = ""
+    }
+  }
   vpc_access_connector {
     egress_setting = ""
     name           = ""

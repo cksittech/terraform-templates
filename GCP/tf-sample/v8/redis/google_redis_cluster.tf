@@ -69,7 +69,8 @@ resource "google_redis_cluster" "tf-sample-redis-cluster" {
     network = ""
   }
   zone_distribution_config {
-    mode = ""
-    zone = ""
+    mode  = ""
+    zone  = ""
+    zones = []
   }
 }

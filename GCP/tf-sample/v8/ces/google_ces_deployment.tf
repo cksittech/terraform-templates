@@ -4,6 +4,7 @@ resource "google_ces_deployment" "tf-sample-ces-deployment" {
   deletion_policy = ""
   display_name    = ""
   location        = ""
+  modality        = ""
   project         = ""
 
   channel_profile {
@@ -38,6 +39,11 @@ resource "google_ces_deployment" "tf-sample-ces-deployment" {
     auth_code_wo            = ""
     auth_code_wo_version    = ""
     conversation_profile_id = ""
+  }
+  model_settings {
+    model          = ""
+    temperature    = 0
+    thinking_level = ""
   }
   whatsapp_credentials {
     auth_code               = ""

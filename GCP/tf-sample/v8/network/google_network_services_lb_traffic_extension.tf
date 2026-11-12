@@ -18,6 +18,7 @@ resource "google_network_services_lb_traffic_extension" "tf-sample-network-servi
       forward_headers    = []
       metadata           = {}
       name               = ""
+      observability_mode = false
       service            = ""
       supported_events   = []
       timeout            = ""

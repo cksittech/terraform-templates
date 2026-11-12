@@ -20,10 +20,6 @@ resource "google_compute_router" "tf-sample-compute-router" {
       range       = ""
     }
   }
-  md5_authentication_keys {
-    key  = ""
-    name = ""
-  }
   params {
     resource_manager_tags = {}
   }

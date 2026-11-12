@@ -72,7 +72,8 @@ resource "google_memorystore_instance" "tf-sample-memorystore-instance" {
     }
   }
   zone_distribution_config {
-    mode = ""
-    zone = ""
+    mode  = ""
+    zone  = ""
+    zones = []
   }
 }

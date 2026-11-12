@@ -100,7 +100,9 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
     }
   }
   eventing_config {
-    enrichment_enabled = false
+    allowed_event_types = []
+    enrichment_enabled  = false
+    global_event_filter = ""
 
     additional_variable {
       boolean_value = false
@@ -141,6 +143,13 @@ resource "google_integration_connectors_connection" "tf-sample-integration-conne
           secret_version = ""
         }
       }
+    }
+    dead_letter_config {
+      project_id = ""
+      topic      = ""
+    }
+    enrichment_config {
+      append_acl = false
     }
     registration_destination_config {
       key = ""

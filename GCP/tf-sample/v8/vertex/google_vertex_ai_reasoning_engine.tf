@@ -66,6 +66,10 @@ resource "google_vertex_ai_reasoning_engine" "tf-sample-vertex-ai-reasoning-engi
                     data      = ""
                     mime_type = ""
                   }
+                  speech_metadata {
+                    speaker = ""
+                    style   = ""
+                  }
                   video_metadata {
                     end_offset   = ""
                     start_offset = ""

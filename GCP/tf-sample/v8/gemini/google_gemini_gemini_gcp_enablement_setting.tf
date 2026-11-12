@@ -3,6 +3,7 @@ resource "google_gemini_gemini_gcp_enablement_setting" "tf-sample-gemini-gemini-
   enable_customer_data_sharing     = false
   gemini_enterprise_project        = ""
   gemini_gcp_enablement_setting_id = ""
+  has_custom_instructions          = false
   labels                           = {}
   location                         = ""
   mutations_enabled                = false
