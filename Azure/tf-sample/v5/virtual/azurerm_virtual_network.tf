@@ -1,5 +1,6 @@
 resource "azurerm_virtual_network" "tf-sample-virtual-network" {
   address_space                  = []
+  advertised_gateway_prefixes    = []
   bgp_community                  = ""
   dns_servers                    = []
   edge_zone                      = ""

@@ -1,6 +1,7 @@
 resource "azurerm_private_endpoint" "tf-sample-private-endpoint" {
   custom_network_interface_name = ""
   edge_zone                     = ""
+  ip_version_type               = ""
   location                      = ""
   name                          = ""
   resource_group_name           = ""

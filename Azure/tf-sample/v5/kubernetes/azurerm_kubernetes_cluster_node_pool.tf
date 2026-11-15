@@ -96,6 +96,10 @@ resource "azurerm_kubernetes_cluster_node_pool" "tf-sample-kubernetes-cluster-no
       protocol   = ""
     }
   }
+  security {
+    secure_boot_enabled = false
+    vtpm_enabled        = false
+  }
   upgrade_settings {
     drain_timeout_in_minutes      = 0
     max_surge                     = ""

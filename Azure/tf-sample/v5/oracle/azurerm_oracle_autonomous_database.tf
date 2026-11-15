@@ -14,6 +14,7 @@ resource "azurerm_oracle_autonomous_database" "tf-sample-oracle-autonomous-datab
   display_name                     = ""
   license_model                    = ""
   location                         = ""
+  maintenance_patch_level          = ""
   mtls_connection_required         = false
   name                             = ""
   national_character_set           = ""
