@@ -22,6 +22,8 @@ resource "alicloud_eci_container_group" "tf-sample-eci-container-group" {
   zone_id                          = ""
 
   acr_registry_info {
+    arn_service   = ""
+    arn_user      = ""
     domains       = []
     instance_id   = ""
     instance_name = ""

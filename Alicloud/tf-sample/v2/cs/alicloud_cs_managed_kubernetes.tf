@@ -27,6 +27,7 @@ resource "alicloud_cs_managed_kubernetes" "tf-sample-cs-managed-kubernetes" {
   service_cidr                   = ""
   skip_set_certificate_authority = false
   slb_internet_enabled           = false
+  support_policy                 = ""
   timezone                       = ""
   user_ca                        = ""
   version                        = ""

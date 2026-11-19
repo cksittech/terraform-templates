@@ -35,11 +35,14 @@ resource "alicloud_threat_detection_instance" "tf-sample-threat-detection-instan
 
   post_pay_module_switch_obj {
     agentless       = 0
+    ai_digital      = 0
     anti_ransomware = 0
     basic_service   = 0
     cspm            = 0
+    cspm_instance   = 0
     ctdr            = 0
     ctdr_storage    = 0
+    image_scan      = 0
     post_host       = 0
     rasp            = 0
     sdk             = 0

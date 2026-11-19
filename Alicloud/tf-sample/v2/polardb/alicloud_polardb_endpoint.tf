@@ -9,6 +9,7 @@ resource "alicloud_polardb_endpoint" "tf-sample-polardb-endpoint" {
   nodes                   = []
   port                    = ""
   read_write_mode         = ""
+  scc_mode                = ""
   ssl_auto_rotate         = ""
   ssl_enabled             = ""
 }

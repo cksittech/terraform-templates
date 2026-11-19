@@ -3,6 +3,7 @@ resource "alicloud_polardb_parameter_group" "tf-sample-polardb-parameter-group" 
   db_version           = ""
   description          = ""
   parameter_group_name = ""
+  resource_group_id    = ""
 
   parameters {
     param_name  = ""

@@ -43,7 +43,6 @@ resource "alicloud_rocketmq_instance" "tf-sample-rocketmq-instance" {
     trace_on               = false
   }
   software {
-    maintain_time = ""
   }
 
   tags = {}

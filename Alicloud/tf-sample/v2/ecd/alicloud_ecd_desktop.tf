@@ -15,6 +15,7 @@ resource "alicloud_ecd_desktop" "tf-sample-ecd-desktop" {
   root_disk_size_gib = 0
   status             = ""
   stopped_mode       = ""
+  subnet_id          = ""
   user_assign_mode   = ""
   user_disk_size_gib = 0
 

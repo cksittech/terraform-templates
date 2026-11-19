@@ -159,7 +159,9 @@ resource "alicloud_cs_kubernetes_node_pool" "tf-sample-cs-kubernetes-node-pool" 
     max_unavailable = 0
 
     auto_repair_policy {
-      restart_node = false
+      auto_repair_policy_id         = ""
+      max_parallel_repairing_nodes  = ""
+      max_unhealthy_nodes_threshold = ""
     }
     auto_upgrade_policy {
       auto_upgrade_kubelet = false

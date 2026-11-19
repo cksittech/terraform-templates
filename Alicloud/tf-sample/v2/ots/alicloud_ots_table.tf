@@ -1,6 +1,7 @@
 resource "alicloud_ots_table" "tf-sample-ots-table" {
   allow_update                  = false
   deviation_cell_version_in_sec = ""
+  enable_local_txn              = false
   enable_sse                    = false
   instance_name                 = ""
   max_version                   = 0
@@ -15,7 +16,8 @@ resource "alicloud_ots_table" "tf-sample-ots-table" {
     type = ""
   }
   primary_key {
-    name = ""
-    type = ""
+    auto_increment = false
+    name           = ""
+    type           = ""
   }
 }

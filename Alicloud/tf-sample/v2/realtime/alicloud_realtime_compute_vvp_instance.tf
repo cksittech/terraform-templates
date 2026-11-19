@@ -9,7 +9,6 @@ resource "alicloud_realtime_compute_vvp_instance" "tf-sample-realtime-compute-vv
   vpc_id                = ""
   vswitch_ids           = []
   vvp_instance_name     = ""
-  zone_id               = ""
 
   default_namespace_resource_spec {
     cpu       = 0
