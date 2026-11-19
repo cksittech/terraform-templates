@@ -24,6 +24,13 @@ resource "google_ces_app" "tf-sample-ces-app" {
     barge_in_config {
       barge_in_awareness = false
     }
+    custom_voice_samples {
+      consent_audio_gcs_uri = ""
+      name                  = ""
+      preview_text          = ""
+      voice_instruction     = ""
+      voice_sample_gcs_uri  = ""
+    }
     synthesize_speech_configs {
       instruction   = ""
       language_code = ""
@@ -102,6 +109,8 @@ resource "google_ces_app" "tf-sample-ces-app" {
     supported_language_codes    = []
   }
   logging_settings {
+    required_recording_consent = false
+
     audio_recording_config {
       gcs_bucket      = ""
       gcs_path_prefix = ""

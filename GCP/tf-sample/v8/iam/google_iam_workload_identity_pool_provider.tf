@@ -1,4 +1,5 @@
 resource "google_iam_workload_identity_pool_provider" "tf-sample-iam-workload-identity-pool-provider" {
+  actor_providers                    = []
   attribute_condition                = ""
   attribute_mapping                  = {}
   deletion_policy                    = ""
@@ -14,6 +15,7 @@ resource "google_iam_workload_identity_pool_provider" "tf-sample-iam-workload-id
   }
   oidc {
     allowed_audiences = []
+    discovery_uri     = ""
     issuer_uri        = ""
     jwks_json         = ""
   }

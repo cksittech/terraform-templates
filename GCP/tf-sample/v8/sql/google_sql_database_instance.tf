@@ -26,6 +26,7 @@ resource "google_sql_database_instance" "tf-sample-sql-database-instance" {
     active_environment           = ""
     delete_old_source_on_destroy = false
     deployment_name              = ""
+    description                  = ""
     target_database_version      = ""
   }
   clone {

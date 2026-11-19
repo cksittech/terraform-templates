@@ -117,6 +117,25 @@ resource "google_cloud_run_v2_worker_pool" "tf-sample-cloud-run-v2-worker-pool" 
     node_selector {
       accelerator = ""
     }
+    sandboxes {
+      templates {
+        args        = []
+        command     = []
+        image       = ""
+        name        = ""
+        working_dir = ""
+
+        env {
+          name  = ""
+          value = ""
+        }
+        volume_mounts {
+          mount_path = ""
+          name       = ""
+          sub_path   = ""
+        }
+      }
+    }
     volumes {
       name = ""
 

@@ -1,9 +1,11 @@
 resource "google_compute_global_forwarding_rule" "tf-sample-compute-global-forwarding-rule" {
+  backend_service                                              = ""
   deletion_policy                                              = ""
   description                                                  = ""
   external_managed_backend_bucket_migration_state              = ""
   external_managed_backend_bucket_migration_testing_percentage = 0
   ip_address                                                   = ""
+  ip_addresses                                                 = []
   ip_protocol                                                  = ""
   ip_version                                                   = ""
   labels                                                       = {}

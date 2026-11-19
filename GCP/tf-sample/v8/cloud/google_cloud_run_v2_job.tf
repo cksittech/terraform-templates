@@ -91,6 +91,25 @@ resource "google_cloud_run_v2_job" "tf-sample-cloud-run-v2-job" {
       node_selector {
         accelerator = ""
       }
+      sandboxes {
+        templates {
+          args        = []
+          command     = []
+          image       = ""
+          name        = ""
+          working_dir = ""
+
+          env {
+            name  = ""
+            value = ""
+          }
+          volume_mounts {
+            mount_path = ""
+            name       = ""
+            sub_path   = ""
+          }
+        }
+      }
       volumes {
         name = ""
 

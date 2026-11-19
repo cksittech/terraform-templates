@@ -187,6 +187,12 @@ resource "google_agentic_applications_analyst_agent_persona" "tf-sample-agentic-
     server_url        = ""
     session_id_header = ""
     task_id_header    = ""
+
+    request_headers {
+      dynamic_value = ""
+      header_name   = ""
+      value         = ""
+    }
   }
   resources {
     display_label     = ""

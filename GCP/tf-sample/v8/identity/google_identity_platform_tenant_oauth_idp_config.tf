@@ -8,4 +8,9 @@ resource "google_identity_platform_tenant_oauth_idp_config" "tf-sample-identity-
   name            = ""
   project         = ""
   tenant          = ""
+
+  response_type {
+    code     = false
+    id_token = false
+  }
 }

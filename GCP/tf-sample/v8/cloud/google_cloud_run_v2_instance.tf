@@ -18,11 +18,12 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
   service_account                  = ""
 
   containers {
-    args        = []
-    command     = []
-    image       = ""
-    name        = ""
-    working_dir = ""
+    args             = []
+    command          = []
+    image            = ""
+    name             = ""
+    sandbox_launcher = false
+    working_dir      = ""
 
     env {
       name  = ""
@@ -89,6 +90,25 @@ resource "google_cloud_run_v2_instance" "tf-sample-cloud-run-v2-instance" {
       mount_path = ""
       name       = ""
       sub_path   = ""
+    }
+  }
+  sandboxes {
+    templates {
+      args        = []
+      command     = []
+      image       = ""
+      name        = ""
+      working_dir = ""
+
+      env {
+        name  = ""
+        value = ""
+      }
+      volume_mounts {
+        mount_path = ""
+        name       = ""
+        sub_path   = ""
+      }
     }
   }
   volumes {

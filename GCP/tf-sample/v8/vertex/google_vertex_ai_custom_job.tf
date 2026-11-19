@@ -9,12 +9,17 @@ resource "google_vertex_ai_custom_job" "tf-sample-vertex-ai-custom-job" {
     kms_key_name = ""
   }
   job_spec {
-    enable_dashboard_access = false
-    enable_web_access       = false
-    network                 = ""
-    reserved_ip_ranges      = []
-    service_account         = ""
-    tensorboard             = ""
+    enable_dashboard_access        = false
+    enable_web_access              = false
+    experiment                     = ""
+    experiment_run                 = ""
+    models                         = []
+    network                        = ""
+    persistent_resource_id         = ""
+    protected_artifact_location_id = ""
+    reserved_ip_ranges             = []
+    service_account                = ""
+    tensorboard                    = ""
 
     base_output_directory {
       output_uri_prefix = ""

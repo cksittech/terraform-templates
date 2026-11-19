@@ -67,6 +67,9 @@ resource "google_dataproc_cluster" "tf-sample-dataproc-cluster" {
       confidential_instance_config {
         confidential_instance_type = ""
       }
+      multi_zone_config {
+        target_shape = ""
+      }
       node_group_affinity {
         node_group_uri = ""
       }

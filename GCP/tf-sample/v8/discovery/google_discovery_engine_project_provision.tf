@@ -3,6 +3,7 @@ resource "google_discovery_engine_project_provision" "tf-sample-discovery-engine
   data_use_terms_version = ""
   location               = ""
   project                = ""
+  provision_intent       = ""
 
   saas_params {
     accept_biz_qos = false
