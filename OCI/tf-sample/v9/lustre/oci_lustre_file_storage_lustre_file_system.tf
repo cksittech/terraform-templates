@@ -29,4 +29,16 @@ resource "oci_lustre_file_storage_lustre_file_system" "tf-sample-lustre-file-sto
     squash_gid        = ""
     squash_uid        = ""
   }
+  tiering_configuration {
+    is_enabled  = false
+    policy_mode = ""
+
+    rules {
+      action                               = ""
+      archive_after_days_since_last_access = 0
+      min_size_in_bytes                    = ""
+      path_prefixes                        = []
+      release_after_days_since_last_access = 0
+    }
+  }
 }

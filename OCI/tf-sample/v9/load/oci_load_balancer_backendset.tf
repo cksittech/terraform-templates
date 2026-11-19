@@ -5,15 +5,17 @@ resource "oci_load_balancer_backendset" "tf-sample-load-balancer-backendset" {
   policy                  = ""
 
   health_checker {
-    interval_ms         = 0
-    is_force_plain_text = false
-    port                = 0
-    protocol            = ""
-    response_body_regex = ""
-    retries             = 0
-    return_code         = 0
-    timeout_in_millis   = 0
-    url_path            = ""
+    default_weight                    = 0
+    interval_ms                       = 0
+    is_dynamic_backend_weight_enabled = false
+    is_force_plain_text               = false
+    port                              = 0
+    protocol                          = ""
+    response_body_regex               = ""
+    retries                           = 0
+    return_code                       = 0
+    timeout_in_millis                 = 0
+    url_path                          = ""
   }
   lb_cookie_session_persistence_configuration {
     cookie_name        = ""

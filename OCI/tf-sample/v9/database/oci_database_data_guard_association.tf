@@ -21,6 +21,7 @@ resource "oci_database_data_guard_association" "tf-sample-database-data-guard-as
   fault_domains                    = []
   hostname                         = ""
   is_active_data_guard_enabled     = false
+  is_older_version_acknowledged    = false
   license_model                    = ""
   migrate_trigger                  = 0
   node_count                       = 0

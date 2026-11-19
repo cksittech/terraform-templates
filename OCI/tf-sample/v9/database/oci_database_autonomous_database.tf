@@ -104,10 +104,11 @@ resource "oci_database_autonomous_database" "tf-sample-database-autonomous-datab
     email = ""
   }
   db_tools_details {
-    compute_count            = 0
-    is_enabled               = false
-    max_idle_time_in_minutes = 0
-    name                     = ""
+    compute_count                 = 0
+    estimated_concurrent_sessions = 0
+    is_enabled                    = false
+    max_idle_time_in_minutes      = 0
+    name                          = ""
   }
   encryption_key {
     arn_role                     = ""

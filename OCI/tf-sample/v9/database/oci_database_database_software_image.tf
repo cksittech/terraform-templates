@@ -7,6 +7,7 @@ resource "oci_database_database_software_image" "tf-sample-database-database-sof
   freeform_tags                           = {}
   image_shape_family                      = ""
   image_type                              = ""
+  is_older_version_acknowledged           = false
   ls_inventory                            = ""
   patch_set                               = ""
   source_db_home_id                       = ""

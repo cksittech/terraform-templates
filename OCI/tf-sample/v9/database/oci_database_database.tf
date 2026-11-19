@@ -104,9 +104,10 @@ resource "oci_database_database" "tf-sample-database-database" {
         update_mode  = ""
 
         version_scheme_details {
-          major_version      = ""
-          source             = ""
-          version_preference = ""
+          is_older_version_acknowledged = false
+          major_version                 = ""
+          source                        = ""
+          version_preference            = ""
         }
       }
     }

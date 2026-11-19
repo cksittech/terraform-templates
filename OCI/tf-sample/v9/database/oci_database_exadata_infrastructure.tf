@@ -58,4 +58,8 @@ resource "oci_database_exadata_infrastructure" "tf-sample-database-exadata-infra
     client_network_bonding_mode = ""
     dr_network_bonding_mode     = ""
   }
+  ssl_inspection_configuration {
+    certificate_authority_id = ""
+    is_enabled               = false
+  }
 }

@@ -18,6 +18,7 @@ resource "oci_database_cloud_vm_cluster" "tf-sample-database-cloud-vm-cluster" {
   gi_version                      = ""
   hostname                        = ""
   is_local_backup_enabled         = false
+  is_older_version_acknowledged   = false
   is_sparse_diskgroup_enabled     = false
   license_model                   = ""
   memory_size_in_gbs              = 0

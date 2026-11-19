@@ -18,6 +18,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
   fault_domains                   = []
   freeform_tags                   = {}
   hostname                        = ""
+  is_older_version_acknowledged   = false
   kms_key_id                      = ""
   kms_key_version_id              = ""
   license_model                   = ""
@@ -71,6 +72,7 @@ resource "oci_database_db_system" "tf-sample-database-db-system" {
       defined_tags                          = {}
       freeform_tags                         = {}
       is_active_data_guard_enabled          = false
+      is_older_version_acknowledged         = false
       key_store_id                          = ""
       kms_key_id                            = ""
       kms_key_version_id                    = ""

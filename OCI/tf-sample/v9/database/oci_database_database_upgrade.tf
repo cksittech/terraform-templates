@@ -3,9 +3,10 @@ resource "oci_database_database_upgrade" "tf-sample-database-database-upgrade" {
   database_id = ""
 
   database_upgrade_source_details {
-    database_software_image_id = ""
-    db_version                 = ""
-    options                    = ""
-    source                     = ""
+    database_software_image_id    = ""
+    db_version                    = ""
+    is_older_version_acknowledged = false
+    options                       = ""
+    source                        = ""
   }
 }
