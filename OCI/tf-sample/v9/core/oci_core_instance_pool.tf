@@ -9,6 +9,12 @@ resource "oci_core_instance_pool" "tf-sample-core-instance-pool" {
   size                            = 0
   state                           = ""
 
+  instance_maintenance_policy {
+    launch_before_terminating {
+      is_full_refresh     = false
+      max_healthy_percent = 0
+    }
+  }
   lifecycle_management {
     lifecycle_actions {
       pre_termination {

@@ -12,6 +12,10 @@ resource "oci_batch_batch_context" "tf-sample-batch-batch-context" {
     name                 = ""
     type                 = ""
 
+    reservation {
+      capacity_reservation_ids = []
+      type                     = ""
+    }
     shape {
       disk_size_in_gbs = 0
       memory_in_gbs    = 0

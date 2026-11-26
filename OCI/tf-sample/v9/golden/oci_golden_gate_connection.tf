@@ -99,6 +99,7 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
   username                                    = ""
   vault_id                                    = ""
   wallet_secret_id                            = ""
+  warehouse_name                              = ""
   workspace_url                               = ""
 
   additional_attributes {
@@ -155,6 +156,15 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
     principal_role          = ""
     properties_secret_id    = ""
     uri                     = ""
+
+    catalog_config {
+      catalog_config_type = ""
+      database_id         = ""
+      database_type       = ""
+      deployment_id       = ""
+      password_secret_id  = ""
+      username            = ""
+    }
   }
   locks {
     message = ""
@@ -168,10 +178,26 @@ resource "oci_golden_gate_connection" "tf-sample-golden-gate-connection" {
     container                          = ""
     endpoint                           = ""
     project_id                         = ""
+    properties                         = ""
+    properties_secret_id               = ""
     region                             = ""
     scheme_type                        = ""
     secret_access_key_secret_id        = ""
     service_account_key_file_secret_id = ""
     storage_type                       = ""
+    trust_store_secret_id              = ""
+  }
+  warehouse_storage {
+    access_key_id               = ""
+    account_key                 = ""
+    account_key_secret_id       = ""
+    account_name                = ""
+    endpoint_url                = ""
+    namespace                   = ""
+    region                      = ""
+    secret_access_key           = ""
+    secret_access_key_secret_id = ""
+    storage_type                = ""
+    trust_store_secret_id       = ""
   }
 }
