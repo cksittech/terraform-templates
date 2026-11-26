@@ -26,6 +26,23 @@ resource "azurerm_web_application_firewall_policy" "tf-sample-web-application-fi
     }
   }
   managed_rules {
+    exception {
+      match_variable          = ""
+      selector                = ""
+      selector_match_operator = ""
+      value_match_operator    = ""
+      values                  = []
+
+      exception_rule_set {
+        type    = ""
+        version = ""
+
+        rule_group {
+          rule_group_name = ""
+          rules           = []
+        }
+      }
+    }
     exclusion {
       match_variable          = ""
       selector                = ""
