@@ -28,6 +28,9 @@ resource "aws_lambda_function" "tf-sample-lambda-function" {
   timeout                              = 0
   use_resource_timeout_for_propagation = false
 
+  accelerator_config {
+    accelerator_memory_size = 0
+  }
   capacity_provider_config {
     lambda_managed_instances_capacity_provider_config {
       capacity_provider_arn                     = ""

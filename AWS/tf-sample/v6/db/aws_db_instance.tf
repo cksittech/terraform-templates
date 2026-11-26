@@ -59,6 +59,7 @@ resource "aws_db_instance" "tf-sample-db-instance" {
   region                                = ""
   replica_mode                          = ""
   replicate_source_db                   = ""
+  replicate_source_db_cluster           = ""
   skip_final_snapshot                   = false
   snapshot_identifier                   = ""
   storage_encrypted                     = false

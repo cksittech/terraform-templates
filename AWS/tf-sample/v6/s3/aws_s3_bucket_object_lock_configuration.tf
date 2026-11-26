@@ -9,6 +9,11 @@ resource "aws_s3_bucket_object_lock_configuration" "tf-sample-s3-bucket-object-l
       days  = 0
       mode  = ""
       years = 0
+
+      default_event_hold {
+        days  = 0
+        years = 0
+      }
     }
   }
 }

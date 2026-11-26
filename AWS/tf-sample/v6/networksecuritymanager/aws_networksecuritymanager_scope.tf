@@ -1,8 +1,9 @@
 resource "aws_networksecuritymanager_scope" "tf-sample-networksecuritymanager-scope" {
-  description  = ""
-  is_published = false
-  name         = ""
-  region       = ""
+  description            = ""
+  is_published           = false
+  name                   = ""
+  region                 = ""
+  specialized_scope_type = ""
 
   scope_configuration {
     account_filter {

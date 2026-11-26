@@ -10,6 +10,14 @@ resource "aws_networksecuritymanager_policy" "tf-sample-networksecuritymanager-p
     remediation_enabled = false
     resources_clean_up  = false
 
+    igw_firewall_config {
+      default_subnet_connectivity = ""
+
+      subnet_connectivity_override {
+        connectivity_type = ""
+        scope_arn         = []
+      }
+    }
     waf_config {
       conflict_resolution                  = ""
       existing_customer_web_acl_resolution = ""
